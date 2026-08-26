@@ -4,6 +4,7 @@
 /app/robots.ts @elder-plinius
 /edition-policy.json @elder-plinius
 /wrangler.jsonc @elder-plinius
+/wrangler.source.jsonc @elder-plinius
 /next.config.ts @elder-plinius
 /vite.config.ts @elder-plinius
 /public/_headers @elder-plinius

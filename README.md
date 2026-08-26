@@ -4,6 +4,8 @@
 
 **XXXVII books · 1,065 bilingual chapters · 1,065 original AI-generated illustrations**
 
+**Read the illustrated edition at [naturalishistoria.org](https://naturalishistoria.org/).**
+
 Pliny tried to gather the world into a book: stars, seas, elephants, pigments,
 medicines, monsters, memory, gossip. We have given every chapter a window.
 
@@ -35,44 +37,6 @@ rough as vellum, precise as type, alive as ink.
 The pictures carry no textual authority. The Latin and English remain real,
 selectable text. Wonder is welcome here; confusion about the evidence is not.
 
-## Open the codex
-
-Use Node.js 22.13.x and npm 10.9.x:
-
-```sh
-npm ci
-npm run dev
-```
-
-Then open `http://localhost:3000`.
-
-To test the whole edition:
-
-```sh
-npm run check
-npm run deploy:dry-run
-```
-
-`npm run check` verifies the corpus, translation alignment, search, artwork
-assignments, provenance, accessibility-sensitive reader effects, release
-security, packaging invariants, and production build. The stricter
-`npm run release:check` also requires the live publication gates.
-
-## Deploy through Workers Builds
-
-Do not keep Cloudflare's inferred defaults. Configure the Git-connected Worker
-with these exact commands:
-
-- **Build command:** `npm run check`
-- **Deploy command:** `npm run deploy:production`
-- **Non-production branch deploy command:** `npm run deploy:preview`
-- **Root / production branch:** `/` and `main`
-
-The preview override matters. Cloudflare otherwise runs a generic `wrangler
-versions upload` against the source configuration; this project must upload the
-built vinext configuration at `dist/server/wrangler.json`. Production alone
-runs the DNS and publication gates before deploying those same built bytes.
-
 ## Receipts, because marvels require witnesses
 
 Every chapter plate has a source hash, generation record, rights record, and
@@ -84,10 +48,6 @@ and rejected generations belong to the separately verified source archive.
 - [Illustration coverage and exact claim boundary](docs/ILLUSTRATION_COVERAGE.md)
 - [Public release checklist](docs/PUBLIC_RELEASE.md)
 - [Cloudflare deployment](docs/CLOUDFLARE_DEPLOYMENT.md)
-
-This tree is the version 1.0.0 reviewed source input. It is not evidence that
-the configured domain is live. Publication still requires a merged commit and
-verified DNS, HTTPS, canonical URLs, indexing, and edge headers.
 
 ## Texts and license
 

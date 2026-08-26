@@ -127,7 +127,7 @@ const enumerateGitPaths = (profile) => {
     .sort((left, right) => left.localeCompare(right, 'en'));
 };
 
-const requiredFiles = ['README.md', 'LICENSE', 'NOTICE.md', 'package.json', 'package-lock.json', 'wrangler.jsonc'];
+const requiredFiles = ['README.md', 'LICENSE', 'NOTICE.md', 'package.json', 'package-lock.json', 'wrangler.jsonc', 'wrangler.source.jsonc'];
 const assertRequiredFiles = (files) => {
   if (!files.length) throw new Error('Git enumeration produced no release files.');
   for (const required of requiredFiles) {

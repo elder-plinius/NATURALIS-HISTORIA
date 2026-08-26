@@ -41,6 +41,8 @@ fail(packageJson.scripts?.['deploy:production'] === 'npm run release:check && np
 fail(packageJson.scripts?.['deploy:preview'] === 'node scripts/run-wrangler.mjs versions upload -c dist/server/wrangler.json', 'Workers Builds preview deploy must upload the built vinext configuration.');
 fail(packageJson.scripts?.['deploy:preview:dry-run'] === 'node scripts/run-wrangler.mjs versions upload --dry-run -c dist/server/wrangler.json', 'Preview deploy must expose a dry-run verifier for CI.');
 fail(packageJson.scripts?.['deploy:dry-run']?.startsWith('node scripts/run-wrangler.mjs deploy --dry-run '), 'Dry run must use the telemetry-disabled Wrangler wrapper.');
+fail(packageJson.scripts?.['deploy:workers-builds:dry-run'] === 'node scripts/run-wrangler.mjs deploy --dry-run', 'Workers Builds production default must have an exact dry-run verifier.');
+fail(packageJson.scripts?.['deploy:workers-builds-preview:dry-run'] === 'node scripts/run-wrangler.mjs versions upload --dry-run', 'Workers Builds preview default must have an exact dry-run verifier.');
 fail(packageJson.scripts?.['release:package'] === 'node scripts/package-release.mjs', 'Release packaging must use the deterministic package script.');
 fail(packageJson.scripts?.['release:package:public'] === 'node scripts/package-release.mjs --profile public-repo', 'Public-repository packaging must use the explicit public-repo profile.');
 fail(packageJson.scripts?.['release:package:source-assets'] === 'node scripts/package-release.mjs --profile source-assets', 'Source-asset packaging must use the explicit source-assets profile.');
@@ -55,10 +57,23 @@ fail(!/NEXT_PUBLIC_[A-Z0-9_]*(?:KEY|SECRET|TOKEN)/u.test(envExample), 'Provider 
 
 const wrangler = JSON.parse(read('wrangler.jsonc'));
 fail(wrangler.name === 'naturalis-historia', 'Cloudflare Worker name must be canonical.');
-fail(wrangler.main === 'vinext/server/app-router-entry', 'Cloudflare source entry must remain the vinext app-router entry.');
+fail(wrangler.main === 'dist/server/index.js', 'Root Cloudflare config must deploy the built vinext Worker.');
 fail(wrangler.compatibility_date === '2026-08-24', 'Cloudflare compatibility date changed without review.');
 fail(Array.isArray(wrangler.compatibility_flags) && wrangler.compatibility_flags.length === 1 && wrangler.compatibility_flags[0] === 'nodejs_compat', 'Unexpected Cloudflare compatibility flags.');
+fail(wrangler.no_bundle === true, 'Built vinext Worker must remain unbundled during Wrangler upload.');
+fail(wrangler.assets?.directory === 'dist/client', 'Root Cloudflare config must upload the built client assets.');
+fail(wrangler.build?.command === 'npm run build', 'Root Cloudflare deploy must create vinext output when Workers Builds omits its optional build command.');
 fail(!wrangler.vars || Object.keys(wrangler.vars).length === 0, 'Public Wrangler config must not contain environment values or credentials.');
+
+const wranglerSource = JSON.parse(read('wrangler.source.jsonc'));
+fail(wranglerSource.name === wrangler.name, 'Cloudflare source and deploy configs must use the same Worker name.');
+fail(wranglerSource.main === 'vinext/server/app-router-entry', 'Cloudflare source entry must remain the vinext app-router entry.');
+fail(wranglerSource.compatibility_date === wrangler.compatibility_date, 'Cloudflare source and deploy compatibility dates must match.');
+fail(JSON.stringify(wranglerSource.compatibility_flags) === JSON.stringify(wrangler.compatibility_flags), 'Cloudflare source and deploy compatibility flags must match.');
+fail(!wranglerSource.vars || Object.keys(wranglerSource.vars).length === 0, 'Public Wrangler source config must not contain environment values or credentials.');
+
+const viteConfig = read('vite.config.ts');
+fail(viteConfig.includes("configPath: './wrangler.source.jsonc'"), 'Vite must build from the dedicated vinext source config.');
 
 const nextConfig = read('next.config.ts');
 const staticHeaders = read('public/_headers');
@@ -100,12 +115,12 @@ fail(!nextCsp.includes('audio.naturalishistoria.org'), 'Launch CSP must not reta
 fail(/\/corpus\/manifest\.json[\s\S]*?Cache-Control: public, no-cache, must-revalidate/u.test(staticHeaders), 'Corpus manifest must revalidate.');
 
 const ci = read('.github/workflows/ci.yml');
-for (const required of ['permissions:\n  contents: read', 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2', 'persist-credentials: false', 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm audit --audit-level=high']) {
+for (const required of ['permissions:\n  contents: read', 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2', 'persist-credentials: false', 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
   fail(ci.includes(required), `CI is missing required control: ${required.replaceAll('\n', ' ')}.`);
 }
 
 const codeowners = read('.github/CODEOWNERS');
-for (const sensitivePath of ['/wrangler.jsonc', '/next.config.ts', '/public/_headers', '/.github/']) {
+for (const sensitivePath of ['/wrangler.jsonc', '/wrangler.source.jsonc', '/next.config.ts', '/public/_headers', '/.github/']) {
   fail(codeowners.includes(sensitivePath), `CODEOWNERS is missing sensitive path ${sensitivePath}.`);
 }
 fail(!/narrat|public\/audio/iu.test(codeowners), 'CODEOWNERS still references held narration paths.');

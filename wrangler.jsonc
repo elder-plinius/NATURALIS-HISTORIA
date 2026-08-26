@@ -1,9 +1,19 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "naturalis-historia",
-  "main": "vinext/server/app-router-entry",
+  "main": "dist/server/index.js",
   "compatibility_date": "2026-08-24",
   "compatibility_flags": ["nodejs_compat"],
+  "no_bundle": true,
+  "rules": [
+    { "type": "ESModule", "globs": ["**/*.js", "**/*.mjs"] }
+  ],
+  "assets": {
+    "directory": "dist/client"
+  },
+  "build": {
+    "command": "npm run build"
+  },
   "observability": {
     "enabled": true
   }
