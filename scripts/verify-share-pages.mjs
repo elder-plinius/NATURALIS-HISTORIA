@@ -36,6 +36,13 @@ for (const book of await readdir(path.join(publicRoot, 'read'))) {
     fail(html.includes('class="leaf-plate-crop leaf-plate-contained"') && html.includes('--leaf-size:100%') && html.includes('--leaf-left:0%') && html.includes('--leaf-top:0%'), `${book}/${chapter} is not presenting its complete chapter illustration`);
     fail(html.includes('class="leaf-plate-trigger"') && html.includes('aria-haspopup="dialog"') && html.includes('<dialog class="leaf-lightbox"') && html.includes('/reading-leaf.js?v='), `${book}/${chapter} lost its full-image interaction`);
     fail(!html.includes('/assets/') || /\.(?:avif|webp)/.test(html), `${book}/${chapter} references an unoptimized plate`);
+    const chapterScene = html.match(/<img src="(\/assets\/chapter-b\d{2}-[^."]+\.[^"]+\.w1024\.jpg)"/)?.[1];
+    fail(Boolean(chapterScene), `${book}/${chapter} has no chapter-specific social image source`);
+    fail(html.includes(`<meta property="og:image" content="${policy.origin}${chapterScene}">`), `${book}/${chapter} Open Graph image is not its chapter illustration`);
+    fail(html.includes('<meta property="og:image:width" content="1024">') && html.includes('<meta property="og:image:height" content="683">'), `${book}/${chapter} has incorrect social-image dimensions`);
+    fail(html.includes(`<meta name="twitter:image" content="${policy.origin}${chapterScene}">`), `${book}/${chapter} Twitter image is not its chapter illustration`);
+    fail(html.includes(`"image":"${policy.origin}${chapterScene}"`), `${book}/${chapter} structured data omits its chapter illustration`);
+    fail(!html.includes(`${policy.origin}/og.jpg`), `${book}/${chapter} still uses the generic social card`);
   }
 }
 fail(count === manifest.totalChapters, `Expected ${manifest.totalChapters} share pages, found ${count}`);
@@ -57,6 +64,7 @@ fail(
 );
 const favicon = await readFile(path.join(publicRoot, 'favicon.svg'), 'utf8');
 fail(favicon.includes('data-edition="naturalis-historia"'), 'The intentional edition favicon was replaced by a placeholder');
+fail(favicon.includes('data-symbol="open-codex"') && favicon.includes('open codex and solar rosette'), 'The edition favicon lost its open-codex identity');
 const finalLeaf = await readFile(path.join(publicRoot, 'read', '37', '13.html'), 'utf8');
 fail(finalLeaf.includes('href="/afterword/vesuvius"') && finalLeaf.includes('Pliny the Younger'), 'Final corpus leaf does not hand off to the separate afterword');
 const sitemap = await readFile(path.join(publicRoot, 'sitemap.xml'), 'utf8');

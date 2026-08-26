@@ -67,6 +67,8 @@ for (let index = 0; index < records.length; index += 1) {
     avif: sceneSource.viewerPreferredImage,
     width: 1536,
     height: 1024,
+    socialWidth: 1024,
+    socialHeight: 683,
   };
   const description = summary(chapter.english);
   const shareTitle = `${chapter.title} — Book ${book.roman} — ${policy.siteName}`;
@@ -96,6 +98,7 @@ for (let index = 0; index < records.length; index += 1) {
     inLanguage: ['la', 'en'],
     isPartOf: { '@type': 'Book', name: 'Naturalis Historia', author: { '@type': 'Person', name: 'Pliny the Elder' } },
     isBasedOn: [manifest.sources.latin.url, ...manifest.sources.english.map((source) => source.url)],
+    image: `${origin}${shareImage.fallback}`,
     url: canonical,
   }).replaceAll('<', '\\u003c');
   const html = `<!doctype html>
@@ -115,14 +118,14 @@ for (let index = 0; index < records.length; index += 1) {
   <meta property="og:title" content="${escapeHtml(shareTitle)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${origin}/og.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image" content="${origin}${shareImage.fallback}">
+  <meta property="og:image:width" content="${shareImage.socialWidth}">
+  <meta property="og:image:height" content="${shareImage.socialHeight}">
   <meta property="og:image:alt" content="${escapeHtml(shareImageAlt)}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(shareTitle)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
-  <meta name="twitter:image" content="${origin}/og.jpg">
+  <meta name="twitter:image" content="${origin}${shareImage.fallback}">
   <meta name="twitter:image:alt" content="${escapeHtml(shareImageAlt)}">
   <script type="application/ld+json">${structuredData}</script>
 </head>

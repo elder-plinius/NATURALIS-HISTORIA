@@ -1,7 +1,15 @@
-<svg data-edition="naturalis-historia" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <title>Naturalis Historia codex seal</title>
-  <rect width="64" height="64" rx="12" fill="#211813"/>
-  <circle cx="32" cy="32" r="24" fill="#34251b" stroke="#c29a55" stroke-width="2"/>
-  <path d="M19 44V20l13 17V20M45 20v24" fill="none" stroke="#ead7a0" stroke-width="4" stroke-linecap="square" stroke-linejoin="bevel"/>
-  <path d="M15 49c10-5 24-5 34 0" fill="none" stroke="#8d3c2b" stroke-width="2"/>
+<svg data-edition="naturalis-historia" data-symbol="open-codex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Naturalis Historia open codex and solar rosette</title>
+  <desc>An open vellum book beneath a small Roman solar rosette, set in a dark seal.</desc>
+  <rect width="64" height="64" rx="12" fill="#1d1712"/>
+  <circle cx="32" cy="32" r="25" fill="#30251b" stroke="#b98d4a" stroke-width="1.5"/>
+  <g stroke="#d3a95d" stroke-linecap="round">
+    <path d="M32 10v5M27.8 11.7l2.1 3.7M36.2 11.7l-2.1 3.7M25.5 15h4.2M34.3 15h4.2" stroke-width="1.4"/>
+    <circle cx="32" cy="17.4" r="2.6" fill="#9a4432" stroke-width="1"/>
+  </g>
+  <path d="M12.5 25.5c6.3-2.1 13.3-.9 19.5 4.2v22c-5.8-4.2-12.4-5.7-19.5-3.5z" fill="#e6d1a1" stroke="#c39a57" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M51.5 25.5c-6.3-2.1-13.3-.9-19.5 4.2v22c5.8-4.2 12.4-5.7 19.5-3.5z" fill="#d9bd85" stroke="#c39a57" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M32 29.7v22.1" fill="none" stroke="#8e4734" stroke-width="2"/>
+  <path d="M16.8 31.1c4.2-.8 8.2.1 11.8 2.3M16.8 36.2c4.2-.8 8.2.1 11.8 2.3M47.2 31.1c-4.2-.8-8.2.1-11.8 2.3M47.2 36.2c-4.2-.8-8.2.1-11.8 2.3" fill="none" stroke="#76533a" stroke-width="1.1" opacity=".68"/>
+  <path d="M11.5 51.2c7.5-2.3 14.3-1.2 20.5 3.3 6.2-4.5 13-5.6 20.5-3.3" fill="none" stroke="#b98d4a" stroke-width="1.4" stroke-linecap="round"/>
 </svg>

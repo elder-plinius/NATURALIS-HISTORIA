@@ -18,13 +18,17 @@ assert.doesNotMatch(plateFieldRule, /transition:[^;]*(?:background-position|back
 
 assert.match(css, /\.is-focus\s+\.illustration-plate\s*\{\s*min-height:\s*0;\s*\}/);
 assert.match(css, /\.is-focus:not\(\.is-mobile-plate\)\s+\.gutter,\s*\.is-focus:not\(\.is-mobile-plate\)\s+\.page-right\s*\{\s*display:\s*none;\s*\}/);
+assert.match(css, /\.is-focus \.book-stage \{ width: min\(1500px,calc\(100vw - 168px\)\); height: 100%;/);
+assert.match(css, /@media \(min-width: 1100px\)[\s\S]*?\.is-focus \.passage-layer \{[\s\S]*?column-count: 2;[\s\S]*?column-rule:/);
+assert.match(css, /\.is-focus \.turning-leaf\.turn-forward \{ animation: focus-leaf-cover-forward \.62s/);
+assert.match(css, /@keyframes focus-leaf-cover-forward[\s\S]*@keyframes focus-leaf-cover-backward[\s\S]*@keyframes focus-leaf-reveal/);
 assert.match(css, /\.plate-field::before\s*\{[\s\S]*?background-position:\s*center;[\s\S]*?background-size:\s*contain;/);
 assert.doesNotMatch(css, /\.plate-(?:cabinet|detail)|\.layout-(?:triptych|ledger|hero|map|orbit)/);
 
 const reducedMotion = css.slice(css.indexOf('@media (prefers-reduced-motion: reduce)'));
 assert.match(
   reducedMotion,
-  /\.turning-leaf,\s*\.phase-turning\s+\.book-spread\s*\{\s*animation:\s*none\s*!important;\s*\}/,
+  /\.turning-leaf,\s*\.phase-turning\s+\.book-spread,\s*\.is-focus\.phase-idle\s+\.page-left\s*\{\s*animation:\s*none\s*!important;\s*\}/,
 );
 assert.match(reducedMotion, /\.phase-diffusing\s+\.ink-unit\s*\{\s*animation:\s*none\s*!important/);
 
@@ -69,6 +73,8 @@ if (!policy.publicIndexing) {
   assert.match(robots, /disallow:\s*'\/'/);
 }
 assert.match(page, /const prefersReducedMotion = window\.matchMedia\('\(prefers-reduced-motion: reduce\)'\)\.matches;[\s\S]*const turnDuration = prefersReducedMotion\s*\? 40/);
+assert.doesNotMatch(page, /fullscreenchange/);
+assert.match(page, /await readerShellRef\.current\?\.requestFullscreen\(\{ navigationUI: 'hide' \}\)/);
 assert.doesNotMatch(page, /if \(prefersReducedMotion\) capturePassageProgress\(\);/);
 assert.match(page, /type HistoryMode = 'push' \| 'replace' \| 'none'/);
 assert.match(page, /window\.history\.pushState/);
@@ -76,7 +82,7 @@ assert.match(page, /window\.addEventListener\('popstate'/);
 assert.match(page, /function randomOrdinalExcluding[\s\S]*crypto\.getRandomValues\(draw\)[\s\S]*candidate >= excluded \? candidate \+ 1 : candidate/);
 assert.doesNotMatch(page, /Math\.random/);
 assert.match(page, /const openRandomPage[\s\S]*randomOrdinalExcluding\(currentManifest\.totalChapters, committedRef\.current\)[\s\S]*requestOrdinal\(targetOrdinal\)/);
-assert.match(page, /className=\{`fortuna-button[\s\S]*FORTVNA FOLIVM APERIT[\s\S]*Open a page by chance/);
+assert.match(page, /className=\{`fortuna-button[\s\S]*<small>FORTVNA<\/small>[\s\S]*Open a page by chance/);
 assert.match(css, /\.fortuna-random[\s\S]*\.fortuna-button\.is-casting[\s\S]*@keyframes fortuna-press[\s\S]*@keyframes fortuna-seal-turn[\s\S]*@keyframes fortuna-ink-bloom/);
 assert.match(reducedMotion, /\.fortuna-button,[\s\S]*animation:\s*none\s*!important;\s*transition:\s*none\s*!important/);
 assert.match(page, /function abortable<T>/);
@@ -94,8 +100,13 @@ assert.doesNotMatch(page, /<span>\{compactNumber\(committedOrdinal \+ 1\)\} \/ \
 assert.match(page, /aria-pressed=\{indexBookNumber === book\.number\}/);
 assert.doesNotMatch(page, /Vesuvius Vigil|vesuvius-vigil|vigilOpen/);
 assert.match(page, /href="\/afterword\/vesuvius"[\s\S]*Afterword/);
-assert.match(page, /navigator\.share[\s\S]*navigator\.clipboard\.writeText/);
+assert.match(page, /navigator\.share/);
+assert.match(page, /navigator\.clipboard\.writeText/);
 assert.match(page, /copied = document\.execCommand\('copy'\)[\s\S]*previousFocus\?\.focus\(\)/);
+assert.match(page, /id="share-dialog"[\s\S]*className="codex-overlay share-overlay"[\s\S]*aria-modal="true"/);
+assert.match(page, /mainIllustrationPanel\.source\.viewerPreferredImage[\s\S]*mainIllustrationPanel\.source\.viewerImage/);
+assert.match(page, /https:\/\/x\.com\/intent\/post[\s\S]*https:\/\/bsky\.app\/intent\/compose[\s\S]*https:\/\/www\.facebook\.com\/sharer[\s\S]*https:\/\/www\.linkedin\.com\/sharing\/share-offsite/);
+assert.match(page, /The shared link opens a complete bilingual reading leaf, with this chapter’s own illustration as its social preview\./);
 assert.doesNotMatch(page, /ready in your address bar/);
 assert.match(page, /searchAbortRef\.current\?\.abort\(\);[\s\S]*setSearchResults\(\[\]\);[\s\S]*setSearching\(searchIsReady\(nextQuery\.trim\(\)\)\);[\s\S]*setSearchQuery\(nextQuery\)/);
 assert.match(page, /const openSearchResult[\s\S]*translationModeRef\.current = result\.field[\s\S]*pendingSearchLandingRef\.current[\s\S]*requestOrdinal\(result\.ordinal\)/);

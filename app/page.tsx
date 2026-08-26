@@ -8,7 +8,7 @@ import { chapterIllustration } from './illustrations.mjs';
 import { InkInline, InkParagraphs } from './InkDiffusionText';
 import { requiredShardIds, searchPositionalIndex } from './search-index.mjs';
 import { findSearchRanges, normalizeSearchText, searchIsReady } from './search.mjs';
-import { SITE_NAME } from './site-metadata';
+import { SITE_NAME, SITE_ORIGIN } from './site-metadata';
 
 type Language = 'la' | 'en';
 type TranslationMode = 'auto' | Language;
@@ -505,6 +505,7 @@ export default function Home() {
   const [searching, setSearching] = useState(false);
   const [error, setError] = useState('');
   const [shareNotice, setShareNotice] = useState('');
+  const [shareOpen, setShareOpen] = useState(false);
   const [focusMode, setFocusMode] = useState(false);
   const [mobilePlateOpen, setMobilePlateOpen] = useState(false);
   const [coverOpen, setCoverOpen] = useState(false);
@@ -546,6 +547,8 @@ export default function Home() {
   const indexCloseRef = useRef<HTMLButtonElement | null>(null);
   const indexSelectedBookRef = useRef<HTMLButtonElement | null>(null);
   const searchDialogRef = useRef<HTMLElement | null>(null);
+  const shareDialogRef = useRef<HTMLElement | null>(null);
+  const shareCloseRef = useRef<HTMLButtonElement | null>(null);
   const previousFocusRef = useRef<HTMLElement | null>(null);
   const plateViewerDialogRef = useRef<HTMLDialogElement | null>(null);
   const plateViewerTriggerRef = useRef<HTMLButtonElement | null>(null);
@@ -722,7 +725,9 @@ export default function Home() {
           ? 40
           : window.matchMedia('(max-width: 900px)').matches
             ? 520
-            : 980;
+            : focusModeRef.current
+              ? 700
+              : 980;
         turnTimerRef.current = setTimeout(() => {
           if (transitionTargetRef.current?.token === token) finishTurn();
         }, turnDuration);
@@ -930,17 +935,6 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const syncFullscreen = () => {
-      if (document.fullscreenElement) return;
-      focusModeRef.current = false;
-      setFocusMode(false);
-      window.requestAnimationFrame(() => window.scrollTo({ top: documentScrollRef.current, behavior: 'auto' }));
-    };
-    document.addEventListener('fullscreenchange', syncFullscreen);
-    return () => document.removeEventListener('fullscreenchange', syncFullscreen);
-  }, []);
-
-  useEffect(() => {
     document.documentElement.classList.toggle('reader-focus', focusMode);
     return () => document.documentElement.classList.remove('reader-focus');
   }, [focusMode]);
@@ -1068,6 +1062,7 @@ export default function Home() {
         event.preventDefault();
         setCoverOpen(false);
         setIndexOpen(false);
+        setShareOpen(false);
         setSearchOpen(true);
         return;
       }
@@ -1075,9 +1070,10 @@ export default function Home() {
         if (event.key === 'Escape') dismissCover();
         return;
       }
-      if ((indexOpen || searchOpen) && event.key === 'Escape') {
+      if ((indexOpen || searchOpen || shareOpen) && event.key === 'Escape') {
         setIndexOpen(false);
         setSearchOpen(false);
+        setShareOpen(false);
         return;
       }
       if (focusMode && event.key === 'Escape') {
@@ -1086,12 +1082,12 @@ export default function Home() {
       }
       const target = event.target as HTMLElement | null;
       if (target?.isContentEditable || target?.closest('button, a, input, textarea, select, summary, [role="button"], [role="link"], [contenteditable="true"]')) return;
-      if (!indexOpen && !searchOpen && event.altKey && event.shiftKey && event.key.toLocaleLowerCase() === 'f') {
+      if (!indexOpen && !searchOpen && !shareOpen && event.altKey && event.shiftKey && event.key.toLocaleLowerCase() === 'f') {
         event.preventDefault();
         void toggleFocusMode();
         return;
       }
-      if (indexOpen || searchOpen || event.altKey || event.ctrlKey || event.metaKey) return;
+      if (indexOpen || searchOpen || shareOpen || event.altKey || event.ctrlKey || event.metaKey) return;
       if (event.shiftKey) return;
       if (target && target !== document.body && !target.closest('.reader-shell, .book-stage, .passage-scroll')) return;
       if (event.key === 'ArrowRight') {
@@ -1105,7 +1101,7 @@ export default function Home() {
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [coverOpen, dismissCover, focusMode, indexOpen, requestOrdinal, router, searchOpen, toggleFocusMode]);
+  }, [coverOpen, dismissCover, focusMode, indexOpen, requestOrdinal, router, searchOpen, shareOpen, toggleFocusMode]);
 
   useEffect(() => {
     if (searchOpen) window.setTimeout(() => searchInputRef.current?.focus(), 30);
@@ -1118,6 +1114,8 @@ export default function Home() {
         ? indexDialogRef.current
         : searchOpen
           ? searchDialogRef.current
+          : shareOpen
+            ? shareDialogRef.current
           : null;
     if (!dialog) {
       document.body.classList.remove('modal-open');
@@ -1129,7 +1127,13 @@ export default function Home() {
 
     document.body.classList.add('modal-open');
     if (!previousFocusRef.current) previousFocusRef.current = document.activeElement as HTMLElement | null;
-    const preferred = coverOpen ? coverPrimaryRef.current : indexOpen ? indexCloseRef.current : searchInputRef.current;
+    const preferred = coverOpen
+      ? coverPrimaryRef.current
+      : indexOpen
+        ? indexCloseRef.current
+        : searchOpen
+          ? searchInputRef.current
+          : shareCloseRef.current;
     window.setTimeout(() => preferred?.focus({ preventScroll: true }), 0);
 
     const trapFocus = (event: KeyboardEvent) => {
@@ -1155,7 +1159,7 @@ export default function Home() {
       document.removeEventListener('keydown', trapFocus);
       document.body.classList.remove('modal-open');
     };
-  }, [coverOpen, indexOpen, searchOpen]);
+  }, [coverOpen, indexOpen, searchOpen, shareOpen]);
 
   useEffect(() => {
     if (!indexOpen || !manifest) return;
@@ -1307,19 +1311,57 @@ export default function Home() {
     chapterTitle: chapter.title,
   });
   const mainIllustrationPanel = illustration.panels[0];
+  const modalOpen = coverOpen || indexOpen || searchOpen || shareOpen;
+  const chapterShareUrl = `${SITE_ORIGIN}/read/${activeBook.number}/${encodeURIComponent(chapter.id)}.html`;
+  const chapterShareTitle = `${chapter.title} · Book ${activeBook.roman} · ${SITE_NAME}`;
+  const chapterShareText = `${chapter.title}, from Book ${activeBook.roman} of Pliny the Elder’s Naturalis Historia.`;
+  const encodedShareUrl = encodeURIComponent(chapterShareUrl);
+  const encodedShareText = encodeURIComponent(chapterShareText);
+  const encodedShareTitle = encodeURIComponent(chapterShareTitle);
+  const socialShareLinks = [
+    { label: 'X', mark: 'X', href: `https://x.com/intent/post?text=${encodedShareText}&url=${encodedShareUrl}` },
+    { label: 'Bluesky', mark: 'B', href: `https://bsky.app/intent/compose?text=${encodeURIComponent(`${chapterShareText} ${chapterShareUrl}`)}` },
+    { label: 'Facebook', mark: 'f', href: `https://www.facebook.com/sharer/sharer.php?u=${encodedShareUrl}` },
+    { label: 'LinkedIn', mark: 'in', href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedShareUrl}&title=${encodedShareTitle}` },
+  ];
 
   const openPlateViewer = (trigger: HTMLButtonElement) => {
     plateViewerTriggerRef.current = trigger;
     setPlateViewerOpen(true);
   };
 
+  const copyShareLink = async () => {
+    let copied = false;
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(chapterShareUrl);
+        copied = true;
+      }
+    } catch {
+      // The focused DOM fallback below also works in older secure contexts.
+    }
+    if (!copied) {
+      const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+      const field = document.createElement('textarea');
+      field.value = chapterShareUrl;
+      field.style.position = 'fixed';
+      field.style.opacity = '0';
+      document.body.appendChild(field);
+      field.focus();
+      field.select();
+      copied = document.execCommand('copy');
+      field.remove();
+      previousFocus?.focus();
+    }
+    if (!copied) throw new Error('Clipboard copy was unavailable.');
+  };
+
   const shareCurrentChapter = async () => {
-    const url = new URL(`/read/${activeBook.number}/${encodeURIComponent(chapter.id)}.html`, window.location.origin).href;
-    const title = `${chapter.title} · Book ${activeBook.roman} · ${SITE_NAME}`;
     if (navigator.share) {
       try {
-        await navigator.share({ title, text: chapter.title, url });
+        await navigator.share({ title: chapterShareTitle, text: chapterShareText, url: chapterShareUrl });
         setShareNotice('Chapter shared.');
+        setShareOpen(false);
         return;
       } catch (cause) {
         if (cause instanceof DOMException && cause.name === 'AbortError') return;
@@ -1327,33 +1369,11 @@ export default function Home() {
       }
     }
     try {
-      let copied = false;
-      try {
-        if (navigator.clipboard?.writeText) {
-          await navigator.clipboard.writeText(url);
-          copied = true;
-        }
-      } catch {
-        // The focused DOM fallback below also works in older secure contexts.
-      }
-      if (!copied) {
-        const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
-        const field = document.createElement('textarea');
-        field.value = url;
-        field.style.position = 'fixed';
-        field.style.opacity = '0';
-        document.body.appendChild(field);
-        field.focus();
-        field.select();
-        copied = document.execCommand('copy');
-        field.remove();
-        previousFocus?.focus();
-      }
-      if (!copied) throw new Error('Clipboard copy was unavailable.');
+      await copyShareLink();
       setShareNotice('Chapter link copied.');
     } catch (cause) {
       if (cause instanceof DOMException && cause.name === 'AbortError') return;
-      setShareNotice('Copy unavailable. Please try Share again.');
+      setShareNotice('Copy unavailable. You can still use a social link below.');
     }
   };
 
@@ -1365,11 +1385,11 @@ export default function Home() {
     >
       <div className="ambient-grain" aria-hidden="true" />
 
-      <header className="reader-header" inert={coverOpen || indexOpen || searchOpen ? true : undefined}>
+      <header className="reader-header" inert={modalOpen ? true : undefined}>
         <div className="header-actions">
           <button className="header-action index-action" type="button" onClick={openIndex} aria-label="Open the complete index">☷ <span>Books</span></button>
           <button className="header-action" type="button" onClick={() => setSearchOpen(true)} aria-label="Search the complete work">⌕ <span>Search</span></button>
-          <button className="header-action share-action" type="button" onClick={() => void shareCurrentChapter()} aria-label="Share this chapter">↗ <span>Share</span></button>
+          <button className="header-action share-action" type="button" onClick={() => setShareOpen(true)} aria-label="Share this chapter" aria-haspopup="dialog" aria-controls="share-dialog">↗ <span>Share</span></button>
         </div>
         <div className="title-lockup" aria-label="Naturalis Historia, complete edition">
           <span className="title-flourish">✦</span>
@@ -1420,7 +1440,7 @@ export default function Home() {
         </div>
       </header>
 
-      <nav className="reader-toolbar" aria-label="Book and chapter" inert={coverOpen || indexOpen || searchOpen ? true : undefined}>
+      <nav className="reader-toolbar" aria-label="Book and chapter" inert={modalOpen ? true : undefined}>
         <label>
           <span>BOOK</span>
           <select value={activeBook.number} onChange={(event) => navigateTo(Number(event.target.value), 0)}>
@@ -1449,7 +1469,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="book-stage" ref={bookStageRef} aria-label={`Book ${activeBook.roman}, ${chapter.title}`} inert={coverOpen || indexOpen || searchOpen ? true : undefined}>
+      <section className="book-stage" ref={bookStageRef} aria-label={`Book ${activeBook.roman}, ${chapter.title}`} inert={modalOpen ? true : undefined}>
         <div className="book-shadow" aria-hidden="true" />
         <article className="book-spread">
           <section className={`page page-left${chapter.latinWords < 80 && chapter.englishWords < 120 ? ' is-short-passage' : ''}`}>
@@ -1570,7 +1590,7 @@ export default function Home() {
         {phase === 'loading' && <div className="loading-target" role="status"><i /> Fetching the requested leaf…</div>}
       </section>
 
-      <footer className="reader-footer" inert={coverOpen || indexOpen || searchOpen ? true : undefined}>
+      <footer className="reader-footer" inert={modalOpen ? true : undefined}>
         <div className="fortuna-random">
           <button
             className={`fortuna-button${randomPagePending ? ' is-casting' : ''}`}
@@ -1581,7 +1601,7 @@ export default function Home() {
           >
             <span className="fortuna-seal" aria-hidden="true"><i>✦</i></span>
             <span className="fortuna-copy">
-              <small>{randomPagePending ? 'FORTVNA FOLIVM VERTIT' : 'FORTVNA FOLIVM APERIT'}</small>
+              <small>FORTVNA</small>
               <strong>{randomPagePending ? 'Fortune turns the leaf…' : 'Open a page by chance'}</strong>
             </span>
             <span className="fortuna-flourish" aria-hidden="true">❦</span>
@@ -1596,7 +1616,7 @@ export default function Home() {
         </nav>
       </footer>
 
-      {error && <div className="error-toast" role="alert" inert={coverOpen || indexOpen || searchOpen ? true : undefined}><span>{error}</span><button type="button" onClick={() => { setError(''); schedulePump(); }}>Retry</button></div>}
+      {error && <div className="error-toast" role="alert" inert={modalOpen ? true : undefined}><span>{error}</span><button type="button" onClick={() => { setError(''); schedulePump(); }}>Retry</button></div>}
       {shareNotice && <div className="share-toast" role="status"><span>{shareNotice}</span><button type="button" onClick={() => setShareNotice('')}>Dismiss</button></div>}
 
       {coverOpen && (
@@ -1743,6 +1763,43 @@ export default function Home() {
               ))}
             </ol>
             {!searching && searchLeafTotal > 0 && searchProgress === searchLeafTotal && searchFailures === 0 && searchResults.length === 0 && <p className="empty-results">No title or passage contains every requested term in the same language field.</p>}
+          </section>
+        </div>
+      )}
+
+      {shareOpen && (
+        <div className="overlay-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setShareOpen(false); }}>
+          <section ref={shareDialogRef} id="share-dialog" className="codex-overlay share-overlay" role="dialog" aria-modal="true" aria-labelledby="share-title" aria-describedby="share-description">
+            <header>
+              <div><p>HOC FOLIVM MITTE</p><h2 id="share-title">Share This Leaf</h2></div>
+              <button ref={shareCloseRef} type="button" onClick={() => setShareOpen(false)} aria-label="Close sharing options">×</button>
+            </header>
+            <div className="share-layout">
+              <figure className="share-preview">
+                <picture>
+                  {mainIllustrationPanel.source.viewerPreferredImage && <source srcSet={mainIllustrationPanel.source.viewerPreferredImage} type="image/avif" />}
+                  <img src={mainIllustrationPanel.source.viewerImage} alt={mainIllustrationPanel.accessibleLabel} />
+                </picture>
+                <figcaption>BOOK {activeBook.roman} · {chapter.label.toUpperCase()}</figcaption>
+              </figure>
+              <div className="share-copy">
+                <p className="share-kicker">A LEAF FROM PLINY’S WORLD</p>
+                <h3>{chapter.title}</h3>
+                <p id="share-description">The shared link opens a complete bilingual reading leaf, with this chapter’s own illustration as its social preview.</p>
+                <div className="share-primary-actions">
+                  <button type="button" onClick={() => void shareCurrentChapter()}><span aria-hidden="true">↗</span> Share from this device</button>
+                  <button type="button" onClick={() => void copyShareLink().then(() => setShareNotice('Chapter link copied.')).catch(() => setShareNotice('Copy unavailable. You can still use a social link below.'))}><span aria-hidden="true">⧉</span> Copy link</button>
+                </div>
+                <nav className="social-share-links" aria-label="Share this chapter on social media">
+                  {socialShareLinks.map((network) => (
+                    <a key={network.label} href={network.href} target="_blank" rel="noopener noreferrer">
+                      <i aria-hidden="true">{network.mark}</i><span>{network.label}</span>
+                    </a>
+                  ))}
+                </nav>
+                <p className="share-address">{chapterShareUrl}</p>
+              </div>
+            </div>
           </section>
         </div>
       )}
