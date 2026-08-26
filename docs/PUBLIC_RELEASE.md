@@ -1,10 +1,11 @@
 # Public release checklist
 
 External launch state at the 26 August 2026 audit: the canonical public GitHub
-repository exists. Publication is not yet claimed: a fresh, audited release
-pull request must be reviewed and merged, the Cloudflare Worker build must be
-linked to that repository, and the custom-domain DNS/edge gate must pass before
-the canonical URL is announced.
+repository is live, release PRs #2, #10, and #11 are merged, and Cloudflare
+Workers Build `63f49ecc-b91b-434c-8d58-42cf5d77c12c` completed successfully for
+commit `fb3a96c`. The canonical HTTPS origin served the vinext edition with the
+expected CSP, HSTS, framing, referrer, and permissions headers. Every future
+production change must repeat the technical and edge gates below.
 
 - [x] Before public extraction, the complete-checkout `npm ci` and `npm run
       check` passed with all 1,065 accepted chapter-scene masters present,
@@ -14,9 +15,9 @@ the canonical URL is announced.
       from a fresh extracted public-repo archive. Its authenticated prebuilt
       check verifies generated derivatives/provenance but does not claim to
       re-run the omitted-master perceptual test.
-- [ ] Before any production build or deployment, `npm run release:check`
-      passes, including the live canonical-domain DNS gate; packaging success
-      alone is not publication authorization.
+- [x] The accepted production build ran `npm run release:check`, including the
+      canonical-domain DNS gate; packaging success alone is not publication
+      authorization for a future deployment.
 - [x] Exactly two active non-chapter plates and one social card have creator,
       rights holder, license, SHA-256, and receipt evidence; the Vesuvius plate
       exposes exactly four source-bound editorial crops.
@@ -24,12 +25,12 @@ the canonical URL is announced.
       chapter illustrations are independently generated standalone masters,
       no atlas-cell library, route, or derivative is shipped, and no crop is
       described as an independent artwork.
-- [x] `npm run release:domain` resolves the intended custom domain. The current
-      HTTPS edge still serves a placeholder Worker, so this proves routing only,
-      not publication of the edition.
-- [ ] After production deployment, the canonical URL, `/robots.txt`, and
-      `/sitemap.xml` are smoke-tested against the public edge.
-- [ ] Public indexing, canonical links, sitemap, and security headers are
+- [x] `npm run release:domain` resolves the intended custom domain, and the
+      accepted Cloudflare build now serves the edition rather than the former
+      placeholder Worker.
+- [x] After production deployment, the canonical URL, `/robots.txt`, and
+      `/sitemap.xml` were smoke-tested against the public edge.
+- [x] Public indexing, canonical links, sitemap, and security headers were
       verified at the production edge.
 - [x] Narration is absent from the initial launch source and bundle; its API,
       allowlist, provider code, static-audio paths, and environment controls are

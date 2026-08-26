@@ -28,6 +28,9 @@ for (const book of await readdir(path.join(publicRoot, 'read'))) {
     fail(html.includes(`<meta name="robots" content="${expectedRobots}">`), `${book}/${chapter} disagrees with the release indexing policy`);
     fail(html.includes(`rel="canonical" href="${policy.origin}/read/${book}/${chapter}.html"`), `${book}/${chapter} canonical drifted`);
     fail(html.includes('Enter the Living Codex'), `${book}/${chapter} has no interactive-reader handoff`);
+    fail(html.includes(`<meta property="og:site_name" content="${policy.siteName}">`), `${book}/${chapter} has stale Open Graph site identity`);
+    fail(html.includes(` — ${policy.siteName}</title>`), `${book}/${chapter} has stale browser-title identity`);
+    fail(html.includes(` — ${policy.siteName}">`) && html.includes(`, in ${policy.siteName}">`), `${book}/${chapter} has stale social-preview identity`);
     fail(html.includes('aria-labelledby="latin-source"') && html.includes('aria-labelledby="english-source"'), `${book}/${chapter} has unnamed language regions`);
     fail(html.includes('"@type":"Chapter"') && !html.includes('"@type":"ScholarlyArticle"'), `${book}/${chapter} has incorrect structured-data semantics`);
     fail(html.includes('class="leaf-plate-crop leaf-plate-contained"') && html.includes('--leaf-size:100%') && html.includes('--leaf-left:0%') && html.includes('--leaf-top:0%'), `${book}/${chapter} is not presenting its complete chapter illustration`);

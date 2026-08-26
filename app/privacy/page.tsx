@@ -5,7 +5,7 @@ import { pageMetadata } from '../site-metadata';
 
 export const metadata = pageMetadata(
   'Privacy',
-  'A plain-language account of local reading state, search, accessibility, and hosting for The Living Codex.',
+  'A plain-language account of local reading state, search, accessibility, and hosting for Naturalis Historia: The First Encyclopedia.',
   '/privacy',
 );
 
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
           <h2>Accessibility</h2>
           <p>The active reading language is exposed as semantic text even while the visible ink changes form. Keyboard navigation, focus indicators, reduced-motion behavior, and labelled controls remain part of the reader without requiring an account, microphone, or speech service.</p>
           <h2>Site delivery</h2>
-          <p>Requests necessarily pass through the hosting service to deliver and secure the site, and infrastructure may process ordinary request and diagnostic metadata. The edition owner has not added advertising or cross-site profiling. Edition {policy.version} is configured for public release; a deployment receipt is separate evidence that the production origin is actually live.</p>
+          <p>Requests necessarily pass through the hosting service to deliver and secure the site, and infrastructure may process ordinary request and diagnostic metadata. The edition owner has not added advertising or cross-site profiling. Edition {policy.version} is deployed publicly; the dated release receipts remain separate from—and do not replace—fresh verification of the production edge.</p>
           <p>External links to Perseus, Project Gutenberg, Dickinson College, Pompeii Archaeological Park, Creative Commons, and GitHub leave this edition and are governed by those services’ policies.</p>
         </section>
         <footer className="editorial-colophon"><span>Last updated · 26 August 2026</span><Link href="/">Open the living codex →</Link></footer>

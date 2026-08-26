@@ -58,6 +58,7 @@
     "test:afterword": "node scripts/verify-vesuvius-afterword.mjs",
     "test:search": "node scripts/verify-search.mjs",
     "test:release-security": "node scripts/verify-release-security.mjs",
+    "test:release-manifest": "node scripts/verify-release-manifest.mjs",
     "test:release-packaging": "node scripts/verify-release-packaging.mjs",
     "test:public-release": "node scripts/verify-public-release.mjs",
     "audit:artwork-coverage": "node scripts/audit-artwork-coverage.mjs"
@@ -72,8 +73,8 @@
     "@cloudflare/workers-types": "5.20260823.1",
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3",
-    "@vitejs/plugin-react": "6.0.2",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "6.1.0",
     "@vitejs/plugin-rsc": "0.5.34",
     "eslint": "9.39.4",
     "eslint-config-next": "16.3.2",

@@ -12,6 +12,7 @@
 /package-lock.json @elder-plinius
 /scripts/verify-public-release.mjs @elder-plinius
 /scripts/verify-release-security.mjs @elder-plinius
+/scripts/verify-release-manifest.mjs @elder-plinius
 /scripts/run-wrangler.mjs @elder-plinius
 /scripts/verify-production-domain.mjs @elder-plinius
 /scripts/package-release.mjs @elder-plinius

@@ -43,7 +43,8 @@ Every chapter plate has a source hash, generation record, rights record, and
 one-to-one manifest assignment. Responsive AVIF, WebP, and JPEG files are
 delivery forms, not extra artworks. The public repository retains code,
 manifests, receipts, and deployable derivatives; heavy preservation masters
-and rejected generations belong to the separately verified source archive.
+and rejected generations can be preserved in separately checksummed source
+archives. No source-asset archive is published in this repository today.
 
 - [Illustration coverage and exact claim boundary](docs/ILLUSTRATION_COVERAGE.md)
 - [Public release checklist](docs/PUBLIC_RELEASE.md)
@@ -53,8 +54,9 @@ and rejected generations belong to the separately verified source archive.
 
 - **Latin:** Mayhoff, 1906, via the Perseus Digital Library; derived data is CC
   BY-SA 4.0.
-- **English:** John Bostock and H. T. Riley, 1855–57, from the public-domain
-  Project Gutenberg volumes.
+- **English:** John Bostock and H. T. Riley, 1855–57, from Project Gutenberg
+  volumes identified as public domain in the United States; status may differ
+  elsewhere.
 - **Project code and project-authored material:**
   [AGPL-3.0-only](LICENSE), except where a source notice says otherwise.
 

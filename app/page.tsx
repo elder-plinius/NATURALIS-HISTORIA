@@ -8,6 +8,7 @@ import { chapterIllustration } from './illustrations.mjs';
 import { InkInline, InkParagraphs } from './InkDiffusionText';
 import { requiredShardIds, searchPositionalIndex } from './search-index.mjs';
 import { findSearchRanges, normalizeSearchText, searchIsReady } from './search.mjs';
+import { SITE_NAME } from './site-metadata';
 
 type Language = 'la' | 'en';
 type TranslationMode = 'auto' | Language;
@@ -1314,7 +1315,7 @@ export default function Home() {
 
   const shareCurrentChapter = async () => {
     const url = new URL(`/read/${activeBook.number}/${encodeURIComponent(chapter.id)}.html`, window.location.origin).href;
-    const title = `Naturalis Historia · Book ${activeBook.roman} · ${chapter.label}`;
+    const title = `${chapter.title} · Book ${activeBook.roman} · ${SITE_NAME}`;
     if (navigator.share) {
       try {
         await navigator.share({ title, text: chapter.title, url });

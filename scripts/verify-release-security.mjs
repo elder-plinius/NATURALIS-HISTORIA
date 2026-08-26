@@ -49,7 +49,13 @@ fail(packageJson.scripts?.['release:package:source-assets'] === 'node scripts/pa
 fail(packageJson.scripts?.['release:smoke'] === 'node scripts/smoke-release-archive.mjs', 'Release archive smoke must use the extracted-archive script.');
 fail(packageJson.scripts?.['release:verify-source-assets'] === 'node scripts/verify-source-asset-bundles.mjs', 'Rehydrated source assets must have a manifest verifier.');
 fail(packageJson.scripts?.['test:release-packaging'] === 'node scripts/verify-release-packaging.mjs', 'Release packaging invariants must have a non-archiving test command.');
+fail(packageJson.scripts?.['test:release-manifest'] === 'node scripts/verify-release-manifest.mjs', 'The checked-in release manifest must have an exact tree-integrity gate.');
 fail(packageJson.scripts?.['build:assets'] === 'node scripts/build-assets.mjs', 'Asset builds must use the release-profile-aware wrapper.');
+const responsiveAssetBuilder = read('scripts/build-responsive-assets.mjs');
+fail(
+  responsiveAssetBuilder.includes('if (!(await exists(ogOutputPath)))'),
+  'Public builds must preserve the authenticated social-card derivative instead of re-encoding it across platforms.',
+);
 
 const envExample = read('.env.example');
 fail(!/(?:OPENAI|OPENROUTER|ELEVENLABS|CARTESIA|NARRATION|SPEECH|SITES_TRUST)/u.test(envExample), 'Launch environment example must not expose held narration or legacy Sites controls.');
@@ -115,12 +121,18 @@ fail(!nextCsp.includes('audio.naturalishistoria.org'), 'Launch CSP must not reta
 fail(/\/corpus\/manifest\.json[\s\S]*?Cache-Control: public, no-cache, must-revalidate/u.test(staticHeaders), 'Corpus manifest must revalidate.');
 
 const ci = read('.github/workflows/ci.yml');
-for (const required of ['permissions:\n  contents: read', 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2', 'persist-credentials: false', 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
+for (const required of ['permissions:\n  contents: read', 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1', 'persist-credentials: false', 'actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
   fail(ci.includes(required), `CI is missing required control: ${required.replaceAll('\n', ' ')}.`);
 }
 
+const dependabot = read('.github/dependabot.yml');
+for (const dependency of ['@types/node', 'eslint', 'typescript']) {
+  fail(dependabot.includes(`dependency-name: ${dependency}`) || dependabot.includes(`dependency-name: "${dependency}"`), `Dependabot does not document the incompatible ${dependency} major line.`);
+}
+fail((dependabot.match(/version-update:semver-major/gu) ?? []).length === 3, 'Dependabot must defer exactly the three reviewed incompatible major lines.');
+
 const codeowners = read('.github/CODEOWNERS');
-for (const sensitivePath of ['/wrangler.jsonc', '/wrangler.source.jsonc', '/next.config.ts', '/public/_headers', '/.github/']) {
+for (const sensitivePath of ['/wrangler.jsonc', '/wrangler.source.jsonc', '/next.config.ts', '/public/_headers', '/scripts/verify-release-manifest.mjs', '/.github/']) {
   fail(codeowners.includes(sensitivePath), `CODEOWNERS is missing sensitive path ${sensitivePath}.`);
 }
 fail(!/narrat|public\/audio/iu.test(codeowners), 'CODEOWNERS still references held narration paths.');
@@ -191,6 +203,7 @@ while (stack.length) {
     if (entry.isDirectory() && skippedDirectories.has(entry.name)) continue;
     const absolute = path.join(directory, entry.name);
     const relative = path.relative(root, absolute).split(path.sep).join('/');
+    if (relative === '.git' || relative.startsWith('.git/')) continue;
     if (skippedPathPrefixes.some((prefix) => relative.startsWith(prefix))) continue;
     if (entry.isDirectory()) {
       stack.push(absolute);

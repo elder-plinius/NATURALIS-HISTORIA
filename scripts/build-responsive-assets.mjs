@@ -35,10 +35,13 @@ await mkdir(outputRoot, { recursive: true });
 
 const ogSourcePath = path.join(root, 'assets-source', 'og.png');
 const ogSourceBytes = await readFile(ogSourcePath);
-await sharp(ogSourcePath)
-  .resize({ width: 1200, height: 630, fit: 'cover' })
-  .jpeg({ quality: 84, mozjpeg: true })
-  .toFile(path.join(root, 'public', 'og.jpg'));
+const ogOutputPath = path.join(root, 'public', 'og.jpg');
+if (!(await exists(ogOutputPath))) {
+  await sharp(ogSourcePath)
+    .resize({ width: 1200, height: 630, fit: 'cover' })
+    .jpeg({ quality: 84, mozjpeg: true })
+    .toFile(ogOutputPath);
+}
 
 const files = [...ACTIVE_PLATE_FILES];
 const expectedMasterCount = Object.keys(mediaRights.assets).filter((logicalId) => logicalId.startsWith('plate:')).length;

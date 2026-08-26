@@ -5,7 +5,7 @@ import { pageMetadata } from '../site-metadata';
 
 export const metadata = pageMetadata(
   'Edition & Sources',
-  'Editorial method, source provenance, rights, historical content notice, and correction policy for The Living Codex.',
+  'Editorial method, source provenance, rights, historical content notice, and correction policy for Naturalis Historia: The First Encyclopedia.',
   '/edition',
 );
 
@@ -21,7 +21,7 @@ export default function EditionPage() {
         </header>
 
         <section className="editorial-prose">
-          <p><em>Natural History: The Living Codex</em> is a modern bilingual reading edition of Pliny the Elder’s <em>Naturalis Historia</em>. It is not a manuscript facsimile, a critical edition, or a new translation.</p>
+          <p><em>Naturalis Historia: The First Encyclopedia</em> is a modern bilingual reading edition of Pliny the Elder’s <em>Naturalis Historia</em>. It is not a manuscript facsimile, a critical edition, or a new translation.</p>
           <p>The Latin reading text is drawn from Karl Friedrich Theodor Mayhoff’s 1906 Teubner edition as encoded by the Perseus Digital Library. The facing English is John Bostock and H. T. Riley’s 1855–57 translation, digitized and proofread in six Project Gutenberg volumes. The translation retains its nineteenth-century diction.</p>
           <p>The reader contains all thirty-seven books in 1,065 bilingual reading units: one Book I dedication-and-index unit and 1,064 numbered Perseus TEI chapter divisions. Smaller Mayhoff section markers remain metadata rather than separate pages. Bostock and Riley’s finer chapter headings remain visible and searchable where several fall within one Latin unit.</p>
           <p>For readability, the build removes Latin critical apparatus, English scholarly footnotes, and page furniture. The reading text is derived from a pinned Perseus transcription and the historical translation, with source order retained and every intervention exposed in a <a href="/corpus/corrections.json">reviewable correction ledger</a>: eight confirmed Latin corrections, twenty-six extraction repairs, and all twenty-seven Gutenberg Volume I Appendix entries (twenty-five applied to reader prose and two documented as excluded material). It does not silently modernize either source. Bostock and Riley is aligned at chapter level and is not a new line-by-line translation of the displayed Mayhoff text. Immutable source URLs, commits, and SHA-256 receipts are published in the <a href="/corpus/manifest.json">corpus manifest</a>.</p>

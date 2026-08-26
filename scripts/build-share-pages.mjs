@@ -69,6 +69,8 @@ for (let index = 0; index < records.length; index += 1) {
     height: 1024,
   };
   const description = summary(chapter.english);
+  const shareTitle = `${chapter.title} — Book ${book.roman} — ${policy.siteName}`;
+  const shareImageAlt = `${chapter.title} — Book ${book.roman}, in ${policy.siteName}`;
   const prior = records[index - 1];
   const next = records[index + 1];
   const adjacentLink = (record, label) => record
@@ -102,26 +104,26 @@ for (let index = 0; index < records.length; index += 1) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="${policy.publicIndexing ? 'index,follow' : 'noindex,nofollow,noarchive'}">
-  <title>${escapeHtml(chapter.title)} — Book ${book.roman} — Naturalis Historia</title>
+  <title>${escapeHtml(shareTitle)}</title>
   <meta name="description" content="${escapeHtml(description)}">
   <link rel="canonical" href="${canonical}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/reading-leaf.css?v=${readingCssRevision}">
   <script src="/reading-leaf.js?v=${readingJsRevision}" defer></script>
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Naturalis Historia — The Living Codex">
-  <meta property="og:title" content="${escapeHtml(chapter.title)} — Book ${book.roman}">
+  <meta property="og:site_name" content="${escapeHtml(policy.siteName)}">
+  <meta property="og:title" content="${escapeHtml(shareTitle)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${origin}/og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="${escapeHtml(`${chapter.title} — Book ${book.roman}, in the Living Codex`)}">
+  <meta property="og:image:alt" content="${escapeHtml(shareImageAlt)}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeHtml(chapter.title)} — Book ${book.roman}">
+  <meta name="twitter:title" content="${escapeHtml(shareTitle)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
   <meta name="twitter:image" content="${origin}/og.jpg">
-  <meta name="twitter:image:alt" content="${escapeHtml(`${chapter.title} — Book ${book.roman}, in the Living Codex`)}">
+  <meta name="twitter:image:alt" content="${escapeHtml(shareImageAlt)}">
   <script type="application/ld+json">${structuredData}</script>
 </head>
 <body>

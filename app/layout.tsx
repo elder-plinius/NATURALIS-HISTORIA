@@ -1,16 +1,17 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-import { RELEASE_ROBOTS, SITE_NAME, SITE_ORIGIN } from './site-metadata';
+import { RELEASE_ROBOTS, SITE_DESCRIPTION, SITE_NAME, SITE_ORIGIN } from './site-metadata';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
+  applicationName: SITE_NAME,
   title: {
-    default: 'Naturalis Historia — The Living Codex',
-    template: '%s — Naturalis Historia',
+    default: SITE_NAME,
+    template: `%s — ${SITE_NAME}`,
   },
-  description:
-    'The complete thirty-seven books of Pliny the Elder’s Natural History in Latin and English, reimagined as an illustrated living codex.',
+  description: SITE_DESCRIPTION,
+  manifest: '/manifest.webmanifest',
   alternates: { canonical: '/' },
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
@@ -18,9 +19,8 @@ export const metadata: Metadata = {
   },
   robots: RELEASE_ROBOTS,
   openGraph: {
-    title: 'Naturalis Historia — The Living Codex',
-    description:
-      'All thirty-seven books in an ancient illustrated codex whose Latin diffuses and reforms as English.',
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     type: 'website',
     url: '/',
     siteName: SITE_NAME,
@@ -30,16 +30,20 @@ export const metadata: Metadata = {
         url: '/og.jpg',
         width: 1200,
         height: 630,
-        alt: 'Naturalis Historia — The Living Codex',
+        alt: SITE_NAME,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Naturalis Historia — The Living Codex',
-    description:
-      'All thirty-seven books in an ancient illustrated codex whose Latin diffuses and reforms as English.',
-    images: ['/og.jpg'],
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    images: [{ url: '/og.jpg', alt: SITE_NAME }],
+  },
+  appleWebApp: {
+    capable: true,
+    title: 'Naturalis Historia',
+    statusBarStyle: 'black-translucent',
   },
 };
 
