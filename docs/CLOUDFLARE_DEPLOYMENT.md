@@ -5,11 +5,10 @@ workflow.
 
 ## External state at the prelaunch audit
 
-As of 26 August 2026, `elder-plinius/NATURALIS-HISTORIA` exists as the canonical
-public repository. `naturalishistoria.org` did not resolve in public DNS at the
-last prelaunch check. DNS configuration, Worker/domain binding, and post-deploy
-edge verification therefore remain manual owner actions; the configured origin
-in source is not evidence that the public edge is live.
+As of the latest 26 August 2026 check, `naturalishistoria.org` resolves through
+Cloudflare and answers HTTPS, but it serves the placeholder response `Hello
+world`, not this edition. DNS reachability is therefore established; a
+successful production build and post-deploy edge verification are not.
 
 ## Merge the reviewed release
 
@@ -24,14 +23,25 @@ only after its checks pass. Keep `main` protected from direct pushes.
 1. In the Cloudflare dashboard, open **Workers & Pages** and create/import an
    application from GitHub.
 2. Select `elder-plinius/NATURALIS-HISTORIA`.
-3. Use build command `npm run release:build`. This is intentionally blocked
-   while any public-release or independent-artwork gate is open.
-4. Use deploy command `npm run deploy:built`. Do not replace these commands
-   with raw `vinext build` or `wrangler deploy` calls that bypass the gates.
-5. Leave the root directory at `/`.
-6. Ensure the Worker name is `naturalis-historia`, matching `wrangler.jsonc`.
-7. Deploy previews for pull requests and production from `main` only.
-8. Attach the intended custom domain after DNS ownership is confirmed.
+3. Use build command `npm run check`. It runs the complete technical suite and
+   leaves the vinext build in `dist/` for either deployment path.
+4. Use production deploy command `npm run deploy:production`. It runs the live
+   publication gates, then deploys `dist/server/wrangler.json` without rebuilding.
+5. Use non-production branch deploy command `npm run deploy:preview`. Do not
+   leave Cloudflare's default `npx wrangler versions upload`: that command reads
+   the source `wrangler.jsonc`, while vinext must upload the generated config.
+6. Leave the root directory at `/` and set the production branch to `main`.
+7. Ensure the Worker name is `naturalis-historia`, matching `wrangler.jsonc`.
+8. Enable non-production branch builds when PR preview checks are wanted.
+9. Attach the intended custom domain after DNS ownership is confirmed.
+
+The three dashboard command fields are deliberately different:
+
+| Workers Builds field | Command | Purpose |
+| --- | --- | --- |
+| Build command | `npm run check` | Verify and create `dist/` on every branch |
+| Deploy command | `npm run deploy:production` | Gate and promote production |
+| Non-production branch deploy command | `npm run deploy:preview` | Upload an unpromoted PR preview from the built config |
 
 Before enabling production builds, confirm the canonical domain actually
 resolves:
@@ -53,10 +63,11 @@ npm ci
 npm run check
 npm run build
 npm run deploy:dry-run
+npm run deploy:preview:dry-run
 npm run release:check
 ```
 
-The first four commands establish technical deployability. The final command
-is the publication decision and must pass before connecting or enabling the
-production branch. `npm run deploy` runs both the release build and deployment
-when operating outside Workers Builds.
+The dry runs establish both production and preview deployability. The final
+command is the publication decision and must pass before production promotion.
+`npm run deploy` remains the all-in-one local release path; Workers Builds must
+use the branch-specific commands above because it separates build from deploy.

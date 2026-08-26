@@ -24,9 +24,11 @@ the canonical URL is announced.
       chapter illustrations are independently generated standalone masters,
       no atlas-cell library, route, or derivative is shipped, and no crop is
       described as an independent artwork.
-- [ ] `npm run release:domain` resolves the intended custom domain; the public
-      HTTPS edge, canonical URL, `/robots.txt`, and `/sitemap.xml` are then
-      smoke-tested after deployment.
+- [x] `npm run release:domain` resolves the intended custom domain. The current
+      HTTPS edge still serves a placeholder Worker, so this proves routing only,
+      not publication of the edition.
+- [ ] After production deployment, the canonical URL, `/robots.txt`, and
+      `/sitemap.xml` are smoke-tested against the public edge.
 - [ ] Public indexing, canonical links, sitemap, and security headers are
       verified at the production edge.
 - [x] Narration is absent from the initial launch source and bundle; its API,

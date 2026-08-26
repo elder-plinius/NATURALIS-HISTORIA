@@ -37,6 +37,9 @@ for (const group of ['dependencies', 'devDependencies']) {
 fail(packageJson.scripts?.['release:build'] === 'npm run release:check && npm run build', 'Release build must run publication gates before the build.');
 fail(packageJson.scripts?.deploy === 'npm run release:build && npm run deploy:built', 'Default deploy must not bypass the release build.');
 fail(packageJson.scripts?.['deploy:built']?.startsWith('node scripts/run-wrangler.mjs deploy '), 'Built deploy must use the telemetry-disabled Wrangler wrapper.');
+fail(packageJson.scripts?.['deploy:production'] === 'npm run release:check && npm run deploy:built', 'Workers Builds production deploy must run publication gates before the built deploy.');
+fail(packageJson.scripts?.['deploy:preview'] === 'node scripts/run-wrangler.mjs versions upload -c dist/server/wrangler.json', 'Workers Builds preview deploy must upload the built vinext configuration.');
+fail(packageJson.scripts?.['deploy:preview:dry-run'] === 'node scripts/run-wrangler.mjs versions upload --dry-run -c dist/server/wrangler.json', 'Preview deploy must expose a dry-run verifier for CI.');
 fail(packageJson.scripts?.['deploy:dry-run']?.startsWith('node scripts/run-wrangler.mjs deploy --dry-run '), 'Dry run must use the telemetry-disabled Wrangler wrapper.');
 fail(packageJson.scripts?.['release:package'] === 'node scripts/package-release.mjs', 'Release packaging must use the deterministic package script.');
 fail(packageJson.scripts?.['release:package:public'] === 'node scripts/package-release.mjs --profile public-repo', 'Public-repository packaging must use the explicit public-repo profile.');
@@ -97,7 +100,7 @@ fail(!nextCsp.includes('audio.naturalishistoria.org'), 'Launch CSP must not reta
 fail(/\/corpus\/manifest\.json[\s\S]*?Cache-Control: public, no-cache, must-revalidate/u.test(staticHeaders), 'Corpus manifest must revalidate.');
 
 const ci = read('.github/workflows/ci.yml');
-for (const required of ['permissions:\n  contents: read', 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2', 'persist-credentials: false', 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm audit --audit-level=high']) {
+for (const required of ['permissions:\n  contents: read', 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2', 'persist-credentials: false', 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm audit --audit-level=high']) {
   fail(ci.includes(required), `CI is missing required control: ${required.replaceAll('\n', ' ')}.`);
 }
 
@@ -113,8 +116,9 @@ for (const pattern of ['.env*', '*.key', '*.p12', '*.pfx', '*.der', '*.sqlite', 
 }
 
 const deploymentGuide = read('docs/CLOUDFLARE_DEPLOYMENT.md');
-fail(deploymentGuide.includes('build command `npm run release:build`'), 'Cloudflare build instructions must use the gated release build.');
-fail(deploymentGuide.includes('deploy command `npm run deploy:built`'), 'Cloudflare deploy instructions must use the reviewed built deploy.');
+fail(deploymentGuide.includes('build command `npm run check`'), 'Cloudflare build instructions must run the complete technical check.');
+fail(deploymentGuide.includes('production deploy command `npm run deploy:production`'), 'Cloudflare production instructions must use the publication-gated built deploy.');
+fail(deploymentGuide.includes('non-production branch deploy command `npm run deploy:preview`'), 'Cloudflare preview instructions must upload the built vinext configuration.');
 
 for (const forbiddenPath of [
   'app/api/narration/route.ts',
