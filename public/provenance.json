@@ -9,7 +9,7 @@
     "buildRevision": "4f472efe2906965e",
     "corpusManifest": "/corpus/manifest.json",
     "editorialPolicy": "/edition",
-    "assetSetSha256": "528817c8b6fc13838586a4e8ab00e433e8c4b7e762d0a9f377d6b3697f1d319b",
+    "assetSetSha256": "48e157ddf8394d0c00d0d955f92d10029a4d32111ef968ebea9bbce2b5d14112",
     "sourceMasters": {
       "availability": "omitted-from-public-repository",
       "completeSourceAudit": "required-before-public-extraction",
@@ -219,61 +219,511 @@
       "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
       "license": "AGPL-3.0-only",
       "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the recovered byte-exact source-bound ImageGen receipt.",
-      "rightsProvenanceReference": "assets-source/plates-provenance.json",
-      "editorialCrops": {
-        "observer": {
-          "crop": {
-            "left": 0,
-            "top": 0,
-            "width": 768,
-            "height": 512
-          },
-          "derivatives": [
-            "/assets/pliny-younger-vesuvius-observer.ada5ca7a.w768.avif",
-            "/assets/pliny-younger-vesuvius-observer.ada5ca7a.w768.webp",
-            "/assets/pliny-younger-vesuvius-observer.ada5ca7a.w768.jpg"
-          ]
-        },
-        "fleet": {
-          "crop": {
-            "left": 768,
-            "top": 0,
-            "width": 768,
-            "height": 512
-          },
-          "derivatives": [
-            "/assets/pliny-younger-vesuvius-fleet.50fbe356.w768.avif",
-            "/assets/pliny-younger-vesuvius-fleet.50fbe356.w768.webp",
-            "/assets/pliny-younger-vesuvius-fleet.50fbe356.w768.jpg"
-          ]
-        },
-        "appeal": {
-          "crop": {
-            "left": 0,
-            "top": 512,
-            "width": 768,
-            "height": 512
-          },
-          "derivatives": [
-            "/assets/pliny-younger-vesuvius-appeal.3285267d.w768.avif",
-            "/assets/pliny-younger-vesuvius-appeal.3285267d.w768.webp",
-            "/assets/pliny-younger-vesuvius-appeal.3285267d.w768.jpg"
-          ]
-        },
-        "ash": {
-          "crop": {
-            "left": 768,
-            "top": 512,
-            "width": 768,
-            "height": 512
-          },
-          "derivatives": [
-            "/assets/pliny-younger-vesuvius-ash.3fd90170.w768.avif",
-            "/assets/pliny-younger-vesuvius-ash.3fd90170.w768.webp",
-            "/assets/pliny-younger-vesuvius-ash.3fd90170.w768.jpg"
+      "rightsProvenanceReference": "assets-source/plates-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.16:1",
+      "folioKey": "6.16:1",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-01.png",
+      "sourceSha256": "5981a0781cdc406a3a7714d82b698a9a2f3a53b50e81eab30b43f05cd22af3af",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-b54b3972-22df-421f-8684-785721e5f32d",
+        "originalArtifact": "built-in-imagegen://exec-b54b3972-22df-421f-8684-785721e5f32d.png",
+        "promptProfile": null,
+        "scenePrompt": null,
+        "customPrompt": "Use case: historical-scene\nAsset type: final landscape 3:2 editorial plate for an illustrated bilingual edition of Pliny the Younger's Vesuvius letters\nPrimary request: Create an entirely new single-scene illustration for Epistula 6.16, folio 1, \"For memory and history.\" In a quiet Roman study at Misenum after the catastrophe, seventeen-year-old Pliny the Younger sits in three-quarter profile composing an account for Tacitus on a plain wax tablet; beyond an open loggia, the Bay of Naples lies under a distant lingering veil of volcanic haze. His expression carries grief, discipline, and the burden of preserving eyewitness memory. Keep the tablet blank and unreadable.\nInput image: style reference only. Match its antique engraved linework, restrained mineral wash, aged vellum texture, atmospheric depth, and balance of roughness with exquisite finish. Do not copy, crop, collage, rearrange, or repeat any scene from the reference.\nHistorical setting: Roman Campania, AD 79. Accurate first-century Roman clothing, architecture, furniture, wax tablets, and stylus; no later-period objects.\nCharacter continuity: Pliny the Younger is slim, seventeen years old, with short dark curls and an intelligent youthful Roman face. Use this same identity in later Misenum folios.\nComposition/framing: one unified cinematic landscape scene, 3:2 ratio, no border, no inset, no split panel, generous atmosphere, strong readable silhouette.\nLighting/mood: late amber light filtered through ash; elegiac, intimate, timeless.\nPalette/materials: charcoal, warm umber, smoke blue-grey, faint ember ochre; ink cross-hatching and translucent mineral pigment on worn vellum.\nConstraints: text-free artwork; any writing surfaces must remain blank or illegible. No captions, letters, numerals, Roman inscriptions, decorative glyphs, logos, signatures, or watermark. No modern objects. No fantasy. No duplicate figures.",
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original 1536x1024 resolution; one coherent text-free scene, blank tablet, complete figure, no collage or edge clipping."
           ]
         }
-      }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-16-folio-01.7202e2d2.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-16-folio-01.7202e2d2.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-16-folio-01.7202e2d2.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-16-folio-01.7202e2d2.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "5981a0781cdc406a3a7714d82b698a9a2f3a53b50e81eab30b43f05cd22af3af",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.16:2",
+      "folioKey": "6.16:2",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-02.png",
+      "sourceSha256": "542ccc1a0135eae63ab82c37fea5ead321c2be2e10cdc33caf99d6abbf5ef3bc",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-d5a0ffac-5627-4ac4-b42e-e7f351953512",
+        "originalArtifact": "built-in-imagegen://exec-d5a0ffac-5627-4ac4-b42e-e7f351953512.png",
+        "promptProfile": "elder",
+        "scenePrompt": "Primary request: Epistula 6.16, folio 2, \"The pine-shaped cloud.\" On a high terrace at Misenum in early afternoon, Pliny the Elder has just risen from his books and studies the first immense, sharply branching umbrella-pine cloud above distant Vesuvius. His scholarly instruments and closed scrolls sit behind him; a Roman matron discreetly points toward the phenomenon. The cloud must dominate the sky with physically convincing volcanic scale, while the admiral remains intent rather than theatrical.\nLighting/mood: uncanny golden daylight beginning to dim; curiosity poised on the edge of catastrophe.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; the pine-cloud silhouette, terrace viewpoint, and scholarly observation are visually distinct and text-free."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-16-folio-02.b15a03d7.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-16-folio-02.b15a03d7.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-16-folio-02.b15a03d7.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-16-folio-02.b15a03d7.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "542ccc1a0135eae63ab82c37fea5ead321c2be2e10cdc33caf99d6abbf5ef3bc",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.16:3",
+      "folioKey": "6.16:3",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-03.png",
+      "sourceSha256": "7d22aaaa58f7a5fd8647c263aad45dd8b0311d3f3b083abbf2d4135ae5ef26d2",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-f621bc8f-a448-4f23-b130-cdbdfbb2f164",
+        "originalArtifact": "built-in-imagegen://exec-f621bc8f-a448-4f23-b130-cdbdfbb2f164.png",
+        "promptProfile": "elder",
+        "scenePrompt": "Primary request: Epistula 6.16, folio 3, \"The appeal and the fleet.\" At the naval quay of Misenum, a breathless messenger places Rectina's sealed but entirely unmarked wax tablet into Pliny the Elder's hand at the exact moment sailors prepare several quadriremes for sea. Pliny turns from observation to command, pointing toward the endangered coast; ropes strain, oars are carried aboard, and crews respond urgently. Do not show Rectina herself.\nLighting/mood: gathering ash haze over bright water; humane resolve, disciplined urgency, no heroic fantasy pose.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; messenger, blank tablet, quay activity, and fleet preparation read as one coherent scene."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-16-folio-03.eca9dd8a.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-16-folio-03.eca9dd8a.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-16-folio-03.eca9dd8a.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-16-folio-03.eca9dd8a.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "7d22aaaa58f7a5fd8647c263aad45dd8b0311d3f3b083abbf2d4135ae5ef26d2",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.16:4",
+      "folioKey": "6.16:4",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-04.png",
+      "sourceSha256": "aca565c6fed1c45a8530b361d0514415a0df9f6e47dd81b666a845f5240587e4",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-e4b95bbc-ded7-4599-b3ab-23e1c0b30065",
+        "originalArtifact": "built-in-imagegen://exec-e4b95bbc-ded7-4599-b3ab-23e1c0b30065.png",
+        "promptProfile": "elder",
+        "scenePrompt": "Primary request: Epistula 6.16, folio 4, \"Toward Stabiae.\" A Roman quadrireme drives across a roughening Bay of Naples toward the ash-dark coast at Stabiae. Pliny the Elder stands braced near the stern beside the helmsman, calm and observant as pale pumice begins to fall; sailors shield their faces and keep rowing, while Vesuvius and a spreading black cloud fill the far horizon. Make the vessel, oars, rigging, and shoreline historically plausible.\nLighting/mood: perilous late-day half-light; steady courage against immense natural force.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; complete quadrireme action, falling pumice, and Stabiae approach are distinct from the harbor scene."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-16-folio-04.c2485cc7.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-16-folio-04.c2485cc7.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-16-folio-04.c2485cc7.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-16-folio-04.c2485cc7.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "aca565c6fed1c45a8530b361d0514415a0df9f6e47dd81b666a845f5240587e4",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.16:5",
+      "folioKey": "6.16:5",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-05.png",
+      "sourceSha256": "b8b37b40d1fbc4a8dffc9f6d4595edb76e89d6c5fbbf34973653e4c7f52171e5",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-ed78a92c-c123-48d3-aa2f-fd5b02b3bc47",
+        "originalArtifact": "built-in-imagegen://exec-ed78a92c-c123-48d3-aa2f-fd5b02b3bc47.png",
+        "promptProfile": "elder-late",
+        "scenePrompt": "Primary request: Epistula 6.16, folio 5, \"The darkened shore.\" On the beach at Stabiae under an almost black volcanic sky, Pliny the Elder and Pomponianus's household emerge into the open as buildings rock behind them. Several people have cushions tied over their heads against falling pumice. Pliny, exhausted but composed, is supported by two attendants near a linen cloth spread on the ground; distant sheets of fire glow through the cloud across the bay. Depict fear without gore or melodrama.\nLighting/mood: near-total ash darkness cut by dim oil lamps and remote volcanic fire; grave, intimate, mortal.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; the supported Elder, protective cushions, shoreline, and dark firelight remain legible without gore."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-16-folio-05.d984b7e0.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-16-folio-05.d984b7e0.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-16-folio-05.d984b7e0.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-16-folio-05.d984b7e0.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "b8b37b40d1fbc4a8dffc9f6d4595edb76e89d6c5fbbf34973653e4c7f52171e5",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.16:6",
+      "folioKey": "6.16:6",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-06.png",
+      "sourceSha256": "86f17acdc27cd0da25bda4896bfd7f1ae85a3897c29cefae53dd6e3a2f75fcb7",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-b10abace-a045-4318-a8ea-75d6da27367f",
+        "originalArtifact": "built-in-imagegen://exec-b10abace-a045-4318-a8ea-75d6da27367f.png",
+        "promptProfile": null,
+        "scenePrompt": null,
+        "customPrompt": "Use case: historical-scene\nAsset type: final landscape 3:2 editorial plate for an illustrated bilingual edition of Pliny the Younger's Vesuvius letters\nPrimary request: Create a corrected entirely new illustration for Epistula 6.16, folio 6, \"Letter, testimony, history.\" At first grey dawn after the eruption, seventeen-year-old Pliny the Younger carefully listens to an ordinary surviving naval sailor at Misenum. The survivor is a lean, clean-shaven man in his thirties with cropped dark hair and a plain ash-stained brown tunic, seated in side profile and visibly exhausted; he must not resemble Pliny the Elder in face, age, build, hair, beard, clothing, or status. A completely blank open wax diptych and stylus lie between them. Behind, silent citizens watch the ash-covered harbor and obscured coast. The scene embodies lived catastrophe becoming careful testimony.\nCritical historical constraint: Pliny the Elder is dead by this point and MUST NOT APPEAR. No older grey-haired or bearded man, no red commander's mantle, no admiral.\nInput image: style reference only. Match its antique engraved linework, restrained translucent mineral wash, aged vellum texture, atmospheric depth, and balance of roughness with exquisite finish. Do not copy, crop, collage, rearrange, or repeat a scene from the reference.\nCharacter continuity: Pliny the Younger is slim, seventeen, with short dark curls and an intelligent youthful Roman face, simple pale tunic and muted rust-brown mantle.\nComposition: one unified cinematic landscape scene, 3:2 ratio, no border, no inset, no split panel, no montage, no duplicated figures.\nLighting/mood: cold ash-grey dawn with a narrow warm light on the blank tablets; sober, truthful, elegiac.\nConstraints: historically accurate Roman Campania, AD 79; text-free artwork; all writing surfaces blank. No captions, letters, numerals, inscriptions, decorative glyphs, logos, signatures, watermark, modern objects, fantasy, or gore.",
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted corrected generation at original resolution; the survivor is young, clean-shaven, plainly dressed, and cannot be mistaken for the deceased Elder."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-16-folio-06.33d39058.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-16-folio-06.33d39058.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-16-folio-06.33d39058.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-16-folio-06.33d39058.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "86f17acdc27cd0da25bda4896bfd7f1ae85a3897c29cefae53dd6e3a2f75fcb7",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the corrected source-bound built-in ImageGen output, exact prompt, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.20:1",
+      "folioKey": "6.20:1",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-01.png",
+      "sourceSha256": "27a47046066e990a264872c0a9a374a146868279553518dea1c3d91a325ee22f",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-ca06e400-4771-4451-b4bc-a4b3fff3ba97",
+        "originalArtifact": "built-in-imagegen://exec-ca06e400-4771-4451-b4bc-a4b3fff3ba97.png",
+        "promptProfile": "elder-late",
+        "scenePrompt": "Primary request: Epistula 6.20, folio 1, \"The account resumes.\" Inside a Roman house at Misenum before dawn, the seventeen-year-old Pliny the Younger tries to study while the first powerful earthquake shakes the room. A hanging bronze lamp swings, water trembles in a shallow basin, a shelf of closed scrolls shifts, and his concerned mother appears in the doorway. He braces one hand on the plain table and looks up, alert but not yet panicked. Any scrolls or tablets must be blank.\nLighting/mood: dim oil-lamp amber against blue-black predawn; restrained foreboding and domestic vulnerability.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; swinging lamp, trembling basin, mother, and young scholar create a distinct domestic earthquake scene."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-20-folio-01.ff71febf.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-20-folio-01.ff71febf.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-20-folio-01.ff71febf.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-20-folio-01.ff71febf.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "27a47046066e990a264872c0a9a374a146868279553518dea1c3d91a325ee22f",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.20:2",
+      "folioKey": "6.20:2",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-02.png",
+      "sourceSha256": "296784000d10c0ea146fc02ed19bd76f02c19a0d1d8f3d95f3f3dcccfbb92b69",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-3277a6fd-890b-4784-bc05-9742f6fdca16",
+        "originalArtifact": "built-in-imagegen://exec-3277a6fd-890b-4784-bc05-9742f6fdca16.png",
+        "promptProfile": "younger",
+        "scenePrompt": "Primary request: Epistula 6.20, folio 2, \"Earth, sea, and cloud.\" Just outside Misenum in weak morning light, Pliny the Younger and his mother pause amid an evacuating crowd. On perfectly level ground, a two-wheeled Roman cart lurches backward while citizens struggle to steady it. Beyond them, the sea has visibly withdrawn from the shore, leaving stranded fish and exposed seabed; a vast descending volcanic cloud erases Capreae and presses across the bay. Keep Pliny and his mother as the emotional anchor, looking toward the impossible landscape.\nLighting/mood: wan, uncertain dawn; geological disorientation, scale, and mounting dread.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; exposed seabed, stranded boat, unstable cart, and descending cloud form a distinct wide landscape."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-20-folio-02.d1773341.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-20-folio-02.d1773341.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-20-folio-02.d1773341.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-20-folio-02.d1773341.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "296784000d10c0ea146fc02ed19bd76f02c19a0d1d8f3d95f3f3dcccfbb92b69",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.20:3",
+      "folioKey": "6.20:3",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-03.png",
+      "sourceSha256": "ac708d51bd461c27eccf22473c42c7fb5474d88cba682305a7ca48a52314adfc",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-0aaccc3a-e5ec-4a79-92a4-bd303a6474dc",
+        "originalArtifact": "built-in-imagegen://exec-0aaccc3a-e5ec-4a79-92a4-bd303a6474dc.png",
+        "promptProfile": "younger",
+        "scenePrompt": "Primary request: Epistula 6.20, folio 3, \"Refusing to leave.\" On a roadside above Misenum, an anxious Spanish family friend urgently gestures for Pliny and his mother to flee. The mother grips her son's forearm and points him toward safety, while the young Pliny refuses to abandon her. Behind them, the descending black cloud has swallowed the sea and the outline of the promontory; a few evacuees hurry away in the distance. Make the triangular human exchange clear without theatrical posing.\nLighting/mood: compressed ash-grey daylight, intimate moral resolve beneath approaching catastrophe.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; the three-person roadside exchange is clear and independent of every fleet or ash-shower scene."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-20-folio-03.93134969.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-20-folio-03.93134969.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-20-folio-03.93134969.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-20-folio-03.93134969.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "ac708d51bd461c27eccf22473c42c7fb5474d88cba682305a7ca48a52314adfc",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.20:4",
+      "folioKey": "6.20:4",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-04.png",
+      "sourceSha256": "847f3e5f7c86e02271315da2233b5ee41a3d358b809c6aec8b6c701194f7f5ba",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-c8bffacf-499c-495a-b147-4727f8fb0fce",
+        "originalArtifact": "built-in-imagegen://exec-c8bffacf-499c-495a-b147-4727f8fb0fce.png",
+        "promptProfile": "younger",
+        "scenePrompt": "Primary request: Epistula 6.20, folio 4, \"A night without light.\" Pliny and his mother have stepped off the crowded Roman road and crouch together on low ground as volcanic darkness overtakes Misenum at midday. Around them, separated family groups reach for one another in near-blackness; a few small oil lamps and torches barely reveal frightened faces before being swallowed by ash. The edge of the descending cloud should feel like a wall consuming the last strip of daylight.\nLighting/mood: profound enclosed darkness, tiny warm points of human light, terror rendered with dignity rather than spectacle.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; the advancing wall of darkness and scattered human lights remain readable at display size."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-20-folio-04.6072aa43.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-20-folio-04.6072aa43.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-20-folio-04.6072aa43.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-20-folio-04.6072aa43.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "847f3e5f7c86e02271315da2233b5ee41a3d358b809c6aec8b6c701194f7f5ba",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.20:5",
+      "folioKey": "6.20:5",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-05.png",
+      "sourceSha256": "54ca7dda587e223630022b7a3e6e37aff028914d4d843565e99561ada88cfa44",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-4665c613-a1c1-4a2b-9a73-5db13a11383b",
+        "originalArtifact": "built-in-imagegen://exec-4665c613-a1c1-4a2b-9a73-5db13a11383b.png",
+        "promptProfile": "younger",
+        "scenePrompt": "Primary request: Epistula 6.20, folio 5, \"Ash upon the living.\" In a heavy shower of ash outside Misenum, Pliny the Younger and his mother stand close together and vigorously shake accumulating ash from their mantles before its weight can bury them. Ash coats their hair, shoulders, road, shrubs, and abandoned baskets; nearby survivors perform the same urgent motion. Far across the bay, a restrained orange burst of volcanic fire glows through the black cloud, but does not dominate the human struggle.\nLighting/mood: dim intermittent light after darkness, suffocating ash, stubborn endurance rather than spectacle.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; the paired garment-shaking action and dense ash fall are clear and uniquely assigned."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-20-folio-05.0a886bd0.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-20-folio-05.0a886bd0.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-20-folio-05.0a886bd0.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-20-folio-05.0a886bd0.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "54ca7dda587e223630022b7a3e6e37aff028914d4d843565e99561ada88cfa44",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    {
+      "logicalId": "afterword-folio:6.20:6",
+      "folioKey": "6.20:6",
+      "masterArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-06.png",
+      "sourceSha256": "6b156c758c633b685116509fde2b2009f4e07443002015849e1f13985dc2e9ee",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "role": "one-to-one modern editorial afterword folio illustration",
+      "originStatus": "generated and visually reviewed for this folio on 2026-08-26; exact prompt assembly, original artifact, and source hash recorded",
+      "creator": "OpenAI ImageGen, directed by the Naturalis Historia project owner and Codex",
+      "generationTool": "OpenAI built-in image_gen tool",
+      "generationReceipt": {
+        "campaign": "naturalis-vesuvius-folios-v1",
+        "generationArtifactId": "exec-8676b046-6a28-40a2-9162-c6bef9d6f034",
+        "originalArtifact": "built-in-imagegen://exec-8676b046-6a28-40a2-9162-c6bef9d6f034.png",
+        "promptProfile": "younger",
+        "scenePrompt": "Primary request: Epistula 6.20, folio 6, \"The altered world.\" Pliny the Younger and his mother walk slowly back into Misenum after the darkness lifts. The real day has returned under a lurid eclipse-like sun; streets, roofs, statues, vines, and the harbor are buried deep in pale ash like snow. Citizens emerge in stunned silence, an aftershock has cracked masonry, and the young Pliny looks across a familiar world made strange. No active eruption should dominate; the subject is aftermath and survival.\nLighting/mood: sickly silver-gold daylight, vast quiet, relief inseparable from grief; a final, contemplative image.",
+        "customPrompt": null,
+        "builtInMode": true,
+        "visualQa": {
+          "status": "passed",
+          "notes": [
+            "Accepted at original resolution; pale ash, cracked masonry, lurid sun, and returning survivors form a distinct final aftermath scene."
+          ]
+        }
+      },
+      "pipelineRevision": "responsive-plates-v2:sharp-0.35.3:avif55-444:webp82:mozjpeg80",
+      "derivatives": [
+        "/assets/pliny-younger-vesuvius-6-20-folio-06.50a5d2f5.w1024.avif",
+        "/assets/pliny-younger-vesuvius-6-20-folio-06.50a5d2f5.w1024.webp",
+        "/assets/pliny-younger-vesuvius-6-20-folio-06.50a5d2f5.w1024.jpg",
+        "/assets/pliny-younger-vesuvius-6-20-folio-06.50a5d2f5.w1536.avif"
+      ],
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsSourceSha256": "6b156c758c633b685116509fde2b2009f4e07443002015849e1f13985dc2e9ee",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "rightsEvidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "rightsProvenanceReference": "assets-source/vesuvius-folios-provenance.json"
     },
     {
       "logicalId": "chapter-scene:1:praef",

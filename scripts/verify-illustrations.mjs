@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 import sharp from 'sharp';
 
+import { VESUVIUS_FOLIO_SOURCES } from '../app/afterword/vesuvius/generated-folio-sources.mjs';
 import { IMAGE_SOURCES } from '../app/generated-image-sources.mjs';
 import { CHAPTER_SCENE_AUDIT_SOURCES } from '../app/generated-chapter-scene-audit-sources.mjs';
 import { CHAPTER_SCENE_DELIVERY_HASHES, chapterSceneSourceFor } from '../app/generated-chapter-scene-sources.mjs';
@@ -14,6 +15,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const publicRoot = path.join(root, 'public');
 const manifest = JSON.parse(fs.readFileSync(path.join(publicRoot, 'corpus', 'manifest.json'), 'utf8'));
 const plateCampaign = JSON.parse(fs.readFileSync(path.join(root, 'assets-source', 'plates-provenance.json'), 'utf8'));
+const vesuviusFolioCampaign = JSON.parse(fs.readFileSync(path.join(root, 'assets-source', 'vesuvius-folios-provenance.json'), 'utf8'));
 const artworkManifest = JSON.parse(fs.readFileSync(path.join(root, 'assets-source', 'chapter-artwork-manifest.json'), 'utf8'));
 const publicProvenance = JSON.parse(fs.readFileSync(path.join(publicRoot, 'provenance.json'), 'utf8'));
 const canonicalChapterSceneCount = 1_065;
@@ -22,6 +24,9 @@ const activePlatePaths = [
   '/assets/pliny-younger-vesuvius-letters-atlas.jpg',
 ];
 const activePlateFiles = activePlatePaths.map((logicalPath) => path.basename(logicalPath));
+const vesuviusFolioRecords = Object.entries(vesuviusFolioCampaign.records ?? {});
+const vesuviusFolioPaths = vesuviusFolioRecords.map(([, record]) => record.logicalPath);
+const responsivePlatePaths = [...activePlatePaths, ...vesuviusFolioPaths];
 const fail = (condition, message) => { if (!condition) throw new Error(message); };
 const sha256File = (file) => createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 
@@ -52,7 +57,9 @@ fail(
   'Active plate provenance must contain exactly the dedication and Vesuvius masters',
 );
 fail(JSON.stringify([...PLATE_IMAGE_PATHS].sort()) === JSON.stringify(activePlatePaths), 'Illustration registry contains an inactive non-chapter plate');
-fail(JSON.stringify(Object.keys(IMAGE_SOURCES).sort()) === JSON.stringify(activePlatePaths), 'Responsive plate source map contains an inactive non-chapter plate');
+fail(vesuviusFolioRecords.length === 12, `Expected 12 Vesuvius folio masters, found ${vesuviusFolioRecords.length}`);
+fail(JSON.stringify(Object.keys(VESUVIUS_FOLIO_SOURCES).sort()) === JSON.stringify(vesuviusFolioRecords.map(([, record]) => record.artworkId).sort()), 'Vesuvius folio source registry drifted');
+fail(JSON.stringify(Object.keys(IMAGE_SOURCES).sort()) === JSON.stringify(responsivePlatePaths.sort()), 'Responsive plate source map contains an inactive or missing plate');
 fail(Object.keys(CHAPTER_SCENE_AUDIT_SOURCES).length === canonicalChapterSceneCount, `Expected ${canonicalChapterSceneCount} chapter-scene audit records`);
 fail(Object.keys(CHAPTER_SCENE_DELIVERY_HASHES).length === canonicalChapterSceneCount, `Expected ${canonicalChapterSceneCount} lean chapter-scene delivery records`);
 fail(Object.values(CHAPTER_SCENE_DELIVERY_HASHES).every((hash) => /^[0-9a-f]{8}$/u.test(hash)), 'Lean chapter-scene registry contains non-hash metadata');
@@ -117,38 +124,51 @@ for (const logicalPath of activePlatePaths) {
   }
 }
 
-const expectedAfterwordCrops = {
-  observer: { left: 0, top: 0, width: 768, height: 512 },
-  fleet: { left: 768, top: 0, width: 768, height: 512 },
-  appeal: { left: 0, top: 512, width: 768, height: 512 },
-  ash: { left: 768, top: 512, width: 768, height: 512 },
-};
 const afterwordRecord = publicProvenance.assets.find((asset) => asset.logicalId === 'plate:pliny-younger-vesuvius-letters-atlas');
-fail(
-  JSON.stringify(Object.keys(afterwordRecord?.editorialCrops ?? {}).sort()) === JSON.stringify(Object.keys(expectedAfterwordCrops).sort()),
-  'Vesuvius afterword must expose exactly four editorial crops',
-);
-for (const [panel, expectedCrop] of Object.entries(expectedAfterwordCrops)) {
-  const crop = afterwordRecord.editorialCrops[panel];
-  fail(JSON.stringify(crop.crop) === JSON.stringify(expectedCrop), `Vesuvius ${panel} crop geometry drifted`);
-  fail(crop.derivatives.length === 3 && new Set(crop.derivatives).size === 3, `Vesuvius ${panel} crop derivative set is incomplete`);
-  for (const derivative of crop.derivatives) {
+fail(afterwordRecord && afterwordRecord.editorialCrops === undefined, 'The opening atlas must not retain repeated folio crop delivery');
+const folioMasterHashes = new Set();
+for (const [folioKey, record] of vesuviusFolioRecords) {
+  const source = VESUVIUS_FOLIO_SOURCES[record.artworkId];
+  const responsive = IMAGE_SOURCES[record.logicalPath];
+  const masterPath = path.join(root, record.sourceArtifact);
+  fail(source && responsive, `Missing responsive Vesuvius source at ${folioKey}`);
+  fail(fs.existsSync(masterPath), `Missing Vesuvius folio master at ${folioKey}`);
+  fail(!fs.existsSync(path.join(publicRoot, record.logicalPath.replace(/^\//, ''))), `Vesuvius master is deployed directly at ${folioKey}`);
+  const masterBytes = fs.readFileSync(masterPath);
+  const masterSha256 = createHash('sha256').update(masterBytes).digest('hex');
+  fail(masterSha256 === record.sourceSha256, `Vesuvius source hash drifted at ${folioKey}`);
+  fail(!plateMasterHashes.has(masterSha256) && !folioMasterHashes.has(masterSha256), `Vesuvius source is byte-identical to another active master at ${folioKey}`);
+  folioMasterHashes.add(masterSha256);
+  const metadata = await sharp(masterBytes).metadata();
+  fail(metadata.width === 1536 && metadata.height === 1024 && metadata.format === 'png' && !metadata.hasAlpha, `Vesuvius source geometry/format drifted at ${folioKey}`);
+  fail(source.sourceSha256 === masterSha256 && responsive.sourceSha256 === masterSha256, `Vesuvius responsive hash drifted at ${folioKey}`);
+  fail(source.logicalPath === record.logicalPath, `Vesuvius logical path drifted at ${folioKey}`);
+  fail(source.derivatives.length === 4 && new Set(source.derivatives).size === 4, `Vesuvius derivative set is incomplete at ${folioKey}`);
+  fail(JSON.stringify(source.derivatives) === JSON.stringify(responsive.derivatives), `Vesuvius responsive registries disagree at ${folioKey}`);
+  const publicRecord = publicProvenance.assets.find((asset) => asset.logicalId === record.artworkId);
+  fail(publicRecord?.folioKey === folioKey && publicRecord?.role === 'one-to-one modern editorial afterword folio illustration', `Vesuvius public provenance drifted at ${folioKey}`);
+  const expectedNameHash = createHash('sha256').update(`${masterSha256}:${source.pipelineRevision}`).digest('hex').slice(0, 8);
+  for (const derivative of source.derivatives) {
     fail(!declaredDerivativePaths.has(derivative), `Responsive derivative URL is reused: ${derivative}`);
     declaredDerivativePaths.add(derivative);
+    const nameMatch = path.basename(derivative).match(new RegExp(`^[a-z0-9-]+\\.${expectedNameHash}\\.w(\\d+)\\.(avif|webp|jpg)$`, 'u'));
+    fail(nameMatch, `Vesuvius derivative name is not source/pipeline-bound: ${derivative}`);
     const derivativePath = path.join(publicRoot, derivative.replace(/^\//, ''));
-    fail(fs.existsSync(derivativePath), `Missing Vesuvius crop derivative: ${derivative}`);
-    const metadata = await sharp(derivativePath).metadata();
-    const extension = path.extname(derivative).slice(1);
-    const expectedMediaType = extension === 'jpg' ? 'image/jpeg' : `image/${extension}`;
+    fail(fs.existsSync(derivativePath), `Missing Vesuvius folio derivative: ${derivative}`);
+    const derivativeMetadata = await sharp(derivativePath).metadata();
+    const expectedWidth = Number.parseInt(nameMatch[1], 10);
+    const expectedHeight = Math.round((metadata.height * expectedWidth) / metadata.width);
+    const expectedMediaType = nameMatch[2] === 'jpg' ? 'image/jpeg' : `image/${nameMatch[2]}`;
     fail(
-      metadata.width === expectedCrop.width
-        && metadata.height === expectedCrop.height
-        && metadata.mediaType === expectedMediaType
-        && !metadata.hasAlpha,
-      `Vesuvius ${panel} derivative geometry/format drifted: ${derivative}`,
+      derivativeMetadata.width === expectedWidth
+        && derivativeMetadata.height === expectedHeight
+        && derivativeMetadata.mediaType === expectedMediaType
+        && !derivativeMetadata.hasAlpha,
+      `Vesuvius folio derivative geometry/format drifted at ${folioKey}: ${derivative}`,
     );
   }
 }
+fail(folioMasterHashes.size === 12, 'Vesuvius folio source uniqueness drifted');
 
 const routeInstances = new Set();
 const renderedCompositions = new Set();
@@ -274,7 +294,7 @@ fail(
   'A chapter route references a non-chapter visual',
 );
 
-const expectedDerivativeCount = canonicalChapterSceneCount * 4 + activePlatePaths.length * 4 + Object.keys(expectedAfterwordCrops).length * 3;
+const expectedDerivativeCount = canonicalChapterSceneCount * 4 + responsivePlatePaths.length * 4;
 fail(declaredDerivativePaths.size === expectedDerivativeCount, `Expected ${expectedDerivativeCount} active illustration derivatives, found ${declaredDerivativePaths.size}`);
 const deployedFiles = fs.readdirSync(path.join(publicRoot, 'assets'));
 const deployedDerivativePaths = new Set(deployedFiles.map((file) => `/assets/${file}`));
@@ -290,5 +310,5 @@ const deployedBudget = (canonicalChapterSceneCount + 32) * 1024 * 1024;
 fail(deployedBytes <= deployedBudget, `Responsive illustration budget exceeded: ${deployedBytes} bytes`);
 
 console.log(
-  `Verified ${canonicalChapterSceneCount.toLocaleString('en-US')} unique standalone chapter scenes, ${activePlatePaths.length} active non-chapter plates, ${Object.keys(expectedAfterwordCrops).length} Vesuvius panel crops, 0 atlas-cell library entries/routes/derivatives, and ${deployedDerivativePaths.size.toLocaleString('en-US')} exact responsive illustration files (${(deployedBytes / 1024 / 1024).toFixed(2)} MiB).`,
+  `Verified ${canonicalChapterSceneCount.toLocaleString('en-US')} unique standalone chapter scenes, ${activePlatePaths.length} supplementary plates, 12 one-to-one Vesuvius folio illustrations, 0 atlas-cell library entries/routes/derivatives, and ${deployedDerivativePaths.size.toLocaleString('en-US')} exact responsive illustration files (${(deployedBytes / 1024 / 1024).toFixed(2)} MiB).`,
 );

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 import sharp from 'sharp';
 
+import { VESUVIUS_FOLIO_SOURCES } from '../app/afterword/vesuvius/generated-folio-sources.mjs';
 import { IMAGE_SOURCES } from '../app/generated-image-sources.mjs';
 import { CHAPTER_SCENE_AUDIT_SOURCES } from '../app/generated-chapter-scene-audit-sources.mjs';
 import { CHAPTER_SCENE_DELIVERY_HASHES, chapterSceneSourceFor } from '../app/generated-chapter-scene-sources.mjs';
@@ -16,6 +17,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(await readFile(path.join(root, 'public', 'corpus', 'manifest.json'), 'utf8'));
 const provenance = JSON.parse(await readFile(path.join(root, 'public', 'provenance.json'), 'utf8'));
 const generationCampaign = JSON.parse(await readFile(path.join(root, 'assets-source', 'plates-provenance.json'), 'utf8'));
+const vesuviusFolioCampaign = JSON.parse(await readFile(path.join(root, 'assets-source', 'vesuvius-folios-provenance.json'), 'utf8'));
 const chapterSceneCampaign = JSON.parse(await readFile(path.join(root, 'assets-source', 'chapter-scenes-provenance.json'), 'utf8'));
 const mediaRights = JSON.parse(await readFile(path.join(root, 'assets-source', 'asset-rights.json'), 'utf8'));
 const ogGeneration = JSON.parse(await readFile(path.join(root, 'assets-source', 'og-provenance.json'), 'utf8'));
@@ -25,8 +27,12 @@ const activePlatePaths = [
   '/assets/pliny-younger-vesuvius-letters-atlas.jpg',
 ];
 const activePlateFiles = activePlatePaths.map((logicalPath) => path.basename(logicalPath));
+const vesuviusFolioRecords = Object.entries(vesuviusFolioCampaign.records ?? {});
+const vesuviusFolioPaths = vesuviusFolioRecords.map(([, record]) => record.logicalPath);
+const responsivePlatePaths = [...activePlatePaths, ...vesuviusFolioPaths];
 const generatedReceiptCount = Object.keys(generationCampaign.assets).length
-  + Object.keys(generationCampaign.legacyAssets ?? {}).length;
+  + Object.keys(generationCampaign.legacyAssets ?? {}).length
+  + vesuviusFolioRecords.length;
 const chapterSceneCount = Object.keys(chapterSceneCampaign.records ?? {}).length;
 const chapterSceneSourceMode = resolveChapterSceneSourceMode(
   root,
@@ -44,12 +50,14 @@ fail(
   JSON.stringify(Object.keys(generationCampaign.legacyAssets ?? {}).sort()) === JSON.stringify(activePlateFiles),
   'Active plate provenance must contain exactly the dedication and Vesuvius masters',
 );
-fail(generatedReceiptCount === activePlatePaths.length, `Expected ${activePlatePaths.length} active plate receipts, found ${generatedReceiptCount}`);
+fail(vesuviusFolioRecords.length === 12, `Expected 12 Vesuvius folio receipts, found ${vesuviusFolioRecords.length}`);
+fail(generatedReceiptCount === responsivePlatePaths.length, `Expected ${responsivePlatePaths.length} responsive plate receipts, found ${generatedReceiptCount}`);
 fail(JSON.stringify([...PLATE_IMAGE_PATHS].sort()) === JSON.stringify(activePlatePaths), 'Illustration registry must contain exactly the two active non-chapter plates');
-fail(JSON.stringify(Object.keys(IMAGE_SOURCES).sort()) === JSON.stringify(activePlatePaths), 'Responsive plate source map contains inactive or missing plates');
+fail(JSON.stringify(Object.keys(VESUVIUS_FOLIO_SOURCES).sort()) === JSON.stringify(vesuviusFolioRecords.map(([, record]) => record.artworkId).sort()), 'Vesuvius folio source registry drifted');
+fail(JSON.stringify(Object.keys(IMAGE_SOURCES).sort()) === JSON.stringify(responsivePlatePaths.sort()), 'Responsive plate source map contains inactive or missing plates');
 fail(provenance.schemaVersion === 1, 'Unsupported provenance schema');
 fail(provenance.edition.corpusManifest === '/corpus/manifest.json', 'Provenance points at the wrong corpus manifest');
-fail(provenance.assets.length === PLATE_IMAGE_PATHS.length + chapterSceneCount, `Expected ${PLATE_IMAGE_PATHS.length + chapterSceneCount} asset records, found ${provenance.assets.length}`);
+fail(provenance.assets.length === responsivePlatePaths.length + chapterSceneCount, `Expected ${responsivePlatePaths.length + chapterSceneCount} asset records, found ${provenance.assets.length}`);
 fail(provenance.edition.version === policy.version, 'Provenance edition version drifted');
 fail(provenance.edition.publicIndexing === policy.publicIndexing, 'Provenance indexing policy drifted');
 fail(
@@ -60,8 +68,8 @@ fail(
   }),
   'Provenance does not disclose the public-repository source-master boundary',
 );
-fail(new Set(provenance.assets.map((asset) => asset.logicalId)).size === PLATE_IMAGE_PATHS.length + chapterSceneCount, 'Provenance repeats an asset');
-fail(Object.keys(mediaRights.assets ?? {}).length === PLATE_IMAGE_PATHS.length + chapterSceneCount + 1, 'Per-asset rights manifest is incomplete or contains inactive media');
+fail(new Set(provenance.assets.map((asset) => asset.logicalId)).size === responsivePlatePaths.length + chapterSceneCount, 'Provenance repeats an asset');
+fail(Object.keys(mediaRights.assets ?? {}).length === responsivePlatePaths.length + chapterSceneCount + 1, 'Per-asset rights manifest is incomplete or contains inactive media');
 fail(provenance.assets.every((asset) => asset.editorialCells === undefined), 'Public provenance still exposes an atlas-cell library');
 
 for (const logicalPath of PLATE_IMAGE_PATHS) {
@@ -119,6 +127,62 @@ for (const logicalPath of PLATE_IMAGE_PATHS) {
     );
   }
 }
+
+const vesuviusFolioHashes = new Set();
+for (const [folioKey, generationRecord] of vesuviusFolioRecords) {
+  const source = VESUVIUS_FOLIO_SOURCES[generationRecord.artworkId];
+  const responsive = IMAGE_SOURCES[generationRecord.logicalPath];
+  const record = provenance.assets.find((asset) => asset.logicalId === generationRecord.artworkId);
+  fail(source && responsive && record, `No responsive/public provenance record for Vesuvius folio ${folioKey}`);
+  fail(record.folioKey === folioKey && record.masterArtifact === generationRecord.sourceArtifact, `Vesuvius folio identity drifted for ${folioKey}`);
+  const master = await readFile(path.join(root, record.masterArtifact));
+  const masterSha256 = createHash('sha256').update(master).digest('hex');
+  const masterMetadata = await sharp(master).metadata();
+  fail(masterSha256 === generationRecord.sourceSha256 && masterSha256 === record.sourceSha256, `Vesuvius folio source hash drifted for ${folioKey}`);
+  fail(!vesuviusFolioHashes.has(masterSha256), `Vesuvius folio source repeats another folio: ${folioKey}`);
+  vesuviusFolioHashes.add(masterSha256);
+  fail(masterMetadata.width === 1536 && masterMetadata.height === 1024 && masterMetadata.format === 'png' && !masterMetadata.hasAlpha, `Vesuvius folio master geometry drifted for ${folioKey}`);
+  fail(record.sourceDimensions?.width === masterMetadata.width && record.sourceDimensions?.height === masterMetadata.height, `Vesuvius folio dimensions drifted for ${folioKey}`);
+  fail(source.logicalPath === generationRecord.logicalPath && source.sourceSha256 === masterSha256, `Vesuvius folio runtime source drifted for ${folioKey}`);
+  fail(responsive.sourceSha256 === masterSha256 && responsive.pipelineRevision === record.pipelineRevision, `Vesuvius responsive receipt drifted for ${folioKey}`);
+  fail(JSON.stringify(source.derivatives) === JSON.stringify(responsive.derivatives)
+    && JSON.stringify(source.derivatives) === JSON.stringify(record.derivatives), `Vesuvius derivative ledger drifted for ${folioKey}`);
+  fail(record.role === 'one-to-one modern editorial afterword folio illustration', `Vesuvius folio role drifted for ${folioKey}`);
+  fail(record.creator === vesuviusFolioCampaign.creator && record.generationTool === vesuviusFolioCampaign.tool, `Vesuvius creator/tool provenance drifted for ${folioKey}`);
+  fail(record.generationReceipt?.campaign === vesuviusFolioCampaign.campaign
+    && record.generationReceipt?.generationArtifactId === generationRecord.generationArtifactId
+    && record.generationReceipt?.originalArtifact === generationRecord.originalArtifact
+    && record.generationReceipt?.promptProfile === (generationRecord.promptProfile ?? null)
+    && record.generationReceipt?.scenePrompt === (generationRecord.scenePrompt ?? null)
+    && record.generationReceipt?.customPrompt === (generationRecord.customPrompt ?? null)
+    && record.generationReceipt?.builtInMode === true
+    && record.generationReceipt?.visualQa?.status === 'passed', `Vesuvius generation evidence drifted for ${folioKey}`);
+  fail(generationRecord.customPrompt || (vesuviusFolioCampaign.promptProfiles[generationRecord.promptProfile] && generationRecord.scenePrompt), `Vesuvius exact prompt assembly is incomplete for ${folioKey}`);
+  const rights = mediaRights.assets[generationRecord.artworkId];
+  fail(rights?.sourceArtifact === record.masterArtifact
+    && rights.sourceSha256 === masterSha256
+    && !rights.rightsStatus.includes('pending')
+    && record.rightsStatus === rights.rightsStatus
+    && record.rightsHolder === rights.rightsHolder
+    && record.license === rights.license
+    && record.rightsEvidence === rights.evidence, `Vesuvius folio rights evidence drifted for ${folioKey}`);
+  fail(record.derivatives.length === 4 && new Set(record.derivatives).size === 4, `Vesuvius derivative set is incomplete for ${folioKey}`);
+  const expectedNameHash = createHash('sha256').update(`${masterSha256}:${source.pipelineRevision}`).digest('hex').slice(0, 8);
+  for (const derivative of record.derivatives) {
+    const derivativePath = path.join(root, 'public', derivative.replace(/^\//, ''));
+    const nameMatch = path.basename(derivative).match(new RegExp(`^${path.parse(generationRecord.logicalPath).name}\\.${expectedNameHash}\\.w(\\d+)\\.(avif|webp|jpg)$`, 'u'));
+    fail(nameMatch, `Vesuvius derivative name is invalid for ${folioKey}`);
+    const derivativeMetadata = await sharp(derivativePath).metadata();
+    const expectedWidth = Number.parseInt(nameMatch[1], 10);
+    const expectedHeight = Math.round((masterMetadata.height * expectedWidth) / masterMetadata.width);
+    const expectedMediaType = nameMatch[2] === 'jpg' ? 'image/jpeg' : `image/${nameMatch[2]}`;
+    fail(derivativeMetadata.width === expectedWidth
+      && derivativeMetadata.height === expectedHeight
+      && derivativeMetadata.mediaType === expectedMediaType
+      && !derivativeMetadata.hasAlpha, `Vesuvius derivative geometry drifted for ${folioKey}: ${derivative}`);
+  }
+}
+fail(vesuviusFolioHashes.size === 12, 'Vesuvius folio source uniqueness drifted');
 
 for (const [chapterKey, generationRecord] of Object.entries(chapterSceneCampaign.records ?? {})) {
   const source = CHAPTER_SCENE_AUDIT_SOURCES[chapterKey];
@@ -221,39 +285,12 @@ fail(
 const afterwordRecord = provenance.assets.find((asset) => asset.logicalId === 'plate:pliny-younger-vesuvius-letters-atlas');
 const dedicationRecord = provenance.assets.find((asset) => asset.logicalId === 'plate:dedication-pliny-vespasian');
 fail(dedicationRecord && dedicationRecord.editorialCrops === undefined, 'Dedication plate invents editorial crops');
-const expectedAfterwordCrops = {
-  observer: { left: 0, top: 0, width: 768, height: 512 },
-  fleet: { left: 768, top: 0, width: 768, height: 512 },
-  appeal: { left: 0, top: 512, width: 768, height: 512 },
-  ash: { left: 768, top: 512, width: 768, height: 512 },
-};
-fail(
-  JSON.stringify(Object.keys(afterwordRecord?.editorialCrops ?? {}).sort()) === JSON.stringify(Object.keys(expectedAfterwordCrops).sort()),
-  'Vesuvius afterword crop ledger is incomplete',
-);
-for (const [panel, expectedCrop] of Object.entries(expectedAfterwordCrops)) {
-  const cropRecord = afterwordRecord.editorialCrops[panel];
-  fail(JSON.stringify(cropRecord.crop) === JSON.stringify(expectedCrop), `Vesuvius ${panel} crop geometry drifted`);
-  fail(cropRecord.derivatives.length === 3 && new Set(cropRecord.derivatives).size === 3, `Vesuvius ${panel} derivative ledger is incomplete`);
-  for (const derivative of cropRecord.derivatives) {
-    const derivativePath = path.join(root, 'public', derivative.replace(/^\//, ''));
-    const metadata = await sharp(derivativePath).metadata();
-    const extension = path.extname(derivative).slice(1);
-    const expectedMediaType = extension === 'jpg' ? 'image/jpeg' : `image/${extension}`;
-    fail(metadata.width === expectedCrop.width
-      && metadata.height === expectedCrop.height
-      && metadata.mediaType === expectedMediaType
-      && !metadata.hasAlpha, `Vesuvius ${panel} derivative geometry or format drifted: ${derivative}`);
-  }
-}
-const declaredDerivativePaths = new Set([
-  ...provenance.assets.flatMap((asset) => asset.derivatives),
-  ...Object.values(afterwordRecord.editorialCrops).flatMap((crop) => crop.derivatives),
-]);
+fail(afterwordRecord && afterwordRecord.editorialCrops === undefined, 'The opening atlas must not retain repeated folio crop delivery');
+const declaredDerivativePaths = new Set(provenance.assets.flatMap((asset) => asset.derivatives));
 const deployedDerivativePaths = new Set(
   (await readdir(path.join(root, 'public', 'assets'))).map((file) => `/assets/${file}`),
 );
-fail(declaredDerivativePaths.size === canonicalChapterSceneCount * 4 + 2 * 4 + 4 * 3, `Expected 4,280 active illustration derivatives, found ${declaredDerivativePaths.size}`);
+fail(declaredDerivativePaths.size === canonicalChapterSceneCount * 4 + responsivePlatePaths.length * 4, `Expected 4,316 active illustration derivatives, found ${declaredDerivativePaths.size}`);
 fail([...declaredDerivativePaths].every((derivative) => !/-cell-[a-z][0-9]\./u.test(derivative)), 'Atlas-cell derivative remains in the public provenance ledger');
 fail(
   declaredDerivativePaths.size === deployedDerivativePaths.size
@@ -278,4 +315,4 @@ fail(youngerEnglish?.sha256 === '38246747bde7ef4da17603bee74b5344cc1502f8e41d651
 
 const mediaRecords = [...provenance.artifacts, ...provenance.assets];
 const pendingMedia = mediaRecords.filter((record) => record.rightsStatus.includes('pending')).length;
-console.log(`Verified ${chapterSceneCount} one-to-one chapter-scene records${chapterSceneSourceMode === 'prebuilt-public' ? ' against authenticated prebuilt derivatives' : ' against preservation-master bytes'}, exactly 2 active non-chapter plate receipts, 4 Vesuvius panel crops, 1 social card, 0 atlas-cell records or derivatives, ${mediaRecords.length - pendingMedia} cleared / ${pendingMedia} pending media records, and Elder/Younger text-source provenance`);
+console.log(`Verified ${chapterSceneCount} one-to-one chapter-scene records${chapterSceneSourceMode === 'prebuilt-public' ? ' against authenticated prebuilt derivatives' : ' against preservation-master bytes'}, 2 supplementary plate receipts, 12 one-to-one Vesuvius folio illustrations, 1 social card, 0 atlas-cell records or derivatives, ${mediaRecords.length - pendingMedia} cleared / ${pendingMedia} pending media records, and Elder/Younger text-source provenance`);

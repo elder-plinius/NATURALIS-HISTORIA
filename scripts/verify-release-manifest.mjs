@@ -33,11 +33,37 @@ const listed = spawnSync('git', ['ls-files', '--cached', '--others', '--exclude-
   encoding: 'utf8',
   shell: false,
 });
-if (listed.status !== 0) throw new Error(listed.stderr || 'Unable to enumerate release source through Git.');
 
-const releasePaths = [...new Set(listed.stdout.split('\0').filter(Boolean))]
-  .filter((relative) => includeReleasePath(relative, RELEASE_PROFILES.PUBLIC_REPO))
-  .filter((relative) => fs.existsSync(path.join(root, relative)));
+const enumerateExtractedReleasePaths = () => {
+  const paths = [];
+  const stack = [''];
+  while (stack.length) {
+    const directory = stack.pop();
+    for (const entry of fs.readdirSync(path.join(root, directory), { withFileTypes: true })) {
+      const relative = path.posix.join(directory, entry.name);
+      if (entry.isDirectory()) {
+        if (includeReleasePath(`${relative}/__release_probe__`, RELEASE_PROFILES.PUBLIC_REPO)) stack.push(relative);
+        continue;
+      }
+      if (!includeReleasePath(relative, RELEASE_PROFILES.PUBLIC_REPO)) continue;
+      if (entry.isSymbolicLink()) throw new Error(`Extracted release contains a symbolic link: ${relative}`);
+      if (!entry.isFile()) throw new Error(`Extracted release path is not a regular file: ${relative}`);
+      paths.push(relative);
+    }
+  }
+  return paths;
+};
+
+let releasePaths;
+if (listed.status === 0) {
+  releasePaths = [...new Set(listed.stdout.split('\0').filter(Boolean))]
+    .filter((relative) => includeReleasePath(relative, RELEASE_PROFILES.PUBLIC_REPO))
+    .filter((relative) => fs.existsSync(path.join(root, relative)));
+} else if (!fs.existsSync(path.join(root, '.git'))) {
+  releasePaths = enumerateExtractedReleasePaths();
+} else {
+  throw new Error(listed.stderr || 'Unable to enumerate release source through Git.');
+}
 const expectedPaths = [...new Set([...releasePaths, 'RELEASE-PROFILE.json'])]
   .sort((left, right) => left.localeCompare(right, 'en'));
 

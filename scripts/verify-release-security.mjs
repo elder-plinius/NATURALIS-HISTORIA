@@ -200,7 +200,7 @@ const stack = [root];
 while (stack.length) {
   const directory = stack.pop();
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-    if (entry.isDirectory() && skippedDirectories.has(entry.name)) continue;
+    if (skippedDirectories.has(entry.name)) continue;
     const absolute = path.join(directory, entry.name);
     const relative = path.relative(root, absolute).split(path.sep).join('/');
     if (relative === '.git' || relative.startsWith('.git/')) continue;

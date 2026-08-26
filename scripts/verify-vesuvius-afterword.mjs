@@ -5,6 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { chapterIllustration } from '../app/illustrations.mjs';
+import { VESUVIUS_FOLIO_SOURCES } from '../app/afterword/vesuvius/generated-folio-sources.mjs';
 import { chapterSceneAuditSourceFor } from '../app/generated-chapter-scene-audit-sources.mjs';
 import { chapterSceneSourceFor } from '../app/generated-chapter-scene-sources.mjs';
 import { corpusBookMeta, corpusBookUrl } from './corpus-path.mjs';
@@ -20,6 +21,7 @@ const generatedCss = await read('app/generated-image-sources.css');
 const catalogue = await read('app/catalogue/page.tsx');
 const edition = await read('app/edition/page.tsx');
 const artworkManifest = JSON.parse(await read('assets-source/chapter-artwork-manifest.json'));
+const vesuviusFolioCampaign = JSON.parse(await read('assets-source/vesuvius-folios-provenance.json'));
 const chapterSceneCampaign = JSON.parse(await read('assets-source/chapter-scenes-provenance.json'));
 const manifest = JSON.parse(await read('public/corpus/manifest.json'));
 const provenance = JSON.parse(await read('public/provenance.json'));
@@ -39,15 +41,24 @@ for (const letter of data.letters) {
   letter.folios.forEach((folio, index) => {
     if (index) assert.equal(folio.sectionStart, letter.folios[index - 1].sectionEnd + 1);
     assert.ok(folio.latin.length > 250 && folio.english.length > 500, `${letter.id}.${folio.number} is unexpectedly short`);
+    assert.equal(folio.artworkId, `afterword-folio:${letter.id}:${folio.number}`);
+    assert.ok(folio.imageAlt.length > 50 && folio.imageCaption.length > 20, `${letter.id}.${folio.number} lacks page-specific image copy`);
   });
 }
+
+const folioArtworkIds = data.letters.flatMap((letter) => letter.folios.map((folio) => folio.artworkId));
+assert.equal(folioArtworkIds.length, 12);
+assert.equal(new Set(folioArtworkIds).size, 12);
+assert.deepEqual(
+  [...folioArtworkIds].sort(),
+  Object.values(vesuviusFolioCampaign.records).map((record) => record.artworkId).sort(),
+);
 
 assert.match(data.letters[0].folios[1].latin, /Nonum Kal\. Septembres/);
 assert.match(data.letters[0].folios[2].latin, /Fortes[^\n]+fortuna iuvat/);
 assert.match(data.letters[0].folios[5].english, /a letter is one thing, a history another/);
 assert.match(data.letters[1].folios[0].latin, /duodevicensimum annum/);
 assert.match(data.letters[1].folios[3].english, /shrieks of women, the screams of children/);
-assert.equal(data.letters[1].folios[2].panel, 'ash', 'VI.20 folio 3 must not reuse the VI.16 Rectina scene');
 
 assert.equal(data.latinSource.sha256, '313c67a08efae2c33d95cdb52004be5a0b6b5c2d8a58ecfd08dffdfc1465f257');
 assert.equal(data.englishSource.sha256, '38246747bde7ef4da17603bee74b5344cc1502f8e41d6515fe72651ca0e8fa9a');
@@ -82,15 +93,16 @@ assert.match(css, /\.afterword-passage:focus-visible/);
 assert.doesNotMatch(css, /\.afterword-narrator/);
 assert.match(component, /Dickinson VI\.16/);
 assert.match(component, /different textual tradition/);
-assert.match(component, /Earth, sea, and cloud at Misenum/);
-assert.match(css, /\.afterword-plate-image\.panel-observer[\s\S]*\.afterword-plate-image\.panel-tablets/);
+assert.match(JSON.stringify(data), /Earth, sea, and cloud depart their order/);
+assert.match(component, /VESUVIUS_FOLIO_SOURCES/);
+assert.match(component, /renderPlate\(content\.folio\)/);
+assert.match(component, /--afterword-panel-image-set-mobile/);
+assert.doesNotMatch(component, /PANEL_COPY|LETTER_PANEL_COPY|content\.folio\.panel|panel-(?:observer|fleet|appeal|ash|tablets)/);
+assert.doesNotMatch(css, /\.afterword-plate-image\.panel-(?:observer|fleet|appeal|ash|tablets)/);
 assert.match(css, /\.afterword-quadrants \.afterword-plate-image \{ aspect-ratio: 3 \/ 2;/);
 assert.doesNotMatch(css, /background-size:\s*200% 200%/);
 assert.match(generatedCss, /--afterword-image-set-desktop:/);
-for (const panel of ['observer', 'fleet', 'appeal', 'ash']) {
-  assert.match(generatedCss, new RegExp(`--afterword-panel-${panel}-fallback:`));
-  assert.match(generatedCss, new RegExp(`--afterword-panel-${panel}-image-set:`));
-}
+assert.doesNotMatch(generatedCss, /--afterword-panel-/);
 assert.doesNotMatch(`${reader}\n${css}`, /Vesuvius Vigil|vesuvius-vigil|vigilOpen|--vigil-image/);
 assert.match(reader, /href="\/afterword\/vesuvius"/);
 assert.match(catalogue, /After the complete work|AFTER THE COMPLETE WORK/);
@@ -100,13 +112,37 @@ assert.match(edition, /Miscnum[\s\S]*Misenum/);
 
 const afterwordAsset = provenance.assets.find((asset) => asset.logicalId === 'plate:pliny-younger-vesuvius-letters-atlas');
 assert.ok(afterwordAsset, 'Vesuvius afterword atlas is missing from provenance');
-assert.deepEqual(Object.keys(afterwordAsset.editorialCrops ?? {}).sort(), ['appeal', 'ash', 'fleet', 'observer']);
-for (const record of Object.values(afterwordAsset.editorialCrops)) {
-  assert.equal(record.crop.width, 768);
-  assert.equal(record.crop.height, 512);
-  assert.equal(record.derivatives.length, 3);
-  for (const derivative of record.derivatives) await access(path.join(root, 'public', derivative.replace(/^\//, '')));
+assert.equal(afterwordAsset.editorialCrops, undefined);
+const folioSourceHashes = new Set();
+const folioDerivativePaths = new Set();
+for (const [folioKey, record] of Object.entries(vesuviusFolioCampaign.records)) {
+  const master = await readFile(path.join(root, record.sourceArtifact));
+  const sourceSha256 = createHash('sha256').update(master).digest('hex');
+  assert.equal(sourceSha256, record.sourceSha256, `${folioKey} source hash drifted`);
+  assert.ok(!folioSourceHashes.has(sourceSha256), `${folioKey} repeats another folio source`);
+  folioSourceHashes.add(sourceSha256);
+  assert.equal(record.builtInMode, true);
+  assert.ok(record.generationArtifactId);
+  assert.equal(record.visualQa.status, 'passed');
+  assert.ok(record.customPrompt || (record.promptProfile && record.scenePrompt));
+  const source = VESUVIUS_FOLIO_SOURCES[record.artworkId];
+  assert.ok(source, `${folioKey} is absent from the generated folio registry`);
+  assert.equal(source.logicalPath, record.logicalPath);
+  assert.equal(source.sourceSha256, sourceSha256);
+  assert.equal(source.derivatives.length, 4);
+  const publicRecord = provenance.assets.find((asset) => asset.logicalId === record.artworkId);
+  assert.equal(publicRecord?.folioKey, folioKey);
+  assert.equal(publicRecord?.role, 'one-to-one modern editorial afterword folio illustration');
+  assert.equal(publicRecord?.sourceSha256, sourceSha256);
+  assert.deepEqual(publicRecord?.derivatives, source.derivatives);
+  for (const derivative of source.derivatives) {
+    assert.ok(!folioDerivativePaths.has(derivative), `${folioKey} reuses a derivative URL`);
+    folioDerivativePaths.add(derivative);
+    await access(path.join(root, 'public', derivative.replace(/^\//, '')));
+  }
 }
+assert.equal(folioSourceHashes.size, 12);
+assert.equal(folioDerivativePaths.size, 48);
 
 const corpusRoot = new URL('../public/corpus/', import.meta.url);
 const bookTwo = JSON.parse(await readFile(corpusBookUrl(corpusBookMeta(manifest, 2), corpusRoot), 'utf8'));
@@ -185,4 +221,4 @@ assert.equal(illustration.panels[0].source.masterImage, chapterScene.logicalPath
 assert.equal(illustration.panels[0].source.desktopImage, chapterScene.desktop.fallback);
 assert.match(illustration.englishCaption, new RegExp(`^${assignment.title}`));
 
-console.log(`Verified two complete Pliny the Younger letters in 12 folios, strict work boundary, source receipts, history-safe navigation, smooth bilingual diffusion, and certified one-to-one Book II imagery against ${chapterSceneSourceMode === 'prebuilt-public' ? 'authenticated prebuilt provenance' : 'the preservation master'}`);
+console.log(`Verified two complete Pliny the Younger letters in 12 folios, 12 distinct one-to-one folio illustrations, strict work boundary, source receipts, history-safe navigation, smooth bilingual diffusion, and certified one-to-one Book II imagery against ${chapterSceneSourceMode === 'prebuilt-public' ? 'authenticated prebuilt provenance' : 'the preservation master'}`);
