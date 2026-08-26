@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 
 import policy from '../edition-policy.json';
 
-export const SITE_NAME = 'Naturalis Historia — The Living Codex';
+export const SITE_NAME = policy.siteName;
+export const SITE_DESCRIPTION = policy.siteDescription;
 export const SITE_ORIGIN = policy.origin;
 export const RELEASE_ROBOTS: Metadata['robots'] = policy.publicIndexing
   ? { index: true, follow: true }
@@ -20,7 +21,7 @@ export function pageMetadata(title: string, description: string, path: string): 
     alternates: { canonical: path },
     robots: RELEASE_ROBOTS,
     openGraph: {
-      title: `${title} — Naturalis Historia`,
+      title: `${title} — ${SITE_NAME}`,
       description,
       type: 'website',
       url: path,
@@ -30,9 +31,9 @@ export function pageMetadata(title: string, description: string, path: string): 
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} — Naturalis Historia`,
+      title: `${title} — ${SITE_NAME}`,
       description,
-      images: ['/og.jpg'],
+      images: [{ url: '/og.jpg', alt: SITE_NAME }],
     },
   };
 }

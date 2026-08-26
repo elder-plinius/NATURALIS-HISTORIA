@@ -24,6 +24,7 @@ const commands = [
   ['npm', ['run', 'test:release-packaging']],
   ['npm', ['run', 'test:release-security']],
   ['npm', ['run', 'build']],
+  ['npm', ['run', 'test:release-manifest']],
 ];
 
 if (sourceMode === 'prebuilt-public') {

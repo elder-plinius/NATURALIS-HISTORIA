@@ -6,9 +6,10 @@ workflow.
 ## External state at the prelaunch audit
 
 As of the latest 26 August 2026 check, `naturalishistoria.org` resolves through
-Cloudflare and answers HTTPS, but it serves the placeholder response `Hello
-world`, not this edition. DNS reachability is therefore established; a
-successful production build and post-deploy edge verification are not.
+Cloudflare and serves this vinext edition over HTTPS. Workers Build
+`63f49ecc-b91b-434c-8d58-42cf5d77c12c` completed successfully for commit
+`fb3a96c`, and the public edge returned the expected security headers. This is
+a dated receipt, not a substitute for rechecking the edge after future merges.
 
 ## Merge the reviewed release
 
@@ -35,6 +36,9 @@ only after its checks pass. Keep `main` protected from direct pushes.
 7. Ensure the Worker name is `naturalis-historia`, matching `wrangler.jsonc`.
 8. Enable non-production branch builds when PR preview checks are wanted.
 9. Attach the intended custom domain after DNS ownership is confirmed.
+
+Cloudflare version-preview URLs are public when enabled. If a preview must be
+private, protect it with Cloudflare Access before sharing the URL.
 
 The three dashboard command fields are deliberately different:
 

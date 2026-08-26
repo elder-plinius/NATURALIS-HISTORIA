@@ -5,8 +5,32 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    groups:
+      compatible-ui-tooling:
+        patterns:
+          - "@types/react-dom"
+          - "@vitejs/plugin-react"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      # Keep runtime types aligned with the tested Node 22 production line.
+      - dependency-name: "@types/node"
+        update-types:
+          - "version-update:semver-major"
+      # The current Next lint stack does not yet support these major lines.
+      - dependency-name: eslint
+        update-types:
+          - "version-update:semver-major"
+      - dependency-name: typescript
+        update-types:
+          - "version-update:semver-major"
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    groups:
+      github-actions:
+        patterns:
+          - "actions/*"

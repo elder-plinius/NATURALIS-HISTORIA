@@ -14,6 +14,7 @@ const required = [
   'wrangler.jsonc',
   'wrangler.source.jsonc',
   '.github/CODEOWNERS',
+  '.github/dependabot.yml',
   '.github/workflows/ci.yml',
 ];
 
@@ -44,6 +45,7 @@ for (const relative of ['wrangler.jsonc', 'wrangler.source.jsonc']) {
 const policy = JSON.parse(fs.readFileSync(path.join(root, 'edition-policy.json'), 'utf8'));
 if (!policy.publicIndexing || policy.accessMode !== 'public') throw new Error('Edition policy is not public');
 if (!String(policy.origin).startsWith('https://')) throw new Error('Edition origin is not HTTPS');
+if (policy.siteName !== 'Naturalis Historia: The First Encyclopedia') throw new Error('Public site identity has drifted');
 
 const provenance = JSON.parse(fs.readFileSync(path.join(root, 'public/provenance.json'), 'utf8'));
 const media = [...(provenance.artifacts ?? []), ...(provenance.assets ?? [])];

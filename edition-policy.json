@@ -2,10 +2,12 @@
   "editionId": "naturalis-historia-living-codex",
   "version": "1.0.0",
   "releaseDate": "2026-08-26",
+  "siteName": "Naturalis Historia: The First Encyclopedia",
+  "siteDescription": "Pliny the Elder’s complete thirty-seven-book Naturalis Historia—often called the first encyclopedia—in Latin and English, with 1,065 chapter-specific illustrations.",
   "origin": "https://naturalishistoria.org",
-  "originStatus": "canonical-origin-dns-pending",
+  "originStatus": "canonical-origin-https-verified",
   "publicIndexing": true,
   "accessMode": "public",
-  "deploymentStatus": "publication-authorized-production-not-yet-live",
+  "deploymentStatus": "production-live",
   "mediaRightsSummary": "1065-chapter-scenes-plus-2-active-plates-plus-social-card-source-bound-agpl-3.0-cleared"
 }
