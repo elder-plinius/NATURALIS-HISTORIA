@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-16",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "35:19",
+    "36:1",
+    "36:2",
+    "36:3",
+    "36:4",
+    "36:5",
+    "36:6",
+    "36:7"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in prompts and artifact IDs were extracted from the current ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "sha256": "b37c72287e2ea8d58c5a951a9870f923c1fbf644bf6c495fd201e14c61ef902b"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "sha256": "9afcc6f0aad7fb629c2f65d040188442f5dcc57addf2418cba890f9b6707f769"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXV chapter 19 and Book XXXVI chapters 1 through 7 were read before prompting, including the full long catalogue in chapter 5. Geology, quarrying, transport, sculpture, architecture, sawing and polishing are depicted specifically. Toxicological, medical, magical, oracular and marvelous claims remain transmitted ancient testimony; no actionable remedy, animal suffering, supernatural verification or graphic harm appears.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 8,
+    "providerFailedNoArtifactCount": 1,
+    "totalBuiltInCalls": 17,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 9,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-16",
+    "receiptsCheckedAtSelection": 117,
+    "nonEvidenceMastersCheckedAtSelection": 916,
+    "receiptsCheckedAtCertification": 121,
+    "nonEvidenceMastersCheckedAtCertification": 948,
+    "selectedKeys": [
+      "35:19",
+      "36:1",
+      "36:2",
+      "36:3",
+      "36:4",
+      "36:5",
+      "36:6",
+      "36:7"
+    ],
+    "excludedConcurrentKeys": [
+      "34:10",
+      "34:11",
+      "34:12",
+      "34:14",
+      "34:15",
+      "34:16",
+      "34:17",
+      "34:18",
+      "35:1",
+      "35:2",
+      "35:3",
+      "35:4",
+      "35:5",
+      "35:6",
+      "35:7",
+      "35:8",
+      "35:10",
+      "35:11",
+      "35:12",
+      "35:13",
+      "35:14",
+      "35:15",
+      "35:17",
+      "35:18"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPlanStatuses": {
+      "35:19": "planned-full-scene",
+      "36:1": "planned-full-scene",
+      "36:2": "planned-full-scene",
+      "36:3": "planned-full-scene",
+      "36:4": "planned-full-scene",
+      "36:5": "planned-full-scene",
+      "36:6": "planned-full-scene",
+      "36:7": "planned-full-scene"
+    },
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 948,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "35:19": {
+        "nearestMAD": 29.86,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c003.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c002.png",
+        "madAtDHashPeer": 51.81
+      },
+      "36:1": {
+        "nearestMAD": 32.67,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c074.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c059.png",
+        "madAtDHashPeer": 37
+      },
+      "36:2": {
+        "nearestMAD": 26.88,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c006.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c039.png",
+        "madAtDHashPeer": 70.32
+      },
+      "36:3": {
+        "nearestMAD": 38.62,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b08-c009.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c014.png",
+        "madAtDHashPeer": 48.15
+      },
+      "36:4": {
+        "nearestMAD": 36.29,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c060.png",
+        "dHashAtMadPeer": 40,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c054.png",
+        "madAtDHashPeer": 96.56
+      },
+      "36:5": {
+        "nearestMAD": 28.03,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c023.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c025.png",
+        "madAtDHashPeer": 55.61
+      },
+      "36:6": {
+        "nearestMAD": 29.78,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c069.png",
+        "madAtDHashPeer": 32.61
+      },
+      "36:7": {
+        "nearestMAD": 31.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c009.png",
+        "madAtDHashPeer": 44.49
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "35:19",
+      "title": "THE EARTH OF GALATA; OF CLYPEA; OF THE BALEARES; AND OF EBUSUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b35-c019.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d772ff0ba9e3c8a22ee4d50fa3a3c5ffb86316c2e95eb8c95f5b3f17e61b3c1c",
+        "englishSha256": "c8f03a73ca56326f190d1e5bb5f5317ea4d34858741bcfedf485e74cdc3fbc5d",
+        "latinWords": 29,
+        "englishWords": 70,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6b6fae9786f2ffc1efd5c5216edab8ff376fe07f7c11ea4b23664c5575717d28",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-228f4d52-9229-4c85-9010-33cea74c1b06",
+      "generationArtifactId": "exec-228f4d52-9229-4c85-9010-33cea74c1b06",
+      "outputArtifact": "built-in-imagegen://exec-228f4d52-9229-4c85-9010-33cea74c1b06.png",
+      "exactFinalPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 35 chapter 19, landscape 3:2 at 1536x1024. Intent: an ancient natural historian compares the strange earths of Galata, Clypea, the Balearic Islands, and Ebusus, presented as transmitted natural lore rather than modern toxicology. Scene: a quiet open-air Roman material study on a dry Mediterranean terrace; one complete seated elder scholar, fully inside the frame, examines exactly four complete shallow unmarked terracotta bowls of distinctly different earth—pale chalk, warm red ochre, dark umber, and gray volcanic dust—arranged with ample breathing room on a rough stone table. Beside the table, but clearly separated from every soil sample, show one small healthy scorpion inside a complete empty bronze observation dish and one small healthy non-venomous-looking snake resting calmly in a complete empty wicker basket; neither animal is injured, dying, restrained, or touching any substance. Background: sparse scrub, distant limestone island ridges, and a narrow enclosed glimpse of calm sea fully surrounded by land and sky, with no water touching any canvas edge. Mood: curious, restrained, humane, archaeological. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed pigments; restrained umber, lampblack, verdigris, lapis, madder, and ochre; ancient Roman visual plausibility; rough and polished at once; one coherent continuous scene with strong negative space and a low horizontal silhouette. Every person, animal, bowl, basket, dish, table and other discrete subject must be fully visible with clear margins and no clipping. Opaque sRGB raster PNG. Avoid all lettering, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, manuscript frames, panels, split scenes, collage, infographic layouts, photorealism, glossy CGI, modern laboratory apparatus, exposed injury, animal suffering, or magical visual effects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-228f4d52-9229-4c85-9010-33cea74c1b06",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete scholar, exactly four distinct earth samples, one healthy scorpion in an empty dish and one healthy snake in an empty basket. Every animal, vessel and focal object is complete; the narrow sea glimpse is enclosed; no writing, harm or laboratory apparatus appears.",
+      "epistemicAndDignityNote": "The plate records Pliny’s earth lore as transmitted ancient testimony. No toxic effect is enacted and both animals remain healthy and separated from the samples.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:1",
+      "title": "LUXURY DISPLAYED IN THE USE OF VARIOUS KINDS OF MARBLE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c001.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "17c3d4741b09cec0170e93c8a35da536dfef1f80b8e20f3ad45a62eb886b8ecd",
+        "englishSha256": "32f4c71548c279b69b287958a40955cdc8ca8aa184d5f211833aa29cfda71cab",
+        "latinWords": 225,
+        "englishWords": 492,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "f629c7e35a40209efbb68eb2bc6233066935bbe0f7963753a08ef37a0cceaba5",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-553b108f-d81a-45a1-8bc9-6cc473d5a653",
+      "generationArtifactId": "exec-553b108f-d81a-45a1-8bc9-6cc473d5a653",
+      "outputArtifact": "built-in-imagegen://exec-553b108f-d81a-45a1-8bc9-6cc473d5a653.png",
+      "exactFinalPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 1, landscape 3:2 at 1536x1024. Intent: Pliny’s moral criticism of mountains cut apart for private luxury. Scene: a monumental Alpine marble quarry seen from a high oblique viewpoint at dawn. A vast pale mountainside occupies the upper distance while one rectangular quarry cut exposes dark-veined stone. In the broad foreground, one complete enormous marble block rests fully inside the frame on an ancient timber roller-sledge. A small complete group of Roman quarry workers and exactly two oxen total guide the load along a rough switchback; both oxen must be fully visible from horn to hoof, with no third animal anywhere. The oxen are calm and uninjured. Let untouched mountain mass and open sky dominate as meaningful negative space; restrained chips, ropes, wooden levers, and tiny human scale convey the absurd weight without accident or spectacle. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient Roman material plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene with a strong ascending diagonal silhouette. Every person, animal, block, sledge, tool, and other discrete subject must be complete, fully visible, separated from all canvas edges, and anatomically credible. Opaque sRGB raster PNG. Avoid sea, ships, palaces, all lettering, numerals, inscriptions, quarry marks, signatures, watermarks, pseudo-writing, decorative borders, manuscript frames, panels, split scenes, collage, photorealism, glossy CGI, modern machinery, hard hats, explosives, graphic injury, or magical effects.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b3ccf5ca-8150-4237-97a6-e175b1de110b",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-553b108f-d81a-45a1-8bc9-6cc473d5a653",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete marble block on a timber roller-sledge, exactly two complete oxen, complete work crews and a coherent Alpine quarry. Discrete subjects are internal and uninjured; no modern machinery, writing or water appears.",
+      "epistemicAndDignityNote": "The composition preserves Pliny’s moral criticism of quarrying mountains for luxury rather than glamorizing extraction.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-b3ccf5ca-8150-4237-97a6-e175b1de110b",
+          "outputArtifact": "built-in-imagegen://exec-b3ccf5ca-8150-4237-97a6-e175b1de110b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c001-reject-01-wrong-ox-count.png",
+          "sha256": "d94ced7ebc856f8d91c31ce6223cccb8fcb4632efba25bd8c592546fe10a937a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 1, landscape 3:2 at 1536x1024. Intent: visualize Pliny’s moral criticism of mountains cut apart and transported for private luxury, not a celebration of opulence. Scene: a monumental Alpine marble quarry seen from a high oblique viewpoint at dawn. A vast pale mountainside rises intact across the upper half while one severe rectangular cut exposes dark-veined stone. In the broad foreground, one complete enormous marble block rests fully inside the frame on a sturdy ancient timber sledge; a small complete team of Roman quarry workers and two complete oxen guide it along a rough switchback, all calm and uninjured, their tiny scale emphasizing the absurd weight. Let untouched mountain mass and empty sky dominate as meaningful negative space; restrained chips and ropes imply labor without spectacle. No sea, ships, palaces, violence, or accidents. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient Roman material plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene with a strong ascending diagonal silhouette, distinct from a flat catalogue illustration. Every person, animal, block, sledge, tool and other discrete subject must be complete, fully visible, and separated from all canvas edges with generous margins. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, quarry marks, signatures, watermarks, pseudo-writing, decorative borders, manuscript frames, panels, split scenes, collage, photorealism, glossy CGI, modern machinery, hard hats, explosives, graphic injury, or magical effects.",
+          "reason": "The render showed three oxen instead of the requested exact total of two."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:2",
+      "title": "WHO WAS THE FIRST TO EMPLOY MARBLE IN PUBLIC BUILDINGS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c002.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b7ce9c18a66afb109d43304655fac4da293004483e779935682c91ded7024d70",
+        "englishSha256": "e04b9121322dfc081b169fc493ded1d4ea39a5bcbc7d065ec5bc551288132973",
+        "latinWords": 120,
+        "englishWords": 288,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "746a687765e0f16b6fb31c58afb7acf9a7e9e21aa6b05b99bb5420d92105b968",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4c9da7b4-ca1f-4095-9f9a-17cef1e7a7c6",
+      "generationArtifactId": "exec-4c9da7b4-ca1f-4095-9f9a-17cef1e7a7c6",
+      "outputArtifact": "built-in-imagegen://exec-4c9da7b4-ca1f-4095-9f9a-17cef1e7a7c6.png",
+      "exactFinalPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 2, landscape 3:2 at 1536x1024. Intent: the fleeting extravagance of Marcus Scaurus importing hundreds of colossal marble columns for a temporary Roman theatre, conveyed through one representative object rather than a literal inventory. Make an unframed, full-bleed continuous landscape illustration with no inner rectangle or enclosing line. Scene: one complete colossal pale marble column—exactly one marble column total—lies horizontally on a long ancient timber roller-sledge at the center of a spacious construction ground. Small complete Roman work crews use ropes and two wooden capstans to move this single representative column toward one complete temporary timber theatre façade standing fully inside the distant frame. On the opposite side, one complete modest archaic shrine of rough earth-toned masonry and clay tiles stands fully inside the frame, creating Pliny’s contrast between fleeting public spectacle, later private luxury, and older civic fabric. The one column must be fully visible from ornate capital to plain base, with no other loose, standing, built-in, partial, or background columns anywhere; the theatre is visibly timber scaffold, not a colonnade. Use a broad low procession, tall open sky, and strong negative space; no accident, injury, crowd, palace glamour, or triumph. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient Roman engineering plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every person, column, roller, capstan, and building must be complete and separated from every canvas edge with generous margins. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, borders, frames, panels, split scenes, collage, photorealism, glossy CGI, modern cranes or tools, clipped subjects, architectural cutaways, or magical effects.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5ef96d60-ab25-4be8-9c14-28d56246554b",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-a038fdf2-bd5a-4f71-8a09-e546d0734de2",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4c9da7b4-ca1f-4095-9f9a-17cef1e7a7c6",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete representative colossal marble column on rollers, complete work crews and capstans, one fully internal temporary timber theatre and one modest older shrine. No extra loose marble column, framing line, writing or modern device appears.",
+      "epistemicAndDignityNote": "One representative column conveys the hundreds imported for Scaurus’s temporary theatre while preserving Pliny’s contrast between transient spectacle and older civic fabric.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-5ef96d60-ab25-4be8-9c14-28d56246554b",
+          "outputArtifact": "built-in-imagegen://exec-5ef96d60-ab25-4be8-9c14-28d56246554b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c002-reject-01-framing-line.png",
+          "sha256": "79e409798abba74dbb633d014c84a42117fd609aad09bdd4d800fe2cb3049094",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 2, landscape 3:2 at 1536x1024. Intent: show the fleeting extravagance of Marcus Scaurus importing colossal marble columns for a temporary Roman theatre, contrasted with older earthen civic architecture. Scene: across a spacious Roman construction ground, a complete temporary timber theatre façade stands fully inside the distant frame, its visible wood scaffolding awaiting marble ornament. In the middle ground, exactly three complete gigantic pale Lucullan-style marble columns lie horizontally on separate timber rollers, each fully visible from capital to base, while small complete work crews move them with ropes and wooden capstans. At the opposite side stands one complete modest archaic temple with sun-warmed terracotta pediment and plain clay-tile roof, also fully inside the frame, creating the moral contrast described by Pliny. Use a broad lateral procession, tall empty sky, alternating vertical scaffold and horizontal column rhythms; no accident, strain injury, triumphal spectacle, or palace glamour. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient Roman engineering plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every person, column, capital, base, roller, capstan, building and other discrete subject must be complete, fully visible, and separated from canvas edges with clear margins. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, manuscript frames, panels, split scenes, collage, photorealism, glossy CGI, modern cranes or tools, crowded festival staging, clipped columns, architectural cutaways, or magical effects.",
+          "reason": "A faint enclosing line read as a prohibited decorative page frame."
+        },
+        {
+          "generationArtifactId": "exec-a038fdf2-bd5a-4f71-8a09-e546d0734de2",
+          "outputArtifact": "built-in-imagegen://exec-a038fdf2-bd5a-4f71-8a09-e546d0734de2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c002-reject-02-wrong-column-count.png",
+          "sha256": "94a0c23b04e861cc9e1d531f69430af31d8b039566078d1ad7a88e3105dc4ad5",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 2, landscape 3:2 at 1536x1024. Intent: the fleeting extravagance of Marcus Scaurus importing colossal marble columns for a temporary Roman theatre, contrasted with older earthen civic architecture. Make this an unframed, full-bleed continuous landscape illustration: pigment and vellum texture must extend naturally to every canvas edge, with absolutely no inner rectangle, ruled edge, decorative border, page frame, vignette outline, or enclosing line. Scene: across a spacious Roman construction ground, one complete temporary timber theatre façade stands fully inside the distant frame, its visible wood scaffolding awaiting ornament. In the middle ground, exactly three complete gigantic pale marble columns lie horizontally on separate timber rollers, each fully visible from ornate capital to plain base, while small complete work crews move them with ropes and wooden capstans. At the opposite side stands one complete modest archaic temple with sun-warmed terracotta pediment and plain clay-tile roof, also fully inside the frame, creating Pliny’s moral contrast. Use a broad lateral procession, tall open sky, alternating vertical scaffold and horizontal column rhythms; no accident, injury, triumphal spectacle, or palace glamour. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient Roman engineering plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every person, column, capital, base, roller, capstan, and building must be complete and separated from every canvas edge with generous margins. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, borders, frames, panels, split scenes, collage, photorealism, glossy CGI, modern cranes or tools, crowds, clipped columns, architectural cutaways, or magical effects.",
+          "reason": "The retry showed four loose colossal columns instead of the requested exact total of three."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:3",
+      "title": "WHO WAS THE FIRST TO ERECT COLUMNS OF FOREIGN MARBLE AT ROME",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c003.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "22dd100225f5b844676c2044355e41c791249c630ff730042560903c4fbf737f",
+        "englishSha256": "dc312d20f12adfff4c5c4c2cefc70fffffc6e42089011209534c66d14264b514",
+        "latinWords": 93,
+        "englishWords": 235,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "d09e78ab4495818bce8d507ea1fde91ba908a49664d1d02e096597aa96fd9b8f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-29051338-3845-49d4-8cdc-30ef4f9ac60d",
+      "generationArtifactId": "exec-29051338-3845-49d4-8cdc-30ef4f9ac60d",
+      "outputArtifact": "built-in-imagegen://exec-29051338-3845-49d4-8cdc-30ef4f9ac60d.png",
+      "exactFinalPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 3, landscape 3:2 at 1536x1024. Intent: show Lucius Crassus’s historically modest but notorious first use of foreign marble columns in a private Palatine house. Scene: a sunlit Roman atrium viewed from a centered, slightly elevated position, enclosed by low plaster-and-brick walls beneath an open rectangle of sky. Exactly six complete Hymettian marble columns total—no more and no fewer—stand fully inside the courtyard: three on the left and three on the right, all visibly separate from one another, each only about twelve Roman feet tall, pale gray with fine bluish veining. No other columns, pilasters, posts, column-like trees, or column fragments appear anywhere. One complete mature Roman householder and one complete skeptical visitor stand small between the rows, quietly measuring the unfamiliar stone by sight; no gesture of worship or triumph. The repeated six-part rhythm should be instantly countable, with calm axial perspective and generous negative space around every shaft, capital, and base. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient Roman domestic plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every person and each of the six columns must be completely visible from top to base, anatomically or architecturally credible, and separated from canvas edges. Opaque sRGB raster PNG. Avoid all lettering, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, photorealism, glossy CGI, monumental imperial scale, crowds, clipped architecture, or magical effects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-29051338-3845-49d4-8cdc-30ef4f9ac60d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly six complete pale Hymettian columns arranged three per side, all fully visible from capital to base, plus two complete adults in one coherent Palatine atrium. The central impluvium is enclosed; no text, clipping or frame appears.",
+      "epistemicAndDignityNote": "The exact six-column domestic scene reflects Pliny’s account of Crassus’s first foreign marble columns without enlarging them into imperial monumentality.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:4",
+      "title": "THE FIRST ARTISTS WHO EXCELLED IN THE SCULPTURE OF MARBLE, AND THE VARIOUS PERIODS AT WHICH THEY FLOURISHED. THE MAUSOLEUM IN CARIA. THE MOST CELEBRATED SCULPTORS AND WORKS IN MARBLE, TWO HUNDRED AND TWENTY-FIVE IN NUMBER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c004.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "0f86ade3730a563bd5f30c93f10199182821abfdc9893a4291ce660f849891a3",
+        "englishSha256": "28ecaf1af4558ce9496ccc91bb32cbc11e7ceff3fc6410e625788b0c5709eaf4",
+        "latinWords": 93,
+        "englishWords": 185,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "b5ffff2010a787be9fb3142e3d65c07e7b476b9e6a83d3dc08664a6725bff3b7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4b2e0017-6e2a-4532-8099-5e317fc8c174",
+      "generationArtifactId": "exec-4b2e0017-6e2a-4532-8099-5e317fc8c174",
+      "outputArtifact": "built-in-imagegen://exec-4b2e0017-6e2a-4532-8099-5e317fc8c174.png",
+      "exactFinalPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 4, landscape 3:2 at 1536x1024. Intent: honor the early sculptors Dipoenus and Scyllis at Sicyon through their unfinished civic commission, without depicting Pliny’s reported famine or oracle as verified supernatural fact. Scene: beneath one open-sided archaic Greek workshop roof, exactly two complete mature sculptors stand quietly among exactly four complete, modestly clothed pale marble statues on four separate low plinths: a long-robed musician holding a small lyre; a long-robed huntress holding an unstrung bow; a strongman fully covered by a short worklike tunic and lion cloak, resting beside a club; and a long-robed helmeted guardian holding a plain round shield. All four statues are dignified, distinct, fully visible, and subtly unfinished through visible chisel texture or blocked-out drapery, never broken or mutilated. The two sculptors and only those two are living people; one uses a hand bow drill while the other checks proportions with metal dividers. Keep the stone floor completely clear except for a small amount of loose marble chips. Include no workbench, table, stool, crate, jar, foreground tool pile, or furniture anywhere. No spectators, priests, lightning, crop failure, omens, or divine glow. Use a shallow frieze-like composition with alternating standing silhouettes, timber roof beams, tranquil open sky, and generous clear space around every body and plinth. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; archaic Greek workshop plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every living person, statue, plinth, and handheld tool must be complete and separated from every canvas edge with generous margins. Opaque sRGB raster PNG. Avoid nudity, eroticism, all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, photorealism, glossy CGI, extra statues or busts, broken limbs, modern tools, graphic injury, or magical effects.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-fdfe31ef-a543-448d-b92d-8a46b3b116f5",
+          "status": "provider-failed-no-artifact"
+        },
+        {
+          "generationArtifactId": "exec-cb90e4cf-db03-46be-b854-db94d4ff1fb1",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4b2e0017-6e2a-4532-8099-5e317fc8c174",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two complete sculptors and exactly four complete, distinct divine statues on four plinths in one continuous Sicyonian workshop. All focal figures are internal; no clipped furniture, pseudo-writing, supernatural event or graphic damage appears.",
+      "epistemicAndDignityNote": "The scene centers Dipoenus and Scyllis as craftspeople. Pliny’s reported famine and oracle remain historical testimony and are not visualized as verified supernatural events.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-cb90e4cf-db03-46be-b854-db94d4ff1fb1",
+          "outputArtifact": "built-in-imagegen://exec-cb90e4cf-db03-46be-b854-db94d4ff1fb1.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c004-reject-01-clipped-workbench.png",
+          "sha256": "78584795eccf41c5a8276224abfc847a819883a8eb8b370d4836fcc818187b39",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 4, landscape 3:2 at 1536x1024. Intent: honor the early sculptors Dipoenus and Scyllis at Sicyon through their unfinished civic commission, without depicting Pliny’s reported famine or oracle as verified supernatural fact. Scene: inside one open-sided archaic Greek stone workshop, exactly two complete mature sculptors work quietly among exactly four complete, fully clothed pale marble statues on four separate low plinths. The statues are: a long-robed musician holding a small lyre; a long-robed huntress holding an unstrung bow; a tunic-and-lion-cloak-clad strongman resting beside a club; and a long-robed helmeted guardian holding a plain round shield. All four figures are modestly clothed from shoulders through legs, dignified, distinct, and fully visible, with subtle unfinished craft details such as a rough shoulder edge, chisel texture, blocked-out drapery, or unpolished base—never damage or mutilation. The two sculptors and only those two are living people; one uses a hand bow drill while the other checks proportions with plain metal dividers. No spectators, priests, lightning, crop failure, omens, or divine glow. Use a shallow frieze-like composition with alternating silhouettes, limestone chips, timber roof beams, tranquil open sky, and generous clear space between every figure. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; archaic Greek workshop plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every living person, clothed statue, plinth, tool, and discrete object must be complete and separated from every canvas edge. Opaque sRGB raster PNG. Avoid nudity, eroticism, all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, photorealism, glossy CGI, extra statues or busts, broken limbs, modern tools, graphic injury, or magical effects.",
+          "reason": "The otherwise coherent workshop included a focal workbench clipped by the left canvas edge."
+        }
+      ],
+      "providerFailures": [
+        {
+          "generationArtifactId": "exec-fdfe31ef-a543-448d-b92d-8a46b3b116f5",
+          "status": "provider-failed-no-artifact",
+          "outputArtifact": null,
+          "sourceArtifact": null,
+          "exactPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 4, landscape 3:2 at 1536x1024. Intent: honor the early marble sculptors Dipoenus and Scyllis at Sicyon through their unfinished civic commission, without depicting Pliny’s reported famine or oracle as verified supernatural fact. Scene: inside one open-sided archaic Greek stone workshop, exactly two complete adult sculptors work quietly among exactly four complete pale marble divine figures on four separate low plinths: an Apollo-like youth with a small lyre, an Artemis-like woman with an unstrung bow, a strong Heracles-like man resting beside a club, and a helmeted Athena-like woman holding a plain round shield. All four statues must be distinct, anatomically credible, dignified, fully visible head-to-foot, and unfinished in subtle craft-specific ways—one rough shoulder, one visible chisel patch, one blocked-out drapery edge, one unpolished base—without damage or mutilation. The two sculptors and only the two sculptors are living people; show one using a bow drill and one inspecting with calipers. No spectators, priests, lightning, crop failure, omens, or divine glow. Use a shallow frieze-like composition with alternating standing silhouettes, limestone chips, timber roof beams, and a tranquil patch of open sky, generous clear space between every figure. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; archaic Greek workshop plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every living person, statue, plinth, tool, and discrete object must be complete and separated from every canvas edge. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, photorealism, glossy CGI, extra statues or busts, broken limbs, modern tools, graphic injury, or magical effects.",
+          "reason": "Built-in generation was blocked at output moderation with category sexual; no image file was produced.",
+          "providerRequestId": "349dd5c3-850f-4ee7-9c7a-efd4f866139b"
+        }
+      ]
+    },
+    {
+      "chapterKey": "36:5",
+      "title": "THE FIRST ARTISTS WHO EXCELLED IN THE SCULPTURE OF MARBLE, AND THE VARIOUS PERIODS AT WHICH THEY FLOURISHED. THE MAUSOLEUM IN CARIA. THE MOST CELEBRATED SCULPTORS AND WORKS IN MARBLE, TWO HUNDRED AND TWENTY-FIVE IN NUMBER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c005.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "97bd647d6071db523dc7f03b75f4bf6a2b91be329edf6dc8f8ab5a86c7ac0b1e",
+        "englishSha256": "1aaa6d875b7ffe5e8d34e0bed86853a9a4b969668374344d9bfd70782f9136ad",
+        "latinWords": 1856,
+        "englishWords": 3920,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "85e1c478b0bc142e524a78188ea35fe8fff23e82246ad6c9488dc4918bae0dc9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0d26d06c-49c5-4d49-a16b-b6257f78f4cc",
+      "generationArtifactId": "exec-0d26d06c-49c5-4d49-a16b-b6257f78f4cc",
+      "outputArtifact": "built-in-imagegen://exec-0d26d06c-49c5-4d49-a16b-b6257f78f4cc.png",
+      "exactFinalPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 5, landscape 3:2 at 1536x1024. This must be an unframed full-bleed continuous illustration: natural pigment and fibrous vellum texture extend to all four canvas edges, with absolutely no inner rectangle, dark edge line, ruled perimeter, vignette outline, page frame, decorative border, or enclosing band. Intent: embody Pliny’s long catalogue of celebrated marble sculpture through the collaborative completion of the Mausoleum at Halicarnassus. Scene: a complete newly finished Mausoleum of Mausolus stands fully inside the frame on a dry Carian hillside, viewed from a low three-quarter distance. No water anywhere. Its single silhouette has a tall square podium with a continuous carved relief frieze, a ring of many pale columns, a steep regularly stepped pyramidal roof, and at the summit one complete small marble quadriga with exactly four horses total and one chariot—four heads and four bodies, no fifth horse or duplicate. In the broad foreground, exactly four complete mature sculptors stand around one complete loose relief panel on two low trestles, comparing their work; no other living people. The monument, summit sculpture, four artisans, panel, and trestles must all have clear space from every canvas edge. Use a strong pyramid against a broad softly washed faded-lapis sky that flows uninterrupted to the top and side edges, quiet dignity, and small human scale. Binding visual style: warm fibrous vellum; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; fourth-century BCE Carian-Greek plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Opaque sRGB raster PNG. Avoid queen, funeral, worship, battle action, all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, borders, frames, panels-as-layout, split scenes, collage, cutaway diagrams, photorealism, glossy CGI, modern signage, clipped architecture, duplicated horses, broken statues, graphic violence, supernatural glow, or magical effects.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7fc6caab-843f-4a3d-acb4-5cdc533e8dde",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-3971a3e8-cf3a-449f-8be2-f9f9b2c63b45",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-0d26d06c-49c5-4d49-a16b-b6257f78f4cc",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete Mausoleum, one readable stepped pyramid, one summit quadriga with exactly four horses, exactly four complete sculptors and one complete relief panel. The dry hillside contains no water; no border, clipping, writing or collage appears.",
+      "epistemicAndDignityNote": "The single collaborative Mausoleum scene represents the chapter’s long sculpture catalogue without falsely combining unrelated works or supernatural claims.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-7fc6caab-843f-4a3d-acb4-5cdc533e8dde",
+          "outputArtifact": "built-in-imagegen://exec-7fc6caab-843f-4a3d-acb4-5cdc533e8dde.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c005-reject-01-water-edge-and-quadriga-count.png",
+          "sha256": "d3b198776597a2ff184fdb698bbc0306c373202e5fa1fe13edf28cb0b36d8af2",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 5, landscape 3:2 at 1536x1024. Intent: embody Pliny’s long catalogue of celebrated marble sculpture through the collaborative making of the Mausoleum at Halicarnassus, one of the chapter’s central works, rather than compressing unrelated masterpieces into a collage. Scene: a complete, newly finished Mausoleum of Mausolus stands entirely inside the frame on a clear Carian hillside, viewed from a low three-quarter distance. Its readable single silhouette has a tall square podium with a continuous carved relief frieze, a ring of many evenly spaced pale columns, a steep twenty-four-step pyramidal roof expressed as numerous regular receding courses, and one complete small marble four-horse chariot group centered at the summit. In the broad foreground, exactly four complete mature sculptors—evoking Scopas, Bryaxis, Timotheus, and Leochares—stand together around one complete loose relief panel on low trestles, comparing chisel work after choosing to finish the monument; no queen, funeral, worship, battle action, or competing tableaux. The monument’s parts must be architecturally coherent, the summit sculpture complete, and every person and loose object fully visible with open space around it. Use a strong pyramidal silhouette against a wide faded-lapis sky, quiet dignity, and small human scale. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; fourth-century BCE Carian-Greek architectural plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, cutaway diagrams, photorealism, glossy CGI, modern reconstruction signage, clipped architecture, duplicated horses, broken statues, graphic violence, supernatural glow, or magical effects.",
+          "reason": "Water reached the left canvas edge and the summit group appeared to contain five horses rather than a quadriga."
+        },
+        {
+          "generationArtifactId": "exec-3971a3e8-cf3a-449f-8be2-f9f9b2c63b45",
+          "outputArtifact": "built-in-imagegen://exec-3971a3e8-cf3a-449f-8be2-f9f9b2c63b45.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c005-reject-02-framing-line.png",
+          "sha256": "379460a85d565e5d8a05783a7c1d0c92182d54f7a2f2afd7304977bf3a95a323",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 5, landscape 3:2 at 1536x1024. Intent: embody Pliny’s long catalogue of celebrated marble sculpture through the collaborative completion of the Mausoleum at Halicarnassus, not a collage of unrelated masterpieces. Scene: a complete newly finished Mausoleum of Mausolus stands entirely inside the frame on a dry Carian hillside, viewed from a low three-quarter distance. Show no sea, river, pool, fountain, or water anywhere. Its single coherent silhouette has a tall square podium with one continuous carved relief frieze, a ring of many evenly spaced pale columns, a steep pyramidal roof expressed as numerous regular receding steps, and at the exact summit one complete small marble quadriga containing exactly four horses total and one chariot—four separate horse heads and four horse bodies, no fifth horse or duplicate. In the broad foreground, exactly four complete mature sculptors stand together around one complete loose relief panel on two low trestles, comparing chisel work after choosing to finish the monument; no additional living people, queen, funeral, worship, battle action, or competing tableaux. The monument, summit sculpture, four artisans, panel, and trestles must all be fully visible with clear breathing room. Use a strong pyramidal silhouette against a wide faded-lapis sky, quiet dignity, and small human scale. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; fourth-century BCE Carian-Greek architectural plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Opaque sRGB raster PNG. Avoid all lettering, numerals, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels-as-layout, split scenes, collage, cutaway diagrams, photorealism, glossy CGI, modern signage, clipped architecture, duplicated horses, broken statues, graphic violence, supernatural glow, or magical effects.",
+          "reason": "A dark enclosing edge line read as a prohibited decorative page frame."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:6",
+      "title": "AT WHAT PERIOD MARBLE WAS FIRST USED IN BUILDINGS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c006.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "8c341a01804de7b95ad212c530aeb4e209ca0490a9a62a6b6c8ef058e6675afd",
+        "englishSha256": "ab78b19574eb60aa5d4c071d60cd998dc77caf522619205eff4266609bb2b9a5",
+        "latinWords": 549,
+        "englishWords": 1185,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "557118853f22ed78cc59e1483a0b6893f2c7854ff05da60f6ce2289bdd276d29",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0751ef9c-154f-40d8-b04a-0846d9cd264e",
+      "generationArtifactId": "exec-0751ef9c-154f-40d8-b04a-0846d9cd264e",
+      "outputArtifact": "built-in-imagegen://exec-0751ef9c-154f-40d8-b04a-0846d9cd264e.png",
+      "exactFinalPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 6, landscape 3:2 at 1536x1024. Intent: explain the ancient transition from structural marble to thin decorative wall slabs by showing Pliny’s specific account that sand, not the iron saw itself, performs the cut. Scene: in one quiet Roman marble yard, exactly three complete mature craftspeople work around one complete rectangular block of dark-veined marble supported on a low timber bed. Two artisans pull a long simple toothless iron frame-saw back and forth through one straight shallow groove across the block, while the third carefully sprinkles a narrow stream of pale abrasive sand from a complete small bronze scoop into the groove. Nearby, one complete newly cut thin slab leans securely on a low wooden rack; behind them, one short complete brick wall is partly faced with several fitted variegated marble slabs, revealing the historical move from brick to veneer without becoming a diagram. Every tool and object is ancient and physically plausible; the people are calm and uninjured. Use a close, low horizontal composition with the saw’s diagonal, the dark block, pale sand, and half-faced brick wall as the only focal elements; generous clear space around each complete person and object. No sea, river, or water. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; Roman craft plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Opaque sRGB raster PNG. Avoid all lettering, numerals, diagrams, arrows, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, photorealism, glossy CGI, modern power tools, circular saws, toothed industrial blades, goggles, clipped people or objects, injuries, or magical effects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-0751ef9c-154f-40d8-b04a-0846d9cd264e",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three complete craftspeople, one complete marble block, a plausible long frame-saw, a visible stream of abrasive sand, one complete thin slab and a partly faced brick wall. No focal object is clipped; no water, writing or modern machinery appears.",
+      "epistemicAndDignityNote": "The plate focuses Pliny’s technically specific account that abrasive sand performs the cut, while presenting ancient marble veneer as craft history rather than instruction for hazardous work.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:7",
+      "title": "STONE OF NAXOS. STONE OF ARMENIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/b36-c007.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "59b591b51cadb4236c314e3b26dc42e409623843782596d11b7a60f4734f7cfa",
+        "englishSha256": "49926328929b72474f63709484f7610015882cfcde56acdeb5f0f4a9c2f9c940",
+        "latinWords": 392,
+        "englishWords": 786,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "23f575c00133530caa79533f9a2fb0da26b9920a2f6e983dce0beed0c1a75fc3",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-35c5986c-4a56-450a-8925-2f603c38bc68",
+      "generationArtifactId": "exec-35c5986c-4a56-450a-8925-2f603c38bc68",
+      "outputArtifact": "built-in-imagegen://exec-35c5986c-4a56-450a-8925-2f603c38bc68.png",
+      "exactFinalPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 7, landscape 3:2 at 1536x1024. Make this an unframed full-bleed continuous interior: warm plaster, stone floor, shadow, pigment, and vellum texture extend naturally to every canvas edge, with no unpainted margin, inner rectangle, ruled line, vignette, page frame, decorative border, or enclosing band. Intent: show the craft transition from the older Naxian polishing stone found on Cyprus to a finer Armenian abrasive, without enacting Pliny’s medical or marvelous claims. Scene: in one simple ancient lapidary room, exactly two complete mature stoneworkers stand beside one complete modestly robed marble statue on a low plinth. The first gently burnishes the statue’s lower drapery with one complete dark gray Armenian polishing stone in his hand; the second compares it with one complete coarse honey-brown Naxian whetstone resting in his open palm. On the open stone floor to the right, arrange six complete small unmarked sample blocks in a shallow arc, each fully visible with a clear gap: green marble, curling-veined pale marble, sparse-white-streaked gray marble, deep red porphyry, iron-dark basalt, and translucent banded onyx. Include no bench, table, shelf, rack, stool, jar, crate, or other furniture. A continuous rough ochre plaster wall fills the background edge to edge with one broad soft patch of indirect daylight, not a window, arch, niche, or separate panel. Show the statue’s finish moving subtly from rough chisel haze to soft mineral sheen, never glossy. Use a balanced open composition and generous clear space around every worker, statue, plinth, whetstone, and sample. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient lapidary plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Opaque sRGB raster PNG. Avoid nudity, medicine, amulets, surgery, snakes, supernatural events, all lettering, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, borders, frames, panels, split scenes, collage, diagrams, photorealism, glossy CGI, modern machinery, clipped objects, duplicate statues, graphic injury, or magical effects.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-af6a34ba-23e4-4881-a629-2d0ae51494e1",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-eb43aada-ec28-4e67-b08d-a9ceba4db328",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-35c5986c-4a56-450a-8925-2f603c38bc68",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two complete stoneworkers, one complete robed statue and plinth, two distinct hand-held whetstones and six complete separated sample blocks. The interior is full-bleed and unframed; no clipped bench, writing, medicine or magical event appears.",
+      "epistemicAndDignityNote": "The accepted scene depicts Naxian and Armenian polishing media plus material variety. Medical, amuletic and marvelous claims remain uneffected ancient testimony.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-af6a34ba-23e4-4881-a629-2d0ae51494e1",
+          "outputArtifact": "built-in-imagegen://exec-af6a34ba-23e4-4881-a629-2d0ae51494e1.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c007-reject-01-inset-sky-frame.png",
+          "sha256": "fef6d7ec6180e2af97826283153214c1a312fb207ccba00f4445e4bd68bf4ffc",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one new independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 7, landscape 3:2 at 1536x1024. Intent: show the chapter’s central craft transition from the older Naxian polishing stone found on Cyprus to a finer Armenian abrasive, while treating Pliny’s medical and marvelous stone claims only as historical testimony and not enacting them. Scene: in a bright open lapidary courtyard, exactly two complete mature stoneworkers stand beside one complete modestly robed marble statue on a low plinth. The first worker gently burnishes the statue’s lower drapery with one complete dark gray Armenian polishing stone held in his hand; the second compares it with one complete coarser honey-brown Naxian whetstone resting in his open palm. On a single complete low stone bench behind them, arrange a restrained set of complete unmarked material samples—green Laconian marble, curling-veined Augustan stone, sparse-white-streaked Tiberian stone, deep red porphyry, iron-dark basalt, and translucent banded onyx—each as a small separate block with breathing room, no labels and no vessel forms. Make the changing surface finish visible through a subtle transition from rough chisel haze to a soft mineral sheen on the statue, never glossy or photoreal. Use a balanced triangular composition, quiet connoisseurship, ochre courtyard shadow, and a low ridge of empty faded-lapis sky; no medicine, amulets, surgery, snakes, supernatural events, or sound-emitting statue. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient lapidary plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Every worker, statue, plinth, bench, whetstone, and sample block must be complete, fully visible, and separated from every canvas edge. Opaque sRGB raster PNG. Avoid nudity, all lettering, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, decorative borders, frames, panels, split scenes, collage, diagrams, photorealism, glossy CGI, modern polishing machinery, clipped objects, duplicate statues, medical procedures, graphic injury, or magical effects.",
+          "reason": "The rectangular inset sky wash read as a prohibited framed manuscript panel."
+        },
+        {
+          "generationArtifactId": "exec-eb43aada-ec28-4e67-b08d-a9ceba4db328",
+          "outputArtifact": "built-in-imagegen://exec-eb43aada-ec28-4e67-b08d-a9ceba4db328.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-16/evidence/history/b36-c007-reject-02-clipped-bench.png",
+          "sha256": "24651cf36866aef1f75b794020f0fffff51d70298937353c6efa9c10ad0dee76",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a replacement independent master illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 7, landscape 3:2 at 1536x1024. Make this an unframed full-bleed continuous interior: warm plaster, shadow, pigment, and vellum texture extend naturally to every canvas edge, with no unpainted margin, inner rectangle, ruled line, inset sky patch, vignette outline, page frame, decorative border, or enclosing band. Intent: show the craft transition from the older Naxian polishing stone found on Cyprus to a finer Armenian abrasive, without enacting Pliny’s reported medical or marvelous claims. Scene: in one simple ancient lapidary room, exactly two complete mature stoneworkers stand beside one complete modestly robed marble statue on a low plinth. The first gently burnishes the statue’s lower drapery with one complete dark gray Armenian polishing stone in his hand; the second compares it with one complete coarse honey-brown Naxian whetstone resting in his open palm. On one complete low stone bench behind them, arrange six complete unmarked sample blocks with clear gaps: green Laconian marble, curling-veined pale stone, sparse-white-streaked gray stone, deep red porphyry, iron-dark basalt, and translucent banded onyx. A continuous rough ochre plaster wall fills the background edge to edge, interrupted only by one broad soft patch of indirect daylight—not a window, arch, niche, or separate panel. Show the statue’s changing surface as a subtle transition from rough chisel haze to soft mineral sheen, never glossy. Use a balanced triangular composition and generous clear space around every complete subject. Binding visual style: warm fibrous vellum ground; iron-gall ink contours; vigorous crosshatching, stipple, dry-brush abrasion and rubbed mineral pigments; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre; ancient lapidary plausibility; timeless, beautiful, rough and polished at once; one coherent continuous scene. Opaque sRGB raster PNG. Avoid nudity, medicine, amulets, surgery, snakes, supernatural events, all lettering, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, borders, frames, panels, split scenes, collage, diagrams, photorealism, glossy CGI, modern machinery, clipped objects, duplicate statues, graphic injury, or magical effects.",
+          "reason": "The stone sample bench extended through both lateral canvas edges."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "portableReferenceValidation": {
+    "machinePrivatePathsSerialized": 0,
+    "fileUrisSerialized": 0,
+    "artifactReferencesUse": "built-in-imagegen://<generationArtifactId>.png"
+  }
+}

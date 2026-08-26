@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-20",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 225,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "17:12": {
+        "nearestMAD": 29.58,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c011.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c011.png",
+        "madAtDHashPeer": 29.58
+      },
+      "17:13": {
+        "nearestMAD": 23.28,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c002.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c012.png",
+        "madAtDHashPeer": 52.05
+      },
+      "17:14": {
+        "nearestMAD": 23.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c021.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b16-c044.png",
+        "madAtDHashPeer": 37.42
+      },
+      "17:15": {
+        "nearestMAD": 25.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c011.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c022.png",
+        "madAtDHashPeer": 36.54
+      },
+      "17:16": {
+        "nearestMAD": 24.2,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c026.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c008.png",
+        "madAtDHashPeer": 24.85
+      },
+      "17:17": {
+        "nearestMAD": 22.3,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c026.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c009.png",
+        "madAtDHashPeer": 35.58
+      },
+      "17:18": {
+        "nearestMAD": 20.17,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c008.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c001.png",
+        "madAtDHashPeer": 47.89
+      },
+      "17:19": {
+        "nearestMAD": 24.83,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c016.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-01/b20-c003.png",
+        "madAtDHashPeer": 31.07
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "17:12",
+      "title": "THE INTERVALS TO BE LEFT BETWEEN TREES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c012.png",
+      "sha256": "d2542f4d2c41523d2553649593d5c65f1bf8228de68995f6f52a071d17baefec",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5d735509-4f2e-4d90-8f57-fd5574ca5823",
+      "outputArtifact": "built-in-imagegen://exec-5d735509-4f2e-4d90-8f57-fd5574ca5823.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 12, “The Intervals to Be Left Between Trees”\nPrimary request: Make the empty interval itself the central subject. Exactly two complete mature olive trees stand far apart on one windy Baetican hillside, each with its own fully separate root mound, finite crown and compact shadow. Between them lies a broad uninterrupted strip of ripening grain and open ochre earth, wide enough to read as a useful crop field rather than a gap. Exactly one complete small-scale farmer walks through that central interval scattering grain by hand from exactly one shallow woven seed basket, demonstrating the productive space left between widely planted olives. The trees never overlap and no measuring instrument appears.\nScene/backdrop: continuous gently rising Spanish hill with distant contained ridges, sparse field-edge herbs and no additional tree, orchard row, villa, wall, road, survey stakes, cord, ruler or planting diagram\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; spacing dialect of separate silver-green crowns, grain gold, wind and deliberately protected open ground\nComposition/framing: landscape 3:2; very wide eye-level panorama with one olive occupying a contained mass near each outer third and the farmer kept small in the open middle distance. The wide central field and sky are intentional negative space; shadows remain discrete and do not touch. Keep both entire trees from every root tip to every crown tip, the complete farmer from head to sandals and both hands, whole basket, grain gesture, full field edges and ridges inside broad uninterrupted vellum margins. One continuous agricultural landscape, never a plan view, measurement chart, symmetrical orchard grid, split panel or collage.\nLighting/mood: clear windy late morning; foresight, proportion and land used without regret\nColor palette: warm vellum, iron-gall umber and lampblack, silver muted verdigris olives, ochre grain and soil, faded-lapis distance, restrained madder garment accent\nMaterials/textures: fibrous vellum, fissured olive bark, narrow leaves, grain awns, loose earth, woven fibre, linen and moving air\nHistorical and epistemic framing: evoke Pliny’s preference for generous olive spacing and crops between Baetican olives without asserting one universal distance or illustrating numerical feet.\nConstraints: exactly two complete olive trees, one complete farmer and one complete shallow basket; historically plausible sowing gesture and dress; independent unified scene; empty interval remains dominant\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, rulers, knotted cords, survey stakes, grids, evenly repeated trees, extra people, extra baskets, modern farm machinery, tractors, roads, buildings, floating grain piles, diagrams, panels, collages, multiple identical frames, photography, photorealism, glossy CGI, neon color, cropped or edge-touching trees, roots, crowns, person, basket, field or ridges\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete mature olive trees remain widely separated with discrete root mounds, finite crowns and non-touching shadows; one complete small farmer and one complete shallow seed basket occupy the productive grain interval. The broad open center dominates the composition while both trees, person, basket, field and ridges remain wholly framed. No measuring device, grid, extra tree, text, pseudo-writing, paneling, watermark, floating object or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:13",
+      "title": "TREES WHICH GROW BUT SLOWLY: THOSE WHICH GROW WITH RAPIDITY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c013.png",
+      "sha256": "d113f71761361abfcbaa88d4077c958c7c741b17f446640b1f574c47e68cc9b2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-522bbc60-6853-444f-a31b-43dd7ae28f81",
+      "outputArtifact": "built-in-imagegen://exec-522bbc60-6853-444f-a31b-43dd7ae28f81.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 13, “Trees Which Grow but Slowly; Those Which Grow with Rapidity”\nPrimary request: Focus on the chapter’s observation that natural bramble layering taught cultivation. Exactly one complete old bramble root-stock grows on the upper lip of a shallow woodland ditch. From it, exactly one exceptionally long supple cane makes a single graceful arch through open air, crosses the ditch, and buries its living tip in a small moist patch on the lower bank. At that one still-connected tip, fine new roots and one compact fresh leafy rosette have formed. Several modest ripe blackberries remain near the original root-stock, while the long connecting cane stays unmistakably continuous and biologically plausible.\nScene/backdrop: one continuous uncultivated Italian woodland margin with dry leaf litter on the upper bank, a narrow empty ditch, a damp lower pocket and soft contained coppice far behind; no people, tools, baskets, fences, orchard, second bramble, ivy, planted cutting or other primary organism\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; natural-layering dialect of thorn rhythm, flexible cane, dark berry bloom, pale root hairs and damp earth\nComposition/framing: landscape 3:2; low lateral view across the ditch. The old root-stock forms one dense contained knot high on one side, the single cane draws a high open arch across broad negative space, and the rooted tip settles low on the opposite bank. Do not arrange stages or duplicate plants. Keep the whole original root contact, every primary thorn, leaf and berry, entire uninterrupted cane, complete rooted tip and rosette, ditch ends, both banks and distant coppice wholly inside broad uninterrupted vellum margins. One continuous biological event, never a propagation diagram, lifecycle, before-and-after, panel or collage.\nLighting/mood: humid light after rain; unruly vitality quietly revealing a method\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves, restrained madder-black berries, pale ochre litter, faint faded-lapis damp shadow\nMaterials/textures: fibrous vellum, thorny cane, matte leaves, berry bloom, hair-fine roots, moist soil and dry litter\nHistorical and epistemic framing: depict the natural layering mechanism Pliny describes without treating his judgments about the bramble as modern ecological guidance.\nConstraints: no people or animals; exactly one original bramble root-stock, one continuous arching cane and one still-connected rooted tip; botanically plausible scale; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, arrows, cutaways, magnified root inset, floating roots, severed cane, multiple rooted tips, duplicate bramble bushes, giant berries, planted pot, tools, specimen lineup, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching root-stock, cane, tip, rosette, ditch or banks\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete old bramble root-stock sends one uninterrupted thorny cane across an empty ditch to one still-connected rooted tip and fresh rosette; modest berries remain near the source. The root-stock, continuous arching cane, tip, fine new roots, ditch and banks are all contained and biologically legible as natural layering. No cut cane, second primary bramble, giant fruit, arrow, inset, text, pseudo-writing, paneling, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:14",
+      "title": "GRAFTING: THE FIRST DISCOVERY OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c014.png",
+      "sha256": "46952148ced5bdea058b5c821071c925c5f2288ce142ee0677e340504097d621",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-19300089-6595-4bef-ae95-62e8dffd36e1",
+      "outputArtifact": "built-in-imagegen://exec-19300089-6595-4bef-ae95-62e8dffd36e1.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 14, “Grafting: The First Discovery of It”\nPrimary request: Render the chapter’s reported natural precursor to grafting as one airy woodland marvel. Exactly one complete mature willow stands alone beside a shallow stream. High on its trunk, one visible natural bark cleft holds a small rooted cherry shoot that emerges from the living willow and bears a few modest red cherries among its own leaves. Exactly one complete jackdaw perches beside the cleft with one single seed held in its beak, poised as if to cache it. The cherry shoot is clearly subordinate to the willow and physically seated in the bark, never a second full tree or a detached branch.\nScene/backdrop: open Roman-Italian riparian meadow with the whole stream bend, low reeds and distant contained hills; no people, orchard, grafting tools, fruit display, nest, other bird, other tree or cottage\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; spontaneous-grafting dialect of pale willow bark, narrow leaves, tiny cherry red, black jackdaw feathers and moving water\nComposition/framing: landscape 3:2; pulled-back low upward view. The complete willow occupies no more than sixty percent of the page, with its entire root flare, trunk and finite crown surrounded by open meadow and pale sky. The bark cleft, cherry shoot and jackdaw sit at an off-center trunk fork and remain readable through line and restrained color rather than magnification. Keep every willow root and crown tip, complete cherry shoot and attached fruit, full jackdaw from beak to tail and feet, seed, stream banks, reeds and hills wholly inside broad uninterrupted vellum margins. One continuous reported occurrence, never an explanatory inset, grafting lesson, botanical plate, panel or collage.\nLighting/mood: clear early morning after a bird’s arrival; curiosity, chance and nature as teacher\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris foliage and meadow, faded-lapis stream and distance, restrained madder cherries, pale ochre bark\nMaterials/textures: fibrous vellum, fissured willow bark, tender cherry leaves, taut small fruit, layered feathers, reeds and water\nHistorical and epistemic framing: present the cherry-on-willow and seed-caching jackdaw as Pliny’s period explanation for the origin of grafting, not verified modern graft biology.\nConstraints: exactly one complete willow, one small cherry shoot physically rooted in its bark and one complete jackdaw holding one seed; natural bird anatomy; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, arrows, surgical cuts, grafting knives, human hands, extra birds, nests, giant cherries, fruit garlands, second tree, magical glow, hybrid trunk faces, diagrams, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching willow, roots, crown, shoot, bird, stream or hills\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete willow stands beside a complete stream bend; one small cherry shoot is physically seated in a trunk cleft with modest attached red fruit, and one complete jackdaw perches beside it holding a single seed. The willow root flare and finite crown, subordinate shoot, bird, stream and landscape remain fully framed. No second tree, extra bird, tool, supernatural effect, text, pseudo-writing, paneling, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:15",
+      "title": "GRAFTING THE VINE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c015.png",
+      "sha256": "ed7bd6414e1e406971e11fedd24fb8ecb36391707a5dddaf6bbab1a9bbda6017",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1beb56f8-2644-4315-8220-c281794731e9",
+      "outputArtifact": "built-in-imagegen://exec-1beb56f8-2644-4315-8220-c281794731e9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 15, “Grafting the Vine”\nPrimary request: Show only Cato’s second vine-grafting method in one precise ancient action. Exactly two complete neighboring grapevines remain rooted in separate visible spots a short distance apart. Their most supple inward young stems have each been shaved on the facing side and brought together at exactly one low diagonal union, where exposed pith meets pith. Exactly one complete kneeling vintner binds that single junction with one continuous thin elm withe using both hands. Both vines retain small natural leaves and only a few swelling buds; no grapes or second method appears.\nScene/backdrop: sparse dry Italian vineyard terrace with exactly two low forked wooden supports, one for each vine, a contained dry-stone wall and broad empty earth; no rows of other vines, winery, press, jars, pots, water, tool display, harvest or second person\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; vine-grafting dialect of fibrous bark, pale shaved wood, tender bud green, elm withe and dry terrace dust\nComposition/framing: landscape 3:2; intimate high-oblique diamond composition on open ground. The complete vintner occupies one low corner; the two full root contacts and finite vine architectures sit apart above, while their joined stems cross the empty center at a single readable junction. The two supports angle differently and never create a trellis grid. Keep every head, hand, finger, foot and garment hem, both complete vines from root tip to shoot tip, the entire withe and knot, both support ends, wall ends and terrace edge wholly inside broad uninterrupted vellum margins. One continuous binding instant, never three grafting methods, sequential steps, close-up inset, split panel or collage.\nLighting/mood: dry still afternoon chosen for grafting; concentration, restraint and living materials brought into contact\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves and buds, pale exposed wood, ochre earth and stone, restrained madder garment accent\nMaterials/textures: fibrous vellum, fissured vine bark, moist pith, supple elm withe, calloused hands, linen, weathered wood and dry soil\nHistorical and epistemic framing: reconstruct one method from Pliny’s report without asserting exact tool marks, success rate or modern viticultural recommendation.\nConstraints: exactly one complete person, exactly two complete separately rooted vines, two complete low supports and one single bound graft union; natural anatomy and plausible hand binding; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern grafting tape, plastic, wire, drill, electric tool, grapes, extra vines, rows, trellis grid, multiple graft unions, disembodied hands, floating stems, diagrams, arrows, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching person, roots, vines, shoots, union, withe, supports, wall or terrace\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete kneeling vintner joins exactly two complete separately rooted vines at one low pith-to-pith union with one continuous elm withe. Both roots, shoots, two supports, the worker’s anatomy and the single readable junction are wholly contained on open earth. No grapes, extra vine, modern tape or tool, multiple method, detached hand, floating stem, text, pseudo-writing, paneling, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:16",
+      "title": "GRAFTING BY SCUTCHEONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c016.png",
+      "sha256": "ef660f746eca20d57a7e047d5995ce0bc129879e53db5a7573ab1ea3684433d5",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7952ee67-745b-4175-8951-8f19347d347b",
+      "outputArtifact": "built-in-imagegen://exec-7952ee67-745b-4175-8951-8f19347d347b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 16, “Grafting by Scutcheons”\nPrimary request: Render the extraordinary short-lived multigrafted tree that Pliny says he saw near Tibur, as period testimony rather than fantasy. Exactly one complete low broad plane-tree-like stock grows in a quiet walled country garden. Different irregularly radiating branches bear modest, naturally attached grafted products: one small cluster of nuts, one small cluster of dark berries, one restrained bunch of grapes, two small pears, two figs, one pomegranate and three small apples of varied hue. The fruit types are dispersed organically within the same crown and remain secondary to the living branch architecture. Several old scutcheon unions appear only as subtle healed rectangular bark seams close to the trunk; no fresh cuts or bands.\nScene/backdrop: continuous ancient garden near Tibur with one blank low curved wall, scattered grass and distant hills; no people, ladders, baskets, harvest, villa façade, orchard, other tree, shrine or grafting tools\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; scutcheon dialect of healed bark seams, radial branching, quiet mixed fruit accents and a slight dryness at the outermost twigs\nComposition/framing: landscape 3:2; centered but asymmetric circular garden composition viewed slightly from above. The single complete root flare and short trunk open into a finite radial crown surrounded on all sides by generous empty vellum sky and ground; the curved wall echoes but never encloses the silhouette. Fruit clusters occur at different depths and angles, never one branch per labelled category or an evenly divided crown. Keep every root, trunk edge, branch tip, leaf, fruit, healed seam, wall end, ground contour and hill wholly inside broad uninterrupted vellum margins. One continuous tree, never a fruit wheel, catalogue, heraldic emblem, botanical plate, panel or collage.\nLighting/mood: late summer stillness with a faint dry wind; ingenuity, abundance and fragility\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves, faded-lapis distance, restrained madder and ochre fruit accents, pale stone\nMaterials/textures: fibrous vellum, mottled plane-like bark, healed graft seams, matte leaves, fruit bloom, grass and weathered plaster\nHistorical and epistemic framing: treat the many-fruited Tibur tree as Pliny’s reported experiment and his warning that it was short-lived, not as verified modern compatibility or a supernatural plant.\nConstraints: no people or animals; exactly one complete tree; every fruit physically attached, botanically recognizable but modest in scale; healed grafting remains subtle; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, fruit names, branch labels, arrows, giant fruit, floating fruit, fruit piles, baskets, magical glow, tree face, perfectly segmented crown, extra tree, specimen rows, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching roots, trunk, crown, fruit, wall or hills\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete low multigrafted tree fills a coherent circular garden scene. Nuts, dark berries, one grape cluster, pears, figs, one pomegranate and varied small apples remain physically attached to irregular branches rather than arranged as a catalogue; the root flare and finite crown are surrounded by open vellum and ground. No floating fruit, extra tree, segmented fruit wheel, labels, magical glow, text, pseudo-writing, paneling, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:17",
+      "title": "PLANTS WHICH GROW FROM A BRANCH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c017.png",
+      "sha256": "933dad2480848f139462519db5871fd6148da876421f89cc68d80f6832648ea1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-2bcb918b-ec37-46ca-899f-44212b7032c3",
+      "outputArtifact": "built-in-imagegen://exec-2bcb918b-ec37-46ca-899f-44212b7032c3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 17, “Plants Which Grow from a Branch”\nPrimary request: Visualize the accident that taught people planted branches can live. Exactly one complete stout fig branch has long served as the upright post of a weathered abandoned rustic fence. Its sharpened lower end remains visibly sunk deep in a small sandy bank; the whole post has taken root, with a compact living root flare at ground contact and several fresh fig shoots and broad lobed leaves emerging from its upper knots. Two short dead horizontal rails remain tied to the post with old plant fibre, making its former use unmistakable, but no other upright post survives. The living shoots are vigorous yet modest, and no fruit appears.\nScene/backdrop: empty sunlit edge of a Roman-era field after the old boundary fell away, low eroded sandy mound, a few dry grasses and distant contained pasture; no people, animals, parent tree, nursery, tools, basket, buildings or second living cutting\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; living-stake dialect of silvered dead wood, intact fig bark, tender verdigris shoots, pale sand and frayed fibre\nComposition/framing: landscape 3:2; minimal low oblique composition with the complete rooted post off center, its two dead rails forming unequal low diagonals across a broad expanse of empty pasture and vellum sky. The rooted base, sharpened buried direction, former fence ties and new shoots read together without excavation or cutaway. Keep the entire post from root contact to top, every living shoot and leaf, both rail ends, all ties, full mound, grass and pasture edge wholly inside broad uninterrupted vellum margins. One continuous discovered survivor, never planting steps, a before-and-after fence, propagation plate, panel or collage.\nLighting/mood: clear morning after abandonment; resilience and useful knowledge found by chance\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris new fig leaves, pale ochre sand and dry grass, faded-lapis pasture haze, restrained madder-brown fibre\nMaterials/textures: fibrous vellum, weathered fig wood, intact bark, tender leaves, frayed plant ties, sand and grass\nHistorical and epistemic framing: evoke Pliny’s account of driven stakes taking root as the accidental origin of branch planting, without claiming this exact fence or universal rooting success.\nConstraints: no people or animals; exactly one complete rooted living fence post and exactly two complete dead horizontal rails; leaves physically attached; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern wire, nails, screws, metal fence, full row of posts, extra living cuttings, fruit, exposed giant root system, floating roots, parent tree, diagrams, arrows, stages, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching post, roots, shoots, rails, ties, mound or pasture\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete old fig-branch fence post remains sunk in its sandy mound and sends fresh attached shoots from intact knots; exactly two complete dead rails and their fibre ties make the former boundary use unmistakable. Post, ground contact, new leaves, both rail ends, ties and pasture are fully contained. No modern fastener, fence row, extra cutting, fruit, floating root, person, text, pseudo-writing, paneling, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:18",
+      "title": "THE CULTIVATION OF THE OLIVE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c018.png",
+      "sha256": "b82035fcbd72e813bf538fbe8efcb9148911078e10d9767a4eb73921ad93dd07",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1c555cf6-cb13-474b-b242-da7d3d44b71d",
+      "outputArtifact": "built-in-imagegen://exec-1c555cf6-cb13-474b-b242-da7d3d44b71d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 18, “The Cultivation of the Olive”\nPrimary request: Reconstruct one exact action from Cato’s opening instructions, not a calendar of olive care. Exactly one complete standing olive grower plants exactly one complete straight three-foot olive slip into freshly loosened earth. The lower cut end is already entering the soft soil without a pre-bored hole; the grower steadies the intact bark with both hands while pressing the soil immediately beside the slip downward with one sandaled foot, careful not to split or scrape it. The slip retains one small sound bud above ground and a few narrow leaves at its top. Exactly one short wooden mallet rests unused and fully visible on the earth several paces away.\nScene/backdrop: broad open Roman-Italian nursery patch worked by a mattock earlier but now empty, one low blank boundary wall, distant contained olive hills and no other person, planted slips, mature foreground tree, holes, furrow rows, baskets, jars or animals\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; olive-care dialect of intact silver bark, narrow leaves, crumbly earth, worn sandal leather and precise bodily pressure\nComposition/framing: landscape 3:2; upright three-quarter view across a mostly empty tilled patch. The complete grower and vertical slip form one narrow off-center axis; the unused mallet is a low separate counterpoint, and the blank wall recedes diagonally into negative ground. Keep the whole person from hair to both sandals, every hand and finger, complete slip from leafy tip to visible entering end, bud, mallet, wall ends, tilled patch and hills wholly inside broad uninterrupted vellum margins. One continuous planting instant, never nursery instructions, seasonal phases, multiple cuttings, panel or collage.\nLighting/mood: soft spring morning; care, economy of force and close obedience to living bark\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris olive leaves, pale ochre earth and wall, faded-lapis hills, restrained madder garment hem\nMaterials/textures: fibrous vellum, smooth intact olive bark, narrow leaves, friable soil, linen, leather sandal, weathered wood and plaster\nHistorical and epistemic framing: depict Cato’s method as transmitted by Pliny, not as a universal modern planting recommendation or a verified portrait of Cato.\nConstraints: exactly one complete person, one complete olive slip and one complete unused wooden mallet; natural anatomy, both hands and pressing foot plausible; no other objects or plants in the nursery; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern shovel, steel tool, pot, plastic, gloves, ruler, drilled hole, raised hammer, damaged bark, multiple slips, rows, extra people, floating tool, process stages, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching person, slip, hands, feet, mallet, wall, ground or hills\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete standing grower steadies exactly one complete olive slip with both hands while pressing loose soil beside it with one sandaled foot; the bark, top leaves and sound bud remain intact. One complete unused wooden mallet lies separately on the ground. Person, hands, feet, slip, entering end, mallet, wall and hills remain fully framed. No pre-bored hole, raised tool, extra slip, modern object, text, pseudo-writing, paneling, watermark, floating object or anatomical failure was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "17:19",
+      "title": "CLEANING AND BARING THE ROOTS, AND MOULDING THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c019.png",
+      "sha256": "d667fcd57d71899086a5021a139b1ce9c966ec8df1a2576b6f89ced800a7684e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-753edf94-968e-41cb-998f-c45c6733fc1e",
+      "outputArtifact": "built-in-imagegen://exec-753edf94-968e-41cb-998f-c45c6733fc1e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 19, “Cleaning and Baring the Roots, and Moulding Them”\nPrimary request: Center Columella’s reported method for joining unlike trees as one complete living bridge. Exactly one complete mature olive and exactly one complete vigorous young fig grow close together on separate fully visible root contacts. From the olive, exactly one long supple branch has been trained in a broad descending arc and its carefully pointed living end inserted into one intentional notch at the top of the fig’s short main trunk. One continuous plain plant-fibre binding secures that single union so the bent branch cannot rebound. The fig retains two modest lower leafy arms below the union and remains visibly alive; the olive branch remains connected to its parent.\nScene/backdrop: continuous quiet ancient garden on a warm dry slope with a low blank terrace wall, sparse herbs and distant contained valley; no people, tools, baskets, other trees, fruit harvest, trench, irrigation, building or second graft\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; heterogeneous-graft dialect of silver olive leaves, broad fig leaves, an elastic living arc, pale fitted wood and taut fibre binding\nComposition/framing: landscape 3:2; open lateral composition built around opposing silhouettes. The complete olive rises as a narrow asymmetric mass on one side, the smaller complete fig stands on the other, and the single bent branch creates a high arch across intentional empty ground before entering the fig. The two crowns remain visually distinct rather than merging. Keep every olive and fig root, trunk, branch and finite crown tip, the entire unbroken bridging branch, pointed insertion, full binding, wall ends, herbs and valley wholly inside broad uninterrupted vellum margins. One continuous three-year union, never grafting steps, a cross-section, diagram, botanical hybrid, split panel or collage.\nLighting/mood: warm still afternoon; sustained tension, patience and cautious experiment\nColor palette: warm vellum, iron-gall umber and lampblack, silver and deep muted verdigris foliage, pale exposed wood, ochre soil and wall, faded-lapis valley, restrained madder-brown binding\nMaterials/textures: fibrous vellum, fissured olive bark, smooth fig bark, narrow and broad leaves, supple living wood, plant fibre, plaster and dry soil\nHistorical and epistemic framing: treat Columella’s fig–olive union as the novel method Pliny reports and says was not widely known to him, not as settled modern graft compatibility.\nConstraints: no people or animals; exactly one complete olive, one complete fig, one continuous still-attached olive branch and one bound insertion; plausible living tension; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, arrows, human hands, tools, severed branch, disconnected floating branch, second union, merged chimera trunk, mixed fruit, giant binding, modern tape, wire, magical glow, extra trees, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching roots, crowns, bridging branch, union, binding, wall or valley\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.\n\nMANDATORY COMPOSITIONAL REGENERATION — the first semantically correct attempt was rejected because its high symmetrical branch arch rhymed too closely with chapter 17:13’s bramble layer. This correction supersedes the prior lateral-arch composition. Use a HIGH OBLIQUE VIEW looking steeply down a long terraced garden from one corner. Place the complete olive near the lower foreground and the complete young fig much farther away on the upper opposite diagonal, both at smaller scale and fully visible. Train the one continuous olive branch LOW across the ground plane in a loose foreshortened S-curve, supported naturally by its own tension, then let only its final short section rise into the fig notch. It must never form a gateway, rainbow, high bridge, semicircle or horizontal crown-to-crown arch against the sky. Let diagonal terrace bands and an irregular patch of open ochre ground dominate the negative space. Preserve the one still-attached branch, one bound insertion, separate complete root contacts and crowns, no people, no tools, no text, no panels, no clipping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete mature olive in the lower foreground and one complete young fig farther upslope remain separately rooted and fully framed. One still-attached olive branch runs low through a foreshortened S across the terrace and rises only at its single fibre-bound insertion into the fig, preserving clear continuous parentage without an arch silhouette. No second graft, severed or floating branch, tool, person, hybrid fruit, text, pseudo-writing, paneling, watermark or clipping was found. Accepted after one semantically correct but compositionally repetitive high-arch attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-663b54e4-9d39-4eeb-8d6b-67e0fe8627a6.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/evidence/history/b17-c019-rejected-01.png",
+          "sha256": "e148e1d9fafc31cc6591455b81a08e2ac1c4511a4b6d602ce4de89c6060ae452",
+          "reason": "Rejected at original-resolution QA because its semantically correct high branch arch repeated the gateway-like spatial grammar already used for chapter 17:13’s bramble layer. The source remained otherwise clean; it is preserved under evidence/history so the rejection is auditable."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

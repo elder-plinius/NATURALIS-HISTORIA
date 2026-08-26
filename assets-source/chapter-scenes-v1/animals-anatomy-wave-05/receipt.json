@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-anatomy-wave-05",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the built-in ImageGen completion records. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "sha256": "6e41d61d4a8e304224778b12bcaea33508607eaf4e8f2fd5926af09fc1ffb2b2"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "sha256": "7297f744b879fe661751ff3d256e206bdc67ced91cac61038f417a2ced53f75c"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English entries for Book XI chapters 49-52 and 54 and Book XXVIII chapters 1-3 were read before prompting. Ancient sexual and intersex classifications, physiognomy, prognostic claims, hunger and thirst claims, incantations, human-derived remedies, ethnographic serpent claims and harmful self-death language are recorded as transmitted history rather than modern biological, social, supernatural, dietary or medical fact. Images avoid exposed anatomy, diagnosis, hierarchy, graphic bodies or fluids, children in peril, actionable treatment and self-harm.",
+  "assignments": [
+    "11:49",
+    "11:50",
+    "11:51",
+    "11:52",
+    "11:54",
+    "28:1",
+    "28:2",
+    "28:3"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "animals-anatomy-wave-05",
+    "preGenerationRecheckCompleted": true,
+    "selectedKeys": [
+      "11:49",
+      "11:50",
+      "11:51",
+      "11:52",
+      "11:54",
+      "28:1",
+      "28:2",
+      "28:3"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "certificationReceiptsCheckedExcludingThisCampaign": 107,
+    "certificationExternalReceiptOwners": [],
+    "certificationExternalMasterCollisions": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 7,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 15,
+    "independentCalls": true
+  },
+  "byteIdentityValidation": {
+    "method": "direct byte-buffer equality against each built-in original",
+    "acceptedArtifactsChecked": 8,
+    "rejectedArtifactsChecked": 7,
+    "allChecksPassed": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "11:49",
+      "title": "THE SEXUAL PARTS.—HERMAPHRODITES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c049.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "05ffb18aaaab85b117cc7155f152987e993a4637b02c37bebc5358ee7410fd40",
+        "englishSha256": "4d02726197d794e79e7fdfb967953cea0b2f960387188a336f3428c6aaae0736",
+        "latinWords": 162,
+        "englishWords": 400
+      },
+      "sha256": "aee44f0ec6e9d2498c746561ef631d2c9f3a3d8b04b1b4fb3252fb554bed6126",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0938117a-4828-4380-bb28-0851a0f35988",
+      "generationArtifactId": "exec-0938117a-4828-4380-bb28-0851a0f35988",
+      "outputArtifact": "built-in-imagegen://exec-0938117a-4828-4380-bb28-0851a0f35988.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent preservation master for Pliny the Elder, Naturalis Historia Book XI chapter 49, “The Sexual Parts—Hermaphrodites,” at exactly 1536x1024 landscape, fully opaque RGB/sRGB. Treat Pliny’s report of intersex horses found among the Treviri as transmitted ancient testimony, not a modern diagnosis, spectacle, hierarchy, or invitation to inspect bodies. Scene: a quiet misty Gallic upland meadow at early morning with exactly TWO complete healthy adult horses standing freely and separately: one dapple-grey horse in left three-quarter profile and one warm bay horse in right three-quarter profile. They are unyoked, unbridled, equal in scale and dignity, calm, and naturally attentive to one another. Their full bodies, heads, ears, manes, tails, legs, hooves, and every extremity are fully visible with at least 120 pixels of meadow between each horse and every canvas edge. Pose and foreground grasses must conceal the underside naturally; show no genitalia, sexual anatomy, mating, pregnancy, anatomical diagram, examination, wound, castration, medical procedure, human, ruler, priest, chariot, harness, weapon, trophy, crowd, stage, cage, or display. Do not assign a gender hierarchy or visibly label either horse. The image simply honors two living animals associated with Pliny’s account. Composition: wide low-oblique view, horses forming an asymmetric shallow diagonal within broad silver-green grass and atmospheric violet hills; a continuous distant oak line may cross the background but no discrete tree touches an edge. No water. Material continuity: original Plinian natural-history folio on warm aged vellum, iron-gall linework, disciplined fine cross-hatching and stipple, layered egg-tempera and mineral pigments; verdigris meadow, faded lapis mist, pearl grey, madder-bay, umber and restrained old gold; ancient, timeless, beautiful, rough and polished at once, natural equine anatomy, never photographic or glossy. One continuous scene only. No page, border, frame, rounded corners, vignette, panel, collage, inset, specimen chart, text, letters, numerals, labels, symbols, pseudo-writing, signature, logo, watermark, modern object, extra animal, clipped subject, fused anatomy, or repeated motif.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-0938117a-4828-4380-bb28-0851a0f35988",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly two complete healthy free horses—one dapple-grey and one bay—standing separately with all ears, muzzles, legs, hooves and tails internally framed. Their undersides are naturally concealed; there is no exposed sexual anatomy, human, harness, chariot, text, pseudo-writing, water, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The chapter's ancient statements about sexual anatomy, castration, sex development, intersex horses and human hierarchy are treated as transmitted historical claims, not modern biology or social truth. Two ordinary unrestrained horses receive equal dignity; the image does not diagnose, rank, expose or spectacle any body.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:50",
+      "title": "THE TAILS OF ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c050.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "4304d83e11f069d70300c113127f0ae0cbfc337ded906e331c9640f396f95d2f",
+        "englishSha256": "fc507919f9464af5fc3c17f0df7c9f12eeec91dba8e99a151d6be3eb4c8de4a3",
+        "latinWords": 95,
+        "englishWords": 234
+      },
+      "sha256": "6b1a66e430c77a71b21b669a9c25999b2ef03a1a79623eba65f9299f35a6f348",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-12923203-54d6-482d-9c14-5ebd44ffb935",
+      "generationArtifactId": "exec-12923203-54d6-482d-9c14-5ebd44ffb935",
+      "outputArtifact": "built-in-imagegen://exec-12923203-54d6-482d-9c14-5ebd44ffb935.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent preservation master for Pliny the Elder, Naturalis Historia Book XI chapter 50, “The Tails of Animals,” at exactly 1536x1024 landscape, fully opaque RGB/sRGB. Scene: a spacious copper-autumn woodland clearing viewed from a moderately elevated rear three-quarter angle, showing exactly THREE complete healthy animals crossing the same habitat at wide separation and without interacting: exactly one adult wild boar at lower left with a short sparse naturally curled tail clearly visible; exactly one shaggy brown bear at upper center with a small short tail clearly visible; exactly one red fox at lower right with a long luxuriant bushy tail clearly visible. Each animal must remain a complete natural body—not a detached tail study—with one head, four anatomically coherent legs, body, and one tail. Every ear, snout, paw or hoof, and the full tip and root of each tail must be plainly visible and at least 100 pixels from every canvas edge. Arrange them in a loose asymmetric triangle amid one continuous environment, not a lineup, taxonomy plate, comparison chart, procession, chase, predator encounter, or staged display. All three move calmly in different directions; no eye contact, attack, fear, blood, injury, trap, hunter, person, weapon, cub, extra animal, lizard, serpent, fish, severed or regrowing tail. Composition: diagonal amber light falls through continuous high canopy shadows; the central open ground is burnt sienna leaf litter with patches of malachite moss and chalk-grey stones, creating a strong warm/cool value pattern distinct from a misty meadow. No water. Material continuity: original Plinian natural-history folio on warm aged vellum, iron-gall contours, exceptionally fine cross-hatching and stipple, layered egg tempera and mineral pigments; umber, copper, madder, malachite, lampblack and restrained old gold; ancient, timeless, beautiful, rough and polished at once, accurate natural anatomy, never photographic or glossy. One continuous edge-to-edge scene only. No page, border, frame, rounded corners, vignette, panel, collage, inset, specimen chart, text, letters, numerals, labels, symbols, pseudo-writing, signature, logo, watermark, modern object, clipped subject, fused anatomy, extra tails, or repeated motif.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-12923203-54d6-482d-9c14-5ebd44ffb935",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete wild boar with a short curled tail, one complete brown bear with a short tail, and one complete red fox with a long bushy tail, calm and widely separated. All three whole bodies and tails remain internal; there is no interaction, harm, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Pliny's catalogue of animal tails is presented as transmitted natural-history observation rather than a universal modern anatomical rule. The scene compares visible morphology without capture, conflict, hierarchy, handling or husbandry advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:51",
+      "title": "THE DIFFERENT VOICES OF ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c051.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "d71e4cdd8174beef066df02d9db4d7607fa6736d241aa0761994cba9ef30531e",
+        "englishSha256": "f04a1c0fc0cfe760d8bda0a54d232e0d3866898d4d416b6e780ed4fdd0639cfa",
+        "latinWords": 410,
+        "englishWords": 918
+      },
+      "sha256": "2c7a931cf5bba1a976c705f3a896b8ebc9c1a5cf25a567ea95df7912fc68a187",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bc647c4e-97cd-4f2d-ae60-4ea163d987bf",
+      "generationArtifactId": "exec-bc647c4e-97cd-4f2d-ae60-4ea163d987bf",
+      "outputArtifact": "built-in-imagegen://exec-bc647c4e-97cd-4f2d-ae60-4ea163d987bf.png",
+      "exactFinalPrompt": "Use case: historical-scene. Generate a brand-new independent 1536x1024 landscape preservation master, fully opaque RGB/sRGB, for Pliny the Elder, Naturalis Historia Book XI chapter 51, “The Different Voices of Animals.” One continuous Roman architectural scene about the chapter’s observation that a whisper can travel along a smooth curved wall. In a broad high-key court, place exactly ONE complete low semicircular limestone exedra entirely within the central sixty-five percent of the canvas: both end blocks, every step, complete inner curve, complete outer curve, full coping and all cast shadows plainly visible with at least 150 pixels of unbroken plain blue paving around the whole discrete structure. Exactly TWO complete fully clothed adult Roman naturalists stand far apart just inside opposite ends of the curve: one adult woman at left speaks softly with one small open-hand gesture; one adult man at right listens with a hand loosely cupped near one ear. They are dignified equals, fully visible head-to-sandaled-feet, with anatomically coherent faces, hands and limbs, and all body parts at least 130 pixels from every edge. Convey acoustics only through posture, distance and the curve. No visible sound waves, supernatural effect, healing, charm, command, sacrifice, omen, written words or symbols. Environment: plain continuous cobalt-blue stone paving flows to the bottom and side edges as ground; a high blank warm-white lime-plaster wall flows continuously across the upper background. The wall must be totally undecorated and object-free. NO trees, shrubs, plants, pots, columns, statues, arches, doors, windows, furniture, vessels, scrolls, tablets, books, instruments, animals, birds, insects, children, patients, altar, crowd, or other discrete object anywhere. Continuous wall and ground may extend beyond the canvas; only those background surfaces may cross edges. Composition: high oblique view, strong pale internal crescent against a large unbroken blue field, spacious asymmetric human placement, materially distinct from woodland or meadow scenes. Material continuity: naturalistic Plinian folio translated through iron-gall linework, fine cross-hatching, egg tempera, mineral pigment and lightly abraded fresco grain; chalk, saturated faded lapis, soft madder garments, celadon shadow, umber and restrained old gold; ancient, timeless, beautiful, rough and polished at once, not photographic or glossy. No page, perimeter line, border, frame, rounded corners, vignette, panel, collage, inset, diagram, chart, text, letters, numerals, labels, glyphs, pseudo-writing, signature, logo, watermark, clipped discrete subject, duplicated person, or repeated motif.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6b767e4e-5eff-4406-8df0-ab4262ceb38f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-bc647c4e-97cd-4f2d-ae60-4ea163d987bf",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete semicircular exedra and exactly two fully clothed adults—one speaking softly and one listening—fully internal and anatomically coherent. The plain continuous wall and blue paving contain no visible sound waves, animal, prop, plant, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The chapter's claims about voices, speech, hearing and curved-wall acoustics are framed as ancient observation. A quiet human exchange illustrates listening without treating disputed physiological or ethnographic claims as modern fact and without hierarchy or spectacle.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-6b767e4e-5eff-4406-8df0-ab4262ceb38f",
+          "outputArtifact": "built-in-imagegen://exec-6b767e4e-5eff-4406-8df0-ab4262ceb38f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b11-c051-reject-01-cypresses-clipped-top.png",
+          "sha256": "e5de455a14522be86950dcb5811699907b29ecd8e6c4826d4f0b4668a92856bc",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Create one independent preservation master for Pliny the Elder, Naturalis Historia Book XI chapter 51, “The Different Voices of Animals,” at exactly 1536x1024 landscape, fully opaque RGB/sRGB. Ground the image in the chapter’s closing observations about individual human voices and how a quiet voice travels along a smooth curved wall. Scene: a bright empty Roman garden court seen from a high oblique angle, containing exactly ONE complete low semicircular limestone exedra, with both curved ends, the full coping, every step and its entire outer footprint visibly contained in the central seventy percent of the canvas. Exactly TWO complete fully clothed adult Roman naturalists stand far apart at opposite inner ends of the same curved exedra: one calm speaker at the left makes a small open-hand gesture and inclines the head as if speaking softly; one attentive listener at the right turns an ear toward the wall. Both adults are dignified equals, fully visible head-to-sandaled-feet with anatomically coherent faces, hands and limbs, and at least 120 pixels of open paving between every body part and canvas edge. Do not depict literal visible sound waves, written words, speech ribbons, magic, healing, command, sacrifice, omen, or supernatural effect. The acoustic relationship should be conveyed only through posture, distance and architecture. No child, infant, animal, bird, insect, fish, victim, musician, flute, vessel, scroll, tablet, book, inscription, statue, altar, medical treatment, experiment on a body, or crowd. Composition: the complete pale exedra forms a strong internal crescent across a broad field of ultramarine-blue mosaic-like paving that is plain and non-symbolic; a continuous white garden wall and slim cypress shadows form the background, while no discrete tree or structure crosses an edge. No water. Material continuity: original Plinian natural-history folio on warm aged vellum, iron-gall contours, fine cross-hatching and stipple, egg tempera and mineral pigments; chalk white, faded lapis, cool celadon shadow, soft madder garments, umber and restrained old gold; ancient, timeless, beautiful, rough and polished at once, not photographic or glossy. One continuous scene only. No page, border, frame, rounded corners, vignette, panel, collage, inset, diagram, chart, text, letters, numerals, labels, glyphs, pseudo-writing, signature, logo, watermark, clipped subject, structure touching an edge, duplicated person, or repeated motif.",
+          "editLineage": [],
+          "reason": "The otherwise coherent exedra scene included several discrete background cypress trees cut by the top canvas edge, so the strict edge-safety gate failed."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:52",
+      "title": "SUPERFLUOUS LIMBS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c052.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "0b963e33c702b68807511c6196621f1dec73583371e78a568cb09b80447de8ad",
+        "englishSha256": "de40460b029e5f9994f5fcac0e26fd6cb4ced4e033169b2aae49825acdca2f3a",
+        "latinWords": 219,
+        "englishWords": 469
+      },
+      "sha256": "2131062fd5c664aed326b001e3d8ce4e40dc1dd88a67a0a547aec06cefc945e3",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-15fae4ea-66ae-4b2e-9eed-ba4eb9875e1f",
+      "generationArtifactId": "exec-15fae4ea-66ae-4b2e-9eed-ba4eb9875e1f",
+      "outputArtifact": "built-in-imagegen://exec-15fae4ea-66ae-4b2e-9eed-ba4eb9875e1f.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create a new independent 1536x1024 opaque RGB/sRGB landscape illustration for Pliny, Naturalis Historia XI.52, using a clearly artificial clay object to symbolize an extra digit without exhibiting a living body. On one complete small square of charcoal-black kiln stone centered within a broad sunlit ochre workshop floor, place exactly ONE complete coral-red terracotta hand sculpture lying palm-down with its digits spread flat like rays. It must have EXACTLY SIX DIGITS TOTAL and the count must be visually obvious. Build the silhouette from precisely these six forms, ordered clockwise: A) one short sideways thumb; B) one index finger; C) one tallest middle finger; D) one second central finger of medium length; E) one ring finger; F) one short little finger. Six forms only: one thumb plus five fingers. Leave five clean V-shaped negative gaps between adjacent digits. There must be exactly six visible fingertip ends—never five, never seven—and no digit may overlap or hide behind another. The full palm, wrist, six digits, six tips, stone square and shadow are internal with at least 170 pixels clearance. The object is unmistakably rough fired terracotta with kiln freckles and a solid sculpture base, not flesh, not severed anatomy. No living person or animal, body, blood, wound, omen, prognosis, palm-reading, moral or physical hierarchy, spectacle, examination, ritual, altar, tool, pot, other sculpture, writing or water. Treat bodily variation with dignity and Pliny's physiognomic prognostics as explicitly unillustrated ancient claims, not fact. Composition: near-vertical oblique view, strong coral six-ray silhouette over a complete charcoal square surrounded by wide ochre floor; the square is environmental stone and not a panel or frame. Materiality: warm aged-vellum sensibility, iron-gall edges, fine hatching and stipple, egg tempera and mineral pigment, coral, charcoal, ochre, celadon shadow, restrained gold; ancient, timeless, rough and polished at once, painterly, not photographic or glossy. One continuous workshop floor. No border, frame, vignette, page, collage, inset, chart, text, letters, numerals, glyphs, pseudo-writing, signature, logo, watermark, clipped subject, extra object, or repeated motif.",
+      "generationAttempts": 5,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9f069a67-1d88-4324-84a7-2159e4fdc064",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-b620397d-a129-4243-ac10-9e942acf3fa4",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-e0daf768-f974-4048-b33c-2c5a0afb2ff8",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4cfd7db1-6814-40cf-802c-f2511cf325a7",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-15fae4ea-66ae-4b2e-9eed-ba4eb9875e1f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one clearly artificial fired-terracotta hand sculpture resting on one complete charcoal kiln-stone square. The sculpture has exactly one thumb plus five upright fingers—six total digits and six visible tips—and remains fully internal. There is no living body, exposed anatomy, fluid, harm, prophecy, physiognomy, text, pseudo-writing, water, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Ancient reports of supernumerary limbs are separated from the passage's prognostic, physiognomic and ableist judgments. A deliberately artificial workshop study records anatomical variation without displaying, diagnosing or assigning fate or character to a living person.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-9f069a67-1d88-4324-84a7-2159e4fdc064",
+          "outputArtifact": "built-in-imagegen://exec-9f069a67-1d88-4324-84a7-2159e4fdc064.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b11-c052-reject-01-toe-count-and-hind-paw-occluded.png",
+          "sha256": "8049bab06de34c354b57013dc545d5218fb66e93d483c53c3c3705fe20981c91",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Create one independent preservation master for Pliny the Elder, Naturalis Historia Book XI chapter 52, “Superfluous Limbs,” at exactly 1536x1024 landscape, fully opaque RGB/sRGB. Use a dignified nonhuman natural-variation scene rather than exhibiting a human body or endorsing ancient physiognomy. Subject: exactly ONE complete healthy adult tortoiseshell domestic cat resting naturally in a sun-warmed Roman courtyard, shown in a close but fully contained three-quarter view. The cat sits left of center with its body, head, ears, whiskers, tail, all four legs and all four paws anatomically coherent and fully visible. Its left front paw is gently extended onto a small patch of plain pale limestone so that exactly SIX distinct rounded toes on that one paw are visibly and naturally separated; the other front paw is normal and relaxed. This is calm polydactyly as biological variation, not deformity, omen, disability spectacle, diagnostic sign, prognosis, moral character, or hierarchy. Keep the entire cat and every whisker, tail tip, paw and toe at least 130 pixels inside every canvas edge. No human, face-reading, palm-reading, eye anomaly, exposed anatomy, medical examination, restraint, cage, tool, ruler, label, pointer, specimen pose, crowd, other cat, animal, bird, insect, severed limb, injury, blood, pain, supernatural aura, or prediction. Environment: a single continuous Pompeian-red plaster courtyard floor with one broad irregular patch of pale limestone beneath the extended paw, soft geometric shadow from an unseen pergola, and a continuous warm umber wall behind; no discrete plant, pot, furniture, architecture, or object. Composition: low intimate eye-level animal portrait with generous red negative space and a diagonal cream shadow, materially distinct from open landscapes and blue architectural scenes. No water. Material continuity: original Plinian zoological folio on warm aged vellum, iron-gall contours, meticulous cross-hatching and stipple, egg-tempera and mineral pigment; tortoiseshell black, copper and cream, Pompeian red, chalk white, umber, soft celadon shadow and restrained old gold; ancient, timeless, beautiful, rough and polished at once, natural feline anatomy, never photographic, cartoonish or glossy. One continuous scene only. No page, border, frame, rounded corners, vignette, panel, collage, inset, anatomy chart, text, letters, numerals, labels, glyphs, pseudo-writing, signature, logo, watermark, clipped subject, extra limb, duplicated anatomy, or repeated motif.",
+          "editLineage": [],
+          "reason": "The polydactyl-cat candidate hid one hind paw, and the intended six-toe count could not be certified at native resolution."
+        },
+        {
+          "generationArtifactId": "exec-b620397d-a129-4243-ac10-9e942acf3fa4",
+          "outputArtifact": "built-in-imagegen://exec-b620397d-a129-4243-ac10-9e942acf3fa4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b11-c052-reject-02-visible-toes-not-six.png",
+          "sha256": "c4918a05e93eeb760d8b8a5ebaa9802fe4b5f3743f7d940c73a0a9d51f349a4c",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Generate a brand-new independent 1536x1024 landscape preservation master, fully opaque RGB/sRGB, for Pliny the Elder, Naturalis Historia Book XI chapter 52, “Superfluous Limbs.” Use one dignified nonhuman observation of natural variation; do not exhibit a human or validate ancient physiognomy. Exactly ONE complete healthy adult black-and-copper tortoiseshell cat walks calmly from left to right across a sunlit Roman courtyard in a clean side three-quarter view. The cat occupies only the central half of the canvas. Its whole head, both ears, whiskers, torso, entire tail, exactly four coherent legs and exactly four complete paws are all simultaneously visible and spatially separated from each other. The near front leg reaches forward onto one complete small oval patch of pale limestone; on that near front paw, show exactly SIX clearly separated rounded toe tips in one natural fan, no more and no fewer. The other three paws are normal, smaller, and clearly distinct; do not enlarge the whole limb unnaturally. The cat is comfortable and unremarkable, not a specimen, omen, deformity, disability spectacle, prognosis, moral sign, or hierarchy. Keep every whisker, tail tip, paw and toe at least 150 pixels from all canvas edges with obvious red paving around the animal. No human, eye anomaly, palm or face reading, examination, restraint, cage, tool, ruler, pointer, label, crowd, second animal, severed limb, injury, blood, pain, extra leg, fused anatomy, supernatural aura, or prediction. Environment: continuous matte Pompeian-red paving runs through the frame, a plain continuous deep umber wall behind, one oval pale limestone patch fully internal beneath the near forepaw, and one broad diagonal shadow from an unseen roof. Absolutely no plant, pot, furniture, doorway, column, statue, mosaic symbol, other object, or water. Composition: low eye-level environmental portrait, long horizontal walking silhouette, generous red and umber negative space, distinct from landscapes and blue architecture. Material continuity: original Plinian zoological folio on warm aged vellum; iron-gall contours, meticulous cross-hatching and stipple, egg tempera and mineral pigment; tortoiseshell lampblack, copper and cream, Pompeian red, chalk, umber, soft celadon shadow and restrained old gold; ancient, timeless, beautiful, rough and polished at once, natural feline anatomy, never photographic, cartoonish or glossy. One continuous scene only. No page, border, frame, rounded corners, vignette, panel, collage, inset, anatomy chart, text, letters, numerals, labels, glyphs, pseudo-writing, signature, logo, watermark, clipped subject, duplicated cat, or repeated motif.",
+          "editLineage": [],
+          "reason": "Although all four paws were visible, native magnification showed ordinary or insufficient toe divisions rather than a certifiable six toes on the specified paw."
+        },
+        {
+          "generationArtifactId": "exec-e0daf768-f974-4048-b33c-2c5a0afb2ff8",
+          "outputArtifact": "built-in-imagegen://exec-e0daf768-f974-4048-b33c-2c5a0afb2ff8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b11-c052-reject-03-seven-digits-not-six.png",
+          "sha256": "04a96d65878656a678954e00783a2af8ec0e78e95bd6bbbcbae700a8f500e59d",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Generate a brand-new independent 1536x1024 landscape preservation master, fully opaque RGB/sRGB, for Pliny the Elder, Naturalis Historia Book XI chapter 52, “Superfluous Limbs.” Use a neutral symbolic object in an ancient craft environment rather than exhibiting any living person or animal. Scene: a quiet sunlit Roman potter’s workshop with exactly ONE complete freestanding terracotta votive-hand sculpture resting upright on a small integrated clay wrist-base at the center of a broad worn wooden workbench. The object is unmistakably fired clay, with subtle kiln freckles and a matte orange-red surface, never flesh. The sculpted palm faces the viewer at a slight three-quarter angle and has exactly SIX complete, clearly separated digits total: exactly one thumb on the left side plus exactly five upright fingers in a readable fan. All six tips, all spaces between the six digits, the full palm, wrist and base must be visible and anatomically plausible as a deliberately six-digit sculptural variation. Do not add or omit a digit. Keep the entire clay hand and its cast shadow at least 180 pixels from every canvas edge, with broad empty workbench around it. The continuous workbench surface may cross the bottom and side edges as background. Behind it is a continuous plain charcoal-blue plaster wall, softly lit by one diagonal band of warm daylight; no visible window or discrete architecture. The image treats bodily variation without prognosis, omen, utility judgment, moral character, hierarchy, ridicule, disability spectacle, or physiognomy. No living human, body part, severed hand, blood, injury, medical examination, palm reading, face reading, pointer, ruler, writing, label, ritual action, other sculpture, pot, tool, kiln, flame, animal, plant, or water. Composition: low oblique craft-still-life view, the small coral terracotta hand silhouetted cleanly against blue-grey negative space; a single continuous environment, not a specimen plate, anatomy chart, altar, display cabinet, panel or collage. Material continuity: original Plinian folio translated through iron-gall contour, fine cross-hatching and stipple, egg tempera and mineral pigments; terracotta madder, charcoal blue, umber wood, chalk dust, muted celadon shadow and restrained old gold; ancient, timeless, beautiful, rough and polished at once, never photographic, cartoonish or glossy. No page, border, frame, rounded corners, vignette, panel, inset, text, letters, numerals, symbols, pseudo-writing, signature, logo, watermark, clipped object, duplicated hand, extra object, or repeated motif.",
+          "editLineage": [],
+          "reason": "The first terracotta-hand candidate had one thumb plus six upright fingers—seven total digits—not the required six."
+        },
+        {
+          "generationArtifactId": "exec-4cfd7db1-6814-40cf-802c-f2511cf325a7",
+          "outputArtifact": "built-in-imagegen://exec-4cfd7db1-6814-40cf-802c-f2511cf325a7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b11-c052-reject-04-five-digits-not-six.png",
+          "sha256": "207173cfb20353a6473bc29e209627be8cf55a821d7d4919655398b5af91d385",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Generate one new independent 1536x1024 landscape preservation master, fully opaque RGB/sRGB, for Pliny the Elder, Naturalis Historia Book XI chapter 52, “Superfluous Limbs.” Create a neutral ancient craft scene with no living body. On a broad pale-limestone potter’s bench, show exactly ONE complete upright fired-terracotta votive-hand sculpture on an integrated round wrist-base, wholly internal with at least 180 pixels of clear bench around it. The clay palm faces front. CRITICAL DIGIT COUNT: the sculpture has EXACTLY SIX DIGITS TOTAL, no more and no fewer. From viewer-left to viewer-right they are: (1) one sideways thumb; (2) index finger; (3) middle finger; (4) one additional central finger; (5) ring finger; (6) little finger. Therefore the silhouette must show ONE thumb plus FIVE upright fingers, SIX TOTAL visible tips and exactly FIVE visible gaps between adjacent digits. NOT seven digits. NOT six upright fingers. Do not include any hidden or overlapping digit. All six clay digits are clearly separated, natural in thickness, and unmistakably part of a deliberately artificial matte terracotta sculpture, never flesh or a severed hand. Treat variation without omen, prognosis, utility judgment, physiognomy, ridicule, hierarchy, or disability spectacle. Background: a continuous luminous pale limestone bench crosses the lower image and a continuous soft celadon plaster wall fills the upper image; one diagonal violet-grey shadow, no visible window. No living person, body part, blood, injury, medical act, palm reading, face reading, ruler, pointer, tool, vessel, second sculpture, plant, animal, water, writing, symbol, ritual action, altar, display case, specimen plate, chart or collage. Composition: low oblique still life, the compact coral clay hand occupies only the central third, with generous pale negative space and all cast shadow internal. Material continuity: original Plinian folio through iron-gall contour, fine cross-hatching and stipple, egg tempera and mineral pigments; coral terracotta, celadon, chalk, violet-grey, umber and restrained old gold; ancient, timeless, beautiful, rough and polished at once, painterly rather than photographic or glossy. Continuous background surfaces alone may cross canvas edges. No page, perimeter line, border, frame, rounded corners, vignette, panel, inset, text, letters, numerals, glyphs, labels, pseudo-writing, signature, logo, watermark, cropped object, extra object, or repeated motif.",
+          "editLineage": [],
+          "reason": "The second terracotta-hand candidate had an ordinary five total digits rather than the required six."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:54",
+      "title": "WHAT THINGS, BY MERELY TASTING OF THEM, ALLAY HUNGER AND THIRST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c054.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "72765de387e116c6b4d09d224f987462b889eb07dc2d2ea0e3c23e6e82a08ea8",
+        "englishSha256": "70b64f21c9a24eee58a5fdddbf6bfa2112b6bd25ecee10b9adb8b166b610e93b",
+        "latinWords": 82,
+        "englishWords": 187
+      },
+      "sha256": "1a6f17dc043bf1387e86b9bca0e9d219cf53e459c60884f031987136137b2222",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ec5dc341-b37c-49d5-8ba9-8c0ca4350019",
+      "generationArtifactId": "exec-ec5dc341-b37c-49d5-8ba9-8c0ca4350019",
+      "outputArtifact": "built-in-imagegen://exec-ec5dc341-b37c-49d5-8ba9-8c0ca4350019.png",
+      "exactFinalPrompt": "Use case: historical-scene. Generate a brand-new independent 1536x1024 landscape preservation master, fully opaque RGB/sRGB, for Pliny the Elder, Naturalis Historia Book XI chapter 54, “What Things, by Merely Tasting Them, Allay Hunger and Thirst.” Treat the listed foods and fasting claims as transmitted ancient natural history, never modern nutrition, treatment, survival, weight-loss or dosing advice. Scene: an unused sunlit Roman farm-pantry counter, one continuous environment, containing exactly THREE separated ingredient subjects and nothing else. At upper-left: exactly ONE small smooth pat of pale butter resting on exactly ONE complete dark-green fig leaf, with every leaf lobe visible. At lower-center: exactly ONE complete modest uncut wheel of pale mare’s-milk cheese with smooth rind. At upper-right: exactly ONE complete naturally forked liquorice root, shown as a single connected botanical root with one main crown and two tapering branches, accompanied by exactly ONE complete small leafy liquorice sprig. Do not turn the root into a bundle, stack, repeated sticks, or multiple disconnected roots. All three ingredient subjects, every leaf and sprig tip, the complete forked root and all shadows must remain at least 150 pixels inside every canvas edge. No tasting, eating, measuring, preparing, cutting, mixing, serving or administering. No person, hand, mouth, patient, animal, child, utensil, knife, vessel, cup, bowl, jar, bottle, scale, recipe, fire, water, drink, extra food, package, remedy, dose, health promise, body transformation, fasting scene or suffering. Composition: near-vertical oblique view over a continuous high-key chalk-white limestone counter with a continuous cool celadon plaster wall beyond; the ingredients form an asymmetric triangle amid broad empty pale space, not a row, specimen chart, altar, display case, page or instructional layout. Lighting: crisp lateral morning light, polished butter and cheese against rough root and matte stone. Palette: chalk white, celadon, pale butter gold, ivory cheese, liquorice umber, verdigris leaf, a small violet-grey shadow and restrained old gold. Material continuity: original Plinian folio on warm aged vellum with iron-gall contours, fine cross-hatching and stipple, egg tempera and mineral pigments; ancient, timeless, beautiful, rough and polished at once, tactile and painterly, never photographic, advertising-like or glossy. No water. Continuous counter and wall alone may cross canvas edges. No border, frame, rounded corners, vignette, panel, collage, inset, chart, text, letters, numerals, labels, symbols, pseudo-writing, signature, logo, watermark, clipped subject, duplicated ingredient, or repeated motif.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-553191b0-b99a-4eac-b745-d45dd7742c03",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-ec5dc341-b37c-49d5-8ba9-8c0ca4350019",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found one butter pat on one complete fig leaf, one complete uncut cheese wheel, one single connected naturally forked liquorice root and one complete leafy sprig on a pale pantry counter. Every discrete subject and tip is internal; there is no person, eating, utensil, liquid, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Claims that certain foods or liquorice allay hunger or thirst are treated as ancient dietary testimony, not nutrition, survival or medical advice. The non-ingestive ingredient still life avoids preparation, dosage, consumption and promised effect.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-553191b0-b99a-4eac-b745-d45dd7742c03",
+          "outputArtifact": "built-in-imagegen://exec-553191b0-b99a-4eac-b745-d45dd7742c03.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b11-c054-reject-01-root-count-exceeds-five.png",
+          "sha256": "f3c809cf581bce73a4ca153919aaf86859cd324ef90ddf1c5b8d1656197c651f",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Create one independent preservation master for Pliny the Elder, Naturalis Historia Book XI chapter 54, “What Things, by Merely Tasting Them, Allay Hunger and Thirst,” at exactly 1536x1024 landscape, fully opaque RGB/sRGB. Treat the dietary and fasting claims as transmitted ancient natural history, not nutrition, survival, weight-loss or medical advice. Depict a quiet unused Roman farm pantry shelf as one continuous environmental still life with exactly THREE ingredient groups, all complete and widely separated: at left, exactly ONE small round pat of pale yellow butter resting on exactly ONE complete plain dark-green fig leaf; at center, exactly ONE complete modest wheel of pale mare’s-milk cheese with an uncut smooth rind; at right, exactly ONE complete loose bundle of five dried liquorice roots with one small fresh liquorice sprig laid across them. No ingredient is being tasted, measured, prepared, mixed or administered. Keep the full butter pat, every edge of the leaf, the entire cheese wheel, all five root ends, the complete sprig, every cast shadow and every discrete object at least 140 pixels from the canvas edges. The continuous shelf surface and continuous rear wall alone may cross edges. No person, hand, mouth, patient, animal, sheep, horse, child, utensil, knife, cup, bowl, jar, bottle, scale, recipe, fire, water, beverage, extra food, package, remedy, dose, transformation, health promise, fasting ordeal, body change, or suffering. Composition: near-vertical oblique view across a broad matte charcoal-basalt shelf against a continuous deep plum plaster wall; the three groups form a loose asymmetric crescent with large dark negative space, not a row, specimen chart, altar, display case, or instructional layout. Lighting: one soft amber side light, polished cheese and butter against rough roots and stone. Palette: lampblack, deep plum, liquorice umber, pale butter gold, ivory cheese, muted verdigris leaf and restrained old gold. Material continuity: original Plinian natural-history folio on warm aged vellum with iron-gall contours, fine cross-hatching and stipple, egg tempera and mineral pigments; ancient, timeless, beautiful, rough and polished at once, tactile and painterly, never photographic, appetizing-advertising, or glossy. No water. One continuous scene only. No page, border, frame, rounded corners, vignette, panel, collage, inset, chart, text, letters, numerals, labels, symbols, pseudo-writing, signature, logo, watermark, clipped subject, duplicated food, or repeated motif.",
+          "editLineage": [],
+          "reason": "The first pantry still life contained more than the requested five distinct liquorice roots or sticks, so its exact botanical count failed native QA."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:1",
+      "title": "INTRODUCTION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b28-c001.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "62f7e20cde5a6f786efcf659adbe4571b1beed46dba6ed81e04312633c55f5f9",
+        "englishSha256": "81f2ba4cd00bf8e0d2bf50d994389dfbdfd46cb7e88b920d02fcbc74a49e8fbd",
+        "latinWords": 483,
+        "englishWords": 1169
+      },
+      "sha256": "f80e0194f4279a15f954f9e74bd38e3e9ee4dc7ed0cfa45a4fe9511a8a7dbacc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c2ea3874-197c-40c5-83d2-43e98f6ba1e6",
+      "generationArtifactId": "exec-c2ea3874-197c-40c5-83d2-43e98f6ba1e6",
+      "outputArtifact": "built-in-imagegen://exec-c2ea3874-197c-40c5-83d2-43e98f6ba1e6.png",
+      "exactFinalPrompt": "Create a new independent replacement landscape illustration, exactly 1536×1024 pixels, fully opaque RGB/sRGB. Subject: Pliny the Elder, Natural History Book XXVIII chapter 1, a humane ethical threshold before reporting ancient claims about remedies associated with the human body. Depict transmitted Roman intellectual history, never modern medical advice. Show one austere continuous Roman courtyard with completely plain ochre plaster walls and a bare stone floor: NO shelves, background furniture, baskets, pottery, plants, or loose clutter anywhere. Exactly ONE fully clothed adult natural philosopher stands calmly behind exactly ONE complete freestanding rectangular limestone worktable, both the whole person including both feet and the entire table including slab and all four legs fully visible with large empty margins on every side. On the tabletop are exactly FOUR separated complete objects and nothing else: at left ONE small golden beeswax cake; center-left ONE clean undyed wool tuft; center-right ONE tied bundle of dried sage leaves; at right ONE small matte-black bronze casket with its fitted lid firmly CLOSED and no contents visible. The philosopher’s two anatomically correct empty hands are open in a restrained questioning gesture and touch nothing; expression grave, reflective, humane. All five discrete subjects and every tiny projecting leaf tip are well inside the canvas. Composition: restrained frontal eye-level view, pale limestone against ochre and muted celadon shadow, rust-red and cream clothing, generous unoccupied wall as negative space, formal but asymmetrical. Style: original Plinian natural-history folio illustration on subtly aged vellum, iron-gall ink contours, fine cross-hatching and stipple, restrained egg-tempera and mineral pigments, ancient and timeless, tactile and rough yet polished, museum-quality naturalistic anatomy and materials. Freestanding scene, NOT a manuscript page. Absolutely no patient, no treatment or remedy preparation, no consumption, no blood, bodily fluids, exposed anatomy, body parts, bones, skulls, corpse, injury, sacrifice, cannibalism, self-harm, death, child, danger, cruelty, medical procedure, actionable instruction, magical effect, hierarchy, spectacle, or horror. No scroll, codex, tablet, inscription, alphabetic mark, numeral, label, caption, text, pseudo-writing, signature, watermark, heraldry, decorative border, page edge, frame, vignette, rounded corners, split screen, diptych, triptych, panel, collage, inset, diagram, modern object, or water. No discrete subject may touch or be cropped by any canvas edge.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d461f0b5-5f9c-49b4-8f6d-1ac5955c9d2f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-c2ea3874-197c-40c5-83d2-43e98f6ba1e6",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete fully clothed philosopher behind one complete freestanding limestone table, with one beeswax cake, one wool tuft, one tied sage bundle and one firmly closed black bronze casket separated on the tabletop. The person, both feet, hands, all four table legs and every object are internal; there is no patient, procedure, consumption, bodily material, injury, child, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The chapter's remedy survey, its forceful condemnation of cannibalistic practices, and its harmful language about self-procured death are treated as historical evidence, never instruction or endorsement. Only benign materials and a closed symbolic casket appear; horrific remedies, bodies, blood, treatment and self-harm are wholly omitted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d461f0b5-5f9c-49b4-8f6d-1ac5955c9d2f",
+          "outputArtifact": "built-in-imagegen://exec-d461f0b5-5f9c-49b4-8f6d-1ac5955c9d2f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/evidence/history/b28-c001-reject-01-background-vessels-and-baskets-clipped.png",
+          "sha256": "343e7c61e4df0bd5b33f28bc174721a7ba6ffb5bfae31d360ad8ce333e51daea",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create a single independent landscape illustration, exactly 1536×1024 pixels, fully opaque RGB/sRGB. Subject: Pliny the Elder, Natural History Book XXVIII chapter 1, an ethical threshold before discussing remedies associated with the human body. Depict transmitted Roman intellectual history, never modern medical advice. In one continuous ancient Roman storeroom-courtyard scene, exactly ONE fully clothed adult natural philosopher stands calmly behind exactly ONE complete rectangular limestone worktable. On the tabletop place exactly THREE benign natural-history specimens, separated and fully visible: ONE small golden beeswax cake, ONE clean undyed wool tuft, and ONE tied bundle of dried sage leaves. At the far right of the table place exactly ONE small matte-black bronze casket with its fitted lid firmly CLOSED, visibly set apart from the three specimens; it is only a restrained symbol of practices the chapter condemns, with no contents visible. The philosopher’s open empty hands rest near the safe specimens but touch nothing; expression grave, questioning, humane. No patient, no treatment being given, no remedy preparation, no consumption. All people, hands, feet, table legs, specimens, casket, architecture, and discrete objects fully contained well inside the canvas with generous breathing room. Composition: eye-level three-quarter view, warm ochre wall, muted green shadow, pale limestone table, rust-red garment; strong central negative space and asymmetrical balance, unlike a generic manuscript still life. Style: original Plinian natural-history folio illustration on subtly aged vellum, iron-gall ink contours, fine cross-hatching and stipple, restrained egg-tempera and mineral pigments, ancient and timeless, tactile and rough yet polished, museum-quality naturalistic anatomy and material detail. This is a freestanding scene, NOT a manuscript page. Absolutely no blood, bodily fluids, exposed anatomy, body parts, bones, skulls, corpses, injury, sacrifice, cannibalism, self-harm, death, child, danger, cruelty, medical procedure, actionable treatment, magical effect, hierarchy, spectacle, or horror. No food being eaten or liquid. No scroll, codex, tablet, inscription, alphabetic marks, numerals, labels, captions, text, pseudo-writing, signature, watermark, heraldry, decorative border, page edge, frame, vignette, rounded corners, split screen, diptych, triptych, panels, collage, inset, diagram, modern object, or water. No discrete subject may touch or be cropped by any canvas edge.",
+          "editLineage": [],
+          "reason": "The first ethical-threshold scene placed discrete pantry vessels and baskets against the left, right and bottom canvas edges, so complete-object framing could not be certified."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:2",
+      "title": "WHETHER WORDS ARE POSSESSED OF ANY HEALING EFFICACY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b28-c002.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "fe4636093a600e7815050b659d2d5fc2c1a4b9d20b26b8848b228ac4a153b2e4",
+        "englishSha256": "a06f2fa62007bd2e0af02e38a1635880650e292d45e3347c70b392cb23ddceb3",
+        "latinWords": 1100,
+        "englishWords": 2634
+      },
+      "sha256": "add28c822bcc05fb11b8345933789f2b4834ecb08d3813b22dbec3f8fe8a8ad5",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-50b5e865-423e-4278-a567-c27a8af61539",
+      "generationArtifactId": "exec-50b5e865-423e-4278-a567-c27a8af61539",
+      "outputArtifact": "built-in-imagegen://exec-50b5e865-423e-4278-a567-c27a8af61539.png",
+      "exactFinalPrompt": "Create a single independent landscape illustration, exactly 1536×1024 pixels, fully opaque RGB/sRGB. Subject: Pliny the Elder, Natural History Book XXVIII chapter 2, the ancient question of whether spoken formulae or incantations possess efficacy. Frame this strictly as a skeptical, unresolved Roman debate recorded in transmitted testimony, never as magic, medicine, or advice. In one continuous austere Roman portico, show exactly TWO fully clothed adult scholars of equal dignity facing one another from a respectful distance. Scholar at left wears deep indigo and raises one anatomically correct empty hand in a questioning conversational gesture; scholar at right wears muted madder and holds both anatomically correct empty hands open in measured reply. Their expressions are calm, analytical, and unconvinced; neither touches the other. Between them stands exactly ONE complete freestanding low square marble plinth, and on it exactly ONE complete small bronze oil lamp that is visibly UNLIT and empty of flame. No other people, animals, furniture, props, vessels, plants, or loose objects. Show both complete bodies from head through both sandaled feet, the whole plinth including base, and the whole lamp, all fully contained well inside the canvas with broad empty margins. Background architecture is only continuous blank columns, plain floor, and a dark lapis-blue wall recess—no ornament and no clipped discrete objects. Composition: wide frontal eye-level debate, generous central negative space around the unlit lamp, alternating cool lapis and muted cinnabar with pale stone, visually distinct from an acoustic theatre or whispering scene. Style: original Plinian natural-history folio illustration on subtly aged vellum, iron-gall ink contours, fine cross-hatching and stipple, restrained egg-tempera and mineral pigments, ancient and timeless, tactile and rough yet polished, museum-quality natural anatomy and fabric. This is a freestanding scene, NOT a manuscript page. Absolutely no patient, healer, medical action, treatment, cure, wound, bodily fluid, exposed anatomy, sacrifice, victim, child, animal, burial, charm performance, ritual action, spoken words made visible, sound waves, magical glow, aura, lightning, smoke, fire, supernatural effect, prophecy, advice, actionable instruction, coercion, harm, hierarchy, or spectacle. No scroll, codex, tablet, inscription, alphabetic mark, numeral, label, caption, text, pseudo-writing, signature, watermark, heraldry, decorative border, page edge, frame, vignette, rounded corners, split screen, diptych, triptych, panel, collage, inset, diagram, modern object, or water. No discrete subject may touch or be cropped by any canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-50b5e865-423e-4278-a567-c27a8af61539",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete fully clothed adult scholars of equal dignity facing one another across exactly one complete marble plinth and one complete unlit bronze lamp. All bodies, feet, hands, plinth and lamp are internal; there is no ritual performance, patient, treatment, flame, visible speech, supernatural effect, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The question whether spoken formulae heal is presented as Pliny's unresolved ancient inquiry, not proof of magic or medical efficacy. A calm skeptical debate and unlit lamp avoid sacrifice, charms, treatment, actionable ritual and supernatural assertion.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:3",
+      "title": "TWO HUNDRED AND TWENTY-SIX OBSERVATIONS ON REMEDIES DERIVED FROM MAN. EIGHT REMEDIES DERIVED FROM CHILDREN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b28-c003.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "fe9e73600a3bec6a7e2d434aa2d8237c3795c94c643740cc8169e62f95fb8de8",
+        "englishSha256": "3e666694f9b65b13afa6421c4b4ab1152415a545d9df5979ce270f287e6906dc",
+        "latinWords": 188,
+        "englishWords": 495
+      },
+      "sha256": "e49ad366372961167c7b2e2403607ae41a03f2788f2d1f13e1e68b8ca641f0f2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fbdc64a3-5a60-42b1-b266-db775149a4e9",
+      "generationArtifactId": "exec-fbdc64a3-5a60-42b1-b266-db775149a4e9",
+      "outputArtifact": "built-in-imagegen://exec-fbdc64a3-5a60-42b1-b266-db775149a4e9.png",
+      "exactFinalPrompt": "Create a single independent landscape illustration, exactly 1536×1024 pixels, fully opaque RGB/sRGB. Subject: Pliny the Elder, Natural History Book XXVIII chapter 3, ancient reports concerning certain peoples and serpents. Frame this strictly as distant observation of transmitted testimony, not proof of a supernatural affinity, not medicine, and never advice. In one continuous sunlit Cypriot-Roman stone court, show exactly TWO fully clothed adults standing together at the far left: ONE visiting envoy in muted saffron and ONE naturalist in pale stone-grey. Both complete bodies, including both hands and both sandaled feet, are fully visible; both keep their anatomically correct hands calmly clasped at waist height, neither gestures toward or approaches the animal. Between the adults and the animal stands exactly ONE complete freestanding waist-high bronze lattice safety screen, fully visible from both end posts through its feet and top rail. At far right, beyond the screen and separated by broad empty space, show exactly ONE complete calm nonvenomous-looking olive-brown snake resting in a single loose coil on dry pale sand, with its entire head, tail tip, and continuous body clearly visible and not touching any structure. No second animal. The adults remain many body lengths away; there is no interaction, test, performance, effect, cure, or claim being demonstrated. Every person, finger, foot, garment edge, screen component, snake, head, and tail lies well inside the canvas with generous margins. Background is only continuous plain rose-limestone walls and dry court paving; absolutely no vegetation, pottery, furniture, water, or clipped background objects. Composition: elevated three-quarter view with adults clustered left, safety screen at a diagonal through center, serpent isolated right, large field of pale sand as negative space; dusty rose, olive, saffron, charcoal bronze, materially distinct from frontal debate scenes. Style: original Plinian natural-history folio illustration on subtly aged vellum, iron-gall ink contours, fine cross-hatching and stipple, restrained egg-tempera and mineral pigments, ancient and timeless, tactile and rough yet polished, museum-quality naturalistic human and snake anatomy. This is a freestanding scene, NOT a manuscript page. Absolutely no contact with the snake, snake handling, snake charming, aggression, raised striking pose, fang display, bite, peril, fear, cruelty, experiment, medical action, treatment, wound, exposed anatomy, bodily fluid, saliva, sweat, blood, pregnant person, infant, child, abortion, crocodile, vessel of snakes, magical glow, aura, supernatural effect, actionable instruction, dehumanization, hierarchy, or spectacle. No scroll, codex, tablet, inscription, alphabetic mark, numeral, label, caption, text, pseudo-writing, signature, watermark, heraldry, decorative border, page edge, frame, vignette, rounded corners, split screen, diptych, triptych, panels, collage, inset, diagram, or modern object. No discrete subject may touch or be cropped by any canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-fbdc64a3-5a60-42b1-b266-db775149a4e9",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete fully clothed adults with clasped hands, exactly one complete freestanding bronze lattice safety screen and exactly one complete calm olive-brown snake isolated across broad dry paving. The snake's head, continuous body and tail tip and every human extremity are internal; there is no contact, handling, test, peril, fluid, child, crocodile, treatment, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Reports connecting particular peoples with serpents and crocodiles, plus bodily-fluid remedies and an infant omen, are treated as transmitted ancient testimony rather than supernatural, ethnographic or medical fact. The image shows separated observation only and omits bodily fluids, children, treatment, claimed effect and danger.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 847,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "11:49": {
+        "nearestMAD": 20.27,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 39,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c016.png",
+        "madAtDHashPeer": 27.77
+      },
+      "11:50": {
+        "nearestMAD": 21.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c003.png",
+        "madAtDHashPeer": 86.65
+      },
+      "11:51": {
+        "nearestMAD": 24.96,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c084.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c020.png",
+        "madAtDHashPeer": 62.29
+      },
+      "11:52": {
+        "nearestMAD": 23.29,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-06/b09-c049.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-64/b07-c006.png",
+        "madAtDHashPeer": 45.03
+      },
+      "11:54": {
+        "nearestMAD": 26.53,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c006.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c076.png",
+        "madAtDHashPeer": 36.18
+      },
+      "28:1": {
+        "nearestMAD": 22.46,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c015.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c108.png",
+        "madAtDHashPeer": 35.72
+      },
+      "28:2": {
+        "nearestMAD": 33.15,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c043.png",
+        "madAtDHashPeer": 55.91
+      },
+      "28:3": {
+        "nearestMAD": 23.09,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c017.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c020.png",
+        "madAtDHashPeer": 58.15
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-anatomy-wave-05",
+    "status": "pass",
+    "output": ""
+  }
+}

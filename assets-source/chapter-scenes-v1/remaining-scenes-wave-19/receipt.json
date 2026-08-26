@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-19",
+  "generatedAt": "2026-08-26",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact prompts and artifact IDs are copied from the built-in ImageGen calls. Portable built-in-imagegen references replace machine-private saved paths.",
+  "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+  "corpusSha256": "9afcc6f0aad7fb629c2f65d040188442f5dcc57addf2418cba890f9b6707f769",
+  "corpusArtifacts": [
+    {
+      "book": 36,
+      "artifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "sha256": "9afcc6f0aad7fb629c2f65d040188442f5dcc57addf2418cba890f9b6707f769"
+    },
+    {
+      "book": 37,
+      "artifact": "public/corpus/book-37.8461573ff117747e.json",
+      "sha256": "8461573ff117747e0dba4c8ec13af80cd599c51c4209edc055cb38f8f4a72053"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXVI chapters 24 through 27 and Book XXXVII chapters 1 through 4 were read before prompting. Scenes follow the lime-and-gypsum materials, Sosus mosaic, Phoenician glass-origin tradition, fire meditation, Prometheus ring tradition, murrhine cup, northern amber account, and adamas description while treating ancient attributions and uncertain mineral identities as reported lore. Caustic remedies and preparation, suicide, hazardous glass recipes, medical and sexual claims, amulets, internal remedies, animal blood, hardness tests, and instructional modernization were omitted.",
+  "assignments": [
+    "36:24",
+    "36:25",
+    "36:26",
+    "36:27",
+    "37:1",
+    "37:2",
+    "37:3",
+    "37:4"
+  ],
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "36:24",
+      "title": "FIVE REMEDIES DERIVED FROM LIME",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b36-c024.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bb3124a67ccb98a2925e5501e5c6c5278170ea0a42ecbb1832242b4764ed5f48",
+        "englishSha256": "4ecce85d5938485ccca82054385665963d90fb6cc19306d4a70da9c6971efdbc",
+        "latinWords": 189,
+        "englishWords": 347,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "226566e6fee1e1fcbb456b443c8e7ecc6ee57c817cc1818f4cfeebb5bb743ca2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-384bdfc0-42af-4fb3-b09d-3b282bbe4f0d",
+      "generationArtifactId": "exec-384bdfc0-42af-4fb3-b09d-3b282bbe4f0d",
+      "outputArtifact": "built-in-imagegen://exec-384bdfc0-42af-4fb3-b09d-3b282bbe4f0d.png",
+      "exactFinalPrompt": "Use case: style-transfer\nAsset type: corrected full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 24\nInput image: edit target; preserve its exact architecture, single wreath, doorway, wall transition, crack, paving, lighting direction, framing, crop, and object count.\nPrimary request: Change only the rendering medium and surface treatment. Transform the architectural photograph-like image into an unmistakable hand-illuminated Plinian natural-history folio on warm fibrous aged vellum. Draw the exposed blocks, plaster edge, complete acanthus wreath, age crack, doorway, paving, and shadows with visible iron-gall contours, dense fine cross-hatching, stipple, dry-brush abrasion, and translucent matte mineral washes. Reduce photographic microtexture, lens realism, and smooth tonal gradients; let irregular vellum fibers and hand-drawn linework remain visible across the whole scene. Use restrained umber, lampblack, chalk-white, muted verdigris, faded lapis, madder, and ochre.\nInvariants: keep exactly one complete gypsum wreath integrated into the wall and exactly one complete doorway; keep the same empty room, masonry, smooth lime plaster, floor, negative space, and full edge safety; do not add or remove architectural details.\nConstraints: one coherent 1536×1024 landscape 3:2 scene; opaque sRGB; ancient, timeless, rough in material yet polished in draftsmanship.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, medicine, powder, tools, extra ornaments, figurative relief, crop, panels, collage, page mockup, photography, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-28fbff89-f9af-47ff-acc4-118bbf2d6f6e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-384bdfc0-42af-4fb3-b09d-3b282bbe4f0d",
+          "status": "accepted-after-built-in-style-transfer"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen style-transfer edit referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion, or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete gypsum acanthus wreath integrated into the lime-plastered wall, exactly one complete doorway, a legible transition from exposed blocks to smooth plaster, intact paving, strong iron-gall linework, stipple, vellum grain, and no person, tool, medicine, text, panel, or crop.",
+      "epistemicAndDignityNote": "The illustration uses the chapter’s safe architectural materials only; it does not depict, teach, or endorse the ancient caustic remedies, preparation methods, or suicide account.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-28fbff89-f9af-47ff-acc4-118bbf2d6f6e",
+          "outputArtifact": "built-in-imagegen://exec-28fbff89-f9af-47ff-acc4-118bbf2d6f6e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/evidence/history/b36-c024-reject-01-photorealistic-rendering.png",
+          "sha256": "16292ab5c7f7778fb0dc73dc9d4b6aecd0ab7903c20d55001da7415fd4d7767b",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 24, “Lime and Gypsum”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration centered on the safe architectural uses of lime and gypsum described in the chapter, without depicting remedies or preparation. In an empty Roman interior, show one broad complete wall transitioning naturally from exposed pale limestone blocks at the far left to a smooth, time-softened chalk-white lime plaster surface across the center and right. Molded directly into the plaster is exactly one complete shallow gypsum acanthus wreath, nonfigurative and uninscribed, with every leaf and the entire circular silhouette fully visible. A narrow hairline age crack stops well before the wreath; no loose powder, vessel, tool, wet plaster, worker, fire, or medical object.\nScene/backdrop: austere side chamber with plain limestone paving, a single complete doorway opening into shadow at the far right, and generous blank plaster; no columns, statues, furniture, or additional decoration.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; emphatic iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, chalk-white, muted verdigris, faded lapis, madder, and ochre; minerals-and-arts dialect with tactile stone, lime, and gypsum; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: wide frontal-oblique architectural view, the complete wreath slightly off-center within a large quiet field, exposed stone and doorway balancing opposite edges; all wall transitions, floor lines, doorway, and ornament fully inside canvas; one continuous room, no border.\nLighting/mood: cool side light grazes the relief and reveals fibrous plaster grain; serene, restrained, and durable.\nConstraints: exactly one gypsum wreath and one doorway; wreath integrated into the wall rather than framed or hung; historically plausible Roman masonry and plaster; opaque sRGB color; all discrete subjects fully inside generous margins.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, bodies, wounds, medicine, lime remedy, suicide, powder, fresh quicklime, liquid, vat, tools, kiln, flame, extra ornaments, figurative relief, cropped wreath or doorway, panels, collage, page mockup, glossy CGI, photorealism.",
+          "reason": "Native review rejected the otherwise correct architecture because its surface treatment read as an architectural photograph rather than the required iron-gall and matte mineral folio."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:25",
+      "title": "PAVEMENTS. THE ASAROTOS ŒCOS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b36-c025.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "30e160ece6901b8e79127b1d6914ed2d8f434586249319398667a6f6c79bd068",
+        "englishSha256": "3d2ab2dfa2c4523620589dbd73ecafef334696851353f43f3a2fcb8b2e23875b",
+        "latinWords": 332,
+        "englishWords": 753,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "92ff6ae1740059232567239b091deacd937b66b535db00e66c105fb1fda469a3",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2d367a6a-3f72-44ac-92d6-5521a95eb9ec",
+      "generationArtifactId": "exec-2d367a6a-3f72-44ac-92d6-5521a95eb9ec",
+      "outputArtifact": "built-in-imagegen://exec-2d367a6a-3f72-44ac-92d6-5521a95eb9ec.png",
+      "exactFinalPrompt": "Use case: style-transfer\nAsset type: corrected full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 25\nInput image: edit target; preserve the exact room, complete rectangular floor, four corners, border, doorway jambs, viewpoint, tessera layout, fish skeleton, shell halves, olive pits, curled peels, single dove, single bowl, painted shadow, spacing, lighting direction, framing, and crop.\nPrimary request: Change only the rendering medium and surface treatment. Transform the excavation-photograph-like view into an unmistakable hand-illuminated Plinian natural-history folio on warm fibrous aged vellum. Render walls, threshold, border, every tessera seam, every false remnant, the complete mosaic dove, bowl, water, and painted shadow with visible iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, and translucent matte mineral washes. Reduce lens realism, photographic microtexture, and smooth digital shading while preserving the trompe-l’œil illusion and the readable stone-cube construction. Let vellum fibers remain visible throughout.\nInvariants: keep exactly one complete mosaic floor, one mosaic dove, one mosaic bowl, one fish skeleton, and the same scattered mosaic banquet remnants; all are inlaid imagery, never real loose objects. Keep every border and floor corner internal. Add or remove nothing.\nStyle palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk-white; ancient, timeless, rough in material yet polished in draftsmanship.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, living birds, people, real food or garbage, added motifs, crop, panels, collage, page mockup, photography, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f4db94d5-5023-48d4-ba32-a74573a768b3",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-2d367a6a-3f72-44ac-92d6-5521a95eb9ec",
+          "status": "accepted-after-built-in-style-transfer"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen style-transfer edit referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion, or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete rectangular mosaic and all four border corners, one tessellated dove drinking from one tessellated bowl with its mosaic shadow, one fish skeleton and scattered banquet remnants all visibly made from tesserae, internal doorway jambs, and no living bird, real refuse, person, text, panel, or crop.",
+      "epistemicAndDignityNote": "The plate reconstructs Sosus’s celebrated asarotos oecos as reported by Pliny while making every remnant visibly inlaid imagery, not archaeological proof of the surviving original and not a pavement-construction recipe.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-f4db94d5-5023-48d4-ba32-a74573a768b3",
+          "outputArtifact": "built-in-imagegen://exec-f4db94d5-5023-48d4-ba32-a74573a768b3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/evidence/history/b36-c025-reject-01-photographic-rendering.png",
+          "sha256": "33651eefda91462558e7dc5c8dc0a871b4913ab38b91cdec57d999e1a1a14ac1",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 25, “Pavements and the Unswept Room”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of Sosus’s celebrated “unswept room” mosaic as an intact ancient floor, never as real refuse. In an empty Pergamene dining chamber, show one complete rectangular mosaic pavement fully visible from a high oblique doorway view, including its simple dark outer border and all four corners. Across the tessellated surface, tiny coloured stone cubes form a restrained trompe-l’œil scattering of banquet remnants—one fish skeleton, several empty shell halves, olive pits, and curled vegetable peels—all unmistakably flat mosaic imagery with visible tessera seams, no real food. Near the center, also rendered entirely in tesserae, exactly one complete dove bends to drink from exactly one shallow round bowl, its painted head casting one dark mosaic shadow across the painted water. No living bird, person, furniture, broom, vessel above the floor, inscription, or second mosaic.\nScene/backdrop: plain Hellenistic plaster walls, one complete open doorway behind the viewer’s vantage implied only by side jambs, and a narrow band of unadorned stone threshold; no columns, murals, couches, or banquet.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall architectural contour, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk-white; minerals-and-arts dialect tuned to individual tesserae and subtle optical illusion; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: steep diagonal overhead view, complete floor rectangle rotated in perspective and surrounded by a thin breathing margin of threshold and wall base; dove-and-bowl motif off-center, simulated remnants distributed irregularly without forming rows or panels; every floor corner, border, and motif internal; one coherent room.\nLighting/mood: warm late-morning light grazes the stone cubes, playful technical virtuosity within a hushed archaeological atmosphere.\nConstraints: exactly one complete mosaic pavement, one mosaic dove, and one mosaic bowl; every depicted remnant visibly composed of tesserae; no real loose object or living creature; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, living birds, real food or garbage, blood, dining furniture, broom, second floor panel, repeated bird, cropped pavement corners or border, grid-like collage, page mockup, glossy CGI, photorealism.",
+          "reason": "Native review rejected the otherwise correct mosaic iconography because the room read like an excavation photograph rather than the required hand-illuminated Plinian folio."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:26",
+      "title": "THE ORIGIN OF GLASS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b36-c026.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "18549488f901a058b11a42142f242dc3728b3c3eeb30d3d96486d79e5cad6497",
+        "englishSha256": "84734dec65a38f52810afcb96e70219fdf8180091713e6908c8b99d6b8b7322f",
+        "latinWords": 573,
+        "englishWords": 1164,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6f98308974f69735363b9f6ddda9afc337f938a21d12af55b4dad94087fbf0cd",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-23d7c587-3a68-4c9b-9930-0d4af0b3e459",
+      "generationArtifactId": "exec-23d7c587-3a68-4c9b-9930-0d4af0b3e459",
+      "outputArtifact": "built-in-imagegen://exec-23d7c587-3a68-4c9b-9930-0d4af0b3e459.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 26, “The Origin of Glass”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of the traditional Phoenician shore discovery of glass as Pliny reports it, staged as a single historical moment rather than a recipe. On the pale sand near the mouth of the river Belus, show exactly two complete fully clothed adult merchants standing several paces back in quiet astonishment. Before them is exactly one small contained campfire beneath exactly one complete bronze cauldron. The cauldron rests on exactly three complete pale nitre blocks rather than stones. At the fire’s seaward edge, sand and melted material have formed exactly one short, irregular translucent blue-green glassy rivulet, fully cooled-looking at its end and wholly inside the scene. In the middle distance, exactly one complete small Phoenician merchant ship lies at anchor with furled sail; no other cargo, vessel, person, animal, or workshop.\nScene/backdrop: tidal Levantine shore between low Carmel ridges and calm sea, a narrow silty river mouth, wet reflective sand, and broad vellum sky; no settlement, temple, or modern equipment.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; strong iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk-white; minerals-and-arts dialect with controlled firelight and non-glossy translucent glass; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: wide low oblique shore view; two full merchants occupy one side, fire-cauldron-blocks and glass rivulet form the central focal cluster, and the complete ship recedes diagonally across open water; all heads, hands, feet, cauldron handles, blocks, flame, rivulet, mast, hull, and rigging end inside generous margins; one continuous landscape, no panels.\nLighting/mood: cool dusk over the sea against a small warm contained flame; discovery, surprise, and humility rather than spectacle.\nConstraints: exactly two adults, one cauldron, one fire, three nitre blocks, one glassy rivulet, and one ship; historically plausible clothing, bronze vessel, and Phoenician craft; anatomically coherent people; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra people, children, animals, extra ships or vessels, loose piles of ingredients, diagrams, arrows, active glassblowing, molten spray, injury, burns, smoke obscuring subjects, flame touching image edge, cropped bodies/ship/cauldron/blocks/rivulet, modern glass equipment, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-23d7c587-3a68-4c9b-9930-0d4af0b3e459",
+          "status": "accepted-first-generation"
+        }
+      ],
+      "editLineage": "Accepted from one independent built-in ImageGen generation; no reference image or local pixel edit was used.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly two complete fully clothed merchants, one cauldron, one contained fire, three supporting nitre blocks, one complete blue-green glassy rivulet, and one complete anchored ship; anatomy and hands are coherent and there is no text, injury, extra person, extra ship, panel, or crop.",
+      "epistemicAndDignityNote": "The shore scene presents Pliny’s Phoenician origin story as traditional lore, not verified invention history or an actionable glassmaking recipe; no ingredient quantities or hazardous workshop procedure is shown.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:27",
+      "title": "MARVELLOUS FACTS CONNECTED WITH FIRE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b36-c027.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "41a57ef137d515f637aee6666823a3bb50bd2e81a6bba139d8717070baac006b",
+        "englishSha256": "e97c176e09f39b45c8067e0f74d5cd51a01cc707cd63395f366f287c164b8e82",
+        "latinWords": 229,
+        "englishWords": 537,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "dd5b8799fb4a684dc3780e34b2d94ce9aa6a26f311f8b81ad4cd21857ac5ec56",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-65578dfb-a014-4248-9202-011c66da27f9",
+      "generationArtifactId": "exec-65578dfb-a014-4248-9202-011c66da27f9",
+      "outputArtifact": "built-in-imagegen://exec-65578dfb-a014-4248-9202-011c66da27f9.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 27, “Marvellous Facts Connected with Fire”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of Pliny’s closing meditation that fire creates and consumes, using a bright open-air ancient kiln terrace rather than a dark interior. On a broad chalk-pale limestone platform beneath a luminous morning sky, show exactly one complete low circular Roman brick kiln in high three-quarter view. Exactly one small contained orange flame glows inside its single arched mouth. Around the kiln, placed asymmetrically at unequal distances rather than in a row, rest exactly three complete cooled products of fire: one rough translucent blue-green glass ingot near the front-left, one dark irregular copper bloom with restrained verdigris near the rear-right, and one chalk-white fired lime block near the front-right. Each object is separate, palm-sized, matte, and wholly visible. No people, tools, vessels, raw ingredient piles, pouring, smoke cloud, medicine, body, animal, extra opening, chimney, or additional fire.\nScene/backdrop: sunlit Roman industrial terrace above a pale dry valley, low retaining wall curving across the middle distance, distant ochre hills, broad fibrous vellum sky, and generous light negative space; no roof, room, shelves, statues, trees, city, or modern equipment.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; forceful iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, chalk-white, and one contained ember orange; minerals-and-arts dialect with hand-drawn brick, glass, copper, and lime textures; ancient and timeless, rough in material yet polished in draftsmanship.\nComposition/framing: bright high oblique exterior view; kiln occupies the left-middle as a complete circular silhouette, while the three products form a loose scalene triangle across open pale paving; curved wall and distant valley sweep diagonally in the opposite direction; every kiln edge, arched mouth, flame, product, wall end, and shadow remains inside generous margins; one continuous terrace, no border or sequence.\nLighting/mood: clear raking morning light casts short crisp blue-grey shadows over pale stone, with a tiny warm fire accent; lucid, elemental, restrained, and spacious.\nConstraints: exactly one complete kiln, one contained flame, and three cooled products—glass, copper, lime; all discrete subjects fully inside generous margins; historically plausible brick and masonry; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, gladiators, body parts, sexual imagery, pregnancy, medicine, pestilence, drinking ash, tools, crucible, cauldron, molten stream, active glassblowing, sparks, explosion, smoke, dark enclosed chamber, central dark backdrop, extra flames or products, grid, panels, collage, page mockup, glossy CGI, photography, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ec729c6d-1c7a-41fb-9807-e9da7d908115",
+          "status": "rejected-global-duplicate-gate"
+        },
+        {
+          "generationArtifactId": "exec-65578dfb-a014-4248-9202-011c66da27f9",
+          "status": "accepted-after-independent-regeneration-and-global-duplicate-gate"
+        }
+      ],
+      "editLineage": "The initial independent built-in generation passed native visual QA but failed the corpus MAD threshold; it was preserved byte-for-byte and replaced by a second independent built-in generation with a bright exterior composition. No reference image or local pixel edit was used.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete low circular brick kiln, one contained flame, and three fully visible cooled products—blue-green glass, verdigris-marked copper, and white lime—spaced asymmetrically on a bright terrace; no people, tools, medicine, smoke, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The image gives Pliny’s meditation on fire a safe material metaphor; it omits the chapter’s medical, sexual, reproductive, gladiatorial, pestilential, and ash-ingestion claims and supplies no operational furnace procedure.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-ec729c6d-1c7a-41fb-9807-e9da7d908115",
+          "outputArtifact": "built-in-imagegen://exec-ec729c6d-1c7a-41fb-9807-e9da7d908115.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/evidence/history/b36-c027-reject-01-mad-near-duplicate.png",
+          "sha256": "de4fda0e67ecf36429bfeaa44c119d1afc46db7e4a589e9454dd0df1b552f170",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 27, “Marvellous Facts Connected with Fire”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of Pliny’s closing meditation that fire both creates and consumes, using one coherent ancient workshop and no medical or supernatural episode. In a tall dark masonry chamber, show exactly one complete domed Roman furnace with one small contained orange flame visible deep inside its arched mouth. On the broad scorched stone floor before it, arranged in a loose irregular arc rather than a row, rest exactly three complete cooled products of fire: one small translucent blue-green glass ingot with rough edges, one dark copper bloom with restrained verdigris, and one chalk-white fired lime block. Each object is separate, palm-sized, matte, and fully visible. A single spent charcoal branch lies inside the furnace mouth, not on the floor. No people, tools, vessels, raw ingredient piles, active pouring, smoke cloud, medicine, body, animal, or additional fire.\nScene/backdrop: austere ancient industrial chamber with soot-darkened vault, one complete high circular vent, rough paving, and deep umber negative space; no shelves, windows, statues, or modern equipment.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; forceful iron-gall contours, dense fine cross-hatching and stipple, dry-brush soot abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, chalk-white, and a contained ember orange; minerals-and-arts dialect at its strongest, ancient and timeless, rough in material yet polished in draftsmanship.\nComposition/framing: low wide view, complete furnace offset in the middle distance, three products stepping diagonally across the foreground with unequal spacing and generous shadow between them, vent high off-axis; every furnace edge, object, flame, and shadow ends inside canvas; one continuous room, no border or process sequence.\nLighting/mood: deep charcoal darkness cut by one low warm furnace glow and a cool shaft from the vent; awe held in tension with restraint, creation and destruction without spectacle.\nConstraints: exactly one furnace, one contained flame, one vent, and three cooled products—glass, copper, lime; all discrete subjects fully inside generous margins; historically plausible masonry; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, gladiators, body parts, sexual imagery, pregnancy, medicine, pestilence, drinking ash, tools, crucible, cauldron, molten stream, active glassblowing, sparks, explosion, smoke obscuring objects, extra flames or products, grid, panels, collage, page mockup, glossy CGI, photorealism.",
+          "reason": "The native image was compositionally sound, but the first corpus-wide audit measured nearest MAD 18.02 against assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b27-c004.png, below the required minimum 20. The replacement raises nearest MAD to 27.07."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:1",
+      "title": "THE FIRST USE OF PRECIOUS STONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b37-c001.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9c43c29d3649c24f967ef943d512f5caf30403dddb3096dcf089ccd786a19636",
+        "englishSha256": "4346ac02233096f16db4fea92dd856fa286917a6332893da4da69e014316a928",
+        "latinWords": 611,
+        "englishWords": 1362,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ecb7f8ec7983cce0a7e5835724190e26a0a7f731247e9d2693baf997deefec56",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a1a20000-71bc-4b6a-a7ff-6d53b1a44a2d",
+      "generationArtifactId": "exec-a1a20000-71bc-4b6a-a7ff-6d53b1a44a2d",
+      "outputArtifact": "built-in-imagegen://exec-a1a20000-71bc-4b6a-a7ff-6d53b1a44a2d.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVII chapter 1, “Gems and the Ring of Prometheus”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration inspired by Pliny’s opening claim that nature’s majesty is concentrated in precious stones and by the old Prometheus ring legend he reports. On a high, wind-scoured Caucasus ledge, show exactly one complete plain dark iron ring lying flat at a slight angle. Held within its circular opening is exactly one complete rough charcoal-grey stone splinter, naturally irregular and uncut, as though a fragment of the mountain itself. The ring is an austere archaeological object, not jewelry: no gemstone setting, decoration, chain, hand, person, inscription, or second object. Behind it, one complete distant snow ridge descends into blue-grey cloud, while sparse alpine lichen marks the ledge without forming symbols.\nScene/backdrop: immense empty mountain air, a weathered ochre-grey rock shelf, layered Caucasus peaks, and broad fibrous vellum sky; no temple, city, statue, bird, animal, fire, or human figure.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; emphatic iron-gall contours, very fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, chalk-white, and cold slate; gems-and-minerals dialect with precise differences between oxidized iron, rough stone, lichen, cloud, and snow; ancient, timeless, rough in matter yet polished in draftsmanship.\nComposition/framing: low close oblique view of the complete ring and stone in the near foreground, slightly off-center and fully separated from every edge; ledge sweeps diagonally into vast negative space and a complete distant ridge; no border, no vignette, no specimen grid, one continuous landscape.\nLighting/mood: pale dawn glances across the ring and rough stone, revealing their modest materiality against the sublime mountains; restrained, solemn, elemental.\nConstraints: exactly one iron ring, exactly one rough stone splinter, and one continuous mountain landscape; both artifacts complete and entirely within generous margins; historically plausible forged iron; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, Prometheus figure, chains, eagle, wounds, blood, jewelry display, faceted gem, modern ring, crown, coins, extra stones presented as objects, cropped ring or stone, panels, collage, page mockup, glossy CGI, photography, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a1a20000-71bc-4b6a-a7ff-6d53b1a44a2d",
+          "status": "accepted-first-generation"
+        }
+      ],
+      "editLineage": "Accepted from one independent built-in ImageGen generation; no reference image or local pixel edit was used.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete oxidized iron ring and one complete rough stone splinter isolated on a Caucasus ledge, with mountain, cloud, snow, and lichen rendered in coherent folio linework; there is no person, chain, eagle, jewelry display, text, panel, or crop.",
+      "epistemicAndDignityNote": "The austere mountain relic evokes the Prometheus ring tradition explicitly as lore and avoids depicting punishment as history; it does not endorse the chapter’s claims about prestige, ownership, or supernatural gem properties.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:2",
+      "title": "AT WHAT PERIOD MURRHINE VESSELS WERE FIRST INTRODUCED AT ROME. INSTANCES OF LUXURY IN REFERENCE TO THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b37-c002.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "246de04383393eb502c5d430f3397b967b78e4361b6676f846f0b1442f773468",
+        "englishSha256": "d6dda22f5a60c5cb035e278aee449e34132583e77ee858b93f32034a59535f7f",
+        "latinWords": 1632,
+        "englishWords": 3515,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "599f82b02fbc1e244e1e60d76c5c094fed666ef3d7c8790493c05a9dd358c5e2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4b0654fa-ec50-41fa-9f6d-039f72344be4",
+      "generationArtifactId": "exec-4b0654fa-ec50-41fa-9f6d-039f72344be4",
+      "outputArtifact": "built-in-imagegen://exec-4b0654fa-ec50-41fa-9f6d-039f72344be4.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVII chapter 2, “Murrhine Vessels”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration centered on the costly murrhine vessel described by Pliny. Show exactly one complete shallow two-handled Roman drinking cup fashioned from a single thick translucent mineral, fully visible on a low unadorned porphyry slab. Its material must be unlike glass or metal: irregular cloudlike veins of deep purple, milk-white, muted fire-red, and faint amber wander through the stone, with soft matte translucency, small natural internal blemishes, and no painted decoration. The two modest loop handles, rim, foot, and entire silhouette are intact and safely inside the frame. The cup is empty. No second vessel, stand, jewel, coin, pearl, food, liquid, person, hand, crown, triumphal object, inscription, or modern display case.\nScene/backdrop: a shadowed Roman treasury alcove with rough undecorated plaster, one complete narrow arched recess behind the slab, and generous darkness; through a slim side opening, a remote eastern mountain ridge is barely visible in dusty blue, all architecture complete and internal.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; decisive iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, chalk-white, purple, and mineral red; gems-and-luxury dialect with exceptional material clarity but no glossy digital polish; ancient, timeless, rough in matter yet polished in draftsmanship.\nComposition/framing: low three-quarter still-life view, the complete cup isolated slightly right of center with its two handles forming an elegant horizontal silhouette; the slab runs diagonally, arched recess rises behind, and a small eastern opening balances the negative space; one continuous chamber, no border or cabinet.\nLighting/mood: one cool shaft grazes the rim and reveals the mineral’s milky fire, while the room remains sober and austere; beauty under moral scrutiny, not opulent celebration.\nConstraints: exactly one complete murrhine cup with exactly two handles, empty and fully inside generous margins; all veins nonfigurative and irregular; historically plausible Roman vessel form; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, portraits, emperor, Pompey, Nero, banquet, wine, real flames, gems, pearls, coins, gold ornament, extra vessels, cup fragments, broken rim, liquid, glass transparency, metallic shine, repeated handles, cropped cup/slab/arch, panels, collage, page mockup, glossy CGI, photography, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4b0654fa-ec50-41fa-9f6d-039f72344be4",
+          "status": "accepted-first-generation"
+        }
+      ],
+      "editLineage": "Accepted from one independent built-in ImageGen generation; no reference image or local pixel edit was used.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete empty murrhine cup with two intact loop handles, rim, foot, irregular purple, milk-white, mineral-red, and amber veining, and complete safe framing; no second vessel, liquid, jewel, person, inscription, panel, or crop appears.",
+      "epistemicAndDignityNote": "The plate illustrates Pliny’s material description and moral scrutiny of murrhine luxury without treating the mineral’s modern identity as settled or celebrating imperial ownership as fact.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:3",
+      "title": "THE SEVERAL KINDS OF AMBER: THE REMEDIES DERIVED FROM IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b37-c003.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b2d1f16d793b0e9c7fe9a7f9703da0c1f465276f1d7637fec6e542091750998d",
+        "englishSha256": "b26360ba65393e989d6413c43494d86fbe34708156703632bf72e435fbcf1bb5",
+        "latinWords": 732,
+        "englishWords": 1621,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "4c646d5395802c0427696e2fe296f5243e1dc366521925b83607f8cbd92eb6a0",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c0943ecd-cd25-4609-a6b3-fcefb2157834",
+      "generationArtifactId": "exec-c0943ecd-cd25-4609-a6b3-fcefb2157834",
+      "outputArtifact": "built-in-imagegen://exec-c0943ecd-cd25-4609-a6b3-fcefb2157834.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVII chapter 3, “Amber”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration grounded in Pliny’s natural account of amber as resin from northern pines carried and polished by the sea. On a cold Baltic-like strand, show exactly one complete irregular honey-gold amber nodule resting in damp dark sand above the retreating foam. The nodule is uncut, palm-sized, matte-translucent, and fully visible; within it, exactly one tiny complete ancient ant is suspended as a crisp dark inclusion, biologically plausible and not enlarged into a monster. A single weathered pine root enters naturally from the upper left bank but does not touch the amber. Beyond, low blue-grey surf curves toward a distant pine-clad coast beneath a wide northern sky. No second amber piece, jewelry, necklace, person, hand, animal, remedy, vessel, city, or mythological figure.\nScene/backdrop: windswept northern seashore with irregular ripples of wet sand, one receding foam edge, low dunes, and a continuous dark pine silhouette far away; no arranged specimen table, map, temple, or workshop.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; precise iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, chalk-white, and luminous honey; gems-and-nature dialect with controlled amber translucency, clearly drawn inclusion, granular sand, pine bark, and cold water; ancient, timeless, rough in matter yet polished in draftsmanship.\nComposition/framing: extreme low shoreline view; the complete amber nodule sits off-center in the near foreground with generous breathing room, surf forms one sweeping diagonal, pine root counters from above, distant coast remains thin and horizontal; all discrete subjects and the full amber silhouette remain inside canvas; one continuous landscape, no border.\nLighting/mood: a low break in storm clouds sends one pale ray through the amber, making it glow quietly against cold sand and sea; wonder anchored in observation rather than magic.\nConstraints: exactly one amber nodule containing exactly one ant inclusion; amber uncut and wholly inside generous margins; shore and pine context unmistakable; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, jewelry, beads, necklace, multiple amber pieces, extra insects, oversized insect, living insect on the surface, medicinal use, static-electricity demonstration, flames, tears, Phaëthon, Heliades, swans, map, specimen grid, cropped amber or ant, panels, collage, page mockup, glossy CGI, photography, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c0943ecd-cd25-4609-a6b3-fcefb2157834",
+          "status": "accepted-first-generation"
+        }
+      ],
+      "editLineage": "Accepted from one independent built-in ImageGen generation; no reference image or local pixel edit was used.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete uncut amber nodule with one complete ant inclusion, a cold northern shore, receding foam, pine root, distant pine coast, and strong matte folio rendering; no jewelry, remedy, mythic figure, extra amber, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The image follows Pliny’s observational resin-and-sea account and treats the inclusion as natural evidence; it omits mythic tears, medicinal claims, amulets, and static-electricity demonstrations.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:4",
+      "title": "ADAMAS: SIX VARIETIES OF IT. TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b37-c004.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "024ccf0288a01845edd6f83465a3b484d10348df603c4d7e5d428ad2ce071d6b",
+        "englishSha256": "071f657ccab2dad46e7f8a8eeb64bfc4b486ba48945d0ed4c353e7aaef7b8d15",
+        "latinWords": 425,
+        "englishWords": 919,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "3b52191c40a9440bc415453b6882d69505fb7c02fbab6808086ae4fb1de72b03",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e15fea80-87b9-4ba2-bafb-6881ef58c93c",
+      "generationArtifactId": "exec-e15fea80-87b9-4ba2-bafb-6881ef58c93c",
+      "outputArtifact": "built-in-imagegen://exec-e15fea80-87b9-4ba2-bafb-6881ef58c93c.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVII chapter 4, “Adamas”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of the rare natural mineral Pliny calls adamas, presenting only the observed stone and omitting his tests and remedies. Inside a split vein of ancient gold-bearing rock, show exactly one complete uncut clear crystal rising from its dark matrix. The crystal is small, naturally double-terminated, six-faced, faintly smoky at its core, and fully visible from base junction to both intact points; it is not a modern brilliant-cut diamond and has no jewelry mount. A few extremely thin dull-gold mineral threads remain embedded in the surrounding host rock, never shaped into objects. No second crystal, loose gem, hammer, anvil, magnet, animal, blood, fire, person, hand, cup, tool, inscription, or diagram.\nScene/backdrop: one immense weathered rock cleft opening onto a dry eastern highland at dawn, with a complete low horizon and broad vellum sky visible through the gap; sparse mineral staining in umber, muted verdigris, and ochre; no mine timbers, workshop, city, statue, or treasure hoard.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; exact iron-gall contours, very fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, chalk-white, dull gold, and smoky grey; gems-and-minerals dialect with lucid but non-glossy crystal faces, rough matrix, and precise geological texture; ancient, timeless, rough in matter yet polished in draftsmanship.\nComposition/framing: close low oblique geological view, crystal fully isolated against a shadowed pocket slightly left of center; enclosing rock cleft forms an asymmetrical dark arch while distant land supplies quiet negative space; all crystal points, matrix boundaries, cleft edges, and horizon remain internal; one continuous natural scene, no border or specimen grid.\nLighting/mood: a single cool dawn ray enters the cleft and breaks softly across the crystal faces without rainbow spectacle; severe, rare, resistant, and contemplative.\nConstraints: exactly one complete natural crystal fixed in one host-rock matrix; crystal wholly inside generous margins and visibly uncut; nonfigurative mineral veins; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, goat, blood, medicinal application, hammer, anvil, magnet, test scene, fire, faceted jewelry, modern diamond cut, ring, necklace, crown, extra crystals or loose gems, treasure pile, rainbow prism, cropped crystal, panels, collage, page mockup, glossy CGI, photography, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e15fea80-87b9-4ba2-bafb-6881ef58c93c",
+          "status": "accepted-first-generation"
+        }
+      ],
+      "editLineage": "Accepted from one independent built-in ImageGen generation; no reference image or local pixel edit was used.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete uncut double-terminated six-faced clear crystal fixed in one dark host-rock matrix, with internal smoky texture, dull-gold mineral threads, full points, complete horizon, and no jewelry, tool, animal, blood, test scene, text, panel, or crop.",
+      "epistemicAndDignityNote": "Because Pliny’s adamas categories do not map cleanly onto modern mineral taxonomy, the plate presents a natural six-faced crystal as his described specimen rather than asserting a modern diamond identification; all hazardous tests and medical claims are omitted.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 3,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 11,
+    "independentCalls": true,
+    "builtInImageEditCalls": 2,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 967,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "36:24": {
+        "nearestMAD": 24.58,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c017.png",
+        "madAtDHashPeer": 57.4
+      },
+      "36:25": {
+        "nearestMAD": 24.6,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c010.png",
+        "madAtDHashPeer": 78.84
+      },
+      "36:26": {
+        "nearestMAD": 26.45,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c006.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c002.png",
+        "madAtDHashPeer": 34.84
+      },
+      "36:27": {
+        "nearestMAD": 27.07,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c007.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c012.png",
+        "madAtDHashPeer": 52.31
+      },
+      "37:1": {
+        "nearestMAD": 23.1,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c015.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b36-c027.png",
+        "madAtDHashPeer": 55.8
+      },
+      "37:2": {
+        "nearestMAD": 28.01,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c036.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c014.png",
+        "madAtDHashPeer": 52.17
+      },
+      "37:3": {
+        "nearestMAD": 30.37,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 32.85
+      },
+      "37:4": {
+        "nearestMAD": 33.6,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c020.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c044.png",
+        "madAtDHashPeer": 45.45
+      }
+    }
+  },
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-19",
+    "liveValidationPerformed": true,
+    "receiptsCheckedAtSelection": 121,
+    "receiptOwnedKeysCheckedAtSelection": 936,
+    "nonEvidenceMasterKeysCheckedAtSelection": 945,
+    "plannedFullSceneKeysAtSelection": 57,
+    "selectedKeys": [
+      "36:24",
+      "36:25",
+      "36:26",
+      "36:27",
+      "37:1",
+      "37:2",
+      "37:3",
+      "37:4"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "activeClaimsExcluded": [
+      "35:10",
+      "35:11",
+      "35:12",
+      "35:13",
+      "35:14",
+      "35:15",
+      "35:17",
+      "35:18",
+      "35:19",
+      "36:1",
+      "36:2",
+      "36:3",
+      "36:4",
+      "36:5",
+      "36:6",
+      "36:7",
+      "36:8",
+      "36:9",
+      "36:10",
+      "36:11",
+      "36:12",
+      "36:13",
+      "36:14",
+      "36:15"
+    ]
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-19",
+    "status": "pass",
+    "output": ""
+  },
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md"
+}

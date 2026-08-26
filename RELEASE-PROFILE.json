@@ -1,0 +1,23 @@
+{
+  "archiveCeilingBytes": 1500000000,
+  "excludedChapterSceneClasses": [
+    "accepted-master",
+    "reject-evidence"
+  ],
+  "excludedSourceAssetBytes": 5582206061,
+  "excludedSourceAssetFileCount": 1561,
+  "normalizedTimestamp": "2026-08-24T00:00:00.000Z",
+  "packagingGateScripts": [
+    "scripts/verify-release-security.mjs",
+    "scripts/verify-public-release.mjs",
+    "scripts/audit-artwork-coverage.mjs"
+  ],
+  "packagingPreflightPassed": true,
+  "profile": "public-repo",
+  "publicationGate": "not-evaluated-by-packager; run npm run release:check before deployment",
+  "publicationStatus": "external-release-check-required",
+  "schemaVersion": 1,
+  "sourceAssetManifest": "naturalis-historia-1.0.0-source-assets.manifest.json",
+  "sourceBytes": 809789155,
+  "sourceFileCount": 5844
+}

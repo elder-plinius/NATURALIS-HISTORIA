@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-43",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted chapter records its unique built-in generation artifact ID. Six rejected generations are preserved under evidence/history and record their built-in artifact IDs, hashes, and native or global QA reasons.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 408,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:32": {
+        "nearestMAD": 20.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c022.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c012.png",
+        "madAtDHashPeer": 106.78
+      },
+      "2:33": {
+        "nearestMAD": 33.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c022.png",
+        "madAtDHashPeer": 122.44
+      },
+      "2:34": {
+        "nearestMAD": 23.81,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+        "madAtDHashPeer": 23.81
+      },
+      "2:35": {
+        "nearestMAD": 22.36,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c037.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c005.png",
+        "madAtDHashPeer": 91.97
+      },
+      "2:36": {
+        "nearestMAD": 21.74,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 39,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "madAtDHashPeer": 27.96
+      },
+      "2:37": {
+        "nearestMAD": 22.36,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c035.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c020.png",
+        "madAtDHashPeer": 103.83
+      },
+      "2:38": {
+        "nearestMAD": 20.99,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+        "dHashAtMadPeer": 37,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c006.png",
+        "madAtDHashPeer": 104.06
+      },
+      "2:39": {
+        "nearestMAD": 20.99,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c038.png",
+        "dHashAtMadPeer": 37,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "madAtDHashPeer": 44.38
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:32",
+      "title": "MANY MOONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png",
+      "sha256": "2f15c1df8de2cabc005bfa07b1315dcc3d437f39762d5ecd9990b0d929554fec",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5cad372a-9f7a-42d1-b5ba-eb9416af174e",
+      "outputArtifact": "built-in-imagegen://exec-5cad372a-9f7a-42d1-b5ba-eb9416af174e.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 32, “MANY MOONS.” Pliny records that three moons were seen during the consulship of Gnaeus Domitius and Gaius Fannius, while preserving an ancient witness report rather than a modern astronomical explanation.\n\nDepict one continuous nocturnal observation on an open Roman salt-marsh causeway. Exactly one complete ancient night watchman stands fully inside the lower-left interior, holding an extinguished plain lantern down at his side and staring upward. Across a broad indigo sky appear exactly three separate complete pale moonlike disks—no more and no fewer—arranged in a shallow asymmetric arc, each surrounded by subtly different thin vapor halos. The central disk is slightly brighter; the two companions are fainter and smaller, suggesting an extraordinary atmospheric apparition without declaring its cause. Their three diffuse reflections fall separately across still marsh pools. Low reeds and one complete distant watch hut remain wholly within the horizon; everything is quiet and observational, not apocalyptic.\n\nLandscape 3:2, exactly 1536×1024, one coherent scene—not a chart, phase diagram, triptych, collage, atlas, or panel layout. Preserve immense negative sky; keep the full watchman, head, hands, feet, garment, lantern, all three disks and halos, complete hut, every reed tip, causeway edge, reflections, and horizon comfortably inside the frame with generous breathing room. No disk, halo, building, figure, or plant touches an edge.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, exceptionally fine cross-hatching and stipple, translucent mineral washes over warm fibrous vellum texture that fills every pixel; restrained lapis and indigo, lampblack, moon silver, muted verdigris, umber and small aged-gold highlights. Ancient, timeless, solemn, beautiful, rough in material grain yet polished in observational draftsmanship. Shallow fresco-like spatial depth, low horizon, cool raking moonlight, natural asymmetry. Frame the three moons explicitly as transmitted ancient observation, not settled modern science.\n\nNo modern objects or clothing, telescope, optical instrument, deity, face in a moon, lunar surface photograph, giant disks, eclipse, sun, stars shaped as symbols, arrows, labels, letters, numerals, inscriptions, pseudo-writing, captions, signatures, logos, watermarks, decorative internal border, visible page edge, white exterior, floating props, duplicated person, extra moons, split panels, or cropped subjects.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete moonlike disks and three separate marsh reflections remain visible above one fully framed watchman, lantern, causeway and distant hut. No fourth disk, modern instrument, clipping, text, chart, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:33",
+      "title": "DAYLIGHT IN THE NIGHT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+      "sha256": "28499dfafa34bab65b83ecfe4b9cd9f1f2896efadb75b0a72578064b97c38a15",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4c249c76-be38-4f87-9f79-357ee9ade8a7",
+      "outputArtifact": "built-in-imagegen://exec-4c249c76-be38-4f87-9f79-357ee9ade8a7.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 33, “DAYLIGHT IN THE NIGHT.” Pliny records nights when a brilliant light poured from the heavens so broadly that darkness became a kind of day. Treat this as an ancient eyewitness report whose cause remains unstated, not a modern scientific reconstruction.\n\nDepict one continuous night at a small freestanding Roman olive-press court on an immense bare plateau, viewed from very far back. The entire court occupies only the central fifty percent of the image and is surrounded on every side by broad empty earth and sky. Exactly one complete low U-shaped masonry wall is visible in its entirety, including both ends, every corner, its base, and uninterrupted empty ground around it. Inside stands exactly one complete compact wooden olive press, fully visible. Exactly two complete dwarf olive trees grow in two small contained soil beds, each tree tiny enough that every crown tip, branch, trunk, and root contact has at least a full crown-width of clear sky or ground around it. Exactly one complete press worker stands beside the press, one hand shading the eyes; one plain extinguished oil lamp rests on the ground at the worker’s feet. One complete empty basket sits well inside the court.\n\nThe upper half remains unmistakably midnight lapis with tiny natural stars. From one broad diffuse irregular opening in high cloud—no visible sun, moon, orb, beam column, or deity—pearl-gold light floods the contained court with near-daylight, casting crisp uncanny shadows while the surrounding plateau remains dim. The contrast between visible stars and daylit earth carries the chapter.\n\nLandscape 3:2, exactly 1536×1024, one coherent distant scene, never a split before-and-after, panel, chart, collage, diptych, atlas, or visible page. Keep the entire worker, hand, feet, press, every beam and post, lamp, basket rim, both complete trees, every wall end and corner, cloud opening, stars, all shadows, horizon, and plateau comfortably inside the frame. At least ten percent empty sky or earth must separate every discrete subject—including all architecture and vegetation—from all four canvas edges. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, exact cross-hatching and stipple, translucent mineral washes over warm fibrous vellum texture filling every pixel; deep lapis and lampblack above, pearl, bone white, ochre, muted verdigris, umber and restrained aged gold below. Ancient, timeless, solemn, beautiful—rough hand-worked grain with polished architectural and botanical observation. Shallow fresco-like space, low oblique viewpoint, natural asymmetry, luminous but not theatrical.\n\nNo enclosing building, doorway, roof, architecture entering an edge, edge-entering wall, edge-entering tree, fire, meteor, lightning, aurora curtain, eclipse, second person, animal, active pressing, liquid spill, modern light, electric fixture, halo, angel, divine hand, face in the sky, visible celestial disk, giant star, text, letters, numerals, labels, inscriptions, pseudo-writing, caption, watermark, signature, decorative internal frame, visible paper edge, white exterior, floating prop, duplicate tree, panel division, or cropped subject. Scale the complete court much smaller rather than cropping anything.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete U-shaped court, both wall ends, compact press, two entire dwarf olives, worker, lamp and basket sit within broad dark plateau while diffuse cloud light produces the recorded daylight effect beneath visible stars. No celestial disk, clipped architecture, edge-entering tree, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2ed03584-4657-4fb9-8466-54c74dbd3d93.png",
+          "sha256": "5f2b3dfda47c0fe8b4932a2ce7fac2930edf07bea64c340c026b16e2ada098b2",
+          "reason": "Rejected after native QA because the surrounding courtyard walls and left olive crown entered the canvas edges, violating the fully contained framing contract. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:34",
+      "title": "BURNING SHIELDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c034.png",
+      "sha256": "1d490c7fb24ad0a3303dcb1bfd1130ea014945f00c5d09882e77a75357db44e8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b73741f4-cd42-4573-ac10-d259797881d0",
+      "outputArtifact": "built-in-imagegen://exec-b73741f4-cd42-4573-ac10-d259797881d0.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 34, “BURNING SHIELDS.” Pliny records that at sunset a fiery shield-shaped apparition darted from west to east and scattered sparks during the consulship of Lucius Valerius and Gaius Marius. Render a single ancient witnessed moment, without claiming a modern identification.\n\nDepict a vast open Campanian threshing field at the final red-gold edge of sunset. Exactly one complete Roman farm worker stands fully inside the lower-center foreground, having dropped neither tool nor load, but turning sharply to watch the sky. A complete low circular threshing floor, one small tied grain sheaf, and one complete stationary donkey stand far apart and wholly inside the broad bare field. High above and well within the upper-right interior, exactly one compact flattened oval incandescent atmospheric body—shield-like in silhouette but unmistakably made of fire and vapor, not a literal metal shield—moves horizontally from the amber west at left toward the darkening east at right. It has one short ragged luminous wake and exactly seven small separate sparks fading behind it; every spark remains well away from every canvas edge. Thin smoke-vapor, not a drawn arrow, suggests motion. The sun itself has just fallen below the low horizon and is not visible.\n\nLandscape 3:2, exactly 1536×1024. One coherent panorama, never a celestial chart, emblem, battle scene, collage, diptych, panel sequence, atlas, or visible page. Keep the complete person, face, hands, feet, clothing, threshing circle, sheaf, donkey including all legs and tail, whole fiery oval, its entire wake, all seven sparks, horizon and shadows fully inside generous negative space. No subject, flame, spark, animal, or ground object touches an edge.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours and exact cross-hatching, translucent mineral washes over warm fibrous vellum texture filling every pixel; restrained madder, ember orange, aged gold, lampblack, umber, dusty verdigris and a narrow band of faded lapis. Ancient, timeless, ominous but beautiful—rough hand-worked surface with polished observation. Low horizon, shallow fresco-like distance, long raking sunset shadows, asymmetrical sweeping sky. Frame the event as transmitted testimony, not settled modern astronomy.\n\nNo army, weapon, carried shield, literal bronze disk, battle, burning building, lightning, comet with long tail, multiple meteors, visible sun, moon, deity, omen text, panic, injured person, running animal, extra people or animals, modern object, telescope, labels, letters, numerals, inscriptions, pseudo-writing, watermark, signature, decorative border, inner frame, page edge, white exterior, split panel, floating ground prop, duplicated limbs, clipped subject, or edge-entering vegetation.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One compact shield-shaped fiery apparition, short natural wake and seven separate sparks cross the contained sunset sky above one complete worker, threshing floor, sheaf and donkey. No literal metal shield, battle, clipped spark, visible sun, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:35",
+      "title": "AN OMINOUS APPEARANCE IN THE HEAVENS, THAT WAS SEEN ONCE ONLY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c035.png",
+      "sha256": "f70918b1103334a4c4fd10305de7939e2effbc37d4040b7305cf1152632f47c6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-52fd2284-4a70-409c-bd76-94c2403488e7",
+      "outputArtifact": "built-in-imagegen://exec-52fd2284-4a70-409c-bd76-94c2403488e7.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 35, “AN OMINOUS APPEARANCE IN THE HEAVENS, THAT WAS SEEN ONCE ONLY.” Pliny transmits the singular report witnessed by the proconsul Silanus and attendants: a spark seemed to fall from a star, grew until moon-sized behind cloud, then returned upward and became a lampas. Depict only one coherent final moment of that report, preserving its uncertainty rather than turning it into a sequence or modern diagnosis.\n\nOn a remote Roman provincial observation terrace at deep violet dusk, exactly three complete witnesses—one plainly cloaked proconsul and exactly two attendants—stand close together in the lower-left interior, all fully visible and looking upward. The complete low rectangular terrace, both stair ends, and one small unlit brazier are fully contained on a barren ridge with wide empty ground around them. In the upper-right interior, exactly one strange luminous lampas ascends through a thin bank of cloud: a softly rounded moon-sized pearl-gold head glowing from within vapor, tapering downward into one narrow ember-red tail that dissolves before reaching the horizon. A faint natural smoky curve below the tail suggests it has turned back upward, but there are no arrows, repeated bodies, trajectory lines, or diagram. One tiny ordinary star remains high above the phenomenon as a quiet point of comparison. The apparition is solemn, singular, and contained—not catastrophic.\n\nLandscape 3:2, exactly 1536×1024. One continuous witnessed sky, never a before-and-after, timeline, triptych, collage, emblem, chart, atlas, or visible manuscript page. Keep all three complete people, heads, hands, feet, cloaks, the whole terrace and stairs, brazier, ridge, cloud, tiny star, luminous head, full tail and every glow comfortably inside broad negative space. At least eight percent clear sky or earth separates every discrete object from the canvas edges. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, meticulous cross-hatching and stipple, translucent mineral washes over warm fibrous vellum texture filling every pixel; restrained lampblack, violet madder, faded lapis, pearl, ember red, ochre, umber and small aged-gold illumination. Ancient, timeless, rare, beautiful—rough hand-worked grain with polished observational detail. Low ridge, immense sky, shallow fresco-like space, soft raking afterglow and natural asymmetry. Present the event explicitly as transmitted ancient testimony, not settled modern astronomy or prophecy.\n\nNo additional people, second apparition, multiple stages of one object, repeated orb, falling object, impact, explosion, fire on ground, lightning, comet with a long tail, visible sun or moon, deity, halo around a person, angel, ritual gesture, panic, weapon, writing tablet, inscription, modern equipment, telescope, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, decorative border, internal frame, page edge, white exterior, split panel, floating ground prop, cropped architecture, edge-entering cloud, or clipped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete witnesses occupy one fully contained terrace beneath one singular ascending lampas, restrained vapor tail and one tiny comparison star. No repeated sequence, impact, prophecy device, clipped stair, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:36",
+      "title": "OF STARS WHICH MOVE ABOUT IN VARIOUS DIRECTIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c036.png",
+      "sha256": "57a77f16ce1c41a1dad7763cfd068a26d8531e0f04003e85494a89f9265dfd05",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e794ec10-57d0-44d0-bdca-e2f73cd78144",
+      "outputArtifact": "built-in-imagegen://exec-e794ec10-57d0-44d0-bdca-e2f73cd78144.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 36, “OF STARS WHICH MOVE ABOUT IN VARIOUS DIRECTIONS.” Pliny reports star-like lights moving in genuinely different directions while violent winds blow. Render uncertain ancient weather observation, not modern astronomy.\n\nUse a bright PALE PEARL, MUTED SEA-GREEN AND SULPHUR-OCHRE PREDAWN sky, never a dark navy night. A rust-red Roman road cuts diagonally across light chalk terrain from upper-left to lower-right. Exactly one complete mule handler secures exactly one complete low canvas-covered two-wheeled cart drawn by exactly one complete mule at center-right. One complete small poplar stands separately at right. Cloak, canvas ties, grass and crown all stream consistently leftward. Every wheel, shaft, leg, tail, branch and root contact is fully visible with open ground around it.\n\nAcross the pale sky appear exactly five widely separated, tiny cold-silver star-like lights. Each is painted as a NATURAL SOFT LUMINOUS SEED with a SHORT RAGGED CALLIGRAPHIC VAPOR TAIL: translucent, feathery, gently curved, uneven-edged and fading into cloud wash—not a hard line. The five tails point in conspicuously different opposed directions: one generally east, one southeast, one west, one north, one southwest. Make them look like hand-painted atmospheric smears embedded in the vellum sky, with no ruler-straight stroke, arrowhead, dot-and-line symbol, five-point star icon, or diagram geometry.\n\nLandscape 3:2, exactly 1536×1024. One continuous windy road, never a chart, split panel, collage, sequence, atlas, or visible page. Keep the complete handler, mule, cart, canvas, poplar, all five luminous seeds and every full feathery tail at least seven percent from every edge. Nothing touches or is clipped. Reserve broad pale sky between the lights and open chalk ground around the cart.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contour drawing, fine cross-hatching and wind-blown stipple, thin translucent mineral wash over warm fibrous vellum visible in every pixel. Restrained pearl, chalk, pale sulphur ochre, muted sea-green, rust madder, umber and cold silver accents. Flat fresco-like depth; ancient, timeless, turbulent and beautiful; rough abraded material with polished harness, anatomy and cloth. Explicitly frame the association as transmitted testimony, not established causation.\n\nNo dark-blue-dominant sky, extra light, parallel tails, straight blue line, graphic overlay, constellation, arrow, extra people or animals, extra cart, clipped wheel, fallen tree, lightning, tornado, moon or sun, giant stars, meteor shower, fire, modern vehicle or device, text, letters, numerals, labels, pseudo-writing, watermark, signature, decorative border, internal frame, page edge, white exterior, edge-entering vegetation, floating object, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly five widely separated soft star-like seeds have short natural, visibly nonparallel vapor tails across a pale predawn sky; the complete handler, mule, cart, both wheels, canvas and wind-bent poplar remain inside broad chalk terrain. No graphic overlay, hard trajectory line, clipping, text, chart, panel, border, visible sheet or watermark was found. The final replacement clears the collection-wide similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f5a7a582-1256-4cdf-9b6b-e94719840467.png",
+          "sha256": "98b1bb02ba63a1bbfa9dbc232c5d0e307e115e89aceefb5c84972b9b34732c6c",
+          "reason": "Rejected after native QA because all five light trails leaned in nearly the same direction, contradicting the chapter's defining observation of movement in various directions. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-cb62e8c5-9c30-4d0e-9e2a-ca548ae62322.png",
+          "sha256": "39020dc60f9ebdb1369800bdbdf12a01c55af08c13b7f2be6669b251aa001086",
+          "reason": "Rejected after global QA because the otherwise valid nonparallel-trail scene measured grayscale MAD 17.94 against chapter 19:9, below the required 20.00 collection threshold. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-232bc8e7-ac24-4b32-ac97-47a12b3e04e1.png",
+          "sha256": "914105dc3d875d6f24cc6fb779d1f4bd4fd4876479bb5b6efb891661d3989ee0",
+          "reason": "Rejected after native QA because the pale-sky trajectories rendered as ruler-straight blue graphic lines rather than natural atmospheric trails. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:37",
+      "title": "OF THE STARS WHICH ARE NAMED CASTOR AND POLLUX",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c037.png",
+      "sha256": "72e3b7d82d6edf3aa783735860fe47e42a1dc6aa8a54b002c4fedf0f974ea8be",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-87e9645b-78f7-48e5-9ade-5151c6dc9b22",
+      "outputArtifact": "built-in-imagegen://exec-87e9645b-78f7-48e5-9ade-5151c6dc9b22.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 37, “OF THE STARS WHICH ARE NAMED CASTOR AND POLLUX.” Pliny records paired star-like lights settling on ship yardarms during sailing, regarded as auspicious, while admitting profound uncertainty about their cause. Depict the paired maritime observation—not the gods, mythic twins, or a modern explanation.\n\nAt blue-black predawn after a receding squall, exactly one complete small Roman merchant vessel sails in profile across a vast dark sea. The entire hull from ram to sternpost, every oar port, rudder, mast tip, both ends of one horizontal yardarm, all standing rigging, and one neatly furled plain square sail are fully visible within the central sixty percent of the canvas. Exactly one complete sailor stands safely on deck near the stern, one hand resting on the rail and face lifted toward the yard. At the two ends of the yardarm appear exactly two small separate blue-white luminous flames, equal in scale and hovering directly on the wood; they are quiet, contained electrical-looking glows in ancient visual terms, not burning sails or torches. A few torn storm clouds retreat low on the horizon while a clear strip of faded lapis opens above. The paired lights are the only stars or flames in the image.\n\nLandscape 3:2, exactly 1536×1024. One coherent maritime moment, never a bestiary emblem, divine visitation, split panel, diagram, constellation chart, collage, diptych, atlas, or visible page. Keep the entire ship, hull, sailor, hands, feet, rail, mast, yardarm, both lights, furled sail, all rigging, wake, waves, clouds, and horizon comfortably inside broad open sea and sky. At least eight percent empty sea or sky separates every ship extremity and every glow from all four canvas edges. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, meticulous cross-hatching and stipple, translucent mineral washes over warm fibrous vellum texture filling every pixel; deep lapis, lampblack, sea verdigris, storm violet, bone white, umber and tiny accents of cold silver-blue and aged gold. Ancient, timeless, numinous, beautiful—rough salt-abrasion and hand-worked grain with polished naval construction and wave observation. Low open horizon, shallow fresco-like depth, cool raking predawn light, restrained asymmetry. Present the lights as transmitted testimony and sailors’ interpretation, with Pliny’s uncertainty intact.\n\nNo Castor or Pollux as people, statues, helmets, twins, deity, haloed figures, Helena, second ship, extra sailors, sinking, collision, fire on sail or hull, torch, lighthouse, lightning, giant flame, more than two lights, ordinary stars, visible moon or sun, modern vessel, triangular yacht sail, engine, modern navigation light, text, letters, numerals, ship name, inscriptions, pseudo-writing, logo, watermark, signature, decorative border, internal frame, page edge, white exterior, panel division, floating gear, cropped hull, clipped mast, edge-touching rigging, or malformed sailor.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete Roman merchant ship, hull, mast, yardarm, furled sail, rigging and sailor are fully framed; exactly two cold-blue lights sit on the yard ends. No divine twins, extra flame, burning sail, clipped rigging, modern navigation device, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:38",
+      "title": "OF THE AIR AND ON THE CAUSE OF THE SHOWERS OF STONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c038.png",
+      "sha256": "cce60259aac150ae87a91f4965c014313b1325526f16b35375e07ace5e009365",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4f4fe853-e016-46eb-8970-dbc21d949965",
+      "outputArtifact": "built-in-imagegen://exec-4f4fe853-e016-46eb-8970-dbc21d949965.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 38, “OF THE AIR AND ON THE CAUSE OF THE SHOWERS OF STONES.” Pliny describes lower air mixed with terrestrial vapor and transmits the ancient conjecture that wind may lift stones and later cast them down. Depict a witnessed natural-philosophy hypothesis, not established modern meteorology.\n\nBuild a strongly asymmetric, MEDIUM-DARK VERDIGRIS AND MADDER evening landscape—do not use a pale beige or monochrome parchment field. A narrow complete oval marsh pool lies in the lower-center interior, colored deep green-blue, with two delicate vapor curls rising. At left-middle sits exactly one complete low gravel mound, surrounded by dark red-brown earth; a compact ochre dust gust curls over it and lifts a sparse handful of small pebbles. One fully contained low slate-violet storm cloud hangs diagonally across the upper-center with broad tarnished-gold sky visible around every edge. A localized sparse shower of small stones drops from its right underside onto one empty dark-earth patch, where shallow dimples are visible. No stone strikes a living thing.\n\nExactly one complete ancient naturalist and exactly one complete small freestanding stone shelter occupy the lower-right interior. The person crouches safely inside, with an open hand and one empty woven basket. Every roof slab, both wall ends, shelter base, person, hand, foot and basket rim is visible. Use a high, slanting viewpoint so pool, mound, falling-stone patch and shelter form a loose spiral through real terrain, not a left-to-right diagram. The distant hills are low and fully contained.\n\nLandscape 3:2, exactly 1536×1024. One coherent atmospheric basin, never a process chart, arrows, split panel, collage, atlas, or visible page. Keep the whole pool shoreline, vapor curls, mound, dust gust, falling stones, dimples, cloud, shelter, naturalist, basket and hills at least eight percent away from all four canvas edges. Nothing touches or is clipped. Painted mineral color and vellum grain continue naturally to every edge with no vignette, outline rectangle, or depicted sheet.\n\nSTRICT STYLE: line-dominant ancient Roman natural-history folio—dry iron-gall contours, dense fine cross-hatching and stipple, then translucent mineral wash. Warm fibrous vellum remains visible beneath a restrained but definite palette of deep verdigris, oxidized teal, madder-brown, storm violet, tarnished gold, lampblack and chalk. Flat fresco-like depth, non-photoreal, materially rough and draftsmanship-polished, solemn and beautiful. No cinematic volumetric cloud, glossy digital painting, HDR, photographic textures, lens effects, blurred foreground or monochrome beige.\n\nNo injury, boulder, impact, blood, panic, extra person, animal, ruined building, eruption, meteor, fireball, lightning, tornado funnel, giant stones, drawn arrows, circular schematic, deity, wind face, modern gear, text, letters, numerals, label, inscription, pseudo-writing, signature, logo, watermark, decorative border, internal frame, page edge, white exterior, floating basket, edge-entering mound, dust, shelter or vegetation, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The full verdigris pool and vapor, contained gravel mound and dusty uplift, complete violet cloud and localized stone shower form one continuous madder basin with one fully framed shelter, naturalist and basket. No injury, boulder, clipped gust, modern device, text, arrow, panel, decorative border, visible sheet or watermark was found. The colored replacement clears the collection-wide similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-ab20472c-9d4c-462a-b5f4-72a726732232.png",
+          "sha256": "aa65bec6ff21718f62a1a57e5124f04b83f6af7e4c153e65b654d3516b48f309",
+          "reason": "Rejected after native QA because the treatment drifted toward cinematic photorealism and the right gravel gust entered the canvas edge. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-5059806b-a554-429e-8db2-cce926d4b20f.png",
+          "sha256": "804a9b19d4a9f0541c4a6f9323ce7204b3b6cfc375ec9fb0dfd49b4e6b6b3f10",
+          "reason": "Rejected after global QA because the otherwise valid line-dominant folio measured grayscale MAD 19.64 against chapter 21:10, below the required 20.00 threshold. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:39",
+      "title": "OF THE STATED SEASONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+      "sha256": "2c81e9b653936424071683250833c8aa56791d06caac9aef07b172bf5c577e56",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3acec1c4-f549-4b40-9a43-4c1c322df699",
+      "outputArtifact": "built-in-imagegen://exec-3acec1c4-f549-4b40-9a43-4c1c322df699.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 39, “OF THE STATED SEASONS.” Pliny distinguishes recurring seasonal causes from chance events and attributes rain, frost, snow, hail, heat, vapor, dew and wind to the annual motions and risings of celestial bodies, citing the rainy Hyades, the Kids and storm-bringing Arcturus. Depict an ancient farmer’s repeated seasonal observation, not modern scientific causation.\n\nAt the first cold twilight of autumn, exactly one complete Roman vineyard keeper works in a broad hill field. In the lower-right interior, the keeper draws one plain wool cover over exactly one complete small freestanding young vine trellis before weather arrives; every post, crosspiece, leaf, root contact and cover edge is visible. Exactly one complete shallow harvest basket containing a restrained cluster of grapes rests on bare soil nearby. The cut stubble and bronze vine leaves retain the day’s warmth in the foreground, while a fully contained narrow curtain of pale hail passes over one distant hill in the left-middle without reaching the person or crop. High in the clear deepening sky, exactly one prominent warm-gold star rises above the hill, with exactly five smaller rain-blue stars forming a loose natural cluster far away from it. They have no connecting lines or labels. A faint cold mist gathers in one valley fold. The keeper looks between the rising stars and the weather, turning periodic knowledge into practical preparation.\n\nLandscape 3:2, exactly 1536×1024. One coherent seasonal threshold, never a four-seasons panel, zodiac, calendar, chart, constellation diagram, split scene, collage, atlas, or visible page. Keep the full keeper, face, hands, feet, garment, entire trellis, cover, basket, grapes, all six stars, complete hail curtain, valley mist, hills, field edges and shadows comfortably within generous negative space. At least eight percent clear sky or earth separates every discrete subject from all four canvas edges. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, fine cross-hatching and stipple, translucent mineral washes over warm fibrous vellum texture filling every pixel; restrained autumn ochre, madder, dusty verdigris, faded lapis, lampblack, hail white, umber and small aged-gold accents. Ancient, timeless, cyclical, beautiful—rough hand-worked field and vellum grain with polished vine, cloth, cloud and stellar observation. Low rolling horizon, shallow fresco-like depth, cool raking twilight against stored earth warmth, natural asymmetry. Frame Pliny’s stellar-weather link as transmitted ancient natural philosophy rather than established modern fact.\n\nNo four seasonal quadrants, spring flowers, summer sun, winter allegory, zodiac figures, constellation lines, calendar, dial, arrows, deity, giant star, graphic star icon, visible moon or sun, active storm on the person, injury, second person, animal, extra trellis, extra basket, modern blanket, modern weather device, text, letters, numerals, labels, inscription, pseudo-writing, caption, signature, logo, watermark, decorative border, internal frame, visible page edge, white exterior, floating grapes, cropped trellis, edge-entering vine, panel division, or clipped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete keeper covers one fully visible young vine trellis before a contained distant hail curtain; the basket, grapes, one warm star and exactly five rain-blue stars are all visible above autumn stubble and valley mist. No seasonal quadrants, zodiac, clipped trellis, text, chart, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

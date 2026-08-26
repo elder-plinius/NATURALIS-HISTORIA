@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-12",
+  "generatedAt": "2026-08-26",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+  "corpusSha256": "7eed09def7f96d1e9a5ac8ec30320a6b0c44de16fb96902ceb72a3c29e756d99",
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXIV chapters 1, 3, 4, 5, 6, 7, 8 and 9 were read before prompting. Scenes follow each chapter’s material and art-historical emphasis while avoiding the abusive anecdote in chapter 3, heroizing civic propaganda, invented inscriptions, violent bronze subjects, and instructional modernization of ancient metallurgical claims.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-12",
+    "receiptsCheckedAtSelection": 113,
+    "nonEvidenceMasterKeysCheckedAtSelection": 880,
+    "selectedKeys": [
+      "34:1",
+      "34:3",
+      "34:4",
+      "34:5",
+      "34:6",
+      "34:7",
+      "34:8",
+      "34:9"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "activeClaimsExcluded": [
+      "30:13",
+      "30:14",
+      "30:15",
+      "30:16",
+      "31:2",
+      "31:3",
+      "31:4",
+      "31:5",
+      "31:6",
+      "31:7",
+      "31:8",
+      "31:9",
+      "31:10",
+      "32:3",
+      "32:4",
+      "32:5",
+      "32:7",
+      "32:8",
+      "32:9",
+      "32:10",
+      "32:11",
+      "33:3",
+      "33:11",
+      "33:13"
+    ]
+  },
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact prompts and artifact IDs are copied from the built-in ImageGen calls. Portable built-in-imagegen references replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 1,
+    "providerFailedNoArtifactCount": 1,
+    "totalBuiltInCalls": 10,
+    "independentCalls": true,
+    "builtInImageEditCalls": 1,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "assignments": [
+    "34:1",
+    "34:3",
+    "34:4",
+    "34:5",
+    "34:6",
+    "34:7",
+    "34:8",
+    "34:9"
+  ],
+  "chapters": [
+    {
+      "chapterKey": "34:1",
+      "title": "THE ORES OF BRASS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c001.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "64c5a59b06d96e79f0a3ec5d686f5a90a046f058779c5f2d541424fd68c386cf",
+        "englishSha256": "0a12ebf402c8c05b7372c881a2b45e4d658ee1e4abe12c91c0722453ace19615",
+        "latinWords": 99,
+        "englishWords": 198,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e03a27471aa2f4ff09b41179f40eb153beb75f3e4ae451661b29242221bcedfc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-64ce65f5-0372-4a9b-a99d-5bb5aaa11e28",
+      "generationArtifactId": "exec-64ce65f5-0372-4a9b-a99d-5bb5aaa11e28",
+      "outputArtifact": "built-in-imagegen://exec-64ce65f5-0372-4a9b-a99d-5bb5aaa11e28.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 1, “The Ores of Brass”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration grounded in the chapter’s account of copper/brass ore, cadmia stone, mining, fusion, and Rome’s ancient esteem for bronze. Show a single continuous early Roman metallurgical landscape: a complete dark mine entrance in a copper-stained hillside at upper left, a compact fully visible clay-and-stone smelting furnace at middle distance, and in the foreground one complete shallow stone sorting tray holding a small cluster of green-and-ochre copper ore beside one finished bronze ingot. No people are needed. The scene should suggest extraction, fire purification, and enduring civic value without diagrams, labels, coins, or an instructional sequence.\nScene/backdrop: rugged northern Italian foothill quarry and open-air ancient smelting yard, all one coherent space, ample untouched vellum sky and breathing room.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with strong but restrained chiaroscuro.\nComposition/framing: wide oblique view with the tray completely inside the lower foreground, furnace and mine separated in depth; every discrete object fully visible with generous margin; readable at thumbnail and full-page scale; no border.\nLighting/mood: cool dawn around a subdued furnace glow, reverent and materially exact rather than theatrical.\nConstraints: historically plausible Roman-era furnace, ore, tools, and masonry; opaque sRGB color; one coherent scene; all discrete subjects fully inside the canvas.\nAvoid: any text, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern objects, people, animals, coins, maps, cutaway diagrams, panels, collage, border, page mockup, repeated imagery, cropped objects, water, flames touching an edge, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-64ce65f5-0372-4a9b-a99d-5bb5aaa11e28",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete ore-sorting tray with copper ore and one ingot, a contained furnace, and a mine entrance in one continuous foothill yard. All tools and discrete objects are internal; no person, animal, water, writing, panel, border, or clipped focal object appears.",
+      "epistemicAndDignityNote": "The scene presents historically plausible extraction and smelting material culture without turning the ancient account into a modern technical recipe.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:3",
+      "title": "STANDS FOR LAMPS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c003.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "70f6400cbab50328a7b6193dd1f2140a7c486bf4d0ec2464323a890995e0cfdc",
+        "englishSha256": "f8901dc457493316495073e32bb72a8dec3d65f4d995806cec115e1d603b70a8",
+        "latinWords": 273,
+        "englishWords": 571,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "83ff966668b12573c7f03c3daa2b8306663d4ec7e0da8c53dbd624674184b968",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b5774bf0-b010-4a1a-b419-8ab9f6c4b4ac",
+      "generationArtifactId": "exec-b5774bf0-b010-4a1a-b419-8ab9f6c4b4ac",
+      "outputArtifact": "built-in-imagegen://exec-b5774bf0-b010-4a1a-b419-8ab9f6c4b4ac.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 3, “Stands for Lamps”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration centered on a single complete ancient bronze lampstand, reflecting Pliny’s description of Aeginetan sockets, Tarentine shafts, Delphic tripods, suspended temple lamps, and lamps shaped like fruit-bearing trees. In a quiet Roman temple interior, show exactly one fully visible branching bronze lampstand rising from a three-footed tripod base. Its refined central shaft supports exactly three separate shallow oil lamps, each fully visible and gently lit like small fruit among restrained metal leaves. Keep every foot, branch, chain, bowl, and flame inside the image. Use no people, and do not depict or allude to the chapter’s abusive anecdote.\nScene/backdrop: austere stone sanctuary alcove with plain columns receding softly, undecorated walls, and a simple mosaic floor without symbols or letters.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with bronze highlights and deep quiet shadow.\nComposition/framing: the complete lampstand slightly off-center in a generous horizontal field, full tripod base visible, three lamps clearly separated in silhouette, ample negative space around every edge; one coherent scene, no border.\nLighting/mood: the three contained flames cast warm pools into cool temple dusk; contemplative craftsmanship, not theatrical spectacle.\nConstraints: historically plausible ancient bronze construction; exactly one lampstand and exactly three lit oil lamps; all discrete objects fully inside the canvas; opaque sRGB color.\nAvoid: any text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, animals, extra lamps, modern lighting, wires, furniture, narrative abuse, nudity, repeated branches, cut-off base or flames, panels, collage, decorative frame, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b5774bf0-b010-4a1a-b419-8ab9f6c4b4ac",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete tripod lamp tree and exactly three separated shallow lamps with contained flames. The entire base, branches, bowls, and flames remain internal; walls are nonfigurative and no text, person, abuse narrative, panel, or clipping appears.",
+      "epistemicAndDignityNote": "The plate centers the chapter’s metalwork history and deliberately omits its dehumanizing sexual anecdote.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:4",
+      "title": "WHICH WAS THE FIRST STATUE OF A GOD MADE OF BRASS AT ROME. THE ORIGIN OF STATUES, AND THE RESPECT PAID TO THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c004.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "0d6552f8d413269924f61603d431eb18e62ac2daf09f925e651498c466871754",
+        "englishSha256": "319bb4f14cb94b8932cf6cc8874c34024ae9f2f980fc32a08d9c39392c015926",
+        "latinWords": 170,
+        "englishWords": 353,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "cfbd88d307d55b089a838ce357dc135f504c1a6ca458f4a285b81779e93e40f9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-62ac6f9f-b304-4f70-a73e-d13bb99ffe43",
+      "generationArtifactId": "exec-62ac6f9f-b304-4f70-a73e-d13bb99ffe43",
+      "outputArtifact": "built-in-imagegen://exec-62ac6f9f-b304-4f70-a73e-d13bb99ffe43.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 4, “The First Brass Statue of a God at Rome; the Origin and Honour of Statues”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of Rome’s earliest public bronze image: exactly one complete, fully draped bronze statue of Ceres standing in a modest archaic circular sanctuary. Give the statue a serene adult face, a simple grain wreath, one complete sheaf of wheat held close to the body, and a plain undecorated stone plinth. The image should evoke the chapter’s movement from divine image to public commemoration while remaining focused on this single first figure. There must be no living people, no other statues, no inscriptions, and no triumphal propaganda.\nScene/backdrop: austere early Roman shrine courtyard with low terracotta roof, plain columns, a distant suggestion of the Forum, and open vellum sky; all architecture historically plausible and non-ornamental.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with quiet patinated bronze.\nComposition/framing: the entire statue, wreath, sheaf, plinth, and surrounding shrine floor fully visible with generous breathing room; low three-quarter viewpoint and broad negative sky; one coherent scene, no border.\nLighting/mood: calm early-morning light catching the verdigris edges, civic reverence without grandeur.\nConstraints: exactly one statue; historically plausible drapery and grain attributes; complete hands and feet concealed naturally by drapery, complete sheaf, complete plinth; all discrete subjects fully inside the canvas; opaque sRGB color.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, living people, extra figures in reliefs or murals, extra statues, coins, weapons, nudity, gold leaf, modern museum staging, panels, collage, frame, page mockup, cropped figure or plinth, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-62ac6f9f-b304-4f70-a73e-d13bb99ffe43",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete fully draped bronze Ceres, one complete sheaf, and one plain circular plinth in an empty archaic courtyard. Hands, sandals, wreath, drapery, and base are coherent and internal; no inscription, extra figure, mural, panel, or crop appears.",
+      "epistemicAndDignityNote": "The figure is treated as an ancient civic artwork, not a claim of divine presence or a modern likeness.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:5",
+      "title": "THE DIFFERENT KINDS AND FORMS OF STATUES. STATUES AT ROME WITH CUIRASSES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c005.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "c9987992f58e66b8fbb75e08caf50aa68158f9c9442830c2f328a061e154696d",
+        "englishSha256": "2056a7bea6cd83c69d409e7c25dbfb17a9ac29a2ecbdcbb0fee24abb52bfc625",
+        "latinWords": 304,
+        "englishWords": 662,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "5af2d471277ab11bb24ffff77ee325a10052317f046a7bbb8f6f7dc978619d10",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a7bffa49-a939-434e-bc4b-1e13e037dc80",
+      "generationArtifactId": "exec-a7bffa49-a939-434e-bc4b-1e13e037dc80",
+      "outputArtifact": "built-in-imagegen://exec-a7bffa49-a939-434e-bc4b-1e13e037dc80.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 5, “The Different Kinds and Forms of Statues”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration showing the variety of Roman public bronze statuary in one coherent open Forum. Include exactly three bronze human effigies and no living people: at left, one complete standing adult statue fully wrapped in a toga; at right, one complete standing adult military statue in a historically plausible cuirass and cloak; farther back at center, one complete mounted adult statue on exactly one complete horse. Each monument stands on its own plain, undecorated, uninscribed stone plinth. Make every head, hand, foot, horse leg, tail, and plinth fully visible. All three statues must share weathered bronze and verdigris, unmistakably sculptures rather than living figures.\nScene/backdrop: broad early Imperial Roman forum pavement with plain colonnades, distant rostra geometry without figures or inscriptions, and spacious open sky.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect.\nComposition/framing: wide low oblique promenade view; togate and cuirassed statues anchor opposite thirds while the equestrian monument recedes between them; silhouettes do not overlap; all monuments fully within generous edge margins; one continuous scene, no border.\nLighting/mood: clear late-afternoon raking light, civic and analytical, emphasizing contrasting forms rather than individual glorification.\nConstraints: exactly three bronze human effigies total, exactly one horse, no living people or animals; historically plausible toga, cuirass, cloak, and tack; anatomically coherent statue hands and horse legs; all discrete subjects fully inside canvas; opaque sRGB color.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra figures in murals or reliefs, crowds, extra horses, chariots, weapons extending out of frame, nudity, inscriptions, relief carvings, cropped statues or plinths, panels, collage, frame, page mockup, modern objects, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a7bffa49-a939-434e-bc4b-1e13e037dc80",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three bronze human effigies—togate, cuirassed, and mounted—and exactly one complete horse on three plain uninscribed plinths. Silhouettes are separated, anatomy and horse legs are coherent, and no living person, extra horse, writing, relief crowd, panel, or clipping appears.",
+      "epistemicAndDignityNote": "The wide analytical arrangement compares sculptural forms without turning public honour into individual propaganda.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:6",
+      "title": "IN HONOUR OF WHAT FOREIGNERS PUBLIC STATUES WERE ERECTED AT ROME",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c006.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "a05677f7556d0cc48b524f9ff8dc4c1c95fab046062ae730dcb16f524018d5f7",
+        "englishSha256": "aa9fab50e1c95ae2c85ae825c9836931c02e8dca8b7fdfa24450ed94ad880215",
+        "latinWords": 568,
+        "englishWords": 1143,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "8254a92f8b20c5b4ead38157a2f3562d5b9cae8191c739d4cd53a7c7a824c44b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2eadbd6b-2059-44fa-9cf1-aba0969f3a91",
+      "generationArtifactId": "exec-2eadbd6b-2059-44fa-9cf1-aba0969f3a91",
+      "outputArtifact": "built-in-imagegen://exec-2eadbd6b-2059-44fa-9cf1-aba0969f3a91.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 6, “Public Statues and the Honouring of Outsiders”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration grounded in the chapter’s broadening of civic commemoration to envoys, foreigners, women, and figures outside the traditional male elite. Focus on exactly one complete seated bronze statue of the adult Roman matron Cornelia in a spacious public portico, recalling Pliny’s specific account of her seated image. She sits upright with calm intelligence, fully draped in a simple stola and palla; both hands are complete and rest naturally, one on the lap and one against the chair. Both complete feet and simple slip-on shoes are visible, with no straps. The chair and plain, uninscribed low plinth are fully visible. No living people and no other statues.\nScene/backdrop: the open Portico of Octavia suggested through plain colonnades, brick and stone paving, muted garden shadow, and airy negative space; walls and architectural surfaces have no figures or writing.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect.\nComposition/framing: asymmetrical wide view, seated statue on one side of the portico with long bands of colonnaded negative space; entire head, hands, drapery, chair, feet, shoes, and plinth fully inside the image with generous margin; one coherent scene, no border.\nLighting/mood: soft indirect daylight, humane, thoughtful, and civic rather than triumphal.\nConstraints: exactly one adult human effigy, unmistakably weathered bronze; historically plausible Roman female dress and chair; anatomically natural complete hands and feet; no shoe straps; all discrete subjects fully inside the canvas; opaque sRGB color.\nAvoid: any text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, living people, children, men, extra figures in murals or reliefs, extra statues, weapons, nudity, jewelry excess, resemblance claims, cropped body or furniture, panels, collage, frame, page mockup, modern museum objects, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2eadbd6b-2059-44fa-9cf1-aba0969f3a91",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete seated bronze matron with natural hands, both slip-on shoes without straps, full chair, and full low plinth in an empty portico. No other person, statue, figurative wall art, text, panel, or clipped object appears.",
+      "epistemicAndDignityNote": "Cornelia’s seated monument foregrounds the chapter’s widening field of civic commemoration to women and outsiders without inventing a personal likeness.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:7",
+      "title": "THAT THERE WERE STATUARIES IN ITALY ALSO AT AN EARLY PERIOD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c007.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "cd85243b7792714c792d0458e8a518d673a4498ffc74533bb9f7a222eaea9bc5",
+        "englishSha256": "8317db52e3a6671c80d58eadbb1f75b3b25ca8a493a6566934a3f04830d61ff8",
+        "latinWords": 766,
+        "englishWords": 1567,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "1a19850b95b6e74551726b69076470ce02e48b2331318103352eb529dc88e53f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d5021964-7cf7-429b-bc8c-e5ae08b1be9b",
+      "generationArtifactId": "exec-d5021964-7cf7-429b-bc8c-e5ae08b1be9b",
+      "outputArtifact": "built-in-imagegen://exec-d5021964-7cf7-429b-bc8c-e5ae08b1be9b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 7, “Early Italian Statuary”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration focused on Pliny’s colossal Tuscan Apollo, a witness to Italy’s ancient statuary tradition. Show exactly one complete monumental Etruscan-style bronze cult statue standing upright on a plain low stone base in the open court beside the library of Augustus’s temple. The adult statue is fully clothed from shoulders to ankles in a loose, opaque, long-sleeved, full-length archaic ritual robe; only the face, hands, and sandal-clad feet are visible. Give it restrained frontal posture, patterned but simple hair, one hand open and one holding a small complete laurel branch close to the robe. Convey extraordinary scale through surrounding architecture alone—no people and no other statues. The entire head, hands, branch, feet, sandals, robe hem, and base must remain well inside the canvas with a wide vellum margin.\nScene/backdrop: spacious Roman temple-library court, low rooflines and columns far below the statue’s shoulders, distant Italian hills, broad open sky; no murals, relief figures, or inscriptions.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with monumental chiaroscuro.\nComposition/framing: dramatic low oblique view across a horizontal courtyard, statue occupying no more than 70 percent of image height and wholly surrounded by negative sky; complete base and foot-level paving visible; strong singular silhouette; one coherent scene, no border.\nLighting/mood: clear wind-washed morning with faded-lapis sky and a narrow ochre rim on bronze, awe arising from scale and craft rather than imperial spectacle.\nConstraints: exactly one fully clothed adult human effigy and no living people; opaque robe covers chest, waist, hips, and legs; both hands and sandal-clad feet complete; one complete short laurel branch; historically plausible Etruscan/Roman materials and architecture; all discrete subjects fully inside canvas; opaque sRGB color.\nAvoid: nudity, exposed torso, sheer cloth, sensual pose, text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra figures in decoration, extra statues, living people or animals, weapons, broken colossus, clipped head/feet/base, architecture obscuring the figure, panels, collage, frame, page mockup, modern museum objects, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": null,
+          "status": "failed-before-artifact",
+          "requestId": "ca1961d6-2268-4330-a26d-bc292cfc50ea"
+        },
+        {
+          "generationArtifactId": "exec-d5021964-7cf7-429b-bc8c-e5ae08b1be9b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one fully clothed colossal bronze cult statue, with complete head, hands, laurel branch, robe, sandals, and base well inside broad sky. Architecture supplies scale without people or other statues; no nudity, text, relief figure, panel, or crop appears.",
+      "epistemicAndDignityNote": "The work visualizes Pliny’s transmitted account of the Tuscan Apollo as material and art history, without asserting its lost appearance as archaeological fact.",
+      "rejectedAttempts": [],
+      "providerFailures": [
+        {
+          "generationArtifactId": null,
+          "status": "failed-before-artifact",
+          "artifactProduced": false,
+          "requestId": "ca1961d6-2268-4330-a26d-bc292cfc50ea",
+          "moderationStage": "output",
+          "category": "sexual",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 7, “Early Italian Statuary”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration focused on Pliny’s colossal Tuscan Apollo, a witness to Italy’s ancient statuary tradition. Show exactly one complete monumental Etruscan-style bronze Apollo standing upright on a plain low stone base in the open court beside the library of Augustus’s temple. The statue is unmistakably archaic Italian rather than idealized later Greek: restrained frontal posture, patterned but simple hair, long balanced limbs, one hand open and one holding a small complete laurel branch close to the body. Convey its extraordinary scale through surrounding architecture alone—no people, no other statues. Despite the low viewpoint, the entire head, hands, branch, feet, and base must remain well inside the canvas with a wide vellum margin.\nScene/backdrop: spacious Roman temple-library court, low rooflines and columns far below the statue’s shoulders, distant Italian hills, broad open sky; no murals, relief figures, or inscriptions.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with monumental chiaroscuro.\nComposition/framing: dramatic low oblique view across a horizontal courtyard, statue occupying no more than 70 percent of image height and wholly surrounded by negative sky; complete base and foot-level paving visible; strong singular silhouette; one coherent scene, no border.\nLighting/mood: clear wind-washed morning with faded-lapis sky and a narrow ochre rim on bronze, awe arising from scale and craft rather than imperial spectacle.\nConstraints: exactly one human effigy and no living people; all anatomy coherent, both hands and both feet complete; one complete short laurel branch; historically plausible Etruscan/Roman materials and architecture; all discrete subjects fully inside canvas; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra figures in decoration, extra statues, living people or animals, weapons, nudity, broken colossus, clipped head/feet/base, architecture obscuring the figure, panels, collage, frame, page mockup, modern museum objects, glossy CGI, photorealism.",
+          "note": "The provider safety system blocked the first monumental classical-statue wording before emitting an artifact. The successful retry made the cult statue explicitly opaque and fully clothed; no safety control was bypassed."
+        }
+      ]
+    },
+    {
+      "chapterKey": "34:8",
+      "title": "AN ACCOUNT OF THE MOST CELEBRATED WORKS IN BRASS, AND OF THE ARTISTS, 366 IN NUMBER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c008.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "205a057c443dc12a668e1f5ffab2a1f0ff9d12ee6945bbe0139919077a4e63c0",
+        "englishSha256": "bcb5a002497904a3ff73e82c51a226e37cc656b24b481a9edd61998997d81e37",
+        "latinWords": 2554,
+        "englishWords": 5156,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "8f3354f840961aa0a6829702c4dab72d5143a2f4dec4f78421222ca167913cdf",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c15b6409-50af-4d39-bc41-f4e2514ed71d",
+      "generationArtifactId": "exec-c15b6409-50af-4d39-bc41-f4e2514ed71d",
+      "outputArtifact": "built-in-imagegen://exec-c15b6409-50af-4d39-bc41-f4e2514ed71d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 8, “Celebrated Works in Brass and Their Artists”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration that evokes Pliny’s enormous catalogue of bronze masterpieces without becoming a collage. In one coherent airy gallery of Vespasian’s Temple of Peace, display exactly three complete, clearly sculpted bronze animals named among the celebrated artists’ works: at left Myron’s calm heifer, at center Canachus’s finely poised stag with one forehoof lightly raised, and at right a small alert dog recalling the bronze dogs praised in the chapter. Each animal stands independently on a plain low uninscribed stone base; all are weathered bronze with distinct verdigris and cast seams, unmistakably artworks rather than living animals. No people, no human statues, no other animals, and no violent subject.\nScene/backdrop: open-sided Roman temple gallery with simple columns, quiet garden light beyond, bare walls, and no reliefs, murals, writing, or additional objects.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with sculptural clarity.\nComposition/framing: wide lateral gallery rhythm, the three animal silhouettes fully separated and differently scaled in depth; every ear, horn, muzzle, hoof, paw, tail, and base fully inside the canvas with generous margin; no overlap that hides anatomy; one continuous scene, no border.\nLighting/mood: diffuse high daylight, museum-like only in attentiveness, but unmistakably ancient and public; admiration of observation and craft.\nConstraints: exactly one bronze heifer, exactly one bronze stag, exactly one bronze dog, and no other figures; anatomically coherent complete animals; no animal distress or action against another; all discrete subjects fully inside canvas; opaque sRGB color.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, living people, human statues, extra animals in decoration, torture devices, child-and-goose scene, wounds, blood, hunting, weapons, cropped horns/hooves/tails/bases, panels, collage, frame, page mockup, modern museum cases or placards, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c15b6409-50af-4d39-bc41-f4e2514ed71d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three complete separated bronze animal sculptures: one heifer, one poised stag, and one dog, each on a full plain base. Horns, ears, hooves, paws, tails, and anatomy are coherent and internal; no living creature, person, violent motif, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "A nonviolent selection from the chapter’s catalogue celebrates artists’ observation while omitting torture and animal-harm motifs.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:9",
+      "title": "THE METHOD OF PRESERVING COPPER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c009.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6254c067126a32063cf2e04ae3a1258e7e02f424e9c643a2a35886464f5065e3",
+        "englishSha256": "5f50e286744df2d5cf6c06abb39f4863f82df2fcbfa4314da2fb03db62dbe79d",
+        "latinWords": 144,
+        "englishWords": 292,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "84a09fa4adb590847b37fc53cad7b792981d2ef74a5d99ee3f8bdd3ccc90faf7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-67b3574e-d623-4f0b-af4f-c851e97ec360",
+      "generationArtifactId": "exec-67b3574e-d623-4f0b-af4f-c851e97ec360",
+      "outputArtifact": "built-in-imagegen://exec-67b3574e-d623-4f0b-af4f-c851e97ec360.png",
+      "exactFinalPrompt": "Use case: style-transfer\nAsset type: corrected full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 9\nInput image: edit target; preserve its exact composition, object count, object identities, geometry, anatomy, crop, viewpoint, lighting direction, and spatial arrangement.\nPrimary request: Change only the rendering medium and surface treatment. Convert the glossy near-photographic still life into an unmistakable hand-illuminated Plinian natural-history folio on warm fibrous aged vellum: visible iron-gall contour lines, dense fine cross-hatching, stipple, dry-brush abrasion, and translucent matte mineral washes in restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Reduce specular gloss and photographic microtexture; let vellum fibers and linework remain visible across the entire image while retaining enough tonal depth to distinguish polished bronze from patina.\nInvariants: keep exactly one complete two-handled bronze krater, exactly one complete sealed terracotta oil flask, exactly one complete lidded dark pitch pot, and exactly one folded complete linen cloth; keep both krater handles, rim, foot, all vessel silhouettes, cloth folds, workbench, wall, and high window unchanged and fully inside the canvas; no new or removed objects; no change to framing.\nConstraints: one coherent 1536×1024 landscape 3:2 scene; opaque sRGB color; ancient, timeless, rough in material yet polished in draftsmanship.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, animals, extra vessels or tools, open containers, pouring, split screen, panels, collage, border, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-04f901cd-b611-4349-ab22-4ae15fbe527b",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-67b3574e-d623-4f0b-af4f-c851e97ec360",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen style-transfer referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the corrected output found exactly one complete two-handled krater, one sealed flask, one lidded pot, and one folded cloth, all fully internal. Visible iron-gall hatching, stipple, matte mineral wash, and vellum replace the rejected glossy rendering; no liquid, procedure, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "Closed containers and an untouched cloth evoke ancient preservation claims without staging a modern conservation instruction.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-04f901cd-b611-4349-ab22-4ae15fbe527b",
+          "outputArtifact": "built-in-imagegen://exec-04f901cd-b611-4349-ab22-4ae15fbe527b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/evidence/history/b34-c009-reject-01-glossy-photorealism.png",
+          "sha256": "af8a985957d85b70f0db49d975931760be61f34b34310247bef9a9a535a93cc2",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXIV chapter 9, “The Method of Preserving Copper”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio still life grounded in Pliny’s discussion of bronze alloys, patina, oil, pitch, and durable monuments. On a broad ancient stone workbench show exactly one complete two-handled bronze krater as the primary subject. Its surface transitions naturally from deep brown polished bronze on one side to restrained blue-green age patina on the other, revealing preservation and time without a diagram or split panel. Beside it place exactly one complete sealed terracotta oil flask, exactly one complete lidded dark pitch pot, and one neatly folded complete linen cloth; nothing is open, poured, smeared, or demonstrated. No people, no hands, no writing, no tablets.\nScene/backdrop: shadowed Roman metal conservator’s storeroom with a plain plaster wall and a distant high window; minimal architecture and generous vellum darkness.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect with close material clarity.\nComposition/framing: intimate oblique tabletop view; krater centered but asymmetrical, both handles, foot, rim, and entire silhouette clearly visible; three supporting objects separated and fully inside generous margins; one coherent scene, no border, no before-and-after division.\nLighting/mood: narrow cool window light over warm reflected bronze, quiet stewardship and longevity.\nConstraints: exact object count—one krater, one sealed flask, one lidded pot, one folded cloth; historically plausible Roman vessels; no visible liquid, flame, or procedure; all discrete objects fully inside canvas; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, animals, extra vessels or tools, open containers, pouring, stains shaped like writing, coins, tablets, corrosion holes, broken objects, cropped handles/feet/rims, split screen, panels, collage, frame, page mockup, modern laboratory objects, glossy CGI, photorealism.",
+          "reason": "Object count, framing, and material transition were correct, but native review rejected the near-photographic gloss and insufficiently visible iron-gall/vellum treatment as outside the binding folio style."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 905,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "34:1": {
+        "nearestMAD": 26.7,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c018.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c025.png",
+        "madAtDHashPeer": 50.48
+      },
+      "34:3": {
+        "nearestMAD": 24.86,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b08-c009.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c004.png",
+        "madAtDHashPeer": 27.94
+      },
+      "34:4": {
+        "nearestMAD": 25.04,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c050.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c029.png",
+        "madAtDHashPeer": 78.57
+      },
+      "34:5": {
+        "nearestMAD": 33.67,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c011.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c019.png",
+        "madAtDHashPeer": 41.62
+      },
+      "34:6": {
+        "nearestMAD": 28.85,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c016.png",
+        "madAtDHashPeer": 32.74
+      },
+      "34:7": {
+        "nearestMAD": 25.36,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c008.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c028.png",
+        "madAtDHashPeer": 29.2
+      },
+      "34:8": {
+        "nearestMAD": 29.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c046.png",
+        "madAtDHashPeer": 32.84
+      },
+      "34:9": {
+        "nearestMAD": 28.31,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c003.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c010.png",
+        "madAtDHashPeer": 48.92
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-12",
+    "status": "pass",
+    "output": ""
+  }
+}

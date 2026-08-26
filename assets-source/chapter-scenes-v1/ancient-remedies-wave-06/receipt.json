@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "campaign": "ancient-remedies-wave-06",
+  "generatedAt": "2026-08-26",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "artifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "c076c4b5cfaeefc252f1c86dc68ddab515182b4e6c1e561e7e910e60e5fb4e25"
+    },
+    {
+      "artifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "sha256": "1a168b76f17c18bd7c7c630831fe36dbfe7da17b0b1db68f62e549c22b0c6849"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book VI chapters 33-34 and Book XXVI chapters 6-11 were read before prompting, including the entire long Book XXVI chapter 8. Geographic calculations, parallels, day lengths, plant identities, remedy lists, magical rites, sexual and reproductive claims, fever, seizures and mental-health language are retained only as transmitted ancient testimony. Accepted scenes use measurement, comparative botany, sealed material culture, skepticism, ordinary companionship and fully clothed adult knowledge agents; they never operationalize a remedy, ritual or diagnosis.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "ancient-remedies-wave-06",
+    "selectionPolicy": "First eight canonical planned-full-scene keys with no prior non-evidence master or receipt owner after excluding active claims supplied by the root coordinator.",
+    "activeClaimsExcluded": [
+      "30:2",
+      "30:3",
+      "30:4",
+      "30:5",
+      "30:7",
+      "30:8",
+      "30:9",
+      "30:10",
+      "11:49",
+      "11:50",
+      "11:51",
+      "11:52",
+      "11:54",
+      "28:1",
+      "28:2",
+      "28:3",
+      "28:20",
+      "29:1",
+      "29:2",
+      "29:3",
+      "29:4",
+      "29:5",
+      "29:6",
+      "30:1"
+    ],
+    "receiptsCheckedAtCertification": 110,
+    "nonEvidenceMastersCheckedAtCertification": 879,
+    "selectedKeys": [
+      "6:33",
+      "6:34",
+      "26:6",
+      "26:7",
+      "26:8",
+      "26:9",
+      "26:10",
+      "26:11"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPlanStatusByKey": {
+      "6:33": "planned-full-scene",
+      "6:34": "planned-full-scene",
+      "26:6": "planned-full-scene",
+      "26:7": "planned-full-scene",
+      "26:8": "planned-full-scene",
+      "26:9": "planned-full-scene",
+      "26:10": "planned-full-scene",
+      "26:11": "planned-full-scene"
+    },
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "assignments": [
+    "6:33",
+    "6:34",
+    "26:6",
+    "26:7",
+    "26:8",
+    "26:9",
+    "26:10",
+    "26:11"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13,
+    "independentCalls": true,
+    "postGenerationPixelEdits": 0
+  },
+  "chapters": [
+    {
+      "chapterKey": "6:33",
+      "title": "DIVISION OF THE EARTH INTO PARALLELS AND SHADOWS OF EQUAL LENGTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b06-c033.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6c2b518ce82d9913fc3b35e513da4d88fa24c8a2f68a475f7c80dc763311c91a",
+        "englishSha256": "9f800027747a3a193a718fca905c41e32a1e4599e3d0522fbf04db0f35e98399",
+        "latinWords": 323,
+        "englishWords": 735
+      },
+      "sha256": "64f3702aeafecd9d5e015ed148a1224fcd5d958278846ac783e986ce8d403711",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4a720c2c-9f9f-40ce-8de0-44c4f1502e5b",
+      "generationArtifactId": "exec-4a720c2c-9f9f-40ce-8de0-44c4f1502e5b",
+      "outputArtifact": "built-in-imagegen://exec-4a720c2c-9f9f-40ce-8de0-44c4f1502e5b.png",
+      "exactFinalPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book VI chapter 33, grounded in his transition from disputed route measurements to the earth's parallels and equal shadows. Show a single coherent Roman-era outdoor survey scene on a broad dry Mediterranean hill at early morning: one dignified Roman geographer in a plain pale tunic and weathered cloak studies the measured shadow of a simple upright wooden gnomon; two assistants farther back hold a taut knotted survey cord between low stone markers, while a compact bronze dioptra rests securely on a three-legged stand. The geometry must be conveyed only through real light, aligned bodies, cord, and shadow, never through diagrams or writing. Make every person, hand, foot, gnomon, cord end, stone marker, and instrument completely visible with generous breathing room; keep all subjects well inside every edge. Use airy negative space and an elevated three-quarter viewpoint, with tawny ochre ground, pale dust, muted verdigris on bronze, restrained faded-lapis distant hills, and a long lampblack-blue shadow. Historically plausible first-century Roman dress and instruments. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum: iron-gall contours, delicate cross-hatching and stipple, dry-brush abrasion, rough material surface but polished draftsmanship. One continuous scene, not a page, frame, border, panel, collage, triptych, map, or infographic. No text, letters, numerals, labels, pseudo-writing, signatures, logos, watermarks, modern objects, exposed anatomy, illness, or treatment action. Opaque full-bleed RGB/sRGB raster; no transparency. Composition must read clearly at thumbnail and full-page scale.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4a720c2c-9f9f-40ce-8de0-44c4f1502e5b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found one complete Roman geographer, two complete assistants, a fully internal gnomon and shadow, an entirely visible knotted survey cord, both low markers, and a complete bronze dioptra and tripod. The blue distance reads as layered atmospheric hills rather than open water. No subject is clipped and no text, diagram, panel or collage appears.",
+      "epistemicAndDignityNote": "Competing ancient distance calculations and the transition to parallel-and-shadow observations are shown as peaceful measurement, not as a claim of modern geodetic precision.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "6:34",
+      "title": "DIVISION OF THE EARTH INTO PARALLELS AND SHADOWS OF EQUAL LENGTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b06-c034.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "corpusReadEvidence": {
+        "latinSha256": "180594cc4f4873167db9f81e324b4ac359ebd5922026c71d0cf6411724b2adcd",
+        "englishSha256": "1ae1bbeb897985f9ae388e80718ef26d165230069f595a9a63a5cbb6a965540c",
+        "latinWords": 648,
+        "englishWords": 1086
+      },
+      "sha256": "c90d041929fb5e373b358f3490a1e276e4e0008ba397237c1dccb629165fa13f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3b6a3fb8-1c2b-4c97-86fa-605569730f2a",
+      "generationArtifactId": "exec-3b6a3fb8-1c2b-4c97-86fa-605569730f2a",
+      "outputArtifact": "built-in-imagegen://exec-3b6a3fb8-1c2b-4c97-86fa-605569730f2a.png",
+      "exactFinalPrompt": "Create a fresh independent replacement at exactly 1536x1024 landscape for Pliny the Elder, Naturalis Historia Book VI chapter 34, his transmitted ancient account of successive terrestrial parallels, changing gnomon shadows, longest days, Britain and Thule. The prior candidate was rejected because ocean water touched the image edges; this replacement must contain absolutely no water anywhere. Show one coherent northern summer-night observation on a high windswept inland moor, seen from a distant slightly elevated viewpoint. A fully visible Roman-era natural philosopher and a fully visible northern local navigator stand apart on a broad oval terrace of pale natural stone, quietly observing the exceptionally long shadow of one tall bronze gnomon while the low sun remains just above a horizon of layered rocky ridges. A small bronze armillary sphere rests securely on a low round stone table, and a simple ring of inset stones around the gnomon catches its shadow; all geometry exists physically through sun and shadow, with no drawn diagram. Sparse heather and wind-bent grasses emphasize northern latitude and long daylight. Keep every person, limb, cloak, instrument, table, gnomon, shadow, and plant cluster fully visible and generously separated from all four edges; no focal object may touch or nearly touch an edge. Palette: cool faded lapis and smoke-violet sky, muted verdigris bronze, pale limestone, quiet madder cloak, subdued green heather and a thin ochre sun. Historically plausible first-century clothing and tools. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum with iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion: rough handmade material, polished draftsmanship, airy negative space. One uninterrupted scene, never a page, frame, border, panel, collage, triptych, map, chart, or infographic. Absolutely no water, text, letters, numerals, labels, pseudo-writing, signatures, logos, watermarks, modern objects, illness, exposed anatomy, or treatment action. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f3f01bba-b06d-485e-8c18-b6a67e816442",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-3b6a3fb8-1c2b-4c97-86fa-605569730f2a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found two complete clothed observers, one full bronze gnomon and long shadow, a complete armillary sphere and stone table, and a fully internal circular stone marker on a dry moor. All focal subjects have clear margins; no water, writing, panel, collage, map or diagram appears.",
+      "epistemicAndDignityNote": "Pliny's transmitted latitude, longest-day and Thule claims are conveyed through a historically framed observation of low sun and shadow, not asserted as settled modern geography.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-f3f01bba-b06d-485e-8c18-b6a67e816442",
+          "outputArtifact": "built-in-imagegen://exec-f3f01bba-b06d-485e-8c18-b6a67e816442.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/evidence/history/b06-c034-reject-01-water-edge.png",
+          "sha256": "78f23e2c23361057b84cc13c17302148e362be5191896610a7225df9e9b7eaa1",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book VI chapter 34, his ancient account of successive terrestrial parallels, changing gnomon shadows, longest days, Britain and Thule. Make a single coherent northern observation scene at the bright edge of summer night, radically different from a hilltop survey: a distant, elevated view across a windswept stone terrace on a rocky island, where one fully visible Roman-era natural philosopher and one fully visible local navigator quietly compare the very long shadow cast by a tall bronze gnomon as the low sun hangs above the horizon. Place a small bronze armillary sphere securely on a low stone table and a simple circular shadow marker made of inset stones in the terrace; these are physical instruments only, with no drawn diagram or inscription. Beyond them, an entirely enclosed crescent bay sits between overlapping rocky headlands, so no water reaches any image edge; a few tiny complete seabirds remain well inside the sky. Convey latitude and extended daylight through light, shadow, horizon and atmosphere alone. Keep every person, limb, cloak, instrument, bird, table and focal stone fully visible with generous breathing room on all sides. Palette: cool faded lapis and smoke-violet sky, muted verdigris bronze, pale limestone, quiet madder cloak, and a thin ochre sun, with restrained luminosity and airy negative space. Historically plausible first-century clothing and tools. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, with iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, rough handmade surface and polished draftsmanship. One uninterrupted 3:2 scene, not a manuscript page, frame, border, panel, collage, triptych, map, chart, or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signatures, logos, watermarks, modern objects, transparent areas, illness, exposed anatomy, or treatment action. Opaque full-bleed RGB/sRGB raster, 1536x1024.",
+          "reason": "The otherwise strong northern observation scene introduced open ocean that reached both lateral canvas edges, failing the strict no-water-edge gate."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:6",
+      "title": "BECHION, OTHERWISE KNOWN AS ARCION, CHAMÆLEUCE OR TUSSILAGO: THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b26-c006.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7f36485eaca6db5168597111cb2636f76bb296ae6e0fee48da0858c501a9dacd",
+        "englishSha256": "00ff3242ac5dc83e94c990395ecda6673fbe935c971ecae5d58e66c235d5d0c4",
+        "latinWords": 172,
+        "englishWords": 331
+      },
+      "sha256": "ee79dae3cb34cf6b14e7566a790612cba2d4b7a76b24abf89fa96837170b780b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-12bbdcfa-90d2-4cee-8153-75f9577cc170",
+      "generationArtifactId": "exec-12bbdcfa-90d2-4cee-8153-75f9577cc170",
+      "outputArtifact": "built-in-imagegen://exec-12bbdcfa-90d2-4cee-8153-75f9577cc170.png",
+      "exactFinalPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book XXVI chapter 6, recording transmitted ancient observations about bechion or tussilago and a second salvia-like kind. This is historical natural history, not medical advice. Show a single intimate Roman-era field-botany scene from a low ground-level viewpoint: a dignified fully clothed mature woman herbalist kneels without touching or harvesting, comparing two healthy wild plant colonies on a shaded limestone bank—one plausible coltsfoot-like colony with five to seven broad pale-backed basal leaves and fine roots visible only where the eroded soil naturally exposes them, and a separate soft grey-green mullein-or-sage-like colony. Nearby damp moss and dark earth hint at Pliny's report that the plant could signal hidden spring water, but show no open water. A healthy pack mule stands calmly farther back beside its handler, both completely visible and not being treated, reinforcing the historical context without illness or cruelty. Place one closed empty woven gathering basket on dry ground, with no prepared substances, food, smoke, cup, medicine, recipe, or procedure. Keep every person, hand, foot, animal, hoof, ear, plant cluster, basket, and root entirely within the canvas with generous breathing room. Use an asymmetrical intimate composition, muted verdigris leaves, pale silver-green undersides, ochre limestone, umber soil and one restrained madder cloth accent. Historically plausible first-century Roman clothing and material culture. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, with iron-gall contours, delicate cross-hatching, stipple and dry-brush abrasion—rough handmade material and polished botanical draftsmanship. One uninterrupted scene, not a page, border, frame, panel, collage, triptych, botanical diagram, or infographic. No text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, medical treatment, exposed anatomy, bodily fluids, symptoms, suffering, injury, or actionable preparation. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-12bbdcfa-90d2-4cee-8153-75f9577cc170",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found one complete mature woman herbalist, one complete healthy mule and handler, two distinct complete plant colonies, naturally exposed roots, and one closed empty basket. All focal anatomy and objects are internal; no water, smoke, preparation, treatment, symptom, writing, panel or collage appears.",
+      "epistemicAndDignityNote": "The uncertain bechion/tussilago identity is represented by plausible coltsfoot-like and sage-or-mullein-like colonies under comparison. Remedy and hidden-spring claims remain transmitted ancient observations; no efficacy or procedure is endorsed.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:7",
+      "title": "AFFECTIONS OF THE SIDE, CHEST, AND STOMACH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b26-c007.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "latinSha256": "72a6c392680db468f5d56b53d6f39ad15213e47edb6dc7edf13b0fe17b82ef5b",
+        "englishSha256": "4c7ed5e7dd45e6cbfccf491818f40067bf681612ce684f5bc794edbc46b51aa5",
+        "latinWords": 589,
+        "englishWords": 1230
+      },
+      "sha256": "dd5d2f7ca8d5cdd4cdf0178f735ff2dbbd5ca20aa220d1a2288ae8677fa08354",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f761e415-e77a-441d-93a0-bce2270fce9a",
+      "generationArtifactId": "exec-f761e415-e77a-441d-93a0-bce2270fce9a",
+      "outputArtifact": "built-in-imagegen://exec-f761e415-e77a-441d-93a0-bce2270fce9a.png",
+      "exactFinalPrompt": "Create a fresh independent replacement at exactly 1536x1024 landscape for Pliny the Elder, Naturalis Historia Book XXVI chapter 7, a transmitted ancient catalogue connecting plants with affections of the side, chest and stomach. The previous candidate was rejected because a foreground column and stone shelf were clipped by the canvas; this replacement must keep every discrete object fully internal with wide empty margins. Present historical botanical testimony, never medical advice. Show one coherent Roman-era walled herb courtyard at late afternoon from a moderate eye-level viewpoint, with no foreground architecture at either edge. Two dignified fully clothed adult naturalists stand near the center, one older and one younger, inspecting living specimens without preparing or administering anything: the older gently indicates a leafless jointed ephedra vine climbing a small potted tree, while the younger compares fragrant dark geum roots naturally exposed in a second pot with healthy plantain, betony and vervain in three separate low planters. Farther right, a short freestanding stone shelf, fully visible with air around every side, holds one closed bronze casket and three stoppered ceramic vessels, all unused. The courtyard's columns and walls are distant background architecture only and none may be cropped. No sick person, symptom, treatment, food, drink, smoke, fire, grinding, pouring, dosage, or actionable procedure. Keep every figure, limb, garment hem, plant tip, root, pot, vessel, casket, shelf leg and architectural column fully visible and at least a substantial visual margin away from all four edges. Use strong but gentle courtyard chiaroscuro, a compact triangular composition, verdigris foliage, umber roots and shadows, pale ochre stone, faded lapis shade and a quiet madder garment accent. Historically plausible first-century Roman dress, architecture and vessels. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, with iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, rough handmade surface and polished botanical draftsmanship. One continuous scene, never a page, border, frame, panel, collage, triptych, chart, herbarium sheet, or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, exposed anatomy, bodily fluids, injury, distress, illness depiction, or medical enactment. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6f448405-7443-4070-8b63-ae17d86fc1ae",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-f761e415-e77a-441d-93a0-bce2270fce9a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found two complete clothed naturalists, a complete potted jointed ephedra vine, complete foreground planters and roots, and a fully visible freestanding shelf with three sealed vessels and one closed casket. No medical enactment, symptom, text, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The long chest, side and stomach catalogue is framed as comparative plant study and a sealed archive of received claims, not a usable treatment sequence.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-6f448405-7443-4070-8b63-ae17d86fc1ae",
+          "outputArtifact": "built-in-imagegen://exec-6f448405-7443-4070-8b63-ae17d86fc1ae.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/evidence/history/b26-c007-reject-01-clipped-column-table.png",
+          "sha256": "41ab6b52b5466b87197b34f8b089f63a87ff6281ccf6ce68f52cba83e1cbaf15",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book XXVI chapter 7, a long transmitted ancient catalogue connecting plants with affections of the side, chest and stomach. This must read as historical botanical testimony, never medical advice. Show a single coherent Roman-era courtyard of comparative plant study at late afternoon, viewed obliquely through a shaded colonnade. Two dignified fully clothed adult naturalists, one older and one younger, inspect living specimens without preparing or administering anything: the older figure gently indicates a leafless jointed ephedra vine climbing a small potted tree, while the younger compares fragrant dark geum roots naturally exposed in a second earthen pot with healthy plantain, betony and vervain growing in separate low planters. A complete closed bronze casket and three stoppered ceramic vessels sit unused on a stone shelf, suggesting an archive of received claims rather than a recipe. No sick person, symptom, treatment, food, drink, smoke, fire, grinding, pouring, dosage, or actionable procedure. Keep every figure, hand, foot, plant, vine tip, pot, vessel, shelf, column base and tool fully visible and comfortably inside all four edges. Use strong but gentle courtyard chiaroscuro, a diagonal composition unlike the previous field scene, verdigris foliage, umber roots and shadows, pale ochre stone, faded lapis shade and a quiet madder garment accent. Historically plausible first-century Roman dress, architecture and vessels. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, with iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, rough handmade surface and polished botanical draftsmanship. One continuous 3:2 scene, not a page, border, frame, panel, collage, triptych, chart, herbarium sheet, or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, exposed anatomy, bodily fluids, injury, distress, illness depiction, or medical enactment. Opaque full-bleed RGB/sRGB raster, no transparency.",
+          "reason": "A foreground column and the long stone shelf were cropped by the left and right canvas edges, failing complete-discrete-subject framing."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:8",
+      "title": "REMEDIES FOR DISEASES OF THE BELLY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b26-c008.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "latinSha256": "978d3bb79161499d4de621c9e108a2630c10ef34983fead18c4f0d163ea7f3d0",
+        "englishSha256": "c3ede6cc406d6a4aa6b651ab0ec3874dbd1affc36283cae7db9d83ae6687f978",
+        "latinWords": 2664,
+        "englishWords": 5582
+      },
+      "sha256": "3ec794a3cdcdf24c1ae758ad36d2030890f1c2b12b626f8012451be16694b559",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d934f7b3-69c4-4261-a562-521f4a3a07f9",
+      "generationArtifactId": "exec-d934f7b3-69c4-4261-a562-521f4a3a07f9",
+      "outputArtifact": "built-in-imagegen://exec-d934f7b3-69c4-4261-a562-521f4a3a07f9.png",
+      "exactFinalPrompt": "Create a fresh independent replacement at exactly 1536x1024 landscape for Pliny the Elder, Naturalis Historia Book XXVI chapter 8, his vast transmitted catalogue of belly remedies introduced by a moral meditation on appetite, luxury, commerce and the body's demands. The last candidate was rejected because it did not honor arbitrary object counts; this replacement intentionally uses no prescribed counts and must remain visually simple. Treat the subject as historical testimony and moral reflection, never medical advice. Show one coherent sparse Roman storeroom at dusk from a high oblique viewpoint, with wide bare floor and wall margins. A dignified fully clothed older naturalist stands thoughtfully near the center with empty hands. To his left, a complete small round table holds a modest arrangement of intact figs, grapes, one rustic loaf, aromatic pods and one closed spice casket, evoking distant trade and appetite. To his right, one complete low stone table holds a compact cluster of healthy living potted plantain and betony beside a few sealed unlabelled earthenware jars, evoking an archive of disputed plant claims. In front, a complete low stool supports tied-shut blank wax tablets with no visible writing surface. Include no shelves, baskets, amphorae, extra furniture, background vessels, storage clutter, or object near an edge. No preparation, mixture, dosage, ingestion, grinding, pouring, treatment, sick person, symptom, bodily reference, or recipe. Keep the scholar, garment hems, both tables and every leg, stool, tablets, jar, plant tip, fruit, loaf and casket fully visible with a large empty margin from all four edges. Use dramatic humane lamplight with deep umber and lampblack shadows, ochre grain, muted verdigris foliage, small madder fruit accents and a faded-lapis twilight window; materially distinct from a sunny herb courtyard. Historically plausible first-century Roman dress, furniture and vessels. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, iron-gall contours, intricate cross-hatching and stipple, dry-brush abrasion, rough handmade surface and polished draftsmanship. One uninterrupted scene, never a manuscript page, border, frame, panel, collage, diptych, triptych, diagram, chart, or infographic. No text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, nakedness, exposed anatomy, bodily fluids, illness, injury, distress, death, or actionable medical content. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-072540f7-6964-4154-83f0-6d858e876b4c",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-1f0fd5d1-c6d4-4713-acff-814fa97a42e4",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-d934f7b3-69c4-4261-a562-521f4a3a07f9",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found one complete contemplative naturalist, two complete freestanding tables with all legs visible, a complete stool and tied tablets, a restrained intact-food still life, healthy plantain and betony, and sealed jars. Every discrete subject is internal; no procedure, symptom, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The chapter's enormous belly-remedy catalogue is distilled into Pliny's opening critique of appetite and a materially separate archive of plant claims. Nothing is combined, dosed, consumed or presented as advice.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-072540f7-6964-4154-83f0-6d858e876b4c",
+          "outputArtifact": "built-in-imagegen://exec-072540f7-6964-4154-83f0-6d858e876b4c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/evidence/history/b26-c008-reject-01-clipped-vessels-table.png",
+          "sha256": "1a17ab5a42250d55217aa82b3838fffac88a88d1cea5da7b468478ec863dd332",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book XXVI chapter 8, his vast transmitted catalogue of belly remedies introduced by a moral meditation on appetite, luxury, commerce and the body's demands. This must be historical testimony and reflection, never medical advice. Show one coherent Roman storeroom at dusk from a high oblique viewpoint, composed like a quiet moral still life rather than a clinic. A dignified fully clothed older naturalist stands alone in thoughtful profile between two complete freestanding tables, both well inside the scene: on the left, a round table holds a restrained abundance of intact figs, grapes, bread, aromatic pods and one small closed spice casket, evoking distant trade and appetite; on the right, a lower stone table holds living potted plantain, centaury, betony and vervain beside several sealed unlabelled earthenware jars, evoking Pliny's archive of conflicting plant claims. His hands remain empty and away from both tables. A closed pair of blank wax tablets lies tied shut on a stool; no visible writing surface. No preparation, mixture, dosage, ingestion, grinding, pouring, treatment, sick person, symptom, bodily reference, or recipe. Keep the scholar, both tables, every table leg, stool, tablet, jar, plant tip, fruit, loaf and casket fully visible with broad breathing room from all four edges. Use dramatic but humane lamplight with deep umber and lampblack shadows, ochre grain, muted verdigris foliage, small madder fruit accents and a faded-lapis twilight opening; materially varied from the sunny courtyard. Historically plausible first-century Roman room, dress, furniture and vessels. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, with iron-gall contours, intricate cross-hatching and stipple, dry-brush abrasion, rough handmade surface and polished draftsmanship. One uninterrupted scene, not a manuscript page, border, frame, panel, collage, diptych, triptych, diagram, chart, or infographic. No text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, nakedness, exposed anatomy, bodily fluids, illness, injury, distress, death, or actionable medical content. Opaque full-bleed RGB/sRGB raster, no transparency.",
+          "reason": "An amphora, basket and right-hand table were cropped at the canvas edges, failing complete-discrete-subject framing."
+        },
+        {
+          "generationArtifactId": "exec-1f0fd5d1-c6d4-4713-acff-814fa97a42e4",
+          "outputArtifact": "built-in-imagegen://exec-1f0fd5d1-c6d4-4713-acff-814fa97a42e4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/evidence/history/b26-c008-reject-02-count-mismatch.png",
+          "sha256": "25fa7d374d6d1f5174380ece27237f26ddd6b0483827e81480565adf55e6c41c",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a fresh independent replacement at exactly 1536x1024 landscape for Pliny the Elder, Naturalis Historia Book XXVI chapter 8, his vast transmitted catalogue of belly remedies introduced by a moral meditation on appetite, luxury, commerce and the body's demands. The previous candidate was rejected because vessels, a basket and a table were cropped at the image edges. This replacement must have an uncluttered room with wide bare floor and wall margins; every discrete object must be completely visible and well inside the canvas. Treat the subject as historical testimony and moral reflection, never medical advice. Show one coherent sparse Roman storeroom at dusk from a high oblique viewpoint. A dignified fully clothed older naturalist stands thoughtfully in the center with empty hands. To his left, one complete small round table holds only a modest arrangement of intact figs, grapes, one loaf, aromatic pods and one closed spice casket, evoking distant trade and appetite. To his right, one complete lower stone table holds four living potted plants—plantain, centaury, betony and vervain—and exactly three sealed unlabelled earthenware jars, evoking an archive of disputed plant claims. In front, one complete low stool supports a tied-shut pair of blank wax tablets with no visible writing surface. Do not include shelves, baskets, amphorae, extra furniture, background vessels, storage clutter, or any object near an edge. No preparation, mixture, dosage, ingestion, grinding, pouring, treatment, sick person, symptom, bodily reference, or recipe. Keep the scholar, garment hems, both tables and every leg, stool, tablets, jar, plant tip, fruit, loaf and casket fully visible with a large empty margin from all four edges. Use dramatic humane lamplight with deep umber and lampblack shadows, ochre grain, muted verdigris foliage, small madder fruit accents and a faded-lapis twilight window; varied from the sunny courtyard. Historically plausible first-century Roman dress, furniture and vessels. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, iron-gall contours, intricate cross-hatching and stipple, dry-brush abrasion, rough handmade surface and polished draftsmanship. One uninterrupted scene, never a manuscript page, border, frame, panel, collage, diptych, triptych, diagram, chart, or infographic. No text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, nakedness, exposed anatomy, bodily fluids, illness, injury, distress, death, or actionable medical content. Opaque full-bleed RGB/sRGB raster, no transparency.",
+          "reason": "The scene was safely framed but showed fewer potted plant specimens and sealed jars than the prompt's arbitrary exact counts, so strict prompt-adherence certification failed."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:9",
+      "title": "INGUINALIS OR ARGEMO",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b26-c009.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "latinSha256": "88538b03b7095f8dc6650d978ff3e31e35a486d6576771970c026a71b8e6a958",
+        "englishSha256": "73b4361b2f0ebb9b020f6990af5d7c3ef6be94beaecc39aab1c553499b66f5a5",
+        "latinWords": 131,
+        "englishWords": 268
+      },
+      "sha256": "2dd58cdbe89ba866f48bad942035b28c4c912e7cb017048886bcdc392d2b4500",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-05acfb26-161f-4712-a6f0-3003f7a8c351",
+      "generationArtifactId": "exec-05acfb26-161f-4712-a6f0-3003f7a8c351",
+      "outputArtifact": "built-in-imagegen://exec-05acfb26-161f-4712-a6f0-3003f7a8c351.png",
+      "exactFinalPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book XXVI chapter 9, recording the botanically uncertain inguinalis or argemonion plant and transmitted ritual claims about the groin. Do not literalize the ritual, efficacy, nudity, spitting, touch, incantation, or disease. Present this as dignified historical field testimony, not magic instruction or medical advice. Show one coherent twilight natural-history scene at the edge of a Mediterranean bramble thicket: a fully clothed mature woman naturalist stands in calm authority and points from a respectful distance toward a plausible prickly poppy-like argemonion plant flowering among the bushes; beside her, a fully clothed younger adult woman holds a closed empty lidded basket at waist height and studies the plant attentively. Both are knowledge agents, never patient and never ritual performer. Their hands do not touch a body or administer anything. A small distant sanctuary of Apollo is visible wholly within a gap in the thicket as historical context, with no cult act, inscription or statue. Because the ancient botanical identity is uncertain, emphasize careful comparison rather than certainty: one distinct flowering plant surrounded by ordinary brambles, all healthy. Keep every figure, limb, garment hem, basket, flower, thorny branch tip and sanctuary structure fully visible with generous breathing room from every edge. Use a low lateral viewpoint, deep umber foliage, muted verdigris leaves, restrained madder-purple flower, pale ochre path and fading lapis twilight. Historically plausible first-century Roman clothing and landscape. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum, with iron-gall contours, intricate cross-hatching, stipple, dry-brush abrasion, rough surface and polished draftsmanship. One uninterrupted scene, not a manuscript page, border, frame, panel, collage, triptych, diagram, botanical plate, or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, nudity, exposed anatomy, sexualization, symptoms, illness, injury, patient, suffering, bodily fluids, treatment, recipe, or actionable ritual. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-05acfb26-161f-4712-a6f0-3003f7a8c351",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found two complete fully clothed women presented as knowledge agents, one complete closed basket, one distinct fully internal prickly flowering plant, and a complete distant sanctuary. No nudity, ritual performance, bodily contact, illness, treatment, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The uncertain inguinalis/argemonion identity is shown as cautious field comparison. The passage's naked-maiden, incantation and spitting ritual is neither depicted nor operationalized; the women retain full dignity and agency.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:10",
+      "title": "APHRODISIACS AND ANTAPHRODISIACS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b26-c010.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "latinSha256": "89b144ff7ca3a9387d29c9a256319e832be23acd17d5ed95f2fd5472ae258dcc",
+        "englishSha256": "45d63b8f23a6eb6a89645d2052d3d67d4d64fdbc93384ee0e4e5dcf94254620c",
+        "latinWords": 595,
+        "englishWords": 1248
+      },
+      "sha256": "6dde400bc0319aeae2565481b83060c306daff67d1525406bea906608b591ebe",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-193797d6-ca0c-4522-8f35-0bf99349f3e5",
+      "generationArtifactId": "exec-193797d6-ca0c-4522-8f35-0bf99349f3e5",
+      "outputArtifact": "built-in-imagegen://exec-193797d6-ca0c-4522-8f35-0bf99349f3e5.png",
+      "exactFinalPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book XXVI chapter 10, which transmits ancient claims about aphrodisiac and antaphrodisiac plants and explicitly calls some reports incredible. This must be a non-explicit living natural-history scene that distinguishes received testimony from biological fact; never sexualize people, imply efficacy, give advice, or show treatment. In one coherent Roman-era botanical garden on a cool spring morning, a dignified fully clothed woman naturalist and a dignified fully clothed man naturalist stand several paces apart as scholarly equals. Between them, a complete raised garden bed contains healthy purple-flowering Mediterranean orchids and satyrion-like plants; one naturally eroded patch reveals paired tuberous plant roots in soil for botanical comparison without cutting or harvesting. Nearby, a complete shallow stone basin well inside the garden contains living nymphaea leaves and one pale bloom; all water is entirely enclosed by the basin and far from every canvas edge. The woman calmly studies the living plants while the man makes an open-palmed skeptical gesture toward a tied-shut blank wax tablet on a small complete stone seat, expressing Pliny's doubt without writing. No intimacy between figures, no couple symbolism, no nudity, no suggestive gesture, no reproductive act, no animal breeding, no ingestion, no mixture, no dosage, no remedy preparation, no patient and no symptom. Keep both people, every limb and garment hem, the entire raised bed, all flowers and roots, the entire basin and contained water, the stone seat and tablet fully visible with generous empty margins. Use an airy horizontal composition, silvery morning light, muted verdigris leaves, faded lapis enclosed basin, pale ochre stone, purple-madder blossoms and soft umber shadow. Historically plausible first-century Roman clothing and garden architecture. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum with iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion—rough handmade material with polished botanical draftsmanship. One uninterrupted scene, never a manuscript page, border, frame, panel, collage, diptych, triptych, chart, anatomical plate, diagram or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, cropped discrete subjects, water at any image edge, exposed anatomy, sexual content, bodily fluids, illness, injury, distress, treatment, or actionable medical content. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-193797d6-ca0c-4522-8f35-0bf99349f3e5",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found two complete fully clothed adult naturalists standing apart, a complete raised bed of living orchids, naturally exposed paired plant tubers, a complete stone seat and tied tablets, and a fully internal stone basin whose water is wholly enclosed far from every canvas edge. No sexualized gesture, treatment, writing, panel or collage appears.",
+      "epistemicAndDignityNote": "Aphrodisiac, antaphrodisiac, fertility and reproductive claims are treated as ancient botanical testimony. Pliny's own incredulity is expressed through scholarly distance and skepticism; no efficacy or modern biological claim is implied.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:11",
+      "title": "MALADIES WHICH ATTACK THE WHOLE OF THE BODY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/b26-c011.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "latinSha256": "113b60161bdc8641ab888c8ef0b4b6a07971903afdb01d65ae0894eac450cd64",
+        "englishSha256": "60c9b4328d4b69e9d18466eb0d6028a45e7d9d0d5ddc69c7f0592e9418bce7dd",
+        "latinWords": 1000,
+        "englishWords": 1953
+      },
+      "sha256": "04b8046ef8e766b3c867e081238961218a98d946a72f8f8cc9de6ee079a899e7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-be62122b-2b6f-4138-8c2b-091cf74e5d32",
+      "generationArtifactId": "exec-be62122b-2b6f-4138-8c2b-091cf74e5d32",
+      "outputArtifact": "built-in-imagegen://exec-be62122b-2b6f-4138-8c2b-091cf74e5d32.png",
+      "exactFinalPrompt": "Create a fresh independent replacement at exactly 1536x1024 landscape for Pliny the Elder, Naturalis Historia Book XXVI chapter 11, where he turns from ailments of individual parts to maladies said to affect the whole body—wakefulness, fevers, seizures, mental distress and other conditions—and compiles received plant claims. The prior candidate was rejected because a large olive canopy was cropped. This replacement must contain no large tree, overhanging branch, foreground column, or discrete object touching any edge. Portray care, dignity and transmitted testimony, never symptoms, stigma, suffering, diagnosis, or medical advice. Show one serene open Roman-era garden court at the transition from predawn blue to warm sunrise. A fully clothed older adult sits upright, calm and socially included on a complete freestanding stone bench; a fully clothed companion sits nearby at the other end with open empty hands, offering only human presence. Several paces away, a dignified woman naturalist quietly observes a complete circular bed of healthy geranium, plantain, betony and vervain, but does not pick, prepare, measure, apply or administer anything. A closed physician's chest and tied-shut blank tablets rest unused on a separate complete low stool, signaling an archive of ancient claims rather than treatment. A small potted olive, if present, must be complete and distant. Everyone appears healthy and composed; there is no patient role, medical act, crisis, restraint, supernatural event, or cure. Keep all three people, limbs, garment hems, bench ends and legs, circular bed, every plant tip, stool, chest, tablets, and any potted plant fully visible with broad breathing room from every edge. Use a gently panoramic composition with faded-lapis predawn shadow receding into pale ochre sunrise, muted verdigris foliage, soft umber stone and one restrained madder mantle, creating humane quiet rather than clinical drama. Historically plausible first-century Roman clothing, garden and furniture. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum with iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, rough handmade material and polished draftsmanship. One uninterrupted scene, not a manuscript page, border, frame, panel, collage, diptych, triptych, allegorical diagram, chart, anatomical plate, or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, cropped discrete subject, nakedness, exposed anatomy, bodily fluid, visible illness, wound, death, seizure, distress, confinement, treatment procedure, dose, recipe, or actionable medical content. Opaque full-bleed RGB/sRGB raster, no transparency.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2628257f-cdfe-4f49-8749-6b737f0e2188",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-be62122b-2b6f-4138-8c2b-091cf74e5d32",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native-resolution review found three complete fully clothed adults, a complete internal bench, a complete circular healthy herb bed, one full stool, closed chest and tied tablets, and a complete potted olive. Everyone is calm and included; no symptom, crisis, restraint, procedure, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Wakefulness, fever, seizure, mental-health and whole-body claims remain transmitted historical testimony. The scene centers ordinary companionship and botanical observation without identifying a patient, stigmatizing a condition, or implying a cure.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-2628257f-cdfe-4f49-8749-6b737f0e2188",
+          "outputArtifact": "built-in-imagegen://exec-2628257f-cdfe-4f49-8749-6b737f0e2188.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-06/evidence/history/b26-c011-reject-01-clipped-olive-canopy.png",
+          "sha256": "1465f2958656d6c4d1ed9d6c3a39a1e937f4d93358d56c829fae9caa6318ace8",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia Book XXVI chapter 11, where he turns from ailments of individual parts to maladies said to affect the whole body—wakefulness, fevers, seizures, mental distress and other conditions—and compiles received plant claims. Portray care, dignity and transmitted testimony, never symptoms, stigma, suffering, diagnosis, or medical advice. Show a single serene Roman-era garden court at the transition from predawn blue to warm sunrise. A fully clothed older adult sits upright, calm and socially included on a complete stone bench beneath an olive tree; a fully clothed companion sits nearby at the other end of the bench with open empty hands, offering only human presence. Several paces away, a dignified woman naturalist quietly observes a complete circular bed of healthy geranium, plantain, betony and vervain, but does not pick, prepare, measure, apply or administer anything. A closed physician's chest and tied-shut blank tablets rest unused on a separate low stool, signaling an archive of ancient claims rather than treatment. Everyone appears healthy and composed; there is no patient role, medical act, crisis, restraint, supernatural event, or cure. Keep all three people, limbs, garment hems, bench ends and legs, olive canopy, circular plant bed, stool, chest and tablets fully visible with broad breathing room from every edge. Use a gently panoramic composition with faded-lapis predawn shadow receding into pale ochre sunrise, muted verdigris foliage, soft umber stone and one restrained madder mantle, creating humane quiet rather than clinical drama. Historically plausible first-century Roman clothing, garden and furniture. Render as an exquisite ancient natural-history folio image painted directly on warm fibrous aged vellum with iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, rough handmade material and polished draftsmanship. One uninterrupted scene, not a manuscript page, border, frame, panel, collage, diptych, triptych, allegorical diagram, chart, anatomical plate, or infographic. Absolutely no text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern object, water, cropped discrete subject, nakedness, exposed anatomy, bodily fluid, visible illness, wound, death, seizure, distress, confinement, treatment procedure, dose, recipe, or actionable medical content. Opaque full-bleed RGB/sRGB raster, no transparency.",
+          "reason": "A large foreground olive trunk and canopy crossed the left and top canvas edges, so the strict complete-plant framing gate was not met."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 879,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "6:33": {
+        "nearestMAD": 23.88,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c058.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "madAtDHashPeer": 31.36
+      },
+      "6:34": {
+        "nearestMAD": 24,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c022.png",
+        "madAtDHashPeer": 46.63
+      },
+      "26:6": {
+        "nearestMAD": 29.08,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c022.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c009.png",
+        "madAtDHashPeer": 33.33
+      },
+      "26:7": {
+        "nearestMAD": 28.32,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c020.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+        "madAtDHashPeer": 35.96
+      },
+      "26:8": {
+        "nearestMAD": 22.77,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c058.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c055.png",
+        "madAtDHashPeer": 100.09
+      },
+      "26:9": {
+        "nearestMAD": 23.49,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c044.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c049.png",
+        "madAtDHashPeer": 50.64
+      },
+      "26:10": {
+        "nearestMAD": 26.54,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c005.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c027.png",
+        "madAtDHashPeer": 46.58
+      },
+      "26:11": {
+        "nearestMAD": 28.27,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c017.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 57.37
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/ancient-remedies-wave-06",
+    "status": "pass",
+    "output": "",
+    "campaignStatusCommand": "git status --short -- assets-source/chapter-scenes-v1/ancient-remedies-wave-06",
+    "campaignStatus": [
+      "?? assets-source/chapter-scenes-v1/ancient-remedies-wave-06/"
+    ],
+    "workScope": "Only this campaign directory was created or modified by this agent; no plan, router or app file was edited."
+  }
+}

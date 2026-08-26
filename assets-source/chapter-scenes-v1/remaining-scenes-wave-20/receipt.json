@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-20",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "37:5",
+    "37:6",
+    "37:7",
+    "37:8",
+    "37:9",
+    "37:10",
+    "37:11",
+    "37:12"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed immutable generation artifact IDs and original PNGs, but no separate provider receipt ID.",
+  "artworkPlan": {
+    "artifact": "assets-source/chapter-artwork-plan.json",
+    "sha256": "145e530b3d63d5d2d9db3801e3afacd2a00a934dac4abdb11c735763698b4942",
+    "statusAtSelection": "planned-full-scene",
+    "modifiedByCampaign": false
+  },
+  "corpusArtifacts": [
+    {
+      "artifact": "public/corpus/book-37.8461573ff117747e.json",
+      "sha256": "8461573ff117747e0dba4c8ec13af80cd599c51c4209edc055cb38f8f4a72053"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for every assigned chapter were read before any prompt was written. Per-language hashes, counts and lengths are recorded per chapter.",
+  "styleContract": "Use the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Each image remains a distinct single continuous scene with complete edge-safe subjects; no text, pseudo-writing, signature, watermark, border, page mockup, panel layout, modern object, photographic look or fantasy magic.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 3,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 11,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 3,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "scanTimePlanEntries": 1065,
+    "scanTimePlannedFullScene": 57,
+    "scanTimeReceiptFiles": 121,
+    "scanTimeReceiptOwnedKeys": 943,
+    "scanTimeNonEvidenceMasterFiles": 947,
+    "scanTimeNonEvidenceMasterKeys": 947,
+    "explicitActiveKeyExclusions": [
+      "35:19",
+      "36:1",
+      "36:2",
+      "36:3",
+      "36:4",
+      "36:5",
+      "36:6",
+      "36:7",
+      "36:8",
+      "36:9",
+      "36:10",
+      "36:11",
+      "36:12",
+      "36:13",
+      "36:14",
+      "36:15",
+      "36:24",
+      "36:25",
+      "36:26",
+      "36:27",
+      "37:1",
+      "37:2",
+      "37:3",
+      "37:4"
+    ],
+    "scanTimeEligibleUnownedKeys": 9,
+    "selectedFirstEightEligibleKeys": [
+      "37:5",
+      "37:6",
+      "37:7",
+      "37:8",
+      "37:9",
+      "37:10",
+      "37:11",
+      "37:12"
+    ],
+    "remainingEligibleAfterClaim": [
+      "37:13"
+    ],
+    "noReceiptOwnerOrNonEvidenceMasterAtSelection": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "37:5",
+      "title": "TWELVE VARIETIES OF THE SMARAGDUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c005.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "34548b27f5185306f8058df45c4f83336713f8755345a94ee73b6e60199de367",
+        "englishSha256": "23671d895feacce1e2810e68d0aead5e2af47beae4fc2a8e49221f66d425427f",
+        "latinWords": 985,
+        "englishWords": 2139,
+        "latinChars": 7095,
+        "englishChars": 12137,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "645acfd45c17e7e3fb39bd96c5232abe37c7bf9b10cefce66b9b28126623e291",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c0e8b7e0-a07d-4c9d-a9d2-27c1342fb589",
+      "generationArtifactId": "exec-c0e8b7e0-a07d-4c9d-a9d2-27c1342fb589",
+      "outputArtifact": "built-in-imagegen://exec-c0e8b7e0-a07d-4c9d-a9d2-27c1342fb589.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 5, on the varieties and optical character of smaragdus (emerald). Scene: a quiet late-Roman lapidary workshop in afternoon light. Exactly one complete seated elderly naturalist is fully visible with generous space around head, hands, feet, chair, and robe; he has paused his engraving work and rests his tired eyes on a magnificent deep-green emerald held safely above a low cedar table. Around it lie a restrained, clearly separated assortment of complete Scythian and Cyprian emerald crystals, one complete six-sided beryl crystal, a small concave polished emerald mirror, a bronze graver, and a folded undyed cloth. Every object is fully inside the frame and nothing touches an edge. The emerald light should feel optically soothing, not supernatural. Historical material culture only; no modern objects, no arena, no violence.\n\nEstablish the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible, materially specific gemstones, sophisticated light, generous negative space, quiet intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage. No words, letters, numerals, captions, labels, symbols, seals, signatures, or watermarks. No pseudo-writing. No cropped subject or object. No blur, no photographic look, no fantasy magic, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c0e8b7e0-a07d-4c9d-a9d2-27c1342fb589",
+          "outputArtifact": "built-in-imagegen://exec-c0e8b7e0-a07d-4c9d-a9d2-27c1342fb589.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 5, on the varieties and optical character of smaragdus (emerald). Scene: a quiet late-Roman lapidary workshop in afternoon light. Exactly one complete seated elderly naturalist is fully visible with generous space around head, hands, feet, chair, and robe; he has paused his engraving work and rests his tired eyes on a magnificent deep-green emerald held safely above a low cedar table. Around it lie a restrained, clearly separated assortment of complete Scythian and Cyprian emerald crystals, one complete six-sided beryl crystal, a small concave polished emerald mirror, a bronze graver, and a folded undyed cloth. Every object is fully inside the frame and nothing touches an edge. The emerald light should feel optically soothing, not supernatural. Historical material culture only; no modern objects, no arena, no violence.\n\nEstablish the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible, materially specific gemstones, sophisticated light, generous negative space, quiet intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage. No words, letters, numerals, captions, labels, symbols, seals, signatures, or watermarks. No pseudo-writing. No cropped subject or object. No blur, no photographic look, no fantasy magic, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "645acfd45c17e7e3fb39bd96c5232abe37c7bf9b10cefce66b9b28126623e291"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete seated naturalist with sound anatomy, the held emerald, emerald assortment, six-sided beryl, concave emerald mirror, graver and folded cloth all internal and legible. No text, pseudo-writing, modern object, violence, magic effect or clipped focal element is present.",
+      "epistemicAndDignityNote": "The eye-resting and optical qualities transmitted by Pliny are framed as historical observation and material optics, not supernatural efficacy.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:6",
+      "title": "OPALS: SEVEN VARIETIES OF THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c006.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "333ec8522b1fd1afb11e7aa052d73fe2b9056f3699540ac0e49903a9b75f2202",
+        "englishSha256": "fc16dc8b7f966a8e12916454e1df01df9be49b7ca49d64e8414cefabf6a78d29",
+        "latinWords": 705,
+        "englishWords": 1533,
+        "latinChars": 5033,
+        "englishChars": 8637,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "bf682571a1577673165119df43b37bf013bfd7dbc4e1601e0213e2d9370717fb",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-33ee8a3b-0402-4def-ba36-52b78d37bb8b",
+      "generationArtifactId": "exec-33ee8a3b-0402-4def-ba36-52b78d37bb8b",
+      "outputArtifact": "built-in-imagegen://exec-33ee8a3b-0402-4def-ba36-52b78d37bb8b.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 6, on opals and the story of Senator Nonius, who accepted exile rather than surrender his celebrated opal ring. Scene: dawn just outside an ancient Roman city gate. Exactly one complete dignified Roman traveler is shown full-length and entirely inside the frame with generous clearance around head, hands, sandals, cloak, and small travel bundle. He pauses once, looking back toward the distant closed gate while holding a single complete gold ring set with a large opal into a shaft of sunrise; the gem shows Pliny’s mingled fire of carbuncle, purple amethyst, green emerald, and golden light within a believable opal, not supernatural radiance. His expression is resolved and sorrowful, not melodramatic. The road, gate, cypresses, and low hills lead the eye inward; no guards, no pursuit, no violence, no other people. Ring, bundle, and all architectural features are complete and safely inside the image; nothing important touches an edge.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible, materially specific gemstone optics, sophisticated dawn light, generous negative space, quiet intellectual gravity. Single continuous scene, not a page, not a border, not a panel, not a collage. No words, letters, numerals, captions, labels, insignia, signatures, or watermarks. No pseudo-writing. No cropped subject or object. No blur, no photographic look, no fantasy magic, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-33ee8a3b-0402-4def-ba36-52b78d37bb8b",
+          "outputArtifact": "built-in-imagegen://exec-33ee8a3b-0402-4def-ba36-52b78d37bb8b.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 6, on opals and the story of Senator Nonius, who accepted exile rather than surrender his celebrated opal ring. Scene: dawn just outside an ancient Roman city gate. Exactly one complete dignified Roman traveler is shown full-length and entirely inside the frame with generous clearance around head, hands, sandals, cloak, and small travel bundle. He pauses once, looking back toward the distant closed gate while holding a single complete gold ring set with a large opal into a shaft of sunrise; the gem shows Pliny’s mingled fire of carbuncle, purple amethyst, green emerald, and golden light within a believable opal, not supernatural radiance. His expression is resolved and sorrowful, not melodramatic. The road, gate, cypresses, and low hills lead the eye inward; no guards, no pursuit, no violence, no other people. Ring, bundle, and all architectural features are complete and safely inside the image; nothing important touches an edge.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible, materially specific gemstone optics, sophisticated dawn light, generous negative space, quiet intellectual gravity. Single continuous scene, not a page, not a border, not a panel, not a collage. No words, letters, numerals, captions, labels, insignia, signatures, or watermarks. No pseudo-writing. No cropped subject or object. No blur, no photographic look, no fantasy magic, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "bf682571a1577673165119df43b37bf013bfd7dbc4e1601e0213e2d9370717fb"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly one complete full-length traveler, complete ring and bundle, a closed city gate and fully internal landscape. Hands, feet and face are coherent; no pursuit, violence, text, pseudo-writing or cropped focal object is present.",
+      "epistemicAndDignityNote": "The Nonius episode is represented as Pliny’s reported historical anecdote about value and exile, without invented violence or triumphal certainty.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:7",
+      "title": "CARBUNCULUS: TWELVE VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c007.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9480b25c5db11cbb2c6a8d143e32640bf3a57ad3c92845200f876619da289096",
+        "englishSha256": "24668e9111bcec8da7728aee2798197bd6fd5cdde2328a50adda2bab5f70e7af",
+        "latinWords": 797,
+        "englishWords": 1873,
+        "latinChars": 5887,
+        "englishChars": 10677,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "05e2600ca5e5b747f552d9ec254ca66edbd1b228040876bc0087095533cdaf81",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8828761d-fbea-44aa-b580-029380a1df9e",
+      "generationArtifactId": "exec-8828761d-fbea-44aa-b580-029380a1df9e",
+      "outputArtifact": "built-in-imagegen://exec-8828761d-fbea-44aa-b580-029380a1df9e.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 7, on carbunculus and its varieties. Scene: an unoccupied late-Roman lapidary chamber at deep twilight, composed as a single dramatic mineral still life with conspicuous empty floor around it. Center a complete small oval basalt table seen in its entirety, including all four short legs and the full outline of the tabletop; keep the whole table at least ten percent of the canvas width away from left, right, and bottom edges. On it arrange five clearly separated, complete red gemstones: a richly transparent Indian carbuncle like banked fire yet giving off no heat; a paler Carthaginian stone; a sandastros crystal with tiny golden star-like specks suspended inside; a lychnis beside one complete small bronze oil lamp; and a dark sarda for contrast. Also include complete bronze tweezers and one small alabaster cup, all fully visible with air between them. The lamp and its entire flame remain safely inside the frame. Mineral optics and reflected lamplight only, not magic. A distant arched window shows a narrow strip of violet sky. No people, no animals, no action.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated low light, generous negative space, austere intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, symbols, seals, signatures, or watermarks. No pseudo-writing. Every discrete object and all furniture fully contained with broad margins; nothing touches a canvas edge. No blur, no photographic look, no fantasy magic, no sparks leaving stones, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ef45f5a1-8ce7-4699-8807-a329458bf286",
+          "outputArtifact": "built-in-imagegen://exec-ef45f5a1-8ce7-4699-8807-a329458bf286.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 7, on carbunculus and its varieties. Scene: an unoccupied late-Roman lapidary chamber at deep twilight, composed as a single dramatic mineral still life. On one complete broad slab of dark basalt, safely inset from every edge, arrange a small, clearly separated family of complete red gemstones described by Pliny: a richly transparent Indian carbuncle like banked fire yet giving off no heat; a paler Carthaginian stone; a complete sandastros crystal with tiny golden star-like specks seemingly suspended inside; a complete lychnis beside a small enclosed bronze oil lamp whose flame is entirely visible and safely away from the image edges; and a dark sarda for contrast. Include complete bronze tweezers and one small alabaster cup, all fully visible. The inner light belongs to mineral optics and reflected lamplight, not magic. A distant arched window shows only a narrow strip of violet sky. No people, no animals, no action.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated low light, generous negative space, austere intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, symbols, seals, signatures, or watermarks. No pseudo-writing. No cropped object; no object touches an edge. No blur, no photographic look, no fantasy magic, no sparks leaving stones, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "478cf4d0fb4392c15257e0e0110d13b235a37a14cb58fce1753ecbf61330030b",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/evidence/history/b37-c007-reject-01-cropped-slab.png",
+          "rejectionReason": "The basalt display slab exited the canvas at the left, right and bottom edges, failing complete-object framing despite otherwise clean stones.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-8828761d-fbea-44aa-b580-029380a1df9e",
+          "outputArtifact": "built-in-imagegen://exec-8828761d-fbea-44aa-b580-029380a1df9e.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 7, on carbunculus and its varieties. Scene: an unoccupied late-Roman lapidary chamber at deep twilight, composed as a single dramatic mineral still life with conspicuous empty floor around it. Center a complete small oval basalt table seen in its entirety, including all four short legs and the full outline of the tabletop; keep the whole table at least ten percent of the canvas width away from left, right, and bottom edges. On it arrange five clearly separated, complete red gemstones: a richly transparent Indian carbuncle like banked fire yet giving off no heat; a paler Carthaginian stone; a sandastros crystal with tiny golden star-like specks suspended inside; a lychnis beside one complete small bronze oil lamp; and a dark sarda for contrast. Also include complete bronze tweezers and one small alabaster cup, all fully visible with air between them. The lamp and its entire flame remain safely inside the frame. Mineral optics and reflected lamplight only, not magic. A distant arched window shows a narrow strip of violet sky. No people, no animals, no action.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated low light, generous negative space, austere intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, symbols, seals, signatures, or watermarks. No pseudo-writing. Every discrete object and all furniture fully contained with broad margins; nothing touches a canvas edge. No blur, no photographic look, no fantasy magic, no sparks leaving stones, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "05e2600ca5e5b747f552d9ec254ca66edbd1b228040876bc0087095533cdaf81"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-ef45f5a1-8ce7-4699-8807-a329458bf286"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete oval table with four visible legs, exactly five separated red stones, complete tweezers, alabaster cup and lamp with fully internal flame. Mineral highlights remain optical; no text, pseudo-writing, magic emission or crop is present.",
+      "epistemicAndDignityNote": "Fire-like language is visualized as reflected light and mineral inclusion only; the stones do not burn, emit sparks or exercise magical power.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-ef45f5a1-8ce7-4699-8807-a329458bf286",
+          "outputArtifact": "built-in-imagegen://exec-ef45f5a1-8ce7-4699-8807-a329458bf286.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 7, on carbunculus and its varieties. Scene: an unoccupied late-Roman lapidary chamber at deep twilight, composed as a single dramatic mineral still life. On one complete broad slab of dark basalt, safely inset from every edge, arrange a small, clearly separated family of complete red gemstones described by Pliny: a richly transparent Indian carbuncle like banked fire yet giving off no heat; a paler Carthaginian stone; a complete sandastros crystal with tiny golden star-like specks seemingly suspended inside; a complete lychnis beside a small enclosed bronze oil lamp whose flame is entirely visible and safely away from the image edges; and a dark sarda for contrast. Include complete bronze tweezers and one small alabaster cup, all fully visible. The inner light belongs to mineral optics and reflected lamplight, not magic. A distant arched window shows only a narrow strip of violet sky. No people, no animals, no action.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated low light, generous negative space, austere intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, symbols, seals, signatures, or watermarks. No pseudo-writing. No cropped object; no object touches an edge. No blur, no photographic look, no fantasy magic, no sparks leaving stones, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "478cf4d0fb4392c15257e0e0110d13b235a37a14cb58fce1753ecbf61330030b",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/evidence/history/b37-c007-reject-01-cropped-slab.png",
+          "rejectionReason": "The basalt display slab exited the canvas at the left, right and bottom edges, failing complete-object framing despite otherwise clean stones.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:8",
+      "title": "TOPAZOS: TWO VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c008.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "17f6328bd5cbfb5e53160e1ba5678689a2c5ad0030b72711e9de36a2a5ba9787",
+        "englishSha256": "34ad7d3210f7f27402e49fdcf16d88cd9e05bddad7c5ea3c6fb76b2f5d9dfc96",
+        "latinWords": 619,
+        "englishWords": 1409,
+        "latinChars": 4370,
+        "englishChars": 7910,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "9597bc15e1b81b7e6bb6f0438b53795998736a1375a0b55127514942350e75d5",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4fbbe74a-2e7c-4cec-8a62-3cc3e923ef94",
+      "generationArtifactId": "exec-4fbbe74a-2e7c-4cec-8a62-3cc3e923ef94",
+      "outputArtifact": "built-in-imagegen://exec-4fbbe74a-2e7c-4cec-8a62-3cc3e923ef94.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 8, on topazos and callaina. Ground the scene in Pliny’s account of pale-green callaina protruding like an eye from frozen, inaccessible rocks and being knocked loose with slings from a distance. Scene: a vast highland gorge in clear winter air. Exactly one complete Saca rider and one complete horse are fully visible in profile on a broad, stable ledge at lower left, both entirely inside the frame with generous clearance around head, sling, hooves, tail, and clothing. The rider wears historically plausible patterned felt coat, trousers, soft cap, and boots, and has just released a complete sling stone toward a distant frost-veined cliff at upper right. In the cliff face, one large eye-shaped seam of pale green callaina with moss is visibly loosening; the projectile, the green stone, and a few small fragments are all suspended well inside the image, never touching an edge. The cliff is imposing but the figure and horse remain safely distant from danger. No other people or animals, no climbing, no water, no violence. Pale green mineral, blue-grey ice, warm horse leather, and restrained gold details create the chapter’s contrast.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded rock passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible horse and rider, materially specific stone and frost, sophisticated winter light, sweeping negative space, quiet documentary wonder. Single continuous scene, not a page, not a border, not a panel, not a collage. No words, letters, numerals, captions, labels, heraldry, signatures, or watermarks. No pseudo-writing. No cropped subject or discrete object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4fbbe74a-2e7c-4cec-8a62-3cc3e923ef94",
+          "outputArtifact": "built-in-imagegen://exec-4fbbe74a-2e7c-4cec-8a62-3cc3e923ef94.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 8, on topazos and callaina. Ground the scene in Pliny’s account of pale-green callaina protruding like an eye from frozen, inaccessible rocks and being knocked loose with slings from a distance. Scene: a vast highland gorge in clear winter air. Exactly one complete Saca rider and one complete horse are fully visible in profile on a broad, stable ledge at lower left, both entirely inside the frame with generous clearance around head, sling, hooves, tail, and clothing. The rider wears historically plausible patterned felt coat, trousers, soft cap, and boots, and has just released a complete sling stone toward a distant frost-veined cliff at upper right. In the cliff face, one large eye-shaped seam of pale green callaina with moss is visibly loosening; the projectile, the green stone, and a few small fragments are all suspended well inside the image, never touching an edge. The cliff is imposing but the figure and horse remain safely distant from danger. No other people or animals, no climbing, no water, no violence. Pale green mineral, blue-grey ice, warm horse leather, and restrained gold details create the chapter’s contrast.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded rock passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible horse and rider, materially specific stone and frost, sophisticated winter light, sweeping negative space, quiet documentary wonder. Single continuous scene, not a page, not a border, not a panel, not a collage. No words, letters, numerals, captions, labels, heraldry, signatures, or watermarks. No pseudo-writing. No cropped subject or discrete object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "9597bc15e1b81b7e6bb6f0438b53795998736a1375a0b55127514942350e75d5"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly one complete Saca rider and one complete horse with coherent anatomy, sling, projectile, eye-shaped callaina seam and falling fragments all fully internal. The mountain setting is a continuous environment; no water, text, pseudo-writing, violence or clipped discrete subject is present.",
+      "epistemicAndDignityNote": "Pliny’s ethnographic mining account is presented as a specific skilled practice without caricature; the rider remains at a safe distance and the scene avoids sensational danger.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:9",
+      "title": "CYANOS; THE SEVERAL VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c009.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ee00303bd0b907117a2982be5deeb353a5fbdd4da675fdb7cb8572bdcaa108cc",
+        "englishSha256": "277c344868b05b1d5bcf4a52dccea343c9245200b11a092d7bf767ef3e235f00",
+        "latinWords": 1112,
+        "englishWords": 2511,
+        "latinChars": 7933,
+        "englishChars": 13928,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "3902c5cea6b1621c474dbf1044b3d8c49e1c3abd433e3860d51fb2ce0c3569aa",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-533f6e76-d003-4400-b19d-ebe9c9c91a98",
+      "generationArtifactId": "exec-533f6e76-d003-4400-b19d-ebe9c9c91a98",
+      "outputArtifact": "built-in-imagegen://exec-533f6e76-d003-4400-b19d-ebe9c9c91a98.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 9, on cyanos, sapphiros, amethyst, hyacinth, and the rainbow-bearing stone iris. Scene: a spare, empty late-Roman optical chamber at midday. A narrow, physically believable sunbeam enters through one high round aperture and strikes one complete six-sided transparent iris crystal mounted on a small bronze stand at the center of a complete low circular stone plinth. Show the plinth’s entire top, sides, base, and its unbroken oval silhouette, surrounded by visible floor on every side; keep it at least twelve percent of canvas width away from left, right, and bottom edges. The refracted light forms one delicate continuous rainbow arc entirely contained on the plain plaster wall behind it, with all colors ending well before any image edge. On the plinth, generously separated and fully visible, rest one complete deep-blue cyanos stone, one blue sapphiros with tiny gold-like points, one purple amethyst, one red-violet hyacinth, and one white star-stone catching a six-rayed reflection. Everything reads as observed optics, refraction, and mineral inclusions—not supernatural power. No other furniture or wall pictures. No people, animals, liquid, smoke, or fire.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated chiaroscuro, resonant negative space, lucid intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, zodiac signs, signatures, or watermarks. No pseudo-writing. Every discrete object and the entire plinth fully contained with broad margins; nothing touches a canvas edge. No blur, no photographic look, no fantasy magic, no glowing runes, no impossible light beams. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b7045a52-f8f0-4998-9468-0880893f6aa3",
+          "outputArtifact": "built-in-imagegen://exec-b7045a52-f8f0-4998-9468-0880893f6aa3.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 9, on cyanos, sapphiros, amethyst, hyacinth, and the rainbow-bearing stone iris. Scene: a late-Roman optical chamber at midday, empty of people. A narrow, physically believable sunbeam enters through one high round aperture and strikes one complete six-sided transparent iris crystal mounted on a small bronze stand at the center of a complete low stone table. The refracted light forms a delicate, continuous rainbow arc entirely contained on the plaster wall behind it, with no beam or color touching a canvas edge. On the same table, with generous separation and all fully inside the frame, rest one complete deep-blue cyanos stone, one blue sapphiros with tiny gold-like points, one purple amethyst, one red-violet hyacinth, and one white star-stone catching a small six-rayed reflection. Everything reads as observed optics, refraction, and mineral inclusions—not supernatural power. The whole table, its legs, each gem, bronze stand, aperture, sunbeam, and rainbow are clearly visible and safely inset from the frame. No people, animals, liquid, smoke, or fire.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated chiaroscuro, resonant negative space, lucid intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, zodiac signs, signatures, or watermarks. No pseudo-writing. No cropped object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes, no impossible light beams. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "2c14809d83a355928981741c1c1c04931dc3fca56166f789763a38a035e61da9",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/evidence/history/b37-c009-reject-01-cropped-table-legs.png",
+          "rejectionReason": "The otherwise strong optical scene clipped the table legs and lower furniture structure against the bottom canvas edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-533f6e76-d003-4400-b19d-ebe9c9c91a98",
+          "outputArtifact": "built-in-imagegen://exec-533f6e76-d003-4400-b19d-ebe9c9c91a98.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 9, on cyanos, sapphiros, amethyst, hyacinth, and the rainbow-bearing stone iris. Scene: a spare, empty late-Roman optical chamber at midday. A narrow, physically believable sunbeam enters through one high round aperture and strikes one complete six-sided transparent iris crystal mounted on a small bronze stand at the center of a complete low circular stone plinth. Show the plinth’s entire top, sides, base, and its unbroken oval silhouette, surrounded by visible floor on every side; keep it at least twelve percent of canvas width away from left, right, and bottom edges. The refracted light forms one delicate continuous rainbow arc entirely contained on the plain plaster wall behind it, with all colors ending well before any image edge. On the plinth, generously separated and fully visible, rest one complete deep-blue cyanos stone, one blue sapphiros with tiny gold-like points, one purple amethyst, one red-violet hyacinth, and one white star-stone catching a six-rayed reflection. Everything reads as observed optics, refraction, and mineral inclusions—not supernatural power. No other furniture or wall pictures. No people, animals, liquid, smoke, or fire.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated chiaroscuro, resonant negative space, lucid intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, zodiac signs, signatures, or watermarks. No pseudo-writing. Every discrete object and the entire plinth fully contained with broad margins; nothing touches a canvas edge. No blur, no photographic look, no fantasy magic, no glowing runes, no impossible light beams. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "3902c5cea6b1621c474dbf1044b3d8c49e1c3abd433e3860d51fb2ce0c3569aa"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-b7045a52-f8f0-4998-9468-0880893f6aa3"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found a complete circular plinth, iris crystal and bronze stand, two blue stones, amethyst, hyacinth and white star-stone, with the aperture, beam and rainbow wholly internal. No text, pseudo-writing, impossible emission or clipped furniture is present.",
+      "epistemicAndDignityNote": "The rainbow and star effects are framed as refraction and reflection rather than magical emanation, preserving Pliny’s optical curiosity without asserting supernatural action.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-b7045a52-f8f0-4998-9468-0880893f6aa3",
+          "outputArtifact": "built-in-imagegen://exec-b7045a52-f8f0-4998-9468-0880893f6aa3.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 9, on cyanos, sapphiros, amethyst, hyacinth, and the rainbow-bearing stone iris. Scene: a late-Roman optical chamber at midday, empty of people. A narrow, physically believable sunbeam enters through one high round aperture and strikes one complete six-sided transparent iris crystal mounted on a small bronze stand at the center of a complete low stone table. The refracted light forms a delicate, continuous rainbow arc entirely contained on the plaster wall behind it, with no beam or color touching a canvas edge. On the same table, with generous separation and all fully inside the frame, rest one complete deep-blue cyanos stone, one blue sapphiros with tiny gold-like points, one purple amethyst, one red-violet hyacinth, and one white star-stone catching a small six-rayed reflection. Everything reads as observed optics, refraction, and mineral inclusions—not supernatural power. The whole table, its legs, each gem, bronze stand, aperture, sunbeam, and rainbow are clearly visible and safely inset from the frame. No people, animals, liquid, smoke, or fire.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Materially specific gemstone inclusions and refraction, sophisticated chiaroscuro, resonant negative space, lucid intellectual wonder. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, zodiac signs, signatures, or watermarks. No pseudo-writing. No cropped object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes, no impossible light beams. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "2c14809d83a355928981741c1c1c04931dc3fca56166f789763a38a035e61da9",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/evidence/history/b37-c009-reject-01-cropped-table-legs.png",
+          "rejectionReason": "The otherwise strong optical scene clipped the table legs and lower furniture structure against the bottom canvas edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:10",
+      "title": "BALANITES. BATRACHITIS. BAPTES. BELI OCULUS. BELUS. BAROPTENUS OR BARIPPE. BOTRYITIS. BOSTRYCHITIS. BUCARDIA. BRONTEA. BOLOS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c010.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "8f21ae13cf97430f60ae30cb445bb6dc274ca32143080580436e09122730a947",
+        "englishSha256": "da5c403e9dd161bbe47dc900ef92a08e7705065903005079e1a194010f5658be",
+        "latinWords": 2498,
+        "englishWords": 5142,
+        "latinChars": 18672,
+        "englishChars": 28744,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "df480f84aa29e50b9af2c7bbbe5069e7f02a110831aafb6889adb581b57be2bf",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7a974f3f-1417-4af1-a71e-764439f07a0d",
+      "generationArtifactId": "exec-7a974f3f-1417-4af1-a71e-764439f07a0d",
+      "outputArtifact": "built-in-imagegen://exec-7a974f3f-1417-4af1-a71e-764439f07a0d.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 10, Pliny’s immense alphabetic catalogue of named stones and the strange properties claimed for them. Scene: a broad sunlit Roman museum portico used for empirical sorting, viewed from a respectful distance. Exactly two complete people are fully visible with ample space around every head, hand, foot, robe, and sandal: one elderly naturalist standing thoughtfully with a dark stone in his open palm, and one younger lapidary kneeling beside a complete shallow wooden tray. Between them on the floor, arrange a loose spiral procession of many clearly separated complete uncut and polished stones—not a grid—showing Pliny’s visual range: honey, leaf-green, violet, sea-green, black crossed by white, gold-veined red, fish-scale mottling, eye-like concentric pattern, moon-crescent shape, branching dendritic inclusions, and a transparent stone with a moving-looking droplet sealed inside. The naturalist’s skeptical, measured expression rejects superstition; none of the stones emits magic or affects a person. Include only complete low trays and complete small tools, all safely inside the frame. The portico opens to a quiet garden in the middle distance. Generous negative space prevents clutter despite the breadth of specimens.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible people, materially specific stones, sophisticated Mediterranean light, spacious intellectual abundance. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, alphabet characters, numerals, captions, labels, scrolls, tablets, signatures, or watermarks. No pseudo-writing. No cropped person or discrete object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes, no medical treatment, no animal harm. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7a974f3f-1417-4af1-a71e-764439f07a0d",
+          "outputArtifact": "built-in-imagegen://exec-7a974f3f-1417-4af1-a71e-764439f07a0d.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 10, Pliny’s immense alphabetic catalogue of named stones and the strange properties claimed for them. Scene: a broad sunlit Roman museum portico used for empirical sorting, viewed from a respectful distance. Exactly two complete people are fully visible with ample space around every head, hand, foot, robe, and sandal: one elderly naturalist standing thoughtfully with a dark stone in his open palm, and one younger lapidary kneeling beside a complete shallow wooden tray. Between them on the floor, arrange a loose spiral procession of many clearly separated complete uncut and polished stones—not a grid—showing Pliny’s visual range: honey, leaf-green, violet, sea-green, black crossed by white, gold-veined red, fish-scale mottling, eye-like concentric pattern, moon-crescent shape, branching dendritic inclusions, and a transparent stone with a moving-looking droplet sealed inside. The naturalist’s skeptical, measured expression rejects superstition; none of the stones emits magic or affects a person. Include only complete low trays and complete small tools, all safely inside the frame. The portico opens to a quiet garden in the middle distance. Generous negative space prevents clutter despite the breadth of specimens.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible people, materially specific stones, sophisticated Mediterranean light, spacious intellectual abundance. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, alphabet characters, numerals, captions, labels, scrolls, tablets, signatures, or watermarks. No pseudo-writing. No cropped person or discrete object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes, no medical treatment, no animal harm. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "df480f84aa29e50b9af2c7bbbe5069e7f02a110831aafb6889adb581b57be2bf"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly two complete people, complete sorting trays and tools, and a loose non-grid spiral of varied stones with eye, crescent, dendritic, veined and liquid-inclusion motifs. Anatomy, edge safety, text, pseudo-writing and single-scene checks pass.",
+      "epistemicAndDignityNote": "The immense catalogue is shown as empirical comparison. Pliny’s magical and medical claims are neither enacted nor presented as effective; the naturalist’s stance is visibly skeptical.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:11",
+      "title": "PRECIOUS STONES WHICH DERIVE THEIR NAMES FROM VARIOUS PARTS OF THE HUMAN BODY. HEPATITIS. STEATITIS. ADADUNEPHROS. ADADUOPHTHALMOS. ADADUDACTYLOS. TRIOPHTHALMOS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c011.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "0638c5a5b1118373b155b7b4157570bcaeafae685354e93a94f87879ecd7ae36",
+        "englishSha256": "f983586cbd7fa39e569316a8c7dc104ba933b8fca40848bd66007219ebd185b0",
+        "latinWords": 367,
+        "englishWords": 747,
+        "latinChars": 2739,
+        "englishChars": 4321,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "fa9e43fe044d6373d24abe730d07224fae2b8046982145d21e9918e1bb848392",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5cdbfe21-10c4-4ae1-988d-0693fb2a221f",
+      "generationArtifactId": "exec-5cdbfe21-10c4-4ae1-988d-0693fb2a221f",
+      "outputArtifact": "built-in-imagegen://exec-5cdbfe21-10c4-4ae1-988d-0693fb2a221f.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 11, on stones named for their resemblance to parts of the body, animals, plants, and familiar things—and Pliny’s explicit rejection of the magicians’ “portentous lies.” Use a deliberately pulled-back wide view of a shaded Roman garden court. Exactly one complete seated naturalist occupies the left third and exactly one complete living peacock occupies the right third; both are modest in scale and remain at least ten percent of the canvas width away from every edge. Show the peacock in calm profile with its long tail completely folded, fully visible from crest to the final feather tip, with clear ground beyond the tail. Show the naturalist’s entire chair, head, hands, robe, sandals, and feet. He studies one triophthalmos-on-onyx stone whose natural banding merely resembles three eyes, with a curious but skeptical expression.\n\nCentered between them on the ground is one complete small undyed circular cloth, its entire circumference visible with a broad ring of bare paving around it and well above the bottom edge. On the cloth, arrange a small separated set of complete patterned stones: one with tree-like dendritic inclusions, one with an ivy-leaf pattern, one black-and-white concentric “wolf-eye” pattern, one honey-coloured pebble, one crescent-shaped tephritis, one branching red-on-black bostrychitis, and one whose pale marking resembles two hands clasped. A complete ivy sprig and one complete olive pit provide modest comparisons. None of the resemblances becomes literal anatomy, no stone acts magically, and no ritual is shown. No other people or animals.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible person and peacock, materially specific stones, soft leaf-filtered light, generous negative space, lucid comparative observation. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, tablets, signatures, or watermarks. No pseudo-writing. Every person, animal, feather, cloth, stone, and object fully contained with broad margin; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no spirits, no glowing runes, no body horror, no animal harm. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-086a5dcf-b19a-4362-96f5-850645010273",
+          "outputArtifact": "built-in-imagegen://exec-086a5dcf-b19a-4362-96f5-850645010273.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 11, on stones named for their resemblance to parts of the body, animals, plants, and familiar things—and Pliny’s explicit rejection of the magicians’ “portentous lies.” Scene: a shaded Roman garden court. Exactly one complete seated naturalist and exactly one complete living peacock are fully visible, both comfortably inside the frame with clear air around head, hands, feet, tail, and feathers. The naturalist calmly studies one complete triophthalmos-on-onyx stone whose natural banding merely resembles three eyes; his expression is curious but skeptical. At his feet, on one complete undyed circular cloth wholly inside the frame, arrange a small, separated set of complete patterned stones: one with tree-like dendritic inclusions, one with an ivy-leaf pattern, one black-and-white concentric “wolf-eye” pattern, one honey-coloured pebble, one crescent-shaped tephritis, one branching red-on-black bostrychitis, and one stone whose pale marking resembles two hands clasped. Place a real complete ivy sprig and one complete olive pit beside them as modest visual comparisons. The peacock stands peacefully in profile, providing natural colour reference; no other animals. None of the resemblances becomes literal anatomy, no stone acts magically, and no ritual is shown.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible person and peacock, materially specific stones, soft leaf-filtered light, generous negative space, lucid comparative observation. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, tablets, signatures, or watermarks. No pseudo-writing. No cropped person, animal, cloth, stone, or object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no spirits, no glowing runes, no body horror, no animal harm. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "e3cac68b99d5ee892fca83371bddb4fe6744e7d99fdda7d067387a6b59fda27a",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/evidence/history/b37-c011-reject-01-cropped-peacock-cloth.png",
+          "rejectionReason": "The peacock tail exited the right edge and the comparison cloth exited the bottom edge, failing complete-subject framing.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-5cdbfe21-10c4-4ae1-988d-0693fb2a221f",
+          "outputArtifact": "built-in-imagegen://exec-5cdbfe21-10c4-4ae1-988d-0693fb2a221f.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 11, on stones named for their resemblance to parts of the body, animals, plants, and familiar things—and Pliny’s explicit rejection of the magicians’ “portentous lies.” Use a deliberately pulled-back wide view of a shaded Roman garden court. Exactly one complete seated naturalist occupies the left third and exactly one complete living peacock occupies the right third; both are modest in scale and remain at least ten percent of the canvas width away from every edge. Show the peacock in calm profile with its long tail completely folded, fully visible from crest to the final feather tip, with clear ground beyond the tail. Show the naturalist’s entire chair, head, hands, robe, sandals, and feet. He studies one triophthalmos-on-onyx stone whose natural banding merely resembles three eyes, with a curious but skeptical expression.\n\nCentered between them on the ground is one complete small undyed circular cloth, its entire circumference visible with a broad ring of bare paving around it and well above the bottom edge. On the cloth, arrange a small separated set of complete patterned stones: one with tree-like dendritic inclusions, one with an ivy-leaf pattern, one black-and-white concentric “wolf-eye” pattern, one honey-coloured pebble, one crescent-shaped tephritis, one branching red-on-black bostrychitis, and one whose pale marking resembles two hands clasped. A complete ivy sprig and one complete olive pit provide modest comparisons. None of the resemblances becomes literal anatomy, no stone acts magically, and no ritual is shown. No other people or animals.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible person and peacock, materially specific stones, soft leaf-filtered light, generous negative space, lucid comparative observation. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, tablets, signatures, or watermarks. No pseudo-writing. Every person, animal, feather, cloth, stone, and object fully contained with broad margin; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no spirits, no glowing runes, no body horror, no animal harm. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "fa9e43fe044d6373d24abe730d07224fae2b8046982145d21e9918e1bb848392"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-086a5dcf-b19a-4362-96f5-850645010273"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly one complete seated naturalist, one complete peaceful peacock with intact tail, a complete circular cloth, seven separated patterned stones, ivy and olive pit all inside the canvas. No literal anatomy, ritual, text, pseudo-writing, animal harm or crop is present.",
+      "epistemicAndDignityNote": "Body, animal and plant names are treated as visual analogies in stone patterning, never literal transformations; the scene aligns with Pliny’s closing rejection of the magicians’ lies.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-086a5dcf-b19a-4362-96f5-850645010273",
+          "outputArtifact": "built-in-imagegen://exec-086a5dcf-b19a-4362-96f5-850645010273.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 11, on stones named for their resemblance to parts of the body, animals, plants, and familiar things—and Pliny’s explicit rejection of the magicians’ “portentous lies.” Scene: a shaded Roman garden court. Exactly one complete seated naturalist and exactly one complete living peacock are fully visible, both comfortably inside the frame with clear air around head, hands, feet, tail, and feathers. The naturalist calmly studies one complete triophthalmos-on-onyx stone whose natural banding merely resembles three eyes; his expression is curious but skeptical. At his feet, on one complete undyed circular cloth wholly inside the frame, arrange a small, separated set of complete patterned stones: one with tree-like dendritic inclusions, one with an ivy-leaf pattern, one black-and-white concentric “wolf-eye” pattern, one honey-coloured pebble, one crescent-shaped tephritis, one branching red-on-black bostrychitis, and one stone whose pale marking resembles two hands clasped. Place a real complete ivy sprig and one complete olive pit beside them as modest visual comparisons. The peacock stands peacefully in profile, providing natural colour reference; no other animals. None of the resemblances becomes literal anatomy, no stone acts magically, and no ritual is shown.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible person and peacock, materially specific stones, soft leaf-filtered light, generous negative space, lucid comparative observation. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, tablets, signatures, or watermarks. No pseudo-writing. No cropped person, animal, cloth, stone, or object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no spirits, no glowing runes, no body horror, no animal harm. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "e3cac68b99d5ee892fca83371bddb4fe6744e7d99fdda7d067387a6b59fda27a",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/evidence/history/b37-c011-reject-01-cropped-peacock-cloth.png",
+          "rejectionReason": "The peacock tail exited the right edge and the comparison cloth exited the bottom edge, failing complete-subject framing.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "37:12",
+      "title": "PRECIOUS STONES THAT SUDDENLY MAKE THEIR APPEARANCE. COCHLIDES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20/b37-c012.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "16c908eec0f8f5716acd2ed39055b83e1aab9870d7d936be5126bd4d89ebb0b6",
+        "englishSha256": "49bb307f4ef5a7b76d75b930eef1ba52a57b30244ccba63a939ba5de3ae2741e",
+        "latinWords": 280,
+        "englishWords": 628,
+        "latinChars": 2106,
+        "englishChars": 3616,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "83b35e7f5e866b56b587d4776669ed300d1494a049692428b0e45b2db7a4423d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-62071264-8855-422b-b615-915c40e05e56",
+      "generationArtifactId": "exec-62071264-8855-422b-b615-915c40e05e56",
+      "outputArtifact": "built-in-imagegen://exec-62071264-8855-422b-b615-915c40e05e56.png",
+      "exactFinalPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 12, on newly appearing stones, artist-worked cochlides, preferred gem shapes, and the difficulty of detecting counterfeit stones. Scene: a quiet daylight authenticity examination in a spacious Roman basilica side court. Exactly two complete people stand facing one another with calm professional attention, both shown head-to-sandal and entirely inside the frame with generous clearance: an elderly naturalist on the left raises one small, complete three-layer sardonyx imitation toward a shaft of sunlight, visibly composed of black, white, and vermilion bands; a younger lapidary on the right waits beside one complete waist-high round stone plinth. The naturalist is inspecting, not teaching fraud; the mood is skeptical and accountable, not accusatory.\n\nOn the fully visible plinth, safely separated, place one large complete mottled cochlides mass with ingenious natural-looking veins, plus five complete sample stones showing Pliny’s ranked shapes: oblong, lenticular, flat-faced, round, and angular. Also include one complete ornate horse-frontlet made from a large polished cochlides plaque, resting on folded cloth as a historical example of its former Eastern use. At the plinth’s base, well away from all edges, place one complete cooled bronze vessel with a trace of honey and no fire, alluding to the reported purification process without spectacle. Every person, plinth, vessel, cloth, ornament, and gemstone is fully contained and visibly complete. No other people or animals.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible people, materially specific stones, lucid sunlight, large calm negative space, sober intellectual scrutiny. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, legal tablets, signatures, or watermarks. No pseudo-writing. No cropped person or discrete object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes, no trade manual diagrams. Output a 3:2 landscape raster master at 1536x1024.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-62071264-8855-422b-b615-915c40e05e56",
+          "outputArtifact": "built-in-imagegen://exec-62071264-8855-422b-b615-915c40e05e56.png",
+          "status": "accepted",
+          "exactPrompt": "Create a museum-quality full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXXVII, chapter 12, on newly appearing stones, artist-worked cochlides, preferred gem shapes, and the difficulty of detecting counterfeit stones. Scene: a quiet daylight authenticity examination in a spacious Roman basilica side court. Exactly two complete people stand facing one another with calm professional attention, both shown head-to-sandal and entirely inside the frame with generous clearance: an elderly naturalist on the left raises one small, complete three-layer sardonyx imitation toward a shaft of sunlight, visibly composed of black, white, and vermilion bands; a younger lapidary on the right waits beside one complete waist-high round stone plinth. The naturalist is inspecting, not teaching fraud; the mood is skeptical and accountable, not accusatory.\n\nOn the fully visible plinth, safely separated, place one large complete mottled cochlides mass with ingenious natural-looking veins, plus five complete sample stones showing Pliny’s ranked shapes: oblong, lenticular, flat-faced, round, and angular. Also include one complete ornate horse-frontlet made from a large polished cochlides plaque, resting on folded cloth as a historical example of its former Eastern use. At the plinth’s base, well away from all edges, place one complete cooled bronze vessel with a trace of honey and no fire, alluding to the reported purification process without spectacle. Every person, plinth, vessel, cloth, ornament, and gemstone is fully contained and visibly complete. No other people or animals.\n\nUse the coherent Book XXXVII \"Plinian lapidary\" style: ancient Mediterranean natural-history illustration elevated to museum art, mineral-pigment egg tempera and translucent watercolor over warm pumice-toned ground, disciplined Roman fresco spatial clarity, extremely fine copperplate-like ink hatching, scraped and abraded passages beside selectively burnished polished surfaces, tiny restrained accents of aged gold leaf, lapis, verdigris, madder, smoke-black, and chalk. Ancient, timeless, beautiful, rough and polished at once. Anatomically credible people, materially specific stones, lucid sunlight, large calm negative space, sober intellectual scrutiny. Single continuous scene, not a page, not a border, not a panel, not a collage, not a specimen grid. No words, letters, numerals, captions, labels, legal tablets, signatures, or watermarks. No pseudo-writing. No cropped person or discrete object; nothing important touches an edge. No blur, no photographic look, no fantasy magic, no glowing runes, no trade manual diagrams. Output a 3:2 landscape raster master at 1536x1024.",
+          "sha256": "83b35e7f5e866b56b587d4776669ed300d1494a049692428b0e45b2db7a4423d"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly two complete people, one complete round plinth, five ranked sample shapes, cochlides mass, complete horse-frontlet and cooled honey vessel all internal. The laminated sardonyx is inspected rather than fabricated; anatomy, text, pseudo-writing and edge-safety checks pass.",
+      "epistemicAndDignityNote": "The scene foregrounds detection and accountability. It does not provide an actionable counterfeiting diagram; the reported honey process appears only as a cooled historical allusion.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 969,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "37:5": {
+        "nearestMAD": 30.75,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c007.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-03/b20-c012.png",
+        "madAtDHashPeer": 64.04
+      },
+      "37:6": {
+        "nearestMAD": 32.42,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c024.png",
+        "madAtDHashPeer": 64.83
+      },
+      "37:7": {
+        "nearestMAD": 22.77,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c015.png",
+        "madAtDHashPeer": 32.84
+      },
+      "37:8": {
+        "nearestMAD": 28.24,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c044.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c024.png",
+        "madAtDHashPeer": 37.66
+      },
+      "37:9": {
+        "nearestMAD": 25.09,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c022.png",
+        "madAtDHashPeer": 44.58
+      },
+      "37:10": {
+        "nearestMAD": 33.67,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c002.png",
+        "madAtDHashPeer": 48.89
+      },
+      "37:11": {
+        "nearestMAD": 26.78,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c100.png",
+        "madAtDHashPeer": 53.74
+      },
+      "37:12": {
+        "nearestMAD": 35.44,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c043.png",
+        "madAtDHashPeer": 50.81
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPromptsRecordedForAllBuiltInCalls": true,
+    "artifactIdsRecordedForAllBuiltInCalls": true,
+    "acceptedAndRejectedSha256Recorded": true,
+    "acceptedAndRejectedBytesReconciledToBuiltInOriginals": true,
+    "completeBilingualSourceHashesRecorded": true,
+    "portableRelativePathsOnly": true,
+    "noPlanRouterOrAppEdits": true
+  },
+  "scopedDiffValidation": {
+    "allowedCampaignDirectory": "assets-source/chapter-scenes-v1/remaining-scenes-wave-20",
+    "planRouterAppFilesModified": [],
+    "gitDiffCheckToBeRunAfterReceiptWrite": true
+  }
+}

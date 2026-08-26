@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-09",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "14:20",
+      "title": "PITCH AND RESIN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c020.png",
+      "sha256": "ee33035e85571aaa47e25a85f8d6a93d432b9148bf69464b6a52f136170fc00d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-06953fbf-5b3e-4179-9108-7113afefe2f0",
+      "outputArtifact": "built-in-imagegen://exec-06953fbf-5b3e-4179-9108-7113afefe2f0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIV chapter 20\nPrimary request: Illustrate Pliny's comparison of pitch and resin through one ancient resin-gathering and boiling scene, with distinct eastern tree sources and material qualities.\nScene/backdrop: A very wide dry eastern Mediterranean hillside at amber dusk on warm aged vellum. Across the middle distance stand four separate, modest, fully visible trees: one terebinth, one lentisk, one dark cedar, and one slender cypress. Every crown, outer branch, trunk base, and root flare must be surrounded by visible sky or ground.\nSubject: Exactly two relatively small ancient resin workers tend the process below the trees. One gathers a few translucent tears from a shallow natural bark fissure on the terebinth into a clay cup. The other watches a modest earthen cauldron where thicker cedar resin reduces toward pitch over a small controlled charcoal fire. On one plain stone ledge lie three tiny separate materials without labels: fine pale terebinth resin, darker mastich tears, and one dense black pitch cake.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from a distinctly pulled-back elevated viewpoint. Confine the entire working scene to the central seventy percent of the canvas. Preserve an uninterrupted broad vellum border around all four trees, people, smoke, cauldron, ledge and materials. One continuous landscape, never a catalogue panel.\nLighting/mood: Resinous dusk, quiet empirical industry, aromatic but slightly acrid.\nConstraints: Exactly two people; exactly four complete separate trees; period-appropriate plain clothing, clay and bronze tools; shallow plausible bark fissures; controlled low fire; smoke thin.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, modern tapping equipment, metal drums, plastic, photography, glossy digital rendering, split panels, collage, cropped or clipped trees, edge-touching foliage, giant resin crystals, gemstone resin, large flames, industrial smoke, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Four complete and distinct resin-source trees, exactly two workers, a controlled cauldron, three small materials and thin smoke are fully framed in one continuous hillside. No text, panel, modern object, gemstone resin, clipping or watermark was found. Accepted after one rejected clipped-tree attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-d1650f01-f5bb-41f5-a6bc-fda8e90b3e7e.png",
+          "sha256": "5e4dc9ea586e76177e84a3bbcc4bca957e373f4434dcc28802b5d8702d6c5fdf",
+          "reason": "Rejected at original-resolution QA because the primary terebinth crown was cut by the top and left canvas edges. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "14:21",
+      "title": "WINE-VESSELS—WINE-CELLARS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c021.png",
+      "sha256": "86374c4488fa98406dc416734c72cdb43b575ff97d4e5d3a9ffd0e8bf506ab50",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e868667d-44a2-4b00-a8a0-126bd372cea3",
+      "outputArtifact": "built-in-imagegen://exec-e868667d-44a2-4b00-a8a0-126bd372cea3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIV chapter 21\nPrimary request: Illustrate Pliny's practical rules for wine vessels and cellars through one coherent Roman storage chamber built into temperate earth.\nScene/backdrop: A cool masonry wine cellar beneath an ancient Italian hillside, opened toward a small shaded courtyard, rendered on warm aged vellum. The floor holds several immense earthen dolia buried halfway into dry soil; a single wooden vessel with plain hoops rests farther back as a regional comparison, not a duplicate centerpiece.\nSubject: Exactly one elderly cellar keeper inspects a large dolium whose clean pitched rim is covered by a fitted terracotta lid. He holds a small unmarked clay lamp near the seal while keeping it safely distant from the wine. Another dolium is fully buried with only its circular lid visible; a third stands partly exposed to show the adaptation to temperature. A narrow high vent and the shaded construction communicate cool, odor-free storage.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, wide architectural interior seen obliquely from the courtyard threshold. One continuous space, never a cutaway diagram or panel. Keep the complete keeper, every dolium and lid, barrel, walls, stair, vent and courtyard opening fully inset within broad vellum breathing room. Let the cool empty upper wall serve as negative space.\nLighting/mood: Quiet cellar twilight, clean earth and fired clay, disciplined stewardship.\nConstraints: Exactly one person; period-appropriate plain clothing, masonry, terracotta, pitch, wood and small clay lamp; all vessels stable and physically plausible; no spilled wine.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, modern bottles, glassware, steel hoops, electric light, refrigeration, taps, crates, photography, glossy digital rendering, split panels, infographic cutaway, clipped vessels, cropped architecture, edge-touching objects, drunkenness, banquet, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete cellar, one keeper, partly and fully buried dolia, fitted lids, wooden vessel, vent, stair and courtyard opening are coherent and fully inset. No text, modern bottle, panel, spill, clipping or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "14:22",
+      "title": "DRUNKENNESS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c022.png",
+      "sha256": "0d6ac15376afa26438470caca8b1028c6d3e589ed3fd8e7cb9d853d22c4fb69d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-cb31ed8b-5179-4165-8d11-f76554fb0f88",
+      "outputArtifact": "built-in-imagegen://exec-cb31ed8b-5179-4165-8d11-f76554fb0f88.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIV chapter 22\nPrimary request: Preserve the entire existing scene, exactly two people, faces, anatomy, gestures, fountain, water, olive branch, portico, landscape, vessels, fallen wreath, linework, mineral palette, vellum texture, lighting, framing and all spatial relationships.\nRequired edit: Change only the large overturned wine krater at lower right. Remove every gold mark, ornamental figure, band, symbol, pseudo-letter and decorative motif from its surface. Make it a completely plain, unmarked dark earthenware krater with subtle natural wear and restrained highlights. Its silhouette, position, scale and overturned orientation must remain unchanged.\nConstraints: Change only the krater surface decoration. Keep exactly two adults and all other objects unchanged. No text, letters, numerals, pseudo-writing, labels, inscription, signature, logo, watermark, new object, crop, or panel. Preserve the complete vellum margin and every subject's existing position.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two adults, the offered cup of clear water, complete fountain, dawn portico, plain overturned krater, scattered cups and fallen wreath form a restrained moral aftermath. No text, pseudo-writing, revelry, violence, clipping or watermark was found. Accepted after one rejected decorated-vessel attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-a16302ef-3157-406d-aa09-97d2e06d70c1.png",
+          "sha256": "c07a31bb66fa93b7ef7f76ff7b1091d1fb012e3b39335732f54b7f14d787ccf5",
+          "reason": "Rejected at original-resolution QA because the overturned krater carried gold pseudo-inscription-like ornament that conflicted with the no-writing contract. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "15:1",
+      "title": "THE OLIVE.—HOW LONG IT EXISTED ONLY IN GREECE. AT WHAT PERIOD IT WAS FIRST INTRODUCED INTO ITALY, SPAIN, AND AFRICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c001.png",
+      "sha256": "c71c3b399119fb98b2ef2bf0d2c0e249a33ad43108340b4a7b11986b83e63e34",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-d2ec87c8-fbb3-4700-8f0e-d5cacf4b79a4",
+      "outputArtifact": "built-in-imagegen://exec-d2ec87c8-fbb3-4700-8f0e-d5cacf4b79a4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XV chapter 1\nPrimary request: Illustrate the olive's ancient passage from the Greek seacoast into Italy and onward around the western Mediterranean, without turning the scene into a map.\nScene/backdrop: A very wide Greek coastal nursery above a calm ancient harbor at first light, rendered on warm aged vellum. A venerable but modest complete olive tree twists on the left terrace within sight of the sea, expressing Theophrastus's association of the olive with the coast.\nSubject: Exactly two relatively small people transfer living olive saplings. An elderly Greek grower offers one carefully rooted young olive in a woven earth basket; an Italian sailor receives it beside a small complete merchant boat close to shore. Several saplings stand upright in perforated clay transport jars aboard the vessel. Across the pale water, a distant Italian headland with newly planted rows suggests the tree's expanding range.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from a distinctly pulled-back elevated viewpoint. Confine the complete mature olive, exactly two people, saplings, and entire boat including keel, bow, stern, mast tip and every rigging line to the central seventy-five percent of the image. Preserve a broad uninterrupted vellum border around every outer olive leaf, root, figure and vessel. One continuous geographic moment, never a map or panels. Open sea and dawn sky provide negative space.\nLighting/mood: Briny dawn, patience across generations, a cultivated tree beginning its long westward history.\nConstraints: Exactly two people; period-appropriate plain Greek and Italic clothing, woven root basket, clay vessels and small sailboat; plausible olive foliage, trunk and rooted saplings; no flags.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, map lines, arrows, modern nursery pots, engine, modern rigging, photography, glossy digital rendering, split panels, collage, cropped tree, clipped branches, edge-touching foliage, cropped mast or hull, giant olives, fruit market, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete coastal olive, exactly two people, rooted sapling transfer, perforated jars, full boat and planted distant headland are fully visible within an outer vellum field. No map marks, text, modern object, panel, clipping or watermark was found. Accepted after one rejected close-cropped attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8c0a49f5-eb47-4a33-a90f-f529cd98ae61.png",
+          "sha256": "ccedace1d0b7188632f19ef5b4cc68591b84efb760384bec9b505d42b6854966",
+          "reason": "Rejected at original-resolution QA because the mature olive's outer crown was clipped along the upper-left canvas edge. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "15:2",
+      "title": "OLIVE OIL: THE COUNTRIES IN WHICH IT IS PRODUCED, AND ITS VARIOUS QUALITIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c002.png",
+      "sha256": "48932d16b1429a549d966758ee26ebe10e5575fa7b7f54d8afb064b0393edc3d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ee90e06d-e76e-4aeb-875a-3f58cf161675",
+      "outputArtifact": "built-in-imagegen://exec-ee90e06d-e76e-4aeb-875a-3f58cf161675.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XV chapter 2\nPrimary request: Preserve the existing Venafrum courtyard, exactly two people, faces, anatomy, olive hills, beam press, roof, settling basin, oil stream, fresh amphora, old jar, olive branch, mineral palette, vellum texture, lighting, framing and all existing spatial relationships.\nRequired edit: Correct only the three small oil saucers near the elderly judge. Keep one saucer naturally supported in his raised left hand and one naturally supported in his lower right hand. Move the currently unsupported middle saucer onto the nearby flat stone rim of the settling basin, where it rests securely and visibly. There must be exactly three small saucers total, with no vessel floating in air. Preserve the judge's plausible two-hand anatomy.\nConstraints: Change only the position of the unsupported middle saucer and any tiny hand-area cleanup required. Keep exactly two people and all other objects unchanged. No text, letters, numerals, pseudo-writing, labels, signature, logo, watermark, new objects, crop, or panel. Preserve every margin.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three oil saucers are physically supported, with two in the judge's hands and one on the basin rim. The complete press, fresh oil stream, exactly two people, fresh amphora, old jar and Venafrum hills are fully framed. No text, floating object, modern vessel, panel, clipping or watermark was found. Accepted after one rejected unsupported-saucer attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b76dbb7d-79f3-4e6a-9b24-b875e9ec848a.png",
+          "sha256": "db8b9ce03a618063e807863395f7008caded2a77cdab6b0f08bb5f61e1f95153",
+          "reason": "Rejected at original-resolution QA because the middle of three oil saucers floated unsupported between the judge's hands. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "15:3",
+      "title": "FIFTEEN VARIETIES OF OLIVES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+      "sha256": "48fe285bff83d587887920f595dc3ee059ac232bff5dbcbd7ec7ac7a354f030a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c1d58a31-421f-4a7c-b70b-a13e985be1c7",
+      "outputArtifact": "built-in-imagegen://exec-c1d58a31-421f-4a7c-b70b-a13e985be1c7.png",
+      "exactFinalPrompt": "Use case: precise-outpaint\nAsset type: final landscape 3:2 one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XV chapter 3\nPrimary request: Convert the existing square folio into a landscape 3:2 image by extending the canvas only to the left and right. Do not crop, zoom, stretch, or rescale the central scene.\nPreserve exactly: the complete central olive tree with open sky around its crown; exactly two people and their faces, anatomy, hands and gestures; knife and opened olive; stone table; curved reed mat; exactly fifteen separate olive piles arranged eight in the upper arc and seven in the lower arc; exactly two liquid bowls; linework, mineral palette, vellum texture and lighting.\nOutpaint: Continue the distant olive grove, low hills, stone table edge and warm aged vellum naturally into the new left and right landscape space. The additions should remain quiet negative-space extensions and introduce no new people, bowls, olive piles, structures, animals, or focal objects.\nComposition/framing: Final output must be landscape 3:2 with the entire preserved scene comfortably centered and broad vellum breathing room on all four sides.\nConstraints: Exactly fifteen olive piles total, exactly two people, exactly two bowls. No text, letters, numerals, pseudo-writing, label, signature, logo, watermark, new focal object, split panel, frame-within-frame, border, crop, or edge-touching subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly fifteen separated olive piles are arranged eight above and seven below; exactly two observers, two liquid bowls, the opened olive and complete central tree remain intact within broad landscape negative space. No text, panel, count error, clipping, square format, watermark or modern object was found. Accepted after three preserved repair-stage rejections.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c503a742-438f-406c-be2f-5866ce2f3db9.png",
+          "sha256": "649e66900a822e804fe1de973d8f0f74839d7d224a1dfacb6e513329513183ab",
+          "reason": "Rejected at original-resolution QA because the mat contained eighteen olive piles rather than the chapter-specific count of fifteen. Original built-in output remains preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-9effe1e7-ab5a-4788-a1ae-dc9765dbd946.png",
+          "sha256": "a20e9122d441e0d22cf09fac2a53b911ab516d9b9891c49487787754c9389646",
+          "reason": "Rejected at original-resolution QA because the pile count was corrected to fifteen but the central olive crown remained clipped by the top canvas edge. Original built-in output remains preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b6c4bbc0-a931-48e9-8a17-56582a86460f.png",
+          "sha256": "93e88fee6f44b5eecbb968495265e97791e3282e2b2a87bcbbac05def2f9d683",
+          "reason": "Rejected after metadata QA because the complete-tree repair returned a 1254x1254 square image rather than the required landscape 3:2 master. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "15:4",
+      "title": "THE NATURE OF OLIVE OIL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c004.png",
+      "sha256": "5bb029266de23266089de031901e54d7cf1a1ad41bf4d9acea6b8479c2ba008f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ebf48e86-40a2-49bc-9062-e1afc098b1de",
+      "outputArtifact": "built-in-imagegen://exec-ebf48e86-40a2-49bc-9062-e1afc098b1de.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XV chapter 4\nPrimary request: Illustrate the bodily properties and ceremonial honor of olive oil through one restrained ancient palaestra scene: warming the body, cooling the heated head, athletic oiling, and the olive crown.\nScene/backdrop: An open Greek palaestra courtyard after exercise, rendered on warm aged vellum. A complete modest colonnade frames a patch of cool sky; a living wild olive tree grows beyond the court and casts dappled shade.\nSubject: Exactly two adults. One athletic man sits on a low stone bench with a plain linen cloth around his waist, rubbing a small amount of olive oil into one forearm while a damp cloth cools his forehead. An elderly attendant stands beside him holding one small unmarked aryballos and one bronze strigil. A simple freshly woven wild-olive crown rests alone on the bench, secondary but unmistakable.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, quiet architectural scene with the seated athlete low at one side and the olive tree visible through the colonnade. One continuous moment, no symbolic panel. Keep exactly two complete adults, full bench, cloth, aryballos, strigil, crown, complete columns and complete visible olive tree fully inside broad vellum breathing room. Use the pale court wall and sky as negative space.\nLighting/mood: Cool shade after exertion, bodily relief, dignity rather than spectacle.\nConstraints: Exactly two adults; anatomically natural and non-sexual; period-appropriate palaestra, linen, clay aryballos and bronze strigil; only a light realistic sheen of oil; the olive crown is plain and unmarked.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, modern gym equipment, glass bottle, trophy, crowd, nudity beyond bare torso, erotic framing, sweat spectacle, photography, glossy digital rendering, split panels, collage, clipped figures, cropped columns, edge-touching branches, giant oil droplets, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete adults, supported aryballos and strigil, realistic oiling and cooling gestures, a plain olive crown, complete bench, architecture and visible olive tree are fully framed. No text, crowd, modern gym object, erotic framing, clipping or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "15:5",
+      "title": "THE CULTURE OF THE OLIVE: ITS MODE OF PRESERVATION. THE METHOD OF MAKING OLIVE OIL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c005.png",
+      "sha256": "adfa35e425ebe7be5ab916bdf0e315b8be17bd0f21570b8d3395aaee8bc493cb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-bfc794ac-e7a1-488c-bf41-1570bf923447",
+      "outputArtifact": "built-in-imagegen://exec-bfc794ac-e7a1-488c-bf41-1570bf923447.png",
+      "exactFinalPrompt": "Use case: precise-framing-edit\nAsset type: final one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XV chapter 5\nPrimary request: Preserve the entire existing west-facing hillside, sunset, exactly two people, faces, anatomy, gestures, rooted sapling, woven basket, prepared hole, mattock, water jug, compost basket, terraces, distant grove, linework, mineral palette, vellum texture, lighting, landscape framing and all spatial relationships.\nRequired edit: Correct only the large nearest mature olive tree in the upper-right quadrant. Reduce and reshape its height and crown so the full rooted trunk, complete natural crown, every outer branch, and every leaf tip are comfortably inside the canvas with a broad visible band of open sky above and to the right. Keep it rooted at the same terrace position and reconnect branches plausibly. Do not add another tree.\nConstraints: Change only that tree's height/crown and the revealed sky around it. Keep exactly two people and all other objects unchanged. No text, letters, numerals, pseudo-writing, label, signature, logo, watermark, new object, crop, border, or panel. Preserve the landscape 3:2 canvas and all margins.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete planters exchange a rooted local sapling above a prepared hole on the west-facing terraces. The mattock, water jug, compost, sunset, and all principal mature olives are fully framed with complete crowns. No text, modern object, panel, clipping or watermark was found. Accepted after one rejected clipped-tree attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fc1ceeb9-f2b8-4a92-a803-964aacaa7d9f.png",
+          "sha256": "7b924fcf1b287a0a4021fed181a0ff34ea47bb7ce5641127728de22e0fba6b5b",
+          "reason": "Rejected at original-resolution QA because the nearest mature olive crown ran through the top canvas edge. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-land-wave-07",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "corpusGrounding": {
+    "source": "public/corpus/book-08.0e4c75290ce42e33.json",
+    "chaptersRead": [
+      "8:52",
+      "8:53",
+      "8:54",
+      "8:55",
+      "8:56",
+      "8:57",
+      "8:58",
+      "8:59"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The actual Latin and English corpus fields for every assigned chapter were read before prompt design. Park, half-wild, primate, partial-taming, range-absence and selective-injury claims are explicitly bounded as transmitted testimony rather than modern zoological law, identity hierarchy, medical fact or advice."
+  },
+  "chapters": [
+    {
+      "chapterKey": "8:52",
+      "title": "THE WILD BOAR; WHO WAS THE FIRST TO ESTABLISH PARKS FOR WILD ANIMALS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c052.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "f40ea28e52141d955a6eeed6a60fcf023c146d4003b14d1b6f8385e8da3df646",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a450a652-2c0f-4a20-89b9-14aff8f4ad77",
+      "generationArtifactId": "exec-a450a652-2c0f-4a20-89b9-14aff8f4ad77",
+      "outputArtifact": "built-in-imagegen://exec-a450a652-2c0f-4a20-89b9-14aff8f4ad77.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the spatial logic of Image 1, the Book VIII chapter 52 woodland reserve. Move the same single complete boar and the same complete shallow wallow from the foreground outside the stone oval into the broad meadow inside the stone oval. Place the wallow wholly inside the reserve near x=760, y=560, reduce it to roughly 65 percent of its current size, and keep its complete unbroken muddy shoreline visible. Place the boar on the inner left bank near x=560, y=545, still in clear side profile with exactly four distinct legs and hooves, calmly rubbing its flank against a small internal rubbing post made from one naturally fallen oak limb. Remove the former foreground boar and wallow completely and reconstruct that vacated area as seamless matching dry meadow and stones. Swing the existing gate leaf fully outward to the right, parallel with the adjacent wall, so the gateway between the two posts is visibly empty and broad; retain both complete posts, hinges, rails, and leaf, all internal.\nInvariants: Preserve exactly one boar, one wallow, exactly three complete oaks, the complete internal stone oval, open spacious habitat, distant hills, dawn sky, light, elevated-oblique viewpoint, palette, iron-gall contour, cross-hatching, stipple, dry-brush abrasion, fibrous grain, and calm non-spectacular mood. The boar remains unwounded and anatomically correct. No people or other animals.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: boar or wallow outside the reserve; closed or blocked gateway; any tree, wall, gate, wallow, animal, hoof, branch, root, or stone touching an edge; cages; bars; arena; crowds; hunting; fighting; blood; extra animals; extra legs; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern fencing; photorealism; glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-442aeef7-934e-47a9-b2ff-cc0021bfea79",
+          "outputArtifact": "built-in-imagegen://exec-442aeef7-934e-47a9-b2ff-cc0021bfea79.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 52.\nPrimary subject and action: Portray the early Roman practice of a woodland vivarium at Tarquinii as spacious habitat stewardship, not a menagerie spectacle. Show exactly one complete adult European wild boar calmly rubbing one muddy flank against the trunk of a mature oak beside a shallow wallow. The boar has accurate compact anatomy, four distinct weight-bearing legs and cloven hooves, a complete tail, coarse copper-brown bristles, and modest natural tusks; it is relaxed, unwounded, and not confronting anything. The wallow forms one complete irregular oval wholly inside the image, with its entire muddy shoreline visible. A low, wholly visible dry-stone boundary curves far behind through an expansive oak meadow and includes one complete broad wooden gate standing open. Exactly three complete mature oaks rise inside the reserve, every crown, trunk, and root flare visible. No people or other animals.\nComposition: one continuous wide elevated-oblique panorama, with the small complete boar and wallow in the lower-left middle ground, the open gate on the far right, and generous pale meadow and dawn sky between them. Keep the boar, all four hooves, wallow shoreline, both ends of the low wall, full gate, all three oak crowns and roots, and every prominent stone at least 80 pixels inside every edge. Only continuous sky and distant ground may reach the canvas boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: assured iron-gall contour, fine cross-hatching, stippled bristles and oak bark, dry-brush abrasion in grass and mud, visible fibrous vellum-like grain throughout, and restrained mineral washes of copper, autumn malachite, warm ochre, pale celadon, smoky madder, and faded dawn lapis. Ancient, timeless, rough and polished at once; naturalistic animal anatomy; airy rather than decorative; not photorealistic, not glossy CGI.\nHistorical and ethical framing: visualize Pliny's transmitted report about early animal parks without celebrating confinement, status, breeding, hunting, or combat. The open gate and extensive habitat must read as calm managed woodland, not a trap or arena.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: cages, bars, chains, crowds, arena, spectacle, trophy display, boar fight, rutting, aggression, charge, injury, blood, gore, hunting, weapons, bait, feed trough, handlers, repeated or duplicated boars, piglets, cropped anatomy, extra limbs, wallow leaving the canvas, tree or gate touching an edge, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative border, frame, visible page, panels, inset, montage, collage, split scene, modern fencing, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c052-attempt-01-cropped-oak-wall-and-leg-ambiguity.png",
+          "sha256": "3c84b82a6769eddd7f2c7419f5c60f7085f4dcf0143b26c121995245331f7cfc",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the large foreground oak and stone boundary crossed the canvas and the boar's near-tree leg separation was ambiguous. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-8c678363-b615-4f9c-81aa-f60eae952c1f",
+          "outputArtifact": "built-in-imagegen://exec-8c678363-b615-4f9c-81aa-f60eae952c1f.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the subject anatomy and reserve edge safety of Image 1, the Book VIII chapter 52 Tarquinii woodland scene. First, reduce the large foreground oak to roughly 60 percent of its current size and reposition it right and down enough that its entire crown, every branch and leaf, full trunk, and complete root flare are visible at least 80 pixels inside the top, left, and bottom edges. Preserve exactly three oaks total. Second, reshape the low dry-stone reserve boundary into one complete broad elongated oval wholly visible in the middle distance, with every stone and the entire curve at least 70 pixels inside all canvas edges. Integrate the same wooden gate into the oval at far right, but swing its complete gate leaf visibly open at a natural 60-degree angle; both posts, hinges, rails, and clear opening must remain internal. Third, move the same single boar a few inches away from the oak trunk while retaining a gentle flank-rubbing posture, and reveal exactly four distinct correctly attached legs with four complete cloven hooves, all separated from the trunk and each other.\nInvariants: Preserve exactly one wild boar, the complete internal wallow and unbroken muddy shoreline, the other two oaks, expansive meadow, distant hills, dawn sky, light, palette, elevated-oblique panorama, iron-gall contour, cross-hatching, stipple, dry-brush abrasion, fibrous grain, and calm stewardship mood. No people or other animals. Keep the boar unwounded, relaxed, and anatomically natural.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: any tree, wall, gate, wallow, animal, hoof, branch, root, or stone touching an edge; closed gate; cages; bars; arena; crowds; hunting; fighting; blood; extra animals; extra legs; text; letters; captions; labels; numerals; pseudo-writing; inscriptions; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern fencing; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-442aeef7-934e-47a9-b2ff-cc0021bfea79",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c052-attempt-02-boar-outside-closed-gate.png",
+          "sha256": "d6f2b8776c45da5b52809126ee05aba0ab6310842f8aa1f77965b986a6ca8cec",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the first framing edit because the boar and wallow remained outside the complete reserve oval and the gate leaf still read as closing the opening. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-a450a652-2c0f-4a20-89b9-14aff8f4ad77",
+          "outputArtifact": "built-in-imagegen://exec-a450a652-2c0f-4a20-89b9-14aff8f4ad77.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the spatial logic of Image 1, the Book VIII chapter 52 woodland reserve. Move the same single complete boar and the same complete shallow wallow from the foreground outside the stone oval into the broad meadow inside the stone oval. Place the wallow wholly inside the reserve near x=760, y=560, reduce it to roughly 65 percent of its current size, and keep its complete unbroken muddy shoreline visible. Place the boar on the inner left bank near x=560, y=545, still in clear side profile with exactly four distinct legs and hooves, calmly rubbing its flank against a small internal rubbing post made from one naturally fallen oak limb. Remove the former foreground boar and wallow completely and reconstruct that vacated area as seamless matching dry meadow and stones. Swing the existing gate leaf fully outward to the right, parallel with the adjacent wall, so the gateway between the two posts is visibly empty and broad; retain both complete posts, hinges, rails, and leaf, all internal.\nInvariants: Preserve exactly one boar, one wallow, exactly three complete oaks, the complete internal stone oval, open spacious habitat, distant hills, dawn sky, light, elevated-oblique viewpoint, palette, iron-gall contour, cross-hatching, stipple, dry-brush abrasion, fibrous grain, and calm non-spectacular mood. The boar remains unwounded and anatomically correct. No people or other animals.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: boar or wallow outside the reserve; closed or blocked gateway; any tree, wall, gate, wallow, animal, hoof, branch, root, or stone touching an edge; cages; bars; arena; crowds; hunting; fighting; blood; extra animals; extra legs; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern fencing; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-8c678363-b615-4f9c-81aa-f60eae952c1f",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c052.png",
+          "sha256": "f40ea28e52141d955a6eeed6a60fcf023c146d4003b14d1b6f8385e8da3df646",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Pliny's claim about the first Roman woodland parks is treated as transmitted historical testimony. The image shows one calm boar in an extensive managed habitat and does not celebrate confinement, breeding, hunting, combat, or elite spectacle.",
+      "visualQaNotes": "Inspected at original resolution after two spatial corrections. Exactly one complete boar stands inside the complete low stone reserve oval with four distinct legs and cloven hooves; its wallow and unbroken muddy shoreline are also inside. Exactly three complete oaks, the full open gateway, both posts, outward gate leaf, wall, rubbing limb, and all focal stones are safely internal. No crowd, cage, hunt, combat, text, pseudo-writing, signature, page, frame, panel, montage, duplicate animal, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-442aeef7-934e-47a9-b2ff-cc0021bfea79.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c052-attempt-01-cropped-oak-wall-and-leg-ambiguity.png",
+          "sha256": "3c84b82a6769eddd7f2c7419f5c60f7085f4dcf0143b26c121995245331f7cfc",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 52.\nPrimary subject and action: Portray the early Roman practice of a woodland vivarium at Tarquinii as spacious habitat stewardship, not a menagerie spectacle. Show exactly one complete adult European wild boar calmly rubbing one muddy flank against the trunk of a mature oak beside a shallow wallow. The boar has accurate compact anatomy, four distinct weight-bearing legs and cloven hooves, a complete tail, coarse copper-brown bristles, and modest natural tusks; it is relaxed, unwounded, and not confronting anything. The wallow forms one complete irregular oval wholly inside the image, with its entire muddy shoreline visible. A low, wholly visible dry-stone boundary curves far behind through an expansive oak meadow and includes one complete broad wooden gate standing open. Exactly three complete mature oaks rise inside the reserve, every crown, trunk, and root flare visible. No people or other animals.\nComposition: one continuous wide elevated-oblique panorama, with the small complete boar and wallow in the lower-left middle ground, the open gate on the far right, and generous pale meadow and dawn sky between them. Keep the boar, all four hooves, wallow shoreline, both ends of the low wall, full gate, all three oak crowns and roots, and every prominent stone at least 80 pixels inside every edge. Only continuous sky and distant ground may reach the canvas boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: assured iron-gall contour, fine cross-hatching, stippled bristles and oak bark, dry-brush abrasion in grass and mud, visible fibrous vellum-like grain throughout, and restrained mineral washes of copper, autumn malachite, warm ochre, pale celadon, smoky madder, and faded dawn lapis. Ancient, timeless, rough and polished at once; naturalistic animal anatomy; airy rather than decorative; not photorealistic, not glossy CGI.\nHistorical and ethical framing: visualize Pliny's transmitted report about early animal parks without celebrating confinement, status, breeding, hunting, or combat. The open gate and extensive habitat must read as calm managed woodland, not a trap or arena.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: cages, bars, chains, crowds, arena, spectacle, trophy display, boar fight, rutting, aggression, charge, injury, blood, gore, hunting, weapons, bait, feed trough, handlers, repeated or duplicated boars, piglets, cropped anatomy, extra limbs, wallow leaving the canvas, tree or gate touching an edge, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative border, frame, visible page, panels, inset, montage, collage, split scene, modern fencing, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the large foreground oak and stone boundary crossed the canvas and the boar's near-tree leg separation was ambiguous. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-8c678363-b615-4f9c-81aa-f60eae952c1f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c052-attempt-02-boar-outside-closed-gate.png",
+          "sha256": "d6f2b8776c45da5b52809126ee05aba0ab6310842f8aa1f77965b986a6ca8cec",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the subject anatomy and reserve edge safety of Image 1, the Book VIII chapter 52 Tarquinii woodland scene. First, reduce the large foreground oak to roughly 60 percent of its current size and reposition it right and down enough that its entire crown, every branch and leaf, full trunk, and complete root flare are visible at least 80 pixels inside the top, left, and bottom edges. Preserve exactly three oaks total. Second, reshape the low dry-stone reserve boundary into one complete broad elongated oval wholly visible in the middle distance, with every stone and the entire curve at least 70 pixels inside all canvas edges. Integrate the same wooden gate into the oval at far right, but swing its complete gate leaf visibly open at a natural 60-degree angle; both posts, hinges, rails, and clear opening must remain internal. Third, move the same single boar a few inches away from the oak trunk while retaining a gentle flank-rubbing posture, and reveal exactly four distinct correctly attached legs with four complete cloven hooves, all separated from the trunk and each other.\nInvariants: Preserve exactly one wild boar, the complete internal wallow and unbroken muddy shoreline, the other two oaks, expansive meadow, distant hills, dawn sky, light, palette, elevated-oblique panorama, iron-gall contour, cross-hatching, stipple, dry-brush abrasion, fibrous grain, and calm stewardship mood. No people or other animals. Keep the boar unwounded, relaxed, and anatomically natural.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: any tree, wall, gate, wallow, animal, hoof, branch, root, or stone touching an edge; closed gate; cages; bars; arena; crowds; hunting; fighting; blood; extra animals; extra legs; text; letters; captions; labels; numerals; pseudo-writing; inscriptions; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern fencing; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-442aeef7-934e-47a9-b2ff-cc0021bfea79",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the first framing edit because the boar and wallow remained outside the complete reserve oval and the gate leaf still read as closing the opening. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:53",
+      "title": "ANIMALS IN A HALF-WILD STATE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c053.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "415d9e22811e73bc046105d2ac656a04b4434ffb19f4037797814b9d4d839a54",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1ade429e-3236-4c99-b968-2f1c414a1a5c",
+      "generationArtifactId": "exec-1ade429e-3236-4c99-b968-2f1c414a1a5c",
+      "outputArtifact": "built-in-imagegen://exec-1ade429e-3236-4c99-b968-2f1c414a1a5c.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 53.\nPrimary subject and action: Explore an animal continuum between domestic and wild habitat without depicting hybridization or applying the chapter's demeaning human analogy. In one continuous Alpine spring landscape, show exactly one complete domestic goat on a low grass-and-stone terrace and exactly one complete Alpine ibex on a higher limestone shelf. The domestic goat is a small cream-and-russet doe with a plain undyed woven neck cord, short natural horns, four clearly separated legs and cloven hooves, calmly browsing thyme. The ibex is a larger tawny adult male with accurate powerful shoulders, four distinct weight-bearing legs and hooves, beard, and one complete symmetrical pair of long ridged backward-curving horns; he stands securely and calmly, not leaping. The two animals remain several body lengths apart, glance toward the same valley, and do not touch or mate. No people, other animals, shelter, pen, or fence.\nComposition: one uninterrupted steep diagonal landscape from a low three-quarter viewpoint. The domestic goat occupies the lower-left interior on soft green ground; a rising zigzag of fully visible pale rock leads to the ibex in the upper-right middle ground, with broad saffron-lit valley and faded-lapis mountains as negative space. Keep every horn tip, ear, hoof, tail, beard, thyme sprig, and each animal's entire supporting ledge at least 90 pixels inside every edge. Only distant mountain atmosphere and sky may reach the canvas boundaries. The composition must read as one habitat gradient, not two panels or a taxonomy chart.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: precise iron-gall contour, fine cross-hatching, stippled coats and limestone, dry-brush alpine grass, full-field fibrous vellum-like grain, and restrained mineral washes of saffron ochre, snow-blue, pale verdigris, warm limestone, tawny umber, and a small faded-coral accent. Ancient, timeless, rough and polished at once; anatomically natural; airy, steep, and luminous; not photorealistic, not glossy CGI.\nHistorical and ethical framing: treat Pliny's category of half-wild states as transmitted animal observation. Do not visualize human groups as savage, inferior, hybrid, or analogous to livestock; do not assert that ibex use their horns as springs or shields.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: people, human comparison, ethnic markers, mating, hybrid offspring, domestication spectacle, capture, collar chain, bell, cage, fence, handler, hunt, fall, dangerous leap, impact, gore, repeated or duplicated animals, more than two animals, extra legs, malformed or cropped horns, overlapping bodies, cropped ledges, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-1ade429e-3236-4c99-b968-2f1c414a1a5c",
+          "outputArtifact": "built-in-imagegen://exec-1ade429e-3236-4c99-b968-2f1c414a1a5c.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 53.\nPrimary subject and action: Explore an animal continuum between domestic and wild habitat without depicting hybridization or applying the chapter's demeaning human analogy. In one continuous Alpine spring landscape, show exactly one complete domestic goat on a low grass-and-stone terrace and exactly one complete Alpine ibex on a higher limestone shelf. The domestic goat is a small cream-and-russet doe with a plain undyed woven neck cord, short natural horns, four clearly separated legs and cloven hooves, calmly browsing thyme. The ibex is a larger tawny adult male with accurate powerful shoulders, four distinct weight-bearing legs and hooves, beard, and one complete symmetrical pair of long ridged backward-curving horns; he stands securely and calmly, not leaping. The two animals remain several body lengths apart, glance toward the same valley, and do not touch or mate. No people, other animals, shelter, pen, or fence.\nComposition: one uninterrupted steep diagonal landscape from a low three-quarter viewpoint. The domestic goat occupies the lower-left interior on soft green ground; a rising zigzag of fully visible pale rock leads to the ibex in the upper-right middle ground, with broad saffron-lit valley and faded-lapis mountains as negative space. Keep every horn tip, ear, hoof, tail, beard, thyme sprig, and each animal's entire supporting ledge at least 90 pixels inside every edge. Only distant mountain atmosphere and sky may reach the canvas boundaries. The composition must read as one habitat gradient, not two panels or a taxonomy chart.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: precise iron-gall contour, fine cross-hatching, stippled coats and limestone, dry-brush alpine grass, full-field fibrous vellum-like grain, and restrained mineral washes of saffron ochre, snow-blue, pale verdigris, warm limestone, tawny umber, and a small faded-coral accent. Ancient, timeless, rough and polished at once; anatomically natural; airy, steep, and luminous; not photorealistic, not glossy CGI.\nHistorical and ethical framing: treat Pliny's category of half-wild states as transmitted animal observation. Do not visualize human groups as savage, inferior, hybrid, or analogous to livestock; do not assert that ibex use their horns as springs or shields.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: people, human comparison, ethnic markers, mating, hybrid offspring, domestication spectacle, capture, collar chain, bell, cage, fence, handler, hunt, fall, dangerous leap, impact, gore, repeated or duplicated animals, more than two animals, extra legs, malformed or cropped horns, overlapping bodies, cropped ledges, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c053.png",
+          "sha256": "415d9e22811e73bc046105d2ac656a04b4434ffb19f4037797814b9d4d839a54",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The domestic goat and Alpine ibex offer a habitat continuum without asserting hybridization. The chapter's transfer of “half-wild” language to human groups is deliberately not visualized or endorsed.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete domestic goat and exactly one complete Alpine ibex occupy distinct elevations in one continuous habitat. Both animals have coherent four-leg anatomy, complete hooves and tails; the ibex has one complete symmetrical ridged horn pair. They do not touch, mate, leap, fall, or appear captive. No person, human analogy, fence, text, pseudo-writing, signature, page, frame, panel, montage, duplicate animal, or clipped primary anatomy was found.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:54",
+      "title": "APES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c054.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "5d908fa6981c4691c851db334347ba3f7a487cd08d01d707b2a240f0640ede17",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4c5b6c8c-f831-41fd-aae6-7694a55e5476",
+      "generationArtifactId": "exec-4c5b6c8c-f831-41fd-aae6-7694a55e5476",
+      "outputArtifact": "built-in-imagegen://exec-4c5b6c8c-f831-41fd-aae6-7694a55e5476.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Make one localized adult-arm clarification in Image 1. Keep both adult legs and both adult feet exactly unchanged: the large raised knee at image right and its foot on the far-right rock are a leg and foot, not a hand. Add no hand near either foot. Reveal the adult's currently hidden second arm by drawing it from the far shoulder down across the front-right side of the torso; bend its elbow naturally and place its one complete hand gently on top of the large raised knee at approximately x=1035, y=560. The five fingers must drape visibly over the knee fur, clearly forming a hand attached to an arm. The adult must then show exactly two arms total: the original grooming arm and this knee-resting arm; exactly two legs and two feet remain unchanged.\nInvariants: Preserve exactly two macaques, both identities and faces, the original grooming arm and hand on the juvenile's shoulder, both adult legs and feet, all juvenile limbs, cone, fur, cedar, limestone, mountains, smoky-plum sky, composition, framing, light, palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Keep the pose nonhuman, relaxed, and natural. Do not alter the far-right adult foot.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: hand on the ground near a foot; converting a foot to a hand; third arm; extra hand; duplicated or fused fingers; changing any leg or foot; changing juvenile anatomy; humanlike gesture; grin; prayer pose; captivity; injury; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-750d819a-a4c6-49b6-b468-ac1bee328675",
+          "outputArtifact": "built-in-imagegen://exec-750d819a-a4c6-49b6-b468-ac1bee328675.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 54.\nPrimary subject and action: Center real primate care rather than Pliny's trap-imitation, chess, moon-worship, fierceness, or caricature claims. Show exactly two complete Barbary macaques in natural Atlas Mountain habitat: one adult female seated in a relaxed three-quarter profile on a broad limestone shelf, and one juvenile sitting upright beside her examining a fallen cedar cone. The adult uses one hand to gently groom the juvenile's shoulder while keeping the other hand naturally on the rock. The contact is loose, ordinary affiliative care, never a constricting embrace. Both macaques must have accurate nonhuman proportions, natural faces and gaze, complete bodies, two arms with five-fingered hands, two legs with complete feet, and the Barbary macaque's naturally vestigial tail; every limb is distinct and visible. A single small wholly visible Atlas cedar sapling grows from a cleft behind them. No people or other animals.\nComposition: one continuous intimate eye-level study with the two macaques grouped off-center in the right middle ground and a broad field of smoky-plum mountain air and pale limestone negative space at left. Keep every ear, finger, toe, vestigial tail, cedar needle, root, cone, and all edges of the supporting rock shelf at least 80 pixels inside the canvas. Only distant atmosphere and sky may reach the boundaries. No stage, cage, interior, or human prop.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: sensitive iron-gall contour, very fine cross-hatching, stippled fur and limestone, dry-brush cedar needles, subtle fibrous vellum-like grain throughout, and translucent restrained mineral washes of cedar green, smoky plum, sunlit ochre, russet umber, chalk cream, and a small faded-lapis shadow. Ancient, timeless, rough and polished at once; tender but unsentimental; zoologically credible; not photorealistic, not glossy CGI.\nHistorical and ethical framing: treat Pliny's ape catalogue as transmitted observation. Do not anthropomorphize intelligence, demean primates through human comparison, or show captivity, tricks, danger, injury, or harmful parental embrace. The modern species choice is a plausible visual analogue, not a claim that Pliny's categories map exactly to modern taxonomy.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: chessboard, game pieces, shoes, traps, bird-lime, moon ritual, human clothing, grin, theatrical gesture, prayer pose, anthropomorphic caricature, cage, chain, handler, pet interior, constriction, infant injury, aggression, teeth display, dog-headed monster, satyr, hybrid, blood, repeated or duplicated primates, more than two primates, hidden or extra limbs, cropped hands or feet, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c054-attempt-01-hidden-adult-limbs-and-tight-cedar.png",
+          "sha256": "8af59d2f206ae0a6183c4675cc07c07d9a936f5c77cb013d7fcc953d81b3496f",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the adult's second arm and far leg were not clearly resolved and the cedar crown sat too close to the top boundary. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-70bd81f7-2c71-472f-8ceb-40ef9f778808",
+          "outputArtifact": "built-in-imagegen://exec-70bd81f7-2c71-472f-8ceb-40ef9f778808.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only adult-limb visibility and cedar edge clearance in Image 1, the Book VIII chapter 54 macaque-care scene. Preserve the adult's existing grooming arm and visible near leg. Reveal exactly one complete second adult arm emerging naturally from the far shoulder and resting palm-down on the rock behind the juvenile, with all five fingers visible and clearly separate from the juvenile. Reveal exactly one complete far adult leg folded behind the near leg, ending in its own distinct full foot placed on the rock just left of the existing adult foot. The adult must have exactly two arms and two legs total, with no fused, duplicated, or extra limbs. Keep the juvenile's two arms, two legs, hands, and feet unchanged. Also reduce the single cedar sapling by about 18 percent and move it down and left so its complete highest needle is at least 80 pixels below the top edge and its entire crown, trunk, and root flare remain fully visible.\nInvariants: Preserve exactly two Barbary macaques, their identities, natural nonhuman faces, poses, loose grooming contact, juvenile's cedar cone, adult's existing grooming hand, juvenile anatomy, fur, vestigial tails, complete limestone setting, mountain background, light, composition, smoky-plum negative space, iron-gall contour, cross-hatching, stipple, dry-brush texture, fibrous grain, mineral palette, and calm unsentimental mood. Do not change or add any animal, object, or plant beyond the specified limb clarification and cedar repositioning.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: more or fewer than exactly two arms and two legs on each macaque; duplicated hands or feet; fused limbs; humanlike hands, grin, prayer pose, chess, traps, captivity, constriction, injury, aggression, text, letters, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-750d819a-a4c6-49b6-b468-ac1bee328675",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c054-attempt-02-second-adult-arm-still-hidden.png",
+          "sha256": "893145a7c680c9f3f86e51a4f9693be83471aeb812999167756499e144507e0e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the first correction because the cedar was safely internal and the seated legs improved, but the adult's second arm remained hidden. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-ab01b642-b922-4eaa-b300-42df1100e6a2",
+          "outputArtifact": "built-in-imagegen://exec-ab01b642-b922-4eaa-b300-42df1100e6a2.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Make exactly one anatomy correction to Image 1. The adult Barbary macaque visibly has one grooming arm but its second arm is hidden. Reveal that one missing second adult arm only: it must emerge naturally from the adult's far shoulder behind the grooming shoulder, descend in a relaxed curve along the adult's right torso, and end in one complete distinct hand resting palm-down on the bare rock at approximately x=1180, y=715. Show five natural macaque fingers, clearly separated from both adult feet, the juvenile, and the cedar. The adult must have exactly two arms total: the existing grooming arm plus this newly visible resting arm. Do not add or alter any leg, foot, tail, or juvenile limb.\nInvariants: Preserve exactly two macaques, all identities, faces, gaze, grooming contact, juvenile pose and cone, adult and juvenile legs and feet, adult's existing grooming arm and hand, fur, cedar sapling, limestone, mountains, smoky-plum sky, composition, framing, light, palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Keep all forms internal and keep the interaction loose and non-anthropomorphic.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: more or fewer than exactly two adult arms; third hand; duplicated or fused fingers; hand attached to leg or tail; changing juvenile anatomy; humanlike hand gesture; grin; prayer pose; captivity; constriction; injury; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-70bd81f7-2c71-472f-8ceb-40ef9f778808",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c054-attempt-03-resting-hand-confused-with-foot.png",
+          "sha256": "8f4d123f5e19a98f377746be3f3453bb4c89740400282f0e4a183d68790846b5",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the second correction because the requested resting hand was visually confusable with the adult's far-right foot, leaving the second-arm structure unresolved. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 4,
+          "artifactId": "exec-4c5b6c8c-f831-41fd-aae6-7694a55e5476",
+          "outputArtifact": "built-in-imagegen://exec-4c5b6c8c-f831-41fd-aae6-7694a55e5476.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Make one localized adult-arm clarification in Image 1. Keep both adult legs and both adult feet exactly unchanged: the large raised knee at image right and its foot on the far-right rock are a leg and foot, not a hand. Add no hand near either foot. Reveal the adult's currently hidden second arm by drawing it from the far shoulder down across the front-right side of the torso; bend its elbow naturally and place its one complete hand gently on top of the large raised knee at approximately x=1035, y=560. The five fingers must drape visibly over the knee fur, clearly forming a hand attached to an arm. The adult must then show exactly two arms total: the original grooming arm and this knee-resting arm; exactly two legs and two feet remain unchanged.\nInvariants: Preserve exactly two macaques, both identities and faces, the original grooming arm and hand on the juvenile's shoulder, both adult legs and feet, all juvenile limbs, cone, fur, cedar, limestone, mountains, smoky-plum sky, composition, framing, light, palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Keep the pose nonhuman, relaxed, and natural. Do not alter the far-right adult foot.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: hand on the ground near a foot; converting a foot to a hand; third arm; extra hand; duplicated or fused fingers; changing any leg or foot; changing juvenile anatomy; humanlike gesture; grin; prayer pose; captivity; injury; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-ab01b642-b922-4eaa-b300-42df1100e6a2",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c054.png",
+          "sha256": "5d908fa6981c4691c851db334347ba3f7a487cd08d01d707b2a240f0640ede17",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Barbary macaques are used as a plausible northern-African visual analogue, not as a claim that Pliny's categories map exactly to modern taxonomy. Real affiliative care replaces chess, trap imitation, moon worship, fierce caricature, and harmful embrace.",
+      "visualQaNotes": "Inspected at original resolution after three anatomy and framing corrections. Exactly two Barbary macaques remain: one adult and one juvenile with natural nonhuman faces and coherent seated limb positions. The adult's grooming arm and separate knee-resting arm are clearly readable with no extra or fused limbs; the juvenile holds one cedar cone with both hands. The cedar sapling, roots, cone, animals, and ledge are internal. No captivity, trick, constriction, injury, text, pseudo-writing, signature, page, frame, panel, montage, duplicate primate, or clipped primary anatomy remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-750d819a-a4c6-49b6-b468-ac1bee328675.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c054-attempt-01-hidden-adult-limbs-and-tight-cedar.png",
+          "sha256": "8af59d2f206ae0a6183c4675cc07c07d9a936f5c77cb013d7fcc953d81b3496f",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 54.\nPrimary subject and action: Center real primate care rather than Pliny's trap-imitation, chess, moon-worship, fierceness, or caricature claims. Show exactly two complete Barbary macaques in natural Atlas Mountain habitat: one adult female seated in a relaxed three-quarter profile on a broad limestone shelf, and one juvenile sitting upright beside her examining a fallen cedar cone. The adult uses one hand to gently groom the juvenile's shoulder while keeping the other hand naturally on the rock. The contact is loose, ordinary affiliative care, never a constricting embrace. Both macaques must have accurate nonhuman proportions, natural faces and gaze, complete bodies, two arms with five-fingered hands, two legs with complete feet, and the Barbary macaque's naturally vestigial tail; every limb is distinct and visible. A single small wholly visible Atlas cedar sapling grows from a cleft behind them. No people or other animals.\nComposition: one continuous intimate eye-level study with the two macaques grouped off-center in the right middle ground and a broad field of smoky-plum mountain air and pale limestone negative space at left. Keep every ear, finger, toe, vestigial tail, cedar needle, root, cone, and all edges of the supporting rock shelf at least 80 pixels inside the canvas. Only distant atmosphere and sky may reach the boundaries. No stage, cage, interior, or human prop.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: sensitive iron-gall contour, very fine cross-hatching, stippled fur and limestone, dry-brush cedar needles, subtle fibrous vellum-like grain throughout, and translucent restrained mineral washes of cedar green, smoky plum, sunlit ochre, russet umber, chalk cream, and a small faded-lapis shadow. Ancient, timeless, rough and polished at once; tender but unsentimental; zoologically credible; not photorealistic, not glossy CGI.\nHistorical and ethical framing: treat Pliny's ape catalogue as transmitted observation. Do not anthropomorphize intelligence, demean primates through human comparison, or show captivity, tricks, danger, injury, or harmful parental embrace. The modern species choice is a plausible visual analogue, not a claim that Pliny's categories map exactly to modern taxonomy.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: chessboard, game pieces, shoes, traps, bird-lime, moon ritual, human clothing, grin, theatrical gesture, prayer pose, anthropomorphic caricature, cage, chain, handler, pet interior, constriction, infant injury, aggression, teeth display, dog-headed monster, satyr, hybrid, blood, repeated or duplicated primates, more than two primates, hidden or extra limbs, cropped hands or feet, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the adult's second arm and far leg were not clearly resolved and the cedar crown sat too close to the top boundary. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-70bd81f7-2c71-472f-8ceb-40ef9f778808.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c054-attempt-02-second-adult-arm-still-hidden.png",
+          "sha256": "893145a7c680c9f3f86e51a4f9693be83471aeb812999167756499e144507e0e",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only adult-limb visibility and cedar edge clearance in Image 1, the Book VIII chapter 54 macaque-care scene. Preserve the adult's existing grooming arm and visible near leg. Reveal exactly one complete second adult arm emerging naturally from the far shoulder and resting palm-down on the rock behind the juvenile, with all five fingers visible and clearly separate from the juvenile. Reveal exactly one complete far adult leg folded behind the near leg, ending in its own distinct full foot placed on the rock just left of the existing adult foot. The adult must have exactly two arms and two legs total, with no fused, duplicated, or extra limbs. Keep the juvenile's two arms, two legs, hands, and feet unchanged. Also reduce the single cedar sapling by about 18 percent and move it down and left so its complete highest needle is at least 80 pixels below the top edge and its entire crown, trunk, and root flare remain fully visible.\nInvariants: Preserve exactly two Barbary macaques, their identities, natural nonhuman faces, poses, loose grooming contact, juvenile's cedar cone, adult's existing grooming hand, juvenile anatomy, fur, vestigial tails, complete limestone setting, mountain background, light, composition, smoky-plum negative space, iron-gall contour, cross-hatching, stipple, dry-brush texture, fibrous grain, mineral palette, and calm unsentimental mood. Do not change or add any animal, object, or plant beyond the specified limb clarification and cedar repositioning.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: more or fewer than exactly two arms and two legs on each macaque; duplicated hands or feet; fused limbs; humanlike hands, grin, prayer pose, chess, traps, captivity, constriction, injury, aggression, text, letters, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-750d819a-a4c6-49b6-b468-ac1bee328675",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the first correction because the cedar was safely internal and the seated legs improved, but the adult's second arm remained hidden. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-ab01b642-b922-4eaa-b300-42df1100e6a2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c054-attempt-03-resting-hand-confused-with-foot.png",
+          "sha256": "8f4d123f5e19a98f377746be3f3453bb4c89740400282f0e4a183d68790846b5",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Make exactly one anatomy correction to Image 1. The adult Barbary macaque visibly has one grooming arm but its second arm is hidden. Reveal that one missing second adult arm only: it must emerge naturally from the adult's far shoulder behind the grooming shoulder, descend in a relaxed curve along the adult's right torso, and end in one complete distinct hand resting palm-down on the bare rock at approximately x=1180, y=715. Show five natural macaque fingers, clearly separated from both adult feet, the juvenile, and the cedar. The adult must have exactly two arms total: the existing grooming arm plus this newly visible resting arm. Do not add or alter any leg, foot, tail, or juvenile limb.\nInvariants: Preserve exactly two macaques, all identities, faces, gaze, grooming contact, juvenile pose and cone, adult and juvenile legs and feet, adult's existing grooming arm and hand, fur, cedar sapling, limestone, mountains, smoky-plum sky, composition, framing, light, palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Keep all forms internal and keep the interaction loose and non-anthropomorphic.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: more or fewer than exactly two adult arms; third hand; duplicated or fused fingers; hand attached to leg or tail; changing juvenile anatomy; humanlike hand gesture; grin; prayer pose; captivity; constriction; injury; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-70bd81f7-2c71-472f-8ceb-40ef9f778808",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the second correction because the requested resting hand was visually confusable with the adult's far-right foot, leaving the second-arm structure unresolved. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:55",
+      "title": "THE DIFFERENT SPECIES OF HARES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c055.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "148a77e87d92db46660556101a6359b0580733c4ed66f9b2c78959da19f0926e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-131ce430-4b79-4de5-bbce-23aa2124abf2",
+      "generationArtifactId": "exec-131ce430-4b79-4de5-bbce-23aa2124abf2",
+      "outputArtifact": "built-in-imagegen://exec-131ce430-4b79-4de5-bbce-23aa2124abf2.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 55.\nPrimary subject and action: Show exactly one complete adult mountain hare during ordinary spring molt in a high Alpine boulder field. The hare stands alert in clean side profile on one low, wholly visible oval lichen-covered boulder, with long ears upright, natural dark eye, complete nose and whiskers, compact body, short tail, exactly two distinct forelegs and two powerful distinct hind legs, and all four complete feet resting securely on the rock. Its real transitional coat is mottled chalk-white, pale grey, and warm russet along the shoulders and back, matching nearby old snow and exposed copper grass; it does not change color before the viewer. No leverets, rabbits, ferrets, people, traps, food preparation, anatomy claims, or other animals.\nComposition: one continuous near-top-down naturalist view, unlike a wide horizon landscape. The complete hare and boulder occupy the upper-left middle ground; around them lies a broad abstract-looking but natural mosaic of fully contained old snow patches, violet-grey stones, lichen and copper grass with generous open negative space. Every snow patch forms a complete separate shape inside the canvas with its full perimeter visible. Keep every ear tip, whisker, foot, tail, boulder edge, grass tuft, and snow boundary at least 90 pixels inside every edge. Only continuous dry ground texture may reach the canvas boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: delicate iron-gall anatomical contour, fine cross-hatching, stippled fur and lichen, dry-brush snow abrasion, full-field fibrous vellum-like grain, and translucent restrained mineral washes of chalk, cool violet, pale apricot, copper grass, smoky grey, and a trace of faded lapis. Ancient, timeless, rough and polished at once; intimate, high-key, and graphically spacious; zoologically credible; not photorealistic, not glossy CGI.\nHistorical and ethical framing: portray a real seasonal molt. Treat Pliny's snow-feeding, reproductive, anatomical, hunting, food, and fibre claims as transmitted historical testimony, not established fact, advice, or spectacle.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: more than one animal, rabbit colony, leveret, ferret, burrow hunt, soldier, snare, carcass, skin, dissection, food, textile, pregnancy diagram, sex-characteristic claim, magical transformation, half-and-half split body, rainbow color, duplicated hare, hidden or extra legs, cropped ears or feet, snow patch leaving the canvas, water, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-131ce430-4b79-4de5-bbce-23aa2124abf2",
+          "outputArtifact": "built-in-imagegen://exec-131ce430-4b79-4de5-bbce-23aa2124abf2.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 55.\nPrimary subject and action: Show exactly one complete adult mountain hare during ordinary spring molt in a high Alpine boulder field. The hare stands alert in clean side profile on one low, wholly visible oval lichen-covered boulder, with long ears upright, natural dark eye, complete nose and whiskers, compact body, short tail, exactly two distinct forelegs and two powerful distinct hind legs, and all four complete feet resting securely on the rock. Its real transitional coat is mottled chalk-white, pale grey, and warm russet along the shoulders and back, matching nearby old snow and exposed copper grass; it does not change color before the viewer. No leverets, rabbits, ferrets, people, traps, food preparation, anatomy claims, or other animals.\nComposition: one continuous near-top-down naturalist view, unlike a wide horizon landscape. The complete hare and boulder occupy the upper-left middle ground; around them lies a broad abstract-looking but natural mosaic of fully contained old snow patches, violet-grey stones, lichen and copper grass with generous open negative space. Every snow patch forms a complete separate shape inside the canvas with its full perimeter visible. Keep every ear tip, whisker, foot, tail, boulder edge, grass tuft, and snow boundary at least 90 pixels inside every edge. Only continuous dry ground texture may reach the canvas boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: delicate iron-gall anatomical contour, fine cross-hatching, stippled fur and lichen, dry-brush snow abrasion, full-field fibrous vellum-like grain, and translucent restrained mineral washes of chalk, cool violet, pale apricot, copper grass, smoky grey, and a trace of faded lapis. Ancient, timeless, rough and polished at once; intimate, high-key, and graphically spacious; zoologically credible; not photorealistic, not glossy CGI.\nHistorical and ethical framing: portray a real seasonal molt. Treat Pliny's snow-feeding, reproductive, anatomical, hunting, food, and fibre claims as transmitted historical testimony, not established fact, advice, or spectacle.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: more than one animal, rabbit colony, leveret, ferret, burrow hunt, soldier, snare, carcass, skin, dissection, food, textile, pregnancy diagram, sex-characteristic claim, magical transformation, half-and-half split body, rainbow color, duplicated hare, hidden or extra legs, cropped ears or feet, snow patch leaving the canvas, water, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c055.png",
+          "sha256": "148a77e87d92db46660556101a6359b0580733c4ed66f9b2c78959da19f0926e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The scene shows ordinary seasonal molt in a mountain hare. Snow-feeding, anatomical, reproductive, hunting, food, and fibre claims remain transmitted testimony rather than established fact or advice.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete mountain hare stands securely on one complete lichen boulder with coherent foreleg and hind-leg anatomy, full ears, feet and tail. Its mottled white-grey-russet coat reads as spring molt, not magical transformation; the snow patches are discrete and contained. No leveret, rabbit colony, ferret, hunt, food, textile, dissection, text, pseudo-writing, signature, page, frame, panel, montage, duplicate animal, or clipped primary subject was found.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:56",
+      "title": "ANIMALS WHICH ARE TAMED IN PART ONLY",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c056.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "40c7b449546c1f799d608498641777a6a6da5da91bdf6a37ffe5050245fd0654",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1e48f7ca-c7e2-44c1-9dbe-39d1380e7e02",
+      "generationArtifactId": "exec-1e48f7ca-c7e2-44c1-9dbe-39d1380e7e02",
+      "outputArtifact": "built-in-imagegen://exec-1e48f7ca-c7e2-44c1-9dbe-39d1380e7e02.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the lower-right edge safety of Image 1, the Book VIII chapter 56 dolphin-and-skiff cove. Shorten and reposition the small stone landing stage so its complete rectangular seaward end, complete shoreward end, both long sides, every block, and the mooring ring are wholly visible inside the lower-right quadrant. The nearest stage stone must be at least 100 pixels from the right edge and 100 pixels from the bottom edge, with an uninterrupted band of matching pale beach and scrub between the stage and both canvas boundaries. Retain the same slack rope tied from the boat to the same mooring ring. Reconstruct the former cropped continuation as seamless beach, stones, and sparse scrub.\nInvariants: Preserve exactly one complete dolphin, its anatomy and location beneath the water; the complete empty Roman skiff, hull, bow, stern, mast, furled unmarked sail, two resting oars, rope, open cove, shoreline, headlands, seabed, water clarity and reflections, near-vertical viewpoint, lighting, palette, fibrous grain, iron-gall contour, hatching, stipple, and dry-brush texture. Do not move, duplicate, crop, or reflect the dolphin or boat. No people or other animals.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: stage touching any edge; cropped blocks; second mooring; changes to dolphin fins or tail; extra dolphin; reflected animal; rider; trainer; feeding; net; hook; fish; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-27df9693-1e64-48f9-ae10-6c12c632bb31",
+          "outputArtifact": "built-in-imagegen://exec-27df9693-1e64-48f9-ae10-6c12c632bb31.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 56.\nPrimary subject and action: Visualize an intermediate relationship between people and wild animals through voluntary proximity, not taming performance. In a clear Mediterranean cove, show exactly one complete common bottlenose dolphin swimming freely beside one small empty Roman coastal skiff that is moored, not moving. The dolphin's entire anatomically accurate body is visible beneath the translucent water from beak and dorsal fin to both pectoral fins and tail flukes; it remains at least one body length from the boat and is not touching, following food, or being trained. The complete wooden skiff, hull, bow, stern, two resting oars, plain mast and furled unmarked sail are fully visible. It is tied by one slack rope to a short complete stone landing stage on shore. No people, fish, birds, nets, hooks, bait, cargo, or other animals.\nComposition: one continuous high near-vertical view. A crescent cove fills the middle, with its complete curved shoreline and both headlands fully visible inside the canvas; only the open-sea water beyond the cove mouth may continue through the top boundary. Place the skiff in the lower-right water and the dolphin in the left-center, separated by a broad band of luminous teal negative space. Keep the dolphin, boat, mast, oars, rope, complete landing stage, both headlands, and every shoreline stone at least 90 pixels inside all non-sea edges. Water reflections must not duplicate the dolphin or boat.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: fluid iron-gall contour, fine cross-hatching, stippled dolphin skin and seabed, dry-brush surf and limestone, visible fibrous vellum-like grain through water and land, and translucent restrained mineral washes of smoky teal, pale turquoise, coral sand, warm limestone, muted madder, and faded lapis. Ancient, timeless, rough and polished at once; lucid, sunlit, and spacious; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and ethical framing: depict one free animal choosing ordinary proximity to a human craft. Treat Pliny's category of animals partly tamed as transmitted observation, not a behavioral rule, training method, or modern advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: rider, trainer, feeding, touching, performance, jump, smile, anthropomorphic expression, captive lagoon, pen, net, hook, fish, flock, second dolphin, repeated or reflected animal, cropped dolphin or tail, missing fin, extra fin, cropped boat, shoreline leaving side or bottom edges, storm, shipwreck, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern motorboat, plastic, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c056-attempt-01-landing-stage-cropped-bottom-right.png",
+          "sha256": "8d1f01660d885444de2b36bbe948e4e09599e99dec721a79316d34445250b112",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the otherwise coherent stone landing stage continued through the bottom-right boundary. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-1e48f7ca-c7e2-44c1-9dbe-39d1380e7e02",
+          "outputArtifact": "built-in-imagegen://exec-1e48f7ca-c7e2-44c1-9dbe-39d1380e7e02.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the lower-right edge safety of Image 1, the Book VIII chapter 56 dolphin-and-skiff cove. Shorten and reposition the small stone landing stage so its complete rectangular seaward end, complete shoreward end, both long sides, every block, and the mooring ring are wholly visible inside the lower-right quadrant. The nearest stage stone must be at least 100 pixels from the right edge and 100 pixels from the bottom edge, with an uninterrupted band of matching pale beach and scrub between the stage and both canvas boundaries. Retain the same slack rope tied from the boat to the same mooring ring. Reconstruct the former cropped continuation as seamless beach, stones, and sparse scrub.\nInvariants: Preserve exactly one complete dolphin, its anatomy and location beneath the water; the complete empty Roman skiff, hull, bow, stern, mast, furled unmarked sail, two resting oars, rope, open cove, shoreline, headlands, seabed, water clarity and reflections, near-vertical viewpoint, lighting, palette, fibrous grain, iron-gall contour, hatching, stipple, and dry-brush texture. Do not move, duplicate, crop, or reflect the dolphin or boat. No people or other animals.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: stage touching any edge; cropped blocks; second mooring; changes to dolphin fins or tail; extra dolphin; reflected animal; rider; trainer; feeding; net; hook; fish; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-27df9693-1e64-48f9-ae10-6c12c632bb31",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c056.png",
+          "sha256": "40c7b449546c1f799d608498641777a6a6da5da91bdf6a37ffe5050245fd0654",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "One free bottlenose dolphin near an empty moored skiff visualizes voluntary proximity, not training, taming, feeding, performance, or a modern behavioral rule.",
+      "visualQaNotes": "Inspected at original resolution after one landing-stage correction. Exactly one complete dolphin is visible beneath clear water with coherent beak, dorsal fin, pectoral form and tail flukes; it remains separated from the complete empty skiff. Hull, bow, stern, mast, furled sail, oars, slack rope, complete internal landing stage, cove shoreline and headlands are readable. No rider, trainer, food, net, other animal, reflection duplicate, text, pseudo-writing, signature, page, frame, panel, montage, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-27df9693-1e64-48f9-ae10-6c12c632bb31.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c056-attempt-01-landing-stage-cropped-bottom-right.png",
+          "sha256": "8d1f01660d885444de2b36bbe948e4e09599e99dec721a79316d34445250b112",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 56.\nPrimary subject and action: Visualize an intermediate relationship between people and wild animals through voluntary proximity, not taming performance. In a clear Mediterranean cove, show exactly one complete common bottlenose dolphin swimming freely beside one small empty Roman coastal skiff that is moored, not moving. The dolphin's entire anatomically accurate body is visible beneath the translucent water from beak and dorsal fin to both pectoral fins and tail flukes; it remains at least one body length from the boat and is not touching, following food, or being trained. The complete wooden skiff, hull, bow, stern, two resting oars, plain mast and furled unmarked sail are fully visible. It is tied by one slack rope to a short complete stone landing stage on shore. No people, fish, birds, nets, hooks, bait, cargo, or other animals.\nComposition: one continuous high near-vertical view. A crescent cove fills the middle, with its complete curved shoreline and both headlands fully visible inside the canvas; only the open-sea water beyond the cove mouth may continue through the top boundary. Place the skiff in the lower-right water and the dolphin in the left-center, separated by a broad band of luminous teal negative space. Keep the dolphin, boat, mast, oars, rope, complete landing stage, both headlands, and every shoreline stone at least 90 pixels inside all non-sea edges. Water reflections must not duplicate the dolphin or boat.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: fluid iron-gall contour, fine cross-hatching, stippled dolphin skin and seabed, dry-brush surf and limestone, visible fibrous vellum-like grain through water and land, and translucent restrained mineral washes of smoky teal, pale turquoise, coral sand, warm limestone, muted madder, and faded lapis. Ancient, timeless, rough and polished at once; lucid, sunlit, and spacious; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and ethical framing: depict one free animal choosing ordinary proximity to a human craft. Treat Pliny's category of animals partly tamed as transmitted observation, not a behavioral rule, training method, or modern advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: rider, trainer, feeding, touching, performance, jump, smile, anthropomorphic expression, captive lagoon, pen, net, hook, fish, flock, second dolphin, repeated or reflected animal, cropped dolphin or tail, missing fin, extra fin, cropped boat, shoreline leaving side or bottom edges, storm, shipwreck, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern motorboat, plastic, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the otherwise coherent stone landing stage continued through the bottom-right boundary. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:57",
+      "title": "ANIMALS WHICH ARE TAMED IN PART ONLY",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c057.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "a7b517514dff4d52cba28ac10ad1c9703004181a863311462b7f45ae3d3dc594",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c9485cdb-f13f-4e72-99a4-1d876f557f3c",
+      "generationArtifactId": "exec-c9485cdb-f13f-4e72-99a4-1d876f557f3c",
+      "outputArtifact": "built-in-imagegen://exec-c9485cdb-f13f-4e72-99a4-1d876f557f3c.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the foreground plant edge safety of Image 1, the Book VIII chapter 57 house-mouse threshold. Reduce the single outdoor thyme patch by about 35 percent and move it left and up onto the open ground near x=1240, y=790 so its entire rooted base, every stem, leaf, and flower tip are wholly visible at least 90 pixels from the right and bottom edges. Replace all former cropped plant matter along the right and bottom boundaries with seamless matching blank stone wall, worn ground, and a few non-focal pebbles. No plant pixel may touch an edge.\nInvariants: Preserve exactly one complete mouse, its identity, pose, whiskers, ears, four-leg anatomy, paws, complete S-curved tail, sill, complete doorway, lintel, jambs, threshold, open wooden door, hinges, closed lidded jar, empty woven basket, light, deep corridor, composition, charcoal-madder-gold palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Do not move or alter the mouse, doorway, door, jar, or basket. No other animal or person.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: plant touching an edge; second plant patch; changes to mouse anatomy; extra mouse; spilled grain; gnawing; omen; trap; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split screen; modern objects; photorealism; glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-5b470894-0ce5-4c9f-8889-17749bcfaa2d",
+          "outputArtifact": "built-in-imagegen://exec-5b470894-0ce5-4c9f-8889-17749bcfaa2d.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 57.\nPrimary subject and action: Show exactly one complete adult house mouse as a free commensal animal inhabiting the threshold of a quiet Roman storeroom, neither a pet nor a persecuted pest. From a very low mouse-eye viewpoint, the mouse pauses side-on atop a broad worn stone sill in an open doorway, alert but calm. Show accurate rounded ears, bright natural eye, whiskers, muzzle, compact torso, exactly four distinct correctly attached legs with four complete paws, and one long complete tail making a loose S-curve entirely on the sill. Its front paws face a patch of outdoor thyme while its body remains under the doorway's amber shade, suggesting an intermediate relation to human dwellings without a diagram. Behind it in the dim room stand one complete closed lidded grain jar and one complete empty woven basket; both are unmarked and out of reach. No food is spilled. No other animal or person appears.\nComposition: one continuous intimate chiaroscuro scene, not two panels. The complete rectangular doorway, lintel, both jambs, threshold and open wooden door leaf are all visible inside the canvas, with the small mouse centered low and a deep corridor of warm negative space behind. Keep every whisker, ear, paw, tail tip, door hinge, jar handle, basket edge, thyme tip, and all doorway corners at least 80 pixels inside every edge. Only blank stone wall and continuous floor may reach the boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: crisp iron-gall contour, fine cross-hatching, stippled fur, dry-brush stone and basket fibres, full-field fibrous vellum-like grain, and restrained mineral washes of charcoal, warm madder, lamplight gold, dusty olive, bone cream, and a narrow faded-lapis daylight accent. Ancient, timeless, rough and polished at once; quiet, close, and observational; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and ethical framing: treat omen, theft, siege-price, metal-eating, dissection, captivity, inter-forest fighting, filial-piety and rejuvenation claims as transmitted ancient reports rather than fact. Avoid disease stigma and vermin caricature; show ordinary coexistence only.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: omen rays, shield, shoe latchet, coins, gold, forge, mine, dissection, trap, poison, cage, cask warren, dormouse feast, starvation, stealing pose, gnawed food, droppings, disease, anthropomorphic gesture, parent-care tableau, second mouse, repeated animal, hidden or extra legs, cropped whiskers or tail, cropped door or props, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split screen, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c057-attempt-01-thyme-cropped-right-bottom.png",
+          "sha256": "1aceadbedbf892fca350768f33272dd78c3de6071780c33b2a6213505e95c733",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the otherwise valid thyme patch was clipped by both the right and bottom boundaries. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-c9485cdb-f13f-4e72-99a4-1d876f557f3c",
+          "outputArtifact": "built-in-imagegen://exec-c9485cdb-f13f-4e72-99a4-1d876f557f3c.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the foreground plant edge safety of Image 1, the Book VIII chapter 57 house-mouse threshold. Reduce the single outdoor thyme patch by about 35 percent and move it left and up onto the open ground near x=1240, y=790 so its entire rooted base, every stem, leaf, and flower tip are wholly visible at least 90 pixels from the right and bottom edges. Replace all former cropped plant matter along the right and bottom boundaries with seamless matching blank stone wall, worn ground, and a few non-focal pebbles. No plant pixel may touch an edge.\nInvariants: Preserve exactly one complete mouse, its identity, pose, whiskers, ears, four-leg anatomy, paws, complete S-curved tail, sill, complete doorway, lintel, jambs, threshold, open wooden door, hinges, closed lidded jar, empty woven basket, light, deep corridor, composition, charcoal-madder-gold palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Do not move or alter the mouse, doorway, door, jar, or basket. No other animal or person.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: plant touching an edge; second plant patch; changes to mouse anatomy; extra mouse; spilled grain; gnawing; omen; trap; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split screen; modern objects; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-5b470894-0ce5-4c9f-8889-17749bcfaa2d",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c057.png",
+          "sha256": "a7b517514dff4d52cba28ac10ad1c9703004181a863311462b7f45ae3d3dc594",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The house mouse is shown as an ordinary free commensal at a human threshold. Portents, metal-eating, theft, siege pricing, dissection, dormouse captivity, inter-group violence, filial piety, and rejuvenation are not treated as modern fact.",
+      "visualQaNotes": "Inspected at original resolution after one plant-framing correction. Exactly one complete mouse has coherent four-leg anatomy, full paws, whiskers, ears and a complete internal S-curved tail. The doorway, open door, hinges, closed jar, empty basket, sill and complete internal thyme patch are readable. No spilled food, gnawing, omen, trap, disease stigma, second animal, text, pseudo-writing, signature, page, frame, panel, montage, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5b470894-0ce5-4c9f-8889-17749bcfaa2d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c057-attempt-01-thyme-cropped-right-bottom.png",
+          "sha256": "1aceadbedbf892fca350768f33272dd78c3de6071780c33b2a6213505e95c733",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 57.\nPrimary subject and action: Show exactly one complete adult house mouse as a free commensal animal inhabiting the threshold of a quiet Roman storeroom, neither a pet nor a persecuted pest. From a very low mouse-eye viewpoint, the mouse pauses side-on atop a broad worn stone sill in an open doorway, alert but calm. Show accurate rounded ears, bright natural eye, whiskers, muzzle, compact torso, exactly four distinct correctly attached legs with four complete paws, and one long complete tail making a loose S-curve entirely on the sill. Its front paws face a patch of outdoor thyme while its body remains under the doorway's amber shade, suggesting an intermediate relation to human dwellings without a diagram. Behind it in the dim room stand one complete closed lidded grain jar and one complete empty woven basket; both are unmarked and out of reach. No food is spilled. No other animal or person appears.\nComposition: one continuous intimate chiaroscuro scene, not two panels. The complete rectangular doorway, lintel, both jambs, threshold and open wooden door leaf are all visible inside the canvas, with the small mouse centered low and a deep corridor of warm negative space behind. Keep every whisker, ear, paw, tail tip, door hinge, jar handle, basket edge, thyme tip, and all doorway corners at least 80 pixels inside every edge. Only blank stone wall and continuous floor may reach the boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: crisp iron-gall contour, fine cross-hatching, stippled fur, dry-brush stone and basket fibres, full-field fibrous vellum-like grain, and restrained mineral washes of charcoal, warm madder, lamplight gold, dusty olive, bone cream, and a narrow faded-lapis daylight accent. Ancient, timeless, rough and polished at once; quiet, close, and observational; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and ethical framing: treat omen, theft, siege-price, metal-eating, dissection, captivity, inter-forest fighting, filial-piety and rejuvenation claims as transmitted ancient reports rather than fact. Avoid disease stigma and vermin caricature; show ordinary coexistence only.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: omen rays, shield, shoe latchet, coins, gold, forge, mine, dissection, trap, poison, cage, cask warren, dormouse feast, starvation, stealing pose, gnawed food, droppings, disease, anthropomorphic gesture, parent-care tableau, second mouse, repeated animal, hidden or extra legs, cropped whiskers or tail, cropped door or props, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split screen, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the otherwise valid thyme patch was clipped by both the right and bottom boundaries. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:58",
+      "title": "PLACES IN WHICH CERTAIN ANIMALS ARE NOT TO BE FOUND",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c058.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "5c8d6b20d8bde2cd6340853a8e18d4772d384cee479268bfaf2535d394e91618",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c8286e6b-0ad9-4557-a22b-472f9a3743af",
+      "generationArtifactId": "exec-c8286e6b-0ad9-4557-a22b-472f9a3743af",
+      "outputArtifact": "built-in-imagegen://exec-c8286e6b-0ad9-4557-a22b-472f9a3743af.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 58.\nPrimary subject and action: Interpret one of Pliny's many local absence claims as cautious habitat observation, not an absolute zoological law. Show exactly one complete adult mountain gazelle, a plausible modern analogue for the Lycia animal in the chapter, standing calmly on a low red-limestone shelf below a broad natural mountain saddle. The gazelle is in three-quarter side profile with accurate slender muzzle, ears, torso, short tail, exactly four distinct weight-bearing legs and cloven hooves, and one complete symmetrical pair of gently curved unbroken horns; it browses one small terebinth shrub and does not attempt to cross anything. Beyond it, the open pass is simply empty under morning haze. No wall, roadblock, sign, invisible force, track line, people, or other animals.\nComposition: one uninterrupted bird's-eye coastal-mountain panorama with the small complete gazelle in the lower-right interior and the expansive unoccupied saddle sweeping diagonally toward the upper-left. Use broad rose-limestone planes and smoky blue-green atmospheric negative space rather than a map. Keep every horn tip, ear, hoof, tail, shrub root and leaf, the gazelle's complete supporting shelf, and both complete rocky shoulders of the saddle at least 90 pixels inside every edge. Only distant sky and continuous far terrain may reach the boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: spare iron-gall contour, delicate cross-hatching, stippled coat and rock, dry-brush haze, visible fibrous vellum-like grain throughout, and restrained mineral washes of dusty rose, warm limestone, pale malachite, smoky teal, faded lapis, and a trace of ochre. Ancient, timeless, rough and polished at once; panoramic, quiet, and observational; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and ethical framing: the ancient statement about where an animal does not occur is transmitted testimony, not a comprehensive modern range map. The species identification is plausible but uncertain. Do not literalize borders, death on crossing, taboo, portent, or baneful-animal stigma.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: map, diagram, boundary line, label, route, arrow, wall, fence, magical barrier, animal dying, injured hare, mole-skin object, venom demonstration, extermination, empty-silhouette montage, multiple species, second gazelle, repeated animal, hidden or extra legs, malformed or cropped horns, cropped supporting shelf, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-c8286e6b-0ad9-4557-a22b-472f9a3743af",
+          "outputArtifact": "built-in-imagegen://exec-c8286e6b-0ad9-4557-a22b-472f9a3743af.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 58.\nPrimary subject and action: Interpret one of Pliny's many local absence claims as cautious habitat observation, not an absolute zoological law. Show exactly one complete adult mountain gazelle, a plausible modern analogue for the Lycia animal in the chapter, standing calmly on a low red-limestone shelf below a broad natural mountain saddle. The gazelle is in three-quarter side profile with accurate slender muzzle, ears, torso, short tail, exactly four distinct weight-bearing legs and cloven hooves, and one complete symmetrical pair of gently curved unbroken horns; it browses one small terebinth shrub and does not attempt to cross anything. Beyond it, the open pass is simply empty under morning haze. No wall, roadblock, sign, invisible force, track line, people, or other animals.\nComposition: one uninterrupted bird's-eye coastal-mountain panorama with the small complete gazelle in the lower-right interior and the expansive unoccupied saddle sweeping diagonally toward the upper-left. Use broad rose-limestone planes and smoky blue-green atmospheric negative space rather than a map. Keep every horn tip, ear, hoof, tail, shrub root and leaf, the gazelle's complete supporting shelf, and both complete rocky shoulders of the saddle at least 90 pixels inside every edge. Only distant sky and continuous far terrain may reach the boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: spare iron-gall contour, delicate cross-hatching, stippled coat and rock, dry-brush haze, visible fibrous vellum-like grain throughout, and restrained mineral washes of dusty rose, warm limestone, pale malachite, smoky teal, faded lapis, and a trace of ochre. Ancient, timeless, rough and polished at once; panoramic, quiet, and observational; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and ethical framing: the ancient statement about where an animal does not occur is transmitted testimony, not a comprehensive modern range map. The species identification is plausible but uncertain. Do not literalize borders, death on crossing, taboo, portent, or baneful-animal stigma.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: map, diagram, boundary line, label, route, arrow, wall, fence, magical barrier, animal dying, injured hare, mole-skin object, venom demonstration, extermination, empty-silhouette montage, multiple species, second gazelle, repeated animal, hidden or extra legs, malformed or cropped horns, cropped supporting shelf, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c058.png",
+          "sha256": "5c8d6b20d8bde2cd6340853a8e18d4772d384cee479268bfaf2535d394e91618",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "One plausible mountain gazelle visualizes habitat observation below a Lycia pass. Pliny's absence statements are anecdotal ancient testimony rather than exhaustive modern range data; the species identification remains uncertain.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete gazelle has four distinct weight-bearing legs, cloven hooves, full ears and tail, and one complete symmetrical curved horn pair. The animal, terebinth, red-limestone shelf, empty pass and sea band are safely composed without a drawn border or magical barrier. No crossing death, map, label, route, wall, other animal, text, pseudo-writing, signature, page, frame, panel, montage, or clipped primary anatomy was found.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:59",
+      "title": "ANIMALS WHICH INJURE STRANGERS ONLY, AS ALSO ANIMALS WHICH INJURE THE NATIVES OF THE COUNTRY ONLY, AND WHERE THEY ARE FOUND",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c059.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "ad93ae483b914feee013b42a653e151aa40f87bf4153eca4b1a69519d805b9c2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d50cb62e-bfc4-4fb3-9416-1a571ef3b50d",
+      "generationArtifactId": "exec-d50cb62e-bfc4-4fb3-9416-1a571ef3b50d",
+      "outputArtifact": "built-in-imagegen://exec-d50cb62e-bfc4-4fb3-9416-1a571ef3b50d.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only edge safety, foot visibility, and unintended water in Image 1, the Book VIII chapter 59 equal-observation scene. First, scale the same shade stone and the same single coiled viper together to about 70 percent of their current size and move them right and up so the entire stone silhouette, every snake coil, head, and tail tip are at least 100 pixels inside the left and bottom edges; preserve the snake's loose closed-mouth resting pose. Second, replace the cropped wall of reeds at the top-left with exactly two low complete rooted reed clumps behind the stone, each with every stalk and tip at least 90 pixels from the top and left edges. Third, move the plain marker and both laid-down staffs roughly 130 pixels down and left, still fully internal, so neither object overlaps either person's legs; reveal both complete lower legs and both sandal-clad feet on each of the two adults. Fourth, replace the unintended narrow water band behind the adults with seamless dry pale alluvial sand and low reed shadows; no visible water remains.\nInvariants: Preserve exactly one viper and exactly two adult people, all identities, faces, equal peer relationship, similar non-stereotyped garments, standing poses, hands, the one marker, exactly two staffs, dry Euphrates-bank setting, pale rose sky, broad negative space, light, palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Nobody approaches, handles, steps on, kills, or is bitten by the snake. No other animal or person.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: stone, snake, reed, person, foot, marker, or staff touching an edge; hidden feet; visible water; bite; strike; venom; wound; suffering; ethnic stereotype; hierarchy; magical protection; second snake; scorpion; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-e533152b-a84b-4c3c-95c6-58bafc8dfaea",
+          "outputArtifact": "built-in-imagegen://exec-e533152b-a84b-4c3c-95c6-58bafc8dfaea.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 59.\nPrimary subject and action: Treat the chapter's claim of snakes or scorpions selectively harming natives or strangers as transmitted ancient testimony, not biological fact. On a dry reed-fringed Euphrates alluvial bank, show exactly one complete small adult Levantine viper resting in a natural loose coil beneath the shade of one fully visible low stone; its head is down, mouth closed, body unwounded, and entire tail visible. Several body lengths away, exactly two complete adult people stand side-by-side as peers behind one low plain stone marker. They wear similar practical undyed Roman-era Levantine travel garments with small individual differences in age and color, but neither person is labeled, exoticized, ranked, or visually assigned as native or stranger. Both have complete heads, neutral faces, hands, garments, legs, and sandal-clad feet visible; both look calmly toward the animal from the same distance. Their two complete walking staffs lie together horizontally on the ground. Nobody approaches, handles, steps on, kills, or is bitten by the snake. No other animal or person.\nComposition: one continuous low ground-level scene. The small complete viper and its complete shade stone occupy the lower-left interior; a broad band of pale sand and reed-shadow negative space leads to the two standing adults in the upper-right middle ground. Keep every snake scale silhouette, head, tail tip, stone edge, reed tip, human head, hand, foot, staff end, and marker at least 90 pixels inside every canvas edge. All reeds form complete rooted clumps wholly inside the field. Only continuous sky and distant dry ground may reach the boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: exact iron-gall anatomical contour, fine cross-hatching, stippled scales and sand, dry-brush reeds, subtle full-field fibrous vellum-like grain, and restrained mineral washes of pale rose, reed green, smoky violet, warm sand, muted madder, and a narrow faded-lapis shadow. Ancient, timeless, rough and polished at once; calm, spacious, and ethically attentive; naturalistic anatomy and period clothing; not photorealistic, not glossy CGI.\nHistorical and ethical framing: explicitly refuse ethnic or regional immunity, blame, stigma, hierarchy, and dehumanization. The people share equal vulnerability and agency; the animal is neither demonized nor made safe. This is not medical, venom, wildlife-handling, or travel advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: bite, strike, open fangs, venom drops, wound, swelling, suffering, death, gore, killing, ethnic costume stereotype, skin-color contrast as immunity code, outsider/local hierarchy, magical protection, halo, invisible barrier, ritual, antidote, medical treatment, handling advice, scorpion, second snake, repeated animal, hidden or extra human limbs, cropped anatomy, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c059-attempt-01-cropped-stone-reeds-and-occluded-feet.png",
+          "sha256": "7942a9a290ef2dae219e82dc473b7172a615734150bd6ec08bd8b21ca5f264a8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the viper's shade stone and tall reed wall crossed the left and top boundaries, the younger adult's feet were obscured by the marker, and an unintended water band introduced an unresolved water boundary. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-d50cb62e-bfc4-4fb3-9416-1a571ef3b50d",
+          "outputArtifact": "built-in-imagegen://exec-d50cb62e-bfc4-4fb3-9416-1a571ef3b50d.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only edge safety, foot visibility, and unintended water in Image 1, the Book VIII chapter 59 equal-observation scene. First, scale the same shade stone and the same single coiled viper together to about 70 percent of their current size and move them right and up so the entire stone silhouette, every snake coil, head, and tail tip are at least 100 pixels inside the left and bottom edges; preserve the snake's loose closed-mouth resting pose. Second, replace the cropped wall of reeds at the top-left with exactly two low complete rooted reed clumps behind the stone, each with every stalk and tip at least 90 pixels from the top and left edges. Third, move the plain marker and both laid-down staffs roughly 130 pixels down and left, still fully internal, so neither object overlaps either person's legs; reveal both complete lower legs and both sandal-clad feet on each of the two adults. Fourth, replace the unintended narrow water band behind the adults with seamless dry pale alluvial sand and low reed shadows; no visible water remains.\nInvariants: Preserve exactly one viper and exactly two adult people, all identities, faces, equal peer relationship, similar non-stereotyped garments, standing poses, hands, the one marker, exactly two staffs, dry Euphrates-bank setting, pale rose sky, broad negative space, light, palette, iron-gall contour, cross-hatching, stipple, dry-brush texture, and fibrous grain. Nobody approaches, handles, steps on, kills, or is bitten by the snake. No other animal or person.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: stone, snake, reed, person, foot, marker, or staff touching an edge; hidden feet; visible water; bite; strike; venom; wound; suffering; ethnic stereotype; hierarchy; magical protection; second snake; scorpion; text; letters; captions; labels; numerals; pseudo-writing; signatures; logos; watermarks; border; frame; visible page; panels; inset; montage; collage; split scene; modern objects; photorealism; glossy CGI.",
+          "editSourceArtifactId": "exec-e533152b-a84b-4c3c-95c6-58bafc8dfaea",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c059.png",
+          "sha256": "ad93ae483b914feee013b42a653e151aa40f87bf4153eca4b1a69519d805b9c2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The small Levantine viper is a plausible illustrative species, not a secure identification. The image explicitly refuses ethnicity- or region-selective immunity, blame and hierarchy; it is not venom, medical, handling, or travel advice.",
+      "visualQaNotes": "Inspected at original resolution after one framing and equality correction. Exactly one complete resting viper, its full shade stone and two complete reed clumps are internal. Exactly two complete adults stand as peers at equal distance with both hands, legs and sandal-clad feet visible; the marker and exactly two staffs no longer overlap them. No water, bite, strike, wound, ethnicity code, hierarchy, magical protection, other animal, text, pseudo-writing, signature, page, frame, panel, montage, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e533152b-a84b-4c3c-95c6-58bafc8dfaea.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-07/evidence/history/b08-c059-attempt-01-cropped-stone-reeds-and-occluded-feet.png",
+          "sha256": "7942a9a290ef2dae219e82dc473b7172a615734150bd6ec08bd8b21ca5f264a8",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 59.\nPrimary subject and action: Treat the chapter's claim of snakes or scorpions selectively harming natives or strangers as transmitted ancient testimony, not biological fact. On a dry reed-fringed Euphrates alluvial bank, show exactly one complete small adult Levantine viper resting in a natural loose coil beneath the shade of one fully visible low stone; its head is down, mouth closed, body unwounded, and entire tail visible. Several body lengths away, exactly two complete adult people stand side-by-side as peers behind one low plain stone marker. They wear similar practical undyed Roman-era Levantine travel garments with small individual differences in age and color, but neither person is labeled, exoticized, ranked, or visually assigned as native or stranger. Both have complete heads, neutral faces, hands, garments, legs, and sandal-clad feet visible; both look calmly toward the animal from the same distance. Their two complete walking staffs lie together horizontally on the ground. Nobody approaches, handles, steps on, kills, or is bitten by the snake. No other animal or person.\nComposition: one continuous low ground-level scene. The small complete viper and its complete shade stone occupy the lower-left interior; a broad band of pale sand and reed-shadow negative space leads to the two standing adults in the upper-right middle ground. Keep every snake scale silhouette, head, tail tip, stone edge, reed tip, human head, hand, foot, staff end, and marker at least 90 pixels inside every canvas edge. All reeds form complete rooted clumps wholly inside the field. Only continuous sky and distant dry ground may reach the boundaries.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: exact iron-gall anatomical contour, fine cross-hatching, stippled scales and sand, dry-brush reeds, subtle full-field fibrous vellum-like grain, and restrained mineral washes of pale rose, reed green, smoky violet, warm sand, muted madder, and a narrow faded-lapis shadow. Ancient, timeless, rough and polished at once; calm, spacious, and ethically attentive; naturalistic anatomy and period clothing; not photorealistic, not glossy CGI.\nHistorical and ethical framing: explicitly refuse ethnic or regional immunity, blame, stigma, hierarchy, and dehumanization. The people share equal vulnerability and agency; the animal is neither demonized nor made safe. This is not medical, venom, wildlife-handling, or travel advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: bite, strike, open fangs, venom drops, wound, swelling, suffering, death, gore, killing, ethnic costume stereotype, skin-color contrast as immunity code, outsider/local hierarchy, magical protection, halo, invisible barrier, ritual, antidote, medical treatment, handling advice, scorpion, second snake, repeated animal, hidden or extra human limbs, cropped anatomy, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the viper's shade stone and tall reed wall crossed the left and top boundaries, the younger adult's feet were obscured by the marker, and an unintended water band introduced an unresolved water boundary. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 683,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "8:52": {
+        "nearestMAD": 23.39,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c020.png",
+        "madAtDHashPeer": 42.73
+      },
+      "8:53": {
+        "nearestMAD": 23.56,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c032.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png",
+        "madAtDHashPeer": 128.93
+      },
+      "8:54": {
+        "nearestMAD": 22.75,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c002.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c012.png",
+        "madAtDHashPeer": 31.48
+      },
+      "8:55": {
+        "nearestMAD": 30.58,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c085.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c070.png",
+        "madAtDHashPeer": 41.59
+      },
+      "8:56": {
+        "nearestMAD": 26.73,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c023.png",
+        "madAtDHashPeer": 32.95
+      },
+      "8:57": {
+        "nearestMAD": 39.53,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c027.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b16-c044.png",
+        "madAtDHashPeer": 61.24
+      },
+      "8:58": {
+        "nearestMAD": 21.24,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c014.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-06/b08-c045.png",
+        "madAtDHashPeer": 35.93
+      },
+      "8:59": {
+        "nearestMAD": 20.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c014.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c014.png",
+        "madAtDHashPeer": 49.75
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "8:52",
+      "8:53",
+      "8:54",
+      "8:55",
+      "8:56",
+      "8:57",
+      "8:58",
+      "8:59"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 16,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 8,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  }
+}

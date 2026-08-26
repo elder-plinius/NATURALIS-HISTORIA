@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-07",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from built-in ImageGen completion records. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "sha256": "1a168b76f17c18bd7c7c630831fe36dbfe7da17b0b1db68f62e549c22b0c6849"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "sha256": "5fb4720a9f6695614a151734c7476b41a6c223efb0fbcfb52e96f47924160385"
+    }
+  ],
+  "corpusGroundingNote": "Complete Latin and English entries were read for Book XXVI chapters 12-15 and Book XXVII chapters 1-4. Plant remedies for injury, hemorrhage and reproductive health, poison claims, animal harm, mythic origins, imperial praise, uncertain plant identities and miraculous efficacy are treated as transmitted ancient history, never modern medicine, toxicology, gender truth, supernatural fact, imperial endorsement or actionable guidance. Images avoid patients, exposed bodies, injury, bodily fluids, pregnancy, children, administration, dose, harvesting and harm.",
+  "assignments": [
+    "26:12",
+    "26:13",
+    "26:14",
+    "26:15",
+    "27:1",
+    "27:2",
+    "27:3",
+    "27:4"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-07",
+    "preGenerationRecheckCompleted": true,
+    "selectedKeys": [
+      "26:12",
+      "26:13",
+      "26:14",
+      "26:15",
+      "27:1",
+      "27:2",
+      "27:3",
+      "27:4"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "preGenerationExternalReceiptCount": 108,
+    "preGenerationNonEvidenceMasterKeyCount": 847,
+    "preGenerationAvailableCandidateCountAfterActiveExclusions": 113,
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "certificationReceiptsCheckedExcludingThisCampaign": 112,
+    "certificationExternalReceiptOwners": [],
+    "certificationExternalMasterCollisions": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13,
+    "independentCalls": true
+  },
+  "byteIdentityValidation": {
+    "method": "direct byte-buffer equality against each built-in original",
+    "acceptedArtifactsChecked": 8,
+    "rejectedArtifactsChecked": 5,
+    "allChecksPassed": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "26:12",
+      "title": "REMEDIES FOR SPRAINS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c012.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "74b482f5fb02be4e6d955acc6cacfcaeeeeda4d8b825b6fc8f23122b0c99159b",
+        "englishSha256": "1d5250abd999c1dcb5be101fb5464cdbe5a3ca1e6957db83fd49f7a0435d17d1",
+        "latinWords": 475,
+        "englishWords": 952
+      },
+      "sha256": "2e2d8bcad175606d3e41efdc78d43893ac1d6abfa338fbb70492743f200f283c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a02c2af0-cc73-43d5-b9ae-5c4bbd2dfb5f",
+      "generationArtifactId": "exec-a02c2af0-cc73-43d5-b9ae-5c4bbd2dfb5f",
+      "outputArtifact": "built-in-imagegen://exec-a02c2af0-cc73-43d5-b9ae-5c4bbd2dfb5f.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVI chapter 12, “Remedies for Sprains,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat the long catalogue of plant remedies for sprains, jaundice, boils, wounds, burns, spasms and bleeding as transmitted ancient medical history, never modern advice or proof of efficacy. Show one continuous, empty Roman palaestra courtyard after exercise, viewed from a high oblique angle. On broad sun-warmed pale terracotta paving, arrange exactly FIVE complete, separated focal subjects as a quiet historical-naturalist still life: exactly ONE complete untied brown leather sandal with every strap visible; exactly ONE complete small bronze discus; exactly ONE compact living polypody fern colony growing from a shallow crack; exactly ONE complete broadleaf plantain rosette; and exactly ONE complete young mullein plant with one upright golden flower spike. The three plant taxa grow naturally from three separate pockets of soil and are not cut, crushed, mixed, harvested, prepared, applied, or consumed. No person, patient, injury, swelling, wound, blood, bandage, treatment, vessel, tool, measurement, fire, medicine preparation, or demonstration. The empty sandal and discus merely suggest the exercise setting, not an injured wearer. Keep every strap, leaf, fern tip, flower, soil pocket, discus, and all five discrete subjects at least a generous visual margin inside every canvas edge. Only the continuous paving and plain ochre plaster background may continue through the edges. Composition: airy top-down diagonal rhythm, sandal at lower-left, small discus near upper center, three botanicals arcing through the right half, abundant warm paving negative space; restrained palette of sun-baked coral, ochre, celadon, fern green, dull bronze, and tiny gold. Style/materiality: original Plinian natural-history folio rendered directly as one freestanding scene on subtly fibrous aged vellum, iron-gall contours, fine cross-hatching and stipple, egg tempera and mineral pigments; ancient, timeless, tactile, beautiful, rough and polished at once, naturalistic plant morphology and materials. Absolutely no text, letters, numerals, labels, caption, inscription, glyphs, pseudo-writing, signature, watermark, logo, page, page edge, border, frame, rim, decorative corners, vignette, rounded corners, panel, diptych, triptych, split scene, collage, inset, specimen chart, diagram, map, modern object, water, clipped discrete object, or focal subject touching an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a02c2af0-cc73-43d5-b9ae-5c4bbd2dfb5f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete untied leather sandal, one complete bronze discus, one compact polypody colony, one complete broadleaf plantain rosette and one complete young mullein with a golden flower spike. Every strap, leaf, tip, soil pocket and object is internally framed; there is no person, injury, treatment, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The chapter's remedies for sprains, jaundice, boils, wounds, burns, spasms and bleeding are treated as transmitted ancient medical history. An empty exercise courtyard and intact living plants avoid a patient, diagnosis, application, dosage, procedure or promised effect.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:13",
+      "title": "HIPPURIS, OTHERWISE CALLED EPHEDRON, ANABASIS, OB EQUISÆTUM; THREE KINDS OF IT: EIGHTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c013.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "71b016d45baea6e8b65aa5d0b45242c2211b4f8cf2ceed88665a0ecff6a5d8e1",
+        "englishSha256": "ac579f770c41b9202de35d9d53000f0d42550472e7764eb4042195e91a865668",
+        "latinWords": 372,
+        "englishWords": 731
+      },
+      "sha256": "32e23627cbb74f37425dd1b090dd2ff2c8e13aef8b6f97cbdf58b68333a97836",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-47428eb8-be99-4d56-8c14-2ebf2b31d252",
+      "generationArtifactId": "exec-47428eb8-be99-4d56-8c14-2ebf2b31d252",
+      "outputArtifact": "built-in-imagegen://exec-47428eb8-be99-4d56-8c14-2ebf2b31d252.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVI chapter 13, on hippuris/equisetum, exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat Pliny’s conflicting descriptions and numerous claims about horsetail, bleeding, wounds, falls and disease as transmitted ancient botanical-medical history, never modern medicine, dosage, treatment, or proof of efficacy. Show one continuous cool dawn meadow on a dry limestone upland. At right-center grows exactly ONE complete dense living clump of common horsetail/equisetum: many naturally jointed upright green stems, regular dark nodes, fine whorled side branches, all emerging from one compact soil patch, with every stem tip and branch fully visible and safely internal. At left, exactly ONE fully clothed adult Roman runner in a simple knee-length pale-grey training tunic and sandals stands at a respectful distance, complete from head through both feet, hands empty and loosely clasped behind the back, calmly observing the unusual plant without touching, cutting, preparing, applying, drinking, or collecting it. The runner is healthy and uninjured. No other person, horse, animal, plant specimen, vessel, tool, food, liquid, medicine, blood, wound, parasite, symptom, fall, treatment, experiment, or supernatural effect. Background is only continuous low meadow grass, chalk-white stones, a misty mauve slope, and pale sky; no discrete tree, bush, building, or prop. Keep the complete runner, both hands and feet, the entire horsetail clump, all stem tips, soil patch, and every focal subject at least a generous visual margin inside the canvas. Composition: low lateral view, observer isolated left and botanical clump right with a wide band of empty misty ground between; cool celadon, chalk, smoky violet, lampblack nodes, and a restrained saffron belt accent; quiet and analytical rather than clinical. Style/materiality: original Plinian natural-history folio, iron-gall contours, exact fine cross-hatching and stipple, lightly abraded fibrous vellum, restrained egg tempera and mineral pigment, ancient, timeless, beautiful, rough and polished at once, natural human and botanical anatomy. This is one freestanding scene, not a page. Absolutely no text, letters, numerals, labels, caption, inscription, glyphs, pseudo-writing, signature, watermark, logo, page edge, border, frame, rim, decorative corners, vignette, rounded corners, panel, diptych, triptych, split scene, collage, inset, specimen chart, diagram, modern object, water, clipped subject, or discrete subject touching any canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-47428eb8-be99-4d56-8c14-2ebf2b31d252",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete healthy fully clothed runner and one complete dense horsetail/equisetum clump, separated by broad misty ground. The runner's hands and feet and all horsetail stems remain internal; there is no contact, cutting, remedy preparation, wound, blood, parasite, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Pliny's conflicting identifications and claims about horsetail, hemorrhage, wounds, falls and disease are recorded as transmitted botanical-medical history, not modern efficacy, dosage or treatment guidance. The healthy observer studies without collecting or using the plant.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:14",
+      "title": "REMEDIES FOR ULCERS AND WOUNDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c014.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "aa5d4ab6779c77703773d62f2cab87c7296e6492f9f3d93e5d8f34e0323cae9f",
+        "englishSha256": "e02919a8ea989405f04a92aab2a256972d11629e1c3a69f310e1f2c719a0d885",
+        "latinWords": 597,
+        "englishWords": 1179
+      },
+      "sha256": "3bd3b2dc5a974a4959ca0f21e1c7fe0eb4f278af4e55b57e95726c31557e025c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f71b3291-975a-44e9-a73f-acb447317219",
+      "generationArtifactId": "exec-f71b3291-975a-44e9-a73f-acb447317219",
+      "outputArtifact": "built-in-imagegen://exec-f71b3291-975a-44e9-a73f-acb447317219.png",
+      "exactFinalPrompt": "Create a completely new independent replacement for Pliny the Elder, Naturalis Historia Book XXVI chapter 14, “Remedies for Ulcers and Wounds,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat every remedy, injury and weapon-extraction claim as transmitted ancient history, never medical advice, treatment instruction, or proof. Make the value structure decisively HIGH-KEY and luminous, unlike a dark basalt still life. One continuous midday Roman training garden, viewed from a very low eye-level angle across an expanse of pale turquoise-blue limewashed paving toward a warm ivory wall and clear yellow-white sky. Exactly FIVE complete separated focal subjects: at far left exactly ONE complete plain undecorated round bronze practice shield standing upright and leaning gently against the continuous wall, its full circular rim visible with clear air around it; across the lower foreground exactly ONE complete harmless blunted wooden practice arrow lying horizontally, fully visible from rounded blunt tip to feathered end; behind it grow exactly ONE complete greater-centaury clump with small rose-red flowers, exactly ONE complete low silver dittany clump with soft grey leaves and pale blossoms, and exactly ONE complete broadleaf plantain rosette, each in its own small soil pocket and widely spaced across the middle-right. No other shield, arrow, weapon, plant specimen, pot, person, animal, vessel, bandage, tool, food, liquid, medicine, injury, exposed body, wound, blood, pus, scar, pain, treatment, preparation, application, extraction, dosage, or demonstration. Historical exercise objects only, no violence. Keep every part of the shield and rim, arrow, feathers, rounded tip, leaves, flowers and soil pockets at least a conspicuous margin within all canvas edges. Only continuous paving, wall and sky may pass through edges. Composition: unusually low horizontal frieze-like spatial view but one real continuous courtyard, large glowing yellow-white sky, shield small at far left, arrow spanning the lower middle, three plants creating a loose staggered rhythm at right; pale turquoise, ivory, lemon light, rose, silvery green, ochre bronze. Original Plinian natural-history folio materiality: iron-gall contour, fine cross-hatching and stipple, egg tempera and mineral pigments on subtly fibrous aged vellum, ancient, timeless, beautiful, tactile, rough and polished at once. Not a page, panel, chart, collage or fresco fragment. Absolutely no text, letters, numerals, labels, caption, inscription, pseudo-writing, glyphs, emblem, signature, watermark, logo, border, overall frame, page edge, decorative corners, vignette, rounded corners, split scene, diptych, triptych, inset, diagram, modern object, water, clipped discrete subject, or focal subject touching an edge.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-00b4afd1-bf53-4151-a534-be093810b929",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-f71b3291-975a-44e9-a73f-acb447317219",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found one complete undecorated upright bronze practice shield, one complete harmless blunted practice arrow, and three complete separated botanicals—greater centaury, silver dittany and broadleaf plantain—in a high-key turquoise courtyard. All rims, tips, feathers, leaves and flowers are internal; there is no injured person, procedure, blood, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The catalogue of ulcer, wound, burn and weapon-extraction remedies is treated as transmitted medical history rather than care instructions. Empty training objects provide nonviolent context while living plants remain unprepared and unused.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-00b4afd1-bf53-4151-a534-be093810b929",
+          "outputArtifact": "built-in-imagegen://exec-00b4afd1-bf53-4151-a534-be093810b929.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/evidence/history/b26-c014-reject-01-global-mad-14.77.png",
+          "sha256": "84d0a2615be722b1fab07e175e85d14849c172d6949443c8e8619e59f1ff9ba5",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVI chapter 14, “Remedies for Ulcers and Wounds,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat the chapter’s extensive claims about wounds, ulcers, arrows, burns and plants as transmitted ancient medical history, never modern treatment, instructions, or proof of efficacy. Make one continuous quiet Roman courtyard scene after a military training exercise, with NO injured person and no procedure. On a broad continuous charcoal-black basalt paving field, place exactly FIVE complete and widely separated focal subjects: exactly ONE complete plain undecorated round bronze practice shield lying flat at lower-left, entirely visible including its circular rim; exactly ONE complete blunted wooden practice arrow lying diagonally several handspans away from the shield, unbroken and harmless; exactly ONE complete flowering greater-centaury clump rooted in a compact soil pocket at upper center; exactly ONE complete low dittany clump with soft grey-green leaves and small rose flowers at mid-right; and exactly ONE complete broadleaf plantain rosette at lower-right. No other weapon, plant specimen, person, animal, vessel, bandage, tool, food, liquid, medicine, injury, exposed skin, wound, blood, pus, scar, corpse, pain, treatment, preparation, application, extraction, dosage, or demonstration. The shield and blunted practice arrow are historical context only, not violence. Keep the complete shield, its entire rim, the whole arrow from blunt tip to feathered end, all leaves, roots, flower tips, and soil pockets conspicuously inside all four canvas edges. Only the continuous basalt paving and a plain deep-cinnabar plaster wall may extend through edges. Composition: steep oblique view with shield low-left, slender arrow leading toward an arc of three botanicals on the right, large areas of near-black paving as negative space; palette of charcoal, oxidized bronze, deep cinnabar, silvery green, dusty rose, cream, and restrained verdigris. Style/materiality: original Plinian natural-history folio, iron-gall contours, fine cross-hatching and stipple, egg tempera and mineral pigments over subtly fibrous aged vellum, ancient and timeless, beautiful, tactile, rough and polished at once, botanically plausible. One freestanding continuous scene, never a page or specimen chart. Absolutely no text, letters, numerals, labels, caption, inscription, glyphs, pseudo-writing, emblem, signature, watermark, logo, page edge, border, frame, rim around the overall image, decorative corners, vignette, rounded corners, panel, diptych, triptych, split scene, collage, inset, diagram, modern object, water, clipping, or discrete subject touching a canvas edge.",
+          "editLineage": [],
+          "reason": "The first native-clean dark basalt still life scored global nearest-neighbor MAD 14.77 against the same campaign's initial 27:2 candidate, below the permanent 20.00 threshold."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:15",
+      "title": "REMEDIES FOR FEMALE DISEASES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c015.png",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "55e5548cb89463ea6eabc3f6398a9ab85e67fbc4a5ab75b12bcad9840309906a",
+        "englishSha256": "fa270940668b21ba7a1ee0f489d795e8af2fa5b0bfe082c7434d01113eb7f8db",
+        "latinWords": 786,
+        "englishWords": 1580
+      },
+      "sha256": "72c53ec63b505d4da8c5f8022522bf7b58a9fdb1b5fa221547f9c07b69b7899c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0faeba37-8c22-4cc9-a28a-1efa05ec545b",
+      "generationArtifactId": "exec-0faeba37-8c22-4cc9-a28a-1efa05ec545b",
+      "outputArtifact": "built-in-imagegen://exec-0faeba37-8c22-4cc9-a28a-1efa05ec545b.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVI chapter 15, “Remedies for Female Diseases,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat the chapter’s reproductive, menstrual, childbirth, sex-selection, cosmetic and veterinary claims as transmitted ancient medical history, never modern medicine, reproductive advice, gender truth, or proof of efficacy. Center intellectual dignity and bodily privacy. In one continuous luminous Roman garden court, show exactly ONE adult Roman woman botanist standing alone, fully clothed in a floor-length plum-purple stola over a cream tunic, complete from head through both sandaled feet. She is healthy, calm, authoritative, and neither pregnant nor presented as a patient. Her two anatomically correct empty hands rest loosely together at waist height; she looks thoughtfully across the garden without touching anything. At a generous distance in front of her grow exactly TWO complete, separate living botanical subjects: exactly ONE feathery silver-green artemisia clump at lower-left, and exactly ONE herbaceous peony plant at lower-right with deep green divided leaves, two open madder-red flowers, and one closed dark seed pod. No other discrete plant or flower. No healer, child, infant, partner, attendant, patient, exposed body, pregnancy, childbirth, fetus, sex selection, breast or genital emphasis, pain, symptom, blood, bodily fluid, wound, procedure, treatment, fumigation, pessary, food, drink, vessel, tool, harvest, preparation, dose, application, cosmetic act, amulet, or magical effect. Background is only continuous pale rose limestone paving, a plain low celadon wall, and a broad warm ivory sky. Keep the complete woman, hair, hands, garment hem, both feet, and every leaf, flower, pod, root-zone, and discrete subject safely inside the canvas with ample breathing room. Composition: woman high-left in stately three-quarter profile, two low botanical masses spaced across the foreground, broad luminous sky and paving negative space, graceful triangular balance; plum, cream, celadon, madder, rose stone, and restrained gold. Style/materiality: original Plinian natural-history folio, precise iron-gall contours, fine cross-hatching and stipple, subtly abraded fibrous vellum, restrained egg tempera and mineral pigment; ancient, timeless, beautiful, tactile, rough and polished at once, natural human anatomy and botanical morphology. One freestanding continuous scene, not a page. Absolutely no text, letters, numerals, label, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, page edge, border, frame, rim, decorative corner, vignette, rounded corners, panel, split scene, diptych, triptych, collage, inset, chart, diagram, modern object, water, clipping, or discrete subject touching any canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-0faeba37-8c22-4cc9-a28a-1efa05ec545b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete fully clothed adult woman botanist of calm authority, one complete silver-green artemisia clump and one complete peony with two open flowers and one closed pod. Hands, feet, garments and all botanical tips are internal; there is no pregnancy, patient, procedure, bodily fluid, treatment, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Reproductive, menstrual, childbirth, sex-selection, cosmetic and veterinary claims are treated as ancient history rather than medicine or gender truth. The adult woman appears as an intellectual agent, never a patient or reproductive spectacle, and no remedy use is shown.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:1",
+      "title": "RESEARCHES OF THE ANCIENTS UPON THIS SUBJECT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b27-c001.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "510ee68a73331b42d699874c8fcea744c45b5edd04e97a21759088d11156e45a",
+        "englishSha256": "50ebdc420d0d72ee67823ae7c7602a4ae34a013c7a66073dfae43b4f45dbde41",
+        "latinWords": 158,
+        "englishWords": 376
+      },
+      "sha256": "50abd72598df8952652180739e3ed22163fb4eda3913f6645f0e354d1a80861f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f338c019-8b12-4ea9-a980-75b96237a6d0",
+      "generationArtifactId": "exec-f338c019-8b12-4ea9-a980-75b96237a6d0",
+      "outputArtifact": "built-in-imagegen://exec-f338c019-8b12-4ea9-a980-75b96237a6d0.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVII chapter 1, “Researches of the Ancients upon this Subject,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. The passage marvels at plants reportedly carried from Scythia, Mount Atlas, oceanic Britain and Ethiopia into Roman knowledge. Present this as transmitted ancient intellectual and trade history, not divine fact, imperial endorsement, medical advice, or a claim that uncertain ancient names map cleanly to modern species. Show one continuous sunlit Mediterranean depot courtyard with NO people and no map. On broad ivory limestone paving, arrange exactly FOUR complete plain unmarked terracotta pots in a spacious asymmetric crescent, each entirely visible including rim and base and each holding one distinct complete living plant specimen: pot one contains a low silver-blue coastal herb; pot two contains an upright reddish euphorbia-like succulent with no cut or leaking sap; pot three contains a broad green dock-like rosette with one soft yellow flower stem; pot four contains a tall hairy grey-green aethiopis-like plant with a square-looking stem and cream seed clusters. These are unlabelled historical evocations, not definitive identifications. Behind and apart from the pots stands exactly ONE complete closed weathered cedar travel chest, plain and undecorated, with no contents visible. No other pot, plant, crate, vessel, person, animal, vehicle, tool, coin, cargo, remedy, food, liquid, harvest, cutting, preparation, application, treatment, medical act, imperial insignia, triumph, hierarchy, worship, globe, or route marker. Keep every pot, base, rim, leaf, thorn, stem, seed cluster, chest, hinge and discrete subject conspicuously inside all canvas edges. Only the continuous paving, a plain pale lapis plaster wall, and high clear sky may extend through the edges. Composition: wide elevated three-quarter view, four warm pots forming a loose arc from low-left toward right, small closed chest set back upper-left, abundant pale-blue wall and ivory paving negative space; lapis, sun-bleached ivory, terracotta, silver-blue, celadon, cream and restrained rust. Style/materiality: original Plinian natural-history folio, precise iron-gall linework, fine cross-hatching and stipple, restrained egg tempera and mineral pigments on subtly fibrous aged vellum; ancient, timeless, beautiful, tactile, rough and polished at once, natural botanical and ceramic material detail. One freestanding continuous scene, not a page. Absolutely no text, letters, numerals, labels, caption, inscription, glyphs, pseudo-writing, signature, watermark, logo, page, border, frame, rim around the whole image, decorative corner, vignette, rounded corners, panel, diptych, triptych, split scene, collage, inset, map, chart, diagram, modern object, water, clipped subject, or discrete subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f338c019-8b12-4ea9-a980-75b96237a6d0",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly four complete unmarked terracotta pots containing four distinct complete living historical plant evocations, plus exactly one complete closed cedar travel chest. Every pot, base, rim, plant tip and chest is internal; there is no person, map, imperial insignia, remedy use, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The passage's reports of plants arriving from Scythia, Atlas, Britain and Ethiopia are presented as ancient exchange history without endorsing Roman imperial triumphalism, divine inspiration or definitive modern species mappings. Unlabelled living specimens avoid false precision.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:2",
+      "title": "ACONITE, OTHERWISE CALLED THELYPHONON, CAMMARON, PARDALIANCHES, OR SCORPIO; FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b27-c002.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "e0a58b2dd4b244cf6e1b93755c72f5d160cb82e82e207a67ccc7d39c2ac3d639",
+        "englishSha256": "95c09c5eba11f71e98ee591c7990235a067d47e988283dd740d112c8ca3058f0",
+        "latinWords": 227,
+        "englishWords": 547
+      },
+      "sha256": "8e0da85de539250a80729b2fce5598157a60a43d3b9ec07f072832a36321e45f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c18bb387-00ec-4edf-ad6a-1e8709845e06",
+      "generationArtifactId": "exec-c18bb387-00ec-4edf-ad6a-1e8709845e06",
+      "outputArtifact": "built-in-imagegen://exec-c18bb387-00ec-4edf-ad6a-1e8709845e06.png",
+      "exactFinalPrompt": "Create another completely new independent replacement for Pliny the Elder, Naturalis Historia Book XXVII chapter 2, concerning aconite, exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat poisonings, animal harm, mythic origin and alleged antidotal use as transmitted ancient testimony, never poison-making instruction, medical advice, verified toxicology, pest control, or supernatural fact. Use a steep elevated three-quarter view of one continuous sunlit Roman botanical court paved in broad matte malachite-green and faded lapis-blue stone fields, with no person. At center stands exactly ONE complete LOW CIRCULAR bronze mesh safety cloche: a continuous heavy base ring firmly fixed to the paving, vertical fine lattice sides, and a clearly visible CLOSED HEMISPHERICAL DOMED LATTICE ROOF that curves over and fully seals the top. The dome has exactly one small bronze finial and NO opening, hatch or doorway visible. The complete cloche is small, occupies less than one third of the canvas width and height, and every side, base and roof surface is unambiguously present. Safely inside it grows exactly ONE complete small flowering aconite clump with divided dark-green leaves and restrained hooded violet flowers, separated from every metal surface. No other enclosure, plant, person, animal, scorpion, panther, dog, mouse, meat, food, excrement, poison preparation, wine, cup, vessel, tool, key, cutting, harvest, ingestion, application, dose, remedy, patient, symptom, death, suffering, trap, supernatural being, portal, aura, glow, smoke or flame. Keep the complete sealed cloche, base ring, all mesh, roof finial, every leaf and flower at least 200 pixels from every canvas edge. Only continuous colored paving may pass through boundaries. Composition: compact sealed dome slightly below center within an immense field of diagonal malachite and lapis paving, radical scale contrast and broad saturated negative space; no surrounding circular ornament. Palette: malachite, lapis, oxidized bronze, violet, deep green, lampblack, chalk highlights. Original Plinian natural-history folio materiality: iron-gall contours, fine cross-hatching and stipple, abraded egg tempera and mineral pigments over subtly fibrous aged vellum, ancient, timeless, beautiful, rough and polished at once. One continuous freestanding scene, not a page, panel, chart, map or collage. Absolutely no text, letters, numerals, label, warning sign, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, border, outer frame, page edge, decorative corner, vignette, rounded corners, split scene, diptych, triptych, inset, diagram, modern object, water, clipping, or discrete subject touching a canvas edge.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a3a01408-2f0f-48a6-aebd-0ca8f55af9cc",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-47587332-f54b-45e5-92a0-98c957c6fe19",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-c18bb387-00ec-4edf-ad6a-1e8709845e06",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete small aconite clump fully sealed inside exactly one complete circular bronze mesh cloche with continuous base, closed sides, closed hemispherical roof and one finial. The entire containment structure and plant are far inside the canvas; there is no person, animal, poison use, handling, medical act, supernatural effect, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Poisonings, animal harm, mythic origin and alleged antidotal effects are treated as transmitted testimony, not toxicology, medicine, pest control or magic. A physically closed safety enclosure substitutes for every harmful or actionable episode.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a3a01408-2f0f-48a6-aebd-0ca8f55af9cc",
+          "outputArtifact": "built-in-imagegen://exec-a3a01408-2f0f-48a6-aebd-0ca8f55af9cc.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/evidence/history/b27-c002-reject-01-global-mad-14.77.png",
+          "sha256": "7d66e8e11d0fe6b589ab9cc10f634692a644d30718e53f0bf902657f70a73ff4",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVII chapter 2, concerning aconite, exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat the passage’s poisonings, animal harm, mythic origin and alleged antidotal uses as transmitted ancient testimony, not instruction, verified toxicology, magic, medicine, pest control, or animal-handling advice. Create one continuous dusk botanical court centered on safe separation. At right-center stands exactly ONE complete flowering aconite clump, botanically plausible with deeply divided dark-green leaves and upright stems bearing hooded violet-blue flowers. The entire plant grows inside exactly ONE complete freestanding bronze lattice safety enclosure with a closed latched door, visible floor frame, four posts, roof grid, and every structural part fully inside the canvas; the plant does not touch the enclosure. At far left stands exactly ONE fully clothed adult Roman naturalist in a long muted-umber cloak and pale tunic, complete from head through both sandaled feet, both anatomically correct empty hands folded calmly across the chest. The observer remains many steps from the locked enclosure and neither touches nor gestures toward it. No other person, animal, scorpion, panther, dog, mouse, food, meat, excrement, poison preparation, wine, cup, vessel, tool, key, cutting, harvesting, ingestion, application, dose, remedy, patient, symptom, death, body, violence, suffering, experiment, trap, supernatural creature, Cerberus, underworld portal, magical glow, aura, or dramatic peril. Keep the full naturalist, all fingers, feet, cloak edges, complete enclosure, every post and foot, latch, flower, leaf and plant tip comfortably internal with strong margins. Background is only continuous dark aubergine plaster, dry charcoal paving and a narrow muted dusk sky; no discrete architecture or vegetation. Composition: wide low eye-level view, small contemplative observer far left, large but fully contained geometric enclosure right, broad empty charcoal paving between; violet-blue, aubergine, aged bronze, deep green, umber and cold ivory. Style/materiality: original Plinian natural-history folio with iron-gall contours, fine cross-hatching and stipple, restrained egg tempera and mineral pigments on subtly aged fibrous vellum; ancient, timeless, beautiful, tactile, rough and polished at once, natural anatomy and convincing bronze. One continuous freestanding scene, not a page or panel. Absolutely no text, letters, numerals, label, warning sign, caption, inscription, pseudo-writing, glyph, emblem, signature, watermark, logo, page edge, border, frame around the overall image, decorative corners, vignette, rounded corners, split screen, diptych, triptych, collage, inset, specimen chart, diagram, modern object, water, clipping, or discrete subject touching a canvas edge.",
+          "editLineage": [],
+          "reason": "The first native-clean dark frontal safety-enclosure scene scored global nearest-neighbor MAD 14.77 against the same campaign's initial 26:14 still life, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-47587332-f54b-45e5-92a0-98c957c6fe19",
+          "outputArtifact": "built-in-imagegen://exec-47587332-f54b-45e5-92a0-98c957c6fe19.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/evidence/history/b27-c002-reject-02-open-top-enclosure.png",
+          "sha256": "de5bfbd694baa93ee60f6eef70cf7378e6410b3938e36faf4b4535030b15f07f",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create a completely new independent replacement for Pliny the Elder, Naturalis Historia Book XXVII chapter 2, concerning aconite, exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat poisonings, animal harm, mythic origin and alleged antidotal use as transmitted ancient testimony, never poison-making instruction, medical advice, pest control, verified toxicology, or supernatural fact. Make the composition and value pattern decisively different from a dark frontal cage scene: use a steep near-overhead view of one continuous sunlit Roman botanical court paved in broad matte MALACHITE-GREEN and faded LAPIS-BLUE stone fields, with no perimeter ornament and no people. At the exact center stands exactly ONE complete low OCTAGONAL bronze lattice safety enclosure, entirely visible including all eight short posts, its closed locked top grid, closed side gate, feet and continuous base. Inside, separated from every lattice bar, grows exactly ONE complete small flowering aconite clump with divided dark-green leaves and hooded violet flowers. The enclosure occupies less than one third of the canvas width and height and is surrounded on every side by a vast uninterrupted expanse of colored paving. No other plant, person, animal, scorpion, panther, dog, mouse, meat, food, excrement, poison, wine, cup, vessel, tool, key, cut specimen, harvest, ingestion, preparation, application, dose, remedy, patient, symptom, death, violence, suffering, trap, supernatural being, portal, aura, glow, smoke or flame. Keep the entire octagonal enclosure, every post and foot, all lattice, latch, plant leaves and flower tips at least 180 pixels from every canvas edge. Only the continuous colored paving may flow through the boundaries. Composition: radical overhead geometry, small complete octagonal bronze cage centered within asymmetrical weathered malachite and lapis paving bands, broad abstract-looking negative space that remains clearly physical stone ground; no surrounding ring or image border. Palette: saturated malachite, faded lapis, oxidized bronze, deep violet, lampblack and tiny chalk highlights. Original Plinian natural-history folio materiality: iron-gall contours, exact fine cross-hatching and stipple, abraded egg tempera and mineral pigments over subtly fibrous aged vellum, ancient, timeless, beautiful, rough and polished at once. One continuous freestanding scene, not a page, panel, chart, map or collage. Absolutely no text, letters, numerals, label, warning sign, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, page edge, border, outer frame, decorative corner, vignette, rounded corners, split scene, diptych, triptych, inset, diagram, modern object, water, clipping, or discrete subject touching a canvas edge.",
+          "editLineage": [],
+          "reason": "The first high-saturation replacement used a complete octagonal side enclosure but left its top visibly open, failing the explicit closed-containment safety requirement."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:3",
+      "title": "ACONITE, OTHERWISE CALLED THELYPHONON, CAMMARON, PARDALIANCHES, OR SCORPIO; FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b27-c003.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "8ee58c4fc232a01b6c66779d96650affac2ebe358fe3643f470ff4098c7f8d63",
+        "englishSha256": "5e773bbfc40578ae74b6b3026e5ca5b643bee7a172b1049f3954c0c7c628150b",
+        "latinWords": 174,
+        "englishWords": 370
+      },
+      "sha256": "a79bf24141a2b2de03962430bb2d3aed24af939af264c91a35606ca3b739bf6a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-df2cab04-e8e6-49ab-8fac-ec693d57a280",
+      "generationArtifactId": "exec-df2cab04-e8e6-49ab-8fac-ec693d57a280",
+      "outputArtifact": "built-in-imagegen://exec-df2cab04-e8e6-49ab-8fac-ec693d57a280.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVII chapter 3, the continued account and outward description of aconite, exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat Pliny’s etymologies, lethal claims and ancient attempt to recognize the plant as transmitted historical testimony, not poison-making guidance, medical instruction, verified toxicology, or supernatural fact. Show one continuous remote Pontic limestone crag from a steep elevated near-overhead viewpoint. In the lower-right quadrant, exactly ONE complete modest wild aconite clump grows from exactly ONE compact oval island of dark natural soil surrounded on all sides by a very broad field of bare chalk-white angular rock. The complete living plant is intact and unharvested: a few upright stems, divided dark-green leaves, and restrained hooded blue-violet flowers, every leaf and flower tip clearly visible yet not rendered as a clinical identification diagram. Its roots remain entirely underground and unseen. No second plant, person, animal, insect, tool, vessel, food, meat, poison, wine, medicine, patient, wound, body, death, handling, cutting, digging, sampling, preparation, application, dose, antidote, experiment, trap, sign, supernatural creature, underworld opening, magical effect, glow, smoke, or flame. The broad fractured stone is continuous terrain and may flow through the canvas edges; the complete soil island and every part of the single aconite clump must remain conspicuously internal, with at least a vast band of bare rock to every boundary. Composition: radical high-angle landscape with the tiny complete plant low-right, a long diagonal charcoal fissure passing far behind it, and immense chalk negative space across the upper-left; high-key bone white, cold grey, charcoal, deep green and one concentrated violet accent. Style/materiality: original Plinian natural-history folio, iron-gall contour and hairline cross-hatching, dry stipple, chalky egg tempera and mineral pigment over subtly abraded fibrous vellum; ancient, timeless, beautiful, austere, tactile, rough and polished at once. This is one continuous freestanding landscape, never a page, plate, specimen chart or panel. Absolutely no text, letters, numerals, labels, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, border, frame, page edge, decorative corner, vignette, rounded corners, split scene, diptych, triptych, collage, inset, diagram, map, modern object, water, clipped focal subject, or discrete subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-df2cab04-e8e6-49ab-8fac-ec693d57a280",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete modest aconite clump in one compact dark-soil island, isolated low-right within a vast continuous chalk-white crag. The plant, soil island, every leaf and flower are internal; roots remain unseen and there is no handling, animal, person, medicine, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Ancient etymologies, lethal claims and recognition language are treated as historical testimony rather than poison preparation, medical instruction or supernatural truth. A distant intact wild plant avoids harvesting, roots, dosage and actionable use.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:4",
+      "title": "ÆTHIOPIS: FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b27-c004.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "completeLatinRead": true,
+        "completeEnglishRead": true,
+        "latinSha256": "44af8a5673da17e3bf7add928bb579c001aac22fa51ddf58ed6fa80af2f738ad",
+        "englishSha256": "36a72efb2296b4b5377ce9f9e1ed7c5bcce4c85f2dbe9b925a88c5c952153816",
+        "latinWords": 1010,
+        "englishWords": 2028
+      },
+      "sha256": "607318a96a98e54cbe74b8d8ab924f64de0ccd1269653dc96a3a58e41954a39f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-49163a69-0f46-4906-8f6a-a9c0184a9aad",
+      "generationArtifactId": "exec-49163a69-0f46-4906-8f6a-a9c0184a9aad",
+      "outputArtifact": "built-in-imagegen://exec-49163a69-0f46-4906-8f6a-a9c0184a9aad.png",
+      "exactFinalPrompt": "Generate a new independent third candidate for Pliny the Elder, Naturalis Historia Book XXVII chapter 4, “Aethiopis: Four Remedies,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat all plant remedies as transmitted ancient botanical-medical history, never modern advice, dosage, reproductive guidance, or proof. Depict no medical use. One continuous twilight Messenian courtyard. At the exact center, exactly ONE complete modest-sized mature aethiopis-like plant grows from exactly ONE complete low oval pale-limestone garden basin. The combined plant plus basin must occupy NO MORE THAN 62 percent of the canvas height and 54 percent of its width. Leave at least 180 pixels of uninterrupted deep-indigo wall above the highest seed cluster, at least 130 pixels of dusty-mauve paving below the basin base, and at least 300 pixels of empty background to both left and right. The entire basin is visible from rim through base. The intact plant has one sturdy square-looking rough central stem, natural branches, a basal mass of large softly hairy silver-grey phlomis-like leaves, and restrained paired ivory seed clusters. Roots stay buried. No second plant, aloe, flower bed, person, animal, insect, pot, rack, basket, tool, vessel, liquid, wine, food, remedy, dose, drying, harvest, cutting, preparation, application, patient, pregnancy, wound, bodily fluid, treatment, miracle, smoke or fire. Background only: continuous matte deep-indigo plaster wall above and continuous dusty-mauve paving below with one simple physical wall-floor join, no ornament. Composition: strict frontal low eye-level view, a small solitary silver plant and pale oval basin floating in immense midnight-indigo negative space; midnight indigo, silver sage, ivory, dusty mauve, lampblack, muted gold. Original Plinian natural-history folio: iron-gall contours, fine cross-hatching and stipple, dry abrasion, restrained egg tempera and mineral pigment over subtly fibrous aged vellum, ancient, timeless, beautiful, tactile, rough and polished at once. One continuous freestanding scene, not a page, panel, specimen plate or collage. Absolutely no text, letters, numerals, labels, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, border, outer frame, page edge, decorative corner, vignette, rounded corners, split scene, diptych, triptych, inset, chart, diagram, modern object, water, clipping, or subject touching any edge.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d0a161a2-341c-405f-869f-3c4eab58a5f6",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-95a4590e-d065-4852-88bd-87adad85eab5",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-49163a69-0f46-4906-8f6a-a9c0184a9aad",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete modest silver-grey aethiopis-like plant in exactly one complete low oval limestone basin, centered against an indigo wall with large clear margins above, below and to both sides. Basin rim and base, all leaves, branches and seed clusters are internal; there is no harvesting, remedy use, person, water, text, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The extensive claims for aethiopis, aloe and other plants are treated as transmitted botanical-medical history, not modern treatment, dosage or reproductive advice. Only one intact, unharvested plant appears, with no patient or preparation.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d0a161a2-341c-405f-869f-3c4eab58a5f6",
+          "outputArtifact": "built-in-imagegen://exec-d0a161a2-341c-405f-869f-3c4eab58a5f6.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/evidence/history/b27-c004-reject-01-global-mad-18.75.png",
+          "sha256": "a194a0757faff56519ee9ea07168b02dc41abd7359fd11b884d4554a885f18cd",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene. Create one brand-new independent preservation master for Pliny the Elder, Naturalis Historia Book XXVII chapter 4, headed “Aethiopis: Four Remedies,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. The chapter proceeds through aethiopis, ageraton, aloe and many other plants with extensive ancient medical claims. Treat every claim as transmitted botanical-medical history, never modern treatment, dosage, reproductive advice, or proof of efficacy. Select only the chapter-opening aethiopis plant and show no medical use. Make one continuous low-angle autumn landscape on a dry Messenian hillside. Exactly ONE complete mature aethiopis-like plant stands alone at center-left, entirely visible from its compact ground crown to every seed tip. Give it one sturdy upright square-looking rough stem, several natural branches, a basal mass of large numerous softly hairy grey-green leaves resembling phlomis, and restrained paired cream-white seed clusters. Its roots remain underground and unseen; the plant is healthy, uncut and unharvested. No second focal plant, aloe, flower bed, person, animal, insect, pot, rack, basket, tool, knife, vessel, liquid, wine, remedy, food, dose, drying process, harvesting, preparation, application, patient, symptom, pregnancy, wound, bodily fluid, treatment, medical demonstration, miracle, hierarchy, or trade claim. Continuous low tawny hillside grass may texture the ground but must not form additional discrete plant specimens. A distant rose-violet Mount Ida-like ridge and a broad luminous turquoise-to-coral autumn sky provide the backdrop. Keep the entire single plant, every leaf, branch, seed cluster and soil crown comfortably inside all canvas edges with conspicuous sky and ground clearance; only continuous terrain, ridge and sky may cross edges. Composition: dramatic low viewpoint, solitary plant rising center-left against a huge coral-turquoise sky, distant ridge falling diagonally to the right, abundant atmospheric negative space; palette of smoky sage, cream, tawny ochre, rose-violet, turquoise and restrained copper. Style/materiality: original Plinian natural-history folio with precise iron-gall contours, very fine cross-hatching and stipple, dry-brush abrasion, restrained egg tempera and mineral pigments on subtly fibrous aged vellum; ancient, timeless, beautiful, tactile, rough and polished at once, botanically plausible rather than fantastical. One continuous freestanding landscape, not a page or specimen plate. Absolutely no text, letters, numerals, labels, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, border, frame, page edge, decorative corners, vignette, rounded corners, panel, split scene, diptych, triptych, collage, inset, chart, diagram, modern object, water, clipping, or discrete subject touching a canvas edge.",
+          "editLineage": [],
+          "reason": "The first native-clean coral mountain landscape scored global nearest-neighbor MAD 18.75 against assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c049.png, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-95a4590e-d065-4852-88bd-87adad85eab5",
+          "outputArtifact": "built-in-imagegen://exec-95a4590e-d065-4852-88bd-87adad85eab5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/evidence/history/b27-c004-reject-02-top-margin-below-120px.png",
+          "sha256": "769f30ac7c92c28d8577012bc429a3492b61a9b96d5935632d4d1a686021f465",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create a completely new independent replacement for Pliny the Elder, Naturalis Historia Book XXVII chapter 4, headed “Aethiopis: Four Remedies,” exactly 1536×1024 landscape, fully opaque RGB/sRGB. Treat the long catalogue of aethiopis, aloe and other plant remedies as transmitted ancient botanical-medical history, never modern treatment, dosage, reproductive advice, or proof. Select only the opening aethiopis plant and depict no medical use. Make a one-scene twilight Messenian courtyard with a radically different value structure from a coral mountain sunset. Exactly ONE complete mature aethiopis-like plant grows alone from exactly ONE complete low OVAL pale-limestone garden basin at center. Show the entire basin from rim through base with generous space below it. The plant is fully intact from ground crown to every seed tip: one sturdy square-looking rough stem, natural branches, a basal mass of large numerous softly hairy silver-grey leaves resembling phlomis, and restrained paired ivory seed clusters. Roots remain buried and unseen. The basin contains only dark soil and this one plant. No second plant, aloe, flower bed, person, animal, insect, pot, rack, basket, tool, vessel, liquid, wine, food, remedy, dose, drying, harvesting, cutting, preparation, application, patient, pregnancy, wound, bodily fluid, treatment, miracle, trade claim, smoke or fire. Background consists only of a continuous matte DEEP-INDIGO plaster wall and continuous dusty mauve paving meeting in a clean physical horizon line, with no ornament or discrete architecture. Keep the complete basin, rim, base, entire plant, every leaf, branch, and seed tip at least 120 pixels inside every edge. Composition: strict frontal low eye-level view, solitary silver plant rising from a pale horizontal oval against an immense deep-indigo wall, strong centered stillness and large dark negative space; palette of midnight indigo, silver sage, ivory limestone, dusty mauve, lampblack and tiny muted gold. Original Plinian natural-history folio materiality: iron-gall contours, precise fine cross-hatching and stipple, dry-brush abrasion, restrained egg tempera and mineral pigment on subtly fibrous aged vellum; ancient, timeless, beautiful, tactile, rough and polished at once, botanically plausible. One continuous freestanding scene, not a page, panel, specimen plate or collage. Absolutely no text, letters, numerals, labels, caption, inscription, pseudo-writing, glyph, signature, watermark, logo, border, outer frame, page edge, decorative corners, vignette, rounded corners, split scene, diptych, triptych, inset, chart, diagram, modern object, water, clipping, or discrete subject touching a canvas edge.",
+          "editLineage": [],
+          "reason": "The first indigo-courtyard replacement was fully visible but its highest seed cluster did not meet the prompt's explicit 120-pixel top safety margin."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 880,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "26:12": {
+        "nearestMAD": 20.14,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c059.png",
+        "madAtDHashPeer": 28.63
+      },
+      "26:13": {
+        "nearestMAD": 23.39,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c022.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c011.png",
+        "madAtDHashPeer": 57.01
+      },
+      "26:14": {
+        "nearestMAD": 24.03,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c032.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c015.png",
+        "madAtDHashPeer": 72.07
+      },
+      "26:15": {
+        "nearestMAD": 28.62,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c020.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+        "madAtDHashPeer": 31.81
+      },
+      "27:1": {
+        "nearestMAD": 27.14,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c017.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c003.png",
+        "madAtDHashPeer": 84.66
+      },
+      "27:2": {
+        "nearestMAD": 21.13,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c017.png",
+        "madAtDHashPeer": 90
+      },
+      "27:3": {
+        "nearestMAD": 24.23,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c027.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c021.png",
+        "madAtDHashPeer": 49.78
+      },
+      "27:4": {
+        "nearestMAD": 20.56,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c054.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b30-c013.png",
+        "madAtDHashPeer": 27.51
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-07",
+    "status": "pass",
+    "output": ""
+  }
+}

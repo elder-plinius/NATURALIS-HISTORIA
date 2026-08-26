@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-17",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "36:8",
+    "36:9",
+    "36:10",
+    "36:11",
+    "36:12",
+    "36:13",
+    "36:14",
+    "36:15"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in prompts and artifact IDs are portable. Every accepted and rendered-rejected workspace artifact was directly byte-compared with its corresponding built-in original.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    "public/corpus/book-36.9afcc6f0aad7fb62.json"
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus fields for all eight selected chapters were read before prompting. Engineering, ritual, astronomical and legendary claims are framed as transmitted ancient testimony; coercion and cruelty are not reenacted.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 4,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 12,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 0,
+    "builtInEditCalls": 4,
+    "acceptedBuiltInEdits": 4,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "selectedKeys": [
+      "36:8",
+      "36:9",
+      "36:10",
+      "36:11",
+      "36:12",
+      "36:13",
+      "36:14",
+      "36:15"
+    ],
+    "receiptsCheckedAtCertification": 122,
+    "nonEvidenceMastersCheckedAtCertification": 963,
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "chapters": [
+    {
+      "chapterKey": "36:8",
+      "title": "LYGDINUS; CORALLITIC STONE; STONE OF ALABANDA; STONE OF THEBAIS; STONE OF SYENE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c008.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3149c1708eab447b2fdf1798323827c8f66a55629ec0f6cca4f98ddb4dbcd075",
+        "englishSha256": "0abd8a637a9d4c5ad202d4c940101316a89237d32796665e657790caaa4351a3",
+        "latinWords": 274,
+        "englishWords": 559,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "f21541900c139baeee2e3fe5e5b4a5b6f93268b5add668beabd7067bc1f8cb48",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2428191d-5667-494e-8b51-5a345aaf933d",
+      "generationArtifactId": "exec-2428191d-5667-494e-8b51-5a345aaf933d",
+      "outputArtifact": "built-in-imagegen://exec-2428191d-5667-494e-8b51-5a345aaf933d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXVI chapter 8 illustration master\nPrimary request: Create a sumptuous but scholarly Egyptian lapidary landscape for Pliny's catalogue of lygdinus, corallitic, Alabandic, Thebaic and Syenite stone, and his transition to obelisks. At dawn on a dry Syene quarry terrace, place one complete low stone lapidary bench fully inside the scene. Upon it, widely separated and unmarked, display exactly five complete crafted specimens: one small honey-whorled opaque alabastrites unguent vessel with a closed stone stopper; one luminous pure-white lygdinus bowl; one ivory-white corallitic block; one black-purple polished Alabandic slab; and one dark Thebaic/Syenite sample naturally speckled with gold-like mineral points. Behind the bench in the quarry floor lies exactly one complete long unfinished red-syenite obelisk blank, wholly visible and still attached along its underside to bedrock, with no hieroglyphs. No person or animal appears, and nothing is ground, heated, filled, prescribed or applied.\nScene/backdrop: dry Upper Egyptian granite quarry, pale cliffs, distant palms and rising sun; no active work, scaffold, tool, liquid, medicine, patient or ritual.\nStyle/medium: radiant Roman-Egyptian stone fresco fused with a luxury medieval lapidary illumination; egg tempera, honey ochre, chalk white, ivory, deep purple-black, red syenite, tiny shell-gold mineral glints, fine iron-gall contours, incised quarry marks, abraded plaster and polished stone highlights; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low panoramic quarry view, five specimens crisp on the complete bench in the foreground and the full obelisk blank receding diagonally behind. Every vessel, stopper, bowl, block, slab, mineral sample, bench corner and both ends of the obelisk blank are fully visible with ample ground between them and all canvas edges. One coherent continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: clear gold dawn, tactile taxonomy, latent monumentality.\nText: none.\nConstraints: exact one bench, five distinct stone specimens, one complete unfinished obelisk blank; no people, animals, water or writing.\nAvoid: modern medical advice, unguent or remedy use, open container, grinding, active quarry danger, slaves, injury, ritual enacted as fact, hieroglyphs, inscription, pseudo-writing, letters, numerals, labels, signature, watermark, cropped object, subject touching an edge, border, frame, depicted page, open book, specimen grid, diagram, panels, collage, split scene, modern equipment, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2428191d-5667-494e-8b51-5a345aaf933d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete lapidary bench carries five separated stone specimens, with one complete uninscribed unfinished red-syenite obelisk blank in the dry quarry behind. No person, active quarry work, treatment, writing, water, panel or clipped discrete subject appears.",
+      "epistemicAndDignityNote": "The stone taxonomy and obelisk transition are shown as Pliny's transmitted natural-history account; medicinal and ritual claims are not enacted.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:9",
+      "title": "OBELISKS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c009.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "31cccde9006eafef2c12a9437d14f7e4edd91f00dfb638c6c17e0fa450925aee",
+        "englishSha256": "235653f42ca4614930332636324cef4245baf105c88e50f43a97093633ebad5f",
+        "latinWords": 339,
+        "englishWords": 719,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6444c95de09cd6574132e1f662566bad01c995683b583f9c53701fa5f2e54e4c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a13371df-0e44-43fe-b2b0-2512b0af55d4",
+      "generationArtifactId": "exec-a13371df-0e44-43fe-b2b0-2512b0af55d4",
+      "outputArtifact": "built-in-imagegen://exec-a13371df-0e44-43fe-b2b0-2512b0af55d4.png",
+      "exactFinalPrompt": "Edit only the supplied landscape illustration. Preserve the two complete parallel barges, the fully enclosed rectangular dock basin, lock gate, masonry, ropes, ballast blocks, cranes, lighting, viewpoint, palette, and fresco/illumination texture. Make the focal horizontal obelisk unmistakably one single seamless unbroken red-granite monolith: remove every crosswise stone joint or block seam from its surface while retaining gentle natural granite variation and the separate securing ropes. There must be exactly one obelisk in the entire image. Remove every slender upright obelisk shape from the distant city and replace those with low, nonfigurative, fully internal harbor masonry. Remove the open-sea water visible beyond the upper-left dock wall and replace it with dry distant land and pale sky, so the only visible water is the dock basin, completely enclosed by stone and far from all canvas edges. Scale the distant lighthouse down slightly so its entire top and base are fully inside the canvas with clear sky above it. Do not add people, animals, text, hieroglyphs, symbols, panels, border, or new objects. Keep both barges and both ends of the one horizontal monolith fully visible and comfortably internal. Landscape 3:2, opaque sRGB, 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-136e8287-e72f-4070-a962-704821fb8b22",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-a13371df-0e44-43fe-b2b0-2512b0af55d4",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly two complete parallel barges carry one seamless horizontal obelisk monolith inside an enclosed dock; the distant lighthouse and all discrete subjects are internal. No coerced child, open sea, writing, extra obelisk, panel or clipping appears.",
+      "epistemicAndDignityNote": "The engineering method is visualized as transmitted testimony. The source's cruel royal coercion is deliberately not reenacted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-136e8287-e72f-4070-a962-704821fb8b22",
+          "outputArtifact": "built-in-imagegen://exec-136e8287-e72f-4070-a962-704821fb8b22.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/evidence/history/b36-c009-reject-01-segmented-obelisk-and-water-edge.png",
+          "sha256": "c408b8b2d48e77b1cf8672aae89a55abaa1ac9de4ef7f8ae522a490f6c49a1a9",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXVI chapter 9 illustration master\nPrimary request: Create an epic but technically lucid Roman-Egyptian scene for Pliny's account of transporting and erecting obelisks, centering the Alexandrian two-vessel method and excluding the cruel prince-bound-to-the-summit story. At amber morning in a complete rectangular stone dock basin, show exactly two complete broad ancient Egyptian barges floating parallel with a narrow gap between them, both fully visible from a high oblique viewpoint. Resting safely across padded wooden cradles on the two barges lies exactly one complete immense red-granite obelisk, horizontal, uninscribed, with both its blunt base and pyramidal tip fully visible. Each barge carries a neat stack of square ballast blocks, and the obelisk is secured by broad undyed ropes; no person or animal appears and no lifting is underway. The entire dock's water surface is enclosed by visible masonry on all four sides and stays far from every canvas edge.\nScene/backdrop: ancient Alexandrian quarry-dock court with one complete closed lock gate, distant Pharos-like harbor architecture without identifiable inscription, dry cranes at rest; no open sea, river edge, fire, collapse, bound human or labor scene.\nStyle/medium: grand Roman engineering fresco fused with a medieval architectural illumination; egg-tempera mineral pigments, red granite, Nile indigo, cedar brown, limestone, rope ochre, sparse shell-gold dawn, iron-gall construction lines, abraded plaster and burnished stone facets; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: sweeping diagonal from the complete dock gate through the twin complete barges and full obelisk, with generous dry-stone margins and open sky. Every hull, prow, stern, rope, cradle, ballast stack, obelisk end, dock corner and shadow is complete and internal. One coherent continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: calm early light, immense weight held in poised engineering equilibrium.\nText: none.\nConstraints: exact two barges, one full horizontal obelisk, one fully enclosed dock basin, no people or animals; all water bounded.\nAvoid: bound prince, human peril, forced labor, collapse, active lifting, modern machinery, open ocean, water touching an edge, hieroglyphs, inscription, pseudo-writing, letters, numerals, labels, signature, watermark, cropped vessel or obelisk, object touching an edge, border, frame, depicted page, open book, diagram arrows, panels, collage, split scene, photorealism, glossy CGI.",
+          "reason": "The supposed monolith read as several blocks, extra upright background obelisks broke the exact count, open-sea water reached the left edge, and a lighthouse was clipped by the top edge."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:10",
+      "title": "THE OBELISK WHICH SERVES AS A DIAL IN THE CAMPUS MARTIUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c010.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7d81e5ec9c6a07a7469323b6214d52e38bc6e242f32e9e79541250f282ca03da",
+        "englishSha256": "7a8c181e0e06a3c26ad56462de05422d03edb05592ae569ec40b02acdfb74a06",
+        "latinWords": 134,
+        "englishWords": 318,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "8dda7b8908e6d02cb04c662fdfcc9dbcebb826a4b356f142a52a3446a7b976c6",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f82773c6-8b22-4258-be16-fc5a7a65d143",
+      "generationArtifactId": "exec-f82773c6-8b22-4258-be16-fc5a7a65d143",
+      "outputArtifact": "built-in-imagegen://exec-f82773c6-8b22-4258-be16-fc5a7a65d143.png",
+      "exactFinalPrompt": "Edit only the supplied landscape illustration. Preserve the exact one complete red-granite obelisk, its gilded sphere, base, plausible single blue-violet shadow, empty Campus Martius plaza, distant porticoes, winter cypresses, lighting, viewpoint, palette, and fresco/illumination texture. Remove every gold or bronze curve, arc, star, cross, symbol, and diagram-like mark from the entire sky; replace them with a broad plain softly weathered pale-blue winter sky and natural clouds only. Keep the bronze sundial rules exclusively in the pavement. Recompose those pavement rules so each visible line ends clearly within the plaza well before the bottom, left, and right canvas edges, leaving a generous uninterrupted margin of plain pale stone around their endpoints. Preserve the full shadow and keep its endpoint internal. Add no text, numerals, zodiac signs, people, animals, water, or extra architecture. The obelisk, sphere, shadow and every bronze rule must remain complete and internal. Landscape 3:2, opaque sRGB, 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-448e1050-30a8-4f5f-9639-b47bf3d743a9",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-f82773c6-8b22-4258-be16-fc5a7a65d143",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete uninscribed Campus Martius obelisk with gilded sphere casts a single plausible shadow across bronze pavement rules that terminate inside the scene. No celestial diagram, pseudo-writing, water, panel or clipping appears.",
+      "epistemicAndDignityNote": "The dial is an interpretive reconstruction of Pliny's account, including its reported later misalignment without asserting a modern astronomical conclusion.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-448e1050-30a8-4f5f-9639-b47bf3d743a9",
+          "outputArtifact": "built-in-imagegen://exec-448e1050-30a8-4f5f-9639-b47bf3d743a9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/evidence/history/b36-c010-reject-01-celestial-lines-and-edge-rules.png",
+          "sha256": "fae246417b6af3da2699f861772a5a4020cf6ce24f955adcdc19b235c4395435",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXVI chapter 10 illustration master\nPrimary request: Create a monumental Roman astronomical landscape for Pliny's account of Augustus' Campus Martius obelisk-dial. In an immense open stone plaza at crisp winter noon, show exactly one complete upright red-granite obelisk, wholly visible from base to apex and absolutely uninscribed. At its summit sits exactly one small complete gilded sphere. One long blue-violet shadow falls from the sphere and obelisk across the pale pavement toward the foreground, intersecting a restrained fan of thin bronze inlay rules set flush into the stone; the rules contain no numbers, letters or symbols. Make the geometry plausible and visually clear without turning the scene into a diagram. No person or animal appears. The obelisk, entire shadow end, all visible bronze rules and complete plaza boundary remain internal.\nScene/backdrop: spacious Campus Martius with low distant Roman porticoes and winter cypresses, all fully visible below a broad pale sky; dry weather, no Tiber, flood, water, inscription, ritual or crowd.\nStyle/medium: majestic Roman civic fresco fused with a medieval cosmological illumination; red granite, pale travertine, bronze, ultramarine shadow, winter ivory, restrained shell-gold on the sphere, egg-tempera veils, incised geometric lines, fine iron-gall draftsmanship, abraded plaster; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: elevated wide-angle diagonal, the complete obelisk placed off-center with generous sky above, its full shadow and bronze rules sweeping across broad negative paving. Keep every discrete architectural feature, sphere, obelisk tip/base and shadow endpoint comfortably inside all four edges. One coherent continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: lucid solstitial sun, measured grandeur, human ingenuity under cosmic uncertainty.\nText: none.\nConstraints: exact one complete obelisk, one gilded sphere, one continuous full shadow, nontextual bronze rules; no people, animals or water.\nAvoid: hieroglyphs, inscription, letters, numerals, zodiac signs, labels, pseudo-writing, modern clock, scientific infographic, impossible multiple shadows, cropped obelisk or shadow, object touching an edge, crowd, ritual, flood, border, frame, depicted page, open book, panels, collage, split scene, signature, watermark, photorealism, glossy CGI.",
+          "reason": "Diagram-like gold arcs and star symbols appeared in the sky, while bronze pavement rules ran into canvas edges."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:11",
+      "title": "THE OBELISK WHICH SERVES AS A DIAL IN THE CAMPUS MARTIUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c011.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "703a425734ed0e372245db6603dab4d2029e5aa86fe42ef6436fbd7d69ec4ea8",
+        "englishSha256": "44ad9d54968763ed000a08a0113ccbe0a559a6f5c05e3ff2886f8e79eee6928b",
+        "latinWords": 38,
+        "englishWords": 71,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2f0b489589322f04d4177d92e7c1ad0a6b4844d4994ac83921533416aff94efe",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d6aa41b5-c732-41d3-8250-02d9782903f1",
+      "generationArtifactId": "exec-d6aa41b5-c732-41d3-8250-02d9782903f1",
+      "outputArtifact": "built-in-imagegen://exec-d6aa41b5-c732-41d3-8250-02d9782903f1.png",
+      "exactFinalPrompt": "Targeted uniqueness correction only. Preserve the exact semantic composition and counts: exactly two obelisks total, one complete tall upright uninscribed obelisk in the empty circus and one fallen obelisk broken into exactly two complete foreground fragments; no other obelisk-like forms. Keep every discrete fragment and the upright monument fully inside the frame. Radically change the scene's low-resolution color and value signature while retaining the ancient Plinian archaeological style: replace the violet-orange sunset and brown field with crisp bright early-morning light, an aged-ivory and pale celadon sky, strong cool blue-green shadows, dark charcoal basalt paving across most of the circus floor, and a deep russet-red granite upright obelisk and fragments. Make the seating pale limestone and the distant slopes muted olive green. Avoid violet, purple, pink, or orange sunset tones entirely. Increase tonal contrast and make the floor clearly paved rather than a uniform dry plain. No people, animals, water, writing, letters, numbers, inscriptions, labels, signatures, borders, margins, pages, panels, or collage. Opaque sRGB RGB PNG, 1536x1024 landscape.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a2928fe0-96ab-42e7-8832-3d8dc83a228b",
+          "status": "rejected-global-duplicate-audit"
+        },
+        {
+          "generationArtifactId": "exec-d6aa41b5-c732-41d3-8250-02d9782903f1",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly two obelisks appear in a bright paved circus: one complete upright monument and one fallen monument broken into exactly two complete foreground fragments. No person, animal, water, writing, panel or clipping appears.",
+      "epistemicAndDignityNote": "The broken-carriage and recovered-sight dedications remain Pliny's transmitted account; the visual omits supernatural enactment and centers the material monuments.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a2928fe0-96ab-42e7-8832-3d8dc83a228b",
+          "outputArtifact": "built-in-imagegen://exec-a2928fe0-96ab-42e7-8832-3d8dc83a228b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/evidence/history/b36-c011-reject-02-global-mad.png",
+          "sha256": "eddc399cc1545e72259c21bce9abab21a6fb105b04a8c5cd71511c6c1a9c1f31",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXVI chapter 11 illustration master\nPrimary request: Create a quiet Roman historical landscape for Pliny's brief account of Nuncoreus' obelisks: one broken during transport in the Vatican Circus, and another later dedicated to the Sun. In a broad dry circus field at rose-gold sunset, show exactly two obelisks total. In the foreground, exactly one fallen red-granite obelisk lies broken cleanly into exactly two complete large fragments, both fully visible and separated by a narrow band of grass; the fracture is old and nonviolent, with no debris, people, ropes, carts or accident underway. Far in the middle distance stands exactly one complete slender uninscribed obelisk upright on a low square base, entirely visible from base to tip and catching the last sunlight. No person, animal, statue, inscription or ritual appears.\nScene/backdrop: empty early Roman circus earthworks, low complete stone seating curves, distant Alban hills and dry grasses; no crowd, chariot, palace, water, temple or active construction.\nStyle/medium: elegiac Roman landscape fresco fused with a medieval monument chronicle illumination; egg tempera, rose granite, dusk violet, dry ochre, faded lapis, charcoal, restrained shell-gold sunlight, iron-gall contours, chipped stone and abraded plaster; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low wide viewpoint, the two complete fallen fragments creating a foreground diagonal and the one complete standing obelisk isolated against ample sky. Every fracture face, fragment end, base, tip, seating curve and discrete shadow is comfortably internal with no subject touching an edge. One coherent continuous 3:2 landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: sunset after human effort, loss and persistence, solemn but serene.\nText: none.\nConstraints: exactly two obelisks total—one broken into two fragments and one intact upright; no people, animals, water, writing or active mishap.\nAvoid: injury, bound person, forced labor, active collapse, extra obelisk, hieroglyphs, inscription, letters, numerals, labels, pseudo-writing, signature, watermark, cropped fragment or standing monument, subject touching an edge, border, frame, depicted page, open book, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "The candidate passed native semantic QA but failed the permanent global uniqueness floor at MAD 17.35 against an older unrelated scene; its palette and value structure were therefore replaced."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:12",
+      "title": "MARVELLOUS WORKS IN EGYPT. THE PYRAMIDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c012.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f3100b18701a8afc117c1741f303d3212bf3a443010db2152a8b214bde578e0c",
+        "englishSha256": "d09bf787cb138d47f91fd3eb70e4c873e9110953675d64f0ea0441b45960ec8c",
+        "latinWords": 504,
+        "englishWords": 1092,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "0d661eab1f4d17907c2820c98b5b0801fc5b63748bc34e8a6b524650729c7a00",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e57729e0-48ec-4781-9dae-5a0384a4f18b",
+      "generationArtifactId": "exec-e57729e0-48ec-4781-9dae-5a0384a4f18b",
+      "outputArtifact": "built-in-imagegen://exec-e57729e0-48ec-4781-9dae-5a0384a4f18b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXVI chapter 12 illustration master\nPrimary request: Create a sublime, archaeologically respectful Egyptian landscape for Pliny's account of the pyramids and Sphinx, preserving his awe while allowing his criticism of royal vanity to emerge through emptiness rather than spectacle. From an elevated desert ridge at clear dawn, show exactly three complete pyramids on a rocky plateau, each entire base and apex fully visible, the largest set farther back and the smallest built from subtly darker reddish stone. In front of them show exactly one complete Great Sphinx carved from the natural bedrock, fully visible from paws to head, with a faint historically plausible red mineral tint remaining on the face. Surround the monuments with vast clean lentil-grain sand and monumental negative space. No person, animal, labor camp, treasure, tomb opening, scaffold, fire, water or modern city appears.\nScene/backdrop: Giza-like sterile plateau between distant Memphis haze and the Delta sky, but with no river visible; a few complete low quarry scars far away and no construction activity.\nStyle/medium: epic Roman-Egyptian desert fresco fused with a medieval wonder-of-the-world illumination; egg tempera, limestone ivory, Ethiopian red stone, desert ochre, dawn rose, faded lapis, charcoal, restrained shell-gold dust, fine iron-gall geometry, eroded masonry and abraded plaster; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: broad panoramic perspective, Sphinx complete in lower middle distance and all three pyramids separated with visible ground around every base and generous sky above every apex. Every monument, paw, head, pyramid corner, quarry mark and shadow remains comfortably inside all four edges. One coherent continuous 3:2 landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: first light, grave wonder, immense ambition surrounded by silence.\nText: none.\nConstraints: exact three pyramids and one complete Sphinx; no people, animals, water, writing or active construction.\nAvoid: tourists, slaves, forced labor, injury, crowd, pharaoh portrait close-up, fantasy aliens, modern Cairo, river, hieroglyphs, inscription, letters, numerals, labels, pseudo-writing, signature, watermark, cropped monument, subject touching an edge, border, frame, depicted page, open book, diagram, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e57729e0-48ec-4781-9dae-5a0384a4f18b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly three complete pyramids and one complete Sphinx occupy a continuous desert landscape with ample internal margins. No laborers, coercion, water, writing, panels or clipping appears.",
+      "epistemicAndDignityNote": "The pyramids, Sphinx and Pharos belong to Pliny's transmitted catalogue; the image avoids presenting measurements or legendary royal motives as verified reconstruction.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:13",
+      "title": "LABYRINTHS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c013.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6846d5fb997eec30a6cc8297801dcdf9d4cd97c9accf39c024a8a4be56eea8b4",
+        "englishSha256": "ed6eefac5c481730e911d306c8aab8bfd4d308fb8d67a7490c2b2957e68a368d",
+        "latinWords": 552,
+        "englishWords": 1147,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "f35aba75e6da77d45453400c9474b96ccaa9550adabe96ae6f37af7da67ff419",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e667d83e-3096-4f7b-975c-60668a2e003a",
+      "generationArtifactId": "exec-e667d83e-3096-4f7b-975c-60668a2e003a",
+      "outputArtifact": "built-in-imagegen://exec-e667d83e-3096-4f7b-975c-60668a2e003a.png",
+      "exactFinalPrompt": "Create one original full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 13, about the great labyrinths. 1536x1024, 3:2 landscape. Depict a single continuous ancient Egyptian polished-stone labyrinth interior in a dramatic high-oblique perspective: branching vaulted corridors, complete arched doorways, deep receding chambers, porphyry and honey limestone columns, worn stone thresholds, and narrow shafts of dusty amber daylight from clerestory openings. Near the fully visible entrance, include one small complete spool of undyed linen thread resting safely on a stone ledge as a subtle navigation motif. The labyrinth must read as real monumental architecture, not a plan, diagram, map, maze graphic, cutaway, collage, triptych, or multiple panels. No people, monsters, gods, statues with faces, violence, ritual, writing, letters, numbers, labels, signatures, frames, margins, book pages, or decorative border. No water. Keep the spool fully inside the canvas and not touching any edge; all discrete objects complete. Ancient, timeless, beautiful, rough and polished at once: museum-grade archaeological romanticism combining Roman wall-painting mineral pigments, fine engraved natural-history linework, tempera and subtle gold-leaf glints, tactile weathered stone, restrained indigo shadows, porphyry red, ochre, soot black, and aged ivory. Cohesive with an illuminated Plinian encyclopedia but cinematic and spatially convincing, with atmospheric depth and varied masonry rather than repeated wallpaper. Opaque sRGB RGB PNG, no transparency.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e667d83e-3096-4f7b-975c-60668a2e003a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "A single continuous polished-stone labyrinth interior recedes through branching arches and porphyry columns; one complete linen spool rests safely near the entrance. No map, diagram, monster, person, writing, water, panel or clipping appears.",
+      "epistemicAndDignityNote": "The architecture is an imaginative visualization of Pliny's reports of several labyrinths, not a claim of exact archaeological reconstruction.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:14",
+      "title": "THE TEMPLE OF DIANA AT EPHESUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c014.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d0ec8b6232af6fa99a046b6b6f4d245469a0a1dec196c7debd2262c791ccf043",
+        "englishSha256": "41265be9ac209c98536a583051298eb79a12cfff25419179c21c0703a5e4d99b",
+        "latinWords": 166,
+        "englishWords": 403,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "70430062726d8a7a95d9309afc780dfadfdeebc075f8201523e134471f81fc3f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cb9fcbc8-605a-4922-8c08-b1e945f1ec55",
+      "generationArtifactId": "exec-cb9fcbc8-605a-4922-8c08-b1e945f1ec55",
+      "outputArtifact": "built-in-imagegen://exec-cb9fcbc8-605a-4922-8c08-b1e945f1ec55.png",
+      "exactFinalPrompt": "Targeted correction only. Preserve the composition, complete Temple of Artemis, folded wool fleece, charcoal blocks, palette, lighting, material detail, and 3:2 landscape style. Fix the lower-right edge violation: replace all water that reaches or intersects the right and bottom canvas edges with continuous dry marsh grass, ochre earth, and a clearly visible dry bank. Retain only one or two small shallow marsh pools farther inside the midground, each completely enclosed by dry land with an obvious margin on every side and touching no canvas edge. Keep every discrete object fully visible and inside the canvas. Do not add people, animals, statues, writing, letters, numbers, labels, signatures, frames, margins, pages, panels, collage, or borders. Opaque sRGB RGB PNG, 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-bf9bb1b1-5fca-4278-8a7c-e0e393d2ccb9",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-cb9fcbc8-605a-4922-8c08-b1e945f1ec55",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete monumental Ionic temple stands on marshy ground; a folded wool fleece and charcoal blocks remain complete on a dry foreground ledge, and the small pool is fully enclosed. No deity, person, ritual, writing, edge water, panel or clipping appears.",
+      "epistemicAndDignityNote": "The Ephesian temple and charcoal-and-wool foundation are imagined from Pliny's transmitted account rather than asserted as an exact reconstruction.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-bf9bb1b1-5fca-4278-8a7c-e0e393d2ccb9",
+          "outputArtifact": "built-in-imagegen://exec-bf9bb1b1-5fca-4278-8a7c-e0e393d2ccb9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/evidence/history/b36-c014-reject-01-water-edge.png",
+          "sha256": "9dbaeb06f357115b41034bac1d2c639db4ed3e9b27c2a3949d3aae491c466641",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one original full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 14, imagining the Temple of Diana (Artemis) at Ephesus from Pliny's transmitted architectural account. 1536x1024, 3:2 landscape. Show one complete monumental Ionic temple fully inside the frame with generous sky and meadow around it, seen three-quarter frontal from a low dry causeway beside its marshy foundation ground. Its roof, pediment, stairs, and forest of tall columns must all be visible; a few front column drums may carry restrained vegetal reliefs, never writing or figures. Small shallow marsh pools may glimmer behind the dry causeway but must be fully enclosed within the composition and touch no canvas edge. On a broad dry foundation ledge in the near foreground, arrange one complete folded white wool fleece beside several complete matte charcoal blocks—quiet archaeological symbols of the charcoal-and-wool foundation method—not a diagram, cutaway, panel, or construction manual. No people, gods, statues, animals, violence, ritual, scaffolding, active construction, labels, letters, numerals, signatures, frames, margins, book pages, collage, or decorative border. No object cropped; temple has breathing room on every side. Ancient, timeless, beautiful, rough and polished at once: museum-grade archaeological romanticism combining Roman wall-painting mineral pigments, fine engraved natural-history linework, tempera, restrained gold-leaf glints, weathered marble, soft marsh haze, cypress green, ochre, aged ivory, porphyry red, soot black, and deep indigo shadows. Cohesive with an illuminated Plinian encyclopedia yet cinematic, dignified, and spatially convincing. Opaque sRGB RGB PNG, no transparency.",
+          "reason": "Marsh water reached the right and lower canvas edges; the edit replaced edge water with dry bank while retaining only a fully enclosed pool."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:15",
+      "title": "MARVELS CONNECTED WITH OTHER TEMPLES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-17/b36-c015.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3ca4a19b7ae9ec4abbf3b205a9839ebd225108d240f9d0370c774f8b93b0957d",
+        "englishSha256": "643b45b58f6bf5cc1227b345a0030db738076c4d1143d715ddae2a55fff29d12",
+        "latinWords": 1509,
+        "englishWords": 3486,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "7aec0e05119c83f0b3bd4b064ae0ffb3425e7ce1dd5649ef3a34424858f4dfac",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-965af6f4-fcb7-4a74-beb0-0192a99dd55d",
+      "generationArtifactId": "exec-965af6f4-fcb7-4a74-beb0-0192a99dd55d",
+      "outputArtifact": "built-in-imagegen://exec-965af6f4-fcb7-4a74-beb0-0192a99dd55d.png",
+      "exactFinalPrompt": "Create one original full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book 36 chapter 15, the long catalogue of architectural marvels. Base the scene on the chapter's culminating praise of Rome's aqueducts and mountain-cut waterworks, imagined from Pliny's transmitted account rather than presented as an exact reconstruction. 1536x1024, 3:2 landscape. Compose one continuous panoramic landscape: at left, a complete dark aqueduct tunnel mouth emerges from a rugged mountain; from it a long tiered Roman stone arcade sweeps across a broad dry valley toward a compact distant city on the right; in the inner foreground, one complete low marble fountain basin catches a modest clear stream from a lionless plain bronze spout, with every drop contained inside the basin. Add one small fully enclosed reservoir pool in the middle distance beneath the arches, surrounded on all sides by dry masonry and earth. No water touches any canvas edge. Let arches, pierced mountain, leveled valley, reservoir, and fountain read as one connected civic system, not a diagram, map, cutaway, collage, triptych, or panels. No people, forced labor, crowds, emperors, gods, statues, animals, combat, suffering, ritual, inscriptions, letters, numerals, labels, signatures, frames, margins, book pages, or decorative border. Every discrete object fully inside the frame; architecture may continue naturally through terrain but the fountain and reservoir are complete. Ancient, timeless, beautiful, rough and polished at once: museum-grade archaeological romanticism combining Roman wall-painting mineral pigments, fine engraved natural-history linework, tempera, restrained gold-leaf glints, weathered travertine and marble, mineral-blue contained water, cypress green, ochre, aged ivory, porphyry red, soot black, and deep indigo shadows. Cohesive with an illuminated Plinian encyclopedia, cinematic, humane, dignified, spatially convincing, and rich in atmospheric depth. Opaque sRGB RGB PNG, no transparency.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-965af6f4-fcb7-4a74-beb0-0192a99dd55d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One connected Roman waterworks panorama joins a mountain tunnel, tiered aqueduct, enclosed reservoir, city and complete contained fountain basin. No laborers, violence, water-edge breach, writing, diagram, panel or clipping appears.",
+      "epistemicAndDignityNote": "The long catalogue is represented by its culminating praise of aqueduct and mountain-cut waterworks; the scene is interpretive and does not reproduce the chapter's cruelty or spectacle.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 963,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "36:8": {
+        "nearestMAD": 32.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c030.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-19/b37-c002.png",
+        "madAtDHashPeer": 53.78
+      },
+      "36:9": {
+        "nearestMAD": 28.94,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b05-c032.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c005.png",
+        "madAtDHashPeer": 36.29
+      },
+      "36:10": {
+        "nearestMAD": 29.19,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c022.png",
+        "madAtDHashPeer": 63.61
+      },
+      "36:11": {
+        "nearestMAD": 31.09,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c020.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c016.png",
+        "madAtDHashPeer": 61.41
+      },
+      "36:12": {
+        "nearestMAD": 20.61,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c049.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c029.png",
+        "madAtDHashPeer": 64.44
+      },
+      "36:13": {
+        "nearestMAD": 26.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c034.png",
+        "madAtDHashPeer": 125.13
+      },
+      "36:14": {
+        "nearestMAD": 32.85,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c017.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c018.png",
+        "madAtDHashPeer": 46.37
+      },
+      "36:15": {
+        "nearestMAD": 29.9,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b03-c021.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+        "madAtDHashPeer": 35.62
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-17",
+    "pass": true
+  }
+}

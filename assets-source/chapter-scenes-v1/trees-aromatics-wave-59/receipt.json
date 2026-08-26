@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-59",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "note": null,
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 548,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "5:22": {
+        "nearestMAD": 32.58,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "dHashAtMadPeer": 13,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 32.58
+      },
+      "5:23": {
+        "nearestMAD": 20.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c004.png",
+        "madAtDHashPeer": 28.73
+      },
+      "5:24": {
+        "nearestMAD": 23.44,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c089.png",
+        "madAtDHashPeer": 45.8
+      },
+      "5:25": {
+        "nearestMAD": 25.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c016.png",
+        "madAtDHashPeer": 40.09
+      },
+      "5:26": {
+        "nearestMAD": 22.31,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "dHashAtMadPeer": 39,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c024.png",
+        "madAtDHashPeer": 126.24
+      },
+      "5:27": {
+        "nearestMAD": 21.5,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c062.png",
+        "madAtDHashPeer": 29.91
+      },
+      "5:29": {
+        "nearestMAD": 20.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c004.png",
+        "madAtDHashPeer": 130.38
+      },
+      "5:30": {
+        "nearestMAD": 21.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c060.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c102.png",
+        "madAtDHashPeer": 49.29
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "5:22",
+      "title": "SYRIA ANTIOCHIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c022.png",
+      "sha256": "a59c8cd72c7a1a81d951c930efa534eb413b0138204c872cc26bd73a01d59488",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f0e03eeb-6487-43c4-a0ff-16b3a87257ee",
+      "outputArtifact": "built-in-imagegen://exec-f0e03eeb-6487-43c4-a0ff-16b3a87257ee.png",
+      "exactFinalPrompt": "Create a revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 22, \"Syria Antiochia.\"\n\nSimplify the chapter image to Pliny's transmitted wonder of Mount Casius: no river, sea, lake, coast, water, foreground cliff, or object may touch the canvas edge.\n\nA complete oval rocky summit platform lies fully inside the central lower third, every perimeter stone and supporting slope visible with broad lower ground around it. Exactly one complete ancient naturalist stands small at its center, body turning smoothly between horizons: the right hand faces an eastern horizon where exactly one golden sun disk rises; the left hand faces a western horizon still deep indigo with sparse fading stars. The sky transitions gradually through violet across one continuous panorama, never a hard split. Below the platform, a complete dry mountain basin contains one narrow fully visible pass between two complete ridges, evoking the Syrian Gates. Every focal peak lies below abundant sky. This is historically transmitted observation rather than modern astronomical proof; no gods, miracle rays, Orontes, city, crowd, or second figure.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book V Plinian eastern-geography folio. Fine iron-gall mountain and figure contours, delicate sky stipple and rock cross-hatching, translucent mineral washes—midnight lapis, violet, rose madder, dawn gold, limestone white, dry umber—subtle abrasion, foxing and fresco grain integrated into the painted surface. Roman encyclopedic wonder through Renaissance naturalist precision, immense atmospheric negative space, seamless night-to-day chromatic turn, museum-grade finish. One continuous scene, never diptych, collage or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. Keep the entire summit platform and all supporting ground, complete naturalist, both hands and feet, sun disk, star field, mountain pass and every focal peak at least 8 percent inward from all edges. Every edge must contain only open sky or empty distant ground; no person, platform, mountain peak, tree, rock, path or discrete object may touch or be cut by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, hard vertical split, map or diagram. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, zodiac, compass, arrows, routes, banners or captions. No duplicated sun or observer. Exactly one sun, one naturalist, one summit platform, one mountain passage. Convincing ancient clothing, geology, light and scale.",
+      "visualQaNotes": "Inspected at native resolution. The continuous Mount Casius panorama contains one complete summit platform, one observer, the paired day-and-night horizon, and the dry Syrian basin without clipped focal subjects, text, panels, borders, or visible page outside.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-78a61a15-cd13-481d-b8c4-a68f7d1fa040.png",
+          "sha256": "cd061c91bfed08c7f404f1e5a53f8638daaeb4e4c570db450f0c475e84caa6f9",
+          "reason": "Rejected after native QA because a river continued through the lower-right edge and a focal cliff outcrop was severed by the bottom boundary."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:23",
+      "title": "THE REMAINING PARTS OF SYRIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c023.png",
+      "sha256": "9629f2647e73cf0b938bb005a5c8d7f020c30e454c3ac47f36538173fcf5f5fd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-0458ed59-7307-4fd4-85a1-5445bcec5189",
+      "outputArtifact": "built-in-imagegen://exec-0458ed59-7307-4fd4-85a1-5445bcec5189.png",
+      "exactFinalPrompt": "Create a revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 23, \"The Remaining Parts of Syria.\"\n\nMandatory framing: pull back to a medium-high view and leave a broad band of empty pale earth along the entire bottom, left, and right edges plus open sky above. No crop, tree, fruit, river, building, person, basket, or field row may enter from an edge.\n\nScene: one complete narrow Marsyas river begins in a fully visible limestone spring pool in the upper interior, flows through the central valley, and ends in one complete reed-edged basin in the lower interior, both endpoints and every bank fully surrounded by dry ground. One compact complete pale-stone Apamea-like town sits on the left bank; one smaller complete mud-brick agricultural settlement sits on the right, with one complete low stone bridge between them. In a small fully contained orchard plot in the lower-left interior, exactly one complete farmer gathers pomegranates into one grounded basket; the whole farmer, basket, every pomegranate tree, vine row and wheat patch are visible with empty earth around them. Distant paired ridges suggest Lebanon and Anti-Lebanon. Convey the fertility of Chalcidene without depicting Atargatis/Derceto, deity, ritual, monster, crowd, army, or modern symbolism.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book V Plinian cultivated-valley folio. Fine iron-gall river, architectural and botanical contours, fruit and grain stipple, delicate cross-hatching, translucent mineral washes—pomegranate madder, wheat gold, pale malachite, lapis-silver water, limestone white, palm umber—subtle abrasion, foxing and sun-faded fresco grain. Roman encyclopedic breadth through Renaissance naturalist precision, luminous dry air, spacious negative ground, museum-grade finish. One unified lived landscape, never collage, map, diagram or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. Keep the complete river and endpoints, both settlements, bridge, farmer, basket, orchard, every fruit tree, crop plot and focal ridge at least 10 percent inward from every edge. Every outer edge must contain only open sky or empty unmarked pale earth; no water, building, bridge, person, basket, tree, branch, field row, fruit, rock or object touches or is cut by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, route lines, map symbols or arrows. No text, letters, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, compass roses, banners or captions. No duplicated or floating objects. Exactly one river, two endpoint pools, two settlements, one bridge, one farmer, one basket, one paired ridge. Convincing ancient architecture, agriculture, hydrology and anatomy.",
+      "visualQaNotes": "Inspected at native resolution. The Syrian interior composition keeps the Marsyas spring-to-basin course, pale town, agricultural settlement, bridge, orchard, farmer, and paired ridges complete and internal, with no text, border, split panel, or clipped focal crop.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-7cfd8570-62e0-46d4-9be7-5ab71bb96d86.png",
+          "sha256": "9b89d5da10026ccb1309019a99f0891d5a0f24bd87231a08a62f9e970fc6b48c",
+          "reason": "Rejected after native QA because foreground pomegranates, vines, and grain were visibly clipped by the left, bottom, and right edges."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:24",
+      "title": "THE EUPHRATES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c024.png",
+      "sha256": "056c9a5570aaa2e81da7aa3c055f33a82aac3403e44e7080b8fc8bf13e487908",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f231eb47-b74f-43ae-878b-2b4c7de67837",
+      "outputArtifact": "built-in-imagegen://exec-f231eb47-b74f-43ae-878b-2b4c7de67837.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 24, \"The Euphrates.\"\n\nSubject: the young Euphrates forcing its passage through the Taurus range. Use a steep, high oblique mountain view in crisp cobalt morning. In the upper-left interior, one complete turquoise source pool lies beneath a fully visible snow-dusted Armenian peak. Its young river crosses a rocky basin, receives exactly three small complete tributary threads from separate internal springs, and then enters one dramatic but fully contained narrow gorge through a broad Taurus wall. At the tightest point stands exactly one complete small ancient stone bridge, every arch, pier and approach visible. Beyond the gorge, the same river emerges into one complete calmer blue expansion pool in the lower-right interior, surrounded by dry ground. Exactly one tiny complete ancient naturalist stands on a safe internal ledge beside the gorge, holding one staff. This is the transmitted geographic course, not a modern surveyed diagram; no battle, army, gods or flood catastrophe.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book V Plinian mountain-river folio. Fine iron-gall rock and water contours, dense geological cross-hatching, current stipple, translucent mineral washes—cobalt and turquoise water, chalk snow, Taurus ochre, plum shadow, muted malachite scrub, restrained madder cloak—subtle abrasion, foxing and dry fresco grain. Roman encyclopedic force through Renaissance naturalist precision, monumental vertical relief, clear cold air, museum-grade finish. One unified continuous landscape, never collage, map, diagram or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. Keep the complete source pool, full river course, all three tributaries and springs, entire gorge, complete bridge and approaches, terminal pool, naturalist, staff, all focal peaks and rocks at least 8 percent inward from every edge. Every edge must contain only open sky or empty dry mountain ground; no water, bridge, person, tree, branch, rock, path or focal object may touch or be cut by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, cutaway, route line, map symbol or arrow. No text, letters, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, compass roses, banners or captions. No duplicated or floating objects. Exactly one source pool, three tributaries, one gorge, one bridge, one terminal pool, one naturalist, one staff. Convincing geology, hydrology, ancient masonry, scale and anatomy.",
+      "visualQaNotes": "Inspected at native resolution. The Armenian Euphrates source, three tributary threads, complete gorge, bridge, observer, and terminal pool are fully readable inside one coherent mountain landscape without clipped focal elements, text, border, or paneling.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:25",
+      "title": "SYRIA UPON THE EUPHRATES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c025.png",
+      "sha256": "7a59e08fb24602466600f27895dbce9977d3e8e4a6bb19e6a97f99682daae7e3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-12704d9e-de3f-4278-9846-bac7cfe9d638",
+      "outputArtifact": "built-in-imagegen://exec-12704d9e-de3f-4278-9846-bac7cfe9d638.png",
+      "exactFinalPrompt": "Create a single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book V chapter 25, Palmyra. A sweeping high three-quarter view of the complete oasis city of ancient Palmyra held entirely inside a vast encircling Syrian desert: pale limestone colonnades, compact flat-roofed houses, and a modest temple precinct set among abundant date palms, orchards, irrigated fields, and one clear spring-fed pool. The fertile green oval must be visibly surrounded on every side by broad rose-gold and ochre sand and stony waste, conveying an independent wealthy oasis between empires without showing armies, flags, maps, labels, modern ruins, or modern archaeology. Include two tiny complete traveler figures and one fully visible laden camel on an internal path, all far from every edge. Early evening light, long shadows, translucent dusty atmosphere, mineral turquoise water, restrained malachite greens. Render as an exceptionally beautiful ancient natural-history codex folio: historically plausible Roman-era Near East, hand-ground mineral pigments, egg tempera and watercolor over rough warm parchment grain, fine iron-gall contour drawing, selective polished gold-leaf glints, weathered and tactile yet exquisitely precise, monumental calm, luminous depth. Compose as one coherent scene, not a montage, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, glyph-like marks, captions, decorative border, internal frame, cutaway, diagram, duplicate motifs, or white/page-colored outside area. Keep the entire oasis, city silhouette, spring pool, travelers, camel, and all focal architecture fully visible with generous breathing room; only non-focal continuous desert terrain may naturally continue beyond the outer image edges.",
+      "visualQaNotes": "Inspected at native resolution. Palmyra's entire fertile oasis, city, spring pool, travelers, camel, gardens, and surrounding desert are fully visible with strong negative space and no clipped focal subject, pseudo-writing, border, or split composition.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:26",
+      "title": "SYRIA UPON THE EUPHRATES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png",
+      "sha256": "c11299e01f44e6245a854e5e65775f631b947fe825874607a41656c62a27e707",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-79ea89e2-565f-4274-bb6c-3812e8a4240c",
+      "outputArtifact": "built-in-imagegen://exec-79ea89e2-565f-4274-bb6c-3812e8a4240c.png",
+      "exactFinalPrompt": "Edit this Plinian codex illustration while preserving its beautiful deep-indigo blue-hour mood, moon, river fork, central vegetated island, marsh, mineral-pigment texture, and overall composition. Make only the following compositional corrections, integrating them naturally rather than patching: move and slightly reduce the entire lamp-lit walled settlement on the left so the complete city and all of its outer wall are surrounded by visible floodplain and water, with generous open space between the city and the left image edge. Ensure that the cargo barge contains exactly two human figures total, both fully visible as rowers—remove any third or ambiguous person-shaped silhouette—while retaining the cargo and one small shielded lamp. Keep both tips of the central silt island visible, the second city fully contained on the right, two complete small mud-brick sluices on internal banks, and complete terminal marsh pools. No focal object may touch any outer boundary. Maintain historically plausible Roman-era Mesopotamia and the ancient natural-history folio treatment: faded lapis, indigo, verdigris, malachite, madder-violet, lampblack, silver-gold shell highlights, egg tempera and watercolor over rough warm parchment, fine iron-gall linework, weathered yet jewel-like. Keep landscape 3:2 at 1536x1024, full bleed, one coherent scene. No text, letters, numerals, pseudo-writing, labels, border, internal frame, panels, montage, map symbols, modern objects, duplicate boat, duplicate moon, fantasy, or white outside area.",
+      "visualQaNotes": "Inspected at native resolution. The indigo nocturne keeps both tips of the Euphrates island, both branches, two contained cities, marsh pools, sluices, and one complete two-rower cargo barge fully internal. No clipped focal subject, text, panel, border, duplicate moon, or modern element was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-531accf6-6c62-4b4c-bcb6-e6b3016f3b44.png",
+          "sha256": "6a39efbf0422b69c1d5cf3e338adc9b6b7e6e9592f1568741e7c777f4c21a276",
+          "reason": "Rejected after native QA because a foreground irrigation wall and gate were severed by the lower-right boundary."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-c5db8470-873c-495e-b2a0-5fd3d934f230.png",
+          "sha256": "2bcaed3a2c11e5b981907fae397e986f680cd3d54461a26743784ef722035468",
+          "reason": "Rejected after the live collection audit because its nearest grayscale MAD was 18.72, below the campaign minimum of 20."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-64b85aca-aab8-4c3f-8625-30c2f34f78c0.png",
+          "sha256": "84be9cd075206b9e57155a1e73e00138d2f3a2bfebd3483f3ceff8a42dddb651",
+          "reason": "Rejected after native QA because the left walled settlement touched the image boundary and the barge contained an ambiguous third figure."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:27",
+      "title": "CILICIA AND THE ADJOINING NATIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+      "sha256": "e66616f94d80fcac67ec93bd01d0e8ab9bd736da51263a4d3e0a4b538ba3348a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-49185b26-717f-44eb-adfa-242612501e34",
+      "outputArtifact": "built-in-imagegen://exec-49185b26-717f-44eb-adfa-242612501e34.png",
+      "exactFinalPrompt": "Create a revised single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book V chapter 27, Cilicia and the adjoining nations. Show the massive Taurus range descending in one long arc toward the Cilician coast under clear morning light. In the upper middle distance, the complete narrow Cilician Gates pass cuts between two steep mountain shoulders; a tiny complete mule caravan travels through it. Beyond the pass, a fertile plain carries the winding Cydnus toward a compact fully contained Roman-era Tarsus-like city, while the blue Gulf of Issus glimmers in the far distance. In the lower-left middle ground—not the foreground and not touching any edge—place a complete oval Corycos-like stone harbor basin entirely surrounded by visible limestone shore, with one compact complete coastal town, one dark cave mouth set inside a cliff face, and exactly one complete ancient sailing boat floating in the basin. Surround this harbor vignette on all sides with broad continuous rocky ground so its entire perimeter is unmistakably visible. Keep the lower 15 percent of the image as uninterrupted rough ochre upland with scrub and stones; no architecture, water, boats, cliffs, walls, or focal objects may cross or touch the outer image boundary. Historically plausible southern Anatolia; no modern ruins, highways, fantasy flames, maps, labels, armies, banners, or invented inscriptions. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground lapis, verdigris, malachite, ochre, madder, and charcoal pigments, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall contours, sparse polished gold-leaf sunlight, weathered surface and exquisite micro-detail, ancient, timeless, rough and polished at once, vast atmospheric depth and Plinian grandeur. One coherent landscape only, not a montage, map, diagram, triptych, collage, framed miniature, split panel, or cutaway. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, pseudo-writing, captions, decorative border, internal frame, duplicate objects, or white/page-colored outside area. Keep the complete pass, caravan, river bends, city silhouette, entire harbor perimeter, town, boat, and cave mouth fully visible with generous breathing room; only continuous mountain, earth, and sky may naturally continue beyond the frame.",
+      "visualQaNotes": "Inspected at native resolution. The Taurus, Cilician Gates, caravan, Cydnus, city, complete oval Corycos harbor, coastal town, cave mouth, and single boat all remain fully inside the landscape with no text, border, panel, or clipped focal architecture.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-59f4afe3-baf6-4196-8a57-f8952dedcfcd.png",
+          "sha256": "692c4aef7cb7f4e651bba915399bb1a705f87b0069fe45c2f85a4fba51d97fe6",
+          "reason": "Rejected after native QA because the focal harbor basin and retaining shore were cut by the lower-left boundary."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:29",
+      "title": "LYDIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c029.png",
+      "sha256": "3206032fe40c9d0217a158f8dfe47e22acb97361dcf2a11f393778cf9a22d896",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ec7ed674-90a5-4122-a093-a76b956e9cd6",
+      "outputArtifact": "built-in-imagegen://exec-ec7ed674-90a5-4122-a093-a76b956e9cd6.png",
+      "exactFinalPrompt": "Edit this lush Plinian spring-grotto illustration while preserving its beautiful emerald and turquoise palette, mossy freestanding spring mound, complete pool, diagonal stream, complete swallow-hole, shepherd, two goats, shaded atmosphere, and mineral-pigment codex texture. Make two exact corrections. First, completely remove the two large foreground tree trunks that are cut by the left and right image edges; replace them with continuous low ferns, moss, herbs, and soft shadow, while keeping any complete trees farther back entirely inside the scene. No trunk, person, animal, rock mound, pool, hole, or focal object may touch an outer boundary. Second, change the shepherd's instrument into an unmistakable ancient double aulos: exactly two visibly separate parallel reed pipes enter his mouth side by side, with two distinct pipe bodies separated by a narrow gap and two separate flared bell ends. Keep his whole body and madder-red cloak unchanged and fully visible. Preserve the entire dry grassy rim around the oval pool and the entire rim around the swallow-hole. Maintain one coherent 1536x1024 landscape folio, historically plausible inland Anatolia, faded lapis, malachite, verdigris, madder, charcoal, chalk, subtle shell-gold water sparks, egg tempera and watercolor on rough warm parchment, iron-gall contours, weathered yet jewel-like. No text, letters, numerals, inscriptions, pseudo-writing, labels, border, internal frame, panels, montage, modern objects, masonry-lined pool, deity, supernatural event, duplicate person or animal, or white outside area.",
+      "visualQaNotes": "Inspected at native resolution. The cool spring grotto contains the complete spring mound, whole pool rim, stream, complete swallow-hole, two-pipe aulos player, and two goats. Focal subjects are internal and the scene contains no deity, literal miracle, text, panel, border, or modern element.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-79bd1859-0363-4c01-8547-f2fe1413f649.png",
+          "sha256": "2e6a3a9e8de7a0874208da5d03ebe93ab907514342eb5ac3d06e056e764d55e2",
+          "reason": "Rejected after native QA because the spring pool grazed the left edge and the requested double aulos read as a single pipe."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-a6a049db-ec28-45ca-8d1f-7a36f59d5401.png",
+          "sha256": "ed0e7b30d3d84d6edcb0148d5f4b46f3b87b35e13f715070f225ea3887f14d21",
+          "reason": "Rejected after native QA because the focal limestone spring shelf was visibly severed by the left boundary."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-ebc5285e-4aff-4bd9-aada-3505ae2ac51d.png",
+          "sha256": "fa352d8092f2f9e614642088419a5a4a2f925b5da161ee95eed0aa54d11a60c4",
+          "reason": "Rejected after the live collection audit because its nearest grayscale MAD was 19.09, below the campaign minimum of 20."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-27de55df-46e6-4019-987f-d7729082f615.png",
+          "sha256": "ba39c628d53fb1137eb31640623f6ec99ea79d5b64861ea599fff5a264a60454",
+          "reason": "Rejected after native QA because two foreground tree trunks were severed by the outer frame and the two aulos pipes were not sufficiently distinct."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:30",
+      "title": "ÆOLIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c030.png",
+      "sha256": "f1a8f7693bde491015e740de5f0607c25775d430ed125053c606830b3fcb6f21",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3abe67f8-84df-4cd3-828b-8ee69746615b",
+      "outputArtifact": "built-in-imagegen://exec-3abe67f8-84df-4cd3-828b-8ee69746615b.png",
+      "exactFinalPrompt": "Create a single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book V chapter 30, Aeolis and Troas. Under a clearing silver-blue coastal sky, show the complete former island of Grynia now joined to the Aeolian mainland by one fully visible narrow sandy tombolo. The island must sit wholly inside a calm Aegean bay, its entire rocky shoreline visible except at the natural land bridge. On the island, show faint foundations of a vanished settlement; beside it, two small complete abandoned ancient harbor basins with broken but fully contained stone moles—the surviving harbors Pliny records. Beyond the coast, Mount Ida rises in layered blue-violet distance and several rivers thread down through wooded folds toward the bay. Place one tiny complete Roman-era geographer standing on the mainland above the tombolo with a simple measuring staff, contemplating the changed shoreline; no tablet writing is visible. A single complete fishing skiff rests inside one harbor. Emphasize geological time, lost towns, reclaimed land, and mournful coastal stillness rather than spectacle. Historically plausible Aeolis; no modern ruins, roads, fantasy, armies, labels, maps, or literal ghosts. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground faded lapis, verdigris, madder, ochre, chalk, and charcoal pigments, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall contours, delicate cross-hatching and stipple, sparse burnished silver-gold glints on water, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent landscape only, not a map, diagram, montage, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, pseudo-writing, captions, decorative border, internal frame, duplicate islands, duplicate boats, or white/page-colored outside area. Keep the entire island coastline, whole tombolo, both complete harbor basins and moles, skiff, geographer, and all focal ruins fully visible with generous breathing room, surrounded by visible water or ground; only continuous sea, mainland terrain, distant mountain, and sky may naturally continue beyond the outer edges.",
+      "visualQaNotes": "Inspected at native resolution. The former island of Grynia, entire tombolo, surviving harbor basins and moles, skiff, observer, ruins, bay, rivers, and Mount Ida form one coherent fully readable Aeolian landscape without text, panels, border, or clipped focal subject.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

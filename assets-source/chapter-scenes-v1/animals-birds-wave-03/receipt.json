@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-03",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "corpusSha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4",
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book X chapters 18 through 25 were read before prompting. Augury, omen, killing, predation, vanity, castration, force-feeding, plucking, remedies, fabulous geography, ethnicizing conflict, capture, siege use, and seasonal distribution claims are treated as transmitted ancient testimony rather than verified prophecy, universal modern science, medical guidance, stigma, cruelty, or spectacle.",
+  "assignments": [
+    "10:18",
+    "10:19",
+    "10:20",
+    "10:21",
+    "10:22",
+    "10:23",
+    "10:24",
+    "10:25"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "animals-birds-wave-03",
+    "receiptsCheckedAtCertification": 95,
+    "nonEvidenceMastersCheckedAtCertification": 755,
+    "examinedCanonicalRange": "Book X after the already owned or assigned 10:1 through 10:17 range",
+    "skippedCandidates": [
+      {
+        "chapterRange": "10:1-10:8",
+        "reason": "existing non-evidence masters and receipt ownership in animals-birds-wave-01"
+      },
+      {
+        "chapterKey": "10:9",
+        "reason": "receipt-backed atlas cell, not planned-full-scene"
+      },
+      {
+        "chapterRange": "10:10-10:17",
+        "reason": "existing assignment and receipt ownership in animals-birds-wave-02"
+      }
+    ],
+    "selectedKeys": [
+      "10:18",
+      "10:19",
+      "10:20",
+      "10:21",
+      "10:22",
+      "10:23",
+      "10:24",
+      "10:25"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 7,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 15,
+    "independentCalls": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:18",
+      "title": "THE WOOD-PECKER OF MARS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c018.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1689c4c63e6d81ae6d9667474a57949cfe205255d2173810645c4a53cf93e8fc",
+        "englishSha256": "a054e825f606daa0bf6a2411aa07dc7f3422793dfaaee85fd30cf101bb2ef646",
+        "latinWords": 159,
+        "englishWords": 274
+      },
+      "sha256": "ebe711cbeec86cb444d70f8d5adf84948fc85c3142103877b348709a079ab20b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9ed1e89f-d782-467f-a3cb-91bbb7381a6c",
+      "generationArtifactId": "exec-9ed1e89f-d782-467f-a3cb-91bbb7381a6c",
+      "outputArtifact": "built-in-imagegen://exec-9ed1e89f-d782-467f-a3cb-91bbb7381a6c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's woodpecker chapter through plausible natural behavior, not omen drama. Show exactly one complete Mediterranean green-woodpecker-like adult climbing head-up on the trunk of one complete mature oak and tapping beside one natural nest cavity. The bird must be biologically scaled: about 30 centimeters long and no more than one-twelfth the visible height of the mature oak, yet clearly legible through crisp linework. It is fully visible in side profile with two correct feet gripping bark, a complete beak, folded wings and tail; calm, alive and unwounded. The entire oak—full rounded crown, all major branches, complete trunk and root flare—is visible inside a sparse Latian meadow. No chicks, people, nails, wedges or herbs.\nScene/backdrop: open Roman-era Latian oak meadow with low distant hills and pale dawn sky; no buildings, water or ritual objects.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stippled feathers and bark, dry-brush abrasion; rough and polished at once.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; complete oak centered slightly off-axis and occupying roughly three-quarters of image height, surrounded on every side by open meadow and sky. The correctly small woodpecker remains readable against a lighter patch of trunk. Every feather tip, claw, beak, branch, leaf cluster and root is complete and comfortably inside the canvas. One coherent scene.\nLighting/mood: cool clear dawn; attentive listening and quiet intelligence without anthropomorphic magic.\nColor palette: warm umber bark, muted verdigris foliage, ochre meadow, faded-lapis sky, restrained madder crown marking.\nConstraints: output 1536x1024 landscape; exactly one biologically scaled bird and one complete mature oak; one natural cavity; no other animal or human; auspicial and wedge-ejecting stories remain unliteralized transmitted belief.\nAvoid: oversized bird, bird longer than one-twelfth tree height, tree or bird touching an edge, cropped crown or roots, extra birds, chicks, magical herb, flying wedge, nail, omen ceremony, tribunal, captured or killed bird, blood, gore, cruelty, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, border, framed page, panels, collage, modern objects, photography, glossy CGI, neon plumage.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f364e013-ac61-457c-b7dc-d1905bf04944",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-9ed1e89f-d782-467f-a3cb-91bbb7381a6c",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly one correctly scaled, complete green-woodpecker-like adult beside one natural cavity in a complete mature oak. The crown and roots remain internal; no person, omen, killing, wedge, text, pseudo-writing, panel, collage, duplicate bird, clipped subject, or water appears.",
+      "epistemicAndDignityNote": "The tapping and cavity observation is centered. Augury, miraculous wedge-removal, and the killing of the captured bird remain transmitted ancient testimony and are not literalized.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-f364e013-ac61-457c-b7dc-d1905bf04944",
+          "outputArtifact": "built-in-imagegen://exec-f364e013-ac61-457c-b7dc-d1905bf04944.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c018-attempt-01-woodpecker-overscaled.png",
+          "sha256": "01b66cae74040bdf6ca9e62d5e5eb41871f470cd9fe25bbdeecad95777af595a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's woodpecker chapter through plausible natural behavior, not omen drama. Show exactly one complete Mediterranean green-woodpecker-like adult climbing head-up on the trunk of one complete mature oak, tapping beside one clean natural nest cavity. The bird is fully visible in side profile with two correct feet gripping bark, complete beak, wings and tail; it is calm, alive and unwounded. The entire oak—full rounded crown, every major branch, complete trunk and root flare—is visible inside a sparse Latian meadow. No chicks, people, nails, wedges or herbs.\nScene/backdrop: open Roman-era Latian oak meadow with low distant hills and a pale dawn sky; no buildings, water or ritual objects.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stippled feathers and bark, dry-brush abrasion; ancient, timeless, materially rough and polished in anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; complete oak offset from center and occupying no more than two-thirds of height, surrounded on every side by open meadow and sky. The woodpecker is large enough to read clearly against the trunk. Every feather tip, claw, beak, branch, leaf cluster and root remains complete and at least a generous margin from all edges. One coherent scene.\nLighting/mood: clear cool dawn; attentive listening and quiet intelligence, without anthropomorphic magic.\nColor palette: warm umber bark, muted verdigris foliage, ochre meadow, faded-lapis sky, restrained madder crown marking.\nConstraints: output 1536x1024 landscape; exactly one bird and one complete oak; one natural cavity; no human or other animal; treat auspicial and wedge-ejecting stories as transmitted belief rather than literal fact.\nAvoid: bird or tree touching any edge, cropped crown or roots, extra birds, chicks, magical herb, flying wedge, nail, omen ceremony, augur, tribunal, captured or killed bird, blood, gore, cruelty, anthropomorphism, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, border, framed page, panels, diptych, triptych, collage, repeated imagery, modern objects, photography, glossy CGI, neon plumage.",
+          "reason": "The woodpecker was implausibly oversized relative to the mature tree, failing zoological scale plausibility."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:19",
+      "title": "BIRDS WHICH HAVE HOOKED TALONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c019.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b595683966bf2afdb40c5fac9448454da39b1ff45a99e525caf696e173879f46",
+        "englishSha256": "40877e1faaa03271c50150d659d015dc1a781d8e22d3b7c1f4da96bab685cf77",
+        "latinWords": 34,
+        "englishWords": 111
+      },
+      "sha256": "1aa62bf0642ef4df88fe0d8a4cd27c0ec8a7fb31e6d6709b13839dad6e3e07e2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d6dc9b19-be2b-4239-96b4-8a2f3112b952",
+      "generationArtifactId": "exec-d6dc9b19-be2b-4239-96b4-8a2f3112b952",
+      "outputArtifact": "built-in-imagegen://exec-d6dc9b19-be2b-4239-96b4-8a2f3112b952.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Visualize Pliny's observation that hooked-taloned birds often fly alone and high. Show exactly one complete plausible black kite soaring alone in a shallow bank above a vast Mediterranean upland. Its long broad wings are fully extended, body relatively small, forked tail complete, head alert, and both curved taloned feet visible but relaxed beneath the body. It carries no prey and shows no aggression.\nScene/backdrop: immense airy sky over distant dry ridges and scattered woodland far below; no water, people, buildings, nests or other birds.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; iron-gall contour, exceptionally fine cross-hatching and stipple in feathers, dry-brush sky and mineral haze; ancient rough materiality with polished aerodynamic anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; nearly level aerial viewpoint. The single kite spans roughly half the canvas width and floats in the upper-middle, with a halo of open sky around every wingtip, beak, tail and talon. Low land occupies only the bottom quarter and serves as scale. The bird remains wholly visible and at least a broad margin from all edges. One continuous panorama.\nLighting/mood: high clear afternoon light, quiet altitude and solitude rather than predatory menace.\nColor palette: faded lapis and pale ochre sky, umber and lampblack bird, muted verdigris and smoky madder land.\nConstraints: output 1536x1024 landscape; exactly one complete kite; accurate wing, tail and talon anatomy; no other animal; interpret Pliny's grouping and omen language as transmitted observation, not universal zoological law.\nAvoid: bird or wing touching an edge, cropped feathers, extra bird, prey, hunt, kill, blood, gore, talons gripping flesh, aggressive dive, heraldic emblem, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, decorative border, framed page, panels, collage, repeated bird, modern aircraft, photography, glossy CGI, neon sky.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d6dc9b19-be2b-4239-96b4-8a2f3112b952",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete black-kite-like hooked-taloned bird soaring alone at high altitude. Both wings, forked tail, head, beak, body and talons are complete and internal; there is no prey, second bird, water, text, pseudo-writing, panel, collage, or clipped motif.",
+      "epistemicAndDignityNote": "The chapter is treated as ancient morphological and behavioral observation; flesh-eating and solitary habits are not turned into predation spectacle.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:20",
+      "title": "THE PEACOCK",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c020.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3447808c18766f540d87eca60d8412bc381b31d939e4f29fe19772ac4afc8e5a",
+        "englishSha256": "29db18954b4089b0150d90d2691b4df228aa2314a790498af26175026df79cd4",
+        "latinWords": 152,
+        "englishWords": 359
+      },
+      "sha256": "e41fab0ad5bbe5a7eb41f92563289cad5318b59b0313e85a6e8a85205ef5980c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5101a20f-1c8c-43e7-be06-5b271b6c3b3a",
+      "generationArtifactId": "exec-5101a20f-1c8c-43e7-be06-5b271b6c3b3a",
+      "outputArtifact": "built-in-imagegen://exec-5101a20f-1c8c-43e7-be06-5b271b6c3b3a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Portray Pliny's peacock chapter as a natural display under changing light, without literalizing vanity or culinary harm. Show exactly one complete adult male Indian peafowl standing alone in a quiet Roman garden clearing, natural three-quarter pose, with its entire train raised into one broad shell-shaped fan. The full fan circumference and every outer feather tip are visible; the complete blue-green body, head crest, both legs, both ankles and both feet are clearly seen below. Angled sunlight reaches one side of the eyespots while soft dappled shade from unseen foliage crosses the other, revealing iridescent change with light. Calm, alive and unwounded.\nScene/backdrop: spacious bare orchard clearing with only dry ground, a complete low pale wall fully inside the middle distance, and open sky. No visible tree, branch, water, banquet object, people or other animal.\nStyle/medium: original Plinian avian folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion and restrained mineral glazes; rough surface with precise feather structure.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; the angled peacock fan occupies the central two-thirds as an asymmetrical radiant oval, not frontal heraldry. A generous continuous margin of sky, wall and ground surrounds the whole bird. Every crest filament, outer train feather, folded wing, leg and toe remains completely inside the image and clear of the boundary. One coherent clearing.\nLighting/mood: warm angled sun and cool patterned shade; natural splendor, seasonality and quiet observation, not narcissism or luxury display.\nColor palette: restrained verdigris, faded lapis, umber, ochre and lampblack with sparse muted gold and madder eyespot accents.\nConstraints: output 1536x1024 landscape; exactly one complete peacock; anatomically plausible body, feet and train; Pliny's personality attributions treated as disputed ancient interpretation rather than animal character fact.\nAvoid: any feather, crest, foot, wall or discrete object touching an edge; clipped feather tips; hidden feet; extra bird; peahen; chick; mirror; tree; spectators; anthropomorphic expression; throne; banquet; slaughter; force-feeding; blood; gore; text; letters; labels; numerals; pseudo-writing; signature; logo; watermark; decorative border; framed page; panels; collage; repeated peacock; photography; glossy CGI; neon jewel tones.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-23199b9e-c413-4a3f-8494-bbc6729213e7",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-5101a20f-1c8c-43e7-be06-5b271b6c3b3a",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete male peacock with full circular fan, intact crest, body, two legs and feet, all comfortably internal against a restrained clearing and wall. There is no second bird, clipped tree, person, meat, text, pseudo-writing, panel, collage, or water.",
+      "epistemicAndDignityNote": "Light-dependent plumage display is centered as observation; vanity, slaughter, fattening, and culinary claims are not anthropomorphized or depicted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-23199b9e-c413-4a3f-8494-bbc6729213e7",
+          "outputArtifact": "built-in-imagegen://exec-23199b9e-c413-4a3f-8494-bbc6729213e7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c020-attempt-01-fig-tree-clipped-top-left.png",
+          "sha256": "9078a4518e482b9bcfec8cc9fe571a89b4eee45a156204d3c1fb1c652eb231c9",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Portray the peacock chapter as a natural display under changing light, without literalizing vanity or culinary harm. Show exactly one complete adult male Indian peafowl in a quiet Roman garden clearing, standing in a natural three-quarter pose with its full train raised into one broad shell-shaped fan. The entire fan circumference and every outer feather tip are visible; the complete blue-green body, head crest, both legs and both feet are clearly seen below. Sunlight reaches one side of the eyespots while a fig tree casts soft broken shadow across the other, illustrating iridescent change with light. The bird is calm and unwounded; no audience or other animal.\nScene/backdrop: restrained Roman-era orchard clearing with one complete low fig tree and distant pale garden wall, all safely internal; dry ground, no water, no banquet objects.\nStyle/medium: original Plinian avian folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, restrained mineral glazes; rough surface with exquisitely precise feather structure.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; peacock fan occupies the central two-thirds as an asymmetrical radiant oval, slightly angled rather than frontal heraldry. A wide open margin of sky, wall and ground surrounds the whole bird. Every crest filament, wing, outer train feather, leg, toe and fig branch remains completely inside the image. One coherent garden scene.\nLighting/mood: warm angled sun and cool patterned shade; natural splendor, seasonality and quiet observation, not narcissism or luxury display.\nColor palette: restrained verdigris, faded lapis, umber, ochre and lampblack with sparse muted gold and madder eyespot accents.\nConstraints: output 1536x1024 landscape; exactly one complete peacock and one complete fig tree; anatomically plausible body, feet and train; Pliny's personality attributions treated as disputed ancient interpretation, not animal character fact.\nAvoid: fan or tree touching an edge, clipped feather tips, hidden feet, extra bird, peahen, chick, mirror, spectators, anthropomorphic expression, throne, banquet, slaughter, force-feeding, blood, gore, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, decorative border, framed page, panels, collage, repeated peacock, photography, glossy CGI, neon jewel tones.",
+          "reason": "The requested fig tree was visibly cut by the top and left canvas edges, failing discrete-subject framing."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:21",
+      "title": "THE DUNGHILL COCK",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c021.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1669c532a65ebb3baf029a104dbf4f19ae5bfb5d0275038991c943a8925d4c1a",
+        "englishSha256": "6f216d2b67f89abb751c5a51a0810754323b26d905a7f5210a2228d8ccb7949d",
+        "latinWords": 281,
+        "englishWords": 668
+      },
+      "sha256": "2dd75e5d092569da85aaa0ebf842e264c0778e7ddb7880fc3d2eb958e778eb2d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ebcb1cc7-e910-4900-a909-8ce57f610e3e",
+      "generationArtifactId": "exec-ebcb1cc7-e910-4900-a909-8ce57f610e3e",
+      "outputArtifact": "built-in-imagegen://exec-ebcb1cc7-e910-4900-a909-8ce57f610e3e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's dung-hill cock chapter through the ordinary dawn call, excluding combat and mutilation spectacle. Show exactly one complete healthy Roman-era domestic rooster standing on one complete low rectangular stone block in a quiet open farm courtyard at the transition from stars to sunrise. It raises its neck in a natural crowing posture, beak slightly open, both wings folded, both legs and both feet visible and balanced; full comb, wattles and sickle-shaped tail are intact. No other bird, person or animal.\nScene/backdrop: broad empty courtyard of dry earth, one continuous low stone boundary wall crossing the distant background, low hills and a blue-ochre sky with a few fading stars. No shed, building, column, water, clock, weapon, cage or arena.\nStyle/medium: original Plinian avian folio on warm fibrous aged vellum; iron-gall contours, precise cross-hatching and stipple in plumage, dry-brush abrasion and restrained mineral wash; rough ancient surface with polished anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low eye-level view, rooster offset against broad sky, complete stone block as a quiet base. Generous negative space surrounds crest, beak, tail, wing edges, legs, toes and all block corners. The bird and block occupy the central two-thirds and are fully inside the canvas. One coherent dawn scene.\nLighting/mood: cool last watch giving way to warm sunrise; alert, calm and useful, not domineering or triumphant.\nColor palette: lampblack and copper-brown plumage, muted madder comb, ochre stone, faded-lapis sky, restrained verdigris shadow.\nConstraints: output 1536x1024 landscape; exactly one complete rooster and one complete stone block; correct bird anatomy; the continuous distant wall may exit laterally as landscape, but no discrete structure may touch an edge; Pliny's celestial knowledge, lion fear and omen claims treated as ancient attribution rather than literal fact.\nAvoid: rooster, tail, feet or block touching an edge; hidden feet; shed; building; extra bird; cockfight; opponent; spur attack; cage; arena; blood; wound; castration; hot iron; human handling; lion; magical stars; anthropomorphic pride; text; letters; labels; numerals; pseudo-writing; signature; logo; watermark; border; framed page; panels; collage; repeated rooster; modern farm equipment; photography; glossy CGI; neon plumage.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-88cbc19d-183d-4092-b3ba-feaaca792f5f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-ebcb1cc7-e910-4900-a909-8ce57f610e3e",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete rooster crowing at dawn on one complete low stone block. Comb, beak, wings, tail, both legs and feet are visible and internal; there is no shed, second bird, combat, person, text, pseudo-writing, panel, collage, or water.",
+      "epistemicAndDignityNote": "Dawn vigilance and crowing are centered. Fighting, castration, omen, sacrifice and spectacle are excluded.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-88cbc19d-183d-4092-b3ba-feaaca792f5f",
+          "outputArtifact": "built-in-imagegen://exec-88cbc19d-183d-4092-b3ba-feaaca792f5f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c021-attempt-01-shed-clipped-right.png",
+          "sha256": "c6ae99ad181522beaa7fc5c0e057b25d8fd6d91398b77df4cf08605a859900a9",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's dung-hill cock chapter through the ordinary dawn call, refusing combat and mutilation spectacle. Show exactly one complete healthy Roman-era domestic rooster standing on one complete low rectangular stone block in a quiet farm courtyard at the transition from stars to sunrise. The rooster raises its neck in a natural crowing posture, beak open slightly, both wings folded, both legs and both feet visible, balanced naturally; full comb, wattles and sickle-shaped tail are intact. No other bird, person or animal.\nScene/backdrop: sparse enclosed farm courtyard with a distant tiled shed and one low wall, both entirely within the middle distance; pale stars fading in a blue-ochre sky. No clocks, weapons, cages, arena or water.\nStyle/medium: original Plinian avian folio on warm fibrous aged vellum; iron-gall contours, precise cross-hatching and stipple in plumage, dry-brush abrasion and restrained mineral wash; ancient rough surface with polished anatomical clarity.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low eye-level view, rooster offset against a broad dawn sky, complete stone block forming a quiet base. Generous negative space surrounds the crest, beak, tail, wing edges, legs, toes, block corners and architecture. Every discrete subject remains fully inside the canvas. Single coherent dawn scene.\nLighting/mood: cool last watch giving way to warm sunrise; alert, calm and useful, not domineering or triumphant.\nColor palette: lampblack and copper-brown plumage, muted madder comb, ochre stone, faded-lapis sky, restrained verdigris shadow.\nConstraints: output 1536x1024 landscape; exactly one complete rooster and one complete stone block; correct bird anatomy; Pliny's celestial knowledge, lion fear and omen claims treated as ancient attribution rather than literal fact.\nAvoid: rooster, tail, feet, block, shed or discrete architecture touching an edge; hidden feet; extra bird; cockfight; opponent; spur attack; cage; arena; blood; wound; castration; hot iron; human handling; lion; magical stars; anthropomorphic pride; text; letters; labels; numerals; pseudo-writing; signature; logo; watermark; border; framed page; panels; collage; repeated rooster; modern farm equipment; photography; glossy CGI; neon plumage.",
+          "reason": "A discrete shed was clipped by the right image edge, failing the framing gate."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:22",
+      "title": "THE GOOSE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c022.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2059ca0550632bfccbecc36463b343220ede4904fdefd775012822938350f470",
+        "englishSha256": "8875da8c1c4267281d974e9dd30c0266289987f064affa0d5f53a6a02ccd7ced",
+        "latinWords": 342,
+        "englishWords": 791
+      },
+      "sha256": "3a3f866fbcc5b962849bc312d5aba0e5a94a4614881f86350e937809fab865ff",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-112cbd20-d813-4c6a-8f27-89b85d51006c",
+      "generationArtifactId": "exec-112cbd20-d813-4c6a-8f27-89b85d51006c",
+      "outputArtifact": "built-in-imagegen://exec-112cbd20-d813-4c6a-8f27-89b85d51006c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's goose chapter through ordinary vigilance, refusing force-feeding, plucking, culinary and medicinal exploitation. Show exactly one complete healthy white domestic goose standing alert but calm on one complete broad stone terrace above an early Roman city at blue twilight. The bird is in natural side profile with full neck upright, beak closed, both folded wings, two legs and two webbed feet clearly visible. It looks toward a distant shadowed approach without any enemy, alarm spectacle or human audience.\nScene/backdrop: quiet open hill terrace with one complete low dry-stone parapet fully inside the middle distance and a few small Roman roofs far below; dry ground, no water, cage, altar, dog, soldier or siege.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; iron-gall contours, delicate cross-hatching and stipple in white feathers, dry-brush mineral twilight; ancient rough materiality with polished anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; goose offset low against broad faded-lapis twilight, complete terrace slab and parapet receding diagonally, extensive quiet negative space. Every feather, beak, tail, leg, webbed toe, terrace corner and roof is fully internal and separated from all edges. One coherent scene.\nLighting/mood: blue twilight with a thin warm horizon; observant, dignified and quiet, not anthropomorphically heroic.\nColor palette: ivory and pale ochre goose, faded lapis sky, muted verdigris shadow, umber stone, tiny madder roof accents.\nConstraints: output 1536x1024 landscape; exactly one complete goose; no other animal or human; plausible domestic goose anatomy; Capitoline vigilance, companionship and utility claims treated as transmitted ancient stories rather than proven exceptional intelligence.\nAvoid: goose, feet, terrace, parapet or discrete roof touching an edge; hidden feet; extra bird; flock; siege; attacker; dog; boy; romantic anthropomorphism; cage; plucking; loose feathers; force-feeding; enlarged liver; slaughter; cooking; medicine; wound; blood; gore; text; letters; labels; numerals; pseudo-writing; signature; logo; watermark; border; framed page; panels; collage; modern city, photography, glossy CGI, neon white.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-112cbd20-d813-4c6a-8f27-89b85d51006c",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete alert white goose on a Roman hill terrace at twilight. Both legs and webbed feet, bill, body, wings and tail are visible and internal; there is no person, second animal, restraint, food, water, text, pseudo-writing, panel, or collage.",
+      "epistemicAndDignityNote": "Vigilance is shown without claiming the Capitoline story as verified event; force-feeding, plucking, culinary use and remedies are not depicted or recommended.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:23",
+      "title": "CRANES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "45f218990eb23b133fd8a5b772e963b16df90623c25fdea2ded94d513713e1ec",
+        "englishSha256": "3e8016b8095808e82a067ef798ffce90b57e95a7b1c740365b4e3a1fe4d3eae9",
+        "latinWords": 604,
+        "englishWords": 1483
+      },
+      "sha256": "2519eb30a4d684837a5aeee223fa25845923b213f2653f4fdda5c6348b621f91",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f72e71fd-f0cd-472a-b463-28194d779b20",
+      "generationArtifactId": "exec-f72e71fd-f0cd-472a-b463-28194d779b20",
+      "outputArtifact": "built-in-imagegen://exec-f72e71fd-f0cd-472a-b463-28194d779b20.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Portray Pliny's crane chapter through coordinated migration, excluding demeaning battle stories, killing, captivity and speculative ballast. Show EXACTLY SEVEN Eurasian cranes, count 1 + 3 + 3, flying in one unmistakable V formation across a broad autumn sky. One leader is alone at the forward central point. Behind it are two separate symmetrical arms: exactly three cranes on the left arm and exactly three cranes on the right arm. All seven are complete, individually drawn, naturally varied, and non-overlapping, with full outstretched wings, long necks, trailing legs, correct beaks and distinct bodies. No eighth bird and no missing bird.\nScene/backdrop: panoramic Anatolian-like dry upland and pale valley far below, with no visible water, ship, settlement, people or other animals.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, translucent faded-lapis and ochre mineral washes, dry-brush air; rough materiality with polished flight anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; direct high-oblique view of the formation. Place leader near upper-center. Place three left followers at successively lower-left positions and three right followers at mirrored successively lower-right positions, creating a clear open V with air between every bird. The seven-bird formation occupies the central half of the canvas; low land fills the bottom fifth. All seven complete birds remain comfortably inside the image, no overlap or edge contact. Single panorama, not diagram.\nLighting/mood: pale sunrise and high clear air; shared effort and immense distance, calm and non-anthropomorphic.\nColor palette: faded lapis sky, pearl-gray cranes with restrained lampblack and madder head marks, ochre and muted verdigris land.\nConstraints: output 1536x1024 landscape; exactly seven cranes total: one leader, three on left arm, three on right; accurate anatomy; no other bird; no water; Pliny's leadership, sentinel, sand, stone and arrival claims treated as transmitted observation rather than proven universal mechanism.\nAvoid: six birds, eight birds, diagonal single-file line, overlap, cropped wing, extra crane, missing leg, stone in claw, sand in throat, attack, torn bird, Pygmy depiction, ethnic caricature, hunting, captive dancing, culinary scene, blood, gore, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, border, framed page, panels, collage, diagram arrows, cloned identical birds, modern aircraft, photography, glossy CGI, neon sky.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d5a925d8-2299-4749-b292-9030c162ed48",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-f72e71fd-f0cd-472a-b463-28194d779b20",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly seven complete Eurasian cranes in an unmistakable V: one leader, three left and three right. Every head, neck, body, pair of wings, legs and feet remains separate and internal; no water, people, combat, extra animal, text, pseudo-writing, panel, or collage appears.",
+      "epistemicAndDignityNote": "Migration is centered as ancient observation. The Pygmy battle, killing, captivity, ballast and fabulous geography are not literalized, avoiding violence and ethnic stigma.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d5a925d8-2299-4749-b292-9030c162ed48",
+          "outputArtifact": "built-in-imagegen://exec-d5a925d8-2299-4749-b292-9030c162ed48.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c023-attempt-01-six-cranes-linear.png",
+          "sha256": "13e1136aed0ab4dd3e9e54afdfc173b4d1ccae241a5d23db7ea1fd9a4f6550c4",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Portray Pliny's crane chapter through long-distance coordinated migration, excluding the demeaning battle story, killings, captivity and speculative ballast claims. Show exactly seven complete Eurasian cranes flying high across a vast autumn landscape in one natural shallow V formation. One leader occupies the forward point; three cranes follow on each arm with plausible spacing. Every bird has complete outstretched wings, long neck, trailing legs, correct beak and distinct body; no bird overlaps another. No people or other animals.\nScene/backdrop: panoramic Anatolian-like upland and pale river valley far below, but every small muted watercourse is wholly internal and surrounded by dry land; broad sky dominates. No ship, settlement, cage or battlefield.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, translucent faded-lapis and ochre mineral washes, dry-brush air; rough materiality with polished flight anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; high oblique panorama. The seven-bird V sweeps diagonally across the central sky and occupies the middle half of the canvas, with generous open air around each separate wingtip, head and trailing foot. Land forms a low atmospheric band. No bird or water touches any image edge. One continuous migratory moment, not a diagram.\nLighting/mood: pale sunrise and high clear air; shared effort and immense distance, calm and non-anthropomorphic.\nColor palette: faded lapis sky, pearl-gray cranes with restrained lampblack and madder head marks, ochre and muted verdigris land.\nConstraints: output 1536x1024 landscape; exactly seven and only seven complete cranes; correct formation and anatomy; no overlap; Pliny's leader, sentinel, sand, stone and arrival claims treated as transmitted observation rather than universal proven mechanism.\nAvoid: water touching an edge, cropped birds, overlapping wings, extra crane, missing leg, stone in claw, sand in throat, attack, torn bird, Pygmy depiction, ethnic caricature, hunting, captive dancing, culinary scene, blood, gore, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, border, framed page, panels, collage, diagram arrows, repeated copy-paste birds, modern aircraft, photography, glossy CGI, neon sky.",
+          "reason": "The candidate contained only six cranes in a diagonal line rather than the required seven-bird V formation."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:24",
+      "title": "SWALLOWS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c024.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "e34759a7afb277329d3628ebaa4bc01a7dba5c1c55af45e2ccf8f68359b7bebd",
+        "englishSha256": "c3a095ee28b63654482593556616a4ec6a6de5e317412c4a6c2bc2d6b8eb45d2",
+        "latinWords": 188,
+        "englishWords": 414
+      },
+      "sha256": "53e29a171ffe13f932eb786bd8430e3ab5be81d905237c812e8aeaa63bc90474",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c30e04cf-6d0c-4fd3-89fb-0793221ea702",
+      "generationArtifactId": "exec-c30e04cf-6d0c-4fd3-89fb-0793221ea702",
+      "outputArtifact": "built-in-imagegen://exec-c30e04cf-6d0c-4fd3-89fb-0793221ea702.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's swallow chapter through rapid sinuous flight toward a sunny mountain refuge, excluding capture, dyeing, message strings and siege use. Show exactly five complete barn swallows sweeping through one shared S-shaped aerial path above a warm limestone mountain recess in late autumn. Each bird is individually drawn at a different natural phase of flight, with complete pointed wings, forked tail, head and tiny feet; all five are separated and non-overlapping. No insects or other animals.\nScene/backdrop: sunlit sheltered mountain hollow with a broad recessed cliff alcove, dry scrub and distant pale ridges. No building, nest, water, ship, city or human object.\nStyle/medium: original Plinian avian natural-history folio on warm fibrous aged vellum; brisk iron-gall contour, fine cross-hatching and stipple, dry-brush air currents and restrained mineral wash; ancient rough surface with polished high-speed anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low oblique viewpoint looking across the alcove. Exactly five swallows trace an open S-curve from lower-left middle distance to upper-right sky, not a V and not a row. Every wingtip and tail fork remains complete with visible air between birds and a broad margin from all image edges. The cliff is continuous landscape, not a framed vignette. One coherent migration moment.\nLighting/mood: warm low sun touching the shelter, cool open air; swift, light and elusive, without anthropomorphic intent.\nColor palette: ochre and umber cliff, faded lapis sky, lampblack-blue swallows with restrained madder throats, muted verdigris scrub.\nConstraints: output 1536x1024 landscape; exactly five and only five complete barn swallows; no overlap and no other animals; Pliny's winter range, city avoidance and messaging anecdotes treated as uncertain transmitted reports rather than literal navigation or communication systems.\nAvoid: cropped bird, extra swallow, missing tail fork, overlap, repeated identical bird, bird touching an edge, capture, string, knot, dyed plumage, messenger scene, siege, nest removal, bare injured bird, blood, gore, text, letters, labels, numerals, pseudo-writing, signature, logo, watermark, border, framed page, panels, collage, diagram arrows, modern buildings, photography, glossy CGI, neon sky.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c30e04cf-6d0c-4fd3-89fb-0793221ea702",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly five complete barn swallows in separate poses tracing a loose S-shaped flight path above an internal limestone recess. Wings, forked tails and bodies are fully visible; no water, person, capture device, text, pseudo-writing, panel, collage, duplicate, or clipped bird appears.",
+      "epistemicAndDignityNote": "Sinuous flight and mountain refuge are centered. Capture, dyes, message strings, siege use and medicinal claims are not depicted or endorsed.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:25",
+      "title": "BIRDS WHICH REMAIN WITH US THROUGHOUT THE YEAR; BIRDS WHICH REMAIN WITH US ONLY SIX OR THREE MONTHS; WITWALLS AND HOOPOES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c025.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "79fa8c314ad17022628c7c772e55f54d13ebfecd7a0adb73afed011e90f074d2",
+        "englishSha256": "780dd6d6366a6b93892c64d0a5bc2b7c91f99728388464438aa23ecea57b11f0",
+        "latinWords": 23,
+        "englishWords": 63
+      },
+      "sha256": "4b14bce905882549588f290db2b9b5ef2e3c0b80ac7b92d5fde3afc5ee4ba220",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c13d0010-100e-4d2e-aa57-c03def138a8d",
+      "generationArtifactId": "exec-c13d0010-100e-4d2e-aa57-c03def138a8d",
+      "outputArtifact": "built-in-imagegen://exec-c13d0010-100e-4d2e-aa57-c03def138a8d.png",
+      "exactFinalPrompt": "Create a third replacement single independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 25, about birds remaining for different lengths of the year. Depict the passage as transmitted ancient Mediterranean seasonal observation, not as a modern universal range claim. Make the visual structure radically unlike orchard, meadow, landscape-horizon, or night-sky folios: use a steep bird’s-eye oblique view onto one continuous, unmarked, sun-bleached white travertine courtyard at hard Mediterranean noon. The pale stone plane should occupy nearly the entire image, with irregular natural slabs and strong long charcoal-blue cast shadows creating a bold diagonal rhythm. This is a real physical courtyard surface, NOT parchment, a page, a chart, a calendar, a diagram, a species plate, a collage, or panels. Show EXACTLY SIX birds total, all physically separate, fully visible, correctly proportioned, and comfortably inside a minimum 120-pixel safe margin: (1) one rock pigeon walking in the lower-left quadrant, both legs and feet visible; (2) one barn swallow flying in the upper-left quadrant, both complete wings and forked tail visible, casting a small separate shadow; (3) one song thrush standing in the center-left, both feet visible; (4) one European turtle-dove standing in the lower-right quadrant, both feet visible; (5) one Eurasian golden oriole—used as a visually plausible, explicitly uncertain identification for Pliny's “witwall”—flying through the upper-right quadrant with both complete wings and tail visible; (6) one Eurasian hoopoe standing center-right, crest, bill, wings, both legs and feet complete. No perches are needed. No other birds, animals, eggs, nests, or people. Keep the six birds far apart with no overlaps; every shadow also remains inside the frame. Only the continuous stone ground may meet the image edges. Add at most five tiny scattered complete copper-colored leaves, never arranged symbolically. No water, trees, tall plants, buildings, monuments, pots, walls, or large discrete objects. Ancient Plinian zoological folio materiality as image-making: luminous egg tempera, fine iron-gall-like contours, bone-white lime, charcoal-blue shadows, restrained lapis, cinnabar, malachite, copper and soot accents, dry-brush abrasion and handmade rough-polished texture. Natural anatomy, quiet dignity, no anthropomorphic behavior, capture, violence, captivity, medicine, omen spectacle, or cruelty. Illustration only: absolutely no text, letters, numerals, labels, captions, symbols, pseudo-writing, maps, borders, frames, page edges, parchment sheet, codex, book, split-screen, repeated copies, logo, or watermark.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2bf32c18-c923-4231-82d4-e7000ae91cb6",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-f3b9cc73-a5cd-4bef-b389-8b28035b43b1",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-0420fc57-b6fa-453f-b494-63d81ce97407",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-c13d0010-100e-4d2e-aa57-c03def138a8d",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly six complete and separated birds over one continuous high-key travertine courtyard: rock pigeon, barn swallow, song thrush, turtle-dove, golden oriole and hoopoe. Feet, wings, tails, crests and cast shadows remain internal; there is no seventh bird, water, tree, chart, text, pseudo-writing, panel, collage, page, or clipped subject.",
+      "epistemicAndDignityNote": "Different seasonal residence durations are presented as transmitted ancient phenology, not universal modern range law. Golden oriole is documented as a visually plausible but uncertain rendering of Pliny’s witwall.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-2bf32c18-c923-4231-82d4-e7000ae91cb6",
+          "outputArtifact": "built-in-imagegen://exec-2bf32c18-c923-4231-82d4-e7000ae91cb6.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c025-attempt-01-fruit-tree-clipped-top-right.png",
+          "sha256": "0027e6d1b69899bb470fa8847ba7534a10499627acce0f20bad47a7072c018ac",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a single independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 25, about birds remaining for different lengths of the year. Depict the passage as transmitted ancient Mediterranean seasonal observation, not as a modern universal range claim. One continuous, believable early-autumn hillside orchard scene only—never a chart, calendar, diagram, species plate, collage, diptych, triptych, or panels. Show EXACTLY SIX birds total, all physically separate, fully visible, correctly proportioned, and comfortably inside a generous safe margin: (1) one rock pigeon walking at lower left with both legs and feet visible; (2) one barn swallow flying at upper left with both complete wings and its forked tail visible; (3) one song thrush perched on a low central branch with both feet visible; (4) one European turtle-dove standing at lower right with both feet visible; (5) one Eurasian golden oriole—used as a visually plausible, explicitly uncertain identification for Pliny's “witwall”—perched on an upper central branch; (6) one Eurasian hoopoe on the ground at lower center-right, crest, bill, wings, both legs and feet complete. No other birds, animals, eggs, nests, or people. Keep every bird at least 90 pixels from every edge and prevent overlaps. Include one complete, modest fruit tree entirely inside the frame, low hedges, dry grasses, and receding ochre hills; no water. Broad oblique viewpoint and spacious negative sky. Ancient Plinian zoological folio materiality as image-making: egg-tempera color, iron-gall-like fine contour, mineral pigments, dry-brush abrasion, faint soot patina, handmade texture, rough and polished at once; this chapter’s palette should be sage green, warm ochre, smoky rose, charcoal, and restrained lapis blue. Natural anatomy, quiet dignity, no anthropomorphic behavior, capture, violence, captivity, medicine, omen spectacle, or cruelty. Illustration only: absolutely no text, letters, numerals, labels, captions, symbols, pseudo-writing, maps, borders, frames, page edges, parchment sheet, codex, book, split-screen, repeated copies, logo, or watermark.",
+          "reason": "All six birds were present, but the discrete fruit tree was cut by the top and right edges."
+        },
+        {
+          "generationArtifactId": "exec-f3b9cc73-a5cd-4bef-b389-8b28035b43b1",
+          "outputArtifact": "built-in-imagegen://exec-f3b9cc73-a5cd-4bef-b389-8b28035b43b1.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c025-attempt-02-global-mad-19.67.png",
+          "sha256": "afab1a3c71e0b9ca7e43189a3dfc4f912ceba54760bef36d3ae1612f3b6383d9",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a replacement single independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 25, about birds remaining for different lengths of the year. Depict the passage as transmitted ancient Mediterranean seasonal observation, not as a modern universal range claim. One continuous, believable early-autumn open hillside meadow only—never a chart, calendar, diagram, species plate, collage, diptych, triptych, or panels. Show EXACTLY SIX birds total, all physically separate, fully visible, correctly proportioned, and comfortably inside a generous safe margin: (1) one rock pigeon walking at lower left with both legs and feet visible; (2) one barn swallow flying at upper left with both complete wings and its forked tail visible; (3) one song thrush perched on a low central freestanding branch with both feet visible; (4) one European turtle-dove standing at lower right with both feet visible; (5) one Eurasian golden oriole—used as a visually plausible, explicitly uncertain identification for Pliny's “witwall”—perched on a separate low branch in the upper middle; (6) one Eurasian hoopoe on the ground at lower center-right, crest, bill, wings, both legs and feet complete. No other birds, animals, eggs, nests, or people. Keep every bird at least 110 pixels from every image edge and prevent overlaps. Use only low, fully visible shrubs and two short fallen/freestanding branches, dry grasses, scattered stones, and distant ochre hills. NO tree, tall plant, architecture, or discrete object may touch or leave the frame. No water. Broad eye-level viewpoint and spacious negative sky. Ancient Plinian zoological folio materiality as image-making: egg-tempera color, iron-gall-like fine contour, mineral pigments, dry-brush abrasion, faint soot patina, handmade texture, rough and polished at once; this chapter’s palette is sage green, warm ochre, smoky rose, charcoal, and restrained lapis blue. Natural anatomy, quiet dignity, no anthropomorphic behavior, capture, violence, captivity, medicine, omen spectacle, or cruelty. Illustration only: absolutely no text, letters, numerals, labels, captions, symbols, pseudo-writing, maps, borders, frames, page edges, parchment sheet, codex, book, split-screen, repeated copies, logo, or watermark.",
+          "reason": "The edge-safe meadow candidate scored nearest-neighbor MAD 19.67, below the permanent 20.00 corpus threshold."
+        },
+        {
+          "generationArtifactId": "exec-0420fc57-b6fa-453f-b494-63d81ce97407",
+          "outputArtifact": "built-in-imagegen://exec-0420fc57-b6fa-453f-b494-63d81ce97407.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-03/evidence/history/b10-c025-attempt-03-global-mad-18.38.png",
+          "sha256": "26823fed4ed6b40c6af9e7b2d6aa53eb6dd215bf5a41c7e6c5a58599404b6426",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a second replacement single independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 25, about birds remaining for different lengths of the year. Depict the passage as transmitted ancient Mediterranean seasonal observation, not as a modern universal range claim. Make this composition materially unlike common parchment-colored orchard or daylight meadow scenes: a continuous Mediterranean BLUE-HOUR volcanic plateau before sunrise, with a large deep indigo and smoky-violet sky occupying about two thirds of the image, a low horizontal band of charcoal-black distant hills, and a narrow foreground of dark plum basalt stones with sparse copper grasses. No water. Never a chart, calendar, diagram, species plate, collage, diptych, triptych, or panels. Show EXACTLY SIX birds total, all physically separate, fully visible, correctly proportioned, and comfortably inside generous safe margins: (1) one complete rock pigeon standing at lower far left, both legs and feet visible; (2) one complete barn swallow flying high at upper left, both wings and forked tail visible; (3) one complete song thrush perched on a short low branch near lower center-left, both feet visible; (4) one complete European turtle-dove standing at lower far right, both feet visible; (5) one complete Eurasian golden oriole—used as a visually plausible, explicitly uncertain identification for Pliny's “witwall”—flying across the middle-right sky with both wings and tail visible; (6) one complete Eurasian hoopoe standing near lower center-right, crest, bill, wings, both legs and feet visible. No other birds, animals, eggs, nests, or people. Keep every bird at least 100 pixels from every image edge and prevent overlaps. Use no trees, tall plants, buildings, monuments, or large discrete objects; every small branch and stone must be entirely visible inside the frame. Spacious negative sky and low panoramic viewpoint. Ancient Plinian zoological folio materiality as image-making: luminous egg tempera over dark mineral ground, fine iron-gall-like contour, azurite and lapis blues, smoky violet, malachite shadow, copper-orange grass, small cinnabar accents, dry-brush abrasion, faint soot patina, handmade rough-polished texture. Natural anatomy, quiet dignity, no anthropomorphic behavior, capture, violence, captivity, medicine, omen spectacle, or cruelty. Illustration only: absolutely no text, letters, numerals, labels, captions, symbols, pseudo-writing, maps, borders, frames, page edges, parchment sheet, codex, book, split-screen, repeated copies, logo, or watermark.",
+          "reason": "The blue-hour replacement scored nearest-neighbor MAD 18.38, below the permanent 20.00 corpus threshold."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 755,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:18": {
+        "nearestMAD": 28.13,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c007.png",
+        "dHashAtMadPeer": 14,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c006.png",
+        "madAtDHashPeer": 34.8
+      },
+      "10:19": {
+        "nearestMAD": 24.81,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c017.png",
+        "madAtDHashPeer": 39.96
+      },
+      "10:20": {
+        "nearestMAD": 31.37,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c006.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b12-c028.png",
+        "madAtDHashPeer": 51.2
+      },
+      "10:21": {
+        "nearestMAD": 30.94,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-06/b08-c048.png",
+        "madAtDHashPeer": 57.48
+      },
+      "10:22": {
+        "nearestMAD": 20.91,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c031.png",
+        "madAtDHashPeer": 29.25
+      },
+      "10:23": {
+        "nearestMAD": 20.81,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b05-c031.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-37/b24-c006.png",
+        "madAtDHashPeer": 37.75
+      },
+      "10:24": {
+        "nearestMAD": 27.04,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c004.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c004.png",
+        "madAtDHashPeer": 35.29
+      },
+      "10:25": {
+        "nearestMAD": 22.64,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c018.png",
+        "madAtDHashPeer": 42.96
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-birds-wave-03",
+    "status": "pass",
+    "output": ""
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-21",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "37:13"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in prompts and artifact IDs were extracted from the current ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "sha256": "8461573ff117747e0dba4c8ec13af80cd599c51c4209edc055cb38f8f4a72053"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXVII chapter 13 were read before prompting. The accepted scene concentrates on morning-light, weight, internal-bubble and surface examination. The unsafe mouth-cooling comparison and destructive heat, file, saw and drilling tests are not enacted; the plate is ancient craft testimony, not contemporary gemological advice.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 1,
+    "rejectedArtifactCount": 1,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 2,
+    "independentInitialSceneCalls": 1,
+    "independentReplacementCalls": 1,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-21",
+    "claimKeys": [
+      "37:13"
+    ],
+    "ownershipScanScope": "Every existing receipt assignment, receipt chapter key and non-evidence b37-c013.png master under assets-source/chapter-scenes-v1 at claim time",
+    "receiptsCheckedAtCertification": 124,
+    "nonEvidenceMastersCheckedAtCertification": 969,
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPlanStatuses": {
+      "37:13": "planned-full-scene"
+    },
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "activeClaimCoordination": "Claimed only after the root campaign coordinator assigned 37:13 as the final unclaimed key."
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 969,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "37:13": {
+        "nearestMAD": 29.35,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c019.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c004.png",
+        "madAtDHashPeer": 45.31
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "37:13",
+      "title": "THE METHODS OF TESTING PRECIOUS STONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-21/b37-c013.png",
+      "corpusArtifact": "public/corpus/book-37.8461573ff117747e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "590c5e508ad57fb56b8fcfb97d5dc3bbd12162d0854136700d7d809509fec034",
+        "englishSha256": "16c8ef01272293372bd4b9f676cf023e93901cf4ec90e400ad6e196cda3b0200",
+        "latinWords": 462,
+        "englishWords": 1096,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e26c78eb1522b02cf5750433cee8ff8de2bebf4733f8671bee6c3f6fe04fe891",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-47b58a36-f42f-4f87-b78f-8b135bdef459",
+      "generationArtifactId": "exec-47b58a36-f42f-4f87-b78f-8b135bdef459",
+      "outputArtifact": "built-in-imagegen://exec-47b58a36-f42f-4f87-b78f-8b135bdef459.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent replacement Naturalis Historia Book XXXVII chapter 13 illustration master\nPrimary request: Create a visibly hand-drawn Roman-era Plinian folio scene of detecting a counterfeit precious stone, grounded in morning-light, weight, internal-bubble, surface, and hardness tests. Do not show the mouth-cooling test or provide modern testing advice.\nScene/backdrop: one austere open-front lapidary room at early morning. A broad diagonal band of cool dawn light crosses an otherwise empty continuous ochre plaster wall and plain stone floor. The background contains no shelf, side table, cabinet, pottery, container, window frame, arch, inset, water, or extra object.\nSubject: exactly two complete mature adults total: one seated gem examiner and one standing merchant, both fully visible from head through sandals. Their tunics and mantles are plain solid mineral colors with absolutely no border pattern, embroidered marks, symbols, repeated motifs, lettering, or decorative trim. The examiner holds one complete translucent imitation jewel in the light between finger and thumb; it shows one small internal bubble and subtly uneven brilliance. Centered between the adults is one complete low wooden table, fully visible including every leg. On it stands one complete ancient two-pan balance, fully visible: one pan holds one pale genuine crystal and hangs slightly lower, the other holds one same-sized glass imitation and hangs slightly higher. Beside it lie one complete dark obsidian touchstone and one complete blunt iron graver, both unused. No other stone, tool, furniture, or prop appears.\nStyle/medium: unmistakably a hand-illuminated natural-history folio, never a lifelike oil painting—warm fibrous aged vellum visibly showing through; firm iron-gall ink outlines around every form; dense directional cross-hatching on faces, cloth, wood, and plaster; stippled mineral surfaces; dry-brush abrasion; flattened manuscript depth; thin translucent washes; restrained matte highlights only. Palette: umber, lampblack, muted verdigris, faded lapis, madder, ochre, rock-crystal ivory, tiny jewel accents. Ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: spacious three-quarter view with the diagonal dawn beam and a triangular examiner-balance-merchant rhythm. Ample negative space. One coherent continuous scene. Every person, hand, foot, chair, table leg, balance, pan, stone, touchstone, and graver is complete and separated from every canvas edge by generous margins. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: lucid early-morning scrutiny, skeptical and calm.\nText: none.\nConstraints: exactly two living people, one chair, one table, one balance, two balance-pan stones, one raised imitation jewel, one touchstone, one graver; historically plausible Roman material culture. Ancient craft testimony only.\nAvoid: smooth realistic skin, cinematic oil painting, photography, photorealism, glossy CGI, decorative clothing, patterned hems, pseudo-writing, lettering, numerals, labels, inscriptions, scale markings, signatures, watermarks, border, dark perimeter line, depicted page, inset, panels, collage, diagram, side furniture, side props, pottery, magnifying glass, microscope, modern jewelry tools, clipped subject, duplicated hands, duplicated gems, mouth contact, injury, flame, or magical glow.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-013dc19d-e56f-4d75-a265-33555cac2ff8",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-47b58a36-f42f-4f87-b78f-8b135bdef459",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found exactly two complete adults, one complete chair, one fully visible table and balance, a lower pan for the heavier genuine crystal, an imitation raised into the dawn beam with a visible internal bubble, one touchstone and one blunt graver. Every focal subject is internal; garments are plain; no pseudo-writing, clipped prop, unsafe mouth contact, destructive test, modern device, frame or collage appears.",
+      "epistemicAndDignityNote": "The scene presents Pliny’s methods as historical lapidary testimony. Unsafe, destructive, magical and medical implications are omitted, and the merchant-examiner exchange remains calm and non-coercive.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-013dc19d-e56f-4d75-a265-33555cac2ff8",
+          "outputArtifact": "built-in-imagegen://exec-013dc19d-e56f-4d75-a265-33555cac2ff8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-21/evidence/history/b37-c013-reject-01-photoreal-pseudowriting-clipped-furniture.png",
+          "sha256": "23e970a5ed826abc23569d89d60fc84a3b52533715e710685c9a7aaf17b02108",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXVII chapter 13 illustration master\nPrimary request: Create a precise Roman-era scene of detecting a counterfeit precious stone, grounded in Pliny’s morning-light, weight, internal-bubble, surface, and hardness tests, without showing the unsafe mouth-cooling test or offering modern gemological advice.\nScene/backdrop: one quiet open-front lapidary shop at early morning, with a broad oblique beam of cool dawn light entering from the upper-left across a continuous warm plaster wall and stone floor. No window frame, inset panel, or water appears.\nSubject: exactly two complete mature adults total, both fully inside the frame: one seated gem examiner and one standing merchant. The examiner raises one complete translucent imitation jewel into the dawn beam between finger and thumb; its exaggerated but plausible glassy interior shows one small round bubble and uneven brilliance. The merchant watches calmly. Centered between them is one complete low wooden table, fully visible on all four sides. On it stands one complete ancient two-pan balance: one pan holds a single pale genuine crystal and hangs slightly lower, while the other holds one same-sized glass imitation and hangs slightly higher. Beside the balance lie one complete dark obsidian touchstone and one complete blunt iron graver, both unused; no file, saw, flame, drilling, fragmenting, mouth contact, or destructive test is enacted.\nStyle/medium: medicine-minerals-and-arts dialect of one museum-grade Plinian folio—warm fibrous aged vellum, iron-gall contours, exact cross-hatching, stipple, dry-brush abrasion, translucent mineral watercolor, restrained matte highlights; palette of umber, lampblack, muted verdigris, faded lapis, madder, ochre, rock-crystal ivory, and tiny jewel accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: spacious three-quarter view with a strong diagonal dawn beam and a triangular human-table rhythm, ample ochre negative space, one coherent continuous scene. Every person, hand, foot, table leg, balance, pan, stone, touchstone, and graver is complete and separated from every canvas edge. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: lucid early-morning scrutiny, restrained luxury, intelligent skepticism, calm and humane.\nText: none.\nConstraints: historically plausible Roman clothing, tools, shop, and balance; exactly two living people; one complete table and one complete balance; no animal or modern apparatus. Treat the scene as ancient craft testimony, not contemporary testing instruction.\nAvoid: any lettering, numerals, labels, inscriptions, scale markings, signatures, watermarks, pseudo-writing, decorative border, dark perimeter line, depicted page, inset, panels, split scene, collage, diagram, magnifying glass, microscope, electric light, modern jewelry tools, modern precision scale, clipped person, clipped table, clipped balance, duplicated hands, duplicated gems, mouth contact, injury, fire, photorealism, glossy CGI, or magical glow.",
+          "reason": "Native review rejected cinematic oil-paint realism, pseudo-inscription-like decorative garment trim, and clipped side furniture and vessels."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "portableReferenceValidation": {
+    "machinePrivatePathsSerialized": 0,
+    "fileUrisSerialized": 0,
+    "artifactReferencesUse": "built-in-imagegen://<generationArtifactId>.png"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-23",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 239,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "18:8": {
+        "nearestMAD": 23.48,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c011.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c014.png",
+        "madAtDHashPeer": 37.49
+      },
+      "18:9": {
+        "nearestMAD": 30.09,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c030.png",
+        "madAtDHashPeer": 41.9
+      },
+      "18:10": {
+        "nearestMAD": 21.24,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c008.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c003.png",
+        "madAtDHashPeer": 40.07
+      },
+      "18:11": {
+        "nearestMAD": 35.5,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c009.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+        "madAtDHashPeer": 35.7
+      },
+      "18:12": {
+        "nearestMAD": 22.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c010.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c005.png",
+        "madAtDHashPeer": 38.49
+      },
+      "18:13": {
+        "nearestMAD": 28.23,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c005.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c004.png",
+        "madAtDHashPeer": 43.05
+      },
+      "18:14": {
+        "nearestMAD": 23.88,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c024.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c026.png",
+        "madAtDHashPeer": 36.08
+      },
+      "18:15": {
+        "nearestMAD": 22.78,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c025.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c007.png",
+        "madAtDHashPeer": 40.68
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "18:8",
+      "title": "ARINCA, AND OTHER KINDS OF GRAIN THAT ARE GROWN IN THE EAST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c008.png",
+      "sha256": "663a513528edad395304cf9da2bf93a1984a12722b7039b13223af9a0a59eea8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1cff71c1-1bfd-414f-89b9-07e2e4f22486",
+      "outputArtifact": "built-in-imagegen://exec-1cff71c1-1bfd-414f-89b9-07e2e4f22486.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 8, “Arinca, and Other Kinds of Grain That Are Grown in the East”\nPrimary request: Evoke the chapter’s account of grain varieties moving between regions through one complete seed-bearing journey, not a specimen catalogue. Exactly one complete Gallic seed carrier descends an Alpine saddle toward the Italian plain, bearing exactly one closed woven seed sack across the shoulder and exactly one tied bundle of heavy dense arinca ears in the other arm. A small established patch of the same compact beardless grain grows on a sheltered Italian terrace well below, showing its diffusion without repeating a second person or transport scene. The tied ears remain botanically plausible and do not spill.\nScene/backdrop: continuous high pass opening into a warm distant Italian plain, with bare rock, sparse alpine grass, one low terrace and contained settlements too distant for detail; no pack animal, cart, ship, market, map, border marker, written sack, second grain bundle or other primary crop\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; travelling-grain dialect of dense ochre ears, woven fibre, cold blue pass and warm cultivated distance\nComposition/framing: landscape 3:2; sweeping descending diagonal from a high rocky foreground into broad Italian negative space. The complete traveler is a modest off-center figure silhouetted against the pass; the small arinca terrace sits far below on a different plane and never becomes a second vignette. Keep the whole person from hair to both sandals and every finger, entire sack, tied ear bundle, all stalk tips, pass edges, terrace and plain wholly inside broad uninterrupted vellum margins. One continuous journey and landscape, never East-versus-West halves, a grain typology, map, process strip, split panel or collage.\nLighting/mood: clear morning after a cold crossing; endurance, exchange and grains finding new soils\nColor palette: warm vellum, iron-gall umber and lampblack, pale grain ochre, muted verdigris terrace, faded-lapis mountains, restrained madder cloak accent\nMaterials/textures: fibrous vellum, dense dry grain ears, woven wool and reed fibre, leather sandals, rock, grass and haze\nHistorical and epistemic framing: evoke Pliny’s statement that arinca was Gallic and became common in Italy without claiming this exact traveler, route, cultivar identification or chronology.\nConstraints: exactly one complete person, one complete closed sack and one complete tied ear bundle; historically plausible travel clothing; all carried objects physically supported; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, maps, flags, written sacks, floating grain, spilled seed, multiple travelers, animals, wagons, ships, market stalls, sorted specimens, repeated crop strips, grids, panels, collages, photography, photorealism, glossy CGI, neon color, cropped or edge-touching person, sack, bundle, terrace, pass or plain\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete Gallic traveler descends the Alpine pass carrying one closed seed sack and one securely tied arinca-ear bundle, with a small established Italian arinca terrace contained below. Traveler, clothing, feet, sack, bundle, grain terrace, pass and distant plain remain fully framed in one continuous diagonal landscape. No extra carrier, loose floating specimen, modern object, text, pseudo-writing, paneling, repeated crop, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:9",
+      "title": "WINTER WHEAT. SIMILAGO, OR FINE FLOUR",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c009.png",
+      "sha256": "6f7ffb1e03c64059ddbf8b5b27c79bdb3782a2f7ccf7751809da99d9fcaaf5a4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7b045310-be2b-434e-8fb7-c6ae8deeac18",
+      "outputArtifact": "built-in-imagegen://exec-7b045310-be2b-434e-8fb7-c6ae8deeac18.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 9, “Winter Wheat; Similago, or Fine Flour”\nPrimary request: Show the celebrated mixture of Campanian and Pisan winter wheat as one coherent milling act. Exactly one complete ancient miller kneels beside exactly one complete low rotary hand quern. With both hands, the miller tips two small shallow woven measures together over the single central hopper: one contains reddish Campanian winter wheat, the other pale heavy Pisan grain. The grains meet only inside the mill; a narrow stream of fine ivory flour emerges from the lower stone into exactly one complete shallow catch bowl. Bran remains as a subtle coarse ring on the stone, not a separate display.\nScene/backdrop: open shaded Roman household milling court with blank plaster wall, broad uncluttered paving and one high opening onto distant fields; no bakery, oven, bread, scales, weights, market, donkey, additional worker, sacks, jars or second mill\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; fine-flour dialect of red and pale kernels, worn stone grooves, flour dust, woven measures and cool court shadow\nComposition/framing: landscape 3:2; steep high-oblique triangular composition. The complete kneeling miller and two joined hands occupy one corner, the whole circular quern anchors the center, and the small flour bowl sits lower across broad negative paving. Both measures remain simultaneously supported and never become side-by-side specimens. Keep every head, hand, finger, foot and garment hem, both complete measures, all grain, full quern circumference and handle, flour stream, bowl, wall ends and opening wholly inside broad uninterrupted vellum margins. One continuous milling instant, never red-versus-white halves, a yield chart, recipe steps, panel or collage.\nLighting/mood: cool working shade crossed by one warm shaft on the flour; precision, mixture and quiet craft\nColor palette: warm vellum, iron-gall umber and lampblack, restrained madder-red Campanian grain, pale ochre Pisan grain, ivory flour, muted verdigris distant fields, faded-lapis shade\nMaterials/textures: fibrous vellum, wheat kernels, porous millstone, fine flour dust, coarse bran, woven fibre, linen and plaster\nHistorical and epistemic framing: depict Pliny’s praised Campanian–Pisan mixture without illustrating disputed numerical yields, adulteration with chalk or a universal baking formula.\nConstraints: exactly one complete person, one complete rotary quern, two complete shallow grain measures and one complete flour bowl; plausible hand action and ancient mill; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, written measures, scales, weights, modern mixer, steel machinery, bread, oven, extra containers, extra people, floating grain, separated grain swatches, diagrams, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching person, measures, quern, handle, flour, bowl, wall or opening\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete miller tips reddish Campanian and pale Pisan wheat from two supported shallow measures into one complete rotary quern, with one flour bowl kept secondary beside the operation. The miller, both measures, falling grain, quern, handle, bowl and work surface remain wholly contained and anatomically coherent. No extra worker, modern machine, labels, text, pseudo-writing, split panel, repeated crop, watermark, floating vessel or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:10",
+      "title": "THE FRUITFULNESS OF AFRICA IN WHEAT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c010.png",
+      "sha256": "3fcedaf828633d7fd93c06a8463379d1b7c37d6d7e8f127cd5c000e315fc95b4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5346ecbe-1f06-4303-9451-496b0c4a1958",
+      "outputArtifact": "built-in-imagegen://exec-5346ecbe-1f06-4303-9451-496b0c4a1958.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 10, “The Fruitfulness of Africa in Wheat”\nPrimary request: Center Pliny’s Byzacian marvel without attempting a false exact count. Exactly one complete extraordinary ramose wheat plant rises from exactly one visible seed-base on a low earthen mound. From that single crown of roots, many dozens of slender but normal-height tillers fan outward and upward, each ending in a modest ripe ear; the stems are abundant, not gigantic, cloned or braided. Exactly one complete African field steward crouches behind the mound and gently parts the outer stems with both hands so the common base remains visible, astonished but not theatrical.\nScene/backdrop: vast continuous Byzacian plain in Roman Africa with distant ordinary wheat fading into heat haze, one low ridge and broad empty sky; no second primary clump, harvest crowd, palace, letters, scroll, measurement device, sacks or baskets\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; African-fruitfulness dialect of radial stalk rhythm, heavy ochre ears, red earth, heat-softened lapis and careful hands\nComposition/framing: landscape 3:2; very low near-ground view with the single root-base near one lower third, the complete tillering fan rising as an asymmetric fountain against open sky, and the crouching steward offset behind it at a separate depth. Keep every visible root, stem and primary ear, the whole person from head to sandals and both hands, mound edge, distant field and ridge wholly inside broad uninterrupted vellum margins. One continuous field observation, never a counted chart, sheaf display, botanical plate, multiplication diagram, panel or collage.\nLighting/mood: brilliant dry afternoon; credible wonder and agricultural abundance\nColor palette: warm vellum, iron-gall umber and lampblack, ripe ochre wheat, muted verdigris lower leaves, red-brown soil, faded-lapis haze, restrained madder garment edge\nMaterials/textures: fibrous vellum, fine stalks, compact ears, fibrous root crown, dry soil, linen and heated air\nHistorical and epistemic framing: depict the many-tillered wheat as the extraordinary Byzacian report Pliny preserves; do not claim the stated hundreds as verified modern counts or enlarge one plant beyond plausible wheat height.\nConstraints: exactly one complete ramose plant arising from one base and one complete person; many stems but no asserted exact number; natural anatomy and supported hand placement; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, scrolls, letters, tally marks, giant wheat, tree-sized cereal, multiple root bases, repeated identical sheaves, floating ears, harvest baskets, extra people, diagrams, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching plant, roots, ears, person, mound, field or ridge\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete, normal-height but extraordinarily many-tillered Byzacian wheat plant rises from one clearly visible base while one complete crouched steward parts its stems without asserting a false exact count. Plant base, roots at ground contact, all finite ears, the steward’s hands, body and sandals, and the dry field are fully contained. No repeated sheaf grid, giant plant, extra person, counting marks, text, pseudo-writing, paneling, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:11",
+      "title": "THE VARIOUS KINDS OF LEAVEN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c011.png",
+      "sha256": "48b121e4f14eccbec27915c179d24bb5dde77d9bf4584d3961204b4033fae421",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-462c2ea5-8453-4878-998a-30fa11023687",
+      "outputArtifact": "built-in-imagegen://exec-462c2ea5-8453-4878-998a-30fa11023687.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 11, “The Various Kinds of Leaven”\nPrimary request: Render the vintage-season preparation of millet-and-must leaven at the single moment it is carried into the sun to dry. Exactly one complete Roman woman steps from a cool dark household doorway into a bright courtyard while carrying exactly one complete shallow reed tray at waist height with both hands. On the tray rests a modest irregular group of small flattened leaven cakes kneaded from millet and pale must, all supported by the tray and still slightly damp. Exactly one complete small plain amphora of white must stands on the shaded floor just inside the doorway; no bread or later fermentation vessel appears.\nScene/backdrop: simple rural Campanian house court at vintage, complete contained doorway and short blank wall, broad empty sunlit paving and one distant vine-clad hill; no oven, bakery, table, jars beyond the single amphora, grapes, press, second person or meal\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; leaven dialect of porous damp cakes, pale must, reed weave, cool interior shadow and sun-warmed paving\nComposition/framing: landscape 3:2; strong but natural chiaroscuro diagonal from the complete dark doorway to a large quiet field of sunlit court. The complete standing figure crosses that threshold in profile; the tray makes one low horizontal carried plane, and the amphora remains a subordinate grounded shape inside. Keep the whole woman from hair to both sandals and every finger, entire tray rim and base, every cake, complete amphora, doorway corners, wall ends, paving and hill wholly inside broad uninterrupted vellum margins. One continuous carrying instant, never mixing, drying and baking stages, a recipe sequence, panel or collage.\nLighting/mood: warm vintage sun meeting cool domestic shade; continuity, fermentation and household knowledge\nColor palette: warm vellum, iron-gall umber and lampblack, pale ochre cakes and paving, faded-lapis shadow, muted verdigris distant vines, restrained madder garment border\nMaterials/textures: fibrous vellum, damp millet dough, reed tray, earthenware, linen, plaster and sun-warmed stone\nHistorical and epistemic framing: evoke Pliny’s millet-and-must leaven method without illustrating disputed measures, a modern microbial diagram or a universal health claim.\nConstraints: exactly one complete woman, one complete tray and one complete amphora; cakes remain fully supported and irregular, not counted as symbols; historically plausible clothing and vessel; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern bakery equipment, metal baking sheet, glass bottle, bread loaves, oven, extra vessel, grapes, recipe symbols, floating cakes, isolated process stages, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching woman, tray, cakes, amphora, doorway, wall, paving or hill\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete woman carries one complete tray of discrete millet-and-white-must leaven cakes from a shaded threshold into sunlight, while one amphora remains fully visible inside the doorway. Hands, feet, tray, cakes, vessel, threshold and surrounding architecture are fully framed as one continuous household action. The single decorative folio boundary does not divide the scene. No second worker, bread catalogue, modern object, text, pseudo-writing, split panel, repeated crop, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:12",
+      "title": "THE LEGUMINOUS PLANTS: THE BEAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+      "sha256": "fdf4b029ac5a19044495b325b5b756d377877b0c3c0e17ef8defe67855253821",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f478005a-3b20-4c56-a573-7bb2c3b2d3a3",
+      "outputArtifact": "built-in-imagegen://exec-f478005a-3b20-4c56-a573-7bb2c3b2d3a3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 12, “The Leguminous Plants: The Bean”\nPrimary request: Illustrate one of the chapter’s most distinctive reported beans on the Nile bank without turning it into a modern species diagram. Exactly one complete tall Egyptian bean plant grows from one visible root contact above the water: a slender reed-like but unjointed stalk, sparse defensive thorns, several broad leaves, and exactly one rose-colored poppy-like seed head at the top. Exactly one complete Nile crocodile moves calmly away through shallow water below, head and eyes angled away from the thorny stalk as Pliny reports. The animal is unharmed and remains natural in scale.\nScene/backdrop: continuous quiet Nile margin with one sandy bank, a narrow band of reeds far behind and low faded-lapis water opening into broad negative space; no people, boats, temples, second plant, flowers shaped as letters, bean specimens, predators or prey\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Nile-bean dialect of thorn-fine linework, rose seed head, broad matte leaves, scaled hide and cool water\nComposition/framing: landscape 3:2; low river-level composition with the complete bean plant making one narrow vertical on a raised bank and the complete crocodile moving on a long shallow counter-diagonal through open water. They remain separated by visible space and never interact violently. Keep every root, thorn, leaf, stalk tip and seed head, the whole crocodile from snout through all limbs to tail tip, water edge, reeds and sand wholly inside broad uninterrupted vellum margins. One continuous reported encounter, never a botanical plate, animal inset, fable panel, diagram or collage.\nLighting/mood: muted Nile dawn; strangeness observed without spectacle\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves and reeds, faded-lapis water, restrained madder-rose head, pale ochre sand\nMaterials/textures: fibrous vellum, smooth slender stalk, fine thorns, broad leaves, seed capsule, crocodile scales, wet mud and water\nHistorical and epistemic framing: treat the thorny Egyptian bean and crocodile avoidance as Pliny’s period report, not a verified modern botanical identity or established crocodile behavior.\nConstraints: no people; exactly one complete plant, one seed head and one complete crocodile; plausible crocodile anatomy; nonviolent separation; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, letter-like marks on flowers, arrows, magnified seeds, giant pod, extra plants, extra animals, attack, blood, fantasy monster, floating stalk, botanical cutaway, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching plant, roots, head, crocodile, limbs, tail, water or bank\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete tall reported Egyptian bean plant grows from one visible Nile-bank root contact with a slender thorny stalk, broad leaves and one rose-colored poppy-like head, while exactly one complete natural-scale crocodile moves calmly away through the shallow water. Plant and animal remain spatially separate and fully visible from root to stalk tip and snout to tail tip. No violence, extra organism, label, species claim, text, pseudo-writing, paneling, repeated crop, watermark or clipping was found. Accepted first generation as period testimony rather than modern zoological fact.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:13",
+      "title": "THE RAPE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c013.png",
+      "sha256": "c929627d652695a5b1f7700cc0636c6a39d2a70564e02fc0fe8758ba3f2fcfc6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f325be20-5d0a-4b6e-bfba-b2e5e63fc105",
+      "outputArtifact": "built-in-imagegen://exec-f325be20-5d0a-4b6e-bfba-b2e5e63fc105.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 13, “The Rape”\nPrimary request: Center the cold-grown storage root that Pliny describes as sustaining people and animals through scarcity. Exactly one complete mature rape plant grows alone in dark Nursian soil after hoar-frost. Its rounded pale root swells partly above the earth to an unusually large but still plausible farm scale—larger than two hands, never a boulder—while its full crown of broad rough green leaves remains healthy and frost-edged. Exactly one complete kneeling field worker brushes loose earth from one side of the root with bare fingers and studies its size; the plant remains rooted and undamaged.\nScene/backdrop: open Apennine upland field under low fog, sparse stubble, one contained distant ridge and no other rape plant, basket, tool, animal, storage pit, barn, feast or harvested pile\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; frost-root dialect of pale taut skin, black soil, rough leaves, silver hoar and cold breath\nComposition/framing: landscape 3:2; very low close ground view with the entire plant and root off center, the complete worker forming a compact neighboring crescent, and foggy open field occupying more than half the folio as negative space. Keep every plant root contour, leaf tip and frost crystal, the whole worker from head to both sandals and every finger, soil mound, stubble and ridge wholly inside broad uninterrupted vellum margins. One continuous inspection, never three root shapes, a weight comparison, harvest sequence, panel or collage.\nLighting/mood: pearl-grey morning after frost; resilience, nourishment and sober marvel\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves, ivory-ochre root, faded-lapis fog, restrained madder garment accent\nMaterials/textures: fibrous vellum, taut root skin, rough leaf, frost, crumbly soil, wool, linen and cold air\nHistorical and epistemic framing: evoke Pliny’s report of exceptionally heavy Nursian rape without assigning a modern cultivar, exact weight or medical efficacy.\nConstraints: exactly one complete rooted rape plant and one complete person; natural anatomy and supported hand contact; root unusually large but agricultural, not fantastical; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, scales, weights, rulers, giant boulder root, multiple root varieties, colorful dyed food, uprooted plant, knife, tools, baskets, extra people, floating leaves, diagrams, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching person, root, leaves, soil, stubble or ridge\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one unusually large but plausible frost-grown Nursian rape plant remains rooted in the field while one complete kneeling worker inspects it at close range. The entire bulbous root, leafy crown, ground contact, worker, hands, sandals, winter field and contained mountain are fully framed. No uprooted or floating specimen, extra person, harvest pile, modern tool, text, pseudo-writing, paneling, repeated crop, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:14",
+      "title": "THE LUPINE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c014.png",
+      "sha256": "55ea87ceeb74ca35c84bbf7e4475bde83bcd3f152f5f0579dc3f28d237ab7a74",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-2c87fefa-3fed-47f7-b9da-7484bf865696",
+      "outputArtifact": "built-in-imagegen://exec-2c87fefa-3fed-47f7-b9da-7484bf865696.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 14, “The Lupine”\nPrimary request: Render Pliny’s report that lupine turns with the sun and can show the hour under cloud, without a clock or diagram. Exactly one complete mature lupine clump grows alone from one root crown in dry sandy-red soil, carrying natural palmate leaves, a few blue-purple flower spikes and several upright pods. Every living leaf face and flower spike inclines consistently toward one narrow bright opening in an otherwise overcast sky. Exactly one complete husbandman stands several paces away in profile, looking from the plant’s orientation toward that brighter cloud opening; hands relaxed and empty.\nScene/backdrop: open uncultivated Mediterranean sand field with gravel, low scrub far behind and broad clouded sky; no sundial, shadow stick, clock, calendar, other lupine, tilled rows, livestock, tools, basket or building\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; solar-lupine dialect of fan leaves, blue-violet flower accents, bitter pods, rust-red sand and cloud-filtered light\nComposition/framing: landscape 3:2; open upward composition. The complete lupine clump is a compact low foreground anchor on one side, the complete standing observer forms a narrow distant counterweight, and the broad unsettled sky occupies the center and upper field. The light opening is natural cloud brightness only, not a symbolic sun disc or ray diagram. Keep the entire root crown, every primary stem, leaf, flower and pod, whole person from hair to sandals, cloud edges, scrub and soil wholly inside broad uninterrupted vellum margins. One simultaneous observation, never three bloom stages, time positions, directional arrows, panel or collage.\nLighting/mood: overcast day with one restrained break in cloud; attention, orientation and earth’s quiet intelligence\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris palmate leaves, faded-lapis clouds, restrained violet-madder flowers, red ochre sand\nMaterials/textures: fibrous vellum, sandy soil, palmate leaves, dry pods, flower spikes, wool, linen and cloud light\nHistorical and epistemic framing: present solar orientation and hour-telling as Pliny’s observation, not a modern chronometer claim; avoid exact hour, compass direction or supernatural agency.\nConstraints: exactly one complete lupine clump from one root and one complete person; no tools; natural plant and human anatomy; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, sundial, clock, hourglass, compass, sun symbol, rays, arrows, multiple plant poses, three flowering stages, extra plants, tools, floating leaves, diagrams, grids, panels, collages, repeated crops, photography, photorealism, glossy CGI, neon color, cropped or edge-touching plant, roots, flowers, pods, person, sky or ground\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete lupine clump, including its single visible root contact, palmate leaves, blue flower spires and pods, inclines toward a natural bright opening in the cloud cover as one complete distant observer watches. Plant, observer, sky opening, open ground and horizon are fully contained and the reported solar inclination is expressed without a clock or diagram. No sundial, arrow, duplicated plant, label, text, pseudo-writing, split panel, repeated crop, watermark or clipping was found. Accepted first generation as Pliny’s period observation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:15",
+      "title": "THE VETCH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c015.png",
+      "sha256": "a06e9626ecf2e35a6f0843a02f4345478caf2e0da64ea2789ebb7a69625beeed",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-38785cb2-f216-4b1d-bbab-5cdf7eef0cc5",
+      "outputArtifact": "built-in-imagegen://exec-38785cb2-f216-4b1d-bbab-5cdf7eef0cc5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 15, “The Vetch”\nPrimary request: Show vetch thriving with little labor in dry shade and serving as fodder. Exactly one complete calm working ox grazes from a low irregular carpet of mature vetch growing beneath the long cool shadow of one blank ancient field wall. The vetch has fine paired leaflets, tendrils, scattered small muted-purple flowers and some mature pods; it remains rooted, uneven and natural rather than planted in rows. The surrounding sunlit ground is dry and sparsely vegetated, making the shaded vigor legible. No vine or tree appears.\nScene/backdrop: continuous quiet Roman-Italian field margin with one complete low wall casting a broad diagonal shadow, an empty pale plain and contained distant hills; no person, yoke, plough, cart, stable, haystack, feeding trough, second animal or cultivated grapevine\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; vetch-fodder dialect of feathery tendrils, cool leaf shadow, dusty ox hide, purple flowers and parched ochre ground\nComposition/framing: landscape 3:2; long low panoramic rhythm. The complete ox bends naturally within the shadow near one outer third, the vetch carpet makes an irregular dark ribbon under the wall, and broad empty sunlit earth occupies the other side. Keep the whole ox from horns and muzzle through all four hooves to tail tip, every primary vetch edge, full wall ends and top, shadow boundary, plain and hills wholly inside broad uninterrupted vellum margins. One continuous grazing instant, never sowing seasons, fodder steps, a field comparison, panel or collage.\nLighting/mood: dry quiet afternoon with cool wall shade; ease, nourishment and soil restored without display\nColor palette: warm vellum, iron-gall umber and lampblack, layered muted verdigris vetch, restrained violet-madder flowers, pale ochre earth and wall, faded-lapis hills and shade\nMaterials/textures: fibrous vellum, fine tendrils, matte leaflets, pods, coarse ox hair, horn, plaster, dust and stone\nHistorical and epistemic framing: evoke Pliny’s claims that vetch enriches dry or shaded ground and provides fodder without turning the scene into a modern agronomic prescription.\nConstraints: no people; exactly one complete ox and one continuous rooted vetch patch; plausible bovine anatomy and grazing posture; no equipment; independent unified scene\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, vineyard, vines, grapes, multiple oxen, yoke, harness, plough, cart, trough, hay, repeated crop rows, floating flowers, diagrams, grids, panels, collages, photography, photorealism, glossy CGI, neon color, cropped or edge-touching ox, horns, hooves, tail, vetch, wall, shadow, plain or hills\nOutput intent: one opaque RGB/sRGB landscape preservation master at exactly 1536x1024 proportions; no transparency; no text-like marks anywhere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete ox grazes one continuous rooted patch of vetch in the cool shadow of one blank low wall, with the animal’s horns, head, body, legs, hooves and tail all contained. The wall, vetch, open field and distant mountain remain fully framed in a quiet lateral pastoral composition. No person, vine, plough, equipment, floating forage, text, pseudo-writing, paneling, repeated crop, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-56",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "4:18",
+      "title": "GALLIA LUGDUNENSIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c018.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "4672d21826fb3ec34acba970cdad46a76b47063106e9da76380703a6dccc3576",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ff9c04ce-a6e1-4040-b890-fa10d4a0ec67",
+      "generationArtifactId": "exec-ff9c04ce-a6e1-4040-b890-fa10d4a0ec67",
+      "outputArtifact": "built-in-imagegen://exec-ff9c04ce-a6e1-4040-b890-fa10d4a0ec67.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book IV chapter 18, “Gallia Lugdunensis”\nPrimary request: Ground this lived landscape in Pliny’s catalogue of Lugdunensian Gaul: the celebrated river Liger, the remarkable Ossismian peninsula running far into the ocean, peoples of the river country, and Lugdunum far inland. Show a plausible Roman-era estuary journey, not a labelled map, boundary diagram, or exact reconstruction. At cool pearly dawn from a LOW MUD-BANK VIEWPOINT, a broad tidal reach of the Liger curves from the distant left through the center toward the open Gallic Ocean at right. Far beyond the water, one complete long granite peninsula projects horizontally into the sea, with its rounded outer cape fully visible against open sky and water; only its landward neck recedes naturally into the left distance. In the lower-middle, exactly ONE complete shallow-draft river barge moves downstream in three-quarter view. Its entire dark-umber hull, bow, stern, short mast, furled square sail, steering oar, woven cargo covers, mooring rope, wake, and exactly TWO complete adult boatmen in plain practical Roman-era clothing are fully visible. One boatman works the steering oar; the other braces a pole against the river bottom. On the near left bank, one complete low wicker fish weir and exactly TWO complete pollarded willow trees anchor the foreground. BOTH willow trees must stand well inside the canvas: show each entire root flare, trunk, every branch, every twig tip, and the whole closed crown, surrounded by at least six percent open painted atmosphere on the left, top, and between crowns. The near bank itself may continue naturally beyond the bottom-left edge, but neither tree nor fish weir may touch an edge. On the far bank, only a few low unmarked roofs suggest a river settlement; no skyline, monument, legion, crowd, costume display, or portrait types.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Liger estuary dialect with pearly mist, silver-blue water, dark willow ink, wet ochre mud, salt-green grasses, weathered wood, and a quiet madder accent on one cloak; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; pulled-back low lateral viewpoint with the river’s broad curve carrying the eye from left distance to right ocean, the complete barge isolated below center, the two smaller complete willow trees set in the left-middle rather than at the edge, and the complete projecting peninsula forming a long calm counterline across the upper-right middle. Reserve broad luminous water and mist as intentional negative space. Preserve every boat edge, both complete people, pole, oar, mast, sail, ropes, cargo covers, wake, whole fish weir, both entire willow crowns and trunks, full peninsula cape, riverbanks, reflections, and shadows within generous breathing room. One continuous estuary scene only, never a chart, map, atlas plate, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: present a plausible Roman-era evocation of travel along the river and coast Pliny catalogues; do not claim an exact ancient shoreline, measurement, settlement plan, or physical identity for any named people.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted estuary atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, weapons, military display, extra vessel, extra person, extra willow, wrong willow count, clipped cape, clipped barge, clipped mast, clipped person, clipped willow branch, clipped willow crown, clipped weir, geometric coastline, map symbols, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete barge, exactly two boatmen, mast, sail, oar, pole, cargo, fish weir, exactly two fully contained willow trees, river curve and Ossismian-like cape are legible and coherent. No text, pseudo-writing, map, panel, modern object, clipped focal subject or extra figure was found. Accepted after preserving one clipped-willow reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8e7a9f84-a97a-4f0c-b81d-2c39e7522295.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b04-c018-attempt-01-clipped-willow.png",
+          "sha256": "373217eba75f24c52b152ab828353612b8c6b4764bf4a343b6100bd77fa400f1",
+          "reason": "Rejected at original-resolution review because the leftmost pollarded willow crown and branches were cut by the lateral canvas edge, failing the complete-subject framing gate. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:19",
+      "title": "GALLIA AQUITANICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c019.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "1107a008407d8ae6394944d382700e81bccd2976ec39f321b13a64c94c34dbf8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-50344ab3-006d-4615-bc3b-e15e5c1859dc",
+      "generationArtifactId": "exec-50344ab3-006d-4615-bc3b-e15e5c1859dc",
+      "outputArtifact": "built-in-imagegen://exec-50344ab3-006d-4615-bc3b-e15e5c1859dc.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book IV chapter 19, “Gallia Aquitanica”\nPrimary request: Ground the scene in Pliny’s catalogue of Aquitanica: the Pyrenean range, mountain and lowland communities, the rivers separating inland peoples, and the Aquitanic Gulf with its islands. Show one plausible Roman-era seasonal descent from the Pyrenean uplands toward the western gulf, not a labelled map, costume taxonomy, or exact reconstruction. At clear late-spring morning from a HIGH TRAIL VIEWPOINT, one complete blue-gray Pyrenean saddle fills the far upper-left-middle, with the entire highest summit profile visibly separated from every canvas edge by a broad band of open sky. An ochre switchback footpath descends diagonally through a steep verdigris valley toward a broad faded-lapis gulf in the far right distance. One small complete rocky island is fully surrounded by gulf water. In the lower-left-middle, exactly TWO complete adult pastoral travelers in plain practical undyed wool cloaks lead exactly FOUR complete sheep downhill. One traveler carries a plain crook; the other holds the complete lead cord of the first sheep. Each person’s head, hands, feet, garment hem, and shadow is visible; every sheep has one head, four legs, four hooves, two ears, one body, and its full silhouette visible. Near center, exactly ONE complete arched timber footbridge spans a SHORT self-contained mountain stream: show its spring source emerging from rock above the bridge, its complete visible course beneath the arch, and its end disappearing into a small closed reed pool wholly inside the lower-middle. The stream and pool must not touch any canvas edge. A distant low cluster of unmarked roofs sits in the valley floor, secondary and atmospheric. No legion, weapon, heraldry, banner, inscription, crowd, ethnic costume display, or portrait lineup.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre, and pale mineral highlights; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Aquitanian-Pyrenean dialect with cold lapis mountains, spring-green slope washes, tawny wool, wet-ink stream detail, a tiny madder cord accent, and luminous western sea haze; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; pulled-back elevated diagonal descent, with the complete two-person four-sheep group isolated in the left-lower middle, the whole footbridge and closed stream-pool system near center, the entirely contained mountain saddle above left, and the gulf with its single complete island opening across the distant right. Use broad valley air, sky, and gulf haze as intentional negative space. Preserve both complete people, all four complete sheep, crook, cord, every limb and hoof, the entire bridge arch and deck, complete spring-to-pool watercourse, pool shoreline, complete island shoreline, whole summit profile, settlement roofs, tracks, reflections, and shadows inside generous breathing room. One coherent mountain-to-sea landscape only, never a map, elevation chart, migration diagram, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: present an ordinary journey through a landscape associated with Pliny’s regional catalogue; do not assign bodily appearance, dress, ancestry, or social character to any named ancient people, and do not claim a precise route or boundary.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted mountain-gulf atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, weapons, army, extra person, extra sheep, wrong sheep count, missing animal legs, fused animals, clipped traveler, clipped sheep, clipped crook, clipped bridge, clipped island, clipped mountain summit, water touching any edge, geographic symbols, atlas composition, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete travelers and four complete sheep descend past the fully contained timber bridge; the spring, whole stream course and closed reed pool remain inside the scene, while the full summit profile and one island have clear breathing room. No text, map, panel, modern object, caricature, wrong count or clipped focal subject was found. Accepted after preserving one edge-running-stream reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-13a3d62e-1950-48e8-b25e-f282cf705154.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b04-c019-attempt-01-stream-edge.png",
+          "sha256": "1da95e856f77886f1c64dedf2360dcc3db6d72ad3b979ca971e59c78bed41a6b",
+          "reason": "Rejected at original-resolution review because the mountain stream continued through the lower canvas edge instead of remaining a self-contained interior watercourse, failing the explicit framing contract. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:20",
+      "title": "NEARER SPAIN, ITS COAST ALONG THE GALLIC OCEAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c020.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "ab2124a21b038965a4aa718aa3f9d9b7a4065033ee69166380141f4aa1d20b3f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-19192705-a0c6-459b-b5f1-ff9271fcd70b",
+      "generationArtifactId": "exec-19192705-a0c6-459b-b5f1-ff9271fcd70b",
+      "outputArtifact": "built-in-imagegen://exec-19192705-a0c6-459b-b5f1-ff9271fcd70b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book IV chapter 20, “Nearer Spain, Its Coast Along the Gallic Ocean”\nPrimary request: Ground the scene in Pliny’s northern Spanish coast beginning at the Pyrenees, compressed between ocean and Iberian waters, crossed by forest ranges, ports and great rivers, and rich—according to his catalogue—in gold, silver, iron, and black and white lead. Show one plausible Roman-era small coastal prospecting site, not a labelled map, modern geology lesson, industrial mine, or exact reconstruction. From a DRAMATIC LOW VIEW INSIDE A SHELTERED ROCK HOLLOW looking outward, show ONE complete shallow hand-cut mine adit in a dark iron-gray cliff face occupying the left-middle. The entire rounded adit mouth, lintel rock, floor, and shadow boundary must be visible; the tunnel recedes only a short distance into darkness. Exactly TWO complete adult workers in plain knee-length tunics occupy the contained rock terrace: one kneels beside the adit sorting mixed ochre, silver-gray, rust-red, and black mineral fragments into exactly TWO complete woven baskets; the other stands at a complete low stone crushing slab using one short iron hammer. Show both workers’ complete heads, hands, feet, tools, and shadows; show both baskets, the whole slab, hammer, three plain ore piles, and no furnace. Through the broad opening to the right, the complete line of the Cantabrian coast bends toward a distant blue-gray Pyrenean shoulder, with open faded-lapis ocean, one small fully contained river mouth, and exactly ONE complete empty narrow pack cart resting well inside the middle distance. No inscription, coin, treasure hoard, underground fantasy, explosive, railway, helmet, legion, weapon, forced-labor spectacle, injury, or modern machinery.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre, iron-rust red, and pale mineral-gray washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; northern Iberian mineral dialect with heavy chiaroscuro inside the rock hollow, granular ore stipple, warm iron oxide, cool metallic-gray accents, and a luminous Atlantic opening; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; strong chiaroscuro with the complete adit and kneeling worker anchoring the left-middle, the standing worker and crushing slab near center, and the bright coastal opening sweeping across the right half. The rock ceiling may continue naturally beyond the upper-left edge as environment, but the adit mouth and every focal object must remain wholly within the canvas. Preserve both complete adults, every limb and tool, both baskets, all three ore piles, whole slab, complete adit rim, full cart and both wheels, river mouth, coast bend, mountain profile, shadows, and sea horizon inside generous breathing room. One continuous lived place only, never a geological cutaway, ore chart, map, atlas plate, split panel, collage, repeated crop, or multiple framed views.\nHistorical and epistemic framing: present a restrained visual interpretation of Pliny’s report that the region was rich in several metals; do not imply that all four ores were extracted together at this exact site, that the coastline or mine is archaeologically verified, or that ancient labor conditions were uniform.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum, rock texture, and coastal atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, modern safety gear, ethnic or physiognomic caricature, exoticized costume, weapons, violence, extra person, extra cart, wrong basket count, coins, jewels, treasure chest, clipped worker, clipped basket, clipped tool, clipped adit mouth, clipped cart, mine rails, dynamite, electric lamp, geological diagram, floating ore, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete workers, two baskets, three mineral piles, the full crushing slab and hammer, the entire shallow adit mouth and complete two-wheeled pack cart are legible against the contained northern coast. Anatomy, hands, tools and ground contacts are coherent. No text, treasure, modern equipment, forced-labor spectacle, diagram, panel or clipped focal subject was found. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:21",
+      "title": "LUSITANIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c021.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "ffe893edec8e193a1b597f6217859c585b3d0dc051387cd0e3f68423789f8229",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b6e7aadb-cce4-4e23-837d-7b624b791ada",
+      "generationArtifactId": "exec-b6e7aadb-cce4-4e23-837d-7b624b791ada",
+      "outputArtifact": "built-in-imagegen://exec-b6e7aadb-cce4-4e23-837d-7b624b791ada.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book IV chapter 21, “Lusitania”\nPrimary request: Ground the scene in Pliny’s concise opening account of Lusitania beyond the Durius, its rivers and towns, and above all the vast horn-shaped promontory said to divide land, sea, and sky and to mark the turn from one side of Spain to its front. Show a plausible Roman-era coastal passage, not a labelled map, symbolic globe, or exact reconstruction. At indigo storm-cleared twilight from an EXTREMELY LOW WATERLINE VIEWPOINT just outside a sheltered cove, a monumental dark rust-granite horn cape rises from the upper-left and sweeps diagonally outward toward a fully visible rounded terminal point in the right-middle. The entire sea-facing cliff profile and cape tip are visible against a narrow band of luminous post-storm sky; the inland neck alone recedes naturally into the upper-left distance. Deep faded-lapis Atlantic water fills the entire lower half with long copper reflections and pale surf along the cliff base. In the lower-right-middle, exactly ONE complete small Roman-era open coastal boat rounds the cape in three-quarter view. Show the entire high-curved hull, bow, stern, short mast, tightly furled square sail, two oars, steering oar, coil of rope, wake, and exactly TWO complete adult sailors in plain practical tunics. One sailor works the steering oar; the other crouches safely inside the hull securing the sail line. Every head, hand, foot, garment hem, oar blade, rope end, and boat edge is visible. High on a contained ledge left of the cape tip stands one tiny complete three-walled stone wind shelter with a simple sloping roof, unmarked and secondary. No lighthouse, temple, altar, inscription, milestone, legion, weapon, banner, heroic pose, crowd, or costume display.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent lampblack, deep faded lapis, burnt umber, muted verdigris, quiet madder, red ochre, and pale sea-foam mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; darker Lusitanian Atlantic dialect with heavy cliff chiaroscuro, indigo water, copper sky-break, white surf stipple, wet black hull detail, and restrained madder garments; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; dramatic low diagonal composition with the massive dark cape occupying the upper-left two-thirds, the complete glowing cape tip isolated near the right-middle, deep ocean dominating below, and the small complete boat floating well inside the lower-right-middle. Keep the boat no more than one-quarter of canvas width and reserve open dark water around it. Preserve the cape tip and whole outer cliff profile, complete boat, both complete sailors, mast, sail, all three oars, rope, wake, entire wind shelter, surf, reflections, and narrow sky band within generous breathing room. One continuous coast only, never a map, compass diagram, emblematic partition of elements, atlas plate, internal frame, split panel, collage, or repeated crop.\nHistorical and epistemic framing: evoke Pliny’s geographical description and the visual force of a great Atlantic headland; do not present the exact cape identity, distances, town locations, or its figurative division of land, sea, and heavens as scientifically verified.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum, dark cliff, sea, and twilight atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, weapon, army, lighthouse, monument, extra person, extra boat, cropped sailor, clipped hull, clipped mast, clipped oar, clipped cape tip, geometric coastline, broad empty beige sky, map symbols, celestial diagram, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete horn cape and terminal point, whole boat, exactly two sailors, mast, furled sail, oars, rope, wake and wind shelter are contained and legible in a materially darker Atlantic composition. No text, lighthouse, map, panel, modern object, extra figure, extra boat or clipped focal subject was found. The first otherwise valid master was preserved after the live global scan found MAD 17.17 against an existing canonical; this replacement passes at MAD 27.33 and dHash 20. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b37a9ac9-46df-40a1-b9ea-e0d21d3fbcf8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b04-c021-attempt-01-global-mad-collision.png",
+          "sha256": "b4bb9d4b07301836cea7ef9e6acafd6843573b8266a10bf4178f9f5ad3a536af",
+          "reason": "Rejected after native visual acceptance because the live corpus-wide uniqueness scan measured MAD 17.17 against assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c084.png, below the required MAD 20 threshold. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:22",
+      "title": "THE ISLANDS IN THE ATLANTIC OCEAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c022.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "6dbe6ca5bfd29e8e07bef07c1224e13af2a0381304c574e0268256162a205221",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-45e28b40-8537-4f98-84c7-57a3ebce0714",
+      "generationArtifactId": "exec-45e28b40-8537-4f98-84c7-57a3ebce0714",
+      "outputArtifact": "built-in-imagegen://exec-45e28b40-8537-4f98-84c7-57a3ebce0714.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book IV chapter 22, “The Islands in the Atlantic Ocean”\nPrimary request: Ground the scene in Pliny’s long Atlantic catalogue: the ocean beyond Lusitania, the gold-bearing Tagus, the Sacred Promontory, the tin-rich Cassiterides, six islands reported opposite the Arrotreban promontory, and the island traditions around Gades. Show one plausible Roman-era island landing inspired by ancient Atlantic trade, not a labelled map, mythological tableau, or exact identification of any surviving island. At amber low tide from a LOW SHORE VIEWPOINT, exactly SIX AND ONLY SIX complete rocky islets step across the distant middle band of dark faded-lapis ocean. Make them unmistakably separate, materially different silhouettes—one low flat, one twin-peaked, one narrow sea-stack, one rounded, one long terraced, and one small conical—and surround every islet completely with open water so none touches another or a canvas edge. In the sheltered lower-left-middle sits exactly ONE complete small plank-built coastal boat drawn fully above the tideline, seen in three-quarter view; show its whole hull, bow, stern, short lowered mast, furled sail, two oars, coiled rope, and shadow. Exactly TWO complete adult sailors in plain practical tunics work beside it: one carries one small woven basket containing four rough dull-gray metal ingots; the other steadies one complete plain two-handled amphora on the ground. Every hand, foot, garment hem, basket edge, ingot silhouette, amphora handle, and shadow is visible. Rust-ochre tidal pools and dark kelp fill the contained foreground; one complete low rock shelf with pale mineral streaks anchors the right-middle. No Hercules, Geryon, divine figure, golden cattle, monster, treasure, coin, temple, inscription, settlement skyline, extra boat, weapon, or exoticized costume.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, deep faded lapis, quiet madder, ochre, dull pewter-gray, and pale sea-foam mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Atlantic-island dialect with wind-dark water, white surf stipple, wet umber boat planks, rust-orange pools, slate islets, and restrained metallic mineral glints; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; low horizontal scene with the complete boat and two sailors grouped well inside the lower-left-middle, the six distinct complete islets distributed rhythmically across the distant center, and broad storm-cleared sky above. Reserve open water between every islet as intentional negative space. Preserve the complete boat, both complete people, basket, exactly four ingots, amphora, oars, mast, sail, rope, entire rock shelf, all six islet shorelines, tidal pools, surf, shadows, and reflections within generous breathing room. One continuous shore only, never an island chart, harbour plan, myth illustration, atlas plate, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: visualize an ancient Atlantic trading possibility and the six-island report as Pliny transmits them; do not identify the depicted islets as verified Cassiterides or Fortunate Islands, do not imply the ingots prove a precise trade route, and do not literalize the Geryon and Hercules traditions.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted Atlantic shore atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, fantasy, mythic creature, weapons, extra person, extra boat, extra or missing islet, fused islets, wrong ingot count, cropped sailor, clipped boat, clipped oar, clipped islet, illegible hands, floating basket, coin-like discs, map symbols, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly six distinct fully water-separated islets, one complete drawn-up boat, exactly two complete sailors, four visible dull-gray ingots, a two-handled amphora, oars, mast and rock shelf are legible and contained. No text, pseudo-writing, mythic figure, coin, map, panel, extra islet, extra vessel or clipped focal subject was found. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:23",
+      "title": "THE GENERAL MEASUREMENT OF EUROPE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c023.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "65d934767ee9aab1c6688a5ee1ba3d6c8e133a7cb31e21965e46abe83b9a7cb0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-340f8f0e-6568-429f-9c4f-90c31fc7505f",
+      "generationArtifactId": "exec-340f8f0e-6568-429f-9c4f-90c31fc7505f",
+      "outputArtifact": "built-in-imagegen://exec-340f8f0e-6568-429f-9c4f-90c31fc7505f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book IV chapter 23, “The General Measurement of Europe”\nPrimary request: Ground the scene in Pliny’s closing effort to reconcile the reported length and breadth of Europe from Tanais to Gades and from Italy toward the ocean, citing differing ancient authorities before turning to Africa and Asia. Create a plausible Roman-era field-measurement moment as a restrained visual metaphor for imperfect geographical knowledge, never a map, globe, chart, or literal claim about how Pliny’s totals were obtained. From a STEEP HIGH-OBLIQUE VIEW into a broad open limestone survey terrace at late afternoon, show exactly ONE complete Roman groma standing near center: its entire vertical staff, cross arms, exactly FOUR hanging plumb lines, exactly FOUR weights, feet, and cross-shaped shadow are fully visible and uninscribed. Exactly TWO complete adult surveyors work on opposite sides in plain practical tunics. One surveyor stands behind the groma with BOTH EMPTY HANDS cupped around his eyes as he sights toward the far road; he holds absolutely no rod, bar, cord, weight, or tool. The second surveyor kneels farther left arranging exactly ONE long knotted measuring cord into a loose natural coil, not a geometric diagram. Beyond them stand EXACTLY TWO AND ONLY TWO complete squat unmarked stone sighting blocks—one left-middle and one right-middle—each no taller than a person’s knee, with its whole base, top, and shadow visible. There must be no wooden ranging pole, no third block, no stake, no suspended line outside the single central groma, and no other upright instrument. At the far edge of the terrace, one unbroken Roman road descends through a complete low mountain saddle toward a distant silver sea horizon; a broad river glints far to the right. No tablet, scroll, writing surface, numeral, inscription, map, globe, compass rose, mathematical glyph, army, triumph, monument, or modern instrument.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre, and pale limestone washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; survey dialect with crisp shadow geometry, chalky terrace abrasion, taut plumb-line ink, quiet bronze-gray weights, and a vast hazy horizon in cool lapis; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; steep high-oblique perspective with the single complete groma and cross shadow anchoring the central field, the two complete people separated left and right, the two low stone blocks establishing depth, and the road escaping through the low saddle into broad horizon haze. Keep all other terrace ground empty and use it as intentional negative space. Preserve every groma arm and exactly four weights, both complete adults, both empty hands of the standing surveyor, full cord and every knot, both complete low stone blocks, road, saddle, river glint, sea horizon, footprints, and shadows inside generous breathing room. One coherent work site only, never a diagram, plan view, atlas plate, grid, symbolic continent, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: make clear through the understated working scene that ancient measurements were partial, reported, and disputed; do not present Pliny’s figures, the depicted route, or this surveying method as a verified reconstruction.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum, terrace, and horizon atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, scroll, tablet, map, globe, graph, coordinate grid, geometric rope diagram, extra person, extra groma, extra suspended line, any tool in the standing surveyor’s hands, wooden ranging pole, third stone block, clipped groma arm, missing or extra plumb line, clipped worker, clipped block, floating tool, modern theodolite, compass, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The sole complete groma carries exactly four plumb lines and weights; exactly two complete surveyors, one knotted cord, two low stone sighting blocks, road, saddle, river and sea horizon are contained and coherent. The standing surveyor has empty hands and no second instrument appears. No writing, map, grid, globe, panel, modern object or clipped focal subject was found. Accepted after preserving one extra-pole reject and one extra-weighted-crossbar reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5f97a7fe-9162-46c0-89f2-ebebf5408736.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b04-c023-attempt-01-extra-ranging-pole.png",
+          "sha256": "c02a2ce316df3c258d9d3a63901c8bf486000d87298e8db811b14a8b40fee7f3",
+          "reason": "Rejected at original-resolution review because four ranging poles appeared instead of the required three, failing the exact-count gate. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-0c7bb924-0a36-4037-888a-cd70d7e66d76.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b04-c023-attempt-02-extra-weighted-crossbar.png",
+          "sha256": "8e1448711c6f803cca3f51e8e41b90e4e48bb52e8f7b6aa68cf3fd4f615e5df1",
+          "reason": "Rejected at original-resolution review because the standing surveyor held an additional weighted crossbar with two plumb lines, reading as a second groma-like instrument rather than the requested plain sighting rod. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:2",
+      "title": "THE TWO MAURITANIAS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b05-c002.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "47a31c1dad727cf7e2bc45c55883cd4842cf9e0548353d735ac46f2877134df2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cc2f4f8e-c1d5-4b28-b6ff-1222d94179a8",
+      "generationArtifactId": "exec-cc2f4f8e-c1d5-4b28-b6ff-1222d94179a8",
+      "outputArtifact": "built-in-imagegen://exec-cc2f4f8e-c1d5-4b28-b6ff-1222d94179a8.png",
+      "exactFinalPrompt": "Use case: historical natural-history scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book V chapter 2, “The Two Mauritanias”\nPrimary request: Ground the scene in Pliny’s description of the mountainous eastern part of Tingitana, where he reports elephants, Mount Abyla and the neighboring heights called the Seven Brothers overlooking the Strait of Gades, together with navigable rivers and coastal ports. Present one quiet encounter in a plausible ancient North African landscape, not a labelled map, imperial conquest scene, ethnic portrait, or exact reconstruction. At copper dawn from a VERY LOW RIVERBANK VIEWPOINT, exactly ONE complete adult North African elephant stands in shallow muted-verdigris water near the lower-right-middle, calmly drawing water with its trunk. Show its entire head, both ears, both tusks, full curved trunk tip, one body, four separate legs, four feet, tail, reflected silhouette, and cast shadow, all comfortably contained; no rider, harness, wound, chain, or second elephant. Across the middle distance, a navigable river bends toward a broad blue strait. Beyond it show EXACTLY SEVEN AND ONLY SEVEN separate complete mountains, arranged as seven broad stone masses of similar height across the central sixty percent of the canvas. Count them unmistakably from left to right as: (1) one low trapezoid summit, (2) one rounded dome, (3) one sharp triangular summit, (4) one flat-topped summit, (5) one asymmetrical leaning summit, (6) one notched summit with a SINGLE highest point, and (7) one smooth conical summit. Deep open saddles of pale sky must descend clearly between all seven stone masses. Include NO subsidiary hill, NO foothill bump, NO eighth peak, and no mountain or palm outside this seven-mountain group. Leave broad empty sky between the group and both lateral canvas edges. On the far riverbank, one tiny complete unmarked port shelter and one short stone landing are visible but secondary, with no people or vessel. Only low tamarisk, reeds, and pale limestone articulate the habitat; omit all tall palms so they cannot complicate the summit count. No city skyline, palace, legion, weapon, battle, trophy, banner, inscription, costume display, or physiognomic type.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, faded lapis, quiet madder, red ochre, and pale limestone mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Mauritanian mountain-river dialect with copper dawn, cool blue strait haze, warm elephant-gray, dark reed stipple, pale stone, and restrained madder earth accents; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; low intimate animal viewpoint with the sole complete elephant prominent but no more than thirty-five percent of canvas width, river water opening across the lower-middle, and exactly seven contained mountains forming a readable rhythmic distant band beneath broad luminous sky. Reserve empty water around the elephant, deep pale saddles between every mountain, and clear lateral sky beyond the seven-mountain group as intentional negative space. Preserve every elephant edge and anatomical part, trunk tip, feet and water contacts, reflection, all seven complete mountain bases, summit profiles and saddles, whole port shelter, landing, river bend, strait horizon, reeds, and shadows within generous breathing room. One continuous habitat only, never a zoological diagram, specimen plate, mountain chart, map, atlas plate, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: render Pliny’s report of elephants and the named mountain cluster as a plausible visual synthesis; do not claim a verified ancient population boundary, exact peak identification, exact port, or continuity with modern social or ethnic categories.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted river-mountain atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, person, rider, army, weapon, chain, blood, injury, circus, extra elephant, fewer or more than seven mountains, subsidiary peak, mountain ridge outside the seven, fused elephant legs, clipped ear, clipped tusk, clipped trunk, clipped tail, clipped foot, mountain touching edge, fantasy scale, floating shelter, map symbols, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete anatomically coherent elephant stands fully contained in the river; exactly seven materially distinct mountain masses and seven summit profiles are separated by clear saddles, with the port shelter and landing complete and secondary. No person, rider, text, map, panel, extra elephant, eighth summit or clipped focal subject was found. Accepted after preserving one nine-summit reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-85a4354b-6707-44a7-8d25-db8f3755a737.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b05-c002-attempt-01-nine-summits.png",
+          "sha256": "636cbdd99f879f9bb59ce6f20104f7634268260ca3255e6fd098ce3f13587f30",
+          "reason": "Rejected at original-resolution review because the mountain band contained nine distinct summits rather than Pliny’s reported Seven Brothers, failing the exact-count gate. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:3",
+      "title": "NUMIDIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b05-c003.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "d1c7d0128c5580cc0f4e5382baf414e8dead715cfb79e493fb287f838027de6e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8c7bd71a-abb2-4569-baf4-15ac9c5078d8",
+      "generationArtifactId": "exec-8c7bd71a-abb2-4569-baf4-15ac9c5078d8",
+      "outputArtifact": "built-in-imagegen://exec-8c7bd71a-abb2-4569-baf4-15ac9c5078d8.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book V chapter 3, “Numidia”\nPrimary request: Ground the scene in Pliny’s concise account of Numidia beyond the Ampsaga: the fame of Masinissa, Greek naming traditions, people changing pasturage while carrying their mapalia—light dwellings—on carts, coastal and inland towns, pale Numidian marble, and wild animals. Visualize the mobile-dwelling report as a careful plausible Roman-era pastoral journey, not a modern ethnographic claim, costume display, royal portrait, or battle. At rose-gold sunrise from a GROUND-LEVEL SIDE VIEW, exactly ONE complete sturdy TWO-WHEELED wooden cart travels left to right across open tawny grassland. The cart must have exactly TWO AND ONLY TWO large wheels total, both on a single axle and both completely visible because of a slightly elevated three-quarter side view; include no third wheel, fourth wheel, spare wheel, wheel-like coil, or circular decoration. On the cart rests exactly ONE complete lightweight domed mapalia-like shelter made from curved reed ribs, woven matting, and tied hides: show the entire closed arch of the roof, both side walls, rear edge, all lashings, and its secure contact with the cart bed; no loose floating pieces. Show the complete axle, yoke, traces, and long shadow. The cart is drawn by exactly TWO complete pale oxen abreast, each with one head, two horns, two ears, one body, four separate legs, four hooves, and one tail; no overlapping duplicate body parts. Exactly TWO complete adult travelers in plain practical ancient North African clothing accompany it without exoticized costume: one walks beside the oxen holding the complete guide rope, and one sits visibly on the front edge of the cart holding no weapon. Every head, hand, foot, garment hem, rope, hoof, wheel, and shadow is inside the frame. Behind them, a low complete white-and-rose marble outcrop rises from the grass, fully contained; far beyond, a thin blue river line and low hills dissolve into heat haze. No king, crown, palace, legion, weapon, captive, spectacle, caravan, extra cart, extra animal, city skyline, inscription, or modern vehicle.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent umber, lampblack, muted verdigris, faded lapis, quiet madder, red ochre, pale marble rose, and tawny mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Numidian grassland dialect with a strong lateral procession silhouette, rose dawn, wind-combed ochre grass, intricate reed-lashing detail, chalky marble facets, and long blue-violet shadows; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; pulled-back slightly elevated lateral view with the complete ox pair leading through the left-middle, the entire two-wheeled cart and domed shelter centered, the seated traveler clearly visible, and the walking traveler separated beside the team. Keep the complete group within the central seventy-five percent of the canvas with generous open grass before and behind it; place the marble outcrop in the right-middle and broad quiet sky above. Preserve every animal silhouette and leg, exactly two complete wheels, the sole axle, yoke, traces, complete shelter roof and walls, lashings, both complete adults, rope, marble outcrop, river line, tracks, and shadows within generous breathing room. One continuous journey only, never a wagon diagram, architectural cutaway, ethnographic plate, specimen lineup, map, atlas plate, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: present Pliny’s transmitted explanation of Numidian mobility as an ancient literary account rather than a timeless fact about a people; do not infer ancestry, identity, character, or social rank from anatomy, face, dress, or landscape, and do not portray forced movement.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted grassland atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, crown, weapon, army, chain, violence, extra person, extra cart, extra animal, wrong ox count, any wheel beyond exactly two, fused ox, missing leg, clipped horn, clipped tail, clipped hoof, clipped wheel, clipped shelter, floating reed frame, modern caravan, animal skin trophy, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete oxen, two complete adults, the full two-wheel cart on one axle, closed domed reed-and-hide shelter, lashings, traces, guide rope and contained marble outcrop are coherent and fully within the frame. No text, pseudo-writing, extra animal, extra traveler, extra cart, panel, weapon, modern vehicle, caricature or clipped focal subject was found. Accepted after preserving one wrong-wheel-count reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-47ed4f79-4431-4d72-abfb-4a1b76c3e395.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/evidence/history/b05-c003-attempt-01-wrong-wheel-count.png",
+          "sha256": "73567ec6ac2f66a4533819e533834aef8f300ffe7e9ec4026ea62529b77f2377",
+          "reason": "Rejected at original-resolution review because only three wheels were visibly resolved on the requested four-wheeled wagon, failing the exact wheel-count and fully visible construction gate. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 530,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "4:18": {
+        "nearestMAD": 27.77,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c023.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c017.png",
+        "madAtDHashPeer": 34.89
+      },
+      "4:19": {
+        "nearestMAD": 23.42,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c007.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c062.png",
+        "madAtDHashPeer": 37.54
+      },
+      "4:20": {
+        "nearestMAD": 29.56,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c101.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "madAtDHashPeer": 33.77
+      },
+      "4:21": {
+        "nearestMAD": 27.33,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c015.png",
+        "madAtDHashPeer": 78.98
+      },
+      "4:22": {
+        "nearestMAD": 23.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c092.png",
+        "madAtDHashPeer": 41.81
+      },
+      "4:23": {
+        "nearestMAD": 26.81,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c024.png",
+        "dHashAtMadPeer": 37,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c001.png",
+        "madAtDHashPeer": 50.5
+      },
+      "5:2": {
+        "nearestMAD": 24.98,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c084.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c008.png",
+        "madAtDHashPeer": 46.37
+      },
+      "5:3": {
+        "nearestMAD": 20.07,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c074.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c015.png",
+        "madAtDHashPeer": 50.47
+      }
+    }
+  }
+}

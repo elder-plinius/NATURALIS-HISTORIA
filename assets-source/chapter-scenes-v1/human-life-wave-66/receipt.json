@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "campaign": "human-life-wave-66",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 594,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "7:18": {
+        "nearestMAD": 27.73,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c015.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c014.png",
+        "madAtDHashPeer": 82.49
+      },
+      "7:19": {
+        "nearestMAD": 31.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+        "dHashAtMadPeer": 39,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-01/b02-c010.png",
+        "madAtDHashPeer": 61.66
+      },
+      "7:21": {
+        "nearestMAD": 20.63,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c022.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c003.png",
+        "madAtDHashPeer": 57.5
+      },
+      "7:22": {
+        "nearestMAD": 20.63,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c021.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c012.png",
+        "madAtDHashPeer": 39.42
+      },
+      "7:23": {
+        "nearestMAD": 28.02,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c009.png",
+        "madAtDHashPeer": 34.61
+      },
+      "7:25": {
+        "nearestMAD": 20.2,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c032.png",
+        "madAtDHashPeer": 30.88
+      },
+      "7:26": {
+        "nearestMAD": 27.05,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c094.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-03/b20-c012.png",
+        "madAtDHashPeer": 41.82
+      },
+      "7:27": {
+        "nearestMAD": 34.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c023.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c021.png",
+        "madAtDHashPeer": 60.85
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "7:18",
+      "title": "SOME REMARKABLE PROPERTIES OF THE BODY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c018.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "b95e007ca32f414c666d7463d420ddeec262d8632674b6c2e3ff45111c7b4975",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fd2abe31-23d1-4b36-a64a-0b10e48d0239",
+      "generationArtifactId": "exec-fd2abe31-23d1-4b36-a64a-0b10e48d0239",
+      "outputArtifact": "built-in-imagegen://exec-fd2abe31-23d1-4b36-a64a-0b10e48d0239.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 18, SOME REMARKABLE PROPERTIES OF THE BODY. Ground it in Pliny's transmitted account of Julius Viator, a Roman equestrian of Vocontian birth who, after physicians restricted liquids during a youthful illness, was said in old age to have become accustomed to taking no drink; present this explicitly as dignified ancient testimony and learned observation, not modern medical fact, a superior human type, or literal invulnerability. Scene: a spacious Roman-era Vocontian courtyard at dry high noon. In the middle ground stands one small FREE-STANDING rectangular grape arbor, fully visible from post bases to roof corners and surrounded on every side by open paving and sky. An elderly complete Julius Viator, naturally proportioned and calm rather than heroic, walks at an ordinary pace beside it. Exactly two complete observers—a grey-haired physician and a younger natural philosopher—stand several steps away comparing what they see through quiet gestures. A full covered water jar, one untouched plain cup, and a shallow reflecting basin remain together on a separate low stone bench, clearly available but unused; nobody performs a dangerous trial. Composition: pulled-back eye-level view with the complete arbor occupying the right middle distance, the complete bench and water vessels on the left, all three people arranged across the center, broad pale ochre wall and open faded-lapis sky around every silhouette; spacious, intimate, observational. No exposed anatomy, medical diagram, suffering, dehydration, disability coding, spectacle, miracle aura, or body hierarchy. Historical framing: visualize one Roman-era report being witnessed with uncertainty, not a clinical demonstration or factual endorsement. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of honey ochre, muted verdigris, umber, lampblack, quiet madder and a trace of faded lapis; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep all three complete people, their heads, hands and feet, the entire free-standing arbor including all four post bases and every roof corner, the entire bench, jar, cup and basin comfortably inside with generous clear vellum-colored breathing room; no vine, arbor timber, person, vessel, bench or focal structure touches or crosses an edge. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions, scroll writing, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Julius Viator, the physician, and the natural philosopher are complete; the free-standing arbor shows all four post bases and roof corners; the complete bench, covered jar, untouched cup, and water basin remain fully framed. The scene reads as cautious observation rather than a dangerous demonstration. No exposed anatomy, stigma, pseudo-writing, panel, border, modern object, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f37c8e11-53f8-4c53-a0f8-7aae71228528.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/evidence/history/b07-c018-rejected-01.png",
+          "sha256": "d7851156185d044ee93312cc13f085bf17e5066736fc68e2c75520130ce8357a",
+          "reason": "The first courtyard attempt let the vine trellis trunk and canopy continue through the left and top canvas edges after the prompt required the complete trellis comfortably inside. All original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:19",
+      "title": "SOME REMARKABLE PROPERTIES OF THE BODY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c019.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "2eb2768128035360da8a9ad1aaca6678502045ea07aefd493aeef3c3d408d84d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-94e1c7a2-4854-4a93-9c1b-f4a2f753d7c6",
+      "generationArtifactId": "exec-94e1c7a2-4854-4a93-9c1b-f4a2f753d7c6",
+      "outputArtifact": "built-in-imagegen://exec-94e1c7a2-4854-4a93-9c1b-f4a2f753d7c6.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 19, SOME REMARKABLE PROPERTIES OF THE BODY. Ground it in Pliny's transmitted examples of Crassus called Agelastus, people said never to weep, and especially Socrates appearing with an even countenance; preserve Pliny's own warning that emotional steadiness can harden into inflexible severity. Present this as philosophers and witnesses comparing ancient testimony, not a diagnosis, disability stigma, emotional ideal, caricature, or claim that one expression proves inner virtue. Scene: in a broad open Athenian courtyard at late afternoon stands one low FREESTANDING semicircular stone bench, its complete curved back, both ends, legs and surrounding paving all visible. Complete Socrates sits naturally near the middle, listening with an attentive, gently neutral expression. Exactly four complete adult interlocutors occupy the open curve around him: one seated figure smiles at a small anecdote, one standing figure looks troubled, one seated figure questions with an open hand, and one standing figure watches thoughtfully. Their varied faces and gestures establish comparison without mockery; Socrates remains engaged rather than cold. Composition: pulled-back three-quarter view from slightly above, all five full bodies small within the lower middle of a spacious courtyard, the entire freestanding bench forming one open arc, a distant shaded colonnade and trees far behind, and abundant warm open paving around every silhouette; smoky madder, pale stone and quiet blue-grey shadows, no symmetrical tribunal and no repeated portraits. No medical examination, mask, theatrical comedy/tragedy symbols, spectacle, supernatural aura, cruelty, isolation, or ability hierarchy. Historical framing: one Roman-era visual meditation on reported temperament and its limits, not psychological fact. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, dense fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of smoky madder, umber, lampblack, softened ochre, muted verdigris and small faded-lapis shadows; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep Socrates, all four interlocutors, every head, hand and foot, and the entire freestanding bench comfortably inside with broad clear breathing room; no person or bench touches or crosses an edge. Background colonnade remains distant environmental context, not a cropped focal structure. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, montage or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions, scrolls with marks, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Socrates and exactly four interlocutors are complete and legible around one entirely visible semicircular bench; varied expressions and gestures preserve the chapter's comparison without caricature or emotional hierarchy. No medical staging, pseudo-writing, panel, border, modern object, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-a2a3b9c4-423d-4fa7-af0b-a740167765e8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/evidence/history/b07-c019-rejected-01.png",
+          "sha256": "33e52e15c0926c94034fdd758968ff3bd84a8ea7dba084e83cc4f31625b52e77",
+          "reason": "The first discussion was framed too tightly: the near-right bench continued out of the canvas and the group lacked the requested breathing room. The rejected built-in original remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:21",
+      "title": "INSTANCES OF ACUTENESS OF SIGHT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c021.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "899876e9ca718bd30da6f085566808bb293c7cf058bea1859287ec43fc3efac6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-911dc1ea-6c49-44b5-a0d7-733d40652b6d",
+      "generationArtifactId": "exec-911dc1ea-6c49-44b5-a0d7-733d40652b6d",
+      "outputArtifact": "built-in-imagegen://exec-911dc1ea-6c49-44b5-a0d7-733d40652b6d.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 21, INSTANCES OF ACUTENESS OF SIGHT. Ground it in Pliny's transmitted story that a man named Strabo, watching from Lilybaeum in Sicily during the Punic War, was said to see and count ships emerging from Carthage far across the water; treat the extraordinary distance as an ancient report being tested and compared, not a literal superpower or modern physiological fact. Scene: a very wide, high coastal observation at clear dawn. On a natural grassy hill crest in the lower left, complete Strabo stands naturally shading his eyes toward the horizon while one complete companion kneels beside a shallow bowl containing exactly three plain counting pebbles. Far across a broad faded-lapis sea, exactly THREE ancient sailing ships—no more—emerge from a distant ochre harbor opening in a widely spaced diagonal. Each of the three ships has one complete hull, one mast and one simple square sail; all are individually legible, and the sea contains absolutely no other boat, sail, mast or hull. A hazy African headland sits low on the horizon. Composition: expansive horizontal panorama seen from behind and slightly above the two modest observers, with sea occupying most of the image, strong airy negative space, only three separated ships, and pale sunrise dissolving distance; the natural foreground land may continue beyond the lower canvas as landscape, but both people and all three ships remain fully visible. The emphasis is attentive observation and the difficulty of the claim, not heroic eyesight. No magnifying glass, telescope, optical diagram, rays from eyes, map, scale bar, artificial lookout platform, impossible enlarged inset, military combat, sinking vessel, propaganda, or triumph. Historical framing: visualize Roman-era scholars witnessing a reported feat with uncertainty, not verifying it as modern fact. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, very fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes dominated by faded lapis and sea-green verdigris with pale ochre, umber, lampblack and one quiet madder cloak; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep both complete people and exactly three complete ships comfortably inside with broad breathing room; no person, hull, mast, sail, harbor opening or headland touches an edge. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, enlarged detail or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions, marked tablets, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Both observers are complete; exactly three plain pebbles appear in the bowl and exactly three complete, widely separated ancient sailing ships occupy the sea, with no additional boat or sail. The feat is framed as difficult reported observation, not literal superhuman vision. No text, optical diagram, panel, border, modern instrument, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fd04a5cf-3e03-4395-a49e-5c69f4c1277e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/evidence/history/b07-c021-rejected-01.png",
+          "sha256": "4aa05b55b6f3963b7746ae99479c219abca4d42ee3d0ff72f5e7dee48c5af1e6",
+          "reason": "The first fleet scene used an artificial rocky terrace that continued through the left and lower canvas after the prompt required the complete lookout terrace inside. The rejected built-in bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-13860c7c-a6c8-4085-bc15-c72076512f42.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/evidence/history/b07-c021-rejected-02.png",
+          "sha256": "989934ec395fa4b7bc71814bdd5be3ae414a22ee2b10097065ca8bd39d10d866",
+          "reason": "The second fleet scene contained eight individually visible ships instead of the exactly seven ships required by that prompt. It was rejected for count fidelity and preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:22",
+      "title": "INSTANCES OF REMARKABLE ACUTENESS OF HEARING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c022.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "fc6f3d70050eee321a7259ea3273eee8bb37d266d88508e9d8f09a405588d5ff",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a96830bb-3d7e-4234-9a80-8db22bee6328",
+      "generationArtifactId": "exec-a96830bb-3d7e-4234-9a80-8db22bee6328",
+      "outputArtifact": "built-in-imagegen://exec-a96830bb-3d7e-4234-9a80-8db22bee6328.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 22, INSTANCES OF REMARKABLE ACUTENESS OF HEARING. Ground it in Pliny's single reported example: on the day Sybaris was destroyed, the noise was said to have been heard at Olympia; Pliny distinguishes this from later divine visions and presages. Treat the scene as uncertain ancient testimony about a distant sound, not extraordinary biology, divine proof, or a literal measurable phenomenon. Scene: a completely OPEN barley-and-wildflower meadow outside Olympia at pale first light, with no foreground or side trees at all and the complete low roofline of the distant sanctuary small in the background. One complete seated elder pauses beside a fully visible clay water bowl, head turned and one relaxed open hand lightly behind his ear. Exactly two complete companions have stopped ordinary work nearby: one standing woman holds a complete basket of cut herbs, and one kneeling man has set down a complete pruning knife safely on bare ground. All three listen toward a far southern mountain pass where a single faint plume of grey-madder haze rises beyond the ridges; no battle, soldiers, weapons in use, ruins or injured people are visible. Composition: very wide quiet landscape, the three listeners small within a lower-right triangle, empty meadow sweeping left toward the remote pass, long bone-white morning light and a great interval of air conveying distance without visible sound waves. No large foreground tree, cupped-ear caricature, enlarged ear, acoustic diagram, concentric rings, arrows, messenger deity, supernatural rays, catastrophe spectacle, fear pose, disability coding or ability hierarchy. Historical framing: a restrained folio visualization of witnesses attending to a report whose truth cannot be established from the image. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, delicate cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of bone ochre, silvered verdigris, faded lapis, umber, lampblack and one distant smoky-madder accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep all three complete people, basket, water bowl, pruning knife, sanctuary roofline, mountain pass and haze comfortably inside with broad breathing room; no focal figure, tool, vessel or structure touches or crosses an edge. Natural meadow and sky alone may continue through the canvas boundaries. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, diagram or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The elder and exactly two companions are complete in an open meadow; the basket, bowl, safely grounded pruning knife, distant sanctuary, mountain pass, and single haze plume are fully legible. The scene contains no visible sound waves, disaster spectacle, pseudo-writing, foreground tree, panel, border, modern object, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-ae5a2cef-2a39-4947-b67e-176ab5e099fe.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/evidence/history/b07-c022-rejected-01.png",
+          "sha256": "22ddc112955447b80fbdf27439655ceb301b2c032610ae1a378bdbfa3aeff13f",
+          "reason": "The first Olympia scene allowed its large foreground olive trunk and canopy to cross the upper and right edges after the prompt required each nearby olive trunk contained. The original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:23",
+      "title": "INSTANCES OF ENDURANCE OF PAIN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c023.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "e1df339446088011ce7d33be9065ffd3dd42af8bf19ffb23630a54f528c16a30",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-881839e9-142a-4b22-b97e-442f33517571",
+      "generationArtifactId": "exec-881839e9-142a-4b22-b97e-442f33517571",
+      "outputArtifact": "built-in-imagegen://exec-881839e9-142a-4b22-b97e-442f33517571.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 23, INSTANCES OF ENDURANCE OF PAIN. Ground it in Pliny's transmitted account of Leæna refusing to betray Harmodius and Aristogiton under coercion, while deliberately refusing the chapter's graphic torture and self-injury details. Present her as a dignified historical person exercising silent refusal, not as spectacle, martyr propaganda, a lesson that pain should be endured, or a superior human type. Scene: a quiet, shadowed Athenian civic chamber before any violence. Complete Leæna stands left of center in a plain deep-madder peplos, naturally proportioned, both feet planted and face calm but resolute; one hand rests near her heart and the other gives a small open-palmed refusal. Exactly two complete unarmed civic officials remain several paces away: one seated on a fully visible low stool extends an empty questioning hand, while one standing witness lowers his gaze. A closed undecorated doorway and a small unlit clay lamp on the floor create stillness; no one touches or surrounds her. Composition: medium-wide frontal three-quarter view with all three full bodies inside an open triangular arrangement, Leæna isolated by a broad pool of pale floor, cool lampblack shadow behind the officials, and one restrained madder figure against umber stone; psychological clarity without theatrical staging. No torture device, ropes, chains, wounds, blood, exposed anatomy, severed tongue, pain grimace, weapon, guard, tyrant throne, forced kneeling, humiliation, threat pose, cheering crowd, divine aura or militaristic glorification. Historical framing: visualize the reported decision not to betray others while acknowledging it as ancient testimony, not endorsing coercion or physical endurance as virtue. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, dense fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of lampblack, cool umber, deep smoky madder, muted verdigris, pale ochre and tiny faded-lapis shadows; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep Leæna, both officials, every head, hand and foot, the entire stool, closed doorway and lamp comfortably inside with generous breathing room; no focal person or object touches an edge. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, theatrical proscenium or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions, marks on walls, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Leæna and exactly two unarmed officials are fully framed with the complete stool, closed doorway, and unlit lamp. Her refusal remains dignified and non-graphic; there are no restraints, torture implements, weapons, wounds, gore, humiliation, pseudo-writing, panels, borders, or clipped focal subjects. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:25",
+      "title": "VIGOR OF MIND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c025.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "a95d3141b75fbe9d723160d9d322eef43650927b27c7cb1a2c405ef4057d307f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-635b1c3a-07e9-41e8-a977-e060d806bb08",
+      "generationArtifactId": "exec-635b1c3a-07e9-41e8-a977-e060d806bb08",
+      "outputArtifact": "built-in-imagegen://exec-635b1c3a-07e9-41e8-a977-e060d806bb08.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 25, VIGOR OF MIND. Ground it in Pliny's complex account of Caesar: his swift attention to many tasks, Pliny's refusal to glorify the enormous human cost of his wars, and especially the reported act of burning Pompey's and Scipio's captured correspondence without reading it. Emphasize restraint and the destruction of private papers, not conquest, genius worship, propaganda, or endorsement of Caesar's violence. Scene: in a completely OPEN paved camp courtyard at deep blue dusk, with no tent, canopy, roof, colonnade or foreground tree, complete Caesar appears small and plainly dressed in an unadorned off-white tunic and dark cloak. He kneels beside one complete low bronze brazier and calmly places one closed, entirely blank bundle of folded correspondence into the flame without opening it. Exactly three complete secretaries sit or kneel in a loose arc several steps away, each with a plain unmarked wax tablet resting FACE-DOWN on the ground and hands at rest; they witness rather than celebrate. One second closed blank bundle waits beside the brazier. A low plain wall, distant empty field and fading sky provide quiet context, with no soldiers or battle. Composition: pulled-back high three-quarter viewpoint, complete figures forming an offset ring around a small ochre flame, large lampblack and faded-lapis dusk shadows, broad empty paving and sky, Caesar deliberately off-center; solemn administrative restraint rather than heroic command. No multitasking spectacle, crown, laurel, throne, raised weapon, armor display, battle map, military standards, cheering troops, corpses, gore, combat, triumph, supernatural glow or personality cult. Historical framing: visualize one transmitted ethical anecdote within Pliny's openly ambivalent biography, not proof of exceptional cognition or moral purity. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, dense fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of lampblack, deep faded lapis, umber, smoky madder, muted verdigris and concentrated ochre firelight; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep Caesar, all three secretaries, every head, hand and foot, the entire brazier, both closed blank bundles and all face-down tablets comfortably inside with generous breathing room; no focal person, flame, vessel or paper bundle touches an edge. Low wall, empty field and sky alone may continue through the canvas boundaries. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, diagram or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions, legible seals, marked tablets, writing on papers, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Caesar and exactly three secretaries are complete around a fully visible brazier; two blank correspondence bundles and three unmarked face-down tablets are contained and legible. The open dusk scene emphasizes unread papers and restraint without battle, militaristic praise, pseudo-writing, panels, borders, or clipped focal subjects. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-3c61d8b4-ed2f-4b3e-a1e0-cbb4a765019d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/evidence/history/b07-c025-rejected-01.png",
+          "sha256": "f8c3a9a16e31626cf0c5a8acd90017ea7b376b41af6e35aa4f56fbc7f5cd73ef",
+          "reason": "The first nocturne let the central tent opening and its structural geometry continue through the top edge despite the prompt requiring a complete contained opening. The built-in original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:26",
+      "title": "HEROIC EXPLOITS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c026.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "27c756f39f9730df0e66f82bd97b3584f2043a6e20167d9389f24bd924449124",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5e90f1a1-9b29-4891-a7f3-6888f6af2a20",
+      "generationArtifactId": "exec-5e90f1a1-9b29-4891-a7f3-6888f6af2a20",
+      "outputArtifact": "built-in-imagegen://exec-5e90f1a1-9b29-4891-a7f3-6888f6af2a20.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 26, HEROIC EXPLOITS. Ground it in Pliny's long catalogue of Pompeius Magnus's victories and triumphs, but reject militaristic glorification: focus instead on the chapter's claim that the coast was freed from pirates and the sea restored to ordinary civic use. Treat the biography as Roman public memory and contested testimony, not imperial propaganda or proof of personal greatness. Scene: a low dock-level view in a modest Mediterranean harbor on a clear working morning. One complete unarmed Pompey stands well back on the quay in a plain traveller's cloak without laurel, armor or insignia, watching rather than commanding. Exactly four complete harbor workers cooperate to unload ordinary provisions from one complete small ancient cargo boat tied alongside: two pass one plain amphora between them, one carries a woven grain basket, and one steadies a short wooden gangplank. The boat's entire hull, prow, stern, single mast, furled ochre sail and mooring rope are visible inside the frame. A fish basket, coil of rope and three unmarked amphorae rest nearby; beyond them, calm muted-verdigris water opens toward returning civilian boats rendered only as very small distant context. Composition: low horizontal perspective close to the quay stones, the complete cargo boat forming a diagonal across the middle, workers distributed in a practical chain, Pompey small and off-center in the far left middle ground, bright air and busy negative spaces; ordinary maritime recovery rather than a triumphal tableau. No battle, pirate attack, captives, chained people, weapons, standards, trophies, triumphal chariot, crown, raised salute, adoring crowd, conquered lands, sinking ships, gore or victory aura. Historical framing: visualize the civic consequence Pliny praises while holding the hero catalogue at critical distance. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of sea-green verdigris, pale ochre, warm umber, lampblack, faded lapis and quiet madder cloth accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep Pompey, all four workers, every head, hand and foot, the entire cargo boat, mast, furled sail, gangplank, rope, baskets and foreground amphorae comfortably inside with generous breathing room; no focal person, vessel, mast, sail or cargo object touches an edge. Quay stones, sky and distant water alone may continue through the canvas boundaries. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, map or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, amphora inscriptions, hull marks, banners, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A complete unarmed Pompey observes exactly four complete harbor workers unloading one complete cargo boat; the mast, furled sail, gangplank, mooring rope, fish basket, rope coil, and three foreground amphorae are fully visible. The scene centers civic maritime work without combat, captives, victory insignia, text, panels, borders, or clipping. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:27",
+      "title": "UNION IN THE SAME PERSON OF THREE OF THE HIGHEST QUALITIES WITH THE GREATEST PURITY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c027.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "771df615076fa8dbfeb870a0996c935d6aaa53856f825ae8193f8caafde0b289",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b4e20e18-6176-41f2-8e81-5b1041dadd5f",
+      "generationArtifactId": "exec-b4e20e18-6176-41f2-8e81-5b1041dadd5f",
+      "outputArtifact": "built-in-imagegen://exec-b4e20e18-6176-41f2-8e81-5b1041dadd5f.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent full-resolution chapter illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 27, UNION IN THE SAME PERSON OF THREE OF THE HIGHEST QUALITIES WITH THE GREATEST PURITY. Ground it in Pliny's comparison of Cato the Elder—praised as orator, commander and senator yet burdened by widespread hostility—with Scipio Aemilianus, in whom Pliny thought the same qualities shone more clearly; include the reported fact that Cato repeatedly defended himself and was acquitted, but show no courtroom tally. Present the passage as scholars comparing reputations and contradictory testimony, not a fixed hierarchy of human worth, propaganda, or proof of purity. Scene: in a quiet open Roman library courtyard at high morning, exactly three complete historians stand around two complete small uninscribed portrait busts on separate low portable wooden stands: an older angular Cato and a younger composed Scipio. One historian gestures toward Cato while acknowledging a plain complete advocate's stool; another rests an open hand near a complete undecorated bronze helmet placed on the paving; the third looks between both busts beside one complete folded senatorial cloak. All objects remain ordinary evidence for discussion, not sacred attributes. Composition: pulled-back high oblique view, the two busts and three historians forming an irregular pentagon in a broad field of pale paving, bone-white and muted-verdigris values with sparse madder hems, abundant clean negative space and no axial hero; comparative inquiry rather than commemoration. No living Cato or Scipio posing, military action, triumph, weapon in hand, raised platform, cheering crowd, laurel, halo, scales of justice, courtroom verdict, allegorical gods, purity aura or ability hierarchy. Historical framing: visualize Roman readers weighing Pliny's comparative judgment, including its reservations, not endorsing the biographies as objective fact. House style: original Plinian natural-history folio across warm fibrous aged vellum; iron-gall contours, precise fine cross-hatching and stipple, dry-brush abrasion; translucent restrained mineral washes of bone ochre, muted verdigris, pale umber, lampblack, faded lapis and quiet madder accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2. Keep all three complete historians, both complete busts and their stands, every head, hand and foot, the entire stool, helmet and folded cloak comfortably inside with generous breathing room; no person or focal object touches an edge. Courtyard paving and open sky alone may continue through the canvas boundaries. One coherent full-bleed scene with no visible sheet, decorative border, frame, panel, inset, paired portrait panels or collage. Absolutely no lettering, labels, captions, numerals, pseudo-writing, inscriptions on busts or plinths, scrolls, marked tablets, signatures, logos, watermarks, modern objects, photography, photorealism or glossy CGI.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete historians compare two complete uninscribed busts on separate stands; the advocate's stool, undecorated helmet, and folded senatorial cloak are fully contained. The high-key arrangement reads as comparative inquiry rather than a heroic hierarchy. No text, marked scroll, inscription, panel, border, modern object, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "campaign": "materia-wave-02",
+  "chapters": [
+    {
+      "chapterKey": "20:5",
+      "title": "THE STAPHYLINOS, OR WILD PARSNIP: TWENTY-TWO REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-fac69e10-39e4-4564-be07-4aa961639c59.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-02/b20-c005.png",
+      "outputArtifact": "built-in-imagegen://exec-fac69e10-39e4-4564-be07-4aa961639c59.png",
+      "sha256": "e4872d5b63bba7a9e93fd97e87cd4d6cf61f3c9b0d3fec7787baaaa36d07941d",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 5\nPrimary request: Create one independent, chapter-specific illustration of staphylinos, the wild or erratic parsnip, and its remedy preparations. On a sun-warmed stony Mediterranean slope, show one complete wild parsnip still rooted among rocks, with its entire tall divided foliage and flowering seed umbels contained in frame. Beside it, arrange a freshly lifted second specimen with the full forked root and fine rootlets exposed, a clean cross-section of root, and gathered seed. Integrate a small stone mortar with pounded seed, an unmarked cup of dark wine, a shallow vessel of hydromel, a little honey, and meal on a plain woven cloth, reflecting the chapter's seed, root, wine, honey, and meal preparations. Everything belongs to one continuous field-observation scene, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: rocky uncultivated ground outside a Roman garden, sparse thyme and distant low hills, with no dominant architecture\nSubject: staphylinos growing most strongly in stony soil, its seed and medicinal root grounded in the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex, with intimate materia-medica observation\nComposition/framing: landscape 3:2; asymmetrical rising plant on one side balanced by a low root-and-remedy arrangement on the other; one complete composition; generous breathing room on every edge; full plants, umbels, roots, vessels, and cloth completely visible; no cropped primary subject\nLighting/mood: lucid dry midday light softened by vellum, attentive and austere\nMaterials/textures: fibrous vellum, dry mineral pigment, iron-gall ink, pitted stone, dusty root skin, delicate seed umbels, coarse cloth, matte vessels\nConstraints: botanically legible, historically plausible Roman objects, no serpent or medical gore; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, labeled borders, extra framed scenes, atlas arrangement, or contact sheet",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "The rooted stony-soil specimen, lifted forked root, seed heads, mortar, wine, hydromel, honey and meal are legible and contained.",
+        "No lettering, pseudo-writing, signature, logo or watermark detected.",
+        "Accepted on the first generation."
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:6",
+      "title": "CUTLEEK: THIRTY-TWO REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-0108fac5-0008-495e-bd90-0b25e8bb95b9.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-02/b20-c006.png",
+      "outputArtifact": "built-in-imagegen://exec-0108fac5-0008-495e-bd90-0b25e8bb95b9.png",
+      "sha256": "dfabf97b29a9839a0152dcb89fd064f36c390a132fec22e87012ea7742e490f1",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 6\nPrimary request: Create one independent, chapter-specific illustration of cutleek and its remedy preparations. Inside a modest Roman kitchen dispensary, show one complete freshly lifted cutleek plant laid in a sweeping horizontal arc across a low stone bench, with all roots, pale shank, and every long blue-green leaf tip visibly contained. Beside it stand several complete cut stalks in one plain clay jar. Show cutleek being processed without depicting cropped hands: bruised green leaves in a deep stone mortar, their juice decanted through a small linen strainer into an unmarked cup. Integrate chapter-grounded companions as distinct but subordinate objects: a few nut-galls, fresh mint, honey, vinegar, a small measure of wine, and barley water in historically plausible vessels. This must be one continuous interior preparation scene, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: a sparse Roman domestic dispensary with one small fully visible hearth at a distance, a bare worn plaster wall, and one stone work surface; absolutely no shelves, hanging objects, background jars, or extra vessels\nSubject: cutleek, bruised leaves and expressed juice, with nut-gall, mint, honey, vinegar, wine and barley-water preparations from the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex, with intimate materia-medica observation\nComposition/framing: landscape 3:2; all subject matter confined to the central 80 percent; low horizontal crescent of leek leaves countered by upright vessels and a single dark mortar, materially different from the rocky field scene; generous untouched breathing room on all four edges; every root, leaf tip, cut stalk, vessel, tool and hearth fully visible; nothing touches or exits the frame; no cropped object\nLighting/mood: warm oblique hearth light against cool verdigris foliage, quiet and workmanlike\nMaterials/textures: fibrous vellum, iron-gall ink, waxy leek leaves, tangled roots, pitted stone mortar, linen strainer, matte clay, amber honey and vinegar\nConstraints: botanically legible, historically plausible Roman objects, no patient, injury, medical gore, serpent, or scorpion; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, labeled borders, extra framed scenes, atlas arrangement, or contact sheet\n\nBinding STYLE_CONTRACT reinforcement for this repair: preserve warm fibrous aged vellum, iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, and restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Keep the intimate materia-medica dialect of roots, leaves, vessels, tactile plant structure, verdigris, ochre, and quiet madder accents. The scene remains one coherent landscape 3:2 Roman-era folio, rough in material and polished in draftsmanship.\nCritical blank-wall repair: the entire upper plaster wall must be a broad, quiet, plain, naturally mottled field. Texture it only with large soft clouds of uneven lime wash and at most a few long isolated continuous hairline cracks. The wall must contain absolutely no short-stroke clusters, repeated strokes, scratches, dots in rows, calligraphic shapes, glyph-like marks, letter-like marks, word-like groupings, inscriptions, graffiti, labels, symbols, numerals, signatures, pseudo-writing, painted decoration, reliefs, or shadows resembling writing. Leave especially the upper center and upper right completely blank and visually calm. No object hangs on or leans against the wall.\nCritical framing repair: keep every discrete subject within a generous inner safe area, surrounded by uninterrupted vellum breathing room. The complete cutleek roots, every leaf tip, every cut stalk, clay jar, mortar, strainer, cup, nut-galls, mint sprigs, honey bowl and dipper, vinegar measure, wine cup, barley-water bowl, hearth opening, bench, and flame must be fully visible and separated from all canvas edges. No vessel, plant, tool, hearth, stone, or architectural feature may be bisected, cropped, touch an edge, or enter from outside the frame. Do not add optional jars, amphorae, shelves, hanging tools, decorative vessels, or background objects. Opaque full-colour landscape image; no transparency.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Accepted repair contains the complete root-to-tip cutleek, all cut stalks, clay jar, dark mortar, linen strainer, cup, nut-galls, mint, honey, vinegar, wine, barley water, hearth opening, flame, stone bench and bench legs fully inside generous margins.",
+        "The upper plaster wall is a plain naturally mottled field with only sparse long hairline cracks; no marks resemble letters, glyphs, inscriptions, graffiti, labels, symbols, signatures or pseudo-writing.",
+        "No lettering, pseudo-writing, logo, watermark, modern object, clipping, panel division or glossy rendering detected.",
+        "Verified as a 1536 x 1024 opaque three-channel sRGB PNG with no alpha at original resolution.",
+        "Accepted on the first generation of this pseudo-writing repair."
+      ],
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-16b615ed-bcda-4019-81dc-bc5f3ab58f5a.png",
+          "sha256": "3a6f8c8d534371fc0f95eccc5cf5e5fbe3771e0d37c8b35ded4eacc384ba117e",
+          "reason": "Rejected during the original campaign because a secondary amphora was clipped by the upper canvas edge."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-d1eb1975-487a-4e29-9349-d050b174dcfb.png",
+          "sha256": "84928ababdc154aa35327a74c509ef9edaeb38872cb1c25688031aae07dbfeac",
+          "reason": "Former canonical bytes preserved but rejected during the independent audit because clustered dark strokes on the upper plaster wall resembled glyph-like pseudo-writing."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:7",
+      "title": "THE LETTUCE: FORTY-TWO REMEDIES. THE GOAT-LETTUCE: FOUR REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-41e25fde-99fa-479e-bfda-0f03bed0f217.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-02/b20-c007.png",
+      "outputArtifact": "built-in-imagegen://exec-41e25fde-99fa-479e-bfda-0f03bed0f217.png",
+      "sha256": "6808cdffa709a65a0c552acd485388dd594ca21d5d549a664cf328f24e7766c6",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 7\nPrimary request: Create one independent, chapter-specific illustration of lettuce and goat-lettuce remedy preparations. On a pale limestone terrace above a calm Mediterranean shore, show one complete tall goat-lettuce plant with rough pale stem, narrow leaves, crown and roots all contained in frame, set beside one complete low cultivated lettuce rosette. A shallow incision in the tall stalk naturally releases a few drops of white milky latex into a new unmarked earthen vessel placed beneath it; nearby, show a second small vessel holding the thickened collected juice, an unmarked cup for vinegar and water, a pinch of salt, a little polenta, clean wool, and honey as understated chapter-grounded remedy materials. Include one small hawk perched fully within the scene on a low stone at a respectful distance, recalling the ancient hieracion tradition, but keep the plants dominant. Everything belongs to one continuous coastal botanical gathering, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: an open coastal limestone terrace with sparse grasses, a low distant sea horizon, and no dominant architecture\nSubject: the tall rough goat-lettuce, cultivated lettuce, and milky stalk juice collected at harvest into new earthen vessels, grounded in the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex, with intimate materia-medica observation\nComposition/framing: landscape 3:2; an airy vertical plant rising off-center, a low lettuce rosette and remedy vessels forming a gentle diagonal toward the sea, and the small hawk as a distant counterweight; materially different from both the rocky root study and the interior leek preparation; generous breathing room on all four edges; every root, leaf tip, crown, vessel, cloth, bird, wing and tail fully visible; nothing touches or exits the frame; no cropped object\nLighting/mood: cool sea light with a faint ochre glow, contemplative, lucid and slightly uncanny\nMaterials/textures: fibrous vellum, iron-gall ink, rough pale stalk, crisp green leaves, opaque milky latex, porous limestone, matte new clay, soft wool, distant faded-lapis water\nConstraints: botanically legible, historically plausible Roman objects, no patient, injury, medical gore, dead fish, serpent, or theatrical ritual; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, labeled borders, extra framed scenes, atlas arrangement, or contact sheet",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Tall rooted goat-lettuce, cultivated rosette, visible latex drops, new clay vessel, vinegar-water cup, salt, polenta, wool, honey and the complete hawk remain fully inside the frame.",
+        "No lettering, pseudo-writing, signature, logo or watermark detected.",
+        "An unselected alternate remains preserved at built-in-imagegen://exec-24d79c20-d1d5-41c3-a84c-ed58749ddae7.png; the selected independent render gives clearer separation between the tall goat-lettuce, cultivated rosette and latex vessel."
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:8",
+      "title": "BEET: TWENTY-FOUR REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-c5903eb8-a790-4e8f-9749-7bac0a7f5ba9.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-02/b20-c008.png",
+      "outputArtifact": "built-in-imagegen://exec-c5903eb8-a790-4e8f-9749-7bac0a7f5ba9.png",
+      "sha256": "5135226916844d7e4ee7a7aef07f2d6b1272a7417c280738ae46aebf1880bcc4",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 8\nPrimary request: Create one independent, chapter-specific illustration of beet and its remedy preparations. In a shaded Roman garden workroom open to a distant courtyard, show one complete white beet and one complete dark red-black beet suspended separately by plain cord from a fully visible low wooden rail, as the chapter describes fresh roots hung by a string and softened with water. Their crowns, broad veined leaves, swollen roots, fine rootlets, cords, and the ends of the rail must all be contained in frame. Directly beneath them stands a broad shallow basin of clear water. On a low table nearby, arrange one fully visible sliced black beet root beside a small stone press and an unmarked cup of dark expressed juice; pair a whole white beet root with a few raw garlic cloves. Add a modest bowl of lentils, a small vinegar vessel, and a pinch of alum as subordinate chapter-grounded materials. Everything belongs to one continuous hanging-root workshop still life, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: a sparse shaded Roman service loggia with one open arch revealing a sunlit kitchen garden, a low wooden rail, one water basin, and one stone table; no shelves, inscriptions, hanging clutter, or extra vessels\nSubject: contrasting white and black beets, roots softened while suspended over water, dark expressed root juice, white beet with raw garlic, lentils, vinegar, and alum, grounded in the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex, with intimate materia-medica observation\nComposition/framing: landscape 3:2; two hanging plants make a calm central arch over the water basin, balanced by a low remedy still life to one side and a quiet opening to the garden on the other; materially different from the field, kitchen-bench, and coastal scenes; all subject matter confined to the central 82 percent; generous breathing room on all four edges; every leaf, cord, rail end, rootlet, basin, press, cup, vessel, garlic clove and bowl fully visible; nothing touches or exits the frame; no cropped object\nLighting/mood: cool interior shade crossed by a soft bar of ochre garden light, sober, elegant and observant\nMaterials/textures: fibrous vellum, iron-gall ink, ribbed beet leaves, pale and madder-dark roots, rough cord, weathered wood, clear water, pitted stone press, matte clay, dry lentils and crystalline alum\nConstraints: botanically legible, historically plausible Roman objects, no people, patient, injury, medical gore, serpent, theatrical ritual, or impossible machinery; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, labeled borders, extra framed scenes, atlas arrangement, or contact sheet",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Both complete suspended beets, cords, rail, rootlets, water basin, black-root slice, press, dark juice, white beet, garlic, lentils, vinegar and alum are legible and contained.",
+        "No lettering, pseudo-writing, signature, logo or watermark detected.",
+        "Accepted on the first generation."
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

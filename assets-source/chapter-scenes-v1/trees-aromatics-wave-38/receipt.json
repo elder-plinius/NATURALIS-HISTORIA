@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-38",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted chapter records its unique built-in generation artifact ID. Two rejected generations are preserved under evidence/history and record their built-in artifact IDs, hashes, and native-QA reasons.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 376,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "24:10": {
+        "nearestMAD": 21.33,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c026.png",
+        "madAtDHashPeer": 46.3
+      },
+      "24:11": {
+        "nearestMAD": 22.86,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c008.png",
+        "madAtDHashPeer": 39.33
+      },
+      "24:12": {
+        "nearestMAD": 24.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c010.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c019.png",
+        "madAtDHashPeer": 37.05
+      },
+      "24:13": {
+        "nearestMAD": 22.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c005.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c008.png",
+        "madAtDHashPeer": 37.47
+      },
+      "24:14": {
+        "nearestMAD": 25.25,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c002.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c030.png",
+        "madAtDHashPeer": 38.34
+      },
+      "24:15": {
+        "nearestMAD": 23.63,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c013.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c016.png",
+        "madAtDHashPeer": 27.29
+      },
+      "24:16": {
+        "nearestMAD": 25.42,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c001.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+        "madAtDHashPeer": 51.54
+      },
+      "24:17": {
+        "nearestMAD": 28.52,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c013.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c025.png",
+        "madAtDHashPeer": 62.83
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "24:10",
+      "title": "THE BLOOD-RED SHRUB: ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c010.png",
+      "sha256": "da5d5e6ea399463cac446a570adecb34c3a72b719fc2964469820dfcd8677dbd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7e63a65e-06ff-4d1f-ba16-0e51338d7d92",
+      "outputArtifact": "built-in-imagegen://exec-7e63a65e-06ff-4d1f-ba16-0e51338d7d92.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 10, “The blood-red shrub”\nPrimary request: Illustrate the ominously named blood-red shrub through botanical observation rather than injury: a tiny peeled window reveals its naturally crimson inner bark, while the same chapter’s countryman carries a siler walking-stick said in antiquity to repel serpents.\nScene/backdrop: A broad dry woodland clearing at wine-red sunset, mostly open stony earth beneath an immense vellum sky. No trees, dense woods, buildings, walls, roofs or edge-entering vegetation.\nSubject: Exactly one complete travelling countryman kneels beside exactly one fully visible small blood-red shrub. With one small bronze bark knife, the person has lifted one narrow thumb-length strip of outer bark, revealing a modest botanical-crimson rectangle beneath; the intact hand and knife are clean. One complete rustic siler walking-stick lies on the ground beside the person: it is unmistakably a natural dark-brown wooden branch, slightly crooked, with visible bark grain, one tapered end, no metal, no cap, no knob, no ornament. Exactly one small complete serpent at the far side of the clearing turns away from the wooden staff, separated by a wide band of bare soil.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, deep botanical madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, long diagonal from whole shrub at lower left through the complete kneeling countryman and dark wooden staff to the small retreating serpent at upper right. Preserve broad empty ground between serpent and person, a huge sunset sky above, one full shrub-width at both side edges, and ample foreground below. Keep every root contact, branch tip, leaf, small bark flap, person, hand, foot, knife, both wooden staff ends and the entire serpent fully visible. One continuous field observation, no medical scene.\nHistorical and epistemic framing: Depict Pliny’s transmitted associations as ancient natural history, without endorsing therapeutic or serpent-repelling claims.\nLighting/mood: Madder sunset, guarded curiosity, natural color carrying an ominous reputation.\nConstraints: Exactly one person, one shrub, one bronze knife, one visibly wooden staff and one serpent; all objects grounded; crimson is inner bark pigment only; no wound, blood, patient, ulcer or treatment; period-appropriate plain clothing and tools; no written marks; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, metal staff, silver rod, gold rod, knobbed staff, polished cane, blood, gore, cut skin, large trunk wound, attack, biting snake, giant snake, extra people, extra shrubs, tree canopy, wall, building, roof, clipped branch, edge-touching staff, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One fully contained countryman, a small rooted shrub with a restrained crimson bark window, clean knife, visibly crooked wooden siler staff and a complete retreating serpent are separated by open ground. No injury, metal staff, clipping, text, panel, border, visible sheet or watermark was found. The replacement clears the collection-wide similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-3a723134-378e-412d-94e5-3184a38a68ff.png",
+          "sha256": "856a4c02e23d3f5fc200648059f90df12e76a5e6226b8dc1469a96d5f0b7f447",
+          "reason": "Rejected after native QA because the requested rustic wooden siler staff appeared as an ornate metal rod, materially changing the chapter-specific evidence. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:11",
+      "title": "THE REED: NINETEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c011.png",
+      "sha256": "a2c31ba36070475d26b61ec28c2b62affcd683ef8ce9709b97e408cd42826859",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3221c4fd-d79f-4b25-a069-d07c24ce123e",
+      "outputArtifact": "built-in-imagegen://exec-3221c4fd-d79f-4b25-a069-d07c24ce123e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 11, “The reed”\nPrimary request: Illustrate Pliny’s wonder at the many forms of reed through a practical marsh study: root, joint, stem, scented pith and the reciprocal relation he reports between reed splinters and fern prickles. Show materials only, not treatment on a body.\nScene/backdrop: A finite shallow marsh pool at pale green-gold morning, with its complete oval shoreline visible inside broad dry ground. Exactly one compact reed clump and one small fern clump grow on separate contained mounds beside the water. No edge-entering reeds, distant vegetation, buildings, boats, walls or trees.\nSubject: Exactly one complete kneeling reed worker has lifted one loose reed rhizome from the damp bank and lays it beside one cut stem section showing two complete joints. A single split scented-reed piece reveals pale pith on one small reed mat. One fern prickle rests beside one fine reed splinter as a cautious material comparison. One short bronze knife and one plain collecting basket complete the field study.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, marsh silver and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, elevated crescent around the entire small pool: whole reed clump at left, complete worker and arranged root/joints at center foreground, fern clump at right, basket behind. Preserve wide dry ground around the oval shoreline, large empty sky above and ample foreground below. Keep the full person, hands, feet, rhizome, stem ends, both joints, pith piece, mat, prickle, splinter, knife, basket, every reed tip, fern frond and both mounds fully visible. One continuous field examination, no anatomical inset.\nHistorical and epistemic framing: Depict the reed properties and uses Pliny transmits as ancient natural history, without modern medical endorsement.\nLighting/mood: Silvery marsh dawn; modular form, root and joint, practical curiosity in a common plant.\nConstraints: Exactly one person, one reed clump, one fern clump, one finite pool, one basket, one mat and one knife; all objects grounded; no wound, patient, insertion into flesh or written mark; period-appropriate plain clothing and tools; painted soil, water, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, endless reed bed, edge-entering reeds, giant splinter, body part, blood, medical treatment, boat, wall, building, tree, clipped frond, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One compact reed clump and one complete fern flank a finite oval pool while the fully framed worker examines rhizome, joined stem, split pith and material comparison on a grounded mat. Basket and knife are visible. No endless reed bed, bodily treatment, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:12",
+      "title": "THE EGYPTIAN OR ARABIAN THORN: FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c012.png",
+      "sha256": "bf07c70bcb3a719e1c8ca4257154fd01ffbe3a5666c63c1c77d3049b66689d5f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-620b9859-a2b2-437a-8ad0-b0ee59ecc11a",
+      "outputArtifact": "built-in-imagegen://exec-620b9859-a2b2-437a-8ad0-b0ee59ecc11a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 12, “The Egyptian or Arabian thorn”\nPrimary request: Illustrate Pliny’s account of gum acacia production from the Egyptian thorn: small lentil-like seeds and pods gathered in autumn, steeped in rainwater, pounded, pressed, sun-dried in a mortar, and divided into tablets.\nScene/backdrop: A broad open Egyptian desert garden clearing at clear autumn morning, bare ochre soil under a pale Nile-blue vellum sky. Exactly one compact young thorny acacia stands fully inside the far left-middle; it occupies no more than one quarter of the canvas width and height, with at least one complete crown-width of empty sky and soil on every side. Every crown tip, trunk, root contact, hanging pod and thorn is visible. No pyramids, temples, palms, walls, buildings, river, extra trees or edge-entering vegetation.\nSubject: Exactly one complete seated gum worker pounds several soaked acacia pods in one stone mortar with one wooden pestle. Beside the worker, one low, entirely visible wooden lever press holds a small cloth packet of pulp above one shallow catch bowl. Exactly six pale amber gum tablets—two loose shallow arcs of three, no more and no fewer—dry on one reed tray; one rainwater jar and one small basket of unopened pods complete the sequence without labels.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, dusty verdigris, faded lapis, gum amber and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, flowing production diagonal from the small whole acacia at left through the complete worker and mortar at center to press, bowl and drying tablets at right. Preserve broad sky around the entire crown, wide bare soil at both side edges, and ample foreground below. Keep the full person, head, hands, feet, pestle, mortar, press frame and entire lever, cloth, bowl, tray, all six tablets, jar, basket, all pods and every tree branch fully visible. One continuous workshop in open air, no process diagram.\nHistorical and epistemic framing: Depict the production and uses Pliny transmits as ancient natural history, without modern therapeutic endorsement.\nLighting/mood: Dry lucid morning; patient transformation from thorn and pod to translucent gum.\nConstraints: Exactly one person, one small acacia, one mortar, one pestle, one press, one catch bowl, one tray, exactly six tablets, one jar and one pod basket; period-appropriate plain clothing and tools; all objects grounded; no patient, wound, treatment or written mark; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, seven tablets, eight tablets, extra people, extra trees, pyramid, temple, palm, modern hydraulic press, glass bottle, silk factory, giant thorn, clipped crown, edge-touching branch, edge-touching lever, photographic realism, glossy digital rendering, split panels, triptych, collage, process arrows, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Make the acacia much smaller instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The compact acacia is fully visible with clear sky around its crown; one complete worker, mortar, pestle, lever press, catch bowl, tray, jar and pod basket form a legible open-air sequence, and exactly six tablets appear. No pyramid, modern press, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-d98079dc-f6df-434a-af6d-6f9fd846ea7c.png",
+          "sha256": "571f350f918e972233af0199ccce5fee196ad387bb6735ecc28b9c4e98ddc43c",
+          "reason": "Rejected after native QA because the acacia was clipped at the left edge and the tray contained seven tablets rather than the required six. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:13",
+      "title": "ASPALATHOS: ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c013.png",
+      "sha256": "aa28f8cbec1c44ab28c1a8cca349a17bfca34c4d8ca86956c466b466f83f0def",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8acfc89a-b965-4be5-9ecc-d300cb6475fe",
+      "outputArtifact": "built-in-imagegen://exec-8acfc89a-b965-4be5-9ecc-d300cb6475fe.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 13, “Aspalathos”\nPrimary request: Illustrate Pliny’s fragrant thorn called aspalathos: a small intensely thorny island shrub whose best bark turns red-purple when removed and whose sweetness was said to be remarkable after a rainbow had passed over it.\nScene/backdrop: An open stony clearing on ancient Rhodes just after rain, beneath a broad clearing vellum sky. Exactly one small complete aspalathos shrub stands fully inside the middle ground with every root, branch, thorn and leaf visible. A modest complete rainbow forms a small pale arch high above and behind the shrub, with both ends fading into open sky well inside the canvas rather than meeting any edge. No sea, buildings, walls, trees or other plants.\nSubject: Exactly one complete kneeling ancient perfumer gently lifts one freshly cut aspalathos twig toward the nose. A single thumb-width patch of peeled bark shows natural red-purple wood; one small bronze knife lies clean on the ground. Beside the person, one shallow unmarked oil bowl and one folded plain linen cloth wait for the aromatic material. No application to a body.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, rain violet, red-purple and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, airy vertical oval: whole thorn shrub at center-left, complete perfumer at center-right, knife, oil bowl and cloth forming a low arc, small full rainbow isolated high above. Preserve broad empty sky around the rainbow and shrub, one full shrub-width of bare stone at both side edges, and ample foreground below. Keep the full person, face, hands, knees, feet, twig, peeled patch, knife, bowl, cloth, every thorn and both rainbow ends fully visible. One continuous post-rain observation, no medical inset.\nHistorical and epistemic framing: Depict the fragrance and uses Pliny transmits as ancient natural history, without modern therapeutic endorsement.\nLighting/mood: Rain-washed violet and amber; thorn becoming perfume, a fleeting atmospheric condition recorded as fact.\nConstraints: Exactly one person, one shrub, one twig, one knife, one bowl, one cloth and one fully contained rainbow; all objects grounded except the atmospheric rainbow; no patient, wound, treatment, deity or written mark; period-appropriate plain clothing and tools; painted stone, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, rainbow touching an edge, giant rainbow, magical glow, halo, extra people, extra shrubs, tree, perfume bottle, modern glass, blood, clipped thorn, edge-touching figure, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One fully contained perfumer smells a red-purple bark twig beside one whole thorny shrub; knife, oil bowl, cloth, and both ends of the restrained rainbow remain inside generous breathing room. No bodily application, magical glow, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:14",
+      "title": "THE IDÆAN BRAMBLE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c014.png",
+      "sha256": "5fa32ba4377211193a88c894c8fab570d1a100b692cc6da2a47337759cfbd5c9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-97ef5467-361b-4e42-bf99-4c3c1822709b",
+      "outputArtifact": "built-in-imagegen://exec-97ef5467-361b-4e42-bf99-4c3c1822709b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 14, “The Idæan bramble”\nPrimary request: Illustrate the delicate Idæan bramble Pliny distinguishes from coarser kinds: smaller, with slender less-prickly canes, growing in the shade on Mount Ida, bearing white harvest-time blossom and dark berries.\nScene/backdrop: A spacious high meadow on ancient Mount Ida at harvest morning. Exactly one small complete wind-shaped oak stands fully within the left-middle, its entire crown, every branch tip, trunk and root contact surrounded by broad sky and ground. Beneath its contained oval shadow grows exactly one complete delicate Idæan bramble. No other trees, shrubs, mountains, architecture, walls or edge-entering vegetation.\nSubject: Exactly one complete kneeling gatherer studies the bramble, holding one slender flowering cane without gloves. The whole plant shows thin lightly prickled canes, several white blossoms and a few naturally black berries. One shallow woven basket contains a small handful of gathered blossoms and berries; one plain clay vinegar cup sits beside it, unlabelled and unused. No application or ingestion is shown.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, berry black-violet, blossom white and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, sheltering diagonal: complete small oak at left, whole bramble in its shade at lower center, complete gatherer and basket at right. Preserve a huge open sky around and above the crown, one full crown-width of empty ground at both side edges, and ample foreground below. Keep the full person, face, hands, knees, feet, basket, cup, every tree root and branch, every bramble cane, prickle, leaf, blossom and berry fully visible. One continuous shaded field observation, no botanical inset.\nHistorical and epistemic framing: Depict the characteristics and uses Pliny transmits as ancient natural history, without modern therapeutic endorsement.\nLighting/mood: Clear highland gold and cool leaf shade; delicacy surviving beneath shelter.\nConstraints: Exactly one person, one small oak, one bramble, one basket and one cup; all objects grounded; period-appropriate plain clothing and vessels; no patient, wound, treatment, deity or written mark; painted meadow, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra trees, extra brambles, giant berry, dense forest, edge-entering canopy, cropped crown, mountain touching an edge, architecture, wall, building, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Make the oak small enough to show every branch tip.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete small oak and delicate white-flowered, dark-berried bramble are fully contained, with one complete gatherer, basket and vinegar cup beneath open highland sky. No dense forest, medical use, clipped crown, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:15",
+      "title": "THE CHAMÆDAPHNE: FIVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c015.png",
+      "sha256": "4bf865b347944bc85c607633ce3fb9d8b917b35774bf32433345cfa049dae8d7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3509df75-29f0-4ee6-8a15-18253064d2e4",
+      "outputArtifact": "built-in-imagegen://exec-3509df75-29f0-4ee6-8a15-18253064d2e4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 15, “The chamædaphne”\nPrimary request: Illustrate Pliny’s compact chamædaphne by its identifying form: a single diminutive stem about one cubit high, smaller laurel-like branches and leaves, with red seed attached closely to the leaves.\nScene/backdrop: A spare rough limestone upland at cool morning, mostly bare pale stone and soil beneath an expansive washed-lapis vellum sky. No trees, shrubs beyond the subject, walls, buildings, cliffs, mountains or edge-entering vegetation.\nSubject: Exactly one complete kneeling botanist studies exactly one complete chamædaphne plant. Its single upright stem rises about one cubit, carrying several short laurel-like side branches; small dark-green leaves bear clearly visible red seeds close against their bases. The botanist holds one plain knotted measuring cord vertically beside the plant without touching it. One shallow collecting tray holds exactly three fallen red seeds, and one small bronze probe lies beside the tray. No tasting or medical use is shown.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, seed madder and limestone ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, spare vertical pairing in the middle half: complete single-stem plant at center-left, whole kneeling botanist and straight measuring cord at center-right, tray and probe low between them. Preserve enormous open sky, one full person-width of bare ground at both side edges, and ample foreground below. Keep the full person, head, hands, knees, feet, every knot, both cord ends, entire plant, root contact, stem tip, branch, leaf, attached seed, tray, three fallen seeds and probe fully visible. One continuous measurement, no botanical chart.\nHistorical and epistemic framing: Depict the characteristics and uses Pliny transmits as ancient natural history, without modern therapeutic endorsement.\nLighting/mood: Cool lucid morning; diminutive scale made exact, red seed against laurel green.\nConstraints: Exactly one person, one chamædaphne, one cord, one tray, three fallen seeds and one probe; all objects grounded or held; period-appropriate plain clothing and tools; no patient, wound, treatment or written mark; painted stone, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, ruler markings, modern tape measure, extra people, extra plants, tree, giant berry, floating seed, wall, building, cliff, cropped stem tip, edge-touching cord, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale all discrete objects down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete single-stem chamædaphne, its attached red seed, one fully framed botanist and the whole knotted cord are legible; exactly three fallen seeds occupy the tray beside one probe. No modern ruler, extra plant, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:16",
+      "title": "DIFFERENT OPINIONS ON THE DRACONTIUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c016.png",
+      "sha256": "5480774ad1a4fdc8c2efa714aa9f589dc6b21ae234da05512c83d65372f38998",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-83408acc-613f-4790-bb8b-71e13c06f5ee",
+      "outputArtifact": "built-in-imagegen://exec-83408acc-613f-4790-bb8b-71e13c06f5ee.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXIV chapter 16, “Different opinions on the dracontium”\nPrimary request: Illustrate Pliny’s unresolved disagreement over whether aron and dracontium are identical or distinct by comparing two complete living plants and their contrasting roots, without falsely resolving the ancient taxonomy.\nScene/backdrop: A broad open Egyptian field clearing at overcast dawn, level dark silt beneath a spacious pearl-grey vellum sky. No Nile, buildings, walls, trees, extra vegetation, serpents or edge-entering objects.\nSubject: Exactly one complete kneeling ancient naturalist sits between exactly two separate fully visible plants growing in loosened circular patches. At left, aron has broad leaves and one large rounded black-brown hand-sized root exposed only along its upper curve while still grounded. At right, dracunculus has a distinct stem and one reddish serpentine-shaped root partly revealed but still connected to soil. The naturalist holds both open hands at equal height in visible uncertainty, comparing rather than choosing. One small wooden digging spatula and one empty reed tray rest between the patches.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, root red-brown and silt ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, balanced but natural continuous field scene: whole aron patch at left, complete naturalist centered, whole dracunculus patch at right. Preserve unequal organic spacing so it does not read as a diagram; retain huge sky, wide bare silt at both side edges and ample foreground below. Keep the full person, face, hands, knees, feet, both root contacts, every plant leaf and stem tip, both soil patches, spatula and tray fully visible. No labels, divider or verdict.\nHistorical and epistemic framing: Preserve Pliny’s disagreement and uncertainty. Depict transmitted plant forms as ancient testimony, not settled modern taxonomy or medical advice.\nLighting/mood: Pearl-grey morning; disciplined uncertainty, two roots refusing a premature name.\nConstraints: Exactly one person, two living plants, one spatula and one tray; both roots remain grounded and attached; no ingestion, patient, pregnancy, treatment or written mark; period-appropriate plain clothing and tools; painted silt, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, arrows, equality signs, verdict gesture, extra people, extra plants, snake animal, dragon, magical glow, detached floating root, body, medical scene, river, wall, building, tree, clipped leaf, edge-touching patch, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete naturalist holds two open hands between the fully contained aron and dracunculus, whose contrasting roots remain attached to grounded soil patches; spatula and tray remain visible. No verdict, serpent, detached root, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:17",
+      "title": "CORACESTA AND CALLICIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c017.png",
+      "sha256": "ad889345b5a037dbc4cd293120d30aeebf768efad954fe885b7746b74a6e691b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-052934d1-1e89-437f-87c5-439b01d4875f",
+      "outputArtifact": "built-in-imagegen://exec-052934d1-1e89-437f-87c5-439b01d4875f.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book XXIV, chapter 17, “CORACESTA AND CALLICIA.” This chapter transmits extraordinary plant lore attributed to Pythagoras and Democritus, but Pliny explicitly notes that no other author mentions coracesta or callicia and that their supposed power to congeal water is unsupported by description. Depict epistemic doubt rather than magical proof: in a quiet Mediterranean field station, one thoughtful Roman naturalist kneels beside two complete, modest, unidentified wild plant clumps, each visibly rooted in earth and wholly inside the frame. Between them sits one shallow terracotta bowl of perfectly ordinary liquid water, smooth and uncongealed. The naturalist holds one open palm above the bowl and studies it skeptically; nearby lie a simple bronze probe and one small unmarked wooden specimen tray. No dramatic supernatural effect, poison, flame, spellcasting, or endorsement. The visual idea is careful observation confronting uncertain inherited testimony.\n\nLandscape 3:2 composition, exactly 1536×1024. Make a single coherent scene, not a chart, collage, diptych, triptych, specimen sheet, or panel layout. Keep every person, plant, root, bowl, tool, hand, and object completely inside the image with generous breathing room; no clipping at any edge. Ancient Roman natural-history folio aesthetic: luminous mineral pigments over warm fibrous vellum texture, carbon-and-iron-gall contour drawing, restrained lapis blue, verdigris green, madder red, ochre, umber, and small touches of aged gold; rough hand-worked grain paired with exquisitely polished botanical observation; timeless, solemn, beautiful, materially tactile. Consistent low Mediterranean horizon, shallow fresco-like spatial depth, soft raking late-afternoon light, natural asymmetry, dignified human scale. Botanically plausible but deliberately non-identifying plants, so the image does not invent what the text withholds. No modern objects or clothing. No letters, words, numbers, labels, inscriptions, captions, watermarks, signatures, pseudo-writing, decorative internal frame, border, page edge, white exterior, floating isolated objects, duplicated figures, or repeated motifs.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete skeptical naturalist studies a visibly liquid, uncongealed bowl between two grounded but deliberately unidentified plants; the probe and unmarked tray are fully contained. No magic effect, poison, flame, invented label, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-36",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 352,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "23:2": {
+        "nearestMAD": 29.59,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c025.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "madAtDHashPeer": 33.5
+      },
+      "23:3": {
+        "nearestMAD": 23.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c021.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c007.png",
+        "madAtDHashPeer": 31.7
+      },
+      "23:4": {
+        "nearestMAD": 27.24,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c028.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c009.png",
+        "madAtDHashPeer": 30.91
+      },
+      "23:5": {
+        "nearestMAD": 22.77,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c014.png",
+        "madAtDHashPeer": 40.24
+      },
+      "23:7": {
+        "nearestMAD": 25.99,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c032.png",
+        "madAtDHashPeer": 31.39
+      },
+      "23:8": {
+        "nearestMAD": 28.66,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c006.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c012.png",
+        "madAtDHashPeer": 44.68
+      },
+      "23:9": {
+        "nearestMAD": 28.54,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-12/b15-c022.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c011.png",
+        "madAtDHashPeer": 40.55
+      },
+      "24:1": {
+        "nearestMAD": 29.52,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c031.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c008.png",
+        "madAtDHashPeer": 50.04
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "23:2",
+      "title": "SQUILL VINEGAR: SEVENTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c002.png",
+      "sha256": "1a581edd8518848302ec5fd127ec3eb71e5cc0b4aedd617cb11ab81a8ed1ef90",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ed36ca93-dfb0-4ef5-9c5f-527fa3cc1c5a",
+      "outputArtifact": "built-in-imagegen://exec-ed36ca93-dfb0-4ef5-9c5f-527fa3cc1c5a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 2, “Squill Vinegar: Seventeen Remedies”\nPrimary request: Center the chapter’s opening observation that squill vinegar was prized with age, without showing treatment or consumption. Exactly one complete elderly Roman cellar keeper kneels beside one complete, visibly old but sound earthenware storage amphora. The plain stopper has just been removed and rests securely on the stone floor; the keeper leans toward the amphora’s mouth to assess its sharp aroma but does not drink. On one low complete stone block nearby rests one complete harvested sea-squill with its broad bulb, root disc, fibrous roots, and strap-like green leaves naturally connected, plus one small complete shallow ceramic tasting cup holding a little amber vinegar, untouched. Age is conveyed only by the vessel’s mineral patina, worn rope cradle, cool cellar dust and experienced gesture, never by writing, dates, labels, or multiple before-and-after jars.\nScene/backdrop: one finite Roman stone cellar bay with a low curved vault fully visible, one open doorway admitting a narrow faded-lapis shaft of daylight, bare floor, no shelves, extra amphorae, patient, diner, animal, fire, cauldron, honey, salt, medical instrument, or edge-entering object\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; aged-vinegar dialect of cool cellar shadow, amber liquid, chalky clay, pale bulb scales and quiet verdigris leaves\nComposition/framing: landscape 3:2, low oblique cellar view. The complete keeper and amphora form one compact vertical at right; the complete squill and cup anchor lower left; a broad pool of dim stone floor and vault separates them. Keep the whole person, hair, hands, knees, sandals, amphora handles and base, stopper, cup rim, every leaf tip, bulb, root fiber, doorway, vault edge and cast shadow comfortably inside all four edges.\nHistorical and epistemic framing: illustrate Pliny’s period report about aged squill vinegar and its plant source; do not imply modern medical efficacy or safe ingestion.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, dosing, drinking, gargling, bodily treatment, injury, modern bottle, glassware, corkscrew, laboratory equipment, extra jars, comparison sequence, recipe layout, split panels, collage, repeated crops, floating plant, clipped person, clipped amphora, clipped leaves, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete elderly cellar keeper assesses one complete weathered amphora of aged squill vinegar without drinking; the stopper, one untouched shallow vinegar cup and one complete harvested squill with connected leaves, bulb and roots remain supported and fully framed. Cellar vault and doorway read as one coherent historical space. No patient, dosing, bodily treatment, modern bottle, glassware, text, pseudo-writing, recipe layout, panel, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:3",
+      "title": "THE LEAVES OF THE OLIVE: TWENTY-THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c003.png",
+      "sha256": "52671db8a1a479c47d8f7f866cef82428dd62a8c86eaff31c66e3010b7243a8d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ded9447b-a08a-45b1-aea2-e8bb6ea1c08b",
+      "outputArtifact": "built-in-imagegen://exec-ded9447b-a08a-45b1-aea2-e8bb6ea1c08b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 3, “The Leaves of the Olive: Twenty-Three Remedies”\nPrimary request: Show the chapter’s described extraction of cultivated olive-leaf juice in one coherent orchard work scene, without treating a patient. Exactly one complete Roman olive worker kneels at one low, complete limestone slab beneath one complete young cultivated olive tree whose rounded canopy, slender trunk, roots and ground contact are all visible. On the slab the worker pounds freshly gathered olive leaves in one complete broad stone mortar with one complete pestle. One small complete wine jug and one complete rain-water bowl stand separately nearby; beside the mortar, a shallow complete reed tray supports a modest number of plain rounded green leaf-pulp lozenges drying in the air. A small woven basket of intact olive leaves sits on the ground, physically supported, linking plant to preparation.\nScene/backdrop: one finite terraced olive-garden island with a low wall whose two ends are visible, pale distant hills and open air; no second tree, person, patient, animal, olives as fruit, fire, ash, cautery, extra vessel, shelf, building, or edge-framing branch\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; cultivated-olive dialect of silvery verdigris leaves, pale limestone, rain-blue bowl, soft ochre earth and one quiet madder garment edge\nComposition/framing: landscape 3:2, intimate high three-quarter view. The whole olive tree occupies the left half, the complete worker and slab the lower right, joined by the diagonal of gathered leaves; preserve a broad wedge of pale garden air beyond the wall. Keep every canopy tip, trunk, root contact, hair, finger, sandal, slab end, mortar, pestle, jug, bowl, tray circumference, lozenge and basket fully visible with generous breathing room.\nHistorical and epistemic framing: depict the leaf-juice preparation Pliny transmits as ancient materia-medica practice, not as verified modern treatment.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, wound, eye treatment, medical procedure, fire, wild olive, modern press, metal machinery, glassware, botanical plate, ingredient grid, recipe card, split panels, collage, repeated crops, duplicate vessels, floating leaves, clipped canopy, clipped person, edge-entering foliage, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete olive worker pounds cultivated olive leaves in one complete mortar beneath one fully contained young cultivated olive tree; one basket of leaves, a wine jug, rain-water bowl and one complete drying tray of plain leaf-pulp lozenges remain grounded and distinct. Tree crown, trunk, roots, worker, slab and every implement are fully framed. No patient, wound, wild olive, fire, modern press, text, pseudo-writing, ingredient grid, botanical panel, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:4",
+      "title": "THE LEAVES OF THE WILD OLIVE: SIXTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c004.png",
+      "sha256": "d1fd87465afe8ca0613ad29622904e226516c7d4c604bb80b9786f0a33dcc308",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ee65d4b6-0f00-474e-b9c3-5e8a0fde66b3",
+      "outputArtifact": "built-in-imagegen://exec-ee65d4b6-0f00-474e-b9c3-5e8a0fde66b3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 4, “The Leaves of the Wild Olive: Sixteen Remedies”\nPrimary request: Make the wild olive’s young-branch spodium the unmistakable subject of one rugged hillside craft scene, distinctly different from cultivated olive-leaf work. Exactly one complete Roman charcoal-burner crouches beside one small complete clay brazier on bare rock and uses one complete pair of wooden tongs to place a short bundle of young wild-olive twigs into the controlled ember bed. A separate shallow complete stone pan holds a small mound of already cooled pale spodium ash; one small sealed wine jug rests unused beside it, recalling the repeated burning described by Pliny without showing a formula. One complete gnarled wild-olive shrub grows from a self-contained rocky mound nearby, its narrow silvery leaves, full crown, trunk base, roots and every branch tip visible. Smoke is a single thin plume contained entirely in open air.\nScene/backdrop: exposed Mediterranean limestone ridge at late afternoon, one distant contained valley and finite path; no cultivated orchard, second plant, second person, patient, animal, building, large kiln, bonfire, treatment, oil tasting, or edge-entering vegetation\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; wild-olive dialect of hard black-brown ink, pale ash, smoky lapis-grey, silvery leaves, raw ochre limestone and a restrained ember-red accent\nComposition/framing: landscape 3:2, low pulled-back lateral view. The complete wild shrub anchors the high left, the crouching worker and tiny brazier sit low right, and the cooled ash pan rests between them across open rock. Keep the full person, hair, hands, feet, tongs, twig bundle, brazier feet, ember, smoke plume, ash pan, jug, every shrub tip, root contact, mound, path end and valley silhouette well inside broad breathing room.\nHistorical and epistemic framing: present spodium-making and medicinal claims as Pliny’s period testimony; do not depict a cure, cautery, or modern efficacy.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, wound, eye application, animal treatment, large flames, wildfire, modern furnace, metal tongs, glassware, cultivated olive tree, botanical plate, process sequence, split panels, collage, repeated crops, duplicated shrub, floating ash, clipped smoke, clipped person, clipped plant, edge-entering rocks, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete charcoal-burner uses complete wooden tongs at one small controlled brazier of young wild-olive twigs; one cooled spodium pan and sealed wine jug remain supported nearby. One complete gnarled wild-olive shrub with narrow leaves, crown, trunk, roots and rocky mound is isolated against the ridge. Smoke terminates within open air. No patient, cautery, animal treatment, modern furnace, metal tool, text, pseudo-writing, process panel, repeated crop, floating ash, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:5",
+      "title": "THE PALM WHICH PRODUCES MYROBALANUM: THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c005.png",
+      "sha256": "f287280a053ba7e5eb2dc802375a789b51661a42f9549c22bd4db440bcca4d07",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4bf91234-8402-41dc-ba11-143dd16851ec",
+      "outputArtifact": "built-in-imagegen://exec-4bf91234-8402-41dc-ba11-143dd16851ec.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 5, “The Palm Which Produces Myrobalanum: Three Remedies”\nPrimary request: Render the Egyptian myrobalanum palm and Pliny’s unusual stoneless date as a precise harvest observation, without medical use. Exactly one complete Egyptian orchard keeper sits at the base of one complete, modest young myrobalanum-bearing date palm. The palm’s entire crown, every frond tip, attached fruit cluster, one attached unopened spathe, trunk, root flare, ground contact and shadow are fully visible. The keeper holds one freshly opened date in two connected halves close together, revealing a soft empty interior with no stone, and studies it; the fruit is not eaten. One low complete woven basket holds a restrained cluster of intact dates and one fallen tender palm bud, all supported. The Nile water and a few distant reeds provide habitat but do not frame an edge.\nScene/backdrop: one finite sunlit Egyptian oasis terrace with a fully contained irrigation basin, distant pale desert ridge, no second palm, other tree, patient, wine, wound, medical vessel, extra person, animal, temple, pyramid, palace, or edge-entering foliage\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Egyptian-palm dialect of sunlit ochre fiber, muted verdigris fronds, dark madder-brown dates, pale lapis water and luminous desert air\nComposition/framing: landscape 3:2, very pulled-back upright composition. The entire palm rises slightly left of center with broad open sky around its crown; the complete seated keeper and basket form a small grounded triangle below; the finite basin curves across the lower distance. Keep every hair, hand, foot, date half, basket edge, fruit, bud, frond, crown tip, trunk base, root flare, water bank and ridge comfortably separated from all canvas edges.\nHistorical and epistemic framing: depict the Egyptian palm morphology and uses Pliny reports as period natural history; do not assert the date’s medical effects.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, eating, dosing, patient, wound, menstruation, pregnancy, fumigation, modern pruning tool, glassware, modern irrigation, monumental architecture, botanical cutaway, diagram, split panels, collage, repeated crops, giant fruit, floating date halves, visible date stone, clipped palm crown, clipped frond, clipped person, edge-entering reed, photography, photorealism, glossy CGI.\nFRAMING REPAIR: Pull the viewpoint substantially farther back. Leave at least ten percent of the canvas height as uninterrupted vellum-toned sky above the highest palm frond, and at least eight percent clear scene space between every outer frond tip and the left or right edge. Reduce the complete palm, keeper, basket and basin together rather than cropping or omitting anything. The palm crown must read as a complete isolated silhouette floating comfortably inside broad open sky.\nGLOBAL-DIVERSITY REPAIR: Discard the previous centered-tree silhouette completely. Use a steep high-oblique view across a diagonal Egyptian irrigation canal. Place the complete modest palm, reduced in scale, entirely in the upper-right quadrant with broad air above and around every frond. Place the complete seated keeper and basket in the lower-left quadrant, separated from the palm by a luminous diagonal sweep of pale-lapis water and ochre canal bank. The keeper still studies the two close halves of one stoneless date; the attached fruit cluster and unopened spathe remain on the palm. Use stronger alternating bands of water, earth and shadow so the scene cannot read as a lone central tree with a tiny observer. No object may touch an edge.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete modest Egyptian myrobalanum palm stands fully isolated in the upper-right quadrant with generous air around every frond; its attached fruit cluster, unopened spathe, trunk, roots and shadow are complete. Across the diagonal canal, exactly one complete seated keeper studies two close halves of one opened stoneless date beside one grounded basket of dates and a tender bud. No fruit is eaten, no loose stone is shown, and no treatment occurs. No patient, pregnancy or sexual imagery, modern irrigation, monumental architecture, text, pseudo-writing, diagram, panel, repeated crop, floating fruit, visible sheet, watermark or clipped primary subject was found. Accepted third built-in generation after a framing repair and global-diversity repair; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-d09e9516-6377-402d-ac82-3f8f31871630.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/evidence/history/b23-c005-rejected-01.png",
+          "sha256": "e0ae34c772cd59e293b83559e175a1fcba88b2510d856d8f31529508fe292f46",
+          "reason": "Rejected at original-resolution review because the complete palm crown sat too close to the top canvas edge to satisfy the campaign's generous-breathing-room acceptance gate; no pixels were clipped, but the margin was insufficient."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-584d5423-c56d-40ef-8bfa-b40607fcb84f.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/evidence/history/b23-c005-rejected-02.png",
+          "sha256": "4804a02b5c4ad029fa0ab0e1e78bb03d4bf998f8ac54f9eb8ded5506204b91e1",
+          "reason": "Rejected after native visual acceptance because the global nearest-neighbor gate measured MAD 19.28 against trees-aromatics-wave-25/b18-c028.png, below the required minimum 20; dHash was 18, but both gates are mandatory."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:7",
+      "title": "PEARS: TWELVE OBSERVATIONS UPON THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c007.png",
+      "sha256": "5f46e46dde50fe543c3cde13fb1eeada4abba2ae13ab602b4bc96fb5fe6d44a8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9e76a8bc-745e-4efa-b41a-bd91f08224e6",
+      "outputArtifact": "built-in-imagegen://exec-9e76a8bc-745e-4efa-b41a-bd91f08224e6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 7, “Pears: Twelve Observations upon Them”\nPrimary request: Center the opening distinction between raw pears and Crustumian pears boiled with honey in one ordinary Roman orchard-kitchen action, without showing a cure. Exactly one complete orchard cook sits beside one complete low tripod pot over a tiny controlled charcoal brazier and gently stirs several whole pears simmering in a small quantity of honeyed liquid with one wooden spoon. One complete wide-mouthed honey jar and one grounded woven basket holding a modest number of raw pears stand nearby. Behind the cook grows one complete compact pear tree, fully visible from rounded crown and hanging fruit to trunk, root flare, ground contact and shadow. No one eats or receives the preparation.\nScene/backdrop: one finite open orchard court with a low curved wall whose two ends are visible, distant contained Crustumian hills, no second tree, second person, patient, animal, figs, apples, mushrooms, extra hearth, table, building, shelf, or edge-entering branch\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; pear-and-honey dialect of warm ochre fruit, amber glaze, dusty verdigris leaves, soft charcoal grey and a faded-lapis horizon\nComposition/framing: landscape 3:2, steep high-oblique view organized around one loose spiral: the complete pear crown at upper right, complete cook and small pot at center, basket and honey jar lower left, all joined by continuous ground. Keep every crown tip, pear, trunk, root, hair, hand, foot, spoon, pot leg, ember, jar handle, basket circumference, wall end and shadow well inside broad breathing room.\nHistorical and epistemic framing: depict the food preparation Pliny reports, not a validated remedy; do not imply that boiled pears treat disease or poisoning.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, eating, dosing, patient, illness, mushroom, animal burden, modern cookware, steel, glassware, recipe layout, ingredient grid, botanical plate, split panels, collage, repeated crops, duplicate pots, floating pear, giant fruit, clipped tree, clipped person, clipped smoke, edge-entering foliage, photography, photorealism, glossy CGI.\nFRAMING REPAIR: Pull the entire scene substantially farther back while preserving every subject and action. Leave at least ten percent of the canvas height as uninterrupted vellum-toned sky above the highest pear leaf and at least eight percent open scene space around both lateral sides of the complete pear crown. Reduce the cook, tree, pot, basket and honey jar together; do not crop or omit anything. The complete compact pear tree must float as an isolated silhouette within generous air, with its root flare and shadow still visible.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete orchard cook stirs several whole pears in one complete tripod pot over a tiny controlled charcoal brazier; one complete honey jar and one grounded basket of raw pears remain separate and supported. One complete compact fruiting pear tree floats within broad air with crown, trunk, root flare, ground contact and shadow fully visible. No one eats or receives the preparation. No patient, illness, mushroom, animal burden, modern cookware, text, pseudo-writing, recipe grid, panel, repeated crop, floating pear, visible sheet, watermark or clipped primary subject was found. Accepted second built-in generation after a framing repair; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8c099e44-cfe4-4f42-9916-62b3b15bbb42.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/evidence/history/b23-c007-rejected-01.png",
+          "sha256": "c92055a9255684ff6149d1c0793f0827956ed3dfaa697cd6e395487fe1e7f9c0",
+          "reason": "Rejected at original-resolution review because the pear canopy, though complete, sat too close to the upper canvas edge to satisfy the campaign's generous-breathing-room acceptance gate."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:8",
+      "title": "PINE-NUTS: THIRTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c008.png",
+      "sha256": "beb457edb76d195caaf5235768950c08d77aaa4714396d41b737373dd1ae76b6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b7f27846-ee32-4875-a89b-bb38a1ba08ac",
+      "outputArtifact": "built-in-imagegen://exec-b7f27846-ee32-4875-a89b-bb38a1ba08ac.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 8, “Pine-Nuts: Thirteen Remedies”\nPrimary request: Show Pliny’s opening preparation of resinous pine-nuts as a quiet harvest demonstration, without administering it. Exactly one complete Roman pine forager crouches on a flat stone and uses one complete small wooden mallet to bruise one complete resinous stone-pine cone; several loosened shell-on pine-nuts remain physically supported on the stone. A single complete small earthenware pot of plain water sits on a separate low charcoal ring nearby, just beginning to steam, with no ingredient yet added. Behind them rises one complete young umbrella-shaped stone pine, from every crown tip to trunk, exposed root flare, ground contact and broad shadow, with exactly two intact fallen cones beneath it.\nScene/backdrop: open coastal Italian pine clearing with one finite pale-lapis bay and low contained headland in the distance, no second tree, extra person, patient, animal, almond, walnut, laurel, vessel array, building, boat, or edge-entering vegetation\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; resin-and-coast dialect of deep pine verdigris, resinous amber, pale shell ochre, charcoal grey, faded-lapis sea and sun-bleached stone\nComposition/framing: landscape 3:2, very low wide coastal view. The entire umbrella pine stands small but legible in the left middle distance; the complete crouching forager and bruising stone occupy lower right; the tiny steaming pot sits across a broad empty interval at lower center. Preserve vast open air and water. Keep the whole person, mallet, fingers, sandals, cone, every nut, pot, charcoal ring, steam plume, both fallen cones, tree crown, root flare, bay and headland comfortably inside every edge.\nHistorical and epistemic framing: depict the pine-nut preparation Pliny records as period materia medica, not verified treatment or dosing.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, blood, coughing, treatment, drinking, modern hammer, metal cookware, extra nut species, giant pine cone, botanical cutaway, seed diagram, specimen grid, recipe sequence, split panels, collage, repeated crops, floating kernels, clipped tree crown, clipped person, clipped steam, edge-entering branch, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete pine forager bruises one resinous stone-pine cone with one complete wooden mallet on a supported rock; loosened shell-on nuts remain grounded. One complete small water pot steams separately, exactly two intact cones lie beneath one fully framed young umbrella pine, and the entire person, tree, pot, steam and coastal setting remain inside generous breathing room. No patient, treatment, drinking, other nut species, modern tool, text, pseudo-writing, seed diagram, panel, repeated crop, floating kernel, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:9",
+      "title": "MYRTLE; SIXTY OBSERVATIONS UPON IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c009.png",
+      "sha256": "b58e9294a0336559ca58b9e91266b8530a5f242f89507e854fa87e651825604a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5e53a5ee-368c-49f6-8eba-be0c778c3bd5",
+      "outputArtifact": "built-in-imagegen://exec-5e53a5ee-368c-49f6-8eba-be0c778c3bd5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIII, chapter 9, “Myrtle; Sixty Observations upon It”\nPrimary request: Visualize the chapter’s opening contrast between the white cultivated myrtle and the more extensively used black-fruited myrtle as one continuous garden observation, not a labelled comparison plate. Exactly one complete Roman gardener stands within one crescent-shaped bed containing two separate, fully rooted and complete myrtle shrubs. The smaller cultivated shrub bears pale creamy-white berries and remains untouched; the fuller shrub bears dark purple-black berries, and the gardener gently lifts one attached fruiting spray to inspect it without eating. One complete shallow stone bowl on the ground holds a few harvested black berries and tender leaves, physically supported; no preparation or treatment occurs. Both shrubs show glossy opposite leaves and small star-like blossoms among the fruit.\nScene/backdrop: one self-contained Roman myrtle garden on open ground, one low blank wall with both ends visible, broad morning air, no third shrub, other plant, second person, patient, animal, wine, fire, mortar, statue, temple, building, or edge-framing foliage\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; myrtle dialect of glossy deep verdigris, creamy pale berries, restrained purple-black fruit, tiny white blossoms, chalky wall and cool faded-lapis air\nComposition/framing: landscape 3:2, eye-level panoramic crescent. The pale-fruited shrub sits low at far left, the complete gardener stands in the wide central gap, and the fuller black-fruited shrub rises at right; the stone bowl anchors the foreground without forming a catalogue row. Keep every plant tip, root contact, berry, blossom, hair, hand, foot, garment hem, bowl rim, wall end and shadow wholly inside generous uninterrupted scene space.\nHistorical and epistemic framing: depict Pliny’s ancient cultivated-versus-black myrtle distinction and reported uses as period testimony; do not assert medical efficacy or a definitive modern taxonomic distinction.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, eating, dosing, patient, wound, fungus, scorpion, medical procedure, dyeing hair, modern tool, botanical comparison chart, specimen plate, split panels, collage, repeated crops, duplicate shrubs, floating berries, clipped gardener, clipped plant, edge-entering foliage, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete gardener stands between two distinct complete rooted myrtle shrubs in one crescent bed: a smaller pale-berried cultivated form remains untouched while a fuller purple-black-fruited form is inspected by one attached spray. One complete stone bowl supports harvested dark berries and leaves. Both plants, person, bowl, wall ends and shadows are fully framed. No patient, consumption, medical procedure, modern tool, text, pseudo-writing, comparison chart, split panel, repeated crop, floating berry, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "24:1",
+      "title": "THE ANTIPATHIES AND SYMPATHIES WHICH EXIST AMONG TREES AND PLANTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b24-c001.png",
+      "sha256": "c7674533ee39f0c6af414c1ff6eb2a6f38840422123deef591b37bec2793297d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-63414853-8efb-411f-8b6f-0c0f2b3ecef3",
+      "outputArtifact": "built-in-imagegen://exec-63414853-8efb-411f-8b6f-0c0f2b3ecef3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXIV, chapter 1, “The Antipathies and Sympathies Which Exist among Trees and Plants”\nPrimary request: Present Pliny’s claimed antipathy between oak and olive as a cautious ancient field observation, never as established botany or magical fact. Exactly one complete Roman land-steward stands in a rugged forest clearing between two separate, fully contained young trees: one complete quercus sapling with lobed leaves on its own compact mound, and one complete olive sapling with narrow silvery leaves on another mound across a broad bare interval. The steward holds one plain unmarked planting cord loosely between both hands and pauses before setting either tree closer, visually conveying a reported spacing belief rather than an experiment’s result. Both trees remain healthy; neither withers, glows, bends unnaturally, or touches the other. A small complete basket containing ordinary cabbage leaves rests far from one complete short vine cutting supported on a plain forked stake in the deep background, a quiet second allusion within the same undivided clearing.\nScene/backdrop: one finite rugged Italian forest opening with a contained dark woodland edge and distant light, no extra person, patient, animal, felled tree, axe, dead plant, laboratory, temple, altar, written tablet, exotic medicine, or edge-entering trunk\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; forest-affinity dialect of deep ink shadow, oak umber, silvery olive verdigris, pale cord fiber, quiet cabbage green and a shaft of faded-lapis woodland air\nComposition/framing: landscape 3:2, pulled-back frontal clearing. The complete oak occupies the left third, the complete steward stands small in the broad center, and the complete olive occupies the right third; the cabbage basket and supported vine cutting remain subordinate in one continuous background rather than inset examples. Keep the entire person, cord, both tree crowns, trunks, root contacts, mounds, basket, leaves, vine cutting, stake, woodland boundary and shadows fully inside generous breathing room on all four sides.\nHistorical and epistemic framing: explicitly render Pliny’s antipathy and sympathy claims as period testimony under observation; do not present them as modern botanical causation. The humble local plants echo his critique of costly imported remedies without asserting a cure.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, blank outer band, caption area, or vignette boundary.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, magical aura, energy rays, dead tree, visibly diseased plant, forced branch repulsion, modern scientific instrument, measuring marks, written notes, patient, treatment, exotic ingredient display, botanical diagram, comparison arrows, split panels, collage, repeated crops, floating plant, clipped tree, clipped person, edge-entering trunk, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete land-steward pauses with an unmarked planting cord between one complete healthy oak sapling and one complete healthy olive sapling, each on its own mound across a broad bare interval. One complete cabbage basket remains well away from one complete supported vine cutting in the continuous background. No plant withers or bends unnaturally, so Pliny's claimed antipathies remain period testimony under observation rather than depicted causal fact. All primary trees, roots, person, cord, basket and vine are fully framed; darker edge vegetation is contextual woodland rather than a clipped subject. No magic, measuring marks, written tablet, patient, imported remedy display, text, pseudo-writing, comparison arrows, panel, repeated crop, visible sheet or watermark was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

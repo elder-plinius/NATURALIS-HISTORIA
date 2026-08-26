@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-34",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "22:9",
+      "title": "THE ACANOS; ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c009.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "9d8981a4c2e6e83ef5283677679baf10c5003dc14a079182e7d9fdcfcf1c2014",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-42c0acd5-21fb-4155-b899-e800dc89968e",
+      "generationArtifactId": "exec-42c0acd5-21fb-4155-b899-e800dc89968e",
+      "outputArtifact": "built-in-imagegen://exec-42c0acd5-21fb-4155-b899-e800dc89968e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 9, “The Acanos; One Remedy”\nPrimary request: Ground the scene in Pliny’s distinction between the stunted thorny acanos, which some writers classed with eryngium, and the much taller thorny glycyrrhiza that other writers confused with it. In one continuous Cilician field at the seasonal setting of the Vergiliae, show exactly one complete low acanos plant as a compact ground-hugging radial mound with conspicuously long rigid prickles. Several paces behind it, show exactly one complete glycyrrhiza shrub about two cubits high, with substantial slightly glossy prickled leaves, restrained hyacinth-like flowers, small round fruits, and one long flexible boxwood-yellow root being carefully exposed. Exactly one complete ancient collector kneels beside the taller shrub, using one small wooden digging stick to lift the long root without breaking it; the person does not chew, apply, ingest, or administer anything. The contrasting plants share soil and atmosphere but remain naturally separated by open ground, never arranged as labelled specimens.\nScene/backdrop: dry Cilician foothill field at blue-gold dusk, distant complete low ridges and a few natural stars just appearing overhead; no clinic, patient, wound, bleeding, pharmacy, recipe or ritual.\nStyle/medium: unmistakably hand-drawn original Plinian natural-history folio painted directly across warm fibrous aged vellum; prominent iron-gall contours, exceptionally fine visible cross-hatching, stipple and dry-brush abrasion; restrained translucent mineral washes only—umber, lampblack, muted verdigris, faded lapis, madder and ochre; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; never photorealistic or smooth digital concept art. Thorn-and-root dialect with crisp prickles, gummy leaf sheen, pale flower accents and ochre-yellow root.\nComposition/framing: landscape 3:2, native 1536x1024; pull far back to a spacious low lateral view. Place the complete acanos mound well inside the lower-left-middle, occupying no more than one quarter of the image width; leave an unmistakable broad ring of bare stony earth outside every prickle, especially along the left and bottom. Place the complete collector and glycyrrhiza shrub in the right-middle, also reduced in scale. Keep both root contacts, every principal prickle, leaf, flower and fruit, the full exposed root from crown to tip, the complete person with head, back, elbows, hands, fingers, legs and feet, digging stick, ridges, ground and shadows wholly inside generous breathing room. Reserve at least one-eighth of the canvas as empty ground beyond the farthest acanos prickle, collector silhouette and exposed root tip. Leave calm sky above every plant tip. One continuous field only, never a botanical chart, comparison panel or remedy diagram.\nLighting/mood: cool dusk sky over warm last light; taxonomic uncertainty, patient observation and tactile botanical knowledge.\nHistorical and epistemic framing: visualize morphology, harvest timing and Pliny’s report of disputed identification; do not depict or endorse the transmitted medical claims.\nConstraints: exactly one acanos plant, one glycyrrhiza shrub and one complete adult; plausible ancient clothing and wooden tool; natural anatomy, root continuity and plant morphology; opaque RGB/sRGB.\nAvoid: any prickle, leaf, root, person, tool or shadow touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, constellation lines, diagrams, patients, wounds, blood, topical application, ingestion, medicine dosing, extra people, animals, modern tools, floating root, floating fruit, glossy CGI, photography, photorealism, smooth digital rendering, split panels, diptych, collage, repeated crops, multiple identical frames, cropped plant, root, person, tool, ridge or shadow.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one compact stunted acanos mound and one taller glycyrrhiza shrub are morphologically distinct in one continuous dusk field. The complete collector, digging stick, plant crowns, every principal thorn, the flexible boxwood-yellow root from crown to tip, flowers, fruits, feet and shadows remain fully inside broad open ground. No treatment, patient, text, pseudo-writing, panel, modern object or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5de68f24-c51e-4636-a341-7f483298c187.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/evidence/history/b22-c009-attempt-01-cropped-acanos.png",
+          "sha256": "e7e72928f09f4bed5c3e08a6a6b5d789502d6766932158d9d18ff8afeb182ed8",
+          "reason": "Rejected at native QA because several acanos prickles and leaves touched or crossed the left and lower image edges. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:10",
+      "title": "TWO VARIETIES OF THE TRIBULUS; TWELVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c010.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "6d69150cdbe1bf99b7c12014f9c1ecceff9475aa24641bf64f7cbc2588c03b56",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2a0b1f3e-98b7-4e74-aacb-378185e17a15",
+      "generationArtifactId": "exec-2a0b1f3e-98b7-4e74-aacb-378185e17a15",
+      "outputArtifact": "built-in-imagegen://exec-2a0b1f3e-98b7-4e74-aacb-378185e17a15.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 10, “Two Varieties of the Tribulus; Twelve Remedies”\nPrimary request: Visualize Pliny’s two tribulus habitats and his report about the Thracians of the Strymon in one continuous river-edge scene, without illustrating medical claims. Show exactly one complete compact prostrate garden tribulus patch rooted on the dry bank, its radiating stems, small paired leaves, yellow flowers and several sharply horned burrs botanically legible. In the adjoining shallows show exactly one complete compact aquatic tribulus colony rooted beneath the water, with separate floating rosettes and dark horned water-caltrop fruits. Exactly one complete Thracian adult stands knee-deep in the shallows and lifts a small gathered bundle of aquatic leaves into one complete shallow reed basket. The adult wears a completely plain, undecorated, unmarked earth-coloured tunic and plain cloak, with no fringe pattern, embroidery, glyphs, bands or marks anywhere. On the far dry bank, exactly one complete calm horse eats from one complete grounded bundle of the same gathered leaves, echoing Pliny’s account; no riding, force, treatment or sickness.\nScene/backdrop: broad bend of the ancient Strymon with clear shallows, modest contained reed margin, stony garden bank and distant Thracian hills; no clinic, eye treatment, mouth treatment, amulet, bread-making display, dosing or ritual purity scene.\nStyle/medium: unmistakably hand-drawn original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple and dry-brush abrasion; restrained translucent mineral washes—umber, lampblack, muted verdigris, faded lapis, madder and ochre; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; never photography or smooth digital rendering. River-botany dialect with transparent faded-lapis water, dark caltrop silhouettes, wiry bank stems and quiet horse anatomy.\nComposition/framing: landscape 3:2, native 1536x1024; pull far back to a spacious high-oblique view organized by one natural S-curve of water. Place the entire aquatic colony as a small oval group in the left-middle shallows, fully surrounded on every side by visibly open water; no root, rosette, stem or fruit may approach the left or bottom edge. Place the complete wading collector behind it. Preserve a broad band of open reflective water through the centre. Place the entire compact dry-bank tribulus patch in the lower-right-middle, no wider than one fifth of the canvas, with an obvious ring of bare stony earth around every radiating stem and burr. Place the complete horse small on the upper-right bank. Reserve the full lower one-eighth of the canvas as quiet water and bare stones with no plant or figure. Keep every aquatic rosette, submerged root connection, horned fruit, the entire terrestrial root contact and every principal burr, the complete person with head, hands, fingers, legs and both feet visible through clear water, full basket rim and base, the complete horse from ears to tail and all four hooves, gathered leaves, banks, reeds and shadows wholly inside broad breathing room. One continuous riverbank, never two comparison panels or a remedy diagram.\nLighting/mood: clear cool morning, crisp water reflections; ecological contrast, practical river knowledge and quiet animal husbandry.\nHistorical and epistemic framing: treat habitat, food use and horse feeding as practices reported by Pliny; do not depict or endorse eye, ulcer, stone, amulet or other remedy claims.\nConstraints: exactly one terrestrial tribulus patch, one aquatic tribulus colony, one complete adult, one complete horse and one complete basket; plausible plain Thracian clothing and basketry; natural anatomy and rooted plant morphology; opaque RGB/sRGB.\nAvoid: all lettering or text-like marks on clothing; decorative hems; any plant, root, rosette, fruit, person, horse, basket or shadow touching an image edge; captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, medicine, patient, inflamed eye, wound, mouth ulcer, amulet, ingestion, extra people, extra horses, boat, modern objects, floating basket, disconnected roots, glossy CGI, photography, photorealism, split panels, diptych, collage, grid, repeated crops, multiple identical frames, cropped plant, person, horse, basket, bank or shadow.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 3,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete aquatic tribulus colony is surrounded by open water and retains connected submerged stems, floating rosettes and horned fruits; the complete prostrate garden tribulus patch is surrounded by bare stones with root contact, flowers and burrs visible. The plain-clothed collector, basket, calm horse and gathered leaf bundle are complete and grounded. No medical use, pseudo-writing, panel, repeated crop, modern object or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-12bbe82d-43d2-4a97-83d0-bb7312ed149d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/evidence/history/b22-c010-attempt-01-cropped-plant-colonies.png",
+          "sha256": "914351816791aab3bbc7ea01ecee2ad8171e40cd09f335026ca4eda1f9d26b46",
+          "reason": "Rejected at native QA because both aquatic and terrestrial plant colonies ran through the lower image frame. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-45e1c664-e482-4eff-932e-5934d460fcb2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/evidence/history/b22-c010-attempt-02-pseudo-writing-on-tunic.png",
+          "sha256": "e67a064e100566482b3c0fa74e6e51ffa96c8f20f73a09346798be996ceef1f5",
+          "reason": "Rejected at native QA because a row of dark hem marks on the collector tunic read as pseudo-lettering. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:11",
+      "title": "THE STŒBE OR PHEOS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c011.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "2d42008a739d8ae73f2259c94ade8f9b14048c61fec916a364c771f494324654",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-550dcb3b-4b67-4f02-a9b1-0e9636cf53f2",
+      "generationArtifactId": "exec-550dcb3b-4b67-4f02-a9b1-0e9636cf53f2",
+      "outputArtifact": "built-in-imagegen://exec-550dcb3b-4b67-4f02-a9b1-0e9636cf53f2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 11, “The Stœbe or Pheos”\nPrimary request: Depict the single preparation Pliny reports without showing treatment or claiming efficacy. Exactly one complete ancient herbal preparer works alone in a deep-shadowed open loggia. The preparer uses one complete long wooden spoon to stir a small quantity of cut stœbe sprigs simmering in dark red wine inside one complete shallow bronze cauldron on a complete low charcoal brazier. Beside the brazier stand one complete plain wine jug with a visible madder-red stain at its lip and one complete small wicker tray of freshly cut sprigs. Through the bright courtyard opening behind, show exactly one complete rooted mature stœbe plant: a compact dry Mediterranean gray-green herb or low shrub with fine narrow leaves and small muted flower heads. Nothing is administered, tasted, injected, applied or offered to another person.\nScene/backdrop: modest Roman rural loggia opening onto a small sunlit herb court; plain closed jars on a recessed shelf, worn stone floor and blank plaster walls with no marks; no clinic, patient, injured eye, ear treatment, bleeding, dysentery scene, recipe or temple.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; strong iron-gall contours, exceptionally fine visible cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; medicine-and-materia dialect with deep lampblack loggia shade, a narrow ochre courtyard beam, wine-madder, dull bronze and pale herb steam; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; wide high-three-quarter interior view. Place the complete preparer and circular cauldron-brazier group low in the left-middle as a dark compact triangle, with open floor around every silhouette. Let a broad diagonal of empty shadowed floor lead to the bright courtyard opening in the upper-right-middle, where the entire rooted stœbe plant is visible against plain ground. Keep the person’s head, back, arms, hands, fingers, legs, feet and garment hems, the whole spoon from handle to bowl, entire cauldron rim and base, every brazier leg and ground contact, charcoal, jug handle and foot, full tray rim and base, every cut sprig, complete plant root contact, doorway from lintel to threshold, shelf, walls, floor and all shadows wholly inside generous breathing room. One continuous preparation moment, never a process sequence, remedy chart or panel.\nLighting/mood: cool interior chiaroscuro cut by one warm courtyard shaft; sober historical distance, concentration and material precision.\nHistorical and epistemic framing: show stœbe boiled in wine solely as a practice transmitted by Pliny; do not depict or endorse the reported uses for ears, eyes, bleeding or dysentery.\nConstraints: exactly one complete adult, one rooted stœbe plant, one cauldron, one brazier, one spoon, one jug and one wicker tray; plausible Roman clothing, vessels and hearth; coherent anatomy and grounded tools; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, wall scratches, jar marks, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, recipe, patient, injured eye, ear, blood, injection, enema, ingestion, dosing, extra people, animals, modern laboratory objects, glassware, floating tools, disconnected steam, glossy CGI, photography, photorealism, split panels, triptych, collage, repeated crops, multiple identical frames, cropped or edge-touching person, plant, cauldron, brazier, spoon, jug, tray, doorway or shadow.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete preparer stirs cut stœbe in wine using the complete spoon, cauldron and brazier; the stained jug, herb tray, charcoal, feet and grounded vessel geometry are coherent. The complete rooted stœbe plant stands in the bright courtyard opening and the broad shadowed floor preserves negative space. No patient, dosing, injury, text, pseudo-writing, panel, modern object or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:12",
+      "title": "TWO VARIETIES OF THE HIPPOPHAES; TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c012.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "89411f816a5f3f8f17cd53e2c40ffdf536748890d63963054dce05b6e9fd6b30",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6062c50b-c4c3-4a6c-8421-d8da8a38582b",
+      "generationArtifactId": "exec-6062c50b-c4c3-4a6c-8421-d8da8a38582b",
+      "outputArtifact": "built-in-imagegen://exec-6062c50b-c4c3-4a6c-8421-d8da8a38582b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 12, “Two Varieties of the Hippophaes; Two Remedies”\nPrimary request: Create one windswept ancient Mediterranean seashore that makes Pliny’s two hippophaes forms visually distinct without becoming a specimen chart. Show exactly one complete mature first hippophaes shrub rooted in pale sand: a broad irregular bush with clearly visible white thorns and ivy-like clusters containing both chalk-white and restrained madder-red berries. Several paces away, show exactly one complete second hippophaes form as a low stemless, flowerless cushion made only of diminutive leaves, with its entire root contact visible. Exactly one complete calm horse crosses the middle distance beside exactly one complete ancient stable worker who holds a loose plain lead; the pair merely pass through the habitat, quietly echoing Pliny’s discussion of the plant’s affinity with horses. No plant is fed, administered, cut, dug, tasted or applied.\nScene/backdrop: open sandy shore with low dune grass, one sweeping line of faded-lapis sea, distant headland and broad wind-cleared sky; no stable yard, clinic, dropsical patient, lozenges, dosing, worship or allegorical divinity.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; coastal-botany dialect with wind-combed marks, salt-pale thorns, matte white berries, quiet red berry accents and a spacious lapis horizon; never photography or glossy CGI.\nComposition/framing: landscape 3:2, native 1536x1024; very wide low panorama with strong asymmetry. Place the complete thorny berry shrub small in the lower-left-middle, fully surrounded by a generous ring of bare sand; place the complete stemless leaf cushion in the lower-right-middle, also isolated by bare sand. Let the complete horse and worker move laterally through the upper-middle, separated from both plants and silhouetted against open sea. Reserve a broad central band of empty wind-rippled sand and a large calm sky. Keep every principal thorn, berry cluster, leaf, both root contacts, the complete horse from ears to tail with all four legs and hooves, the complete worker with head, hands, fingers, legs and feet, the entire loose lead with visible connection at both ends, dune grass, shoreline, headland and all cast shadows wholly inside generous breathing room. One continuous shore, never two botanical panels or a remedy diagram.\nLighting/mood: pale late-afternoon maritime light; wind, salt, animal calm and botanical curiosity.\nHistorical and epistemic framing: visualize the two morphologies and Pliny’s reported association with horses; do not depict or endorse purgative, dropsy, bile or veterinary remedy claims.\nConstraints: exactly two principal plants, one of each described form; exactly one complete horse and one complete adult; plausible Roman-era clothing and tack; natural anatomy, grounded hooves and rooted plants; opaque RGB/sRGB.\nAvoid: any plant, thorn, berry, horse, person, lead or shadow touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, patient, medicine, lozenge, ingestion, feeding, plant application, extra people, extra horses, other animals, modern tack, modern objects, floating lead, disconnected roots, glossy CGI, photography, photorealism, split panels, diptych, collage, grid, repeated crops, multiple identical frames, cropped shrub, cushion, horse, worker, shoreline or headland.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete rooted hippophaes forms are separated by a broad sandy interval: the thorny shrub bears clear white thorns and mixed white and red berry clusters, while the low form is stemless, flowerless and made of diminutive leaves. The complete horse, stable worker, loose connected lead, hooves, feet, shoreline and headland are fully visible. No feeding, treatment, pseudo-writing, panel, modern tack or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:13",
+      "title": "THE NETTLE; SIXTY-ONE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c013.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "cc57a0e7970fdca6b5ab8b83c71a6734964159fda2a7479fd6fe757ae9f45765",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3bdcbb27-c607-4794-a5eb-c3233cb0adda",
+      "generationArtifactId": "exec-3bdcbb27-c607-4794-a5eb-c3233cb0adda",
+      "outputArtifact": "built-in-imagegen://exec-3bdcbb27-c607-4794-a5eb-c3233cb0adda.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 13, “The Nettle; Sixty-One Remedies”\nPrimary request: Focus on Pliny’s concrete botanical and harvest observations rather than illustrating the chapter’s extensive remedy claims. In one late-harvest Alexandrian field margin, show exactly one complete dense but compact rooted patch of wild nettles, with opposite serrated leaves, fine stinging hairs, greenish flower strings and mature ochre-brown seed clusters botanically legible. Exactly one complete adult seed collector stands beside the patch, wearing plain Roman-Egyptian field clothing and using simple linen strips wrapped around both hands to bend one seed-laden stem over one complete shallow wicker basket. The collector gently taps the stem so a few natural seeds fall into the basket; no bare skin touches the plant, no person is stung, and nothing is consumed or applied.\nScene/backdrop: cultivated Nile-edge field after grain harvest, one complete low irrigation channel, short stubble, distant palms and a pale faded-lapis horizon suggesting Alexandria; no clinic, patient, poison, animal, wound, bleeding, uterine treatment, depilation or antidote demonstration.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder and ochre mineral washes; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; nettle dialect with crisp hair-like ink marks, serrated leaf rhythm, dusty seed ochre and clear linen texture; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; low three-quarter field view. Place the entire compact nettle patch in the left-middle, no more than one third of the width, with a broad visible ring of bare soil around every outer leaf and root contact. Place the complete standing collector in the right-middle, leaning toward but not overlapping the patch, with the basket entirely between them. Let a diagonal irrigation channel and harvested stubble open into broad quiet distance. Keep every principal nettle stem, leaf tip, seed cluster and root contact, the complete person with head, hair, back, elbows, hands, every linen wrap, fingers, legs and feet, full basket rim and base, falling seeds, channel ends, palms, horizon and all shadows wholly inside generous breathing room. One continuous harvest moment, never a remedy catalogue, body-treatment scene, botanical panel or crop montage.\nLighting/mood: dry clear harvest morning; wary respect, material precision and discovery of usefulness in an avoided plant.\nHistorical and epistemic framing: show seed gathering at harvest time and Alexandria’s reported esteem as transmitted by Pliny; do not depict or endorse antidote, purgative, topical, reproductive or other medical claims.\nConstraints: exactly one rooted nettle patch, one complete adult and one complete basket; plausible ancient clothing and linen hand protection; natural anatomy and plant morphology; opaque RGB/sRGB.\nAvoid: any nettle leaf, stem, seed, person, basket, channel or shadow touching an image edge; lettering, captions, labels, numerals, pseudo-writing, embroidery, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, patient, poison, fungus, quicksilver, snake, scorpion, tortoise, salamander, wound, blood, exposed intimate body, ingestion, topical application, extra people, animals, modern gloves, modern tools, floating basket, glossy CGI, photography, photorealism, split panels, diptych, collage, grid, repeated crops, multiple identical frames, cropped plant, collector, basket, channel, palms or ground.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete compact nettle patch has a visible soil perimeter, coherent root contact, serrated opposite leaves and mature seed strings. The complete collector uses two linen-wrapped hands to tap an attached seed stem over the complete wicker basket; falling seeds, both feet, irrigation channel and harvested field remain coherent. No sting, patient, remedy application, text, pseudo-writing, panel, modern glove or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:14",
+      "title": "THE LAMIUM; SEVEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c014.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "1df0b32a1e4dbb8dd92b2f9263e87b8bb9ee7d76f0c3314ee3b94b6c266788c0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b326b2b3-b47d-4032-ad13-cdbb7f2f3e51",
+      "generationArtifactId": "exec-b326b2b3-b47d-4032-ad13-cdbb7f2f3e51",
+      "outputArtifact": "built-in-imagegen://exec-b326b2b3-b47d-4032-ad13-cdbb7f2f3e51.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 14, “The Lamium; Seven Remedies”\nPrimary request: Make Pliny’s botanical distinction from the stinging nettle immediately visible, while avoiding every treatment claim. Show exactly one complete compact rooted clump of lamium in a quiet autumn orchard: soft opposite leaves on square stems, each principal leaf carrying a pale whitish central blaze, with restrained small hooded flowers and no visible stinging hairs. Exactly one complete older ancient observer kneels comfortably beside the clump and uses two completely bare hands to cradle and turn one living stem without flinching, demonstrating its harmless touch through natural posture alone. The stem remains attached to the rooted plant; nothing is pulled, applied, eaten, salted, worn or administered.\nScene/backdrop: shaded Mediterranean orchard floor in early autumn, one complete low stone seat, scattered fallen leaves, a fully contained small clay water jar and distant warm wall; no clinic, patient, bruise, burn, sore, gout, wound, amulet, fever ritual or written name.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder and ochre mineral washes; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; lamium dialect with soft velvety leaf texture, white-centred foliage, cool orchard shadow and sparse ochre autumn notes; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; intimate high-oblique view, compositionally distinct from the preceding open harvest field. Place the entire lamium clump in the lower-right-middle, occupying no more than one quarter of the canvas and fully surrounded by a broad oval of visible earth. Place the complete kneeling observer in the left-middle with open ground behind the back and feet; the two bare hands and attached stem form a small clear focal triangle across quiet central negative space. Put the complete stone seat and jar farther back as secondary shapes. Keep every principal leaf tip, white centre, flower, stem and root contact, the complete person with head, hair, shoulders, elbows, bare hands, fingers, legs and feet, attached stem, seat ends and legs, jar handle and foot, fallen leaves, wall and all shadows wholly inside generous breathing room. One continuous act of observation, never a comparison chart, seasonal panel, remedy catalogue or body-treatment scene.\nLighting/mood: cool dappled shade with one soft amber shaft; gentleness, close looking and the surprise of an innocuous nettle-like plant.\nHistorical and epistemic framing: visualize the non-stinging leaves and white leaf centres Pliny reports; do not depict or endorse claims concerning bruises, burns, sores, gout, wounds, fevers or amulets.\nConstraints: exactly one rooted lamium clump and one complete adult; both hands bare and calm; plausible ancient clothing, seat and jar; natural anatomy and plant morphology; opaque RGB/sRGB.\nAvoid: any leaf, plant, person, seat, jar or shadow touching an image edge; lettering, captions, labels, numerals, pseudo-writing, wall scratches, clothing marks, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, salt, poultice, patient, injury, rash, blood, amulet, root worn on body, extra people, animals, modern objects, gloves, floating stem, detached leaves, glossy CGI, photography, photorealism, split panels, diptych, collage, grid, repeated crops, multiple identical frames, cropped plant, observer, seat, jar, wall or ground.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete lamium clump is fully rooted and displays soft opposite leaves with conspicuous pale central blazes and small hooded flowers. The complete older observer calmly handles one attached stem with both bare hands; the stone seat, jar, feet, autumn ground and shadows are complete. No salt, injury, amulet, treatment, text, pseudo-writing, panel, modern object or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:15",
+      "title": "THE SCORPIO, TWO KINDS OF IT; ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c015.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "6e1ab999447a94420981df52a24724e6453049b8596c6dbaff262c225ed00112",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a76aad31-e4ce-45a9-8f4d-5434d92049f4",
+      "generationArtifactId": "exec-a76aad31-e4ce-45a9-8f4d-5434d92049f4",
+      "outputArtifact": "built-in-imagegen://exec-a76aad31-e4ce-45a9-8f4d-5434d92049f4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 15, “The Scorpio, Two Kinds of It; One Remedy”\nPrimary request: Create one sparse ancient Mediterranean rocky landscape that makes Pliny’s two plants called scorpio morphologically distinct in a natural habitat, without a person or remedy scene. Show exactly two complete principal plants. The first is a low sparse plant with only a few leaves and one highly legible curved seed-bearing axis whose articulated seed clusters taper upward like a scorpion’s tail. The second, several paces upslope, is completely leafless, with a single asparagus-like green stem rising to one sharply pointed hooked tip. Between them on bare stone, include exactly one small complete natural scorpion at rest, safely isolated and shown only as the visual source of the name; it neither stings nor threatens anything. No other animals or principal plants.\nScene/backdrop: sun-warmed limestone ravine with scattered pebbles, two modest background tufts kept secondary, distant dry ridge and broad open sky; no clinic, victim, healer, antidote, attack, wound, ritual or supernatural symbolism.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; strong iron-gall contours, exceptionally fine visible cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder and ochre mineral washes; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; scorpio dialect with wiry ink silhouettes, crisp seed articulation, hard limestone hatching and restrained long shadows; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; low ground-level oblique view with one continuous rising diagonal of stone. Place the complete few-leaved seed plant in the lower-left-middle and the complete leafless pointed plant in the upper-right-middle, differing in height and depth rather than appearing as paired specimens. Place the small complete scorpion on an open stone near the quiet centre, not directly beneath either plant. Reserve broad bare rock around every silhouette and a large calm sky. Keep both entire root contacts, every principal leaf, the whole curved seed axis and every seed cluster, the entire leafless stem and its sharp tip, the complete scorpion including both claws, all legs and tail, rocks, ridge and all cast shadows wholly inside generous breathing room. One continuous ravine, never a comparison chart, heraldic emblem, split panel or remedy diagram.\nLighting/mood: low late-afternoon sun, long sparse shadows; uncanny resemblance, close natural observation and stillness.\nHistorical and epistemic framing: visualize the two plant descriptions and the reported reason for their name; do not depict or endorse use against scorpion sting.\nConstraints: exactly two principal plants and exactly one small complete scorpion; no people; natural plant morphology and animal anatomy; opaque RGB/sRGB.\nAvoid: any root, leaf, seed axis, stem tip, scorpion, rock or shadow touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, sting, attack, victim, wound, blood, medicine, extra animals, extra principal plants, modern objects, floating seeds, fantasy monster, zodiac symbol, glossy CGI, photography, photorealism, split panels, diptych, collage, grid, repeated crops, multiple identical frames, cropped plant, scorpion, ridge or ground.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete principal plants occupy one continuous rocky ravine: the first has few leaves and a curved articulated seed axis, while the second is a leafless asparagus-like stem with a sharp hooked tip. Exactly one small complete scorpion rests between them with claws, legs and tail visible. Every root, stem tip and shadow is contained. No attack, sting, treatment, text, pseudo-writing, panel, emblem or clipped subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:16",
+      "title": "THE LEUCACANTHA, PHYLLOS, ISCHIAS, OR POLYGONATOS; FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c016.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "8d3e3bde0f2206a861b249c62ef58d48bbc68aa91bf20fa3009c880c883f0cae",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-25101f67-833b-4723-96de-099e3da37385",
+      "generationArtifactId": "exec-25101f67-833b-4723-96de-099e3da37385",
+      "outputArtifact": "built-in-imagegen://exec-25101f67-833b-4723-96de-099e3da37385.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book XXII, chapter 16, “The Leucacantha, Phyllos, Ischias, or Polygonatos; Four Remedies”\nPrimary request: Focus on the one concrete morphology Pliny supplies: a leucacantha plant with a root like that of cypirus. Show exactly one complete rooted mature leucacantha in dry Mediterranean soil, with angular branching stems, restrained leaves, pale white thorns and a coherent crown. A shallow irregular excavation beside the crown reveals one continuous cypirus-like rhizome: jointed, ochre-brown, slightly swollen at intervals, with fine fibrous rootlets remaining naturally connected to the plant. Exactly one complete ancient field observer kneels above the excavation and uses one complete small wooden spatula to brush loose earth away from the rhizome. One complete shallow wicker earth tray sits nearby. The root remains in the ground and is neither chewed, cut, drunk, offered nor applied.\nScene/backdrop: high dry field terrace with scattered small stones, one complete low boundary wall well in the distance and a narrow strip of pale hills; no clinic, toothache sufferer, painful body pose, rupture, convulsion, medicine, dosing or lecture.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder and ochre mineral washes; ancient, timeless and beautiful, rough in material yet polished in draftsmanship; root-study dialect with chalk-pale thorns, angular ink structure, jointed ochre rhizome, fibrous root detail and broad warm earth; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; near-overhead high-oblique view, materially different from a lateral landscape. Arrange the complete plant, exposed rhizome and complete observer in one loose off-centre spiral across the middle half of the canvas: plant in the lower-left-middle, rhizome curving toward the quiet centre, observer kneeling in the upper-right-middle, earth tray between but not overlapping them. Reserve large areas of bare soil on all four sides. Keep the entire root crown, every principal thorn, leaf and stem tip, the full rhizome from crown to final tip and all exposed rootlets, the complete person with head, back, elbows, hands, fingers, legs and feet, whole spatula, tray rim and base, excavation perimeter, wall ends, hills, stones and cast shadows wholly inside generous breathing room. One continuous field investigation, never a cutaway diagram, specimen board, body-treatment scene, split panel or repeated crop.\nLighting/mood: clear raking morning light with precise small shadows; close inquiry, restraint and respect for uncertain ancient nomenclature.\nHistorical and epistemic framing: visualize the cypirus-like root and multiple names reported by Pliny; do not depict or endorse claims for toothache, flank pain, ruptures or convulsions.\nConstraints: exactly one rooted leucacantha plant, one continuous rhizome, one complete adult, one spatula and one earth tray; plausible ancient clothing and field tool; natural anatomy and rooted plant morphology; opaque RGB/sRGB.\nAvoid: any thorn, stem, rhizome, rootlet, person, tool, tray, wall or shadow touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible sheet edge, torn parchment, decorative border, frame, scroll, tablet, book, chewing, ingestion, medicine, patient, pain gesture, wound, extra people, animals, extra principal plants, modern trowel, floating root, detached rhizome, glossy CGI, photography, photorealism, anatomical cutaway, split panels, diptych, collage, grid, repeated crops, multiple identical frames, cropped plant, root, observer, tray, wall or ground.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external sheet edge and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete white-thorned leucacantha remains rooted beside one continuous exposed cypirus-like jointed rhizome with coherent crown connection and fine rootlets. The complete observer, wooden spatula, wicker earth tray, hands, feet, excavation perimeter and wall are fully visible in the near-overhead composition. No chewing, administration, patient, text, pseudo-writing, anatomical cutaway, panel, modern tool or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 352,
+    "method": "Nearest-neighbor comparison using 64x64 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "22:9": {
+        "nearestMAD": 28.25,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c017.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 23,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c015.png",
+        "madAtDHashPeer": 71.92
+      },
+      "22:10": {
+        "nearestMAD": 27.58,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c018.png",
+        "madAtDHashPeer": 40.26
+      },
+      "22:11": {
+        "nearestMAD": 41.88,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-12/b15-c027.png",
+        "madAtDHashPeer": 68.19
+      },
+      "22:12": {
+        "nearestMAD": 27.36,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c010.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c002.png",
+        "madAtDHashPeer": 39.52
+      },
+      "22:13": {
+        "nearestMAD": 30,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c002.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c037.png",
+        "madAtDHashPeer": 59.88
+      },
+      "22:14": {
+        "nearestMAD": 28.04,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c016.png",
+        "madAtDHashPeer": 78.33
+      },
+      "22:15": {
+        "nearestMAD": 30.12,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c001.png",
+        "madAtDHashPeer": 59.7
+      },
+      "22:16": {
+        "nearestMAD": 29.64,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c011.png",
+        "madAtDHashPeer": 44.46
+      }
+    }
+  }
+}

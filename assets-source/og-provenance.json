@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "logicalId": "social:og",
+  "sourceArtifact": "assets-source/og.png",
+  "generatedAt": "2026-08-24",
+  "creator": "OpenAI ImageGen, directed by the project owner and Codex",
+  "generationTool": "OpenAI built-in image_gen",
+  "generationReceipt": {
+    "receiptId": "exec-745a3fcc-8ec1-42d6-bc79-202f1da6376a",
+    "originalArtifact": "exec-745a3fcc-8ec1-42d6-bc79-202f1da6376a.png",
+    "promptRecord": "Brand-new 1200x630 social-preview master for Naturalis Historia: ancient and timeless Plinian codex emblem; rough vellum with polished copper and gold; iron-gall linework; restrained mineral pigments; celestial sphere, sea creature, medicinal plant, and elephant; generous negative space; no text, logos, photorealism, or glossy rendering."
+  },
+  "sourceSha256": "9fdf95e4041a37345c8fe3f7bc7423d057172f8810ca83ac064a377db59a1dd3",
+  "rightsRecord": "assets-source/asset-rights.json#/assets/social:og"
+}

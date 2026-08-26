@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-01",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique output artifacts but no formal receipt ID or model identifier.",
+  "styleContractArtifact": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "styleContractApplied": true,
+  "chapterPlanArtifact": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "chapters": [
+    {
+      "chapterKey": "10:1",
+      "title": "THE OSTRICH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c001.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "87fe74c747d1d8a79c46fda9ce217e0e6ca932163e9bdc7bb8de0f0b0407b2e1",
+      "acceptedArtifactId": "exec-8298e63d-3dd2-44a6-aaf7-389b3f89cf50",
+      "outputArtifact": "built-in-imagegen://exec-8298e63d-3dd2-44a6-aaf7-389b3f89cf50.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 1, “The Ostrich”\nPrimary request: Ground the scene in Pliny’s opening account of the African or Aethiopian ostrich as the largest bird, taller than a mounted man and faster than his horse, with wings that aid its running although it never rises from the earth. Show one immense adult ostrich in a powerful full-body side-on sprint across an open North African plain, clearly ahead of one complete mounted traveler used only for scale. The ostrich’s long neck and head, entire body, both small running wings, full tail, both long legs, cloven toes, ground contacts, and sweeping dust shadow must be anatomically legible and completely visible. The rider, horse, reins, hooves, and their ground shadow must also be complete and period-plausible.\nScene/backdrop: spare first-century Mediterranean North African or Aethiopian scrub plain with low ochre ridges, two or three fully contained thorn bushes, and immense open sky; no city, arena, racecourse, or modern tack\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of open vellum sky, sweeping flight-like running geometry, faded lapis atmosphere, restrained madder and ochre plumage accents\nComposition/framing: landscape 3:2, low lateral viewpoint and strong horizontal momentum; scale all subjects into the central seventy percent and surround them on every side with broad uninterrupted blank vellum and sparse bare ground; one complete unified scene; nothing touches any edge; no foreground cropping\nLighting/mood: clear early-morning radiance, speed, scale, empirical astonishment without spectacle\nColor palette: warm vellum, umber and lampblack linework, dusty ochre earth, faded lapis distance, muted verdigris scrub, restrained madder on the rider, sparse charcoal and ivory plumage\nMaterials/textures: fibrous vellum, dry pigment abrasion, engraved feather barbs, coarse dust, hide tack, worn wool\nHistorical constraints: historically plausible first-century clothing and simple horse tack; the ostrich runs on earth and does not fly; no pursuit weapon, no thrown stones, no violence\nFraming constraints: every feather tip, wing, tail plume, beak, neck, leg, toe, hoof, rider, rein, bush, ridge, and cast shadow must be wholly visible with clear open space around it\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, maps, diagrams, modern objects, photography, photorealism, glossy CGI, neon color, fantasy anatomy, extra ostriches, partial animals, clipped wings, clipped tail, clipped legs, cropped people, atlas layout, split panels, repeated frames, collage, decorative border",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first generation after full-image and original-resolution quadrant review. The single enormous running ostrich and complete mounted traveler are fully contained, anatomically legible, and separated by open vellum; horse, rider, reins, hooves, ostrich wings, tail, legs, toes, dust and shadows are all visible. No lettering, pseudo-writing, panel structure, modern object, or cropped primary subject was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:2",
+      "title": "THE PHŒNIX",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c002.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "85dbc693d51b2b33f83119e4442e923a97f8c7c092bf8790e6679f4c50ea2ab8",
+      "acceptedArtifactId": "exec-a5a81d9a-fef6-46d6-ba88-da68148d9651",
+      "outputArtifact": "built-in-imagegen://exec-a5a81d9a-fef6-46d6-ba88-da68148d9651.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 2, “The Phoenix”\nPrimary request: Visualize with scholarly restraint the phoenix tradition exactly as Pliny reports and explicitly doubts—“though I am not quite sure that its existence is not all a fable”—rather than presenting it as verified zoology. Show one solitary eagle-sized phoenix of the reported Arabian tradition resting upon a complete aromatic nest of cassia twigs and incense sprigs on a sun-warmed rock above a distant desert valley. Its neck carries a restrained golden sheen, its body is muted purple, its long complete tail is faded azure intermingled with roseate feathers, and a modest feathered crest adorns throat and head. The bird is aging and still, not burning; the legendary scene should feel like a beautiful report held at epistemic distance.\nScene/backdrop: spare ancient Arabian highland at dawn, distant low silhouette of the City of the Sun near Panchaia suggested only by a few complete unmarked stone forms; no crowd, zoo, cage, Roman Comitium, or theatrical palace\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of open vellum sky, elegant feather geometry, faded lapis, restrained madder, rose, purple, and ochre\nComposition/framing: landscape 3:2, quiet three-quarter profile with one long S-curve from crest through back to tail; scale the complete bird and nest into the central sixty-five percent with a broad uninterrupted vellum field on every side; one coherent scene, no vignette border, no panel\nLighting/mood: pale Arabian dawn and solar stillness; rare beauty, uncertainty, time, and reported wonder without fantasy spectacle\nColor palette: warm vellum, umber and lampblack linework, muted purple body, ochre-gold neck, faded lapis tail, restrained roseate and madder feather accents\nMaterials/textures: fibrous vellum, dry pigment blooms, engraved feather barbs, brittle cassia bark, granular incense resin, weathered rock\nHistorical and epistemic constraints: this is Pliny’s reported and doubted tradition, not a factual reconstruction; exactly one phoenix; no magical resurrection, worm, duplicate bird, supernatural aura, or flames; historically plausible distant Arabian masonry only\nFraming constraints: complete beak, crest, throat tuft, neck, body, both folded wings, every tail feather, both feet, claws, entire nest, every twig, rock platform, distant buildings, and cast shadow fully visible with clear blank space around them; omit optional architecture if it cannot be fully contained\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, photography, photorealism, glossy CGI, neon plumage, fire, explosion, halo, fantasy magic, multiple phoenixes, partial birds, clipped crest, clipped wings, clipped tail, clipped nest, atlas layout, split panels, repeated frames, collage, decorative border",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first generation after full-image and original-resolution quadrant review. The single aging phoenix, crest, feet, wings, complete lapis-and-rose tail and aromatic cassia-and-incense nest are contained on the rock with generous vellum; the scene is calm, unburning and visibly presented as reported tradition rather than zoological fact. No lettering, pseudo-writing, panels, watermark, modern object, or clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:3",
+      "title": "THE DIFFERENT KINDS OF EAGLES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c003.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "1da480806bddd4ab2eedd4e6c7ea902983bab08394cd13cfc62a20fda1228db1",
+      "acceptedArtifactId": "exec-ba900121-c4ed-46cb-8b4e-f5b4a9e1ab5f",
+      "outputArtifact": "built-in-imagegen://exec-ba900121-c4ed-46cb-8b4e-f5b4a9e1ab5f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 3, “The Different Kinds of Eagles”\nPrimary request: Ground one continuous natural-history panorama in Pliny’s opening distinction of six eagle kinds. Across a single connected mountain-to-lake landscape, show exactly six complete eagles occupying plausible ecological zones without labels or panel divisions: a small powerful black melanaetos feeding two young in a high mountain aerie; a Mediterranean white-tailed pygargus with a completely brown head and body and a pale tail only, gliding above the open plain; a long-tailed dark morphnos circling the reed-fringed lake; a large vulture-like percnopterus perched on a low outcrop with notably smaller folded wings; a rare moderate-sized reddish genuine eagle flying across the middle distance; and a sharp-eyed sea eagle plunging toward a visible fish just beneath the lake surface. These are six distinct living birds in one place, not a specimen chart.\nScene/backdrop: one broad ancient Mediterranean watershed flowing from craggy mountain and open plain to a complete reed-edged lake and distant sea light; no buildings, people, prey gore, or mythic symbols\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of airy open sky, sweeping flight geometry, faded lapis water and depth, restrained madder and ochre plumage\nComposition/framing: landscape 3:2, high oblique panoramic sweep with the six birds forming one broad spiral from aerie to lake; each species has a materially different silhouette, scale, posture, and altitude; the landscape remains continuous behind them with no boxes, circles, borders, or diagrammatic spacing; place every bird and landform inside the central seventy percent, surrounded by broad vellum on every side\nLighting/mood: lucid midday observation, breadth, strength, and ecological variety\nColor palette: warm vellum, umber and lampblack, faded lapis lake, muted verdigris reeds, ochre rock, restrained reddish-madder on the genuine eagle, sparse pale tail accents\nMaterials/textures: fibrous vellum, dry pigment abrasion, individually engraved feather barbs, stippled crags, worn mineral washes on water and sky\nHistorical and zoological constraints: exactly six adult eagles plus exactly two small nestlings belonging to the black melanaetos; every adult must be visually distinguishable but naturalistic; all birds must belong to an ancient Mediterranean visual world. Critical species correction: no adult eagle may have a white head; the pygargus has a brown head and brown body with white confined to its tail. Do not depict a bald eagle or any North American species. The sea eagle’s fish remains in water; no fighting, dropped tortoise, injured young, carcass, lightning, or fantasy\nFraming constraints: every adult eagle’s beak, head, both wings, every wingtip, body, tail, both legs and talons must be fully visible; complete nest, both nestlings, reeds, lake rim, rocks, fish, and all cast shadows contained with open space around them; no bird may overlap a canvas edge\nAvoid: white-headed eagle, bald eagle, all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, scientific diagram, field-guide plate, atlas layout, evenly boxed specimens, panel grid, collage, repeated birds, extra eagles, cropped wings, cropped tails, partial birds, gore, photography, photorealism, glossy CGI, neon color, decorative border",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after one species-correction regeneration and original-resolution quadrant review. One continuous mountain-to-lake panorama contains six visually distinct complete adult eagles plus exactly two black nestlings; the corrected pygargus has a brown head and body with only a pale tail, avoiding North American bald-eagle iconography. Wings, tails, nest, fish and lake action are contained; no labels, pseudo-writing, panel divisions, watermark, modern object, or clipped bird was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e6278c2e-4ec6-45af-9b0e-6ba3521b21f3.png",
+          "sha256": "7f8b2e3860dacc0f3e631841ac2aba7f965854c9386d2b065769be5e880ddf83",
+          "reason": "Rejected at original resolution because the pygargus had a conspicuous white head, reading as a North American bald eagle rather than Pliny’s Mediterranean white-tailed bird."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:4",
+      "title": "WHEN THE EAGLE WAS FIRST USED AS THE STANDARD OF THE ROMAN LEGIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c004.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "9876b6b029acd60e4cd8a41428c2992e44182d3e230eba7b91ef0fafc1c6f61e",
+      "acceptedArtifactId": "exec-2b9e59c9-31d2-4f64-83fc-1881b88d953b",
+      "outputArtifact": "built-in-imagegen://exec-2b9e59c9-31d2-4f64-83fc-1881b88d953b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 4, “When the Eagle Was First Used as the Standard of the Roman Legions”\nPrimary request: Ground the scene in Pliny’s account that Caius Marius, during his second consulship, made the eagle the exclusive standard of the Roman legions and abolished the former wolf, minotaur, horse, and wild-boar standards. Show a restrained late-Republican ceremony inside a Roman marching camp: Marius and one aquilifer stand fully visible as the aquilifer raises one complete plain staff crowned by a small bronze eagle with spread wings. Nearby, the four older complete animal-finial staffs—wolf, human-bull minotaur, horse, and wild boar—lie respectfully side by side on one low unmarked wooden rack, being retired rather than destroyed. Two real eagles wheel high above the camp as Pliny says pairs were observed near legionary winter quarters.\nScene/backdrop: orderly Roman Republican camp on bare ground with a few complete leather tents, low winter hills, and open sky; no battle, triumphal arch, imperial insignia, or city monuments\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of open vellum sky, upward wing geometry, faded lapis air, restrained madder cloaks and ochre bronze\nComposition/framing: landscape 3:2 with a calm central vertical axis formed by the eagle standard; low semicircle of complete witnesses and retired standards; two real eagles form a distant counter-arc in open sky; one continuous ceremony, not a heraldic display or diagram; all people, tents, staffs, finials, rack, and birds contained inside the central seventy percent with broad vellum margins\nLighting/mood: cold clear morning warming into ochre sunlight; civic gravity, institutional change, disciplined attention\nColor palette: warm vellum, umber and lampblack linework, ochre bronze, restrained madder cloth, faded lapis shadows, muted verdigris weathering\nMaterials/textures: fibrous vellum, dry abrasion, hammered bronze, weathered timber, wool, leather tenting, engraved feathers\nHistorical constraints: late-Republican Roman clothing and equipment appropriate to Marius around 104 BCE; exactly one raised eagle standard, four retired animal standards, and two real eagles; all standards, shields, tents, clothing, and equipment entirely plain with no letters, numbers, wreath text, or unit marks; no imperial-era armor\nFraming constraints: every eagle wingtip and tail, every human head/hand/foot, complete staff top and base, each animal finial, the entire rack and all four legs, every tent ridge and guy rope must be fully visible with open space around it; no object touches an edge\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, SPQR, legion numbers, signatures, logos, watermarks, modern objects, battle, weapons in use, blood, raised salute, fascist imagery, imperial iconography, cropped standards, cropped figures, cropped tents, partial birds, atlas layout, split panels, repeated frames, collage, glossy CGI, photography, photorealism, decorative border",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first generation after full-image and original-resolution quadrant review. The late-Republican camp ceremony contains complete Marius, aquilifer, raised eagle standard, four retired animal-finial standards on one rack, tents, soldiers and exactly two real eagles, all within the vellum field. No SPQR, letters, numerals, pseudo-writing, watermark, modern equipment, panel structure, or clipped figure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:5",
+      "title": "AN EAGLE WHICH PRECIPITATED ITSELF ON THE FUNERAL PILE OF A GIRL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c005.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "3862a9db90d758f1f713a9133026fe08c648c39f33a6d0f08816d35b5236802a",
+      "acceptedArtifactId": "exec-e2f786f9-5217-4188-a095-0193aeda6090",
+      "outputArtifact": "built-in-imagegen://exec-e2f786f9-5217-4188-a095-0193aeda6090.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 5, “An Eagle Which Precipitated Itself on the Funeral Pile of a Girl”\nPrimary request: Render with restraint the famous Sestos story as a reported local tradition, not verified zoological behavior. Freeze the final quiet instant before the legendary act: one complete eagle that had been reared by the girl descends in a wide sorrowful spiral toward her modest newly kindled funeral pyre, while a small group of fully visible mourners stands at a respectful distance. The deceased girl is entirely covered by a simple undisturbed burial shroud on the bier; no body detail is visible. The eagle remains alive, intact, and outside the flames, its full wings and tail describing the emotional arc without showing impact or consumption.\nScene/backdrop: ancient Sestos above the Hellespont at dusk, with a few complete unmarked stone houses and distant water; one contained pyre of neatly stacked timber on bare ritual ground; no future monument, battlefield, palace, or crowd\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of open vellum sky, descending wing geometry, faded lapis dusk and water, restrained madder cloaks and ochre fire\nComposition/framing: landscape 3:2, broad diagonal from high circling eagle to low contained pyre, balanced by a quiet crescent of mourners; one coherent instant, not a before-and-after sequence; place the entire scene inside the central sixty-eight percent with generous blank vellum on all four sides\nLighting/mood: solemn blue-gold dusk, gratitude, mourning, and tragic legend without sensationalism\nColor palette: warm vellum, umber and lampblack, faded lapis evening, restrained madder garments, ochre embers, muted verdigris shore\nMaterials/textures: fibrous vellum, dry pigment abrasion, engraved feathers, stacked timber, plain woven shroud, weathered stone\nHistorical and epistemic constraints: this is Pliny’s reported Sestos story, shown at narrative distance; historically plausible ancient Greek clothing and funerary setting; one eagle only; no visible corpse, no exposed body, no gore, no impact, no burning bird, no charred remains, no dramatic screams\nFraming constraints: eagle’s beak, head, both full wings, every wingtip, body, legs, talons and tail fully visible with sky around them; entire pyre, every timber end, whole shrouded bier, all complete mourners head-to-sandal, buildings, shoreline and shadows fully contained; no person, flame, bird, structure, or smoke plume touches an edge\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, graphic death, corpse detail, self-immolation impact, burning eagle, blood, violence, clipped wings, clipped tail, cropped pyre, cropped mourners, multiple eagles, panels, sequential frames, collage, photography, photorealism, glossy CGI, theatrical fantasy, decorative border",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first generation after full-image and original-resolution quadrant review. The reported Sestos tradition is shown at the restrained instant before descent: the complete living eagle remains outside the flames, the girl is fully shrouded, the modest pyre and every mourner are contained, and there is no impact, gore or gratuitous violence. No lettering, pseudo-writing, watermark, modern object, panel structure, or clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:6",
+      "title": "THE VULTURE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c006.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "42abf6c2d365200d5f4e2adf9eac7f9d3772b85b98824f7f2cea95b52a0bae00",
+      "acceptedArtifactId": "exec-ccaf6ef2-a5f7-4348-a1c2-7c69ecc35321",
+      "outputArtifact": "built-in-imagegen://exec-ccaf6ef2-a5f7-4348-a1c2-7c69ecc35321.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 6, “The Vulture”\nPrimary request: Ground the scene in Pliny’s correction of the old error that vultures came from another hemisphere: black vultures are strongest, and they do nest, but on the very highest inaccessible rocks, where their young—usually two—can be seen. Show one complete isolated mountain pinnacle rising within open sky, its inaccessible upper ledge holding one entire rough nest with exactly two clearly visible downy young. One powerful adult black vulture stands beside the nest with folded wings, while a second complete black vulture circles above on fully spread wings. The image should make the remote aerie visually undeniable and dispel the mistaken idea without using any diagram.\nScene/backdrop: severe ancient Mediterranean limestone heights above distant hazy valleys, sparse complete alpine shrubs rooted on the ledge, immense faded-lapis air; no settlement, people, carcasses, omens, or opposing hemisphere imagery\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of huge open vellum sky, circular soaring geometry, faded lapis depth and restrained ochre/madder feather warmth\nComposition/framing: landscape 3:2, dramatic upward-looking view; the complete crag occupies a contained lower triangle and the soaring bird arcs across an expansive sky; scale every subject into the central sixty-five percent and leave broad uninterrupted vellum around the entire pinnacle, nest, birds, and shrubs; one natural scene, not a cutaway or plate\nLighting/mood: cold high-altitude morning, remoteness, strength, patient correction of error\nColor palette: warm vellum, lampblack and deep umber plumage, pale ochre rock, faded lapis distance, muted verdigris shrubs, restrained madder-brown bare head accents\nMaterials/textures: fibrous vellum, dry pigment abrasion, deeply engraved flight feathers, pitted limestone, brittle nest sticks, soft chick down\nZoological constraints: exactly two adult black vultures and exactly two young; both adults naturalistic Old World black vultures with dark bodies, broad wings, short tails, and restrained bare-head detail; no eagle-white head, fantasy monster, eggs, extra chicks, carrion, blood, or predation\nFraming constraints: every beak, head, folded or spread wing, every wingtip, body, tail, leg and talon fully visible; complete nest, every outer stick, both chicks, full ledge, complete pinnacle silhouette, every shrub and shadow fully contained with clear blank vellum around them; nothing touches an edge\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, carcass, gore, funeral, battle, clipped wings, clipped tail, cropped crag, partial bird, extra vultures, atlas layout, specimen grid, split panels, repeated frames, collage, photography, photorealism, glossy CGI, neon color, decorative border",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first generation after full-image and original-resolution quadrant review. Exactly two complete adult black vultures and two clearly visible chicks occupy the remote high aerie; every bird, wing and tail is contained with generous open sky. The lower continuation of the rock is subordinate landscape rather than a clipped avian subject. No lettering, pseudo-writing, watermark, modern object, panel structure, or animal clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:7",
+      "title": "THE BIRDS CALLED SANGUALIS AND IMMUSULUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c007.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "29c391d97fff07178ad85803c6253a337b13407a228a2962acb425a2ccbfa191",
+      "acceptedArtifactId": "exec-4e9c4721-5aaa-4a1a-914f-77531eb294bb",
+      "outputArtifact": "built-in-imagegen://exec-4e9c4721-5aaa-4a1a-914f-77531eb294bb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 7, “The Birds Called Sangualis and Immusulus”\nPrimary request: Present Pliny’s report of unresolved Roman augural debate, not a settled identification or supernatural fact. On a quiet open augural terrace outside Rome, three complete Roman augurs observe two complete unfamiliar raptors in the same dawn sky: one large ossifrage-like bird with a bearded profile and broad tawny wings, and one smaller dark juvenile raptor whose tail has not yet whitened. The augurs disagree through restrained open-handed gestures—one indicating the larger bird, one the younger, one looking between them—while Pliny’s point remains visible: perhaps these birds were not gone, but simply no longer recognized through neglect of knowledge.\nScene/backdrop: plain first-century Roman rooftop or hilltop observation terrace with a low complete parapet, distant soft hills and a few fully contained cypress trees; no temple spectacle, sacrificial altar, entrails, scrolls, tablets, or city crowd\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of immense open vellum sky, paired opposed flight silhouettes, faded lapis dawn and restrained ochre/madder plumage\nComposition/framing: landscape 3:2, spacious low horizon; the two raptors occupy unequal mirrored arcs high above, while the three augurs form a quiet triangular group below; one continuous observation scene, no labels, species boxes, omens chart, or panel division; all discrete elements scaled into the central sixty-eight percent with broad empty vellum around them\nLighting/mood: pale uncertain dawn, patient comparison, intellectual humility, loss and recovery of attention\nColor palette: warm vellum, umber and lampblack, faded lapis sky wash, tawny ochre larger bird, dark brown juvenile, restrained madder and muted verdigris garments\nMaterials/textures: fibrous vellum, dry pigment abrasion, engraved feathers, weathered limestone, coarse wool\nHistorical and epistemic constraints: explicitly a reported disagreement among Roman augurs; do not claim either bird’s identity as certain and do not show a supernatural omen occurring; exactly two birds and exactly three augurs; historically plausible Roman dress; all clothing and masonry plain and unmarked; no ritual violence\nFraming constraints: both birds’ beaks, heads, full wings, every wingtip, bodies, tails, legs and talons wholly visible against open sky; all three augurs complete head-to-sandal with empty hands; entire parapet ends, trees, hills and shadows contained with clear blank vellum beyond; nothing touches an edge\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, maps, scrolls, tablets, augury diagram, magical rays, sacrifice, entrails, blood, clipped birds, cropped people, extra birds, eagle standard, atlas layout, split panels, repeated frames, collage, photography, photorealism, glossy CGI, neon color, decorative border",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first generation after full-image and original-resolution quadrant review. Two distinct complete raptors occupy one open dawn sky above three fully contained Roman augurs whose restrained gestures preserve the chapter’s unresolved identification. Wings, tails, hands, garments, sandals, terrace and cypresses are contained; no labeling, pseudo-writing, ritual text, watermark, modern object, panel structure, or clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "10:8",
+      "title": "HAWKS. THE BUTEO",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c008.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "495b224f61fa1fa24b973ff1315ea871fbf0307e2f34da9e5c7e8dc90797e0c0",
+      "acceptedArtifactId": "exec-d2056aa4-215b-42f1-b0ca-6c8e38567e11",
+      "outputArtifact": "built-in-imagegen://exec-d2056aa4-215b-42f1-b0ca-6c8e38567e11.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book X, chapter 8, “Hawks. The Buteo”\nPrimary request: Ground the illustration in Pliny’s remarkable account of partnership above Amphipolis in Thrace, where people drive small birds from woods and reed-beds, hawks press them downward, and the fowlers share the take. Show one continuous reed-marsh moment: two complete Thracian fowlers in simple ancient dress gently beat the tall reeds with plain staffs so a small flock rises; two complete hawks wheel and stoop above, steering the flock toward a low open hand-net, while one robust complete buteo waits alertly on a contained willow stump beside the fowlers. No capture, injury, or kill is shown—the visual subject is coordinated movement between people and hawks.\nScene/backdrop: open Thracian wetland above ancient Amphipolis with one contained reed-bed, a narrow faded-lapis channel, two complete willows, distant low hills, and no city architecture\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching and stipple, restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subtle avian dialect of open vellum sky, intersecting flight arcs, faded lapis water, muted verdigris reeds, restrained madder and ochre plumage\nComposition/framing: landscape 3:2, low oblique view across the reed-bed; fowlers and buteo anchor a contained lower triangle while two hawks and the small flock create crossing arcs above; one unified hunt, not a sequence, diagram, field guide, or collage; scale all subjects into the central seventy percent with broad blank vellum on every side\nLighting/mood: bright windy morning, alert cooperation, motion, observation without brutality\nColor palette: warm vellum, umber and lampblack, faded lapis water and air, muted verdigris reeds, tawny ochre hawks, restrained madder garments\nMaterials/textures: fibrous vellum, dry pigment abrasion, engraved flight feathers, reed stems, coarse ancient net fiber, weathered wood and wool\nHistorical and zoological constraints: historically plausible ancient Thracian clothing and simple fowling staffs/net; exactly three hawks total—two flying and one perched buteo—and one small compact flock of five distant quarry birds; exactly two fowlers; no falconry gloves, jesses, modern equipment, boats, dead birds, blood, bite, or talon impact\nFraming constraints: every hawk beak, head, full wing, every wingtip, body, tail, leg and talon fully visible; both fowlers complete head-to-sandal with both hands and staffs; entire net including corners, whole willow stump, every discrete reed clump, both willows, all five quarry birds, shoreline and shadows fully contained with open vellum beyond; nothing touches an edge\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, modern falconry, violence, gore, captured or wounded bird, cropped wings, clipped tail, cropped people, extra hawks, atlas layout, split panels, repeated frames, collage, photography, photorealism, glossy CGI, neon color, decorative border\n\nCritical acceptance repair: both fowlers must wear absolutely plain, undecorated tunics and cloaks. No embroidery, woven hem pattern, repeated geometric trim, symbols, ornamental bands, marks, or glyph-like shapes may appear anywhere on any garment or object. Keep all fabric edges visually blank and free of anything that could resemble letters or pseudo-writing. Render exactly FIVE and only five separate small quarry birds in the compact flock, with clear daylight gaps between all five silhouettes so they can be counted unambiguously. These five quarry birds are separate from the exactly three hawks.",
+      "generationAttempts": 3,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after two text-and-count fidelity regenerations and original-resolution review. Exactly three complete hawks—two flying and one perched buteo—appear separately from exactly five countable quarry birds; both fowlers, plain undecorated garments, staffs, full net, stump, willows, reeds, channel and shadows are contained inside generous vellum. No capture, injury, lettering, pseudo-writing, ornament resembling glyphs, watermark, modern equipment, panel structure, or clipping was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-357fa364-a343-407e-8b23-c1a073300b91.png",
+          "sha256": "2b6f761924c6f7f788745774c781562921c389566303269dce1741b2b59ca915",
+          "reason": "Rejected at original resolution because a repeated ornament along one fowler’s tunic hem could be read as pseudo-writing."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-acef742c-3f78-45ed-ad8e-29287bced67a.png",
+          "sha256": "2d10cee6d41107c65413c774816e6bcd89f47df17f42936f9c4e68dbacb4334d",
+          "reason": "Rejected after the plain-garment repair because only four of the five explicitly required quarry birds were rendered."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

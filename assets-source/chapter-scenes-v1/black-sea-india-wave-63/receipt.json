@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "campaign": "black-sea-india-wave-63",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "note": null,
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 571,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "6:25": {
+        "nearestMAD": 21.64,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c030.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c005.png",
+        "madAtDHashPeer": 59.77
+      },
+      "6:26": {
+        "nearestMAD": 24.93,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c002.png",
+        "madAtDHashPeer": 50.96
+      },
+      "6:27": {
+        "nearestMAD": 21.34,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c007.png",
+        "madAtDHashPeer": 44.02
+      },
+      "6:28": {
+        "nearestMAD": 21.49,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c030.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c018.png",
+        "madAtDHashPeer": 35.85
+      },
+      "6:29": {
+        "nearestMAD": 29.79,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c021.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c020.png",
+        "madAtDHashPeer": 73.8
+      },
+      "6:30": {
+        "nearestMAD": 21.49,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c028.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+        "madAtDHashPeer": 101.3
+      },
+      "6:31": {
+        "nearestMAD": 23.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c095.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c017.png",
+        "madAtDHashPeer": 37.25
+      },
+      "6:32": {
+        "nearestMAD": 26.42,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c029.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 10,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 44.16
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "6:25",
+      "title": "THE PARTHIAN EMPIRE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c025.png",
+      "sha256": "0b2fc6cf0fdf65ba4210e15f865de1167ab7741af74d8d4a5a07965eca41e19e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-13855e42-1b57-4ce7-a6c0-3b2fcf32cbb3",
+      "outputArtifact": "built-in-imagegen://exec-13855e42-1b57-4ce7-a6c0-3b2fcf32cbb3.png",
+      "exactFinalPrompt": "Create a single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book VI chapter 25, the Parthian Empire. Portray the fine district of Nisaea in Parthiene as an inhabited green basin held at the foot of immense blue-violet mountains, with stark desert visibly closing it on the left and right. In the middle distance, place one compact complete Hecatompylos-like walled city of pale mud brick and stone, surrounded by orderly pomegranate orchards, vineyards, and qanat-fed fields; the entire city silhouette and outer wall must be visible. In the foreground interior, show exactly one complete Parthian mounted courier at rest beside his complete richly caparisoned horse, wearing historically plausible trousers, tunic, soft cap, and a sheathed bow, looking across the basin rather than fighting. A tiny complete nomad tent and two camels appear far across the desert, subordinated to the geography. Use cold rose dawn, long violet shadows, muted copper-red textiles, bone stone, and saturated cobalt mountains to distinguish this from a golden oasis panorama. Evoke Pliny's account of a realm divided between higher mountain provinces and lower desert provinces without using a map, borders, flags, armies, or imperial propaganda. Historically plausible first-century Iranian plateau; no modern ruins, fantasy, or invented inscription. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground lapis, azurite, madder, cinnabar accents, malachite, ochre, charcoal, and sparse burnished gold, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall contour drawing and woven-textile micro-detail, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent scene only, not a map, diagram, montage, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, pseudo-writing, captions, decorative border, internal frame, duplicate horse, duplicate person, floating objects, or white/page-colored outside area. Keep the complete city, wall, courier, horse, tent, and camels wholly visible with generous breathing room; no focal subject may touch any edge, and only continuous sky, distant mountain, desert, and low meadow may naturally continue beyond the outer frame.",
+      "visualQaNotes": "Inspected at native resolution. The rose-violet Parthian basin contains one complete walled city, courier, horse, nomad tent, two camels, orchard fields, encircling desert, and mountain wall without clipped focal subjects, text, panels, borders, or modern elements.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:26",
+      "title": "MESOPOTAMIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c026.png",
+      "sha256": "14199b99204dd3cc65b11e791e8f7edc0095f2af7153b627723aa4e4c9b87ffa",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-16794521-c0bd-4261-ac12-1bdc4ad61aa3",
+      "outputArtifact": "built-in-imagegen://exec-16794521-c0bd-4261-ac12-1bdc4ad61aa3.png",
+      "exactFinalPrompt": "Create a single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book VI chapter 26, Mesopotamia. From a high but grounded terrace at clear white noon, show one continuous fertile plain between the Euphrates and Tigris. In the near middle ground, depict the complete abandoned enclosure of Babylon: a vast but fully contained ochre-brick wall circuit, visibly empty and weathered, bisected by the blue Euphrates with two complete ancient quays; a compact surviving stepped Belus temple stands inside, not exaggerated into fantasy. Farther across the same unbroken floodplain, show a separate, compact, fully contained Seleucia-like living city at the confluence of a darker river and an irrigation canal, with dense houses, boats, date groves, and cultivated fields; still farther, a small Ctesiphon-like settlement is beginning on the opposite bank. On the interior foreground terrace, place exactly one complete Chaldaean observer beside a simple complete shadow-casting gnomon, studying the sun with no visible writing or supernatural ritual. Emphasize the contrast Pliny records between emptied Babylon and populous new foundations, while keeping it a believable single geography rather than a before-and-after panel. Historically plausible first-century Mesopotamia; no fantasy reconstruction, army, modern archaeology, labels, maps, or invented inscriptions. Use high-key chalk sunlight, brick red, malachite date groves, lapis water, and sharp violet shadows. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground mineral pigments, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall architecture and irrigation linework, delicate stipple, sparse burnished gold on water, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent scene only, not a map, diagram, montage, diptych, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, cuneiform-like marks, pseudo-writing, captions, decorative border, internal frame, duplicate cities, floating objects, or white/page-colored outside area. Keep the complete Babylon wall circuit, both quays, temple, complete Seleucia silhouette, confluence, small Ctesiphon, observer, and gnomon fully visible with generous breathing room; no focal subject may touch any outer edge, and only continuous sky, distant plain, low vegetation, or foreground terrace may naturally continue beyond the frame.",
+      "visualQaNotes": "Inspected at native resolution. The continuous Babylon-to-Seleucia geography keeps Babylon's complete empty wall circuit, quays and temple, the living confluence city, smaller Ctesiphon settlement, observer, and gnomon fully internal. No text, pseudo-writing, split panel, border, or clipped focal object was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:27",
+      "title": "THE TIGRIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c027.png",
+      "sha256": "917389295cfced3394d2087085a87da2164ab5d1863331b7ff333d304275b98a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5d1f1d50-5de3-40a5-a881-f02de078b3ec",
+      "outputArtifact": "built-in-imagegen://exec-5d1f1d50-5de3-40a5-a881-f02de078b3ec.png",
+      "exactFinalPrompt": "Make one precise object-count edit to this high-key Lake Arethusa Plinian folio. Preserve every part of the landscape and the existing naturalist unchanged. The image currently has one complete terracotta amphora beside the naturalist. Add exactly one additional complete sealed amphora on the open pale ground to the right of the existing amphora, slightly smaller and separated from it by a clear hand-width of visible ground. The final image must show exactly two pottery vessels total: two distinct whole amphora bodies, two distinct necks, and two distinct pairs of handles, neither overlapping the other or the person. Do not add any third jar, cup, pot, container, person, animal, cave, or structure. Preserve the complete lake, shore, cyan river ribbon, source pool, small cave mouth, fish schools, huge pale meadow, rose hills, 1536x1024 composition, and the hand-ground chalk, ochre, azurite, lapis, verdigris, madder, shell-gold, egg tempera and watercolor over rough warm parchment, iron-gall, weathered-yet-polished folio style. No text, pseudo-writing, labels, signature, watermark, border, panels, cutaway, floating object, duplicate observer, or white outside area.",
+      "visualQaNotes": "Inspected at native resolution. The high-key Lake Arethusa scene contains the complete lake and shore, internal source pool, distinct cyan Tigris ribbon, small cave mouth, separated fish schools, one observer, and exactly two complete amphorae. No water or focal subject touches an edge; no text, diagram, border, or modern claim was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-81d33172-c139-4edd-b934-8790c2e5024a.png",
+          "sha256": "0f8e7a2f19009c6a823924c349383c4870b0588a66965ca968a4ea07e89146b5",
+          "reason": "Rejected after native QA because the upper lake and lower river outflow visibly met outer image boundaries."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-7521742f-b3eb-4acb-a728-964adf163ad6.png",
+          "sha256": "152bbd56b14e116b44347eb9f63adb79d948c93098285e6ede1d1a9b3df424c3",
+          "reason": "Rejected after native QA because a thin turquoise rivulet continued through the bottom boundary."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-d340b382-bb9c-47db-90ef-fbce2265589c.png",
+          "sha256": "8e5045bd969b13b966ec1bb5d2f717acacf2402b3eaad8c5c90c16c415684a99",
+          "reason": "Rejected after native QA because the redirected stream still continued through the right boundary."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-c57e3e10-f279-4a45-9c6a-c1de36992b2f.png",
+          "sha256": "2771cdec9b8245b6bee23d97d0d587d7fdece906477c39970e0f71766d05bd5a",
+          "reason": "Rejected after the live collection audit because its nearest grayscale MAD was 18.89, below the campaign minimum of 20."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-11085167-c7e0-4883-bfae-80a63d62e19f.png",
+          "sha256": "e2f8bb5bf5ec6e0470a70c1d68fc0e2a04c14bda4a5f17e722eb727e099deecf",
+          "reason": "Rejected after native QA because the foreground read as three pottery vessels rather than the requested two."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-5cdb7ef8-e784-43d4-9e37-baaa42c69e8c.png",
+          "sha256": "08c68646028e4121eda5219768812e43853f3af31fcb866ce25e8aca7d1e9d1a",
+          "reason": "Rejected after native QA because the count correction overreduced the foreground to one amphora rather than two."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:28",
+      "title": "ARABIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c028.png",
+      "sha256": "f62f647722221f62fa22082f690d86e6bf0ff21f6c09c930fa395576603b4d2f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-d5fd4833-3e16-40dd-9187-f1429b82da2a",
+      "outputArtifact": "built-in-imagegen://exec-d5fd4833-3e16-40dd-9187-f1429b82da2a.png",
+      "exactFinalPrompt": "Edit this beautiful living-Petra Plinian folio while preserving the entire rose-red canyon city, complete mountain enclosure, stream, gardens, three black goat-hair tents, goat flock, both roads, cool dawn light, mineral-pigment texture, and left caravan unchanged. Make one exact correction to the lower-right caravan: it currently contains four camels. Remove the small extra camel nearest the far-right side and replace it seamlessly with open sandstone path and low scrub. The lower-right caravan must contain exactly three complete camels and exactly two complete human travelers, all separated clearly and surrounded by visible ground, with no animal or person touching the image boundary. Keep the lower-left caravan at exactly three complete camels and two travelers. Do not add or remove any other people, camels, tents, buildings, water, or focal objects. Maintain historically plausible Roman-era Petra and the original hand-ground red ochre, madder, cinnabar, lapis, malachite, lampblack, chalk, sparse gold, egg tempera and watercolor over rough warm parchment, iron-gall detail, ancient, timeless, rough-and-polished codex style. Keep 1536x1024 landscape, one continuous scene, full bleed. No text, pseudo-writing, labels, border, panels, modern tourists, duplicate objects, fantasy, or white outside area.",
+      "visualQaNotes": "Inspected at native resolution. The living Petra basin, enclosing canyon, stream, gardens, three goat-hair tents, flock, and two complete three-camel/two-traveler caravans form one internally framed historical landscape without text, panels, border, fantasy, or modern tourism.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9ef8b5e6-68a2-43e1-a760-11c2874acdb9.png",
+          "sha256": "3f9b06e13dd035fae55a57c915f16162c998c80e7d76f20f7f5aee1120dea5c4",
+          "reason": "Rejected after native QA because the lower-right caravan contained four camels rather than the requested three."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:29",
+      "title": "TROGLODYTICE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c029.png",
+      "sha256": "5c9ba5908eb4c0f6760ce02b25bf5d6e77a3bebfd20a198fbc1faf0c36977e01",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-54339753-e35d-4420-891a-60180d6fb590",
+      "outputArtifact": "built-in-imagegen://exec-54339753-e35d-4420-891a-60180d6fb590.png",
+      "exactFinalPrompt": "Create a fresh, independently composed single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book VI chapter 29, Troglodytice, focused on Ptolemais Epitheras and ancient shadow measurement. Use an airy high-key side view at blazing overhead noon. Place one complete small Ptolemais-like coastal settlement in the upper-left middle ground, surrounded on all sides by dry open land and connected to one small complete harbor. Place one complete oval Lake Monoleus in the center, its entire acacia-lined shoreline visible. On the upper-right middle ground, two complete African elephants stand peacefully in a forest clearing, with no hunting or captivity. A coral-red five-ridged mountain rises behind them and a narrow distant Red Sea band sits below a vast nearly white sky. In the open central foreground, exactly one complete ancient geometer kneels beside one complete vertical gnomon on a circular patch of pale sand; the gnomon has an exceptionally short noon shadow and the person holds a plain taut measuring cord with no markings. Reserve the entire lower 12 percent and both lower corners for nothing but clean, unmarked pale sand, tiny natural stones, and low scrub. There must be absolutely no signature, initials, artist mark, calligraphy, letters, symbols, decorative strokes, or pseudo-writing anywhere—especially not at bottom right. Treat the shadow account as transmitted ancient observation, not modern proof. Historically plausible northeast African Red Sea coast; no caricature, hunting, army, modern instrument, fantasy, or invented inscription. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground chalk, pale sand, coral-red ochre, faded lapis, hot turquoise, verdigris, malachite, lampblack, and sparse shell-gold, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall natural-history contours, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent scene only, not a diagram, map, montage, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, pseudo-writing, captions, signature, watermark, decorative border, internal frame, duplicate people, duplicate gnomons, floating objects, or white/page-colored outside area. Keep the complete town, harbor, lake shoreline, both elephants, geometer, gnomon, cord, and mountain group wholly visible with generous breathing room; no focal subject or lake water may touch any outer edge.",
+      "visualQaNotes": "Inspected at native resolution. The high-noon Troglodytice scene contains a complete internal settlement and harbor, whole Lake Monoleus shoreline, two peaceful elephants, five-ridged mountain, one geometer, gnomon, and cord. It is free of signature, text, clipped focal subjects, hunting, panels, or modern-instrument claims.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-bb01c3f9-349f-48ea-9f52-d111fd2c47ac.png",
+          "sha256": "67c6f6952b7d0e01a83d801cb7a8b4559eda5304d3e62c0aea1a9410726fd52e",
+          "reason": "Rejected after native QA because generated signature-like writing appeared at bottom right and the settlement grazed the left boundary."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-a59ea9c8-ade9-48c4-9336-2539f893d336.png",
+          "sha256": "9780074d0bc48a0a2b8b5bd62090929deb95fe93e6c17a7d89aedf261593ccc6",
+          "reason": "Rejected after native QA because the edit retained a signature-like mark at bottom right despite correcting the settlement framing."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:30",
+      "title": "ÆTHIOPIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c030.png",
+      "sha256": "83cb3bf4409f95844760dcecb89bee8b5d2f0d6e942d8ae6edc20c994ecdab45",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c95fb714-3231-4360-b106-d0ee881a083a",
+      "outputArtifact": "built-in-imagegen://exec-c95fb714-3231-4360-b106-d0ee881a083a.png",
+      "exactFinalPrompt": "Create a single continuous landscape illustration for Pliny the Elder, Naturalis Historia, Book VI chapter 30, Aethiopia, centered respectfully on the island-city of Meroë described later in the chapter. At rich copper evening after the Nile flood, show the complete long green island of Meroë held between two branching blue Nile channels, its entire near and far tips visible inside the composition. A compact complete living Meroitic city of mud brick and red sandstone occupies the island, with a modest temple precinct, workshops, riverside gardens, and a small group of steep complete royal pyramids set back on dry ground; do not depict a modern ruin site. On a broad interior river terrace in the foreground, portray one dignified complete Meroitic queen identified only visually as a Candace by her royal dress and posture, accompanied by exactly two complete local scholars observing the river and sky; they hold plain staffs and an unmarked measuring cord, no written tablet. One complete papyrus boat crosses an internal channel. In the distant green margin, include two tiny complete elephants and one complete rhinoceros peacefully moving among acacias, and one complete parrot flying well inside the sky, all subordinate to the human landscape. Explicitly do not visualize Pliny's dehumanizing or fabulous hearsay about malformed peoples; this image should honor the region's city, learning, ecology, and sovereignty. Historically plausible Meroitic Northeast Africa; no Roman conquest scene, caricature, fantasy, oversized animals, or invented inscription. Use saturated Nile green, lapis water, copper-red earth, madder textiles, deep violet shadows, and a gold-pink sky. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground malachite, verdigris, lapis, red ochre, madder, lampblack, chalk, and sparse burnished gold, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall architecture, botanical, textile, and animal linework, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent scene only, not a map, diagram, montage, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, hieroglyph-like marks, inscriptions, pseudo-writing, captions, decorative border, internal frame, duplicate people, duplicate boats, floating objects, signature, watermark, or white/page-colored outside area. Keep the entire island, both river channels, city silhouette, pyramids, queen, two scholars, boat, elephants, rhinoceros, and parrot fully visible with generous breathing room; no focal subject may touch an outer edge, and only continuous sky, distant dry plain, and non-focal foreground earth may naturally continue beyond the frame.",
+      "visualQaNotes": "Inspected at native resolution. The copper-evening Meroe scene keeps the island and Nile channels, living city, pyramids, queen, two scholars, boat, restrained wildlife, and parrot complete and internal. It respectfully avoids Pliny's dehumanizing hearsay and contains no text, caricature, panel, border, or clipped focal subject.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:31",
+      "title": "ISLANDS OF THE ÆTHIOPIAN SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c031.png",
+      "sha256": "062e7c592a6249a2df48f0e756367b064e57067e0f2979dc1f6856c31a373d15",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c0471fdd-1f7e-4ba0-aada-2e685b320dd4",
+      "outputArtifact": "built-in-imagegen://exec-c0471fdd-1f7e-4ba0-aada-2e685b320dd4.png",
+      "exactFinalPrompt": "Create a single continuous seascape illustration for Pliny the Elder, Naturalis Historia, Book VI chapter 31, the islands of the Aethiopian Sea. At pearly dawn from a low water-level viewpoint, show three distinct complete islands scattered across one continuous calm ocean, each fully separated by visible water and wholly inside the frame. The nearest is a small complete inhabited Cerne-like island with a compact respectful Northeast African fishing settlement, a freshwater grove, gardens, and one complete curved beach. Behind it rises a second complete steep island with one aromatic forest covering a sacred-looking mountain—not a temple or supernatural place, simply dense myrrh-like and flowering trees catching the dawn. Farther away stand three tiny complete bare column-shaped islets as a natural navigation limit, softened by mist. Exactly one complete ancient sewn-plank trading vessel with a square sail and four tiny crew moves between the islands; it carries baskets and one horse calmly standing amidships, quietly evoking the transmitted report of island wealth without showing gold, transaction, or spectacle. Present the geography as uncertain ancient testimony: distant shorelines dissolve into luminous haze, but do not depict Gorgons, human skins, monsters, dehumanizing caricatures, or literal myths. Use opalescent sea-green, pale lapis, lavender mist, coral sunrise, dark aromatic grove, and restrained gold reflections. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground lapis, azurite, verdigris, malachite, madder, chalk, lampblack, and sparse shell-gold, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall ship, coast, and botanical linework, subtle salt abrasion, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent seascape only, not a map, diagram, montage, triptych, collage, framed miniature, split panel, or repeated island stamp. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, inscriptions, pseudo-writing, labels, decorative border, internal frame, duplicate ship, duplicate horse, floating objects, signature, watermark, or white/page-colored outside area. Keep every complete island shoreline, the aromatic mountain, all three column islets, ship, mast, sail, crew, horse, and settlement wholly visible with generous breathing room; no focal subject may touch an outer edge, and only continuous sea and sky may naturally continue beyond the frame.",
+      "visualQaNotes": "Inspected at native resolution. The continuous pearly seascape contains complete Cerne-like and aromatic-mountain islands, three column islets, one ship, four crew, one horse, and a respectful settlement, all internally framed. Uncertain testimony is conveyed through mist without literal monsters, text, panels, border, or repeated island stamps.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:32",
+      "title": "THE FORTUNATE ISLANDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c032.png",
+      "sha256": "5acee8940934ca46d16593dab86e8b870713237e2cbffbcdbe60ee1019544ed2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8205fe71-7b13-47f8-8470-ebad1fd1b059",
+      "outputArtifact": "built-in-imagegen://exec-8205fe71-7b13-47f8-8470-ebad1fd1b059.png",
+      "exactFinalPrompt": "Edit this dramatic Fortunate Islands Plinian folio while preserving the complete caldera lake, black and rust volcanic rim, two complete pale-and-black giant-fennel plants, distant snow-covered Ninguaria island, storm opening, fruit vegetation, palms, birds, two lizards, cool wet palette, and mineral-pigment texture. Make two exact framing corrections. First, remove the foreground stream segment that reaches the bottom boundary. Redirect the internal stream in the lower-left middle ground into one small complete papyrus pool hidden partly behind vegetation, with its whole water perimeter well inside the image; fill the entire lower 12 percent and bottom edge with uninterrupted dry black volcanic rock, rust soil, moss, and low plants. Absolutely no water may touch any outer edge. Second, move both large lizards slightly upward and left onto a broad internal lava shelf and reduce them just enough that each entire body, every foot, and the full tip of each long tail is clearly visible with open rock around it; no lizard part may touch the right or bottom boundary. Keep exactly two lizards. Do not change the lake shoreline, giant-fennel forms, snow island, or weather. Maintain 1536x1024 landscape, one coherent ancient natural-history folio, hand-ground lapis, azurite, malachite, verdigris, red ochre, charcoal, chalk, sparse shell-silver/gold, egg tempera and watercolor over rough warm parchment, iron-gall botanical/geological detail, weathered yet polished. No text, pseudo-writing, label, signature, watermark, border, panels, modern object, fantasy, duplicate lake, duplicate plant, duplicate lizard, or white outside area.",
+      "visualQaNotes": "Inspected at native resolution. The rain-washed volcanic scene contains the complete caldera lake, two full giant-fennel forms, an internal papyrus pool, two complete lizards and tails, and the complete snowy Ninguaria-like island. No focal water or animal touches an edge; no text, panel, border, signature, or fantasy element was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9f037a3a-8312-497d-bcd5-d40a8218fc22.png",
+          "sha256": "fd4d20cec192a33592fdc8a6959987fc64959026001a82375d528162d5d0f9b3",
+          "reason": "Rejected after native QA because the foreground stream met the bottom boundary and a lizard tail sat too close to the right edge."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "editionId": "naturalis-historia-living-codex",
+  "version": "2026.08.24-rc.1",
+  "releaseDate": "2026-08-24",
+  "origin": "https://naturalishistoria.org",
+  "originStatus": "intended-canonical-origin-not-deployed",
+  "publicIndexing": true,
+  "accessMode": "public",
+  "deploymentStatus": "not-deployed-or-authorized",
+  "mediaRightsSummary": "47-plate-masters-plus-social-card-source-bound-agpl-3.0-cleared",
+  "legacyMasterReconciliation": {
+    "count": 31,
+    "completed": "2026-08-26"
+  }
+}

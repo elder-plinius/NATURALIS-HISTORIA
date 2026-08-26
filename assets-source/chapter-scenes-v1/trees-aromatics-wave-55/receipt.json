@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-55",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "note": null,
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 514,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "4:10": {
+        "nearestMAD": 23.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c021.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c006.png",
+        "madAtDHashPeer": 40.5
+      },
+      "4:11": {
+        "nearestMAD": 24.39,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c013.png",
+        "madAtDHashPeer": 50.51
+      },
+      "4:12": {
+        "nearestMAD": 22.87,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c010.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c005.png",
+        "madAtDHashPeer": 49.03
+      },
+      "4:13": {
+        "nearestMAD": 28.84,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c084.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b16-c044.png",
+        "madAtDHashPeer": 42.92
+      },
+      "4:14": {
+        "nearestMAD": 26.29,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c102.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c059.png",
+        "madAtDHashPeer": 56.29
+      },
+      "4:15": {
+        "nearestMAD": 21.46,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-37/b24-c008.png",
+        "madAtDHashPeer": 27.23
+      },
+      "4:16": {
+        "nearestMAD": 25.14,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c012.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "madAtDHashPeer": 52.98
+      },
+      "4:17": {
+        "nearestMAD": 24.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c014.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c016.png",
+        "madAtDHashPeer": 35.76
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "4:10",
+      "title": "MACEDONIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c010.png",
+      "sha256": "94386f8a2a7c55e6c3b8e0d186acde28936b12cb659908a3d0d13140bf5f787f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-414415e9-6177-400d-aaad-703833fcd3b4",
+      "outputArtifact": "built-in-imagegen://exec-414415e9-6177-400d-aaad-703833fcd3b4.png",
+      "exactFinalPrompt": "Create a third revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 10, \"Macedonia.\"\n\nSimplify completely: no river, lake, lagoon, bay, sea, coast, road, bridge, or water of any kind.\n\nScene: a solemn ground-level-to-medium-high view over the royal burial place at Aegae at pale violet dawn. Exactly two complete ancient earthen tumuli of unequal size occupy the central third, each fully visible from base to crown and each with one small complete uninscribed ashlar entrance facade. Behind and around them is one fully contained oval Pierian sacred grove of plane trees and oaks; every trunk and crown is distinct and comfortably inside the image. Far left in the middle distance, one compact complete ancient Macedonian town rests on a low rise, all exterior walls, gate, roofs, and hill base visible. Three layered complete mountain masses rise across the background below a wide luminous sky, suggesting Rhodope, Scopius, and Orbelus. Exactly one complete ancient naturalist stands small in the lower-right interior on open dry meadow, hands lowered, observing the burial landscape. The atmosphere conveys Macedonia's accumulated geography and royal memory, not conquest: no monarch portrait, army, weapons, procession, horses, crowd, or modern archaeology.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV Plinian folio. Fine iron-gall contours, delicate botanical and architectural cross-hatching, mineral stipple and translucent washes—cool violet mountain haze, bone-white stone, wheat ochre, faded malachite leaves, restrained muted madder—subtle abrasion, salt-grain and foxing integrated into the painted surface. Roman encyclopedic reflection through Renaissance naturalist precision, luminous dawn, spacious negative meadow and sky, restrained grandeur. One continuous landscape, never collage, map, diagram or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, whole frame painted. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, or panels. Keep both tumuli and facades, every grove tree, complete town, naturalist and all focal mountains at least 8 percent inward from every edge. Every edge must contain only uninterrupted empty meadow or open sky; no building, mound, person, tree, branch, rock, path, object, or vegetation cluster may touch or be severed by an edge. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, maps, compass roses, routes, banners, or captions. No duplicated or floating objects. Exactly two tumuli, one grove, one town, one naturalist, three background mountain masses. Convincing ancient architecture, botany, scale and anatomy.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The solemn Aegae landscape contains exactly two complete unequal tumuli and uninscribed facades within one fully framed Pierian grove, one complete distant town, three mountain masses and one complete observer. No clipped focal subject, water, conquest scene, text, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-139f7af3-940c-4585-bdfc-21f9bf0b9c4f.png",
+          "sha256": "b30b5dbc0fb781f35e6b203c43bc4f3264e045900b16b0fdac2e54aaf6ebc604",
+          "reason": "Rejected after native QA because both watercourses and a foreground tree entered or were severed by canvas edges. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-26dc2de0-59a9-4766-986b-2f18c1af39ac.png",
+          "sha256": "368b085c0b526f30d3bfbd531227a71b5584f7f3bb2cf3047146d72508c2f182",
+          "reason": "Rejected after native QA because the otherwise complete burial landscape allowed the Aegean bay and coast to continue through the right edge. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-a0553b06-dda6-49ba-8825-1dfc86a1eee7.png",
+          "sha256": "33b01f863e52c0aecaa27b5f7e550f72349b6dd1b13f91f1b068a96ebc827ea1",
+          "reason": "Rejected after native QA because the river continued through the left edge and remained visibly disconnected from the separate lagoon, violating the hydrology brief. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:11",
+      "title": "THRACE; THE ÆGEAN SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c011.png",
+      "sha256": "bad8c960f3b3f9a5b68ae08c1b36844617539ef473b0e3385b2444e5921c44cd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-bc616f70-dce7-4a03-ac19-e1bdedbb86eb",
+      "outputArtifact": "built-in-imagegen://exec-bc616f70-dce7-4a03-ac19-e1bdedbb86eb.png",
+      "exactFinalPrompt": "Create a revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 11, \"Thrace; the Aegean Sea.\"\n\nMandatory composition: a near-vertical bird's-eye view with no sky and no horizon. A wide border of uninterrupted pale winter ground surrounds all focal features on every side. In the exact center stand exactly three complete separate rounded hills aligned in a shallow arc, each carrying one compact portion of one ancient city. Exactly two complete small stone arches connect neighboring hill precincts, making the three settlements read as Trimontium, \"the city of three hills.\" All walls, roofs, hills, and both connectors remain fully visible.\n\nOne complete silver-blue Hebrus river begins in one small visible upland pool in the upper-left interior, sweeps down and around all three hills in one broad horseshoe curve, then ends in one complete amber reed marsh in the upper-right interior. Both endpoints and every riverbank are surrounded by broad dry ground. In the lower-center interior, exactly one tiny complete ancient geographer stands on open ground looking toward the three hills. Fine contained winter fields and tiny internal smoke wisps suggest habitation. No foreground objects, no mountains, no crowd, battle, army, ethnic caricature, or imperial spectacle.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV Plinian folio, unusually cool and graphic while remaining observed terrain rather than map. Fine iron-gall contours, winter cross-hatching and stipple, translucent mineral washes—bone snow, storm silver, deep faded lapis, cold verdigris, plum-madder roofs, umber earth, restrained aged-gold reeds—subtle abrasion and foxing integrated into the image surface. Roman encyclopedic breadth through Renaissance naturalist precision, severe negative space, museum-grade finish. One unified continuous terrain scene, never collage, map, diagram, or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted terrain. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, arrows, or cutaway. Keep all three complete hills, every city wall/building, both connectors, entire horseshoe river and both endpoints, marsh, geographer, smoke wisps, fields and discrete plants at least 10 percent inward from every edge. Every edge must contain only empty pale ground; no water, building, person, bridge, tree, branch, smoke, rock, path, field row, or object touches or is cut by an edge. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, maps, compass roses, routes, banners, or captions. No duplicated or floating objects. Exactly three city hills, two connectors, one river, one upland pool, one marsh, one geographer. Convincing ancient architecture, hydrology, scale and anatomy.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key winter terrain contains exactly three complete city hills joined by two stone arches, one complete Hebrus course from upland pool to reed marsh, and one tiny complete geographer. All focal elements are surrounded by pale ground; no clipped water, text, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6bd5db11-3c06-401d-9c78-6c2b08050d03.png",
+          "sha256": "633d9d576817b406194f09f91b9e0dac5101f94c6dc5044eb574b68484b85f1c",
+          "reason": "Rejected after native QA because the broad Hebrus bend continued through the lower-right canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:12",
+      "title": "THE ISLANDS WHICH LIE BEFORE THE LANDS ALREADY MENTIONED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c012.png",
+      "sha256": "994aafc0e010d810dc22288f109d1ed8ebe1f51114bbe6dabf35b67f242d1f86",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-044ecd33-3d1f-472a-bb26-797cea4369b3",
+      "outputArtifact": "built-in-imagegen://exec-044ecd33-3d1f-472a-bb26-797cea4369b3.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 12, \"The Islands Which Lie Before the Lands Already Mentioned.\"\n\nSubject: Pliny's Ionian island world opposite Epirus, centered on Corcyra and the optical story of Ulysses' ship-shaped rock, presented as natural resemblance rather than literal metamorphosis. Use a high oblique view over deep teal sea at rose-and-pearl morning. One large complete elongated Corcyra island lies diagonally across the center, every cape and shoreline fully visible with open water around it. On the island, one compact complete ancient city and harbor rest well inside the eastern shore, with olive groves and a pale ridge. Below Corcyra lie exactly two separate small complete Paxos islands, both wholly encircled by water. Off one contained cape stands exactly one low complete natural sea-rock whose silhouette subtly resembles a beached ancient ship—stone, not an actual vessel, with no mast, sail, people, glow, or magic. Several much tinier complete distant islets may form a restrained constellation in the upper distance, each isolated and unlabelled. No real boat is shown.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV Plinian maritime folio. Fine iron-gall coastline contours, sea stipple and delicate botanical cross-hatching, translucent mineral washes—deep oxidized teal, faded lapis, rose madder dawn, limestone white, olive malachite, warm umber, restrained aged-gold glints—subtle salt abrasion, foxing, and weathered fresco grain within the image surface. Roman encyclopedic wonder through Renaissance naturalist precision, lucid atmospheric depth, generous open water, museum-grade finish. One unified seascape, never map, collage, or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted seascape. Open sea may continue through the outer canvas, but every island, cape, city, harbor, tree cluster, and ship-shaped rock must remain complete with a broad ring of visible water around it; no focal shoreline or object may touch or be cut by any edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, diagram, or map. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, compass roses, routes, arrows, banners, or captions. No actual boat, floating architecture, duplicated island, giant wave, or literal metamorphosis. Exactly one large Corcyra, two Paxos islands, one ship-shaped natural rock, one city and harbor. Convincing ancient settlement scale, geology, botany and water.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Corcyra is wholly encircled by open water with one complete city and harbor, exactly two complete Paxos islands and one complete natural ship-shaped rock; all distant islets are internal. No actual vessel, literal metamorphosis, clipped shoreline, text, panel, border, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:13",
+      "title": "GERMANY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c013.png",
+      "sha256": "672868d678128feaa42cd9048177a3e6f567a6a66b63088907d1ca6b4c5fb6ca",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3ceb181f-6fc8-4b38-9e0d-db3952595335",
+      "outputArtifact": "built-in-imagegen://exec-3ceb181f-6fc8-4b38-9e0d-db3952595335.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 13, titled \"Germany\" but opening with the Euxine and the Cyanæan islands before Pliny turns toward the Northern Ocean.\n\nSubject: Pliny's rational observation behind the Symplegades story. From a low complete stone lookout terrace above the Thracian Bosporus at mist-silver dawn, show exactly two complete dark Cyanæan rock islands in the central sea. They are separate geological masses with a thin but visible strip of water between them; their oblique silhouettes overlap just enough to explain why a vessel changing angle might see them seem to merge. Exactly one complete ancient naturalist stands on the internally framed terrace, one hand shading the eyes, studying the optical effect. Far beyond, the Euxine opens as cold blue water beneath a band of pearl haze. A few seabirds may be tiny contained accents. No actual ship, collision, moving rocks, gods, monsters, or literal magic; the picture honors Pliny's shift from fable to natural explanation.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV Plinian maritime folio. Fine iron-gall rock contours, sea stipple, subtle geological cross-hatching, translucent mineral washes—storm silver, faded lapis, charcoal basalt, pearl white, muted plum, umber stone, restrained aged-gold dawn glints—salt abrasion and foxing integrated into the image surface. Roman empirical curiosity through Renaissance naturalist precision, vast negative sea and sky, cool luminous atmosphere, museum-grade finish. One unified seascape, never collage, map, diagram, or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, whole frame painted. Open sea and sky may continue through the outer canvas, but both rock islands, the entire lookout terrace including every corner and support, the complete naturalist, and every bird must remain comfortably inside with clear water or sky around them. No focal rock, person, terrace, bird, or discrete object may touch or be cut by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, or panels. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, compass roses, routes, arrows, banners, or captions. No boat, duplicated island, giant wave, floating architecture, or supernatural motion. Exactly two rock islands, one terrace, one naturalist. Convincing geology, optics, ancient masonry, scale and anatomy.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The cool Euxine observation scene contains exactly two separate complete Cyanæan rock islands with a narrow visible water slit, one complete observer, and a complete internally framed lookout terrace. No ship, moving rocks, magic, clipped focal subject, text, panel, border, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:14",
+      "title": "GERMANY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c014.png",
+      "sha256": "8f1c5a334a5d87a41a64ebd3290dc9b6e2c7a2613a537ac332831a0a51035726",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-24c8f741-fb78-40ca-8415-fdbd6f644774",
+      "outputArtifact": "built-in-imagegen://exec-24c8f741-fb78-40ca-8415-fdbd6f644774.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 14, \"Germany.\"\n\nSubject: the immense Hercynian range and the famous rivers descending toward the northern ocean, portrayed as observed geography without ethnic stereotype. From a high, internally framed forest saddle at rain-washed green dawn, center one immense complete ancient beech-oak with a broad sculptural crown and exposed roots, fully visible from root tips to highest leaves; it gives scale to the forest Pliny calls inferior to none in grandeur. Behind it, a long complete dark Hercynian ridge rolls across the middle distance, its slopes covered in layered mixed forest. Through five separate openings in the forest canopy, several fine complete silver river reaches curve across the distant lowland toward one narrow misty ocean band, but no river is diagrammatic and no exact modern course is claimed. Exactly one very small complete ancient naturalist stands beside the great tree with a simple staff, emphasizing human scale. Moss, ferns, rain-dark stone and amber leaf litter are botanically precise. No villages, tribal portraits, army, weapons, battle, animals, or modern national symbolism.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV northern Plinian folio with a forest-specific dialect. Dense iron-gall botanical contouring, meticulous leaf cross-hatching and rain stipple, translucent mineral washes—deep malachite, black-green, wet umber, silver-lapis rivers, amber leaf litter, bone mist, restrained madder cloak—subtle abrasion, foxing and rubbed fresco grain integrated into the image. Roman encyclopedic awe through Renaissance naturalist precision, moist luminous depth, cathedral-like woodland negative space, museum-grade finish. One continuous landscape, never collage, map, diagram or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, whole frame painted. The great tree, all roots and crown, naturalist and staff, complete ridge silhouette, every distinct river reach, nearby fern, rock and focal sapling must remain fully inside with breathing room. Background forest and sky may continue naturally, but no focal object may touch or be cut by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, map, heraldry or flags. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, compass roses, routes, arrows, banners, or captions. No duplicated tree or floating object. Exactly one great central tree, one naturalist, one staff, one long ridge, one distant ocean band. Convincing botany, hydrology, scale and anatomy.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One immense complete beech-oak and exposed root system dominates the rain-dark Hercynian view, with one complete naturalist and staff, a continuous forest ridge, several distant river reaches and a misty ocean band. The cropped corner foliage reads only as continuous background canopy; no focal subject, text, flags, panel, border, signature or watermark was clipped or present.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:15",
+      "title": "NINETY-SIX ISLANDS OF THE GALLIC OCEAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c015.png",
+      "sha256": "2a662b65eb9ff29ddd448525a8c8611bbafeb5115337a643d01736b0017f5f3d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9435b6a0-0035-4567-a4d6-ca92d648e529",
+      "outputArtifact": "built-in-imagegen://exec-9435b6a0-0035-4567-a4d6-ca92d648e529.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 15, \"Ninety-Six Islands of the Gallic Ocean.\"\n\nSubject: the Rhine spreading among the Batavian and Frisian islands between its named mouths. Use a near-vertical bird's-eye view over a self-contained tidal wetland with no sky or horizon. One broad complete river enters the upper interior from a visible oval upstream pool, then divides naturally around one large complete central Batavian island into exactly three complete channels. The left channel ends in one contained western lagoon suggesting the Mosa; the right channel ends in one contained northern lake suggesting Flevum; the much narrower middle channel ends in one small contained tidal basin and visibly preserves a modest course. Between and beside the channels lie many small complete reed-and-alder islands, each wholly surrounded by water, while the large central island carries subtle fully contained meadow plots and willow groves. Render the network as lived hydrology with currents, silt bars, reeds, nesting birds and wind, not as a labeled diagram. No towns, armies, tribal portraits, flags, boats, or modern engineering.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV northern Plinian wetland folio. Fine iron-gall water and botanical contours, reed cross-hatching, current and silt stipple, translucent mineral washes—pewter blue, cold verdigris, marsh amber, bone silt, black-green alder, restrained madder-brown—subtle abrasion, tide stains and foxing integrated into the painted surface. Roman encyclopedic breadth through Renaissance naturalist precision, airy negative water, exquisite wetland ecology, museum-grade finish. One continuous observed terrain, never map, diagram, collage or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted terrain. Surround the entire delta system with a broad belt of pale dry ground on all four edges. Keep the complete upstream pool, all three full channels and all three terminal basins, the entire large island, every small island, reed bed, tree, silt bar and bird at least 8 percent inward from every image edge. No water, island, plant, field row, bird or focal object may touch or be severed by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, map symbols, arrows or diagram. No text, letters, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, compass roses, routes, banners, or captions. No duplicated or floating land. Exactly one upstream pool, one large central island, three channels and three terminal basins. Convincing tidal hydrology and botany.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The self-contained Rhine wetland has one complete upstream pool, one large central Batavian island, three natural channels ending in three internal basins, and many individually water-surrounded reed islands. No water or island reaches an edge; no town, boat, diagram, text, panel, border, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:16",
+      "title": "BRITANNIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c016.png",
+      "sha256": "689c6943a6fcfe52f2235521af862006f70f565d58a0cbf974d67ced3697f3af",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5989369d-d8b8-45ef-8e66-f814faf79808",
+      "outputArtifact": "built-in-imagegen://exec-5989369d-d8b8-45ef-8e66-f814faf79808.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 16, \"Britannia.\"\n\nSubject: Britannia/Albion as Pliny's partly known island world, with his uncertainty made visible rather than falsely mapped with modern precision. Use a very high oblique oceanic panorama under pearl storm light. One large complete irregular Albion landmass occupies the center, every shoreline fully visible with a broad ring of cold sea around it. Its near southern edge has luminous chalk cliffs; inland are ochre downs and river valleys; the far northern third dissolves into a dense dark Caledonian forest and blue mist, suggesting the frontier of contemporary knowledge. Behind and to the west lies one smaller complete Hibernian island, also wholly encircled by water. In the far north, a restrained cluster of tiny complete rocky islands suggests the Orcades, all separate and internal. Exactly one very small complete ancient sailing vessel crosses the open channel near the southern cliffs, with hull, mast, yard and furled sail all visible. This is an ancient geographic imagination, not a measured modern satellite map; do not reproduce exact modern borders.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV Plinian oceanic folio. Fine iron-gall coast contours, sea stipple, botanical and relief cross-hatching, translucent mineral washes—pearl gray, cold faded lapis, chalk white, moor ochre, black-green forest, muted heather madder, restrained aged-silver glints—subtle salt abrasion, rain bloom and foxing integrated into the image surface. Roman encyclopedic curiosity through Renaissance naturalist precision, immense oceanic atmosphere, mystery bounded by observation, museum-grade finish. One unified seascape, never modern map, collage, diagram or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted seascape. Open sea and sky may continue through the outer canvas, but the entire Albion landmass and every cape, all of Hibernia, each northern islet, complete vessel and all rigging must remain well inside with a generous water or sky ring. No focal shoreline, cliff, island, ship, mast, forest mass, or discrete object may touch or be cut by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, route lines, map symbols, modern roads or borders. No text, letters, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, compass roses, arrows, banners, or captions. No flags, army, conquest scene, modern city, duplicated island, giant wave, or floating terrain. Exactly one Albion, one Hibernia, one northern island cluster, one vessel. Convincing geology, ancient ship construction, scale and atmosphere.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The ancient oceanic panorama contains one completely water-ringed Albion with chalk southern cliffs and a misted Caledonian forest, one complete Hibernia, one internal northern islet cluster and one fully framed sailing vessel. No modern borders, clipped focal shoreline, text, panel, border, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:17",
+      "title": "GALLIA BELGICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c017.png",
+      "sha256": "e38fb50077df1d0001e0742efa345d349d2df1cc5a6a41111d63dbe28742a842",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-326c44c9-b51d-4b1c-a75e-6dd194c9ecd7",
+      "outputArtifact": "built-in-imagegen://exec-326c44c9-b51d-4b1c-a75e-6dd194c9ecd7.png",
+      "exactFinalPrompt": "Create a revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book IV, chapter 17, \"Gallia Belgica.\"\n\nMandatory framing: use a near-vertical bird's-eye viewpoint with no sky or horizon and a broad continuous belt of empty pale frost-gold meadow around all four edges. No water or field marks may reach the canvas boundary.\n\nScene: the river-defined land between Scaldis and Sequana as lived terrain, not a political map. Two completely separate river systems run vertically through the interior on opposite sides of one central inhabited ridge. The narrower left river begins in one small complete dark-green wooded spring pool near upper-left, makes two gentle bends, and ends in one complete silver reed basin near lower-left. The broader right river begins in one separate complete wooded spring pool near upper-right, makes one broad bend, and ends in one larger complete silver tidal basin near lower-right. All four pools and every bank are fully surrounded by dry ground. Exactly one compact complete timber-and-earth fortified settlement crowns the central ridge, with all ramparts, gate, round and rectangular roofs, and hill base visible. Contained orchards, coppiced woods, and irregular farm plots fill the land between the rivers. Exactly one tiny complete ancient geographer stands below the settlement beside one uninscribed stone. No crowd, army, battle, flags, conquest, portraits, or ethnic caricature.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book IV Plinian northern-regional folio. Fine iron-gall terrain, timber and botanical contours, frost stipple and delicate cross-hatching, translucent mineral washes—straw ochre, cold verdigris, silver-lapis water, black-green woodland, muted madder roofs, bone frost, restrained aged-gold—subtle abrasion, rain bloom and foxing integrated into the image. Roman encyclopedic breadth through Renaissance naturalist precision, severe negative ground, clear river rhythm, museum-grade finish. One continuous observed terrain, never political map, diagram, collage or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted terrain. Keep both complete rivers and all four endpoints, every pool and basin, the entire settlement and ramparts, every farm plot, orchard, geographer, stone, tree and focal hill at least 10 percent inward from every edge. Every edge must contain only empty unmarked pale meadow; no water, building, person, stone, tree, branch, field row, path, rock, or object may touch or be severed by an edge. No visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panels, routes, boundaries, map symbols or arrows. No text, letters, numerals, labels, inscriptions, signatures, watermarks, pseudo-writing, compass roses, banners, or captions. No duplicated or floating objects. Exactly two rivers, four endpoint pools/basins, one fortified settlement, one geographer, one uninscribed stone. Convincing ancient settlement, hydrology and botany.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Two fully separate river systems remain complete between four internal pools and basins around one fully contained timber-and-earth settlement, farms, orchards, one tiny geographer and one uninscribed stone. No river, field or focal object reaches an edge; no political markings, text, panel, border, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-240b1c5c-5b63-4955-9263-7cca02e229d0.png",
+          "sha256": "dc4a26fba71406e72b585cb272852bae1072f3e9fe89afe2692ef0959166273f",
+          "reason": "Rejected after native QA because both otherwise coherent rivers continued through and were severed by the bottom canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

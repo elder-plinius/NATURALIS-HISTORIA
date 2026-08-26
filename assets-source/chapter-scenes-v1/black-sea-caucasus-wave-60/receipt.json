@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "campaign": "black-sea-caucasus-wave-60",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "5:31",
+      "title": "THE ISLANDS WHICH LIE IN FRONT OF ASIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b05-c031.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "4aea08cf91a3d5e9b9f4c99b7bb5e43ae6774a733df228201ef49715b2cc895d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1abc4f34-2702-4999-ba3e-d0330f6fd2e8",
+      "generationArtifactId": "exec-1abc4f34-2702-4999-ba3e-d0330f6fd2e8",
+      "outputArtifact": "built-in-imagegen://exec-1abc4f34-2702-4999-ba3e-d0330f6fd2e8.png",
+      "exactFinalPrompt": "Create one independent full-resolution 1536x1024 landscape Plinian natural-history folio scene for Naturalis Historia, Book V chapter 31, “The islands which lie in front of Asia,” grounded in Pliny’s opening account of Canopus at the Canopic mouth of the Nile and Pharos joined by a bridge to Alexandria. Use a WARM COASTAL-SUNSET seascape with strong horizontal bands and no foreground framing plants or rocks: the upper half is a broad copper, madder, and pale-ochre cloud field; the lower half is a broad luminous pale-gold estuary with long ink-hatched reflections and open negative space. At the left middle distance, one completely isolated low rocky Pharos-like island carries one complete modest ancient beacon tower; one complete slender arcing stone causeway joins it to a compact, fully contained Alexandrian shore settlement at upper center-right. At far right middle distance, exactly one separate complete sandy Canopic island with a few fully contained low palms rests in the gold water. Exactly one complete Roman-era merchant vessel with a small madder-red square sail crosses the lower center reflection. All focal subjects must be isolated silhouettes with large blank-water or sky margins: keep the entire rocky island shoreline, tower, both terminals of the causeway, entire settlement, sandy island and every palm crown/trunk, and vessel including mast/sail/hull/oars wholly inside at least eight percent blank breathing room from every canvas edge. No object, vegetation, landmass, building, vessel, or cloud silhouette may be cropped by an edge. The setting sun itself remains outside frame; this is dusk daylight, not night, with no deep indigo, moon, or stars. Historical geography as an observed coastal landscape, not a map or diagram. Ancient Roman-era architecture and vessel only. House style: original deluxe Roman natural-history codex illumination on warm fibrous aged vellum with handmade irregularity; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless beauty, rough in material and polished in draftsmanship. One coherent full-bleed 3:2 scene readable at thumbnail and full-page scale. Absolutely no lettering, captions, labels, numerals, cartographic markings, pseudo-writing, signatures, logos, watermarks, visible page edges, decorative borders, panels, split frames, collages, repeated crops, modern objects, photography, glossy CGI, clipped subjects, or floating objects.",
+      "generationAttempts": 6,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-contrast copper-and-ochre dusk scene contains the complete Pharos-like island and beacon, both causeway terminals, compact Alexandrian shore settlement, separate complete Canopic island with palms, and one fully visible Roman-era merchant vessel. The scene is chapter-specific, compositionally distinct from the rejected nocturnal and pale aerial versions, and contains no text, pseudo-writing, modern object, panel, border, repeated crop, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-43b111b8-9c39-40dd-ae1a-742e1a979da5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b05-c031-attempt-01-extra-shoal.png",
+          "sha256": "d47bfa4a361ccf9e928886d1749d241f3448f3092e04488398cf375222db49c9",
+          "reason": "Rejected at original-resolution review because five sandy shoals appeared where the prompt required exactly four, failing the exact-count gate. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-7702386a-d2f2-40c5-bcbb-b829b62f6d96.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b05-c031-attempt-02-global-mad-collision.png",
+          "sha256": "d481e23c9801536196ed083af337481c550648166a9ad47b193029dba7de050b",
+          "reason": "Rejected by the live corpus-wide gate because its deep-indigo maritime nocturne collided with trees-aromatics-wave-59/b05-c026.png at grayscale MAD 18.13, below the required 20 threshold (dHash 24). The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-87d4fa30-ea77-4002-a3ea-c830938863a9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b05-c031-attempt-03-global-mad-collision.png",
+          "sha256": "a3ef7719ba5a8793f6e4683b8d3c0c1842afbad2142f7c325444e081e31c4b28",
+          "reason": "Rejected by the live corpus-wide gate because the pale high-oblique composition matched trees-aromatics-wave-52/b03-c014.png at grayscale MAD 19.94, below the required 20 threshold. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-3040fe61-4219-4d32-884b-e11816cbe89c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b05-c031-attempt-04-global-mad-collision.png",
+          "sha256": "ff65b434de47c0c581b545784433a12cdd40b8974be2475d8fd6fa7809b6d92a",
+          "reason": "Rejected by the live corpus-wide gate because the sea-level teal composition matched trees-aromatics-wave-41/b02-c005.png at grayscale MAD 18.04, below the required 20 threshold. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-4f620e50-8cbe-40e6-a72a-30e1f462ee28.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b05-c031-attempt-05-clipped-foreground-reeds.png",
+          "sha256": "4ce2b01c73e5f9635afe9570ae23fa71a0d2e5f3565744916e38a805da0be5c6",
+          "reason": "Rejected at original-resolution review because the foreground papyrus and rock framing was cut by the lower and lateral canvas edges, contrary to the complete-subject framing instruction. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:32",
+      "title": "THE HELLESPONT AND MYSIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b05-c032.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "6c4aaa10f8c663619033712bb8318fb3f052846cdc73d11fb295b3ca382c5afb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7560d88b-be35-4134-8171-e4c1cbf62e3b",
+      "generationArtifactId": "exec-7560d88b-be35-4134-8171-e4c1cbf62e3b",
+      "outputArtifact": "built-in-imagegen://exec-7560d88b-be35-4134-8171-e4c1cbf62e3b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book V chapter 32, “The Hellespont and Mysia”\nPrimary request: Ground the scene in Pliny’s opening description of the Hellespont gaining violent force, the sea undermining its shores with eddies as the narrow strait divides Asia from Europe near Abydos before widening into the Propontis. Show one plausible Roman-era shore landing in turbulent current, not a labelled map, geological diagram, battle, or exact reconstruction. At iron-gray morning from a LOW DIAGONAL SHORE VIEW, two complete opposing ochre headlands converge toward a narrow water throat in the upper-middle and then open into a broad dark-verdigris foreground reach. Their full visible cliff profiles and rounded tips remain inside the canvas with pale sky between them. Powerful but natural currents form three large counter-rotating eddies and long diagonal rip lines across the water; no arrows or symbolic geometry. In the lower-left-middle, exactly TWO complete adult shore workers in plain practical tunics stand on one fully contained short stone landing. Together they haul one complete thick mooring rope attached to exactly ONE complete small open skiff floating just off the landing. Show the whole skiff, bow, stern, four interior benches, one coiled net, two shipped oars, mooring ring, rope from ring to both workers’ hands, wake, and shadow. Every head, hand, foot, garment hem, oar blade, rope end, and landing stone is visible. Across the strait, a tiny unmarked cluster of roofs suggests Abydos-like settlement; no walls, towers, inscription, monument, army, weapon, bridge, lighthouse, crowd, costume display, or extra vessel.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained lampblack, deep muted verdigris, faded lapis, umber, ochre, quiet madder, and pale foam washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Hellespont dialect with dark tidal bands, white eddy stipple, rain-softened cliffs, wet rope fiber, weathered skiff wood, and one muted madder tunic accent; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; strong low diagonal with the short landing and complete two-person rope group isolated lower-left, the skiff floating fully in the lower-middle, the narrow throat centered above, and the opposing headlands leading toward a widened horizon. Reserve open turbulent water around the skiff as intentional negative space. Preserve both complete people, entire rope, landing, skiff, benches, net, oars, both headlands and tips, all three eddies, rip lines, distant roofs, reflections, and shadows within generous breathing room. One continuous strait scene only, never a map, cross-section, current diagram, atlas plate, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: evoke the force Pliny attributes to the Hellespont’s current without presenting his geological explanation, ancient distances, shoreline, settlement, or continental separation as a modern scientific reconstruction.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted strait atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, modern boat, ethnic or physiognomic caricature, exoticized costume, army, weapon, battle, drowning, injury, extra person, extra vessel, wrong bench count, clipped worker, clipped landing, clipped skiff, clipped oar, clipped headland tip, geometric currents, arrows, map symbols, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete shore workers haul one continuous mooring rope to one complete skiff with four benches, one net and two oars; exactly three large eddies articulate the Hellespont current between two contained headlands. Anatomy, landing stones, rope and vessel construction remain legible. No text, symbols, map geometry, modern object, panel, border, extra vessel, or clipped focal subject was found. Accepted on the first built-in generation and byte-matched to its original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:1",
+      "title": "THE EUXINE AND THE MARYANDINI",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c001.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "0617ab1f70bf06b9697f54bb6b3f5eab8e9543f9624506335754dae3fa42ed29",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8e086da9-878c-4f89-8dfa-08e400baa7ad",
+      "generationArtifactId": "exec-8e086da9-878c-4f89-8dfa-08e400baa7ad",
+      "outputArtifact": "built-in-imagegen://exec-8e086da9-878c-4f89-8dfa-08e400baa7ad.png",
+      "exactFinalPrompt": "Use case: historical natural-history scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book VI chapter 1, “The Euxine and the Maryandini”\nPrimary request: Ground the scene in Pliny’s vast opening image of the Euxine between Europe and Asia, its narrow straits and powerful waters, then his coastwise sequence into the Mariandynian Gulf: Heraclea on the Lycus, the port of Acone notorious for poisonous aconite, and the Acherusian cavern. Show one plausible Roman-era Black Sea coastal encounter centered on cave, plant, and gulf, not a map, supernatural underworld, modern medical illustration, or advice about poison. At cold violet dawn from a LOW BEACH VIEWPOINT, one complete immense dark sea-cave mouth opens in a pale stratified cliff in the left-middle. The entire oval cave rim, rock lintel, floor, and shadow boundary are fully visible with a broad margin of cliff around them; the interior remains naturally black and empty. In a contained rocky crevice well outside the cave at center grows exactly ONE compact group of exactly SEVEN complete blue-violet aconite plants, each with a visible stem, divided leaves, hooded flower cluster, roots hidden naturally in soil, and no cut specimens. Exactly ONE complete adult coastal traveler in a plain wool cloak stands at a respectful distance to the right, holding a walking staff with both hands and observing without touching, harvesting, tasting, or carrying the plants. Show the full body, both hands, feet, garment hem, staff, and shadow. Beyond, a dark faded-lapis gulf curves toward a distant complete river mouth and a small unmarked cluster of Heraclea-like roofs, with one low stone landing but no ship. No skull, corpse, underworld figure, magic glow, apothecary vessel, recipe, inscription, sacrifice, weapon, army, extra person, animal, or modern safety gear.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained lampblack, cold faded lapis, muted verdigris, umber, quiet madder, ochre, pale limestone, and blue-violet mineral washes; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Euxine cave dialect with cavernous chiaroscuro, salt-white cliff hatching, dark water, precise poisonous-plant morphology, violet dawn and one small madder cloak accent; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; low asymmetrical shore view with the entire cave mouth anchoring the left-middle, the seven-plant group clearly separated near center, the complete lone observer in the right-middle, and the gulf opening into broad atmospheric distance. Keep cliff, plants, traveler, river mouth and landing fully within generous breathing room; environmental beach and sea may continue naturally to the canvas edges. Preserve the whole cave rim, all seven plants, complete person, staff, roof cluster, river mouth, landing, surf, reflections, and shadows. One continuous coast only, never a botanical diagram, specimen grid, underworld illustration, map, atlas plate, internal frame, split panel, collage, or repeated crop.\nHistorical and epistemic framing: present Pliny’s association of Acone with aconite and his listing of the Acherusian cave as transmitted ancient geography; do not endorse handling or ingesting the plant, identify a modern species with certainty, or depict the cave as a verified entrance to an underworld.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum, cliff, beach, and dawn atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, poison preparation, consumption, harvest, medical advice, skull, corpse, fantasy spirit, extra person, extra plant group, wrong plant count, clipped cave rim, clipped flower, clipped traveler, clipped staff, plant touching edge, modern botany plate, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete dark Acherusian-like cave rim is contained within pale cliff, exactly seven complete blue-violet aconite plants stand in a separate crevice, and one fully visible traveler observes without touching or harvesting. Gulf, river mouth, roofs and landing remain secondary and coherent. No text, pseudo-writing, poison preparation, fantasy figure, panel, modern object, or clipped focal subject was found. Accepted on the first built-in generation and byte-matched to its original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:2",
+      "title": "PAPHLAGONIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c002.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "9404d814ee5b855a0495b9ae753c8f4e584f8e7c895099dc2350b2348eb3496c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-13bd47a4-553a-4dfa-9536-3ed26c1778a0",
+      "generationArtifactId": "exec-13bd47a4-553a-4dfa-9536-3ed26c1778a0",
+      "outputArtifact": "built-in-imagegen://exec-13bd47a4-553a-4dfa-9536-3ed26c1778a0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book VI chapter 2, “Paphlagonia”\nPrimary request: Ground the scene in Pliny’s Paphlagonian coast: Mount Cytorus, the river Parthenius, the far-projecting promontory of Carambis, Sinope, the river Halys and the immense gulf near Amisus. Show one plausible Roman-era passage from wooded mountain to sea, not a labelled map, ancestry tableau, or exact reconstruction. At fresh green morning from a HIGH OPEN-SLOPE VIEWPOINT, a complete ochre trail descends diagonally through low woodland scrub toward the Euxine. One and only one mature broad-crowned tree stands in the left-middle as a complete secondary anchor: show its entire root flare, trunk, every branch, the whole closed crown, every outer leaf tip, and its shadow surrounded on all sides by at least eight percent open sky or ground. No other tall tree appears; only low shrubs below waist height may continue naturally into the landscape. In the lower-center, exactly TWO complete adult travelers in plain practical cloaks lead exactly ONE complete laden mule down the path. One traveler holds the full lead rope; the other steadies one of two plain woven panniers. Show every head, hand, foot, garment hem, mule ear, tail, all four legs and hooves, both panniers, rope end, and all shadows. Below them, one complete river bends through the valley to a contained estuary; beyond it the long complete Carambis-like cape projects from the right-middle toward open faded-lapis sea, with its rounded tip fully visible. Far beside the estuary, a few low unmarked roofs suggest a coastal settlement. No city wall, heraldry, legion, weapon, banner, inscription, ancestry scene, ethnic costume display, extra person, extra animal, or additional tall tree.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained muted verdigris, umber, lampblack, faded lapis, ochre, quiet madder, and pale river highlights; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; Paphlagonian woodland dialect with one dark tree silhouette, mossy stipple, tawny path, cool river haze, pale sea opening, and restrained madder cloak detail; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; pulled-back high-oblique slope with the single complete tree isolated left-middle, the complete three-subject travel group in the lower-center, and a luminous diagonal descent to river, estuary, cape and sea across the right distance. Reserve open slope around the travelers and open atmosphere around the entire tree crown and cape tip. Preserve the complete tree, both complete adults, mule, rope, panniers, path, whole river bend, estuary, cape tip, roof cluster, reflections and shadows within generous breathing room. One continuous landscape only, never a family-tree image, migration chart, map, atlas plate, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: evoke travel through the terrain Pliny catalogues; do not portray Cornelius Nepos’s claimed descent of the Italian Veneti from the Heneti as established history, and do not infer bodily identity, ancestry or character from a regional name.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum and painted woodland-coast atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, cartouche, ruled line, caption area, vignette, or internal frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, ethnic or physiognomic caricature, exoticized costume, weapon, army, genealogy symbol, extra person, extra mule, extra tall tree, missing mule leg, clipped crown, clipped root, clipped traveler, clipped pannier, clipped cape tip, geometric forest rows, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One mature broad-crowned tree is fully contained from root flare through every crown edge; exactly two complete travelers lead one complete laden mule with four legs, hooves, tail, panniers and rope. The river, estuary and Carambis-like cape provide a coherent coastward descent. No text, genealogy symbol, modern object, extra tall tree, extra figure, panel, border, or clipped focal subject was found. Accepted after preserving one clipped-tree reject and byte-matched to its original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f007ac56-eb33-4639-8489-a631d5354e60.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c002-attempt-01-clipped-tree-crowns.png",
+          "sha256": "5ed0a4184b135b359dd09ec188d8b693d47ca8bb8d23305d6850591f3d30b411",
+          "reason": "Rejected at original-resolution review because multiple intended complete tree crowns were cut by the top and lateral canvas edges, failing the complete-subject framing gate. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:3",
+      "title": "CAPPADOCIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c003.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "1e49d48ca274d9cf9610aebe7c0184e7c15829df8f4468c7a4715fdefb653cc3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8c4156aa-572e-4fcd-a360-6c56831ba399",
+      "generationArtifactId": "exec-8c4156aa-572e-4fcd-a360-6c56831ba399",
+      "outputArtifact": "built-in-imagegen://exec-8c4156aa-572e-4fcd-a360-6c56831ba399.png",
+      "exactFinalPrompt": "Create one independent full-resolution 1536x1024 landscape Plinian natural-history folio scene for Naturalis Historia, Book VI chapter 3, “Cappadocia,” grounded in Pliny’s opening account of Archelais beside the river Halys and the interior river towns. Use a LOW SIDE-ON WINTER RIVERBANK viewpoint under cold overcast midday, radically unlike a high-oblique arid sunrise: deep slate-lapis storm clouds occupy the upper half; pale snow patches lie against dark volcanic ground. One compact complete rust-umber stone bridge with EXACTLY TWO ARCHES stands horizontally in the central middle distance across a narrow Halys-like river; show both outer abutment towers, full parapets, both arch openings, and the entire bridge structure ending well inside the left and right quarters. Exactly one complete mounted Roman-era traveler and complete horse crosses left to right. Place a small compact Archelais-like town BEHIND THE LEFT-CENTER BRIDGE QUARTER—not at the canvas edge—with every one of its buildings enclosed within a clear ring of bare snowy ground and at least fifteen percent blank margin to the left edge. A distant snow-streaked Argæus-like mountain rises behind the right-center bridge quarter, scaled so its entire summit, both shoulders, and both feet end inside a wide halo of storm sky and bare plateau. Strong tonal pattern: nearly lampblack cloud masses, silver-blue river, pale snow, rust-umber bridge and earth, sparse muted-verdigris scrub. No warm sunrise, orange sky, aerial view, broad beige plain, or caravan. Keep the bridge, rider, horse, every town building, mountain silhouette, sparse shrubs, hooves, reins, and all cast shadows wholly inside generous breathing room; natural water and storm clouds may continue through the frame, but no focal object or constructed form may touch an edge. Historical geography as lived landscape, not a map or modern diagram. Ancient Roman-era dress, horse tack, masonry, and architecture only. House style: original deluxe Roman natural-history codex illumination on warm fibrous aged vellum with handmade irregularity; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless beauty, rough in material and polished in draftsmanship. One coherent full-bleed 3:2 scene readable at thumbnail and full-page scale. Absolutely no lettering, captions, labels, numerals, cartographic markings, pseudo-writing, signatures, logos, watermarks, visible page edges, decorative borders, panels, split frames, collages, repeated crops, modern objects, photography, glossy CGI, clipped focal subjects, or floating objects.",
+      "generationAttempts": 5,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The cold winter riverbank composition contains one complete two-arch bridge with both structural terminals, one complete mounted traveler and horse, a compact fully contained Archelais-like town, and a contained snow-streaked Argæus-like cone. Hooves, reins, masonry, buildings and water contacts are legible. No text, pseudo-writing, modern object, map, panel, border, caravan, or clipped focal subject was found. Accepted after four preserved framing/similarity rejects; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-326a36bb-3416-44c8-b56b-2f0d23414095.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c003-attempt-01-clipped-bridge-ends.png",
+          "sha256": "3aba167691d32d1cab907ebaba4f8de39c236696f03a311e5238def10cbaf898",
+          "reason": "Rejected at original-resolution review because the otherwise complete two-arch bridge extended its terminal masonry through both lateral canvas edges, failing the complete-bridge framing gate. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-23a59187-3f29-48aa-90b8-fe312b05ea71.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c003-attempt-02-clipped-mountain-shoulder.png",
+          "sha256": "41b673afd3a1cd82a5d6da0be80629db533843251ae31e40241c7fe94109db05",
+          "reason": "Rejected at original-resolution review because the Argæus-like mountain’s right shoulder and base continued through the right canvas edge, failing the complete-primary-subject framing gate. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-46f844b4-fb90-4989-a645-399f1d7574f2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c003-attempt-03-global-mad-collision.png",
+          "sha256": "c966404417146b1ed0f062c7bc485a2bdb20fa5d2289eb4c63028874d1acc6be",
+          "reason": "Rejected by the live corpus-wide gate after a concurrent master appeared: the arid sunrise panorama matched black-sea-caucasus-wave-61/b06-c015.png at grayscale MAD 17.97, below the required 20 threshold (dHash 28). The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-df703433-d6d6-4c16-99ed-deb23459dbc4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c003-attempt-04-clipped-town.png",
+          "sha256": "d384ba8a621700c9d63ba6321fc6986d7b52a977d2aa1543b7350a21e37dc98f",
+          "reason": "Rejected at original-resolution review because the leftmost buildings of the Archelais-like town were cut by the lateral canvas edge, failing the fully contained town instruction. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:4",
+      "title": "THE REGION OF THEMISCYRA, AND THE NATIONS THEREIN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c004.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "be0456bb725178d35a5332e9cecf34df808d976e122b3d11abd5f0dad4755943",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d310b618-1bee-4b99-931b-19c56251dc17",
+      "generationArtifactId": "exec-d310b618-1bee-4b99-931b-19c56251dc17",
+      "outputArtifact": "built-in-imagegen://exec-d310b618-1bee-4b99-931b-19c56251dc17.png",
+      "exactFinalPrompt": "Create one independent full-resolution 1536x1024 landscape Plinian natural-history folio scene for Naturalis Historia, Book VI chapter 4, “The region of Themiscyra, and the nations therein.” Ground it in Pliny’s actual account of the celebrated Phasis rising among the Moschi, navigable for large vessels, crossed by many bridges, fed by great tributaries, with river towns and the Caucasus behind. Do not depict or endorse transmitted physiognomic or bodily-mark claims about peoples. Compose a lush DEEP-VERDIGRIS PHASIS CORRIDOR from a moderate high-oblique viewpoint, with a deliberate open-water foreground occupying the lower quarter. The broad river makes an S-curve through the center toward fully contained Caucasus foothills in the upper third. Show EXACTLY THREE representative ancient bridges, all reduced-scale and wholly inside the middle half of the canvas: a complete five-pier timber-and-stone bridge at lower-middle, a complete three-arch masonry bridge at center, and one complete small single-span timber bridge far upstream. Each must have both outer terminals, full deck, supports, and visible water under it, with open bank around every bridge end; no bridge or approach may enter the outer fifteen percent of the canvas. Exactly one complete Roman-era cargo vessel with furled ochre sail floats in the open lower-center water, with its full hull, mast, rigging, and shadow visible. Two narrow tributaries enter from opposite banks. A compact complete river town and one separate small fortress sit in the middle distance. Keep the entire vessel, all three bridges, town, fortress, and every major tree crown/trunk/ground contact wholly inside the frame; no foreground tree or focal object may touch an edge. Use muted verdigris groves and marsh, faded-lapis water, misty lampblack mountains, ochre bridge timber, and quiet madder roofs. Historical geography as lived river navigation, not a map or modern diagram. Ancient Roman-era/Colchian-plausible vessel, dress, masonry, and architecture only; no caricature. House style: original deluxe Roman natural-history codex illumination on warm fibrous aged vellum with handmade irregularity; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless beauty, rough in material and polished in draftsmanship. One coherent full-bleed 3:2 scene readable at thumbnail and full-page scale. Absolutely no lettering, captions, labels, numerals, cartographic markings, pseudo-writing, signatures, logos, watermarks, visible page edges, decorative borders, panels, split frames, collages, repeated crops, modern objects, photography, glossy CGI, clipped focal subjects, floating objects, or gratuitous violence.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete ancient bridges occupy distinct river depths along the Phasis-like corridor; one complete cargo vessel, two tributaries, a compact river town and a separate fortress are legible and contained. The scene avoids the chapter’s transmitted bodily-mark and physiognomic claims. No text, pseudo-writing, map symbols, caricature, modern object, panel, border, extra bridge, or clipped focal subject was found. Accepted after preserving one clipped-bridge reject and byte-matched to its original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-15e4390c-bf6b-4aa9-b9a8-35d19b1d38d8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c004-attempt-01-clipped-near-bridge.png",
+          "sha256": "d29e73cfa01c5ab3609deaa1be35319b4aee71c13cbe13423e083502b15f1042",
+          "reason": "Rejected at original-resolution review because the near bridge’s left approach and terminal continued out through the foreground canvas edge, failing the complete-bridge gate. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:5",
+      "title": "THE REGION OF COLICA, THE NATIONS OF THE ACHÆI, AND OTHER NATIONS IN THE SAME PARTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c005.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "f7b25d0786a0bec26e3b2d118d3aa7d4633cd00e660adf9d787d5945f5cf4b8c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4f7cc8af-f0f5-4a42-a403-16343fff4a39",
+      "generationArtifactId": "exec-4f7cc8af-f0f5-4a42-a403-16343fff4a39",
+      "outputArtifact": "built-in-imagegen://exec-4f7cc8af-f0f5-4a42-a403-16343fff4a39.png",
+      "exactFinalPrompt": "Create one independent full-resolution 1536x1024 landscape Plinian natural-history folio scene for Naturalis Historia, Book VI chapter 5, “The region of Colica, the nations of the Achæi, and other nations in the same parts.” Ground it in Pliny’s chapter: the Caucasus chain bending between seas and the once-famous but now deserted trading city Dioscurias near the river Anthemus, followed by Heracleium and ruined Pityus. Treat Pliny’s ethnographic characterizations as transmitted ancient claims; show no crowds, physiognomic types, ethnic caricature, or violence. Compose an EMPTY, WIND-SWEPT DIOSCURIAS HARBOR from just outside the ancient breakwater in cool overcast daylight. A complete crescent harbor basin occupies the lower-left middle; one complete abandoned curved stone quay surrounds it; one complete roofless colonnaded market and one complete ruined gateway stand separately on the middle shore, with a small group of intact amphorae and coiled rope suggesting vanished commerce but no writing. Exactly one complete weathered ancient merchant vessel is hauled above the tideline at lower right, with hull, steering oar, loose mast, rigging, support blocks, and shadow all visible. The narrow Anthemus-like river enters behind the ruins. Crucial framing: show only one compact, distant Caucasus MASSIF centered in the upper-middle, scaled small enough that its entire base outline, both outermost foothills, all snowy peaks, and their cast shadows end well before the left and right quarters; surround the whole massif with a broad unbroken band of cloudy vellum sky on top and both sides. No ridge or mountain may touch any edge. Likewise keep the entire harbor crescent, both quay terminals, every ruin silhouette, each amphora and rope coil, the hauled vessel and loose mast, and river mouth wholly inside at least eight percent breathing room. Use storm-muted faded lapis and verdigris water, lampblack cloud/mountain contours, pale limestone, umber ruins, and tiny restrained madder cloth remnants; elegiac and deserted, not catastrophic. Historical geography as an observed coastal place, not a map or modern diagram. Ancient Roman-era/Colchian-plausible harbor, vessel, and objects only. House style: original deluxe Roman natural-history codex illumination on warm fibrous aged vellum with handmade irregularity; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless beauty, rough in material and polished in draftsmanship. One coherent full-bleed 3:2 scene readable at thumbnail and full-page scale. Absolutely no lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, visible page edges, decorative borders, panels, split frames, collages, repeated crops, modern objects, photography, glossy CGI, clipped focal subjects, floating objects, crowds, caricature, or gratuitous violence.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The deserted Dioscurias-like harbor contains a complete curved quay, roofless colonnade, ruined gateway, amphorae and rope, plus one complete hauled merchant vessel with mast, steering oar, supports and shadow. The river mouth and compact Caucasus massif are contained; the elegiac scene avoids crowds and caricature. No text, pseudo-writing, modern object, panel, border, floating object, or clipped focal subject was found. Accepted after preserving one clipped-ridge reject and byte-matched to its original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5e3988ab-cda3-4d36-9602-fa5be43f4439.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/evidence/history/b06-c005-attempt-01-clipped-caucasus-ridge.png",
+          "sha256": "c884ff3e1be718d528bf6fe461bb740a205f0dc07ed2a2a4fb4a5a5273d023a9",
+          "reason": "Rejected at original-resolution review because the Caucasus chain continued through the lateral canvas edge instead of resolving as a contained massif, failing the complete-primary-subject framing gate. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "6:6",
+      "title": "THE CIMMERIAN BOSPORUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c006.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "d5d422178ae0e551d4e97d5392933d854f2cbc748a8560b87d41b79b0aefc91f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9ad24177-e3dc-4c69-9522-5f2a078ba371",
+      "generationArtifactId": "exec-9ad24177-e3dc-4c69-9522-5f2a078ba371",
+      "outputArtifact": "built-in-imagegen://exec-9ad24177-e3dc-4c69-9522-5f2a078ba371.png",
+      "exactFinalPrompt": "Create one independent full-resolution 1536x1024 landscape Plinian natural-history folio scene for Naturalis Historia, Book VI chapter 6, “The Cimmerian Bosporus.” Ground it in Pliny’s chapter: the narrow Eion peninsula projecting between the Euxine and Lake Mæotis, the curving shores at the Bosporus mouth, and the entrance towns Hermonassa, Cepi, Phanagoria, Apaturos, and Cimmerium. Compose an EXPERIENTIAL RIDGE-CROSSING view, not a map or diagram. From a low hill on the narrow peninsula at cold clear dawn, look lengthwise along a fully visible ochre land-ribbon that narrows into the middle distance; steel-blue Euxine water lies on the left and pale muted-verdigris Mæotis water on the right, visibly different in tone. Exactly one complete mounted Roman-era traveler and complete compact horse stand on the central track at lower-middle, looking toward the strait; include the full rider, horse, reins, hooves, ground contact, and cast shadow. Farther along the ribbon, two separate compact ancient harbor towns occupy opposite shores, both complete and fully contained, with exactly one small complete beached skiff beside each town. The distant shoreline curves inward to form the Bosporus mouth beneath a pale ochre dawn band. Keep the entire land-ribbon’s narrow waist visible, but allow natural water to continue through the lateral frame; keep the rider, horse, both town silhouettes, both skiffs, every complete building and mast, and all cast shadows wholly inside generous margins. No foreground rocks, plants, figures, boats, or structures may touch an edge. Use contrasting faded lapis, muted verdigris, rust ochre, lampblack track lines, and restrained madder roof accents; broad water planes provide negative space. Ancient geography as a traveler’s lived view, not a cartographic aerial plan and not a modern scientific claim. Historically plausible Roman-era/Black Sea dress, horse tack, skiffs, and architecture only. House style: original deluxe Roman natural-history codex illumination on warm fibrous aged vellum with handmade irregularity; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless beauty, rough in material and polished in draftsmanship. One coherent full-bleed 3:2 scene readable at thumbnail and full-page scale. Absolutely no lettering, captions, labels, numerals, cartographic markings, pseudo-writing, signatures, logos, watermarks, visible page edges, decorative borders, panels, split frames, collages, repeated crops, modern objects, photography, glossy CGI, clipped focal subjects, floating objects, or gratuitous violence.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete mounted traveler and horse occupy the central Eion-like land ribbon, with steel-blue Euxine water and pale verdigris Mæotis water clearly differentiated on opposite sides. Two compact contained shore towns and exactly two complete small skiffs establish the Bosporus entrance while the narrow waist remains legible. No text, pseudo-writing, map labels, modern object, panel, border, extra traveler, extra skiff, or clipped focal subject was found. Accepted on the first built-in generation and byte-matched to its original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 568,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "5:31": {
+        "nearestMAD": 23.71,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c070.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c009.png",
+        "madAtDHashPeer": 45.94
+      },
+      "5:32": {
+        "nearestMAD": 23.38,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c004.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c007.png",
+        "madAtDHashPeer": 67.2
+      },
+      "6:1": {
+        "nearestMAD": 32.04,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c020.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c005.png",
+        "madAtDHashPeer": 55.57
+      },
+      "6:2": {
+        "nearestMAD": 26.4,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b14-c003.png",
+        "madAtDHashPeer": 44.01
+      },
+      "6:3": {
+        "nearestMAD": 30.77,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c101.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c005.png",
+        "madAtDHashPeer": 63.48
+      },
+      "6:4": {
+        "nearestMAD": 23.36,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c028.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c006.png",
+        "madAtDHashPeer": 26.76
+      },
+      "6:5": {
+        "nearestMAD": 23.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c084.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b17-c003.png",
+        "madAtDHashPeer": 38.78
+      },
+      "6:6": {
+        "nearestMAD": 23.06,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c089.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-37/b02-c040.png",
+        "madAtDHashPeer": 33.74
+      }
+    }
+  }
+}

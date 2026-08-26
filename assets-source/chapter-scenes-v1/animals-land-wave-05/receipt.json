@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-land-wave-05",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusGrounding": {
+    "source": "public/corpus/book-08.0e4c75290ce42e33.json",
+    "chaptersRead": [
+      "8:35",
+      "8:36",
+      "8:37",
+      "8:38",
+      "8:39",
+      "8:40",
+      "8:41",
+      "8:42"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The actual Latin and English corpus fields for every assigned chapter were read before prompt design. Fabulous zoology, ancient remedies, violence, and unsafe practices are bounded as transmitted testimony rather than modern fact or advice."
+  },
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "chapters": [
+    {
+      "chapterKey": "8:35",
+      "title": "THE PORCUPINE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c035.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "a33d35cae98c3c2febded6fb8f5e824fd9813ad7c681f94819de6cd3dcab7d07",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1f795bd5-df7a-49ed-8abe-d009686f7e68",
+      "generationArtifactId": "exec-1f795bd5-df7a-49ed-8abe-d009686f7e68",
+      "outputArtifact": "built-in-imagegen://exec-1f795bd5-df7a-49ed-8abe-d009686f7e68.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 35 porcupine natural-history illustration.\n\nChange only the loose-quill count. Preserve exactly the complete adult porcupine, its identity, pose, attached quills and anatomy; preserve the complete burrow, exactly two euphorbia shrubs, one limestone slab, sunrise, camera, palette, framing and museum-quality fresco-naturalist style.\n\nThe bare-earth arc currently shows four loose quills. Add exactly one additional complete shed quill to the upper end of that arc, resting flat on the ground, clearly separated from every other quill and from the porcupine. The final image must contain exactly five loose quills total, each with both tips visible, none overlapping, none airborne, and none touching an image edge. Do not remove, duplicate, launch or alter the four existing quills.\n\nMaintain exactly one porcupine, one burrow, five loose ground quills, two euphorbia shrubs and one limestone slab. No dog, hunter, attack, blood, flying quill, extra animal, person, text, letters, numerals, labels, inscriptions, pseudo-writing, signature, watermark, visible page, border, cartouche, panels, collage, or split. Keep every focal subject fully internal. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-3eaf5f67-d6f7-4475-be2d-225aaa3bcd60",
+          "outputArtifact": "built-in-imagegen://exec-3eaf5f67-d6f7-4475-be2d-225aaa3bcd60.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: an independently composed chapter illustration for Pliny the Elder’s Naturalis Historia, Book VIII, chapter 35, “The Porcupine.”\n\nSource and epistemic framing: Pliny accurately notes the porcupine’s long quills but repeats the ancient error that it can shoot them. Create a careful natural-history scene that gently clarifies the observation without modern labels: show shed quills on the ground, never airborne projectiles. At crisp pale sunrise in a winter-dry North African scrubland, show exactly one complete adult crested porcupine emerging calmly from exactly one complete shallow earthen burrow. Its full body, face, feet, tail, black-and-white crest and layered quills are visible; the quills remain attached and relaxed, not launched. Exactly five complete loose quills lie behind it on a small patch of bare ochre earth, each clearly resting flat and separated, suggesting natural shedding. No dog, hunter, attack, pursuit, wound, blood, trap, weapon, flying quill, hedgehog, second animal, human, fantasy, or spectacle.\n\nComposition: one continuous close natural-history landscape from a low eye-level viewpoint. Hold the complete porcupine in the right-middle third and the complete burrow opening in the left-middle third, linked by a gentle path of dry grass. The five loose quills form a subtle internal arc on bare earth between them. Exactly two complete euphorbia shrubs and one complete weathered limestone slab stand fully internal in the background beneath broad pale peach sky; distant mauve hills remain low. Use ample clean earth and sky around the animal so every quill silhouette is legible. Keep porcupine, feet, tail, burrow rim, loose quills, shrubs, slab and discrete stones comfortably inward. Outer edges contain only open sky, continuous distant hills, or empty dry grass. No water.\n\nStyle/medium: ancient, timeless, beautiful, rough and polished at once; coherent Book VIII Plinian zoological folio with precise quill and fur observation. Fine iron-gall anatomical contours, alternating quill strokes, delicate stipple and cross-hatching, translucent mineral and fresco washes—ivory, lampblack, warm ochre, pale peach, dusty euphorbia green, mauve distance, coral earth, sparse shell-gold dawn light. Integrate lime-plaster grain, abrasion, foxing, dry pigment bloom and softened fresco loss into a museum-grade hand-painted surface. Combine Roman encyclopedic curiosity, Pompeian materiality, and Renaissance naturalist precision. Plausible African crested-porcupine anatomy and habitat. No photorealism, fantasy bestiary, glossy digital art, cartoon, heraldic pose, modern zoo, or sentimental poster.\n\nConstraints: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic panels, collage, map, diagram, arrows, trajectory lines, or split. No text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, watermarks, banners, captions, zodiac, or decorative symbols. No duplicated porcupine, head, limb, tail, burrow, shrub, slab, quill, sun, or moon. Exactly one complete porcupine, one complete burrow, exactly five complete loose quills resting on the ground, exactly two complete euphorbia shrubs, and one complete limestone slab. Keep all focal subjects at least 8 percent inward from every edge.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c035-attempt-01-four-loose-quills.png",
+          "sha256": "f78b36118333332fd3f79fa1f19484201670fd85911e9e003dcc432791e39a16",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Native-resolution count QA found four loose ground quills rather than the required five."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-1f795bd5-df7a-49ed-8abe-d009686f7e68",
+          "outputArtifact": "built-in-imagegen://exec-1f795bd5-df7a-49ed-8abe-d009686f7e68.png",
+          "exactPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 35 porcupine natural-history illustration.\n\nChange only the loose-quill count. Preserve exactly the complete adult porcupine, its identity, pose, attached quills and anatomy; preserve the complete burrow, exactly two euphorbia shrubs, one limestone slab, sunrise, camera, palette, framing and museum-quality fresco-naturalist style.\n\nThe bare-earth arc currently shows four loose quills. Add exactly one additional complete shed quill to the upper end of that arc, resting flat on the ground, clearly separated from every other quill and from the porcupine. The final image must contain exactly five loose quills total, each with both tips visible, none overlapping, none airborne, and none touching an image edge. Do not remove, duplicate, launch or alter the four existing quills.\n\nMaintain exactly one porcupine, one burrow, five loose ground quills, two euphorbia shrubs and one limestone slab. No dog, hunter, attack, blood, flying quill, extra animal, person, text, letters, numerals, labels, inscriptions, pseudo-writing, signature, watermark, visible page, border, cartouche, panels, collage, or split. Keep every focal subject fully internal. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c035.png",
+          "sha256": "a33d35cae98c3c2febded6fb8f5e824fd9813ad7c681f94819de6cd3dcab7d07",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Pliny’s claim that porcupines shoot quills is an ancient error; the accepted scene shows only normal loose shed quills resting on the ground.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete crested porcupine, one complete burrow, exactly five loose grounded quills, two euphorbia shrubs, and one limestone slab are fully internal. No flying quill, attack, injury, text, frame, panel, collage, or clipped focal subject.",
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-3eaf5f67-d6f7-4475-be2d-225aaa3bcd60",
+          "outputArtifact": "built-in-imagegen://exec-3eaf5f67-d6f7-4475-be2d-225aaa3bcd60.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: an independently composed chapter illustration for Pliny the Elder’s Naturalis Historia, Book VIII, chapter 35, “The Porcupine.”\n\nSource and epistemic framing: Pliny accurately notes the porcupine’s long quills but repeats the ancient error that it can shoot them. Create a careful natural-history scene that gently clarifies the observation without modern labels: show shed quills on the ground, never airborne projectiles. At crisp pale sunrise in a winter-dry North African scrubland, show exactly one complete adult crested porcupine emerging calmly from exactly one complete shallow earthen burrow. Its full body, face, feet, tail, black-and-white crest and layered quills are visible; the quills remain attached and relaxed, not launched. Exactly five complete loose quills lie behind it on a small patch of bare ochre earth, each clearly resting flat and separated, suggesting natural shedding. No dog, hunter, attack, pursuit, wound, blood, trap, weapon, flying quill, hedgehog, second animal, human, fantasy, or spectacle.\n\nComposition: one continuous close natural-history landscape from a low eye-level viewpoint. Hold the complete porcupine in the right-middle third and the complete burrow opening in the left-middle third, linked by a gentle path of dry grass. The five loose quills form a subtle internal arc on bare earth between them. Exactly two complete euphorbia shrubs and one complete weathered limestone slab stand fully internal in the background beneath broad pale peach sky; distant mauve hills remain low. Use ample clean earth and sky around the animal so every quill silhouette is legible. Keep porcupine, feet, tail, burrow rim, loose quills, shrubs, slab and discrete stones comfortably inward. Outer edges contain only open sky, continuous distant hills, or empty dry grass. No water.\n\nStyle/medium: ancient, timeless, beautiful, rough and polished at once; coherent Book VIII Plinian zoological folio with precise quill and fur observation. Fine iron-gall anatomical contours, alternating quill strokes, delicate stipple and cross-hatching, translucent mineral and fresco washes—ivory, lampblack, warm ochre, pale peach, dusty euphorbia green, mauve distance, coral earth, sparse shell-gold dawn light. Integrate lime-plaster grain, abrasion, foxing, dry pigment bloom and softened fresco loss into a museum-grade hand-painted surface. Combine Roman encyclopedic curiosity, Pompeian materiality, and Renaissance naturalist precision. Plausible African crested-porcupine anatomy and habitat. No photorealism, fantasy bestiary, glossy digital art, cartoon, heraldic pose, modern zoo, or sentimental poster.\n\nConstraints: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic panels, collage, map, diagram, arrows, trajectory lines, or split. No text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, watermarks, banners, captions, zodiac, or decorative symbols. No duplicated porcupine, head, limb, tail, burrow, shrub, slab, quill, sun, or moon. Exactly one complete porcupine, one complete burrow, exactly five complete loose quills resting on the ground, exactly two complete euphorbia shrubs, and one complete limestone slab. Keep all focal subjects at least 8 percent inward from every edge.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c035-attempt-01-four-loose-quills.png",
+          "sha256": "f78b36118333332fd3f79fa1f19484201670fd85911e9e003dcc432791e39a16",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Native-resolution count QA found four loose ground quills rather than the required five."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:36",
+      "title": "BEARS AND THEIR CUBS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c036.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "bced76b3d70a1b93a87c00f4315c4fe8dd6c4a8d87c92b380cde8268a3c851da",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-415c2295-7d28-4757-a6bb-0d3833d971fb",
+      "generationArtifactId": "exec-415c2295-7d28-4757-a6bb-0d3833d971fb",
+      "outputArtifact": "built-in-imagegen://exec-415c2295-7d28-4757-a6bb-0d3833d971fb.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 36, “Bears and Their Cubs.” Landscape 3:2, 1536×1024, full-bleed single continuous scene (not a manuscript page, no border, no panels, no collage). Show exactly ONE complete adult European brown bear mother lying protectively on a deep bed of dry leaves inside a broad, shallow natural rock den, with exactly THREE complete, clearly separate, fully furred young bear cubs nestled against her chest and forelegs. All four bears must be fully visible from ears to paws, calm, anatomically credible, and entirely inside the frame with generous breathing room. Early spring dawn glows cool blue beyond the den mouth; a little old snow remains outside, while warm amber light holds the family inside. Add a few deliberately placed bare twigs and soft leaves, but no other animals, no people, no honey, no medicine, no traps, no weapons, no birth scene, no injury or suffering. The image should honor the passage’s enduring observation of maternal warmth while avoiding its erroneous ancient claims about birth and remedies.\n\nCoherent project aesthetic: an exquisitely beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of umber, soot black, ochre, faded cinnabar, verdigris traces, parchment cream, and a whisper of shell gold only in the light. Naturalistic animal anatomy, tactile fur, weathered stone, imperfect handmade marks, luminous depth, timeless and solemn rather than cute. No photorealism, no glossy digital concept-art finish, no cartoon style. No written letters, glyphs, labels, captions, signature, watermark, decorative frame, manuscript border, inset, split composition, or repeated motif.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-415c2295-7d28-4757-a6bb-0d3833d971fb",
+          "outputArtifact": "built-in-imagegen://exec-415c2295-7d28-4757-a6bb-0d3833d971fb.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 36, “Bears and Their Cubs.” Landscape 3:2, 1536×1024, full-bleed single continuous scene (not a manuscript page, no border, no panels, no collage). Show exactly ONE complete adult European brown bear mother lying protectively on a deep bed of dry leaves inside a broad, shallow natural rock den, with exactly THREE complete, clearly separate, fully furred young bear cubs nestled against her chest and forelegs. All four bears must be fully visible from ears to paws, calm, anatomically credible, and entirely inside the frame with generous breathing room. Early spring dawn glows cool blue beyond the den mouth; a little old snow remains outside, while warm amber light holds the family inside. Add a few deliberately placed bare twigs and soft leaves, but no other animals, no people, no honey, no medicine, no traps, no weapons, no birth scene, no injury or suffering. The image should honor the passage’s enduring observation of maternal warmth while avoiding its erroneous ancient claims about birth and remedies.\n\nCoherent project aesthetic: an exquisitely beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of umber, soot black, ochre, faded cinnabar, verdigris traces, parchment cream, and a whisper of shell gold only in the light. Naturalistic animal anatomy, tactile fur, weathered stone, imperfect handmade marks, luminous depth, timeless and solemn rather than cute. No photorealism, no glossy digital concept-art finish, no cartoon style. No written letters, glyphs, labels, captions, signature, watermark, decorative frame, manuscript border, inset, split composition, or repeated motif.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c036.png",
+          "sha256": "bced76b3d70a1b93a87c00f4315c4fe8dd6c4a8d87c92b380cde8268a3c851da",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The image retains the observable maternal warmth of bears while omitting Pliny’s erroneous birth, remedy, arena, and anatomical claims.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete mother brown bear and exactly three distinct complete furred cubs rest calmly in one den; count, anatomy, paws, framing, and edge clearance pass. No birth, injury, remedy, text, panel, or duplication.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:37",
+      "title": "THE MICE OF PONTUS AND OF THE ALPS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c037.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "feb4cb8bcabf618b791b2cae437db2a66eaa0d907d5f75b6dfe3cdc21f4b0e77",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-893b1df0-b4fc-4eac-a291-21c8a837055f",
+      "generationArtifactId": "exec-893b1df0-b4fc-4eac-a291-21c8a837055f",
+      "outputArtifact": "built-in-imagegen://exec-893b1df0-b4fc-4eac-a291-21c8a837055f.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 37, “The Mice of Pontus and of the Alps.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page and not a collage. Interpret Pliny’s badger-sized “Alpine mice” as Alpine marmots. On a high alpine meadow in late autumn, show exactly TWO complete, anatomically credible Alpine marmots beside one natural burrow under a weathered limestone outcrop: one marmot sits upright on its haunches, holding a neat mouthful of dried mountain grasses with both forepaws; the second walks toward the burrow carrying a smaller grass bundle in its mouth. Both animals must be clearly separate, fully visible from ears to paws and tail, entirely inside the frame, with generous margin. Scatter only a few cut grasses near the den as winter provisions. Behind them, tawny meadow slopes rise to a pale blue snow-dusted ridge beneath a cold clear sky. No other mammals or birds, no humans, no traps, no violence, no dragged animal, no anthropomorphic clothing or gestures. Convey careful winter preparation and alert intelligence as a respectful field observation, without asserting Pliny’s more fabulous relay-dragging story as fact.\n\nCoherent project aesthetic: a breathtaking ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of ochre, umber, soot black, faded cinnabar, muted verdigris, parchment cream, alpine blue, and only a whisper of shell-gold light. Naturalistic anatomy, tactile fur and grasses, weathered stone, imperfect handmade marks, luminous atmospheric depth, timeless and solemn. Not photorealistic, not a glossy digital concept painting, not cartoonish. No letters, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-893b1df0-b4fc-4eac-a291-21c8a837055f",
+          "outputArtifact": "built-in-imagegen://exec-893b1df0-b4fc-4eac-a291-21c8a837055f.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 37, “The Mice of Pontus and of the Alps.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page and not a collage. Interpret Pliny’s badger-sized “Alpine mice” as Alpine marmots. On a high alpine meadow in late autumn, show exactly TWO complete, anatomically credible Alpine marmots beside one natural burrow under a weathered limestone outcrop: one marmot sits upright on its haunches, holding a neat mouthful of dried mountain grasses with both forepaws; the second walks toward the burrow carrying a smaller grass bundle in its mouth. Both animals must be clearly separate, fully visible from ears to paws and tail, entirely inside the frame, with generous margin. Scatter only a few cut grasses near the den as winter provisions. Behind them, tawny meadow slopes rise to a pale blue snow-dusted ridge beneath a cold clear sky. No other mammals or birds, no humans, no traps, no violence, no dragged animal, no anthropomorphic clothing or gestures. Convey careful winter preparation and alert intelligence as a respectful field observation, without asserting Pliny’s more fabulous relay-dragging story as fact.\n\nCoherent project aesthetic: a breathtaking ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of ochre, umber, soot black, faded cinnabar, muted verdigris, parchment cream, alpine blue, and only a whisper of shell-gold light. Naturalistic anatomy, tactile fur and grasses, weathered stone, imperfect handmade marks, luminous atmospheric depth, timeless and solemn. Not photorealistic, not a glossy digital concept painting, not cartoonish. No letters, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c037.png",
+          "sha256": "feb4cb8bcabf618b791b2cae437db2a66eaa0d907d5f75b6dfe3cdc21f4b0e77",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Pliny’s badger-sized Alpine mice are interpreted as Alpine marmots; the scene shows observable winter provisioning without literalizing the relay-dragging tale.",
+      "visualQaNotes": "Inspected at original resolution. Exactly two complete Alpine marmots, each with a distinct grass bundle, stand fully internal beside one burrow. Anatomy, paws, tails, mountain setting, no-text constraint, and single-scene framing pass.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:38",
+      "title": "THE LEONTOPHONUS, AND THE LYNX",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c038.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "d148933796338b328f740224b89dc22a5c24b87f0231686307eeb328999cea50",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2769e97f-df4a-4bd1-8c58-2c8c2be2b50c",
+      "generationArtifactId": "exec-2769e97f-df4a-4bd1-8c58-2c8c2be2b50c",
+      "outputArtifact": "built-in-imagegen://exec-2769e97f-df4a-4bd1-8c58-2c8c2be2b50c.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 38, “The Leontophonus and the Lynx.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, diagram, or collage. Center the scene on exactly ONE complete Eurasian lynx in a quiet highland pine clearing at twilight. The lynx has just turned its head back toward the viewer while one forepaw gently rakes loose dark earth over one small, naturally amber-colored mineral pebble half visible in the soil—an understated visual allusion to the ancient lyncurium legend, not a literal depiction of bodily fluid. Show the lynx’s entire anatomically credible body, tufted ears, four paws, and short tail, entirely inside the frame with generous space; its expression is wary and intelligent, never snarling. A single shaft of fading copper light catches the amber pebble and the lynx’s ear tufts; moss, pine needles, low fern, and weathered stone create a damp tactile forest floor. No lion, no imaginary poison animal, no other animal, no hunters, no violence, no urine, no jewel hoard, no fantasy magic effects. The mood should distinguish transmitted ancient marvel from modern zoological fact through subtle symbolism rather than spectacle.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of soot black, umber, mossy verdigris, faded cinnabar, parchment cream, dusky indigo, and a whisper of shell-gold in the copper light. Naturalistic anatomy, tactile fur, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, caption, signature, watermark, decorative frame, border, panels, inset, split scene, repeated motif, or page texture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-2769e97f-df4a-4bd1-8c58-2c8c2be2b50c",
+          "outputArtifact": "built-in-imagegen://exec-2769e97f-df4a-4bd1-8c58-2c8c2be2b50c.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 38, “The Leontophonus and the Lynx.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, diagram, or collage. Center the scene on exactly ONE complete Eurasian lynx in a quiet highland pine clearing at twilight. The lynx has just turned its head back toward the viewer while one forepaw gently rakes loose dark earth over one small, naturally amber-colored mineral pebble half visible in the soil—an understated visual allusion to the ancient lyncurium legend, not a literal depiction of bodily fluid. Show the lynx’s entire anatomically credible body, tufted ears, four paws, and short tail, entirely inside the frame with generous space; its expression is wary and intelligent, never snarling. A single shaft of fading copper light catches the amber pebble and the lynx’s ear tufts; moss, pine needles, low fern, and weathered stone create a damp tactile forest floor. No lion, no imaginary poison animal, no other animal, no hunters, no violence, no urine, no jewel hoard, no fantasy magic effects. The mood should distinguish transmitted ancient marvel from modern zoological fact through subtle symbolism rather than spectacle.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of soot black, umber, mossy verdigris, faded cinnabar, parchment cream, dusky indigo, and a whisper of shell-gold in the copper light. Naturalistic anatomy, tactile fur, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, caption, signature, watermark, decorative frame, border, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c038.png",
+          "sha256": "d148933796338b328f740224b89dc22a5c24b87f0231686307eeb328999cea50",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Lyncurium is transmitted ancient mineral lore, not zoological fact; a single amber-colored pebble supplies restrained symbolic distance without bodily-fluid depiction.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete Eurasian lynx and one small amber-colored pebble are fully internal; credible anatomy, four paws, short tail, subdued symbolism, and edge clearance pass. No urine, violence, fantasy effect, text, panel, or frame.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:39",
+      "title": "VIPERS AND SNAILS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c039.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "538aff78660e564c8a5f40fc88dd16c95b18e4de98fea163c8f5d46fe5c94393",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5667fb11-c63b-4aad-9183-a4b55e407ec0",
+      "generationArtifactId": "exec-5667fb11-c63b-4aad-9183-a4b55e407ec0",
+      "outputArtifact": "built-in-imagegen://exec-5667fb11-c63b-4aad-9183-a4b55e407ec0.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 39, “Vipers and Snails.” Landscape 3:2, 1536×1024, full-bleed single continuous Mediterranean field scene, not a manuscript page, diagram, cutaway, or collage. On a rain-darkened limestone slope at the boundary of autumn and winter, show exactly ONE complete horned viper in a loose S-curve approaching a small earthen refuge beneath a stone; the viper’s entire body and tail are visible and comfortably inside the frame, its mouth closed and demeanor calm. In the same continuous foreground habitat, beneath a separate shallow limestone overhang, show exactly FIVE complete small cave snails adhered close together in one grape-like cluster, each shell clearly distinct and anatomically plausible. Arrange the viper on the lower left and the snail cluster on the upper right, connected by a diagonal seam of moss and damp rock so it feels like one observed ecosystem, not two panels. Add sparse thyme, dry grass, and tiny rain beads. No other animals, no lizard, no attack, no fangs, no venom effects, no injury, no giant fantasy reptiles. Treat Pliny’s claims about dormancy and harmlessness as transmitted ancient testimony; depict only the observable retreat behavior.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of limestone cream, umber, soot black, muted verdigris moss, faded cinnabar accents, storm blue, and a whisper of shell-gold rain light. Naturalistic anatomy, tactile scales and shells, weathered rock, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, caption, signature, watermark, decorative border, frame, panels, inset, split composition, repeated motif, or page texture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-5667fb11-c63b-4aad-9183-a4b55e407ec0",
+          "outputArtifact": "built-in-imagegen://exec-5667fb11-c63b-4aad-9183-a4b55e407ec0.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 39, “Vipers and Snails.” Landscape 3:2, 1536×1024, full-bleed single continuous Mediterranean field scene, not a manuscript page, diagram, cutaway, or collage. On a rain-darkened limestone slope at the boundary of autumn and winter, show exactly ONE complete horned viper in a loose S-curve approaching a small earthen refuge beneath a stone; the viper’s entire body and tail are visible and comfortably inside the frame, its mouth closed and demeanor calm. In the same continuous foreground habitat, beneath a separate shallow limestone overhang, show exactly FIVE complete small cave snails adhered close together in one grape-like cluster, each shell clearly distinct and anatomically plausible. Arrange the viper on the lower left and the snail cluster on the upper right, connected by a diagonal seam of moss and damp rock so it feels like one observed ecosystem, not two panels. Add sparse thyme, dry grass, and tiny rain beads. No other animals, no lizard, no attack, no fangs, no venom effects, no injury, no giant fantasy reptiles. Treat Pliny’s claims about dormancy and harmlessness as transmitted ancient testimony; depict only the observable retreat behavior.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of limestone cream, umber, soot black, muted verdigris moss, faded cinnabar accents, storm blue, and a whisper of shell-gold rain light. Naturalistic anatomy, tactile scales and shells, weathered rock, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, caption, signature, watermark, decorative border, frame, panels, inset, split composition, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c039.png",
+          "sha256": "538aff78660e564c8a5f40fc88dd16c95b18e4de98fea163c8f5d46fe5c94393",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The scene shows only observable retreat behavior and does not endorse Pliny’s claim that dormant serpents lose their venom.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete calm viper and exactly five distinct cave snails are fully internal in one habitat. Count, closed mouth, tail, shell separation, no-text constraint, and continuous-scene framing pass.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:40",
+      "title": "THE QUALITIES OF THE DOG; EXAMPLES OF ITS ATTACHMENT TO ITS MASTER; NATIONS WHICH HAVE KEPT DOGS FOR THE PURPOSES OF WAR",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c040.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "da1d39fb3527c03f210ed03e3d8d76c24ed406a76b9950fad737160c07ed8012",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-02ad9da9-7aba-4c7a-a14f-e2edf1ef7879",
+      "generationArtifactId": "exec-02ad9da9-7aba-4c7a-a14f-e2edf1ef7879",
+      "outputArtifact": "built-in-imagegen://exec-02ad9da9-7aba-4c7a-a14f-e2edf1ef7879.png",
+      "exactFinalPrompt": "Targeted correction to this exact illustration. Preserve the dog, kneeling traveler, their anatomy and pose, facial expressions, contact, lighting, villa, olive tree, lamp, cloak bundle, palette, texture, 1536x1024 landscape composition, and all other details unchanged. Remove the long wooden walking staff that crosses and exits the bottom/right edge. Seamlessly reconstruct the worn paving stones in the area where the staff was, matching perspective, texture, shadows, and mineral-pigment/egg-tempera style. Do not add any new object, person, animal, writing, border, or panel. Final image must remain one full-bleed continuous scene with the complete dog and complete traveler entirely inside the frame.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-8b04ac53-89ef-430f-956c-60acc21f6529",
+          "outputArtifact": "built-in-imagegen://exec-8b04ac53-89ef-430f-956c-60acc21f6529.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 40, “The Qualities of the Dog; Examples of Its Attachment to Its Master.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page or collage. At the threshold of a modest Roman country villa at blue-gold dusk, show exactly ONE complete mature brindled Molossian-type dog recognizing a returning household traveler after a long absence. Show exactly ONE complete adult human traveler, fully inside the frame from head to sandaled feet, kneeling on one knee with an open, gentle posture and one hand resting on the dog’s forehead. The dog stands close, tail softly curved, gaze intent and deeply familiar—affectionate but not cartoonishly exuberant. A small travel cloak and walking staff lie safely on the ground behind the person, not held as weapons. Worn paving stones, an olive tree, a low clay lamp, and the shadowed doorway evoke remembered home; warm lamplight meets cool evening air between human and animal. No other people or animals, no battle, no attack, no wounds, no corpse, no hunting prey, no chains, no war dogs. Focus on the chapter’s durable observation that dogs recognize voices, roads, names, and their people; omit Pliny’s violent anecdotes and unsafe remedies.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic lived observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of umber, soot black, olive verdigris, faded cinnabar, parchment cream, dusk indigo, and a whisper of shell gold in the lamp. Anatomically credible dog and human, tactile fur, cloth, stone and wood, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish or sentimental kitsch. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c040-attempt-01-clipped-staff.png",
+          "sha256": "fcedfd66dccf2b2e3a1386bdf5a87ed7321e47597a0d8f2805cdb9175f670c37",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "A discrete walking staff crossed and exited the lower/right frame, failing strict edge-clearance QA."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-02ad9da9-7aba-4c7a-a14f-e2edf1ef7879",
+          "outputArtifact": "built-in-imagegen://exec-02ad9da9-7aba-4c7a-a14f-e2edf1ef7879.png",
+          "exactPrompt": "Targeted correction to this exact illustration. Preserve the dog, kneeling traveler, their anatomy and pose, facial expressions, contact, lighting, villa, olive tree, lamp, cloak bundle, palette, texture, 1536x1024 landscape composition, and all other details unchanged. Remove the long wooden walking staff that crosses and exits the bottom/right edge. Seamlessly reconstruct the worn paving stones in the area where the staff was, matching perspective, texture, shadows, and mineral-pigment/egg-tempera style. Do not add any new object, person, animal, writing, border, or panel. Final image must remain one full-bleed continuous scene with the complete dog and complete traveler entirely inside the frame.",
+          "editSourceArtifactId": "exec-8b04ac53-89ef-430f-956c-60acc21f6529",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c040.png",
+          "sha256": "da1d39fb3527c03f210ed03e3d8d76c24ed406a76b9950fad737160c07ed8012",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The accepted scene centers the durable observation of canine recognition and attachment while omitting violent anecdotes, war use, unsafe remedies, and breeding claims.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete brindled dog and one complete kneeling traveler are fully internal with credible contact and anatomy. The clipped staff from attempt one is absent; no weapon, violence, text, border, panel, or collage remains.",
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-8b04ac53-89ef-430f-956c-60acc21f6529",
+          "outputArtifact": "built-in-imagegen://exec-8b04ac53-89ef-430f-956c-60acc21f6529.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 40, “The Qualities of the Dog; Examples of Its Attachment to Its Master.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page or collage. At the threshold of a modest Roman country villa at blue-gold dusk, show exactly ONE complete mature brindled Molossian-type dog recognizing a returning household traveler after a long absence. Show exactly ONE complete adult human traveler, fully inside the frame from head to sandaled feet, kneeling on one knee with an open, gentle posture and one hand resting on the dog’s forehead. The dog stands close, tail softly curved, gaze intent and deeply familiar—affectionate but not cartoonishly exuberant. A small travel cloak and walking staff lie safely on the ground behind the person, not held as weapons. Worn paving stones, an olive tree, a low clay lamp, and the shadowed doorway evoke remembered home; warm lamplight meets cool evening air between human and animal. No other people or animals, no battle, no attack, no wounds, no corpse, no hunting prey, no chains, no war dogs. Focus on the chapter’s durable observation that dogs recognize voices, roads, names, and their people; omit Pliny’s violent anecdotes and unsafe remedies.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic lived observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of umber, soot black, olive verdigris, faded cinnabar, parchment cream, dusk indigo, and a whisper of shell gold in the lamp. Anatomically credible dog and human, tactile fur, cloth, stone and wood, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish or sentimental kitsch. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c040-attempt-01-clipped-staff.png",
+          "sha256": "fcedfd66dccf2b2e3a1386bdf5a87ed7321e47597a0d8f2805cdb9175f670c37",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "A discrete walking staff crossed and exited the lower/right frame, failing strict edge-clearance QA."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:41",
+      "title": "REMEDIES AGAINST CANINE MADNESS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c041.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "b43949cdec97f7aa9d7997b9e1e8346fdb05ae8247653934d371aec7476c60f1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-aa983467-5407-4c2f-b736-c2665e7a1afd",
+      "generationArtifactId": "exec-aa983467-5407-4c2f-b736-c2665e7a1afd",
+      "outputArtifact": "built-in-imagegen://exec-aa983467-5407-4c2f-b736-c2665e7a1afd.png",
+      "exactFinalPrompt": "Targeted framing correction to this exact illustration. Preserve the same single dog, the same single dog-rose shrub, the gentle sniffing interaction, species anatomy, palette, morning light, stone wall, distant hills, mineral-pigment granulation, ink contours, and egg-tempera finish. Recompose slightly wider so the ENTIRE dog-rose shrub is visible: every top and side cane, leaf, blossom, and rooted base must terminate comfortably inside the 1536x1024 frame with clear sky/land breathing room on all sides. Keep the complete dog entirely inside too. Remove any accidental birdlike or animal-shaped mark among the rose leaves; there must be exactly one animal total, the dog. Do not add any new object, plant specimen, person, writing, border, panel, or page texture. Maintain one continuous full-bleed landscape scene.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-147c2e6e-af6a-4c65-983e-4756bd320eef",
+          "outputArtifact": "built-in-imagegen://exec-147c2e6e-af6a-4c65-983e-4756bd320eef.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 41, “Remedies Against Canine Madness.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, botanical plate, diagram, or collage. Make an epistemically responsible visual centered on the historical name association rather than a medical claim: in a sunlit Mediterranean hedgerow, show exactly ONE complete healthy Roman-era farm dog sitting quietly beside exactly ONE complete wild dog-rose shrub (Rosa canina), with pale pink five-petaled blossoms and a few red hips. The dog gently sniffs one low blossom without eating it. Its entire anatomically credible body, paws, ears, and tail are comfortably inside the frame; the whole main shrub, including its rooted base and arching canes, is visible inside the composition with breathing room. Behind them, a low weathered field wall and distant wheat-gold hills dissolve into morning haze. No other people or animals, no healer, no medicine preparation, no bowl, no feeding, no bite, no illness, no foam, no blood, no tail cutting or mutilation, no oracle, no supernatural talking animal. The visual should acknowledge the transmitted ancient remedy while clearly avoiding endorsement: a calm encounter between the dog and the plant that bears its name.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of umber, soot black, dusty rose, muted verdigris, faded cinnabar hips, parchment cream, wheat ochre, and a whisper of shell-gold sunlight. Anatomically and botanically credible forms, tactile fur, thorny canes, petals and stone, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c041-attempt-01-clipped-rose-canes.png",
+          "sha256": "55325298afbfc290a3cee1edc979da0627009a2b7baabdaa909cb264514897d5",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The main dog-rose shrub’s top and right canes exited the frame, failing the complete-subject requirement."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-aa983467-5407-4c2f-b736-c2665e7a1afd",
+          "outputArtifact": "built-in-imagegen://exec-aa983467-5407-4c2f-b736-c2665e7a1afd.png",
+          "exactPrompt": "Targeted framing correction to this exact illustration. Preserve the same single dog, the same single dog-rose shrub, the gentle sniffing interaction, species anatomy, palette, morning light, stone wall, distant hills, mineral-pigment granulation, ink contours, and egg-tempera finish. Recompose slightly wider so the ENTIRE dog-rose shrub is visible: every top and side cane, leaf, blossom, and rooted base must terminate comfortably inside the 1536x1024 frame with clear sky/land breathing room on all sides. Keep the complete dog entirely inside too. Remove any accidental birdlike or animal-shaped mark among the rose leaves; there must be exactly one animal total, the dog. Do not add any new object, plant specimen, person, writing, border, panel, or page texture. Maintain one continuous full-bleed landscape scene.",
+          "editSourceArtifactId": "exec-147c2e6e-af6a-4c65-983e-4756bd320eef",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c041.png",
+          "sha256": "b43949cdec97f7aa9d7997b9e1e8346fdb05ae8247653934d371aec7476c60f1",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The dog rose is shown only as the historically associated namesake plant; the image does not endorse a rabies treatment or any mutilating practice.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete healthy dog and one complete botanically credible dog-rose shrub are fully internal with clear edge space; the original clipped canes and birdlike mark are gone. No treatment, feeding, illness, text, panel, or frame.",
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-147c2e6e-af6a-4c65-983e-4756bd320eef",
+          "outputArtifact": "built-in-imagegen://exec-147c2e6e-af6a-4c65-983e-4756bd320eef.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 41, “Remedies Against Canine Madness.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, botanical plate, diagram, or collage. Make an epistemically responsible visual centered on the historical name association rather than a medical claim: in a sunlit Mediterranean hedgerow, show exactly ONE complete healthy Roman-era farm dog sitting quietly beside exactly ONE complete wild dog-rose shrub (Rosa canina), with pale pink five-petaled blossoms and a few red hips. The dog gently sniffs one low blossom without eating it. Its entire anatomically credible body, paws, ears, and tail are comfortably inside the frame; the whole main shrub, including its rooted base and arching canes, is visible inside the composition with breathing room. Behind them, a low weathered field wall and distant wheat-gold hills dissolve into morning haze. No other people or animals, no healer, no medicine preparation, no bowl, no feeding, no bite, no illness, no foam, no blood, no tail cutting or mutilation, no oracle, no supernatural talking animal. The visual should acknowledge the transmitted ancient remedy while clearly avoiding endorsement: a calm encounter between the dog and the plant that bears its name.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of umber, soot black, dusty rose, muted verdigris, faded cinnabar hips, parchment cream, wheat ochre, and a whisper of shell-gold sunlight. Anatomically and botanically credible forms, tactile fur, thorny canes, petals and stone, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c041-attempt-01-clipped-rose-canes.png",
+          "sha256": "55325298afbfc290a3cee1edc979da0627009a2b7baabdaa909cb264514897d5",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The main dog-rose shrub’s top and right canes exited the frame, failing the complete-subject requirement."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:42",
+      "title": "THE NATURE OF THE HORSE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c042.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "b122cd1bab6b7c3fd49a572e28ee4b5e389dad2093e19328774a1025de8f9a00",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c188c0fa-ccb9-46e2-8379-3dac15641dc1",
+      "generationArtifactId": "exec-c188c0fa-ccb9-46e2-8379-3dac15641dc1",
+      "outputArtifact": "built-in-imagegen://exec-c188c0fa-ccb9-46e2-8379-3dac15641dc1.png",
+      "exactFinalPrompt": "Targeted environmental framing correction to this exact horse illustration. Preserve the same one chestnut mare and one foal, their exact caring pose, complete anatomy, scale, expressions, coat detail, windblown manes, dawn light, palette, mountains, grove, and mineral-pigment/egg-tempera finish. Correct only the river framing: make the river a fully enclosed interior landscape element that curves behind the horses and disappears into meadow in the middle distance. NO water may touch the top, bottom, left, or right image edge. Replace all water currently touching the right edge with a continuous foreground grassy bank and low meadow flowers matching perspective and light. Do not add any animal, person, structure, object, writing, border, panel, or page texture. Keep both complete horses comfortably inside the 1536x1024 landscape frame.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-17780019-b957-4a07-a194-6333969fb26d",
+          "outputArtifact": "built-in-imagegen://exec-17780019-b957-4a07-a194-6333969fb26d.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 42, “The Nature of the Horse.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, diagram, or collage. In a broad spring pasture beside a quiet river at first light, show exactly TWO complete horses: one strong chestnut mare and her one young foal. The mare stands in three-quarter profile, turning her head back protectively toward the foal; the foal, steady but still young, steps close beneath the arc of her neck. Both entire anatomically credible bodies—ears, faces, four legs, hooves, manes, and tails—must be clearly separate and comfortably inside the frame with generous breathing room; no limb may be hidden in grass or cut by an edge. A soft west wind moves their manes and bends a narrow band of meadow grass toward the river; pale hills and a distant grove dissolve into dawn mist. No other horses, animals, or people, no rider, saddle, bridle, arena, battle, weapon, tomb, birth scene, mating, injury, or supernatural effect. Focus on the chapter’s durable observations of equine intelligence, maternal attention, gait, and presence; avoid literalizing its fabulous reproductive and magical claims.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of chestnut umber, soot black, faded cinnabar, muted verdigris, river blue, parchment cream, dawn peach, and a whisper of shell-gold light. Naturalistic horse anatomy, tactile coat, mane, grass and water, imperfect handmade marks, luminous atmospheric depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish or sentimental. No letters, glyphs, pseudo-writing, labels, caption, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c042-attempt-01-river-touches-edge.png",
+          "sha256": "6e5060b13072e2900ee8552cc7273ddfe28f702fdc4e71abb3978c891834ff37",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The river ran directly through the right image edge, failing the campaign’s strict no-clipped-water rule."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-c188c0fa-ccb9-46e2-8379-3dac15641dc1",
+          "outputArtifact": "built-in-imagegen://exec-c188c0fa-ccb9-46e2-8379-3dac15641dc1.png",
+          "exactPrompt": "Targeted environmental framing correction to this exact horse illustration. Preserve the same one chestnut mare and one foal, their exact caring pose, complete anatomy, scale, expressions, coat detail, windblown manes, dawn light, palette, mountains, grove, and mineral-pigment/egg-tempera finish. Correct only the river framing: make the river a fully enclosed interior landscape element that curves behind the horses and disappears into meadow in the middle distance. NO water may touch the top, bottom, left, or right image edge. Replace all water currently touching the right edge with a continuous foreground grassy bank and low meadow flowers matching perspective and light. Do not add any animal, person, structure, object, writing, border, panel, or page texture. Keep both complete horses comfortably inside the 1536x1024 landscape frame.",
+          "editSourceArtifactId": "exec-17780019-b957-4a07-a194-6333969fb26d",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c042.png",
+          "sha256": "b122cd1bab6b7c3fd49a572e28ee4b5e389dad2093e19328774a1025de8f9a00",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The scene focuses on equine maternal attention and presence, not Pliny’s fabulous reproductive, magical, arena, or warfare claims.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete mare and one complete foal are fully internal with credible anatomy and distinct legs; the river now curves entirely inside the landscape and touches no edge. No rider, battle, birth, text, panel, or duplicated horse.",
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-17780019-b957-4a07-a194-6333969fb26d",
+          "outputArtifact": "built-in-imagegen://exec-17780019-b957-4a07-a194-6333969fb26d.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book VIII, Chapter 42, “The Nature of the Horse.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, diagram, or collage. In a broad spring pasture beside a quiet river at first light, show exactly TWO complete horses: one strong chestnut mare and her one young foal. The mare stands in three-quarter profile, turning her head back protectively toward the foal; the foal, steady but still young, steps close beneath the arc of her neck. Both entire anatomically credible bodies—ears, faces, four legs, hooves, manes, and tails—must be clearly separate and comfortably inside the frame with generous breathing room; no limb may be hidden in grass or cut by an edge. A soft west wind moves their manes and bends a narrow band of meadow grass toward the river; pale hills and a distant grove dissolve into dawn mist. No other horses, animals, or people, no rider, saddle, bridle, arena, battle, weapon, tomb, birth scene, mating, injury, or supernatural effect. Focus on the chapter’s durable observations of equine intelligence, maternal attention, gait, and presence; avoid literalizing its fabulous reproductive and magical claims.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of chestnut umber, soot black, faded cinnabar, muted verdigris, river blue, parchment cream, dawn peach, and a whisper of shell-gold light. Naturalistic horse anatomy, tactile coat, mane, grass and water, imperfect handmade marks, luminous atmospheric depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish or sentimental. No letters, glyphs, pseudo-writing, labels, caption, signature, watermark, decorative border, frame, panels, inset, split scene, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-05/evidence/history/b08-c042-attempt-01-river-touches-edge.png",
+          "sha256": "6e5060b13072e2900ee8552cc7273ddfe28f702fdc4e71abb3978c891834ff37",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The river ran directly through the right image edge, failing the campaign’s strict no-clipped-water rule."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 671,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "8:35": {
+        "nearestMAD": 22.47,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c002.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c001.png",
+        "madAtDHashPeer": 42.06
+      },
+      "8:36": {
+        "nearestMAD": 28.92,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b08-c010.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c019.png",
+        "madAtDHashPeer": 93.91
+      },
+      "8:37": {
+        "nearestMAD": 20.97,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c019.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c018.png",
+        "madAtDHashPeer": 45.41
+      },
+      "8:38": {
+        "nearestMAD": 21.15,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c025.png",
+        "madAtDHashPeer": 25.1
+      },
+      "8:39": {
+        "nearestMAD": 31.47,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c014.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c004.png",
+        "madAtDHashPeer": 52.41
+      },
+      "8:40": {
+        "nearestMAD": 25,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+        "madAtDHashPeer": 124.55
+      },
+      "8:41": {
+        "nearestMAD": 22.61,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c022.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c040.png",
+        "madAtDHashPeer": 75.63
+      },
+      "8:42": {
+        "nearestMAD": 24.61,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c060.png",
+        "madAtDHashPeer": 35.92
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "8:35",
+      "8:36",
+      "8:37",
+      "8:38",
+      "8:39",
+      "8:40",
+      "8:41",
+      "8:42"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 12,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 4,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  }
+}

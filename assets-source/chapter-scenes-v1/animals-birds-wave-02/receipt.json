@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-02",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "corpusSha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4",
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book X chapters 10 through 17 were read before prompting. Augury, omen, lost-species names, the incendiary-bird story, egg orientation, incubation duration, bird calls, conflict, predation, and other uncertain ancient claims are treated as transmitted historical testimony rather than verified miracle, prophecy, modern science, medical guidance, cruelty, or spectacle.",
+  "assignments": [
+    "10:10",
+    "10:11",
+    "10:12",
+    "10:13",
+    "10:14",
+    "10:15",
+    "10:16",
+    "10:17"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "animals-birds-wave-01",
+    "collisionDecision": "The requested directory already contained eight legacy masters and a receipt for 10:1 through 10:8. Those files were preserved untouched; work continued in the next collision-free directory animals-birds-wave-02.",
+    "legacyCampaignPreserved": "assets-source/chapter-scenes-v1/animals-birds-wave-01",
+    "legacyOwnedKeys": [
+      "10:1",
+      "10:2",
+      "10:3",
+      "10:4",
+      "10:5",
+      "10:6",
+      "10:7",
+      "10:8"
+    ],
+    "receiptsCheckedAtCertification": 93,
+    "skippedCandidates": [
+      {
+        "chapterKey": "10:1",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:2",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:3",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:4",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:5",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:6",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:7",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:8",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-birds-wave-01"
+        ],
+        "reason": "already generated and receipt-owned by the pre-existing legacy campaign"
+      },
+      {
+        "chapterKey": "10:9",
+        "planStatus": "receipt-backed-atlas-cell",
+        "receiptOwners": [],
+        "reason": "receipt-backed atlas cell; not a full-scene assignment"
+      }
+    ],
+    "selectedKeys": [
+      "10:10",
+      "10:11",
+      "10:12",
+      "10:13",
+      "10:14",
+      "10:15",
+      "10:16",
+      "10:17"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:10",
+      "title": "THE KITE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c010.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d061c6fe9ecea435e2ed10311a649f22ad9d8173350d90ce20fefbe088a3f8e2",
+        "englishSha256": "f429acd825770016ff1900d1044ae33efb969c7974dcd00222384a60030f07ea",
+        "latinWords": 70,
+        "englishWords": 158
+      },
+      "sha256": "d91fd13165f3e7187c4bfa9f2677c81b9cf952c38472b55b8cf538afa26771e0",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2448415c-cd92-45ea-a820-f19dcce1b3ff",
+      "generationArtifactId": "exec-2448415c-cd92-45ea-a820-f19dcce1b3ff",
+      "outputArtifact": "built-in-imagegen://exec-2448415c-cd92-45ea-a820-f19dcce1b3ff.png",
+      "exactFinalPrompt": "Revise this exact illustration while preserving its beautiful single red kite, forked tail, tiny swallows, ancient boat, coastline, warm vellum, iron-gall hatching, and mineral-pigment character. Fix only the framing and edge safety: no water may touch any outer image edge. Recompose the lower and left perimeter so a generous uninterrupted band of dry ochre foreground shore and bare warm vellum surrounds the sea on every side; the blue-green sea must become a fully enclosed inland-looking coastal inlet with at least 70 pixels of non-water margin from all four edges. Keep the kite fully inside the frame with generous air around every wingtip and tail; keep vessel, coast, and all discrete subjects fully inside and unclipped. Retain one continuous scene, not a page or panel. No text, pseudo-writing, symbols, frame, border, page edge, collage, watermark, or added subject. Opaque RGB/sRGB 1536×1024 landscape.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9520116a-75f1-4119-bc9d-3447f49cd6f1",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-2448415c-cd92-45ea-a820-f19dcce1b3ff",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-9520116a-75f1-4119-bc9d-3447f49cd6f1.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found one complete prominent red kite with anatomically plausible banked wings and flexed forked tail, a tiny ancient sailing vessel, and small distant swallow marks. The blue-green inlet is completely enclosed by dry ochre shore and remains clear of all outer edges. Every focal subject is fully inside; no text, pseudo-writing, page, panel, collage, duplication, modern object, or graphic content was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-9520116a-75f1-4119-bc9d-3447f49cd6f1",
+          "outputArtifact": "built-in-imagegen://exec-9520116a-75f1-4119-bc9d-3447f49cd6f1.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/evidence/history/b10-c010-rejected-01-water-edge.png",
+          "sha256": "4e3c20126f24ba2ffc1c3589db88a84a4a240c385af05d210102a6ee970c3434",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 10, THE KITE. Corpus grounding: Pliny describes the kite as a large hawk whose flexing tail seems to teach the art of steering, disappearing in winter after the swallows; funeral and altar stories and the post-solstice gout report are transmitted ancient observations, not verified omen or medical fact. Scene: a single red kite is the dominant complete subject, gliding in a broad banked turn high above a distant ancient Mediterranean coastline; its forked tail visibly flexes like a rudder. Far below and well inside the composition, one tiny lateenless ancient sailing vessel changes course on a blue-green sea, a poetic visual analogy rather than a causal claim. A few tiny swallows trail toward the horizon to suggest season. Bird, vessel, coastline, and every patch of water must have generous breathing room and must not touch or be clipped by any edge. Oblique aerial viewpoint; sweeping negative space; wind expressed through fine curved hatch marks only, never symbols. Original Plinian natural-history folio on warm aged vellum: iron-gall contour, fine cross-hatching and stipple, restrained burnt umber, ochre, verdigris, faded lapis, and a small madder accent; ancient, timeless, beautiful, rough and polished at once. The image itself is the folio artwork, not a photographed or depicted page. No altar, corpse, sacrifice, distress, omen symbolism, diagram, taxonomy chart, labels, letters, numbers, text, pseudo-writing, border, frame, page edge, panels, collage, split composition, watermark, signature, modern object, glossy digital rendering, or photorealism. Exactly one prominent kite; distant swallows may remain tiny atmospheric marks. Anatomically plausible wings, tail, feet, beak, and feather structure. Opaque RGB/sRGB.",
+          "reason": "The sea reached the lower and left outer canvas edges; the otherwise strong first candidate failed strict water-edge containment."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:11",
+      "title": "THE CLASSIFICATION OF BIRDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c011.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "12f4f07bfa1fcfa1e64fdfef4028ae3d3dca012804a2968284ab89ca254f4c0d",
+        "englishSha256": "8a52052982c440a3951862956e8fbadd80a83ba7fb90c195e9251a13f97230d2",
+        "latinWords": 33,
+        "englishWords": 57
+      },
+      "sha256": "ac925ac56fde8346b8d48720afaa8e050a350863a5ba1a795c67f37025b679c2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-94b8ab48-c74f-4ef1-8934-4938242dc68b",
+      "generationArtifactId": "exec-94b8ab48-c74f-4ef1-8934-4938242dc68b",
+      "outputArtifact": "built-in-imagegen://exec-94b8ab48-c74f-4ef1-8934-4938242dc68b.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 11, THE CLASSIFICATION OF BIRDS. Corpus grounding: Pliny distinguishes birds principally by feet—hooked talons, separate toes, and webbed feet—and notes that hooked-taloned birds mostly eat flesh. Make this a dignified observation of morphology, not a modern taxonomy lesson and not a predation scene. One unified ancient Mediterranean marsh-edge scene viewed from a gently elevated angle: exactly three complete prominent birds occupy different depths in a natural triangular composition—one small eagle on a dry ochre boulder extending one anatomically plausible hooked foot, one elegant grey heron on firm mud with long separated toes clearly visible, and one white-and-russet goose standing at the shallow margin of a small enclosed reed pool with one webbed foot visible through clear water. All three birds are calm, alive, non-interacting, fully contained, and separated by grasses and stones; no food, wounds, prey, or violence. The small pool is completely enclosed by dry ground and reeds and stays at least 90 pixels from every outer edge; no water or discrete subject touches an edge. Use generous vellum sky and open ground as negative space. Original Plinian natural-history folio on warm aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained umber, lampblack, pale verdigris, faded lapis, ochre, and a whisper of madder; ancient, timeless, beautiful, rough and polished at once. The image itself is the folio artwork, not a depicted book page. Naturalistic bird anatomy, feet and feathers; exactly three prominent birds. No chart, diagram, specimen lineup, labels, letters, numbers, text, pseudo-writing, captions, measurement marks, border, frame, page edge, panels, collage, split scene, repetition, watermark, signature, modern object, photography, glossy digital rendering, or photorealism. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-94b8ab48-c74f-4ef1-8934-4938242dc68b",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly three complete, calm birds in one continuous marsh-edge habitat: eagle with hooked talons, heron with separate toes, and goose with a visible webbed foot. The internal pool is enclosed and edge-safe; anatomy and spacing are plausible; there is no prey, injury, taxonomy chart, text, pseudo-writing, panel, collage, or clipped focal motif.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:12",
+      "title": "CROWS. BIRDS OF ILL OMEN. AT WHAT SEASONS THEY ARE NOT INAUSPICIOUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c012.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "05b08c705b8aada7a8706706b20fced83472ce5c0efc80838b95ed68f9fbc825",
+        "englishSha256": "8ff90409ab496ab6a49fe6696a6b21cfbbfac673d3f54f8432eac46451212839",
+        "latinWords": 307,
+        "englishWords": 662
+      },
+      "sha256": "7e0416b15f1ab91c52e987eaae5d134eea7c1ef2957dd0cc08e518491834001a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-96f6af62-9730-4858-9012-2cb05dc10544",
+      "generationArtifactId": "exec-96f6af62-9730-4858-9012-2cb05dc10544",
+      "outputArtifact": "built-in-imagegen://exec-96f6af62-9730-4858-9012-2cb05dc10544.png",
+      "exactFinalPrompt": "Create a substantial palette and viewpoint revision of this exact two-crow walnut-dropping scene to clear a corpus-level similarity collision while preserving its chapter meaning and beautiful folio material. Keep exactly two hooded crows, one complete adult airborne and releasing exactly one whole walnut, one complete fledgling waiting on an olive branch, one cracked shell, and one kernel grouping; keep all anatomy and calm non-contact behavior plausible. Shift from the pale wide courtyard look to an intimate late-afternoon blue-hour composition viewed from lower and closer: use a deep faded-lapis sky occupying the upper half, dense dark olive-verdigris grove masses, cool charcoal paving in the lower foreground, and strong madder/terracotta roof accents. Move the birds into an asymmetric diagonal rather than a centered open vignette; enlarge them slightly while keeping at least 90 pixels around every wingtip, foot, beak, branch tip, roof form, nut and shell. All discrete motifs must resolve inside a soft but narrower warm-vellum perimeter; no object touches an outer edge. Maintain fine iron-gall linework, cross-hatching, stipple, and restrained mineral pigments; ancient, timeless, rough and polished at once. This is one continuous scene, not a page or panel. Remove and prevent any text, letters, numbers, pseudo-writing, signature, watermark, frame, border line, page edge, panels, collage, repeated bird, extra nut, modern object, graphic harm, glossy rendering, or photorealism. Opaque RGB/sRGB 1536×1024 landscape.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-762ac7d8-ff66-4883-8795-50e0134ec23c",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-346dbc9a-8d75-4c38-b6f9-5a2c60aec3f3",
+          "status": "rejected-native-qa",
+          "inputArtifact": "built-in-imagegen://exec-762ac7d8-ff66-4883-8795-50e0134ec23c.png"
+        },
+        {
+          "generationArtifactId": "exec-3f017229-b0d2-4755-82d2-d78fdb3895a5",
+          "status": "rejected-global-audit",
+          "inputArtifact": "built-in-imagegen://exec-346dbc9a-8d75-4c38-b6f9-5a2c60aec3f3.png"
+        },
+        {
+          "generationArtifactId": "exec-96f6af62-9730-4858-9012-2cb05dc10544",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-3f017229-b0d2-4755-82d2-d78fdb3895a5.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection of the final deep-lapis revision found exactly two complete hooded crows, one whole falling walnut, one cracked shell, and one kernel grouping in a single calm olive-courtyard scene. All wings, feet, branches, roof forms, nuts, and paving resolve inside the vellum perimeter. No omen is literalized; there is no signature, text, pseudo-writing, clipping, panel, collage, duplicate bird, or graphic harm.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-762ac7d8-ff66-4883-8795-50e0134ec23c",
+          "outputArtifact": "built-in-imagegen://exec-762ac7d8-ff66-4883-8795-50e0134ec23c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/evidence/history/b10-c012-rejected-01-clipping-signature.png",
+          "sha256": "3d342a86139c8c99bd3f2146bd1da135aad0a2480185363eff011d301fb0769b",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 12, CROWS AND BIRDS OF ILL OMEN. Corpus grounding: the chapter observes crows repeatedly dropping hard nuts onto stone or roof tiles to crack them, continuing to feed fledged young, and records disputed ancient beliefs about ravens and owls as auspices. Depict the observable natural-history behavior, not a supernatural omen, prophecy, medical claim, ritual purification, or sensational night monster. Scene: an intimate low upward viewpoint across a quiet sunlit Roman courtyard and grove. Exactly two complete hooded crows: one adult is fully airborne near the upper center, just releasing a single walnut toward a broad pale paving stone; one fledgling waits calmly on a low olive branch at right, beak open in anticipation. On the ground, one already cracked walnut shell and its kernel make the repeated method legible. A few russet roof tiles and an uninscribed stone wall recede at left; the grove remains peaceful, with no people, temple, altar, city panic, or owl. Both birds, branch tips, nuts, roof forms, and every discrete motif are fully inside the frame with generous breathing room; nothing focal touches an edge. Strong diagonal from falling nut to cracked shell, balanced by broad quiet vellum sky. Original Plinian natural-history folio on warm aged vellum, iron-gall contour, fine cross-hatching and stipple, smoky lampblack crow plumage with restrained faded lapis sheen, olive verdigris, umber, ochre, and a trace of madder; ancient, timeless, beautiful, rough and polished at once. The image itself is the artwork, not a depicted page. Anatomically plausible crow wings, beaks, feet, feathers, and proportions. Exactly two prominent birds and exactly three walnut forms total: one falling whole nut, one cracked shell, one visible kernel. No blood, injury, choking, funeral, sacrifice, omen symbols, astrology, diagram, labels, letters, numbers, text, pseudo-writing, inscription, border, frame, page edge, panels, collage, repetition, watermark, signature, modern object, glossy digital rendering, or photorealism. Opaque RGB/sRGB.",
+          "reason": "The adult crow wing clipped the top edge, the supporting tree crossed the right and bottom edges, and false signature-like pseudo-writing appeared at bottom left."
+        },
+        {
+          "generationArtifactId": "exec-346dbc9a-8d75-4c38-b6f9-5a2c60aec3f3",
+          "outputArtifact": "built-in-imagegen://exec-346dbc9a-8d75-4c38-b6f9-5a2c60aec3f3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/evidence/history/b10-c012-rejected-02-edge-termination.png",
+          "sha256": "5530c582786bef198008d3639c8c37fecb2f55224bd04e46879d390a9009a186",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Revise this exact crow-and-walnut illustration, preserving the beautiful iron-gall natural-history style, the two hooded crows, one falling walnut, cracked shell and kernel, roof tiles, courtyard, and olive grove. Correct every QA failure. Remove the false signature or pseudo-writing at bottom left completely and replace it with unmarked warm vellum and stone texture. Recompose and scale the scene down so the airborne crow is entirely visible with at least 100 pixels of open sky around both wing tips, head, tail, and feet. Make the fledgling's supporting olive branch and all foliage terminate naturally well inside the image rather than crossing the right or bottom edge. Every bird, nut, branch tip, roof form, and discrete motif must be fully contained with generous breathing room on all four sides. Preserve exactly two prominent birds and the calm observable nut-dropping behavior, with natural anatomy. One unified scene only. No text, letters, numbers, pseudo-writing, signature, watermark, border, frame, page edge, panels, collage, split composition, added bird, graphic harm, modern object, or photorealism. Opaque RGB/sRGB 1536×1024 landscape.",
+          "reason": "The signature and wing clipping were corrected, but the left roof and supporting olive tree still terminated at outer canvas edges rather than resolving inside the illustration."
+        },
+        {
+          "generationArtifactId": "exec-3f017229-b0d2-4755-82d2-d78fdb3895a5",
+          "outputArtifact": "built-in-imagegen://exec-3f017229-b0d2-4755-82d2-d78fdb3895a5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/evidence/history/b10-c012-rejected-03-global-mad.png",
+          "sha256": "c9074e1ec1ab498f70fcbfdde46a26e4bf1d7071202537ae524254f902838212",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Make a precise framing correction to this exact two-crow walnut scene. Preserve every subject, action, anatomy, count, palette, and natural-history folio materiality. Scale the entire illustrated scene down to about 88 percent and extend unmarked warm aged vellum around it so every element resolves naturally inside the canvas: the left roof and wall must end visibly before the left edge; the olive tree trunk, roots, outermost foliage and branch tips must end visibly before the right and bottom edges; the paving and scene should softly feather into bare vellum before all four edges. Maintain at least 70 pixels of calm, unmarked breathing room between every constructed or botanical discrete motif and every outer edge, while retaining a single continuous landscape rather than a framed inset. Keep both crows fully inside, exactly two prominent birds, one falling whole walnut, one cracked shell, and one kernel grouping. Absolutely no border line, decorative frame, page edge, panel, collage, text, letters, numbers, pseudo-writing, signature, watermark, added bird, altered behavior, or modern object. Opaque RGB/sRGB 1536×1024 landscape.",
+          "reason": "This candidate passed native visual QA but failed the permanent live global audit at MAD 18.86 against assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png, below the required MAD 20 threshold."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:13",
+      "title": "BIRDS, THE RACE OF WHICH IS EXTINCT, OR OF WHICH ALL KNOWLEDGE HAS BEEN LOST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c013.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ae0574c61763b20dcf6774d15b2d7f5bb0238a2182c489a15bee57ab281feb55",
+        "englishSha256": "5b2e357524456a2c8a3bd6fb5eebd66299007ef98e721c8b0d3c1249283fd4ae",
+        "latinWords": 64,
+        "englishWords": 131
+      },
+      "sha256": "1c21203bb60f30f4de1205a4baf0b5af3bd1c458c453c617f971a7d84efaa9bb",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-863b963e-4031-45dd-897e-17a45c4ca94d",
+      "generationArtifactId": "exec-863b963e-4031-45dd-897e-17a45c4ca94d",
+      "outputArtifact": "built-in-imagegen://exec-863b963e-4031-45dd-897e-17a45c4ca94d.png",
+      "exactFinalPrompt": "Preserve this exact twilight lost-bird composition, palette, single unidentified bird with one cold charcoal fragment, cold ash brazier, roof terrace, and beautiful Plinian folio materiality. Fix edge safety only. Scale the illustrated scene down to about 90 percent and extend softly mottled bare warm vellum around it so all architecture ends visibly inside the canvas: the leftmost building, rightmost building, roof tiles, wall, steps, terrace paving and brazier must feather to unmarked vellum before every outer edge. Keep at least 65 pixels of unmarked breathing room around all discrete structures and subjects, without drawing a border line or making a framed panel. The one bird and charcoal remain completely inside and unchanged; no active fire, smoke, glow or danger. One continuous twilight vignette. No text, pseudo-writing, signature, watermark, border, frame, page edge, panels, collage, added bird, added object, modern feature, or photorealism. Opaque RGB/sRGB 1536×1024 landscape.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-98e37f23-3c9c-4f07-83b4-1b051827d691",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-863b963e-4031-45dd-897e-17a45c4ca94d",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-98e37f23-3c9c-4f07-83b4-1b051827d691.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete, intentionally non-diagnostic bird carrying one cold black charcoal fragment above a cold ash brazier and silent roof terrace. The entire architectural scene feathers into blank vellum before every edge. There is no active fire, glow, smoke, omen effect, person, injury, text, pseudo-writing, panel, collage, or modern object.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-98e37f23-3c9c-4f07-83b4-1b051827d691",
+          "outputArtifact": "built-in-imagegen://exec-98e37f23-3c9c-4f07-83b4-1b051827d691.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/evidence/history/b10-c013-rejected-01-architecture-edge.png",
+          "sha256": "16dd365ba7801b715136c72c3ec2413fc6cede5878aceea815b0eaa84a223501",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 13, THE LOST 'INCENDIARY' BIRD. Corpus grounding: Pliny reports that Roman annals mentioned an ominous 'incendiary' bird, but explicitly says its identity was neither stated nor preserved; some people interpreted the term as any bird seen carrying a coal, while others called it spinturnix, and Pliny found no one who knew the species. Treat this as uncertain transmitted testimony, not a real species, omen, supernatural event, or verified cause of fire. Scene: a quiet twilight view across an unpeopled Roman roof terrace after a hearth has gone cold. Exactly one small, complete, intentionally non-identifiable dark bird crosses the violet-ochre sky near center, carrying one tiny completely extinguished black charcoal fragment—no glow, flame, smoke, sparks, danger, or burning building. Below, a cold stone brazier sits safely on an open terrace with pale ash and no fire. The bird's mixed, plausible features should resist confident species identification without becoming monstrous. Use a distant three-quarter viewpoint and broad atmospheric negative space; the uncertainty is conveyed through restrained, slightly abraded pigment around the bird, never by symbols or writing. Bird, charcoal, brazier, roof forms, and all discrete motifs must remain fully inside with generous breathing room; nothing focal touches an outer edge. Original Plinian natural-history folio on warm aged vellum: iron-gall linework, delicate cross-hatching and stipple, deep lampblack, bruised faded lapis, smoky violet, muted madder, umber and ochre; ancient, timeless, beautiful, rough and polished at once. The image itself is the artwork, not a photographed or depicted page. Exactly one prominent bird. No active fire, smoke, alarm, injured person or animal, omen aura, ritual purification, altar, prophecy, monster, labels, letters, numbers, text, pseudo-writing, inscription, border, frame, page edge, panels, collage, split scene, repetition, watermark, signature, modern object, glossy rendering, or photorealism. Opaque RGB/sRGB.",
+          "reason": "The unidentified bird and cold-brazier concept was responsible and text-free, but left, right, and lower architecture ran through outer edges rather than resolving inside the canvas."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:14",
+      "title": "BIRDS, THE RACE OF WHICH IS EXTINCT, OR OF WHICH ALL KNOWLEDGE HAS BEEN LOST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c014.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "17bfcbc56a823fe133df294d7fba6c4dd1bf85598712018ae8b013de9632dc2b",
+        "englishSha256": "709a03b4b047c980f75c8d344962d99f4400617eee14a001eac9b57b6e566f7c",
+        "latinWords": 23,
+        "englishWords": 57
+      },
+      "sha256": "3135bf7663eb8e9d3e3fb0468e03d54641fb23fa4176989fece2e10ee3848a97",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ae93ad83-953a-4a80-9aa7-00599bd0098f",
+      "generationArtifactId": "exec-ae93ad83-953a-4a80-9aa7-00599bd0098f",
+      "outputArtifact": "built-in-imagegen://exec-ae93ad83-953a-4a80-9aa7-00599bd0098f.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 14, LOST BIRDS CALLED CLIVIA AND SUBIS. Corpus grounding: Pliny says people of his time no longer knew which bird the ancients called clivia, records competing descriptions, and notes Nigidius's report of a bird called subis said to break eagle eggs. Treat both names and the egg-breaking claim as uncertain transmitted testimony, not verified species or observed violence. Scene: a serene high mountain ledge at early dawn, viewed across a wide airy gulf. A carefully woven eagle nest rests securely on an inner ledge with exactly two intact pale eggs, undisturbed. Far beyond, exactly two small complete non-identifiable bird silhouettes fly separately into a band of mist; their restrained, slightly rubbed-away pigment evokes lost identification without making them ghosts or monsters. No bird approaches the nest and no egg is cracked. The cliff, nest, eggs, birds, sparse juniper and all discrete forms soften into a broad unmarked vellum perimeter and remain fully inside the canvas with generous breathing room; nothing focal touches an edge. Use an asymmetrical composition with the nest low left and the two distant birds high right, abundant negative space, and no diagrammatic lineup. Original Plinian natural-history folio on warm aged vellum: iron-gall contours, minute cross-hatching and stipple, cool faded lapis and verdigris mist, chalky eggs, umber cliff, pale ochre dawn, tiny muted madder accents; ancient, timeless, beautiful, rough and polished at once. The image itself is the artwork, not a depicted page. Anatomically plausible but deliberately non-diagnostic distant birds. Exactly two birds and exactly two eggs. No attack, broken shell, distress, omen, supernatural aura, labels, letters, numbers, text, pseudo-writing, inscription, border, frame, page edge, panels, collage, split scene, repetition, watermark, signature, modern object, glossy rendering, or photorealism. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ae93ad83-953a-4a80-9aa7-00599bd0098f",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two small, complete, deliberately non-identifiable distant bird silhouettes and exactly two intact eggs in an undisturbed mountain nest. No bird approaches the nest; there is no broken shell or attack. All subjects and cliff motifs soften inside the vellum perimeter; no text, pseudo-writing, frame, panels, collage, or supernatural treatment was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:15",
+      "title": "BIRDS, THE RACE OF WHICH IS EXTINCT, OR OF WHICH ALL KNOWLEDGE HAS BEEN LOST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c015.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2853ab1c0547bf052dde722d93c462ff63c6c2747c2221290baaea80ab6a6c6c",
+        "englishSha256": "005aee28b1a71b92f0da10181bfa655fac776fd3ba5f678575615a131a23620a",
+        "latinWords": 23,
+        "englishWords": 54
+      },
+      "sha256": "c523983d651d283440016b6dea06407fbc41ef1cdc5d529f6c8b8357a576a174",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fd2d30b5-3b30-42b7-b757-44ff817c5812",
+      "generationArtifactId": "exec-fd2d30b5-3b30-42b7-b757-44ff817c5812",
+      "outputArtifact": "built-in-imagegen://exec-fd2d30b5-3b30-42b7-b757-44ff817c5812.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 15, BIRDS NO LONGER SEEN. Corpus grounding: Pliny says several bird kinds depicted in Etruscan religious tradition had not been seen for generations and wonders at their disappearance even while human appetite continued to devastate other kinds. Treat this as Pliny's historical testimony and lament, not a verified modern extinction inventory; avoid graphic hunting, carcasses, cages, slaughter, or spectacle. Scene: a quiet abandoned Etruscan hill sanctuary open to an autumn grove, seen from a low three-quarter viewpoint. On one broad, weathered plaster wall—not divided into panels—exactly four distinct, graceful, non-identifiable bird figures survive only as faded mineral-pigment fresco silhouettes, each incomplete through natural abrasion; they are images on the ancient wall, not living or supernatural birds. In the foreground, an empty stone threshold, a small abandoned nest with no eggs, and one loose feather convey absence. Beyond the ruin, silent amber trees and seed heads stand in late light, with no live birds or people. The sanctuary structure, wall, faded bird forms, nest, feather, trees and every discrete motif all resolve well inside a soft unmarked vellum perimeter; nothing focal touches any edge. Broad negative space and a diagonal shaft of ochre light make the mood elegiac, dignified, and calm. Original Plinian natural-history folio on warm aged vellum: iron-gall linework, fine cross-hatching and stipple, weathered Etruscan madder, terracotta, charcoal, faded lapis and verdigris, pale ochre; ancient, timeless, beautiful, rough and polished at once. The image itself is the folio artwork, not a depicted page; the fresco is integrated naturally into the single ruin scene, never a separate plate or frame. Exactly four faded painted bird figures, zero living birds, one empty nest, one feather. No legible ritual symbols, alphabetic marks, labels, letters, numbers, text, pseudo-writing, inscription, border, frame, page edge, panels, collage, repeated identical bird, watermark, signature, modern object, glossy rendering, or photorealism. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-fd2d30b5-3b30-42b7-b757-44ff817c5812",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly four distinct, abraded painted bird figures integrated into one weathered Etruscan sanctuary wall, zero living birds, one empty nest, and one loose feather. The ruin and autumn grove resolve inside a soft vellum perimeter. There is no legible ritual mark, text, pseudo-writing, panel grid, repeated bird, hunting, carcass, cage, graphic harm, or modern object.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:16",
+      "title": "BIRDS WHICH ARE BORN WITH THE TAIL FIRST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c016.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "76f62ecac47f65490cd752305104d731035d8bdaa6808e2fd1458252f4c8074a",
+        "englishSha256": "e1b0316d96660e0ed241f822bf4f2d9c1441bcd2357f53b8cd40e82017669706",
+        "latinWords": 33,
+        "englishWords": 80
+      },
+      "sha256": "ec0d02526c3ba326e6c8dbdad813bd934a3902e1a53d0e4274d414d9b6605570",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f6f8863b-53b7-4ee4-afb3-eb87cd963921",
+      "generationArtifactId": "exec-f6f8863b-53b7-4ee4-afb3-eb87cd963921",
+      "outputArtifact": "built-in-imagegen://exec-f6f8863b-53b7-4ee4-afb3-eb87cd963921.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 16, BIRDS SAID TO BE BORN TAIL FIRST. Corpus grounding: Pliny attributes to the writer Hylas the report that the owlet, horned owl, tree-boring woodpecker, trygon, and crow emerge tail first because the weight of the chick's head turns the egg. Treat this as transmitted ancient natural-history testimony, not verified embryology or a modern anatomical lesson. Do not show a chick emerging or literalize the claim as fact. Scene: an intimate dawn view into a broad old olive-tree hollow. Exactly one complete tawny owlet mother stands beside a woven nest containing exactly three intact eggs; with one gentle foot she is visibly turning the nearest egg while the other two remain settled, making incubation and egg orientation the observed subject. A small loose down feather curves around the turned egg, suggesting rotation without symbols. The tree hollow forms a natural oval composition but is not a frame; olive leaves and pale dawn woodland recede beyond. The owl, all three eggs, nest, branches, foliage tips, and every discrete subject must be fully inside with broad warm vellum breathing room and nothing focal touching an edge. Low intimate viewpoint, quiet circular rhythm, no cutaway, no transparent shell, no hatchling, no birth scene. Original Plinian natural-history folio on warm aged vellum: iron-gall contour, extremely fine cross-hatching and stipple, soft lampblack, russet umber, muted plum-madder shadow, olive verdigris, pale ochre and a trace of faded lapis; ancient, timeless, beautiful, rough and polished at once. The image itself is the artwork, not a depicted page. Anatomically plausible owl foot, feathers, eggs, and nest. Exactly one bird and exactly three eggs. No diagram, anatomical section, arrows, labels, letters, numbers, text, pseudo-writing, inscription, border, decorative frame, page edge, panels, collage, split scene, repetition, watermark, signature, modern object, graphic imagery, glossy rendering, or photorealism. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f6f8863b-53b7-4ee4-afb3-eb87cd963921",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete tawny owlet and exactly three intact eggs in a single olive-tree hollow. The mother gently turns one egg; there is no cutaway, translucent shell, hatchling, birth scene, injury, text, pseudo-writing, diagram, panel, collage, or modern scientific claim. Owl and eggs are fully visible and edge-safe.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:17",
+      "title": "THE OWLET",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c017.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "146f83b26273e71030a409900343b23272071144915d796aad43421ca0e84424",
+        "englishSha256": "1d5798af4b29ff4dd237177a4bccfdd0358da433b3528a58869e1f3554cf49d7",
+        "latinWords": 37,
+        "englishWords": 87
+      },
+      "sha256": "8997e28b1e639a18a5e30753a6a5ddc6f745f835c0579c3866aae7ecd22c872e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3a8cde77-e48d-4023-b89c-5d0a47409059",
+      "generationArtifactId": "exec-3a8cde77-e48d-4023-b89c-5d0a47409059",
+      "outputArtifact": "built-in-imagegen://exec-3a8cde77-e48d-4023-b89c-5d0a47409059.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 17, THE OWLET. Corpus grounding: Pliny describes an owlet surrounded by other birds rolling onto its back and defending itself with feet, beak and talons until a hawk comes to its aid; he also transmits Nigidius's claims about sixty winter days of incubation and nine calls. Depict a non-contact defensive standoff, not graphic combat, injury, predation, or proof of the numerical claims. Scene: a high oblique view into a quiet frost-dusted woodland clearing at first winter light. At the center, exactly one complete little owlet is alert and unharmed, safely reclined on a thick cushion of moss with its back down and both feet raised defensively, head upright and wings folded. Exactly four small complete songbirds form a loose, non-contact arc several body lengths away, paused rather than attacking. Exactly one complete goshawk glides in from the upper distance, wings fully spread but calm, creating a protective diagonal and no physical contact. All six birds are anatomically plausible, individually distinct, fully visible and well separated. No open beak violence, feathers flying, wounds, prey, fear, nest or eggs. Every bird, wingtip, moss cushion, branch, frost patch and discrete motif resolves well inside a softly feathered unmarked vellum perimeter; nothing focal touches an edge. Strong circular composition, generous pale negative space, viewpoint unlike the preceding intimate nest scene. Original Plinian natural-history folio on warm aged vellum: iron-gall contour, fine cross-hatching and stipple, winter lampblack, silvery faded lapis, sage verdigris, pale ochre, russet umber and restrained madder; ancient, timeless, beautiful, rough and polished at once. The image itself is the artwork, not a depicted page. Exactly six birds total: one owlet, four small songbirds, one goshawk. No symbolic sound marks, notes, numerals, diagram, labels, letters, text, pseudo-writing, inscription, border, frame, page edge, panels, collage, split scene, repetition, watermark, signature, modern object, graphic harm, glossy rendering, or photorealism. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-3a8cde77-e48d-4023-b89c-5d0a47409059",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly six complete and separated birds: one alert owlet safely reclined on moss with both feet raised, four small songbirds in a non-contact arc, and one calm goshawk gliding above. All wings and feet are plausible and fully contained. There is no attack, wound, prey, distress, symbolic sound mark, text, pseudo-writing, clipping, panel, collage, or duplication.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 730,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:10": {
+        "nearestMAD": 20.03,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c007.png",
+        "madAtDHashPeer": 37.09
+      },
+      "10:11": {
+        "nearestMAD": 24.94,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c047.png",
+        "madAtDHashPeer": 61.97
+      },
+      "10:12": {
+        "nearestMAD": 24.04,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c042.png",
+        "madAtDHashPeer": 44.85
+      },
+      "10:13": {
+        "nearestMAD": 23.21,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b12-c027.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-03/b20-c009.png",
+        "madAtDHashPeer": 35.39
+      },
+      "10:14": {
+        "nearestMAD": 24.47,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c090.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c016.png",
+        "madAtDHashPeer": 24.93
+      },
+      "10:15": {
+        "nearestMAD": 28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c022.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c012.png",
+        "madAtDHashPeer": 54.54
+      },
+      "10:16": {
+        "nearestMAD": 32.79,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c015.png",
+        "madAtDHashPeer": 44.77
+      },
+      "10:17": {
+        "nearestMAD": 22.25,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c023.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c013.png",
+        "madAtDHashPeer": 49.69
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-birds-wave-02",
+    "status": "pass",
+    "output": ""
+  }
+}

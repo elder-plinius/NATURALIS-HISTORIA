@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-13",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "34:10",
+    "34:11",
+    "34:12",
+    "34:14",
+    "34:15",
+    "34:16",
+    "34:17",
+    "34:18"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in prompts and artifact IDs are portable. Every accepted workspace master was directly byte-compared with the corresponding built-in original.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    "public/corpus/book-34.7eed09def7f96d1e.json"
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus fields for all eight selected chapters were read before prompting. Metallurgical descriptions are shown as historical observation; medical, toxic, magical and violent claims are not enacted or presented as modern advice.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 0,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 8,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 0,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "selectedKeys": [
+      "34:10",
+      "34:11",
+      "34:12",
+      "34:14",
+      "34:15",
+      "34:16",
+      "34:17",
+      "34:18"
+    ],
+    "receiptsCheckedAtCertification": 117,
+    "nonEvidenceMastersCheckedAtCertification": 920,
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "chapters": [
+    {
+      "chapterKey": "34:10",
+      "title": "CADMIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c010.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b3cb4f64d0c64581b6e67906d225b6c1f24c6db2c70157e6c6dcb3312a08c1aa",
+        "englishSha256": "7e4f37d00292d747eb1ff64c28eae45403933976d6ede7b0bd9be194535d61bc",
+        "latinWords": 379,
+        "englishWords": 766,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "adfe6db9e3b542d0e74621f974ad6b9979fdbdfb8fb4f75c527f03fd531581fc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-914932d9-e217-4135-bc1b-4661654ea805",
+      "generationArtifactId": "exec-914932d9-e217-4135-bc1b-4661654ea805",
+      "outputArtifact": "built-in-imagegen://exec-914932d9-e217-4135-bc1b-4661654ea805.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 10 illustration master\nPrimary request: Create a historically grounded, non-medical Roman metallurgy scene for Pliny's chapter on cadmia. In a quiet Cypriot copper workshop after the furnace has cooled, show exactly one complete domed clay-and-stone smelting furnace fully inside the scene, its dark round mouth visible but with no active flame. On one complete low stone sorting bench in the foreground, display exactly three widely separated complete cadmia specimens: one feather-light chalk-white ash-like cluster evoking capnitis, one friable red grape-cluster-shaped mineral mass evoking botryitis, and one flat black-and-blue mottled crust evoking placitis/ostracitis. The specimens are raw metallurgical deposits only; nothing is ground, mixed, heated, prescribed, applied, or ingested. Include exactly one complete pair of ancient bronze tongs resting closed beside the bench and no people or animals.\nScene/backdrop: shadowed Roman industrial courtyard in Cyprus, cooled brickwork, a few complete copper cakes stacked well behind the bench, pale dawn beyond a colonnade. No open chemical vessel, medicine, patient, recipe, or demonstration.\nStyle/medium: monumental Roman workshop fresco fused with a luxury medieval lapidary illumination; mineral-pigment egg tempera, fine charcoal and iron-gall contours, chalk white, oxidized copper green, cinnabar red, lampblack, ochre, sparse worn shell-gold dust, abraded plaster grain; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: low three-quarter view, furnace as architectural anchor in the rear left and the complete bench centered with generous negative floor around it. Every furnace edge, bench corner, mineral specimen, tong tip, copper cake and discrete shadow stays comfortably within all four canvas edges. One coherent continuous 3:2 landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: cool dawn entering a warm dark workshop, contemplative, tactile, observational.\nText: none.\nConstraints: exact one furnace, one bench, three distinct specimens, one closed pair of tongs; all complete and fully internal; no water.\nAvoid: modern medical advice, treatment, dosage, wound, eye condition, anatomy, patient, ingestion, suffering, active hazardous process, flame, smoke, liquid, children, extra people or animals, cropped object, subject touching an edge, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, decorative frame, depicted page, open book, specimen grid, diagram, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-914932d9-e217-4135-bc1b-4661654ea805",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete cooled furnace, complete stone bench, exactly three distinct cadmia-like deposits, one complete closed pair of tongs and internal copper cakes are all legible. No person, active fire, medical action, text, panel or clipped discrete subject appears.",
+      "epistemicAndDignityNote": "Cadmia's furnace forms and visual taxonomy are shown as metallurgical observation. The source's medical preparations and claims are not enacted.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:11",
+      "title": "THE SCORIA OF COPPER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c011.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b378ffacee7600344bc8f5f377a7d104ad5aaa68e14a78e46a5e06871d15ba69",
+        "englishSha256": "dbe7cfcaa95c99c9d862ad816b66f9df8e928df6a562e79419a78f7a06a1514c",
+        "latinWords": 545,
+        "englishWords": 1074,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ea9d616424822433cd738def97cc181daf759ced2579ceb30fadedddeaa76187",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-20be7e33-7914-409e-b831-ce6ad33dd82f",
+      "generationArtifactId": "exec-20be7e33-7914-409e-b831-ce6ad33dd82f",
+      "outputArtifact": "built-in-imagegen://exec-20be7e33-7914-409e-b831-ce6ad33dd82f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 11 illustration master\nPrimary request: Illustrate Pliny's distinction between copper scoria, spontaneously fallen \"flower of copper,\" hammered lepis scales, and verdigris as a humane Roman craft observation, never a medical recipe. Show exactly one complete adult Cypriot copper-worker fully visible in a sunlit workshop, wearing a simple linen tunic and leather apron. He stands beside one complete low anvil with one complete cooled round copper cake upon it, holding one bronze-headed hammer raised but paused; his two hands, face, legs and sandals are natural and fully visible. Fine red-gold copper scales lie in a small distinct crescent on the anvil. Nearby, one complete white-copper panel on a separate stone support bears a naturally developed matte green verdigris patina. One complete shallow unmarked earthen dish holds dark rough furnace scoria, widely separated from the metal. Nothing is mixed, tasted, bitten, burned, prescribed or applied.\nScene/backdrop: open Cypriot workshop court with cooled furnace masonry deep in shadow, hanging bellows at rest, distant copper hills; no active fire, smoke, liquid, patient, drug shop or medical action.\nStyle/medium: dynamic Roman craft fresco fused with a medieval metalsmith illumination; egg-tempera mineral pigments, iron-gall contour, burnished copper, verdigris green, madder red, warm limestone, charcoal, sparse shell-gold sparks, scratched and abraded plaster; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: diagonal three-quarter view with the worker off-center and the anvil, patinated panel and scoria dish forming a clear triangular rhythm. Every human feature, hammer, anvil, copper cake, scale cluster, panel, support, dish, bellows and discrete shadow is complete, separated and comfortably inside all edges. One continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: strong late-morning side light, attentive craftsmanship, lucid distinctions.\nText: none.\nConstraints: exactly one adult person, one hammer, one anvil with one copper cake, one patinated panel, one scoria dish; no animal and no water.\nAvoid: modern medical advice, remedy preparation, ingestion, tasting metal, wound, exposed anatomy, patient, cruelty, active flame, smoke, molten metal, flying dangerous debris, distorted hands, extra worker, cropped person or object, object touching an edge, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram, panels, collage, split scene, modern PPE or tool, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-20be7e33-7914-409e-b831-ce6ad33dd82f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly one complete adult copper-worker with natural hands holds one hammer beside one complete anvil and cooled copper cake. Copper scales, one green-patinated panel and one scoria dish are distinct and internal; no fire, treatment, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "The image records Pliny's material distinctions and his concern about adulteration without reproducing medicinal recipes or hazardous tests.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:12",
+      "title": "SCOLEX OF COPPER; EIGHTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c012.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ab6594264d2b3aa2d3c2425316b93ae7a784b33051a8b8b1072c5bf2cbc41ced",
+        "englishSha256": "7e72571d68a89eff10f6e139654eaf5ee7ded6038a93bbca34c3581e4c392f34",
+        "latinWords": 708,
+        "englishWords": 1370,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "02584c42900d5fbec29554ea37f655d408c2276f6d6b21079db214b0cb572957",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-32bc6907-94e1-44e7-8cc2-1acf6282ff4f",
+      "generationArtifactId": "exec-32bc6907-94e1-44e7-8cc2-1acf6282ff4f",
+      "outputArtifact": "built-in-imagegen://exec-32bc6907-94e1-44e7-8cc2-1acf6282ff4f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 12 illustration master\nPrimary request: Create a visually wondrous but non-medical historical scene centered on Pliny's account of chalcanthum crystallizing in Spanish mining reservoirs. In one open stone mine court, show exactly one complete rectangular wooden reservoir fully visible from a high three-quarter viewpoint, containing a shallow still blue-black mineral solution whose entire inner boundary and every outer wall of the tank can be seen. Exactly one complete horizontal wooden beam spans above the reservoir without touching any canvas edge. From it hang exactly three separate complete undyed cords, each weighted by one small stone just beneath the surface; vitreous azure crystal clusters have formed naturally along the cords like sparse bunches of grapes. The three cords and their crystal clusters remain distinct and countable. On dry stone beside the tank, place exactly three complete widely separated raw specimens: one honey-colored fibrous chalcitis, one dark spongy sory, and one granular gold-sparked misy. No person or animal appears. Nothing is tasted, mixed, prescribed, applied, ingested, or prepared as medicine.\nScene/backdrop: ancient Iberian mine courtyard after winter frost, cool rock walls, distant ochre hills, one complete empty drying rack in the background; no furnace, fire, patient, vessel labels or treatment.\nStyle/medium: an extraordinary Roman mining fresco blended with a medieval alchemical-lapidary illumination, while remaining observational rather than magical; azurite and indigo crystals, honey ochre, lampblack, chalk, iron red, delicate shell-gold flecks, egg-tempera glazing, incised line, pitted and abraded plaster; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: strong geometric perspective with the complete reservoir occupying the middle 60 percent and broad dry paving around it. The entire water surface stays fully enclosed by the complete tank and far from every canvas edge. Every beam end, cord, stone, crystal, specimen, tank corner and rack is complete and comfortably internal. One continuous 3:2 landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: clear cold dawn, mineral brilliance against solemn stone, curious and exact.\nText: none.\nConstraints: exact one reservoir, one spanning beam, three hanging cords, three stone weights, and three distinct dry specimens; no people or animals; all water bounded.\nAvoid: modern medical advice, remedy, dosage, ingestion, wound, patient, exposed anatomy, cruelty, arena animals, actionable chemical instruction, active boiling, flame, vapor, splashing, water touching an edge, cropped object, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram arrows, specimen grid, panels, collage, split scene, fantasy magic, modern mining equipment, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-32bc6907-94e1-44e7-8cc2-1acf6282ff4f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete wooden reservoir and beam, exactly three hanging crystal-bearing cords with three weights, three distinct dry minerals and one complete background rack are internal. The water is fully bounded; no person, remedy action, text, panel or edge failure appears.",
+      "epistemicAndDignityNote": "The Spanish crystallization account is depicted as historical mineral craft. All medicinal, coercive and arena-animal claims remain unshown testimony.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:14",
+      "title": "IRON ORES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c014.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "e1a6f2dd706fdd88ee304a0ef2890a37cb8355b283adf46a7109f2a069ef6f39",
+        "englishSha256": "32b4f4ce79c5a9567b69a7ff7020f535ffbded12a69b91e5866cbfcd9a14a0e5",
+        "latinWords": 602,
+        "englishWords": 1218,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "9fd0e2673d396e260d2d133d99940f62f84a3f4e9e463c18ea14567e6dea3583",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6efabd84-0f5a-45ee-9346-1b63b9349a91",
+      "generationArtifactId": "exec-6efabd84-0f5a-45ee-9346-1b63b9349a91",
+      "outputArtifact": "built-in-imagegen://exec-6efabd84-0f5a-45ee-9346-1b63b9349a91.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 14 illustration master\nPrimary request: Create a humane Roman natural-history scene for Pliny's meditation on iron as humanity's most useful and most dangerous material, placing responsibility on human choice. Exactly one complete fully clothed adult ironworker-scholar stands in an open Norican workshop court, fully visible and unarmed. With one anatomically natural hand he holds one complete dark lodestone above a complete stone table; from the stone hangs one short complete chain of interlinked iron rings, demonstrating Pliny's \"living iron\" attraction. His other hand is open beside exactly three complete peaceful iron implements laid widely apart on the table: one small ploughshare, one pruning hook with its blade turned safely inward, and one mason's chisel. No weapon appears. Behind him, a rust-red iron-ore mountain rises beyond the court and one complete cold anvil rests unused in shade.\nScene/backdrop: quiet Alpine/Norican foothill workshop with dry masonry, timber roof, distant cultivated terraces; no active forge, flame, smoke, molten metal, battle or victim.\nStyle/medium: noble Roman moral-history fresco fused with a medieval metallurgical illumination; iron-gall line, egg tempera, hematite red, charcoal blue-black, alpine green, limestone, oxidized umber, restrained shell-gold highlights, scratched metal and abraded plaster; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: spacious frontal-diagonal composition, figure and magnetic chain central, tools clearly separated, mountain held in the upper distance. The worker's entire head, hands, garments, legs and sandals, the lodestone, every chain link, all three tools, table, anvil and shadows are complete and comfortably inside every edge. One continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: clear highland morning, sober wonder, useful craft over violence.\nText: none.\nConstraints: exactly one adult person, one lodestone, one hanging ring-chain, three named peaceful tools, one cold anvil; no animal, no weapon and no water.\nAvoid: sword, spear, arrow, knife, armor, battle, murder, wound, blood, victim, modern medical advice, treatment, ingestion, exposed anatomy, active hazardous forging, fire, liquid, distorted hands, extra people, cropped subject, object touching an edge, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram arrows, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6efabd84-0f5a-45ee-9346-1b63b9349a91",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete unarmed ironworker-scholar with natural hands holds one lodestone and a complete hanging ring-chain above three complete peaceful tools. The cold anvil and iron mountain are internal; no weapon, fire, victim, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "The scene follows Pliny's own moral distinction: nature supplies iron, while human choice governs violence. Only peaceful tools and magnetic wonder are shown.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:15",
+      "title": "METHODS OE PREVENTING RUST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c015.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "fbcbb9a338b0ee41dbed5ee81d937970fb494f0511bb842aa7950a0daf62dcf4",
+        "englishSha256": "90987b9c15afcd3af50e7a853789663251ceb8f5ea5d3a4f306f190a653659ef",
+        "latinWords": 345,
+        "englishWords": 729,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6e52b99e557b4f046b77fde44690ead25890aa2be0930d7d12593ebf0c9a879e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1ed35acc-429f-46fc-bcb7-f25f46f46137",
+      "generationArtifactId": "exec-1ed35acc-429f-46fc-bcb7-f25f46f46137",
+      "outputArtifact": "built-in-imagegen://exec-1ed35acc-429f-46fc-bcb7-f25f46f46137.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 15 illustration master\nPrimary request: Create a solemn, symbolic Roman historical illustration for Pliny's chapter on preventing rust, centered on the chain at Zeugma attributed to Alexander. Inside one complete freestanding stone gatehouse high above the Euphrates road, show exactly one complete heavy iron bridge-chain hanging in a broad shallow curve between two complete bronze wall hooks. Most original links are deep blue-black and remarkably intact; exactly three adjacent replacement links near one end are visibly reddish with natural rust, making the contrast legible without labels. Below the chain on a dry stone ledge rest exactly three complete closed, unmarked material blocks—a chalk-white block, a pale gypsum block, and a black pitch block—present as historical substances only, untouched and widely separated. No person or animal appears; nothing is applied, heated, scraped, mixed, or presented as advice.\nScene/backdrop: dry Zeugma gate terrace at cool dawn with distant Mesopotamian hills and bridge masonry, but the river itself remains out of view; no liquid, fire, workshop action, tomb, weapon or medical scene.\nStyle/medium: austere Roman architectural fresco fused with a medieval material-culture illumination; iron-gall line, egg-tempera layers, indigo-black iron, iron-oxide rust, limestone, chalk, gypsum grey, pitch black, sparse oxidized-gold glints, rough abraded plaster and polished link highlights; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: frontal architectural still life with the chain suspended against broad quiet stone and generous negative space. The entire chain, every link, both hooks, gatehouse piers, ledge, and all three blocks and shadows are complete, separated and comfortably internal. One coherent continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: thin dawn beam across the three rusted links, meditative time, endurance and decay.\nText: none.\nConstraints: exact one fully visible chain, two hooks, exactly three rusted replacement links, three separate closed material blocks; no people, animals, weapons, water or active process.\nAvoid: modern conservation advice, recipe, remedy, dosage, treatment, rust scraping, wound, patient, blood, grave nail, ritual enacted as fact, active flame, liquid, cropped chain or architecture, object touching an edge, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram arrows, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-1ed35acc-429f-46fc-bcb7-f25f46f46137",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete chain curves between two complete hooks with three adjacent visibly rusted replacement links; three separate closed material blocks sit below. Everything is internal and dry, with no person, ritual, treatment, text, panel or clipped subject.",
+      "epistemicAndDignityNote": "The Zeugma chain is presented as attributed historical testimony and a meditation on material decay, not a conservation or medical prescription.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:16",
+      "title": "THE ORES OF LEAD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c016.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ed1bed2882555220fde845634f5d7261d311370d573a842c6b391e0dc5fdc3c0",
+        "englishSha256": "9fc520bfcd2e709fe85615edc0f1c0f909e3ca47a3e38688f099a3c06c0de134",
+        "latinWords": 212,
+        "englishWords": 388,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ab968c2c70f0bb4d29e3755db03aa2586f51f8c9c1b3beb1e20cfac85e946be7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1e1c17dd-3a53-4351-90f4-98c5bcc96b72",
+      "generationArtifactId": "exec-1e1c17dd-3a53-4351-90f4-98c5bcc96b72",
+      "outputArtifact": "built-in-imagegen://exec-1e1c17dd-3a53-4351-90f4-98c5bcc96b72.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 16 illustration master\nPrimary request: Create an atmospheric Iberian mineral-history landscape for Pliny's account of white and black lead ores, contrasting observed Gallaecian deposits with the older Atlantic-island tale. In a broad dry riverbed after summer, place exactly one complete shallow woven miner's basket in the foreground, fully internal, containing heavy black sand and several small naturally white-flecked dark pebbles. Beside it, widely separated on dry flat stones, rest exactly one complete pale silvery-white cassiterite/tin-rich ore nodule and exactly one complete dark cubic galena specimen. Farther back on the dry bank stands exactly one complete small ancient wicker coracle covered in stitched hide, empty and fully visible, as a quiet echo of the fabulous Atlantic transport story; it is not in water. No people or animals appear. Nothing is washed, smelted, soldered, mixed, heated, prescribed or applied.\nScene/backdrop: dry Gallaecian valley with layered black sand, pale pebbles, Atlantic mist over distant hills, abandoned cold furnace masonry very far away; no visible river, pool, liquid, flame or smoke.\nStyle/medium: expansive Roman mining fresco fused with a medieval lapidary and travel illumination; graphite black, lead grey, cassiterite silver-white, ochre, muted Atlantic blue, umber, subtle shell-gold and silver-leaf abrasion, egg-tempera veils, iron-gall contours, rough plaster and precise mineral facets; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low wide view with the basket and two ore specimens forming a quiet foreground triangle and the complete coracle isolated in middle-distance negative space. Every basket rim, pebble, ore edge, coracle rib, hide seam, stone, and discrete shadow is complete and comfortably within all edges. One coherent continuous 3:2 landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: pearl-grey Atlantic dawn, archaeological stillness, fable meeting observation.\nText: none.\nConstraints: exact one basket, two distinct named ore specimens, one empty coracle; no people, animals, water or active industrial process.\nAvoid: modern medical advice, remedy, ingestion, treatment, wound, patient, toxic handling, mine collapse, forced labor, fire, molten metal, liquid, cropped object, object touching an edge, extra boat, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram, specimen grid, panels, collage, split scene, modern equipment, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-1e1c17dd-3a53-4351-90f4-98c5bcc96b72",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete woven basket of black sand and mottled pebbles, one pale ore nodule, one dark cubic galena specimen and one complete empty hide-covered coracle are fully internal on a dry riverbed. No water, person, active process, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "The image distinguishes Pliny's Iberian mineral observation from the older Atlantic transport story without claiming the fable as verified fact.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:17",
+      "title": "STANNUM. ARGENTARIUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c017.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "4cc38574f3032e00e0ec7d1055d04174469bbd0c85c6a64bc4e3daa1fc50ced0",
+        "englishSha256": "e9cf78706ad933c04dd9104f20ff18d6eacc7e96e8cf7b41fbf7b8bf71910ae8",
+        "latinWords": 363,
+        "englishWords": 700,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "94a1862b9e05ff7844bda0e685bab05be38d90b6fa408aa04f18326a98299028",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c68e29b1-aab4-4c3d-9e82-f27e7449ca6d",
+      "generationArtifactId": "exec-c68e29b1-aab4-4c3d-9e82-f27e7449ca6d",
+      "outputArtifact": "built-in-imagegen://exec-c68e29b1-aab4-4c3d-9e82-f27e7449ca6d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 17 illustration master\nPrimary request: Create a refined Roman-Gallic material-culture scene for Pliny's discussion of stannum, argentarium, plated copper, mirrors, harness ornaments, pipes, and luxury. Exactly one complete fully clothed adult woman artisan stands in a quiet Brundisian workshop, fully visible and dignified. With both anatomically natural hands she holds exactly one complete round stannum mirror by its handle, tilted so its softly silvered surface reflects only pale window light and no duplicated face. On one complete narrow table beside her sit exactly one complete copper drinking vessel whose exterior has a subtle silver-white coating and exactly one short complete black-lead pipe section, both dry and unmarked. Behind her hangs exactly one complete ornamental Gallic ox-yoke plaque plated to resemble silver, with abstract vegetal relief only—no face or writing. All are finished artifacts; nothing is melted, coated, soldered, tested, filled, drunk from, or treated as advice.\nScene/backdrop: orderly Roman metalwork room with cool stone, a shuttered window, folded undyed cloth and cold tools in deep shadow; no furnace flame, smoke, liquid, horse, ox, carriage, patient or medical act.\nStyle/medium: elegant Roman domestic fresco crossed with a medieval metalwork illumination; egg-tempera mineral washes, silver-leaf bloom, tin-white, copper rose, lead grey, faded lapis, umber, restrained shell-gold, fine iron-gall contours, scratched plaster and burnished artifact highlights; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: vertical human figure offset against a wide calm workshop, mirror as luminous focus and table artifacts clearly separated. Her complete head, hands, garments, legs and sandals, mirror, table, vessel, pipe, yoke plaque and every discrete shadow are fully inside generous margins. One coherent continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: cool indirect window light, reflective, restrained, a study of utility becoming luxury.\nText: none.\nConstraints: exact one adult person, one mirror, one coated copper vessel, one pipe section, one abstract yoke ornament; no animal and no water.\nAvoid: modern health or food-safety claim, drinking, remedy, lead exposure instruction, molten metal, active soldering, flame, liquid, extra person or reflected person, malformed hand, cropped body or object, subject touching an edge, human portrait on ornament, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram, panels, collage, split scene, modern tool, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c68e29b1-aab4-4c3d-9e82-f27e7449ca6d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly one complete adult woman with natural hands holds one mirror reflecting only window light. One coated copper vessel, one dry pipe section and one complete abstract yoke ornament are internal; no reflected person, animal, liquid, active process, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "Finished artifacts visualize Pliny's account of plating, mirrors, harness ornament and luxury. The scene makes no claim about safe lead use.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "34:18",
+      "title": "FIFTEEN REMEDIES DERIVED FROM LEAD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-13/b34-c018.png",
+      "corpusArtifact": "public/corpus/book-34.7eed09def7f96d1e.json",
+      "corpusReadEvidence": {
+        "latinSha256": "0242a91c9ab4f82bb7b780d71b08fb0b3c5c9dd6703574e9da9423cb579669e2",
+        "englishSha256": "0a903f10ee8a6e71ec3a911f5c25307ff114a600a656dcfa1b1df1d46128ed64",
+        "latinWords": 781,
+        "englishWords": 1454,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ec2dbd96f1932d04fe3504d45b4d3c1205f1e48e3ffddbdb5a178317a453dbaa",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b7efe5cf-2a2e-4c07-b61c-b2f409595c8a",
+      "generationArtifactId": "exec-b7efe5cf-2a2e-4c07-b61c-b2f409595c8a",
+      "outputArtifact": "built-in-imagegen://exec-b7efe5cf-2a2e-4c07-b61c-b2f409595c8a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIV chapter 18 illustration master\nPrimary request: Create a dignified cautionary Roman material-history scene for Pliny's long chapter on purported remedies derived from lead, while refusing to reenact its toxic practices. Exactly one complete fully clothed adult leadworks keeper stands inside an airy, cold workshop, fully visible. With one anatomically natural hand he closes the complete solid door of one waist-high wooden mineral cabinet; his other open empty hand makes a quiet gesture of restraint. On the cabinet's four internal shelves are exactly four complete, closed, unmarked boxes—lead grey, chalk white, sandarach red, and arsenic gold—each fully sealed, with no exposed powder. Exactly one complete extinguished earthen furnace sits far behind him with its vent open to the empty sky, absolutely cold and smokeless. Through a broad doorway, exactly one complete healthy dog sleeps safely in sunlight outside the work area, untouched and far from the furnace. Nothing is opened, heated, ground, mixed, inhaled, prescribed, applied or ingested.\nScene/backdrop: spacious Rhodian leadworks at dawn, clean dry paving, cross-ventilated arches, distant sea entirely enclosed by architecture; no patient, medicine table, lesion, beauty application, singing emperor, ritual or active industry.\nStyle/medium: sober Roman ethical-history fresco fused with a medieval toxic-mineral illumination; egg tempera, lead grey, ceruse white, cinnabar/sandarach red, arsenic gold, faded lapis, charcoal, restrained shell-gold only on mineral-box color, fine iron-gall drawing, chalk bloom, rough abraded plaster and polished cabinet edges; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: keeper and cabinet form the central vertical pair, cold furnace recess in deep background, sunlit dog isolated beyond the doorway. The person's full head, hands, clothing, legs and sandals, cabinet and door, all four sealed boxes, furnace, dog and every discrete shadow are complete and comfortably internal. One coherent continuous landscape 3:2 scene, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: strong clean dawn from the open door, restraint, care, knowledge held with responsibility.\nText: none.\nConstraints: exact one adult person, one cabinet, four closed boxes, one cold furnace, one healthy dog; no exposed substance and no water reaching any edge.\nAvoid: modern medical advice, remedy, dosage, cosmetic whitening, lead plate on body, ingestion, fumigation, grinding, heating, flame, smoke, vapor, toxic exposure, wound, patient, suffering, sick or dead dog, malformed hands, extra person or animal, cropped subject, object touching an edge, text, letters, numerals, labels, pseudo-writing, inscription, signature, watermark, border, frame, depicted page, open book, diagram, panels, collage, split scene, modern PPE or machinery, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b7efe5cf-2a2e-4c07-b61c-b2f409595c8a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly one complete keeper with natural hands, one complete cabinet, four sealed color-distinct boxes, one cold furnace and one complete healthy sleeping dog are internal. No exposed substance, smoke, medical act, suffering, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "The chapter's toxic lead, ceruse, sandarach and arsenic remedies are deliberately not reenacted. Sealed materials and a healthy dog outside the cold leadworks frame knowledge with restraint.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 920,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "34:10": {
+        "nearestMAD": 30.05,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c025.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c001.png",
+        "madAtDHashPeer": 65.05
+      },
+      "34:11": {
+        "nearestMAD": 37.67,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c029.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c096.png",
+        "madAtDHashPeer": 46.4
+      },
+      "34:12": {
+        "nearestMAD": 31.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c015.png",
+        "madAtDHashPeer": 69.5
+      },
+      "34:14": {
+        "nearestMAD": 29.49,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c042.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c002.png",
+        "madAtDHashPeer": 80.73
+      },
+      "34:15": {
+        "nearestMAD": 27.36,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c055.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c004.png",
+        "madAtDHashPeer": 34.05
+      },
+      "34:16": {
+        "nearestMAD": 24.74,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c016.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b31-c009.png",
+        "madAtDHashPeer": 40.63
+      },
+      "34:17": {
+        "nearestMAD": 28.6,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c097.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png",
+        "madAtDHashPeer": 39.37
+      },
+      "34:18": {
+        "nearestMAD": 30.13,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c009.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c017.png",
+        "madAtDHashPeer": 34.97
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-13",
+    "pass": true
+  }
+}

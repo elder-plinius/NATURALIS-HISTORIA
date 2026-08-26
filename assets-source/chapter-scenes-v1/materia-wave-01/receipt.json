@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "campaign": "materia-wave-01",
+  "chapters": [
+    {
+      "chapterKey": "20:1",
+      "title": "THE WILD CUCUMBER; TWENTY-SIX REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-81acf366-33a7-48cd-b895-05f61367caaf.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-01/b20-c001.png",
+      "outputArtifact": "built-in-imagegen://exec-81acf366-33a7-48cd-b895-05f61367caaf.png",
+      "sha256": "d9c26a191adf0294cdbff328afb92846c684133a1f239877695fc9bc85178030",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 1\nPrimary request: Create one genuinely independent, chapter-specific illustration of the wild cucumber and the preparation of elaterium. Show a complete small wild-cucumber vine centered on the page, with all principal leaves, roots, and several walnut-sized fruits comfortably inside the frame. Integrate one freshly gathered unripe fruit carefully incised with a reed above a shallow basin of rainwater, its whitish scorpion-tail-shaped seeds and expressed juice settling in the water; nearby, a few pale smooth medicinal lozenges dry in gentle autumn sun. The objects should form one coherent historical botanical scene, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: a quiet Roman physic garden worktable and earth at the beginning of autumn, with period-appropriate reed, plain earthenware basin, ashes used to retain the juice, and restrained traces of vine roots; no anachronisms\nSubject: wild cucumber, seed and elaterium preparation, faithfully grounded in the local Book XX chapter account\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex\nComposition/framing: landscape 3:2; one complete centered composition; generous breathing room on every edge; all primary plant forms, fruit, basin, reed, seeds, and lozenges fully visible; no cropped primary subject\nLighting/mood: mellow autumnal daylight, contemplative and materially tactile\nMaterials/textures: fibrous vellum, dry pigment, iron-gall ink, weathered earthenware, natural plant hairs and imperfect leaves\nConstraints: historically plausible Roman tools only; botanical forms legible; no medical gore; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, borders that resemble labeled panels, or extra framed scenes",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Complete rooted vine, fruit, basin, reed, seeds, ash and lozenges remain inside the frame.",
+        "No lettering, pseudo-writing, signature, logo or watermark detected.",
+        "Accepted on the first generation."
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:2",
+      "title": "THE ANGUINE OR ERRATIC CUCUMBER: FIVE REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-c144b63a-f3b8-4d38-9606-acb431d9d0fa.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-01/b20-c002.png",
+      "outputArtifact": "built-in-imagegen://exec-c144b63a-f3b8-4d38-9606-acb431d9d0fa.png",
+      "sha256": "4d3ddd92909512b35d175f94966bbe585e5fc98dce9465a8d2984e31fa7aee39",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 2\nPrimary request: Create one genuinely independent, chapter-specific illustration of the anguine or erratic cucumber and its five remedies. Within the central 80 percent of the image, show one complete long cucumber vine in a sinuous S-curve over a low Roman garden wall: its root base must be visibly contained at one end and its final curling tendril visibly contained at the other, with several complete elongated irregular cucumbers and visible seeds. In the same unified outdoor scene, show a small full-body Roman herbalist kneeling beside the vine, entirely inside the frame, grinding sun-dried cucumber seed in a bronze mortar. A plain water measure and shallow vinegar bowl sit nearby, while two small mice keep conspicuously away from a recently sprinkled patch of ground. This must read as one continuous historical moment, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: an enclosed Roman kitchen garden with worn limestone, sparse herbs, and distant muted architecture; period-appropriate hand tools and vessels only\nSubject: the anguine or erratic cucumber, dried seed preparation, vinegar decoction, and mouse-repelling detail described in the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex\nComposition/framing: landscape 3:2; strong contained S-curve and low oblique viewpoint, materially unlike a centered specimen plate; generous untouched vellum breathing room on every edge; no object may touch or exit the frame; entire root-to-tendril vine, every primary fruit, herbalist, mortar, vessels, and mice fully visible\nLighting/mood: clear slanting morning light, alert and quietly observational\nMaterials/textures: fibrous vellum, dry pigment, iron-gall ink, dusty stone, weathered bronze, coarse woven tunic, curling tendrils\nConstraints: historically plausible Roman clothing and objects; plant and remedy actions legible; no actual snake; no medical gore; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, borders that resemble labeled panels, or extra framed scenes\n\nBinding STYLE_CONTRACT reinforcement for this repair: preserve warm fibrous aged vellum, iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, and the restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre palette. Keep the intimate materia-medica dialect of roots, seeds, vessels, tactile plant structure, verdigris, ochre, and quiet madder accents. The scene must remain one coherent landscape 3:2 folio with historically plausible Roman-era dress, tools, architecture, and craft, no text-like marks, modern artifacts, glossy CGI, grid, collage, or repeated panel.\nCritical framing repair: place every discrete object wholly within the central 72 percent of the canvas, leaving a broad uninterrupted vellum moat along the left, right, top, and bottom edges. Every plant, leaf, vine, tendril, rootlet, cucumber, herb, shrub, tree, architectural silhouette, person, mouse, mortar, water measure, vinegar bowl, and any other vessel must be fully visible with clear empty vellum around its complete silhouette. Absolutely no vessel, amphora, pot, bowl, plant, branch, wall ornament, building, or background detail may be partially visible, bisected, cropped, or enter from any edge. Do not place any amphora or decorative vessel in the background. Include only the three required remedy vessels—the bronze mortar, one plain water measure, and one shallow vinegar bowl—and keep all three grouped near the herbalist with generous separation. If any optional background element cannot fit entirely inside the safe area, omit it. No object may touch the canvas boundary.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Accepted repair contains the complete root-to-tendril vine, all rootlets, fruits, leaves, the full herbalist, exactly three required remedy vessels, both mice, the tree, herbs, wall and distant architecture inside a broad uninterrupted vellum margin.",
+        "No vessel, plant, branch, figure, animal, architecture or other discrete object touches or exits the canvas.",
+        "No lettering, pseudo-writing, signature, logo, watermark, modern object, panel division or glossy rendering detected.",
+        "Accepted on the first generation of this framing repair."
+      ],
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2fedccaa-83cb-433e-8fc4-62682b14ac12.png",
+          "sha256": "71a0a22ce4f003720535ed16820c23db3168176aec58de348c579dd2003edbc9",
+          "reason": "Rejected during the original campaign because the vine exited the left canvas edge."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b8cef640-d9d2-4103-86aa-103fc81bbbb3.png",
+          "sha256": "7f2d73ce015b13c06ddd9d1cda94d7f8959b92fe587f0ecff0c7ad17ace6f577",
+          "reason": "Former canonical bytes preserved but rejected during the framing audit because the left background amphora was visibly bisected by the canvas edge."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:3",
+      "title": "THE GOURD: SEVENTEEN REMEDIES. THE SOMPHUS: ONE REMEDY",
+      "sourceArtifact": "built-in-imagegen://exec-f5fb6c2f-9baf-4ce8-a17d-7f5914717fc6.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-01/b20-c003.png",
+      "outputArtifact": "built-in-imagegen://exec-f5fb6c2f-9baf-4ce8-a17d-7f5914717fc6.png",
+      "sha256": "cd04754c4c60cc620a00003348c641a9fdac1990be940065e18c58b53ecb8538",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 3\nPrimary request: Create one genuinely independent, chapter-specific illustration of the gourd, the hollow wild somphus, and their remedy preparations. Use an intimate high oblique, almost overhead view of a complete gourd vine rooted among pale limestone stones, its looping stems contained in an oval composition. Make the long finger-thick wild somphus unmistakable: show one whole fruit and one lengthwise-cut specimen revealing an empty hollow interior. Beside it show a smaller pale colocynth opened to reveal abundant seeds, plus one broad cultivated gourd. Integrate chapter-grounded remedy objects naturally into the same scene: fresh rind shavings, cypress leaves in a small clay dish, a plain pot of goose fat, a little rose oil and vinegar in two unmarked vessels, and a small mound of clean dried-gourd ash. This is one continuous botanical preparation scene, not a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: a quiet rocky Mediterranean slope used as a Roman herb-gatherer's work place, with no architecture dominating\nSubject: hollow somphus, seeded colocynth, cultivated gourd, rind, leaves, and remedy vessels grounded in the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex\nComposition/framing: landscape 3:2; intimate high-oblique oval composition, materially different from both a centered specimen and a garden figure scene; generous breathing room on all edges; the complete root-to-tendril plant, all whole and cut fruits, and all remedy vessels fully visible; no cropped primary subject\nLighting/mood: dry late-afternoon light, quiet, scholarly, tactile\nMaterials/textures: fibrous vellum, dry mineral pigment, iron-gall ink, pitted limestone, fibrous rind, wet seeds, matte clay, translucent oil\nConstraints: botanically legible, historically plausible Roman vessels, no human figure needed, no medical gore; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, borders that resemble labeled panels, or extra framed scenes",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Complete vine, hollow somphus, seeded colocynth, broad gourd, rind, cypress, fat, oils and ash are legible and contained.",
+        "No lettering, pseudo-writing, signature, logo or watermark detected.",
+        "Accepted on the first generation."
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:4",
+      "title": "TURNIPS; THOSE KNOWN AS BUNION AND BUNIAS: FIVE REMEDIES",
+      "sourceArtifact": "built-in-imagegen://exec-09d21c68-a27b-4bdb-8881-746887c05e2d.png",
+      "projectArtifact": "assets-source/chapter-scenes-v1/materia-wave-01/b20-c004.png",
+      "outputArtifact": "built-in-imagegen://exec-09d21c68-a27b-4bdb-8881-746887c05e2d.png",
+      "sha256": "e0e3115decd8958d091d319585803287d93aa0e675cb09332f85edd4bee70937",
+      "finalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe digital edition of Pliny's Naturalis Historia, Book XX, chapter 4\nPrimary request: Create one genuinely independent, chapter-specific illustration of the two medicinal turnips called bunion and bunias. Arrange two complete freshly uprooted plants as a stately paired study in a Roman physic garden at dawn. The bunion must have an angular stalk and a delicate flower recalling anise; the bunias must visibly combine qualities of radish and rape. Their entire leaves, stalks, flowers, swollen roots, fine rootlets, and fallen soil must remain in view. At their base, integrate a shallow clay dish of parched pale seed, a small unmarked cup of hydromel, a modest water vessel, and a separate pinch of linseed, reflecting the chapter's decoction, seed, and antidote preparations. Keep all elements in one continuous garden scene rather than a diagram, collage, atlas, contact sheet, or multiple framed panels.\nScene/backdrop: a low frontal view across a Roman physic garden before sunrise, with distant orderly beds, a simple worn stone ledge, and soft cypress silhouettes; no dominant architecture\nSubject: bunion and bunias turnips, their contrasting botanical forms, parched seed, hydromel, water, and linseed grounded in the local Book XX chapter\nStyle/medium: original Plinian natural-history folio illustration on warm aged vellum; iron-gall linework; fine cross-hatching and stipple; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful; rough and polished at once; coherent with a deluxe Roman natural-history codex\nComposition/framing: landscape 3:2; low frontal paired composition with two vertical botanical silhouettes and a quiet dawn horizon, materially different from the other chapter scenes; generous breathing room on every edge; every plant and vessel fully visible; no cropped primary subject\nLighting/mood: first cool dawn light warming toward ochre at the horizon, solemn and lucid\nMaterials/textures: fibrous vellum, iron-gall ink, stippled root skins, clinging earth, matte clay, dry parched seeds, sparse verdigris and madder accents\nConstraints: botanically legible; historically plausible Roman vessels; no human figure required; no serpent, medical gore, or magical spectacle; no lettering, captions, labels, numerals, pseudo-writing, marginal text, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, borders that resemble labeled panels, or extra framed scenes",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "receiptId": null,
+      "visualQaNotes": [
+        "Inspected at original 1536 x 1024 resolution.",
+        "Both uprooted plants, flowers, roots, rootlets, vessels, parched seed and linseed remain fully inside the frame.",
+        "No lettering, pseudo-writing, signature, logo or watermark detected.",
+        "Accepted on the first generation."
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

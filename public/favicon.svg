@@ -1,0 +1,7 @@
+<svg data-edition="naturalis-historia" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Naturalis Historia codex seal</title>
+  <rect width="64" height="64" rx="12" fill="#211813"/>
+  <circle cx="32" cy="32" r="24" fill="#34251b" stroke="#c29a55" stroke-width="2"/>
+  <path d="M19 44V20l13 17V20M45 20v24" fill="none" stroke="#ead7a0" stroke-width="4" stroke-linecap="square" stroke-linejoin="bevel"/>
+  <path d="M15 49c10-5 24-5 34 0" fill="none" stroke="#8d3c2b" stroke-width="2"/>
+</svg>
