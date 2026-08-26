@@ -1,0 +1,83 @@
+{
+  "name": "naturalis-historia",
+  "version": "1.0.0",
+  "description": "An open bilingual reading edition of Pliny the Elder's Naturalis Historia.",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "homepage": "https://naturalishistoria.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elder-plinius/NATURALIS-HISTORIA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elder-plinius/NATURALIS-HISTORIA/issues"
+  },
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=22.13.0 <23",
+    "npm": ">=10.9.2 <11"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "prebuild": "npm run build:search-index && npm run build:assets && npm run build:share-pages",
+    "build": "vinext build",
+    "start": "vinext start",
+    "preview": "vite preview",
+    "release:build": "npm run release:check && npm run build",
+    "release:domain": "node scripts/verify-production-domain.mjs",
+    "release:package": "node scripts/package-release.mjs",
+    "release:package:public": "node scripts/package-release.mjs --profile public-repo",
+    "release:package:source-assets": "node scripts/package-release.mjs --profile source-assets",
+    "release:smoke": "node scripts/smoke-release-archive.mjs",
+    "release:verify-source-assets": "node scripts/verify-source-asset-bundles.mjs",
+    "deploy": "npm run release:build && npm run deploy:built",
+    "deploy:built": "node scripts/run-wrangler.mjs deploy -c dist/server/wrangler.json",
+    "deploy:dry-run": "node scripts/run-wrangler.mjs deploy --dry-run -c dist/server/wrangler.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "check": "node scripts/check.mjs",
+    "release:check": "node scripts/release-check.mjs",
+    "build:search-index": "node scripts/build-search-index.mjs",
+    "build:assets": "node scripts/build-assets.mjs",
+    "compile:chapter-scenes": "node scripts/reconcile-chapter-scene-receipts.mjs && node scripts/compile-chapter-scene-provenance.mjs",
+    "reconcile:chapter-scenes": "node scripts/reconcile-chapter-scene-receipts.mjs",
+    "plan:artwork": "node scripts/build-chapter-artwork-plan.mjs",
+    "build:share-pages": "node scripts/build-share-pages.mjs",
+    "test:corpus": "node scripts/verify-corpus.mjs",
+    "test:corpus-assets": "node scripts/verify-corpus-assets.mjs",
+    "test:illustrations": "node scripts/verify-illustrations.mjs",
+    "test:chapter-scenes": "node scripts/verify-chapter-scenes.mjs",
+    "test:provenance": "node scripts/verify-provenance.mjs",
+    "test:share-pages": "node scripts/verify-share-pages.mjs",
+    "test:reader-effects": "node scripts/verify-reader-effects.mjs",
+    "test:afterword": "node scripts/verify-vesuvius-afterword.mjs",
+    "test:search": "node scripts/verify-search.mjs",
+    "test:release-security": "node scripts/verify-release-security.mjs",
+    "test:release-packaging": "node scripts/verify-release-packaging.mjs",
+    "test:public-release": "node scripts/verify-public-release.mjs",
+    "audit:artwork-coverage": "node scripts/audit-artwork-coverage.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.53.1",
+    "@cloudflare/workers-types": "5.20260823.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.34",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.3.2",
+    "react-server-dom-webpack": "19.2.8",
+    "sharp": "0.35.3",
+    "typescript": "5.9.3",
+    "vinext": "1.0.0-beta.8",
+    "vite": "8.2.2",
+    "wrangler": "4.125.0"
+  },
+  "type": "module"
+}

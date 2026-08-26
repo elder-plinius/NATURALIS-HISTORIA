@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-29",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "20:22",
+      "title": "MUSTARD, THE THREE KINDS OF IT: FORTY-FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b20-c022.png",
+      "corpusArtifact": "public/corpus/book-20.d916335165791203.json",
+      "sha256": "258398b2f12f326c13f0e014eac7e8435af297731ba9b9d50186ffa046af9313",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fdebc304-eada-4a08-a13e-cc56dfe97ac5",
+      "generationArtifactId": "exec-fdebc304-eada-4a08-a13e-cc56dfe97ac5",
+      "outputArtifact": "built-in-imagegen://exec-fdebc304-eada-4a08-a13e-cc56dfe97ac5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XX, chapter 22, “Mustard, the Three Kinds of It: Forty-Four Remedies”\nPrimary request: Create one pungent Roman mustard-garden scene built around exactly three complete rooted mustard plants of visibly different habit: one tall sparse-branched plant, one broad-leaved vigorous plant, and one low compact plant, all bearing yellow cruciform flowers and mature seed pods. Exactly two complete adults work in one continuous instant: a gardener strips ripe pods into one complete shallow basket while a household herbal preparer crushes mustard seed with a small measure of vinegar in one complete stone mortar on a low wooden stool. The freshly opened mustard makes the preparer turn the head and sneeze into the crook of one elbow, conveying Pliny’s observation that its pungency mounts to the nose without showing illness or treatment.\nScene/backdrop: dry productive Italian garden edge with irregular mustard rows, one complete low wattle fence, one complete water jar and distant hills beneath broad pale sky; no clinic, patient, serpent, wound, body application or pharmacy.\nStyle/medium: original Plinian natural-history folio rendered full-bleed across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; sharp mustard dialect with spidery stems, ochre-yellow blossoms, matte seed browns and brisk directional gestures.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; pull back to a generous wide low-diagonal view. Place the pod-gatherer fully inside the left third with open ground visible beyond the back, shoulder, elbow and feet; keep the three unequal complete plants in the middle; place the sneezing preparer fully inside the right third with open ground beyond the back, elbow, stool, feet and jar. Reserve at least one-tenth of the canvas width as calm breathing room outside each human silhouette and leave open sky above every flower tip. Keep every principal root contact, flower and pod, both complete people with heads, hair, backs, shoulders, elbows, hands, fingers, legs and feet, complete basket and contents, mortar, pestle, stool, jar, both fence ends, ground and hills wholly inside the image. One continuous garden only, never a remedy chart, botanical plate, panel, collage or repeated crop.\nLighting/mood: dry bright morning with crisp shadows; sensory immediacy, practical knowledge and lively domestic observation.\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves, restrained ochre-yellow flowers, pale seed browns, small madder garments and faded-lapis hills.\nMaterials/textures: fibrous vellum, rough mustard leaf, wiry stems, brittle pods, tiny seeds, wet stone mortar, wood, wicker, clay and wool.\nHistorical and epistemic framing: visualize mustard morphology, seed preparation and pungency as reported by Pliny, not as verified medical advice; omit caustic applications and harmful prescriptions.\nConstraints: exactly three complete principal mustard plants and exactly two complete adults; one complete basket, mortar, pestle, stool and water jar; plausible Roman clothing and garden tools; natural anatomy and plant morphology; opaque RGB/sRGB.\nAvoid: any person, plant, flower, root, tool or fence touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible paper sheet, torn parchment edge, decorative border, frame, scroll, tablet, book, recipe marks, diagram, sick patient, wound, snake, scorpion, poison, blister, extra people, animals, modern objects, floating seeds or tools, photography, photorealism, glossy CGI, grid, split scene, repeated panels, multiple identical frames, cropped people, plants, basket, mortar, stool, jar, fence, hills or ground.\nOutput intent: one unified full-bleed opaque landscape illustration, 3:2 composition, no transparency, no external sheet edge, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three distinct complete rooted mustard plants and exactly two complete adults are fully contained: the left gardener gathers pods into the complete basket, while the seated preparer uses the complete mortar, pestle and stool and naturally sneezes into one elbow. The jar, fence, root contacts, hands, feet and shadows remain inside the image. No text, pseudo-writing, panel, repeated crop, modern object, floating prop or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e30bf0bb-9472-4adc-b87f-6aa03fd50cd3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/evidence/history/b20-c022-attempt-01-clipped-person.png",
+          "sha256": "3b7bcc001b7a03f2f06e1644ea25f1861c07db80a382773f0620e3e74f009fff",
+          "reason": "Rejected at native QA because the pod-gatherer was clipped by the left image edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "20:24",
+      "title": "THE COMPOSITION OF THERIACA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b20-c024.png",
+      "corpusArtifact": "public/corpus/book-20.d916335165791203.json",
+      "sha256": "c139dc2459b322b801e849585230cb109af4fc70f60207e65b2248d158378023",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0fe7a0e1-543a-4f42-a709-859d9c470976",
+      "generationArtifactId": "exec-0fe7a0e1-543a-4f42-a709-859d9c470976",
+      "outputArtifact": "built-in-imagegen://exec-0fe7a0e1-543a-4f42-a709-859d9c470976.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XX, chapter 24, “The Composition of Theriaca”\nPrimary request: Depict one historically framed Roman herbal workshop preparing the famous garden-derived theriaca that Pliny reports from Cos, without presenting it as modern medical advice. Exactly two complete adult preparers share one continuous operation: an older herbalist passes a blended dry mixture through one complete bronze sieve into a broad complete ceramic mixing bowl, while a younger assistant kneads the sifted meal with a measured pour of dark wine from one complete plain jug. Around the same workbench, the ingredients appear as small natural working bundles and bowls—wild thyme, opopanax resin, meum root, trefoil seed, anise, fennel, ammi, parsley seed and fitch meal—clustered irregularly by use, never lined up or labelled.\nScene/backdrop: shadowed orderly island workshop opening onto a sunlit Coan courtyard with one complete modest blank stone shrine doorway far behind; shelves hold only plain closed jars and baskets. No patient, venomous animal, royal court, inscription, recipe tablet, pharmacy sign or temple ritual.\nStyle/medium: original Plinian natural-history folio rendered full-bleed across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; apothecary chiaroscuro dialect with deep umber interior, pale herb dust, muted resin gold, wine-madder and a narrow faded-lapis courtyard opening.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; pull back to a wide high-three-quarter room view. Center one modest rectangular workbench so its entire top, all four edges, all four legs, their ground contacts, and a band of visible floor outside every side are unmistakable. Place the older preparer fully standing behind the left end with both sandaled feet visible below the bench gap; place the younger assistant fully standing at the right end with both legs and feet visible beside, not behind, the bench. Let the sieve action and kneading bowl form an unequal diagonal while the bright complete shrine doorway counters them at depth. Keep both complete people with heads, backs, hands, every finger, legs and feet, full sieve rim and mesh, bowl, naturally connected wine stream, complete jug, all herbs and bowls, shelves, closed vessels, doorway from lintel to threshold, bench footprint, walls and floor wholly inside generous breathing room. One unified preparation only, never sequential steps, recipe diagram, catalogue, panel, collage or repeated crop.\nLighting/mood: cool shadow cut by one warm courtyard beam; disciplined attention, historical distance and material precision.\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris herbs, ochre meal and resins, deep madder wine, faded-lapis exterior shadow.\nMaterials/textures: fibrous vellum, powdered meal, seed, root, resin, dry thyme, bronze mesh, clay, stained wood, wine, stone and wool.\nHistorical and epistemic framing: portray the recipe as a recorded ancient practice attributed by Pliny to an inscription at Cos and to Antiochus, not as a verified antidote or dosing instruction; no one consumes it.\nConstraints: exactly two complete adults; one complete bench, bronze sieve, mixing bowl and wine jug; all ingredients physically grounded; plausible Roman-era clothing and workshop tools; natural anatomy; opaque RGB/sRGB.\nAvoid: any bench edge, leg, person, foot, tool or vessel touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible paper sheet, torn parchment edge, decorative border, frame, scroll, tablet, book, engraved stone, recipe marks, dosage symbols, patient, ingestion, snake, asp, scorpion, poison demonstration, extra people, animals, modern pharmacy objects, glass laboratory ware, floating ingredients, photography, photorealism, glossy CGI, grid, split scene, repeated panels, multiple identical frames, cropped people, sieve, bench, bowl, jug, shrine, shelves, vessels, walls or floor.\nOutput intent: one unified full-bleed opaque landscape illustration, 3:2 composition, no transparency, no external sheet edge, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete adult preparers share one coherent workshop action around a wholly visible four-legged bench: the older figure sifts dry ingredients and the younger pours a connected wine stream into the mixing bowl. The sieve, bowl, jug, grounded ingredient vessels, feet, floor, shelves and blank shrine doorway are complete. No recipe text, pseudo-writing, patient, venomous animal, panel, modern object or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-12182a93-e89b-447e-b69f-e2625dc6a059.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/evidence/history/b20-c024-attempt-01-cropped-workbench.png",
+          "sha256": "2f32656dbb7529e17d9ade632d67cff3535c79ef330110dcc6a0cf4968d83a56",
+          "reason": "Rejected at native QA because the workbench and lower figure geometry ran beyond the bottom image edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:2",
+      "title": "GARLANDS AND CHAPLETS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c002.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "sha256": "76458d1ad978dc76f5ec063b3b1fd8fd9079b16b9b790dc9973ebaad575e6bab",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-051a3220-e09c-42da-a89c-2b6cc2e4ee61",
+      "generationArtifactId": "exec-051a3220-e09c-42da-a89c-2b6cc2e4ee61",
+      "outputArtifact": "built-in-imagegen://exec-051a3220-e09c-42da-a89c-2b6cc2e4ee61.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 2, “Garlands and Chaplets”\nPrimary request: Create one airy Sicyonian courtyard scene inspired by Pliny’s account of the garland-maker Glycera and painter Pausias, presenting their exchange as a reported artistic tradition. Exactly two complete adults occupy the court: a skilled garland-maker sits at one complete low round table and threads one asymmetrical flower garland from freshly gathered roses, violets, herbs and small field blossoms; a painter stands several paces away, holding a small plain pigment palette and two brushes lowered at the side, studying how she varies colour and scent. He has no canvas, tablet or painted panel. On the table lies one separate small archaic chaplet plaited only from tree leaves, quietly showing the earlier practice without becoming a display catalogue.\nScene/backdrop: open sunlit Greek courtyard with one complete vine pergola, irregular flower beds, a complete stone bench and distant hills beyond a low wall; no sacrifice, military victory, banquet, contest crowd, market stall or luxury palace.\nStyle/medium: original Plinian natural-history folio rendered full-bleed across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; airy garland dialect with fine looping stems, restrained rose-madder, violet-lapis, herb verdigris and large quiet vellum-toned court light.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; wide lateral view with the seated maker low in the left-middle, the standing painter in the right-middle, and the garland’s single looping arc linking their gazes across open paving. Reserve the upper and central court as calm negative space broken only by the complete pergola rhythm. Keep both complete people with heads, hair, hands, fingers, legs and feet, full table top and every leg, entire flower garland and all loose ends, full leafy chaplet, palette, both brushes, every featured flower pile, pergola posts and canopy, bench, wall ends, beds and hills wholly inside generous breathing room on every edge. One continuous exchange only, never a historical timeline, workshop catalogue, panel, collage or repeated crop.\nLighting/mood: mild late-morning light; mutual attention, playful mastery, intimacy between art and living material.\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris foliage, restrained rose-madder and violet-lapis flowers, pale ochre paving and wood.\nMaterials/textures: fibrous vellum, soft petals, flexible stems, waxed thread, vine leaves, wood, stone, pigment paste, linen and wool.\nHistorical framing: treat Pliny’s story of Glycera and Pausias as a reported cultural tradition rather than a verified eyewitness scene; keep the emphasis on changing garland craft.\nConstraints: exactly two complete adults; one complete round table, one flower garland, one small leafy chaplet, one plain palette and exactly two brushes; plausible fourth-century BCE Greek dress and courtyard materials; natural anatomy and flowers; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible paper sheet, torn parchment edge, decorative border, frame, scroll, tablet, book, canvas, easel, painting within the image, sacrifice, altar, weapons, crown ceremony, extra people, animals, modern florist wire, synthetic ribbon, floating flowers or tools, photography, photorealism, glossy CGI, grid, split scene, repeated panels, multiple identical frames, cropped or edge-touching people, garland, chaplet, table, palette, brushes, flowers, pergola, bench, wall, hills or paving.\nOutput intent: one unified full-bleed opaque landscape illustration, 3:2 composition, no transparency, no external sheet edge, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete adults occupy one airy Greek courtyard: the seated maker threads one complete trailing flower garland at the complete round table while the standing painter holds one plain palette and two lowered brushes. The small leafy chaplet, bench, pergola rhythm, flower material, hands and feet are fully contained. No canvas, painting-within-image, text, pseudo-writing, panel, modern object or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:3",
+      "title": "WHO WAS THE FIRST TO GIVE CHAPLETS WITH LEAVES OF SILVER AND GOLD. LEMNISCI: WHO WAS THE FIRST TO EMBOSS THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c003.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "sha256": "a0c5aced3c0d90eda3e3a302f8a1c964819aacc431b82196b793d96dba273148",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ef018036-05a3-4c4d-b3f2-fa4e5f8526c1",
+      "generationArtifactId": "exec-ef018036-05a3-4c4d-b3f2-fa4e5f8526c1",
+      "outputArtifact": "built-in-imagegen://exec-ef018036-05a3-4c4d-b3f2-fa4e5f8526c1.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 3, “Who Was the First to Give Chaplets with Leaves of Silver and Gold. Lemnisci: Who Was the First to Emboss Them”\nPrimary request: Create one Roman metalworker’s courtyard at the moment an artificial victory chaplet is embellished. Exactly two complete adults share the work: a seated bronzesmith rests one complete narrow gold lemniscus ribbon on a small complete stake-anvil and embosses plain raised dots and leaf veins with one complete punch and one complete light hammer; a standing assistant holds one complete circular chaplet made from alternating thin silver and gold leaves, allowing two complete undecorated ribbon ends to fall freely. The metal leaves imitate real foliage but carry no letters, symbols, faces or heraldry.\nScene/backdrop: compact open-front workshop with one complete low charcoal brazier and one compact freestanding wooden workbench placed against the back wall but separated from every image edge; the bench holds a few grounded metal leaves and simple tongs. Rough plaster and a sunlit doorway complete the room. No games, victor, funeral, statue, prison, banquet or luxury crowd.\nStyle/medium: original Plinian natural-history folio rendered full-bleed across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; metallic craft dialect with deep lampblack shadows, ochre fire glow, restrained matte silver, muted leaf-gold and crisp tool marks.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; pull back to a wide low-three-quarter view. The seated smith and anvil form a compact dark triangle in the left-middle, the standing assistant and raised chaplet form a tall open silhouette in the right-middle, and the small complete workbench sits behind them near center-left with visible wall and floor around its entire outline. Reserve clear vellum-toned wall between the figures. Keep both complete people with heads, backs, arms, hands, fingers, legs and feet, entire chaplet circumference and every leaf, both ribbon ends, complete anvil including base and ground contact, hammer, punch, brazier and every leg, workbench top, every edge and all four legs, tongs, loose metal leaves, doorway and floor wholly inside generous breathing room. One continuous craft moment only, never a trophy catalogue, display case, process diagram, panel, collage or repeated crop.\nLighting/mood: warm raking workshop light against cool shadow; precision, public honour, technical invention and restrained ambivalence about luxury.\nColor palette: warm vellum, iron-gall umber and lampblack, muted silver-grey, leaf-gold ochre, faint verdigris patina, restrained madder tunic and faded-lapis shadow.\nMaterials/textures: fibrous vellum, hammered thin metal, chased dots and veins, iron tools, charcoal, worn wood, plaster, paving and wool.\nHistorical framing: visualize Pliny’s account of artificial metal leaves and embossed lemnisci as a plausible craft scene, not a verified portrait of a named inventor.\nConstraints: exactly two complete adults; one complete silver-and-gold chaplet, two complete ribbon ends, one complete anvil, hammer, punch, brazier and compact workbench; plausible Roman metalworking tools and clothing; natural anatomy; opaque RGB/sRGB.\nAvoid: any person, chaplet, ribbon, anvil, tool, brazier or workbench touching an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible paper sheet, torn parchment edge, decorative border, external frame, scroll, tablet, book, coins, medals, heraldry, imperial portrait, modern machinery, welding torch, extra people, animals, floating metal leaves or tools, excessive glitter, jewelry showroom, photography, photorealism, glossy CGI, grid, split scene, repeated panels, multiple identical frames, cropped people, chaplet, ribbon ends, anvil, tools, brazier, bench, doorway, walls or floor.\nOutput intent: one unified full-bleed opaque landscape illustration, 3:2 composition, no transparency, no external sheet edge, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete adults, one complete alternating silver-and-gold chaplet, both lemniscus ends, anvil, punch, hammer, brazier and compact workbench are fully framed in one workshop action. Metal accents remain matte and restrained; hands, feet, bench legs, tools and shadows are coherent and grounded. No lettering, heraldry, excessive glitter, panel, repeated crop, modern machinery or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6f2b36f4-7c59-4c3f-bb74-122361f47608.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/evidence/history/b21-c003-attempt-01-cropped-workbench.png",
+          "sha256": "4360a1c2d423320ca4451298992d6639a5f8c44ab5ca5d82de7ab5b316933ac2",
+          "reason": "Rejected at native QA because a prominent workbench was cut by the image frame. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:5",
+      "title": "THE LILY: FOUR VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c005.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "sha256": "e879febcda4d9ebb137f204798ad7aa7b7fcb87212759039a8288144769745f7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b315a90c-126a-4b0a-a450-b5e75ec97e38",
+      "generationArtifactId": "exec-b315a90c-126a-4b0a-a450-b5e75ec97e38",
+      "outputArtifact": "built-in-imagegen://exec-b315a90c-126a-4b0a-a450-b5e75ec97e38.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 5, “The Lily: Four Varieties of It”\nPrimary request: Create one low-view Roman flower garden containing exactly four separate complete rooted clumps that embody the varieties described by Pliny. Along one natural crescent show: one tall white lily clump with drooping tapering-cup flowers, exterior petal striations and saffron-coloured anthers; one smaller red crinon lily clump; one purple double-stem lily clump with a larger undivided bulb suggested at the soil surface; and one narcissus clump with white flowers and restrained purple coronas, its leaves arising from the root. Exactly one complete kneeling gardener gently separates two daughter bulbs beside the plants, with one complete shallow bulb basket nearby. Do not show artificial dyeing or wine lees.\nScene/backdrop: quiet terraced Mediterranean garden with one complete low dry-stone wall, sparse herbs, a distant complete rose hedge kept secondary and broad open sky; no perfumery workshop, vase display, garland, altar or botanical classroom.\nStyle/medium: original Plinian natural-history folio rendered full-bleed across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; luminous lily dialect with vellum-white petals, saffron-ochre anthers, restrained red and purple blooms, fine verdigris leaves and airy faded-lapis depth.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; very low garden-level viewpoint looking slightly upward so the four clumps make four unequal vertical silhouettes against open sky, never four boxes. Place the complete gardener low between the second and third clumps, separated from every stem. Keep all four root contacts, bulbs, leaves, stems, flower heads, petal tips and anthers, the complete person with head, hands, every finger, legs and feet, both separated bulbs, full basket rim and base, wall ends, rose hedge and hills wholly inside generous breathing room; leave broad uninterrupted sky above the tallest flower. Keep all four corners and the entire lower edge as natural unmarked vellum-and-earth texture only, with absolutely no artist mark, signature-like flourish, letters, glyphs or decorative scratches.\nLighting/mood: clear early light; quiet rank, fertility, botanical precision and fragile height.\nColor palette: warm vellum, iron-gall umber and lampblack, vellum-white petals, saffron ochre, muted verdigris foliage, restrained madder red, purple-lapis accents and pale distant blue.\nMaterials/textures: fibrous vellum, waxy petals, powdery anthers, fleshy bulbs, fibrous roots, dry soil, stone, wicker, linen and wool.\nHistorical and botanical framing: visualize Pliny’s four lily groupings using the morphology and colour distinctions he reports, without endorsing his artificial tinting experiment or imposing modern taxonomy.\nConstraints: exactly four separate complete principal flower clumps and exactly one complete adult; one complete bulb basket and two loose daughter bulbs; plausible Roman dress and garden practice; natural anatomy and rooted plant morphology; opaque RGB/sRGB.\nAvoid: all signature-like marks or pseudo-writing anywhere, especially the lower-right corner; additional principal lily clumps, lettering, captions, labels, numerals, inscriptions, signatures, logos, watermarks, visible paper sheet, torn parchment edge, decorative border, frame, scroll, tablet, book, botanical labels, vase, cut flowers, dyed flowers, wine vat, extra people, animals, modern tools, floating petals or bulbs, photography, photorealism, glossy CGI, grid, split scene, repeated panels, multiple identical frames, cropped or edge-touching person, roots, bulbs, stems, flowers, basket, wall, hedge, hills or ground.\nOutput intent: one unified full-bleed opaque landscape illustration, 3:2 composition, no transparency, no external sheet edge, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly four materially distinct complete rooted flower clumps form unequal silhouettes: tall white lily, red crinon, purple double-stem lily and white narcissus with restrained purple coronas. One complete kneeling gardener, two daughter bulbs and the shallow basket are fully contained with generous sky and earth. No pseudo-writing, signature, labels, panel, duplicated plant, modern object or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-0117bdf3-c5aa-47b7-97b6-6183f5f73d79.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/evidence/history/b21-c005-attempt-01-pseudo-signature.png",
+          "sha256": "757aa3cb2b7a8355ccbc2e5659fa534483a0812d7341cb8e0a016091d7a724fc",
+          "reason": "Rejected at native QA because a signature-like pseudo-writing mark appeared in the lower-right corner. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:6",
+      "title": "HOW THE SEVERAL VARIETIES OF THE VIOLET ARE RESPECTIVELY PRODUCED, GROWN, AND CULTIVATED. THE THREE DIFFERENT COLOURS OF THE VIOLET. THE FIVE VARIETIES OF THE YELLOW VIOLET",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c006.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "sha256": "a9fe372d6320512b5e5a4b2e73c06a0270d48e284ba667b8e7eaf4e6583eac2a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-da20f52e-3b02-4ae1-9a08-6976a32baf0a",
+      "generationArtifactId": "exec-da20f52e-3b02-4ae1-9a08-6976a32baf0a",
+      "outputArtifact": "built-in-imagegen://exec-da20f52e-3b02-4ae1-9a08-6976a32baf0a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 6, “How the Several Varieties of the Violet Are Respectively Produced, Grown, and Cultivated”\nPrimary request: Create one Roman violet nursery that makes Pliny’s principal colour distinctions and cultivation visible without becoming a specimen chart. Exactly one complete adult gardener kneels on a curving path, pressing one rooted violet offset into thin sunny soil. Beside the path are exactly seven discrete but naturally irregular flowering masses: one complete broad purple-violet patch, one complete white-violet patch, and exactly five separate complete yellow-violet clumps, each visually separated by bare soil and subtly different in petal breadth, leaf size or density. The five yellow clumps form a loose crescent rather than a line; 1 purple + 1 white + 5 yellow = 7 flowering masses total.\nScene/backdrop: modest Tusculan hillside nursery with a complete low woven shade screen at one side, dry sunny upper terrace for the spontaneous purple violets, lightly watered cultivated soil below, one complete small watering jar and distant hills; no florist shop, garland table, botanical classroom or saffron bed.\nStyle/medium: original Plinian natural-history folio rendered full-bleed across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; violet-nursery dialect with low jewel-like blooms, fine root leaves, purple-lapis, creamy white, five variations of muted yellow-ochre and abundant warm earth.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; high oblique view so all seven masses are countable. Let the curving path make an S through the scene: purple patch on the dry upper-left bank, white patch on the lower-right bank, and five yellow clumps staggered in a loose crescent between them. Place the complete gardener off-center with open soil around the body and hands. Keep the exact seven flowering masses, every featured root contact, leaf, petal and soil gap, the complete person with head, back, hands, fingers, legs and feet, rooted offset, entire watering jar, shade screen posts and both ends, path, terrace edges and hills wholly inside generous breathing room. One continuous nursery only, never seven boxes, a colour key, numbered comparison, diagram, panel, collage or repeated crop.\nLighting/mood: mild spring morning; patience, propagation, subtle difference and horticultural esteem.\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris leaves, purple-lapis, creamy vellum-white, five restrained yellow-ochre variations, faint madder garment and pale blue hills.\nMaterials/textures: fibrous vellum, soft violet petals, fleshy roots, thin dry soil, moist planting pocket, wicker, clay, linen and wool.\nHistorical and botanical framing: visualize the purple, white and yellow violet categories and propagation practices Pliny reports without implying modern cultivar taxonomy or validating scent claims.\nConstraints: exactly one complete adult; exactly seven complete flowering masses total—one purple, one white and five yellow; one rooted offset, one complete watering jar and one complete shade screen; natural anatomy and rooted plant morphology; opaque RGB/sRGB.\nAvoid: any count other than seven masses or other than five yellow clumps; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible paper sheet, torn parchment edge, decorative border, frame, scroll, tablet, book, botanical labels, colour swatches, garland, vase, extra people, animals, modern tools, floating flowers or roots, photography, photorealism, glossy CGI, grid, split scene, repeated panels, multiple identical frames, cropped or edge-touching person, patches, clumps, roots, jar, screen, path, terraces, hills or ground.\nOutput intent: one unified full-bleed opaque landscape illustration, 3:2 composition, no transparency, no external sheet edge, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly seven discrete complete flowering masses are countable in one continuous hillside nursery: one purple patch, one white patch and five separated yellow clumps. The complete kneeling gardener, rooted offset, watering jar, woven shade screen, path and all ground contacts are contained. No colour key, labels, pseudo-writing, panel, repeated crop, modern tool or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:7",
+      "title": "THE NATURE OF ODOURS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c007.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "sha256": "68c79ee85e3a2d95d90f590e65b5baf0a349eb1188b4db4c049e0082238a7bde",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1a308b03-a52b-45f9-8d74-6ef4f4f9a246",
+      "generationArtifactId": "exec-1a308b03-a52b-45f9-8d74-6ef4f4f9a246",
+      "outputArtifact": "built-in-imagegen://exec-1a308b03-a52b-45f9-8d74-6ef4f4f9a246.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book XXI, Chapter 7, “THE NATURE OF ODOURS.” Historical-scene mode, grounded in Pliny’s discussion that a flower’s colour and juice do not predict its scent, that some odours are perceived more truly at a little distance, and that spring mornings and rain-washed air alter fragrance.\n\nCOMPOSITION: one continuous Roman garden terrace immediately after a light spring rain at dawn, viewed in a broad low oblique perspective. Place exactly two complete ancient Roman adults in an asymmetrical diagonal relationship. At left middle ground, a fully visible elderly gardener sits on a plain low stone seat and gently bruises one fresh aromatic sprig between his fingers, bringing it near his nose; beside him are only one complete small basket of loose mint-like leaves and one complete rain-darkened earthenware jug. Farther away at right middle distance, a fully visible younger observer pauses several paces downwind on an open path, calmly sensing the fragrance of exactly one compact, completely enclosed rain-wet rose thicket and exactly one compact, completely enclosed violet bed without touching them. Both flower masses must have visible earth around their entire perimeter and must not touch any image edge. Between the two figures, leave a wide luminous corridor of damp air and intentional negative space; show scent only through posture, fresh wet foliage, faint dawn haze, and the natural bending of leaves in a mild breeze—absolutely no drawn scent ribbons, arrows, halos, diagrams, or supernatural emanations. Include shallow puddle reflections and a restrained faded-lapis morning sky beyond a low garden wall. Every figure, head, hand, foot, seat, plant mass, basket, jug, and shadow must be wholly visible with generous breathing room on every edge. Keep all four corners and the entire bottom strip quiet, clean, and free of stray marks. The scene must not resemble a catalogue or botanical chart.\n\nSHARED PLINIAN FOLIO GRAMMAR: an original deluxe Roman natural-history folio illustration rendered directly across warm full-bleed aged vellum; iron-gall linework; fine cross-hatching, stipple, and dry-brush texture; restrained mineral pigments only—umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Ancient, timeless, beautiful, tactile, rough and polished at once. Landscape 3:2, native 1536x1024. Vary tonal density: dark rain-wet foreground marks opening into airy dawn light. Matte physical-media appearance, never photographic or glossy digital.\n\nABSOLUTE EXCLUSIONS: no text, letters, captions, labels, numerals, pseudo-writing, calligraphy, inscriptions, scrolls, open books, signatures, signature-like squiggles, logos, watermarks, stray corner marks, modern objects, modern clothing, photography, glossy digital rendering, decorative page border, visible sheet edge, torn parchment, blank paper held by a figure, split panels, diptychs, collages, repeated crops, duplicated figures, floating objects, cropped or clipped primary subjects. No medicinal treatment, ingestion, flames, or violence.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete adults occupy a rain-washed dawn terrace: the elder bruises one aromatic sprig beside a complete basket and jug, while the distant observer senses the compact rose thicket and violet bed. Both flower masses are fully encircled by visible ground, the figures and shadows are contained, and the open damp-air corridor reads without graphic scent effects. No text, pseudo-writing, signature, scent diagram, panel, modern object or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9a89c0c7-ce5f-4776-b6d9-d73254a7de5d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/evidence/history/b21-c007-attempt-01-pseudo-signature-and-cropped-rose.png",
+          "sha256": "24904d917f99a952c00a5eea78c147641fba5b209217202710eb60370e48855e",
+          "reason": "Rejected at native QA because a signature-like squiggle appeared in the lower-left corner and the rose thicket exited the right image edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:8",
+      "title": "FABRICS WHICH RIVAL THE COLOURS OF FLOWERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c008.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "sha256": "7716992870e49d3300286e77020b5a4b1684fc2f1ce663cfaceeef00d482704b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7756a852-c6c1-46dd-9058-0f4416b81c4f",
+      "generationArtifactId": "exec-7756a852-c6c1-46dd-9058-0f4416b81c4f",
+      "outputArtifact": "built-in-imagegen://exec-7756a852-c6c1-46dd-9058-0f4416b81c4f.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book XXI, Chapter 8, “FABRICS WHICH RIVAL THE COLOURS OF FLOWERS.” Historical-scene mode, grounded in Pliny’s comparison of luxurious Roman-dyed fabrics with the scarlet, amethystine, violet, mallow-purple, and yellow colours found in flowers.\n\nCOMPOSITION: one continuous sunlit Roman dyer’s courtyard seen from a high three-quarter viewpoint, with textile action dominating the scene and no garden-page repetition. Place exactly two complete ancient Roman textile workers. Near centre-left, one fully visible standing dyer lifts and turns a single long, complete amethyst-violet cloth so its natural S-shaped folds catch the light beside exactly one compact, island-like, fully visible rooted clump of purple mallow; a complete ring of bare paving must surround that flower clump. At lower-right middle ground, a second fully visible kneeling dyer gathers one complete rich scarlet cloth from a shallow, fully visible round dye basin; show the whole cloth from basin to both finished hems, never disappearing beyond the frame. Behind them, one short freestanding drying rail—both posts, feet, crossbar, and rope entirely inside the image—holds exactly two additional complete fabrics separated by open air: one restrained deep Tyrian crimson-purple length and one small warm yellow bridal veil. Arrange the four fabrics as moving, folded, irregular physical textiles in one shared courtyard, not as equal rectangles, samples, panels, flags, or a colour chart. Add exactly one second compact, island-like, fully visible rooted flower clump containing a few scarlet anemones and pale saffron crocuses, entirely surrounded by bare paving and well away from every edge, plus only two complete plain ceramic dye jars. Leave a broad wedge of quiet sunlit paving as intentional negative space. Every person, hand, foot, cloth hem, rail foot, basin rim, jar, flower clump, and cast shadow must be wholly visible with generous breathing room at every edge. Keep every corner and the entire bottom strip as uninterrupted clean paving, free of objects, plants, brush-like marks, or stray forms.\n\nSHARED PLINIAN FOLIO GRAMMAR: an original deluxe Roman natural-history folio illustration rendered directly across warm full-bleed aged vellum; iron-gall linework; fine cross-hatching, stipple, and dry-brush texture; restrained mineral pigments only—umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Ancient, timeless, beautiful, tactile, rough and polished at once. Landscape 3:2, native 1536x1024. Let the textile folds carry restrained madder, faded lapis-violet, ochre-yellow, and crimson-purple accents against a quieter umber courtyard. Matte physical-media appearance, never photographic or glossy digital.\n\nABSOLUTE EXCLUSIONS: no text, letters, captions, labels, numerals, pseudo-writing, calligraphy, inscriptions, scrolls, open books, signatures, signature-like squiggles, logos, watermarks, stray corner marks, modern objects, modern clothing, sewing machines, photography, glossy digital rendering, decorative page border, visible sheet edge, torn parchment, blank paper held by a figure, split panels, diptychs, triptychs, collages, swatch charts, repeated crops, repeated identical frames, duplicated figures, floating cloth, cropped or clipped primary subjects. No ceremonial bride, no medicinal treatment, no ingestion, no violence.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete textile workers handle one complete amethyst cloth and one complete scarlet cloth; the fully contained freestanding rail carries the complete Tyrian crimson-purple fabric and yellow veil. Both compact flower clumps, both jars, the dye basin, every cloth hem, rail foot and shadow are inside the frame. The courtyard reads as one physical scene rather than swatches or panels. No text, pseudo-writing, repeated frame, modern object, floating textile or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9d71afe9-1e36-40e1-97a0-be63071f807b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/evidence/history/b21-c008-attempt-01-clipped-flowerbed-and-corner-form.png",
+          "sha256": "af84f5f82c95c12bcbf1bcad2e9d52dd7738792d8c16f35a8e5384acf7d0d2a1",
+          "reason": "Rejected at native QA because the comparison flower bed exited the left image edge and a dark stray form intruded at the lower-left corner. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 316,
+    "method": "Nearest-neighbor comparison using 64x64 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "20:22": {
+        "nearestMAD": 29.21,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c005.png",
+        "dHashAtMadPeer": 39,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c022.png",
+        "madAtDHashPeer": 44.67
+      },
+      "20:24": {
+        "nearestMAD": 38.95,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-02/b33-c010.png",
+        "madAtDHashPeer": 51.91
+      },
+      "21:2": {
+        "nearestMAD": 39.97,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c026.png",
+        "madAtDHashPeer": 67.05
+      },
+      "21:3": {
+        "nearestMAD": 33.79,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c007.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c012.png",
+        "madAtDHashPeer": 45.53
+      },
+      "21:5": {
+        "nearestMAD": 26.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c016.png",
+        "madAtDHashPeer": 45.13
+      },
+      "21:6": {
+        "nearestMAD": 30.59,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c008.png",
+        "madAtDHashPeer": 38.69
+      },
+      "21:7": {
+        "nearestMAD": 32.83,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c018.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c011.png",
+        "madAtDHashPeer": 48.4
+      },
+      "21:8": {
+        "nearestMAD": 44.22,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c024.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-12/b15-c026.png",
+        "madAtDHashPeer": 57.8
+      }
+    }
+  }
+}

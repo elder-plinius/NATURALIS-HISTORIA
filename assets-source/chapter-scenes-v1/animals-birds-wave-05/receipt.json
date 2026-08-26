@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-05",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "corpusSha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4",
+  "corpusGroundingNote": "The complete Latin and English entries for Book X chapters 36 through 43 were read before prompting. Predation, siege, messenger use, pigeon luxury and mutilation, fabulous feeding claims, blindness, animal ritual language, coercive speech training, alcohol, mob violence, execution, funerary spectacle and racialized bearers are treated as ancient testimony of varying reliability—not verified animal cognition, medical fact, miracle, cruelty, or advice. Chapter 41 follows the actual hen-and-egg corpus text despite its inherited title mismatch.",
+  "assignments": [
+    "10:36",
+    "10:37",
+    "10:38",
+    "10:39",
+    "10:40",
+    "10:41",
+    "10:42",
+    "10:43"
+  ],
+  "selectionValidation": {
+    "coordinationFrontier": "10:35",
+    "coordinationDecision": "Book X chapters through 10:35 were already owned or assigned to earlier and parallel campaigns. The live plan, every available receipt, and all non-evidence masters were inspected; the first exact eight unowned planned-full-scene keys after that frontier were selected.",
+    "assignedInParallelRangeSkipped": "10:18-10:35",
+    "receiptsCheckedAtCertification": 96,
+    "selectedKeys": [
+      "10:36",
+      "10:37",
+      "10:38",
+      "10:39",
+      "10:40",
+      "10:41",
+      "10:42",
+      "10:43"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 2,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 10
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:36",
+      "title": "PIGEONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c036.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "35c239c68b8a9860da73e257f7303ede6c0e182516c041ac47d4476c6114969f",
+        "englishSha256": "77520e69cad15382f5f4923e372d5b92161e2a732959a7c268863fbaaba59568",
+        "latinWords": 83,
+        "englishWords": 219
+      },
+      "sha256": "737e380853793ef68e2e00b1eb2a8d416a0613534a8d3a357e861ffdfc6ec5ee",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2aa5b1dd-c0b0-4ea9-826b-cab50a090e8f",
+      "generationArtifactId": "exec-2aa5b1dd-c0b0-4ea9-826b-cab50a090e8f",
+      "outputArtifact": "built-in-imagegen://exec-2aa5b1dd-c0b0-4ea9-826b-cab50a090e8f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 36 illustration master\nPrimary request: Illustrate Pliny’s description of pigeons seeming to delight in the colours of their plumage and in showy, wing-clapping flight. Treat his language of vanity as ancient anthropomorphic observation, and omit the chapter’s predatory outcome rather than staging harm.\nScene/backdrop: a sun-warmed Campanian rooftop courtyard and distant low hills, all softly resolving into warm vellum.\nSubject: exactly THREE complete domestic rock pigeons wheel together in a loose ascending spiral above the roof—one blue-grey with iridescent neck, one warm russet, one mottled white-and-charcoal. Their varied bank angles and wing positions make the display lively and anatomically plausible; no hawk, sparrow, person, net, tether, or attack.\nStyle/medium: original Plinian natural-history folio on warm aged vellum; iron-gall contour, fine cross-hatching and stipple, restrained faded lapis, verdigris, madder, ochre, lampblack and umber mineral pigments; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: upward three-quarter viewpoint, asymmetric spiral with broad pale sky negative space. Every pigeon, wingtip, tail, foot, roof form, cypress and hill must end visibly inside a softly feathered unmarked vellum perimeter with at least 80 pixels of breathing room; nothing focal or discrete touches an outer edge. One continuous landscape scene, not a page or diagram. Native 1536×1024 landscape, opaque RGB/sRGB.\nLighting/mood: clear late-morning light, buoyant and observational.\nText: none.\nConstraints: exactly three birds total; all complete, distinct, and separated; plausible feathers and feet.\nAvoid: predation, pursuit, injury, bound feathers, blood, omen symbolism, extra bird, duplicate bird, text, letters, numerals, pseudo-writing, signature, watermark, border line, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2aa5b1dd-c0b0-4ea9-826b-cab50a090e8f",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly three complete, separated pigeons—blue-grey, russet, and mottled—wheeling at distinct bank angles above Campanian roofs. Wing, tail and foot anatomy is plausible; every bird and architectural motif resolves inside the soft vellum perimeter. There is no hawk, predation, text, pseudo-writing, page, panel, collage, clipping or duplication.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:37",
+      "title": "WONDERFUL THINGS DONE BY THEM; PRICES AT WHICH THEY HAVE BEEN SOLD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c037.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "27d0e9cf357824908f5bf5bc6eb191c11d19cb7fd6dc1587a430dd368d47c697",
+        "englishSha256": "fd230ebf59cba1f5a9fee545627b43ed08c01aa4ab9e4c3874036af69e26ea1e",
+        "latinWords": 153,
+        "englishWords": 355
+      },
+      "sha256": "0fac7e7b143c37c482f51719565f1ae7f3e7e07d84906dd8c038c609219332df",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0b12e649-57c5-4555-b35a-99a2c33ae388",
+      "generationArtifactId": "exec-0b12e649-57c5-4555-b35a-99a2c33ae388",
+      "outputArtifact": "built-in-imagegen://exec-0b12e649-57c5-4555-b35a-99a2c33ae388.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 37 illustration master\nPrimary request: Ground the image in Pliny’s report that Decimus Brutus sent messages by pigeon from besieged Mutina, while treating the account as ancient historical testimony and omitting the chapter’s cruel pigeon-keeping superstitions and luxury pricing.\nScene/backdrop: a broad, silent aerial view over ancient Mutina at dawn: a compact walled Roman town and a distant orderly encampment separated by dry fields. No fighting is occurring.\nSubject: exactly ONE complete messenger pigeon dominates the foreground in a strong diagonal flight, anatomically plausible and fully visible. A tiny rolled blank strip is secured harmlessly to one leg with soft thread; there are no marks or writing on it. Far below, the town walls and camp communicate distance and obstruction without soldiers in combat, weapons in use, bodies, smoke, or destruction.\nStyle/medium: original Plinian natural-history folio on warm aged vellum, iron-gall contour, precise cross-hatching and stipple, muted dove-grey, faded lapis, terracotta, ochre, verdigris, umber and restrained madder mineral pigments; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique bird’s-eye viewpoint; pigeon upper-left to center, town low right, encampment low left, open dry fields as negative space. The pigeon, every wingtip and foot, rolled strip, walls, towers, tents, road and field boundary must resolve well inside a softly feathered unmarked vellum perimeter; no focal or discrete subject touches an edge. No water. One continuous landscape, not a map or diagram. Native 1536×1024, opaque RGB/sRGB.\nLighting/mood: cool dawn with a narrow gold horizon, resolute and quiet.\nText: none.\nConstraints: exactly one bird total; message strip completely blank and tiny; dignified nonviolent historical framing.\nAvoid: leg injury, wing cutting, buried birds, pots, battle, blood, weapon impact, corpse, crowd, heraldry, readable message, map symbols, labels, letters, numerals, pseudo-writing, signature, watermark, border, frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-0b12e649-57c5-4555-b35a-99a2c33ae388",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete messenger pigeon carrying a tiny blank rolled strip harmlessly at the leg above fully contained ancient Mutina and a distant encampment. The bird, left wingtip, city, camp and all structures remain visibly inside the canvas. No water, writing, battle, injury, smoke, heraldry, panel, collage or modern object was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:38",
+      "title": "DIFFERENT MODES OF FLIGHT AND PROGRESSION IN BIRDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c038.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "47e63df3f9d87b2539587b8c6aa07f369577f7ae1068ded26608201ae3888f18",
+        "englishSha256": "1377339f5ffb123686d41a1da9fe1e3e0be3ada66783c4e67cd0a0540ada8659",
+        "latinWords": 200,
+        "englishWords": 451
+      },
+      "sha256": "dd603a97e70ea577a8f678f270effc88918526514b173101153843edec42ff58",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2e1726e0-8d32-4104-9d0e-bb7c3323616b",
+      "generationArtifactId": "exec-2e1726e0-8d32-4104-9d0e-bb7c3323616b",
+      "outputArtifact": "built-in-imagegen://exec-2e1726e0-8d32-4104-9d0e-bb7c3323616b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 38 illustration master\nPrimary request: Visualize Pliny’s central observation that birds alone move in richly varied ways on land and in air. Make one believable shared Mediterranean upland-wetland moment, never a taxonomy chart or specimen lineup.\nScene/backdrop: a spacious limestone meadow descending toward one small oval reed pool that is completely enclosed by dry land.\nSubject: exactly SIX complete birds, naturally dispersed at different depths and each doing a distinct action from the chapter: one crow walking on a foreground path; one sparrow caught in a small hop between two stones; one partridge running across grass; one crane taking a long deliberate stride; one duck rising nearly vertically above the internal pool with droplets beneath it; and one heavy griffon vulture beginning a running takeoff from a low dry ridge. No other birds or animals.\nStyle/medium: original Plinian natural-history folio on aged vellum; iron-gall linework, fine cross-hatching and stipple, mineral watercolor and egg-tempera feel, restrained chalk limestone, sage verdigris, faded lapis, russet madder, ochre, umber and lampblack; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique landscape viewpoint with a flowing S-curve through six actions, not rows or cells. Every bird is separate, countable, anatomically plausible and fully inside; every wingtip, leg, beak, ridge, reed, stone and the entire pool remain at least 75 pixels from outer edges. No water touches any canvas edge. The scene softly feathers into unmarked vellum around all sides. Native 1536×1024, opaque RGB/sRGB.\nLighting/mood: brisk clear morning, energetic but calm and observational.\nText: none.\nConstraints: exactly six birds total, one of each listed kind; one continuous habitat scene; complete internal pool.\nAvoid: diagram, arrows, motion labels, specimen arrangement, grid, prey, trap, pit, injury, extra bird, duplicate bird, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, frame, depicted page, panels, collage, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2e1726e0-8d32-4104-9d0e-bb7c3323616b",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly six complete birds in one continuous upland-wetland habitat: walking crow, hopping sparrow, running partridge, striding crane, vertically rising duck, and running-takeoff vulture. Each action is countable without a grid. The oval pool and all water are fully enclosed by dry land; every wingtip and leg is inside; no trap, harm, text, pseudo-writing, panel, collage or duplicate was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:39",
+      "title": "THE BIRDS CALLED APODES, OR CYPSELI",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c039.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "71b667bd397e85b375bab741632035d5c8a985350f4bccd97f548818f2b9b902",
+        "englishSha256": "1b98fbf47c8aad820a80577f6c54deb6d87589fa094508f9ce559a2f1a1161d5",
+        "latinWords": 54,
+        "englishWords": 108
+      },
+      "sha256": "84c06faeeeae8fd0a9865e079c62bb087fe283f49b362b9e0dc5dc01305e89a1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ac1446ef-ec1a-478a-b243-8a1c359cc404",
+      "generationArtifactId": "exec-ac1446ef-ec1a-478a-b243-8a1c359cc404",
+      "outputArtifact": "built-in-imagegen://exec-ac1446ef-ec1a-478a-b243-8a1c359cc404.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book X chapter 39 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Add exactly ONE additional complete swift-like bird in the open upper-right copper-violet sky, well above and left of the vessel’s mast, so the image contains exactly FIVE birds total. Make the new fifth bird slightly smaller and banked in the opposite direction from the others, anatomically plausible, visually distinct, and at least 110 pixels from every canvas edge, cloud boundary, mast and other bird.\nPreserve unchanged: the existing four complete birds, their positions and anatomy; the complete merchant vessel, sail, mast and wake; distant cliff; deep faded-lapis and verdigris sea; copper sunset; internal soft-edged vellum vignette; all edge spacing and mineral-folio texture.\nConstraints: exactly five birds total and one ship; all subjects fully inside; every patch of water remains softly faded to dry vellum before all outer edges; opaque RGB/sRGB 1536×1024 landscape.\nText: none.\nAvoid: moving, cropping, duplicating or deleting any existing bird; adding more than one bird; water at edge; changing ship; text, letters, numerals, pseudo-writing, signature, watermark, hard border, frame, page, panel, collage, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-20740a80-2d15-4185-8309-1866f4ec43bb",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-2e8272a6-3b94-4e0c-ba78-c5049224abf1",
+          "status": "rejected-native-qa",
+          "inputArtifact": "built-in-imagegen://exec-20740a80-2d15-4185-8309-1866f4ec43bb.png"
+        },
+        {
+          "generationArtifactId": "exec-ac1446ef-ec1a-478a-b243-8a1c359cc404",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-2e8272a6-3b94-4e0c-ba78-c5049224abf1.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection of the final indigo-copper sunset revision found exactly five complete swift-like birds in distinct bank angles and exactly one complete ancient merchant vessel. The ship, mast, sail, cliff and every bird are fully inside. Every patch of sea and sky pigment fades to dry vellum before all four outer edges. No modern rigging, storm, text, pseudo-writing, page, panel, collage or duplicate was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-20740a80-2d15-4185-8309-1866f4ec43bb",
+          "outputArtifact": "built-in-imagegen://exec-20740a80-2d15-4185-8309-1866f4ec43bb.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/evidence/history/b10-c039-rejected-01-global-mad.png",
+          "sha256": "5a9b64301b309f4a723979ea75bf6d62aed2fd256683b248231822af60d757d0",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 39 illustration master\nPrimary request: Illustrate Pliny’s report that the apodes or cypseli—swift-like birds nesting in cliffs—remain on the wing around ships even far from land. Treat the claim about their feet and perpetual flight as ancient testimony, not a literal anatomical defect or verified absolute.\nScene/backdrop: a luminous open Mediterranean sea rendered as a large internal oval atmospheric vignette, with a tiny hazy cliff line at the far left horizon and a single ancient square-sailed merchant vessel at center.\nSubject: exactly FIVE complete common-swift-like birds sweep around the vessel at different depths and bank angles, all anatomically plausible, separated and fully visible. No bird is perched or touching the ship. The ship is complete and calm, with one plain sail and no people large enough to identify.\nStyle/medium: original Plinian natural-history folio on warm aged vellum; iron-gall and charcoal underdrawing, fine cross-hatching and stipple, translucent faded lapis, celadon verdigris, chalk foam, umber hull, ochre light and restrained madder; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: wide high-horizon seascape with the swift spiral crossing the ship’s wake. Crucially, every patch of blue-green water and sky pigment must soften to dry unmarked vellum at least 85 pixels before all four outer edges; no water, cliff, ship, sail, mast, wake, bird, wingtip or tail touches an edge. One continuous atmospheric scene, not a bordered plate or panel. Native 1536×1024 landscape, opaque RGB/sRGB.\nLighting/mood: pearly early morning, spacious, tireless, serene.\nText: none.\nConstraints: exactly five birds and one vessel; all complete; sea fully internal to the vellum field.\nAvoid: deformed or missing feet, bird collision, storm, shipwreck, drowning, modern rigging, extra ship, extra bird, repeated bird, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, hard border, decorative frame, depicted page, panels, collage, split scene, photorealism, glossy CGI.",
+          "reason": "The pale morning candidate passed native visual QA but failed the live global similarity gate at MAD 16.59 against assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png, below the required MAD 20 threshold."
+        },
+        {
+          "generationArtifactId": "exec-2e8272a6-3b94-4e0c-ba78-c5049224abf1",
+          "outputArtifact": "built-in-imagegen://exec-2e8272a6-3b94-4e0c-ba78-c5049224abf1.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/evidence/history/b10-c039-rejected-02-count-four.png",
+          "sha256": "e885cb3ecd1527dbf09d79db3059650b623db990be810296968fa2839f2f4bb3",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: lighting-weather\nAsset type: revised final Book X chapter 39 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Substantially change the palette, lighting and spatial rhythm to clear a corpus-level similarity failure while preserving the chapter content and all counts. Transform the pale morning seascape into a dramatic but calm copper-and-indigo sunset: deep saturated faded-lapis and verdigris water in the lower two-thirds, a narrow glowing madder-copper horizon, and a smoky violet upper sky. Shift the complete ancient merchant vessel lower-right and angle it three-quarter toward the horizon; rearrange the exactly FIVE complete swifts into one asymmetric rising arc from lower-left to upper-center, with varied bank angles and much stronger dark silhouettes.\nPreserve: exactly five anatomically plausible swift-like birds, exactly one complete ancient square-sailed vessel, tiny distant cliff line, iron-gall cross-hatching and stipple, ancient vellum folio materiality, calm sea, no people large enough to identify.\nFraming: water and sky pigment must remain an internal atmospheric vignette and fade completely to at least 80 pixels of unmarked warm vellum before every outer edge. Every bird, wingtip, tail, ship, sail, mast, wake and cliff must be fully inside and separated from edges. One continuous scene, no hard frame. Native 1536×1024 landscape, opaque RGB/sRGB.\nText: none.\nAvoid: changing count, adding bird or ship, cropping, water at edge, storm, wreck, modern rigging, text, letters, numerals, pseudo-writing, signature, watermark, border line, decorative frame, depicted page, panel, collage, split scene, photorealism, glossy CGI.",
+          "reason": "The indigo-copper revision solved the palette collision but contained only four swifts instead of the required five; it was rejected by native count QA."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:40",
+      "title": "RESPECTING THE FOOD OF BIRDS—THE CAPRIMULGUS, THE PLATEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c040.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "02ddf71ca0e2990c0c0b836d6817a6bc19e6f5bc51187de53d1c517ef99bec15",
+        "englishSha256": "df6cabb666be98ef3e631ee178c4ff029f7625b3f5242272fd3592af9f27db3e",
+        "latinWords": 73,
+        "englishWords": 165
+      },
+      "sha256": "77e995bab758ce0b848f8493d43f62d3392e8d2d3b97741833f68afe648f04cc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f4e42d82-1cd9-4e7f-a577-9b90a766afd9",
+      "generationArtifactId": "exec-f4e42d82-1cd9-4e7f-a577-9b90a766afd9",
+      "outputArtifact": "built-in-imagegen://exec-f4e42d82-1cd9-4e7f-a577-9b90a766afd9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 40 illustration master\nPrimary request: Respond responsibly to Pliny’s food reports about the caprimulgus and platea. His story that a nightjar steals goats’ milk and causes injury or blindness is transmitted folklore, not verified animal behavior or medical fact; do not depict it. Instead show the two birds in dignified, plausible feeding contexts suggested by their settings.\nScene/backdrop: one continuous coastal pastoral landscape at blue twilight: a low dry-stone goat fold on an inner rise and, below it, one small shallow oval tide pool completely enclosed by dry limestone and reeds.\nSubject: exactly TWO complete birds and exactly TWO complete goats. One European-nightjar-like bird is fully airborne above the fold, catching one tiny moth in the twilight without approaching the goats. One spoonbill-like platea stands at the internal pool, calmly sifting among small shells with its bill; no other bird, fish, or animal. The two goats rest unharmed on dry straw, alert and healthy.\nStyle/medium: original Plinian natural-history folio on aged vellum; iron-gall contour, dense fine cross-hatching and stipple, deep faded lapis twilight, charcoal nightjar, chalk goats, celadon-verdigris pool, muted madder, ochre and umber; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low diagonal from moonlit fold to enclosed pool; rich dark-blue upper field balanced by pale stone. Every bird, goat, horn, wingtip, foot, moth, wall, reed, shell and every patch of water must remain fully inside a softly feathered unmarked vellum perimeter; no focal subject or water touches an edge. Native 1536×1024 landscape, opaque RGB/sRGB.\nLighting/mood: quiet dusk, lucid, humane, non-sensational.\nText: none.\nConstraints: exactly two birds, two goats, one tiny moth; one fully enclosed pool; no contact between nightjar and goats.\nAvoid: sucking milk, udder contact, shrivelled udder, blindness, injury, attack, bird biting another bird, regurgitation, gore, shell choking, extra animal, duplicate, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, hard border, frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f4e42d82-1cd9-4e7f-a577-9b90a766afd9",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete birds, two complete healthy goats, and one tiny moth: a nightjar catches the moth without approaching the goats, while a spoonbill-like platea forages in an enclosed pool. All water, including the distant inlet, is bounded by dry land and cliffs before the canvas edges. There is no udder contact, blindness, injury, attack, regurgitation, text, pseudo-writing, panel or collage.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:41",
+      "title": "THE INSTINCTS OF BIRDS—THE CARDUELIS, THE TAURUS, THE ANTHUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c041.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d8c105886c53f31a633285510a9438cfb8fa008f489f87afc84a3f127d56bd2f",
+        "englishSha256": "6adf3193a20c44df9a46eafaddc4276f5cc56d7000f7870aeb780e93fbddee98",
+        "latinWords": 20,
+        "englishWords": 44
+      },
+      "sha256": "e6c4ded289588fee3cbdcbb31c67fbf628cd38b5eb562675fb4313c6ad3893e8",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a5aa5698-d629-4bb7-8650-234712c8132e",
+      "generationArtifactId": "exec-a5aa5698-d629-4bb7-8650-234712c8132e",
+      "outputArtifact": "built-in-imagegen://exec-a5aa5698-d629-4bb7-8650-234712c8132e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 41 illustration master\nPrimary request: Ground the illustration in the actual Latin and English corpus entry, which describes a farmyard hen shuddering, shaking her feathers, turning around, and moving a stalk near herself and her newly laid egg. Treat Pliny’s language of religion and purification as ancient anthropomorphic interpretation, not verified ritual behavior or an omen.\nScene/backdrop: an intimate sunlit farmyard corner with a round straw nest on packed ochre earth, a few grain stalks and a low uninscribed terracotta wall.\nSubject: exactly ONE complete russet-and-black domestic hen beside exactly ONE intact fresh egg. The hen is mid-feather-shake and gentle turn, wings held close, with one loose straw stalk curved near the egg by ordinary nest-tending motion. No rooster, chick, person, altar, shrine, or other animal.\nStyle/medium: original Plinian natural-history folio on warm aged vellum; iron-gall contour, exquisite cross-hatching and stipple, madder-russet feathers, lampblack tail, ochre straw, pale chalk egg, small verdigris weeds and umber earth; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: close high three-quarter view with a circular rhythm around hen, nest, egg and stalk; broad quiet vellum earth beyond. Hen, beak, comb, feet, tail, egg, nest, every straw tip, wall end and weed must resolve fully inside a softly feathered unmarked vellum perimeter; nothing focal or discrete touches an edge. One continuous natural scene, not a diagram. Native 1536×1024, opaque RGB/sRGB.\nLighting/mood: warm early sun, attentive, domestic, calm.\nText: none.\nConstraints: exactly one bird, one egg, one prominent loose stalk; plausible hen anatomy and non-mystical behavior.\nAvoid: ritual symbols, halo, purification aura, augury, sacrifice, broken egg, hatchling, extra bird, duplicate egg, text, letters, numerals, pseudo-writing, signature, watermark, hard border, decorative frame, depicted page, panel, collage, split scene, modern farm equipment, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a5aa5698-d629-4bb7-8650-234712c8132e",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete domestic hen, one intact egg and one prominent loose straw stalk in a natural nest-tending and feather-shaking moment. The image follows the actual Latin and English chapter entry rather than over-reading its inherited title. All anatomy and straw ends are contained; no ritual aura, omen, broken egg, extra bird, text, pseudo-writing, panel or collage was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:42",
+      "title": "BIRDS WHICH SPEAK—THE PARROT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c042.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "c2627c05c2fa8c8bb491855313acd33985a814164bd308742ee311b39e400a2f",
+        "englishSha256": "cfe53958f7e1f9549c93ee0d5b2102d59b1f345e3f2a160f8bc4e2230439fd85",
+        "latinWords": 282,
+        "englishWords": 642
+      },
+      "sha256": "051496a05e025764a6bb5e23d96e778a17128044c530a7351c822757ad783260",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-25c2e08c-69be-4e5d-a7e2-21fc50b961c0",
+      "generationArtifactId": "exec-25c2e08c-69be-4e5d-a7e2-21fc50b961c0",
+      "outputArtifact": "built-in-imagegen://exec-25c2e08c-69be-4e5d-a7e2-21fc50b961c0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 42 illustration master\nPrimary request: Illustrate the actual corpus entry’s account of birds imitating sounds, especially the green Indian ring-necked parrot repeating human speech in a quiet teaching place. Treat extraordinary anecdotes and training prescriptions as ancient testimony; omit alcohol, coercion, blows, iron rods, cages, and claims of guaranteed speech.\nScene/backdrop: a small shaded Roman garden exedra open to sunlit laurel, with plain plaster, a low stone seat, and no inscriptions.\nSubject: exactly ONE complete green ring-necked parrot with a narrow red neck ring perches freely on a smooth olive branch stand, holding one acorn delicately in one foot while its beak is slightly open. Exactly ONE complete seated adult teacher in a simple undyed tunic leans forward at a respectful distance, speaking softly and offering one fig on an open palm; the bird is attentive and unrestrained. No other person or animal.\nStyle/medium: original Plinian natural-history folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple, luminous malachite and verdigris plumage, miniature madder neck ring, faded lapis shade, ochre plaster, umber and lampblack; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate lateral dialogue composition with a quiet open interval between human and bird; no speech marks. The parrot, tail, toes, branch stand, teacher’s full body, hands and feet, fig, acorn, seat, arch and foliage tips all resolve completely inside a softly feathered unmarked vellum perimeter; nothing focal or discrete touches an edge. One continuous scene. Native 1536×1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool shade and warm garden light, patient, curious, humane.\nText: none.\nConstraints: exactly one parrot, one adult person, one fig, one acorn; no restraint or punishment.\nAvoid: iron rod, striking, alcohol, wine vessel, cage, chain, clipped wing, injury, emperor portrait, exotic spectacle, speech bubble, sound symbol, labels, letters, numerals, pseudo-writing, signature, watermark, border, frame, depicted page, panel, collage, extra bird, duplicate person, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-25c2e08c-69be-4e5d-a7e2-21fc50b961c0",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete green ring-necked parrot and one complete seated adult teacher in a quiet garden exedra, with one fig and one acorn. The bird is free, attentive and uninjured; tail, toes, branch, human hands and feet all resolve inside the vellum perimeter. No rod, cage, alcohol, coercion, speech mark, text, pseudo-writing, panel, collage or extra figure was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:43",
+      "title": "A SEDITION THAT AROSE AMONG THE ROMAN PEOPLE, IN CONSEQUENCE OF A RAVEN SPEAKING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c043.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "16f7992a2b57eb684c6d5101cb685eb2b8c94f8f205171043a042feed227276a",
+        "englishSha256": "1902351ab549793ce233c099fe1a32b8e6f64380dba0da727efa2dd4504701fc",
+        "latinWords": 275,
+        "englishWords": 627
+      },
+      "sha256": "6a1625dd78d1f9a0f046b121c79c7a2eeb8529b3c3d0239e4e4a7fb0ee6f4617",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-984ee2fc-15cf-47d9-a006-7142e0d44325",
+      "generationArtifactId": "exec-984ee2fc-15cf-47d9-a006-7142e0d44325",
+      "outputArtifact": "built-in-imagegen://exec-984ee2fc-15cf-47d9-a006-7142e0d44325.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Book X chapter 43 illustration master\nPrimary request: Illustrate the humane opening of Pliny’s transmitted story about the raven that learned a morning greeting and flew from a shoemaker’s shop to the Roman Forum. Do not depict the later killing, mob retaliation, execution, funeral, racialized bearers, or civic violence; do not treat the raven’s speech as supernatural.\nScene/backdrop: the early-morning Roman Forum seen from a low oblique viewpoint, with a plain uninscribed rostra, sunlit paving, distant basilica columns, and a modest open shoemaker’s stall containing exactly two simple leather shoes.\nSubject: exactly ONE complete glossy black raven perches freely on the low rostra rail with beak gently open as if greeting. Exactly SIX complete adult townspeople in varied plain Roman dress pause in a loose semicircle at a respectful distance, attentive and quietly delighted; one is the shoemaker standing near the stall. No emperor, soldiers, litter, piper, garland, corpse, or crowd surge.\nStyle/medium: original Plinian natural-history folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple, deep lampblack raven with faded-lapis sheen, pale limestone, muted madder and ochre cloth, verdigris shadow, umber leather; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: morning light forms a diagonal from the stall to raven to listeners, with generous open paving as negative space. Raven, beak, feet, rail, all six full people, hands, feet, both shoes, stall, columns and architecture must resolve completely inside a softly feathered unmarked vellum perimeter; nothing focal or discrete touches an edge. One continuous historical scene. Native 1536×1024 landscape, opaque RGB/sRGB.\nLighting/mood: fresh gold morning, communal wonder without spectacle.\nText: none.\nConstraints: exactly one bird, six adult people, two shoes; no speech symbols or written names.\nAvoid: bird death, violence, punishment, riot, funeral, pyre, racialized display, omen aura, emperor portrait, armed person, extra bird, child, duplicate figure, labels, letters, numerals, pseudo-writing, inscription, signature, watermark, hard border, frame, depicted page, panels, collage, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-984ee2fc-15cf-47d9-a006-7142e0d44325",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete speaking raven, exactly six complete adults including the shoemaker, and exactly two simple leather shoes in a calm morning Forum scene. Every person, foot, hand, bird and architectural motif is inside the vignette. The image omits the later killing, mob retaliation, execution, funeral and racialized spectacle; no speech symbol, text, pseudo-writing, panel, collage or violence was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 758,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:36": {
+        "nearestMAD": 23.09,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c004.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+        "madAtDHashPeer": 34.54
+      },
+      "10:37": {
+        "nearestMAD": 21.54,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c012.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c051.png",
+        "madAtDHashPeer": 78.53
+      },
+      "10:38": {
+        "nearestMAD": 25.24,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c016.png",
+        "madAtDHashPeer": 46.68
+      },
+      "10:39": {
+        "nearestMAD": 20.52,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c046.png",
+        "dHashAtMadPeer": 15,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c032.png",
+        "madAtDHashPeer": 30.92
+      },
+      "10:40": {
+        "nearestMAD": 21.88,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c025.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c022.png",
+        "madAtDHashPeer": 38.98
+      },
+      "10:41": {
+        "nearestMAD": 29.46,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c006.png",
+        "dHashAtMadPeer": 16,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c014.png",
+        "madAtDHashPeer": 31.43
+      },
+      "10:42": {
+        "nearestMAD": 28.59,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c005.png",
+        "dHashAtMadPeer": 16,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c002.png",
+        "madAtDHashPeer": 36.4
+      },
+      "10:43": {
+        "nearestMAD": 32.77,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c012.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c001.png",
+        "madAtDHashPeer": 35.93
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-birds-wave-05",
+    "status": "pass",
+    "output": ""
+  }
+}

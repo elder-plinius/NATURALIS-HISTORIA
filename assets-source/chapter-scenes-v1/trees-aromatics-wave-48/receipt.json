@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-48",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted chapter records its unique built-in generation artifact ID. Ten rejected generations are preserved under evidence/history and record their built-in artifact IDs, hashes, and native, global, or cross-lane QA reasons.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 461,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:80": {
+        "nearestMAD": 25.5,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c004.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c017.png",
+        "madAtDHashPeer": 53.17
+      },
+      "2:81": {
+        "nearestMAD": 24.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c028.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c025.png",
+        "madAtDHashPeer": 51.54
+      },
+      "2:82": {
+        "nearestMAD": 27.37,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c046.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c048.png",
+        "madAtDHashPeer": 42.93
+      },
+      "2:83": {
+        "nearestMAD": 23.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c010.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "madAtDHashPeer": 36.55
+      },
+      "2:84": {
+        "nearestMAD": 20.96,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c016.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b16-c043.png",
+        "madAtDHashPeer": 47.41
+      },
+      "2:85": {
+        "nearestMAD": 22.86,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c029.png",
+        "madAtDHashPeer": 82.19
+      },
+      "2:86": {
+        "nearestMAD": 34.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c013.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c015.png",
+        "madAtDHashPeer": 60.85
+      },
+      "2:87": {
+        "nearestMAD": 20.13,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c031.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c005.png",
+        "madAtDHashPeer": 31.94
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:80",
+      "title": "OF CLEFTS OF THE EARTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+      "sha256": "c1a0a18412ccd752f4f8939a37eaa30b58104c549f3002e501225c411617ddc7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-6bd83449-c82e-44e7-8f1e-8b89fe7d3a72",
+      "outputArtifact": "built-in-imagegen://exec-6bd83449-c82e-44e7-8f1e-8b89fe7d3a72.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 80, “OF CLEFTS OF THE EARTH.” Pliny catalogs ancient observations of shaking earth, fissures, displaced rivers, hot springs and strange underground sounds. Depict one cautious aftermath observation rather than catastrophe, and frame the ancient explanations as historically situated inquiry.\n\nComposition and value structure: a NEAR-VERTICAL TOP-DOWN VIEW with NO SKY AND NO HORIZON. Make this an unusually HIGH-KEY folio: more than eighty percent of the image is pale bone-white and chalk-grey limestone ground, brightly sun-bleached, with sparse fine silver cross-hatching. In the central interior, show exactly one complete narrow lampblack irregular fissure shaped like a broken crescent, both tapered ends plainly visible and surrounded on every side by a wide belt of unbroken white ground. At upper-left, exactly one complete small vivid turquoise spring pool feeds a thin blue-green stream; the entire stream bends around the fissure and terminates in exactly one complete small turquoise settling pool at lower-left. Both pools, all banks and the entire stream remain far from the edges. Exactly one complete Roman naturalist appears very small on the right side of the fissure, viewed from above, wearing a single muted cinnabar cloak that gives one concentrated color accent; head, body, arms and both feet distinct. Exactly one complete low rectangular charcoal-grey wall ruin lies above the fissure, every corner and base visible. At lower-right, one tiny complete mineral seep emits exactly one faint pale-blue vapor curl. No other major objects, shadows or dark fields.\n\nStyle: original Plinian earth-process folio—ancient, timeless, beautiful, rough and polished at once. Dry iron-gall contouring, delicate geological stipple and cross-hatching, luminous bone white, chalk grey, oxidized turquoise, muted cinnabar, lampblack and restrained aged-silver mineral accents over fibrous vellum texture filling every pixel. Flattened fresco-cartographic viewpoint used as observed terrain, not a diagram; severe high-key negative ground and museum-grade material finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous top-down landscape. Keep the complete fissure and both ends, both entire pools, full stream and banks, tiny naturalist, wall ruin, seep and vapor comfortably inside the frame. No water, fissure, person, wall, vapor or discrete plant touches an edge. No dark or red dominant ground, sky, horizon, labels, arrows, map symbols, cutaway, split panel, collage, internal border, visible page edge, caption, letters, numerals, pseudo-writing, runes, signature, logo, watermark, gore, bodies, falling buildings, fire, eruption, giant wave, modern equipment, or duplicated subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key top-down limestone field contains one complete crescent fissure with both ends, two entire turquoise pools and their full stream, one tiny complete naturalist, one contained wall ruin and one mineral seep. No clipped water or fissure, danger scene, diagram, text, panel, border, visible sheet or watermark was found. The final high-key replacement clears all current global similarity gates.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9a9281dd-0cb3-4376-adc4-8b39f45fedaa.png",
+          "sha256": "46054bb8babd66067a02dfa92a6add0040e5514de59cad59ca1838efee481dee",
+          "reason": "Rejected after native QA because the diverted stream entered the lower canvas edge. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-8c4910e0-c78b-4834-8535-193ee6ab3edb.png",
+          "sha256": "a5f783bba2ade9a90ba92ab85fbc06e42e194429cb33f8775bdd2db0ef119524",
+          "reason": "Rejected after global QA because the otherwise valid ochre oblique scene measured grayscale MAD 18.84 against chapter 2:60, below the required 20.00 collection threshold. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b9e175b0-3e2c-4771-b57f-00a9b6cf0e44.png",
+          "sha256": "42167705d7d9ba9baff38a27525a5156f9baf5af8af903764bc18bfc358331f7",
+          "reason": "Rejected after cross-lane global QA because the otherwise valid red top-down scene measured grayscale MAD 16.81 against the in-progress chapter 2:97 master, below the required 20.00 collection threshold. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:81",
+      "title": "SIGNS OF AN APPROACHING EARTHQUAKE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c081.png",
+      "sha256": "8751b5c9c1bdf5acb279c6c65d7a67aa399887ddc829012c4f3f7b00d22945b9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-0e9ed645-0f70-45fc-ab4d-3c9fa4001c0a",
+      "outputArtifact": "built-in-imagegen://exec-0e9ed645-0f70-45fc-ab4d-3c9fa4001c0a.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 81, “SIGNS OF AN APPROACHING EARTHQUAKE.” Pliny records shipboard shaking without wind, creaking cargo, alarmed birds, a long thin cloud in clear sky, and disturbed well water as reported signs. Depict one restrained maritime observation and preserve its status as ancient testimony, not modern forecasting advice.\n\nComposition: a wide pearl-grey morning sea under almost windless clear sky. Exactly one complete small Roman coastal merchant vessel sits fully within the central fifty-five percent of the image, viewed in three-quarter profile. Show the entire hull, bow, stern, rudder, mast tip, both ends of one yard, furled square sail, all standing rigging and one short wake, with generous open water around everything. The sea surface is locally lifted into exactly three broad low transverse swells beneath the vessel even though sail and rigging hang slack. Exactly one complete sailor stands braced on deck, looking down as two plain amphorae in a low cargo cradle lean slightly against their ties. Exactly three complete small seabirds lift away from the yard at different heights, all fully contained. High above, one very long, thin, natural horizontal cloud filament floats by itself with clear sky around both ends; it is a soft vapor line, not a diagram. The mood is watchful, not catastrophic.\n\nStyle: original Plinian maritime natural-history folio—ancient, timeless, beautiful, rough and polished at once. Iron-gall naval contours, fine cross-hatching and stipple, translucent mineral washes over fibrous vellum texture filling every pixel; pearl grey, sea verdigris, faded lapis, muted plum, umber, bone white and tiny aged-gold accents. Salt-abraded surface, exact Roman ship construction, shallow fresco-like depth, low horizon, quiet asymmetry and museum-grade observational finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous scene only. Keep the complete ship, all extremities and rigging, full sailor, amphorae, all three birds, all three swells, entire cloud filament and horizon comfortably inside the frame. No ship, mast, rope, bird, swell or cloud touches an edge. No storm wind, breaking wave, sinking, collision, earthquake damage on shore, second vessel, extra person, modern boat, text, letters, numerals, pseudo-writing, labels, chart, sound waves, arrows, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete Roman coastal vessel, hull, mast, yard, furled sail, rigging and sailor remain fully framed beneath one contained thin cloud filament and exactly three complete birds; tied amphorae and low windless swells are legible. No clipping, storm spectacle, modern gear, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:82",
+      "title": "PRESERVATIVES AGAINST FUTURE EARTHQUAKES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c082.png",
+      "sha256": "3886048a488c26f37b03f0153b3979e66fc14ec10aadb06b0fd04f2157e6e846",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-a8d3a9d9-6349-46e8-8576-6421608635e7",
+      "outputArtifact": "built-in-imagegen://exec-a8d3a9d9-6349-46e8-8576-6421608635e7.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 82, “PRESERVATIVES AGAINST FUTURE EARTHQUAKES.” Pliny transmits ancient observations that caverns, sewers, arches, wall angles and brick construction sometimes appeared to lessen damage. Show comparative post-shock observation without presenting any structure as guaranteed protection or modern safety guidance.\n\nComposition: a quiet, fully contained Roman town-edge court at amber-grey afternoon after a mild tremor, viewed from a high three-quarter angle. At left-middle stands exactly one complete small brick granary with three complete rounded arches in its facade and all four exterior corners visible; it is intact but weathered. At right-middle stands exactly one complete low solid-cut stone storehouse of similar scale, also fully visible, with one fine diagonal crack near a corner and a few fallen chips at its base—no collapse. Between them, one complete freestanding low brick-vaulted sewer mouth opens into a shallow drainage channel; the entire arch, both springing points, channel beginning and channel end are visible, and a faint earthy vapor curl rises from within. Exactly one complete Roman surveyor stands in the open court, hands lowered, comparing the structures. Wide bare paving separates every element. The scene is observational, not instructional.\n\nStyle: original Plinian architectural natural-history folio—ancient, timeless, beautiful, rough and polished at once. Dry iron-gall architectural linework, fine cross-hatching and stipple, translucent mineral pigments over fibrous vellum texture filling every pixel; brick madder, warm ochre, limestone grey, muted verdigris, lampblack, bone white and restrained aged-gold glints. Shallow fresco-like depth, precise Roman masonry and vaulting, lightly abraded material surface, elegant asymmetric negative space and museum-grade draftsmanship.\n\nHard constraints: 1536x1024 landscape 3:2, opaque full-bleed, one continuous exterior scene only. Keep the complete granary, every arch and corner, complete stone storehouse, full surveyor, full sewer arch and entire shallow channel comfortably within the frame with clear paving around them. No building, roof, wall, channel or person touches an edge. No underground cutaway, safety diagram, blueprint, arrows, labels, claim of guaranteed safety, falling masonry, casualty, panic, extra people, modern construction, text, letters, numerals, pseudo-writing, inscription, split panel, collage, internal border, visible page margin, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete three-arched brick granary, complete cracked stone storehouse, full freestanding sewer arch and contained channel remain separated by broad paving with one complete observer. No guaranteed-safety claim, cutaway, falling masonry, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:83",
+      "title": "PRODIGIES OF THE EARTH WHICH HAVE OCCURRED ONCE ONLY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c083.png",
+      "sha256": "9110cf09c26a98f5e23ac7e2291689fa0d3a53f2d9b8d65993a638f3d108138c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c4f6fba8-dccb-42b0-b363-8a88a9083009",
+      "outputArtifact": "built-in-imagegen://exec-c4f6fba8-dccb-42b0-b363-8a88a9083009.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 83, “PRODIGIES OF THE EARTH WHICH HAVE OCCURRED ONCE ONLY.” Pliny preserves an Etruscan report that two mountains in the district of Mutina seemed to rush together with smoke and flame and then recede. Depict a singular transmitted witness report while keeping its historical uncertainty; do not present a supernatural event as modern fact.\n\nComposition: a broad open Emilia plain at smoky violet sunset, viewed from far back with an immense band of empty foreground. In the middle distance, show exactly two complete separate low mountains facing one another across a narrow central saddle. Together the two mountains occupy only the central sixty percent of the canvas; every summit, both outer slopes, both feet and a wide apron of level ground around them are fully visible, with generous sky and plain between every mountain edge and every canvas edge. In the saddle hangs one compact contained ochre-grey dust cloud and exactly two small separate ember-red vapor plumes, suggesting the reported disturbance after the hills have already drawn apart; no eruption column, lava or active collision. In the lower-left interior, exactly one complete mounted Roman courier has stopped on bare ground; horse, rider, all four legs and tail are fully visible. In the lower-right interior, exactly one complete standing traveler watches from a safe distance with arms lowered. Exactly one complete tiny abandoned farmhouse stands far to the right of the hills, fully surrounded by open plain and sky, intact but with a few roof tiles on the ground. No road is shown. The vast negative space carries the uncanny scale.\n\nStyle: original Plinian earth-prodigy folio—ancient, timeless, beautiful, rough and polished at once. Dry iron-gall contours, dense geological cross-hatching and stipple, translucent mineral washes over fibrous vellum texture filling every pixel; smoky violet, madder, red ochre, ember cinnabar, lampblack, muted verdigris, bone white and restrained aged-gold glints. Shallow fresco-like depth, precise Roman tack, smoke-abraded surface, solemn asymmetry and museum-grade finish rather than cinematic fantasy.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous witnessed landscape only. Keep both entire mountains, every outer slope and foot, all plumes and dust, complete mounted courier and horse, complete standing traveler, farmhouse and all discrete objects comfortably inside the frame. No mountain, smoke, person, animal, architecture or vegetation touches an edge. No road, crowd, dead or injured animal, collapse in progress, battle, giant flames, lava river, volcano cone, second horse, extra person, deity, omen symbol, modern object, text, letters, numerals, pseudo-writing, label, diagram, arrows, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete separated mountains, contained dust and two vapor plumes, one complete mounted courier and horse, one complete standing traveler and one fully framed farmhouse occupy a broad empty Emilia plain. No edge-entering slope or road, injury, active collision, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5a985b99-8167-47ba-b737-feb9987aca45.png",
+          "sha256": "ad06af5aad614dff4db2c35c96b8869bcf6892e1727aaefdfb29793d55d6be2d",
+          "reason": "Rejected after native QA because an outer mountain slope and the Via Aemilia road entered the canvas edges. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:84",
+      "title": "WONDERFUL CIRCUMSTANCES ATTENDING EARTHQUAKES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c084.png",
+      "sha256": "aa82716b73d48de6b6522a9bcae23f59649e4b736375e74892e3f7055ffc3f33",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ec7ccdef-10c5-4677-bd0b-8900a1e27be7",
+      "outputArtifact": "built-in-imagegen://exec-ec7ccdef-10c5-4677-bd0b-8900a1e27be7.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 84, “WONDERFUL CIRCUMSTANCES ATTENDING EARTHQUAKES.” Pliny associates earthquakes with sea inundations and preserves historical reports of widespread urban damage and human interpretations of prodigy. Depict a sober coastal aftermath study, not spectacle or a modern causal diagram.\n\nComposition and value structure: a LOW, nearly eye-level view across a coastal terrace under a glaring PALE SULPHUR-YELLOW overcast sky occupying the upper forty percent. Use bold high contrast: bone-white architecture, dark oxidized-teal water and burnt-madder paving. All architecture and waterworks together occupy ONLY the central seventy percent of the canvas, with a wide empty border of paving and sky around them. At left-middle stands exactly one complete compact Roman warehouse, no more than one quarter of canvas width, with roof, both ends, all corners and base visible; its open front has exactly six slender bone-white columns, with two leaning slightly in opposite directions without collapse. In the lower-center-right interior lies exactly one complete circular harbor basin seen as a dark ellipse, NO MORE THAN FORTY PERCENT of canvas width; its ENTIRE quay ring has a broad band of red paving around all sides and at least twelve percent canvas clearance from every edge. Three pale uneven slosh lines cross the water and one small contained puddle sits beyond a low overtopped block. Farther back at upper-right is one separate complete shallow oval saltwater lagoon, fully surrounded by ground and no more than twenty-five percent canvas width. Exactly one narrow complete channel links lagoon and harbor, with both endpoints visible. Exactly one complete Roman observer stands small in the open center holding a plain closed wax tablet. A tiny complete walled town rests on a low contained ridge beneath the pale sky.\n\nStyle: original Plinian coastal earth-process folio—ancient, timeless, beautiful, rough and polished at once. Dry iron-gall architectural contours, deep teal water stipple, dense charcoal and madder cross-hatching, translucent sulphur ochre, bone white, oxidized turquoise, red umber and restrained aged-gold mineral washes over fibrous vellum texture filling every pixel. Salt-stained, quake-abraded material surface, precise Roman harbor engineering, low horizontal rhythm, stark editorial negative sky and museum-grade observation.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous scene. Keep the complete warehouse, exactly six columns, entire circular harbor and every quay stone, entire oval lagoon, complete channel and both ends, all water and puddle, full observer, tablet and distant town well inside the frame. Nothing discrete touches an edge. No cropped basin, open sea, horizon water, moon, giant wave, tsunami, ruined city, falling building, bodies, battle, fire, extra person, modern equipment, map, diagram, arrows, labels, text, letters, numerals, pseudo-writing, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The compact complete warehouse and six front columns, fully contained circular harbor, complete rear lagoon and connecting channel, small observer and distant walled town sit within a high-contrast sulphur-sky and madder-paving composition. No clipped basin, open sea, ruin spectacle, text, panel, border, visible sheet or watermark was found. The final replacement clears the global similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-99d921b9-6e1f-490b-9046-1ec507386add.png",
+          "sha256": "5bc5669176dd0ddec59bf59d99967f715841ec30591eca41449148102a562833",
+          "reason": "Rejected after native QA because open sea entered the distant horizon despite the contained-water framing contract. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-08eda6be-2610-4f39-a22f-be626a9295e7.png",
+          "sha256": "a465aa60d7a4df240cf42e9cb215d1bf25ae77fc610c7d4a094d5fb12bcbb54c",
+          "reason": "Rejected after global QA because the otherwise valid high-oblique harbor scene measured grayscale MAD 18.76 against chapter 2:80, below the required 20.00 collection threshold. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-2241dd11-53c7-41ff-a982-97a54dc3a438.png",
+          "sha256": "1caac9a900aaac43c19d7b71bc22378a438c5367d696fb11a97cf00870974126",
+          "reason": "Rejected after global QA because the otherwise valid dark nocturnal harbor measured grayscale MAD 13.97 against chapter 2:8, below the required 20.00 collection threshold. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-ebc1a4f0-7746-4e21-92c3-ae3ff3618764.png",
+          "sha256": "18c2f0988602f86c7b27ecaf8d85e580ffdf0ded8793de400dc75611778e929b",
+          "reason": "Rejected after native QA because the large circular harbor basin was clipped by the right canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:85",
+      "title": "IN WHAT PLACES THE SEA HAS RECEDED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c085.png",
+      "sha256": "0b081f18019be80cce67869e31d81d9e2b37e9b4f35b8bfef96e04070061146b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-df1e6574-2897-474f-a1e9-40bbf7d839f9",
+      "outputArtifact": "built-in-imagegen://exec-df1e6574-2897-474f-a1e9-40bbf7d839f9.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 85, “IN WHAT PLACES THE SEA HAS RECEDED.” Pliny compares land built by rivers with places where shorelines were said to have withdrawn, including Ephesus where the sea once washed the sanctuary walls. Depict a historically situated coastal-landscape observation, not a modern reconstruction claiming exact ancient levels.\n\nComposition: an expansive pale-gold former harbor floor near ancient Ephesus at dry late summer. In the upper-left interior lies exactly one complete shallow crescent-shaped remnant lagoon, every shore fully visible and surrounded by dry ground; no water touches an edge. At upper-right stands exactly one complete small Ionic sanctuary, distant but precise, with roof, both ends, all corners, stair base and every column fully contained. A broad swath of new reed-dotted silt separates lagoon from sanctuary. In the lower-middle, exactly one complete ancient geographer kneels beside one complete weathered stone mooring block now stranded on dry earth, observing a natural scatter of small shells. Behind the mooring block is one SHORT PALE CURVED ARC of old beach gravel, no longer than the width of the geographer and block together; BOTH ENDS OF THIS GRAVEL ARC are plainly visible on open earth with very wide dry margins around them. One complete narrow river channel winds across the middle ground from one contained spring pool to the contained lagoon; both endpoints and all banks remain visible. The landscape makes retreat and accretion legible through space and texture, without arrows or labels.\n\nStyle: original Plinian coastal-geography folio—ancient, timeless, beautiful, rough and polished at once. Dry iron-gall contours, delicate cartographic cross-hatching used as landscape texture rather than a map, translucent mineral washes over fibrous vellum filling every pixel; silt ochre, dusty verdigris, oxidized teal, faded lapis, shell white, umber, lampblack and restrained aged-gold accents. Salt- and sun-abraded material surface, precise Greek architecture and shore ecology, high oblique view, serene asymmetry and museum-grade finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous landscape only. Keep the entire lagoon, complete river and both endpoints, spring pool, sanctuary, all columns, geographer, mooring block, shell scatter, both ends of the short old-beach arc and all discrete plants comfortably inside the frame. No sea, river, pool, beach arc, building, figure or reed touches an edge. No giant temple, modern harbor, map, chart, measuring scale, arrow, text, letters, numerals, pseudo-writing, inscription, second person, ship, panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete spring pool, full narrow channel and contained remnant lagoon remain separated from a fully framed Ionic sanctuary; the complete geographer, stranded mooring block, shell scatter and short old-beach arc are all internal. No edge-entering shoreline band, map device, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-29f77d8d-1a61-4e28-a122-cd6a1a10ab0b.png",
+          "sha256": "7b1f35924ec0813d500fd79fa3701f633dd9121e9e06c5082cac8c225e5937d7",
+          "reason": "Rejected after native QA because the old beach-gravel band continued through the right canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:86",
+      "title": "THE MODE IN WHICH ISLANDS RISE UP",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c086.png",
+      "sha256": "741b0fcd1f53e037b4295f64c29a86a661f6f81fa219c99b3da421d760069819",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ecf4677e-8b9a-4c7d-850a-e7b7c178e5dd",
+      "outputArtifact": "built-in-imagegen://exec-ecf4677e-8b9a-4c7d-850a-e7b7c178e5dd.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 86, “THE MODE IN WHICH ISLANDS RISE UP.” Pliny says land may suddenly rise from the sea, as though nature restores elsewhere what the earth has swallowed. Depict a newly emerged landform as transmitted ancient observation, not a complete modern geological explanation.\n\nComposition: a high aerial-oblique view at blue-gold dawn over one complete oval saltwater lagoon enclosed by a broad pale pumice-and-limestone coastal shelf. The entire dark-lapis lagoon shoreline is visible with wide dry ground between it and every canvas edge. In the exact left-of-center interior of the lagoon, show exactly one complete newly emerged small black-brown island, every shore visible and surrounded on all sides by an unbroken ring of water. Its form is low, irregular and geologically plausible, with a narrow pale pumice beach, fresh wet rock, exactly three faint steam curls, and one shallow central depression—no erupting volcano, lava or fire. At lower-right on the surrounding shelf stands exactly one complete ancient naturalist, fully visible, watching from a safe distance with empty hands. One complete tiny empty fishing skiff is pulled onto the shelf well away from the water, all hull ends and two oars visible. Long dawn light catches the wet island and makes the new shoreline legible.\n\nStyle: original Plinian marine-geology folio—ancient, timeless, beautiful, rough and polished at once. Dry iron-gall coast contours, dense lithic cross-hatching, water stipple and translucent mineral washes over fibrous vellum texture filling every pixel; deep lapis, oxidized teal, pumice white, charcoal, red-brown umber, pale ochre and restrained aged-gold glints. Salt-abraded material surface, precise stone and shoreline observation, shallow fresco-like depth, strong asymmetric negative water and museum-grade finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous scene only. Keep the entire lagoon, full shoreline, entire new island and every shore, all three steam curls, full naturalist, complete skiff and both oars comfortably inside the frame. No water, island, steam, person, boat or discrete rock touches an edge. No open ocean, horizon sea, eruption column, lava, flames, giant wave, sinking land, deity, map, cross-section, arrows, labels, text, letters, numerals, pseudo-writing, extra person, extra island, second boat, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The entire enclosed lapis lagoon and shoreline surround exactly one complete newly emerged island with a pumice rim, central depression and exactly three steam curls; the complete observer and skiff remain framed on the shelf. No open ocean, lava, eruption spectacle, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:87",
+      "title": "WHAT ISLANDS HAVE BEEN FORMED, AND AT WHAT PERIODS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+      "sha256": "76e4e5a2fca4bdc289d1115fe84e6b3855c7877df3a5222c1c14bbe42841332b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-dad5380c-4cdf-4d82-b9d0-436d3073fcd3",
+      "outputArtifact": "built-in-imagegen://exec-dad5380c-4cdf-4d82-b9d0-436d3073fcd3.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 87, “WHAT ISLANDS HAVE BEEN FORMED, AND AT WHAT PERIODS.” Pliny lists ancient reports of Delos, Rhodes, Anapha, Nea, Halone, Thera, Therasia, Hiera and Thia emerging at different remembered times. Depict the idea of an archipelago containing landforms of visibly different ages, as transmitted historical testimony without labels or false precision.\n\nComposition: a near-vertical, very high aerial view with NO SKY AND NO HORIZON, looking down on one complete broad oval Aegean saltwater basin surrounded on all sides by a thick pale rose-grey coastal shelf. The entire unbroken waterline must form a closed oval well inside the canvas, with at least ten percent dry shelf between all water and every canvas edge. Within the lavender-blue water, arrange exactly five complete separate islands in a loose diagonal chain, each wholly encircled by open water and far from every edge: (1) one old large island with a tiny contained grove and small weathered sanctuary; (2) one green middle-aged island with terraced fields but no building; (3) one low pale rocky island with sparse scrub; (4) one dark young bare island with a thin pumice rim; and (5) one very small fresh black islet with exactly one faint steam curl. All five islands must be clearly countable, non-overlapping and different in outline. Exactly one complete tiny Roman-era survey boat with a furled sail rests between the second and third islands, fully visible and giving scale. The water is calm; the scene is one continuous observed archipelago, not a chronology diagram.\n\nStyle: original Plinian Aegean geography folio—ancient, timeless, beautiful, rough and polished at once. Iron-gall coastline drawing, fine cartographic cross-hatching used naturally, wave stipple and translucent mineral washes over fibrous vellum texture filling every pixel; lavender, faded lapis, rose madder, dusty verdigris, pumice white, charcoal, umber and restrained aged-gold glints. Salt-abraded surface, precise island geology and ancient material culture, broad negative water, elegant diagonal rhythm and museum-grade finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous top-down archipelago only. Keep the entire CLOSED OVAL basin shoreline, exactly five whole islands and every coast, grove, sanctuary, terraces, scrub, pumice rim, steam curl, full survey boat, mast and furled sail comfortably inside the frame. No water, island, building, boat, mast, vegetation or steam touches an edge. No sky, horizon, opening in the basin, sixth island, sea stack mistaken for an island, erupting volcano, lava, giant wave, modern vessel, map labels, timeline, chart, arrows, text, letters, numerals, pseudo-writing, compass rose, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete closed lavender basin contains exactly five wholly separate islands with visibly distinct ages, one contained sanctuary, terraces, scrub, pumice rim and one steam curl, plus one complete small survey boat. No open throat, sixth island, label, timeline, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-54cf6ffe-6c91-4d2f-a835-052faf6c3e29.png",
+          "sha256": "86b3768fef311741c6ec63a4a9747064f9a70b49d82cc4b22b6939a1bc8b910c",
+          "reason": "Rejected after native QA because the otherwise successful five-island gulf remained open at the distant throat instead of showing its full enclosing shoreline. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

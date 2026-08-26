@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-32",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 320,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "21:26": {
+        "nearestMAD": 30.57,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+        "madAtDHashPeer": 40.83
+      },
+      "21:27": {
+        "nearestMAD": 29.23,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c004.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c009.png",
+        "madAtDHashPeer": 43.26
+      },
+      "21:28": {
+        "nearestMAD": 23.87,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c001.png",
+        "madAtDHashPeer": 28.16
+      },
+      "21:29": {
+        "nearestMAD": 24.03,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c018.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c008.png",
+        "madAtDHashPeer": 38.8
+      },
+      "21:30": {
+        "nearestMAD": 24.32,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c002.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c021.png",
+        "madAtDHashPeer": 41.76
+      },
+      "21:31": {
+        "nearestMAD": 24.78,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c024.png",
+        "madAtDHashPeer": 51.87
+      },
+      "21:32": {
+        "nearestMAD": 27.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c004.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c005.png",
+        "madAtDHashPeer": 36.13
+      },
+      "21:33": {
+        "nearestMAD": 22.82,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c011.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c007.png",
+        "madAtDHashPeer": 26.31
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "21:26",
+      "title": "EIGHT REMEDIES DERIVED FROM THE HYACINTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c026.png",
+      "sha256": "440ee9cde031e457ae886426112f875837d5d6f3d9f3ab3c4adb271fc70cddef",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4e4a32b5-7b6d-4481-bff0-66551cf455fb",
+      "outputArtifact": "built-in-imagegen://exec-4e4a32b5-7b6d-4481-bff0-66551cf455fb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 26, “Eight Remedies Derived from the Hyacinth”\nPrimary request: Center the chapter’s Gallic hyacinth dye in one coherent Roman-era textile action, avoiding its harmful historical body-use claim. Exactly one complete Gallic dyer stands beside one complete low stone dye vat and lifts one continuous wool skein from a restrained deep purple-red hysginum bath. The wet skein remains physically connected to the vat by plausible dripping dye. Beside the vat, one finite, fully visible clump of flowering hyacinths grows from a compact mound; one complete harvested hyacinth with flowers, leaves and bulb still naturally connected rests securely on a low wicker tray, making the bulbous root explicit. A second dry undyed wool skein lies supported nearby for context, not as a split comparison panel.\nScene/backdrop: open contained Gallic terrace, one low freestanding wall with both ends visible, distant cool hills, no other person, slave market, patient, animal, building, extra dye vat, or edge-entering vegetation\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Gallic dye dialect of cold lapis air, muted purple-red wool, creamy bulb scales, verdigris leaves, worn stone and wicker\nComposition/framing: landscape 3:2, strong low lateral silhouette. The complete vat and dyer occupy one side, the rooted hyacinth mound and wicker tray the other, with broad open terrace and sky between. Keep the entire person, hands, feet, both skeins, vat, every drip, tray, flower, bulb, root, wall end and hill comfortably inside all edges.\nHistorical and epistemic framing: depict the dye use and bulb morphology Pliny reports; omit the coercive slave-dealer context and make no modern medical claim.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, paper rectangle, page edge, decorative border, inner frame, mat, card, ruled line, or blank outer band.\nAvoid: lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, child, slave market, body application, scorpion, snake, modern dye equipment, synthetic gloss, photography, photorealism, CGI, process panels, textile catalogue, collage, repeated crops, floating yarn, clipped person, clipped flowers, edge-entering objects, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete Gallic dyer lifts one continuous purple-red skein from one complete stone vat, with plausible connected drips; one dry undyed skein remains supported on the ground. One complete rooted flowering hyacinth clump and one complete harvested flowering hyacinth with its bulb and roots naturally connected remain fully framed. The scene documents Pliny’s dye and bulb report while omitting his coercive body-use claim. No slave market, patient, body application, modern equipment, text, pseudo-writing, panel, textile catalogue, repeated crop, floating yarn, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:27",
+      "title": "FOUR REMEDIES DERIVED FROM THE VINCAPERVINCA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c027.png",
+      "sha256": "7d76ba704042cfc6a36d054de1dfb2e9855ff679ca9e891ae5bff7fc396c846c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-6d3dc561-abce-424b-b4d4-b3e826cc8487",
+      "outputArtifact": "built-in-imagegen://exec-6d3dc561-abce-424b-b4d4-b3e826cc8487.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 27, “Four Remedies Derived from the Vincapervinca”\nPrimary request: Show the drying and pounding of vincapervinca, or chamædaphne, as one continuous rooftop-herbarium action. Exactly one complete Roman herbalist kneels on a pale terrace and spreads freshly gathered trailing vincapervinca stems across one complete circular woven drying mat. The stems have opposite evergreen leaves and a few blue-violet five-petaled flowers; every stem is supported by the mat, never floating. One complete rooted vincapervinca patch trails across a compact soil mound beside the worker. One complete stone mortar and pestle and one complete shallow water bowl sit ready on a low block, recalling Pliny’s dried-and-pounded preparation, but no patient or administration is shown.\nScene/backdrop: one bare sunlit roof court with a single finite parapet wall whose ends are visible, distant contained rooftops below, no other herbs, people, animals, buildings at the frame, chaplets, butcher’s broom, batis, acinos, or edge-entering vines\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; drying-herb dialect of dusty green leaves, sparse violet-blue flowers, pale woven fiber, sun-bleached stone and clear lapis distance\nComposition/framing: landscape 3:2, steep high-oblique view. The complete circular mat anchors the center, the fully visible crouched herbalist forms a crescent around it, the rooted patch rests in one upper corner, and the block with mortar and water bowl occupies another; large bare stone areas create negative space. Keep every body part, garment, mat rim, trailing stem end, root contact, vessel, tool, wall end and rooftop wholly inside generous breathing room.\nHistorical and epistemic framing: depict a period preparation described by Pliny without endorsing its medical effects.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, paper rectangle, page edge, decorative border, inner frame, matting border, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, ear treatment, modern rooftop, modern tools, modern glassware, photography, photorealism, glossy CGI, botanical plate, ingredient grid, split panels, collage, repeated crops, floating stems, clipped mat, clipped person, edge-entering vines, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete rooftop worker arranges complete trailing vincapervinca stems across one fully contained circular drying mat; one separate complete rooted flowering patch establishes the living plant. A grounded mortar, pestle and water bowl remain complete and historically coherent. Person, hands, feet, mat circumference, stems, plant and wall ends are fully visible. No patient, medical outcome, modern object, label, pseudo-writing, specimen grid, split panel, repeated crop, floating stem, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:28",
+      "title": "TWO REMEDIES DERIVED FROM THE COLOCASIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c028.png",
+      "sha256": "cdfa36fbbe5d95400342dfad06cc0f56e2697e35de775e8c67b60090120fb3d4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e21f84b9-042b-47ac-ae62-44ce8327f6da",
+      "outputArtifact": "built-in-imagegen://exec-e21f84b9-042b-47ac-ae62-44ce8327f6da.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 28, “Two Remedies Derived from the Colocasia”\nPrimary request: Give this very short chapter a precise living portrait of Egyptian colocasia. Exactly one complete Egyptian gardener stands at the dry edge of one finite shallow irrigation basin and lifts one complete mature colocasia from soft mud. Its large heart-shaped elephant-ear leaves, long petioles, thick edible corm and fine roots remain naturally connected and fully visible; both feet stay on dry ground. One second complete colocasia remains rooted in the basin, reflected in calm faded-lapis water. A complete shallow reed basket on the bank holds exactly two already harvested corms, supported and earth-stained, suggesting food use without a meal or medical treatment.\nScene/backdrop: contained Nilotic garden basin with both ends of the bank visible, distant low reeds confined to one small island, pale horizon, no other person, animal, boat, building, papyrus forest, extra basket, or edge-entering leaves\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Nilotic colocasia dialect of broad cool verdigris leaves, pale lapis water, moist umber mud, ochre corms and restrained linen white\nComposition/framing: landscape 3:2, very low panoramic view across water. The complete standing gardener and lifted plant form one tall contained silhouette, the rooted plant and its reflection balance the opposite side, and broad calm water and air provide negative space. Keep every hair, hand, sandal, leaf tip, corm, root fiber, basket rim, both loose corms, basin bank and reed island comfortably inside all four edges.\nHistorical and epistemic framing: illustrate colocasia morphology and its Egyptian food context; the benefits attributed by Glaucias remain period testimony, not a modern claim.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, paper rectangle, page edge, decorative border, inner frame, mat, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, body fluids, medical procedure, modern farm equipment, rubber boots, photography, photorealism, glossy CGI, botanical plate, root inset, split panels, collage, repeated crops, floating corms, impossible hands, clipped leaves, edge-entering reeds, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete Egyptian gardener lifts one complete colocasia whose elephant-ear leaves, stems, corm and fine roots remain naturally connected; one second complete colocasia stays rooted in the finite basin, and exactly two complete harvested corms rest securely in one basket. The human silhouette, both plants, basin banks, roots and basket are fully framed. The image presents Pliny’s Egyptian plant and Glaucias attribution as period testimony without a patient or modern efficacy claim. No detached floating leaf, modern object, text, pseudo-writing, panel, botanical grid, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:29",
+      "title": "SIX REMEDIES DERIVED FROM THE ANTHYLLIUM OR ANTHYLLUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+      "sha256": "f169ba5fe163c1f979f848c33b5c88014438ecf2a33dad08c970ce819e6eccba",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f81532df-848e-4a36-991c-fb5e19661a90",
+      "outputArtifact": "built-in-imagegen://exec-f81532df-848e-4a36-991c-fb5e19661a90.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 29, “Six Remedies Derived from the Anthyllium or Anthyllum”\nPrimary request: Show the two anthyllium forms Pliny distinguishes in one continuous Egyptian desert transect, without turning them into paired specimen panels. Exactly one complete ancient naturalist kneels in the center and examines the sandy-soil kind: one complete palm-high plant with small lentil-like leaves and branches, rooted in a finite sunlit sand mound. Across a naturally curving wash, one second complete plant grows from one finite stony mound: smaller, downy, strongly aromatic, with chamæpitys-like foliage and a restrained purple flower. The naturalist holds no tool and does not uproot either plant; one hand hovers above the sandy plant while the gaze crosses toward the rocky form.\nScene/backdrop: broad arid ground where sand gradually becomes stone along one S-shaped wash, distant contained desert hills, no other person, plant, animal, vessel, building, label stone, or edge-entering shrub\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; desert-pair dialect of salt-pale sand, warm ochre rock, grey down, spare verdigris leaves, one muted purple flower and faint lapis haze\nComposition/framing: landscape 3:2, wide high-oblique sweep. The sandy plant anchors the lower left, the complete naturalist stays small at center, and the rocky plant anchors the upper right, connected by uninterrupted terrain rather than a divider. Preserve extensive bare ground. Keep person, hands, feet, both complete plants, every root contact, mound contour, wash and distant hill fully visible within broad breathing room.\nHistorical and epistemic framing: present Pliny’s two-form description without asserting a certain modern botanical identification or medicinal efficacy.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, paper rectangle, page edge, decorative border, inner frame, mat, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, medical treatment, patient, modern object, specimen boxes, side-by-side chart, split panels, botanical plate, collage, repeated crops, floating plant, extra flowers, clipped person, clipped mound, edge-entering vegetation, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete kneeling naturalist observes two materially distinct, fully rooted anthyllium forms in one continuous arid transect: a broad lentil-leaved plant on a sunny sandy mound and a smaller downy purple-flowered plant on a separate rocky rise. Person, hands, sandal, both plant silhouettes, root contacts, mound contours and distant hills remain complete and separated from every edge. No medical procedure, modern identification claim, label, pseudo-writing, botanical plate, split panel, repeated crop, floating plant, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:30",
+      "title": "EIGHT REMEDIES DERIVED FROM THE PARTHENIUM, LEUCANTHES, OR AMARACUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c030.png",
+      "sha256": "e5e9f0940d854487043fb437cb03af640023a8bccab7a487f8762fa2c9865f11",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e05e7057-5147-43f7-9c4d-96a85bdd9302",
+      "outputArtifact": "built-in-imagegen://exec-e05e7057-5147-43f7-9c4d-96a85bdd9302.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 30, “Eight Remedies Derived from the Parthenium, Leucanthes, or Amaracus”\nPrimary request: Show parthenium in the exact hedge-row habitat and apple-like fragrance Pliny records, without staging the magical gathering rule. Exactly one complete Roman gardener stands beside one finite garden hedge whose two natural ends are visible. Within the hedge grows one clearly dominant, complete parthenium plant with bitter aromatic foliage and small white ray flowers around yellow centers. The gardener bends one flowering stem gently toward the nose with one hand while the other hand holds an empty grounded wicker basket; no plant is uprooted, no remedy is administered, and no written comparison appears. One fallen apple rests naturally on the ground several paces away as quiet sensory context, not a diagram.\nScene/backdrop: long narrow garden lane at cool early morning, one self-contained hedge, a low blank wall with both ends visible, broad pale air, no other person, herb, fruit tree, vessel, patient, animal, building, or edge-entering foliage\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; hedge-herb dialect of deep shaded verdigris, small cream-white flowers, pale apple ochre, cool lapis dawn and restrained madder cloth\nComposition/framing: landscape 3:2, long low lateral composition unlike an apothecary table. The complete hedge runs as a finite diagonal through the middle, the full gardener stands off-center at its near end, and open lane and air create generous negative space. Keep the person, hands, feet, basket, parthenium root and flower tips, entire hedge silhouette, apple, wall ends and shadows comfortably inside all edges.\nHistorical and epistemic framing: depict habitat and sensory description from Pliny; omit the fever charm and make no modern medical claim.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, magical ritual, looking-back gesture, leaf under tongue, patient, body treatment, modern object, photography, photorealism, glossy CGI, botanical plate, apple-versus-flower diagram, split panels, collage, repeated crops, floating herb, clipped person, clipped hedge, edge-entering foliage, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete gardener smells one flowering stem within a finite rooted hedge-row of parthenium-like plants; one empty grounded basket and one fallen apple provide restrained context for Pliny’s habitat and apple-scent report. The full figure, feet, basket, hedge ends, wall ends and apple remain inside uninterrupted scene space. No preparation, patient, magical effect, modern object, text, pseudo-writing, panel, catalogue grid, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:31",
+      "title": "EIGHT REMEDIES DERIVED FROM THE TRYCHNUM OR STRYCHNUM, HALICACABUM, CALLIAS, DORCYNION, MANICON, NEURAS, MORIO, OR MOLY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c031.png",
+      "sha256": "2b14c1b2613c8cd679351d02747c4cd435dd5988dbb3d021afe2cebffe931233",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-eebb557b-33e8-476e-b43f-2db584a26d0a",
+      "outputArtifact": "built-in-imagegen://exec-eebb557b-33e8-476e-b43f-2db584a26d0a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 31, “Eight Remedies Derived from the Trychnum or Strychnum, Halicacabum, Callias, Dorcynion, Manicon, Neuras, Morio, or Moly”\nPrimary request: Treat this chapter as Pliny’s poison warning, not a recipe. Exactly one complete Egyptian garland-maker stands in a continuous garden court holding one complete safe ivy chaplet close to the body while stopping well short of one separate, fully rooted woody halicacabum shrub. The shrub has broad ivy-like leaves and several complete lantern-like papery follicles, each enclosing but not exposing a single restrained scarlet berry. The garland-maker studies the deceptive leaf resemblance with a cautious open hand but never touches, cuts, tastes, crushes, carries, or prepares the dangerous plant. Exactly one low empty work mat lies folded behind the person; there are no vessels, weapons, patients, animals, or harvested berries.\nScene/backdrop: sparse Egyptian garland garden with a finite sand-colored wall whose ends are visible, broad darkened evening air, no extra plant, chaplet, person, statue, temple, bed, weapon, or edge-entering vegetation\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; cautionary-poison dialect of deep lampblack-lapis dusk, dusty ivy green, pale husks, small scarlet berry accents and ochre wall\nComposition/framing: landscape 3:2, wide tense negative space. Put the complete garland-maker with safe chaplet in one lower corner and the complete rooted halicacabum shrub in the opposite third, separated by a broad empty strip of ground; join them through one continuous court, never a split screen. Keep every person, hand, foot, chaplet leaf, work mat, shrub root, branch tip, follicle, berry and wall end fully visible within generous breathing room.\nHistorical and epistemic framing: visually honor Pliny’s explicit warning that some trychnum/halicacabum forms are dangerous and uncertain; provide no dose, preparation, harvesting instruction, weapon use, or claim of safe medicinal use.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, matting border, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, consumption, poison preparation, recipe, dose, mortar, cup, wine, weapon coating, delirium, patient, injury, animal harm, magical aura, modern object, botanical chart, split panels, collage, repeated crops, floating berries, clipped person, clipped shrub, edge-entering vegetation, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete Egyptian garland-maker holds one complete safe ivy chaplet close to the body while a separate complete rooted woody halicacabum stands across a wide empty interval, its ivy-like leaves and papery lantern follicles with restrained red berries clearly legible. The raised empty hand and physical separation communicate Pliny’s poison warning rather than preparation or use. No touching, cutting, tasting, dose, recipe, patient, weapon, animal, modern object, label, pseudo-writing, panel, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:32",
+      "title": "SIX MEDICINES DERIVED FROM THE CORCHORUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c032.png",
+      "sha256": "347e463a19932a59a7bf0bd3e4308d6738a88aeb9522022a8e705497a58243aa",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ac05c494-db84-4efa-95d7-e49fff90a4b0",
+      "outputArtifact": "built-in-imagegen://exec-ac05c494-db84-4efa-95d7-e49fff90a4b0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 32, “Six Medicines Derived from the Corchorus”\nPrimary request: Center the chapter’s Alexandrian food use of corchorus in one domestic garden-kitchen action. Exactly one complete seated Alexandrian cook rolls fresh corchorus leaves one over another on one complete low wooden tray, echoing Pliny’s comparison to rolled mulberry leaves. Three finished leaf rolls rest together on the tray while both hands form a fourth from a single connected stack of leaves. Beside the cook grows one complete rooted corchorus plant with upright branching stems and healthy oval leaves; one complete small harvesting basket holds a modest grounded handful of additional leaves. No patient, animal treatment, serpent, scorpion, or medicinal procedure is shown.\nScene/backdrop: one open contained courtyard with a finite shaded awning wholly visible above but not touching any edge, a low blank wall with both ends visible, no second person, other food, fire, pot, market stall, cattle, fungus, or edge-entering plant\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Alexandrian kitchen-garden dialect of fresh verdigris leaves, warm ochre wood, pale linen, faded-lapis awning shadow and a quiet madder basket tie\nComposition/framing: landscape 3:2, intimate near-overhead view. The complete cook and tray form a low oval center, the rooted plant rises well inside one side, and the basket sits on the opposite side, all surrounded by open courtyard floor. Keep the whole person, hands, sandals, every tray edge, all four leaf rolls, basket rim, loose leaves, complete plant root and leaf tips, awning, wall ends and shadows fully visible with generous breathing room.\nHistorical and epistemic framing: depict the food context Pliny reports at Alexandria; do not endorse medicinal or veterinary claims.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, baldness treatment, cattle, scab, snake, scorpion, modern kitchen object, modern utensil, photography, photorealism, glossy CGI, recipe steps, object grid, split panels, collage, repeated crops, floating food, impossible hands, clipped awning, clipped person, edge-entering plant, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete Alexandrian cook forms a fourth corchorus leaf roll on one grounded low tray beside exactly three complete finished rolls; one complete rooted corchorus plant and one supported basket of leaves establish the source. The cook, hands, feet, tray, four rolls, plant, root contact, basket, awning and wall ends remain fully framed. No medical or veterinary treatment, modern utensil, label, pseudo-writing, process panel, food grid, repeated crop, floating leaf, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:33",
+      "title": "ONE REMEDY DERIVED FROM THE PESOLUTA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c033.png",
+      "sha256": "8cf3eea1868254e90e0d0d5a85a8d5dd5aff4ddb5906ceabea1a0dc4ff3a9ee6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-68ec8b47-1a84-4fcc-a6f7-1b3560f30841",
+      "outputArtifact": "built-in-imagegen://exec-68ec8b47-1a84-4fcc-a6f7-1b3560f30841.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 33, “One Remedy Derived from the Pesoluta”\nPrimary request: Create a cautious, person-free Egyptian garden observation because the ancient name “pesoluta” lacks a secure modern botanical identification. Show two complete cultivated low flowering plants in one continuous irrigated bed, reflecting Pliny’s male and female classification without asserting sex biology: one form is more upright and spare, the other fuller and more branching with visibly different but related foliage. Exactly one complete freshly woven chaplet made from alternating stems of both forms rests securely on one low blank stone bench, establishing their stated garden use. No bed, sleeping figure, erotic symbol, treatment, or medicinal action appears.\nScene/backdrop: serene enclosed Egyptian garden at first light, one finite rectangular soil bed with every corner visible, one complete shallow irrigation basin, one complete low stone bench, pale open air, no other plant, person, animal, statue, building, label, vessel, or edge-entering foliage\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; quiet Egyptian-garden dialect of soft verdigris, dusty ochre, pale lapis water, restrained paired flower accents and chalky stone\nComposition/framing: landscape 3:2, calm axial but asymmetrical garden view. The entire bed occupies the lower center with the two complete plant forms separated by open soil; the complete basin sits behind at one side and the complete bench with chaplet at the other. A very broad field of dawn air supplies negative space. Keep every bed corner, plant root, stem and flower tip, basin rim, bench end, chaplet circumference and shadow fully visible within broad breathing room.\nHistorical and epistemic framing: present Pliny’s two-kind classification and chaplet use as period testimony only; do not claim a modern species identification or antaphrodisiac effect.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, person, bed, sleeper, erotic imagery, magical aura, medicinal treatment, modern botanical certainty, modern object, side-by-side specimen chart, split panels, collage, repeated crops, floating chaplet, clipped bed, clipped plants, edge-entering foliage, visible sheet edge, inner frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A person-free Egyptian garden presents two complete, visibly distinct but deliberately unidentified related flowering forms—one upright and spare, one fuller and branching—in one finite bed; one complete mixed chaplet rests on a supported bench beside one complete basin. This preserves Pliny’s ancient male/female classification and identification uncertainty without asserting a modern taxon or depicting the chapter’s sexual claim. No sleeper, bed, sexual imagery, magical effect, modern identification device, text, pseudo-writing, specimen labels, split panel, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

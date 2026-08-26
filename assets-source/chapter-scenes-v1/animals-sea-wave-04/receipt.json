@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-sea-wave-04",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "corpusGrounding": {
+    "source": "public/corpus/book-09.12645fd29e59bbcb.json",
+    "chaptersRead": [
+      "9:30",
+      "9:31",
+      "9:32",
+      "9:33",
+      "9:34",
+      "9:35",
+      "9:36",
+      "9:37"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The actual Latin and English corpus fields for every assigned chapter were read before prompt design. Fabulous zoology, ancient extraction practices, moral anecdotes, and disputed explanations are bounded as transmitted testimony rather than modern fact, advice, or spectacle."
+  },
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "9:30",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete octopus has one mantle, two eyes, one siphon, and exactly eight distinct arms; exactly three manipulated pebbles are visible. The tide-pool water is completely enclosed by limestone and no focal subject, water, text, frame, panel, or collage reaches an edge.",
+      "uncertaintyNote": "Real cephalopod curiosity and object manipulation are shown; Pliny’s pebble-wedge and enormous shore-raider stories remain bounded as transmitted ancient marvels.",
+      "title": "THE VARIOUS KINDS OF POLYPI; THEIR SHREWDNESS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c030.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "3d7a0e2f6baaf82bf7c16ca743c29b7e514bdd097c84eb3a9d86d28e1b3295d8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bc2bbd4b-2009-4775-bda7-b78f4cf78101",
+      "generationArtifactId": "exec-bc2bbd4b-2009-4775-bda7-b78f4cf78101",
+      "outputArtifact": "built-in-imagegen://exec-bc2bbd4b-2009-4775-bda7-b78f4cf78101.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 30, “The Various Kinds of Polypi; Their Shrewdness.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, diagram, collage, or split view. Seen obliquely from just above a completely enclosed Mediterranean tide pool, show exactly ONE complete common octopus (Octopus vulgaris) calmly arranging smooth pebbles around the entrance to its shallow rock shelter. Its mantle, two eyes, siphon, and exactly EIGHT distinct anatomically credible arms must all be visible from base to tapered tip, uncropped and entirely inside the pool; several arms curl naturally around exactly THREE small smooth pebbles while the others rest across sand and seagrass. The pool water itself must remain a fully internal oval element surrounded on every side by a broad continuous rim of sun-warmed limestone—NO water may touch any image edge. Include a few complete empty bivalve shells on the pool floor as habitat evidence, but no living prey, attack, injury, severed arm, dog, human, spear, salt vat, shipwreck, or giant monster. Convey real cephalopod curiosity and object manipulation while treating Pliny’s pebble-wedge and enormous shore-raider stories as transmitted ancient marvels rather than settled fact.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of Tyrian aubergine, coral umber, sea-glass green, faded lapis, limestone cream, soot black, and a whisper of shell-gold sun. Naturalistic cephalopod anatomy, tactile suckers, wet stone, sand and wavering light, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated octopus, or page texture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-bc2bbd4b-2009-4775-bda7-b78f4cf78101",
+          "outputArtifact": "built-in-imagegen://exec-bc2bbd4b-2009-4775-bda7-b78f4cf78101.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 30, “The Various Kinds of Polypi; Their Shrewdness.” Landscape 3:2, 1536×1024, full-bleed single continuous scene, not a manuscript page, diagram, collage, or split view. Seen obliquely from just above a completely enclosed Mediterranean tide pool, show exactly ONE complete common octopus (Octopus vulgaris) calmly arranging smooth pebbles around the entrance to its shallow rock shelter. Its mantle, two eyes, siphon, and exactly EIGHT distinct anatomically credible arms must all be visible from base to tapered tip, uncropped and entirely inside the pool; several arms curl naturally around exactly THREE small smooth pebbles while the others rest across sand and seagrass. The pool water itself must remain a fully internal oval element surrounded on every side by a broad continuous rim of sun-warmed limestone—NO water may touch any image edge. Include a few complete empty bivalve shells on the pool floor as habitat evidence, but no living prey, attack, injury, severed arm, dog, human, spear, salt vat, shipwreck, or giant monster. Convey real cephalopod curiosity and object manipulation while treating Pliny’s pebble-wedge and enormous shore-raider stories as transmitted ancient marvels rather than settled fact.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush ink contours married to polished egg-tempera modelling; restrained palette of Tyrian aubergine, coral umber, sea-glass green, faded lapis, limestone cream, soot black, and a whisper of shell-gold sun. Naturalistic cephalopod anatomy, tactile suckers, wet stone, sand and wavering light, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated octopus, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c030.png",
+          "sha256": "3d7a0e2f6baaf82bf7c16ca743c29b7e514bdd097c84eb3a9d86d28e1b3295d8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:31",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete white short-spined sea urchin is fully internal with exactly three clearly separate ballast pebbles. The scene contains no crab, visible water body, text, frame, panel, collage, or clipped focal object.",
+      "uncertaintyNote": "The accepted replacement shows observable covering behavior while Pliny’s storm-forecast interpretation is treated as transmitted ancient testimony.",
+      "title": "THE VARIOUS KINDS OF CRABS; THE PINNOTHERES, THE SEA URCHIN, COCKLES, AND SCALLOPS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c031.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "9c65a84004ede54d86fc5b7fcc23a25e76a1e3e81710cf24cc705615ab98e444",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6d889cd7-9785-4104-9f9f-ba0615648b5c",
+      "generationArtifactId": "exec-6d889cd7-9785-4104-9f9f-ba0615648b5c",
+      "outputArtifact": "built-in-imagegen://exec-6d889cd7-9785-4104-9f9f-ba0615648b5c.png",
+      "exactFinalPrompt": "Create a fresh independent replacement chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 31, centered on the sea urchin passage. Landscape 3:2, 1536×1024, full-bleed single continuous macro field scene, not a manuscript page, diagram, plate, or collage. On a broad rain-darkened limestone shelf at dawn before a distant storm, show exactly ONE complete small white short-spined sea urchin of the kind Pliny associates with Torone. The entire spherical test and every visible spine must be fully inside the frame with generous breathing room. Nestled securely among its upper spines are exactly THREE clearly separate small ballast pebbles: one charcoal grey, one pale ochre, and one muted rose; no other loose stone anywhere should resemble a pebble. Low wind presses two complete strands of seagrass flat against the wet shelf. The background is only weathered rock, distant violet headlands, and clouded sky—NO visible sea or other water body, so no water can meet an image edge. No crab, shellfish, fish, bird, person, boat, anchor, animal remains, attack, cooking, injury, or transformation. Treat the storm-forecast story as transmitted ancient testimony while presenting the observable covering behavior with quiet naturalistic care.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of chalk white, limestone cream, storm lapis, soot black, muted rose, ochre, seaweed verdigris, and a whisper of shell-gold dawn. Tactile spines, pebbles, weed and wet stone; imperfect handmade marks, luminous atmospheric depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-a87abd3b-01da-4b1c-9004-64ee81da9754",
+          "outputArtifact": "built-in-imagegen://exec-a87abd3b-01da-4b1c-9004-64ee81da9754.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 31, “The Various Kinds of Crabs; the Pinnotheres; the Sea Urchin.” Landscape 3:2, 1536×1024, full-bleed single continuous nocturnal shore scene, not a manuscript page, scientific diagram, or collage. On a broad wet basalt terrace exposed by low tide under a full moon, show exactly TWO complete marine animals, widely separated but sharing the same habitat: at left, exactly ONE anatomically credible Mediterranean shore crab in three-quarter view, with two clearly distinct claws and all eight walking legs legible, the right claw naturally a little larger; at right, exactly ONE complete long-spined sea urchin carrying exactly THREE small pale ballast pebbles balanced among its upper spines. Both animals and all limbs/spines/pebbles must be fully inside the frame with generous breathing room. A narrow interior crescent of distant cove water glimmers behind a continuous raised rock shelf; the water must terminate inside the landscape and touch no image edge. Add only wet stone, a few strands of bladderwrack, and moon reflections. No other crab, urchin, shellfish, snake, fish, bird, person, boat, anchor, attack, fighting, cooking, injury, or transformation. Render the real forms carefully while treating storm prediction, self-medication, and metamorphosis claims as transmitted ancient testimony.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of basalt black, moonlit lapis, sea-glass green, muted coral, parchment cream, silver grey, and a whisper of shell gold. Tactile carapace, jointed legs, spines, pebbles, weed and wet rock; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c031-attempt-01-ambiguous-crab-anatomy.png",
+          "sha256": "9ae2a5695291b5a8699211d2cfb52430d6da48dcb120a2afd3f1db719d59e759",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Native-resolution anatomy QA found the crab legs visually merged and not reliably countable."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-2c91e23c-559d-427f-8d78-3de00549c94a",
+          "outputArtifact": "built-in-imagegen://exec-2c91e23c-559d-427f-8d78-3de00549c94a.png",
+          "exactPrompt": "Targeted anatomical correction to this exact moonlit crab-and-urchin illustration. Preserve the same composition, exactly one crab, exactly one sea urchin, exactly three pale pebbles on the urchin, internal distant cove water, moon, basalt terrace, palette, lighting, mineral-pigment texture, and egg-tempera finish. Correct and clarify ONLY the crab anatomy: it must have exactly TWO stalked eyes, exactly TWO claws (viewer-right claw naturally slightly larger), and exactly EIGHT distinct walking legs in addition to the claws—four clearly countable articulated walking legs on each side of the carapace, all separated, anatomically attached, fully visible, and entirely inside the frame. Remove any extra eye-like mark or ambiguous/merged/hidden limb. Do not alter the urchin or add any creature, pebble, shell, object, water edge, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-a87abd3b-01da-4b1c-9004-64ee81da9754",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c031-attempt-02-still-ambiguous-crab-legs.png",
+          "sha256": "fe94f01b7b9a3714c0022ce0dfae00b9b720ab55db3f92ecb753e1956987f221",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The targeted repair still left ambiguous, overlapping crab legs, so the composition was retired."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-6d889cd7-9785-4104-9f9f-ba0615648b5c",
+          "outputArtifact": "built-in-imagegen://exec-6d889cd7-9785-4104-9f9f-ba0615648b5c.png",
+          "exactPrompt": "Create a fresh independent replacement chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 31, centered on the sea urchin passage. Landscape 3:2, 1536×1024, full-bleed single continuous macro field scene, not a manuscript page, diagram, plate, or collage. On a broad rain-darkened limestone shelf at dawn before a distant storm, show exactly ONE complete small white short-spined sea urchin of the kind Pliny associates with Torone. The entire spherical test and every visible spine must be fully inside the frame with generous breathing room. Nestled securely among its upper spines are exactly THREE clearly separate small ballast pebbles: one charcoal grey, one pale ochre, and one muted rose; no other loose stone anywhere should resemble a pebble. Low wind presses two complete strands of seagrass flat against the wet shelf. The background is only weathered rock, distant violet headlands, and clouded sky—NO visible sea or other water body, so no water can meet an image edge. No crab, shellfish, fish, bird, person, boat, anchor, animal remains, attack, cooking, injury, or transformation. Treat the storm-forecast story as transmitted ancient testimony while presenting the observable covering behavior with quiet naturalistic care.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of chalk white, limestone cream, storm lapis, soot black, muted rose, ochre, seaweed verdigris, and a whisper of shell-gold dawn. Tactile spines, pebbles, weed and wet stone; imperfect handmade marks, luminous atmospheric depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c031.png",
+          "sha256": "9c65a84004ede54d86fc5b7fcc23a25e76a1e3e81710cf24cc705615ab98e444",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-a87abd3b-01da-4b1c-9004-64ee81da9754",
+          "outputArtifact": "built-in-imagegen://exec-a87abd3b-01da-4b1c-9004-64ee81da9754.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 31, “The Various Kinds of Crabs; the Pinnotheres; the Sea Urchin.” Landscape 3:2, 1536×1024, full-bleed single continuous nocturnal shore scene, not a manuscript page, scientific diagram, or collage. On a broad wet basalt terrace exposed by low tide under a full moon, show exactly TWO complete marine animals, widely separated but sharing the same habitat: at left, exactly ONE anatomically credible Mediterranean shore crab in three-quarter view, with two clearly distinct claws and all eight walking legs legible, the right claw naturally a little larger; at right, exactly ONE complete long-spined sea urchin carrying exactly THREE small pale ballast pebbles balanced among its upper spines. Both animals and all limbs/spines/pebbles must be fully inside the frame with generous breathing room. A narrow interior crescent of distant cove water glimmers behind a continuous raised rock shelf; the water must terminate inside the landscape and touch no image edge. Add only wet stone, a few strands of bladderwrack, and moon reflections. No other crab, urchin, shellfish, snake, fish, bird, person, boat, anchor, attack, fighting, cooking, injury, or transformation. Render the real forms carefully while treating storm prediction, self-medication, and metamorphosis claims as transmitted ancient testimony.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of basalt black, moonlit lapis, sea-glass green, muted coral, parchment cream, silver grey, and a whisper of shell gold. Tactile carapace, jointed legs, spines, pebbles, weed and wet rock; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c031-attempt-01-ambiguous-crab-anatomy.png",
+          "sha256": "9ae2a5695291b5a8699211d2cfb52430d6da48dcb120a2afd3f1db719d59e759",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Native-resolution anatomy QA found the crab legs visually merged and not reliably countable."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-2c91e23c-559d-427f-8d78-3de00549c94a",
+          "outputArtifact": "built-in-imagegen://exec-2c91e23c-559d-427f-8d78-3de00549c94a.png",
+          "exactPrompt": "Targeted anatomical correction to this exact moonlit crab-and-urchin illustration. Preserve the same composition, exactly one crab, exactly one sea urchin, exactly three pale pebbles on the urchin, internal distant cove water, moon, basalt terrace, palette, lighting, mineral-pigment texture, and egg-tempera finish. Correct and clarify ONLY the crab anatomy: it must have exactly TWO stalked eyes, exactly TWO claws (viewer-right claw naturally slightly larger), and exactly EIGHT distinct walking legs in addition to the claws—four clearly countable articulated walking legs on each side of the carapace, all separated, anatomically attached, fully visible, and entirely inside the frame. Remove any extra eye-like mark or ambiguous/merged/hidden limb. Do not alter the urchin or add any creature, pebble, shell, object, water edge, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-a87abd3b-01da-4b1c-9004-64ee81da9754",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c031-attempt-02-still-ambiguous-crab-legs.png",
+          "sha256": "fe94f01b7b9a3714c0022ce0dfae00b9b720ab55db3f92ecb753e1956987f221",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The targeted repair still left ambiguous, overlapping crab legs, so the composition was retired."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:32",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete Roman snail is fully internal with two long eye-bearing upper eyestalks and two shorter lower tentacles. The support is continuous natural clay terrain; no discrete clipped tile, other animal, water, text, frame, panel, or collage remains.",
+      "uncertaintyNote": "The illustration gently corrects Pliny’s claim that snails are eyeless by showing the eye-bearing upper tentacles.",
+      "title": "THE VARIOUS KINDS OF CRABS; THE PINNOTHERES, THE SEA URCHIN, COCKLES, AND SCALLOPS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c032.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "818d13285884b79412d22f964e70883410c5b32befaf16e1fc4d5911c7032c81",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ef6053d3-f834-4eac-b1af-229dbc04f744",
+      "generationArtifactId": "exec-ef6053d3-f834-4eac-b1af-229dbc04f744",
+      "outputArtifact": "built-in-imagegen://exec-ef6053d3-f834-4eac-b1af-229dbc04f744.png",
+      "exactFinalPrompt": "Targeted support-surface correction to this exact snail illustration. Preserve the same single complete snail, exact shell, body, two long eye-bearing upper tentacles, two shorter lower tentacles, pose, scale, slime trace, curled olive leaf, grove, dawn light, palette, mineral-pigment texture, and egg-tempera finish. Replace the discrete terracotta shard/tile beneath the snail—whose lower boundary exits the frame—with a continuous natural bed of smooth rain-darkened red-ochre clay and sandstone that functions as terrain and flows naturally through the canvas edges without any object outline or broken ceramic edge. Keep the snail and leaf wholly internal and unchanged. Do not add any pottery, object, animal, water body, writing, border, panel, or page texture. Final remains one 1536x1024 full-bleed landscape field scene.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-9856e911-2a24-4b8d-a714-f3e34b94b00f",
+          "outputArtifact": "built-in-imagegen://exec-9856e911-2a24-4b8d-a714-f3e34b94b00f.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 32, the brief passage on land and water snails. Landscape 3:2, 1536×1024, full-bleed single continuous macro field scene, not a manuscript page, specimen diagram, or collage. After rain in a Mediterranean olive grove, show exactly ONE complete Roman snail (Helix pomatia) moving in profile across a broad moss-softened fragment of plain uninscribed terracotta. The complete spiral shell, entire extended foot and tail, head, exactly TWO long upper eyestalks with tiny dark eyes at their tips, and exactly TWO shorter lower sensory tentacles must all be anatomically clear, separated, and safely inside the frame with generous breathing room. A silver mucus trace remains subtle and wholly internal on the terracotta. Behind it, one complete curled fallen olive leaf and soft earth recede into shadow; dew catches the first warm light. No other snail, slug, insect, animal, person, vessel, open water, shell fragments, predation, or injury. Pliny says snails are eyeless; gently correct the ancient claim by making the true eye-bearing upper tentacles the quiet observational focus.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic close observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of shell umber, terracotta cinnabar, moss verdigris, soot black, parchment cream, rain grey, and a whisper of shell-gold dawn. Tactile shell growth rings, translucent tentacles, moss, clay and dew, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c032-attempt-01-discrete-tile-clipped.png",
+          "sha256": "ed3a18f6de33c962a98b0333d454c868c16dff107e829b2ff7e374fc743d4b4e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The terracotta support read as a discrete broken tile whose lower boundary exited the canvas."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-ef6053d3-f834-4eac-b1af-229dbc04f744",
+          "outputArtifact": "built-in-imagegen://exec-ef6053d3-f834-4eac-b1af-229dbc04f744.png",
+          "exactPrompt": "Targeted support-surface correction to this exact snail illustration. Preserve the same single complete snail, exact shell, body, two long eye-bearing upper tentacles, two shorter lower tentacles, pose, scale, slime trace, curled olive leaf, grove, dawn light, palette, mineral-pigment texture, and egg-tempera finish. Replace the discrete terracotta shard/tile beneath the snail—whose lower boundary exits the frame—with a continuous natural bed of smooth rain-darkened red-ochre clay and sandstone that functions as terrain and flows naturally through the canvas edges without any object outline or broken ceramic edge. Keep the snail and leaf wholly internal and unchanged. Do not add any pottery, object, animal, water body, writing, border, panel, or page texture. Final remains one 1536x1024 full-bleed landscape field scene.",
+          "editSourceArtifactId": "exec-9856e911-2a24-4b8d-a714-f3e34b94b00f",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c032.png",
+          "sha256": "818d13285884b79412d22f964e70883410c5b32befaf16e1fc4d5911c7032c81",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-9856e911-2a24-4b8d-a714-f3e34b94b00f",
+          "outputArtifact": "built-in-imagegen://exec-9856e911-2a24-4b8d-a714-f3e34b94b00f.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 32, the brief passage on land and water snails. Landscape 3:2, 1536×1024, full-bleed single continuous macro field scene, not a manuscript page, specimen diagram, or collage. After rain in a Mediterranean olive grove, show exactly ONE complete Roman snail (Helix pomatia) moving in profile across a broad moss-softened fragment of plain uninscribed terracotta. The complete spiral shell, entire extended foot and tail, head, exactly TWO long upper eyestalks with tiny dark eyes at their tips, and exactly TWO shorter lower sensory tentacles must all be anatomically clear, separated, and safely inside the frame with generous breathing room. A silver mucus trace remains subtle and wholly internal on the terracotta. Behind it, one complete curled fallen olive leaf and soft earth recede into shadow; dew catches the first warm light. No other snail, slug, insect, animal, person, vessel, open water, shell fragments, predation, or injury. Pliny says snails are eyeless; gently correct the ancient claim by making the true eye-bearing upper tentacles the quiet observational focus.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic close observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of shell umber, terracotta cinnabar, moss verdigris, soot black, parchment cream, rain grey, and a whisper of shell-gold dawn. Tactile shell growth rings, translucent tentacles, moss, clay and dew, imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c032-attempt-01-discrete-tile-clipped.png",
+          "sha256": "ed3a18f6de33c962a98b0333d454c868c16dff107e829b2ff7e374fc743d4b4e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The terracotta support read as a discrete broken tile whose lower boundary exited the canvas."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:33",
+      "visualQaNotes": "Inspected at original resolution. Exactly five complete, distinct shells are present—murex, scallop, cowrie, heart cockle, and small conch—with exactly one short complete internal seaweed strand. No water, sixth shell, living animal, text, frame, panel, collage, or clipped discrete element is visible.",
+      "uncertaintyNote": "The scene celebrates observable shell morphology without literalizing Pliny’s sailing-shell marvels.",
+      "title": "VARIOUS KINDS OF SHELL-FISH",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c033.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "e5bfd3d680ab28b921222b96e847be344aa7e546c819fde1ce4d4d730328f44c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a00ead71-08be-486e-b9a9-94669e828983",
+      "generationArtifactId": "exec-a00ead71-08be-486e-b9a9-94669e828983",
+      "outputArtifact": "built-in-imagegen://exec-a00ead71-08be-486e-b9a9-94669e828983.png",
+      "exactFinalPrompt": "Targeted edge-clearance correction to this exact five-shell illustration. Preserve exactly the same five complete shells—the murex, scallop, cowrie, heart cockle, and small spiral conch—their positions, anatomy, scale, colour, black sand, limestone cliffs, violet predawn light, mineral-pigment texture, and egg-tempera finish. Remove every existing strand of seaweed, especially the one that exits the left edge. Add back exactly ONE short, slender, complete olive-green seaweed strand in a gentle shallow curve below the central cowrie; both tips and every bladder must be clearly visible and at least ten percent inside all canvas edges. Do not move, crop, duplicate, add, or remove any shell. Add no other object, animal, water, writing, border, panel, or page texture. Final remains one full-bleed 1536x1024 landscape scene.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-391ed335-27b7-41f5-8f24-6075d53a4a94",
+          "outputArtifact": "built-in-imagegen://exec-391ed335-27b7-41f5-8f24-6075d53a4a94.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 33, “Various Kinds of Shell-Fish.” Landscape 3:2, 1536×1024, full-bleed single continuous shore scene, not a manuscript page, specimen plate, grid, diagram, or collage. On a dark volcanic-sand strand just after the tide has withdrawn, show exactly FIVE complete empty marine shells lying naturally along one curving drift line, each clearly separate and fully inside the frame: exactly one spiny Mediterranean murex, one fan-ribbed scallop, one smooth cowrie, one heart-shaped cockle, and one small spiral conch. Their forms, openings, ridges, wear, and different muted colours should be anatomically credible and unmistakably distinct. Arrange them asymmetrically with generous negative space, connected by one complete slender strand of olive-green seaweed and a few tiny foamless salt crystals. Behind them, dry black sand rises toward distant pale limestone cliffs under a violet predawn sky; show NO sea, pool, or other water body. No sixth shell, no broken fragment resembling a shell, no living mollusc, crab, fish, bird, person, food, jewellery, vessel, collection tray, or decorative symmetrical display. Celebrate the passage’s genuine wonder at shell morphology without literalizing sailing-shell marvels.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of volcanic black, murex aubergine, coral umber, faded lapis, shell cream, seaweed verdigris, muted rose, and a whisper of shell-gold dawn. Tactile ridges, spines, worn nacre, sand and salt; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c033-attempt-01-seaweed-exits-edge.png",
+          "sha256": "640190ef34ea08a09a9b5efbf59988e37b123fb46d36a73e4ae2a964f2043971",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "A discrete seaweed strand exited the left canvas edge."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-a00ead71-08be-486e-b9a9-94669e828983",
+          "outputArtifact": "built-in-imagegen://exec-a00ead71-08be-486e-b9a9-94669e828983.png",
+          "exactPrompt": "Targeted edge-clearance correction to this exact five-shell illustration. Preserve exactly the same five complete shells—the murex, scallop, cowrie, heart cockle, and small spiral conch—their positions, anatomy, scale, colour, black sand, limestone cliffs, violet predawn light, mineral-pigment texture, and egg-tempera finish. Remove every existing strand of seaweed, especially the one that exits the left edge. Add back exactly ONE short, slender, complete olive-green seaweed strand in a gentle shallow curve below the central cowrie; both tips and every bladder must be clearly visible and at least ten percent inside all canvas edges. Do not move, crop, duplicate, add, or remove any shell. Add no other object, animal, water, writing, border, panel, or page texture. Final remains one full-bleed 1536x1024 landscape scene.",
+          "editSourceArtifactId": "exec-391ed335-27b7-41f5-8f24-6075d53a4a94",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c033.png",
+          "sha256": "e5bfd3d680ab28b921222b96e847be344aa7e546c819fde1ce4d4d730328f44c",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-391ed335-27b7-41f5-8f24-6075d53a4a94",
+          "outputArtifact": "built-in-imagegen://exec-391ed335-27b7-41f5-8f24-6075d53a4a94.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 33, “Various Kinds of Shell-Fish.” Landscape 3:2, 1536×1024, full-bleed single continuous shore scene, not a manuscript page, specimen plate, grid, diagram, or collage. On a dark volcanic-sand strand just after the tide has withdrawn, show exactly FIVE complete empty marine shells lying naturally along one curving drift line, each clearly separate and fully inside the frame: exactly one spiny Mediterranean murex, one fan-ribbed scallop, one smooth cowrie, one heart-shaped cockle, and one small spiral conch. Their forms, openings, ridges, wear, and different muted colours should be anatomically credible and unmistakably distinct. Arrange them asymmetrically with generous negative space, connected by one complete slender strand of olive-green seaweed and a few tiny foamless salt crystals. Behind them, dry black sand rises toward distant pale limestone cliffs under a violet predawn sky; show NO sea, pool, or other water body. No sixth shell, no broken fragment resembling a shell, no living mollusc, crab, fish, bird, person, food, jewellery, vessel, collection tray, or decorative symmetrical display. Celebrate the passage’s genuine wonder at shell morphology without literalizing sailing-shell marvels.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic field observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of volcanic black, murex aubergine, coral umber, faded lapis, shell cream, seaweed verdigris, muted rose, and a whisper of shell-gold dawn. Tactile ridges, spines, worn nacre, sand and salt; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated motif, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c033-attempt-01-seaweed-exits-edge.png",
+          "sha256": "640190ef34ea08a09a9b5efbf59988e37b123fb46d36a73e4ae2a964f2043971",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "A discrete seaweed strand exited the left canvas edge."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:34",
+      "visualQaNotes": "Inspected at original resolution. The empty terrace contains one complete three-legged low bronze table, one platter with exactly three complete empty shells, one fully internal purple cloth fold, and one complete lamp. The distant gulf is enclosed by headlands and parapet; no focal object or water meets an edge and no text, frame, panel, or collage is present.",
+      "uncertaintyNote": "The empty luxurious setting visualizes Pliny’s moral critique without depicting harm or excess as spectacle.",
+      "title": "WHAT NUMEROUS APPLIANCES OF LUXURY ARE FOUND IN THE SEA",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c034.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "b006dd3a314fe3d703e1f3af3e4531ea00e9fa4586dc71e77b0097838744e939",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-96f88f41-cee5-4ab1-9242-8fa7c6aff864",
+      "generationArtifactId": "exec-96f88f41-cee5-4ab1-9242-8fa7c6aff864",
+      "outputArtifact": "built-in-imagegen://exec-96f88f41-cee5-4ab1-9242-8fa7c6aff864.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 34, “What Numerous Appliances of Luxury Are Found in the Sea.” Landscape 3:2, 1536×1024, full-bleed single continuous moral landscape, not a manuscript page, collage, or split scene. On an exposed Roman villa terrace before a storm, show exactly ONE complete low round bronze tripod banquet table, every leg visible and comfortably inside the frame. On it rests exactly ONE complete broad silver platter holding exactly THREE complete empty marine shells—one murex, one oyster, one scallop—and no food. A short fold of deep purple cloth lies wholly on the tabletop beside the platter, with both ends internal; one unlit clay lamp sits on the terrace floor nearby, also fully visible. Beyond the low parapet, a dark enclosed gulf is surrounded by headlands on all sides; the distant sea must terminate inside the landscape and touch no canvas edge. Wind bends a cypress and gathers the storm, but the luxurious setting is eerily empty. No people, servants, diners, fish, living shellfish, fishing boat, weapon, suffering, text, feast abundance, jewellery, coins, or trophy. Treat Pliny’s moral critique seriously: beauty and expense are present, but appetite has emptied the scene and the danger remains in the weather.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic moral observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of storm lapis, bronze umber, silver grey, Tyrian aubergine, faded cinnabar, limestone cream, cypress verdigris, and a whisper of shell gold. Tactile metal patina, shells, cloth, stone and turbulent sky; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish or theatrical fantasy. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated object, or page texture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-96f88f41-cee5-4ab1-9242-8fa7c6aff864",
+          "outputArtifact": "built-in-imagegen://exec-96f88f41-cee5-4ab1-9242-8fa7c6aff864.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 34, “What Numerous Appliances of Luxury Are Found in the Sea.” Landscape 3:2, 1536×1024, full-bleed single continuous moral landscape, not a manuscript page, collage, or split scene. On an exposed Roman villa terrace before a storm, show exactly ONE complete low round bronze tripod banquet table, every leg visible and comfortably inside the frame. On it rests exactly ONE complete broad silver platter holding exactly THREE complete empty marine shells—one murex, one oyster, one scallop—and no food. A short fold of deep purple cloth lies wholly on the tabletop beside the platter, with both ends internal; one unlit clay lamp sits on the terrace floor nearby, also fully visible. Beyond the low parapet, a dark enclosed gulf is surrounded by headlands on all sides; the distant sea must terminate inside the landscape and touch no canvas edge. Wind bends a cypress and gathers the storm, but the luxurious setting is eerily empty. No people, servants, diners, fish, living shellfish, fishing boat, weapon, suffering, text, feast abundance, jewellery, coins, or trophy. Treat Pliny’s moral critique seriously: beauty and expense are present, but appetite has emptied the scene and the danger remains in the weather.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic moral observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of storm lapis, bronze umber, silver grey, Tyrian aubergine, faded cinnabar, limestone cream, cypress verdigris, and a whisper of shell gold. Tactile metal patina, shells, cloth, stone and turbulent sky; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital concept art, not cartoonish or theatrical fantasy. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated object, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c034.png",
+          "sha256": "b006dd3a314fe3d703e1f3af3e4531ea00e9fa4586dc71e77b0097838744e939",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:35",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete intact living pearl oyster and exactly one attached pearl are visible in a fully enclosed internal rock basin. No extraction, jewellery, other shell, clipped focal subject, edge-touching water, text, frame, panel, or collage is present.",
+      "uncertaintyNote": "The living oyster is observed quietly; Pliny’s dew-conception and weather explanations remain explicitly bounded as ancient testimony rather than modern biology.",
+      "title": "PEARLS; HOW THEY ARE PRODUCED, AND WHERE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c035.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "b1eea3c1ef323ed5cd3898b01f1d618d6c0768b2a50abc0f7d404f6500be2bf3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1fe05ef2-88da-4860-a9e7-85eee10e87bf",
+      "generationArtifactId": "exec-1fe05ef2-88da-4860-a9e7-85eee10e87bf",
+      "outputArtifact": "built-in-imagegen://exec-1fe05ef2-88da-4860-a9e7-85eee10e87bf.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 35, “Pearls; How They Are Produced, and Where.” Landscape 3:2, 1536×1024, full-bleed single continuous natural scene, not a manuscript page, diagram, cutaway, jewellery display, or collage. In the shaded mouth of a Persian Gulf limestone grotto at clear dawn, show exactly ONE complete living pearl oyster resting in a small fully enclosed rock basin. Its two valves are naturally parted just enough to reveal iridescent nacre and exactly ONE small round pearl still attached near the inner mantle edge; the animal is intact, calm, and unhandled. The entire shell, hinge, both valve margins, mantle, and pearl must be anatomically plausible, clearly visible, and comfortably inside the frame. The basin’s still water forms a compact internal crescent around the oyster, surrounded on every side by broad dry stone; NO water may touch any canvas edge. A narrow shaft of cool morning light enters from the grotto opening and catches the pearl, while the distant exterior remains only pale sky and rock. No other shell, pearl, animal, person, diver, hand, tool, net, jewellery, earring, cloth, vinegar, feast, injury, extraction, or luxury object. Present a restrained natural observation while treating Pliny’s dew-conception, weather, and moral anecdotes as transmitted ancient explanations, not modern biology.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic close observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of nacre cream, faded lapis, sea-glass green, limestone umber, muted rose, soot black, and a whisper of shell-gold light. Tactile shell layers, pearly iridescence, wet rock and clear shadow; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No halo or magical glow. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated object, or page texture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-1fe05ef2-88da-4860-a9e7-85eee10e87bf",
+          "outputArtifact": "built-in-imagegen://exec-1fe05ef2-88da-4860-a9e7-85eee10e87bf.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 35, “Pearls; How They Are Produced, and Where.” Landscape 3:2, 1536×1024, full-bleed single continuous natural scene, not a manuscript page, diagram, cutaway, jewellery display, or collage. In the shaded mouth of a Persian Gulf limestone grotto at clear dawn, show exactly ONE complete living pearl oyster resting in a small fully enclosed rock basin. Its two valves are naturally parted just enough to reveal iridescent nacre and exactly ONE small round pearl still attached near the inner mantle edge; the animal is intact, calm, and unhandled. The entire shell, hinge, both valve margins, mantle, and pearl must be anatomically plausible, clearly visible, and comfortably inside the frame. The basin’s still water forms a compact internal crescent around the oyster, surrounded on every side by broad dry stone; NO water may touch any canvas edge. A narrow shaft of cool morning light enters from the grotto opening and catches the pearl, while the distant exterior remains only pale sky and rock. No other shell, pearl, animal, person, diver, hand, tool, net, jewellery, earring, cloth, vinegar, feast, injury, extraction, or luxury object. Present a restrained natural observation while treating Pliny’s dew-conception, weather, and moral anecdotes as transmitted ancient explanations, not modern biology.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic close observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of nacre cream, faded lapis, sea-glass green, limestone umber, muted rose, soot black, and a whisper of shell-gold light. Tactile shell layers, pearly iridescence, wet rock and clear shadow; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No halo or magical glow. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated object, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c035.png",
+          "sha256": "b1eea3c1ef323ed5cd3898b01f1d618d6c0768b2a50abc0f7d404f6500be2bf3",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:36",
+      "visualQaNotes": "Inspected at original resolution. Exactly two complete living gastropods—a seven-point-crowned murex and a smooth whelk—are fully internal and separate. The accidental purple spill is absent; no water body, extraction, dye apparatus, other animal, text, frame, panel, or collage is visible.",
+      "uncertaintyNote": "The scene honors comparative shell morphology while omitting violent dye extraction and refusing to turn secretion or suffering into spectacle.",
+      "title": "THE DIFFERENT KINDS OF PURPLES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c036.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "b3e86139ee6befc130c7e16ebf4a4220e48001a2cc0c1208c67691ca937e10fc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1ed62323-625c-4098-83d3-700f4e87c0e6",
+      "generationArtifactId": "exec-1ed62323-625c-4098-83d3-700f4e87c0e6",
+      "outputArtifact": "built-in-imagegen://exec-1ed62323-625c-4098-83d3-700f4e87c0e6.png",
+      "exactFinalPrompt": "Targeted biological and ethical correction to this exact two-gastropod illustration. Preserve the same single murex and single smooth trumpet whelk, their living feet and tentacles, overall positions, scale, cliff ledge, storm-green dawn, palette, mineral-pigment texture, and egg-tempera finish. Make two precise corrections: (1) remove the entire dark purple puddle/shadow beneath the murex and seamlessly replace it with ordinary rain-darkened limestone matching the rest of the ledge—there must be no coloured liquid, dye, blood, secretion, or spill anywhere; (2) simplify the murex crown to exactly SEVEN clearly countable prominent blunt radial points around its upper whorl, with no additional spike-like projection elsewhere except the single natural forward siphonal canal. Keep both complete animals comfortably inside the frame. Do not add or remove any mollusc, animal, shell, object, water body, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-f67d5fa3-1931-412a-8554-0ed21a6100e9",
+          "outputArtifact": "built-in-imagegen://exec-f67d5fa3-1931-412a-8554-0ed21a6100e9.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 36, “The Different Kinds of Purples.” Landscape 3:2, 1536×1024, full-bleed single continuous low-tide field scene, not a manuscript page, specimen plate, dye-workshop scene, diagram, or collage. On one broad wet limestone ledge beneath a storm-green dawn sky, show exactly TWO complete living marine gastropods for direct natural comparison: at left, exactly one complete spiny purple-dye murex (Hexaplex trunculus) with a grooved projecting siphonal canal and seven clearly spaced blunt points around its upper whorl; at right, exactly one complete smaller smooth trumpet whelk with a rounder aperture and no spiny crown. Each shell, aperture, muscular foot, paired tentacles, eyes, and siphon must be anatomically credible, clearly separate, and entirely inside the frame with generous negative space. A thin dark-rose shadow reflected in the wet stone may echo the famous dye, but show no liquid secretion. The ledge rises continuously toward an inland cliff; show NO sea, tidepool, river, or other water body. No additional shell, mollusc, prey, person, tool, cloth, dye vat, crushed animal, extraction, injury, food, jewellery, fasces, or weapon. Honor the real shell morphology and organism while refusing to reenact the chapter’s violent dye production.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic close observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of Tyrian aubergine, storm verdigris, faded lapis, limestone cream, rose-black, bronze umber, and a whisper of shell-gold dawn. Tactile shell ridges, living foot, wet stone and cloud; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated shell, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c036-attempt-01-purple-spill-too-many-spines.png",
+          "sha256": "1562df99f453b0bccb2b08d3fcc9a7cba155126a3f9e36e71fb9c6e878454224",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first candidate contained an unintended purple liquid-like spill and too many prominent crown spines."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-1ed62323-625c-4098-83d3-700f4e87c0e6",
+          "outputArtifact": "built-in-imagegen://exec-1ed62323-625c-4098-83d3-700f4e87c0e6.png",
+          "exactPrompt": "Targeted biological and ethical correction to this exact two-gastropod illustration. Preserve the same single murex and single smooth trumpet whelk, their living feet and tentacles, overall positions, scale, cliff ledge, storm-green dawn, palette, mineral-pigment texture, and egg-tempera finish. Make two precise corrections: (1) remove the entire dark purple puddle/shadow beneath the murex and seamlessly replace it with ordinary rain-darkened limestone matching the rest of the ledge—there must be no coloured liquid, dye, blood, secretion, or spill anywhere; (2) simplify the murex crown to exactly SEVEN clearly countable prominent blunt radial points around its upper whorl, with no additional spike-like projection elsewhere except the single natural forward siphonal canal. Keep both complete animals comfortably inside the frame. Do not add or remove any mollusc, animal, shell, object, water body, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-f67d5fa3-1931-412a-8554-0ed21a6100e9",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c036.png",
+          "sha256": "b3e86139ee6befc130c7e16ebf4a4220e48001a2cc0c1208c67691ca937e10fc",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-f67d5fa3-1931-412a-8554-0ed21a6100e9",
+          "outputArtifact": "built-in-imagegen://exec-f67d5fa3-1931-412a-8554-0ed21a6100e9.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX, Chapter 36, “The Different Kinds of Purples.” Landscape 3:2, 1536×1024, full-bleed single continuous low-tide field scene, not a manuscript page, specimen plate, dye-workshop scene, diagram, or collage. On one broad wet limestone ledge beneath a storm-green dawn sky, show exactly TWO complete living marine gastropods for direct natural comparison: at left, exactly one complete spiny purple-dye murex (Hexaplex trunculus) with a grooved projecting siphonal canal and seven clearly spaced blunt points around its upper whorl; at right, exactly one complete smaller smooth trumpet whelk with a rounder aperture and no spiny crown. Each shell, aperture, muscular foot, paired tentacles, eyes, and siphon must be anatomically credible, clearly separate, and entirely inside the frame with generous negative space. A thin dark-rose shadow reflected in the wet stone may echo the famous dye, but show no liquid secretion. The ledge rises continuously toward an inland cliff; show NO sea, tidepool, river, or other water body. No additional shell, mollusc, prey, person, tool, cloth, dye vat, crushed animal, extraction, injury, food, jewellery, fasces, or weapon. Honor the real shell morphology and organism while refusing to reenact the chapter’s violent dye production.\n\nCoherent project aesthetic: an exceptionally beautiful ancient Roman marine-natural-history illumination reimagined as a cinematic close observation—rough mineral-pigment granulation and dry-brush iron-gall contours married to polished egg-tempera modelling; restrained palette of Tyrian aubergine, storm verdigris, faded lapis, limestone cream, rose-black, bronze umber, and a whisper of shell-gold dawn. Tactile shell ridges, living foot, wet stone and cloud; imperfect handmade marks, luminous depth, ancient, timeless, rough and polished at once. Not photorealistic, not glossy digital fantasy art, not cartoonish. No letters, glyphs, pseudo-writing, labels, captions, signature, watermark, decorative border, frame, panels, inset, montage, repeated shell, or page texture.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/evidence/history/b09-c036-attempt-01-purple-spill-too-many-spines.png",
+          "sha256": "1562df99f453b0bccb2b08d3fcc9a7cba155126a3f9e36e71fb9c6e878454224",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first candidate contained an unintended purple liquid-like spill and too many prominent crown spines."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:37",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete living murex and one complete internal seaweed tuft inhabit a single continuous transition through silt, pale reef stone, and pebbles. There is no water body, trap, prey, extraction, clipped focal subject, text, frame, panel, diagram, or collage.",
+      "uncertaintyNote": "The habitat transitions poetically visualize Pliny’s transmitted ancient taxonomy without presenting it as settled modern science or reenacting capture.",
+      "title": "THE DIFFERENT KINDS OF PURPLES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c037.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "211e03f67b79bdbf901f42cae2d465d5fe42a2af0d16c1bfc2646d17fcac7d46",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5fff561e-a24c-4d0f-867d-c969673b7831",
+      "generationArtifactId": "exec-5fff561e-a24c-4d0f-867d-c969673b7831",
+      "outputArtifact": "built-in-imagegen://exec-5fff561e-a24c-4d0f-867d-c969673b7831.png",
+      "exactFinalPrompt": "Create one independent, chapter-specific landscape illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 37, on the ancient classification of purple-dye murex snails by the seabed habitats in which they were found. Show exactly ONE complete living murex gastropod, fully visible and comfortably inside the frame, traversing a single continuous exposed low-tide limestone shelf. In one organically connected landscape, the substrate should pass naturally through four subtle habitat textures: dark silt, one small complete tuft of seaweed wholly inside the frame, pale reef stone, and rounded pebbles. This is a poetic visualization of Pliny's transmitted ancient taxonomy, not a modern scientific claim. Medium-wide oblique view with a broad sense of place, clearly unlike a close-up specimen portrait. The animal must be calm, anatomically credible, with its entire shell, siphonal canal, foot, head, and tentacles visible; no clipping. NO water body anywhere, no shoreline, no pools, no sea reaching an edge. No other animals, no loose shells, no baskets, traps, bait, capture, extraction, dye vats, cloth, humans, cruelty, or luxury objects. Style: a timeless Roman natural-history vision rendered as highly refined egg tempera and mineral pigment on subtly rough lime plaster, disciplined etched contours, fine pumice grain, restrained verdigris, ochre, umber, charcoal, and a single deep Tyrian-purple accent on the living shell; matte weathered surface with sparingly burnished highlights; ancient, tactile, rough and polished at once; luminous late-afternoon raking light; beautiful, coherent, museum-grade, serious rather than whimsical. One continuous full-bleed scene only: no border, frame, page, parchment, label, caption, panel, inset, diagram, collage, decorative band, pseudo-writing, letters, numerals, watermark, signature, or logo. Landscape 3:2 composition, 1536x1024, opaque sRGB PNG. Keep the focal snail and the complete seaweed tuft at least 10 percent away from every canvas edge; continuous rock and terrain may extend beyond the canvas.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-5fff561e-a24c-4d0f-867d-c969673b7831",
+          "outputArtifact": "built-in-imagegen://exec-5fff561e-a24c-4d0f-867d-c969673b7831.png",
+          "exactPrompt": "Create one independent, chapter-specific landscape illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 37, on the ancient classification of purple-dye murex snails by the seabed habitats in which they were found. Show exactly ONE complete living murex gastropod, fully visible and comfortably inside the frame, traversing a single continuous exposed low-tide limestone shelf. In one organically connected landscape, the substrate should pass naturally through four subtle habitat textures: dark silt, one small complete tuft of seaweed wholly inside the frame, pale reef stone, and rounded pebbles. This is a poetic visualization of Pliny's transmitted ancient taxonomy, not a modern scientific claim. Medium-wide oblique view with a broad sense of place, clearly unlike a close-up specimen portrait. The animal must be calm, anatomically credible, with its entire shell, siphonal canal, foot, head, and tentacles visible; no clipping. NO water body anywhere, no shoreline, no pools, no sea reaching an edge. No other animals, no loose shells, no baskets, traps, bait, capture, extraction, dye vats, cloth, humans, cruelty, or luxury objects. Style: a timeless Roman natural-history vision rendered as highly refined egg tempera and mineral pigment on subtly rough lime plaster, disciplined etched contours, fine pumice grain, restrained verdigris, ochre, umber, charcoal, and a single deep Tyrian-purple accent on the living shell; matte weathered surface with sparingly burnished highlights; ancient, tactile, rough and polished at once; luminous late-afternoon raking light; beautiful, coherent, museum-grade, serious rather than whimsical. One continuous full-bleed scene only: no border, frame, page, parchment, label, caption, panel, inset, diagram, collage, decorative band, pseudo-writing, letters, numerals, watermark, signature, or logo. Landscape 3:2 composition, 1536x1024, opaque sRGB PNG. Keep the focal snail and the complete seaweed tuft at least 10 percent away from every canvas edge; continuous rock and terrain may extend beyond the canvas.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c037.png",
+          "sha256": "211e03f67b79bdbf901f42cae2d465d5fe42a2af0d16c1bfc2646d17fcac7d46",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 701,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "9:30": {
+        "nearestMAD": 24.62,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c021.png",
+        "madAtDHashPeer": 74.44
+      },
+      "9:31": {
+        "nearestMAD": 28.6,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c034.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c006.png",
+        "madAtDHashPeer": 44.31
+      },
+      "9:32": {
+        "nearestMAD": 28.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c029.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-06/b08-c043.png",
+        "madAtDHashPeer": 72.58
+      },
+      "9:33": {
+        "nearestMAD": 23.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c003.png",
+        "madAtDHashPeer": 70.04
+      },
+      "9:34": {
+        "nearestMAD": 28.32,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c035.png",
+        "madAtDHashPeer": 91.84
+      },
+      "9:35": {
+        "nearestMAD": 34.05,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c014.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c004.png",
+        "madAtDHashPeer": 71.91
+      },
+      "9:36": {
+        "nearestMAD": 22.68,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c055.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-64/b07-c009.png",
+        "madAtDHashPeer": 57.11
+      },
+      "9:37": {
+        "nearestMAD": 28.42,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c010.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c017.png",
+        "madAtDHashPeer": 79.49
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "9:30",
+      "9:31",
+      "9:32",
+      "9:33",
+      "9:34",
+      "9:35",
+      "9:36",
+      "9:37"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 13,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 5,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  }
+}

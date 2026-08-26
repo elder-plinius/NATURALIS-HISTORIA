@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-54",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 509,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "4:2": {
+        "nearestMAD": 24.63,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c108.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-12/b15-c028.png",
+        "madAtDHashPeer": 43.05
+      },
+      "4:3": {
+        "nearestMAD": 25.87,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c012.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c008.png",
+        "madAtDHashPeer": 51.82
+      },
+      "4:4": {
+        "nearestMAD": 23.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c108.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "madAtDHashPeer": 27.14
+      },
+      "4:5": {
+        "nearestMAD": 24.71,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c049.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c003.png",
+        "madAtDHashPeer": 53.32
+      },
+      "4:6": {
+        "nearestMAD": 25.21,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b03-c021.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "madAtDHashPeer": 35.4
+      },
+      "4:7": {
+        "nearestMAD": 22.15,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c094.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c108.png",
+        "madAtDHashPeer": 29.38
+      },
+      "4:8": {
+        "nearestMAD": 25.46,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c013.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+        "madAtDHashPeer": 54.41
+      },
+      "4:9": {
+        "nearestMAD": 25.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c006.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c021.png",
+        "madAtDHashPeer": 49.22
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "4:2",
+      "title": "ÆTOLIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c002.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "bb433ffb2ff73d7b4805b26703e67abbb5f7ddf22f565b5d7c5db441a50c4abb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ef961105-0247-4ca5-9b44-0f865a8dab16",
+      "generationArtifactId": "exec-ef961105-0247-4ca5-9b44-0f865a8dab16",
+      "outputArtifact": "built-in-imagegen://exec-ef961105-0247-4ca5-9b44-0f865a8dab16.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 2, “ÆTOLIA”\nPrimary request: Ground the scene in Pliny’s transmitted geography of Ætolia, especially the very narrow mouth of the Corinthian Gulf where the opposing promontories Antirrhium and Rhion separate Ætolia from the Peloponnesus. Present one observed Roman-period landscape, not a map or diagram.\nScene/backdrop: A high oblique dawn view from an inland Ætolian slope looks down toward the narrow blue-green strait. Two complete rocky promontories face one another across a visibly tight water passage, but neither touches the canvas edges. The complete Evenus River curves through the lower valley from a small interior spring-fed channel toward the distant Ionian water. Low Mount Chalcis rises behind the Ætolian shore and faded mountain layers recede into haze.\nSubject/action: One complete small Roman coastal cargo boat with furled square sail passes safely through the narrows; exactly three tiny complete crew are visible aboard. In the near-middle interior, exactly two complete Ætolian shepherds and a small complete flock of five goats pause on a broad path to watch. No city names, boundary lines, measuring device or survey chart.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: airy negative space, broad panorama, faded-lapis depth and restrained ochre accents.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Layered diagonal panorama: open path and shepherds in the lower-left interior, complete river curve through the center, facing promontories in the middle distance, tiny boat isolated in the water gap. Keep both promontory tips, every goat, both people, boat, mast, sail, river mouth and primary shadows comfortably inside. Only distant sky, haze and non-focal terrain may continue through the frame boundaries.\nColor palette: warm vellum and pale ochre hills, muted verdigris scrub and river, faded lapis strait, umber/lampblack hatching, a small madder garment accent.\nHistorical and epistemic framing: visualize Pliny’s geographical description as a Roman-era transmitted observation; do not assert exact modern topography, distances or boundaries.\nConstraints: exactly one boat, three crew, two shepherds and five goats; complete historically plausible Roman-period hull, dress and pastoral gear; one coherent full-bleed scene; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, maps, coastline diagram, compass, arrows, route line, measurement marks, split panels, collage, repeated crop, visible sheet, page edge, decorative border, modern settlement, modern bridge, modern ship, photography, photorealism, glossy CGI, giant storm, battle, mythic figures, cropped promontory, clipped boat or mast, edge-entering person or animal, malformed hands, duplicated goats.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The opposing promontories, Evenus river curve, one complete cargo boat with three crew, exactly two shepherds and five goats are legible and fully contained. No map logic, lettering, pseudo-writing, panel, border, modern object or clipped primary subject was found. Accepted on the first call; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:3",
+      "title": "LOCRIS AND PHOCIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c003.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "4590e90d10ece11d05f70ada996e7a525c1e5007cb655dccce3b2a0193080e6f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1e66c839-6fef-46a2-acab-f97a3c945a26",
+      "generationArtifactId": "exec-1e66c839-6fef-46a2-acab-f97a3c945a26",
+      "outputArtifact": "built-in-imagegen://exec-1e66c839-6fef-46a2-acab-f97a3c945a26.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 3, “LOCRIS AND PHOCIS”\nPrimary request: Ground the scene in Pliny’s transmitted geography of Phocis: Delphi at the foot of Mount Parnassus, the Castalian spring, and the Cephisus valley beyond. Present one plausible Roman-period view of the sanctuary landscape, not a mystical vision or a map.\nScene/backdrop: A steep, terraced mountain amphitheatre beneath the complete twin shoulder of Parnassus. In the center interior, one modest complete stone sanctuary of Apollo stands on a high terrace with its roof, columns, stair and retaining wall all visible. Below it, the complete Castalian spring emerges from a natural cleft into one small unadorned stone basin, then becomes a narrow stream descending toward the distant pale Cirrhæan plain and Gulf of Crissa. The full mountain summit and spring cleft remain inside broad sky and rock margins.\nSubject/action: Exactly three complete Roman-period travellers pause at the basin: one kneels to fill a plain unmarked ceramic flask, one holds a complete walking staff, and one looks uphill toward the sanctuary. Exactly one complete sanctuary attendant stands quietly at the top of the stair. No prophecy performance, smoke, sacrifice, glowing god or written dedication.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: airy distance, carved mountain geometry, faded-lapis gulf and restrained mineral pigments.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Strong ascending zigzag: basin in the lower-left interior, three travellers near center-left, terrace and complete sanctuary in the right-middle interior, Parnassus rising behind, distant plain glimpsed through a left valley opening. Keep every person, vessel, staff, stair, roofline, column, spring cleft and mountain summit comfortably inside. Only non-focal sky and distant rock planes may continue through frame boundaries.\nColor palette: bone-white and pale ochre limestone, umber and lampblack hatching, muted verdigris cypress and spring moss, faded lapis distant gulf, restrained madder garments.\nHistorical and epistemic framing: visualize Pliny’s Roman-era geographical description; avoid claiming an exact archaeological reconstruction of the sanctuary or spring.\nConstraints: exactly three travellers and one attendant; complete historically plausible dress, vessel, staff and architecture; one coherent full-bleed scene; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, temple inscriptions, glyphs, signatures, logos, watermarks, map, route, diagram, split panels, collage, visible page edge, decorative border, modern ruins infrastructure, modern tourists, photography, photorealism, glossy CGI, enormous classical fantasy temple, glowing oracle, deity, lightning, ritual gore, cropped peak, clipped temple, stair or basin cut by edge, edge-entering figure, malformed hands, duplicated people.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete Parnassus shoulders, Castalian basin and spring, complete sanctuary, exactly three travellers and one attendant are fully framed. No inscription, pseudo-writing, mystical effect, panel, border, modern object or clipping was found. Accepted on the first call; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:4",
+      "title": "THE PELOPONNESUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c004.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "3ba40f4a3fa71467bd0304b7a6d18f3aa06615f39eae7e58b3ba540df4648a91",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-56811458-dafe-44e1-b11d-afd1cb3ff2a2",
+      "generationArtifactId": "exec-56811458-dafe-44e1-b11d-afd1cb3ff2a2",
+      "outputArtifact": "built-in-imagegen://exec-56811458-dafe-44e1-b11d-afd1cb3ff2a2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 4, “THE PELOPONNESUS”\nPrimary request: Ground the scene in Pliny’s description of the Peloponnesus joined to Hellas by the narrow Isthmus of Corinth, with the Corinthian and Saronic gulfs on opposite sides and small vessels sometimes carried across land to avoid the long voyage. Show a plausible Roman-period lived landscape, never a map or canal diagram.\nScene/backdrop: From a high rocky shoulder, an oblique late-afternoon view looks along the complete narrow isthmus. One empty faded-lapis gulf lies on the left and one empty muted-verdigris gulf on the right, clearly divided by the ochre land neck. Acrocorinth is represented only as one bare natural rocky hill in the upper-middle distance with a small plain low defensive wall following part of its crest: no temple, facade, sign, inscription, town, pediment or block-like glyph surface anywhere. Both distant coastlines remain natural and atmospheric, not outlined like a chart. No vessel appears on either sea.\nSubject/action: In the broad middle foreground, exactly six complete Roman-period workers haul one complete small empty coastal vessel on one low wooden wheeled cradle along a worn earth-and-stone portage road. Show the whole hull, bow, stern, mast laid down, cradle, exactly four clearly separated wheels, exactly two ropes and every worker. Three workers pull from the left rope and three pull from the right rope. The action is laborious but orderly; no canal excavation, emperor, battle or danger.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: broad spatial clarity, airy sea distance, ochre land geometry and restrained faded-lapis depth.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Strong horizontal hourglass landscape rather than top-down cartography: complete portage road and vessel run diagonally across the lower-middle interior, bare Acrocorinth forms a modest vertical accent beyond, and two empty seas open on opposite sides. Keep all workers, ropes, hull, laid mast, cradle, all four wheels, hill and both visible shore gaps fully inside with generous breathing room. Only distant sky, water and non-focal terrain may continue through edges.\nColor palette: pale ochre isthmus, umber/lampblack road and hull, faded lapis western gulf, muted verdigris eastern gulf, restrained madder garments and bone-white sailcloth lashings.\nHistorical and epistemic framing: visualize Pliny’s Roman-era description and a plausible ancient portage, not an exact surveyed reconstruction or endorsement of his measurements.\nConstraints: exactly one vessel in the entire image, on exactly one cradle; exactly six workers, four visible wheels and two ropes; historically plausible tools, dress, road and hull; one coherent full-bleed scene; opaque RGB/sRGB intent. Every architectural surface must remain completely plain and unmarked.\nAvoid: any letters, text, captions, labels, numerals, pseudo-writing, inscription-like strokes, facade marks, signatures, logos, watermarks, map, atlas, coastline diagram, compass rose, arrows, route line, cutaway, canal, excavation trench, split panels, collage, visible page edge, decorative border, cityscape, temple, pediment, distant ship, sailboat, extra vessel, modern Corinth Canal, modern road, photography, photorealism, glossy CGI, gigantic ship, battle, clipped hull or laid mast, road structure cut by edge, edge-entering worker, wrong wheel count, malformed hands, duplicated figures.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The two empty gulfs, contained bare Acrocorinth, one complete portaged vessel and cradle, exactly six workers, two ropes and four visible wheels all remain inside the frame. All built surfaces are plain and no lettering, pseudo-writing, extra vessel, map treatment, panel, border or clipping was found. Accepted after preserving one pseudo-writing and extra-vessel reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-08f7bced-6ba5-41a5-b6b0-b6f501d9012a.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c004-rejected-01.png",
+          "sha256": "c0bf06a3a6681e354c735621f3e0d4bd71531a39b4cf653ab072728aaa497985",
+          "reason": "Rejected at original-resolution review because glyph-like pseudo-writing appeared on the summit architecture and several unnecessary sailboats appeared in the two gulfs. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:5",
+      "title": "ACHAIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c005.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "62ee95ed543512e2eeb1a51b7149b5fe3f99b8ba03ff802104a0b66cb8ea5a11",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-523225bc-49e5-4e05-a010-9413d7499bd5",
+      "generationArtifactId": "exec-523225bc-49e5-4e05-a010-9413d7499bd5",
+      "outputArtifact": "built-in-imagegen://exec-523225bc-49e5-4e05-a010-9413d7499bd5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 5, “ACHAIA”\nPrimary request: Ground the scene in Pliny’s transmitted notice that the former Achaian towns Helice and Bura were swallowed by the sea and their inhabitants took refuge elsewhere along the coast. Depict a quiet Roman-era recollection of lost coastal places, not an active disaster and not a verified archaeological reconstruction.\nScene/backdrop: A low, misty morning view over one calm Achaian bay. Beneath clear shallow faded-lapis water in the middle interior, the complete closed outline of one small rectangular stone foundation and exactly three fallen complete column drums can be discerned, softened by sea grass and silt. A broad intact ochre beach curves behind them toward high safe ground containing exactly ONE complete plain Roman-period farmhouse with one roof and one doorway. The farmhouse stands alone; no other roof, annex, shed, hut, wall enclosure, ruin or distant building appears anywhere. Distant Mount Scioessa is a pale contained silhouette beneath open sky.\nSubject/action: One complete small ancient rowboat floats well inside the left-middle water with exactly two complete Roman-period coastal observers. One holds a plain sounding pole vertically into the shallows; the other steadies the boat and looks toward the submerged stones. The entire boat is undecorated: every outer hull plank, bow, stern, gunwale, oar and pole is completely plain and naturally grained, with no carved eye, spiral, scroll, letter, numeral, painted mark or symbol. On the high beach, one complete narrow footpath leads from the shore to the solitary farmhouse. No additional person or animal appears.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: silvered marine haze, spare negative space, delicate underwater stipple and restrained mineral washes.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Low horizontal scene with broad empty water and sky. Complete boat occupies the left interior, submerged foundation and three drums form a quiet central geometry, empty beach and solitary farmhouse sit in the upper-right interior, mountain remains small and distant. Keep boat, both observers, pole, foundation outline, every drum, farmhouse, path and mountain silhouette fully inside with generous margins. Only unbroken water, sky and non-focal beach may continue through edges.\nColor palette: pale faded lapis and pearl-grey water, muted verdigris sea grass, pale ochre beach and farmhouse, umber/lampblack linework, restrained madder garment accent.\nHistorical and epistemic framing: make clear through restraint that this is a Roman-period visualization of Pliny’s transmitted account, not proof of an exact site, date, mechanism or surviving layout.\nConstraints: exactly one boat, exactly two observers, exactly one solitary farmhouse, one closed foundation outline and exactly three column drums; complete plausible ancient hull, dress and sounding pole; all manmade surfaces completely unmarked; one coherent full-bleed scene; opaque RGB/sRGB intent.\nAvoid: carved boat eye, spiral, scroll, monogram, any second building or roof, annex, shed, hut, extra person, animal, text, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, map, underwater cutaway, split above-below panel, diagram, arrows, excavation grid, collage, visible page edge, decorative border, modern diving equipment, modern town, photography, photorealism, glossy CGI, active earthquake, tsunami, drowning, corpse, gore, fantasy underwater city, standing underwater temple, fish arranged as symbols, clipped boat or pole, foundation cut by edge, edge-entering structure or person, wrong counts, malformed hands, duplicated figures.",
+      "generationAttempts": 4,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The calm Achaian bay contains one complete unmarked rowboat with two observers, one closed submerged foundation, exactly three fallen column drums and one solitary complete high-ground farmhouse. No extra structure, boat glyph, pseudo-writing, catastrophe, cutaway, panel, border or clipped subject was found. Accepted after preserving two wrong-structure-count rejects and one prow-glyph reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c20aa4ff-1b76-4217-b1ae-207fc9d5299a.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c005-rejected-01.png",
+          "sha256": "fe48658df440ecb0a620073d8a05075c1c0a773a0b6403df4c9f3f746f68727f",
+          "reason": "Rejected at original-resolution review because the refuge hamlet contained five roofed structures rather than the specified four. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-8a1fe2ec-d1ac-43e1-95da-5767289cbff3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c005-rejected-02.png",
+          "sha256": "53c5f1205dabd310a5f60759d9c4f0b5679c3b8bda676227c711e21584ba3d05",
+          "reason": "Rejected at original-resolution review because the tightened regeneration still rendered five houses rather than four. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-71c22eaa-6c86-43d7-b36a-c9769ce9fa40.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c005-rejected-03.png",
+          "sha256": "77d749483647a5df9b383a54c949ea7f1fa65d7515dc7683222f7a9cb4dd4e3c",
+          "reason": "Rejected at original-resolution review because a carved spiral or glyph-like mark appeared on the boat prow despite the otherwise corrected one-farmhouse scene. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:6",
+      "title": "ARCADIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c006.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "24d5fffc785b85f7c5dfaee357e2c3286837dc3c62c63e0be8927d0a7883bacc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4f01d43b-5327-4a89-bd0a-652c2e501e15",
+      "generationArtifactId": "exec-4f01d43b-5327-4a89-bd0a-652c2e501e15",
+      "outputArtifact": "built-in-imagegen://exec-4f01d43b-5327-4a89-bd0a-652c2e501e15.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 6, “ARCADIA”\nPrimary request: Ground the scene in Pliny’s description of Arcadia as the landlocked mountainous interior of the Peloponnesus, remote from every sea, with the river Ladon rising from the marshes of Pheneus and numerous mountain summits compensating for the inroads of the coasts. Present one natural Roman-period landscape observation, not a map.\nScene/backdrop: A cold early-morning high view from an interior ridge looks into one complete enclosed Arcadian basin ringed by layered mountains. In the lower-middle interior, one broad Pheneus marsh glows pearl-grey among reeds. From its complete far edge, the Ladon begins as one narrow silver stream, bends twice through a dark verdigris valley and disappears behind an interior hill rather than running to any visible sea. The complete snowless summits of Cyllene and Mænalus rise as unequal distant forms, all separated from the sky edges. No coastline, gulf or ocean is visible.\nSubject/action: No people, animals, buildings, temple, bridge or road appear. The marsh, river source, enclosing mountains, low morning mist and dense interior woodland are the only subjects. A few tiny birds may appear only as uncounted natural specks above the marsh, never as focal silhouettes.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: spacious mountain recession, muted verdigris interior, cool pearl water and sparse faded-lapis shadow.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Wide elevated basin panorama with a bowl-like rhythm: dark ridge corners open toward the bright complete marsh in the lower-middle interior, the two-bend Ladon leads inward, and asymmetrical mountain layers rise across the upper half. Keep the whole marsh boundary, source point, visible river course and every named focal summit inside broad margins. Only non-focal foreground rock, distant haze and sky may continue through edges.\nColor palette: muted verdigris and deep umber woodland, pearl-grey marsh, pale faded-lapis shadows, ochre grass, lampblack cross-hatching, restrained madder only in mineral undertones.\nHistorical and epistemic framing: visualize Pliny’s Roman-era geographical account; do not claim precise modern hydrology, summit identification or measurement.\nConstraints: no sea, no architecture, no human or focal animal; one coherent full-bleed landlocked basin scene; complete marsh and river source; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, map, contour map, route, compass, arrows, diagram, split panels, collage, visible page edge, decorative border, modern infrastructure, photography, photorealism, glossy CGI, fantasy castle, temple, shepherd, boat, coastline, ocean, waterfall, giant dramatic storm, central perfect symmetry, marsh or summit clipped, river entering from edge, repeated mountain copies.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The landlocked Arcadian basin, complete Pheneus marsh boundary, one contained Ladon source and asymmetric mountain ring are coherent and fully legible. No sea, person, building, map device, pseudo-writing, panel, border or clipped focal marsh/summit was found. Accepted on the first call; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:7",
+      "title": "ATTICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c007.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "db128f016a4b7856fef7e748081144390698df8e59969934f6d0560cf6a37628",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-53f42094-1bea-4290-8d2a-0eb2da79ec77",
+      "generationArtifactId": "exec-53f42094-1bea-4290-8d2a-0eb2da79ec77",
+      "outputArtifact": "built-in-imagegen://exec-53f42094-1bea-4290-8d2a-0eb2da79ec77.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 7, “ATTICA”\nPrimary request: Ground the scene in Pliny’s description of Athens lying inland while the ports of Piræus and Phalerum are joined to it by long walls. Present one plausible Roman-period Attic landscape of connection between free city and harbour, not a map or exact archaeological reconstruction.\nScene/backdrop: From a distant olive-covered side ridge at clear dawn, a pulled-back oblique panorama looks across the complete land corridor between inland Athens and the Piræus shore. In the left-middle interior, one compact complete Acropolis rock with a few plain, unmarked sanctuary silhouettes sits beneath Mount Hymettus. In the right-middle interior, one complete sheltered harbour basin opens to pale faded-lapis water with exactly two small ancient ships at anchor. Between them run two complete low parallel stone walls, BOTH wholly contained in the central middle distance: each wall visibly starts at one small plain city gate below the Acropolis and visibly ends at one small plain harbour gate. Open olive ground forms a broad uninterrupted margin around every outer end and side of the two walls. Neither wall approaches or enters any canvas boundary. A broad unpaved road occupies the corridor between them.\nSubject/action: Exactly one complete tiny two-wheeled ox cart travels inside the middle of the contained road, drawn by exactly two complete oxen. Exactly three complete Roman-period travellers accompany it: one driver at the reins and two pedestrians carrying plain bundles. All architecture is undecorated and free of inscriptions.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: luminous Attic air, pale limestone, muted olive verdigris, broad negative space and quiet faded-lapis sea.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Long lateral rhythm, not a top-down plan. Acropolis occupies the left third, harbour the right third, and the entire paired-wall corridor occupies only the central 55 percent of canvas width and middle 30 percent of height. A large empty foreground olive terrace separates the camera from the complete walls; no wall points toward the viewer or exits the bottom. Keep full Acropolis rock, sanctuary roofs, both complete wall outer silhouettes and all four gate endpoints, road, cart, both wheels, two oxen, three people, both ships and harbour curve fully inside generous margins. Only non-focal sky, distant water and foreground olive ground may continue through edges.\nColor palette: bone-white and pale ochre limestone, muted verdigris olive groves, faded lapis harbour, umber/lampblack walls and cart, restrained madder garments.\nHistorical and epistemic framing: visualize Pliny’s Roman-era geographical account; avoid presenting the city, walls, harbour or distances as a surveyed reconstruction.\nConstraints: exactly one cart, two wheels, two oxen, three travellers and two anchored ships; complete plausible ancient dress, cart, gates, hulls and masonry; one coherent full-bleed scene; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, inscriptions, facade marks, signatures, logos, watermarks, map, city plan, route line, diagram, arrows, split panels, collage, visible page edge, decorative border, modern Athens, modern port cranes, modern ships, photography, photorealism, glossy CGI, giant fantasy Acropolis, dense city grid, battle, procession spectacle, wall entering any edge, foreground wall, clipped wall or gate, ship cut by edge, edge-entering animal/person, wrong counts, malformed hands, duplicated figures.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete contained paired-wall corridor, gate endpoints, Acropolis, harbour, one two-wheeled cart, exactly two oxen, three travellers and two anchored ships all remain inside generous olive-ground margins. No inscription, pseudo-writing, modern structure, map treatment, panel, border or clipped wall was found. Accepted after preserving one foreground wall-clipping reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-101e86c2-d198-445c-913c-9b3e7e6ab056.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c007-rejected-01.png",
+          "sha256": "ae4134c566520f9731cd0df4558122adef0565dee548a77cf8fe92f29c1e47a4",
+          "reason": "Rejected at original-resolution review because both focal Long Walls continued into the foreground canvas boundary instead of remaining complete contained structures. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:8",
+      "title": "THESSALY PROPER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c008.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "a55b05b116b27b612d1e770c6791aa1cf28cab7bed762cba368900fb01e91353",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0aa13902-72ea-4abd-8534-3b3b903d8204",
+      "generationArtifactId": "exec-0aa13902-72ea-4abd-8534-3b3b903d8204",
+      "outputArtifact": "built-in-imagegen://exec-0aa13902-72ea-4abd-8534-3b3b903d8204.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 8, “THESSALY PROPER”\nPrimary request: Ground the scene in Pliny’s vivid description of the Vale of Tempe: the Peneus flowing over green pebbles through a narrow wooded valley between Ossa and Olympus, grassy banks and birdsong beneath gently rising mountain walls. Present one natural landscape observation, not a mythic or topographic diagram.\nScene/backdrop: Inside the Vale of Tempe at cool spring midday, one complete visible S-bend of the Peneus lies wholly within the image. The river emerges from behind a complete left-middle rock shoulder, curves across a broad central bed of individually stippled green pebbles, and disappears behind a complete right-middle wooded spur; neither visible water end touches a canvas edge. Tall but gently convex limestone walls rise on both sides beneath a narrow ribbon of open sky. Dense woodland fills the slopes, with grassy tufts and flowering herbs along the water.\nSubject/action: No human, boat, building, road, bridge or large animal appears. Exactly five small complete songbirds occupy distinct natural positions: two perched on interior branches, two near the grass, and one flying well inside the sky ribbon. The green-pebbled river, woods and enclosing mountains remain dominant; no supernatural figures or allegory.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: unusually lush layered verdigris, cool faded-lapis water shadows, fine botanical texture and airy ochre light.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Immersive low riverbank view with an S-shaped luminous water interval contained in the center, asymmetrical wooded slopes rising left and right, and only a narrow quiet sky band. Keep both visible river endpoints, the full pebble bed, both interior rock shoulders, all five birds, focal trees and their primary reflections fully inside generous margins. Only non-focal woodland and sky may continue through the frame.\nColor palette: rich but restrained muted verdigris foliage and pebbles, faded lapis and pearl-grey water, pale ochre light, umber/lampblack cliffs, tiny madder wildflower accents.\nHistorical and epistemic framing: visualize Pliny’s Roman-era descriptive geography; do not assert precise modern width, length, hydrology or species distribution.\nConstraints: exactly five complete birds, no people or architecture, one coherent full-bleed scene; complete contained S-bend and focal rock shoulders; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, map, cross-section, diagram, arrows, split panels, collage, visible page edge, decorative border, modern road or railway, modern bridge, photography, photorealism, glossy CGI, temple, nymph, deity, giant waterfall, raging rapids, boat, city, oversized birds, bird flock, river entering any edge, clipped focal tree or rock, malformed birds, duplicated mirror birds.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The Peneus forms a complete contained green-pebbled S-bend between interior rock shoulders, with exactly five complete birds in distinct positions. No road, bridge, boat, building, mythic figure, pseudo-writing, panel, border or clipped river endpoint was found. Accepted on the first call; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "4:9",
+      "title": "MAGNESIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c009.png",
+      "corpusArtifact": "public/corpus/book-04.2c5a29720f7d1f67.json",
+      "sha256": "1721c285814fdba0991cba5ea2ccd5caed75475c230b7490b37061bd08e18503",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c50f899d-de4b-46cd-9fe0-e1dade229bd1",
+      "generationArtifactId": "exec-c50f899d-de4b-46cd-9fe0-e1dade229bd1",
+      "outputArtifact": "built-in-imagegen://exec-c50f899d-de4b-46cd-9fe0-e1dade229bd1.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book IV chapter 9, “MAGNESIA”\nPrimary request: Ground the scene in the opening of Pliny’s geographical catalogue of Magnesia, which names the fountain of Libethra before the coastal towns and promontories. Present one quiet Roman-era natural landscape observation of a Pelion spring, not a mythic shrine or exact modern identification.\nScene/backdrop: In a secluded warm-evening rocky alcove on Mount Pelion, one complete natural spring emerges from a narrow cleft in a freestanding pale stratified boulder and fills one small complete irregular oval pool in the exact center interior. The entire closed water boundary is visibly surrounded by a broad ring of dry stone, moss and open ochre ground. The pool has NO visible outlet, channel, rivulet, overflow or stream; water disappears naturally through the porous rock beneath. The complete cleft boulder stands wholly inside the upper-left interior with open sky around its top and sides. Low thyme, cyclamen, moss and scrub occur as groundcover only. No tree, sapling, trunk, branch canopy or sea is visible.\nSubject/action: No person, animal, bird, building, vessel, road, bridge, altar, statue, offering or worked fountain architecture appears. The complete spring cleft, closed pool, low herbs and exposed mineral rock are the sole subjects. No supernatural glow or allegory.\nStyle/medium: Original Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Geography dialect: intimate mineral-rock observation, restrained verdigris botany, cool faded-lapis water and broad quiet ochre stone.\nComposition/framing: Landscape 3:2, native 1536x1024 intent. Low intimate three-quarter view with the complete closed pool occupying only the central 45 percent of width and lower-middle third, and the complete spring boulder placed off-axis above it. A very broad uninterrupted ring of dry open ground surrounds the whole pool before every canvas edge. Keep the full pool perimeter, spring mouth, entire cleft boulder silhouette, all focal herbs and primary reflections separated from every edge. Only empty sky and non-focal dry ground texture may continue through boundaries.\nColor palette: cool faded lapis and muted verdigris water, low verdigris moss and herbs, pale ochre limestone, umber/lampblack hatching, tiny madder cyclamen accents.\nHistorical and epistemic framing: visualize Pliny’s transmitted Roman-era geographical notice; do not assert an exact modern location, hydrology, sacred use or archaeological reconstruction.\nConstraints: exactly one spring cleft, one freestanding complete boulder and one complete closed pool; zero visible outlets and zero trees; no people, animals, vessels or architecture; one coherent full-bleed scene; opaque RGB/sRGB intent.\nAvoid: any stream, channel, outlet, overflow, waterfall, tree, sapling, trunk, canopy, sea, text, captions, labels, numerals, pseudo-writing, carved rock marks, signatures, logos, watermarks, map, coastline diagram, compass, arrows, route line, split panels, collage, visible page edge, decorative border, worked fountain, temple, altar, statue, nymph, deity, modern pipe, modern path, photography, photorealism, glossy CGI, magical glow, boulder touching edge, pool cut by edge, floating disconnected rocks.",
+      "generationAttempts": 4,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The final source-grounded Libethra composition contains one complete closed spring pool, one complete cleft boulder, no visible outlet and no trees, all surrounded by broad dry ground. No worked fountain, architecture, figure, glyph, pseudo-writing, panel, border or clipping was found. Accepted after preserving two clipped-cape rejects and one extra-tree/outlet reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f90b9e25-2ad1-4abf-b01c-6fd806e68d67.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c009-rejected-01.png",
+          "sha256": "54c611ae0ef6e6345c769634400c65649cc5845b23a2d373434d85e5554e5390",
+          "reason": "Rejected at original-resolution review because the focal promontory's landward Pelion shoulder was cut by the left and top canvas edges. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-4bb48be8-8dfc-4885-8fef-b98edcfbbff3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c009-rejected-02.png",
+          "sha256": "3abc4269da9472ed45ccadb86075e28f8660075329b86518969d3894a1ff83aa",
+          "reason": "Rejected at original-resolution review because the pulled-back cape still entered through the left edge and did not expose a complete landward saddle. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-85685f55-372d-4aba-9152-a1714adabcc7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/evidence/history/b04-c009-rejected-03.png",
+          "sha256": "8acd4e4c033ee7a54ace6b1462ec8cca61ee07f6705d79e994901497e68ce9c5",
+          "reason": "Rejected at original-resolution review because the Libethra spring study added an extra background pine and its outlet rivulet continued through the lower-right edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

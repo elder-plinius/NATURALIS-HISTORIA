@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-sea-wave-05",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "corpusGrounding": {
+    "source": "public/corpus/book-09.12645fd29e59bbcb.json",
+    "chaptersRead": [
+      "9:38",
+      "9:39",
+      "9:40",
+      "9:41",
+      "9:42",
+      "9:44",
+      "9:45",
+      "9:46"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The exact Latin and English corpus fields for every assigned chapter were read before prompt design. Dye craft, civic costume, luxury materials, animal companionship, the sea-ram, third-nature classification, dangerous diving and dog-fish claims are bounded as transmitted ancient testimony rather than modern technical, zoological, taxonomic, medical or safety advice."
+  },
+  "ownershipResolution": {
+    "resolvedKeys": [
+      "9:38",
+      "9:39",
+      "9:40",
+      "9:41",
+      "9:42",
+      "9:44",
+      "9:45",
+      "9:46"
+    ],
+    "skippedAtlasKey": "9:43",
+    "planStatusAtClaim": "planned-full-scene",
+    "existingMasterOrReceiptOwnershipFoundAtClaim": false
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 712,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "9:38": {
+        "nearestMAD": 29.84,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-02/b33-c008.png",
+        "madAtDHashPeer": 32.77
+      },
+      "9:39": {
+        "nearestMAD": 29.54,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c015.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c019.png",
+        "madAtDHashPeer": 41.87
+      },
+      "9:40": {
+        "nearestMAD": 31.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c014.png",
+        "madAtDHashPeer": 53.44
+      },
+      "9:41": {
+        "nearestMAD": 32.33,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c004.png",
+        "madAtDHashPeer": 40.7
+      },
+      "9:42": {
+        "nearestMAD": 26.03,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c018.png",
+        "madAtDHashPeer": 34.38
+      },
+      "9:44": {
+        "nearestMAD": 23.95,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c018.png",
+        "madAtDHashPeer": 40.97
+      },
+      "9:45": {
+        "nearestMAD": 27.97,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c029.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c006.png",
+        "madAtDHashPeer": 51.56
+      },
+      "9:46": {
+        "nearestMAD": 21.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c029.png",
+        "madAtDHashPeer": 26.81
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "9:38",
+      "9:39",
+      "9:40",
+      "9:41",
+      "9:42",
+      "9:44",
+      "9:45",
+      "9:46"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 13,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 5,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "9:38",
+      "title": "HOW WOOLS ARE DYED WITH THE JUICES OF THE PURPLE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c038.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "ab53e9b7934b9b9d24c53e207f78cf100c8505d452bf3bab6732a128a62e43ac",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5182c587-9a20-45f8-a713-0d6659e283ee",
+      "generationArtifactId": "exec-5182c587-9a20-45f8-a713-0d6659e283ee",
+      "outputArtifact": "built-in-imagegen://exec-5182c587-9a20-45f8-a713-0d6659e283ee.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Create one independent Roman-era marine-dye workshop scene grounded in Pliny's transmitted account of dyeing wool with purple-shellfish liquor. One complete wide lead cauldron stands fully inside the composition at the end of a long low masonry furnace flue; exactly one complete pale wool fleece is being lowered into the dark amethyst bath with plain wooden tongs by one fully visible adult craftsperson in undyed Roman work clothes. A second complete adult craftsperson, also fully visible head to sandals, skims harmless froth with a simple ladle. A low round basket containing several intact recognizable Mediterranean murex shells sits fully within the scene, clearly source material rather than injury.\nScene/backdrop: open-sided coastal workshop. Any distant Mediterranean water is a small enclosed blue shape surrounded on all sides by sky, shore, and architecture; no water or liquid may touch any canvas edge.\nStyle/medium: original Plinian natural-history folio painted on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion; rough materiality with polished anatomical and mechanical draftsmanship.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2. Eye-level oblique workshop panorama; cauldron centered low, long furnace flue receding across the image, two standing figures spaced left and right, basket low but far from the border. Generous clear vellum margin around every figure, foot, tool, vessel, shell, furnace, and background opening. One coherent scene only.\nLighting/mood: low furnace glow and soft coastal daylight; calm skilled labor and attentive historical observation.\nColor palette: restrained umber, lampblack and ochre with concentrated amethyst-purple bath, tiny faded-lapis distance, muted verdigris shadow.\nConstraints: output must be 1536x1024 landscape; exactly two complete adult humans; exactly one fleece; all limbs, sandals, tools, cauldron, handles, basket, shells and furnace complete and fully inside the canvas; plausible Roman dress and tools; no animal suffering; not instructional.\nAvoid: portrait or square orientation, water touching any edge, text, lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, framed page, panels, diptych, triptych, collage, repeated imagery, cropped anatomy or objects, severed anatomy, gore, organs, cruelty, modern objects, modern protective equipment, photography, glossy CGI, neon color.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-59f411e8-7c3c-4276-aaca-e92a232297dd",
+          "outputArtifact": "built-in-imagegen://exec-59f411e8-7c3c-4276-aaca-e92a232297dd.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 38\nPrimary request: Create one independent Roman-era marine-dye workshop scene grounded in Pliny's transmitted account of dyeing wool with purple-shellfish liquor. A complete broad lead cauldron stands fully inside the composition at the end of a long low masonry furnace flue; one complete pale wool fleece is being lowered into the dark amethyst bath with plain wooden tongs by one fully visible adult craftsperson in historically plausible undyed Roman work clothes. A second complete adult craftsperson, also fully visible, skims harmless froth with a simple ladle. A low basket containing several intact recognizable Mediterranean murex shells sits fully within the scene, clearly source material rather than a display of injury. Keep all figures, limbs, tools, vessel, basket, shells, furnace mouth, and rising vapor completely visible with generous breathing room.\nScene/backdrop: open-sided coastal workshop with distant Mediterranean shore suggested far behind; the sea and every wet area must remain fully enclosed inside the image and never touch any canvas edge.\nStyle/medium: original Plinian natural-history folio painted directly on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion; rough materiality with polished, anatomically and mechanically clear draftsmanship.\nComposition/framing: wide three-quarter interior view from slightly above; cauldron as central dark oval, long furnace flue leading diagonally through the scene, asymmetric triangular rhythm; single coherent scene, no page border, no compartments.\nLighting/mood: low furnace glow and soft coastal daylight; attentive historical observation, calm skilled labor, no spectacle.\nColor palette: restrained umber, lampblack and ochre with a concentrated amethyst-purple bath, small faded-lapis distance, muted verdigris shadow.\nConstraints: exactly two adult humans; one fleece; all subjects and objects complete and fully inside the canvas; plausible Roman tools and dress; liquid and shoreline fully internal; acknowledge this as a historical craft scene, not instructions.\nAvoid: text, lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, decorative border, framed page, panel, diptych, triptych, collage, repeated imagery, cropped limbs or tools, severed anatomy, gore, extracted animal organs, cruelty, modern objects, modern protective equipment, photography, glossy CGI, neon color.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c038-attempt-01-portrait-and-water-edge.png",
+          "sha256": "e71faa763e5363a99a559983ed7b32c33d98629bc28cf4aab34f74fcf3828200",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the output was portrait rather than 1536x1024 landscape and distant sea reached the left image edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-5182c587-9a20-45f8-a713-0d6659e283ee",
+          "outputArtifact": "built-in-imagegen://exec-5182c587-9a20-45f8-a713-0d6659e283ee.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Create one independent Roman-era marine-dye workshop scene grounded in Pliny's transmitted account of dyeing wool with purple-shellfish liquor. One complete wide lead cauldron stands fully inside the composition at the end of a long low masonry furnace flue; exactly one complete pale wool fleece is being lowered into the dark amethyst bath with plain wooden tongs by one fully visible adult craftsperson in undyed Roman work clothes. A second complete adult craftsperson, also fully visible head to sandals, skims harmless froth with a simple ladle. A low round basket containing several intact recognizable Mediterranean murex shells sits fully within the scene, clearly source material rather than injury.\nScene/backdrop: open-sided coastal workshop. Any distant Mediterranean water is a small enclosed blue shape surrounded on all sides by sky, shore, and architecture; no water or liquid may touch any canvas edge.\nStyle/medium: original Plinian natural-history folio painted on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion; rough materiality with polished anatomical and mechanical draftsmanship.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2. Eye-level oblique workshop panorama; cauldron centered low, long furnace flue receding across the image, two standing figures spaced left and right, basket low but far from the border. Generous clear vellum margin around every figure, foot, tool, vessel, shell, furnace, and background opening. One coherent scene only.\nLighting/mood: low furnace glow and soft coastal daylight; calm skilled labor and attentive historical observation.\nColor palette: restrained umber, lampblack and ochre with concentrated amethyst-purple bath, tiny faded-lapis distance, muted verdigris shadow.\nConstraints: output must be 1536x1024 landscape; exactly two complete adult humans; exactly one fleece; all limbs, sandals, tools, cauldron, handles, basket, shells and furnace complete and fully inside the canvas; plausible Roman dress and tools; no animal suffering; not instructional.\nAvoid: portrait or square orientation, water touching any edge, text, lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, framed page, panels, diptych, triptych, collage, repeated imagery, cropped anatomy or objects, severed anatomy, gore, organs, cruelty, modern objects, modern protective equipment, photography, glossy CGI, neon color.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c038.png",
+          "sha256": "ab53e9b7934b9b9d24c53e207f78cf100c8505d452bf3bab6732a128a62e43ac",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The dye process is presented as transmitted Roman craft history, not as modern technical instruction. Intact murex shells ground the material source without depicting extraction, animal injury, or gore.",
+      "visualQaNotes": "Native-resolution review confirmed a 1536x1024 opaque sRGB landscape with exactly two complete adult craftspeople, one fleece, one fully internal cauldron and furnace, and a complete shell basket. The distant sea is enclosed by architecture and shore and does not touch an image edge. No text, pseudo-writing, modern equipment, clipped focal object, panel, or duplicated scene is present.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-59f411e8-7c3c-4276-aaca-e92a232297dd.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c038-attempt-01-portrait-and-water-edge.png",
+          "sha256": "e71faa763e5363a99a559983ed7b32c33d98629bc28cf4aab34f74fcf3828200",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 38\nPrimary request: Create one independent Roman-era marine-dye workshop scene grounded in Pliny's transmitted account of dyeing wool with purple-shellfish liquor. A complete broad lead cauldron stands fully inside the composition at the end of a long low masonry furnace flue; one complete pale wool fleece is being lowered into the dark amethyst bath with plain wooden tongs by one fully visible adult craftsperson in historically plausible undyed Roman work clothes. A second complete adult craftsperson, also fully visible, skims harmless froth with a simple ladle. A low basket containing several intact recognizable Mediterranean murex shells sits fully within the scene, clearly source material rather than a display of injury. Keep all figures, limbs, tools, vessel, basket, shells, furnace mouth, and rising vapor completely visible with generous breathing room.\nScene/backdrop: open-sided coastal workshop with distant Mediterranean shore suggested far behind; the sea and every wet area must remain fully enclosed inside the image and never touch any canvas edge.\nStyle/medium: original Plinian natural-history folio painted directly on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion; rough materiality with polished, anatomically and mechanically clear draftsmanship.\nComposition/framing: wide three-quarter interior view from slightly above; cauldron as central dark oval, long furnace flue leading diagonally through the scene, asymmetric triangular rhythm; single coherent scene, no page border, no compartments.\nLighting/mood: low furnace glow and soft coastal daylight; attentive historical observation, calm skilled labor, no spectacle.\nColor palette: restrained umber, lampblack and ochre with a concentrated amethyst-purple bath, small faded-lapis distance, muted verdigris shadow.\nConstraints: exactly two adult humans; one fleece; all subjects and objects complete and fully inside the canvas; plausible Roman tools and dress; liquid and shoreline fully internal; acknowledge this as a historical craft scene, not instructions.\nAvoid: text, lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, decorative border, framed page, panel, diptych, triptych, collage, repeated imagery, cropped limbs or tools, severed anatomy, gore, extracted animal organs, cruelty, modern objects, modern protective equipment, photography, glossy CGI, neon color.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the output was portrait rather than 1536x1024 landscape and distant sea reached the left image edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:39",
+      "title": "WHEN PURPLE WAS FIRST USED AT ROME: WHEN THE LATICLAVE VESTMENT AND THE PRÆTEXTA WERE FIRST WORN",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c039.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "2a58ed54a30cf42d4f360af0e1d2e53655af9757738551befca2901fd0c81e7b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-21d339f9-75e5-4525-9f06-659727ab246b",
+      "generationArtifactId": "exec-21d339f9-75e5-4525-9f06-659727ab246b",
+      "outputArtifact": "built-in-imagegen://exec-21d339f9-75e5-4525-9f06-659727ab246b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Visualize Pliny's transmitted history of purple civic dress at Rome without identifying any legendary person. In a quiet early Roman atrium, exactly one complete adult civic official stands in calm three-quarter profile, fully visible from head through both sandaled feet, wearing a historically plausible ivory toga praetexta with one restrained dark-purple border over a plain tunic bearing one broad vertical purple stripe. Nearby, a complete simple wooden rack fully inside the scene holds one folded purple-and-ivory ceremonial trabea, allowing the three garment traditions to read through material and cut rather than symbols or labels. The figure is dignified and ordinary, not enthroned and not performing.\nScene/backdrop: sparse Roman atrium with an internal impluvium whose small still-water rectangle is fully surrounded by floor and far from every canvas edge; two plain columns and a distant doorway, no inscriptions.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall linework, fine cross-hatching and stipple, dry-brush abrasion; ancient and timeless, materially rough yet polished in cloth anatomy and drapery.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low eye-level view, solitary figure offset from center, garment rack balancing the opposite side, broad quiet negative space and complete architectural shapes; every cloth hem, rack foot, human limb and sandal fully visible with generous margin. One coherent scene.\nLighting/mood: cool morning light crossing warm stone; restrained civic gravity, historical testimony rather than triumphal propaganda.\nColor palette: ivory, faded amethyst, deep Tyrian purple, umber, lampblack, a small muted verdigris accent.\nConstraints: 1536x1024 landscape; exactly one complete adult human; accurate plausible Roman dress; complete garments and rack; water wholly internal; no attempt at a named portrait.\nAvoid: any water touching an edge, text, letters, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, repeated imagery, cropped figure or cloth, crowns, throne, military victory spectacle, ethnic caricature, modern tailoring, modern objects, photography, glossy CGI, saturated neon purple.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-21d339f9-75e5-4525-9f06-659727ab246b",
+          "outputArtifact": "built-in-imagegen://exec-21d339f9-75e5-4525-9f06-659727ab246b.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Visualize Pliny's transmitted history of purple civic dress at Rome without identifying any legendary person. In a quiet early Roman atrium, exactly one complete adult civic official stands in calm three-quarter profile, fully visible from head through both sandaled feet, wearing a historically plausible ivory toga praetexta with one restrained dark-purple border over a plain tunic bearing one broad vertical purple stripe. Nearby, a complete simple wooden rack fully inside the scene holds one folded purple-and-ivory ceremonial trabea, allowing the three garment traditions to read through material and cut rather than symbols or labels. The figure is dignified and ordinary, not enthroned and not performing.\nScene/backdrop: sparse Roman atrium with an internal impluvium whose small still-water rectangle is fully surrounded by floor and far from every canvas edge; two plain columns and a distant doorway, no inscriptions.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall linework, fine cross-hatching and stipple, dry-brush abrasion; ancient and timeless, materially rough yet polished in cloth anatomy and drapery.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low eye-level view, solitary figure offset from center, garment rack balancing the opposite side, broad quiet negative space and complete architectural shapes; every cloth hem, rack foot, human limb and sandal fully visible with generous margin. One coherent scene.\nLighting/mood: cool morning light crossing warm stone; restrained civic gravity, historical testimony rather than triumphal propaganda.\nColor palette: ivory, faded amethyst, deep Tyrian purple, umber, lampblack, a small muted verdigris accent.\nConstraints: 1536x1024 landscape; exactly one complete adult human; accurate plausible Roman dress; complete garments and rack; water wholly internal; no attempt at a named portrait.\nAvoid: any water touching an edge, text, letters, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, repeated imagery, cropped figure or cloth, crowns, throne, military victory spectacle, ethnic caricature, modern tailoring, modern objects, photography, glossy CGI, saturated neon purple.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c039.png",
+          "sha256": "2a58ed54a30cf42d4f360af0e1d2e53655af9757738551befca2901fd0c81e7b",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The civic garments are treated as a visual reconstruction of Pliny's transmitted costume history. The solitary official is deliberately anonymous and is not asserted to be Romulus, Tullus Hostilius, or another named historical person.",
+      "visualQaNotes": "Native-resolution review confirmed exactly one complete anonymous adult official, a complete garment rack and fully internal impluvium. Drapery, hands, sandals, rack feet, cloth hems and architecture are legible and safely framed. No inscription, pseudo-writing, crown, throne, panel, collage, or modern tailoring is present.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:40",
+      "title": "THE AMETHYST, THE TYRIAN, THE HYSGINIAN, AND THE CRIMSON TINTS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c040.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "cc59a06217d9cdbc2d2f6288a25d9aa3bfb41d762c52dcc1ba88fe68e5fcc77f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-729b7a2e-a5f1-451d-9c57-c6e2400bfd24",
+      "generationArtifactId": "exec-729b7a2e-a5f1-451d-9c57-c6e2400bfd24",
+      "outputArtifact": "built-in-imagegen://exec-729b7a2e-a5f1-451d-9c57-c6e2400bfd24.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Create a materially precise Roman craft still life interpreting Pliny's skeptical account of costly dye and luxury mixtures. A small complete freestanding rectangular stone bench is seen in its entirety, including all four corners, full top, full sides and all four short supports, surrounded on every side by visible floor. On it arrange exactly two intact Mediterranean murex shells, two small lidded dye bowls—one faded violet, one dark crimson—one complete plain balance scale with two empty pans, three distinct small metal samples—silver, gold and copper—and one separate polished tortoiseshell-pattern craft plate understood as an existing material object, never attached to an animal. Show material comparison, not a recipe, price, measurement, or harm.\nScene/backdrop: spacious shadowed Roman artisan room, bare stone floor visible completely around the isolated bench; one small high window fully enclosed within the wall; no people, living animals or water.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, meticulous cross-hatching, stipple and dry-brush abrasion; ancient rough materiality with polished observational draftsmanship.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; elevated oblique view; the complete bench occupies only the central two-thirds of the canvas like an island, with a broad unbroken floor margin at left, right, top and bottom. Objects form a loose asymmetrical crescent, not rows. Every shell spine, bowl, scale arm, pan, craft plate and metal sample is complete, separated, and well clear of all image boundaries.\nLighting/mood: narrow cool window light catching metal and pigment; contemplative and critical of excess, not glamorous advertising.\nColor palette: lampblack, umber, tarnished gold, quiet silver-gray, oxidized copper; focal faded amethyst, Tyrian purple and madder crimson.\nConstraints: output 1536x1024 landscape; no humans; exactly two shells, two lidded bowls, one full balance scale, three metal samples and one craft plate; whole bench visible with floor on all four sides; historically plausible objects.\nAvoid: cropped bench, cropped furniture, cropped objects, text, letters, numbers, tally marks, labels, pseudo-writing, coins, inscriptions, signatures, logos, watermarks, decorative border, framed page, panel, diptych, triptych, collage, grid, repeated imagery, living tortoise, blood, gore, cruelty, modern laboratory equipment, photography, glossy CGI, neon pigments.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-254853b3-2fa8-4441-9841-71e36a2bf20f",
+          "outputArtifact": "built-in-imagegen://exec-254853b3-2fa8-4441-9841-71e36a2bf20f.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Create a materially precise Roman craft still life interpreting Pliny's skeptical account of costly dye and luxury mixtures. On one complete low stone worktable, all fully inside the scene, arrange exactly two intact Mediterranean murex shells beside two small covered dye bowls—one faded violet, one dark crimson—plus one complete unadorned balance scale with empty pans. Nearby lie three distinct small metal samples: pale silver, warm gold, and copper, with one separate polished tortoiseshell-pattern craft plate understood as an existing material object, never attached to an animal. Show the attraction and complication of material combinations without demonstrating a recipe, price, measurement, or harm.\nScene/backdrop: shadowed Roman artisan room with a single high window; no people, no living animals, no water.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, meticulous cross-hatching, stipple and dry-brush abrasion; ancient rough materiality with polished observational draftsmanship.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; oblique near-top-down view of the complete table as a long island with broad negative space around it; objects form an asymmetrical crescent rather than rows, charts, panels, or specimens. Every shell spine, bowl, scale arm, pan, plate edge and metal sample remains complete and well clear of all canvas edges.\nLighting/mood: narrow shaft of cool window light catching metal and pigment; contemplative, critical of excess, never glamorous advertising.\nColor palette: lampblack, umber, tarnished gold, quiet silver-gray and oxidized copper; focal touches of faded amethyst, Tyrian purple and madder crimson.\nConstraints: output 1536x1024 landscape; no humans; exactly two shells, two covered bowls, one full balance scale, three distinct metal samples and one craft plate; all complete; historically plausible objects; no formula or modern advice.\nAvoid: text, letters, numbers, tally marks, labels, pseudo-writing, coins with symbols, inscriptions, signatures, logos, watermarks, decorative border, framed page, panel, diptych, triptych, collage, grid, repeated imagery, cropped table or objects, living tortoise, blood, gore, cruelty, modern laboratory equipment, photography, glossy CGI, jewel-advertising polish, neon pigments.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c040-attempt-01-table-clipped-three-edges.png",
+          "sha256": "3182d4ce435ac872858227ffd5683c63b9bfff25478e45f882b872790a3638e2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the stone worktable was clipped at the left, right, and bottom edges despite the small craft objects being legible. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-729b7a2e-a5f1-451d-9c57-c6e2400bfd24",
+          "outputArtifact": "built-in-imagegen://exec-729b7a2e-a5f1-451d-9c57-c6e2400bfd24.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Create a materially precise Roman craft still life interpreting Pliny's skeptical account of costly dye and luxury mixtures. A small complete freestanding rectangular stone bench is seen in its entirety, including all four corners, full top, full sides and all four short supports, surrounded on every side by visible floor. On it arrange exactly two intact Mediterranean murex shells, two small lidded dye bowls—one faded violet, one dark crimson—one complete plain balance scale with two empty pans, three distinct small metal samples—silver, gold and copper—and one separate polished tortoiseshell-pattern craft plate understood as an existing material object, never attached to an animal. Show material comparison, not a recipe, price, measurement, or harm.\nScene/backdrop: spacious shadowed Roman artisan room, bare stone floor visible completely around the isolated bench; one small high window fully enclosed within the wall; no people, living animals or water.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, meticulous cross-hatching, stipple and dry-brush abrasion; ancient rough materiality with polished observational draftsmanship.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; elevated oblique view; the complete bench occupies only the central two-thirds of the canvas like an island, with a broad unbroken floor margin at left, right, top and bottom. Objects form a loose asymmetrical crescent, not rows. Every shell spine, bowl, scale arm, pan, craft plate and metal sample is complete, separated, and well clear of all image boundaries.\nLighting/mood: narrow cool window light catching metal and pigment; contemplative and critical of excess, not glamorous advertising.\nColor palette: lampblack, umber, tarnished gold, quiet silver-gray, oxidized copper; focal faded amethyst, Tyrian purple and madder crimson.\nConstraints: output 1536x1024 landscape; no humans; exactly two shells, two lidded bowls, one full balance scale, three metal samples and one craft plate; whole bench visible with floor on all four sides; historically plausible objects.\nAvoid: cropped bench, cropped furniture, cropped objects, text, letters, numbers, tally marks, labels, pseudo-writing, coins, inscriptions, signatures, logos, watermarks, decorative border, framed page, panel, diptych, triptych, collage, grid, repeated imagery, living tortoise, blood, gore, cruelty, modern laboratory equipment, photography, glossy CGI, neon pigments.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c040.png",
+          "sha256": "cc59a06217d9cdbc2d2f6288a25d9aa3bfb41d762c52dcc1ba88fe68e5fcc77f",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Pliny's price and luxury-combination claims are rendered as a non-procedural comparison of materials. The tortoiseshell-pattern plate is an existing craft object, not a living animal or an endorsement of wildlife use.",
+      "visualQaNotes": "Native-resolution review confirmed the complete freestanding bench and exact object counts: two intact shells, two lidded dye bowls, one balance with two empty pans, three separate metal samples and one craft plate. Every object and all four bench supports are internal. No formulas, measures, coins, writing, panels, living tortoise, or clipped object remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-254853b3-2fa8-4441-9841-71e36a2bf20f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c040-attempt-01-table-clipped-three-edges.png",
+          "sha256": "3182d4ce435ac872858227ffd5683c63b9bfff25478e45f882b872790a3638e2",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Create a materially precise Roman craft still life interpreting Pliny's skeptical account of costly dye and luxury mixtures. On one complete low stone worktable, all fully inside the scene, arrange exactly two intact Mediterranean murex shells beside two small covered dye bowls—one faded violet, one dark crimson—plus one complete unadorned balance scale with empty pans. Nearby lie three distinct small metal samples: pale silver, warm gold, and copper, with one separate polished tortoiseshell-pattern craft plate understood as an existing material object, never attached to an animal. Show the attraction and complication of material combinations without demonstrating a recipe, price, measurement, or harm.\nScene/backdrop: shadowed Roman artisan room with a single high window; no people, no living animals, no water.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, meticulous cross-hatching, stipple and dry-brush abrasion; ancient rough materiality with polished observational draftsmanship.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; oblique near-top-down view of the complete table as a long island with broad negative space around it; objects form an asymmetrical crescent rather than rows, charts, panels, or specimens. Every shell spine, bowl, scale arm, pan, plate edge and metal sample remains complete and well clear of all canvas edges.\nLighting/mood: narrow shaft of cool window light catching metal and pigment; contemplative, critical of excess, never glamorous advertising.\nColor palette: lampblack, umber, tarnished gold, quiet silver-gray and oxidized copper; focal touches of faded amethyst, Tyrian purple and madder crimson.\nConstraints: output 1536x1024 landscape; no humans; exactly two shells, two covered bowls, one full balance scale, three distinct metal samples and one craft plate; all complete; historically plausible objects; no formula or modern advice.\nAvoid: text, letters, numbers, tally marks, labels, pseudo-writing, coins with symbols, inscriptions, signatures, logos, watermarks, decorative border, framed page, panel, diptych, triptych, collage, grid, repeated imagery, cropped table or objects, living tortoise, blood, gore, cruelty, modern laboratory equipment, photography, glossy CGI, jewel-advertising polish, neon pigments.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the stone worktable was clipped at the left, right, and bottom edges despite the small craft objects being legible. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:41",
+      "title": "THE AMETHYST, THE TYRIAN, THE HYSGINIAN, AND THE CRIMSON TINTS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c041.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "fa518f8ef838e69a8bc16cd0a857aa8c0bdb88cb7ccaa07e3f7dbca1f3c1faad",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3a4a4850-9c01-4e38-950e-00fe2910d8f5",
+      "generationArtifactId": "exec-3a4a4850-9c01-4e38-950e-00fe2910d8f5",
+      "outputArtifact": "built-in-imagegen://exec-3a4a4850-9c01-4e38-950e-00fe2910d8f5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted account of amethyst, Tyrian, crimson and hysginian color as a Roman courtyard material study, not a recipe. One complete freestanding wooden drying rack stands fully inside the image with its full crossbar, braces and exactly four feet visible. It carries EXACTLY THREE textile pieces total—no more: at left one complete pale-amethyst wool rectangle, at center one complete deep Tyrian-purple wool rectangle, at right one complete mellow crimson-purple wool rectangle. Each of the three pieces hangs from its own clearly separated portion of the crossbar, with open air visible between them; no overlapping cloth, no hidden fourth fabric, no fabric behind another. At the rack's base, one low woven bowl holds one complete leafy kermes-oak sprig with tiny natural red scale-galls, beside exactly two intact murex shells. No people and no liquids.\nScene/backdrop: simple open courtyard with only an uninterrupted plaster wall, stone floor and distant dry hillside; no columns, doors, furniture or architecture touching the frame.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; tactile fiber, shell and leaf detail, rough and polished at once.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; airy slightly oblique side view; complete rack occupies the central two-thirds and is surrounded by visible floor and wall on every side. Every textile corner and tassel, shell spine, leaf, bowl rim, crossbar end, brace and foot is fully visible and well clear of all edges. Single coherent scene, not a chart or display grid.\nLighting/mood: late-afternoon side light; contemplative craft history and color aging, not luxury advertising.\nColor palette: limestone, ochre and umber with restrained pale amethyst, black-purple, madder-crimson, muted verdigris leaves and faint faded-lapis shadows.\nConstraints: output 1536x1024 landscape; exactly three and only three cloth rectangles; exactly two shells; one bowl; one kermes sprig; one complete four-footed rack; all fully visible; no procedural demonstration.\nAvoid: fourth cloth, hidden textile, overlapping textiles, cropped object or architecture, text, letters, labels, numerals, pseudo-writing, color swatches, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, grid, repeated motifs, living-animal harm, modern textile machinery, fashion showroom, photography, glossy CGI, neon color.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-18851f59-f98e-4115-a258-bf7318c85663",
+          "outputArtifact": "built-in-imagegen://exec-18851f59-f98e-4115-a258-bf7318c85663.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted account of layered purple, amethyst, crimson and hysginian dyes as a quiet Roman courtyard study of materials, not a recipe. One complete freestanding wooden A-frame drying rack, fully inside the scene with all four feet visible, carries exactly three separate complete woven wool lengths draped at different depths: one pale weathered amethyst, one dark Tyrian purple, and one mellow crimson-purple. The cloths overlap visually in a loose cascade but remain individually readable and completely visible. At the rack's base, fully inside the composition, place one low woven bowl holding one complete leafy kermes-oak sprig with tiny natural red scale-galls, beside exactly two intact murex shells. No people and no liquids.\nScene/backdrop: sun-warmed Roman courtyard with a low plaster wall and a distant dry hillside; no water, no written marks.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; rough and polished at once, with tactile fiber, shell and leaf detail.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; airy side view, rack angled diagonally rather than frontally, cloth cascade creating a broad S-curve; extensive negative space and a full strip of floor beneath every rack foot. All cloth edges, tassels, shell spines, leaves, bowl and rack ends remain complete and far from the canvas edges. Single coherent courtyard scene, not a color chart.\nLighting/mood: late-afternoon side light; contemplative craft history and the passage of color with age, never advertising luxury.\nColor palette: warm limestone, ochre and umber, with restrained pale amethyst, deep black-purple, madder-crimson, muted verdigris leaves and faded-lapis shadow.\nConstraints: output 1536x1024 landscape; no humans; exactly three separate cloth lengths, two shells, one bowl, one kermes sprig and one complete rack; all fully visible; no procedural demonstration.\nAvoid: text, letters, labels, numerals, pseudo-writing, color swatches, legends, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, grid, repeated motifs, cropped rack or fabric, cut-off tassels or shells, living-animal harm, modern textile machinery, modern fashion display, photography, glossy CGI, neon purple or red.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c041-attempt-01-background-column-clipped-left.png",
+          "sha256": "8de8cd3a5a7f52447caa080ebc1a1950497d4bd1955868cc5f60f3cf973a80a4",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because a foreground architectural column was clipped at the left edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-43aa53c1-1ab1-47da-9de0-e9a55a1a6a12",
+          "outputArtifact": "built-in-imagegen://exec-43aa53c1-1ab1-47da-9de0-e9a55a1a6a12.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted account of layered purple, amethyst, crimson and hysginian dyes as a quiet Roman courtyard study of materials, not a recipe. One complete freestanding wooden A-frame drying rack, fully inside the image with its entire crossbar, braces and all four feet visible, carries exactly three separate complete woven wool lengths: one pale weathered amethyst, one dark Tyrian purple, and one mellow crimson-purple. The three cloths drape at different depths in a loose cascade but remain individually readable and complete. At the rack's base place one low woven bowl holding one complete leafy kermes-oak sprig with tiny natural red scale-galls, beside exactly two intact murex shells. No people and no liquids.\nScene/backdrop: simple open Roman courtyard made only of a broad uninterrupted plaster wall, a full strip of stone floor and a distant dry hillside appearing above the wall. Do not place any column, doorway, furniture or architecture against a canvas boundary.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; tactile fiber, shell and leaf detail, rough and polished at once.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; airy diagonal side view; the complete rack occupies the central two-thirds, surrounded by visible floor and wall on all four sides. Cloths create a gentle S-curve rather than a row or chart. Every fabric edge, tassel, shell spine, leaf, bowl rim, crossbar end and rack foot remains complete, separated and well clear of the image edges.\nLighting/mood: late-afternoon side light; contemplative craft history and color aging, not luxury advertising.\nColor palette: limestone, ochre and umber with restrained pale amethyst, deep black-purple, madder-crimson, muted verdigris leaves and faint faded-lapis shadows.\nConstraints: output 1536x1024 landscape; no humans; exactly three separate cloth lengths, two shells, one bowl, one kermes sprig and one complete rack; all objects fully visible; no procedural demonstration.\nAvoid: any cropped object or architecture, text, letters, labels, numerals, pseudo-writing, color swatches, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, grid, repeated motifs, living-animal harm, modern textile machinery, modern fashion display, photography, glossy CGI, neon purple or red.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c041-attempt-02-four-cloth-count.png",
+          "sha256": "6b8b9684fa3870a4932666c0eb288405170d8df073d45de69babff8e215e4cd4",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the rack visibly carried four cloth pieces rather than the requested three. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-3a4a4850-9c01-4e38-950e-00fe2910d8f5",
+          "outputArtifact": "built-in-imagegen://exec-3a4a4850-9c01-4e38-950e-00fe2910d8f5.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted account of amethyst, Tyrian, crimson and hysginian color as a Roman courtyard material study, not a recipe. One complete freestanding wooden drying rack stands fully inside the image with its full crossbar, braces and exactly four feet visible. It carries EXACTLY THREE textile pieces total—no more: at left one complete pale-amethyst wool rectangle, at center one complete deep Tyrian-purple wool rectangle, at right one complete mellow crimson-purple wool rectangle. Each of the three pieces hangs from its own clearly separated portion of the crossbar, with open air visible between them; no overlapping cloth, no hidden fourth fabric, no fabric behind another. At the rack's base, one low woven bowl holds one complete leafy kermes-oak sprig with tiny natural red scale-galls, beside exactly two intact murex shells. No people and no liquids.\nScene/backdrop: simple open courtyard with only an uninterrupted plaster wall, stone floor and distant dry hillside; no columns, doors, furniture or architecture touching the frame.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; tactile fiber, shell and leaf detail, rough and polished at once.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; airy slightly oblique side view; complete rack occupies the central two-thirds and is surrounded by visible floor and wall on every side. Every textile corner and tassel, shell spine, leaf, bowl rim, crossbar end, brace and foot is fully visible and well clear of all edges. Single coherent scene, not a chart or display grid.\nLighting/mood: late-afternoon side light; contemplative craft history and color aging, not luxury advertising.\nColor palette: limestone, ochre and umber with restrained pale amethyst, black-purple, madder-crimson, muted verdigris leaves and faint faded-lapis shadows.\nConstraints: output 1536x1024 landscape; exactly three and only three cloth rectangles; exactly two shells; one bowl; one kermes sprig; one complete four-footed rack; all fully visible; no procedural demonstration.\nAvoid: fourth cloth, hidden textile, overlapping textiles, cropped object or architecture, text, letters, labels, numerals, pseudo-writing, color swatches, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, grid, repeated motifs, living-animal harm, modern textile machinery, fashion showroom, photography, glossy CGI, neon color.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c041.png",
+          "sha256": "fa518f8ef838e69a8bc16cd0a857aa8c0bdb88cb7ccaa07e3f7dbca1f3c1faad",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The juxtaposition of marine shells, kermes oak, and dyed wool records Pliny's transmitted account of layered colors and aging pigments without supplying a dye recipe or treating ancient claims as modern material-science guidance.",
+      "visualQaNotes": "Native-resolution review confirmed exactly three and only three separate complete cloth lengths, one complete rack, one bowl with a kermes-oak sprig, and exactly two intact murex shells. All tassels, crossbar ends, supports, feet, leaves and shell spines are internal. No fourth cloth, clipped architecture, text, color chart, panel, or collage remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-18851f59-f98e-4115-a258-bf7318c85663.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c041-attempt-01-background-column-clipped-left.png",
+          "sha256": "8de8cd3a5a7f52447caa080ebc1a1950497d4bd1955868cc5f60f3cf973a80a4",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted account of layered purple, amethyst, crimson and hysginian dyes as a quiet Roman courtyard study of materials, not a recipe. One complete freestanding wooden A-frame drying rack, fully inside the scene with all four feet visible, carries exactly three separate complete woven wool lengths draped at different depths: one pale weathered amethyst, one dark Tyrian purple, and one mellow crimson-purple. The cloths overlap visually in a loose cascade but remain individually readable and completely visible. At the rack's base, fully inside the composition, place one low woven bowl holding one complete leafy kermes-oak sprig with tiny natural red scale-galls, beside exactly two intact murex shells. No people and no liquids.\nScene/backdrop: sun-warmed Roman courtyard with a low plaster wall and a distant dry hillside; no water, no written marks.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; rough and polished at once, with tactile fiber, shell and leaf detail.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; airy side view, rack angled diagonally rather than frontally, cloth cascade creating a broad S-curve; extensive negative space and a full strip of floor beneath every rack foot. All cloth edges, tassels, shell spines, leaves, bowl and rack ends remain complete and far from the canvas edges. Single coherent courtyard scene, not a color chart.\nLighting/mood: late-afternoon side light; contemplative craft history and the passage of color with age, never advertising luxury.\nColor palette: warm limestone, ochre and umber, with restrained pale amethyst, deep black-purple, madder-crimson, muted verdigris leaves and faded-lapis shadow.\nConstraints: output 1536x1024 landscape; no humans; exactly three separate cloth lengths, two shells, one bowl, one kermes sprig and one complete rack; all fully visible; no procedural demonstration.\nAvoid: text, letters, labels, numerals, pseudo-writing, color swatches, legends, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, grid, repeated motifs, cropped rack or fabric, cut-off tassels or shells, living-animal harm, modern textile machinery, modern fashion display, photography, glossy CGI, neon purple or red.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because a foreground architectural column was clipped at the left edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-43aa53c1-1ab1-47da-9de0-e9a55a1a6a12.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c041-attempt-02-four-cloth-count.png",
+          "sha256": "6b8b9684fa3870a4932666c0eb288405170d8df073d45de69babff8e215e4cd4",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted account of layered purple, amethyst, crimson and hysginian dyes as a quiet Roman courtyard study of materials, not a recipe. One complete freestanding wooden A-frame drying rack, fully inside the image with its entire crossbar, braces and all four feet visible, carries exactly three separate complete woven wool lengths: one pale weathered amethyst, one dark Tyrian purple, and one mellow crimson-purple. The three cloths drape at different depths in a loose cascade but remain individually readable and complete. At the rack's base place one low woven bowl holding one complete leafy kermes-oak sprig with tiny natural red scale-galls, beside exactly two intact murex shells. No people and no liquids.\nScene/backdrop: simple open Roman courtyard made only of a broad uninterrupted plaster wall, a full strip of stone floor and a distant dry hillside appearing above the wall. Do not place any column, doorway, furniture or architecture against a canvas boundary.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; tactile fiber, shell and leaf detail, rough and polished at once.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; airy diagonal side view; the complete rack occupies the central two-thirds, surrounded by visible floor and wall on all four sides. Cloths create a gentle S-curve rather than a row or chart. Every fabric edge, tassel, shell spine, leaf, bowl rim, crossbar end and rack foot remains complete, separated and well clear of the image edges.\nLighting/mood: late-afternoon side light; contemplative craft history and color aging, not luxury advertising.\nColor palette: limestone, ochre and umber with restrained pale amethyst, deep black-purple, madder-crimson, muted verdigris leaves and faint faded-lapis shadows.\nConstraints: output 1536x1024 landscape; no humans; exactly three separate cloth lengths, two shells, one bowl, one kermes sprig and one complete rack; all objects fully visible; no procedural demonstration.\nAvoid: any cropped object or architecture, text, letters, labels, numerals, pseudo-writing, color swatches, inscriptions, signatures, logos, watermarks, decorative border, framed page, panels, diptych, triptych, collage, grid, repeated motifs, living-animal harm, modern textile machinery, modern fashion display, photography, glossy CGI, neon purple or red.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the rack visibly carried four cloth pieces rather than the requested three. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:42",
+      "title": "THE PINNA, AND THE PINNOTHERES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c042.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "f8ef2d80ee84073d437de55b3af237a509daf8f77224b5e1ec6b57fdb563494c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-13d959af-09a7-4f11-a050-eb2b5ae6ec22",
+      "generationArtifactId": "exec-13d959af-09a7-4f11-a050-eb2b5ae6ec22",
+      "outputArtifact": "built-in-imagegen://exec-13d959af-09a7-4f11-a050-eb2b5ae6ec22.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Visualize Pliny's transmitted observation of the pinna and pinnotheres with modern taxonomic humility. In one complete shallow, clear Mediterranean rock basin seen from a high oblique angle, show exactly one plausible noble pen shell, Pinna nobilis, standing upright and firmly rooted in soft silt beneath the water. Its two long fan-shaped valves are complete, anatomically plausible and slightly open. Exactly one tiny complete pea crab rests naturally beside the shell opening as the reported companion, not a servant or caricature. Exactly three small complete silvery fish pass at a respectful distance; no capture, biting or death.\nScene/backdrop: a natural oval cove-like rock basin whose entire blue-green water shape is visibly enclosed on all sides by a broad rim of warm stone, silt, seagrass and dry shore; absolutely no water touches any canvas edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent dry-brush mineral washes; precise shell and crustacean anatomy, rough material with polished observation.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; elevated diagonal view. The pen shell is the off-center vertical anchor, crab immediately nearby but visually distinct, three fish forming a gentle arc farther away. The complete oval water basin occupies only the central two-thirds, surrounded by dry vellum-toned rock on every edge. Every shell tip, crab leg, fish fin, seagrass blade and stone remains complete with breathing room. One continuous ecosystem, no specimen boxes or diagrams.\nLighting/mood: clear dawn light through shallow water; quiet curiosity, mutual life, and epistemic caution.\nColor palette: faded lapis and muted verdigris water held inside ochre and umber rock, shell browns, tiny madder accents.\nConstraints: output 1536x1024 landscape; exactly one pen shell, one pea crab and three fish; all complete; water fully enclosed; portray the companionship claim as transmitted ancient observation, not proven coordination.\nAvoid: water touching any image edge, cropped shell or animals, extra crabs, extra shells, fish attack, dead animals, gore, anthropomorphism, text, letters, labels, numerals, pseudo-writing, signatures, logos, watermark, decorative border, framed page, panels, diptych, triptych, collage, cutaway diagram, modern aquarium, photography, glossy CGI, neon tropical color.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-13d959af-09a7-4f11-a050-eb2b5ae6ec22",
+          "outputArtifact": "built-in-imagegen://exec-13d959af-09a7-4f11-a050-eb2b5ae6ec22.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Visualize Pliny's transmitted observation of the pinna and pinnotheres with modern taxonomic humility. In one complete shallow, clear Mediterranean rock basin seen from a high oblique angle, show exactly one plausible noble pen shell, Pinna nobilis, standing upright and firmly rooted in soft silt beneath the water. Its two long fan-shaped valves are complete, anatomically plausible and slightly open. Exactly one tiny complete pea crab rests naturally beside the shell opening as the reported companion, not a servant or caricature. Exactly three small complete silvery fish pass at a respectful distance; no capture, biting or death.\nScene/backdrop: a natural oval cove-like rock basin whose entire blue-green water shape is visibly enclosed on all sides by a broad rim of warm stone, silt, seagrass and dry shore; absolutely no water touches any canvas edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent dry-brush mineral washes; precise shell and crustacean anatomy, rough material with polished observation.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; elevated diagonal view. The pen shell is the off-center vertical anchor, crab immediately nearby but visually distinct, three fish forming a gentle arc farther away. The complete oval water basin occupies only the central two-thirds, surrounded by dry vellum-toned rock on every edge. Every shell tip, crab leg, fish fin, seagrass blade and stone remains complete with breathing room. One continuous ecosystem, no specimen boxes or diagrams.\nLighting/mood: clear dawn light through shallow water; quiet curiosity, mutual life, and epistemic caution.\nColor palette: faded lapis and muted verdigris water held inside ochre and umber rock, shell browns, tiny madder accents.\nConstraints: output 1536x1024 landscape; exactly one pen shell, one pea crab and three fish; all complete; water fully enclosed; portray the companionship claim as transmitted ancient observation, not proven coordination.\nAvoid: water touching any image edge, cropped shell or animals, extra crabs, extra shells, fish attack, dead animals, gore, anthropomorphism, text, letters, labels, numerals, pseudo-writing, signatures, logos, watermark, decorative border, framed page, panels, diptych, triptych, collage, cutaway diagram, modern aquarium, photography, glossy CGI, neon tropical color.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c042.png",
+          "sha256": "f8ef2d80ee84073d437de55b3af237a509daf8f77224b5e1ec6b57fdb563494c",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The pinna-pinnotheres relationship is explicitly treated as transmitted ancient observation rather than proof of deliberate cooperation. Pinna nobilis and a pea crab are plausible visual approximations, not asserted identifications of Pliny's exact organisms.",
+      "visualQaNotes": "Native-resolution review confirmed exactly one complete upright pen shell, one complete small crab and three complete fish in one enclosed natural basin. Shell valves, crab legs, fish fins and the full water contour are visible; water touches no edge. No capture, injury, extra organism, label, panel, specimen grid, or cropped subject is present.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:44",
+      "title": "THE SENSITIVENESS OF WATER ANIMALS; THE TORPEDO, THE PASTINACA, THE SCOLOPENDRA, THE GLANIS, AND THE RAM-FISH",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c044.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "a3ff57b7768db46c3b2430d8249042c7852f81ce96d190c62c3d1eeff472afcc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4cd0dae8-1157-4b96-b55c-615060e58778",
+      "generationArtifactId": "exec-4cd0dae8-1157-4b96-b55c-615060e58778",
+      "outputArtifact": "built-in-imagegen://exec-4cd0dae8-1157-4b96-b55c-615060e58778.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Treat Pliny's brief report of the uncertain \"sea-ram\" epistemically, as transmitted coastal observation rather than a literal monster attack. In a complete enclosed Mediterranean cove viewed from a high cliff, show exactly one complete empty Roman fishing boat at anchor, all hull, mast, furled sail, oars and mooring line visible. Beneath the clear dark-blue water at a calm distance from the boat, show exactly one complete plausible large cetacean—orca-like in broad dark back and pale underside but naturally proportioned—visible as a subtle underwater body and one low dorsal fin. It neither strikes the boat nor pursues a swimmer. The relationship should remain ambiguous: a quiet animal beneath a vessel's shadow that could have seeded an ancient report.\nScene/backdrop: an irregular oval cove completely encircled by dry ochre cliffs and a narrow strip of pale shore. The entire water shape is surrounded on all sides by land and lies far from every canvas edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall linework, fine cross-hatching, stipple and translucent mineral washes; rough materiality with polished boat construction and plausible cetacean anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; bird's-eye diagonal panorama; boat small and fully internal in the upper-left portion of the cove, cetacean deeper and off-center below, broad rock and vellum negative space around the whole basin. Every fin, tail fluke, hull end, mast top, oar and line is complete and separated from edges. One continuous scene.\nLighting/mood: quiet dusk, long vessel shadow and lucid water; mystery without menace, explicit observational uncertainty.\nColor palette: faded lapis and lampblack water, muted verdigris shallows, ochre cliffs, umber boat, pale mineral highlights.\nConstraints: output 1536x1024 landscape; exactly one boat, no humans, exactly one plausible cetacean; water fully enclosed; no collision, sinking, injury or attack; do not claim a certain species identity.\nAvoid: water touching any image edge, cropped water basin, cropped boat or animal, swimmers, extra boats, extra cetaceans, mythic horns, hybrid anatomy, sea monster, attack, capsizing, drowning, blood, gore, cruelty, text, labels, pseudo-writing, signatures, logos, watermark, border, framed page, panels, collage, modern ship, photography, glossy CGI, neon water.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-4cd0dae8-1157-4b96-b55c-615060e58778",
+          "outputArtifact": "built-in-imagegen://exec-4cd0dae8-1157-4b96-b55c-615060e58778.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Treat Pliny's brief report of the uncertain \"sea-ram\" epistemically, as transmitted coastal observation rather than a literal monster attack. In a complete enclosed Mediterranean cove viewed from a high cliff, show exactly one complete empty Roman fishing boat at anchor, all hull, mast, furled sail, oars and mooring line visible. Beneath the clear dark-blue water at a calm distance from the boat, show exactly one complete plausible large cetacean—orca-like in broad dark back and pale underside but naturally proportioned—visible as a subtle underwater body and one low dorsal fin. It neither strikes the boat nor pursues a swimmer. The relationship should remain ambiguous: a quiet animal beneath a vessel's shadow that could have seeded an ancient report.\nScene/backdrop: an irregular oval cove completely encircled by dry ochre cliffs and a narrow strip of pale shore. The entire water shape is surrounded on all sides by land and lies far from every canvas edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall linework, fine cross-hatching, stipple and translucent mineral washes; rough materiality with polished boat construction and plausible cetacean anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; bird's-eye diagonal panorama; boat small and fully internal in the upper-left portion of the cove, cetacean deeper and off-center below, broad rock and vellum negative space around the whole basin. Every fin, tail fluke, hull end, mast top, oar and line is complete and separated from edges. One continuous scene.\nLighting/mood: quiet dusk, long vessel shadow and lucid water; mystery without menace, explicit observational uncertainty.\nColor palette: faded lapis and lampblack water, muted verdigris shallows, ochre cliffs, umber boat, pale mineral highlights.\nConstraints: output 1536x1024 landscape; exactly one boat, no humans, exactly one plausible cetacean; water fully enclosed; no collision, sinking, injury or attack; do not claim a certain species identity.\nAvoid: water touching any image edge, cropped water basin, cropped boat or animal, swimmers, extra boats, extra cetaceans, mythic horns, hybrid anatomy, sea monster, attack, capsizing, drowning, blood, gore, cruelty, text, labels, pseudo-writing, signatures, logos, watermark, border, framed page, panels, collage, modern ship, photography, glossy CGI, neon water.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c044.png",
+          "sha256": "a3ff57b7768db46c3b2430d8249042c7852f81ce96d190c62c3d1eeff472afcc",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The identity and behavior of Pliny's sea-ram are uncertain. A plausible orca-like cetacean beneath an empty boat is used as an explicitly speculative visual analogue, with no literal monster, attack, sinking, or species claim.",
+      "visualQaNotes": "Native-resolution review confirmed exactly one complete empty Roman boat and one complete plausible cetacean in a fully enclosed cove. Hull, mast, oars, mooring line, fins and fluke are complete and separated from all edges. No swimmer, collision, attack, horned hybrid, text, panel, or clipped water boundary is present.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:45",
+      "title": "BODIES WHICH HAVE A THIRD NATURE, THAT OF THE ANIMAL AND VEGETABLE COMBINED—THE SEA-NETTLE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c045.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "00855a798324ad0b22755112f74d31ff3b9716743a82daa95e86bcb9e42841fd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2ba5935f-7247-4a47-858d-ee5e52c0876f",
+      "generationArtifactId": "exec-2ba5935f-7247-4a47-858d-ee5e52c0876f",
+      "outputArtifact": "built-in-imagegen://exec-2ba5935f-7247-4a47-858d-ee5e52c0876f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted idea of sea-nettles and sponges as a \"third nature\" through plausible living marine forms, not literal plant-animal hybrids. In one complete shallow Mediterranean grotto pool, show exactly one complete sea anemone-like cnidarian resting naturally on a central submerged rock, its full base and all tentacles visible in calm extension. On the same rock but clearly separate, show exactly three complete plausible sponge colonies with materially different forms: one low rough dark sponge, one rounded soft ochre sponge, and one fine dense branching sponge. Add no other animals. The organisms are undisturbed and alive; no hand approaches, no harvesting, no predation.\nScene/backdrop: low horizontal view into a small natural rock grotto. The entire muted blue-green water surface is enclosed by a continuous oval of stone ledge, dry sand, cave wall and the central rock; no water touches any image edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent mineral washes; tactile porous sponge and soft cnidarian anatomy; rough ancient surface, polished natural observation.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low shoreline viewpoint with the central rock as a complete island inside the fully enclosed pool. The anemone forms a low radial focus; three distinct sponges step away asymmetrically in depth. Broad shadowed cave negative space above and dry stone margins on all sides. Every tentacle tip, sponge lobe, rock and water contour is complete and well clear of canvas edges. Single ecosystem, no taxonomy chart.\nLighting/mood: quiet predawn cave light, reflected faded lapis and soft ochre; contemplative, alive, mysterious without fantasy.\nColor palette: lampblack cave shadow, faded lapis and verdigris water, umber rock, ochre and muted madder organisms.\nConstraints: output 1536x1024 landscape; exactly one anemone-like sea-nettle and exactly three sponge colonies; no other animals or humans; all organisms and water fully enclosed; present ancient agency claims as transmitted observation, not scientific certainty.\nAvoid: water touching any canvas edge, cropped tentacles or sponges, extra sponges, jellyfish swarm, plant-animal hybrid, monster anatomy, predation, injury, gore, harvesting, medical use, text, labels, pseudo-writing, signatures, logos, watermark, decorative border, framed page, panels, diptych, triptych, collage, specimen grid, modern aquarium, photography, glossy CGI, neon reef colors.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-2ba5935f-7247-4a47-858d-ee5e52c0876f",
+          "outputArtifact": "built-in-imagegen://exec-2ba5935f-7247-4a47-858d-ee5e52c0876f.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Interpret Pliny's transmitted idea of sea-nettles and sponges as a \"third nature\" through plausible living marine forms, not literal plant-animal hybrids. In one complete shallow Mediterranean grotto pool, show exactly one complete sea anemone-like cnidarian resting naturally on a central submerged rock, its full base and all tentacles visible in calm extension. On the same rock but clearly separate, show exactly three complete plausible sponge colonies with materially different forms: one low rough dark sponge, one rounded soft ochre sponge, and one fine dense branching sponge. Add no other animals. The organisms are undisturbed and alive; no hand approaches, no harvesting, no predation.\nScene/backdrop: low horizontal view into a small natural rock grotto. The entire muted blue-green water surface is enclosed by a continuous oval of stone ledge, dry sand, cave wall and the central rock; no water touches any image edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent mineral washes; tactile porous sponge and soft cnidarian anatomy; rough ancient surface, polished natural observation.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; low shoreline viewpoint with the central rock as a complete island inside the fully enclosed pool. The anemone forms a low radial focus; three distinct sponges step away asymmetrically in depth. Broad shadowed cave negative space above and dry stone margins on all sides. Every tentacle tip, sponge lobe, rock and water contour is complete and well clear of canvas edges. Single ecosystem, no taxonomy chart.\nLighting/mood: quiet predawn cave light, reflected faded lapis and soft ochre; contemplative, alive, mysterious without fantasy.\nColor palette: lampblack cave shadow, faded lapis and verdigris water, umber rock, ochre and muted madder organisms.\nConstraints: output 1536x1024 landscape; exactly one anemone-like sea-nettle and exactly three sponge colonies; no other animals or humans; all organisms and water fully enclosed; present ancient agency claims as transmitted observation, not scientific certainty.\nAvoid: water touching any canvas edge, cropped tentacles or sponges, extra sponges, jellyfish swarm, plant-animal hybrid, monster anatomy, predation, injury, gore, harvesting, medical use, text, labels, pseudo-writing, signatures, logos, watermark, decorative border, framed page, panels, diptych, triptych, collage, specimen grid, modern aquarium, photography, glossy CGI, neon reef colors.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c045.png",
+          "sha256": "00855a798324ad0b22755112f74d31ff3b9716743a82daa95e86bcb9e42841fd",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Pliny's idea of a third nature is presented as ancient philosophical classification, not modern taxonomy. The image uses plausible cnidarian and sponge forms and does not literalize a plant-animal hybrid or medical claim.",
+      "visualQaNotes": "Native-resolution review confirmed exactly one complete anemone-like sea-nettle and exactly three distinct complete sponge colonies on a fully internal rock island. Every tentacle, sponge lobe and water contour remains inside the canvas. No extra animal, harvesting, predation, text, label, panel, grid, or clipped organism is present.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:46",
+      "title": "DOG-FISH",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c046.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "1d4e726ae948422d0e37f14e6d604b4968be39afbdc72059f423baf3ec2ee629",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f493cbb9-985f-4304-9969-386de48af7ed",
+      "generationArtifactId": "exec-f493cbb9-985f-4304-9969-386de48af7ed",
+      "outputArtifact": "built-in-imagegen://exec-f493cbb9-985f-4304-9969-386de48af7ed.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Treat Pliny's dangerous sponge-diver and dog-fish passage as transmitted ancient testimony centered on human dignity and mutual caution, never as procedural advice or combat spectacle. In a complete enclosed Mediterranean inlet, exactly one complete adult sponge diver is visible just beneath clear shallow water, ascending upright, calm and uninjured. A broad plain woven cloth support band visibly wraps around the upper torso under both armpits and across the chest, well below and completely clear of the neck; one cord rises from the back of that band. Both arms, hands, legs and feet are fully visible; the diver is empty-handed and wears a simple Roman-era loincloth. The cord leads to one complete small Roman rowing boat fully inside the cove, where exactly two complete adult companions sit securely and draw the cord together, both entire bodies, hands and feet visible. Exactly one plausible smoothhound-type dogfish swims away at a substantial distance, entire body and fins visible, not attacking. Exactly three natural sponge colonies remain undisturbed on one internal seabed rock.\nScene/backdrop: high oblique view into a sheltered oval inlet completely encircled by a broad dry ochre shore and low stone shelves. Every area of blue-green water is enclosed by land and far from all canvas edges.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent mineral washes; rough ancient surface with polished human, fish and boat anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; diver forms a clear diagonal beneath the boat, two companions balance above, dogfish recedes in the opposite lower quadrant, three sponges grouped on one complete rock. Broad dry-land margin around the whole inlet. All people, fingers, feet, support band, cord, boat ends, fish fins and sponges are complete and well clear of edges. One coherent event, not a safety diagram.\nLighting/mood: lucid early-morning light; solidarity, vigilance and restraint, no panic or heroics.\nColor palette: faded lapis and muted verdigris water, ochre shore, umber boat and skin tones, lampblack dogfish, soft madder accents.\nConstraints: output 1536x1024 landscape; exactly three adult humans total, one boat, one dogfish, one support band with one cord, three sponge colonies; cord must never touch or encircle neck; no weapons or injury; water fully enclosed; historical testimony, not advice.\nAvoid: rope or cord around neck, collar, choking hazard, water touching any edge, cropped humans, boat, cord, fish or sponges, extra people, extra sharks, attack, bite, blood, gore, drowning, body horror, spear, knife, stiletto, trident, combat, panic, ethnic stigma, heroic spectacle, medical or diving instruction, text, labels, pseudo-writing, signatures, logos, watermark, border, framed page, panels, collage, modern scuba gear, photography, glossy CGI, neon water.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-b51036b8-1a75-4871-abe7-59e36a66b8f5",
+          "outputArtifact": "built-in-imagegen://exec-b51036b8-1a75-4871-abe7-59e36a66b8f5.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Treat Pliny's dangerous sponge-diver and dog-fish passage as transmitted ancient testimony centered on human dignity and mutual caution, never as procedural advice or combat spectacle. In a complete enclosed Mediterranean inlet, exactly one complete adult sponge diver is visible just beneath clear shallow water, ascending upright and calmly with a plain safety cord looped beneath the shoulders. Both arms, hands, legs and feet are fully visible; the diver is uninjured, empty-handed, and wears a historically plausible simple loincloth. The cord leads to one complete small Roman rowing boat fully inside the cove, where exactly two complete adult companions sit securely and pull together, both entire bodies and limbs visible. Exactly one plausible smoothhound-type dogfish swims away at a substantial distance, its entire body, fins and tail visible; it is not attacking. Exactly three natural sponge colonies remain undisturbed on an internal seabed rock.\nScene/backdrop: high oblique view into a sheltered oval inlet completely encircled by a wide dry ochre shore and low stone shelves. Every area of blue-green water is enclosed by land and far from every canvas edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent mineral washes; rough ancient surface with polished human, shark and boat anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; diver forms a clear diagonal beneath the boat, two companions balance above, single dogfish recedes in the opposite lower quadrant, three sponges grouped on one complete rock. Broad dry-land margin around the whole inlet. All people, fingers, feet, rope, boat ends, oars, fish fins, tail and sponges are complete and separated from image edges. One coherent event, not a safety diagram.\nLighting/mood: lucid early-morning light; solidarity, vigilance and restraint, no panic or heroics.\nColor palette: faded lapis and muted verdigris water, ochre shore, umber boat and skin tones, lampblack dogfish, soft madder accents.\nConstraints: output 1536x1024 landscape; exactly three adult humans total, one boat, one dogfish, one cord and three sponge colonies; no weapons; no injury; water fully enclosed; depict historical testimony, not advice.\nAvoid: water touching any image edge, cropped humans, boat, rope, fish or sponges, extra people, extra sharks, attack, bite, blood, gore, drowning, body horror, spear, knife, stiletto, trident, combat, panic, ethnic stigma, heroic spectacle, medical or diving instruction, text, labels, pseudo-writing, signatures, logos, watermark, border, framed page, panels, collage, modern scuba gear, photography, glossy CGI, neon water.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c046-attempt-01-cord-appears-around-neck.png",
+          "sha256": "20117fbaaafa9ecd581849be04c57a47f3cb8fc5b76bd12ab7bcddcbb1353d22",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the support cord visually read as a loop around the diver's neck, creating an unintended hazard. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-f493cbb9-985f-4304-9969-386de48af7ed",
+          "outputArtifact": "built-in-imagegen://exec-f493cbb9-985f-4304-9969-386de48af7ed.png",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Treat Pliny's dangerous sponge-diver and dog-fish passage as transmitted ancient testimony centered on human dignity and mutual caution, never as procedural advice or combat spectacle. In a complete enclosed Mediterranean inlet, exactly one complete adult sponge diver is visible just beneath clear shallow water, ascending upright, calm and uninjured. A broad plain woven cloth support band visibly wraps around the upper torso under both armpits and across the chest, well below and completely clear of the neck; one cord rises from the back of that band. Both arms, hands, legs and feet are fully visible; the diver is empty-handed and wears a simple Roman-era loincloth. The cord leads to one complete small Roman rowing boat fully inside the cove, where exactly two complete adult companions sit securely and draw the cord together, both entire bodies, hands and feet visible. Exactly one plausible smoothhound-type dogfish swims away at a substantial distance, entire body and fins visible, not attacking. Exactly three natural sponge colonies remain undisturbed on one internal seabed rock.\nScene/backdrop: high oblique view into a sheltered oval inlet completely encircled by a broad dry ochre shore and low stone shelves. Every area of blue-green water is enclosed by land and far from all canvas edges.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent mineral washes; rough ancient surface with polished human, fish and boat anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; diver forms a clear diagonal beneath the boat, two companions balance above, dogfish recedes in the opposite lower quadrant, three sponges grouped on one complete rock. Broad dry-land margin around the whole inlet. All people, fingers, feet, support band, cord, boat ends, fish fins and sponges are complete and well clear of edges. One coherent event, not a safety diagram.\nLighting/mood: lucid early-morning light; solidarity, vigilance and restraint, no panic or heroics.\nColor palette: faded lapis and muted verdigris water, ochre shore, umber boat and skin tones, lampblack dogfish, soft madder accents.\nConstraints: output 1536x1024 landscape; exactly three adult humans total, one boat, one dogfish, one support band with one cord, three sponge colonies; cord must never touch or encircle neck; no weapons or injury; water fully enclosed; historical testimony, not advice.\nAvoid: rope or cord around neck, collar, choking hazard, water touching any edge, cropped humans, boat, cord, fish or sponges, extra people, extra sharks, attack, bite, blood, gore, drowning, body horror, spear, knife, stiletto, trident, combat, panic, ethnic stigma, heroic spectacle, medical or diving instruction, text, labels, pseudo-writing, signatures, logos, watermark, border, framed page, panels, collage, modern scuba gear, photography, glossy CGI, neon water.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c046.png",
+          "sha256": "1d4e726ae948422d0e37f14e6d604b4968be39afbdc72059f423baf3ec2ee629",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The diver, fish-cloud and dog-fish passage is treated as perilous transmitted testimony, not diving, self-defense, or medical advice. Human solidarity and dignity are centered; the dogfish is a plausible smoothhound analogue shown retreating without attack.",
+      "visualQaNotes": "Native-resolution review confirmed exactly three adult humans, one complete boat, one complete dogfish, one broad torso support band with its cord clear of the neck, and exactly three sponge colonies. The diver is uninjured and empty-handed; water and all anatomy are internal. No weapon, attack, blood, choking loop, extra shark, text, panel, or clipped subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b51036b8-1a75-4871-abe7-59e36a66b8f5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-05/evidence/history/b09-c046-attempt-01-cord-appears-around-neck.png",
+          "sha256": "20117fbaaafa9ecd581849be04c57a47f3cb8fc5b76bd12ab7bcddcbb1353d22",
+          "exactPrompt": "Use case: historical-scene\nAsset type: horizontal landscape chapter illustration, REQUIRED native canvas 1536 pixels wide by 1024 pixels high, exact 3:2 landscape orientation\nPrimary request: Treat Pliny's dangerous sponge-diver and dog-fish passage as transmitted ancient testimony centered on human dignity and mutual caution, never as procedural advice or combat spectacle. In a complete enclosed Mediterranean inlet, exactly one complete adult sponge diver is visible just beneath clear shallow water, ascending upright and calmly with a plain safety cord looped beneath the shoulders. Both arms, hands, legs and feet are fully visible; the diver is uninjured, empty-handed, and wears a historically plausible simple loincloth. The cord leads to one complete small Roman rowing boat fully inside the cove, where exactly two complete adult companions sit securely and pull together, both entire bodies and limbs visible. Exactly one plausible smoothhound-type dogfish swims away at a substantial distance, its entire body, fins and tail visible; it is not attacking. Exactly three natural sponge colonies remain undisturbed on an internal seabed rock.\nScene/backdrop: high oblique view into a sheltered oval inlet completely encircled by a wide dry ochre shore and low stone shelves. Every area of blue-green water is enclosed by land and far from every canvas edge.\nStyle/medium: original Plinian marine natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, stipple and translucent mineral washes; rough ancient surface with polished human, shark and boat anatomy.\nComposition/framing: STRICTLY WIDE HORIZONTAL 3:2; diver forms a clear diagonal beneath the boat, two companions balance above, single dogfish recedes in the opposite lower quadrant, three sponges grouped on one complete rock. Broad dry-land margin around the whole inlet. All people, fingers, feet, rope, boat ends, oars, fish fins, tail and sponges are complete and separated from image edges. One coherent event, not a safety diagram.\nLighting/mood: lucid early-morning light; solidarity, vigilance and restraint, no panic or heroics.\nColor palette: faded lapis and muted verdigris water, ochre shore, umber boat and skin tones, lampblack dogfish, soft madder accents.\nConstraints: output 1536x1024 landscape; exactly three adult humans total, one boat, one dogfish, one cord and three sponge colonies; no weapons; no injury; water fully enclosed; depict historical testimony, not advice.\nAvoid: water touching any image edge, cropped humans, boat, rope, fish or sponges, extra people, extra sharks, attack, bite, blood, gore, drowning, body horror, spear, knife, stiletto, trident, combat, panic, ethnic stigma, heroic spectacle, medical or diving instruction, text, labels, pseudo-writing, signatures, logos, watermark, border, framed page, panels, collage, modern scuba gear, photography, glossy CGI, neon water.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the support cord visually read as a loop around the diver's neck, creating an unintended hazard. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

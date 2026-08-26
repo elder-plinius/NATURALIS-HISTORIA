@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-51",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 497,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:107": {
+        "nearestMAD": 26.21,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c014.png",
+        "madAtDHashPeer": 81.48
+      },
+      "2:108": {
+        "nearestMAD": 23.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c004.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c078.png",
+        "madAtDHashPeer": 25.24
+      },
+      "2:109": {
+        "nearestMAD": 30.04,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c090.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c008.png",
+        "madAtDHashPeer": 40.59
+      },
+      "3:2": {
+        "nearestMAD": 23.66,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c007.png",
+        "madAtDHashPeer": 38.16
+      },
+      "3:3": {
+        "nearestMAD": 24.82,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c003.png",
+        "madAtDHashPeer": 50.79
+      },
+      "3:6": {
+        "nearestMAD": 25.15,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b24-c018.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c006.png",
+        "madAtDHashPeer": 48.76
+      },
+      "3:8": {
+        "nearestMAD": 22.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c047.png",
+        "madAtDHashPeer": 37.27
+      },
+      "3:9": {
+        "nearestMAD": 21.62,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c013.png",
+        "madAtDHashPeer": 36.67
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:107",
+      "title": "WONDERS OF FIRE ALONE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c107.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "c4928274c4dad3ad9ed22f3513382cc621ad062ea9ee497bc4206563939d3d32",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9988565f-39fe-47e8-8266-f57ec2bc8afd",
+      "generationArtifactId": "exec-9988565f-39fe-47e8-8266-f57ec2bc8afd",
+      "outputArtifact": "built-in-imagegen://exec-9988565f-39fe-47e8-8266-f57ec2bc8afd.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 107, “Wonders of Fire Alone”\nPrimary request: Render one of Pliny’s strangest transmitted fire reports without turning the chapter into a catalogue or endorsing a modern mechanism. In a dark rainstorm at the rocky spring of Nymphaeum, one complete young ash tree stands fully green and unharmed above one complete small spring issuing from a split black stone. Where cold rain strikes the spring and rock, exactly one modest blue-ochre flame flickers low over the water; it remains localized, does not burn the tree, and casts a subtle warm reflection. A single complete broken dry twig lies nearby but is not ignited. No person watches. The contrast should express Pliny’s wonder that scattered natural fires do not consume the world.\nScene/backdrop: one finite rocky hollow with every large stone fully contained, one complete young ash tree with full crown, trunk, roots and ground contact visible, one complete spring pool, one localized flame, rain veils and distant low contained ridges; no volcano, lava river, funeral pyre, altar, city, building, mirror, human figure, animal or second fire\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; lampblack storm, deep faded-lapis rain and water, muted verdigris ash leaves, umber stone, one restrained ochre-madder flame; ancient, timeless, beautiful, rough in material and polished in draftsmanship; rain-fire marvel dialect with cool darkness, one tiny warm center and meticulous wet bark\nComposition/framing: 3:2 landscape, low close view into the hollow. Place the complete ash tree slightly left of centre and the small spring-flame at its lower right, with a diagonal rain curtain and broad dark negative sky. Keep every leaf cluster, branch tip, trunk, exposed root, stone, flame tip, spring edge, twig, reflection and shadow comfortably inside generous uninterrupted breathing room on all four edges.\nHistorical and epistemic framing: illustrate Pliny’s reported fiery spring as ancient natural-history testimony; do not claim the rain-kindled flame or evergreen tree is established modern fact and do not invent a scientific explanation.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, storm and rocky-hollow washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, Vesuvius, erupting mountain, lava, burning tree, forest fire, lightning bolt striking the tree, multiple flames, magical aura, deity, diagram, split panel, collage, repeated crop, modern object, clipped tree, clipped flame, clipped stone, edge-entering branch, photography, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete green ash tree, crown, trunk, roots, rocky hollow, spring pool, exactly one localized flame, reflection and dry twig are fully contained. The storm reads as Pliny’s transmitted marvel rather than a modern claim. No text, pseudo-writing, panel, border, modern object, second fire or clipped primary subject was found. Accepted on the first call; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:108",
+      "title": "THE DIMENSIONS OF THE EARTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c108.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "f19aa45baaba63264fa742af858f0c315316cfb6f301601b4dd0ef522d09187f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d461f1dd-ccbb-49bd-b72b-485bda6f9ec9",
+      "generationArtifactId": "exec-d461f1dd-ccbb-49bd-b72b-485bda6f9ec9",
+      "outputArtifact": "built-in-imagegen://exec-d461f1dd-ccbb-49bd-b72b-485bda6f9ec9.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book II chapter 108, “THE DIMENSIONS OF THE EARTH.” Source grounding: Pliny compares ancient route-distance estimates across the inhabited world—India toward Gades through connected land journeys and sea passages, a north–south chain from the German Ocean toward the Red Sea, and Eratosthenes’ calculated circumference. Present this strictly as transmitted ancient measurement practice and uncertain reasoning, never as settled modern geography or a scientifically exact map.\n\nONE CONTINUOUS SCENE: an expansive ancient coast-and-road relay at amber dawn, seen from a high but natural hillside viewpoint. In the lower third, exactly three fully visible ancient survey travellers work at a fork where a long road meets a small harbor: one stretches a plain knotted cord taut between two low wooden stakes, one visibly counts a measured pace with hands empty, and one points toward the distant route. There are no tablets, scrolls, papers, inscriptions, drawing boards, or marked surfaces anywhere. A complete pack camel and a complete laden mule wait beside them, fully inside the composition. The road winds far through successive valleys toward pale sunrise; at sea, one complete small square-sailed merchant vessel crosses toward two distant headlands. A sparse rhythm of low unmarked stones and tiny relay fires joins land to sea. Convey dimension as distance accumulated through human journeys, not as a diagram. Use a sweeping diagonal road, broad quiet water, and generous open sky. Every human, animal, vessel, stake, cord, and fire is fully contained with clear silhouette and ground contact; nothing important touches or exits any edge.\n\nMATERIAL STYLE: original deluxe Roman natural-history codex illustration, ancient and timeless, rough and polished at once. Warm fibrous aged vellum texture suffuses the entire pictorial field, with iron-gall linework, fine cross-hatching and stipple, restrained translucent mineral washes—ochre road, muted verdigris scrub, faded lapis sea, pale madder garments, umber and lampblack shadows. Regional travel-and-survey dialect, spacious panoramic value structure, materially different from a storm tree or tomb interior. Landscape 3:2, 1536x1024, opaque sRGB, a single full-bleed pictorial field that continues naturally all the way to the image edges. NO line, frame, rule, margin stripe, decorative border, visible sheet, page edge, or framed folio boundary.\n\nABSOLUTE EXCLUSIONS: no lettering, captions, labels, numerals, calculations, measurements, pseudo-writing, random marks resembling script, signatures, logos, watermarks; no tablet or scroll; no globe, gridded chart, arrow, compass rose, labeled map, or modern precision; no panels, collage, atlas grid, inset, split scene, repeated crop, or floating object; no modern clothing, machine, instrument, building, vehicle, photography, photorealism, glossy digital rendering; no clipped people, animals, ship, terrain subjects, or props; no triumphal imperial propaganda, physiognomic stereotype, or ethnic caricature.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three survey travellers, their plain cord and stakes, complete camel, mule and merchant vessel, the winding road and relay fires are fully contained. No tablet, lettering, pseudo-writing, map, panel, border, modern precision instrument or clipped subject was found. Accepted after preserving one pseudo-writing/border reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5bd0d76e-19ed-4dca-a4d6-1c73f92df546.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b02-c108-rejected-01-exec-5bd0d76e-19ed-4dca-a4d6-1c73f92df546.png",
+          "sha256": "d793c0b5cd1c30e334d5a8af3d90c70ada6d74f06a2151512a217656f07e8d31",
+          "reason": "Rejected at original-resolution review because the open tablet carried pseudo-writing and a faint internal border/rule appeared around the image. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:109",
+      "title": "THE HARMONICAL PROPORTION OF THE UNIVERSE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c109.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "1e4b277ea233ecf9d44fbc9818b0f7ba48dc0e492f52e960289a14d6f99b41fe",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5b1735a6-6bbd-49a0-83a6-b7481f2682ac",
+      "generationArtifactId": "exec-5b1735a6-6bbd-49a0-83a6-b7481f2682ac",
+      "outputArtifact": "built-in-imagegen://exec-5b1735a6-6bbd-49a0-83a6-b7481f2682ac.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book II chapter 109, “THE HARMONICAL PROPORTION OF THE UNIVERSE.” Source grounding: Pliny recounts skeptically the tale of Dionysodorus of Melos—a message supposedly found in his tomb claiming he descended to the earth’s center—then reports how geometers interpreted the impossible distance as evidence for a harmonic proportion. Show examination of transmitted testimony, not literal access to the earth’s center and not settled modern science.\n\nONE HIGH-KEY SUNLIT SCENE: a bright open limestone memorial court on Melos at late morning, viewed from a gentle high oblique angle. Exactly three fully visible living adults stand in a loose crescent with broad pale paving around them: two dignified female relatives, one holding a small wax diptych tightly shut beneath a plain cross-cord so no writing surface is visible, and one older geometer responding with a skeptical measured gesture. At the center, a low complete pale stone stool supports one small completely unmarked verdigris-bronze sphere. The geometer holds one short plain cord from the sphere’s outer surface toward a single central wooden peg on the stool, demonstrating proportion through touch rather than a drawn diagram. Behind them sits one complete closed stone sarcophagus under a small complete open four-column memorial canopy, all sides, roof, columns, base, and paving fully visible and well inside the canvas. Beyond is a pale sea horizon and sparse low island scrub. The emotional center is public daylight scrutiny, not mystical revelation. No oil lamp, cave, dark interior, starry sky, burial body, excavation, descent tunnel, cosmic portal, or shadow-dominant composition.\n\nCOMPOSITION AND CONTAINMENT: dominant bone-white and pale ochre paving fills over sixty percent of the image, with figures, stool, sphere, sarcophagus and compact canopy arranged as small discrete forms around an open center. Keep every head, hand, garment, foot, cord, peg, sphere, stool leg, sarcophagus edge, column, roof corner, scrub plant, and horizon feature fully contained with generous breathing room. No architecture or vegetation touches an edge.\n\nMATERIAL STYLE: original deluxe Roman natural-history codex folio, ancient and timeless, beautiful, rough and polished at once. Warm fibrous aged vellum through the entire pictorial field; iron-gall contours, fine cross-hatching and stipple; restrained translucent mineral pigments—dominant bone-white and pale ochre limestone, soft faded-lapis sea, muted verdigris sphere and scrub, restrained madder mantle, umber hair and delicate lampblack shadow. Bright skeptical-antiquarian dialect, materially and tonally distinct from any dark lamp-lit craft scene. Landscape 3:2, 1536x1024, opaque sRGB, one unified full-bleed field without visible sheet, internal frame, decorative border, or page edge.\n\nABSOLUTE EXCLUSIONS: no lettering, caption, label, name, numeral, calculation, pseudo-writing, scratched symbol, diagram, chart line, arrow, constellation, signature, logo, watermark; diptych fully closed and blank outside; sphere plain and unmarked; no panel, collage, inset, split scene, repeated crop, floating object; no modern clothing, tools, lighting, architecture, photography, photorealism, glossy digital rendering; no clipped person, canopy, sarcophagus, stool, sphere, tablet, cord, or plant; no sensational supernatural certainty, physiognomic stereotype, or ethnic caricature.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key Melian memorial court contains exactly three complete adults, a tightly closed blank diptych, plain sphere, complete cord-and-peg demonstration, stool, sarcophagus and four-column canopy, all comfortably contained. The scene reads as skeptical examination of transmitted testimony. No text, pseudo-writing, diagram, panel, border, modern object or clipping was found. Accepted after preserving one globally colliding dark-interior draft; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-02e9a713-8cf3-4ce8-9bb4-5a019e9a084d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b02-c109-rejected-01-exec-02e9a713-8cf3-4ce8-9bb4-5a019e9a084d.png",
+          "sha256": "e167716487d7ec5f2339df6ec7e37849bfdc55701b5fed6da8ed5c6092d6b8d8",
+          "reason": "Rejected after native visual acceptance because the dark tomb composition collided with trees-aromatics-wave-27/b19-c009.png at MAD 19.53, below the required 20. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:2",
+      "title": "OF BÆTICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c002.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "sha256": "bda71ae4ba0064d6e346d52b4f639fe542065dc23e27539af253db4e3a9b61ae",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-571c2e8f-a206-4423-a0c3-4d72b8d8d7a1",
+      "generationArtifactId": "exec-571c2e8f-a206-4423-a0c3-4d72b8d8d7a1",
+      "outputArtifact": "built-in-imagegen://exec-571c2e8f-a206-4423-a0c3-4d72b8d8d7a1.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book III chapter 2, “OF BÆTICA.” Source grounding: Pliny disputes inconsistent ancient measurements for Baetica—from inland Castulo to Gades and across from the coast of Carteia—and questions how Agrippa’s painstaking survey, later installed under Augustus in a portico, could contain such an error. Interpret this as a portrait of a real varied region that resists a single neat measurement, not an exact modern map and not imperial propaganda.\n\nONE CONTINUOUS REGIONAL SCENE: a broad southern Iberian river-and-estuary landscape at clear high-summer midday. A sinuous navigable river begins among softly rounded, entirely natural ochre hills in the far distance, crosses cultivated plains of low complete olive trees and wheat plots, widens through silver-green salt marsh, and meets a faded-lapis Atlantic inlet. A low, complete ancient island settlement suggestive of Gades sits far across the water: only Roman-era stone quays, simple tiled dwellings, and one small classical temple, all fully contained and with no tower. In the middle foreground, one fully visible shallow wooden amphora barge turns along the river bend; exactly two dignified boatworkers pole it, every pole fully visible. On a bare low near bank, exactly two fully visible ancient regional land measurers quietly compare two plain coils of cord of visibly unequal length beside one completely unmarked stone marker, their puzzled gesture embodying Pliny’s skepticism. Compose the river as a luminous S-curve through spacious terrain, with restrained olives kept away from every image edge and generous pale sky. All people, barge, poles, amphorae, buildings, trees, cords, and marker must be fully contained, fully visible, and separated from the edges.\n\nHISTORICAL MATERIALS ONLY: hills and fields are wholly natural and agricultural. No mine, quarry, scaffold, headframe, derrick, crane, hoist, industrial structure, smoke stack, fortification, watchtower, lighthouse, castle, battlement, medieval building, modern white resort, road procession, pack animal, globe, map, plan, or triumphal monument.\n\nSTYLE: original deluxe Roman natural-history codex folio, ancient and timeless, beautiful, rough and polished at once. Warm fibrous aged vellum integrated through the entire image, iron-gall linework, fine cross-hatching and stipple, restrained translucent mineral pigments—sunlit ochre earth, muted verdigris olives and marsh, faded lapis water, a few madder amphora seals, umber and lampblack structure. Fresh Baetican regional dialect: dry luminous horizontal bands, river commerce, cultivated abundance, salt-air haze; materially distinct from the preceding dawn travel panorama and dark tomb interior. Landscape 3:2, 1536x1024, opaque sRGB, one unified full-bleed pictorial field; no visible sheet, internal line, decorative border, frame, or page edge.\n\nABSOLUTE EXCLUSIONS: no lettering, captions, labels, numerals, calculations, pseudo-writing, map marks, tablet, scroll, plan, compass rose, chart, arrow, signature, logo, watermark; no panels, collage, inset, split scene, repeated crop, floating object; no modern or medieval objects, clothing, vessels, machinery, architecture, photography, photorealism, glossy digital rendering; no clipped or edge-touching person, tree, barge, pole, settlement, or prop; no conquest display, emperor portrait, racial hierarchy, physiognomic stereotype, or ethnic caricature.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The luminous Baetican river-estuary, complete Gades-like settlement, olive and wheat landscape, full amphora barge with two workers, and two puzzled cord measurers are all contained. No industrial mine frame, medieval tower, text, map, panel, border, propaganda, caricature or clipping was found. Accepted after preserving one anachronism/framing reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-a1372e6d-b8df-476f-9f65-156c1307c745.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c002-rejected-01-exec-a1372e6d-b8df-476f-9f65-156c1307c745.png",
+          "sha256": "fb3f2f44961887c27a7fc898e8826a3638d00930a5be5188d3906248d183042a",
+          "reason": "Rejected at original-resolution review because it introduced modern industrial mine headframes, a later-looking crenellated tower, and an edge-clipped foreground olive. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:3",
+      "title": "OF NEARER SPAIN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c003.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "sha256": "b847f6a1ac0a511c709796d985d8cecef48fa2588b5ca8027da2514779b36d0d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cad66694-67b7-4afe-89bb-3363f843152f",
+      "generationArtifactId": "exec-cad66694-67b7-4afe-89bb-3363f843152f",
+      "outputArtifact": "built-in-imagegen://exec-cad66694-67b7-4afe-89bb-3363f843152f.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book III chapter 3, “OF NEARER SPAIN.” Source grounding: Pliny describes a province changed since Pompey’s conquest boast, divided among seven jurisdictions and many communities with different civic standings; he follows its coasts and interior peoples, the navigable Iberus/Ebro rich in commerce, mineral resources including translucent lapis specularis, and the Pyrenees between two seas. Present a humane ancient river economy and regional plurality, not conquest, hierarchy, administration, or exact modern geography.\n\nONE CONTINUOUS SCENE: cool spring morning at a broad Ebro bend, viewed low from a clear open bank toward distant blue-grey Pyrenean foothills. One complete shallow cargo barge, modest in scale and surrounded by water, lies horizontally across the center. Its cargo is simple: baskets of grain, plain amphorae, four small unmarked metal ingots, and a shallow basket holding a few thin translucent mineral sheets. Exactly five fully visible, dignified ancient inhabitants cooperate: on shore, a woman potter passes one vessel to a seated boatworker; an older shepherd steadies one complete small goat; a young metalworker carries exactly two plain ingots; aboard, a standing ferryman holds one entire rope neatly coiled as a closed loop, with both rope ends visibly contained inside the boat. The river curves toward a tiny distant sea opening; low vineyards and grazing terraces step gently up the opposite bank beneath the mountain range. There are NO bridges and NO buildings anywhere, leaving the river, working people, and mountain breadth as the image’s structure.\n\nCOMPOSITION AND CONTAINMENT: strong horizontal boat silhouette below tall mountain negative space, cool reflected water, compact exchange near center. Leave a generous empty buffer between every person, animal, vessel, prop, mountain summit, and image edge. Show the entire barge from bow to stern, every person from head to feet, the goat including horns and hooves, the full circular rope coil and both ends, every ingot, amphora, basket, and mineral sheet. Edge zones contain only open sky, water, or low ground texture. No tall foreground reeds or trees at the sides.\n\nMATERIAL STYLE: original deluxe Roman natural-history codex folio, ancient and timeless, beautiful, rough and polished at once. Warm fibrous aged vellum suffuses the pictorial field, iron-gall linework, fine cross-hatching and stipple, restrained translucent mineral pigments—faded lapis river and mountains, muted verdigris terraces, pale ochre ground, soft madder and umber garments, lampblack accents, subtle mineral gleam. Fresh regional-geography dialect emphasizing river commerce, many communities, mountain air, and close observational dignity; materially different from Baetica’s aerial estuary and cord measurers. Landscape 3:2, 1536x1024, opaque sRGB, one unified full-bleed pictorial field without visible sheet, internal rule, border, frame, or page edge.\n\nABSOLUTE EXCLUSIONS: no lettering, captions, labels, names, numerals, lists, pseudo-writing, inscription, repeated decorative glyph, map mark, tablet, scroll, legal document, standard, flag, trophy, chart, arrow, signature, logo, watermark; no panels, collage, inset, split scene, repeated crop, floating object; no bridge, building, monument, modern or medieval object, clothing, vessel, machinery, mine structure, photography, photorealism, glossy digital rendering; no clipped or edge-touching person, animal, barge, rope, mountain summit, cargo, or primary plant; no conquest tableau, imperial glorification, physiognomic stereotype, exoticization, ethnic caricature, or racial hierarchy.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete Ebro cargo barge, exactly five dignified inhabitants, complete goat, closed rope coil with both ends visible, grain, amphorae, metal and mineral cargo, river and Pyrenean range are fully contained. No writing, pseudo-writing, bridge, building, conquest display, panel, border, stereotype, modern object or clipped primary subject was found. Accepted after preserving one rope-clipping reject and one bridge pseudo-writing reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6e117171-cded-4d6f-8bd3-c554797cc30e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c003-rejected-01-exec-6e117171-cded-4d6f-8bd3-c554797cc30e.png",
+          "sha256": "eeb7faf4e9f3fa5d0ad5aec6fceaaf978b91c129893e1827337893f8c463a920",
+          "reason": "Rejected at original-resolution review because the ferryman’s mooring rope continued through the right canvas edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-fee4c52d-babd-45a0-b0e2-28a6e530c799.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c003-rejected-02-exec-fee4c52d-babd-45a0-b0e2-28a6e530c799.png",
+          "sha256": "19dd3b0342c670752be0a24693936c16ba211fe06bc0c9c12ff904044825ad95",
+          "reason": "Rejected at original-resolution review because a row of glyph-like pseudo-writing appeared across the bridge parapet. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:6",
+      "title": "CORSICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c006.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "sha256": "6db22025f40c011ef329e340fc0d3d436e1713e35e09ce7c1030592212f92b01",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e001a747-4c4e-4032-8c49-4b0353957e39",
+      "generationArtifactId": "exec-e001a747-4c4e-4032-8c49-4b0353957e39",
+      "outputArtifact": "built-in-imagegen://exec-e001a747-4c4e-4032-8c49-4b0353957e39.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book III chapter 6, “CORSICA.” Source grounding: Pliny describes mountainous Corsica, called Cyrnos by Greeks, its two Roman colonies Mariana and Aleria, and the surrounding islands; he singles out Planaria as so low and level with the sea that it is treacherous to mariners, and Ilva/Elba for iron. Present an ancient mariner’s geographic observation, not a labeled map and not exact modern scale.\n\nONE CONTINUOUS MARINE SCENE: late afternoon after rain, viewed just above water level across the Ligurian–Tuscan sea. Across the upper middle third, show a deliberately distant, scale-small, COMPLETE long silhouette of mountainous Corsica, surrounded by visible open water at both its left and right ends, with ample sky above and water below. The island occupies no more than sixty percent of the image width and has a clear empty-water buffer of at least ten percent of image width on each side. Its green-black maquis slopes carry exactly two tiny separated low Roman-era coastal settlements of red-tiled dwellings, with no towers or fortifications. In the lower-left quadrant, one modest complete ancient square-sailed merchant vessel approaches cautiously, every part surrounded by water and separated from the image edges: whole hull, mast top, yard, sail, four oars, rudder, and exactly three small crew visible. One crew member lowers a complete sounding line and weight, both ends visible. In the lower-right quadrant, the whole low island of Planaria lies barely above sea level, completely surrounded by pale shoal water and a gentle closed ring of surf; it must not touch any edge. Farther back between Corsica and Planaria, a very small complete rust-ochre island suggests iron-bearing Ilva through natural exposed rock only.\n\nCOMPOSITION AND CONTAINMENT: a balanced triangular rhythm of small ship, low Planaria, and distant Corsica beneath a broad silver-lapis sky. Every named island must read as a discrete whole geographic silhouette with open water on all sides. Keep the vessel at least eight percent of image width away from left and bottom edges, and keep all mast, yard, sail, oars, rudder, crew, sounding line and weight completely inside. Nothing essential touches any image edge; edge zones contain only sky and open water.\n\nMATERIAL STYLE: original deluxe Roman natural-history codex folio, ancient and timeless, beautiful, rough and polished at once. Warm fibrous aged vellum integrated through the full pictorial field, iron-gall contour drawing, fine cross-hatching and stipple, restrained translucent mineral washes—faded lapis and muted verdigris sea and mountains, pale ochre shoals, rust-madder distant Ilva, umber hull, lampblack rain remnants. Fresh Corsican maritime dialect: low viewpoint, silver-green atmosphere, fluid spacing, crisp nautical observation; materially distinct from river-market and estuary scenes. Landscape 3:2, 1536x1024, opaque sRGB, one unified full-bleed scene without visible sheet, pale margin band, internal line, decorative border, frame, or page edge.\n\nABSOLUTE EXCLUSIONS: no lettering, captions, labels, place names, numerals, pseudo-writing, inscribed sail, flag, banner, map mark, compass rose, chart, arrow, signature, logo, watermark; no panels, collage, inset, split scene, repeated crop, floating object; no modern or medieval vessel, clothing, lighthouse, castle, watchtower, mine headframe, derrick, crane, machinery, building, photography, photorealism, glossy digital rendering; no wreck, drowning, graphic peril, mythic sea monster; no clipped or edge-touching island, ship, sail, mast, yard, oar, rudder, person, line, weight, settlement, or primary rock; no ethnic caricature or physiognomic stereotype.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Complete Corsica, low shoal-ringed Planaria and rust-ochre Ilva silhouettes remain separated by open water; the complete merchant vessel, exactly three crew, oars, rudder and sounding line/weight are all intact. No text, map, border, modern tower, mine machinery, wreck, monster or clipped named subject was found. Accepted after preserving one clipped-Corsica reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-54a08aa4-e59b-4b82-9b9e-2859fa32e314.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c006-rejected-01-exec-54a08aa4-e59b-4b82-9b9e-2859fa32e314.png",
+          "sha256": "1e8567ba6e46420325d367279c57baea6cee5bdf327d2fe13d8542c29e5c5b3c",
+          "reason": "Rejected at original-resolution review because the primary Corsican mountain/island mass continued through the left canvas edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:8",
+      "title": "SICILY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c008.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "sha256": "cbaaadfd10ed7ea505e67adc466abc856f64679aed8dc3867329875581f79135",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dfe8ceaa-4d9d-47b8-976f-600f618913ce",
+      "generationArtifactId": "exec-dfe8ceaa-4d9d-47b8-976f-600f618913ce",
+      "outputArtifact": "built-in-imagegen://exec-dfe8ceaa-4d9d-47b8-976f-600f618913ce.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book III chapter 8, “SICILY.” Source grounding: Pliny presents Sicily as Trinacria, identifies the Strait’s natural perils—the rock of Scylla and whirlpool Charybdis—and notes Mount Etna’s fire and the three rocks of the Cyclopes. Render transmitted ancient coastal observation, not literal monsters, a modern scientific diagram, or exact cartography.\n\nONE SPACIOUS UNINHABITED OPEN-SEA SCENE: high oblique clear-day view with at least eighty percent water and sky. Lower left: one complete isolated jagged natural rock representing Scylla, fully encircled by blue water. Lower right: one complete Charybdis as a broad natural circular current with calm depression and whole outer ring visible. Upper-right middle distance: one compact complete Mount Etna cone on a short Sicilian coastal shelf occupying less than twenty percent of frame width. The shelf ends visibly in blue water at both sides, with a continuous band of water separating it from the right edge. Etna’s full base and summit are visible, its thin restrained plume ends below the cloud line, and exactly three small complete Cyclopean rocks sit offshore in a clean row. There is no settlement.\n\nSTRICT EMPTY-SCENE CONTRACT: absolutely no human, animal, boat, ship, mast, sail, oar, building, road, vehicle, artifact, or manufactured object anywhere. The subject is the observed natural relationship of rock, current, volcano, sea, and sky. No other coast, island, mountain, headland, landform, or building appears.\n\nSTRICT EDGE CONTRACT: every point along left and right image edges is uninterrupted open blue water or sky; top is sky, bottom is open water. Leave at least twelve percent of image width as pure open water at both side edges. No rock, current ring, mountain, plume, or land touches any image edge.\n\nSTYLE: original deluxe Roman natural-history codex folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple; restrained translucent mineral pigments—deep faded lapis and muted verdigris currents, pale ochre distant land, lampblack rock, soft ash-grey plume. Ancient, timeless, beautiful, rough and polished at once. Dynamic Sicilian strait dialect with lucid anatomical water drawing and strong negative space, materially distinct from the calm Corsican island portrait. Landscape 3:2, 1536x1024, opaque sRGB, one unified full-bleed pictorial field without visible sheet, rule, border, frame, or page edge.\n\nABSOLUTE EXCLUSIONS: no person, animal, vessel, settlement, building, or object; no lettering, caption, label, name, numeral, pseudo-writing, map mark, compass rose, chart, arrow, dotted route, signature, logo, watermark; no panels, collage, inset, split scene, repeated crop, floating object; no mythical creature, humanoid rock, sea serpent, deity, shipwreck, drowning, disaster; no modern technology, photography, photorealism, glossy digital rendering; no clipped or edge-touching land, mountain, rock, whirlpool ring, plume; no ethnic caricature or physiognomic stereotype.",
+      "generationAttempts": 6,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The uninhabited daylight natural-history study contains one complete Scylla rock, one complete Charybdis current ring, one complete Etna and exactly three complete Cyclopean rocks, each surrounded by open sea/sky. No human, vessel, building, monster, text, pseudo-writing, map, panel, border, disaster or clipping was found. Accepted after preserving two terrain-clipping drafts, one wrong-count/hull-mark draft, another clipped-headland draft and one wrong-count boat draft; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-69632665-b582-4e89-9060-5ba8fc0b9a0c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c008-rejected-01-exec-69632665-b582-4e89-9060-5ba8fc0b9a0c.png",
+          "sha256": "fd72ee8b8876dc6156e7ce9457ae36ad923265231677bf03b092209158145b38",
+          "reason": "Rejected at original-resolution review because the Bruttian and Sicilian/Etna land masses continued through opposite side edges. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-44398df1-f8f5-4cf0-95c0-00313aa588a2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c008-rejected-02-exec-44398df1-f8f5-4cf0-95c0-00313aa588a2.png",
+          "sha256": "0076ef8d227ea07a2296711c26355e953aeb4d718ae7d2121c2955dc4e31a0f4",
+          "reason": "Rejected at original-resolution review because the Sicilian/Etna land mass reached the right canvas edge instead of remaining a complete contained headland. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-255173ad-e310-41c2-979a-ffcd689d3dfc.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c008-rejected-03-exec-255173ad-e310-41c2-979a-ffcd689d3dfc.png",
+          "sha256": "7974a447ed3b7827124a7ffde3c5677c3ddb4737c90f161b7670f6b13ae8eb96",
+          "reason": "Rejected at original-resolution review because the vessel showed five crew instead of the requested four and carried ambiguous glyph-like repeating hull decoration. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-501dfb84-8f38-4812-84a3-67e196637a71.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c008-rejected-04-exec-501dfb84-8f38-4812-84a3-67e196637a71.png",
+          "sha256": "31f65b267210fd77bd1f2694bc6d3a090f809e08ab9e8748913ce976a360cb51",
+          "reason": "Rejected at original-resolution review because the Bruttian headland still entered from and continued through the left canvas edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-fd2c75a8-571c-4be6-af68-e3e345fa9124.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c008-rejected-05-exec-fd2c75a8-571c-4be6-af68-e3e345fa9124.png",
+          "sha256": "b58191728ad49cfe7270a1f3568750e81d354e66eda36890f5a061f559fb9d9a",
+          "reason": "Rejected at original-resolution review because two crew appeared despite the exact one-person constraint. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:9",
+      "title": "SICILY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c009.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "sha256": "10fc5637c95e8d9715f5fff3fdc8a093706084d03d6c70b7f92b57b4aa5d2624",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b1207f54-f689-487f-af6f-22cf4ea59fae",
+      "generationArtifactId": "exec-b1207f54-f689-487f-af6f-22cf4ea59fae",
+      "outputArtifact": "built-in-imagegen://exec-b1207f54-f689-487f-af6f-22cf4ea59fae.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration for Pliny the Elder, Naturalis Historia, Book III chapter 9, “SICILY.” Source grounding: Pliny describes the Aeolian/Liparaean islands: inhabited Lipara; Hiera, sacred to Vulcan, whose hill gives flame at night; and Strongyle, whose brighter flame and smoke were said by inhabitants to foretell winds three days ahead, contributing to the ancient story that Aeolus governed them. Present atmospheric ancient testimony and weather lore, not established modern forecasting science or divine fact.\n\nONE HIGH-KEY PREDAWN SEASCAPE: the last visible volcanic flames just before sunrise, viewed from a high distant viewpoint over luminous pearl-grey water. Show exactly THREE complete islands arranged as an asymmetric descending diagonal, each wholly surrounded by visible sea and separated from every edge. UPPER LEFT and farthest: complete low Lipara with a tiny pale Roman-era harbor town of simple tiled dwellings and one complete curved stone quay, all unlit in the dawn. CENTER and nearer: complete Hiera, a compact dark-ochre rugged hill with one small natural orange summit flame and a short mostly upright silver-grey smoke plume. LOWER RIGHT and nearest: complete conical Strongyle, with a brighter restrained madder-orange summit flame and a long narrow smoke plume bending decisively left in the high wind, wholly inside the pale sky. Reflections are delicate broken pastel strokes rather than dark vertical bars. The eastern horizon at far right glows bone-white and pale peach; most sky is washed parchment, smoke-grey, and faded violet, while the sea is silvered faded lapis. No cloud bank, moon, star field, deep-black night, or shadow-dominant composition.\n\nNOCTURNAL-LORE CLARITY: the dawn remains early enough for both small flames to be visible, but the image is tonally bright—at least seventy percent pale sky and reflective sea. The two smoke directions make the transmitted wind inference legible without any observer or diagram. No other island, person, vessel, animal, deity, architecture beyond Lipara’s tiny town, or artifact.\n\nCOMPOSITION AND CONTAINMENT: receding diagonal rather than catalogue row or map. Show every island coastline as a complete closed shape, the whole quay and town, each flame, both smoke plumes, and all reflections fully inside frame. All four outer edge zones contain only featureless open sky or water; nothing touches or exits them. Materially different from chapter 8’s saturated blue overhead rock-and-whirlpool study and from any dark astronomical nocturne.\n\nMATERIAL STYLE: original deluxe Roman natural-history codex folio, ancient and timeless, beautiful, rough and polished at once. Warm fibrous aged vellum dominant beneath iron-gall contours, fine cross-hatching and stipple, restrained translucent mineral pigments—pearl, bone-white and pale parchment atmosphere; silver faded-lapis water; soft grey-violet sky; umber islands; muted verdigris shadows; controlled ochre and madder flame. Luminous Aeolian predawn dialect with generous pale negative space and crisp geological silhouettes. Landscape 3:2, 1536x1024, opaque sRGB, one unified full-bleed pictorial field without visible sheet, margin stripe, internal line, decorative border, frame, or page edge.\n\nABSOLUTE EXCLUSIONS: no deep black field; no lettering, caption, label, place name, numeral, pseudo-writing, inscription, glyph-like terrace or roof pattern, map mark, compass rose, chart, wind arrow, diagram, signature, logo, watermark; no panels, collage, inset, split scene, repeated crop, catalogue grid, floating object; no Aeolus or Vulcan figure, god, monster, portal, eruption disaster, lava flood, destroyed town, shipwreck, graphic peril; no modern or medieval lighthouse, tower, castle, vessel, architecture, technology, photography, photorealism, glossy digital rendering; no clipped or edge-touching island, coast, quay, building, flame, smoke, reflection; no ethnic caricature or physiognomic stereotype.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete islands form a pale predawn diagonal: inhabited Lipara with complete quay, flame-bearing Hiera, and brighter wind-streamed Strongyle. Both flames, smoke plumes, island coastlines and reflections are fully contained, and the lore is framed as transmitted observation. No text, pseudo-writing, map, panel, border, deity, modern object or clipping was found. Accepted after preserving one requested-lamp-count reject and one globally colliding dark nocturne; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-83dbac68-2b4b-44f8-a1e8-baadef77fb8d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c009-rejected-01-exec-83dbac68-2b4b-44f8-a1e8-baadef77fb8d.png",
+          "sha256": "a3f2a224fb086fb428a6759a7bb18cfe67b28f2985fdbb7556d38822a1992de4",
+          "reason": "Rejected at original-resolution review because the harbor rendered four lamps rather than the explicitly requested five. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-76e72b8a-4c65-4adc-bff3-3bba5c170e40.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/evidence/history/b03-c009-rejected-02-exec-76e72b8a-4c65-4adc-bff3-3bba5c170e40.png",
+          "sha256": "3ebc35dc3f440df6f5bae463a0d72dfaa1feba5486a0b925230f60cd15f30936",
+          "reason": "Rejected after native visual acceptance because the dark nocturne collided with trees-aromatics-wave-41/b02-c006.png at MAD 13.55, below the required 20. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

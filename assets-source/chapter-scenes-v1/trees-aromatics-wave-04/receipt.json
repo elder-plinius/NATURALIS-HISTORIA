@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-04",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique output artifacts but no formal receipt ID or model identifier.",
+  "styleContractArtifact": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "styleContractApplied": true,
+  "chapterPlanArtifact": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "12:27",
+      "title": "OMPHACIUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b12-c027.png",
+      "corpusArtifact": "public/corpus/book-12.aec4ae7e5432510d.json",
+      "sha256": "c6d5dd47f2f3bf5c52fcdfea54eac6e962bac5e7fe50e102f8780350b3f45d6a",
+      "acceptedArtifactId": "exec-12f3544e-3081-477a-800f-02c5ab2c1fa4",
+      "outputArtifact": "built-in-imagegen://exec-12f3544e-3081-477a-800f-02c5ab2c1fa4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XII, chapter 27, “Omphacium”\nPrimary request: Ground one unified Roman estate-workshop scene in Pliny’s account of omphacium made from two trees by different methods. Beneath a fully contained young olive tree and a low complete vine arbor, two complete workers prepare the sour oil together: one turns a compact hand lever press filled with pale white unripe olives so a thin stream enters a shallow earthen basin; the other pounds a small measure of chickpea-sized unripe grapes in a complete stone mortar beside one linen-covered drying tray holding grape residue and a few reddish dry lozenges. A single unmarked hammered Cyprian-copper storage jar stands nearby with its lid and handles visible. The two preparations share one work surface and one courtyard, never separate panels.\nScene/backdrop: modest first-century Mediterranean farm courtyard just before the Dog-star season, with one complete olive tree, one compact vine arbor, sun-warmed paving, and a shaded awning for protecting drying residue from night dew; no monumental architecture\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; intimate trees-and-materia dialect with muted verdigris foliage, pale olives, ochre stone, quiet madder cloth, and sparse copper highlights\nComposition/framing: landscape 3:2, high oblique view organized as one loose circular workflow around the central basin; olive canopy rises at one side, vine arbor bends gently across the rear, workers and vessels form one continuous foreground arc; every tree crown, trunk, arbor post, vine end, person, hand, foot, press, mortar, basin, tray, jar and shadow fully contained in the central seventy percent with broad untouched vellum on every edge\nLighting/mood: clear dry morning, practical care, sharp vegetal fragrance, scholarly material precision\nColor palette: warm vellum, umber, lampblack, muted verdigris, faded lapis shadows, quiet madder, ochre, restrained weathered copper\nMaterials/textures: fibrous vellum, pale olive skin, powdery grape bloom, stone mortar, rough linen, matte earthenware, hammered copper, worn wool and sun-dried residue\nHistorical and botanical constraints: Roman-era press, mortar, vessels, clothing and courtyard only; unripe olives visibly pale rather than black; grapes small, green and bloom-covered; show extraction and drying, not food service; exactly two workers, one complete olive tree, one complete vine arbor, one press, one mortar, one basin, one tray and one copper jar\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, maps, diagrams, split panels, repeated frames, collage, modern machinery, glass laboratory ware, bottles with stoppers, modern clothing, photorealism, photography, glossy CGI, neon color, cropped foliage, clipped people, partial vessels, edge-touching objects, duplicate tools",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution full-image and detail review. The pale unripe olives, complete press and basin, chickpea-sized green grapes, mortar, full drying tray with residue and lozenges, closed copper jar, exactly two complete workers, complete olive tree and complete vine arbor form one connected courtyard workflow. All essential hands, feet, tools, vessels, foliage and ground contacts are contained. No lettering, pseudo-writing, modern apparatus, watermark, panel division, duplicate object or clipped primary subject was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:28",
+      "title": "BRYON, ŒNANTHE, AND MASSARIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b12-c028.png",
+      "corpusArtifact": "public/corpus/book-12.aec4ae7e5432510d.json",
+      "sha256": "a972f377bf55d48e14b1351ba8b5e02dc32395d82648e78c211952aacf5208b9",
+      "acceptedArtifactId": "exec-45c4cfc5-f4d0-46db-a7d6-027b855dcc82",
+      "outputArtifact": "built-in-imagegen://exec-45c4cfc5-f4d0-46db-a7d6-027b855dcc82.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XII, chapter 28, “Bryon, Œnanthe, and Massaris”\nPrimary request: Create one continuous dry-land aromatic gathering scene grounded in Pliny’s reported substances. On a rugged Carian slope near Cnidos, one complete unmistakable silver-white poplar stands in full silhouette bearing modest pendulous bryon catkin clusters. Its pale smooth bark and broad triangular to shallowly lobed leaves with bright silvery-white undersides must clearly identify a white poplar, never an olive. A complete white wild grapevine grows naturally over a low rock beneath it, its fragrant flowering clusters being gathered at peak bloom by one complete kneeling worker and spread in shade across one entire unmarked linen sheet. A small plain basket holds a few darker African wild-vine clusters associated with massaris, clearly secondary; a compact complete Lycian cedar farther upslope hints at the second-rate cedar bryon. This must read as one ecological and craft moment, not specimens in separate boxes.\nScene/backdrop: waterless sun-baked Carian hillside with pale broken limestone, sparse dry herbs, one shaded rock recess for drying, distant Aegean haze, no city or monumental building\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; late-aromatics dialect of silvery foliage, muted verdigris, ochre stone, tiny madder fruit accents and faded-lapis distance\nComposition/framing: landscape 3:2, low ground-level diagonal rising from the shaded linen and worker through the wild vine to the airy white-poplar crown, with the smaller cedar offset in the distance; one uninterrupted landscape; full tree crowns, trunks, root contacts, vine ends, worker, hands, sandals, linen corners, basket, clusters and cast shadows contained in the central seventy percent with generous blank vellum on all edges\nLighting/mood: dry brilliant noon filtered by silvery leaves, fragrant shade, exacting harvest at the brief moment of bloom\nColor palette: warm vellum, lampblack, umber, silver-grey and muted verdigris foliage, pale ochre limestone, restrained madder and faded lapis\nMaterials/textures: fibrous vellum, smooth pale poplar bark, broad fluttering leaves with white undersides, pendulous catkins, tiny flowering grape clusters, dry cedar needles, rough linen, wicker, dusty stone and worn wool\nHistorical and botanical constraints: historically plausible ancient clothing and basket; exactly one worker, one complete white poplar, one complete white wild vine, one small complete Lycian cedar, one linen sheet and one basket; white wild vine must be visually dominant over the few dark clusters; no modern taxonomic claim, laboratory process, pressed-herb sheet or labeled specimen\nCritical botanical correction: the main tree must not resemble an olive. Absolutely no narrow lance-shaped olive leaves, olive fruit, gnarled olive trunk, olive branches, or olive-tree silhouette. Render only broad white-poplar leaves with pale undersides and pale straight bark.\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative script, maps, diagrams, field-guide layout, split panels, repeated frames, collage, modern tools, plastic, glass jars, photography, photorealism, glossy CGI, neon color, clipped tree crowns, cropped roots, partial worker, edge-touching linen, cut-off basket, duplicated vegetation",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after one botanical-morphology regeneration and original-resolution full-image and detail review. The corrected white poplar has pale straight bark, broad lobed leaves with silvery undersides and pendulous catkin clusters rather than olive morphology; the complete white wild vine, flowering material on the full linen, darker secondary basket, small Lycian cedar and complete worker remain legible in one dry Carian landscape. No text-like mark, label, watermark, modern object, panel structure or clipped primary subject was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6997023a-21dd-495c-86d1-78080c3ed2d9.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/evidence/history/b12-c028.rejected-55f8f4422148cd80bdd511b91d913e1d492c751afb4a0f0ed4596d4e45a2b527.png",
+          "sha256": "55f8f4422148cd80bdd511b91d913e1d492c751afb4a0f0ed4596d4e45a2b527",
+          "reason": "Rejected at original-scene review because the supposed white poplar had narrow olive-like leaves and an olive silhouette, failing the chapter-specific botanical morphology gate."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "13:1",
+      "title": "UNGUENTS—AT WHAT PERIOD THEY WERE FIRST INTRODUCED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c001.png",
+      "corpusArtifact": "public/corpus/book-13.0d1c563d0eec7c78.json",
+      "sha256": "4740da6f1811f5b7de60e45cfb8efa8e02375e295010d7b0034fea9c069be1f2",
+      "acceptedArtifactId": "exec-5e7884f0-1ec2-41e3-b172-d91c1bb9de91",
+      "outputArtifact": "built-in-imagegen://exec-5e7884f0-1ec2-41e3-b172-d91c1bb9de91.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XIII, chapter 1, “Unguents—At What Period They Were First Introduced”\nPrimary request: Visualize Pliny’s earliest historical instance without falsely naming an inventor. In the quiet aftermath of the capture of Darius’s camp, one complete young Macedonian commander and two complete attendants discover an unmarked Persian perfume chest among intact camp furnishings. The open chest contains a restrained assortment of complete plain alabaster jars, small lidded bronze vessels and matte earthen flasks; beside it, one attendant holds a shallow mixing bowl while another gently combines rose petals, myrrh resin, sweet rush and a little oil into a single unguent. Alexander observes the chest with curiosity rather than claiming invention. The scene should make the transition from separate aromatic woods and flowers into one blended fragrance immediately legible.\nScene/backdrop: one small freestanding open-sided Persian command tent at dusk, battle long over and no bodies or weapons in action; plain folded textiles, one low table, aromatic ingredients and distant silent camp tents; no palace, triumph or looting spectacle\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; transitional aromatics-to-unguent dialect with soft flower and resin detail, faded lapis dusk, quiet madder cloth and restrained ochre vessel highlights\nComposition/framing: landscape 3:2, pulled-back low frontal three-quarter view; the open chest and mixing bowl form a compact luminous center while the three figures make a contained crescent around them; scale the entire freestanding tent, all roof corners and every post into the central sixty-five percent so a broad uninterrupted vellum moat surrounds the structure; one continuous historical moment, not a recipe diagram, timeline or collage; every figure head-to-sandal, tent post, rope and roof edge, chest, hinge, lid, vessel, bowl, table, ingredient and shadow fully visible\nLighting/mood: cool evening air with warm low-lamp illumination around the chest; discovery, sensory surprise and Plinian moral ambivalence toward luxury\nColor palette: warm vellum, umber, lampblack, faded lapis, muted verdigris, quiet madder, rose-petal pink and restrained ochre\nMaterials/textures: fibrous vellum, dry pigment, plain wool and linen, matte alabaster, hammered bronze, opaque earthenware, petals, resin tears, aromatic wood and oil\nHistorical constraints: late-fourth-century BCE Macedonian and Achaemenid camp materials and clothing; exactly three complete people; no one pours perfume over a body; the commander discovers an existing Persian unguent chest and is not depicted as its inventor; all containers are plain, opaque, visibly ceramic, alabaster or metal\nCritical repair: no transparent or translucent container of any kind; no glass, narrow-necked perfume bottle, vial, ampoule, flask with visible liquid, crystalline vessel or modern bottle silhouette. Pull back far enough to show the complete freestanding tent including all roof corners, outer posts, rope anchors and ground contacts with empty vellum beyond every part.\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, writing on the chest, glyph-like textile borders, decorated vessel bands, modern bottles, atomizers, laboratory glass, modern furniture, battle violence, blood, corpses, treasure piles, crown, fantasy palace, split panels, repeated frames, collage, photography, photorealism, glossy CGI, neon color, cropped tent, cut-off people, clipped hands or sandals, partial chest, edge-touching objects",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after one framing-and-vessel regeneration and original-resolution full-image and detail review. Exactly three complete figures surround the existing Persian unguent chest and one mixing bowl inside a fully contained freestanding tent with visible roof, posts, ropes and ground anchors. Every vessel is opaque alabaster, bronze or earthenware; no transparent bottle remains. The scene presents Alexander discovering rather than inventing unguents. No lettering, pseudo-writing, modern glass, violence, watermark, panel structure or clipped primary subject was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-7ba64fad-0015-4478-a882-26d91de4c48e.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/evidence/history/b13-c001.rejected-44765e719b7ea32922d7005f610f2931350214eb3061e6f0c38905f827527570.png",
+          "sha256": "44765e719b7ea32922d7005f610f2931350214eb3061e6f0c38905f827527570",
+          "reason": "Rejected at original-scene review because a narrow-necked transparent vessel read as glass and the tent canopy and post were not convincingly shown as a complete freestanding structure."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "13:5",
+      "title": "THE TREES OF SYRIA: THE PISTACIA, THE COTTANA, THE DAMASCENA, AND THE MYXA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c005.png",
+      "corpusArtifact": "public/corpus/book-13.0d1c563d0eec7c78.json",
+      "sha256": "1b8224c84344f05fa2e5c01dc3274837302405f341311b5c2dcff1e6c978d1a0",
+      "acceptedArtifactId": "exec-edb89bdf-c99f-49f5-8690-62d98b78e4e6",
+      "outputArtifact": "built-in-imagegen://exec-edb89bdf-c99f-49f5-8690-62d98b78e4e6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XIII, chapter 5, “The Trees of Syria: The Pistacia, the Cottana, the Damascena, and the Myxa”\nPrimary request: Ground a single living Syrian orchard panorama in Pliny’s four named fruit trees. Along one winding limestone terrace, show four complete and botanically differentiated trees in natural staggered depth rather than an atlas row: a low spreading pistacia with pinnate leaves and small clustered nuts; a compact cottana fig with broad lobed leaves and many small figs; a graceful Mount-Damascus plum with spring-green leaves and dusky purple fruit; and a rounder myxa tree with rough oval leaves and hanging tawny-yellow fruit. One complete Syrian orchard keeper walks the shared path carrying a single mixed harvest basket, binding the grove into one place and moment.\nScene/backdrop: fertile terraced foothill below Mount Damascus, one complete low irrigation rill curving through pale stone, sparse distant village forms and blue-grey mountain air; no separate specimen stands\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Syrian fruit-tree dialect with varied verdigris greens, ochre terrace stone, restrained madder and plum accents, faded-lapis mountain depth\nComposition/framing: landscape 3:2, broad elevated panorama with the irrigation rill and walking figure making one sinuous path through four staggered crowns; silhouettes overlap lightly in depth but each full canopy, trunk and ground contact remains readable; materially different from a centered specimen or workshop scene; confine all trees, roots, path, watercourse, figure, basket, fruit and shadows to the central seventy percent with generous uninterrupted vellum on all sides\nLighting/mood: lucid early-harvest morning, abundance without luxury, warm cultivated continuity\nColor palette: warm vellum, umber, lampblack, muted verdigris, pale ochre, faded lapis, quiet madder, dusty plum and tawny fruit\nMaterials/textures: fibrous vellum, dry mineral wash, compound pistachio leaves, fig leaf veins, smooth plum skins, slightly wrinkled myxa fruit, worn limestone, woven basket and coarse wool\nHistorical and botanical constraints: exactly four principal complete fruit trees, one of each named kind, and exactly one complete orchard keeper; ancient Syrian dress and handwoven basket only; the four tree forms must remain visibly distinct through leaf and fruit structure; do not depict the pistachio claim against serpent bite as proven medicine and show no snake\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, botanical labels, maps, diagrams, field-guide layout, evenly spaced specimen row, split panels, repeated frames, collage, duplicate tree clones, modern orchard machinery, pipes, plastic, modern buildings, photography, photorealism, glossy CGI, neon color, cropped canopies, cut trunks, missing ground contacts, partial person, edge-touching path or basket",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution full-image and detail review. One continuous Syrian terrace contains exactly four complete and visually differentiated principal trees: pinnate pistacia, lobed cottana fig, dark-fruited Damascena plum and tawny-fruited myxa. The complete orchard keeper and basket follow the shared irrigation path; all canopies, trunks, roots and the figure are contained. No labels, pseudo-writing, snake claim, modern orchard object, watermark, repeated panel or clipped primary subject was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "13:6",
+      "title": "THE TEREBINTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c006.png",
+      "corpusArtifact": "public/corpus/book-13.0d1c563d0eec7c78.json",
+      "sha256": "f65ad0440dccae0f17a467476fde1765e2c7fe3c4793dfff411110fb32184337",
+      "acceptedArtifactId": "exec-ef094cfc-8797-43fc-9325-d4927c05e4c4",
+      "outputArtifact": "built-in-imagegen://exec-ef094cfc-8797-43fc-9325-d4927c05e4c4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XIII, chapter 6, “The Terebinth”\nPrimary request: Build one coherent Damascus terebinth grove that makes Pliny’s distinctions visible without labels. A monumental complete female terebinth dominates the middle distance with dense compound leaves, clusters of lentil-small red fruit, reddish olive-like blossoms, black lustrous exposed wood and a restrained thread of sticky resin naturally oozing from one bark fissure. Across the same continuous slope, a smaller complete female bears pale bean-small fruit, while a third complete male terebinth remains visibly flowered but fruitless. One complete resin gatherer kneels beside the central trunk, collecting a single natural resin tear with a plain bronze spatula into one shallow earthen cup without cutting deeply into the tree.\nScene/backdrop: dry garden-grove on the outskirts of ancient Damascus, low basalt and limestone wall, distant orchard haze, no shop or laboratory\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; intimate tree-and-resin dialect with deep verdigris leaves, lampblack wood, madder-red fruit, pale ochre fruit and sparse amber resin\nComposition/framing: landscape 3:2, low upward view from the resin cup along the central trunk into its broad asymmetrical crown; two smaller terebinths recede diagonally on the shared slope rather than forming a row; one unified grove, not a botanical plate; every canopy, branch tip, trunk, root contact, person, hand, sandal, spatula, cup, fruit cluster and shadow fully contained within the central seventy percent and surrounded by generous untouched vellum\nLighting/mood: warm late-afternoon backlight, resinous fragrance, endurance and close observation\nColor palette: warm vellum, umber, lampblack, deep muted verdigris, faded-lapis haze, restrained madder, pale ochre and tiny amber accents\nMaterials/textures: fibrous vellum, flexible dark polished wood, dense leaflets, tiny clustered fruits, granular bark, sticky matte resin, earthenware and weathered bronze\nHistorical and botanical constraints: exactly three principal complete terebinth trees with deliberately different silhouettes—one red-fruited female, one pale-fruited female and one fruitless male—and exactly one complete gatherer; ancient Syrian clothing and tools only; fruit must remain small and clustered, never apple-sized; resin must be natural and restrained, not a modern tapped plantation\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, botanical annotations, arrows, cutaway, diagram, field-guide layout, split panels, repeated frames, collage, cloned trees, modern tapping equipment, glass, plastic, modern buildings, wounds to the tree, magical glowing resin, photography, photorealism, glossy CGI, neon color, cropped crowns, cut roots, partial person, edge-touching cup or tree",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution full-image and detail review. The monumental red-fruited Damascus terebinth, smaller pale-fruited female and flowered fruitless male read as three distinct complete trees in one grove. The complete gatherer, bronze spatula and earthen cup collect a restrained natural resin tear without a deep wound. No text-like mark, modern tapping equipment, magical effect, watermark, collage structure or clipped primary subject was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "13:7",
+      "title": "THE TREES OF EGYPT. THE FIG-TREE OF ALEXANDRIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c007.png",
+      "corpusArtifact": "public/corpus/book-13.0d1c563d0eec7c78.json",
+      "sha256": "d2b653f5175d180865fd4e2f2ad94117e437fb996d0428847eaa4fa3e9b35d2d",
+      "acceptedArtifactId": "exec-de0125f2-8ac9-4190-bac4-672c6727941e",
+      "outputArtifact": "built-in-imagegen://exec-de0125f2-8ac9-4190-bac4-672c6727941e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XIII, chapter 7, “The Trees of Egypt. The Fig-Tree of Alexandria”\nPrimary request: Ground the illustration in Pliny’s distinctive Egyptian fig: one complete mature sycamore fig resembling a mulberry in crown and leaf, but bearing abundant sweet round figs directly upon the main trunk and thick lower boughs rather than at twig tips. One complete Egyptian orchard worker stands at the trunk and carefully scores a few nearly ripe trunk figs with a small simple iron hook, the chapter’s ancient ripening practice; the other hand supports one fruit without cutting it open. A complete shallow harvest basket with already ripened figs rests on the ground. The central claim—fruit springing from the trunk and ripened by incision—must be legible at once.\nScene/backdrop: quiet first-century Nile orchard margin near Alexandria, one narrow complete irrigation channel, papyrus and low fields in the distance, pale river haze and no monumental architecture\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Egyptian fruit-tree dialect with muted verdigris leaves, ochre earth, soft madder figs and faded-lapis water\nComposition/framing: landscape 3:2, frontal vertical rhythm centered on the complete tree from root flare through every crown tip; worker placed in profile within the shelter of the trunk, basket and channel forming a low horizontal counterweight; one unified orchard moment, not a botanical diagram or process sequence; scale the whole tree, worker and channel into the central sixty-eight percent with broad blank vellum around the complete canopy, roots, body, tool and shadows\nLighting/mood: soft luminous morning after irrigation, fecundity, exact observation and calm agricultural skill\nColor palette: warm vellum, umber, lampblack, muted verdigris, faded lapis, pale ochre, restrained madder and milky fig-sap highlights\nMaterials/textures: fibrous vellum, mottled sycamore bark, mulberry-like leaves, dense trunk-borne fig clusters, iron hook, wicker, damp silt, water and coarse linen\nHistorical and botanical constraints: exactly one principal complete Egyptian sycamore fig and exactly one complete worker; figs grow densely from trunk and thick boughs, not only from twig ends; show a few small superficial scoring marks and no deep wound; ancient Egyptian/Roman-era dress and tool only; no medical use and no seed diagram\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, hieroglyphs, decorative glyph borders, maps, diagrams, cutaway fruit, before-and-after sequence, split panels, repeated frames, collage, modern orchard tools, pruning saw, ladder, plastic, glass, modern city, pyramids as spectacle, photography, photorealism, glossy CGI, neon color, cropped canopy, cut roots, partial worker, missing sandals, clipped hook, edge-touching basket or channel",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution full-image and detail review. One complete Egyptian sycamore fig bears abundant round fruit directly on its trunk and thick boughs; the complete worker, small iron hook, supported fruit, basket, roots and full canopy are contained. The practice is shown as a few superficial incisions without gore or modern equipment. No lettering, pseudo-writing, hieroglyph, watermark, panel structure or clipped primary subject was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "13:8",
+      "title": "THE CAROB-TREE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c008.png",
+      "corpusArtifact": "public/corpus/book-13.0d1c563d0eec7c78.json",
+      "sha256": "2a36894770e9c8f5f90bb2b8a2959d99cf61bdbc753fb91b09ef27802e0acb3c",
+      "acceptedArtifactId": "exec-9f5182b1-3296-4247-81db-7ec186d446a8",
+      "outputArtifact": "built-in-imagegen://exec-9f5182b1-3296-4247-81db-7ec186d446a8.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XIII, chapter 8, “The Carob-Tree”\nPrimary request: Distinguish Pliny’s Syrian and Ionian carob clearly from the Egyptian fig. On a wind-cut coastal terrace of Rhodes, show one complete evergreen carob tree with a low broad asymmetrical crown, dense rounded pinnate leaflets, fragrant small white flower clusters, several long dark siliqua pods borne directly from the trunk and thick limbs, and a few fresh green pods forming as the previous year’s mature pods are gathered. One complete island orchard worker reaches from the ground to remove a single old dark pod while holding a plain shallow basket; several low complete suckers emerge around the yellow-ochre trunk base as Pliny describes.\nScene/backdrop: rocky eastern Aegean orchard above the sea, complete low terrace wall, sparse thyme, distant faded-lapis water and no Egyptian imagery or city\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; windswept coastal tree dialect with muted verdigris, dark umber pods, ochre bark, pale white blossoms, quiet madder cloth and faded-lapis sea\nComposition/framing: landscape 3:2, strong diagonal wind gesture from the rooted suckers through the leaning trunk to the complete canopy, with the worker and basket tucked safely under the lee side; materially different from the frontal Egyptian fig; one continuous seasonal moment, not a diagram or before-and-after sequence; all canopy tips, trunk, roots, suckers, pods, flowers, person, limbs, sandals, basket, wall ends and cast shadow fully contained within the central sixty-eight percent with broad vellum on all sides\nLighting/mood: bright salt-washed morning, aromatic wind, resilient seasonal renewal\nColor palette: warm vellum, lampblack, dark umber, muted verdigris, pale flower white, ochre, quiet madder and faded lapis\nMaterials/textures: fibrous vellum, leathery rounded leaflets, long dry pods, tiny white blossoms, weathered yellow bark, wool, wicker, limestone and sea haze\nHistorical and botanical constraints: exactly one principal complete carob tree and exactly one complete worker; pods must be unmistakably long and narrow, never round figs; mature dark pods and a few fresh green pods coexist naturally; ancient island clothing and basket only; no medicinal claim and no Egyptian setting\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, botanical annotations, maps, diagrams, process sequence, split panels, repeated frames, collage, fig-shaped fruit, apple-shaped fruit, modern orchard tools, ladder, pruning equipment, plastic, glass, modern boats or buildings, pyramids, photography, photorealism, glossy CGI, neon color, cropped canopy, cut roots, partial worker, missing hands or sandals, edge-touching basket, wall or branch",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution full-image and detail review. The single complete windswept carob has rounded pinnate leaves, white blossoms, long dark mature pods, fresh green pods and complete basal suckers; the complete worker and basket are safely contained and the scene is materially distinct from the frontal Egyptian fig. The low wall is subordinate landscape context. No lettering, pseudo-writing, modern object, watermark, panel structure or clipped primary subject was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "13:9",
+      "title": "THE PERSIAN TREE. IN WHAT TREES THE FRUITS GERMINATE THE ONE BELOW THE OTHER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c009.png",
+      "corpusArtifact": "public/corpus/book-13.0d1c563d0eec7c78.json",
+      "sha256": "2832bce646794146b873eb01c83c973670b8d406ea1864993a85031c5b1ab363",
+      "acceptedArtifactId": "exec-1446b6ae-7adc-4542-967d-a8b3afba3328",
+      "outputArtifact": "built-in-imagegen://exec-1446b6ae-7adc-4542-967d-a8b3afba3328.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder's Natural History, Book XIII, chapter 9, “The Persian Tree. In What Trees the Fruits Germinate the One Below the Other”\nPrimary request: Ground one Egyptian orchard scene in Pliny’s peculiar evergreen Persian tree. Show one complete pear-like tree retaining a dense crown of leaves while the Etesian wind moves through it. Its fruit is oblong and slightly longer than a pear, enclosed by a grassy-green rind. The entire tree carries only three fruiting spurs, widely separated and easy to count: one at the upper left, one near the upper center, and one at the upper right. Each spur bears exactly one large mature green fruit with exactly one tiny new green fruit directly below it. Thus the entire tree shows exactly three large fruits plus exactly three tiny fruits, and no other fruit anywhere. One complete orchard worker sits calmly on a low stone at the base, observing the three pairings with empty hands. A shallow basket on the ground contains exactly four whole green fruits and one cleanly opened specimen whose interior is soft plum-like flesh rather than an almond nut.\nScene/backdrop: spring-watered woodland near ancient Thebes, three hundred stadia from the Nile in Pliny’s account; one complete circular spring basin, low wild grasses, distant dry hills and no monumental architecture\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; dry iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained hand-applied mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Egyptian fruit-tree dialect with cool verdigris leaves, grassy-green fruit, ochre earth, faded-lapis spring water and quiet madder cloth\nComposition/framing: landscape 3:2, high three-quarter view with the complete tree set off-center and the spring basin tracing a gentle spiral around its roots; the seated worker and basket form a low counterweight while the three isolated fruit pairs make a clean upper arc; materially distinct from a frontal specimen tree and coastal silhouette; one continuous windy observation, not a time sequence, diagram or collage; every crown tip, trunk, root contact, person, hand, sandal, fruit, basket, spring rim and shadow fully contained in the central sixty-eight percent with generous blank vellum on every edge\nLighting/mood: clear Etesian wind, cool spring light, inexhaustible fertility and observational wonder\nColor palette: warm vellum, umber, lampblack, cool muted verdigris, grassy green, pale ochre, faded lapis and restrained madder\nMaterials/textures: fibrous vellum, dense evergreen leaves, matte green rind, soft tawny-plum interior, dark solid wood, spring water, wicker, limestone and linen\nHistorical and botanical constraints: exactly one principal complete Persian tree and exactly one complete seated orchard worker; exactly three large mature fruits and exactly three tiny new fruits on the tree, arranged as three large-above/small-below pairs total; exactly five fruits in the basket—four whole and one opened; fruit must be oblong with green rind and soft interior, never an almond or ordinary pear; worker’s hands must be empty and away from the fruit; ancient Egyptian/Roman-era dress and basket only\nCritical count correction: three tree pairs only. Do not add a fruit near the worker, trunk, lower boughs, background or hidden foliage. Four whole basket fruits plus one opened basket fruit only. No fruit in either hand.\nAvoid: all lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, botanical annotations, arrows, numbered sequence, cutaway diagram, field-guide layout, split panels, repeated frames, collage, multiple seasons in separate areas, modern orchard tools, plastic, glass, modern buildings, pyramids as spectacle, photography, photorealism, glossy CGI, neon color, cropped canopy, cut roots, partial worker, missing hands or sandals, clipped fruit, edge-touching basket or spring",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 3,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after two count-correction regenerations and original-resolution full-image and detail review. The complete evergreen Persian tree carries exactly three mature oblong fruits, each with exactly one tiny new fruit directly below, and no extra tree fruit. The basket contains exactly four whole green fruits and one opened soft-fleshed specimen; the complete seated worker has empty hands. Tree, roots, spring, person and basket are fully contained. No lettering, pseudo-writing, modern object, watermark, sequence panel or clipped primary subject was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6f03c1d5-ae98-41dc-a302-9170620208ac.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/evidence/history/b13-c009.rejected-98601d9ed910b95eef479f3a07638a917b5775d2d7fd70341812dfd8466a94c3.png",
+          "sha256": "98601d9ed910b95eef479f3a07638a917b5775d2d7fd70341812dfd8466a94c3",
+          "reason": "Rejected at original-scene review because the canopy carried four mature/new-fruit pairings rather than the required three."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-065af485-ed05-4f15-aec8-99c4b7555b4f.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/evidence/history/b13-c009.rejected-412b85f1e701f0f2ad471646f469f2c0b14f1565e2f72f34d3a98527cc27f249.png",
+          "sha256": "412b85f1e701f0f2ad471646f469f2c0b14f1565e2f72f34d3a98527cc27f249",
+          "reason": "Rejected after the first count repair because the reaching pose still induced a fourth mature tree fruit, violating the exact three-pair gate."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

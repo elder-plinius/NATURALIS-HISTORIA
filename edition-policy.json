@@ -1,0 +1,11 @@
+{
+  "editionId": "naturalis-historia-living-codex",
+  "version": "1.0.0",
+  "releaseDate": "2026-08-26",
+  "origin": "https://naturalishistoria.org",
+  "originStatus": "canonical-origin-dns-pending",
+  "publicIndexing": true,
+  "accessMode": "public",
+  "deploymentStatus": "publication-authorized-production-not-yet-live",
+  "mediaRightsSummary": "1065-chapter-scenes-plus-2-active-plates-plus-social-card-source-bound-agpl-3.0-cleared"
+}

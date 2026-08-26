@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-35",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted chapter records its unique built-in generation artifact ID. The rejected generation is preserved under evidence/history and records its built-in artifact ID, hash, and collection-wide similarity-gate reason.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 336,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "22:17": {
+        "nearestMAD": 24.02,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c019.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c017.png",
+        "madAtDHashPeer": 50.67
+      },
+      "22:18": {
+        "nearestMAD": 25.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "madAtDHashPeer": 26.54
+      },
+      "22:19": {
+        "nearestMAD": 20.12,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c007.png",
+        "madAtDHashPeer": 38.78
+      },
+      "22:20": {
+        "nearestMAD": 25.73,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c008.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c008.png",
+        "madAtDHashPeer": 28.36
+      },
+      "22:22": {
+        "nearestMAD": 24.39,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-02/b33-c009.png",
+        "madAtDHashPeer": 55.12
+      },
+      "22:23": {
+        "nearestMAD": 24.3,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c002.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b21-c034.png",
+        "madAtDHashPeer": 38.31
+      },
+      "22:24": {
+        "nearestMAD": 24.72,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c004.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c004.png",
+        "madAtDHashPeer": 33.65
+      },
+      "23:1": {
+        "nearestMAD": 20.51,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-12/b15-c027.png",
+        "madAtDHashPeer": 54.2
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "22:17",
+      "title": "THE HELXINE: TWELVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c017.png",
+      "sha256": "f8beb562ec1609429611176ac5820ad1bf20de93d8e264aea91dec1c5da7721c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c202e9f6-7ac7-4aa9-b897-182fb417c78d",
+      "outputArtifact": "built-in-imagegen://exec-c202e9f6-7ac7-4aa9-b897-182fb417c78d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 17, “The helxine”\nPrimary request: Illustrate the identifying traits and dye use Pliny gives for helxine without any bird: light-red crowded stems, leaves between plantain and horehound, burr-like seed heads that catch on clothing, and pigment prepared for wool.\nScene/backdrop: A broad open Roman dye-ground at copper-blue evening, bare packed earth beneath an immense darkening vellum sky. No bird, animal, wall, building, roof, tree, fence, tile stack or edge-entering vegetation.\nSubject: Exactly one complete standing wool worker faces one complete freestanding wooden drying rack, both fully inside the canvas. A single whole wool mantle hangs from the rack; exactly seven small helxine burr heads cling along its lower hem. The worker plucks one burr free over one shallow collecting tray. On the ground nearby, exactly one complete rooted helxine plant shows many slim pale-red stems, dark plantain-horehound leaves and burr heads; one low dye pot contains muted red-violet plant liquor, and one small dyed skein rests beside it.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; deep restrained umber, lampblack, verdigris, faded lapis, muted madder and copper ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, strong vertical counterpoint: complete worker in the left-middle, fully contained rectangular rack and mantle in the right-middle, low helxine plant, dye pot and skein forming a grounded arc between them. Reserve a huge open evening sky above, one full body-width of bare ground at left and right, and ample foreground below. Keep the full person, head, hands, feet, every rack post and crossbar end, mantle edge, all seven burrs, collecting tray, entire plant, every stem and root contact, pot and skein fully visible. One continuous textile action, not a specimen layout.\nHistorical and epistemic framing: Depict Pliny’s transmitted uses as ancient natural history, without presenting medicinal claims as modern advice.\nLighting/mood: Copper afterglow fading into lapis; rough burr, soft wool, practiced attention.\nConstraints: Exactly one person, one rack, one mantle, one tray, one living plant, one dye pot and one skein; all objects grounded or physically supported; no bird, patient, wound, treatment or written mark; period-appropriate plain clothing and tools; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, partridge, animal, extra people, extra plants, giant burrs, floating seeds, blood, medical scene, modern textile tools, tile stack, wall, building, roof, tree, clipped rack, edge-touching mantle, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale all discrete objects down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete standing worker, fully contained rack and mantle, burr-clung hem, tray, rooted red-stemmed helxine, dye pot and skein remain visible against broad copper-blue negative space. No bird, clipped post, text, panel, border, visible sheet or watermark was found. The replacement clears the collection-wide similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-14ed8acb-c6d0-4fc6-9255-03d276039e28.png",
+          "sha256": "3f8823fb7976ad92897ba007ca4f2a4aed33bf89695fcd7b1277451b394417fe",
+          "reason": "Rejected after native QA because the global 32x32 grayscale scan measured MAD 19.94 against chapter 21:17, below the required 20.00 threshold despite dHash 20. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:18",
+      "title": "THE CHAMÆLEON, IXIAS, ULOPHONON, OR CYNOZOLON; TWO VARIETIES OF IT: TWELVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c018.png",
+      "sha256": "7c93d3280f024b8e7f78c0d3f060421cab0a63057b4a611878d207d3b228c58e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-bd95d10d-744d-4bd0-9991-c0856afb8627",
+      "outputArtifact": "built-in-imagegen://exec-bd95d10d-744d-4bd0-9991-c0856afb8627.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 18, “The chamæleon, ixias, ulophonon, or cynozolon”\nPrimary request: Illustrate Pliny’s white chamæleon plant as a low creeping, hedgehog-prickled herb with a sweet powerful root, viscous white resin beneath the leaf axils at the rising of the Dog Star, and leaves whose tints appear to vary with the soil.\nScene/backdrop: An open late-summer Mediterranean badland at dawn, its central ground naturally grading through four adjacent mineral soils—charcoal-dark, ochre-yellow, cool green-grey and blue-grey—without hard dividing lines. A broad pale vellum sky fills the upper half. No buildings, walls, trees, animals, vessels or edge-entering vegetation.\nSubject: Exactly one complete kneeling ancient botanist studies exactly one fully visible sprawling white chamæleon plant rooted at the meeting of the soils. Its rough leaves and upright prickles resemble a hedgehog’s quills; branches creeping across each soil show subtly different natural leaf tints. The botanist gently lifts one leaf to reveal a small milky-white resin bead at its axil, while one exposed section of thick root remains grounded in loosened earth. No cutting, tasting or treatment is shown.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, pale resin white and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, radial composition centered on the whole plant, with its complete creeping branches contained inside the middle half and the botanist small at right. Keep the full person, head, hands, knees, feet, root, every branch, leaf tip, prickle and resin bead visible. Preserve at least one full branch-length of empty ground left and right, broad empty sky above, and ample foreground below. One continuous field observation, not a color chart or botanical plate.\nHistorical and epistemic framing: Depict the plant characteristics and uses Pliny transmits as ancient testimony, without endorsing poisonous or medicinal preparations.\nLighting/mood: Dog-star dawn, dry mineral radiance, mutable color observed without magic.\nConstraints: Exactly one person and one plant; all objects grounded; color variation subtle and botanical, not glowing; period-appropriate plain clothing; no written marks; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, chameleon animal, hedgehog animal, dog, swine, mouse, poison bowl, suspended roots, magical rainbow, fluorescent leaves, extra people, extra plants, hard quadrants, diagram arrows, wall, building, tree, clipped branch, edge-touching figure, photographic realism, glossy digital rendering, split panels, quadriptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete botanist examines one fully framed low prickled plant whose branches carry subtle mineral-soil color shifts, grounded exposed root and a small resin bead. The Dog Star remains a modest sky observation. No animal, poison preparation, hard color quadrants, clipped branch, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:19",
+      "title": "THE CORONOPUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c019.png",
+      "sha256": "97db7d65379ae824c29de43e0068aca594208b4dff691c2ddf71229c0b6d2608",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-0dfee11a-b6f3-4c39-b4cc-b38af2ff83c0",
+      "outputArtifact": "built-in-imagegen://exec-0dfee11a-b6f3-4c39-b4cc-b38af2ff83c0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 19, “The coronopus”\nPrimary request: Illustrate Pliny’s concise description of coronopus: an elongated plant with deeply fissured leaves, sometimes cultivated, whose root was roasted in hot ashes in antiquity.\nScene/backdrop: A spare Mediterranean field camp at violet dusk, entirely open to a broad vellum sky. Bare ochre ground holds one small circular bed of pale spent ashes, fully contained; no fire flames, smoke plume, tent, building, wall, tree or edge-entering vegetation.\nSubject: Exactly one complete seated field gatherer uses one plain wooden spatula to turn one whole coronopus root in the warm ash bed. Beside the person grows exactly one complete living coronopus plant with a low elongated form and deeply cut antler-like leaves; a second freshly cleaned root rests on one small flat stone. No eating or treatment is shown.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, ash grey and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, intimate asymmetrical triangle: fully contained living plant at lower left, complete ash circle and root at center, seated gatherer at right. Preserve a large empty sky, broad bare ground between all objects, one full plant-length of space at both side edges, and ample foreground below. Keep the entire person, head, hands, feet, spatula, ash circle, both roots, flat stone and every leaf tip fully visible. One continuous preparation, no medicinal diagram.\nHistorical and epistemic framing: Depict the roasting practice Pliny transmits as ancient testimony, without presenting it as modern medical advice.\nLighting/mood: Cool violet evening with residual amber in the ash; frugal knowledge, a tiny chapter made tactile.\nConstraints: Exactly one person, one living plant, two roots, one ash bed, one stone and one spatula; period-appropriate plain clothing and tool; all objects grounded; no wound, patient, ingestion or written mark; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra plants, open flame, cauldron, feast, modern camp gear, wall, building, tent, tree, cropped leaf, edge-touching figure, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, clipped subject. Scale all discrete objects down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete gatherer turns a whole root inside a fully contained ash bed; a second root rests on its stone beside one complete elongated, deeply fissured coronopus plant. No flame, eating, patient, edge clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:20",
+      "title": "THE ANCHUSA: FOURTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c020.png",
+      "sha256": "8e1fdf2d6765052188a3f1cd573ce5e312b8d6fb0ebc2339e4660a6782a53391",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-cbcbdcd9-f728-4514-a391-aeecba9e9b21",
+      "outputArtifact": "built-in-imagegen://exec-cbcbdcd9-f728-4514-a391-aeecba9e9b21.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 20, “The anchusa”\nPrimary request: Illustrate Pliny’s practical test for genuine anchusa root: it stains the hands a rich blood-red color, dissolves its pigment in oil but not in water, and supplies dye for wool. Make the pigment clearly botanical crimson, never an injury.\nScene/backdrop: A broad open Roman dye-ground at clear midday, featureless packed earth receding to a low horizon beneath a pale vellum sky. No architecture, wall, awning, tree, hanging cloth or edge-entering vegetation.\nSubject: Exactly one complete seated dyer works at one low, fully visible stone slab. On the slab are exactly two shallow bowls: golden olive oil in the left bowl blooms with anchusa’s rich crimson pigment, while clear water in the right bowl remains unstained beside an equal root shaving. The dyer holds one split anchusa root whose papyrus-like layers stain the fingertips red. One complete skein of wool, dyed deep madder-crimson, rests on a small reed mat; exactly one fully visible living anchusa plant with downy leaves and modest blue flowers grows in the soil beyond the slab.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, botanical crimson and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, balanced low diamond: complete dyer at left-middle, two bowls centered on the slab, crimson skein at lower right, complete blue-flowered anchusa at upper right. Keep the full person, head, hands, feet, slab and every support, both bowls, root, shavings, mat, skein, whole plant, every leaf and flower fully visible. Preserve broad bare ground left and right, ample foreground below, and large empty sky above. One continuous dye test, no chart or split comparison panel.\nHistorical and epistemic framing: Depict Pliny’s transmitted identification and dye practice as ancient natural history, without presenting medicinal claims as modern advice.\nLighting/mood: Clean high daylight; material proof, vivid color born from an unassuming root.\nConstraints: Exactly one person, one living plant, one root, two bowls, one mat and one skein; pigment only on root, fingertips, oil and wool; no wound, patient or treatment; period-appropriate plain clothing and vessels; all objects grounded; no written marks; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, blood, cut skin, gore, red water bowl, extra people, extra bowls, extra skeins, modern chemistry glassware, wall, building, roof, tree, clipped plant, edge-touching slab, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete dyer holds a layered anchusa root with botanical crimson pigment on intact fingertips; pigment blooms only in the oil bowl while the water bowl stays clear. The slab, skein, mat and whole blue-flowered plant are fully framed. No wound, medical application, clipped object, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:22",
+      "title": "THE PICRIS; ONE REMEDY. THE THESION; ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c022.png",
+      "sha256": "bec1d33defaf27d068dbb408e073bd92274e3e043345ee047a18835ba06725b4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-88bf905d-2ac3-404a-9dbb-fdedb2b4c4c3",
+      "outputArtifact": "built-in-imagegen://exec-88bf905d-2ac3-404a-9dbb-fdedb2b4c4c3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 22, “The picris; the thesium”\nPrimary request: Illustrate the two intensely bitter plants Pliny pairs: round-leaved picris and similarly bitter thesium, with the latter bruised in water in ancient preparation. Emphasize comparative field identification, not a promised cure.\nScene/backdrop: A quiet open herb-gathering ground at cool early morning, pale ochre earth under a broad washed-lapis vellum sky. No garden rows, wall, building, tree, hill, vessels beyond those specified, or edge-entering vegetation.\nSubject: Exactly one complete kneeling herb gatherer works between exactly two separate fully visible plants. At left is one low picris with round basal leaves and small yellow flower heads; at right is one finer branching thesium with narrow leaves and pale greenish flowers. The gatherer pinches one tiny picris leaf between fingers with a restrained bitter expression while using the other hand to bruise a single thesium sprig in one shallow water bowl with one smooth stone pestle. One empty collecting basket rests behind the person.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, bitter yellow-green and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, open triangular composition: complete picris at lower left, whole gatherer and bowl in the middle, complete thesium at lower right, empty basket forming a small apex behind. Preserve broad sky, wide bare ground between all subjects, one full plant-width at both side edges, and ample foreground below. Keep the full person, face, hands, knees, feet, both complete plants, every root contact, leaf, flower, bowl, pestle and basket fully visible. One continuous comparison, no diagram or two-panel format.\nHistorical and epistemic framing: Depict preparation practices Pliny transmits as ancient natural history, without modern therapeutic endorsement.\nLighting/mood: Blue-gold dawn; disciplined attention to bitterness, two humble plants distinguished by form.\nConstraints: Exactly one person, two living plants, one bowl, one stone pestle and one basket; no drinking, patient, wart, wound or medical treatment; period-appropriate plain clothing; all objects grounded; no written marks; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra plants, vomiting, comic grimace, patient, modern mortar, laboratory glass, wall, building, tree, clipped leaf, edge-touching basket, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete gatherer compares a leaf while bruising a sprig in water between one whole round-leaved yellow-flowered picris and one complete finer branching thesium. Bowl, pestle and empty basket are fully contained. No patient, ingestion, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:23",
+      "title": "FUNGI; SIGNS BY WHICH THE VENOMOUS KINDS MAY BE RECOGNIZED: NINE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c023.png",
+      "sha256": "2d3f75773873e2ade693eefc73604e97ee0b3c3c4eb6df03d5bb43b67eb271f2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-63609a84-747e-41ae-9d39-0cbe0133a9f0",
+      "outputArtifact": "built-in-imagegen://exec-63609a84-747e-41ae-9d39-0cbe0133a9f0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 23, “Fungi; signs by which the venomous kinds may be recognized”\nPrimary request: Illustrate Pliny’s anxious ancient attempt to distinguish fungi by color and host tree while making the uncertainty unmistakable: no mushroom is eaten, and the observer remains cautious rather than triumphant.\nScene/backdrop: An open Roman market inspection ground at overcast morning, bare stone-dusted earth beneath a broad vellum sky. No stall, awning, building, wall, tree, banquet, crowd or edge-entering vegetation.\nSubject: Exactly one complete crouching market inspector studies a small fully visible reed mat. On it lie exactly three whole mushrooms separated by wide gaps: one red-fleshed mushroom, one white tall mushroom with a flamen-cap-like crown, and one livid grey-violet suillus. A complete fig twig and a complete cypress twig rest beside them as uncertain host clues. The inspector uses one pair of plain wooden tongs to move the livid mushroom toward one empty reject basket, while the other hand remains open in hesitation. No tasting.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, muted red, livid violet and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, tense shallow arc across the lower middle: complete inspector at left, full mat and three separated mushrooms at center, empty reject basket at right. Keep the full person, head, hands, knees, feet, tongs, entire mat, every mushroom cap and stem, both twigs and whole basket fully visible. Preserve broad empty sky, wide ground at both sides, and ample foreground below. One continuous inspection, no species chart or split panels.\nHistorical and epistemic framing: These are Pliny’s transmitted ancient signs, not reliable modern mushroom-identification rules. The image must communicate uncertainty and abstention; it must not depict any fungus as certified safe.\nLighting/mood: Pearl-grey morning, restrained color, mortal doubt at the edge of appetite.\nConstraints: Exactly one person, three mushrooms, two twigs, one mat, one pair of tongs and one empty basket; no eating, cooking, serving, patient, collapse or medical treatment; period-appropriate plain clothing and objects; all objects grounded; no written marks; painted ground, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra mushrooms, cheerful feast, mushroom soup, modern field guide, skull symbol, poison bottle, corpse, vomiting, wall, building, stall, tree, clipped basket, edge-touching figure, photographic realism, glossy digital rendering, split panels, triptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete inspector uses wooden tongs while an open hand communicates hesitation; three separated whole mushrooms, fig and cypress twigs, the entire reed mat and empty reject basket remain visible. No eating, false safety symbol, extra fungus, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "22:24",
+      "title": "PROPOLIS: FIVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c024.png",
+      "sha256": "651926eac23d4555b85ef8b6404b1827f76434520c4effc65be4801c431b30e3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5ec618a9-026c-4058-a5fd-37946ae1f81d",
+      "outputArtifact": "built-in-imagegen://exec-5ec618a9-026c-4058-a5fd-37946ae1f81d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXII chapter 24, “Propolis”\nPrimary request: Illustrate propolis at its source inside an ancient hive: the dark aromatic resin bees use to seal narrow gaps, carefully collected for the uses Pliny transmits. Focus on hive craft and material character, not medical treatment.\nScene/backdrop: A broad open apiary clearing at honey-gold sunset, level bare earth beneath a generous vellum sky. No flowers, trees, wall, building, roof, fence, extra hives or edge-entering vegetation.\nSubject: Exactly one complete kneeling beekeeper works beside exactly one complete cylindrical woven hive set horizontally on a low three-legged wooden cradle. The near circular hive end has been gently opened and lies whole on the ground. With one short bronze scraper, the beekeeper lifts a dark amber seam of propolis from between the inner basket coils into one shallow earthen bowl. A few naturally tiny bees remain near the hive entrance; one complete stray thorn and one tiny wood splinter are visibly caught in the sticky resin already in the bowl, recalling its described power to draw out foreign bodies without showing a patient.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, resin amber and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, intimate horizontal oval in the center: complete hive and cradle at left-middle, beekeeper at right-middle, lid and bowl forming a low foreground arc. Preserve broad open ground on every side, a large quiet sky above and ample soil below. Keep the entire person, head, hands, knees, feet, hive cylinder, both hive ends, all three cradle legs, lid, scraper, bowl, thorn and splinter fully visible. One continuous collection scene, no medical inset.\nHistorical and epistemic framing: Depict the source and uses Pliny transmits as ancient natural history, without modern therapeutic endorsement.\nLighting/mood: Resinous amber evening; patient husbandry, a minute sealing substance made precious.\nConstraints: Exactly one person, one hive, one cradle, one lid, one scraper and one bowl; all objects grounded; bees naturally tiny; no wound, patient, application to skin, ingestion or written marks; period-appropriate plain clothing and tools; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra hives, giant bees, honeycomb close-up, honey jar, modern beekeeping suit, smoke machine, wall, building, roof, tree, flower patch, clipped hive, edge-touching figure, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete beekeeper scrapes a visible resin seam from one whole horizontal woven hive into a complete bowl; cradle, circular lid, scraper, tiny bees, thorn and splinter are fully framed. No medical application, extra hive, modern gear, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "23:1",
+      "title": "INTRODUCTION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b23-c001.png",
+      "sha256": "9ce3b8651e80bd7e6a8df859c8aa558a6e827e212d3336d108fe2dcda6b9cab1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8d789dc7-ddb0-4cda-a531-1e89d38b92d6",
+      "outputArtifact": "built-in-imagegen://exec-8d789dc7-ddb0-4cda-a531-1e89d38b92d6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: transition folio for Pliny the Elder, Naturalis Historia, Book XXIII chapter 1, “Introduction”\nPrimary request: Create a chapter-specific threshold scene for Pliny’s turn from low plants to the gifts hanging on trees and vines: fruits as humankind’s first nourishment, offered without plough, threshing floor or millstone, with wine and oil now entering the medicinal natural history.\nScene/backdrop: A spacious ancient Italian orchard clearing at late-summer dawn, mostly open earth under a broad luminous vellum sky. Three separate cultivated forms stand small and entirely inside the canvas: one complete low fig tree at left, one complete freestanding grape trellis in the middle distance, and one complete young olive tree at right. Every trunk, root contact, branch tip, leaf cluster, trellis post and crosspiece remains visible. No other vegetation, wall, building, roof, plough, ox, mill or edge-entering canopy.\nSubject: Exactly one complete fruit gatherer stands in the central open ground, looking upward while placing one cluster of dark grapes into one low woven basket that already holds a few figs and olives. One small unmarked amphora for new wine and one shallow oil flask rest beside the basket. The action unites fruit, vine and oil without depicting a deity.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, grape purple, olive silver and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, wide ascending triptych-like rhythm but one continuous orchard: fig tree at lower left, complete grape trellis farther back at center, olive tree at right, complete gatherer and basket on the diagonal between them. Avoid panel divisions. Preserve a broad empty sky around and above every crown, wide open ground between all plants, one full crown-width at both side edges, and ample foreground below. Keep the full person, head, hands, feet, cluster, basket, fruit, amphora, flask and all three complete cultivated forms fully visible.\nHistorical and epistemic framing: Depict Pliny’s literary transition and transmitted uses as ancient natural history, not modern health advice.\nLighting/mood: First gold after dawn, upward attention, abundance received rather than wrested from the earth.\nConstraints: Exactly one person, one fig tree, one grape trellis with vine, one olive tree, one basket, one amphora and one oil flask; period-appropriate plain clothing and vessels; all objects grounded; no goddess, halo, inscription or written mark; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, Pomona figure, deity, extra people, extra trees, palm, mixed fruit growing on one tree, edge-entering branch, cropped crown, plough, ox, threshing floor, millstone, architecture, wall, building, roof, modern bottle, photographic realism, glossy digital rendering, split panels, triptych borders, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete gatherer, basket, amphora and oil flask connect one fully contained fig tree, one complete grape trellis and one whole young olive tree beneath expansive dawn sky. Every crown, trunk, root contact, trellis post and crosspiece is visible. No deity, mixed-fruit tree, agricultural machine, clipping, text, panel division, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

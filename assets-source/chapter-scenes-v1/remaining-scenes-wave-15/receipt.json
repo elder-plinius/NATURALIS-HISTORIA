@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-15",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "35:10",
+    "35:11",
+    "35:12",
+    "35:13",
+    "35:14",
+    "35:15",
+    "35:17",
+    "35:18"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed immutable generation artifact IDs and original PNGs, but no separate provider receipt ID.",
+  "artworkPlan": {
+    "artifact": "assets-source/chapter-artwork-plan.json",
+    "sha256": "145e530b3d63d5d2d9db3801e3afacd2a00a934dac4abdb11c735763698b4942",
+    "statusAtSelection": "planned-full-scene",
+    "modifiedByCampaign": false
+  },
+  "corpusArtifacts": [
+    {
+      "artifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "sha256": "b37c72287e2ea8d58c5a951a9870f923c1fbf644bf6c495fd201e14c61ef902b"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for every assigned chapter were read before any prompt was written. Per-language hashes, counts and lengths are recorded per chapter.",
+  "styleContract": "Original Plinian natural-history folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained ancient mineral pigments; rough material texture and polished draftsmanship; complete edge-safe subjects; one continuous scene; no text, pseudo-writing, signature, watermark, border, page mockup, panel layout, modern object, photography or glossy CGI.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 5,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "scanTimePlanEntries": 1065,
+    "scanTimePlannedFullScene": 89,
+    "scanTimeReceiptFiles": 117,
+    "scanTimeNonEvidenceMasterKeys": 914,
+    "explicitActiveKeyExclusions": 24,
+    "scanTimeEligibleUnownedKeys": 49,
+    "selectedFirstEightEligibleKeys": [
+      "35:10",
+      "35:11",
+      "35:12",
+      "35:13",
+      "35:14",
+      "35:15",
+      "35:17",
+      "35:18"
+    ],
+    "noReceiptOwnerOrNonEvidenceMasterAtSelection": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "35:10",
+      "title": "VARIOUS OTHER KINDS OF PAINTING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c010.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3ef616ff382d479f5f138e31b66633531c7db208c411a65d58592442ecb504e4",
+        "englishSha256": "97bd5d688c9047e49548926ce87771aaa804ffcf750501559c0e0695899e3177",
+        "latinWords": 3085,
+        "englishWords": 6663,
+        "latinChars": 22145,
+        "englishChars": 37966,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "bae878cfa1c6a145c333a813a8f548e079ac4eabfebc8923760d762ac3b129d9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5f4bcb56-d2c2-4771-8801-4b4fdbd6d7aa",
+      "generationArtifactId": "exec-5f4bcb56-d2c2-4771-8801-4b4fdbd6d7aa",
+      "outputArtifact": "built-in-imagegen://exec-5f4bcb56-d2c2-4771-8801-4b4fdbd6d7aa.png",
+      "exactFinalPrompt": "Create a fresh, independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 10, after the complete bilingual chapter about the great painters. Compose exactly three complete human figures in one enclosed Rhodian studio: Apelles at left, Protogenes at right, and one elderly woman witness farther right. Between the two artists stands one broad rectangular gessoed wooden painting board resting directly on a low horizontal trestle—no tall easel, nothing protruding above it. Show the entire board, trestle, figures, feet, hands, brushes, and workbench with wide empty vellum-colored margins on all four sides. On the pale board place exactly three extremely fine, gently intersecting brush lines only: vermilion, verdigris, and lampblack; they are abstract painted strokes, not letters or writing. A low bench fully inside the bottom margin holds exactly three pigment shells, wax cakes, one sponge, and several brushes. The back wall is closed and quiet with one shallow empty niche; no doors, windows, exterior view, sea, water, distant people, or extra body parts. Mood: concentrated rivalry, humility, and mastery; let the pale board provide elegant negative space. Landscape 3:2, 1536x1024, opaque RGB. Visual language: original ancient Plinian natural-history folio on warm aged vellum, iron-gall contour drawing, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral washes; rough fibres and worn pigment balanced by polished draftsmanship; timeless, beautiful, tactile, no glossy digital rendering. One scene only; no outer border, decorative frame, page mockup, split panel, inset, diagram, collage, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. No clipping or cropping of any person, object, board, trestle, brush, vessel, or architectural feature. Anatomically natural hands and faces.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2e7b113e-5237-45b2-a0e1-4f15b4eda6b9",
+          "outputArtifact": "built-in-imagegen://exec-2e7b113e-5237-45b2-a0e1-4f15b4eda6b9.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 10, grounded in the complete Latin and English account of the great painters. Use a single coherent scene in an open Rhodian painter's workshop: Apelles and Protogenes, two mature Greek master painters in simple draped garments, stand on opposite sides of one very large upright gessoed wooden panel, while an elderly woman attendant witnesses their famous contest. Across the otherwise pale panel are exactly three extraordinarily fine, interlacing painted lines—one restrained vermilion, one verdigris, one lampblack—each line visibly finer than the previous; these are brushstrokes, not writing. Arrange pigment shells, a small sponge, wax cakes, and long-handled brushes on a low bench; through a distant open doorway show a sliver of Rhodes harbor and pale sea, but keep all water wholly enclosed within the doorway and away from every outer canvas edge. Make the three complete figures and the entire depicted panel fully visible with generous breathing room; dignified concentration, not theatrical posing. Landscape 3:2, 1536x1024, opaque. Edition house style: an ancient Plinian folio painted on warm aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral pigments; rough fibres and worn pigment beside exquisitely polished drawing; timeless, beautiful, materially tactile, no glossy digital rendering. Single scene only, no split panels, frames, border, page mockup, inset, diagram, collage, text, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Avoid cropped heads, hands, feet, tools, panel edges, and focal objects; anatomically natural hands and faces.",
+          "sha256": "3ca89f57ed229854bbc2a0186ed9ca23e5dd88ad8726d21ac5efea2575fbf52c",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c010-attempt-01-rejected-clipped-extra-figure-water-edge.png",
+          "rejectionReason": "A stray cropped bystander entered at the far-right edge and harbor water reached the outer canvas edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-be0a2145-eb1f-47cb-8534-a7cdb92f1b8f",
+          "outputArtifact": "built-in-imagegen://exec-be0a2145-eb1f-47cb-8534-a7cdb92f1b8f.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Generate a completely new, independent original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 10, grounded in the complete Latin and English account of the great painters. One enclosed Rhodian painter's workshop, with exactly three human figures and no one else: Apelles and Protogenes, two mature Greek master painters in simple draped garments, stand on opposite sides of one very large upright gessoed wooden panel; one elderly woman attendant stands well inside the room observing. Across the otherwise pale panel are exactly three extraordinarily fine interlacing horizontal brush lines—one restrained vermilion, one verdigris, one lampblack—each clearly a painted stroke and not writing. The entire panel, easel supports, all three complete figures, every head, hand, foot, brush, and pigment vessel must be fully visible with generous margins. Along the back wall, a shallow closed niche and wooden shelves hold a few pigment jars; no doors, windows, landscape, sea, water, distant people, or cropped background figures. A low workbench holds exactly three pigment shells, wax cakes, one sponge, and several long brushes. Quiet concentration, exquisite negative space, material intelligence. Landscape 3:2, 1536x1024, opaque. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral pigments; rough fibres and worn pigment beside polished master drawing; timeless, beautiful, tactile, no glossy digital rendering. Single scene only, no split panels, decorative frame, outer border, page mockup, inset, diagram, collage, text, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. No extra people or body parts at any edge. Anatomically natural hands and faces.",
+          "sha256": "13f9083631655120ed3e19e9f8893c829b42fb3dd1fefdcde3a6ca0d0964879c",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c010-attempt-02-rejected-clipped-easel-top.png",
+          "rejectionReason": "All figures were clean, but the easel top support was clipped by the upper canvas edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-5f4bcb56-d2c2-4771-8801-4b4fdbd6d7aa",
+          "outputArtifact": "built-in-imagegen://exec-5f4bcb56-d2c2-4771-8801-4b4fdbd6d7aa.png",
+          "status": "accepted",
+          "exactPrompt": "Create a fresh, independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 10, after the complete bilingual chapter about the great painters. Compose exactly three complete human figures in one enclosed Rhodian studio: Apelles at left, Protogenes at right, and one elderly woman witness farther right. Between the two artists stands one broad rectangular gessoed wooden painting board resting directly on a low horizontal trestle—no tall easel, nothing protruding above it. Show the entire board, trestle, figures, feet, hands, brushes, and workbench with wide empty vellum-colored margins on all four sides. On the pale board place exactly three extremely fine, gently intersecting brush lines only: vermilion, verdigris, and lampblack; they are abstract painted strokes, not letters or writing. A low bench fully inside the bottom margin holds exactly three pigment shells, wax cakes, one sponge, and several brushes. The back wall is closed and quiet with one shallow empty niche; no doors, windows, exterior view, sea, water, distant people, or extra body parts. Mood: concentrated rivalry, humility, and mastery; let the pale board provide elegant negative space. Landscape 3:2, 1536x1024, opaque RGB. Visual language: original ancient Plinian natural-history folio on warm aged vellum, iron-gall contour drawing, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral washes; rough fibres and worn pigment balanced by polished draftsmanship; timeless, beautiful, tactile, no glossy digital rendering. One scene only; no outer border, decorative frame, page mockup, split panel, inset, diagram, collage, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. No clipping or cropping of any person, object, board, trestle, brush, vessel, or architectural feature. Anatomically natural hands and faces.",
+          "sha256": "bae878cfa1c6a145c333a813a8f548e079ac4eabfebc8923760d762ac3b129d9"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-2e7b113e-5237-45b2-a0e1-4f15b4eda6b9",
+          "exec-be0a2145-eb1f-47cb-8534-a7cdb92f1b8f"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three complete figures, one complete low-trestle painting board, exactly three intersecting pigment lines, and a fully internal tool bench. Anatomy, negative space, edge safety, text and single-scene checks pass; no water is present.",
+      "epistemicAndDignityNote": "The account of artistic rivalry is represented as skilled observation and humility, not as a literal claim that the rendered panel possesses supernatural power.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-2e7b113e-5237-45b2-a0e1-4f15b4eda6b9",
+          "outputArtifact": "built-in-imagegen://exec-2e7b113e-5237-45b2-a0e1-4f15b4eda6b9.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 10, grounded in the complete Latin and English account of the great painters. Use a single coherent scene in an open Rhodian painter's workshop: Apelles and Protogenes, two mature Greek master painters in simple draped garments, stand on opposite sides of one very large upright gessoed wooden panel, while an elderly woman attendant witnesses their famous contest. Across the otherwise pale panel are exactly three extraordinarily fine, interlacing painted lines—one restrained vermilion, one verdigris, one lampblack—each line visibly finer than the previous; these are brushstrokes, not writing. Arrange pigment shells, a small sponge, wax cakes, and long-handled brushes on a low bench; through a distant open doorway show a sliver of Rhodes harbor and pale sea, but keep all water wholly enclosed within the doorway and away from every outer canvas edge. Make the three complete figures and the entire depicted panel fully visible with generous breathing room; dignified concentration, not theatrical posing. Landscape 3:2, 1536x1024, opaque. Edition house style: an ancient Plinian folio painted on warm aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral pigments; rough fibres and worn pigment beside exquisitely polished drawing; timeless, beautiful, materially tactile, no glossy digital rendering. Single scene only, no split panels, frames, border, page mockup, inset, diagram, collage, text, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Avoid cropped heads, hands, feet, tools, panel edges, and focal objects; anatomically natural hands and faces.",
+          "sha256": "3ca89f57ed229854bbc2a0186ed9ca23e5dd88ad8726d21ac5efea2575fbf52c",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c010-attempt-01-rejected-clipped-extra-figure-water-edge.png",
+          "rejectionReason": "A stray cropped bystander entered at the far-right edge and harbor water reached the outer canvas edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-be0a2145-eb1f-47cb-8534-a7cdb92f1b8f",
+          "outputArtifact": "built-in-imagegen://exec-be0a2145-eb1f-47cb-8534-a7cdb92f1b8f.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Generate a completely new, independent original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 10, grounded in the complete Latin and English account of the great painters. One enclosed Rhodian painter's workshop, with exactly three human figures and no one else: Apelles and Protogenes, two mature Greek master painters in simple draped garments, stand on opposite sides of one very large upright gessoed wooden panel; one elderly woman attendant stands well inside the room observing. Across the otherwise pale panel are exactly three extraordinarily fine interlacing horizontal brush lines—one restrained vermilion, one verdigris, one lampblack—each clearly a painted stroke and not writing. The entire panel, easel supports, all three complete figures, every head, hand, foot, brush, and pigment vessel must be fully visible with generous margins. Along the back wall, a shallow closed niche and wooden shelves hold a few pigment jars; no doors, windows, landscape, sea, water, distant people, or cropped background figures. A low workbench holds exactly three pigment shells, wax cakes, one sponge, and several long brushes. Quiet concentration, exquisite negative space, material intelligence. Landscape 3:2, 1536x1024, opaque. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral pigments; rough fibres and worn pigment beside polished master drawing; timeless, beautiful, tactile, no glossy digital rendering. Single scene only, no split panels, decorative frame, outer border, page mockup, inset, diagram, collage, text, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. No extra people or body parts at any edge. Anatomically natural hands and faces.",
+          "sha256": "13f9083631655120ed3e19e9f8893c829b42fb3dd1fefdcde3a6ca0d0964879c",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c010-attempt-02-rejected-clipped-easel-top.png",
+          "rejectionReason": "All figures were clean, but the easel top support was clipped by the upper canvas edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:11",
+      "title": "AN EFFECTUAL WAY OF PUTTING A STOP TO THE SINGING OF BIRDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c011.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "cb4ebd19f98000df6e2219d6acb0316adaf62866810d978cee4cc23703e7ca91",
+        "englishSha256": "02feb16f59b9a8e96ac476813baabe07095c3ae75121655f187f097952fc738d",
+        "latinWords": 1588,
+        "englishWords": 3247,
+        "latinChars": 11945,
+        "englishChars": 18825,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "d6ea440475834a03778008fa7e8e8146837b150643274703a7e4c2d048354d1d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-271d7258-aff2-4107-a5bc-3bbfcff02686",
+      "generationArtifactId": "exec-271d7258-aff2-4107-a5bc-3bbfcff02686",
+      "outputArtifact": "built-in-imagegen://exec-271d7258-aff2-4107-a5bc-3bbfcff02686.png",
+      "exactFinalPrompt": "Generate a fresh independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 11, based on the complete bilingual account of encaustic painting and Pausias. Wide, spacious single scene inside a plain enclosed Sicyonian workshop with exactly two complete people: Pausias kneels at left beside one small round charcoal brazier, warming coloured wax and painting with a slender brush; Glycera sits cross-legged at right weaving a flower wreath. Center them around one broad wooden panel resting on a low trestle, the panel entirely visible and displaying one complete calm black ox viewed directly from the front, its black body modelled through subtle shadow and reflected light. On a small rectangular woven mat placed fully inside the lower center, arrange six wax cakes, one sponge, one stylus, four brushes, and two completed garlands; no foreground table. Keep a generous uninterrupted vellum-colored margin around every person, foot, brazier, flame, panel, trestle, mat, tool, flower, and architectural feature. Bare closed plaster walls only; no trees, doors, windows, exterior view, sea, water, extra people, or real animals. The ox exists only within the depicted painting; no violence or sacrifice. Landscape 3:2, 1536x1024, opaque RGB. Edition language: an ancient Plinian folio on warm aged vellum, iron-gall contour drawing, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder, ochre and milky wax pigments; heat-softened wax texture, rough fibres, worn wash and polished draftsmanship; timeless, beautiful, tactile, no glossy digital look. One scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip anything; no stray body parts. Anatomically natural hands and faces.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e19694e3-0c1a-4d7f-87f0-cb7b7c01c77e",
+          "outputArtifact": "built-in-imagegen://exec-e19694e3-0c1a-4d7f-87f0-cb7b7c01c77e.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 11, grounded in the complete Latin and English text on encaustic painting, Pausias, flower garlands, and the famous black ox. Single coherent Sicyonian courtyard workshop with exactly two complete people: Pausias, a mature Greek painter, kneels beside a low fully visible charcoal brazier, warming colored wax and applying it with a slender brush to one broad wooden panel resting on a low trestle; Glycera sits nearby weaving a varied wreath of fresh flowers. The entire depicted panel is visible and shows one complete, calm black ox from the front, standing solidly in soft shadow, demonstrating relief created from black pigment itself; it is clearly an artwork inside the historical scene, not a split-panel layout. Arrange a few wax cakes, a stylus, two brushes, and finished flower garlands on a low table, every object fully contained. Exactly two people and one ox image; no extra figures, no real animal, no sacrifice or injury. Closed courtyard walls, no sea or water. Spacious, balanced composition with all heads, hands, feet, trestles, tables, flowers, and tools safely inside the frame. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum, iron-gall contour drawing, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder, ochre and milky wax pigments; tactile heat-softened wax, rough fibres, worn pigment, and polished draftsmanship; timeless, beautiful, rough and refined at once, no glossy digital rendering. One scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, text, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. No clipping or cropping of any person, object, panel, animal image, architecture, flame, or tool. Anatomically natural hands and faces.",
+          "sha256": "95d2a82b92cef033abe261db9eb2a5d593a414eb18fffa9b0f14424ca5e37f8e",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c011-attempt-01-rejected-clipped-worktable.png",
+          "rejectionReason": "The foreground worktable ran beyond the lower and right canvas edges.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-271d7258-aff2-4107-a5bc-3bbfcff02686",
+          "outputArtifact": "built-in-imagegen://exec-271d7258-aff2-4107-a5bc-3bbfcff02686.png",
+          "status": "accepted",
+          "exactPrompt": "Generate a fresh independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 11, based on the complete bilingual account of encaustic painting and Pausias. Wide, spacious single scene inside a plain enclosed Sicyonian workshop with exactly two complete people: Pausias kneels at left beside one small round charcoal brazier, warming coloured wax and painting with a slender brush; Glycera sits cross-legged at right weaving a flower wreath. Center them around one broad wooden panel resting on a low trestle, the panel entirely visible and displaying one complete calm black ox viewed directly from the front, its black body modelled through subtle shadow and reflected light. On a small rectangular woven mat placed fully inside the lower center, arrange six wax cakes, one sponge, one stylus, four brushes, and two completed garlands; no foreground table. Keep a generous uninterrupted vellum-colored margin around every person, foot, brazier, flame, panel, trestle, mat, tool, flower, and architectural feature. Bare closed plaster walls only; no trees, doors, windows, exterior view, sea, water, extra people, or real animals. The ox exists only within the depicted painting; no violence or sacrifice. Landscape 3:2, 1536x1024, opaque RGB. Edition language: an ancient Plinian folio on warm aged vellum, iron-gall contour drawing, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder, ochre and milky wax pigments; heat-softened wax texture, rough fibres, worn wash and polished draftsmanship; timeless, beautiful, tactile, no glossy digital look. One scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip anything; no stray body parts. Anatomically natural hands and faces.",
+          "sha256": "d6ea440475834a03778008fa7e8e8146837b150643274703a7e4c2d048354d1d"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-e19694e3-0c1a-4d7f-87f0-cb7b7c01c77e"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found two complete makers, one fully visible depicted black ox, one complete low trestle, one complete brazier, and a fully internal woven tool mat. The ox exists only as Pausias’s painting; no real animal or sacrificial act appears.",
+      "epistemicAndDignityNote": "The ox appears only as a painted subject; no live animal, sacrifice, injury or coercion is depicted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-e19694e3-0c1a-4d7f-87f0-cb7b7c01c77e",
+          "outputArtifact": "built-in-imagegen://exec-e19694e3-0c1a-4d7f-87f0-cb7b7c01c77e.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 11, grounded in the complete Latin and English text on encaustic painting, Pausias, flower garlands, and the famous black ox. Single coherent Sicyonian courtyard workshop with exactly two complete people: Pausias, a mature Greek painter, kneels beside a low fully visible charcoal brazier, warming colored wax and applying it with a slender brush to one broad wooden panel resting on a low trestle; Glycera sits nearby weaving a varied wreath of fresh flowers. The entire depicted panel is visible and shows one complete, calm black ox from the front, standing solidly in soft shadow, demonstrating relief created from black pigment itself; it is clearly an artwork inside the historical scene, not a split-panel layout. Arrange a few wax cakes, a stylus, two brushes, and finished flower garlands on a low table, every object fully contained. Exactly two people and one ox image; no extra figures, no real animal, no sacrifice or injury. Closed courtyard walls, no sea or water. Spacious, balanced composition with all heads, hands, feet, trestles, tables, flowers, and tools safely inside the frame. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum, iron-gall contour drawing, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder, ochre and milky wax pigments; tactile heat-softened wax, rough fibres, worn pigment, and polished draftsmanship; timeless, beautiful, rough and refined at once, no glossy digital rendering. One scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, text, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. No clipping or cropping of any person, object, panel, animal image, architecture, flame, or tool. Anatomically natural hands and faces.",
+          "sha256": "95d2a82b92cef033abe261db9eb2a5d593a414eb18fffa9b0f14424ca5e37f8e",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c011-attempt-01-rejected-clipped-worktable.png",
+          "rejectionReason": "The foreground worktable ran beyond the lower and right canvas edges.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:12",
+      "title": "THE INVENTORS OF THE ART OF MODELLING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c012.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "def1ce1e0d688857ff270a077c38d21a832b2bcb343f5b8276e95a93243bb6b2",
+        "englishSha256": "f387228eb90d9e536b66c239d9f475ed08e327ae409e6cdc0f779d1debf436cb",
+        "latinWords": 848,
+        "englishWords": 1837,
+        "latinChars": 6115,
+        "englishChars": 10640,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "1723ebe8a9b99877508bd74ddf4a323d8fa8b3eeed82a95c685bb4b0e794bedd",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dc8995de-ca9e-4189-a9f8-fb661ba8d648",
+      "generationArtifactId": "exec-dc8995de-ca9e-4189-a9f8-fb661ba8d648",
+      "outputArtifact": "built-in-imagegen://exec-dc8995de-ca9e-4189-a9f8-fb661ba8d648.png",
+      "exactFinalPrompt": "Generate a new independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 12, based on the complete bilingual account of the invention of modelling. Use one uncluttered enclosed Corinthian workshop at night, framed very wide, with exactly three complete figures set well away from every canvas edge. At left, a young Greek man sits in profile on a low stool. At center, Butades's daughter sits on a cushion and traces with a charcoal point the precise profile shadow cast by his face onto a pale plaster wall. One fully visible terracotta oil lamp on a short pedestal between them creates the crisp shadow. At right, her father Butades kneels completely within the composition and presses red clay into a small shallow relief of the same profile on a low board. On one woven floor mat wholly inside the foreground place a plaster mould, a small clay horse, two roof-tile masks, three simple amphorae, and a few modelling tools, every item complete. Bare closed wall and empty floor beyond; no shelving, potter's wheel, doors, windows, exterior view, water, extra figures, or cropped body parts. Preserve abundant negative space around all heads, backs, robes, hands, feet, lamp, flame, stool, board, mat, pots, and tools. Tender observation and material discovery, historically plausible. Landscape 3:2, 1536x1024, opaque RGB. Ancient Plinian edition style on warm aged vellum: iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, red clay, faded lapis, verdigris, madder and ochre mineral washes; tactile clay, plaster and vellum fibres; rough and worn yet exquisitely drawn, timeless and beautiful, lamp-lit but not photographic or glossy. One coherent scene only; no outer border, decorative frame, page mockup, split panel, inset, diagram, collage, words, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip anything. Anatomically natural hands and faces.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-17aad1cc-fa3a-4b99-b4b5-061ceaa17b80",
+          "outputArtifact": "built-in-imagegen://exec-17aad1cc-fa3a-4b99-b4b5-061ceaa17b80.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 12, grounded in the complete Latin and English account of the invention of clay modelling. Single intimate night scene in a Corinthian potter's workshop: exactly three complete people. At center, Butades's young daughter carefully traces with charcoal the crisp profile shadow of her departing beloved on a pale plaster wall; the young man sits in calm profile on a low stool, and a single fully visible terracotta oil lamp on its own short stand casts the shadow. Her father Butades kneels nearby with a slab of red clay, beginning to press a shallow relief over the traced outline. Around them, fully contained shelves hold a few amphorae, roof-tile masks, a small clay horse, a plaster mould, and one potter's wheel; every vessel and tool complete and separated. Emphasize the magical transition from shadow to line to clay relief, tender but restrained, historically plausible. Keep all three figures, wall outline, lamp and flame, stools, shelves, wheel, pottery, hands, heads, and feet safely within wide margins. Enclosed workshop only; no doorway, window, exterior, sea, water, extra people, or clipped background body parts. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, red clay, faded lapis, verdigris, madder and ochre mineral washes; rough earthen textures and worn vellum balanced by polished drawing; lamp-lit chiaroscuro without photographic gloss; ancient, timeless, beautiful, rough and refined at once. One coherent scene only, not a panel layout. No outer border, decorative frame, page mockup, split panels, inset, diagram, collage, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop any person, object, shelf, lamp, shadow, flame, stool, wheel, or vessel. Anatomically natural hands and faces.",
+          "sha256": "4c6557043747e0fba28bd1d0c87b766db4af97f755100adfdfdf6651357c3478",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c012-attempt-01-rejected-clipped-father-shelves.png",
+          "rejectionReason": "Butades and the shelving were clipped at the right and side canvas edges.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-dc8995de-ca9e-4189-a9f8-fb661ba8d648",
+          "outputArtifact": "built-in-imagegen://exec-dc8995de-ca9e-4189-a9f8-fb661ba8d648.png",
+          "status": "accepted",
+          "exactPrompt": "Generate a new independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 12, based on the complete bilingual account of the invention of modelling. Use one uncluttered enclosed Corinthian workshop at night, framed very wide, with exactly three complete figures set well away from every canvas edge. At left, a young Greek man sits in profile on a low stool. At center, Butades's daughter sits on a cushion and traces with a charcoal point the precise profile shadow cast by his face onto a pale plaster wall. One fully visible terracotta oil lamp on a short pedestal between them creates the crisp shadow. At right, her father Butades kneels completely within the composition and presses red clay into a small shallow relief of the same profile on a low board. On one woven floor mat wholly inside the foreground place a plaster mould, a small clay horse, two roof-tile masks, three simple amphorae, and a few modelling tools, every item complete. Bare closed wall and empty floor beyond; no shelving, potter's wheel, doors, windows, exterior view, water, extra figures, or cropped body parts. Preserve abundant negative space around all heads, backs, robes, hands, feet, lamp, flame, stool, board, mat, pots, and tools. Tender observation and material discovery, historically plausible. Landscape 3:2, 1536x1024, opaque RGB. Ancient Plinian edition style on warm aged vellum: iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, red clay, faded lapis, verdigris, madder and ochre mineral washes; tactile clay, plaster and vellum fibres; rough and worn yet exquisitely drawn, timeless and beautiful, lamp-lit but not photographic or glossy. One coherent scene only; no outer border, decorative frame, page mockup, split panel, inset, diagram, collage, words, letters, numbers, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip anything. Anatomically natural hands and faces.",
+          "sha256": "1723ebe8a9b99877508bd74ddf4a323d8fa8b3eeed82a95c685bb4b0e794bedd"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-17aad1cc-fa3a-4b99-b4b5-061ceaa17b80"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three complete figures, a wholly visible lamp and flame, a coherent profile shadow, a clay relief, and all modelled objects fully contained on the foreground mat. Anatomy, edge safety, text and single-scene checks pass.",
+      "epistemicAndDignityNote": "The origin story is treated as transmitted artistic tradition and tender craft, not as independently verified history.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-17aad1cc-fa3a-4b99-b4b5-061ceaa17b80",
+          "outputArtifact": "built-in-imagegen://exec-17aad1cc-fa3a-4b99-b4b5-061ceaa17b80.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 12, grounded in the complete Latin and English account of the invention of clay modelling. Single intimate night scene in a Corinthian potter's workshop: exactly three complete people. At center, Butades's young daughter carefully traces with charcoal the crisp profile shadow of her departing beloved on a pale plaster wall; the young man sits in calm profile on a low stool, and a single fully visible terracotta oil lamp on its own short stand casts the shadow. Her father Butades kneels nearby with a slab of red clay, beginning to press a shallow relief over the traced outline. Around them, fully contained shelves hold a few amphorae, roof-tile masks, a small clay horse, a plaster mould, and one potter's wheel; every vessel and tool complete and separated. Emphasize the magical transition from shadow to line to clay relief, tender but restrained, historically plausible. Keep all three figures, wall outline, lamp and flame, stools, shelves, wheel, pottery, hands, heads, and feet safely within wide margins. Enclosed workshop only; no doorway, window, exterior, sea, water, extra people, or clipped background body parts. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, red clay, faded lapis, verdigris, madder and ochre mineral washes; rough earthen textures and worn vellum balanced by polished drawing; lamp-lit chiaroscuro without photographic gloss; ancient, timeless, beautiful, rough and refined at once. One coherent scene only, not a panel layout. No outer border, decorative frame, page mockup, split panels, inset, diagram, collage, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop any person, object, shelf, lamp, shadow, flame, stool, wheel, or vessel. Anatomically natural hands and faces.",
+          "sha256": "4c6557043747e0fba28bd1d0c87b766db4af97f755100adfdfdf6651357c3478",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c012-attempt-01-rejected-clipped-father-shelves.png",
+          "rejectionReason": "Butades and the shelving were clipped at the right and side canvas edges.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:13",
+      "title": "VARIOUS KINDS OF EARTH, THE PUTEOLAN DUST, AND OTHER EARTHS OF WHICH CEMENTS LIKE STONE ARE MADE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c013.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "85e6be367391563c3273d0b9a60c154bb909564d3ab27920265897181f2a8e13",
+        "englishSha256": "c418874dcb8449c989b770f24a3c9192f08d2288946d1b77b9999c5a42a3120f",
+        "latinWords": 163,
+        "englishWords": 331,
+        "latinChars": 1128,
+        "englishChars": 1832,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2623c638eee11a241fb826cbae77dcc665fef59060bcd3c143e925b0a96d62c6",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7f59b7ee-47d2-49ce-bc9f-60e30bcfc0f7",
+      "generationArtifactId": "exec-7f59b7ee-47d2-49ce-bc9f-60e30bcfc0f7",
+      "outputArtifact": "built-in-imagegen://exec-7f59b7ee-47d2-49ce-bc9f-60e30bcfc0f7.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 13, grounded in the complete Latin and English account of Puteolan volcanic dust becoming stone under water. Single coherent scene viewed from a gently elevated angle in an ancient Roman engineering yard near Puteoli. At the exact center, show one compact rectangular masonry test basin, completely visible and surrounded on all four sides by a broad dry stone walkway; its contained blue-grey water must remain entirely inside the basin and far from every outer canvas edge. In that basin, a newly hardened pale pier-block emerges solidly from a submerged wooden form. Exactly three complete Roman workers stand safely within the courtyard: one pours fine grey-gold pozzolanic dust from a small basket into the form, one mixes Cumaean lime with a wooden paddle in a shallow trough, and one tests the hardened block with a mallet. Behind them, low fully visible mounds of volcanic ash and sample blocks demonstrate earth transforming into stone, with distant Leucogaean hills above a closed courtyard wall but no ocean or other water. Keep every figure, basket, trough, paddle, mallet, block, basin, and mound whole, separated, and surrounded by generous vellum-colored breathing room. No clipped architecture or objects. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian natural-history folio on warm aged vellum, iron-gall contours, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral washes; powdery ash, porous stone and rough fibres rendered with polished observational precision; ancient, timeless, beautiful, rough and refined at once, no glossy digital rendering. One scene only; no cutaway diagram, outer border, decorative frame, page mockup, split panels, inset, collage, arrows, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern machinery, photography. Water must not touch the outer frame. Do not crop any person, tool, basin, structure, mound, or landscape feature. Anatomically natural hands and faces.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7f59b7ee-47d2-49ce-bc9f-60e30bcfc0f7",
+          "outputArtifact": "built-in-imagegen://exec-7f59b7ee-47d2-49ce-bc9f-60e30bcfc0f7.png",
+          "status": "accepted",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 13, grounded in the complete Latin and English account of Puteolan volcanic dust becoming stone under water. Single coherent scene viewed from a gently elevated angle in an ancient Roman engineering yard near Puteoli. At the exact center, show one compact rectangular masonry test basin, completely visible and surrounded on all four sides by a broad dry stone walkway; its contained blue-grey water must remain entirely inside the basin and far from every outer canvas edge. In that basin, a newly hardened pale pier-block emerges solidly from a submerged wooden form. Exactly three complete Roman workers stand safely within the courtyard: one pours fine grey-gold pozzolanic dust from a small basket into the form, one mixes Cumaean lime with a wooden paddle in a shallow trough, and one tests the hardened block with a mallet. Behind them, low fully visible mounds of volcanic ash and sample blocks demonstrate earth transforming into stone, with distant Leucogaean hills above a closed courtyard wall but no ocean or other water. Keep every figure, basket, trough, paddle, mallet, block, basin, and mound whole, separated, and surrounded by generous vellum-colored breathing room. No clipped architecture or objects. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian natural-history folio on warm aged vellum, iron-gall contours, fine cross-hatching and stipple, restrained umber and lampblack with faded lapis, verdigris, madder and ochre mineral washes; powdery ash, porous stone and rough fibres rendered with polished observational precision; ancient, timeless, beautiful, rough and refined at once, no glossy digital rendering. One scene only; no cutaway diagram, outer border, decorative frame, page mockup, split panels, inset, collage, arrows, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern machinery, photography. Water must not touch the outer frame. Do not crop any person, tool, basin, structure, mound, or landscape feature. Anatomically natural hands and faces.",
+          "sha256": "2623c638eee11a241fb826cbae77dcc665fef59060bcd3c143e925b0a96d62c6"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three workers and a complete central masonry basin whose water is enclosed on all four sides and remains far from the canvas edges. Forms, ash piles, sample blocks, basket, trough and tools are fully visible.",
+      "epistemicAndDignityNote": "The scene renders Pliny’s materials observation as historical engineering practice without adding modern performance claims.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:14",
+      "title": "FORMACEAN WALLS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c014.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "5d89a6df1da752186c2ddd7db1ee822ac8443daadbfc1293bb266cc3b6f9b118",
+        "englishSha256": "d6b53480f5195e557950947da83a0f1acf13c2bd0112155f794002e9ef0e2419",
+        "latinWords": 317,
+        "englishWords": 637,
+        "latinChars": 2276,
+        "englishChars": 3590,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6a3ecb42ca12c3af03625dddceba8906f65ba7d58add7dc58e8147dbd40b04eb",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-79bbd26d-e639-4731-bf02-e6968216ac75",
+      "generationArtifactId": "exec-79bbd26d-e639-4731-bf02-e6968216ac75",
+      "outputArtifact": "built-in-imagegen://exec-79bbd26d-e639-4731-bf02-e6968216ac75.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 14, grounded in the complete Latin and English account of formacean walls and ancient brickmaking. Single spacious outdoor building yard in Roman Spain. At center, show one freestanding earthen wall segment entirely visible from foundation to top, being moulded between two complete parallel wooden shuttering boards with their braces fully inside the composition. Exactly three complete ancient workers: one pours reddish earth from a basket into the form, one uses a long wooden tamper vertically, and one kneels beside a fully visible row of sun-drying bricks in three distinct ancient proportions. Set a small clay-coated wattle sample and one shallow mixing trough nearby, all complete. In the far background, wholly inside the landscape and below the sky margin, show one small complete earthen watchtower on a hill recalling Hannibal's Spanish towers. No water, no floating brick demonstration, no extra people, no cropped walls or scaffolds. Give every head, hand, foot, basket, board, brace, tamper, brick, trough, sample wall, and tower abundant breathing room. The visible earth should feel densely compacted, rain-resistant, rough yet monumental. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall contour drawing, fine cross-hatching and stipple; restrained umber, lampblack, red earth, faded lapis, verdigris, madder and ochre mineral washes; dusty fibres and timber grain balanced by polished archaeological precision; timeless, beautiful, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panel, inset, diagram, collage, arrows, dimensions, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern machinery, photography. Do not crop any person, structure, tool, object, or tower. Anatomically natural hands and faces.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-79bbd26d-e639-4731-bf02-e6968216ac75",
+          "outputArtifact": "built-in-imagegen://exec-79bbd26d-e639-4731-bf02-e6968216ac75.png",
+          "status": "accepted",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 14, grounded in the complete Latin and English account of formacean walls and ancient brickmaking. Single spacious outdoor building yard in Roman Spain. At center, show one freestanding earthen wall segment entirely visible from foundation to top, being moulded between two complete parallel wooden shuttering boards with their braces fully inside the composition. Exactly three complete ancient workers: one pours reddish earth from a basket into the form, one uses a long wooden tamper vertically, and one kneels beside a fully visible row of sun-drying bricks in three distinct ancient proportions. Set a small clay-coated wattle sample and one shallow mixing trough nearby, all complete. In the far background, wholly inside the landscape and below the sky margin, show one small complete earthen watchtower on a hill recalling Hannibal's Spanish towers. No water, no floating brick demonstration, no extra people, no cropped walls or scaffolds. Give every head, hand, foot, basket, board, brace, tamper, brick, trough, sample wall, and tower abundant breathing room. The visible earth should feel densely compacted, rain-resistant, rough yet monumental. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall contour drawing, fine cross-hatching and stipple; restrained umber, lampblack, red earth, faded lapis, verdigris, madder and ochre mineral washes; dusty fibres and timber grain balanced by polished archaeological precision; timeless, beautiful, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panel, inset, diagram, collage, arrows, dimensions, text, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern machinery, photography. Do not crop any person, structure, tool, object, or tower. Anatomically natural hands and faces.",
+          "sha256": "6a3ecb42ca12c3af03625dddceba8906f65ba7d58add7dc58e8147dbd40b04eb"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three workers, complete formwork and braces, a coherent compacted wall, fully visible brick rows, wattle sample, trough and distant watchtower. There is no water, text, border, clipping or modern machinery.",
+      "epistemicAndDignityNote": "Ancient construction methods are shown as historical material culture, not as modern building guidance.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:15",
+      "title": "SULPHUR, AND THE SEVERAL VARIETIES OF IT: FOURTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c015.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "054b79c972b3143a2e5756a563a529f5021b70403447c5e5dd8704c0bcee61fc",
+        "englishSha256": "61e0fff4af5e69f9000af8bf54c41a069de32f84bfd55a244affb5370c948827",
+        "latinWords": 1023,
+        "englishWords": 2224,
+        "latinChars": 7410,
+        "englishChars": 12757,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "f1257cf2bc0ecea946c3d119a46a165fb625e3c5ed981746a31db74535175350",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0c5477cb-04e3-450c-bc3a-b632d535072e",
+      "generationArtifactId": "exec-0c5477cb-04e3-450c-bc3a-b632d535072e",
+      "outputArtifact": "built-in-imagegen://exec-0c5477cb-04e3-450c-bc3a-b632d535072e.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 15, grounded in the complete Latin and English account of sulphur, bitumen, and alumen. Reframe the transmitted remedy claims as a humane observational scene of ancient mineral craft, with no treatment of bodies and no medical advice. Single spacious mineral workshop with exactly three complete people. At center, an elder naturalist studies one translucent green-yellow block of native sulphur held over a fully visible stone sample table. At left, an assistant gently suspends a folded fleece on a small freestanding rack above a low enclosed charcoal brazier, demonstrating sulphur fumigation without smoke obscuring anyone. At right, another assistant brushes glossy black bitumen onto the exterior of a complete copper vessel. On the sample table, arrange four clearly different sulphur specimens, one black bitumen lump, one pale alum crystal cluster, and one small round ceramic dish of milky alum brine; the dish and all liquid remain wholly inside the table and far from canvas edges. Behind them, three closed niches hold additional yellow, black, and white mineral samples; no labels. Keep all people, rack, fleece, brazier, flame, table, legs, vessels, brushes, crystals, dishes, and niches completely visible with generous negative space. Enclosed workshop, no exterior water, no extra people or animals, no wounds, illness, treatment, suffering, or ritual spectacle. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian natural-history folio on warm aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained umber and lampblack with sulphur yellow, bitumen black, milky alum, faded lapis, verdigris, madder and ochre mineral washes; crystalline, oily and smoky textures rendered with polished observational precision; ancient, timeless, beautiful, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, arrows, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern equipment, photography. No cropping or clipping of any person, structure, object, tool, crystal, flame, or vessel. Anatomically natural hands and faces.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-0c5477cb-04e3-450c-bc3a-b632d535072e",
+          "outputArtifact": "built-in-imagegen://exec-0c5477cb-04e3-450c-bc3a-b632d535072e.png",
+          "status": "accepted",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 15, grounded in the complete Latin and English account of sulphur, bitumen, and alumen. Reframe the transmitted remedy claims as a humane observational scene of ancient mineral craft, with no treatment of bodies and no medical advice. Single spacious mineral workshop with exactly three complete people. At center, an elder naturalist studies one translucent green-yellow block of native sulphur held over a fully visible stone sample table. At left, an assistant gently suspends a folded fleece on a small freestanding rack above a low enclosed charcoal brazier, demonstrating sulphur fumigation without smoke obscuring anyone. At right, another assistant brushes glossy black bitumen onto the exterior of a complete copper vessel. On the sample table, arrange four clearly different sulphur specimens, one black bitumen lump, one pale alum crystal cluster, and one small round ceramic dish of milky alum brine; the dish and all liquid remain wholly inside the table and far from canvas edges. Behind them, three closed niches hold additional yellow, black, and white mineral samples; no labels. Keep all people, rack, fleece, brazier, flame, table, legs, vessels, brushes, crystals, dishes, and niches completely visible with generous negative space. Enclosed workshop, no exterior water, no extra people or animals, no wounds, illness, treatment, suffering, or ritual spectacle. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian natural-history folio on warm aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained umber and lampblack with sulphur yellow, bitumen black, milky alum, faded lapis, verdigris, madder and ochre mineral washes; crystalline, oily and smoky textures rendered with polished observational precision; ancient, timeless, beautiful, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, arrows, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern equipment, photography. No cropping or clipping of any person, structure, object, tool, crystal, flame, or vessel. Anatomically natural hands and faces.",
+          "sha256": "f1257cf2bc0ecea946c3d119a46a165fb625e3c5ed981746a31db74535175350"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three complete people, a complete fleece rack and brazier, a complete bitumen-coated copper vessel, and distinct sulphur, bitumen and alum samples. The only liquid is contained in a fully internal ceramic dish; no body is treated.",
+      "epistemicAndDignityNote": "Pliny’s remedy claims remain transmitted ancient testimony. The illustration limits itself to mineral identification and craft; it gives no medical advice and shows no patient or treatment.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:17",
+      "title": "CRETACEOUS EARTHS USER FOR SCOURING CLOTH. CIMOLIAN EARTH; NINE REMEDIES. SARDINIAN EARTH. UMBRIAN EARTH. SAXUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c017.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bd65475472c6fc7744a7bd30b11fba7a8b671b2fdb5fb51f12b32531a032dadd",
+        "englishSha256": "dab0ac1089a7006c10be20b8672c29de2c78dfd2c045f5d470df3414d8e4201f",
+        "latinWords": 263,
+        "englishWords": 588,
+        "latinChars": 1902,
+        "englishChars": 3376,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "3ea03c0dcb4fc514d5bfa419bc2d13274c11f752989582869410c384d3c70410",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9a48a74e-3341-4222-85df-73d32e668811",
+      "generationArtifactId": "exec-9a48a74e-3341-4222-85df-73d32e668811",
+      "outputArtifact": "built-in-imagegen://exec-9a48a74e-3341-4222-85df-73d32e668811.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 17, grounded in the complete Latin and English account of Cimolian, Sardinian, Umbrian, and argentaria earths used by fullers. Single spacious Roman fullonica courtyard with exactly three complete textile workers and no one else. At left, one worker kneads a folded white wool cloth in one shallow rectangular stone washing basin filled with milky Sardinian-earth water; the entire basin and all water are fully enclosed and far from every canvas edge. At center, a second worker hangs a richly coloured cloth over one small freestanding wooden rack above a low enclosed sulphur brazier, with only a thin wisp of smoke. At right, a third worker lays another white cloth on a low fully visible polishing board and gently rubs it with pale Cimolian earth. On an inset woven mat place four complete ceramic bowls holding white, rose-tinted, umber, and silvery chalk samples, with one folded finished cloth. Closed plaster walls and open sky above, but no door, exterior water, extra figures, animals, or clipped structures. Keep all heads, hands, feet, robes, cloth edges, rack, brazier, flame, basin, liquid, board, mat, bowls, and tools safely inside generous margins. The textiles should feel soft, weighty, and naturally draped; no bodies treated with the earths. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained umber and lampblack with chalk white, faded lapis, verdigris, madder and ochre mineral washes; fibrous wool, powdery earth, worn plaster and vellum rendered with polished craft precision; ancient, timeless, beautiful, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, arrows, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern machinery, photography. No clipping or cropping of any person, textile, structure, object, bowl, flame, or liquid. Anatomically natural hands and faces.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9a48a74e-3341-4222-85df-73d32e668811",
+          "outputArtifact": "built-in-imagegen://exec-9a48a74e-3341-4222-85df-73d32e668811.png",
+          "status": "accepted",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 17, grounded in the complete Latin and English account of Cimolian, Sardinian, Umbrian, and argentaria earths used by fullers. Single spacious Roman fullonica courtyard with exactly three complete textile workers and no one else. At left, one worker kneads a folded white wool cloth in one shallow rectangular stone washing basin filled with milky Sardinian-earth water; the entire basin and all water are fully enclosed and far from every canvas edge. At center, a second worker hangs a richly coloured cloth over one small freestanding wooden rack above a low enclosed sulphur brazier, with only a thin wisp of smoke. At right, a third worker lays another white cloth on a low fully visible polishing board and gently rubs it with pale Cimolian earth. On an inset woven mat place four complete ceramic bowls holding white, rose-tinted, umber, and silvery chalk samples, with one folded finished cloth. Closed plaster walls and open sky above, but no door, exterior water, extra figures, animals, or clipped structures. Keep all heads, hands, feet, robes, cloth edges, rack, brazier, flame, basin, liquid, board, mat, bowls, and tools safely inside generous margins. The textiles should feel soft, weighty, and naturally draped; no bodies treated with the earths. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall linework, fine cross-hatching and stipple; restrained umber and lampblack with chalk white, faded lapis, verdigris, madder and ochre mineral washes; fibrous wool, powdery earth, worn plaster and vellum rendered with polished craft precision; ancient, timeless, beautiful, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, arrows, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern machinery, photography. No clipping or cropping of any person, textile, structure, object, bowl, flame, or liquid. Anatomically natural hands and faces.",
+          "sha256": "3ea03c0dcb4fc514d5bfa419bc2d13274c11f752989582869410c384d3c70410"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three complete fullers, a wholly visible wash basin with all water internal, complete cloth rack, sulphur brazier, polishing board, sample bowls, mat and folded textile. Drapery, anatomy, edge safety and text checks pass.",
+      "epistemicAndDignityNote": "Pliny’s bodily remedy claims remain transmitted testimony. The illustration shows documented cloth processing only and applies no earth or sulphur to a body.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:18",
+      "title": "ARGENTARIA. NAMES OF FREEDMEN WHO HAVE EITHER RISEN TO POWER THEMSELVES, OR HAVE BELONGED TO MEN OF INFLUENCE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/b35-c018.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "14447eb15d9754dbd5f07eff70ada49721a892b57cd43008f6f88be80314c4ff",
+        "englishSha256": "1376f9ade31c11cb4fe049004a71968a253f252b6593d62ffb7324c4ca01f209",
+        "latinWords": 89,
+        "englishWords": 220,
+        "latinChars": 663,
+        "englishChars": 1289,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "370f6e6305b19fd68a57d1ed5e24ac59d3bb75f3c69ba705ed9f044f1bf9dbf4",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6ebcc85c-43b0-4dfa-b671-a38882ab8a49",
+      "generationArtifactId": "exec-6ebcc85c-43b0-4dfa-b671-a38882ab8a49",
+      "outputArtifact": "built-in-imagegen://exec-6ebcc85c-43b0-4dfa-b671-a38882ab8a49.png",
+      "exactFinalPrompt": "Generate a fresh independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 18, after the complete bilingual reflection on freedmen rising from the slave market to civic power. Humane critical framing: preserve the freedman's dignity and Pliny's sense of capricious fortune; no caricature or dehumanization. Use one broad, bare Roman atrium with an unadorned plaster wall and dry stone floor—no columns, beams, doorways, windows, ceiling, architectural frame, ruled edge, or border. Exactly three complete adults stand well inside the composition. At center, a dignified middle-aged freedman stands upright, solemn and self-possessed, with faint white dealer's chalk remaining on his bare feet. At left, an elderly citizen respectfully offers one plain white pileus, the cap of liberty. At right, a civic attendant arranges one folded purple-edged toga and one modest laurel wreath on a low four-legged stool. Far behind the central man, fully visible and separate, rests one small empty low wooden sale platform. A subtle trail of fading white chalk footprints crosses the floor from the platform toward the stool; these are footprints only, never symbols or writing. Keep every head, back, robe, hand, foot, cap, platform, stool, toga, wreath, and footprint completely visible with wide warm-vellum breathing room on all sides. Quiet eye contact, moral complexity, no triumphal spectacle, crowds, guards, weapons, chains, blood, auction placards, text, extra people, or water. Landscape 3:2, 1536x1024, opaque RGB. Visual language: original ancient Plinian folio on warm aged vellum, iron-gall contours, fine cross-hatching and stipple, restrained umber and lampblack with chalk white, faded lapis, muted Tyrian madder, verdigris and ochre mineral washes; worn stone and rough fibres balanced by polished portrait drawing; ancient, timeless, beautiful, grave, rough and refined at once, no glossy digital rendering. The painted image must bleed naturally to the canvas edges without any enclosing line or decorative boundary. One coherent scene only; absolutely no outer border, inner border, ruled rectangle, decorative frame, page mockup, split panel, inset, diagram, collage, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip anything. Anatomically natural hands and faces.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-631c4dd7-8c77-4e53-b25d-95df2136f28e",
+          "outputArtifact": "built-in-imagegen://exec-631c4dd7-8c77-4e53-b25d-95df2136f28e.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 18, grounded in the complete Latin and English reflection on freedmen who rose from the slave market to extraordinary civic power. Treat the transmitted social prejudice critically and humanely: emphasize the individual's dignity and the caprice of fortune, never caricature or dehumanize. Single solemn Roman atrium scene with exactly three complete adults. At center, a dignified middle-aged freedman stands upright after stepping down from one small empty wooden sale platform in the background; a faint residue of white dealer's chalk remains on his bare feet, but there are no chains or humiliation. At left, an elderly citizen respectfully offers him one plain white pileus, the cap of liberty. At right, a civic attendant arranges a folded purple-edged toga and a modest laurel wreath on one low stool, suggesting the praetorian honours Pliny says were later decreed. A subtle trail of fading chalk footprints crosses the dry stone floor from the platform toward the stool, without symbols or writing. Keep the three full figures, every head, hand and foot, the complete platform, cap, stool, toga, wreath, and all architecture safely inside wide vellum-colored margins. Quiet eye contact, moral complexity, no spectacle, no crowds, guards, weapons, blood, suffering, auction placards, text, or extra people. Enclosed atrium, no water. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall contours, fine cross-hatching and stipple; restrained umber and lampblack with chalk white, faded lapis, muted Tyrian madder, verdigris and ochre mineral washes; worn stone and rough fibres balanced by polished portrait drawing; ancient, timeless, beautiful, grave, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip any person, body part, garment, platform, stool, wreath, cap, footprint, or architectural feature. Anatomically natural hands and faces.",
+          "sha256": "38140907664a007925bb39790b25ebef15c6c0e468262885c231a54fbf73a3bc",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c018-attempt-01-rejected-outer-border-clipped-columns.png",
+          "rejectionReason": "The render introduced a ruled outer border and clipped the atrium columns against the upper edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        },
+        {
+          "generationArtifactId": "exec-6ebcc85c-43b0-4dfa-b671-a38882ab8a49",
+          "outputArtifact": "built-in-imagegen://exec-6ebcc85c-43b0-4dfa-b671-a38882ab8a49.png",
+          "status": "accepted",
+          "exactPrompt": "Generate a fresh independent original historical folio illustration for Pliny, Natural History, Book XXXV chapter 18, after the complete bilingual reflection on freedmen rising from the slave market to civic power. Humane critical framing: preserve the freedman's dignity and Pliny's sense of capricious fortune; no caricature or dehumanization. Use one broad, bare Roman atrium with an unadorned plaster wall and dry stone floor—no columns, beams, doorways, windows, ceiling, architectural frame, ruled edge, or border. Exactly three complete adults stand well inside the composition. At center, a dignified middle-aged freedman stands upright, solemn and self-possessed, with faint white dealer's chalk remaining on his bare feet. At left, an elderly citizen respectfully offers one plain white pileus, the cap of liberty. At right, a civic attendant arranges one folded purple-edged toga and one modest laurel wreath on a low four-legged stool. Far behind the central man, fully visible and separate, rests one small empty low wooden sale platform. A subtle trail of fading white chalk footprints crosses the floor from the platform toward the stool; these are footprints only, never symbols or writing. Keep every head, back, robe, hand, foot, cap, platform, stool, toga, wreath, and footprint completely visible with wide warm-vellum breathing room on all sides. Quiet eye contact, moral complexity, no triumphal spectacle, crowds, guards, weapons, chains, blood, auction placards, text, extra people, or water. Landscape 3:2, 1536x1024, opaque RGB. Visual language: original ancient Plinian folio on warm aged vellum, iron-gall contours, fine cross-hatching and stipple, restrained umber and lampblack with chalk white, faded lapis, muted Tyrian madder, verdigris and ochre mineral washes; worn stone and rough fibres balanced by polished portrait drawing; ancient, timeless, beautiful, grave, rough and refined at once, no glossy digital rendering. The painted image must bleed naturally to the canvas edges without any enclosing line or decorative boundary. One coherent scene only; absolutely no outer border, inner border, ruled rectangle, decorative frame, page mockup, split panel, inset, diagram, collage, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip anything. Anatomically natural hands and faces.",
+          "sha256": "370f6e6305b19fd68a57d1ed5e24ac59d3bb75f3c69ba705ed9f044f1bf9dbf4"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          "exec-631c4dd7-8c77-4e53-b25d-95df2136f28e"
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly three complete adults, the pileus, low sale platform, chalked feet and footprints, stool, toga and wreath fully internal. The scene has no border, clipped columns, text, chains or dehumanizing spectacle.",
+      "epistemicAndDignityNote": "The source’s prejudice toward enslaved people and freedmen is not endorsed. The freedman is dignified, unchained and self-possessed; the image stresses freedom and fortune rather than humiliation.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-631c4dd7-8c77-4e53-b25d-95df2136f28e",
+          "outputArtifact": "built-in-imagegen://exec-631c4dd7-8c77-4e53-b25d-95df2136f28e.png",
+          "status": "rejected-native-qa",
+          "exactPrompt": "Create an original historical natural-history folio illustration for Pliny, Natural History, Book XXXV chapter 18, grounded in the complete Latin and English reflection on freedmen who rose from the slave market to extraordinary civic power. Treat the transmitted social prejudice critically and humanely: emphasize the individual's dignity and the caprice of fortune, never caricature or dehumanize. Single solemn Roman atrium scene with exactly three complete adults. At center, a dignified middle-aged freedman stands upright after stepping down from one small empty wooden sale platform in the background; a faint residue of white dealer's chalk remains on his bare feet, but there are no chains or humiliation. At left, an elderly citizen respectfully offers him one plain white pileus, the cap of liberty. At right, a civic attendant arranges a folded purple-edged toga and a modest laurel wreath on one low stool, suggesting the praetorian honours Pliny says were later decreed. A subtle trail of fading chalk footprints crosses the dry stone floor from the platform toward the stool, without symbols or writing. Keep the three full figures, every head, hand and foot, the complete platform, cap, stool, toga, wreath, and all architecture safely inside wide vellum-colored margins. Quiet eye contact, moral complexity, no spectacle, no crowds, guards, weapons, blood, suffering, auction placards, text, or extra people. Enclosed atrium, no water. Landscape 3:2, 1536x1024, opaque RGB. Edition house style: ancient Plinian folio on warm aged vellum; iron-gall contours, fine cross-hatching and stipple; restrained umber and lampblack with chalk white, faded lapis, muted Tyrian madder, verdigris and ochre mineral washes; worn stone and rough fibres balanced by polished portrait drawing; ancient, timeless, beautiful, grave, rough and refined at once, no glossy digital rendering. One coherent scene only; no outer border, decorative frame, page mockup, split panels, inset, diagram, collage, words, letters, numerals, labels, pseudo-writing, signature, logo, watermark, modern objects, photography. Do not crop or clip any person, body part, garment, platform, stool, wreath, cap, footprint, or architectural feature. Anatomically natural hands and faces.",
+          "sha256": "38140907664a007925bb39790b25ebef15c6c0e468262885c231a54fbf73a3bc",
+          "historyArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15/evidence/history/b35-c018-attempt-01-rejected-outer-border-clipped-columns.png",
+          "rejectionReason": "The render introduced a ruled outer border and clipped the atrium columns against the upper edge.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "originalResolutionVisualQaPerformed": true
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 945,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "35:10": {
+        "nearestMAD": 31.6,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c004.png",
+        "madAtDHashPeer": 32.07
+      },
+      "35:11": {
+        "nearestMAD": 28.16,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c018.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c025.png",
+        "madAtDHashPeer": 32.66
+      },
+      "35:12": {
+        "nearestMAD": 26.66,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 39,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c013.png",
+        "madAtDHashPeer": 53.1
+      },
+      "35:13": {
+        "nearestMAD": 27.55,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c019.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c006.png",
+        "madAtDHashPeer": 47.9
+      },
+      "35:14": {
+        "nearestMAD": 25.31,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c004.png",
+        "madAtDHashPeer": 30.78
+      },
+      "35:15": {
+        "nearestMAD": 28.53,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c065.png",
+        "madAtDHashPeer": 45.7
+      },
+      "35:17": {
+        "nearestMAD": 25.43,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b28-c001.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c020.png",
+        "madAtDHashPeer": 42.03
+      },
+      "35:18": {
+        "nearestMAD": 24.04,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c010.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c003.png",
+        "madAtDHashPeer": 40.9
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPromptsRecordedForAllBuiltInCalls": true,
+    "artifactIdsRecordedForAllBuiltInCalls": true,
+    "acceptedAndRejectedSha256Recorded": true,
+    "acceptedAndRejectedBytesReconciledToBuiltInOriginals": true,
+    "completeBilingualSourceHashesRecorded": true,
+    "portableRelativePathsOnly": true,
+    "noPlanRouterOrAppEdits": true
+  },
+  "scopedDiffValidation": {
+    "allowedCampaignDirectory": "assets-source/chapter-scenes-v1/remaining-scenes-wave-15",
+    "planRouterAppFilesModified": [],
+    "gitDiffCheckToBeRunAfterReceiptWrite": true
+  }
+}

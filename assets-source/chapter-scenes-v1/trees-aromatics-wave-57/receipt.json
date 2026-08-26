@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-57",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+  "assignments": [
+    "5:4",
+    "5:5",
+    "5:6",
+    "5:7",
+    "5:8",
+    "5:9",
+    "5:12",
+    "5:13"
+  ],
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedCount": 8,
+    "totalBuiltInCalls": 16
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 539,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "5:4": {
+        "nearestMAD": 21.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c092.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c010.png",
+        "madAtDHashPeer": 36.88
+      },
+      "5:5": {
+        "nearestMAD": 23.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c013.png",
+        "madAtDHashPeer": 39.98
+      },
+      "5:6": {
+        "nearestMAD": 27.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c001.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c010.png",
+        "madAtDHashPeer": 40.5
+      },
+      "5:7": {
+        "nearestMAD": 21.64,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c010.png",
+        "madAtDHashPeer": 26.64
+      },
+      "5:8": {
+        "nearestMAD": 30.83,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c017.png",
+        "madAtDHashPeer": 47.79
+      },
+      "5:9": {
+        "nearestMAD": 26.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c018.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c001.png",
+        "madAtDHashPeer": 43.08
+      },
+      "5:12": {
+        "nearestMAD": 27.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c011.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c017.png",
+        "madAtDHashPeer": 50.17
+      },
+      "5:13": {
+        "nearestMAD": 24.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c010.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png",
+        "madAtDHashPeer": 82.45
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "5:4",
+      "title": "AFRICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c004.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "0ed91f2881494874d83f7e20cc9cdac00baf6580784928a80691804cfbafafc9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7ca5ced9-e442-4d4d-b709-71b67e61d1e4",
+      "generationArtifactId": "exec-7ca5ced9-e442-4d4d-b709-71b67e61d1e4",
+      "outputArtifact": "built-in-imagegen://exec-7ca5ced9-e442-4d4d-b709-71b67e61d1e4.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 4, “AFRICA.” Ground the scene in the chapter's actual content: Africa proper beyond the Tusca; Hippo's irrigation channels; fertile Byzacium said to return seed a hundred-fold; the coastal towns; and the three promontories shaping two gulfs before the treacherous sandy Syrtes. Redesign this as a predominantly land-filled agricultural scene, not a blue sea panorama. Take an oblique, almost overhead viewpoint across a vast sunlit patchwork of fertile Byzacium that occupies roughly four-fifths of the canvas: dark umber tilled plots, dense ochre grain, muted-verdigris orchards, and branching silver irrigation channels form a large fan from one complete central stone sluice. In the lower middle, a compact group of fully visible Roman-era North African farmers opens the sluice, harvests grain with simple curved sickles, and gathers sheaves; all bodies, tools, baskets, sheaves, feet, and shadows are complete and well inside the field. Only the uppermost narrow band reveals the coast, where exactly three small complete headlands articulate exactly two shallow pale-lapis gulfs, each fully surrounded by water and sky; tiny settlements remain subordinate. Pale shifting sandbars at the farthest gulf hint at the Syrtes. Use a high-key wheat-gold and verdigris value structure with dark calligraphic canals and very little blue, materially unlike open-ocean or volcanic-island imagery. This is a poetic visualization of Pliny's transmitted Roman-era geography and agricultural claim, not a modern surveyed map or quantitative endorsement.\n\nHouse style: original deluxe Plinian natural-history folio imagery carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained mineral washes dominated by ochre, umber, muted verdigris, with only narrow faded lapis, small madder accents, and lampblack structure; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Every focal farmer, limb, sickle, basket, sheaf, sluice, major irrigation channel, and headland remains fully visible with generous breathing room. Fill the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, map grids, compass roses, scales, arrows, diagrams, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern machines or objects, photography, glossy digital rendering, ethnic caricature, or clipped focal subjects.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key Byzacium field system, central sluice, branching irrigation fan, harvesters, tools, baskets and sheaves are legible and complete; exactly three contained headlands articulate exactly two narrow gulfs above the land-dominant composition. No text, pseudo-writing, panel, border, modern machinery, caricature or clipped focal subject was found. Accepted after preserving one globally over-similar coastal panorama; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-1ec17f53-b626-4b58-a2e5-44a720c3483e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c004-reject-01-global-mad-19.71-exec-1ec17f53-b626-4b58-a2e5-44a720c3483e.png",
+          "sha256": "c78675b475477bbb7ac5f2a560ecd4ac97037aa5584ddecf8da33449a77790a2",
+          "reason": "Rejected after native visual acceptance because the blue coastal panorama collided with trees-aromatics-wave-51/b03-c008.png at MAD 19.71, below the required 20. The untouched built-in original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:5",
+      "title": "CYRENAICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c005.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "2b1ca6137ceb12921b8b9fe5613b5afde2f7620b065eb1ac78e404c8663f5726",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-075237c9-2727-43b6-8871-b6c55c22d78a",
+      "generationArtifactId": "exec-075237c9-2727-43b6-8871-b6c55c22d78a",
+      "outputArtifact": "built-in-imagegen://exec-075237c9-2727-43b6-8871-b6c55c22d78a.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 5, “CYRENAICA.” Ground the scene in the chapter's actual content: Cyrenaica or Pentapolis; Cyrene standing inland above the sea; the sacred oracle of Hammon and Fountain of the Sun; a coast with Berenice, Apollonia, and Phycus; and especially the distinctive belts of land—trees nearest the shore, corn beyond, then a long dry tract producing silphium. Make a single continuous, intimate field-observation scene, materially unlike a generic coastal panorama. Place a compact group of several fully visible silphium plants in the center half of the canvas, with tall ribbed stems, branching umbels, heart-shaped resin-bearing fruits, and carefully observed complete roots. Two fully visible Roman-era local gatherers gently collect resin from the central plant into one small unmarked ceramic vessel. Behind them, the land recedes in three legible natural bands—muted-verdigris coastal grove, ochre grain belt, and dark sun-baked hills—with one modest ancient hill city and sea harbor far away; a small spring shaded by low rock quietly evokes the Fountain of the Sun. Reserve ample uninterrupted ground or open air between every focal plant, gatherer, vessel, and each outer edge; no focal leaf, root, limb, tool, city structure, vessel, or shoreline may touch or exit the image boundary. This is a historically situated visualization of Pliny's transmitted geographic and botanical account, not a modern map, archaeological reconstruction claim, or endorsement of every ancient report.\n\nHouse style: an original deluxe Plinian natural-history folio image carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained mineral washes emphasizing muted verdigris, resinous madder, umber, lampblack, faded lapis, and dry ochre; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Let the artwork fill the canvas naturally without a visible sheet edge, decorative border, internal frame, inset, split panel, specimen grid, or repeated crop. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, caricature, or clipped focal subjects.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The central silphium specimen and surrounding complete plants show stems, umbels, fruit and exposed roots; both gatherers, resin vessel, spring, three land-use bands, hill city and harbor are intact. No lettering, pseudo-writing, grid, panel, border, modern object or clipped focal subject was found. Accepted after preserving one edge-clipped draft and one exact-count mismatch; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-26392c01-d97d-4bdd-8177-2ba4544f28f1.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c005-reject-01-exec-26392c01-d97d-4bdd-8177-2ba4544f28f1.png",
+          "sha256": "e95f659fd97b067cd2b7b8143846f87d880d59e21d0dde7850699bf6b231cb5d",
+          "reason": "Rejected at original-resolution review because the rightmost focal silphium plant was cut by the canvas edge. The untouched built-in original is preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-830d8870-d615-44ff-a380-8c9c2fc1e53d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c005-reject-02-exec-830d8870-d615-44ff-a380-8c9c2fc1e53d.png",
+          "sha256": "0fd3c3d3a707984b2a7f13069995f44df919214d63dab6433104e4d88084a49f",
+          "reason": "Rejected at original-resolution review because the prompt required exactly five focal silphium plants but the image rendered four. The untouched built-in original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:6",
+      "title": "LIBYA MAREOTIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c006.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "7cfffaad7274f5b852dc3fed53ba9dec18aa07eedbf953dfb811097070c1ebc0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b1b07c31-c2fe-4d11-961e-e93a875b522d",
+      "generationArtifactId": "exec-b1b07c31-c2fe-4d11-961e-e93a875b522d",
+      "outputArtifact": "built-in-imagegen://exec-b1b07c31-c2fe-4d11-961e-e93a875b522d.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 6, “LIBYA MAREOTIS.” Ground the scene in the chapter's actual content: the narrow district bordering Egypt between Catabathmos, Parætonium, and Alexandria; the peoples of Marmaridae, Adyrmachidae, and Mareotae; Apis as a place associated in Pliny's account with Egyptian religious belief; and the long measured coastal journey whose distances occupied Eratosthenes, Agrippa, Polybius, Isidorus, and Artemidorus. Compose a single continuous late-afternoon travel scene built on a strong descending diagonal: a small Roman-era caravan of fully visible travelers and pack donkeys carefully comes down the sudden, steep stony descent of Catabathmos toward a broad quiet coastal plain. One traveler tests the path with a plain staff while another shields a small unmarked water jar; all bodies, animals, loads, feet, and shadows are complete. Far below, Parætonium appears as one low ancient harbor, and beyond it a pale strand, Lake Mareotis, and the faint mass of distant Alexandria recede into warm haze. A modest roadside sanctuary with an uninscribed bull relief, fully inside the scene, quietly alludes to Apis without making a claim about exact architecture. Give the left foreground dark madder-umber rock, the central path open ochre negative space, and the right distance silvered faded-lapis water, so the experiential geography is unmistakable and materially unlike the neighboring botanical and fertile-coast scenes. Keep every focal person, animal, staff, jar, shrine, harbor structure, and coastline fully contained with generous breathing room. This is a poetic reconstruction of Pliny's transmitted Roman-era geographic account, not a modern survey or definitive archaeological claim.\n\nHouse style: an original deluxe Plinian natural-history folio image carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, dusty madder, and ochre; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. The artwork fills the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, route lines, map symbols, charts, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern instruments or objects, photography, glossy digital rendering, caricature, or clipped focal subjects.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The Catabathmos descent, complete caravan of travelers and laden donkeys, plain staff and jar, uninscribed bull-relief sanctuary, Parætonium harbor and distant Mareotis/Alexandria horizon are all legible. Every focal person, animal, load and shrine is contained. No text, pseudo-writing, map, panel, border, modern object, caricature or clipped focal subject was found. Accepted on the first call; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:7",
+      "title": "THE ISLANDS IN THE VICINITY OF AFRICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c007.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "29071a3ad12caa0ef34c1a3d6836206cac0de8979d827f7c3327ce1fcd7da8fb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9c8b2899-31b5-43f7-a273-9691ab5d7fff",
+      "generationArtifactId": "exec-9c8b2899-31b5-43f7-a273-9691ab5d7fff",
+      "outputArtifact": "built-in-imagegen://exec-9c8b2899-31b5-43f7-a273-9691ab5d7fff.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 7, “THE ISLANDS IN THE VICINITY OF AFRICA.” Ground the scene in the chapter's actual content: Meninx, called Lotophagitis by Eratosthenes, with two settlements on opposite shores near the Lesser Syrtis; Cercina and smaller Cercinitis joined by a bridge; and farther Lopadusa, Gaulos, Galata, Cosyra, the Aegimuri, and wave-worn low rocks. Make a warm, land-and-lagoon observation from within Meninx, not an open-blue-sea panorama and not an atlas. In the center half of the lower canvas, one shallow ochre-green island lagoon curls around a compact group of several low, fully visible lotus plants with complete roots, leaves, flowers, and fruit. No plant enters the outer fifth of the canvas. A fully visible island gatherer stands ankle-deep at center placing fruit into one plain basket; one complete narrow reed skiff rests nearby, entirely surrounded by water and well away from all edges. In the middle distance, two modest ancient settlements sit small and separated on opposite shores, each with all outermost buildings and palms fully visible and at least one-eighth canvas width from the side edges. Only in the upper third does the marine chain open: a complete narrow island and its smaller companion are joined by one complete stone bridge, while other tiny fully contained islets and rocks recede beneath a rose-madder sunrise. All edge zones contain only open ochre ground, unobstructed water, or open sky—no edge-entering branch, lotus leaf, structure, boat, person, or island. Use dominant ochre shallows, verdigris lotus foliage, warm umber ground, and pale madder sky, with only small accents of faded lapis water; make the spatial silhouette and tonal mass materially unlike a pale causeway island or ocean-wide seascape. This is a poetic visualization of Pliny's transmitted ancient geography and name associations, not a modern navigational chart or settled modern identification.\n\nHouse style: original deluxe Plinian natural-history folio imagery carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained mineral washes dominated by ochre, muted verdigris, umber, and pale madder, with only restrained faded lapis and lampblack; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Fill the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, map grids, compass roses, scales, arrows, diagrams, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern vessels or objects, photography, glossy digital rendering, caricature, or clipped focal subjects.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The warm Meninx lagoon, complete lotus plants, gatherer, basket and reed skiff are fully framed; the two opposing settlements, bridged island pair and distant islets remain distinct and contained. The result is materially different from an atlas or open-ocean panorama. No text, pseudo-writing, panel, border, modern vessel or clipped focal subject was found. Accepted after preserving one global-MAD reject and one framing reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-01a687e3-95fc-4884-94f4-5e72bd20e465.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c007-reject-01-global-mad-19.90-exec-01a687e3-95fc-4884-94f4-5e72bd20e465.png",
+          "sha256": "8cee58c645af7fa24a484045a59ea0f53d06603900f0863b4d87520bf7ae9bcb",
+          "reason": "Rejected after native visual acceptance because the open seascape collided with trees-aromatics-wave-49/b02-c089.png at MAD 19.90, below the required 20. The untouched built-in original is preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-5f14b0ba-239e-4c8b-b91a-ee0c6eac2c31.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c007-reject-02-framing-exec-5f14b0ba-239e-4c8b-b91a-ee0c6eac2c31.png",
+          "sha256": "07e7e10d73bcd8e174ca53fcfa78caa5118eaf00bfe54524c3daf7645ef3f489",
+          "reason": "Rejected at original-resolution review because foreground lotus clusters and the left settlement were clipped at the canvas edge. The untouched built-in original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:8",
+      "title": "COUNTRIES ON THE OTHER SIDE OF AFRICA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c008.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "ad1b73df8c66dd20c62afb32542bada3032a3faf6fef0cc61df52a3766aeadbb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-747d48e7-2601-419f-a65d-565829c962e5",
+      "generationArtifactId": "exec-747d48e7-2601-419f-a65d-565829c962e5",
+      "outputArtifact": "built-in-imagegen://exec-747d48e7-2601-419f-a65d-565829c962e5.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 8, “COUNTRIES ON THE OTHER SIDE OF AFRICA.” Ground the image selectively and responsibly in the chapter's natural-geographic content: a journey south beyond the Gaetuli across immense deserts toward the river Pliny calls Nigris; his report that its seasonal waters, calamus, papyrus, and animals resembled those of the Nile; riverbank forest emerging amid burning sands; and distant ranges toward east and west. Do not depict the chapter's dehumanizing or fabulous physiognomic claims about peoples. Instead make one continuous, almost elemental landscape seen obliquely from a high dune at the instant a hidden watercourse re-emerges: a dark winding river breaks from beneath pale sand, widens into one verdigris-black oasis channel, and threads toward a dense shaded forest. Fully visible clumps of papyrus and calamus bend at the water; one complete hippopotamus rests half in the shallows, one complete crocodile lies on an inner sandbar, and a few complete antelope move along the farther bank, all anatomically plausible and calm. Use an S-shaped river as the sole organizing gesture, with large quiet expanses of ochre desert, lampblack water shadows, verdigris vegetation, and a pale violet-madder horizon. Keep every focal animal silhouette, papyrus crown, sandbar, forest mass, and visible river emergence fully inside the canvas with generous breathing room; no primary creature or botanical specimen touches an edge. This is explicitly a poetic visualization of Pliny's transmitted ancient report and uncertainty, not a modern identification of the river, not settled modern science, and not a claim about the peoples he describes.\n\nHouse style: an original deluxe Plinian natural-history folio image carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Fill the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, specimen grids, maps, arrows, charts, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, exoticizing spectacle, ethnic caricature, monstrous humans, or clipped focal subjects.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The S-curving river through desert and forest, papyrus and calamus, calm complete hippopotamus, crocodile and antelope are legible and contained. The scene responsibly omits the chapter's dehumanizing fabulous physiognomies and reads as transmitted ancient natural geography, not modern identification. No text, pseudo-writing, panel, border, modern object, caricature or clipped focal subject was found. Accepted on the first call; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:9",
+      "title": "EGYPT AND THEBAIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c009.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "8b05ddf3927b050a496c73e8cd784c3050ea7df7130f3134108b56718fee9da9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-80f2fdd9-01f8-45b4-a2b8-5e580b5dfd45",
+      "generationArtifactId": "exec-80f2fdd9-01f8-45b4-a2b8-5e580b5dfd45",
+      "outputArtifact": "built-in-imagegen://exec-80f2fdd9-01f8-45b4-a2b8-5e580b5dfd45.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 9, “EGYPT AND THEBAIS.” Ground the scene in the chapter's actual content: Egypt embraced by the branching Nile and its triangular Delta; Upper Egypt or Thebais; the river's cataracts and islands; seasonal inundation; embankments opened when the flood reaches its height; dark fertile soil revealed as the waters recede; and the chapter's competing ancient explanations for the flood. Focus on the observable agricultural event, not on endorsing an obsolete causal theory. Compose one continuous dawn scene from a low riverbank viewpoint: a broad faded-lapis Nile curves from the high left distance, divides around one complete green island, and sends a controlled sheet of water through an opened earthen embankment into dark geometric fields. In the central middle ground, a small group of fully visible Egyptian farmers uses plain wooden levers and woven gates to guide the flow; another fully visible farmer follows behind scattering seed on newly exposed black silt. A simple unmarked water-measuring well stands nearby without scale marks or writing. In the distance, palms, low ancient river towns, and the faint pylons of Thebais rise through mist; a few complete river birds cross the open sky. Build the image around the luminous moving water and broad moist soil, with intentional negative space and a cool silver-lapis, black-silt, verdigris, and dawn-madder value structure unlike the preceding desert and island scenes. Keep every focal person, tool, gate, well, island, building silhouette, and bird completely within the canvas with generous margins. This is a historically situated visualization of Pliny's transmitted observations and reported explanations, not a modern hydrological diagram or settled modern science.\n\nHouse style: an original deluxe Plinian natural-history folio image carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained mineral washes of faded lapis, lampblack, muted verdigris, umber, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Fill the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, map grids, arrows, charts, marked gauges, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern machinery or objects, photography, glossy digital rendering, caricature, or clipped focal subjects.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The branching Nile and island, opened embankment, flowing irrigation sheet, black silt fields, complete farmers, tools, woven gate, unmarked water well, distant Thebais pylons and birds are all clear. The image shows observed inundation agriculture without endorsing Pliny's competing ancient flood theories. No text, marked gauge, pseudo-writing, panel, border, modern machinery or clipped focal subject was found. Accepted on the first call; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:12",
+      "title": "SYRIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c012.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "8b6c1dbc2d47011bf485ba8716dd2862d4b0c63b9072c41f5c1779a519e59e74",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e948e60d-1108-448c-907d-0e5838ec4833",
+      "generationArtifactId": "exec-e948e60d-1108-448c-907d-0e5838ec4833",
+      "outputArtifact": "built-in-imagegen://exec-e948e60d-1108-448c-907d-0e5838ec4833.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 12, “SYRIA.” Ground the scene in the chapter's actual content: the broad ancient region described under many names from the Phoenician coast and Damascena toward Mesopotamia; the Phœnician Sea; Mount Casius near Pelusium; and Pliny's praise of Phoenician achievements in astronomy and navigation. Make a high-key midday Phoenician boatyard and launch, not a night sky scene, not a map, and not a generic ship at sea. Place one complete cedar-built merchant vessel at modest scale entirely within the center half of the canvas, sliding down a compact timber-and-stone slipway toward pale turquoise water. Its entire hull, carved bow and stern, mast top, yard, intact furled square sail, rigging, rudder, rollers, and shadow must be visible, with a broad buffer of open paving or water around every outer point. Four fully visible shipwrights and mariners work only beside the hull: one applies resin, one steadies a short roller lever, one holds a complete closed coil of rope with both ends visibly tucked inside it, and one sights the noon sun along a short plain rod beside a simple complete gnomon casting a clean shadow. No person, rope, prop, basket, jar, timber, or tool appears in the outer fifth of the canvas. A small compact group of ochre stepped harbor houses and complete verdigris cedar trees sits far behind the vessel, wholly surrounded by open sky; beyond the bright water, Mount Casius forms one complete pale silhouette. Edge zones contain only open pale sky, water, or unbroken paving. Use dominant bone-vellum daylight, turquoise-lapis water, ochre stone, verdigris cedar, and one restrained madder sail binding, with crisp iron-gall structure and broad luminous negative space. This is a historically situated visualization of Pliny's transmitted Roman-era geography and his attribution of Phoenician accomplishments, not a modern border claim, technical diagram, or definitive archaeological reconstruction.\n\nHouse style: original deluxe Plinian natural-history folio imagery carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained translucent mineral washes of pale faded lapis, muted verdigris, ochre, umber, small madder, and lampblack; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Fill the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, map grids, constellation graphics, arrows, charts, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, patterned glyph bands on the ship, marked tablets or scrolls, signatures, logos, watermarks, modern instruments or objects, photography, glossy digital rendering, ethnic caricature, warfare spectacle, edge-entering vegetation or architecture, or clipped focal subjects.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete cedar-built merchant vessel, hull, mast, furled sail, rigging, rudder, slipway and rollers are fully framed. Four complete workers perform resin, lever, contained rope-coil and noon-sighting actions; the gnomon, harbor water and Mount Casius silhouette remain clear. No lettering, pseudo-writing, marked chart, panel, border, modern instrument, warfare spectacle or clipped focal subject was found. Accepted after preserving one global-MAD reject and one active-prop framing reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c9692b44-a7b5-4dc9-8d81-cad07bdf1e6c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c012-reject-01-global-mad-13.91-exec-c9692b44-a7b5-4dc9-8d81-cad07bdf1e6c.png",
+          "sha256": "3f7517c936a5b5222293088c30005798acdcb705f299e9a771393d2317c811d8",
+          "reason": "Rejected after native visual acceptance because the dark starry composition collided with trees-aromatics-wave-41/b02-c008.png at MAD 13.91, below the required 20. The untouched built-in original is preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-8375f03d-2747-4aa9-93e5-88ce520c35e7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c012-reject-02-framing-exec-8375f03d-2747-4aa9-93e5-88ce520c35e7.png",
+          "sha256": "45066d0152c0f04a55061db67ae6423d647a822a47a553ad766a351a491d54fc",
+          "reason": "Rejected at original-resolution review because an active launch rope and foreground baskets exited the left and bottom edges. The untouched built-in original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:13",
+      "title": "IDUMÆA, PALÆSTINA, AND SAMARIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c013.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "442eb91c4e61e1bdee4f9a0203795be2c4b1484f403208f5ba7315ecca1bca1c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7b22c1e8-c45a-4b29-9711-87f789914a69",
+      "generationArtifactId": "exec-7b22c1e8-c45a-4b29-9711-87f789914a69",
+      "outputArtifact": "built-in-imagegen://exec-7b22c1e8-c45a-4b29-9711-87f789914a69.png",
+      "exactFinalPrompt": "Create one independent, full-resolution landscape illustration for Pliny the Elder's Naturalis Historia, Book V, chapter 13, “IDUMAEA, PALAESTINA, AND SAMARIA.” Ground the scene in the chapter's actual content: the low Sirbonian fen beneath Mount Casius; the coastal sequence past Gaza, Ascalon, Azotus, and Joppe; Joppe standing on a hill; Pliny's report that people pointed to marks of Andromeda's chains on an offshore rock and worshipped the fabulous Ceto there; Caesarea farther north; and the inland mountain towns of Sebaste and lofty Gamala. Make one continuous windswept cliff scene centered on Joppe, not a map and not a literal monster illustration. From an open elevated stone terrace with no overhanging tree or edge-entering branch, two fully visible Roman-era travelers look across a steep hill city descending to a small harbor. Below them, one complete wave-washed offshore rock sits wholly surrounded by faded-lapis water; subtle weathered iron stains and several empty corroded rings suggest the chain story as local period testimony, with no captive figure and no sea creature. A reed-edged coastal fen glints in the far south beneath one complete Mount Casius silhouette, while layered inland ridges with small ancient settlements rise through mauve haze. One small, fully visible olive shrub and a low unmarked stone offering bowl near the travelers evoke the cultivated terrace and local cult practice without asserting the legend as fact. Use strong vertical rock, diagonal white surf, restrained verdigris olive, madder-violet distance, and ochre masonry to distinguish this scene from the flat Nile and open-island views. Keep both travelers, every limb, the entire hill city skyline, harbor, offshore rock, rings, bowl, olive shrub, and mountain fully within the canvas with generous uninterrupted margins. This is explicitly a poetic visualization of Pliny's transmitted geography and reported local legend, not confirmation of the myth, a modern border claim, or a definitive archaeological reconstruction.\n\nHouse style: an original deluxe Plinian natural-history folio image carried directly across warm, fibrous aged vellum; iron-gall contour line, fine cross-hatching and stipple, restrained translucent mineral washes of faded lapis, muted verdigris, umber, lampblack, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, exactly 1536x1024, opaque sRGB. Fill the canvas naturally without visible sheet edges, decorative borders, internal frames, insets, split panels, map grids, arrows, charts, or repeated crops. No lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, ethnic caricature, literal mythic monster, captive person, overhanging tree, or clipped focal subjects.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The Joppe-like hill city and harbor, complete offshore rock with weathered empty rings, two complete travelers, offering bowl, olive shrub, coastal fen, Mount Casius and inland ridge towns are clear and contained. The legendary marks read as reported local testimony; no captive or literal monster appears. No text, pseudo-writing, map, panel, border, modern object, caricature or clipped focal subject was found. Accepted after preserving one clipping/count-mismatch reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2045c315-0e70-41b8-86c9-a705b4be8e6f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/evidence/history/b05-c013-reject-01-exec-2045c315-0e70-41b8-86c9-a705b4be8e6f.png",
+          "sha256": "98a43605aec84d24706343106ce6876524f0dc22d19885882e11f02bfbf14e5b",
+          "reason": "Rejected at original-resolution review because the prompt's focal olive canopy was clipped at the top and left edges and the exact-two ring instruction rendered four rings. The untouched built-in original is preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

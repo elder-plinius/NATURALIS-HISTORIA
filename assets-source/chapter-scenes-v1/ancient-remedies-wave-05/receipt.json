@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "campaign": "ancient-remedies-wave-05",
+  "generatedAt": "2026-08-26",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+  "corpusSha256": "2dc2a1d22287891f88144f1f396e9bdcd4e79fb9a5ac06d2a9653e1c8ad8ff98",
+  "corpusGroundingNote": "The complete Latin and English entries for Book XXX chapters 2, 3, 4, 5, 7, 8, 9 and 10 were read before prompting. Magical, animal-derived and bodily remedy claims remain transmitted ancient testimony rather than modern fact or advice. Accepted scenes replace cruel or graphic procedures with Pliny's skepticism, respectful natural observation, sealed material culture, ordinary movement, dignified age and unharmed living animals; no treatment is demonstrated.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "ancient-remedies-wave-05",
+    "receiptsCheckedAtCertification": 109,
+    "nonEvidenceMastersCheckedAtCertification": 848,
+    "selectedKeys": [
+      "30:2",
+      "30:3",
+      "30:4",
+      "30:5",
+      "30:7",
+      "30:8",
+      "30:9",
+      "30:10"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact prompts and artifact IDs are copied from the current built-in ImageGen calls. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 1,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 9,
+    "independentCalls": true,
+    "postGenerationPixelEdits": 0
+  },
+  "assignments": [
+    "30:2",
+    "30:3",
+    "30:4",
+    "30:5",
+    "30:7",
+    "30:8",
+    "30:9",
+    "30:10"
+  ],
+  "chapters": [
+    {
+      "chapterKey": "30:2",
+      "title": "THE VARIOUS BRANCHES OF MAGIC",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c002.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "927c0ae446073a26d68df29ad943ea35dfc0ab71f2be652e91f606295f3568db",
+        "englishSha256": "ee6240e412960b195b1616f97f9ce7f496ad6a2094ba9479f59967f5187f78d4",
+        "latinWords": 299,
+        "englishWords": 718
+      },
+      "sha256": "b7dbb32f68514f95f8adf207f0d3ef92acb26216b70b716565d94a17ca4516df",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4f9644c3-ec16-42ee-843e-50b25f46d04a",
+      "generationArtifactId": "exec-4f9644c3-ec16-42ee-843e-50b25f46d04a",
+      "outputArtifact": "built-in-imagegen://exec-4f9644c3-ec16-42ee-843e-50b25f46d04a.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 2: Pliny's rejection of ceremonial magic after Nero's failed experiments. Landscape 3:2, 1536×1024, full-bleed single continuous scene. An austere Roman study at clear morning: on a broad pale travertine table sit exactly four complete, separated objects—one shallow verdigris bronze basin with no visible liquid, one dark polished stone sphere on a small complete stand, one extinguished terracotta oil lamp, and one compact iron hatchet lying flat. A shaft of honest sunlight enters from upper left and breaks apart the objects' long theatrical shadows; beyond is a quiet colonnade and bright open sky. No person, no ritual in progress, no gore. Every discrete object fully visible with generous breathing room and nothing clipped by an edge. The mood is ancient, timeless, beautiful, skeptical, revelatory: superstition losing substance under daylight.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a cinematic painting; mineral-pigment gouache, encaustic wax bloom, fine charcoal anatomy, subtle oxidized bronze and restrained worn gold accents; tactile plaster and vellum-like grain within the painted surface, rough and polished at once; elegant negative space, deep atmospheric perspective, deliberate asymmetry, believable antiquity, no modern objects. Palette: high-key limestone ivory, pale celadon, verdigris, charcoal, a narrow ember-orange accent. Natural light, not fantasy glow.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, repeated scene, cropped object, object touching canvas edge, visible blood, cruelty, medical procedure, instructional diagram.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4f9644c3-ec16-42ee-843e-50b25f46d04a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly four complete separated objects—empty bronze basin, stone sphere and stand, extinguished lamp, and hatchet—fully internal on one continuous sunlit Roman study table. No liquid, ritual action, writing, panel, border, cropped discrete subject, cruelty, or medical instruction appears.",
+      "epistemicAndDignityNote": "The objects and dissolving shadows translate Pliny's explicit skepticism about magical arts into a non-actionable visual argument rather than depicting a ritual.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:3",
+      "title": "OPINIONS OF THE MAGICIANS RELATIVE TO THE MOLE. FIVE REMEDIES DERIVED FROM IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c003.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d87dec7da02f720199c881fd27301537618ab4db53250c109468354132535e09",
+        "englishSha256": "7b64df139517dd1f705aa30bf0504da4239e8a67259b25588403f7f0fc7e0421",
+        "latinWords": 457,
+        "englishWords": 998
+      },
+      "sha256": "101219ecaa2f74022d421fa5f5bab365d5937643ec156b56bcc526e03b6bc000",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8db4c2cb-b604-4a49-b8e4-38a0d0950a89",
+      "generationArtifactId": "exec-8db4c2cb-b604-4a49-b8e4-38a0d0950a89",
+      "outputArtifact": "built-in-imagegen://exec-8db4c2cb-b604-4a49-b8e4-38a0d0950a89.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 3, preserving its historical record while refusing its cruel prescriptions. Landscape 3:2, 1536×1024, full-bleed single continuous scene. In a moonlit Roman physic garden, exactly one living European mole emerges unharmed from a small dry earth mound, its complete compact body, four feet, snout, and short tail all visible and anatomically credible. Beside—but clearly separate from—the mound rests one smooth ivory-colored pebble whose natural shape faintly recalls a human tooth; farther back, a single extinguished clay lamp sits complete in an arched wall niche. Lavender, thyme, and dry grasses create depth without obscuring the animal. No human, no injury, no capture, no remedy being performed. Every discrete subject fully inside the canvas with wide safe margins. The image should quietly contrast folk belief with the dignity of close natural observation.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a lyrical nocturne; mineral-pigment gouache and encaustic wax, fine charcoal contours, restrained worn-gold dust, tactile plaster and vellum-like grain within the paint, rough and polished at once. Deep indigo, umber, dusty violet, moonlit silver, one muted saffron accent; soft raking moonlight, elegant negative space, shallow foreground detail opening to atmospheric garden arches; not glossy photorealism, not cartoon fantasy.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, repeated subject, additional mole, cropped animal or object, subject touching canvas edge, blood, wound, death, trap, dissection, cruelty, medical procedure, instructional diagram.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8db4c2cb-b604-4a49-b8e4-38a0d0950a89",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete anatomically credible living mole at a dry mound, one separate pale pebble and one extinguished lamp in a single moonlit garden. The animal is unharmed and internal; no trap, injury, procedure, writing, panel, border, or clipped focal subject appears.",
+      "epistemicAndDignityNote": "The chapter's mole and toothache claims remain transmitted folk testimony; the plate replaces harm with close observation of a living animal.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:4",
+      "title": "REMEDIES FOR OFFENSIVE ODOURS AND SORES OF THE MOUTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c004.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "225658780658a9421ee197ea0137ba110f2d65f4874583be429861354e002a90",
+        "englishSha256": "b6644d4073978fc38c74a5e4945ae3bbb243ca2e5d5f85910818373fc1a81629",
+        "latinWords": 548,
+        "englishWords": 1138
+      },
+      "sha256": "25fa2a0da9a18bd3a9b642c1d2dcf57d0ffe84c5a66425af050323fe811e07bb",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-097a77a5-2428-41ae-afe1-b3a2158b0ab5",
+      "generationArtifactId": "exec-097a77a5-2428-41ae-afe1-b3a2158b0ab5",
+      "outputArtifact": "built-in-imagegen://exec-097a77a5-2428-41ae-afe1-b3a2158b0ab5.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 4, a difficult historical catalogue concerning breath and ailments of the mouth. Landscape 3:2, 1536×1024, full-bleed single continuous scene. Make a refined Roman cabinet still life—not a treatment demonstration. Against a deep Pompeian-red plaster wall, arrange exactly five complete, clearly separated source-evoking objects on a pale limestone console: one round polished bronze hand mirror with its full handle visible, one small sealed honey amphora with no markings, one tied bundle of green fennel fronds, one neatly rolled clean linen cloth, and one single intact porcupine quill resting horizontally. In the mirror, reflect only soft window light, not a face. A narrow arched opening reveals morning sky. Every discrete object has ample breathing room and is fully within the canvas; no vessel or plant is cut by an edge. The mood is humane, contemplative, and archaeological—evidence of an ancient medical imagination, never advice.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a sumptuous painterly still life; mineral-pigment gouache, encaustic wax bloom, fine charcoal contour, faint abrasion, restrained worn-gold highlights, tactile plaster and vellum-like grain in the painted surface; ancient, timeless, beautiful, rough and polished at once. Palette: Pompeian crimson, warm limestone, dark honey amber, oxidized bronze, fresh fennel green; controlled side lighting, spacious asymmetrical composition, crisp focal hierarchy, not glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, duplicate object, extra container, cropped object, object touching canvas edge, human or animal body, teeth, exposed anatomy, blood, sore, injury, cruelty, medical procedure, remedy preparation, instructional diagram, liquid spilling or reaching a canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-097a77a5-2428-41ae-afe1-b3a2158b0ab5",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly five complete source-evoking objects—mirror, sealed amphora, fennel, rolled linen, and one quill—fully internal against one Pompeian-red interior. The mirror reflects light only; no body, symptom, liquid, preparation, writing, panel, border, or clipped object appears.",
+      "epistemicAndDignityNote": "The mouth-remedy catalogue is framed as archaeological material culture. Sealed and unused objects prevent the image from becoming a treatment recipe.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:5",
+      "title": "REMEDIES FOR DISEASES OF THE SHOULDERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c005.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "5c1f53e71ff98629c4df77defb0338013caa902c53d2cfc880296696896648f0",
+        "englishSha256": "11076c73554f22a90d12526880089e0886cf878961be221c5866be7f34d66d89",
+        "latinWords": 385,
+        "englishWords": 815
+      },
+      "sha256": "917b77c2abd58b528195fb98eeb6a7a71435d49adab4a804e7be96eca86fa1fa",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-02ecbb72-0d54-44bd-9ab8-00d6ef28e5a9",
+      "generationArtifactId": "exec-02ecbb72-0d54-44bd-9ab8-00d6ef28e5a9",
+      "outputArtifact": "built-in-imagegen://exec-02ecbb72-0d54-44bd-9ab8-00d6ef28e5a9.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 5, which records ancient claims concerning shoulder pain and swellings. Landscape 3:2, 1536×1024, full-bleed single continuous scene. In a spacious Roman palaestra courtyard at late afternoon, exactly one dignified middle-aged adult stands fully visible from sandals to hair, wearing a modest lapis-blue sleeved tunic and ochre mantle. The person performs a calm, ordinary shoulder stretch: one arm crosses gently in front of the chest while the opposite hand supports it at the upper arm; anatomy and hands must be natural, with exactly two arms, two hands, and five fingers on each visible hand. The face is serene, not suffering. Exactly one small white Maltese-type dog lies resting unharmed on a complete woven mat several feet away, companionship only. A stone bench, cypress, and long colonnade lead into warm sky. No one touches the dog; no disease-transfer ritual, sacrifice, medicine, wound, or treatment. Both human and animal are entirely within the canvas with ample safe margins, nothing clipped.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a lyrical figurative painting; mineral-pigment gouache, encaustic wax bloom, fine charcoal drawing, subtle oxidized bronze and restrained worn-gold accents, tactile plaster and vellum-like grain within the image, rough and polished at once. Palette: lapis blue, sun-warmed ochre, muted olive, ivory, long violet shadows; graceful negative space, strong diagonal light, believable antiquity, humane and contemplative, painterly rather than glossy photorealism.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, duplicate person or dog, extra limb, malformed hand, cropped body, subject touching canvas edge, nudity, blood, swelling, visible illness, injury, cruelty, sacrifice, medical procedure, remedy application, instructional diagram.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-02ecbb72-0d54-44bd-9ab8-00d6ef28e5a9",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete clothed adult with natural two-arm shoulder-stretch anatomy and one complete resting white dog on an internal mat. Both are calm and fully framed; no symptom, animal contact, ritual, treatment, writing, panel, border, or clipped focal subject appears.",
+      "epistemicAndDignityNote": "The chapter's shoulder and animal-transfer claims are not enacted. A neutral stretch and undisturbed companion animal preserve adult and animal dignity.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:7",
+      "title": "REMEDIES FOR DYSENTERY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c007.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "48803132a72b0bc8a63ea8df81352a01e793ce6314c495913291e668fdd9a73c",
+        "englishSha256": "86dba74df48f124ee46093981b1ab7317b48328eaf1a3ce5173cebe3e3f65b39",
+        "latinWords": 545,
+        "englishWords": 1026
+      },
+      "sha256": "8f4167ed4aeab3bb693b8f9248826cc5bbfac4065e8a1f15def2bde5a39dba65",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-23ebaaf8-5dc5-4aa9-962e-4f4a704f7740",
+      "generationArtifactId": "exec-23ebaaf8-5dc5-4aa9-962e-4f4a704f7740",
+      "outputArtifact": "built-in-imagegen://exec-23ebaaf8-5dc5-4aa9-962e-4f4a704f7740.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 7, a vast ancient catalogue concerning dysentery and intestinal illness. Reframe its animal-derived prescriptions as humane natural observation, not medicine. Landscape 3:2, 1536×1024, full-bleed single continuous panoramic scene. In a terraced Roman farm garden just after rain, show exactly one healthy ewe standing fully visible on a middle-distance grassy terrace, exactly one ring-dove perched fully visible on a complete myrtle branch, and exactly two large Roman snails moving separately across a broad dry foreground stone; both complete spiral shells and entire bodies visible. Tiny bees may appear only as a loose distant atmospheric cluster over thyme, not countable focal subjects. A small lidded clay honey pot and a tied sheaf of flax rest complete on a low stone ledge far to one side, never handled. Olive slopes and a remote farmhouse recede under clearing clouds. No human, no cooking, no sacrifice, no treatment, no illness, no suffering. All focal animals and objects fully inside generous safe margins and nothing clipped; no standing water.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination expanded into a majestic pastoral painting; layered mineral-pigment gouache, encaustic wax bloom, delicate charcoal naturalism, restrained worn-gold flecks in the clearing light, tactile plaster and vellum-like grain within the paint, ancient, timeless, rough and polished at once. Palette: rain-washed sage, malachite, damp umber, chalk sky, myrtle blue-black, one honey-gold accent; deep aerial perspective, low horizon, lyrical negative space, painterly rather than glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, duplicate ewe, duplicate dove, additional focal snail, cropped animal or object, subject touching canvas edge, water touching an edge, blood, dead animal, injury, cruelty, slaughter, cooking, remedy preparation, medical procedure, sick person, instructional diagram.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-23ebaaf8-5dc5-4aa9-962e-4f4a704f7740",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete ewe, one complete perched dove, exactly two complete foreground snails, a lidded pot and tied flax in one continuous dry pastoral. All focal subjects are internal; no water, harm, cooking, treatment, writing, panel, border, or cropped focal object appears.",
+      "epistemicAndDignityNote": "The dysentery catalogue's animal ingredients are transformed into a humane ecological assembly. Nothing is killed, consumed, prepared, or offered as advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:8",
+      "title": "REMEDIES FOR URINARY CALCULI AND AFFECTIONS OF THE BLADDER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c008.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "fa7fce09bd3edd929b3d85ef22401fcb9296ce64429fc46d8b1cbbd4d8d5d18e",
+        "englishSha256": "4dcc41938e601865c27c89b6204bcbd281fd904bd6e99df8a84a86b21e714e10",
+        "latinWords": 595,
+        "englishWords": 1081
+      },
+      "sha256": "3f9de29faf6945dc9d1fc7beeef2ab80f5f5c146cb3a09c30f16f256e6724446",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a928133c-0beb-4983-8957-1e9c56bfec5a",
+      "generationArtifactId": "exec-a928133c-0beb-4983-8957-1e9c56bfec5a",
+      "outputArtifact": "built-in-imagegen://exec-a928133c-0beb-4983-8957-1e9c56bfec5a.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 8, the historical catalogue on urinary stones and affections of the bladder. Landscape 3:2, 1536×1024, full-bleed single continuous architectural scene. In a cool vaulted Roman aqueduct chamber, a small complete rectangular limestone basin stands wholly within the middle ground, filled with perfectly still clear water whose entire boundary is visibly contained by the basin. On a dry pale ledge in the foreground lie exactly five smooth river stones, each complete, separated, and subtly different in mineral color and shape. Exactly one barn swallow perches fully visible on the rim of a small complete mud nest high on the wall; no eggs or chicks. A single beam of noon light descends through an oculus, revealing mineral deposits and suspended dust. No person, no remedy, no bodily imagery. All discrete subjects have generous safe margins and are not clipped; the basin and its water do not touch any canvas edge. The plate should evoke the ancient link between water, stone, and the body while remaining poetic, non-actionable history.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a quiet architectural painting; layered mineral-pigment gouache, encaustic wax haze, precise charcoal contours, oxidized bronze traces, restrained worn-gold dust in the light beam, tactile plaster and vellum-like grain within the paint, ancient, timeless, rough and polished at once. Palette: moonstone gray, pale turquoise, celadon, chalk, smoky blue, one rust accent; strong geometric negative space, deep atmospheric vault, painterly and tactile, not glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, extra swallow, chicks, eggs, additional focal stones, cropped bird, stone, nest, or basin, subject touching canvas edge, water touching canvas edge, blood, anatomy, urine, wound, disease, cruelty, killed animal, cooking, remedy preparation, medical procedure, instructional diagram.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a928133c-0beb-4983-8957-1e9c56bfec5a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete internal basin with fully contained water, exactly five separated complete foreground stones, and one complete swallow on one complete nest. No egg, chick, bodily imagery, procedure, writing, panel, border, cropped focal subject, or water-edge contact appears.",
+      "epistemicAndDignityNote": "Water, mineral stone, and a living swallow become a non-actionable metaphor for the chapter's urinary-stone catalogue rather than a depiction of bodily illness or treatment.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:9",
+      "title": "REMEDIES FOR GOUT AND FOR DISEASES OF THE FEET",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c009.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "53b0e7fad688dfbbe19685dc3588d0329e4559731267af71f303915224df8fc4",
+        "englishSha256": "c3892fd160077cb6f0bba237a4ed73a8533a674d41c6a3dc64e3fa1f010c568b",
+        "latinWords": 412,
+        "englishWords": 783
+      },
+      "sha256": "46bc6cf7e2bfaf72c8d3903da2bb39fe061b58c25a8b46ca64b46d738836af4e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ed94bb54-71ac-48e4-ac00-c71de8303999",
+      "generationArtifactId": "exec-ed94bb54-71ac-48e4-ac00-c71de8303999",
+      "outputArtifact": "built-in-imagegen://exec-ed94bb54-71ac-48e4-ac00-c71de8303999.png",
+      "exactFinalPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 9, the ancient catalogue on gout and ailments of the feet. Landscape 3:2, 1536×1024, full-bleed single continuous scene. At cool dawn in a shaded Roman garden portico, exactly one dignified elderly woman sits fully visible on a low stone bench, composed and healthy, wearing a modest long plum stola and moss-green mantle. Both bare feet rest naturally and fully visible on a small complete wooden footstool; a complete matched pair of worn leather sandals sits neatly together on the dry mosaic floor nearby. Her two hands rest gently clasped in her lap with natural anatomy. On the far end of the bench, a single delicate spider web catches dew between the stone and a complete sprig of ivy—an allusion to a remedy in the text, but nobody applies anything. Cypress and distant mountains glow beyond the columns. The scene is about age, rest, and mobility, not suffering or advice. Human, sandals, and footstool all fully inside generous safe margins, nothing clipped.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into an intimate portrait; mineral-pigment gouache, encaustic wax bloom, fine charcoal figure drawing, restrained worn-gold flecks in the dawn, tactile plaster and vellum-like grain within the paint, ancient, timeless, beautiful, rough and polished at once. Palette: deep cypress green, Tyrian plum, cool limestone, smoky lilac dawn, muted leather brown; large tranquil negative space, graceful column rhythm, soft directional light, painterly rather than glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, extra person, duplicate sandals or footstool, malformed hand or foot, extra limb or digit, cropped body or object, subject touching canvas edge, blood, lesion, swollen joint, visible illness, pain grimace, injury, cruelty, animal body, remedy application, medical procedure, instructional diagram, standing water.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ed94bb54-71ac-48e4-ac00-c71de8303999",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one complete clothed elderly woman with natural hands and feet, both feet on one complete internal footstool, one matched pair of complete sandals, and one web in a single portico scene. No swelling, pain, treatment, writing, panel, border, water, or clipped focal subject appears.",
+      "epistemicAndDignityNote": "The gout catalogue is reframed around dignified age, rest, and mobility. The web is a literary allusion only and is not applied as a remedy.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:10",
+      "title": "REMEDIES FOR EVILS WHICH ARE LIABLE TO AFFECT THE WHOLE BODY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c010.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "abf0b2a5199622f111d258e876b36b420f0039fed03a664f3612efe82bd9788c",
+        "englishSha256": "c0675d235e6fda2cb922da776ae92d947953f16f57597fa1ca4518b8c31a23bc",
+        "latinWords": 639,
+        "englishWords": 1360
+      },
+      "sha256": "35ab09c9ffa647cceb524ac6ed32bb8790ea2b213d9b6a36e8f06a6e484118aa",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b93d89b8-4d15-4052-86f3-504fff2ba550",
+      "generationArtifactId": "exec-b93d89b8-4d15-4052-86f3-504fff2ba550",
+      "outputArtifact": "built-in-imagegen://exec-b93d89b8-4d15-4052-86f3-504fff2ba550.png",
+      "exactFinalPrompt": "Targeted correction to this exact landscape 3:2 illustrated Roman dawn scene. Preserve the entire composition, atmosphere, architecture, color, lighting, one sleeping black dog, one cuckoo, one green lizard, and the empty shed serpent skin. Fix only the lower-left dog-and-mat placement: scale that group down slightly and reposition it inward so the complete woven mat—including all four edges and every fringe—is clearly visible with a generous band of bare floor between the mat and the left, bottom, and all canvas edges. Keep the dog fully supported on the mat and fully visible. Also keep the lizard's complete tail comfortably inside the right edge. Do not introduce or remove any subject.\n\nMaintain painterly mineral-pigment gouache and encaustic texture, charcoal naturalism, subtle worn-gold dawn dust, tactile ancient plaster, deep indigo-to-winter-gold chiaroscuro. No glossy photographic finish.\n\nHard exclusions: no text, glyphs, pseudo-writing, letters, numerals, labels, captions, watermark, signature, border, decorative frame, manuscript page, split panel, collage, duplicate animal, extra dog, extra bird, extra lizard, live snake, cropped animal or object, subject touching any canvas edge, blood, wound, illness, cruelty, ritual, medicine, instructional diagram.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-11b80b39-3be0-4d4d-a702-78a216dd3ea2",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-b93d89b8-4d15-4052-86f3-504fff2ba550",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original for edge-safe composition; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review of the corrected built-in output found one complete sleeping black dog on a complete internal mat with all four edges visible, one complete cuckoo, one complete green lizard with its tail safely internal, and one complete empty shed serpent skin. No live snake, ritual, illness, writing, panel, border, or clipped focal subject appears.",
+      "epistemicAndDignityNote": "The feared whole-body ailments and magical claims are framed as superstition receding before dawn. All animals are living and unharmed; the serpent element is an empty natural slough.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-11b80b39-3be0-4d4d-a702-78a216dd3ea2",
+          "outputArtifact": "built-in-imagegen://exec-11b80b39-3be0-4d4d-a702-78a216dd3ea2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/evidence/history/b30-c010-reject-01-clipped-mat.png",
+          "sha256": "02beac1d8bb865c5d44d0a9b860390938708f8c83bea9f15835437cbf2f25a24",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 10, which turns to feared afflictions of the whole body and records extravagant magical claims. Landscape 3:2, 1536×1024, full-bleed single continuous scene. View an open Roman house threshold at first winter dawn from the dim interior toward a radiant landscape. Exactly one healthy black dog sleeps curled but fully visible on a complete woven mat several feet inside the doorway, safe and untouched. Exactly one cuckoo perches fully visible on a frost-silvered bare branch beyond the threshold. Exactly one small green lizard stands fully visible on a warm sunlit stone near the open door. On a recessed wall shelf rests one complete naturally shed translucent serpent skin in a loose coil, clearly empty and harmless. The straight beam of dawn dissolves vague smoky shadows in the interior; the open doorway and awakening world embody Pliny's skeptical daylight against magical fear. No person, ritual, amulet, medicine, death, or distress. Every focal animal and discrete object is fully inside generous safe margins, nothing clipped.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a dramatic dawn painting; layered mineral-pigment gouache, encaustic wax bloom, delicate charcoal naturalism, subtle oxidized bronze, restrained worn-gold particles in the sunlight, tactile plaster and vellum-like grain within the painted surface; ancient, timeless, beautiful, rough and polished at once. Palette moves from deep charcoal-indigo and smoke violet inside to pale winter gold, icy blue, and fresh lizard green outside; bold chiaroscuro, monumental negative space, clear focal hierarchy, painterly rather than glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscriptions, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, montage, collage, duplicate animal, extra dog, extra bird, extra lizard, live snake, cropped animal or object, subject touching canvas edge, water, blood, wound, visible illness, nightmare creature, cruelty, sacrifice, medical procedure, remedy preparation, instructional diagram.",
+          "reason": "The first otherwise acceptable dawn scene allowed the complete woven dog mat to run into and be clipped by the lower-left canvas edge, failing the complete-discrete-subject framing gate."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 857,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "30:2": {
+        "nearestMAD": 49.71,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c014.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c040.png",
+        "madAtDHashPeer": 54.88
+      },
+      "30:3": {
+        "nearestMAD": 20.42,
+        "madPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c014.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c096.png",
+        "madAtDHashPeer": 30.16
+      },
+      "30:4": {
+        "nearestMAD": 40.03,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c004.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c025.png",
+        "madAtDHashPeer": 90.12
+      },
+      "30:5": {
+        "nearestMAD": 33.5,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b11-c049.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c024.png",
+        "madAtDHashPeer": 62.62
+      },
+      "30:7": {
+        "nearestMAD": 29.32,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c001.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+        "madAtDHashPeer": 48.12
+      },
+      "30:8": {
+        "nearestMAD": 35.16,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c016.png",
+        "madAtDHashPeer": 45.12
+      },
+      "30:9": {
+        "nearestMAD": 36.89,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c014.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c010.png",
+        "madAtDHashPeer": 58.17
+      },
+      "30:10": {
+        "nearestMAD": 36.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c011.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c015.png",
+        "madAtDHashPeer": 52.17
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/ancient-remedies-wave-05",
+    "status": "pass",
+    "output": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "archiveCeilingBytes": 1500000000,
+  "chapterSceneSourceSnapshot": "absent-authenticated-public-repo",
+  "excludedChapterSceneClasses": [],
+  "excludedSourceAssetBytes": 0,
+  "excludedSourceAssetFileCount": 0,
+  "normalizedTimestamp": "2026-08-26T00:00:00.000Z",
+  "packagingGateScripts": [
+    "scripts/verify-release-security.mjs",
+    "scripts/verify-public-release.mjs",
+    "scripts/audit-artwork-coverage.mjs"
+  ],
+  "packagingPreflightPassed": true,
+  "profile": "public-repo",
+  "publicationGate": "not-evaluated-by-packager; run npm run release:check before deployment",
+  "publicationStatus": "external-release-check-required",
+  "schemaVersion": 1,
+  "sourceAssetManifest": null,
+  "sourceBytes": 784922188,
+  "sourceFileCount": 5685
+}

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-46",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "2:61",
+      "title": "THE NATURE OF HAIL, SNOW, HOAR, MIST, DEW; THE FORMS OF CLOUDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c061.png",
+      "sha256": "ed592fd5474c2d6cca39fd9ce18aee06441a918a5772208904beeadefac7855b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ba115601-4ffe-4092-9eb8-09014a8536c5",
+      "outputArtifact": "built-in-imagegen://exec-ba115601-4ffe-4092-9eb8-09014a8536c5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 61, “The Nature of Hail, Snow, Hoar, Mist, Dew; the Forms of Clouds”\nPrimary request: Present Pliny's ancient attempt to connect cloud colour and form with contained “fire” as transmitted natural philosophy, not modern cloud physics. Show one continuous mountain ravine immediately after a shifting dawn storm, with no human observer. In the near foreground, a complete low patch of reeds and thyme carries fine hoar frost and rounded dew beads; beside it a finite scatter of small hailstones melts into one shallow runnel. Mid-valley, a complete narrow river exhales a low sheet of mist. On one distant contained ridge lies a modest cap of snow. Above the same connected valley, one coherent cloud bank changes naturally from cool dense lampblack-lapis folds to thin ochre-lit edges where dawn light is absorbed and released. Every phenomenon must belong to one weather system and one landscape, never a catalogue, specimen grid, sequence or labeled diagram.\nScene/backdrop: one finite enclosed ravine, contained river, complete distant ridge, broad varied cloud field; no building, person, animal, sun disc, lightning bolt, fire on land or second disconnected landscape\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; micro-weather dialect of crystalline foreground detail, vaporous middle distance and sculpted cloud value\nComposition/framing: 3:2 landscape, near-ground viewpoint following one diagonal runnel into the ravine. Keep the complete frost patch, hail scatter, river banks, mist body, entire ridge profile, snow cap, cloud masses and all shadows comfortably within generous breathing room; cloud wash may reach the outer canvas naturally but may not form an internal vignette or framed rectangle.\nHistorical and epistemic framing: illustrate a Roman-era theory about weather forms and contained fire as a historical attempt at explanation; do not present it as current meteorology.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and atmosphere fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, arrows, callouts, weather icons, chart, cutaway, panels, collage, repeated crops, separate seasons, modern weather device, magical flame inside cloud, giant hail, disaster, clipped ridge, clipped river, edge-entering plant as a primary subject, photography, photorealism, glossy CGI.\nFRAMING REPAIR: Pull the viewpoint much farther back and remove every edge-entering foreground plant. Replace the large cropped reed mass with exactly two small complete isolated frost-coated plant clumps and one restrained finite hail scatter placed on an open gravel bar in the lower middle, with at least eight percent visible bare ground between them and the left, right and bottom edges. Their roots, lowest leaves, highest tips and shadows must all be visible. Keep the entire central snow ridge smaller and surrounded by valley air. No essential vegetation, hail, ridge, river bank or weather subject may touch any canvas edge.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One continuous mountain ravine coherently gathers a fully contained snow ridge, river mist, distinct cloud masses, falling hail and small isolated frost-bearing plants with clear vellum around their complete silhouettes. The visual presents Pliny’s ancient account of cloud, frost and hail formation as transmitted natural philosophy rather than settled modern microphysics. No lettering, pseudo-writing, label, arrow, chart, panel, collage, repeated crop, visible page, internal border, modern technology, watermark or clipped primary subject was found. Accepted second built-in generation after a foreground plant-framing rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-daa41172-7004-4a72-afcc-ed00ef8aabbe.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/evidence/history/b02-c061-rejected-01-exec-daa41172-7004-4a72-afcc-ed00ef8aabbe.png",
+          "sha256": "2c947a471e3054643b208c81f7a73e3fb51ac521527d08eca1a4d71761a0be67",
+          "reason": "Rejected at original-resolution review because a primary frost-bearing plant clump entered through the lower-left canvas edge, violating the complete-subject framing gate."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:62",
+      "title": "THE PECULIARITIES OF THE WEATHER IN DIFFERENT PLACES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c062.png",
+      "sha256": "3fd9026cce0b0522e2881b22bf2a6c7e695baca30285a99e2ed35e5a89527134",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f137c90b-dc9c-488c-8bdd-5df46f774a65",
+      "outputArtifact": "built-in-imagegen://exec-f137c90b-dc9c-488c-8bdd-5df46f774a65.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 62, “The Peculiarities of the Weather in Different Places”\nPrimary request: Ground this chapter in Pliny's report that a rainbow was seen every day at Lake Velinum, presenting it as ancient local testimony rather than a guaranteed modern climatic fact. Show a single bright Italian lake basin after rain: one complete broad natural rainbow rises above the lake, its two ends visibly dissolving into spray well inside the landscape rather than touching any edge. A complete low sun breaks through one opening in retreating cloud, while one complete stepped cascade feeds the lake and throws fine mist into the rainbow. The surrounding limestone banks and reeds are wet and luminous. No witness, map or comparison with Africa, Rhodes or Syracuse is shown; this is one specific place and one moment.\nScene/backdrop: one finite Lake Velinum-like basin with the entire near shoreline visible, one complete contained cascade, two contained limestone shoulders, reed beds and broken clouds; no city, temple, house, boat, person, animal or second rainbow\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent faded-lapis water, muted verdigris reeds, ochre limestone, restrained madder and pale mineral rainbow washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship\nComposition/framing: 3:2 landscape, wide low-lake viewpoint. The complete rainbow forms a high shallow arch wholly inside the upper half; the complete cascade sits off-centre below and the finite shoreline curves calmly across the foreground. Leave generous clear air around the outer rainbow and visible ground beyond each end. Keep every water edge, cascade lip, ridge tip, reed clump, sun disc, reflection and spray shadow inside all four edges.\nHistorical and epistemic framing: depict the recurrent-rainbow claim as Pliny's period report about place-specific weather; do not assert that a rainbow literally occurs there every day.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, sky and water washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, map, place-name, weather chart, second scene, multiple rainbows, magical portal, treasure, fantasy saturation, panel, collage, repeated crop, modern dam, modern building, clipped rainbow, clipped cascade, clipped shoreline, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A complete recurring rainbow spans a contained waterfall and lake basin, grounding Pliny’s place-specific Lake Velinus weather report in one coherent landscape with distinct water, mist and terrain. The scene reads as period testimony rather than a universal modern climate claim. No text, pseudo-writing, diagram, labeled weather chart, panel, collage, repeated crop, visible page, internal border, modern instrument, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:63",
+      "title": "NATURE OF THE EARTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+      "sha256": "5e00e67219193694253122a278d9be12ba76a6d58d7f3fbc5dc1bf17decd42eb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-2143ce57-ff99-4d5d-8a00-df743169c2c6",
+      "outputArtifact": "built-in-imagegen://exec-2143ce57-ff99-4d5d-8a00-df743169c2c6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 63, “Nature of the Earth”\nPrimary request: Interpret Pliny's praise of Earth as nourishing, patient and generous together with his fierce criticism of human extraction, without personifying the planet as a goddess and without illustrating the chapter's self-harm passage. In one warm late-afternoon Roman countryside, exactly one complete farmer kneels to plant one complete young olive sapling into a carefully refilled patch of dark soil. Around him one continuous productive earth supports a small complete wheat strip, wild medicinal herbs, fruiting vines and fragrant flowers. Across the same shallow valley, one complete small abandoned mine entrance and one short exhausted spoil trench remain empty and silent, their cut earth beginning to green over. The farmer faces the sapling rather than the mine; no metal, jewel, weapon or luxury object is extracted.\nScene/backdrop: one finite cultivated terrace with both retaining-wall ends visible, a contained valley, complete abandoned mine portal, short trench, sapling and distant low ridge; no second person, burial, monument, serpent, corpse, animal, furnace, active miners, cart or city\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent umber earth, muted verdigris growth, ochre grain, quiet madder flowers and faded-lapis distance; ancient, timeless, beautiful, rough in material and polished in draftsmanship; terrestrial moral dialect of tactile soil, roots, scars and renewed fertility\nComposition/framing: 3:2 landscape, intimate high-oblique terrace view. The complete farmer and sapling form a grounded pair at lower right; the complete mine portal remains small at upper left, separated by a broad living field. Keep every hair, hand, knee, sandal, root, leaf tip, terrace end, trench end, portal stone, ridge and shadow fully inside broad breathing room. No contextual branch or wall may enter from an edge.\nHistorical and epistemic framing: present Pliny's moral natural history and critique of mining as ancient thought; do not imply Earth is literally sentient or that every product of soil is beneficial.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and terrain washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, goddess, face in landscape, globe, diagram, split good-versus-evil panel, collage, repeated crop, suicide, poison-taking, hanging, weapon use, blood, corpse, active mine, modern tool, excavator, floating plant, clipped figure, clipped sapling, clipped portal, photography, photorealism, glossy CGI.\nFRAMING REPAIR: Pull the entire cultivated terrace substantially farther back and eliminate every wall that runs into a canvas edge. Replace the former perimeter wall with one compact finite oval planting bed made from a low ring of stones; show the complete ring all the way around, with broad bare earth outside it on every side. The complete kneeling farmer and young olive stay inside this ring. Keep the wheat, vines, herbs and flowers as small complete patches beyond the ring, each isolated from all edges. Reduce the complete mine portal and short spoil trench, preserving visible terminal ends. Leave at least eight percent uninterrupted terrain between every stone, plant, portal, figure and all four borders.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete farmer plants a young olive within a finite oval stone bed while a contained abandoned mine portal and short exhausted trench form a restrained counterpoint, making the chapter’s contrast between earth as nurturer and earth as object of extraction legible. Every figure, tree, root contact, bed edge, mine opening and trench terminus remains inside breathing room. No lettering, pseudo-writing, graphic moral label, floating object, panel, collage, repeated crop, visible page, internal border, modern tool, watermark or clipped primary subject was found. Accepted second built-in generation after an edge-running wall rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-63cc40de-6150-447f-bab5-94694fd27c0f.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/evidence/history/b02-c063-rejected-01-exec-63cc40de-6150-447f-bab5-94694fd27c0f.png",
+          "sha256": "fe5f383fefeaac42934395996c96ae0ad7506152c16e9d2eef546aca76279bbf",
+          "reason": "Rejected at original-resolution review because a retaining wall continued out through the frame, violating the finite-architecture and no-clipping gates."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:64",
+      "title": "OF THE FORM OF THE EARTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c064.png",
+      "sha256": "cf0de00ed7f754a671437bc0736d03d0a7411141bc7541c4cf0c760bc59519e8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c9615fda-b3da-4190-9e8d-153a4a5f6844",
+      "outputArtifact": "built-in-imagegen://exec-c9615fda-b3da-4190-9e8d-153a4a5f6844.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 64, “Of the Form of the Earth”\nPrimary request: Present Pliny's ancient argument that the earth is broadly spherical despite mountains and plains as a historical model-making scene, not a labeled globe diagram and not an assertion of his geocentric mechanism. Inside one finite Roman-era geometric workshop, exactly one complete seated Greek geometer shapes a single complete hand-sized clay sphere resting securely in a shallow sand cradle. The unlabeled sphere is plain earth-coloured, visibly almost round but carries restrained tactile irregularities: one low mountain ridge, one shallow plain and one subtle flattened area, all modelled directly in clay without painted continents, oceans, poles, grid, axis or writing. The geometer checks the outer curve using one loose complete plain cord, not a marked ruler. His hands, sphere and reasoning are the focus.\nScene/backdrop: one complete low workbench, one complete stool, one shallow sand cradle, plain plaster wall and finite tiled floor; no window view, assistant, book, scroll, tablet, map, second sphere, celestial object, architectural column or shelf entering an edge\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent umber clay, lampblack shadows, muted verdigris garment, faded-lapis wall shadow, madder and ochre accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship; intimate geometer-workshop dialect with tactile clay and controlled chiaroscuro\nComposition/framing: 3:2 landscape, close high three-quarter workshop view. Place the complete geometer at left, the complete clay sphere and sand cradle centrally, and broad empty floor at right. Keep the whole figure, chair legs, table corners, sphere circumference, every clay ridge, cord end, sand cradle, floor edge and cast shadow comfortably inside generous breathing room. The sphere must never touch a frame edge and must read as a physical model, not a floating planet.\nHistorical and epistemic framing: illustrate Pliny's period reasoning about terrestrial form; do not endorse his claim that rotating heavens force Earth into a sphere, and do not replace the ancient model with modern geodesy.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and workshop washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, continents, country outlines, latitude-longitude grid, axis, arrows, orbit, labeled globe, celestial diagram, map, geometric overlay, second model, panel, collage, repeated crop, modern caliper, modern globe, floating sphere, clipped person, clipped table, clipped stool, clipped sphere, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete seated ancient geometer uses a plain cord to compare an unlabeled clay sphere modeled with mountains and plains; the full sphere, table, stool, figure and supported cord remain comfortably contained. The scene records Pliny’s rounded-earth reasoning as ancient inquiry without turning it into a labeled globe or modern geodesy lesson. No writing, numeral, latitude grid, arrow, chart, modern instrument, panel, collage, repeated crop, visible page, internal border, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:65",
+      "title": "WHETHER THERE BE ANTIPODES?",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c065.png",
+      "sha256": "37b1d175ce6178414f8aaa359078d903d8da07fd271dd00c037cab76adb7a6e8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4985e16a-7cd0-4787-992c-87ed69d7791c",
+      "outputArtifact": "built-in-imagegen://exec-4985e16a-7cd0-4787-992c-87ed69d7791c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 65, “Whether There Be Antipodes?”\nPrimary request: Present the ancient learned-versus-popular dispute about inhabitants on opposite sides of a rounded earth as transmitted reasoning, not a modern lesson and not a literal upside-down-people diagram. In one spacious open Roman garden court with no overhead roof and no edge-entering architectural member, exactly two complete philosophers stand on opposite sides of one complete low circular stone basin. The basin is filled to the brim and its water visibly swells in a subtle convex meniscus at the centre. On the dry rim rest one complete broad leaf holding three round dew drops and one complete small plain cup whose water also bulges slightly above the lip, echoing the chapter's empirical examples. One philosopher gestures toward the water; the other answers with an open questioning hand. No globe, map or human inversion is shown.\nScene/backdrop: one finite paved court whose complete oval paving zone is isolated from all canvas edges, one complete freestanding basin, two complete low garden-wall terminals with their end faces visible and at least twelve percent clear space from every canvas edge, distant enclosed shrubs and one small complete cypress; no column, lintel, beam, roof, arcade, crowd, student, ship, ocean, book, scroll, tablet, pinecone, statue or extra vessel\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent umber stone, faded-lapis water, muted verdigris leaf, ochre garments and quiet madder accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship; philosophical-garden dialect with balanced bodies, tactile water and restrained symmetry\nComposition/framing: 3:2 landscape, frontal low garden-court view. The complete basin occupies the centre, the two complete philosophers stand widely separated left and right, and the leaf and cup remain small but legible on the supported rim. Keep every head, hand, foot, garment hem, basin circumference, wall terminal, cypress tip and root contact, paving-zone boundary, leaf tip, droplet, cup handle, reflection, shadow and ground contact comfortably inside broad uninterrupted breathing room. All discrete architecture and plants must be fully visible with vellum separating them from every edge.\nHistorical and epistemic framing: illustrate Pliny's period debate and examples about curved water; do not endorse his cosmological mechanism or present the scene as proof of modern antipodal geography.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and faint atmospheric garden wash fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, upside-down person, floating person, globe, world map, latitude grid, arrows, force lines, geometry overlay, diagram, panel, collage, repeated crop, modern instrument, clipped philosopher, clipped basin, clipped plant, clipped wall, edge-entering architecture, edge-entering vegetation, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete philosophers debate across one fully contained circular basin whose water has a subtle convex meniscus; one complete leaf bears exactly three round droplets and one complete small handled cup rests on the rim. The finite paving zone, two wall terminals and complete cypress are inset with open vellum around all discrete forms. The scene communicates Pliny’s period debate through his curved-water examples without a globe, inverted person or claim of modern proof. No lettering, pseudo-writing, chart, grid, arrow, panel, collage, repeated crop, visible page, internal border, modern instrument, watermark or clipped primary subject was found. Accepted second built-in generation after an edge-running roof-beam rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9ab31ae6-1653-4f27-af6f-249dcd6e2994.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/evidence/history/b02-c065-rejected-01-exec-9ab31ae6-1653-4f27-af6f-249dcd6e2994.png",
+          "sha256": "ee51072b28c491edda4556c606b2f9390174cf3b28a4a4ac1ec3c8300ccc4a5a",
+          "reason": "Rejected at original-resolution review because the stoa roof beam exited through both lateral edges and its columns sat too close to the frame, violating the finite-architecture and no-edge-entry gates."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:67",
+      "title": "WHETHER THE OCEAN SURROUNDS THE EARTH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c067.png",
+      "sha256": "7561fded9bfbe13c1111fd9c50c51724bbbbe7e352a7f50a90aad4d51c55a1a7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-0dae12e8-d511-4503-aceb-6de75d75a12f",
+      "outputArtifact": "built-in-imagegen://exec-0dae12e8-d511-4503-aceb-6de75d75a12f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 67, “Whether the Ocean Surrounds the Earth”\nPrimary request: Render the maritime evidence and uncertainty Pliny assembles from voyages beyond Gades as transmitted ancient geography, not proof that his surrounding-ocean model is correct. From a high seaward viewpoint, show exactly one complete ancient square-sailed merchant ship moving outward through the natural Pillars of Hercules into a vast western ocean. Both opposing rock pillars are modest, complete freestanding cliff masses whose outer bases, highest peaks and inner sea gap are all fully visible with open water and sky around them; neither cliff touches an edge. The ship's complete hull, prow, stern, mast, square sail, rigging and wake are fully contained. Beyond the gap lies an immense empty ochre-lapis horizon, deliberately uncertain, with no mapped destination.\nScene/backdrop: one finite coastal basin opening between two contained natural pillars, broad open Atlantic-like sea and high airy sky; no city, fortress, lighthouse, second vessel, person on shore, monster, island, compass, map or route line\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent faded-lapis water, pale ochre sky, umber cliffs, muted verdigris scrub and tiny madder sail accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship; exploratory-ocean dialect with vast negative space, low ship rhythm and uncertain distance\nComposition/framing: 3:2 landscape, high oblique view looking through the complete gap. Place the complete ship small in the lower centre, both complete pillars in the middle distance with clear margins around every rock tip, and a vast empty sea-sky field beyond. Keep hull, sail, rigging, wake, both cliff bases and peaks, waterline, visible horizon segment and shadows comfortably separated from all four edges.\nHistorical and epistemic framing: show evidence from ancient voyages and reports; do not assert that the ocean has been proven to encircle the globe or that all reported routes occurred exactly as described.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, water and sky washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, map, route line, globe, compass rose, sea monster, fantasy coast, shipwreck, storm, military fleet, panel, collage, repeated crop, modern vessel, clipped ship, clipped sail, clipped cliff, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete ancient merchant ship sails between two fully contained cliff pillars toward a broad uncertain open ocean; hull, sail, rigging, wake, cliff silhouettes and architectural traces remain legible and separated from all edges. The outward voyage represents Pliny’s inherited debate over an encircling ocean as transmitted ancient geography rather than a modern map claim. No map, route line, compass, writing, pseudo-writing, diagram, panel, collage, repeated crop, visible page, internal border, modern vessel, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:68",
+      "title": "WHAT PART OF THE EARTH IS INHABITED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c068.png",
+      "sha256": "682568f6a7046563464f0bfbf1e5bed6987a23429554cef808a0fe014e9071dc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-cfddd58e-7963-4a4e-bbb1-d183d5c0fae6",
+      "outputArtifact": "built-in-imagegen://exec-cfddd58e-7963-4a4e-bbb1-d183d5c0fae6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 68, “What Part of the Earth Is Inhabited”\nPrimary request: Interpret Pliny's claim that human habitation occupies only a tiny remainder after ocean, cold, heat, mountains, forests, marshes and deserts are considered, as transmitted ancient cosmography rather than a modern climate-zone map. Show one continuous immense high-oblique landscape with no observer: a single complete small walled farming village and its complete narrow cultivated valley sit at the centre, hemmed naturally by a contained snowbound mountain mass at upper left, a contained ochre desert escarpment at upper right, a complete dark forest belt at lower left, a finite marsh at lower right and a broad inland sea in the far middle distance. The terrains blend through one plausible watershed and atmosphere; they are not separate wedges, bands or labeled zones. The village is peaceful and unfortified in spirit, with no territorial fence expanding outward.\nScene/backdrop: one enormous but coherent Mediterranean-Asian terrain basin, one complete village with every outer wall end visible, one contained cultivated strip, finite forest, marsh, desert shoulder, snowy mountain and distant water; no person, army, boundary marker, monument, palace, ship, globe or duplicate settlement\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent umber terrain, muted verdigris cultivation and forest, faded-lapis water and snow shadow, ochre desert and sparse madder roofs; ancient, timeless, beautiful, rough in material and polished in draftsmanship; inhabited-speck dialect with vast terrain, tiny human scale and strong value transitions\nComposition/framing: 3:2 landscape, bird's-eye basin view without map geometry. The complete village and fields form one small warm island in the centre; the five environmental constraints curve around it at different depths. Keep every village wall and roof, all terrain termini, ridge peaks, marsh boundary, forest end, shore curve, shadow and cultivated row inside generous breathing room. No zone or horizon may be boxed, outlined or clipped as an isolated graphic.\nHistorical and epistemic framing: illustrate Pliny's period estimate of limited habitable land and his critique of territorial vanity; do not present his five-zone scheme, polar darkness or stellar feeding claims as current science.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and terrain washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, globe, map projection, climate bands, colored wedges, arrows, legend, border fence, diagram, panels, collage, repeated crops, apocalypse, battle, corpse, modern city, clipped village, clipped mountain, clipped shore as a separate subject, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A tiny complete village and finite cultivated strip occupy one continuous basin between materially distinct snowy mountain, desert, forest, marsh and inland-water regions, giving Pliny’s limited-habitable-earth claim a compact period landscape rather than a zoned globe diagram. Village structures and cultivated ground are fully contained; terrain reaching the canvas belongs to the continuous environmental field rather than a clipped discrete object. No label, pseudo-writing, latitude band, map grid, arrow, floating landform, panel, collage, repeated crop, visible page, internal border, modern technology, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:69",
+      "title": "THAT THE EARTH IS IN THE MIDDLE OF THE WORLD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c069.png",
+      "sha256": "d919d885b14d982329c396e47be3c1df010c35a23e4c449b01a8cd3083845886",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-a6dadba7-743f-4aec-b753-8b3ce8eeaaa9",
+      "outputArtifact": "built-in-imagegen://exec-a6dadba7-743f-4aec-b753-8b3ce8eeaaa9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 69, “That the Earth Is in the Middle of the World”\nPrimary request: Present Pliny's equinox-and-quadrant argument for a central earth as transmitted ancient reasoning, explicitly not settled modern cosmology. In one complete east-west Roman courtyard at equinox sunset, exactly one complete ancient surveyor kneels beside one complete unmarked bronze quadrant on a low stand. The complete ochre sun is framed low through the western arch; directly opposite, an empty eastern arch and the courtyard's balanced shadows establish the observed line without arrows or overlays. The surveyor reads the plain plumb cord against the quadrant but makes no mark and holds no writing surface. Architecture is finite: exactly two modest arches, four complete columns, one complete paved court and short walls whose terminal faces are visible.\nScene/backdrop: one self-contained open court with both arches and all four columns fully visible, low distant plain through the west opening, clear equinox sky; no crowd, assistant, temple, statue, globe, star field, second sun, map, book, tablet or scroll\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent ochre sunset, faded-lapis shadow, umber stone, muted verdigris bronze and quiet madder clothing accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship; equinoctial-courtyard dialect with precise balanced light and sober instrument clarity\nComposition/framing: 3:2 landscape, centered one-point courtyard perspective tempered by an off-centre kneeling figure. Keep the complete sun disc, both arches, every column capital and base, all wall termini, whole surveyor, every finger and sandal, full quadrant, stand, plumb cord, paving edge and shadow comfortably inside broad uninterrupted margins. No architectural element may enter or exit an edge.\nHistorical and epistemic framing: illustrate the observational argument Pliny records; do not endorse geocentrism or suggest that equal day and night proves Earth's central position in modern astronomy.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, light and architecture washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, arrows, axes, geometry overlay, earth globe, orbital ring, second sun, split sunrise-sunset scene, chart, panel, collage, repeated crop, telescope, clock, modern instrument, clipped person, clipped quadrant, clipped arch, clipped column, edge-entering wall, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete ancient surveyor stands with one fully supported unmarked quadrant in a finite equinox courtyard while one complete modest sun is framed through a contained arch; the courtyard structure, figure, instrument and shadows remain inside clear margins. The image presents Pliny’s geocentric balance argument as transmitted ancient reasoning, not settled cosmology or a labeled celestial diagram. No inscription, numeral, degree scale, orbit, arrow, chart, panel, collage, repeated crop, visible page, internal border, modern instrument, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 431,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:61": {
+        "nearestMAD": 24.27,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c044.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c018.png",
+        "madAtDHashPeer": 36.09
+      },
+      "2:62": {
+        "nearestMAD": 23.34,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c059.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c022.png",
+        "madAtDHashPeer": 40.13
+      },
+      "2:63": {
+        "nearestMAD": 24.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c020.png",
+        "madAtDHashPeer": 45.46
+      },
+      "2:64": {
+        "nearestMAD": 31.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c001.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 51.48
+      },
+      "2:65": {
+        "nearestMAD": 27.12,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-02/b33-c010.png",
+        "madAtDHashPeer": 39.28
+      },
+      "2:67": {
+        "nearestMAD": 25.2,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c005.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c026.png",
+        "madAtDHashPeer": 76.47
+      },
+      "2:68": {
+        "nearestMAD": 22.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c059.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c004.png",
+        "madAtDHashPeer": 31.05
+      },
+      "2:69": {
+        "nearestMAD": 27.91,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c006.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c007.png",
+        "madAtDHashPeer": 52.82
+      }
+    }
+  }
+}

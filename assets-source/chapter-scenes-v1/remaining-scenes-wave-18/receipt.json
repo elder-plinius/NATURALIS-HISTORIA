@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-18",
+  "generatedAt": "2026-08-26",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+  "corpusSha256": "9afcc6f0aad7fb629c2f65d040188442f5dcc57addf2418cba890f9b6707f769",
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXVI chapters 16 through 23 were read before prompting. Scenes follow the magnet discovery tradition, Assos stone, palm-impressed and black stones, pyrites, hæmatites and schistos, aëtites, working stones, and cisterns while treating ancient attributions as reported lore and omitting bodies, decomposition, battle, asbestos handling, fire-starting, pregnancy and amulet claims, medical procedures, internal-use remedies, unsafe recipes, and instructional modernization.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-18",
+    "receiptsCheckedAtSelection": 119,
+    "receiptOwnedKeysCheckedAtSelection": 920,
+    "nonEvidenceMasterKeysCheckedAtSelection": 923,
+    "selectedKeys": [
+      "36:16",
+      "36:17",
+      "36:18",
+      "36:19",
+      "36:20",
+      "36:21",
+      "36:22",
+      "36:23"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "activeClaimsExcluded": [
+      "35:10",
+      "35:11",
+      "35:12",
+      "35:13",
+      "35:14",
+      "35:15",
+      "35:17",
+      "35:18",
+      "35:19",
+      "36:1",
+      "36:2",
+      "36:3",
+      "36:4",
+      "36:5",
+      "36:6",
+      "36:7",
+      "36:8",
+      "36:9",
+      "36:10",
+      "36:11",
+      "36:12",
+      "36:13",
+      "36:14",
+      "36:15"
+    ]
+  },
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact prompts and artifact IDs are copied from the built-in ImageGen calls. Portable built-in-imagegen references replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 1,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 9,
+    "independentCalls": true,
+    "builtInImageEditCalls": 1,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "assignments": [
+    "36:16",
+    "36:17",
+    "36:18",
+    "36:19",
+    "36:20",
+    "36:21",
+    "36:22",
+    "36:23"
+  ],
+  "chapters": [
+    {
+      "chapterKey": "36:16",
+      "title": "THE MAGNET: THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c016.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7b7eb33db9b7d9ebd42cacd3438d356bd955b61d8e6dc1ababf4632a105ffa1f",
+        "englishSha256": "4fcbae5bdcb2251e021b4c8ab139914de4f6fb01e9c093d6191d313bb2da7936",
+        "latinWords": 291,
+        "englishWords": 662,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "925e1b070c51a3aae3e47f7eb401d0fd02a83b03f0308346afa1fe93b2560c72",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7be54b92-8954-4a25-954b-16db2ae9a2a3",
+      "generationArtifactId": "exec-7be54b92-8954-4a25-954b-16db2ae9a2a3",
+      "outputArtifact": "built-in-imagegen://exec-7be54b92-8954-4a25-954b-16db2ae9a2a3.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: corrected full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 16\nInput image: edit target.\nPrimary request: Correct only two connected iron details at the point where the shepherd meets the magnetite. First, replace the broad tool-like metal head on the end of the wooden staff with one short, narrow, historically plausible cylindrical iron ferrule that simply caps the staff tip and lies flush against the dark stone; it must not resemble a hoe, axe, pick, blade, hook, or crosspiece. Second, show exactly three small round iron hobnails on the visible outer edge of the raised sandal sole, all three touching or pulled against the magnetite; remove every additional visible sole stud or nail.\nInvariants: preserve the same single shepherd’s identity, face, hair, beard, clothing, posture, anatomy, hands, complete body, second sandal, long wooden staff, magnetite outcrop, mountains, pines, lighting, colors, composition, crop, linework, vellum, and matte mineral-folio style. Keep all subjects fully inside the frame and preserve the contact-based nonmagical reading.\nConstraints: exactly one small cylindrical iron ferrule, exactly three visible hobnails, no other tool head or visible nail; no added objects.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, axe, hoe, pick, hammer, blade, hook, crosspiece, extra people or animals, extra fingers or limbs, floating objects, glowing force, modern magnets, crop, panels, collage, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e22500dc-2d82-4084-b59c-65ebba7faf72",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-7be54b92-8954-4a25-954b-16db2ae9a2a3",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen precise-object edit referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review of the corrected output found exactly one complete fully clothed shepherd, one complete staff with a narrow cylindrical iron ferrule flush to the magnetite, and the corrected three small hobnail contacts on the raised sandal sole. Face, hands, limbs, second sandal, staff, and outcrop are coherent and internal; no animal, extra person, tool-like head, floating iron, magic effect, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The scene illustrates Pliny’s traditional discovery story as reported lore and physical contact, not proof of the named inventor or endorsement of the chapter’s medical and gendered mineral claims.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-e22500dc-2d82-4084-b59c-65ebba7faf72",
+          "outputArtifact": "built-in-imagegen://exec-e22500dc-2d82-4084-b59c-65ebba7faf72.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/evidence/history/b36-c016-reject-01-ferrule-and-hobnail-count.png",
+          "sha256": "03afab7e5dc456d4955770eeba4d3fdb41b55fd9bd6c3f77220f8c013647f4da",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 16, “The Magnet”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of the traditional discovery of magnetism reported by Pliny. On a windswept pasture of Mount Ida, show exactly one complete fully clothed ancient shepherd standing beside exactly one low blue-black magnetite outcrop. He holds exactly one long wooden staff with a small iron ferrule at its lower end; the ferrule visibly clings sideways to the stone while the shepherd leans back with restrained surprise. One of his two complete leather sandals touches the outcrop, with three small iron hobnails along its outer sole visibly drawn against the dark stone; both feet remain naturally grounded. No herd or other person is present. The phenomenon must read through contact and pose, not arrows, labels, glowing force, or floating objects.\nScene/backdrop: sparse Idaean upland with dry grass, a few distant pines, low ochre ridges, and broad vellum sky; no buildings or modern equipment.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre; stronger minerals-and-arts chiaroscuro; ancient and timeless, rough in material yet polished in draftsmanship.\nComposition/framing: wide low three-quarter view, the shepherd’s entire head, hands, body, sandals, full staff, iron ferrule, and magnetite outcrop all wholly inside generous margins; stone and staff connection form the focal diagonal; one continuous landscape, no border.\nLighting/mood: cool early morning with a narrow warm rim on the iron and stone; wonder grounded in observation rather than magic spectacle.\nConstraints: exactly one adult shepherd, one staff, one magnetite outcrop, and two sandals; anatomically coherent hands and feet; historically plausible opaque tunic and mantle; opaque sRGB color; complete subjects with breathing room.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra people, animals, detached nails, floating iron, glowing energy, lightning, magic aura, magnets shaped like horseshoes, modern tools, medicine, eye treatment, nudity, cropped anatomy or staff, malformed hands or feet, panels, collage, page mockup, glossy CGI, photorealism.",
+          "reason": "Native review rejected the otherwise strong scene because the staff end read as a broad hoe- or pick-like metal head rather than a ferrule, and the raised sandal displayed more than the requested three visible hobnails."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:17",
+      "title": "SARCOPHAGUS, OR STONE OF ASSOS: TEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c017.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "5dd78db98e46bd183564cbe702f2f384af5333a5b19908288fee9133d1560cd8",
+        "englishSha256": "7364fe32d910a713cc561f3841119f0c63415caf05ecf71fab8b7f6eee3d5ecc",
+        "latinWords": 181,
+        "englishWords": 367,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e1f419539d14ad669167ddee5744c0473f0a867938d2ee443febd3ad1b6815cb",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a8b23ee1-1b7e-4783-a445-ecd8797eadc4",
+      "generationArtifactId": "exec-a8b23ee1-1b7e-4783-a445-ecd8797eadc4",
+      "outputArtifact": "built-in-imagegen://exec-a8b23ee1-1b7e-4783-a445-ecd8797eadc4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 17, “The Sarcophagus Stone of Assos”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of the laminated stone quarried at Assos, without showing a burial or medical procedure. In a quiet ancient quarry above the Troad coast, show exactly one complete empty rectangular sarcophagus chest newly carved from warm grey-brown fissile stone. Its entire rim, hollow interior, four exterior sides, and low base are visible. Exactly one complete heavy matching lid rests separately on two short wooden skids beside it, fully visible and not covering the chest. Fine natural horizontal laminations continue across chest and lid, echoing the layered quarry face behind. No body, bones, teeth, grave goods, workers, tools, writing, or funerary decoration.\nScene/backdrop: terraced Assos stone quarry with one broad naturally banded rock wall, distant muted Aegean horizon, sparse scrub, and a worn earth floor; no tomb interior or temple.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre; minerals-and-arts dialect with tactile lamination and strong restrained chiaroscuro; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: wide oblique high three-quarter view so the complete empty cavity is unmistakable; chest and separate lid occupy different thirds with generous earth around every edge; one continuous quarry landscape, no border or split-screen.\nLighting/mood: pale late-afternoon light rakes across the stone layers; solemn material observation without horror or supernatural effect.\nConstraints: exactly one empty sarcophagus chest, one separate lid, and two wooden skids; historically plausible ancient quarrying and stonework; all discrete subjects fully inside canvas; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, bodies, human remains, bones, teeth, skulls, grave goods, clothing, mirror, strigil, people, animals, extra coffins or lids, opened grave, decomposition, gore, magic, tools, cropped rim/base/lid/skids, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a8b23ee1-1b7e-4783-a445-ecd8797eadc4",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete empty laminated stone sarcophagus chest, one separate complete matching lid, and two complete wooden skids in a continuous Assos quarry. Rim, cavity, base, lid, and skids are all internal; no body, remains, teeth, grave goods, person, tool, inscription, funerary decoration, panel, or crop appears.",
+      "epistemicAndDignityNote": "The plate centers geological lamination and ancient stonework while deliberately omitting the chapter’s decomposition imagery, corrosive-body claims, and remedial recipes.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:18",
+      "title": "OSSEOUS STONES. PALM STONES. CORANI. BLACK STONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c018.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "cd69bb674a3e75834c85d948622aa07dedf9e99e5e7eca6bdad7b9bbe59f09bd",
+        "englishSha256": "86c405e797f27e034e80fbed732f2570023fec3421a5e7a6588571d96aa638fc",
+        "latinWords": 166,
+        "englishWords": 315,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "39e6303cc3dc8538c55871c84491e12939a324f3b2d03011730dc75c286d0bcc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-76f4b48c-991a-4f89-8fad-e74113f95c5a",
+      "generationArtifactId": "exec-76f4b48c-991a-4f89-8fad-e74113f95c5a",
+      "outputArtifact": "built-in-imagegen://exec-76f4b48c-991a-4f89-8fad-e74113f95c5a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 18, “Osseous, Palm-Impressed, Coranian, and Black Stones”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio geological field study inspired by Pliny’s catalogue of unusual stones. On one broad natural limestone ledge in an empty Spanish upland, place exactly three complete stone specimens with wide separation. Two are matching pale tawny halves of one naturally split palm stone, opened at an angle like a broken geode: together their facing surfaces reveal one continuous, delicate palm-frond impression, negative on one half and positive relief on the other. The third is one complete small deep-black Tænarian-type stone with a matte charcoal surface and subtle pale edge, positioned apart in shadow. No living or loose palm leaf, bone, ivory, tool, hand, label, container, flame, oil, or millstone.\nScene/backdrop: dry limestone ridge near ancient Munda, distant low hills and muted vellum sky, with no battlefield, monument, building, or person.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; precise iron-gall contours, dense fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, ochre, muted verdigris, faded lapis, and a trace of madder; minerals-and-arts dialect with close tactile stone clarity; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: low intimate oblique view; the two complete matching halves form an asymmetrical V at left-middle, the single complete black stone anchors the right foreground, and large areas of bare ledge and sky provide negative space; every specimen and its shadow ends fully inside canvas; one coherent landscape, no border or diagram.\nLighting/mood: cool raking dawn light reveals the single palm impression and black stone grain; curious, restrained, and archaeological.\nConstraints: exactly three stones total—two matching palm-impression halves and one black stone; exactly one palm-frond impression shared across the two facing surfaces; all specimens wholly inside generous margins; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, animals, battle imagery, Caesar, Pompey, living palm plant, loose leaf, multiple leaf prints, bones, teeth, fossils shaped like skeletons, ivory, extra stones as discrete foreground specimens, tools, bowls, grid, panels, collage, frame, page mockup, cropped stones, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-76f4b48c-991a-4f89-8fad-e74113f95c5a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three separated focal specimens: two complete matching pale halves with one shared positive-and-negative palm-frond impression, and one complete matte black stone. All silhouettes and shadows are internal; no living leaf, bone, ivory, person, battle, tool, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The scene visually interprets Pliny’s reported stone marvels without asserting their ancient explanations as geology and omits the Caesar-Pompey battlefield association.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:19",
+      "title": "OSTRACITES; FOUR REMEDIES. AMIANTHUS; TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c019.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "25c4d9fa9368920837e2b53eeb9e16d3288cfbf965ebf8edf1b5a7442de1f57a",
+        "englishSha256": "77d92e9e755d6c0b0a9ffb3af45dfea7be1af720864e7f8825700173cac2f8ad",
+        "latinWords": 330,
+        "englishWords": 689,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "d1974f280754c6318c02b6199dfa28b69c120b7104808e1c10c6f884bffcbd9c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-77d40d4b-981b-478e-89f0-0f13ffd64725",
+      "generationArtifactId": "exec-77d40d4b-981b-478e-89f0-0f13ffd64725",
+      "outputArtifact": "built-in-imagegen://exec-77d40d4b-981b-478e-89f0-0f13ffd64725.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 19, “Pyrites, Ostracites, and Amianthus”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration centered on the two metallic varieties of pyrites Pliny locates near Acamas in Cyprus, presented only as geological specimens. In one shallow copper-stained mine alcove, show exactly two complete rough ore nodules resting separately on a single natural rock shelf: the left nodule is cool silver-grey with angular pyrite facets, and the right nodule is muted old-gold with similar angular facets. Both are unbroken, dry, palm-sized, fully visible, and clearly natural mineral aggregates rather than coins or treasure. A thin shaft of daylight from a complete small opening high in the rock catches their contrasting faces. No fire, spark, coal, honey, liquid, asbestos fibre, shell, tool, person, hand, animal, or medical use.\nScene/backdrop: ancient Cypriot mine chamber near Acamas, with matte umber stone, restrained verdigris staining, one complete high daylight aperture, and deep quiet negative shadow; no timber machinery or modern excavation.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; emphatic iron-gall contours, dense fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained lampblack, umber, muted verdigris, faded lapis, madder, ochre, chalk-white, and subdued metallic-looking washes without actual shine; stronger minerals-and-arts chiaroscuro; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: intimate low oblique cavern view, two complete nodules isolated in unequal pools of light across the lower middle, with a tall dark wall and aperture creating a strong vertical counter-rhythm; generous margin around each specimen; one coherent scene, no border or display grid.\nLighting/mood: cool daylight against deep warm mine shadow, attentive and mysterious but never magical.\nConstraints: exactly two foreground ore nodules, one silver-grey and one muted gold; exactly one high aperture; every discrete subject fully inside canvas; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, coins, jewelry, treasure chest, extra ore specimens on the shelf, people, hands, animals, flame, sparks, smoke, sulfur, honey, liquid, asbestos fibres, shells, medical treatment, glowing crystals, magical aura, cropped specimens or aperture, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-77d40d4b-981b-478e-89f0-0f13ffd64725",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two complete dry pyrite nodules, one silver-grey and one muted gold, isolated on one natural shelf beneath one fully internal aperture. Facets, silhouettes, shadows, mine walls, and restrained verdigris are coherent; no coin, treasure, flame, spark, asbestos fibre, liquid, person, tool, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The plate chooses a non-procedural geological motif and excludes asbestos handling, fire-starting, medicinal applications, magical tests, and other unsafe or unverifiable claims in the chapter.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:20",
+      "title": "HÆMATITES: FIVE REMEDIES. SCHISTOS: SEVEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c020.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2d6bb4174a027830e0048849d192eac1cb3f6caefd1165e9f40922753f239f4b",
+        "englishSha256": "bc8906ee78913d7c0732e4279e655783e5377512d5a2a375a58c121205c3b5e9",
+        "latinWords": 249,
+        "englishWords": 497,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2e661f817e29fcb22a0841e3e093058de0abacceabe426acb147113c6a542d9a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5d0ec816-3bc3-46b1-a309-8308104637be",
+      "generationArtifactId": "exec-5d0ec816-3bc3-46b1-a309-8308104637be",
+      "outputArtifact": "built-in-imagegen://exec-5d0ec816-3bc3-46b1-a309-8308104637be.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 20, “Hæmatites and Schistos”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio mineral study that distinguishes the two related stones described by Pliny without depicting remedies. On exactly one complete broad octagonal basanite examination slab, show exactly two complete dry specimens, widely separated: at upper left, one heavy irregular charcoal-black hæmatite nodule with several natural deep-madder red veins visible through its broken face; at lower right, one thin fissile schistos slab with layered edges and a restrained saffron-ochre surface. Between them, the untouched dark slab remains empty. No rubbing streak, powder, liquid, cup, tool, hand, label, eye, blood, pomegranate, snake, or medical apparatus.\nScene/backdrop: top-down view of an austere Roman mineral room floor, the octagonal slab resting fully within a field of worn pale limestone and vellum-toned shadow; no shelves or other objects.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; crisp iron-gall contour, dense fine cross-hatching and stipple following mineral planes, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, deep madder, saffron ochre, muted verdigris, faded lapis, and chalk-white; minerals-and-arts dialect with analytical material clarity; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: strict but asymmetrical overhead composition, complete octagonal slab rotated slightly and wholly inside generous margins; two specimens occupy opposite quadrants with broad dark negative space between them; all shadows terminate inside the canvas; one coherent floor scene, no border or grid.\nLighting/mood: one oblique cool shaft creates hard-edged mineral shadows and reveals the red veins and fissile layers; quiet comparison, not a modern scientific diagram.\nConstraints: exactly one octagonal slab and exactly two stone specimens; natural red veins only within the hæmatite; every discrete object fully visible; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, body parts, eyes, blood, wounds, medicine, pomegranate, snake, bowl, mortar, pestle, liquid, powder, rubbed marks, extra rocks or chips, modern laboratory objects, split-screen, grid, panels, collage, frame, page mockup, cropped slab or specimens, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5d0ec816-3bc3-46b1-a309-8308104637be",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete octagonal dark basanite slab and exactly two complete separated specimens: a charcoal hæmatite nodule with contained natural red veins and a saffron-ochre fissile schistos slab. The overhead silhouettes, layered edges, and shadows are internal; no powder, streak, liquid, body part, remedy, tool, label, grid, panel, or crop appears.",
+      "epistemicAndDignityNote": "The comparison remains a visual mineral study and does not endorse the chapter’s internal-use dosages, eye treatments, or blood-related remedies.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:21",
+      "title": "AËTITES. TAPHIUSIAN STONE. CALLIMUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c021.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6b69b02b9602aea29a9d818b31d27830238dcd20d0f3eee50012e517c10ffce7",
+        "englishSha256": "047ef9e0e50b4e9f100aefe36db1247fd0a788e9605ee7919bd6fa514756ad94",
+        "latinWords": 403,
+        "englishWords": 870,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "bb23cd01b8536e34678651cedb8ef708e641206f444ff908ffab7abca18f28b9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-21976f3b-4fba-4b0a-90ed-bd735d878e86",
+      "generationArtifactId": "exec-21976f3b-4fba-4b0a-90ed-bd735d878e86",
+      "outputArtifact": "built-in-imagegen://exec-21976f3b-4fba-4b0a-90ed-bd735d878e86.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 21, “Aëtites, the Eagle-Stones”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of the eagle-stone tradition reported by Pliny, clearly framed as a quiet natural-history legend rather than a remedy. On a broad high limestone shelf above the Ionian Sea, show exactly one complete empty eagle nest woven from dry twigs, entirely visible from a high oblique angle. Inside it rest exactly two complete stone objects and no eggs: one small soft-looking pale chalk-white rounded aëtites with a fine natural seam, and one slightly larger hard reddish-ochre rounded aëtites with a darker enclosed pebble faintly visible through one naturally open pore. The stones must read as mineral geodes, not eggs or living creatures. No eagle, chick, feather, animal remains, skin pouch, person, hand, amulet, fire, powder, or medical treatment.\nScene/backdrop: isolated cliff near Leucas with pale rock ledges, distant muted blue-green sea, a small glimpse of Ithacan hills, and wide wind-scoured vellum sky; no building, boat, or settlement.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, chalk-white, and ochre; minerals-and-arts dialect softened by airy coastal negative space; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: nest sits off-center on a complete projecting shelf with generous stone and sky around it; both aëtites remain separate and wholly visible within the nest; the cliff edge and distant sea create a sweeping diagonal, but every discrete subject ends inside canvas; one coherent landscape, no border.\nLighting/mood: clear high morning, salt-softened distance, contemplative and slightly uncanny without magic effects.\nConstraints: exactly one nest and exactly two mineral stones; no bird or egg; all discrete subjects fully inside generous margins; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, eagles, chicks, feathers, eggs, extra stones inside or beside the nest, people, hands, pregnancy, childbirth, medical procedure, amulet, leather pouch, sacrifice, gore, magic glow, floating objects, cropped nest or cliff shelf, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-21976f3b-4fba-4b0a-90ed-bd735d878e86",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete empty twig nest and exactly two clearly mineral aëtites geodes—a pale seamed stone and a reddish porous stone with an enclosed pebble—on a complete cliff shelf. No bird, egg, feather, extra focal stone, person, amulet, medical act, magic effect, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The coastal nest frames Pliny’s aëtites account as reported natural-history legend; pregnancy, childbirth, amulet, sacrifice, and medical claims are intentionally not visualized or endorsed.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:22",
+      "title": "STONES FOR MORTARS USED FOR MEDICINAL AND OTHER PURPOSES. ETESIAN STONE. THEBAIC STONE. CHALAZIAN STONE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c022.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d0a96a96392c5d90e39bd245c00b04086e7b64fa85f94b4474105da69e59e942",
+        "englishSha256": "ba9476fddbfdd02de002eb4169e15a241302d9f75f9053842d08ed94fb8aaa07",
+        "latinWords": 811,
+        "englishWords": 1795,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "030433257329fa96379b06654916049c82181c7ddda14a55790d59120f295049",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8842f157-db36-4881-a978-9b676ac0909d",
+      "generationArtifactId": "exec-8842f157-db36-4881-a978-9b676ac0909d",
+      "outputArtifact": "built-in-imagegen://exec-8842f157-db36-4881-a978-9b676ac0909d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 22, “Stones for Mortars and Other Works”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of a quiet ancient stoneworker’s room, centered on the materials Pliny discusses rather than an active recipe. On one complete low travertine bench, show exactly one complete deep-black basanite mortar with a thick undecorated rim and exactly one complete matching stone pestle laid horizontally beside it, not inside it. Both are empty, clean, dry, separated, and fully visible. Behind them, exactly one complete rectangular sheet of pale translucent specular stone is fitted into a plain masonry opening; diffuse daylight glows through its cloudy layered surface without showing an exterior scene. No other vessel, tool, powder, pigment, drug, blade, person, hand, inscription, or wall pattern.\nScene/backdrop: austere Roman stone workshop with a pale limestone floor, plain irregular masonry, broad umber shadow, and only the single luminous stone opening; no shelves, columns, statues, or modern glass.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; assertive iron-gall contours, dense fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, chalk-white, muted verdigris, faded lapis, madder, and ochre; minerals-and-arts dialect with tactile basanite grain and softly layered specular stone; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: wide low side view, complete bench and objects anchored in the lower-left third while the single luminous rectangle occupies the upper-right, linked by a long diagonal of light and generous negative wall; every discrete subject remains fully inside canvas; one continuous interior, no border or split-screen.\nLighting/mood: cool enclosed daylight through the stone sheet falls across the black mortar and pestle; lucid, serene, and material rather than medicinal.\nConstraints: exactly one mortar, one pestle, one bench, and one specular-stone sheet; mortar visibly empty; historically plausible Roman masonry and stonework; all subjects wholly within generous margins; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, animals, extra vessels or tools, powder, herbs, pigments, medicine, grinding action, liquid, food, blade, whetstone, window view, modern glass, extra openings, tiled grid, architectural diagram, cropped bench/mortar/pestle/window, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8842f157-db36-4881-a978-9b676ac0909d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete empty basanite mortar, one complete separated pestle, one complete travertine bench, and one complete softly translucent specular-stone sheet in a continuous masonry room. All silhouettes and the luminous opening are internal; no powder, pigment, drug, tool, person, exterior view, text, grid, panel, or crop appears.",
+      "epistemicAndDignityNote": "The empty tools and nontransparent luminous sheet represent the chapter’s material range without demonstrating medicinal grinding, sharpening, building recipes, or later stone claims as instructions.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "36:23",
+      "title": "CISTERNS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-18/b36-c023.png",
+      "corpusArtifact": "public/corpus/book-36.9afcc6f0aad7fb62.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b5ee73cb2b45b5292e5e1e3805be4814536dfbba029258ea8cd0085df679f69a",
+        "englishSha256": "16f49e7f121fad5b55a7eca5e3cef52b7097411583e297b6fd55fe4bd2d56ef2",
+        "latinWords": 366,
+        "englishWords": 748,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ce935820fc1b48e784e371ef0927426e2e374989aa86aa3b52091ccd52e3b264",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d054c381-36ef-4b64-be0c-5ee00bfaa0c4",
+      "generationArtifactId": "exec-d054c381-36ef-4b64-be0c-5ee00bfaa0c4",
+      "outputArtifact": "built-in-imagegen://exec-d054c381-36ef-4b64-be0c-5ee00bfaa0c4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXVI chapter 23, “Cisterns”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of a completed ancient Roman double cistern as lived architecture, not a construction diagram. In a quiet open courtyard, show exactly two complete adjacent rectangular masonry basins, both entirely visible from a high oblique viewpoint. The slightly higher first settling basin at left contains shallow ochre-tinted water with a natural layer of sediment visible on its floor. A single short covered stone overflow channel passes through the dividing wall and emerges into the lower second basin at right, which contains deeper clear blue-green water with a calm reflection of the sky. Both basins have thick lime-plastered walls and broad stone coping; the entire outer perimeter, dividing wall, channel entrance and exit, water surfaces, and all four corners of both structures must remain inside the canvas. No people, tools, buckets, pipes, fountains, recipe piles, labels, cutaway, or active construction.\nScene/backdrop: austere Roman villa service courtyard with worn pale paving, one plain plaster wall, a small open doorway set well behind the cisterns, and a strip of herb-free earth; no columns, statues, mosaics, roof gutter, or modern plumbing.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk-white; minerals-and-arts dialect with architectural clarity and subdued water transparency; ancient, timeless, rough in material yet polished in draftsmanship.\nComposition/framing: broad aerial three-quarter view, two basins form an offset L-shaped rhythm rather than a symmetrical grid; each complete structure separated in depth and surrounded by generous courtyard paving; the single transfer channel is visually legible through the shared wall without exposing underground layers; one coherent courtyard, no border.\nLighting/mood: clear late-morning light with soft wall shadows; cool, calm, durable civic ingenuity without instructional emphasis.\nConstraints: exactly two cistern basins and exactly one short stone transfer channel; left water visibly sedimented, right water visibly clear; historically plausible Roman masonry and plaster; all structures and water edges fully inside generous margins; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, animals, tools, buckets, jars, pipes, taps, fountain jets, construction materials, mortar recipe, exposed foundation, underground cutaway, section diagram, arrows, grid, extra pools or drains, swimming pool appearance, modern concrete, cropped corners or water edges, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d054c381-36ef-4b64-be0c-5ee00bfaa0c4",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two complete adjacent masonry cistern basins and one short covered transfer channel in a continuous Roman courtyard. The higher left basin visibly holds shallow sedimented ochre water, the lower right basin clear blue-green water, and every wall, coping, corner, channel end, and water edge is internal; no person, tool, pipe, fountain, recipe, cutaway, label, grid, panel, or crop appears.",
+      "epistemicAndDignityNote": "The scene presents the chapter’s completed double-cistern concept as historical architecture, not a modern engineering specification or actionable mortar recipe.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 945,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "36:16": {
+        "nearestMAD": 26.75,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c028.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c015.png",
+        "madAtDHashPeer": 33.04
+      },
+      "36:17": {
+        "nearestMAD": 26.15,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c058.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c022.png",
+        "madAtDHashPeer": 56.47
+      },
+      "36:18": {
+        "nearestMAD": 24.69,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c010.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c041.png",
+        "madAtDHashPeer": 44.55
+      },
+      "36:19": {
+        "nearestMAD": 24.15,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c037.png",
+        "madAtDHashPeer": 80.94
+      },
+      "36:20": {
+        "nearestMAD": 26.19,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c039.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c005.png",
+        "madAtDHashPeer": 54.75
+      },
+      "36:21": {
+        "nearestMAD": 25.43,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c013.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c017.png",
+        "madAtDHashPeer": 36.37
+      },
+      "36:22": {
+        "nearestMAD": 36.68,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c021.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c014.png",
+        "madAtDHashPeer": 74.35
+      },
+      "36:23": {
+        "nearestMAD": 24.38,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c028.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-anatomy-wave-05/b28-c003.png",
+        "madAtDHashPeer": 32.69
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-18",
+    "status": "pass",
+    "output": ""
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-17",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "16:32",
+      "title": "HOW TREES GROW SPONTANEOUSLY—DIVERSITIES IN THEIR NATURE, THE SAME TREES NOT GROWING EVERYWHERE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c032.png",
+      "sha256": "b31db3918118a54f8a4c89106292fd4571d6c39eb43b4107aaa40e5740c3aa2f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-36f4a3cf-061f-4059-ba4c-da2ffb5e806b",
+      "outputArtifact": "built-in-imagegen://exec-36f4a3cf-061f-4059-ba4c-da2ffb5e806b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 32\nPrimary request: Illustrate Pliny's report of the elm in Juno's grove at Nuceria that bent low, was topped, recovered upright, and flowered again—rendered as tenacious living growth rather than supernatural spectacle.\nScene/backdrop: A quiet ancient sacred grove near Nuceria after spring rain on warm aged vellum. A modest complete stone altar stands entirely blank beneath open trees, low and secondary.\nSubject: One extraordinary but botanically coherent elm grows from a partially tilted root plate. Its old trunk bends in a long low arc above but does not touch the altar; the former top ends in a clean ancient pruning scar. From the still-living arc, a vigorous secondary trunk has curved upward and now carries a complete fresh crown with restrained spring blossom. Exactly one grove keeper kneels at the exposed roots, gently replacing soil with his hands and studying the recovery.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, wide low oblique view emphasizing one continuous living trunk from tilted roots through old arc to upright crown. Keep every root, branch, blossom, pruning scar, the entire blank altar and complete keeper comfortably inside broad vellum breathing room. No before-and-after sequence.\nLighting/mood: Rain-cleared spring, resilience witnessed with cautious wonder, no omen effects.\nConstraints: Exactly one person; period-appropriate plain clothing; plausible root plate, wound closure and adaptive growth; altar blank and undecorated; no tools, fire or cutting in progress.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, supernatural beam, halo, levitation, ghost, dramatic temple, modern arborist gear, photography, glossy digital rendering, split panels, collage, clipped crown, edge-touching branches, floating roots, tree physically crushing altar, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete recovering elm, tilted roots, old arc, pruning scar, upright flowering crown, one keeper and blank altar are fully framed. No text, pseudo-writing, supernatural effect, split panel, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:33",
+      "title": "THE CYPRESS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c033.png",
+      "sha256": "a54369221371a60a4238e803c3195c1705081127a768e98481d8206ca3a89ec6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-de3cbbb9-81c1-40a3-865b-1958afe5f08a",
+      "outputArtifact": "built-in-imagegen://exec-de3cbbb9-81c1-40a3-865b-1958afe5f08a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 33\nPrimary request: Illustrate the difficult naturalization, severe pyramidal habit, bitter cones, and ancient mourning use of the cypress without turning the page into a funeral scene.\nScene/backdrop: A quiet Roman garden nursery at winter dawn on warm aged vellum. One complete mature female cypress rises in a narrow but fully visible pyramidal silhouette and bears only a modest number of round woody cones. A smaller complete young cypress grows in a terracotta bed nearby.\nSubject: Exactly one elderly gardener tends several stubborn cypress seedlings under a simple reed shelter, testing the dry soil with his fingers. He has set one fallen cone and a few bitter needle-like leaves on a plain shallow dish for observation. At the far edge, a complete unmarked household doorway carries one freshly cut cypress bough above it as a restrained mourning sign; no people, bier, body, procession, or cult object appears there.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, long shallow nursery courtyard. Keep the complete mature cypress from roots to pointed crown, young tree, one complete gardener, seedlings, shelter, dish, doorway and bough fully inside broad vellum breathing room. Use the pale wall and cold sky as negative space.\nLighting/mood: Austere winter clarity, patience with a stubborn tree, sober mortality held at the edge.\nConstraints: Exactly one person; period-appropriate plain clothing, terracotta, reed shelter and masonry; cones woody and plausible; doorway entirely blank; no smoke or flame.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, corpse, coffin, funeral crowd, skull, underworld figure, topiary animal, modern nursery pot, plastic, photography, glossy digital rendering, split panels, collage, clipped cypress, edge-touching crown, giant cones, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The mature and young cypresses, woody cones, seedlings, one gardener, reed shelter, observation dish, complete blank doorway and restrained mourning bough are fully framed. No text, funeral body, split panel, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:34",
+      "title": "THE IVY.—TWENTY VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c034.png",
+      "sha256": "01be50ec4d1bd127f0d63f959d7cb5f0746803f51b8fcd1950a16411b71b6923",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-57794233-8abd-41b4-9c32-52c1ec77462c",
+      "outputArtifact": "built-in-imagegen://exec-57794233-8abd-41b4-9c32-52c1ec77462c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 34\nPrimary request: Illustrate Pliny's account of ivy as a revered yet invasive plant—capable of crowning victors while quietly injuring trees and entering old masonry—without depicting a festival, deity, or monster.\nScene/backdrop: A secluded ancient garden boundary in Asia Minor on warm aged vellum after rain. One complete small old olive tree stands beside a short, freestanding, weathered but entirely blank stone wall whose left and right ends are both plainly visible. A single vigorous ivy plant rises from the soil, climbs the trunk, crosses one section of wall, and displays several botanically distinct leaf forms and restrained dark berry clusters.\nSubject: Exactly one elderly gardener stands fully visible, patiently lifting one heavy ivy stem away from the olive with both bare hands. On dry ground beside him lies one small finished ivy wreath, complete and unlettered, recalling ceremonial honor without staging a rite. The ivy remains the unmistakable central subject: beautiful, cool, tenacious, and potentially destructive.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, distant low oblique view. Scale every subject to occupy only the central 65 percent of the folio. Preserve a generous uninterrupted band of blank vellum above the highest leaf and clear blank vellum at both left and right; no branch, leaf, root, wall, person, or wreath may touch any edge. Show the complete olive from roots through every outermost crown tip, the entire short wall with both ends, every major ivy runner, complete gardener, and wreath. One continuous scene only.\nLighting/mood: Cool rain-cleared shade, admiration tempered by botanical caution.\nConstraints: Exactly one person; period-appropriate plain clothing and garden materials; plausible ivy attachment and olive bark; stone wall blank and uncarved; all objects supported by soil; no hand tools.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, deity, thyrsus, army, triumph, serpent, snake, tomb opening, skull, supernatural glow, modern tools, photography, glossy digital rendering, split panels, collage, clipped tree crown, edge-touching leaves, floating wreath, repeated frames, extra people. The entire silhouette must fit well inside the page.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The corrected composition has broad negative space around a complete olive, complete short wall, invasive ivy, one gardener and grounded wreath. No text, pseudo-writing, clipping, split panel, serpent or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-68b2e79e-f36d-4af5-8e5a-11cf6af496bb.png",
+          "sha256": "b951fa05fee8391d20d78f191cf7a088e118bf16e921318d37bcb51c030cbb5d",
+          "reason": "Rejected at original-resolution QA because the mature olive crown pressed into the upper trim and the wall did not preserve the requested freestanding breathing room. The original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:35",
+      "title": "THE SMILAX",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c035.png",
+      "sha256": "6e52a33cf39fa1162d8fe7456be54292c1fc54cfbf1a637e6bc5c9405d7fbfcc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-d3141593-a35c-4523-be17-e0b47067c474",
+      "outputArtifact": "built-in-imagegen://exec-d3141593-a35c-4523-be17-e0b47067c474.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 35\nPrimary request: Illustrate Pliny's Cilician smilax as a thorny jointed climbing shrub often mistaken for ivy, emphasizing its unlobed leaves, tendrils, white lily-scented flowers, reddish grape-like clusters, and hard black berries.\nScene/backdrop: A quiet limestone field edge in ancient Cilicia on warm aged vellum. One complete smilax plant rises from visible roots, threads through a low native shrub, and curls around a pale freestanding stone. Its jointed woody stems, sparse thorns, tendrils, small unlobed ivy-like leaves, several white flowers, one restrained reddish cluster, and a few mature black berries are all legible but natural.\nSubject: Exactly one complete young garland maker kneels at a respectful distance. She has recognized the smilax and lays one cut thorny sprig beside—not inside—an unfinished plain leaf wreath resting on a low woven mat. Her gesture is observational and practical, not fearful or theatrical.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, open triangular composition with the complete vine at left-center, complete kneeling figure at right-center, and broad pale vellum between. Keep every root, runner, tendril, outer leaf, thorn, flower, berry cluster, figure, mat, cut sprig, and unfinished wreath fully within the central 72 percent, with generous blank vellum on all sides. One continuous scene only.\nLighting/mood: Clear dry morning, precise recognition, beauty held apart from ritual use.\nConstraints: Exactly one person in period-appropriate plain clothing; plausible woody smilax; all objects supported by earth or mat; the stone entirely blank and uncarved; no deity or transformation.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, Crocus figure, metamorphosis, omen rays, halo, terror, snake, serpent, grapes as food, giant flowers, modern botany tools, photography, glossy digital rendering, split panels, collage, diagram grid, clipped vine, edge-touching tendrils, floating wreath, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete thorny smilax, jointed stems, tendrils, unlobed leaves, white flowers, reddish cluster, black berries, one garland maker, mat, cut sprig and unfinished wreath are fully framed. No text, pseudo-writing, split panel, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:36",
+      "title": "WATER PLANTS: THE RUSH: TWENTY-EIGHT VARIETIES OF THE REED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c036.png",
+      "sha256": "9f6b11f042aab2ca3a10ab202f619f374853853d37296684632f73ce4d968e9a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c8c745c2-d3b8-4645-86de-690bc9b807d4",
+      "outputArtifact": "built-in-imagegen://exec-c8c745c2-d3b8-4645-86de-690bc9b807d4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 36\nPrimary request: Illustrate Pliny's water plants and many useful reeds, showing their articulated hollow structure and service in durable roofing, light construction, and writing-reed selection within one coherent wetland scene.\nScene/backdrop: A broad cold marsh margin at dawn on warm aged vellum. Several naturally intermingled reed forms grow in shallow water: tall jointed canes with feathery tops, finer writing reeds, stout hollow culms, and low rushes. Behind them stands one small complete ancient work shelter with a beautifully woven reed roof and light reed lattice under its eaves.\nSubject: Exactly one complete reed worker stands ankle-deep at the near margin, selecting a straight mature culm with one hand and holding a small tied bundle above the water with the other. On the dry bank beside him rests a plain low basket containing several clean cut reed sections; their hollow centers and woody outer walls are plainly visible. One especially slender uncut writing reed is marked only by his attentive gaze, never by a label.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, long horizontal wetland with alternating bands of water, reeds, pale sky, and dry bank. Keep every plume, entire person, fingers, bundle, basket, cut section, and complete shelter including roof edges fully inside generous vellum breathing room. The marsh flows continuously around all elements; no specimen grid or inset.\nLighting/mood: Cold clear dawn, practical intelligence, quiet abundance serving peace.\nConstraints: Exactly one person in period-appropriate plain clothing; botanically plausible articulated reeds and rushes; complete modest shelter; cut sections physically inside the basket; shallow water reflections restrained.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, battle, weapons, papyrus manuscript, written page, giant reed pen, modern saw, plastic, glass, photography, glossy digital rendering, split panels, collage, clipped plumes, edge-touching roof, floating bundles, duplicated hut, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Multiple articulated reed forms, hollow cut sections, one worker, bundle, basket and the complete woven reed shelter are coherent in one wetland scene and fully framed. No text, pseudo-writing, split panel, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:37",
+      "title": "THE WILLOW: EIGHT VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c037.png",
+      "sha256": "f216d223fa2180cd45ac50065fa72bc02aba394604aca68ca1906df0d1aba49d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-263aa9d3-9405-445a-a0b2-9aaf0358839a",
+      "outputArtifact": "built-in-imagegen://exec-263aa9d3-9405-445a-a0b2-9aaf0358839a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 37\nPrimary request: Illustrate Pliny's useful willows—tall branches for vine supports, bark for withes, supple osiers for wickerwork—and the alder line that strengthens an overflowing riverbank.\nScene/backdrop: A mild ancient Italian river bend on warm aged vellum in early spring. One complete modest pollarded white willow grows at the near bank, its entire root flare visible and a contained fan of graceful new osiers rising from the old head. Across the water, a restrained continuous line of young alders anchors the opposite bank; their roots enter the soil naturally.\nSubject: Exactly one complete basket maker sits on a low wooden stool beneath the willow, weaving a broad agricultural pannier from freshly peeled osiers. One tidy tied sheaf of unpeeled rods leans securely against the trunk. At the far end of the same near bank, one long straight willow pole supports a modest young vine.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, distant calm S-curve from willow roots through river to alders. The willow, person, stool, pannier and sheaf together occupy only the left-central 55 percent of the page. Preserve a generous uninterrupted band of pale vellum above the highest willow twig and clear blank vellum at the far left; no twig or object comes within 80 pixels of any image edge. Show the complete willow silhouette, all roots, entire person, stool, pannier, sheaf, vine support and alder line. Broad open water and pale sky provide negative space. One continuous riverside scene.\nLighting/mood: Soft lucid morning, quiet craft, flexible strength protecting cultivated land.\nConstraints: Exactly one person in period-appropriate plain clothing; plausible willow pollard, osiers, alder roots and basket weaving; every object supported; no loose tool or stray ring on the ground.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, modern chair, plastic, factory tools, dramatic storm, broken dam, photography, glossy digital rendering, split panels, collage, clipped willow crown, edge-touching branches, floating rods, repeated frames, extra people. Scale the tree down rather than cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The corrected modest pollard, full osier fan and roots, one basket maker, pannier, tied sheaf, vine pole, river and alder bank are fully framed with intentional open sky. No text, pseudo-writing, clipping, split panel, stray tool or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-579c4a48-d9b6-4cd3-ac7b-2aaf13a06911.png",
+          "sha256": "81b3b5aa04057a72270acc528ba70a9a8afbf679b4f7e80294d7e8aefc17d7e1",
+          "reason": "Rejected at original-resolution QA because the willow's upper osiers touched and crossed the top trim and an unrequested ring-like loose object appeared at the worker's feet. The original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:38",
+      "title": "THE JUICES OF TREES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c038.png",
+      "sha256": "66abcb61e8dd5b0c88814d10e9477886c55fc0b1b66c67d199566492babc697d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-78504924-b780-48dd-bcf3-b795825d051a",
+      "outputArtifact": "built-in-imagegen://exec-78504924-b780-48dd-bcf3-b795825d051a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 38\nPrimary request: Illustrate Pliny's comparison of tree juices to living blood, especially milky fig sap that curdles milk, gummy cherry exudate, and the layered bark, soft alburnum, heartwood and pith within a tree—without making a diagram or medical allegory.\nScene/backdrop: A quiet mixed Roman orchard work corner on warm aged vellum. One complete mature fig tree dominates, with its full roots, trunk and crown visible. A neighboring smaller cherry tree stands complete and shows one natural amber bead of gum at an old healed wound. Behind them, a pear and trained vine remain subtle secondary vegetation.\nSubject: Exactly one complete orchard keeper kneels beside the fig. From one tiny shallow bark incision, a single white bead of fig latex descends into a plain shallow bowl of milk on the ground, where a few soft curds have formed. Beside the bowl lies one clean fallen branch section whose natural concentric bark, pale alburnum, darker heartwood and small pith are visible in its cut end. His expression is attentive, not mystical.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, intimate orchard crescent around the kneeling keeper and bowl, with the branch section lying naturally in the foreground. Keep every fig leaf and outer crown tip, all roots, complete cherry, complete figure, bowl, curds, wound, gum bead and branch section fully inside generous vellum margins. Use open sky between crowns and bare soil as negative space. One continuous scene, never an anatomical chart.\nLighting/mood: Warm spring morning, close empirical attention, living structure revealed gently.\nConstraints: Exactly one person in period-appropriate plain clothing; shallow plausible incision; tiny amounts of sap only; bowl stable on soil; branch section resting on soil; botanically distinct fig and cherry foliage.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, blood, gore, human anatomy, severed limb, painted arrows, specimen grid, row of labeled bowls, giant droplets, fountain of sap, modern laboratory, glassware, photography, glossy digital rendering, split panels, collage, clipped crown, edge-touching branches, floating wood, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete fig and cherry, one orchard keeper, small sap observations, curdled milk bowl and naturally supported branch cross-section form a single grounded orchard scene. No text, pseudo-writing, diagram grid, split panel, clipping, gore or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:39",
+      "title": "THE FELLING OF TREES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c039.png",
+      "sha256": "ddf18edddbd854d163c00dd978e0882777fe326b63794ae9bfe51239e5331663",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-60386215-a09d-4edd-8a6f-3592dcc512df",
+      "outputArtifact": "built-in-imagegen://exec-60386215-a09d-4edd-8a6f-3592dcc512df.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 39\nPrimary request: Illustrate Pliny's rules for felling timber at the right season and moon phase, alongside the honey-colored decay-resistant inner wood of the female larch used for stable painters' panels.\nScene/backdrop: A high ancient Greek larch yard during the still hour before dawn near the winter solstice, rendered on warm aged vellum. One complete mature female larch stands at left-center, straight and botanically plausible, with its roots and entire conical crown visible against a dark clear sky in which no moon is visible. Frost is absent and the air is calm. A previously felled larch log lies fully visible on timber chocks at right-center, safely separated from the living tree.\nSubject: Exactly two complete workers. One experienced forester kneels at the standing trunk and inspects a shallow circular scoring cut made only as far as the sapwood so juices may drain before later felling; his bronze axe lies flat and idle behind him. One carpenter at the felled log examines a single smooth honey-colored rectangular panel freshly taken from wood close to the pith; the panel is blank, unpainted, unwarped and fully supported in both hands. The log end shows modest natural growth rings and a small pith without diagram markings.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and honey ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, quiet diagonal from complete standing larch through kneeling forester to horizontal log and panel. Scale all elements to the central 68 percent. Preserve broad uninterrupted vellum above the highest crown and clear margins on every side; keep every root, crown tip, person, limb, axe, chock, log end and panel fully visible. One continuous work yard, no timeline sequence or inset.\nLighting/mood: Cold predawn restraint, patience governed by season, durable craft.\nConstraints: Exactly two people in period-appropriate plain winter clothing; no cutting swing and no tree in motion; axe safely flat; log firmly chocked; panel entirely blank; no visible moon, frost, dew, fire, or south wind.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, star chart, constellation lines, painted panel, gore, battle, collapsing tree, airborne axe, modern saw, hardhat, photography, glossy digital rendering, split panels, collage, clipped crown, edge-touching trunk, floating panel, repeated frames, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete living larch, shallow scoring cut, idle axe, fully chocked log, blank honey-colored panel and exactly two workers are fully framed in one calm predawn yard. No text, pseudo-writing, moon chart, dangerous cutting action, split panel, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

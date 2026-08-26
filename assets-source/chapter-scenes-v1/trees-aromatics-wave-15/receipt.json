@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-15",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "16:16",
+      "title": "BRUSCUM: MOLLUSCUM; THE STAPHYLODENDRON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c016.png",
+      "sha256": "1a435ef6983d12ffbbf62d9b27c77296f022c17d61c94be3f5e8ef3bed3e20f6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-10e73be0-1800-458f-a36e-5f8d6dfcd1aa",
+      "outputArtifact": "built-in-imagegen://exec-10e73be0-1800-458f-a36e-5f8d6dfcd1aa.png",
+      "exactFinalPrompt": "Use case: precise-framing-edit\nAsset type: final landscape 3:2 one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 16\nPrimary request: Preserve the existing landscape scene, one worker, face, anatomy, gestures, workbench, separate worked burl, two veneer boards, blank tablet, tools, couch rail, complete bladdernut shrub and pods, grove, linework, mineral palette, vellum texture, lighting, and all lower spatial relationships.\nRequired edit: Correct only the central living maple. Reduce its height and crown spread substantially so the complete natural crown, every upper branch fork, all outer leaves, full trunk, two integrated burls and root flare are visibly contained inside the illustrated woodland field with a wide band of empty sky above and to both sides. No branch may disappear behind or be cut by the soft inner scene boundary or canvas edge. Preserve its trunk position and plausibly reconnect the reshaped crown.\nConstraints: Final output remains 1536x1024 landscape 3:2. Change only the maple crown/height and revealed sky. Keep exactly one person and every other object unchanged. No text, letters, numerals, pseudo-writing, label, signature, logo, watermark, new object, crop, border, split panel, or frame-within-frame.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete maple and its two distinct integrated burls, complete bladdernut shrub, one worker, separate harvested burl, contrasting veneers, blank tablet, tools and couch rail are fully framed. No text, pseudo-writing, modern tool, split panel, clipping or watermark was found. Accepted after two preserved crown-framing attempts.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6d99cdf3-a115-4a55-a307-bd62ff0345a7.png",
+          "sha256": "db0e47b1351525b9ca0a416e8452c28488320944abd4c68411906f72ec90767a",
+          "reason": "Rejected at original-resolution QA because the principal maple crown was clipped by the top and left canvas edges. Original built-in output remains preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-ffb09159-344c-499c-b214-b92bd5efcf52.png",
+          "sha256": "9bf1f712b9e73851abb50e53e09c038f8900cdc854c97b257de97b48005828a7",
+          "reason": "Rejected at original-resolution QA because the maple remained truncated by the soft upper boundary of the illustrated field despite an outer vellum border. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:17",
+      "title": "FOUR VARIETIES OF THE ELM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c017.png",
+      "sha256": "ec953176dd6e1e47fc7fff0d64aa57c2a9ad87c426a1785666a47ff69681e95f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-52c95687-e4c8-400d-b035-075ae69992cb",
+      "outputArtifact": "built-in-imagegen://exec-52c95687-e4c8-400d-b035-075ae69992cb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 17\nPrimary request: Illustrate Pliny's four Italian elm varieties and the elm's friendship with the vine in one coherent agricultural landscape.\nScene/backdrop: A wide ancient Italian valley rising toward a dry mountain shoulder, rendered on warm aged vellum. Exactly four complete elms stand in a loose receding arc across changing ground: a tall mountain elm on the upper slope, a shrubbier plain elm below, a lofty dry-site Atinian elm, and a wilder irregular elm at the field edge.\nSubject: A single grapevine climbs only the complete Atinian elm in the traditional marriage of vine and tree, its tendrils and modest fruit clusters clearly supported without choking the host. Exactly one small ancient arborist stands between the trees comparing leaf density and samara; he holds one plain cut elm slip for propagation, with no writing or tools beyond a simple pruning knife.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from a pulled-back elevated viewpoint. Exactly four trees, each fully visible from roots to every crown tip and spatially separated by sky or land. Keep the complete arborist, vine, all grape clusters, elm slip, valley and ridge comfortably inside broad vellum breathing room. One continuous valley, never a comparative panel or specimen grid.\nLighting/mood: Clear late-spring valley light, cultivated partnership, quiet taxonomic attention.\nConstraints: Exactly four complete elms and exactly one person; only one elm carries a vine; period-appropriate plain clothing and small bronze knife; plausible elm leaves, branching and samara; no signboards.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, modern trellis wire, fence posts, plastic, photography, glossy digital rendering, split panels, collage, clipped trees, edge-touching branches, more or fewer than four main elms, vine on every tree, giant grapes, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly four complete, spatially distinct elms occupy valley and slope; only one carries a grapevine. The one arborist, slip and knife are complete and physically coherent. No text, trellis wire, panel, clipping, extra tree, extra person or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:18",
+      "title": "THE NATURES OF THE VARIOUS TREES ACCORDING TO THEIR LOCALITIES: THE MOUNTAIN TREES, AND THE TREES OF THE PLAIN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c018.png",
+      "sha256": "e76384731386a4e0dff71db6040382f71be61ea967ed238c1dbc6152999c9fe5",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c3b137f2-b38d-4111-98a1-3b38789ad8de",
+      "outputArtifact": "built-in-imagegen://exec-c3b137f2-b38d-4111-98a1-3b38789ad8de.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 18\nPrimary request: Illustrate how different trees choose mountain, wet slope, valley, and open plain through one uninterrupted Apennine landscape.\nScene/backdrop: A vast ancient Italian panorama after rain, rendered on warm aged vellum. A high rocky ridge descends through a watered hillside into a broad cultivated plain; the terrain itself, not labels, organizes the species.\nSubject: On the mountain crest, a few complete cedar, larch, juniper, box and holm-oak silhouettes grow among stone. At a spring-fed middle slope, complete maple, ash, service, linden and cherry gather in cooler green soil. Lower down, complete olive, walnut, pomegranate and plum trees occupy the dry sunlit plain. Near the ridge, one small cotinus shrub stains a folded scrap of wool a muted murex purple beside a shallow natural rain pool, with no person present.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, very wide elevated panorama with a single continuous S-shaped watercourse joining ridge, slope and plain. All principal trees and shrubs must be complete, small enough to preserve open sky and land around their crowns and roots. Use distance, moisture and terrain to make habitats legible without panels or diagram conventions.\nLighting/mood: Clearing weather, cool mountain shadow yielding to warm plain, ecological order perceived through place.\nConstraints: No people or animals; botanically plausible habitat groupings and varied silhouettes; folded wool remains small, plain and physically beside the cotinus; watercourse natural and continuous.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, map lines, arrows, legend, specimen rows, modern agriculture, roads, power lines, photography, glossy digital rendering, split panels, collage, clipped trees, edge-touching branches, identical repeated trees, fantasy rainbow, oversaturated purple, buildings, people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The continuous ridge-to-wet-slope-to-plain panorama uses species silhouettes, terrain and moisture rather than panels or labels. The cotinus, muted cloth, rain pool and S-shaped watercourse are legible. No people, text, buildings, map marks, clipping, repeated identical tree or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:19",
+      "title": "DIVISION OF TREES INTO VARIOUS SPECIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+      "sha256": "0b0542a6ae93718269e076bf73ec1c7cbec99f259aefb1846116f2b8d241d33f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9ae0bd9e-4b20-43a6-933e-6ef6ba0dadfd",
+      "outputArtifact": "built-in-imagegen://exec-9ae0bd9e-4b20-43a6-933e-6ef6ba0dadfd.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 19\nPrimary request: Illustrate Pliny's human distinction between wild and 'civilized' trees as a gradual ecological threshold rather than a rigid opposition.\nScene/backdrop: A very wide Mediterranean woodland clearing on warm aged vellum. A modest, fully visible cluster of self-sown oak, ash, thorn and bramble on the left gradually opens toward a modest tended orchard of complete pear and fig trees on the right. The ground changes continuously from leaf litter to lightly worked soil without any fence, wall, panel, or dividing line.\nSubject: Exactly one relatively small gardener kneels near the center, guiding a young fruit-tree branch onto a simple wooden support and spreading mulch around its roots. A basket holds a few ordinary pears and figs. One complete wild sapling has seeded itself beside the orchard and is deliberately left untouched.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from a distinctly pulled-back elevated viewpoint. Confine the wild cluster, orchard, gardener and saplings to the central seventy percent of the canvas. Preserve an uninterrupted broad vellum border around every principal wild and orchard crown, root, figure and basket. One continuous clearing with the threshold in the middle, never a split comparison.\nLighting/mood: Morning shade opening into warmth, humility about the names humans give nature, quiet reciprocal care.\nConstraints: Exactly one person; all principal trees and saplings complete from roots to crown; period-appropriate clothing, wood support, natural fiber tie and woven basket; no cutting; fruit small and plausible.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, fence, wall, boundary line, before-and-after split, modern orchard stakes, plastic, machinery, photography, glossy digital rendering, split panels, collage, clipped or cropped trees, edge-touching branches, perfect plantation rows, giant fruit, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Wild woodland flows continuously into a tended orchard without fence, wall, line or panel. Exactly one gardener, supported sapling, untouched wild sapling, basket and all principal trees are fully framed. No text, modern object, rigid split, clipping, giant fruit or watermark was found. Accepted after one rejected close-cropped attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-35829eac-afcb-44a3-8e30-019229581f94.png",
+          "sha256": "dd0318c20ed363b6180596f711f4666a7e15df2a1a1db3d8c9da35329bb269ee",
+          "reason": "Rejected at original-resolution QA because principal wild and orchard trees were cut by the upper and side canvas edges. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:20",
+      "title": "TREES WHICH DO NOT LOSE THEIR FOLIAGE. THE RHODODENDRON. TREES WHICH DO NOT LOSE THE WHOLE OF THEIR FOLIAGE. PLACES IN WHICH THERE ARE NO TREES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c020.png",
+      "sha256": "65beb9351f35a3a834f3b76856acf1e0cc9aeca1b717ca28437e7a2dc863b3a4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-0525b69e-2fc8-44b9-8dbf-d70e34ed4e85",
+      "outputArtifact": "built-in-imagegen://exec-0525b69e-2fc8-44b9-8dbf-d70e34ed4e85.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 20\nPrimary request: Illustrate Pliny's paradoxical evergreen rhododendron: poisonous to grazing animals yet used by humans against serpent venom.\nScene/backdrop: A dry Greek upland in late spring on warm aged vellum. One complete many-branched rhododendron or oleander-like shrub stands central, its narrow evergreen leaves and restrained rose-colored blossoms botanically clear. Complete olive, laurel, myrtle and cypress silhouettes remain distant and secondary.\nSubject: Exactly two small adults. A standing rural healer gently blocks two goats and one sheep from approaching the shrub with an outstretched staff, while holding a few carefully gathered leaves in a small woven pouch. Nearby, one calm seated traveler has a clean linen wrap around his lower leg and drinks from an unmarked clay cup; a tiny mortar with prepared leaf paste rests beside him. There is no visible wound, snake, suffering, or drama.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, wide asymmetrical upland scene. Keep the complete rhododendron from roots to every branch tip, exactly two complete adults, all three complete animals, staff, cup, mortar and distant evergreen silhouettes fully inside broad vellum breathing room. Use open pale hillside and sky as negative space.\nLighting/mood: Clear medicinal light, caution and paradox, sober observation rather than fear.\nConstraints: Exactly two adults, exactly two goats and one sheep; animals remain several body lengths from the shrub and show no illness; period-appropriate plain clothing and objects; blossoms and leaves plausible; preparation small and unmarked.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, visible snake, bite, blood, wound, death, distressed animal, modern medicine, glass, photography, glossy digital rendering, split panels, collage, clipped shrub, edge-touching branches, giant flowers, fantasy glow, extra people or animals.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete central rhododendron, exactly two adults, exactly two goats and one sheep, staff, leaf pouch, wrapped leg, cup and mortar are all fully framed. Animals remain healthy and held away; no snake, wound, text, panel, clipping, extra figure or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:21",
+      "title": "TREES WHICH DO NOT LOSE THEIR FOLIAGE. THE RHODODENDRON. TREES WHICH DO NOT LOSE THE WHOLE OF THEIR FOLIAGE. PLACES IN WHICH THERE ARE NO TREES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c021.png",
+      "sha256": "90a6fa52bd01a4f3a5955fa70b30ca8f2ab7d2b4e98c26b4e547d7006a99b9a4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-573f663b-1e36-477d-a18c-e305118842c9",
+      "outputArtifact": "built-in-imagegen://exec-573f663b-1e36-477d-a18c-e305118842c9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 21\nPrimary request: Illustrate the singular evergreen oak once seen from Sybaris, retaining its leaves while the surrounding countryside has entered dormancy.\nScene/backdrop: The quiet territory of Thurii in late autumn on warm aged vellum, with low broken foundations suggesting ancient Sybaris far behind but no inscription or monument. Across a broad pale plain, most distant deciduous trees have shed their foliage.\nSubject: One complete solitary oak stands on a slight rise, fully green and naturally leafed, its crown broad but restrained. The tree shows no impossible blossom or new bud, only retained mature leaves. Exactly one small Greek traveler pauses far below with a plain staff, looking up at the unusual tree; a few fallen leaves from other species cross the ground around him.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, spacious low-horizon view. Place the complete evergreen oak off center with every root, outer branch and crown tip surrounded by open sky or ground. Keep the complete traveler, staff, distant bare trees and low ruins inside broad vellum breathing room. One continuous place, no seasonal split.\nLighting/mood: Silver late-autumn light, solitary persistence, historical memory without supernatural glow.\nConstraints: Exactly one person; one principal complete green oak; period-appropriate plain clothing and staff; distant ruins unmarked and low; other trees visibly but naturally bare.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, temple facade, dramatic ruin, fantasy glow, sacred halo, lightning, modern buildings, photography, glossy digital rendering, split panels, collage, clipped oak, edge-touching branches, flowers, midsummer new buds, crowd, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The solitary green oak is complete and naturally leafed against bare late-autumn trees; one traveler, staff, low ruins and scattered foreign leaves remain secondary and fully framed. No text, inscription, new buds, panel, clipping, fantasy glow or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:22",
+      "title": "THE NATURE OF THE LEAVES WHICH WITHER AND FALL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c022.png",
+      "sha256": "4b3575dd0396ded70247b0e37fd1eef8bd5ff35e19757686d8e25f4d5e5b5261",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-88de99f2-1eb4-492c-abea-d1e17b4dc5eb",
+      "outputArtifact": "built-in-imagegen://exec-88de99f2-1eb4-492c-abea-d1e17b4dc5eb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 22\nPrimary request: Illustrate Pliny's physical explanation of leaf fall: thin, broad, soft leaves wither and drop, while thick, fleshy, narrow leaves persist.\nScene/backdrop: A quiet ancient woodland margin during the first dry autumn wind on warm aged vellum. Exactly two complete neighboring trees stand in naturally shared ground: a broad-leaved deciduous plane tree releasing a few tawny leaves, and a dense evergreen holm-oak retaining its smaller thick narrow foliage.\nSubject: Exactly one small naturalist stands between them. In one open hand he compares a single broad, thin fallen leaf with a single narrow leathery evergreen leaf; with the other he steadies a plain woven collecting basket. Several deciduous leaves move through the air at varied angles and settle on the ground, while none fall from the holm-oak.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from a pulled-back eye-level view. Exactly two complete principal trees, each fully visible from root flare to every crown tip and separated by open sky. Keep the complete naturalist, basket, all airborne leaves and ground leaves inside broad vellum breathing room. One continuous gust, never a botanical plate or diagram.\nLighting/mood: Cool oblique autumn light, motion held inside calm observation.\nConstraints: Exactly one person and exactly two principal trees; period-appropriate plain clothing and basket; leaf comparison physically supported in one hand; falling leaves natural in scale and number; no astrology.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, zodiac symbols, Scorpio, diagram arrows, modern collecting equipment, photography, glossy digital rendering, split panels, collage, clipped trees, edge-touching branches, tornado of leaves, identical repeated leaves, leaf pile hiding roots, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete trees contrast falling broad leaves with retained narrow foliage; one naturalist physically supports both comparison leaves and a basket. Airborne and ground leaves remain natural in number. No text, astrology, panel, clipping, duplicate pattern or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:23",
+      "title": "LEAVES WHICH TURN ROUND EVERY YEAR",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c023.png",
+      "sha256": "1a9e278c9db6a4744fb9899c7770e1e2f63118815e56eb9f1eeba8b777b8c380",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f2a08e5d-201c-4ae3-a142-c779fdf8a9b5",
+      "outputArtifact": "built-in-imagegen://exec-f2a08e5d-201c-4ae3-a142-c779fdf8a9b5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVI chapter 23\nPrimary request: Illustrate Pliny's three poplars and the yearly transformation of their leaves, especially the white poplar's two-colored turning leaf and wool-like down.\nScene/backdrop: A broad quiet riverbank in early summer on warm aged vellum. Exactly three complete poplars stand spatially apart: a pale-barked white poplar near the water, a taller dark-trunked black poplar farther back, and a smaller Libyan poplar with diminutive dark leaves on dry ground.\nSubject: A light river breeze turns several attached leaves of the white poplar so both green faces and silvery-white undersides appear naturally on the same crown. Near that tree, a modest drift of fine white poplar down catches on low reeds like loose wool without becoming snow. Young rounded leaves and older more angular leaves coexist on plausible separate shoots; the black and Libyan poplars remain quieter comparisons.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from across the water at a slightly elevated angle. Exactly three complete principal trees, each fully visible from roots to every crown tip and separated by water, sky, or bank. Keep all turning leaves, down, reeds, reflections and complete river bends inside broad vellum breathing room. One continuous breezy river scene, never a specimen plate.\nLighting/mood: Silver-green morning, subtle annual change, air made visible through leaves and down.\nConstraints: No people or animals; exactly three principal poplars; plausible poplar trunks, crowns and leaves; down remains fine, sparse and physically caught among reeds; reflections restrained.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, diagram arrows, inset leaves, compass circles, modern landscape, buildings, photography, glossy digital rendering, split panels, collage, clipped trees, edge-touching branches, snowstorm, cotton balls, identical repeated leaves, more or fewer than three principal trees.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete and distinct poplars occupy one river bend; the white poplar shows green faces, silver undersides, and fine down caught among reeds. The black and smaller Libyan trees remain legible and fully framed. No people, buildings, text, panels, snow effect, clipping or watermark was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

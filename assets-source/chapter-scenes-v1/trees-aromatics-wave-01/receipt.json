@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-01",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "12:3",
+      "title": "HOW THE CITRON IS PLANTED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c003.png",
+      "sha256": "c438abf2f5983164a74a40468021e82738b24e037dee5e9bee0f0786439181d4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f23f7c36-2d12-463d-8c6e-7defa156a02c",
+      "outputArtifact": "built-in-imagegen://exec-f23f7c36-2d12-463d-8c6e-7defa156a02c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 3\nPrimary request: Create a singular natural-history scene explaining how the citron is planted and transported.\nScene/backdrop: A Median or Persian orchard edge on warm aged vellum. A mature citron tree grows beside several terracotta transport jars pierced with clearly visible ventilation holes; a careful ancient gardener packs young citron slips tightly into one perforated clay vessel for a long journey.\nSubject: The citron tree must simultaneously show fragrant white blossoms, tiny new green fruit, mature yellow citron fruit, and one naturally falling fruit, conveying fruiting in every season. Its leaves resemble arbute leaves and carry small transverse prickles. The perforated transport vessel and living roots are secondary but unmistakable.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient and timeless, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2. One coherent scene, not a diagram or panel layout. Full tree crown, pot, gardener, roots, and falling fruit all entirely inside the canvas with generous breathing room. Botanical observation first, narrative second.\nLighting/mood: Clear dry dawn, quiet scholarly wonder, restrained luminosity.\nConstraints: Period-appropriate simple ancient clothing and tools. Anatomically plausible hands and plants. No decorative border that resembles writing.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, photography, glossy digital rendering, split panels, collage, clipped primary subjects, duplicated fruit clusters.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Blossoms, green fruit, ripe citron, one falling fruit, perforated clay vessels, packed slips and gardener are all legible and fully framed. No text, pseudo-writing, modern object, panel, watermark, anatomical failure or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:4",
+      "title": "THE TREES OF INDIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c004.png",
+      "sha256": "71153b0e0005c73123562d5878c1642f1ba4a57c02ebe8feb03d1df0a03af2b0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5c09728e-242b-4686-905f-8f4f534e0c0d",
+      "outputArtifact": "built-in-imagegen://exec-5c09728e-242b-4686-905f-8f4f534e0c0d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 4\nPrimary request: Create a singular natural-history scene about the two ebony trees of India and their remarkable black, fragrant wood.\nScene/backdrop: A humid Indian grove rendered on warm aged vellum. Show one complete rare mature knot-free ebony tree and, beside it, one complete smaller shrub-like second kind. An ancient Indian woodworker kneels near a naturally cut ebony branch whose small cross-section reveals dense, deep black shining heartwood. A single polished billet rests near a tiny clay brazier, emitting only a thread of aromatic smoke and no flame.\nSubject: Both contrasting ebony plants are the botanical focus. Their full roots, trunks, every outer branch, and entire crowns must be visible. The black heartwood should look naturally dense and lustrous, not painted on the standing trunk. A modest bundle of ebony billets and one intact elephant tusk on a woven mat may remain secondary and nonviolent.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, wider pulled-back viewpoint. One continuous observational scene, never a diagram or collage. Scale every subject to leave at least ten percent clear vellum around the complete crowns and outside branches; no tree or figure may touch any canvas edge.\nLighting/mood: Filtered tropical morning, cool green shadow, quiet material wonder.\nConstraints: Period-appropriate ancient clothing and simple woodworking tools; botanically plausible foliage and roots; anatomically plausible hands.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, photography, glossy digital rendering, split panels, clipped trees, cropped crowns, rectangular wounds cut into the standing trunk, open flame, harmed animals.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete large ebony tree, smaller shrub form, worker, black heartwood billets, smokeless brazier and intact tusk are fully visible and materially coherent. No text, panel, modern object, watermark or clipping was found. Accepted after one rejected framing attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-07849698-1141-4c9c-bebd-c14b460e110c.png",
+          "sha256": "263beaada01744086597ddabe9d09aa7a93cd2aff185242f6e688d1b31f17b9e",
+          "reason": "Rejected at original-resolution QA because the primary mature ebony trunk and crown ran through the top canvas edge, contradicting the complete-tree framing contract. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:5",
+      "title": "THE INDIAN THORN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c005.png",
+      "sha256": "386e0d3b44c9bdbcbc7671693d78e0a2b1bc46befac7c652acbc7350e181ca67",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1a77b6bc-5758-4298-a367-825adeaee4f3",
+      "outputArtifact": "built-in-imagegen://exec-1a77b6bc-5758-4298-a367-825adeaee4f3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 5\nPrimary request: Illustrate the extraordinary Indian fig described after the Indian thorn: one parent tree whose descending branch tips root into the earth and form a circular living grove.\nScene/backdrop: The bank of the ancient Acesines River in India on warm aged vellum. A vast but fully visible banyan-like fig spreads in a graceful ring; numerous aerial branches descend, meet the soil, and become new rooted trunks, creating shaded arcades around the parent.\nSubject: The self-rooting architecture is unmistakable. Broad shield-shaped leaves partially conceal a few tiny bean-sized figs. Two small ancient shepherds rest naturally within the cool bower to establish scale without dominating the scene.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2 from a slightly elevated oblique viewpoint so the circular plantation and repeated rooted arches read clearly. One continuous scene. Keep the complete outer canopy, all principal descending roots, riverbank, and both shepherds fully inside the canvas with generous vellum margin.\nLighting/mood: High summer light outside and deep cool green shade within; tranquil awe.\nConstraints: Botanically plausible banyan architecture, distinct connected descending roots rather than a generic forest. Period-appropriate simple clothing. Natural human anatomy.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, photography, glossy digital rendering, split panels, collage, decorative botanical grid, clipped canopy, duplicated figures, fantasy architecture.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete circular banyan canopy, rooted aerial arches, shield-shaped leaves, riverbank and exactly two resting shepherds are fully framed. No text, pseudo-writing, panel, modern object, watermark, clipping or duplication was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:6",
+      "title": "THE PALA: THE FRUIT CALLED ARIENA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c006.png",
+      "sha256": "8d25961f71d3e31dd6099be9e0b772c60f3da9e4e5d6caf6a179886056be9f60",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-635a5fc7-059a-4d99-bf72-bbe8f61f5971",
+      "outputArtifact": "built-in-imagegen://exec-635a5fc7-059a-4d99-bf72-bbe8f61f5971.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 6\nPrimary request: Illustrate the Indian pala tree and its ariena fruit exactly through Pliny's extraordinary observations.\nScene/backdrop: A cultivated grove in the ancient land of the Sydraci, rendered on warm aged vellum. One complete immense pala tree dominates the clearing.\nSubject: Its individual leaves are dramatically large and shaped like broad bird wings. Several heavy ariena fruits emerge directly from the bark of the trunk rather than from twig tips. At the base, exactly four Indian sages sit in a calm circle sharing one single opened fruit whose abundant sweet flesh is sufficient for all four. The four figures are secondary evidence of scale and nourishment, not a banquet crowd.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, low-to-mid distant viewpoint. One coherent scene. Show the full tree from visible roots to complete crown and every one of the exactly four sages fully within the canvas. Leave clear vellum around all outer leaves. Emphasize trunk-borne fruit and wing-shaped leaves without using inset diagrams.\nLighting/mood: Gentle late-afternoon gold beneath a deep verdigris canopy; contemplative abundance.\nConstraints: Exactly four sages, natural anatomy and hands, period-appropriate plain drapery, botanically plausible trunk and root structure.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, photography, glossy digital rendering, split panels, collage, clipped tree or people, extra people, duplicated bodies, fruit growing from ordinary branch tips only.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly four sages share one opened fruit beneath a fully visible tree with large wing-shaped leaves and multiple trunk-borne fruits. No extra person, text, panel, modern object, watermark, clipping or duplicated anatomy was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:7",
+      "title": "THE PEPPER-TREE.—THE VARIOUS KINDS OF PEPPER—BREGMA—ZINGIBERI, OR ZIMPIBERI",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c007.png",
+      "sha256": "5a36231a4a96f0d56e1493714c2e80c234b4d42f957053e57fba5d603a3c0075",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5b371b31-f04c-430a-9242-ef40f2fe0997",
+      "outputArtifact": "built-in-imagegen://exec-5b371b31-f04c-430a-9242-ef40f2fe0997.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 7\nPrimary request: Create a chapter-specific natural-history scene showing how long, white, and black pepper arise from different stages of the pepper-bearing plant, with ginger clearly separate.\nScene/backdrop: A sun-facing ancient Indian hillside garden on warm aged vellum. One complete pepper-bearing tree, juniper-like in habit as Pliny describes it, rises behind a low woven drying mat. Nearby, a small separate ginger plant has one freshly lifted pale branching root.\nSubject: On the living pepper tree are small bean-like pods at several stages. A gardener picks closed pods; on the mat, a few whole dried closed pods read as long pepper, one naturally opened ripe pod reveals pale white pepper seeds, and a modest group of fully sun-wrinkled dark peppercorns completes the progression. A tiny balanced bronze scale at the edge suggests pepper weighed like precious metal but carries no marks.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, one continuous harvest scene viewed obliquely. The full pepper tree, gardener, drying mat, ginger plant and root, and scale are completely inside the canvas with calm negative space. Make the three pepper states legible through placement and color, never through panels or labels.\nLighting/mood: Hot clear sun softened by vellum; aromatic, empirical, quietly precious.\nConstraints: One gardener only; natural anatomy; period-appropriate clothing and bronze balance; botanically coherent pods and seeds; ginger remains visibly separate from the pepper tree.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, plastic sacks, photography, glossy digital rendering, split panels, collage, clipped plants or people, oversized floating peppercorns, generic spice-market clutter.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete juniper-like pepper plant, one gardener, closed long-pepper pods, opened pale seeds, dark wrinkled peppercorns, separate ginger root and unmarked balance are fully framed and distinct. No text, panel, modern object, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:8",
+      "title": "MACIR",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c008.png",
+      "sha256": "a898d8723b19602308496b65555505fb5d6aab068d041fc25516e1d20720abe0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-00a91aff-afac-49d8-a290-988e8f5bc3cf",
+      "outputArtifact": "built-in-imagegen://exec-00a91aff-afac-49d8-a290-988e8f5bc3cf.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 8\nPrimary request: Create a singular natural-history scene centered on macir: the red medicinal bark growing upon a great root and its decoction with honey.\nScene/backdrop: A dry Indian-Arabian garden margin rendered on warm aged vellum. From a deliberately wide pulled-back viewpoint, show one complete modest unknown tree from every exposed root to the very top of its crown. A shallow excavation reveals one unusually large living root. An ancient healer peels a narrow strip of naturally red bark from that root.\nSubject: The exposed great root and crimson-red bark are unmistakable. Beside it, a small clay brazier supports an earthen vessel where the bark decoction steeps; one honey jar and one wooden spoon sit nearby. At the distant edge only, a restrained cluster of sugar-bearing reeds with a few brittle white gum-like pieces evokes Pliny's medicinal Indian sugar without competing with the macir.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2. One continuous scene. Scale the tree and healer down enough to leave a clearly visible band of empty vellum around the complete crown and all outer branches. Keep the healer, excavation, root, vessel, honey jar, spoon, reeds and every principal object fully inside the frame.\nLighting/mood: Early morning earth-light, medicinal restraint, curious uncertainty about the unidentified tree.\nConstraints: One healer only; plausible root anatomy; period-appropriate clothing, clay vessels, and tools; the red material is visibly bark attached to the root, not blood.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, glass laboratory ware, photography, glossy digital rendering, split panels, collage, cropped canopy, clipped subjects, wounds, gore, snakes, distressed animals, fantasy glow.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete unknown tree, excavated great root, attached red bark, one healer, decoction vessel, honey jar, spoon, reeds and white brittle material are comfortably inset. No text, panel, modern object, gore, watermark or clipping was found. Accepted after one rejected framing attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c5fe68cc-b99b-4dce-a74d-8964108bea3a.png",
+          "sha256": "d74dabe59b93186e43ad36163042cd765f7ee74d5f5a92e388257c5c2316026e",
+          "reason": "Rejected at original-resolution QA because the tree crown was cut by the top canvas edge despite the complete-subject contract. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:9",
+      "title": "TREES OF BACTRIANA, BDELLIUM, OR BROCHON, OTHERWISE MALACHA, OR MALDACON, SCORDASTUM. ADULTERATIONS USED IN ALL SPICES AND AROMATICS; THE VARIOUS TESTS OF THEM AND THEIR RESPECTIVE VALUES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c009.png",
+      "sha256": "11864abc5d76875d59fdc1b9d25a1352a5d66d9e8e4373a5e5a499d03512c23e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-285a72f8-6657-495f-9714-0c50849c6d86",
+      "outputArtifact": "built-in-imagegen://exec-285a72f8-6657-495f-9714-0c50849c6d86.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 9\nPrimary request: Create a singular empirical scene about Bactrian bdellium, its wax-colored aromatic gum, and the ancient tests used to expose adulteration.\nScene/backdrop: A dry Bactrian garden descending toward the tidal Persian Sea, rendered on warm aged vellum. From a distinctly wide pulled-back viewpoint, show one complete dark-barked bdellium tree, about the size of an olive, with robur-like leaves and small wild-fig-like gum fruits. In the far background, salt-water trees grip the shore with naked polyp-like roots as the tide reaches them.\nSubject: Beneath the bdellium tree, one small ancient examiner handles translucent wax-colored resin pieces on a plain woven cloth. He rubs one piece between his fingers beside a tiny smokeless brazier, while a simple bronze balance checks another. A few pure pieces carry dry white nail-like flecks; one dull adulterated cake remains separate.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, one continuous scene. Place the complete bdellium tree inside the left third but scale it down so a broad band of empty vellum surrounds every outer leaf; show its whole crown, trunk, and roots. Keep the entire examiner, cloth, balance, brazier, resin, shore, and all tidal trees comfortably inset from every edge.\nLighting/mood: Dry luminous air, cool tidal distance, careful skepticism and aromatic mystery.\nConstraints: One examiner only; natural anatomy; period-appropriate simple clothing and tools; resin pieces remain small and materially plausible.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, glassware, photography, glossy digital rendering, split panels, collage, clipped canopy, edge-touching branches, giant gemstones, fantasy glow, octopus animals in place of roots.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete bdellium tree and roots, one examiner, resin groups, brazier, balance, mat and salt-root tidal trees are fully framed with strong negative space. No text, panel, modern object, watermark, clipping or fantasy substitution was found. Accepted after one rejected framing attempt.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5de91ef5-a0b3-41f8-a97c-382c7e4c2032.png",
+          "sha256": "2ad70fdace3cd3f275c6b9955eddd52e5dd3fe45480bbf59679ad72c57cdb8b6",
+          "reason": "Rejected at original-resolution QA because the bdellium crown was substantially cut by the top and left canvas edges, contradicting the complete-tree contract. Original built-in output remains preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "12:10",
+      "title": "TREES OF THE ISLANDS OF THE PERSIAN SEA. THE COTTON TREE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c010.png",
+      "sha256": "ae045831e8c18c5fd0a8bbb9b23b691c7d59fab76cceceb424f4e4bbee0cae3e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-44942cc4-6de0-43fa-9200-11eb0358a990",
+      "outputArtifact": "built-in-imagegen://exec-44942cc4-6de0-43fa-9200-11eb0358a990.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XII chapter 10\nPrimary request: Illustrate the remarkable trees of Tylos in the Persian Sea, especially the cotton tree whose mature gourd bursts open into a ball of down.\nScene/backdrop: A single continuous view across the ancient island of Tylos on warm aged vellum. Below, the eastern tidal shore carries a small forest washed by high water; above it, a dry elevated plateau supports one complete cotton-bearing tree.\nSubject: The plateau tree has vine-like but smaller leaves and several quince-sized gourds. One mature gourd has just split naturally on the tree, revealing a soft white ball of cotton down. One ancient islander gathers only that opened down into a woven basket. In the lower tidal forest, fig-sized trees bear sweet blossoms and rough prickly lupine-shaped fruit that animals leave untouched.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre mineral pigments; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain.\nComposition/framing: Landscape 3:2, gently elevated panoramic view. The shoreline forest and plateau are joined by natural terrain, never divided into panels. Place the complete cotton tree as the clear foreground focus, showing its entire crown, trunk, roots, gourds, islander, and basket fully inside the frame with ample negative space.\nLighting/mood: Clear Persian Gulf morning, salt-blue distance, luminous cotton against restrained earth pigments; wonder without fantasy.\nConstraints: One islander only; period-appropriate simple clothing and basket; plausible plant anatomy; opened cotton remains attached to its split gourd.\nAvoid: any text, letters, numerals, labels, pseudo-writing, signatures, logos, watermark, modern objects, industrial machinery, photography, glossy digital rendering, split panels, collage, clipped tree, edge-touching branches, floating cotton clouds, sheep, harmed animals.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete cotton-bearing tree, attached split gourd and down, one islander, basket, continuous plateau and tidal flowering forest are fully framed. Nearby animals do not touch the rough shore fruit. No text, panel, modern object, watermark or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

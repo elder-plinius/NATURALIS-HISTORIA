@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "campaign": "semantic-rehome-remediation-b",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "2:41",
+    "23:6",
+    "8:47",
+    "24:2"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact accepted prompts and artifact IDs were extracted from the current built-in ImageGen session. Accepted and rejected files are direct byte-for-byte copies of their built-in outputs; portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 4,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 9,
+    "independentInitialSceneCalls": 4,
+    "builtInEditCalls": 5,
+    "acceptedBuiltInEdits": 4,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:41",
+      "title": "OF THE REGULAR INFLUENCE OF THE DIFFERENT SEASONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/b02-c041.png",
+      "sha256": "e76f74d80ddcde01fc304cd5c847e1c1da217938efe396f4f345c899cecf6aad",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-cd835ec2-b5b0-498d-8036-df42cfbea316",
+      "outputArtifact": "built-in-imagegen://exec-cd835ec2-b5b0-498d-8036-df42cfbea316.png",
+      "exactFinalPrompt": "Edit this Book II.41 Plinian seasonal-observation image with one precise correction while preserving the observer, gnomon, three birds, two sheep, central tree, grapevine, star, continuous autumn-to-winter sky, palette, texture, and all other successful details.\n\nThe left grain field is still cut by the left image edge. Completely remove every stalk that touches or enters from the left or bottom boundaries. Recompose the grain as one smaller complete oval patch in the left-middle interior, fully surrounded on all sides by a conspicuous continuous band of bare ochre earth at least 12 percent of the image width from the left edge and 12 percent of image height above the bottom edge. Likewise keep the grapevine and its support fully internal. The entire lower edge from corner to corner must be only quiet empty earth, with no crop, plant, person, animal, tool, wall, or discrete object touching it. The left edge must be only open sky and distant unmarked continuous landscape. Do not add figures, animals, objects, symbols, or panels.\n\nRetain one coherent continuous landscape; landscape 3:2, exactly 1536x1024, opaque sRGB PNG; warm aged vellum integrated into paint, iron-gall line, cross-hatching/stipple, restrained mineral pigments, ancient, timeless, rough and polished, museum-grade. No visible page, margin, mat, border, frame, collage, diagram, zodiac, text, letters, numerals, labels, pseudo-writing, signature, watermark, logo, modern object, or clipped focal subject.",
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-56e208bb-aac5-42eb-9b19-99e06b4e478c",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-37107fe8-9f64-4b89-a2e9-2f12419d48cb",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-cd835ec2-b5b0-498d-8036-df42cfbea316",
+          "status": "accepted"
+        }
+      ],
+      "visualQaNotes": "Native 1536x1024 review found one continuous autumn-to-winter observation landscape with one complete observer, gnomon, compact fully internal grain patch, complete grapevine, tree, two sheep, three birds and one star. Broad open ground and sky now surround every focal subject; no plant, figure, animal, tool, text, panel or discrete object touches the frame.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-56e208bb-aac5-42eb-9b19-99e06b4e478c",
+          "outputArtifact": "built-in-imagegen://exec-56e208bb-aac5-42eb-9b19-99e06b4e478c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/evidence/history/b02-c041-reject-01-edge-crop.png",
+          "sha256": "08c06a0d36ffd53e91c4fa212261a95d2caee5e79ee5bcd677677bf2ecfd1efa",
+          "reason": "Rejected at native resolution because the grain field and vine were clipped by the left and lower frame edges."
+        },
+        {
+          "generationArtifactId": "exec-37107fe8-9f64-4b89-a2e9-2f12419d48cb",
+          "outputArtifact": "built-in-imagegen://exec-37107fe8-9f64-4b89-a2e9-2f12419d48cb.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/evidence/history/b02-c041-reject-02-edge-crop.png",
+          "sha256": "92692929be93f89da3f23d3bad7c92696df4ff2967923deec20c76b861a5efc1",
+          "reason": "Rejected at native resolution because the revised grain patch still touched the left frame edge."
+        }
+      ]
+    },
+    {
+      "chapterKey": "23:6",
+      "title": "REMEDIES DERIVED PROM THE BLOSSOMS, LEAVES, FRUIT, BRANCHES, BARK, JUICES, WOOD, ROOTS, AND ASHES OF VARIOUS KINDS OF TREES. SIX OBSERVATIONS UPON APPLES. TWENTY-TWO OBSERVATIONS UPON QUINCES. ONE OBSERVATION UPON STRUTHEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/b23-c006.png",
+      "sha256": "5dce2eb00f6955fe43ff861572abecb3c5eef841dc471544b100a781698196e6",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5643d00f-ee49-4a2b-8879-ffb50f52cf96",
+      "outputArtifact": "built-in-imagegen://exec-5643d00f-ee49-4a2b-8879-ffb50f52cf96.png",
+      "exactFinalPrompt": "Edit this beautiful Book XXIII.6 apple-and-quince materia-medica illustration while preserving its exact subject, elderly apothecary, two botanically distinct fruit trees, bowls, cooking pot, spoon, cooked fruit dish, warm orchard atmosphere, mineral pigments, and ancient codex texture.\n\nCorrect only the framing and breathing room. Pull the entire composition back by roughly 18 percent. Make both complete trees smaller so every root, trunk, outer branch, leaf, blossom, apple, and quince is fully visible with open sky and ground around the crowns and side branches; no branch or fruit may touch the top, left, or right edges. Move and reduce the worktable so all four legs and the entire tabletop are visible and surrounded by broad bare earth, with no furniture or vessel touching the bottom edge. Keep the complete apothecary, both hands, both whole trees, table, two raw-fruit bowls, pot and lid, tiny brazier, spoon, blossom sprig, and cooked-fruit dish at least 9 percent inward from every edge. Preserve accurate Malus apples and Cydonia quinces.\n\nMaintain one unified Roman orchard scene, landscape 3:2, exactly 1536x1024, opaque sRGB PNG. Warm aged vellum integrated into paint, iron-gall botanical contours, cross-hatching and stipple, restrained quince gold/apple madder/verdigris/umber/faded-lapis mineral pigments, ancient, intimate, rough and polished at once, museum-grade. No visible page outside, margin, mat, border, frame, panels, collage, diagram, text, letters, numerals, labels, pseudo-writing, signature, watermark, logo, modern object, duplicated fruit display, or clipped focal object.",
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ab9a3da8-b812-476f-8a1e-bfe143716d11",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-5643d00f-ee49-4a2b-8879-ffb50f52cf96",
+          "status": "accepted"
+        }
+      ],
+      "visualQaNotes": "Native 1536x1024 review found one complete apple tree and one complete quince tree with distinct fruit, one complete elderly apothecary, a fully internal worktable, raw-fruit bowls, covered cooking pot, tiny brazier, spoon and cooked fruit dish. Every branch, root, vessel and furniture leg has breathing room; no text, panel, duplication or clipped focal subject appears.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-ab9a3da8-b812-476f-8a1e-bfe143716d11",
+          "outputArtifact": "built-in-imagegen://exec-ab9a3da8-b812-476f-8a1e-bfe143716d11.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/evidence/history/b23-c006-reject-01-edge-crop.png",
+          "sha256": "e04c80ed503f7e1fd63973e53218bb76d30c7a83d0d25d8e0ab02890a1ecd277",
+          "reason": "Rejected at native resolution because tree crowns, branches and the worktable were too close to or clipped by the top, right and lower frame edges."
+        }
+      ]
+    },
+    {
+      "chapterKey": "8:47",
+      "title": "SHEEP, AND THEIR PROPAGATION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/b08-c047.png",
+      "sha256": "bc8623a7550c0c772fbb34a66eb870af9e5e705ddf20e161c4326d364b8edc6a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b65686d9-8894-46ed-972c-3689faf23f2c",
+      "outputArtifact": "built-in-imagegen://exec-b65686d9-8894-46ed-972c-3689faf23f2c.png",
+      "exactFinalPrompt": "Edit this beautiful Book VIII.47 Roman sheep illustration while preserving exactly one horned ram, one ewe, two lambs, one seated shepherd, one fleece, one pair of closed shears, the wattle fold, dry-stone wall, distant fields, accurate anatomy, gentle light, mineral pigments, and ancient codex texture.\n\nMake one framing correction: pull the entire composition back by roughly 15 percent and create a broad ring of open pasture around every focal subject. Keep all four animals completely visible from ears and horns to hooves with at least 9 percent open ground from the left, bottom, and side edges. Move the seated shepherd, stool, complete fleece, both feet, and closed shears farther inward so every part is fully visible with generous bare earth between them and the bottom/right edges. Keep the complete wattle fold and dry-stone wall internal rather than letting either run out of frame. Do not add or remove any animal or person.\n\nMaintain one coherent pastoral landscape, landscape 3:2, exactly 1536x1024, opaque sRGB PNG. Warm aged vellum integrated into paint, iron-gall animal contours, wool stipple and cross-hatching, restrained chalk/umber/lampblack/verdigris/faded-lapis/madder/ochre mineral pigments, ancient, humane, timeless, rough and polished at once, museum-grade. No visible page outside, margin, mat, border, frame, panels, chart, collage, text, letters, numerals, labels, pseudo-writing, signature, watermark, logo, modern object, mating, sacrifice, gore, distress, duplicated animal, or clipped focal object.",
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8e37030a-81bd-4c8f-911d-7538f9e8e3f3",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-b65686d9-8894-46ed-972c-3689faf23f2c",
+          "status": "accepted"
+        }
+      ],
+      "visualQaNotes": "Native 1536x1024 review found exactly one complete horned ram, one complete ewe, two complete lambs and one complete seated shepherd with a single fleece and closed shears. The wattle fold and dry-stone wall are fully internal and all subjects have broad open pasture around them; no animal, person, tool, text or structure is clipped.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-8e37030a-81bd-4c8f-911d-7538f9e8e3f3",
+          "outputArtifact": "built-in-imagegen://exec-8e37030a-81bd-4c8f-911d-7538f9e8e3f3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/evidence/history/b08-c047-reject-01-tight-framing.png",
+          "sha256": "01fcb7fac64efb42255409cf5523bde9ed2fb3670077051f45d09b619c3f1e3e",
+          "reason": "Rejected at native resolution because the ram, shepherd, fleece, shears and enclosing wall were too close to or continued through frame edges."
+        }
+      ]
+    },
+    {
+      "chapterKey": "24:2",
+      "title": "THE LOTUS OF ITALY: SIX REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/b24-c002.png",
+      "sha256": "c027a3a68f1a8d06b8109f16dc9839648589a1ae5889240c4fa2c455455499cc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-63f058b6-bdb1-4c8b-b5cc-4d572bd23357",
+      "outputArtifact": "built-in-imagegen://exec-63f058b6-bdb1-4c8b-b5cc-4d572bd23357.png",
+      "exactFinalPrompt": "Edit this Book XXIV.2 Italian lotus-tree remedy illustration while preserving its dry Mediterranean hillside, one complete ancient naturalist, bench, berry bowl, wood, shavings, bronze pot of wine, charcoal brazier, mineral pigments, and ancient codex texture.\n\nCorrect both botany and framing. The tree must unmistakably be Mediterranean nettle tree / Italian lotus, Celtis australis: replace every lobed or mulberry-like leaf with simple individual ovate-to-lanceolate leaves, each with a pointed tip, finely serrated edge, pinnate veins and slightly asymmetric base. No leaf may be lobed, palmate, fig-like, or compound. Retain scattered small round dark purple-brown Celtis drupes on slender stems. Make the detached twig on the bench match this exact simple serrated leaf morphology. Pull the composition back by roughly 15 percent so the complete tree from roots to crown, every outer branch, naturalist, both hands and feet, entire bench and legs, twig, berry bowl, wood, shavings, pot, brazier, coals and flame are at least 9 percent inward from all edges with broad open sky and bare earth around them. No object may touch any edge.\n\nMaintain one continuous terrestrial botanical-apothecary scene, explicitly no aquatic lotus, water lily, pond, or Egyptian lotus. Landscape 3:2, exactly 1536x1024, opaque sRGB PNG. Warm aged vellum integrated into paint, iron-gall botanical contours, precise leaf veins, stipple/cross-hatching, restrained olive verdigris/berry plum/ochre/umber/lampblack/faded-lapis mineral pigments, ancient, timeless, herbarium-like, rough and polished at once, museum-grade. No visible page outside, margin, mat, border, frame, panels, chart, collage, diagram, text, letters, numerals, labels, pseudo-writing, signature, watermark, logo, modern object, duplicate tool, or clipped focal object.",
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-80a59824-27cc-46c6-badf-46e39b7fc40c",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-63f058b6-bdb1-4c8b-b5cc-4d572bd23357",
+          "status": "accepted"
+        }
+      ],
+      "visualQaNotes": "Native 1536x1024 review found a terrestrial Mediterranean Celtis-like tree with simple serrated leaves and dark berries, one complete naturalist, bench, matching twig, berry bowl, wood, shavings, bronze pot and contained brazier. The entire tree, figure and preparation scene have broad open sky and ground around them; no aquatic lotus, text, panel or clipped focal subject appears.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-80a59824-27cc-46c6-badf-46e39b7fc40c",
+          "outputArtifact": "built-in-imagegen://exec-80a59824-27cc-46c6-badf-46e39b7fc40c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-b/evidence/history/b24-c002-reject-01-botany-framing.png",
+          "sha256": "ba581658d2f38891f612bd6362b015a604aa476168bb9e5cee989809c7021c59",
+          "reason": "Rejected at native resolution because the foliage read as lobed or mulberry-like rather than Celtis, and the tree, bench and brazier were too close to frame edges."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-47",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "2:70",
+      "title": "OF THE OBLIQUITY OF THE ZONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c070.png",
+      "sha256": "0bc9a779a48c0bab815b1e9399ad5715a004b2f64f1a1b38d47c01e729667884",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-eba6a998-e95f-4f13-b463-24ddb450afd9",
+      "outputArtifact": "built-in-imagegen://exec-eba6a998-e95f-4f13-b463-24ddb450afd9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 70, “Of the Obliquity of the Zones”\nPrimary request: Render Pliny’s accumulated ancient observation that star heights and visibility change as travelers move across the curved earth, as transmitted geographic reasoning rather than modern proof or a labeled diagram. At the end of a night journey on a high white-limestone coastal road, exactly one complete seated elderly navigator rests on one complete low milestone and compares the sky from memory. A single bright southern star barely clears the distant pale sea horizon at far left. Exactly SEVEN prominent countable northern stars—four in a loose quadrilateral bowl and three trailing as a handle, with no connecting lines—remain higher at upper right. One complete plain sighting staff lies fully supported beside his feet. The sky is PALE pearl and faded lapis in first dawn, never a dark-night field, and the sun is not visible.\nScene/backdrop: one broad continuous high-key limestone slope occupying roughly two-thirds of the image, one complete low milestone, one complete seated navigator, one complete supported staff, contained distant islands, a subtly curved low sea horizon and pale predawn air; no platform, building, column, ship, globe, map, scroll, tablet, sundial, armillary sphere, telescope, second person or other prominent star\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; luminous pale limestone and ochre dawn, sparse faded-lapis sea and upper air, umber figure, muted verdigris cloak edge and eight total small ochre star accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship; high-key traveling-geographer dialect with broad pale ground and very restrained sky\nComposition/framing: 3:2 landscape, steep high-oblique view across the luminous sloping road, with the horizon in the lower half and only the upper third carrying stars. Place the complete seated navigator and milestone well inside the lower-right quadrant; put the single low southern star far left and the seven countable northern stars widely spaced upper right. Keep every head, hand, foot, garment hem, milestone face, staff end, island peak, horizon and star comfortably inside generous uninterrupted breathing room.\nHistorical and epistemic framing: illustrate Pliny’s period argument from changing star visibility; do not claim the depicted positions are exact modern measurement and do not endorse a geocentric mechanism.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, pale limestone, sea and dawn washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: dark-sky-dominant image, purple night, celestial flame, cloud spectacle, lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra bright stars, constellation lines, zodiac figures, coordinate grid, arrows, orbital rings, cutaway earth, globe diagram, split panel, collage, repeated crop, modern instrument, clipped person, clipped milestone, clipped staff, clipped star, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete seated navigator, low milestone/seat and supported sighting staff remain fully contained on a high-key limestone road. One isolated southern star sits just above the sea horizon while exactly seven prominent countable northern stars—four forming a loose bowl and three a handle—remain higher in the pale predawn sky. The scene presents changing stellar visibility as Pliny’s transmitted geographic reasoning without a globe, coordinate grid or claim of exact modern measurement. No text, pseudo-writing, label, diagram, panel, collage, visible page, internal border, modern instrument, watermark or clipped primary subject was found. Accepted third built-in generation after a star-count rejection and a corpus-diversity rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-5f05bc36-2c54-4889-be34-6e02fbf7fd62.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/evidence/history/b02-c070-rejected-01-exec-5f05bc36-2c54-4889-be34-6e02fbf7fd62.png",
+          "sha256": "97b47cba578cff453f2bd0fb5f865725b1eb52226156b3df924b12ffdd011b6d",
+          "reason": "Rejected at original-resolution review because the prominent northern cluster contained only six countable stars rather than the seven required by the chapter-specific prompt."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-40482651-4fb3-466b-b862-844146318ba3.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/evidence/history/b02-c070-rejected-02-exec-40482651-4fb3-466b-b862-844146318ba3.png",
+          "sha256": "358b513b62898f717e865b41e14bde8b21e535d4b094900a344ea9bb90230eb8",
+          "reason": "Passed native subject, count and framing review but failed the global diversity gate with MAD 19.40 against trees-aromatics-wave-43/b02-c035.png, below the mandatory minimum 20."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:72",
+      "title": "REMARKS ON DIALS, AS CONNECTED WITH THIS SUBJECT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c072.png",
+      "sha256": "7f6ece6f2588d6d48ee7d67723353c2b706ee7bd9018c90afa21389d2ef312cf",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-36fd3b6a-a880-42dd-bb0a-9256743cafeb",
+      "outputArtifact": "built-in-imagegen://exec-36fd3b6a-a880-42dd-bb0a-9256743cafeb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 72, “Remarks on Dials, as Connected with This Subject”\nPrimary request: Show Pliny’s observation that one sundial plate cannot serve every latitude because the noon shadow changes from Egypt through Rome to northern Italy, as transmitted ancient measurement rather than a modern quantitative lesson. In a bright open Roman dial-maker’s yard, exactly one complete seated craftswoman compares exactly TWO complete unmarked portable stone sundial bowls on one complete low bench. The left bowl is shallow with a short central bronze gnomon and compact shadow; the right bowl is more steeply inclined with a longer central gnomon and visibly different shadow geometry. She adjusts only the right bowl with one plain bronze divider held above its rim, while a complete coil of cord and two small stone wedges rest securely on the bench. Both dials are practical objects, never charts.\nScene/backdrop: one finite oval gravel work area, one complete low wooden bench with all four legs visible, one complete stool, two complete sundial bowls, a compact contained shade tree well behind them and low distant roofs; no arcade, wall, column, crowd, extra person, clock, scroll, tablet, ruler, numbered scale or celestial globe\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; translucent sunlit ochre and umber stone, muted verdigris bronze, quiet madder garment edge and sparse faded-lapis shadow; ancient, timeless, beautiful, rough in material and polished in draftsmanship; tactile instrument-workshop dialect with crisp noon shadows and ample pale yard\nComposition/framing: 3:2 landscape, high three-quarter view. Set the complete diagonal bench across the lower middle, the complete seated craftswoman at right, and the two clearly separated sundial bowls at left and centre. Keep every head, hand, finger, foot, garment hem, divider point, bowl rim, gnomon tip, shadow, cord end, wedge, bench and stool leg, tree crown and trunk, reflection and ground contact comfortably inside generous uninterrupted breathing room.\nHistorical and epistemic framing: honor ancient comparative dial-making while treating Pliny’s stated distances and shadow ratios as historical testimony, not exact modern calibration data.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and sunlit yard washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, more or fewer than two sundial bowls, written degrees, mathematical notation, diagram, chart, split panel, collage, repeated crop, modern clock, modern measuring device, clipped figure, clipped bench, clipped dial, edge-entering architecture, photography, photorealism, glossy CGI.\nFRAMING REPAIR: Eliminate the shade tree and distant roofs entirely. Use a broad treeless finite oval gravel work area surrounded only by a low continuous atmospheric field wash and distant low hills, so no discrete plant, building or architecture enters any edge. Pull the bench, stool, seated craftswoman, exactly two sundial bowls, cord and wedges slightly farther back; expose clear ground beyond every bench and stool foot. Preserve the two different gnomon-shadow geometries and all other constraints.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete seated dial-maker compares exactly two complete unmarked portable stone sundial bowls with visibly different gnomon and shadow geometries on one fully supported bench; the divider, cord, two wedges and separate seat remain contained in a treeless finite work yard. The scene communicates ancient latitude-specific calibration without a numbered scale or modern quantitative claim. No lettering, pseudo-writing, degree mark, chart, panel, collage, visible page, internal border, modern clock, watermark or clipped primary subject was found. Accepted second built-in generation after a clipped-tree rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-85d0382d-c228-4f69-ba45-482badaf487b.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/evidence/history/b02-c072-rejected-01-exec-85d0382d-c228-4f69-ba45-482badaf487b.png",
+          "sha256": "21519f05c7bd3abf59ad518fd799f72e057917b0d1bd5aaeb187ae11461e7f40",
+          "reason": "Rejected at original-resolution review because the required shade-tree canopy exited through the top edge, violating the complete-subject framing gate."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:73",
+      "title": "WHEN AND WHERE THERE ARE NO SHADOWS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c073.png",
+      "sha256": "61fc146b41e51dc809cedc3ab5bf1b9b258dca1b0cb14ee5dd4a0c46b6c0367d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f1c307c9-a353-4dbd-9496-46a07caef28f",
+      "outputArtifact": "built-in-imagegen://exec-f1c307c9-a353-4dbd-9496-46a07caef28f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 73, “When and Where There Are No Shadows”\nPrimary request: Depict the ancient solstitial observation at Syene: at high noon a specially sunk well is illuminated down its full interior and upright objects cast almost no lateral shadow. Use a dramatic LOW side view rather than a pale aerial diagram. Exactly one complete Egyptian-Roman observer crouches at the left of one complete deep round stone well placed at right, leaning to see a narrow ochre-white shaft of vertical light reach the small visible faded-lapis water surface far below. One complete plain upright gnomon stands between observer and well with its shadow compressed directly below its base. One complete sealed dark-red water jar rests far behind as a scale object. The invisible overhead sun creates brilliant rim light while the foreground ground and the well interior hold deep lampblack, indigo and umber shadow.\nScene/backdrop: one finite irregular patch of black-red basalt paving whose entire boundary is visible within open ochre desert, one complete low well, one complete observer, one complete gnomon, one complete sealed jar, a very low contained ridge and a narrow strip of bleached noon sky; no courtyard wall, tree, building, column, crowd, second person, rope, bucket, book, scroll, tablet, map, sundial plate or visible sun disc\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; unusually strong chiaroscuro with lampblack and deep indigo well interior, madder-black basalt foreground, brilliant pale ochre rim light, tiny faded-lapis water and muted verdigris garment edge; ancient, timeless, beautiful, rough in material and polished in draftsmanship; subterranean-light dialect with dense dark lower mass and a single vertical luminous accent\nComposition/framing: 3:2 landscape, low eye-level side view with the horizon very high. The complete crouching observer occupies lower left, the small upright gnomon sits near centre and the complete well dominates lower right; the vertical light descends into the dark shaft. Keep every head, hand, finger, knee, foot, garment hem, well-stone edge and base, water reflection, gnomon tip and base, jar handle, shadow and ground contact comfortably inside generous uninterrupted breathing room.\nHistorical and epistemic framing: illustrate Pliny’s report of the Syene solstice experiment as ancient observation; do not assert his distances, wider geographic inferences or vertical-sun claims as exact modern data.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and continuous desert-shadow washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: pale sun-dominant panorama, giant sun, orchard rows, many observers, symmetrical aerial view, lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, ray arrows, angle marks, geometry overlay, map, chart, split panel, collage, repeated crop, modern instrument, dramatic long sideways shadow, clipped person, clipped well, clipped gnomon, clipped jar, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A complete crouching observer, complete plain gnomon, complete sealed jar and complete deep stone well sit within a fully bounded irregular basalt patch. Strong lampblack-indigo well depth and a natural vertical shaft of noon light reveal the small water surface while the gnomon’s lateral shadow remains short. The scene records the Syene report as ancient observation without presenting Pliny’s distances or inference as exact modern data. No giant sun, orchard grid, text, pseudo-writing, angle mark, diagram, panel, collage, visible page, internal border, modern instrument, watermark or clipped primary subject was found. Accepted third built-in generation after an edge-running courtyard rejection and a corpus-diversity rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-10b01c8c-d5b4-4db3-8a19-055d2aa1a763.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/evidence/history/b02-c073-rejected-01-exec-10b01c8c-d5b4-4db3-8a19-055d2aa1a763.png",
+          "sha256": "d4817737fffa34bfd5f0869e2666c32e91a1833d9c444cf609259ae5975bbf86",
+          "reason": "Rejected at original-resolution review because the circular courtyard wall continued through both lateral edges, violating the finite-architecture and no-clipping gates."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b5824030-c705-4e2e-be7e-9e444e467cc6.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/evidence/history/b02-c073-rejected-02-exec-b5824030-c705-4e2e-be7e-9e444e467cc6.png",
+          "sha256": "3e6d1ecdc7b32cbfcd33b9660404100cf7a886553c955b89a70a467211848caf",
+          "reason": "Passed native subject and framing review but failed the global diversity gate with MAD 19.24 against cosmos-wave-02/b02-c011.png, below the mandatory minimum 20."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:74",
+      "title": "WHERE THIS TAKES PLACE TWICE IN THE YEAR AND WHERE THE SHADOWS FALL IN OPPOSITE DIRECTIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c074.png",
+      "sha256": "79eb7a7eda1777c6dce6d6ab167ab483f50a990b8fc6a1a4f6719944612865bf",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9a15f8a5-8e21-47ce-89bc-2b1cef530b10",
+      "outputArtifact": "built-in-imagegen://exec-9a15f8a5-8e21-47ce-89bc-2b1cef530b10.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 74, “Where This Takes Place Twice in the Year and Where the Shadows Fall in Opposite Directions”\nPrimary request: Render Eratosthenes’ transmitted report that in Troglodytice the noon shadow reverses direction during two seasonal intervals, as a single observed ancient moment rather than a before-and-after panel or modern diagram. On one complete compact red-stone measuring terrace above the Red Sea, exactly one complete local surveyor crouches at the far tip of the shadow cast by one complete tall plain stone gnomon. The high ochre sun stands clearly to the inland side of the gnomon while the gnomon’s clean shadow falls toward the blue sea, visibly contrary to the ordinary direction expected by the observer. The surveyor touches the shadow tip with one plain unmarked reed and looks back toward the sun. No compass direction is written or drawn.\nScene/backdrop: one finite low trapezoidal terrace with all four corner stones and both short stair ends visible, one complete tall gnomon, exactly one complete surveyor and reed, a broad contained Red Sea inlet, distant dry escarpments and high pale sky; no well, jar, tree, building, crowd, sundial bowl, book, scroll, tablet, map or instrument scale\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; madder-red and umber rock, faded-lapis sea, ochre sun, lampblack shadow and a small muted-verdigris garment accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Red-Sea geodesy dialect with a strong lateral shadow, dry mineral air and asymmetric coastal depth\nComposition/framing: 3:2 landscape, low side-on view along the diagonal shadow. Put the complete gnomon at left, the crouching surveyor and reed at lower right, the complete terrace small across the lower middle and the high sun well inside upper left; let the sea open behind them. Keep every head, hand, foot, garment hem, gnomon base and tip, shadow end, reed end, terrace corner, stair, shoreline, sun disc, reflection and ground contact comfortably inside generous uninterrupted breathing room.\nHistorical and epistemic framing: depict a single episode from Eratosthenes’ report as ancient geographical observation; do not claim the stated twice-forty-five-day interval or the image’s direction as exact modern local data.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, sky, sea and rock washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, north arrow, compass rose, angle mark, ray line, chart, diagram, split panel, seasons sequence, repeated crop, second sun, second gnomon, modern instrument, clipped person, clipped gnomon, clipped terrace, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete surveyor crouches at the tip of one clear gnomon shadow on a fully contained red-stone terrace; the complete gnomon, high ochre sun, both stair ends and every terrace corner remain visible above the continuous Red Sea inlet. The single observed shadow-direction episode is presented as Eratosthenes’ transmitted report, not an exact modern local measurement or two-season diagram. No compass mark, north arrow, writing, pseudo-writing, panel, sequence, collage, visible page, internal border, modern instrument, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:75",
+      "title": "WHERE THE DAYS ARE THE LONGEST AND WHERE THE SHORTEST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c075.png",
+      "sha256": "44bec5a645fe1c1a27ab9d0ed14417af4156c09c26accb9f3b0e31efc87aaa36",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-743d74e4-e04c-4d16-8cce-d702d4e2449f",
+      "outputArtifact": "built-in-imagegen://exec-743d74e4-e04c-4d16-8cce-d702d4e2449f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 75, “Where the Days Are the Longest and Where the Shortest”\nPrimary request: Interpret Pytheas’ transmitted report of extraordinary northern summer light at Thule as one quiet Roman-era travel observation, not literal proof of a six-month day at that island. On a remote rocky northern shore at the hour when night should be deepest, exactly one complete weathered Greek traveler stands beside one complete extinguished oil lamp, watching one complete small pale sun hover just above the sea horizon. The sky remains luminous faded lapis and pearl rather than dark; low stones cast long soft shadows while the lamp is unnecessary. One complete compact hide-and-timber boat rests fully hauled onto the beach with its entire hull and two loose oars visible, and one complete low wool travel tent sits well inland. No clock or written record appears.\nScene/backdrop: one broad continuous northern strand, low calm sea, a complete modest boat, exactly two complete oars, one complete low tent, distant contained snow-streaked hills and huge cold luminous sky; no settlement, crowd, second person, polar bear, reindeer, iceberg, aurora, second sun, fire, sundial, map, book, scroll or tablet\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; pale faded-lapis and pearl sky, blue-grey sea, umber rock, muted verdigris tent, cool madder cloak and a restrained ochre sun; ancient, timeless, beautiful, rough in material and polished in draftsmanship; high-latitude travel dialect with quiet horizontal layers, cool value structure and long light\nComposition/framing: 3:2 landscape, extremely low sea horizon and broad luminous sky. Place the complete traveler and extinguished lamp in the lower left, the complete beached boat and two oars lower centre, the small complete tent lower right, and the low complete sun off centre with generous air. Keep every hair, hand, foot, garment hem, lamp handle and spout, hull, prow, stern, oar blade, tent corner, hill peak, sun disc, shadow and ground contact comfortably inside broad uninterrupted breathing room.\nHistorical and epistemic framing: show an ancient traveler’s account of prolonged northern summer light; do not assert Pliny’s exact day-length values or the identification of Thule as modern settled scientific fact.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and cold shore-sky washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, calendar, clock face, timeline, chart, latitude bands, globe, diagram, split panel, summer-winter sequence, repeated crop, modern expedition gear, clipped person, clipped boat, clipped tent, clipped sun, edge-entering object, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete Greek traveler stands beside a complete extinguished oil lamp on a luminous northern shore; one complete beached hide-and-timber boat, exactly two complete oars, one complete low tent and one small complete sun remain fully contained beneath a pale midnight-like sky. The scene evokes Pytheas’ prolonged northern summer-light report without asserting a literal six-month day at an identified modern Thule. No clock, calendar, latitude band, text, pseudo-writing, panel, season sequence, collage, visible page, modern expedition gear, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:76",
+      "title": "OF THE FIRST DIAL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c076.png",
+      "sha256": "48e36566f062caeef64f377ab79e6fa86e8fcb80fb969b971f5262904e2faff3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b9a93bbb-1ad9-4cd2-94bd-d012343a295b",
+      "outputArtifact": "built-in-imagegen://exec-b9a93bbb-1ad9-4cd2-94bd-d012343a295b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 76, “Of the First Dial”\nPrimary request: Depict the historical tradition that Anaximenes first exhibited the shadow-clock called the sciothericon at Lacedaemon, without inventing a written scale or claiming a precisely reconstructed device. In a clear Spartan public forecourt at early morning, exactly one complete Ionian natural philosopher kneels to seat one complete plain bronze gnomon into the central socket of one complete low circular stone dial slab. The slab is entirely unmarked; its single crisp shadow demonstrates the principle. Exactly one complete Spartan citizen stands several paces away, leaning forward with attentive curiosity while holding empty hands. The scene emphasizes first public demonstration and craft, not ceremony or worship.\nScene/backdrop: one finite pale-stone forecourt whose complete irregular paving boundary is visible, one complete low circular slab on three squat feet, one complete gnomon, one complete scholar, one complete observer, one complete small tool basket and a low freestanding exedra whose two terminal faces are visible; no temple, column, roof, crowd, altar, statue, book, scroll, tablet, inscription, numbered dial or celestial globe\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; pale ochre limestone, umber figures, muted verdigris bronze, quiet madder Spartan cloak and a thin faded-lapis morning shadow; ancient, timeless, beautiful, rough in material and polished in draftsmanship; civic-invention dialect with low raking light, tactile stone and clear human attention\nComposition/framing: 3:2 landscape, low three-quarter view close to the slab. Place the complete dial slab and kneeling philosopher in the lower left, the complete standing observer at right, and the small finite exedra well behind them. Keep every head, hand, finger, knee, foot, garment hem, gnomon tip and base, slab circumference and foot, basket handle, tool, exedra terminal, shadow and ground contact comfortably inside broad uninterrupted breathing room.\nHistorical and epistemic framing: honor the ancient attribution to Anaximenes as transmitted history; do not claim that the exact pictured form or “first” status is archaeologically settled.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and pale forecourt washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, degree marks, hour lines, mathematical notation, ray arrows, diagram, split panel, collage, repeated crop, modern clock, modern tool, religious rite, clipped person, clipped slab, clipped gnomon, clipped exedra, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete kneeling philosopher seats one complete unmarked bronze gnomon in a complete low circular stone slab while exactly one complete Spartan observer watches; the three slab feet, tool basket, finite paving boundary and complete exedra terminals are all visible. The public demonstration honors the transmitted Anaximenes attribution without claiming the pictured form or priority is archaeologically settled. No inscription, numeral, hour line, degree mark, text, pseudo-writing, ritual, panel, collage, visible page, internal border, modern clock, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:77",
+      "title": "OF THE MODE IN WHICH THE DAYS ARE COMPUTED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c077.png",
+      "sha256": "bf30c7450f8493e60afeba70557963f1d3bf28edd5ac3d9b06516585430c8b8b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1c560ac2-c3c4-4cb2-93d9-bae75742a73d",
+      "outputArtifact": "built-in-imagegen://exec-1c560ac2-c3c4-4cb2-93d9-bae75742a73d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 77, “Of the Mode in Which the Days Are Computed”\nPrimary request: Present Pliny’s report that Babylonians, Athenians, Umbrians, Romans and Egyptians began the civil day at different natural boundaries as a respectful ancient discussion, not a modern universal time system or literal four-panel timeline. At a cosmopolitan riverside lodge in the liminal hour before sunrise, exactly FOUR complete dignified adult delegates sit or stand around one complete low round table: one Babylonian observer, one Athenian observer, one Umbrian observer and one Roman-Egyptian timekeeper. Their dress differs subtly through historically plausible weave, mantle and headcloth without caricature or hierarchy. On the table rest one complete unmarked water clock, one complete burning oil lamp and four plain counting pebbles. The Babylonian turns toward the first bright eastern horizon, the Athenian gestures toward the fading western darkness, the Umbrian studies the absent short-noon shadow on an idle plain gnomon lying flat, and the Roman-Egyptian timekeeper attends to the draining water clock. They are comparing conventions, not performing a ritual.\nScene/backdrop: one finite circular reed-mat gathering area whose entire edge is visible, one complete low table, exactly four complete adults, one complete water clock, one lamp, four pebbles and one supported idle gnomon, a calm river, distant contained hills, fading moon and first dawn light; no building, column, roof, crowd, child, book, scroll, tablet, writing, clock face, sundial plate or astronomical globe\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; deep faded-lapis west, pale ochre east, umber table and figures, muted verdigris cloth and quiet madder lamp glow; ancient, timeless, beautiful, rough in material and polished in draftsmanship; intercultural timekeeping dialect with a horizontal dawn gradient, humane gestures and one warm central pool of light\nComposition/framing: 3:2 landscape, wide eye-level gathering with the round table slightly off centre. Separate the four complete adults clearly around the table so no body fuses with another; maintain a broad river and sky behind them. Keep every head, face, hand, finger, foot, garment hem, table leg, vessel rim and spout, lamp flame, pebble, gnomon end, mat edge, moon, reflection, shadow and ground contact comfortably inside generous uninterrupted breathing room.\nHistorical and epistemic framing: depict ancient diversity in civil-day reckoning as transmitted cultural history; do not claim the gestures reconstruct an exact historical meeting or that any convention is naturally superior.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum, river and dawn washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, ethnic caricature, hierarchy, throne, map, compass, clock face, hour marks, timeline, divided sky, four panels, split frame, collage, repeated crop, modern watch, modern clock, clipped figure, fused bodies, extra person, clipped table, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly four complete, clearly separated dignified delegates compare civil-day conventions around one complete low table on a fully visible round mat. One complete unmarked water clock, one complete burning lamp, exactly four counting pebbles and a plain supported timekeeping rod remain legible beneath a continuous moon-to-dawn sky. The scene treats cultural reckoning as historical plurality without hierarchy or an impossible panelized timeline. No label, numeral, clock face, ethnic caricature, text, pseudo-writing, split sky, panel, collage, visible page, internal border, modern watch, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:78",
+      "title": "OF THE DIFFERENCE OF NATIONS AS DEPENDING ON THE NATURE OF THE WORLD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c078.png",
+      "sha256": "39d80888f9b8829f96072df94150c2c09ec5e53a7ee5c43805a5ec76e104389f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-dc03741c-7cdd-4e6d-850b-5c9a44692a43",
+      "outputArtifact": "built-in-imagegen://exec-dc03741c-7cdd-4e6d-850b-5c9a44692a43.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 78, “Of the Difference of Nations as Depending on the Nature of the World”\nPrimary request: Reframe Pliny’s ancient climate-and-peoples ethnography as transmitted historical thought while refusing its hierarchy and biological stereotypes. In one continuous Roman-era upland meeting place where three travel routes converge beside a small natural spring, exactly THREE complete adult travelers of equal stature and dignity stand separately in an open triangular conversation: one traveler from northeast Africa with a lightweight woven sun mantle and a complete small frankincense branch, one Mediterranean traveler with a complete basket of grapes and grain, and one traveler from the far north carrying a complete folded wool-and-fur outer cloak and a small conifer sprig. Each offers local climate knowledge and materials to the others with open hands and mutual eye contact. Do not exaggerate skin, hair, facial features or body proportions; differences arise mainly through garments and carried regional materials. Nobody stands higher, commands, conquers or judges.\nScene/backdrop: one continuous high valley with a warm dry escarpment receding on the left, a fertile green middle ground around the complete spring, and a distant snow-streaked ridge receding on the right; exactly three complete adults, one branch, one basket, one folded cloak and one sprig; no throne, soldier, captive, empire, city, crowd, child, animal, globe, map, book, scroll or tablet\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained ochre and madder dryland accents, muted verdigris middle valley, faded-lapis snow and water, umber figures and lampblack shadow; ancient, timeless, beautiful, rough in material and polished in draftsmanship; humane climate-encounter dialect with equal visual weight, tactile textiles and one continuous atmospheric landscape\nComposition/framing: 3:2 landscape, eye-level wide view with three clearly separated full bodies forming an open triangle around the small spring. Use the converging footpaths and gestures to unite the single scene without dividing the landscape into bands or panels. Keep every head, face, hand, finger, foot, garment hem, branch tip, basket handle, grain, cloak fold, sprig, spring edge, ridge peak, shadow and ground contact comfortably inside generous uninterrupted breathing room.\nHistorical and epistemic framing: explicitly portray Pliny’s environmental account as ancient ethnographic speculation, not modern biology, racial science or a moral ranking of peoples. Preserve equal agency and dignity; do not endorse his claims about intellect, temperament, bodies or imperial capacity.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous vellum and continuous valley washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, racial caricature, exaggerated pigmentation, physiognomic typing, savage-versus-civilized contrast, hierarchy, superiority, conquest, chained person, throne, central ruler, ethnographic chart, three climate bands, triptych, split panel, collage, repeated crop, modern object, clipped figure, fused bodies, edge-entering object, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete adult travelers of equal scale and visual dignity exchange a frankincense branch, grape-and-grain basket, conifer sprig and folded cold-weather cloak beside one contained spring in a continuous dry-to-snowy valley. Garments and regional materials carry the environmental distinction; faces, bodies and gestures remain individualized without physiognomic exaggeration, conquest or hierarchy. The scene explicitly frames Pliny’s account as ancient ethnographic speculation rather than modern racial biology. No caricature, throne, captive, hierarchy, chart, climate band, label, text, pseudo-writing, panel, collage, visible page, modern object, watermark or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 459,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:70": {
+        "nearestMAD": 29.97,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c028.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c012.png",
+        "madAtDHashPeer": 39.21
+      },
+      "2:72": {
+        "nearestMAD": 25.39,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c011.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c011.png",
+        "madAtDHashPeer": 57.61
+      },
+      "2:73": {
+        "nearestMAD": 31.03,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c013.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c003.png",
+        "madAtDHashPeer": 31.2
+      },
+      "2:74": {
+        "nearestMAD": 22.24,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-01/b02-c002.png",
+        "madAtDHashPeer": 34.26
+      },
+      "2:75": {
+        "nearestMAD": 22.19,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c036.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 64.61
+      },
+      "2:76": {
+        "nearestMAD": 28.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c016.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c008.png",
+        "madAtDHashPeer": 36.96
+      },
+      "2:77": {
+        "nearestMAD": 28.65,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c001.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 55.33
+      },
+      "2:78": {
+        "nearestMAD": 21.75,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c090.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 23,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c011.png",
+        "madAtDHashPeer": 42.15
+      }
+    }
+  }
+}

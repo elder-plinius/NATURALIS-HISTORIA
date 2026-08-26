@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-anatomy-wave-04",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+  "corpusSha256": "6e41d61d4a8e304224778b12bcaea33508607eaf4e8f2fd5926af09fc1ffb2b2",
+  "corpusGroundingNote": "The complete Latin and English entries for Book XI chapters 35, 36, 38, 39, 40, 42, 43 and 44 were read before prompting. Spontaneous generation in snow and fire, insect venom and antidote, revival from ashes, blood coagulation and temperament, sacrifice, human bodily comparisons, skin and hair claims, sterility and sexuality claims, mammary anatomy, nursing, longevity through cheese, limb variation and ape-human resemblance are treated as transmitted ancient testimony of varying reliability—not verified biology, medical or poison advice, bodily hierarchy, disability judgment, miracle, dehumanization or modern evolutionary claim. Blood and mammary content remains non-graphic and external; the human/macaque scene is explicitly dignified, separate, non-hierarchical and free of racial coding or caricature.",
+  "assignments": [
+    "11:35",
+    "11:36",
+    "11:38",
+    "11:39",
+    "11:40",
+    "11:42",
+    "11:43",
+    "11:44"
+  ],
+  "selectionValidation": {
+    "coordinationFrontier": "11:34",
+    "coordinationDecision": "The parent coordinator assigned the next collision-free Book XI full scenes after wave-03 through 11:34. Before generation, the live plan, all available receipts and every non-evidence master were rechecked. The exact selected keys remained planned-full-scene with zero prior owners or masters; atlas cells 11:37 and 11:41 were intentionally untouched.",
+    "atlasCellsSkipped": [
+      "11:37",
+      "11:41"
+    ],
+    "receiptsCheckedAtSelection": 101,
+    "receiptsCheckedAtCertification": 104,
+    "selectedKeys": [
+      "11:35",
+      "11:36",
+      "11:38",
+      "11:39",
+      "11:40",
+      "11:42",
+      "11:43",
+      "11:44"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 4,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 12
+  },
+  "chapters": [
+    {
+      "chapterKey": "11:35",
+      "title": "MOTHS, CANTHARIDES, GNATS—AN INSECT THAT BREEDS IN THE SNOW",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c035.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7cef1ef98dcf51cee7996e05552f1e5a359ac7f505db116b03002961ad93aeb4",
+        "englishSha256": "3d341ea75e6eb5d05295c759cd7e36d54447f2535436a7bf02fec26411845269",
+        "latinWords": 102,
+        "englishWords": 224
+      },
+      "sha256": "ee0c0481c3539bc65d74c355dd3285032152bac78de997338311e5748e842c7a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-24dfa809-5f1b-4e4b-9309-95d1d26b0ee5",
+      "generationArtifactId": "exec-24dfa809-5f1b-4e4b-9309-95d1d26b0ee5",
+      "outputArtifact": "built-in-imagegen://exec-24dfa809-5f1b-4e4b-9309-95d1d26b0ee5.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 35 illustration master\nPrimary request: Create one coherent Alpine field-margin observation inspired by Pliny’s accounts of moths, cantharides, gnats and insects found in old snow, while treating spontaneous-generation, venom and medicinal-wing claims as transmitted ancient testimony rather than modern entomology or advice. Show exactly THREE complete insect subjects at naturally enlarged but mutually consistent scale: exactly ONE case-bearing clothes-moth larva carrying its fibrous portable case across a small clean scrap of undyed wool; exactly ONE iridescent green blister beetle resting on an interior wild-rose leaf; and exactly ONE tiny rust-red snow insect standing on a small old snow patch. They are peaceful, intact and simply observed.\nScene/backdrop: a high mountain limestone hollow where wild rose, dry wool caught on a low twig and one compact crescent of old snow meet; distant cool ridges fade into vellum. No spider, paper, spoiled liquid, human, poison vessel or medicinal handling.\nStyle/medium: original Plinian natural-history folio on cool ivory vellum; iron-gall contour, magnified fine cross-hatching and stipple, translucent mineral watercolor; distinctive palette of snow chalk, faded lapis, malachite green, rust madder, muted violet and umber; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate high-oblique macro landscape, three insect subjects forming a loose triangle rather than a specimen row. Each insect has plausible complete legs, antennae, wings or larval body and remains clearly distinct. Every insect, wool fibre, leaf, thorn, stone, ridge and the entire snow patch ends at least 120 pixels before every canvas edge. Snow is fully surrounded by dry rock and vegetation and never touches an edge. The scene feathers softly to broad unmarked vellum on all four sides. One continuous habitat, not a page, diagram or collection tray. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: crisp silver morning with small jewel-like accents, curious and serene.\nText: none.\nConstraints: exactly three insect subjects total, one of each listed kind; no other animal; all complete and countable.\nAvoid: infestation, swarm, textile ruin, venom demonstration, antidote, dismembered wings, death, suffering, poison advice, spontaneous generation shown literally, giant fantasy insect, extra leg, clipping, snow at edge, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-24dfa809-5f1b-4e4b-9309-95d1d26b0ee5",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly one complete case-bearing moth larva, one complete green blister beetle and one complete rust-red snow insect in a single Alpine field margin. The old snow patch is fully surrounded by dry rock and vegetation; all legs, antennae, wings, wool, rose and ridges remain inside the vellum perimeter. No poison use, dismemberment, swarm, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:36",
+      "title": "AN ANIMAL FOUND IN FIRE—THE PYRALLIS OR PYRAUSTA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c036.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2d895f02ca759d6efa97b266858c685446a213a26f8ac9d73de16ed80d51b025",
+        "englishSha256": "9ad9b69d6e86dc3ebe15acd6e63edcf464726f9c5236f6a4110bf3eba5007a4b",
+        "latinWords": 111,
+        "englishWords": 252
+      },
+      "sha256": "5f0563ce83df88d592c8c655d0be4c5c8b215e8d7bad4fe0e8d8b8f5c51d9cc8",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9734236a-bbac-4f63-8e20-b627e1d8b7f5",
+      "generationArtifactId": "exec-9734236a-bbac-4f63-8e20-b627e1d8b7f5",
+      "outputArtifact": "built-in-imagegen://exec-9734236a-bbac-4f63-8e20-b627e1d8b7f5.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: third revised final independent Book XI chapter 36 illustration master\nPrimary request: Treat Pliny’s pyrallis account as uncertain ancient testimony by showing a plausible natural analogue rather than the fabulous four-legged creature itself. Show exactly ONE complete ordinary Mediterranean hawk-moth resting on a broad cool pale stone outside an ancient Cypriot copper furnace. Use a nearly top-down dorsal view so its scientifically plausible anatomy is unmistakable: exactly SIX visible legs total, arranged as THREE fully separated legs on the left side and THREE fully separated legs on the right side, all feet planted and countable; exactly TWO antennae; four natural wings spread in two clearly overlapping pairs; one segmented body. It is unburned and cannot be mistaken for emerging from fire.\nScene/backdrop: the moth and its stone occupy the foreground; one small compact domed furnace is fully visible far behind at upper right with only dim contained coals deep inside its dark mouth. One sealed copper crucible and a few low ore stones rest on dry ground. No worker, river, corpse, ash burial, drowned insect or second creature.\nStyle/medium: original Plinian natural-history folio on smoke-grey vellum; iron-gall contour, dense stipple, fine hatch and luminous mineral wash; distinctive palette of copper verdigris, deep blue-black, burnt sienna, ember orange, violet madder and chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high-oblique close view of the moth’s dorsal anatomy on an interior stone at lower left; distant compact furnace at upper right; generous cool negative ground between them. Every antenna, all four wing tips, every one of six separated legs and feet, abdomen tip, stone, furnace dome and mouth, crucible, coal and ore ends at least 125 pixels before all canvas edges. No object touches or continues beyond an edge. Entire scene dissolves softly into broad unmarked vellum. No water. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool violet dusk with a restrained distant copper glow, contemplative and explicitly uncertain.\nText: none.\nConstraints: exactly one animal total; exactly six fully visible and individually countable legs—three left, three right; plausible moth anatomy; no literal generation, transformation, death or revival.\nAvoid: hidden legs, fewer or extra legs, fused legs, four-legged fantasy insect, burning body, creature in fire, phoenix, dragon, demon, fairy, open inferno, suffering, corpse, spontaneous generation shown as fact, extra insect, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern equipment, photorealism, glossy CGI.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9846c521-ab43-45fb-8e5f-318ac4c19218",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-660d6ebc-e25d-4ec4-9323-c43ce1a5f6cc",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-ba375599-f57c-4d5e-91de-d30e94dc9fcc",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-9734236a-bbac-4f63-8e20-b627e1d8b7f5",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection of the final high-oblique natural-analogue scene found exactly one complete hawk-moth with two antennae, four distinct wings and exactly six separated visible legs—three on each side—resting well outside a fully contained furnace. Coals remain dim and distant; there is no open flame at the animal, generation, death, revival, water, text, pseudo-writing, panel, collage or clipping.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-9846c521-ab43-45fb-8e5f-318ac4c19218",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/evidence/history/b11-c036-rejected-01-six-legs-four-wings.png",
+          "sha256": "f7e14490a9d5a4c28e1a02b2466d17b65820fafac634231a6ecb0ea42ea8f142",
+          "outputArtifact": "built-in-imagegen://exec-9846c521-ab43-45fb-8e5f-318ac4c19218.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 36 illustration master\nPrimary request: Evoke Pliny’s transmitted report of the pyrallis or pyrausta at the Cypriot copper furnaces without showing an animal born from fire or endorsing revival claims. Show exactly ONE complete small four-legged winged insect—delicately moth-like, anatomically coherent as an imagined ancient creature—hovering in cool air several body-lengths outside a dark furnace mouth. Its body is fully lit by reflected copper twilight, not aflame. Inside the furnace, a shallow bed of dim contained orange coals is visible at a distance; no open flame reaches the creature and nothing is dying or reviving.\nScene/backdrop: an empty ancient Cypriot copper-working courtyard at dusk with one compact domed furnace, one sealed copper crucible and low ore stones, all wholly contained within the vignette. No worker, river, corpse, ash burial or drowned insect.\nStyle/medium: original Plinian natural-history folio on smoke-grey vellum; iron-gall contour, dense stipple, fine hatch and luminous mineral wash; distinctive palette of copper verdigris, deep blue-black, burnt sienna, ember orange, violet madder and chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low three-quarter view, imagined insect as a single complete focal subject near center-left, compact furnace fully visible in the middle distance at right, generous dark negative air between them. Every antenna, wingtip, leg, tail, furnace dome, mouth, crucible, coal bed and stone ends at least 120 pixels before all canvas edges. No discrete object touches or continues beyond an edge. The whole courtyard dissolves softly into broad unmarked vellum. No water. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool violet dusk against restrained copper glow, mysterious but observational and explicitly uncertain.\nText: none.\nConstraints: exactly one animal total; two wings and four legs clearly visible; no literal generation, transformation, death or revival.\nAvoid: creature inside flame, burning body, phoenix, dragon, demon, fairy, human face, open inferno, smoke obscuring anatomy, suffering, corpse, spontaneous generation shown as fact, extra insect, malformed limbs, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern equipment, photorealism, glossy CGI.",
+          "rejectionReason": "The first imagined creature rendered normal six-legged, four-winged moth anatomy instead of the exact two-winged, four-legged ancient reported form requested.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        },
+        {
+          "generationArtifactId": "exec-660d6ebc-e25d-4ec4-9323-c43ce1a5f6cc",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/evidence/history/b11-c036-rejected-02-ambiguous-leg-count.png",
+          "sha256": "7b3802304fd9e317649f707bd19bb0f7b8bdae7a2922759ac68e4db507db5e21",
+          "outputArtifact": "built-in-imagegen://exec-660d6ebc-e25d-4ec4-9323-c43ce1a5f6cc.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: revised final independent Book XI chapter 36 illustration master\nPrimary request: Evoke Pliny’s transmitted report of the pyrallis or pyrausta at the Cypriot copper furnaces without showing an animal born from fire or endorsing revival claims. Show exactly ONE complete tiny imagined ancient insect hovering in cool air outside a dark furnace: it has exactly TWO transparent wings total—one left and one right, spread horizontally—and exactly FOUR slender legs total—two clearly separated legs on each side of the thorax. No hidden rear wings and no fifth or sixth leg. The invented body is modestly moth-like and explicitly an ancient reported creature, not a real taxonomic specimen. It is lit by reflected copper twilight and is not aflame.\nScene/backdrop: an empty ancient Cypriot copper-working courtyard at dusk with one small compact domed furnace wholly visible. Inside the furnace, a distant shallow bed of dim contained coals glows softly; no open flame reaches the creature. One sealed copper crucible and low ore stones sit on dry ground. No worker, river, corpse, ash burial or drowned insect.\nStyle/medium: original Plinian natural-history folio on smoke-grey vellum; iron-gall contour, dense stipple, fine hatch and luminous mineral wash; distinctive palette of copper verdigris, deep blue-black, burnt sienna, ember orange, violet madder and chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low three-quarter view, the single insect centered in an open oval of sky with legs and two wings cleanly silhouetted, compact furnace at right and generous dark negative air between them. Every antenna, both wing tips, all four leg tips, body, furnace dome, mouth, crucible, coal bed and stone ends at least 125 pixels before all canvas edges. No discrete object touches or continues beyond an edge. Whole courtyard dissolves softly into broad unmarked vellum. No water. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool violet dusk against restrained copper glow, mysterious but observational and explicitly uncertain.\nText: none.\nConstraints: exactly one animal total; exactly two wings total; exactly four legs total; all clearly visible and countable; no literal generation, transformation, death or revival.\nAvoid: normal six-legged moth anatomy, second pair of wings, hidden extra limb, creature inside flame, burning body, phoenix, dragon, demon, fairy, human face, open inferno, suffering, corpse, spontaneous generation shown as fact, extra insect, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern equipment, photorealism, glossy CGI.",
+          "rejectionReason": "The second imagined creature had two clear wings but fewer than four unambiguously countable legs, so its anatomy could not be certified.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        },
+        {
+          "generationArtifactId": "exec-ba375599-f57c-4d5e-91de-d30e94dc9fcc",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/evidence/history/b11-c036-rejected-03-incomplete-visible-leg-count.png",
+          "sha256": "f142a74201ce13d56dc0999c97f2b60d997afb72d8afed1382c6bf3e566523b8",
+          "outputArtifact": "built-in-imagegen://exec-ba375599-f57c-4d5e-91de-d30e94dc9fcc.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: second revised final independent Book XI chapter 36 illustration master\nPrimary request: Treat Pliny’s pyrallis account as uncertain ancient testimony by showing a plausible living analogue rather than the fabulous four-legged creature itself. Show exactly ONE complete ordinary Mediterranean hawk-moth resting calmly on a cool pale stone several body-lengths outside an ancient Cypriot copper furnace. The moth has scientifically plausible insect anatomy: exactly SIX slender legs visible where they meet the stone, two antennae, a segmented body, and its four natural wings overlapped in a neat tent-like resting posture. It is unburned and lit only by reflected twilight. The scene must not imply it was born in fire or revived.\nScene/backdrop: an empty open copper-working courtyard at dusk with one compact domed furnace wholly inside the image. A shallow bed of dim contained coals sits deep inside the dark mouth, without open flame. One sealed copper crucible and a few low ore stones rest on dry ground. No worker, river, corpse, ash burial, drowned insect or second creature.\nStyle/medium: original Plinian natural-history folio on smoke-grey vellum; iron-gall contour, dense stipple, fine hatch and luminous mineral wash; distinctive palette of copper verdigris, deep blue-black, burnt sienna, ember orange, violet madder and chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate low side view, moth and its six planted legs large and countable on an interior foreground stone at left, compact furnace fully visible in the middle distance at right, generous cool negative air between them. Every antenna, wing edge, all six feet, abdomen tip, stone, furnace dome and mouth, crucible, coal bed and ore ends at least 125 pixels before all canvas edges. No discrete object touches or continues beyond an edge. Entire scene dissolves softly into broad unmarked vellum. No water. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool violet dusk with a restrained distant copper glow, contemplative and explicitly uncertain.\nText: none.\nConstraints: exactly one animal total; one anatomically plausible moth with exactly six visible legs; no literal generation, transformation, death or revival.\nAvoid: four-legged fantasy insect, burning body, creature in fire, phoenix, dragon, demon, fairy, open inferno, suffering, corpse, spontaneous generation shown as fact, extra insect, malformed anatomy, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern equipment, photorealism, glossy CGI.",
+          "rejectionReason": "The natural-analogue moth was complete and well framed, but not all six legs were individually visible and countable as required by the revised prompt.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:38",
+      "title": "ANIMALS, THE BLOOD OF WHICH COAGULATES WITH THE GREATEST RAPIDITY: OTHER ANIMALS, THE BLOOD OF WHICH DOES NOT COAGULATE. ANIMALS WHICH HAVE THE THICKEST BLOOD: THOSE THE BLOOD OF WHICH IS THE THINNEST: ANIMALS WHICH HAVE NO BLOOD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c038.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1575620cf03fa72c58b341281c3f83e9a5bc01339f9470fbc2ba732181b7061f",
+        "englishSha256": "753c09561f092a340f1895ad1a26933c57c9f523b3b05abeb7116c648365f186",
+        "latinWords": 222,
+        "englishWords": 529
+      },
+      "sha256": "e9a369264d3dfbdfdb7ded129014646d5b1625575865199dfd4ddf3c2a315578",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6ba49373-9dfe-4190-a6dd-2d5f150485a0",
+      "generationArtifactId": "exec-6ba49373-9dfe-4190-a6dd-2d5f150485a0",
+      "outputArtifact": "built-in-imagegen://exec-6ba49373-9dfe-4190-a6dd-2d5f150485a0.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 38 illustration master\nPrimary request: Interpret Pliny’s comparisons of blood thickness, coagulation and bloodless animals through a non-graphic symbolic landscape, not exposed anatomy or physiology. Show exactly THREE complete living animals sharing a quiet dry meadow: exactly ONE calm bull standing in profile at left, exactly ONE alert stag standing at a respectful distance at right, and exactly ONE enlarged but plausible dragonfly resting on a central reed. Between the mammals sits exactly ONE small CLOSED opaque cinnabar-glazed clay vessel whose contents cannot be seen; it is a restrained symbol of unseen life, not a container of blood. Do not imply that temperament, intelligence, courage or fear can be ranked from body substances.\nScene/backdrop: open limestone pasture at first light with low grasses, thorn scrub and distant slate hills. No sacrifice, drinking, wound, victim, physician, patient or laboratory.\nStyle/medium: original Plinian natural-history folio on pale ash vellum; iron-gall contour, anatomical exterior observation, fine cross-hatching and stipple, matte mineral wash; distinctive palette of cinnabar red, charcoal, slate blue, muted gold, umber and sparse verdigris; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: wide low horizon with bull and stag forming a spacious asymmetrical balance, dragonfly and sealed vessel as small central accents rather than a diagram. Each animal is complete, separate, countable and anatomically plausible. Every horn and antler tip, hoof, tail, wing, leg, reed, vessel, shrub and hill ends at least 125 pixels before every canvas edge. Nothing discrete touches or continues beyond an edge. No water. Whole scene feathers into broad unmarked vellum. One continuous landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: cool clear dawn with one restrained red accent, solemn, humane and contemplative.\nText: none.\nConstraints: exactly three animals total—one bull, one stag, one dragonfly; exactly one closed opaque vessel; no human; no visible liquid.\nAvoid: blood, bodily fluid, wound, bleeding, slaughter, sacrifice, cup, drinking, coagulation demonstration, organs, cutaway, corpse, disease, medical advice, animal hierarchy, aggression, predation, extra animal, malformed antlers or legs, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6ba49373-9dfe-4190-a6dd-2d5f150485a0",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete calm bull, one complete stag, one complete dragonfly and one closed opaque cinnabar vessel in a dry continuous meadow. No liquid is visible and no animal is injured, sacrificed or ranked by temperament or intelligence. Horns, antlers, hooves, wings and vessel are fully inside; no text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:39",
+      "title": "WHETHER THE BLOOD IS THE PRINCIPLE OF LIFE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c039.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "79fc1b6d4795f5eebb279445059dfe0614a2300f6bacc2a6fcc33b9e476b6c06",
+        "englishSha256": "d2f2cd8272535b54750cd5d32daa3e202dfa4ce0adc969f78fdd11574607ba7c",
+        "latinWords": 365,
+        "englishWords": 819
+      },
+      "sha256": "0464019bf9c2353c048872568d2b3fd47969bfb5390e885240f6088825648bae",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-75f76584-58d4-4b75-9542-3e6cd118bee0",
+      "generationArtifactId": "exec-75f76584-58d4-4b75-9542-3e6cd118bee0",
+      "outputArtifact": "built-in-imagegen://exec-75f76584-58d4-4b75-9542-3e6cd118bee0.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 39 illustration master\nPrimary request: Follow the chapter’s actual discussion of skin, shell, hair and membranous wings rather than staging blood or exposed anatomy. In one peaceful dusk clearing, show exactly FOUR complete animals whose exterior coverings differ: exactly ONE adult elephant with intact natural hide, exactly ONE land tortoise walking across pale soil, exactly ONE hare sitting in dry grass with visible fur, and exactly ONE bat gliding fully visible in the interior twilight sky. Treat Pliny’s associations between coverings and intelligence, sexuality, sterility, disease or social worth as ancient speculation, not truth; no animal or person is ranked or mocked.\nScene/backdrop: an open North African limestone grove with low acacia, dry grass and distant violet escarpment. No hunter, shield, lance, glue-making, injury, shed skin, body, mammary display, medical procedure or human.\nStyle/medium: original Plinian natural-history folio on olive-grey vellum; iron-gall contour, tactile fine cross-hatching and stipple, matte mineral watercolor; distinctive palette of deep olive verdigris, elephant grey, violet lapis, tawny ochre, umber and soft moon-chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: broad eye-level landscape, elephant as a calm middle-distance anchor off-center, tortoise and hare separated in the foreground, single bat isolated against open sky. The animals form a natural depth sequence, not a specimen row or diagram. Every ear, tusk, trunk, foot, tail, shell rim, hare paw and ear, bat wingtip, branch and hill ends at least 125 pixels before every canvas edge. All four animals are complete, distinct, anatomically plausible and countable. No water. Entire habitat dissolves softly to blank vellum on all sides. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: hushed green-violet evening with gentle gold at the horizon, dignified and contemplative.\nText: none.\nConstraints: exactly four animals total—one elephant, one tortoise, one hare, one bat; no other creature; no exposed internal anatomy or body fluid.\nAvoid: intelligence hierarchy, caricature, sexual claim, human disability comparison, wound, blood, cutaway, organs, hide removal, weapon, hunting, glue, corpse, disease symptom, nudity, extra creature, malformed limbs or shell, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-75f76584-58d4-4b75-9542-3e6cd118bee0",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete elephant, one tortoise, one hare and one fully visible bat in a continuous dusk clearing. Hide, shell, fur and wing membrane are observed externally without ranking, cutaway, wound or human comparison. All limbs, shell, ears, tail and wingtips are inside; no blood, organ, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:40",
+      "title": "THE PAPS: BIRDS THAT HAVE PAPS. REMARKABLE FACTS CONNECTED WITH THE DUGS OF ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c040.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bf0f8fa54e4a7ec83ae6715dadf9556cb2c08a9e376cbc078ce8d5a88430650f",
+        "englishSha256": "8f196c49b8c85420bed91e8d256b60ab30a04622a2f4713f48571f36d16708cb",
+        "latinWords": 175,
+        "englishWords": 377
+      },
+      "sha256": "e9cb2e92b311d7da37d0a2a46cbb7e06867ad6e9175d08ab349a610148bad4aa",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b13b6965-62c7-4cc3-a809-44e0481188da",
+      "generationArtifactId": "exec-b13b6965-62c7-4cc3-a809-44e0481188da",
+      "outputArtifact": "built-in-imagegen://exec-b13b6965-62c7-4cc3-a809-44e0481188da.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 40 illustration master\nPrimary request: Handle Pliny’s comparative claims about mammary placement and nursing through a dignified external maternal scene with no exposed anatomy. Show exactly TWO complete dolphins—exactly ONE adult female and exactly ONE smaller calf—swimming calmly side by side in the same direction through a protected natural coastal lagoon. They do not touch, nurse, leap, perform or interact with humans. Their closeness suggests care without displaying teats, milk, bodily fluid or reproductive anatomy. Treat all comparative anatomical claims as transmitted ancient observation, not modern medical or veterinary instruction.\nScene/backdrop: a high-oblique view into one deep oval Mediterranean lagoon entirely encircled by pale limestone, dry myrtle and a narrow interior beach; distant open sea may be suggested only as a thin blue band separated from the lagoon by a complete stone ridge. No boat, captive pool, net, person, other marine animal or structure.\nStyle/medium: original Plinian natural-history folio on blue-green vellum; iron-gall contour, fine stipple, flowing hatch and translucent mineral watercolor; distinctive palette of deep teal verdigris, faded lapis, pearl grey, rose-madder limestone shadows, chalk and umber; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique crescent landscape, adult dolphin and calf fully visible below clear interior water near center, their bodies parallel but not duplicated, with broad stone shore around them. Every rostrum, eye, dorsal fin, flipper and tail fluke is distinct and anatomically plausible. The entire lagoon, every patch of water, both dolphins, beach, shrub, ridge and distant sea band end at least 130 pixels before every outer edge. Water is fully internal and never touches or approaches an edge. Scene feathers into broad unmarked vellum. One continuous natural landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: lucid turquoise morning, protective, quiet and humane.\nText: none.\nConstraints: exactly two animals total—one adult female dolphin and one calf; both complete and separated; no visible mammary or genital anatomy; no nursing.\nAvoid: breast, teat, nipple, udder, milk, bodily fluid, exposed organ, nudity, nursing contact, birth, pregnancy, medical diagram, anatomy cutaway, captivity, aquarium, performance, fishing, net, injury, suffering, extra animal, malformed fins, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b13b6965-62c7-4cc3-a809-44e0481188da",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete adult dolphin and one complete calf swimming separately but together in a fully enclosed natural lagoon. Rostrum, fins, flippers and tail flukes are plausible and visible. Every patch of lagoon and distant sea remains internal; no nursing, mammary display, body fluid, captive structure, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:42",
+      "title": "VARIOUS KINDS OF CHEESE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c042.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "53bfe948d53384852e4dda557794fa063c9dccc4b5c058980d750fb735f813e6",
+        "englishSha256": "9daafe3ddab5a37b1884c852d1c648fc16903adabe824292926d124c4419cc9e",
+        "latinWords": 143,
+        "englishWords": 329
+      },
+      "sha256": "b3bdbc4e1a19d6f7d5b8460d9e2eaf5f01228933db5063b5ba242404797abe13",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3f92c8d4-b819-4103-93fa-6098f649f5fe",
+      "generationArtifactId": "exec-3f92c8d4-b819-4103-93fa-6098f649f5fe",
+      "outputArtifact": "built-in-imagegen://exec-3f92c8d4-b819-4103-93fa-6098f649f5fe.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 42 illustration master\nPrimary request: Celebrate Pliny’s survey of regional cheeses as a richly material Roman market still life. On exactly ONE fully visible low wooden table, display exactly FIVE complete cheeses, each distinct and countable: one small fresh white goat cheese in a leaf-lined wicker cup; one pale sheep-milk wheel; one tall smoked amber cylinder; one broad aged golden wheel with an uncut rind; and one very large Luna-style wheel resting on a separate low wooden cradle directly behind the table. All five are whole and uncut. Add only one modest thyme sprig and a faint ribbon of smoke from a tiny covered brazier placed well behind the cheeses. No labels, inscriptions, maps, people, animals, tasting, medicine or immortality symbolism.\nScene/backdrop: a quiet open Roman market courtyard at early morning, with low terracotta wall, distant Apennine hills and folded undyed linen beneath part of the arrangement. No shop sign or architectural element continuing beyond the vignette.\nStyle/medium: original Plinian natural-history folio on honey-ivory vellum; iron-gall contours, tactile cross-hatching and stipple, opaque egg-tempera highlights and mineral watercolor; distinctive palette of cream, smoked amber, saffron ochre, terracotta madder, faded cobalt and olive; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate three-quarter still-life view with the five cheeses forming an asymmetrical rising rhythm across table and cradle, integrated into one courtyard rather than isolated specimens. Every cheese edge, table leg, cradle support, cloth fold, thyme leaf, brazier, smoke wisp, wall and hill ends at least 125 pixels before every canvas edge. The whole table and cradle are fully visible and nothing touches or continues beyond an edge. No water. Scene feathers into broad unmarked vellum. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: warm slanting morning light, abundant, tactile and celebratory.\nText: none.\nConstraints: exactly five cheeses total, all whole and distinct; exactly one table and one cradle; no people or animals.\nAvoid: extra cheese, sliced cheese, wedges, crumbs resembling extra cheese, food label, readable mark, brand, map, tasting figure, Zoroaster portrait, medical claim, immortality promise, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern packaging, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-3f92c8d4-b819-4103-93fa-6098f649f5fe",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly five whole, distinct cheeses: fresh goat cheese in a leaf-lined basket, pale sheep wheel, smoked amber cylinder, broad aged golden wheel and very large Luna-style wheel on its own cradle. The full table, cradle, brazier, thyme and cloth remain inside; no slice, extra cheese, label, pseudo-writing, person, animal, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:43",
+      "title": "DIFFERENCES OF THE MEMBERS OF MAN FROM THOSE OF OTHER ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c043.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "0217f9ee7f52a36cdccbda8034fa38b9b4f00e17d3e04dbf990f5e35309aa83e",
+        "englishSha256": "95e538a3aa5cf6ede473b28d4a8c7ee9c8d023f7927cb7ec3d664d07e773b485",
+        "latinWords": 130,
+        "englishWords": 307
+      },
+      "sha256": "994797b16c91aed92618091c533b6e56ef06ac9f02d5aef7d8c95a72a143c7d2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8e1dab21-0a06-4717-8bb8-2aa316c0db78",
+      "generationArtifactId": "exec-8e1dab21-0a06-4717-8bb8-2aa316c0db78",
+      "outputArtifact": "built-in-imagegen://exec-8e1dab21-0a06-4717-8bb8-2aa316c0db78.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 43 illustration master\nPrimary request: Interpret Pliny’s discussion of human hands, upright posture and animals that use forepaws through a dignified everyday observation, not an anatomy chart or hierarchy. Show exactly ONE complete clothed adult Roman craftsperson standing naturally at a low pottery bench, holding exactly ONE small unmarked clay cup securely between two anatomically plausible hands. The full body, both arms, both hands, all fingers, legs and sandaled feet are visible; the person wears a modest ankle-length undyed tunic with blue mantle and has an ordinary individual appearance. At a respectful distance on a separate low stone, show exactly ONE complete red squirrel seated naturally and holding exactly ONE hazelnut between its two forepaws. Human and squirrel are independent subjects sharing a courtyard, not mimicking, ranked, compared for worth or made comic.\nScene/backdrop: open Campanian craft courtyard with a low bench, two plain clay vessels in the background and distant olive hills. No weapon, gladiator school, measurement device, body display, physician, patient or crowd.\nStyle/medium: original Plinian natural-history folio on warm terracotta-grey vellum; iron-gall contour, precise exterior anatomy, fine cross-hatching and stipple, restrained mineral wash; distinctive palette of terracotta madder, faded cobalt, olive verdigris, ochre, umber and chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: eye-level diagonal composition, full standing craftsperson left-of-center, squirrel smaller at lower-right with generous ground between. The person’s hands and squirrel paws are readable but integrated into one lived scene, not enlarged insets. Every hair, garment hem, finger, sandal, squirrel ear, paw and tail, cup, nut, bench leg, background vessel, olive and hill ends at least 125 pixels before every edge. Both living subjects and every discrete prop are complete and distinct. No water. Entire courtyard dissolves softly into broad unmarked vellum. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: calm clear afternoon, attentive, humane and non-hierarchical.\nText: none.\nConstraints: exactly one human and one squirrel; exactly one cup in the person’s hands and one nut in the squirrel’s paws; plausible five-fingered human hands; full modest clothing; no bodily exposure.\nAvoid: anatomy diagram, specimen comparison, scale marks, labels, six fingers, missing fingers, unequal-limb spectacle, disability stereotype, dehumanization, racial caricature, animalized human, humanized animal, comedy, nudity, exposed organ, medical advice, violence, gladiator, extra person, extra animal, malformed hands or paws, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8e1dab21-0a06-4717-8bb8-2aa316c0db78",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete, modestly clothed Roman craftsperson holding one unmarked cup with plausible hands and exactly one complete squirrel holding one nut. Both subjects, all fingers, paws, feet, tail and props remain inside one courtyard. No anatomy chart, disability spectacle, dehumanization, nudity, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:44",
+      "title": "RESEMBLANCE OF THE APE TO MAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/b11-c044.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9d07d38ae9d46cdcac4ad05c5abd3b50787be8d021a7bd61bbfb0b44d8275db1",
+        "englishSha256": "66dfdbf6928fc12059574b2fff0ea46d15c5fbcd6ef2aeac335e20fcce9d251c",
+        "latinWords": 87,
+        "englishWords": 126
+      },
+      "sha256": "317e8d2b149be88db936fe1c109f03b461a15aaecb901d7a94e06818b96065ed",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-eb07dc4b-e6e8-431c-b95b-f3b87b9a7935",
+      "generationArtifactId": "exec-eb07dc4b-e6e8-431c-b95b-f3b87b9a7935",
+      "outputArtifact": "built-in-imagegen://exec-eb07dc4b-e6e8-431c-b95b-f3b87b9a7935.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book XI chapter 44 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the upper fig-tree canopy and the blank vellum around it. Shorten and softly taper every topmost and side-reaching branch so the complete crown—including every twig, leaf and hanging fig—ends at least 120 pixels before the top edge and at least 100 pixels before the left and right edges. Fill the new outer breathing room with the same softly mottled blank vellum sky. Keep the tree natural and asymmetrical; do not create a border.\nPreserve unchanged: the exact fully clothed seated Roman naturalist at left, his anatomy, pose, stool and single fig; the exact complete Barbary macaque at right, its neutral nonhuman anatomy, pose, stone, tail and single fig; the entire trunk below the upper canopy; distant orchard and hills; ground; palette; lighting; all lower and side edge spacing. Preserve the respectful non-hierarchical relationship and all subject counts.\nContext and ethics: this is a dignified response to an ancient ape-human comparison, with no hierarchy, caricature, dehumanization, racial coding, mimicry performance or modern biological claim.\nConstraints: exactly one human and one macaque; exactly one fig held by each; no added living subject; all discrete motifs fully inside; native 1536x1024 landscape, opaque RGB/sRGB.\nText: none.\nAvoid: changing either living subject, face, hands, feet, clothing, posture, expression or held fruit; moving the stool or stone; adding or deleting an animal or person; top-edge canopy contact; side-edge branch contact; hard frame; text, letters, numerals, pseudo-writing, signature, watermark, depicted page, panel, collage, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d5ed4fda-3861-4b5a-866c-086a819181cf",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-eb07dc4b-e6e8-431c-b95b-f3b87b9a7935",
+          "status": "accepted",
+          "editOfArtifactId": "exec-d5ed4fda-3861-4b5a-866c-086a819181cf"
+        }
+      ],
+      "editLineage": {
+        "acceptedEditOfArtifactId": "exec-d5ed4fda-3861-4b5a-866c-086a819181cf",
+        "editPurpose": "Shorten and feather only the fig canopy while preserving both living subjects, held fruits, respectful relationship, anatomy, palette and lower composition."
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection of the edited final found exactly one complete fully clothed human and one complete natural Barbary macaque, each independently holding one fig and looking at the fruit. Both subjects, hands, feet, tail, stool, stone and the now-complete fig crown remain safely inside. The image is balanced without mimicry, hierarchy, caricature, racial coding, dehumanization, nudity, text, pseudo-writing, panel, collage or clipping.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d5ed4fda-3861-4b5a-866c-086a819181cf",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-anatomy-wave-04/evidence/history/b11-c044-rejected-01-top-canopy-clipping.png",
+          "sha256": "b7f739a214e83aaab267e9b95b2fa9887f80fe420a576062f2fa6e5358dd55bb",
+          "outputArtifact": "built-in-imagegen://exec-d5ed4fda-3861-4b5a-866c-086a819181cf.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book XI chapter 44 illustration master\nPrimary request: Respond to Pliny’s ape-human comparison with a respectful, explicitly non-hierarchical shared natural scene. Show exactly TWO complete living subjects: exactly ONE fully clothed adult Roman naturalist seated calmly on a low stool at the left side of a fig orchard, and exactly ONE anatomically natural Barbary macaque seated independently on a separate low limestone at the right. Each subject holds exactly ONE ripe fig in its own hands while looking at the fruit rather than at the other. This parallel everyday action may invite careful observation of hands and posture, but it is not staged mimicry, a claim of equivalence, a ladder of beings, or a joke. The macaque remains wholly nonhuman, unclothed as an animal, with natural proportions, neutral expression, closed mouth and no exaggerated face; the human remains fully human, individual and dignified.\nScene/backdrop: a spacious North African fig orchard with one interior fig tree, low herbs and distant blue hills. No cage, chain, trainer, crowd, theater, laboratory, mirror, measuring instrument or specimen apparatus.\nStyle/medium: original Plinian natural-history folio on soft green-grey vellum; iron-gall contour, precise exterior anatomy, fine cross-hatching and stipple, layered mineral watercolor; distinctive palette of deep emerald verdigris, indigo lapis, plum madder, limestone chalk, warm umber and fig violet; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: balanced eye-level landscape with generous central negative space beneath the fig canopy; person and macaque occupy separate, equally attentive zones without mirrored poses or relative-status symbolism. The human’s full head, hands, modest ankle-length tunic, legs and sandaled feet are visible; the macaque’s complete head, eyelids, ears, hands, fingers, feet and tail are anatomically plausible and visible. Every hair, finger, fig, garment hem, sandal, stool leg, macaque limb and tail, stone, tree branch and hill ends at least 130 pixels before every canvas edge. No subject or discrete prop touches or continues beyond an edge. No water. Whole scene feathers to broad blank vellum. One continuous landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: filtered emerald-and-gold afternoon light, quiet, humane, intellectually open and non-hierarchical.\nText: none.\nConstraints: exactly one human and one macaque; exactly one fig held by each; both complete, separate and dignified; no human nudity and no visible animal genital anatomy.\nAvoid: evolutionary ladder, superiority or inferiority, missing-link trope, racial coding, dehumanization, caricature, monkey-face human, humanized ape, ape costume, mimicry performance, comedy, grin, bared teeth, aggression, cage, chain, touching, feeding, anatomy diagram, organs, mammary display, nudity, extra person, extra animal, malformed hands or feet, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+          "rejectionReason": "The human and macaque were dignified and complete, but the fig canopy was cut by the top edge, violating strict complete-discrete-motif framing.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 820,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "11:35": {
+        "nearestMAD": 30.64,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c002.png",
+        "dHashAtMadPeer": 13,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c002.png",
+        "madAtDHashPeer": 30.64
+      },
+      "11:36": {
+        "nearestMAD": 27.26,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c037.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "madAtDHashPeer": 30.32
+      },
+      "11:38": {
+        "nearestMAD": 23.71,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c049.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c001.png",
+        "madAtDHashPeer": 69.55
+      },
+      "11:39": {
+        "nearestMAD": 25.33,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c008.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c004.png",
+        "madAtDHashPeer": 33.2
+      },
+      "11:40": {
+        "nearestMAD": 24.54,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c006.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c007.png",
+        "madAtDHashPeer": 42.83
+      },
+      "11:42": {
+        "nearestMAD": 30.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c016.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c010.png",
+        "madAtDHashPeer": 48.55
+      },
+      "11:43": {
+        "nearestMAD": 31.18,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c046.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c018.png",
+        "madAtDHashPeer": 37.54
+      },
+      "11:44": {
+        "nearestMAD": 24.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c016.png",
+        "dHashAtMadPeer": 16,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b17-c028.png",
+        "madAtDHashPeer": 26.02
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-anatomy-wave-04",
+    "status": "pass",
+    "output": ""
+  }
+}

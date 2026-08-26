@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-49",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "2:88",
+      "title": "LANDS WHICH HAVE BEEN SEPARATED BY THE SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "41486c3ee3db7302ebc019d685d0e9a2741564f0b70fd5eb4cafe6db829c54b6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0f9bfcaf-7182-4bea-8e9b-6ff02575244b",
+      "generationArtifactId": "exec-0f9bfcaf-7182-4bea-8e9b-6ff02575244b",
+      "outputArtifact": "built-in-imagegen://exec-0f9bfcaf-7182-4bea-8e9b-6ff02575244b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 88, “Lands Which Have Been Separated by the Sea”\nPrimary request: Ground the scene in Pliny’s transmitted report that a new island emerged in the Tuscan gulf burning with violent breath, while keeping the ancient account distinct from verified modern reconstruction. Use a dramatic HIGH-OBLIQUE NEAR-AERIAL viewpoint with NO horizon and NO sky. One complete newborn volcanic island occupies only the central fifty percent of the image: an irregular closed perimeter of black-brown lava and ochre pumice, visibly surrounded on every side by a very broad continuous ring of dark muted-verdigris seawater. The entire island coastline is readable and stays comfortably inside the image. Its complete shallow crater glows with restrained madder-orange heat. Directly above the crater is ONE SMALL COMPACT UPRIGHT steam-and-ash puff, no taller than the crater is wide; the whole closed outline and tip of this puff must end over the island itself with a broad halo of open water visible above and on both sides, never approaching any canvas edge. Exactly three small warm-spring pools steam on one lower terrace, clearly within the island. In the upper-left water, exactly one complete small ancient wooden fishing boat with exactly two complete Roman-period fishermen turns away at a safe distance; show the entire hull, bow, stern, gunwales, two oars, both people, and one loose coil of rope wholly inside the image. No fish, dead animals, food, casualty, city, second island, coastline, sun, moon, clouds, or distant mountain.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of deep lampblack, dark umber, muted verdigris, oxidized madder, pale ochre, and only a trace of faded lapis; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; volcanic-island dialect with dense charred texture, stippled pumice, circling dark water, coppery thermal accents, and a small contained vapor puff; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024, pulled farther back and looking down at roughly fifty degrees. Build a rotating asymmetrical composition around the closed island perimeter, off-center crater, small contained puff, and tiny upper-left boat. Keep at least fifteen percent open water between every island extremity and every canvas edge. Keep at least twenty percent canvas height of open water between the vapor tip and the top edge. Preserve the full island, crater rim, all three spring pools, entire vapor puff, entire boat, both fishermen, both oars, rope, wakes, shadows, and reflections within generous breathing room. One continuous overhead marine scene only, never a map, atlas plate, cutaway, diagram, before-and-after sequence, panel, collage, repeated crop, or simple horizon seascape.\nHistorical and epistemic framing: depict a Roman-era visualization of Pliny’s reported eruption and island emergence, not a geologically verified location, timing, mechanism, or measurement.\nOutput intent: one opaque RGB/sRGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum texture and painted atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, internal frame, cartouche, ruled line, caption area, or vignette boundary.\nAvoid: any island, vapor puff, boat, person, oar, rope, pool, wake, reflection, or primary shadow touching an edge; tall diagonal plume, plume reaching top or right edge, foreground cliff, observer on land, low horizon, broad pale blue sky, centered distant island, extra people, extra boat, extra island, wrong spring count, dead fish, active injury, gore, magical aura, modern volcanology equipment, lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, split panel, collage, grid, floating disconnected prop, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete high-oblique newborn island, closed coastline, contained crater and vapor puff, exactly three warm-spring pools, complete ancient boat, two complete fishermen, two oars, rope, wakes and shadows all remain inside broad water margins. No fish, casualty, text, pseudo-writing, page edge, border, panel, repeated crop, modern object or clipped primary subject was found. Accepted after preserving one globally colliding seascape and one plume-clipping reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-4ad267cc-f7db-44da-83ff-224f52a0915d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c088-rejected-01-exec-4ad267cc-f7db-44da-83ff-224f52a0915d-global-mad.png",
+          "sha256": "cd7b9ccd97c760f77347096146b53144d65ee3acb4b93efc57733fe02df60158",
+          "reason": "Rejected after native visual acceptance because its horizon seascape collided with trees-aromatics-wave-41/b02-c005.png at MAD 19.19, below the required 20. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-cf18fb0e-52f2-410d-8ad2-71fc43d82539.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c088-rejected-02-exec-cf18fb0e-52f2-410d-8ad2-71fc43d82539-plume-clipped.png",
+          "sha256": "950d96f33f6c6ac3a38b8dcace149b8cdaf1a791c72e58a4dd0a23d6e4dabb71",
+          "reason": "Rejected at original-resolution review because the primary ash plume continued through the upper-right canvas edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:89",
+      "title": "ISLANDS WHICH HAVE BEEN UNITED TO THE MAIN LAND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c089.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "a75013b5137b96046f2d11e436ceee3d8771e37bc4f985489ff04439255efd87",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-291c8e2b-cf94-4652-be0d-61154273b4d8",
+      "generationArtifactId": "exec-291c8e2b-cf94-4652-be0d-61154273b4d8",
+      "outputArtifact": "built-in-imagegen://exec-291c8e2b-cf94-4652-be0d-61154273b4d8.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 89, “Islands Which Have Been United to the Main Land”\nPrimary request: Ground the scene in Pliny’s list of former islands absorbed into adjacent coasts—Antissa into Lesbos, Zephyrium into Halicarnassus, Æthusa into Myndus, and others. Visualize the general ancient observation as one plausible Ionian coastal land bridge rather than a labelled reconstruction of a specific named site. Show exactly one complete low rocky former-island hill in the middle distance, now unmistakably joined to the mainland by one broad continuous ochre sand-and-silt isthmus. The entire joining neck is visible from mainland to hill, dry and traversable, with sparse reeds, two shallow residual lagoons, and a narrow ancient foot track. Exactly one complete farmer walks along the track leading exactly one complete small donkey by a loose plain rope; both are modest in scale, fully grounded on the new land, and separated from every edge. No bridge, causeway masonry, boat, harbour wall, city, survey instrument, or modern shoreline engineering.\nScene/backdrop: clear Ionian morning from a high bluff, muted verdigris reeds, faded-lapis lagoons and sea, ochre silt bars, distant complete low hills, and broad pale sky. The joining land—not water or eruption—is the dominant shape.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; sedimented-coast dialect with delicate reed hatching, dry ochre shoals, translucent lagoon color, and soft morning distance; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; spacious high-oblique S-curve composition. Place the mainland low in the left foreground, let the complete broad isthmus sweep through center, and place the complete former-island hill in the right-middle with open sea beyond its entire outer coast. Put the complete farmer and donkey near the middle of the dry neck, small but legible. Preserve the whole hill silhouette, entire joining isthmus, both lagoons, farmer from head through feet, donkey from ears through tail and all four hooves, rope from end to end, reeds, tracks, hills, water, and shadows wholly inside generous breathing room. One continuous landscape only, never a map, chronological comparison, diptych, panel, collage, or repeated frame.\nHistorical and epistemic framing: present the joined-island idea as a visual interpretation of Pliny’s geographic report, not a verified reconstruction of the timing or mechanism at any named site.\nConstraints: exactly one former-island hill, one continuous dry land bridge, two shallow lagoons, one complete adult, one complete donkey, and one complete rope; historically plausible dress and landscape; natural anatomy; opaque RGB/sRGB.\nAvoid: any hill, person, donkey, rope, lagoon, reed mass, or shadow touching an image edge; volcanic plume, cliff rupture, flood, masonry bridge, pier, modern road, extra people, animals, boats, buildings, labels, map symbols, lettering, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible page edge, torn sheet, decorative border, internal frame, split panel, collage, grid, repeated crop, floating object, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subjects.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The former-island hill, entire dry sedimented isthmus, two residual lagoons, complete farmer, complete donkey and complete loose rope are legible and wholly contained. The scene is one coherent high-oblique coastal landscape with no map, label, pseudo-writing, panel, border, modern engineering or clipped primary subject. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:90",
+      "title": "LANDS WHICH HAVE BEEN TOTALLY CHANGED INTO SEAS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c090.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "f67ed98b3637742cef978202f86f2b745478c2a07b5aca741cccd9b4eecf1199",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1640c369-1c2b-41bc-b004-20734cc86950",
+      "generationArtifactId": "exec-1640c369-1c2b-41bc-b004-20734cc86950",
+      "outputArtifact": "built-in-imagegen://exec-1640c369-1c2b-41bc-b004-20734cc86950.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 90, “Lands Which Have Been Totally Changed into Seas”\nPrimary request: Ground the scene in Pliny’s report that whole tracts were carried away by the sea—while preserving his explicit caveat “if Plato is to be believed” about the Atlantic and avoiding any claim of a verified reconstruction. Show the quiet AFTERMATH of a drowned Mediterranean valley from a steep high-oblique viewpoint at high noon, with NO sky and NO active flood. Make this a deliberately HIGH-KEY, PEARLESCENT scene: very pale translucent aqua, pearl-white, and diluted faded-lapis water fills the entire image field, allowing the warm vellum ground to glow through. The center and all four edges share the same luminous water value and texture, with NO vignette, halo, oval spotlight, faded perimeter, border, or dark corners. Beneath the clear water, ONE SHORT COMPLETE S-CURVED FRAGMENT of an old dark iron-gall earth-and-stone road lies entirely within the left-middle. BOTH broken ends of this finite road are visibly tapered and dissolve beneath water, with broad open water between either end and every canvas edge; it does not enter from or exit through an edge and never forms a grid. Exactly three complete drowned olive-tree crowns remain visibly rooted below the surface around, but not on, the road fragment; render each as a crisp dark lampblack-and-verdigris silhouette, fully separated, differently shaped, and surrounded by pale water. One complete low burnt-madder and deep-umber ridge remnant rises above water in the lower-right-middle, wholly surrounded by a thin bright foam line. Far in the upper-left-middle, one short complete dark ochre broken ridge crest rises as a smaller asymmetrical echo. The two ridges differ clearly in size, silhouette, and orientation. NO people, animals, boats, staffs, ropes, cords, chains, linear shadows, paths from ridges, buildings, foundations, milestones, fish, corpses, active disaster, Atlantis city, temples, columns, or modern devices.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; unusually pale translucent mineral washes of pearl-white vellum, dilute faded lapis and muted verdigris, contrasted by dark lampblack tree crowns and road, burnt madder ridges, and small ochre accents; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; high-key drowned-land dialect with luminous water, crisp submerged ink forms, dark tree silhouettes, and warm isolated ridges; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024, pulled far back and looking down at roughly fifty degrees. Use an asymmetrical circulating composition: the complete finite S-shaped road and three tree crowns occupy the left-middle, the larger complete ridge anchors lower-right-middle, and the smaller complete crest balances upper-left-middle. Pale water occupies at least four fifths of the canvas. Keep both road ends, all three complete rooted trees, both complete ridge remnants, foam, ripples, shadows, and reflections comfortably inside broad luminous open-water margins. Continue the same uniformly pale water pigment and visible vellum grain naturally through every edge. No narrow line, groove, crack, wake, rope, cord, or shadow-line may extend from either ridge toward any edge. One continuous flooded-basin scene only, never an atlas plate, archaeological diagram, underwater cutaway, map, grid, split panel, collage, repeated crop, symmetrical twin-island composition, vignette, or framed study.\nHistorical and epistemic framing: present the drowned landscape as an atmospheric Roman-era interpretation of Pliny’s compiled reports, not proof of Atlantis, not a precise map, and not a verified account of scale, date, or mechanism.\nOutput intent: one opaque RGB/sRGB master at exactly 1536x1024.\nFull-bleed invariant: fibrous vellum texture, pale water, and painted atmosphere fill the canvas edge to edge at one consistent luminous tone; no visible sheet, page edge, torn paper, mat, decorative border, internal frame, dark perimeter, vignette, cartouche, ruled line, caption area, or spotlight boundary.\nAvoid: road end touching edge, road entering from bottom or left, road continuing beyond frame, edge-exiting line, dark overall palette, night scene, dry ochre field, uneven edge darkening, black corners, oval vignette, centered horizon, cloud sky, matching islands, active catastrophe, drowning, ruins, foundation blocks, columns, diagrammatic lines, floating disconnected trees, wrong tree count, extra ridges, magical glow, modern science certainty, lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, split panel, collage, grid, floating prop, photography, photorealism, glossy CGI, smooth digital rendering, or any primary subject touching an edge.",
+      "generationAttempts": 9,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key drowned valley contains one finite S-curved road fragment with both submerged ends visible inside the frame, exactly three complete rooted olive crowns and two complete asymmetrical ridge remnants, all surrounded by luminous water. No person, boat, ruin grid, text, pseudo-writing, vignette, border, panel, edge-exiting line, modern certainty or clipped primary subject was found. Accepted after eight preserved rejects spanning framing, perimeter, stray-line and global-similarity gates; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fa6b71b8-1caa-4a94-bf87-3485ae3957b5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-attempt-01-edge-clipped-headlands.png",
+          "sha256": "971ab7b17724a78405d0da6225dab18da3777ced4874bbf8f9d07ed2669e47a0",
+          "reason": "Rejected at original-resolution review because both main headlands continued through the lateral canvas edges and the submerged track read as overly straight masonry. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-601d6746-2c98-47bc-a154-4866acfacf33.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-attempt-02-edge-touching-promontories.png",
+          "sha256": "0b8b369a07cd9295fa6c416b1d29e2b3da0257f2acf4b733fa13b176c64b1b86",
+          "reason": "Rejected at original-resolution review because both intended small promontories still continued through the left and right canvas edges. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-855c45ba-1d77-4d59-ba92-3eae5f0f5538.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-rejected-03-exec-855c45ba-1d77-4d59-ba92-3eae5f0f5538-global-mad.png",
+          "sha256": "45b99ddc65782ec0842aa982a537a6e2bbfacb0c2bfc3a41e44680c517365e36",
+          "reason": "Rejected after native visual acceptance because its centered drowned-land panorama collided with trees-aromatics-wave-26/b18-c034.png at MAD 18.36, below the required 20. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-91dc2605-ebb8-4aad-9d58-5c274824afd7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-rejected-04-exec-91dc2605-ebb8-4aad-9d58-5c274824afd7-road-clipped.png",
+          "sha256": "63f9cf0cb00187b6b854fa5224fbffac62131bc6657702a8baa1e853f56e004e",
+          "reason": "Rejected at original-resolution review because the primary submerged road continued through the bottom canvas edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-330aef43-572f-4d8a-8e5f-2436167a17ee.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-rejected-05-exec-330aef43-572f-4d8a-8e5f-2436167a17ee-dark-vignette.png",
+          "sha256": "130b20569c7d99b6aea7cdcb4e7778929fb32f962064d86aba00ee691c1d2d77",
+          "reason": "Rejected at original-resolution review because strong dark perimeter shading formed an unintended internal vignette or frame. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-1eeed0f8-63a6-4c6e-88b3-0226cc371921.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-rejected-06-exec-1eeed0f8-63a6-4c6e-88b3-0226cc371921-edge-exiting-line.png",
+          "sha256": "ced5954154dc9cba52c7b0276a0e2110c56fb0ee6f5f97611869f6bcec9307eb",
+          "reason": "Rejected at original-resolution review because an unintended rope-like linear artifact extended from the foreground ridge through the bottom canvas edge. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-e1da658f-4aa2-431b-90ac-69796fc79af9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-rejected-07-exec-e1da658f-4aa2-431b-90ac-69796fc79af9-global-mad.png",
+          "sha256": "f8ab057808c1190b211aed2eade829f044ca5f6db7abb0851b1e2cf9bef3ead7",
+          "reason": "Rejected after native visual acceptance because the luminous teal version collided with trees-aromatics-wave-40/b25-c013.png at MAD 19.84, below the required 20. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b1b48de1-ed4a-438c-b04d-06fe1cfab356.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c090-rejected-08-exec-b1b48de1-ed4a-438c-b04d-06fe1cfab356-global-mad.png",
+          "sha256": "04e36dc8481d7e6d2fdb415096789eadaff5046b01b8279e34f3202a742d661d",
+          "reason": "Rejected after native visual acceptance because the dark nocturne collided with trees-aromatics-wave-41/b02-c008.png at MAD 13.13, below the required 20. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:91",
+      "title": "LANDS WHICH HAVE BEEN SWALLOWED UP",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c091.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "b03fa3ec563df1748b6b2c8cfdfd36d5fd71785081be28e7759ab8356c39da69",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-868276d5-9986-410a-8be4-e3c701183584",
+      "generationArtifactId": "exec-868276d5-9986-410a-8be4-e3c701183584",
+      "outputArtifact": "built-in-imagegen://exec-868276d5-9986-410a-8be4-e3c701183584.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 91, “Lands Which Have Been Swallowed Up”\nPrimary request: Ground the scene in Pliny’s claim that “the earth feeds on itself,” naming Mount Sipylus and the lost city Tantalis among lands swallowed. Depict a quiet imagined Magnesian aftermath rather than active destruction. Show exactly one complete vast irregular earth-collapse basin sunk into a dry mountain plateau. Its entire broken rim forms one continuous closed shape wholly visible inside broad surrounding ground; layered ochre and lampblack walls descend toward a shadowed floor. Along one inner slope, exactly three disconnected but grounded remnants of plain ancient stone terrace walls step downward into the basin, suggesting a lost settlement without inscriptions, columns, temples, bodies, or a complete city. Exactly one complete adult traveler stands safely on firm ground well outside the rim in the upper-left-middle, holding one complete plain walking staff and looking down. The person does not approach the edge or gesture magically. No sea, flood, volcano, smoke, earthquake wave, or active collapse.\nScene/backdrop: high dry Sipylus-like plateau at late golden hour, one complete distant ridge, sparse wind-bent scrub, broad tawny negative space, and a calm faded-lapis sky. Earth and shadow dominate the palette.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; swallowed-earth dialect with dense contour hatching, exposed strata, dusty vellum abrasion, sparse verdigris scrub, and solemn chiaroscuro; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; dramatic high-oblique view with the complete collapse basin placed off-center in the lower-right-middle and occupying less than half the canvas. Surround the full rim with a broad ring of intact plateau so its closed geometry and safe distance are unmistakable. Place the complete traveler and staff small in the upper-left-middle, separated by open ground. Preserve the entire rim, basin floor, all three wall remnants, traveler from head through feet, staff from end to end, scrub, ridge, sky, and every primary shadow wholly inside generous breathing room. One continuous terrain only, never a cutaway diagram, archaeological plate, before-and-after panel, collage, or repeated frame.\nHistorical and epistemic framing: present the swallowed-land basin as a visual interpretation of places Pliny reports lost, not a verified reconstruction of Tantalis or a modern explanation of its fate.\nConstraints: exactly one complete closed collapse basin, three grounded terrace-wall remnants, one complete adult, and one complete staff; plausible ancient clothing, masonry, and anatomy; opaque RGB/sRGB.\nAvoid: any basin rim, person, staff, wall remnant, ridge, or shadow touching an image edge; active disaster, falling person, corpse, wound, panic, fire, sea, flood, lava, smoke, extra chasms, buildings, columns, statues, animals, people, modern archaeology tools, labels, lettering, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible page edge, torn sheet, decorative border, internal frame, split panel, collage, grid, repeated crop, floating stone, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subjects.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete closed collapse basin, all three grounded terrace-wall remnants, the complete traveler and complete staff remain inside intact plateau margins. The quiet aftermath preserves the chapter as transmitted geography without active disaster. No lettering, pseudo-writing, panel, border, modern tool, floating masonry or clipped primary subject was found. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:92",
+      "title": "CITIES WHICH HAVE BEEN ABSORBED BY THE SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c092.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "87841c94960b01e562860c2b44dd021c6acd05a30ae453c5e91004802036569f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e89d4b81-c231-4a4e-85d6-cd5c605cc0b9",
+      "generationArtifactId": "exec-e89d4b81-c231-4a4e-85d6-cd5c605cc0b9",
+      "outputArtifact": "built-in-imagegen://exec-e89d4b81-c231-4a4e-85d6-cd5c605cc0b9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 92, “Cities Which Have Been Absorbed by the Sea”\nPrimary request: Ground the scene in Pliny’s report that traces of Helice and Bura remained visible beneath the Gulf of Corinth after the sea carried the cities away. Depict a calm ancient observation long after the event, not active catastrophe. Through exceptionally clear shallow water, show exactly four complete low irregular stone foundation remnants on the sea floor, each a short broken L- or crescent-shaped footing softened by sediment and sparse sea grass. They form a loose asymmetrical suggestion of former dwellings, never a complete city, straight grid, map, panel, or modern archaeological plan. A faint curved ancient lane of pale stones winds between them and disappears naturally under sand. Above the remains floats exactly one complete small plain wooden fishing boat, wholly inside the upper-left-middle. Exactly one complete fisherman kneels securely inside it and leans over the gunwale with one empty hand shading the eyes, looking down; the other hand rests naturally on the boat. One complete coiled rope and one complete pair of resting oars lie grounded inside the boat. No diver, corpse, statue, inscription, cargo, fish, ruins above water, or additional vessel.\nScene/backdrop: quiet Gulf of Corinth morning seen from a high oblique angle, translucent faded-lapis and muted-verdigris water, pale ochre sand, restrained underwater shadows, a distant complete low coast, and a broad calm horizon.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; submerged-city dialect with transparent layered washes, wavering ink refraction, softened stone grain, quiet sea grass, and pale light shafts; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; high-oblique diagonal composition, materially different from the centered drowned-land panorama. Place the complete boat in the upper-left-middle and the four complete underwater foundations in a loose descending arc through the lower-right-middle. Reserve a broad band of empty clear water between boat and ruins. Preserve the entire hull, bow, stern, gunwales, fisherman from head through knees and feet, both hands, rope coil, both complete oars, every foundation remnant, curved lane, sea grass, coast, water, and all shadows wholly inside generous breathing room. One continuous water scene only, never an underwater cutaway, atlas plate, split panel, collage, repeated frame, or before-and-after view.\nHistorical and epistemic framing: present the submerged traces as a visual interpretation of Pliny’s report, not a verified reconstruction of Helice or Bura and not proof of the scale or circumstances described.\nConstraints: exactly one complete boat, one complete adult, one rope coil, two complete oars, four complete irregular foundation remnants, and one faint curved lane; historically plausible boat, clothing, and anatomy; opaque RGB/sRGB.\nAvoid: any boat, person, oar, rope, foundation, coast, or shadow touching an image edge; active flood, drowning, corpse, destruction, straight city grid, labelled plan, columns, statues, temples, modern dive gear, extra people, animals, fish, boats, lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible page edge, torn sheet, decorative border, internal frame, split panel, collage, grid, repeated crop, floating prop, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subjects.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete boat, complete kneeling fisherman, one rope coil, both complete oars, four distinct submerged foundation remnants and curved lane are readable and wholly contained in one calm high-oblique gulf scene. No diver, corpse, extra vessel, city grid, text, pseudo-writing, panel, border, modern equipment or clipping was found. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:94",
+      "title": "OF CERTAIN LANDS WHICH ARE ALWAYS SHAKING, AND OF FLOATING ISLANDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c094.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "9d933efbaa9c293afa2d79968ad436b6c84f7381514ae8b4285f6da2a0041859",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ddbcf762-5202-4812-849e-bb2afa0844bf",
+      "generationArtifactId": "exec-ddbcf762-5202-4812-849e-bb2afa0844bf",
+      "outputArtifact": "built-in-imagegen://exec-ddbcf762-5202-4812-849e-bb2afa0844bf.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 94, “Of Certain Lands Which Are Always Shaking, and of Floating Islands”\nPrimary request: Ground the scene precisely in this chapter’s short report: near Gabii, Pliny says roughly two hundred acres tremble when cavalry passes, and the same occurs at Reate. Show exactly two complete Roman-era mounted cavalry scouts crossing one broad soft meadow from left to right, deliberately different in depth, color, and gait. The nearer pair in the lower-left-middle is one complete dark bay horse walking with one forehoof raised and one complete rider in a restrained madder cloak. The farther pair in the upper-right-middle is one smaller complete pale gray horse at a light canter with one complete rider in a faded-lapis cloak. Exactly two riders and two horses total; no overlapping bodies and no formation continuing beyond the frame. Suggest the turf’s reported response only through subtle natural details: trembling reflections in shallow puddles, leaning reed tips, small irregular patches of loosened dark soil around recent hoof contacts, and gentle uneven bands of pressed grass trailing behind. Do not impose exact counts on these environmental traces. No glowing rings, shock-wave symbols, earthquake fissures, falling buildings, panic, combat, weapons, or injury.\nScene/backdrop: open green-ochre countryside outside ancient Gabii under a completely empty pale morning sky, one complete low distant grove, sparse reeds, shallow water glints, and broad atmospheric space. The sky contains absolutely no birds, insects, animal silhouettes, dots, glyph-like marks, or extra flying forms. Riders wear plain travel tunics, simple helmets, and carry no visible weapons, banners, writing, or insignia.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; trembling-meadow dialect with varied equine linework, two distinct cloak accents, watery reflected hatching, and subtle turf rhythm; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; spacious low-oblique diagonal view rather than a repeated side-by-side row. Place the larger dark horse-and-rider pair in the lower-left-middle and the smaller pale pair farther away in the upper-right-middle. Keep a broad strip of undisturbed meadow below all hooves, open ground between pairs, and empty sky above every helmet and ear. Preserve both complete riders from helmet to feet, every arm, hand and finger, both complete horses from ears through tails and all four legs and hooves, all tack, puddles, reeds, the complete grove, ground, and shadows wholly inside generous breathing room. One continuous historical field scene only, never a cavalry sequence, motion-study panel, diagram, collage, or repeated crop.\nHistorical and epistemic framing: present the trembling meadow as a reported ancient observation recorded by Pliny, not proof of a modern geophysical mechanism or measurement.\nConstraints: exactly two complete riders and exactly two complete horses, one dark bay foreground horse at a walk, one smaller pale gray background horse at a light canter, simple historically plausible tack and dress, natural human and equine anatomy, empty sky; opaque RGB/sRGB.\nAvoid: any rider, horse, ear, tail, hoof, tack, grove, or shadow touching an image edge; birds, insects, extra animals, extra riders or horses, duplicated identical poses, weapons, battle, charge, fallen person, rearing horse, wound, blood, earthquake crack, ruined building, glowing wave, diagram line, modern gear, lettering, captions, labels, numerals, pseudo-writing, insignia, signatures, logos, watermarks, visible page edge, torn sheet, decorative border, internal frame, split panel, collage, grid, repeated crop, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subjects.\nOutput intent: one unified full-bleed opaque landscape preservation master, no transparency, no external page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete mounted scouts and two complete horses remain separated in depth, gait and pigment; all limbs, hooves, tails, tack, shadows and the complete distant grove remain inside broad field margins. The sky is empty and the turf response is subtle rather than diagrammatic. No birds, extra soil-count artifact, weapons, text, pseudo-writing, panel, border or clipping was found. Accepted after preserving two semantic-count rejects; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9cb1d4df-162e-4e8e-92d4-94e986aa23ef.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c094-attempt-01-extra-birds.png",
+          "sha256": "47da89f13c9d16c0fa754918b67481219e6b5c6296b234eb6f355fc4e5a3cec2",
+          "reason": "Rejected at original-resolution review because four unintended birds appeared in the sky despite the empty-sky constraint. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-c4995a80-2063-4a6e-bfed-f259fe607788.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/evidence/history/b02-c094-attempt-02-extra-soil-puff.png",
+          "sha256": "7b5bc4f1036eeec89ea413a62869ab3497676d55167178bd0e44f495682b5d85",
+          "reason": "Rejected at original-resolution review because three visible soil puffs violated the prompt's exact count of two. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:95",
+      "title": "OF CERTAIN LANDS WHICH ARE ALWAYS SHAKING, AND OF FLOATING ISLANDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c095.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "b25f5682888ff1ac0d2151c486a438ed051f648d2a4dff18aa5a28e9d4996763",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cded0f43-6754-46a4-ad8e-5940ccb81e62",
+      "generationArtifactId": "exec-cded0f43-6754-46a4-ad8e-5940ccb81e62",
+      "outputArtifact": "built-in-imagegen://exec-cded0f43-6754-46a4-ad8e-5940ccb81e62.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration, exactly 1536×1024 (3:2), for Pliny the Elder, Naturalis Historia Book II chapter 95, “Of certain lands which are always shaking, and of floating islands.” Historical-scene use case: depict Pliny’s reported ancient tradition rather than a verified modern mechanism. A low, misty dawn view across the waters of Cutiliae: ONE complete floating island, an irregular coherent mat of reeds, roots, soil, and a dense lampblack-and-verdigris grove, sits off-centre and is visibly surrounded by uninterrupted lake water on every side. The entire root-and-reed waterline is readable. Exactly TWO complete ancient Roman-period citizens stand safely on the island and guide it with long plain wooden poles; both figures, both hands, both feet, and both poles must be wholly visible inside the composition, with no pole touching any edge. A single curved wake and bent reeds suggest slow drift; no magic, no catastrophe, no boat, no shoreline crowd, no other people or animals. Use a low lateral viewpoint with broad faded-lapis water and pale open mist as intentional negative space, distinct from a submerged-ruins panorama. Material language: an original deluxe Plinian natural-history folio image rendered directly across warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. Full-bleed image field with NO visible sheet, page edge, mat, decorative border, cartouche, frame, panel, split scene, collage, or repeated crop. Keep the complete island, grove, citizens, poles, wake, and shadows comfortably inside generous breathing room on all four sides; no clipped canopy, roots, limbs, clothing, tools, or shadows. Absolutely NO letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, floating disconnected objects, or duplicated motifs.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete floating reed-and-root island is surrounded by uninterrupted water, with its full grove, entire waterline, exactly two complete citizens and both complete guide poles wholly contained. No extra person, animal, boat, magic effect, text, pseudo-writing, panel, border, repeated crop or clipped primary subject was found. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:96",
+      "title": "PLACES IN WHICH IT NEVER RAINS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c096.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "5e1d667f22a3c934979013b9e201ef1983d65e3883edaafdaed8a43e8ac9b781",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a0d927a4-7bc4-4edf-bcb0-c911d9236417",
+      "generationArtifactId": "exec-a0d927a4-7bc4-4edf-bcb0-c911d9236417",
+      "outputArtifact": "built-in-imagegen://exec-a0d927a4-7bc4-4edf-bcb0-c911d9236417.png",
+      "exactFinalPrompt": "Create one independent full-resolution landscape illustration, exactly 1536×1024 (3:2), for Pliny the Elder, Naturalis Historia Book II chapter 96, “Places in which it never rains.” Historical-scene use case: present Pliny’s transmitted ancient claim without implying verified modern meteorology or medicine. Show the celebrated sanctuary precinct at Paphos from a high oblique three-quarter viewpoint during a Mediterranean rainstorm. One small COMPLETE unroofed rectangular ochre court and its modest COMPLETE plain Cypriot-Roman sanctuary portico are fully visible as a single coherent place, wholly contained near the lower-right third; every column base and capital, roof edge, court corner, paving edge, and cast shadow remains inside the image. Rain falls visibly over the surrounding cypress grove, distant hills, approach path, and wet stone precinct, with muted faded-lapis storm curtains and reflective puddles, yet the open court itself is clearly dry, softly illuminated, and free of puddles. Exactly ONE complete ancient attendant stands within the dry court, looking outward at the rain; show the full person, feet, garment, and shadow. No goddess, statue, altar, sacrifice, remains, healing act, medical treatment, miracle aura, lightning, crowd, other person, or animal. Use broad storm sky and rain-darkened landscape as intentional negative space, with the dry ochre court as the quiet focal contrast; keep the architecture restrained and historically plausible, not monumental. Material language: an original deluxe Plinian natural-history folio image rendered directly across warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. Full-bleed image field with NO visible sheet, page edge, mat, decorative border, cartouche, frame, panel, split scene, collage, or repeated crop. Keep the complete sanctuary, court, attendant, trees, path, and their shadows comfortably inside generous breathing room on all four sides; no clipped architecture, vegetation, limbs, garments, or shadows. Absolutely NO letters, captions, labels, numerals, pseudo-writing, inscriptions, carved writing-like ornament, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, floating disconnected objects, or duplicated motifs.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete plain Paphian sanctuary portico, complete unroofed court and complete attendant are fully contained; rain-dark surrounding ground contrasts clearly with the dry ochre court. No statue, sacrifice, medical act, miracle aura, inscription, pseudo-writing, panel, border, modern object or clipped architecture was found. Accepted on the first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 465,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:88": {
+        "nearestMAD": 20.58,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c037.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c042.png",
+        "madAtDHashPeer": 82.42
+      },
+      "2:89": {
+        "nearestMAD": 25.56,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c018.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c010.png",
+        "madAtDHashPeer": 35.24
+      },
+      "2:90": {
+        "nearestMAD": 23.31,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c011.png",
+        "madAtDHashPeer": 86.1
+      },
+      "2:91": {
+        "nearestMAD": 24.56,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c013.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c019.png",
+        "madAtDHashPeer": 57.94
+      },
+      "2:92": {
+        "nearestMAD": 22.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c010.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b24-c019.png",
+        "madAtDHashPeer": 41.59
+      },
+      "2:94": {
+        "nearestMAD": 24.2,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c005.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c021.png",
+        "madAtDHashPeer": 38.9
+      },
+      "2:95": {
+        "nearestMAD": 27.48,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c013.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c027.png",
+        "madAtDHashPeer": 38.43
+      },
+      "2:96": {
+        "nearestMAD": 28.94,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c034.png",
+        "madAtDHashPeer": 39.92
+      }
+    }
+  }
+}

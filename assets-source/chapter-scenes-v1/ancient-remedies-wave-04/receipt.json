@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 1,
+  "campaign": "ancient-remedies-wave-04",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "28:20",
+    "29:1",
+    "29:2",
+    "29:3",
+    "29:4",
+    "29:5",
+    "29:6",
+    "30:1"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in revised prompts and artifact IDs were extracted from the current ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "sha256": "7297f744b879fe661751ff3d256e206bdc67ced91cac61038f417a2ced53f75c"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "sha256": "725bd11e16ae8d9637e5236f18a0e7c063d432b5f52473b45213877b6d0ca4f0"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "sha256": "2dc2a1d22287891f88144f1f396e9bdcd4e79fb9a5ac06d2a9653e1c8ad8ff98"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English entries for Book XXVIII chapter 20, Book XXIX chapters 1 through 6, and Book XXX chapter 1 were read before prompting. Remedies, poison and counter-poison claims, animal-derived practices, divine healing, resurrection, divination and magic remain transmitted ancient testimony, with Pliny's skepticism preserved where present. Accepted scenes use healthy living animals, dignified clothed scholarship, ordinary craft and sealed material culture; they omit recipes, symptoms, bodily materials, suffering, harm and supernatural verification.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 1,
+    "builtInEditCalls": 4,
+    "acceptedBuiltInEdits": 3,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "requestedCampaign": "ancient-remedies-wave-04",
+    "receiptsCheckedAtSelection": 105,
+    "nonEvidenceMastersCheckedAtSelection": 822,
+    "receiptsCheckedAtCertification": 108,
+    "nonEvidenceMastersCheckedAtCertification": 852,
+    "selectedKeys": [
+      "28:20",
+      "29:1",
+      "29:2",
+      "29:3",
+      "29:4",
+      "29:5",
+      "29:6",
+      "30:1"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "chapters": [
+    {
+      "chapterKey": "28:20",
+      "title": "REMARKABLE FACTS RELATIVE TO ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b28-c020.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "a65e23fa0e8b0d951c09297e1b18a1e4a1bb3ebcbe6c841217f1c2e6eac58ac0",
+        "englishSha256": "1d4e30e5dc8fd4e1766f10d2c0347163f1977858f720a4785c7a9117ca1e89c4",
+        "latinWords": 258,
+        "englishWords": 555,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "38b4f88d8bd8f50e3d7b9afc4cf0a413f830a391e62f7f6d14b4da3fa31c99b1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-28a37cd8-05ac-401d-9f37-0de8751bf84c",
+      "generationArtifactId": "exec-28a37cd8-05ac-401d-9f37-0de8751bf84c",
+      "outputArtifact": "built-in-imagegen://exec-28a37cd8-05ac-401d-9f37-0de8751bf84c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVIII chapter 20 illustration master\nPrimary request: Create a humane Roman stable-yard observation inspired by Pliny's transmitted catalogue of remarkable animal lore, without demonstrating or endorsing any remedy, omen, mutilation, killing, blood use, or magical protection. Show exactly FOUR complete living animals in one continuous landscape: exactly ONE calm chestnut horse standing freely in the open stable yard, exactly ONE russet ox and exactly ONE cream sheep walking peacefully out through a broad stable doorway, and exactly ONE distant grey wolf moving naturally beyond a low dry-stone field boundary. The wolf is far from the domestic animals and no animal is pursuing, threatening, injured, frightened, restrained, or treated. An adult fully clothed Roman stablekeeper stands beside an interior stone shelf, simply examining exactly ONE intact detached iron horseshoe held in both hands as an object of reported lore; no application or ritual occurs.\nScene/backdrop: spacious Campanian farm at clear dawn, timber-and-stone stable wholly visible in the middle ground, dry meadow, olive scrub and pale volcanic hills. No active fire, smoke, carcass, weapon, trap, dung, wound, medicine, food preparation, ritual circle, or boundary marking.\nStyle/medium: original Plinian natural-history folio atmosphere on warm sand-toned vellum; confident iron-gall contour, fine cross-hatching, dry-brush grain, restrained mineral watercolor and occasional burnished highlights; palette of chestnut, straw gold, Pompeian red, dusty olive, slate blue and ivory; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: spacious high-oblique landscape with the stable as an interior architectural anchor, domestic animals crossing a diagonal of morning light, stablekeeper and horseshoe in a distinct calm side zone, and tiny wolf well separated in the far field. Every ear, horn, hoof, tail, finger, garment hem, horseshoe, wall, door, roofline, tree, hill and animal silhouette ends at least 120 pixels before all four canvas edges. No discrete subject or structure touches or continues beyond an edge. No water. The landscape feathers softly into broad unmarked vellum on all sides. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: lucid amber dawn, observant and tranquil, with a quiet sense of ancient testimony being considered rather than believed.\nText: none.\nConstraints: exactly one horse, one ox, one sheep, one wolf and one adult human; all complete, countable, anatomically plausible and fully internal.\nAvoid: animal harm, sacrifice, broken legs, cut throat, blood, bodily fluids, illness, panic, pursuit, predation, fire rescue, magic shown as fact, actionable veterinary or medical procedure, children, nudity, dehumanization, extra living subject, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-28a37cd8-05ac-401d-9f37-0de8751bf84c",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found exactly one complete stablekeeper holding one horseshoe, one horse, one ox, one sheep and one distant wolf, all anatomically plausible, calm, separated and fully internal. No fire, harm, bodily material, treatment, magic, water, writing, panels or clipping appears.",
+      "epistemicAndDignityNote": "The horseshoe, wolf-track, livestock and veterinary claims remain transmitted ancient lore. The accepted scene shows humane observation only and supplies no ritual or medical action.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "29:1",
+      "title": "THE ORIGIN OF THE MEDICAL ART",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c001.png",
+      "corpusArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "corpusReadEvidence": {
+        "latinSha256": "dd90927de3be7225ab6259078d460c87bbadbd2b6cc20fa88f88a2293c7ffb80",
+        "englishSha256": "78451800b6dc1a2f9bbc7532fd79fc7ce1c18e6cee8e61cbca80b91c1e25f766",
+        "latinWords": 1645,
+        "englishWords": 3996,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "7e257f7ec05a24ba3eebdcfa5be7b12e799a75bfbbdbb31db156a507f1ae44f1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4ea2545d-da07-40c8-b1d7-3fcd0a70261b",
+      "generationArtifactId": "exec-4ea2545d-da07-40c8-b1d7-3fcd0a70261b",
+      "outputArtifact": "built-in-imagegen://exec-4ea2545d-da07-40c8-b1d7-3fcd0a70261b.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXIX chapter 1 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the small distant healing temple's horizontal entablature and triangular pediment surfaces. Remove every letter-like, numeral-like, glyph-like, inscription-like or pseudo-written mark from that temple. Replace those marks with plain pale weathered limestone, sparse natural stone grain and a few simple non-symbolic chips. The temple must have absolutely no inscription, label, relief text, repeated marks or pseudo-writing.\nPreserve unchanged: the exact complete seated physician-scholar, his face, hands, clothing, chair and feet; exactly three eggs, folded fleece, herb sprig, round table, closed ornate medicine chest, scroll cases, extinguished lamp, complete Aesculapius statue, snake staff, columns, trees, hills, mosaic pavement, lighting, palette, style, framing and all subject counts. Do not change any other object.\nContext: a humane historical reflection on medicine's origins and Pliny's skepticism, not modern medical advice or supernatural endorsement.\nComposition/framing: preserve the native 1536x1024 landscape and every existing edge margin. Keep all discrete motifs fully internal and water absent. Opaque RGB/sRGB.\nText: none.\nConstraints: exactly one living human and no living animal; exactly three eggs; one closed chest; all preserved.\nAvoid: any readable or unreadable writing, pseudo-inscription, glyph, label, signature, watermark, new symbol, extra object, changed face or anatomy, open chest, patient, illness, blood, wound, magic, clipping, border, depicted page, panel, collage, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-002e19cf-88f9-4b03-83e7-43d6a9bd15f0",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4ea2545d-da07-40c8-b1d7-3fcd0a70261b",
+          "status": "accepted",
+          "editOfArtifactId": "exec-002e19cf-88f9-4b03-83e7-43d6a9bd15f0"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-4ea2545d-da07-40c8-b1d7-3fcd0a70261b",
+            "editOfArtifactId": "exec-002e19cf-88f9-4b03-83e7-43d6a9bd15f0",
+            "result": "accepted"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the precise edit found one complete seated physician-scholar, exactly three eggs, one folded fleece, one herb sprig, one closed medicine chest, closed scroll cases, an extinguished lamp and complete distant temple and statue. The temple surfaces are blank; there is no patient, remedy action, miracle, water, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Medical schools, divine origin stories, resurrection claims and Pliny's criticism of profit remain historical testimony. The scene contrasts simple observation with a closed elaborate chest and gives no modern medical advice.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-002e19cf-88f9-4b03-83e7-43d6a9bd15f0",
+          "outputArtifact": "built-in-imagegen://exec-002e19cf-88f9-4b03-83e7-43d6a9bd15f0.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/evidence/history/b29-c001-rejected-01-pseudo-inscription.png",
+          "sha256": "463f356ef709aaf4d19b1451550dd8659d24405d64f2b9bee08d19e1f2cedaf8",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXIX chapter 1 illustration master\nPrimary request: Create a dignified historical scene about the origin and changing schools of the medical art, centered on Pliny's preference for careful inquiry and his skepticism toward costly spectacle. Show exactly ONE complete fully clothed mature Greek physician-scholar seated in an open sanctuary courtyard, calmly comparing simple natural materials: one small clean folded fleece, exactly THREE intact hen eggs in a shallow bowl, and one sprig of a common herb. His hands rest above the table in an attentive but non-prescriptive gesture; he is not treating anyone and no patient is present. Beside the simple materials sits one firmly CLOSED ornate medicine chest, suggesting elaborate compound remedies left unexamined. A modest distant healing temple and a single fully contained stone statue of Aesculapius stand in the middle distance, clearly historical architecture rather than a supernatural apparition.\nScene/backdrop: a spacious Hellenistic sanctuary on Cos with pale columns, plane trees, dry mosaic pavement without symbols or writing, and blue hills. Closed blank scroll cases and an extinguished bronze lamp may sit on a rear shelf, with no visible writing or labels. No clinic procedure, sickbed, bath, surgery, wound, body exposure, crowd, oracle performance, phoenix, lightning, miracle, or resurrection.\nStyle/medium: original Plinian natural-history folio on cool ivory vellum; iron-gall contour, measured classical perspective, fine cross-hatching and stipple, translucent mineral wash with a few worn gold accents; distinctive palette of Aegean blue, chalk white, faded madder, olive leaf, wool cream and aged bronze; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: broad eye-level portico view, scholar and simple materials in the left-center, closed chest in the right-center, temple and statue small and fully internal beyond. The scholar's entire head, hands, robe, chair and sandaled feet are visible. Every egg, fleece edge, herb, chest corner, lamp, scroll case, statue, column, roofline, tree crown and hill ends at least 125 pixels before every canvas edge. No discrete subject touches or continues beyond an edge. No water. Soft atmospheric feathering creates generous blank vellum on all four sides. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: clear late-morning light, lucid, humane and intellectually skeptical.\nText: none.\nConstraints: exactly one living human and no living animal; exactly three intact eggs; one closed chest; all objects complete and countable.\nAvoid: modern medical advice, recipe demonstration, patient, illness, blood, wound, surgery, exposed anatomy, bodily fluids, suffering, death, resurrection, miracle endorsed as fact, pharmaceutical branding, greed caricature, ethnic caricature, child, nudity, open chest, loose powders, potion mixing, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "The first scene was otherwise complete and dignified, but the distant temple entablature contained faint inscription-like pseudo-writing, so it failed the no-text gate."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "29:2",
+      "title": "THIRTY-TWO REMEDIES DERIVED FROM WOOL-GREASE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c002.png",
+      "corpusArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d6def362bc677bd396161f52b2a1454f26c5361ffe33fd4b447754000384a0c8",
+        "englishSha256": "38c79bf1ad3163e1836a0fce6ed2f16815e43bfa638f90f20ee1f54589781948",
+        "latinWords": 507,
+        "englishWords": 1093,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "0288aaa2ade41e0058371b0a9817f5cbc0bbe4f9567d87d4635ac7cd701fed16",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c2e14e7a-29c7-4312-9986-cc7ad6393497",
+      "generationArtifactId": "exec-c2e14e7a-29c7-4312-9986-cc7ad6393497",
+      "outputArtifact": "built-in-imagegen://exec-c2e14e7a-29c7-4312-9986-cc7ad6393497.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXIX chapter 2 illustration master\nPrimary request: Create a humane Roman wool-work courtyard inspired by Pliny's transmitted catalogue of wool-grease remedies, without displaying a medical application or a preparation recipe. Show exactly ONE complete fully clothed adult wool worker seated at a low bench, gently teasing and carding one already-shorn raw fleece with two simple wooden combs. Show exactly ONE complete healthy Attic sheep standing freely in a small open olive-shaded paddock behind the worker, calm, unrestrained and with a normal full coat. On a separate stone stand sit exactly ONE empty copper basin and exactly ONE firmly CLOSED small pewter box, presented only as historical material culture; nothing is boiling, mixed, applied, ingested, burned, or administered.\nScene/backdrop: sunlit Mediterranean farm courtyard with limestone paving, a low wool rack holding two neatly folded undyed fleeces, olive leaves, distant dry hills and no other person or animal. No bridal ritual, patient, wound, illness, bandage, smoke, fire, cauldron, furnace, liquid, exposed body, shearing blade, forced handling or veterinary procedure.\nStyle/medium: original Plinian natural-history folio on pale flax-colored vellum; crisp iron-gall contour, fibrous dry brush, delicate cross-hatching and softly granulating mineral watercolor; distinctive palette of wool cream, sage green, oxidized copper, dusty rose, warm limestone and muted violet; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate high-oblique courtyard view, worker and fleece forming a quiet circular rhythm in the foreground, closed vessels separated on the right, sheep wholly visible in the middle-distance paddock. The worker's entire head, hands, tunic, legs and sandaled feet are visible; the sheep's complete horns or ears, legs, hooves and tail are visible. Every comb tooth, fleece edge, vessel rim, box corner, rack, olive branch, hoof, paving stone and hill ends at least 125 pixels before every canvas edge. No discrete motif touches or continues beyond an edge. No water. The courtyard softly dissolves to generous unmarked vellum on all sides. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: quiet rose-gold afternoon, tactile, industrious and contemplative.\nText: none.\nConstraints: exactly one living adult human and one living sheep; all complete; one empty basin and one closed box; no remedy enacted.\nAvoid: animal distress, tight restraint, shearing in progress, blood, bodily fluids, dung, medical advice, remedy instructions, bodily treatment, pregnancy, childbirth, genital anatomy, wound, burn, illness, suffering, child, nudity, extra person, extra animal, active flame, steam, liquid, open container, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c2e14e7a-29c7-4312-9986-cc7ad6393497",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete clothed wool worker carding an already-shorn fleece, one complete healthy sheep, two folded fleeces on a rack, one empty copper basin and one closed pewter box. All motifs are internal; no shearing, restraint, bodily material, boiling, treatment, water, writing, panels or clipping appears.",
+      "epistemicAndDignityNote": "The wool-grease remedies remain transmitted ancient practice. The accepted image records wool craft and closed material culture without preparation, application or medical claim.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "29:3",
+      "title": "TWENTY-TWO REMEDIES DERIVED FROM EGGS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c003.png",
+      "corpusArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7ce19c75198216adf7cc3daf1b603358c928a93b6813e67c9c7d25a8b973199b",
+        "englishSha256": "76015e8e17f22eb9d0af4b99165dd1aff3a84d2d9f42986711f53b8ce21df6a2",
+        "latinWords": 1079,
+        "englishWords": 2231,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2a275d057de52757bb2f72b8877d43f0f1a8f6aab5fbcf6e00f8a8d25e2470ef",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-06fdb314-aa6f-4be4-bb69-adcfe577181c",
+      "generationArtifactId": "exec-06fdb314-aa6f-4be4-bb69-adcfe577181c",
+      "outputArtifact": "built-in-imagegen://exec-06fdb314-aa6f-4be4-bb69-adcfe577181c.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXIX chapter 3 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the center of the straw nest. Add exactly ONE intact pale egg in the clear central gap among the four existing nest eggs, slightly behind the two lower eggs and below the two upper eggs. The new egg must be wholly visible as its own complete oval and naturally seated in the straw. The finished nest must contain exactly FIVE intact eggs total.\nPreserve unchanged: all four existing nest eggs; the exact complete tawny hen and every feather, leg and foot; the separate upright egg on the limestone block; the single bronze ring around that upright egg; block, unlit brazier, pomegranate shrub, crocus flowers, thyme, hills, dry ground, palette, lighting, folio style, framing and all edge margins. Do not add, crack, merge, resize or move any existing egg.\nContext: an observational historical natural-history scene, not medical advice or magic.\nComposition/framing: preserve the native 1536x1024 landscape and broad blank vellum edge space. All discrete subjects remain fully internal. No water. Opaque RGB/sRGB.\nText: none.\nConstraints: exactly one hen and exactly SIX intact eggs total—exactly five in the nest plus exactly one upright on the block; no other living subject.\nAvoid: extra egg, missing egg, cracked egg, chick, embryo, changed hen anatomy, new animal, new object, medicine, magic, liquid, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panel, collage, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d5f6663d-132e-4cf3-becf-69721fa8100e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-21569820-c456-4d20-b494-d5f739bd4fba",
+          "status": "rejected-native-qa",
+          "editOfArtifactId": "exec-d5f6663d-132e-4cf3-becf-69721fa8100e"
+        },
+        {
+          "generationArtifactId": "exec-06fdb314-aa6f-4be4-bb69-adcfe577181c",
+          "status": "accepted",
+          "editOfArtifactId": "exec-21569820-c456-4d20-b494-d5f739bd4fba"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-21569820-c456-4d20-b494-d5f739bd4fba",
+            "editOfArtifactId": "exec-d5f6663d-132e-4cf3-becf-69721fa8100e",
+            "result": "rejected-native-qa"
+          },
+          {
+            "generationArtifactId": "exec-06fdb314-aa6f-4be4-bb69-adcfe577181c",
+            "editOfArtifactId": "exec-21569820-c456-4d20-b494-d5f739bd4fba",
+            "result": "accepted"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the final precise edit found exactly one complete hen and exactly six intact eggs: five individually countable in the nest and one upright on a separate stone within one bronze ring. All are fully internal and unharmed; no chick, embryo, medicine, magic, liquid, writing, panel, collage or clipping appears.",
+      "epistemicAndDignityNote": "Egg remedies and the Druid serpent-egg story remain transmitted ancient claims. The accepted scene limits itself to ordinary hen-and-shell observation and a harmless shell-strength allusion.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d5f6663d-132e-4cf3-becf-69721fa8100e",
+          "outputArtifact": "built-in-imagegen://exec-d5f6663d-132e-4cf3-becf-69721fa8100e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/evidence/history/b29-c003-rejected-01-extra-egg.png",
+          "sha256": "880d81c345988fcba6be97b905c04878bd8772b1f5d2fb70b3bf90909bcd8ce3",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXIX chapter 3 illustration master\nPrimary request: Create a serene natural-history study inspired by Pliny's long chapter on eggs, emphasizing ordinary observation rather than medical claims or druidic magic. Show exactly ONE complete healthy tawny Roman hen standing beside a shallow straw nest that contains exactly FIVE intact pale eggs. A SIXTH intact egg stands upright on its broad end upon a separate smooth limestone block, with one very light open bronze ring resting horizontally across its upper curve as a quiet visual reference to Pliny's observation about shell strength; the egg is not cracking, being cooked, mixed, administered, or used upon a body. No other bird, animal, person, chick, embryo, snake, or magical object appears.\nScene/backdrop: an open garden aviary at luminous dawn with low thyme, saffron crocus, pomegranate leaves, a small unlit clay brazier far behind, and distant chalk hills. All ground is dry. No vessel of liquid, remedy preparation, injury, patient, child, druid, chase, river, supernatural effect, caduceus, serpent egg, or ritual.\nStyle/medium: original Plinian natural-history folio on luminous eggshell vellum; precise iron-gall contour, feathery stipple, shell-like chalk highlights and translucent mineral watercolor; distinctive palette of saffron, cinnabar comb red, cobalt shadow, pomegranate green, shell white and soft umber; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: close high-oblique garden view with the hen and five-egg nest as a curved focal group in the left-center, upright sixth egg and bronze ring clearly separated at right-center, low vegetation making an asymmetrical oval. The hen's entire comb, beak, wings, legs, feet and tail are visible; every egg contour, ring, straw end, leaf, brazier, stone and hill ends at least 130 pixels before all canvas edges. No discrete motif touches or continues beyond an edge. No water. Soft pigment and line feather into generous blank vellum around the whole continuous scene. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: pearly dawn with saffron glints, quiet, exact and curious.\nText: none.\nConstraints: exactly one hen and exactly six intact eggs total; no other living subject; all complete and countable.\nAvoid: medical advice, remedy instructions, raw egg mixture, ingestion, application to skin or eyes, illness, wound, burn, blood, bodily fluids, childbirth, nudity, suffering, broken shell, cracked egg, chick, embryo, dead animal, serpent cluster, magic endorsed as fact, extra egg, extra bird, malformed feet, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "The first scene rendered six eggs in the nest plus the separate upright egg, producing seven eggs instead of the exact requested total of six."
+        },
+        {
+          "generationArtifactId": "exec-21569820-c456-4d20-b494-d5f739bd4fba",
+          "outputArtifact": "built-in-imagegen://exec-21569820-c456-4d20-b494-d5f739bd4fba.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/evidence/history/b29-c003-rejected-02-too-few-eggs.png",
+          "sha256": "d681a9d098561a67c0bdfd2b01fdca3e3f9afd43d01c475a00239d73a67b8269",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXIX chapter 3 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the straw nest and remove exactly ONE egg from it: remove the small partially occluded central egg located between the upper egg and the two lower eggs. Replace only that egg's former area with naturally interwoven dry straw and soft nest shadow. The finished nest must contain exactly FIVE intact eggs, all individually visible and countable.\nPreserve unchanged: the exact complete tawny hen and every feather, leg and foot; the other five nest eggs; the separate sixth upright egg on the limestone block; the single bronze ring around that upright egg; block, unlit brazier, pomegranate shrub, crocus flowers, thyme, hills, dry ground, palette, lighting, folio style, framing and all edge margins. Do not add, crack, merge, resize or move any remaining egg.\nContext: an observational historical natural-history scene, not medical advice or magic.\nComposition/framing: preserve the native 1536x1024 landscape and broad blank vellum edge space. All discrete subjects remain fully internal. No water. Opaque RGB/sRGB.\nText: none.\nConstraints: exactly one hen and exactly SIX intact eggs total—exactly five in the nest plus exactly one upright on the block; no other living subject.\nAvoid: extra egg, missing egg, cracked egg, chick, embryo, changed hen anatomy, new animal, new object, medicine, magic, liquid, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panel, collage, photorealism, glossy CGI.",
+          "reason": "The first count-correction edit removed two nest eggs, leaving four in the nest plus the separate upright egg, so the exact requested total was still not met.",
+          "editOfArtifactId": "exec-d5f6663d-132e-4cf3-becf-69721fa8100e"
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "29:4",
+      "title": "REMEDIES DERIVED FROM THE DOG",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c004.png",
+      "corpusArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d92b203ee70c5c17e9036234c9754e1d97112d0caed0bb2c395ca2c836276d7a",
+        "englishSha256": "27e7d8588fcf35a5df9653c1545e2a53f0dad17ba00b5c350eed613674402b58",
+        "latinWords": 2226,
+        "englishWords": 4836,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "420385e27e2824266fda8d063749e8b2a6ce2b09a58b8477b0cc97d58e2d7944",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-53ffb4ee-1475-4830-96fa-41d7a8f9749e",
+      "generationArtifactId": "exec-53ffb4ee-1475-4830-96fa-41d7a8f9749e",
+      "outputArtifact": "built-in-imagegen://exec-53ffb4ee-1475-4830-96fa-41d7a8f9749e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXIX chapter 4 illustration master\nPrimary request: Create a humane twilight courtyard study for Pliny's chapter traditionally titled “remedies derived from the dog,” while treating its many violent, venomous and magical claims as transmitted ancient reports rather than fact or advice. Show exactly THREE complete living animals, calm and widely separated: exactly ONE healthy tawny Roman farm dog reclining awake on a woven mat in the foreground; exactly ONE small house weasel standing naturally beside a distant storage wall at far left; and exactly ONE non-threatening Aesculapian snake loosely coiled on its own sun-warmed limestone at far right. Show exactly ONE complete fully clothed adult Roman naturalist standing in the middle distance with both hands resting on the firmly CLOSED lid of a plain clay storage coffer, signaling restraint and observation; the person neither touches nor treats any animal.\nScene/backdrop: enclosed dry villa herb court at indigo dusk, with one cypress, low thyme and a fully visible small portico. The dog, weasel and snake occupy separate zones with no pursuit, confrontation, fear, restraint or implied remedy. No sacrifice, gibbet, trap, carcass, anatomical specimen, venom, medicine mixture, wound, patient, fire, smoke, food, amulet, basilisk, dragon, salamander, scorpion, spider, bat, owl or extra creature.\nStyle/medium: original Plinian natural-history folio on smoke-blue vellum; elegant iron-gall contour, close fur and scale hatching, velvety stipple and layered mineral watercolor; distinctive palette of deep indigo, copper ochre, cypress green, violet madder, pale limestone and moonlit silver; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low eye-level triangular composition, reclining dog as the large but complete foreground anchor, naturalist upright and fully visible behind, tiny weasel left and snake right each isolated by broad negative pavement. Every ear, paw, tail, finger, garment fold, sandal, whisker, snake coil and tongue, stone, coffer, portico roof and cypress crown ends at least 125 pixels before all canvas edges. No discrete subject or structure touches or continues beyond an edge. No water. The dry courtyard dissolves softly into broad unmarked vellum on every side. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: copper afterglow under deepening indigo, watchful, humane and skeptical.\nText: none.\nConstraints: exactly one adult human, one dog, one weasel and one snake; all complete, countable, anatomically plausible and unharmed; coffer closed.\nAvoid: animal killing, sacrifice, crucifixion, dismemberment, dead animal, blood, bodily fluids, venom use, antidote recipe, medical advice, wound, bite, illness, suffering, fear, aggression, capture, handling, magic shown as fact, dehumanization, child, nudity, extra living subject, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-53ffb4ee-1475-4830-96fa-41d7a8f9749e",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete naturalist, one healthy reclining dog, one complete house weasel and one complete Aesculapian snake, widely separated and calm around one closed coffer. No sacrifice, threat, bite, venom use, animal-derived preparation, illness, water, writing, panels, collage or clipping appears.",
+      "epistemicAndDignityNote": "The dog, serpent, venom and magical-remedy catalogue is treated as ancient testimony. Healthy living animals and the closed coffer replace every violent or actionable claim.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "29:5",
+      "title": "VARIOUS COUNTER-POISONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c005.png",
+      "corpusArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "corpusReadEvidence": {
+        "latinSha256": "78e13c3161d24edbbd34287a5ee1c0197b4cd99917526e03bbb96eb6e0eba6a3",
+        "englishSha256": "fdcb983bf086e0c1e075084bacd0220b77238b926ff5545997261dcc2621c9a9",
+        "latinWords": 526,
+        "englishWords": 1042,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2fde981e1ed49adaa4823e93dae69d781c1d0a538bcef0b27330a55d81e1616e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-28b84f87-6a8b-4c39-9d5d-3b1f57f9b485",
+      "generationArtifactId": "exec-28b84f87-6a8b-4c39-9d5d-3b1f57f9b485",
+      "outputArtifact": "built-in-imagegen://exec-28b84f87-6a8b-4c39-9d5d-3b1f57f9b485.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXIX chapter 5 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the dry moss mushroom group at the upper center of the basalt table. Add exactly ONE additional whole small mushroom in the open moss space just left of the existing smaller mushroom and slightly behind it. Give the new mushroom one complete pale stem and one complete mottled ivory cap, fully distinct and countable. The finished group must contain exactly THREE whole mushrooms total.\nPreserve unchanged: both existing mushrooms; sealed honey amphora and its red wax; stoppered blue-black flask; empty naturally shed snake slough and linen; closed wooden medicine case and red cord; extinguished lamp, empty mortar, basalt table, brick niche, window, lighting, palette, folio style, framing and all edge margins. Do not open, move, cut, duplicate or alter any existing object.\nContext: a symbolic historical still life of transmitted counter-poison claims, not advice or an actionable recipe.\nComposition/framing: preserve native 1536x1024 landscape, broad vellum margins, all objects fully internal, no water or visible liquid, opaque RGB/sRGB.\nText: none.\nConstraints: exactly three whole mushrooms; no living subject; all vessels remain firmly closed or empty.\nAvoid: extra mushroom, cut mushroom, loose powder, visible liquid, mixture, medical procedure, dead animal, magic effect, new object, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panel, collage, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-da256778-0342-4e28-b0bc-3c85ed96e454",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-28b84f87-6a8b-4c39-9d5d-3b1f57f9b485",
+          "status": "accepted",
+          "editOfArtifactId": "exec-da256778-0342-4e28-b0bc-3c85ed96e454"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-28b84f87-6a8b-4c39-9d5d-3b1f57f9b485",
+            "editOfArtifactId": "exec-da256778-0342-4e28-b0bc-3c85ed96e454",
+            "result": "accepted"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the precise edit found exactly three complete mushrooms, one sealed wax-lidded honey amphora, one stoppered opaque flask, one empty naturally shed snake slough on linen, one cord-bound closed wooden case, one extinguished lamp and one empty mortar. Every object is internal; nothing is mixed, opened or administered, and no text, panel, collage, water or clipping appears.",
+      "epistemicAndDignityNote": "Counter-poison claims remain transmitted ancient history. The image is a sealed, non-actionable material-culture still life with no recipe, dosage, consumption or animal harm.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-da256778-0342-4e28-b0bc-3c85ed96e454",
+          "outputArtifact": "built-in-imagegen://exec-da256778-0342-4e28-b0bc-3c85ed96e454.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/evidence/history/b29-c005-rejected-01-too-few-mushrooms.png",
+          "sha256": "66a04cdbf179a977a876b6848b27ffbb2fe5166f5a5debe3128c02e3e527bbac",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXIX chapter 5 illustration master\nPrimary request: Create a symbolic Roman material-culture still life for Pliny's catalogue of supposed counter-poisons, clearly withholding any recipe or endorsement. Arrange exactly FIVE complete historical objects on one dark basalt worktable: exactly ONE small lidded honey amphora sealed with plain red wax; exactly THREE whole wild mushrooms resting together on a small bed of dry moss and counted as one object group; exactly ONE tightly stoppered opaque blue-black ceramic flask; exactly ONE naturally shed empty snake slough loosely curved on dry linen; and exactly ONE firmly CLOSED plain wooden medicine case bound with a single red cord. Nothing is opened, poured, cut, ground, combined, heated, eaten, applied, or measured. A small extinguished bronze lamp and one unused empty mortar may sit far behind as quiet context, but no pestle, powders, liquids, animal remains or human hand appear.\nScene/backdrop: dim vaulted Roman storeroom with a dry basalt table, softly visible brick niche and a patch of evening light. No living subject, patient, dog, bird, blood, wound, poison scene, antidote demonstration, food service, kitchen, ritual, or magical effect.\nStyle/medium: original Plinian natural-history folio on charcoal-tinted vellum; etched iron-gall contour, dense stipple, worn dry-brush texture and jewel-like mineral washes; distinctive palette of lapis-black, malachite green, wax red, honey amber, mushroom ivory, bronze and ash grey; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate top-down three-quarter still life, five object groups forming a restrained spiral around a broad empty center of stone. Every amphora handle and lid, mushroom cap and stem, flask stopper, slough tip, linen fold, case corner and cord, lamp, mortar, table corner and niche ends at least 135 pixels before all canvas edges. No object touches or continues beyond an edge. No water or visible liquid. The architecture and table feather softly into broad unmarked vellum on all sides. One continuous scene, not a specimen board, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: narrow honey-gold evening beam against cool shadow, sober, mysterious and explicitly skeptical.\nText: none.\nConstraints: no living subjects; all stated objects whole, separate, fully internal and unlabelled; every vessel closed or empty; no instructions.\nAvoid: actionable poison or counter-poison recipe, dosage, mixing sequence, open vessel, visible liquid, loose powder, crushed plant, cut mushroom, consumption, medical treatment, illness, wound, blood, bodily fluids, dead or dismembered animal, suffering, magic shown as fact, skull, bones, child, nudity, extra animal, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "The first still life rendered only two whole mushrooms instead of the three required for an exact, countable object group."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "29:6",
+      "title": "REMEDIES FOR ALOPECY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c006.png",
+      "corpusArtifact": "public/corpus/book-29.725bd11e16ae8d96.json",
+      "corpusReadEvidence": {
+        "latinSha256": "499d1b541a9afbde0e296f32b6a719fff3afee4fabb292866110f3a74f73dd05",
+        "englishSha256": "582ae56da88c054e035ec8fa440f05e5f8bac4922bd069fae2fddd4b06549a49",
+        "latinWords": 2117,
+        "englishWords": 4437,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "c8e1bc506c7e80236651973ff60533fe4d32dc8c87dea886a16e3e3786f80660",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ce688bd2-f708-46c8-8fbc-735adab7922b",
+      "generationArtifactId": "exec-ce688bd2-f708-46c8-8fbc-735adab7922b",
+      "outputArtifact": "built-in-imagegen://exec-ce688bd2-f708-46c8-8fbc-735adab7922b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXIX chapter 6 illustration master\nPrimary request: Create a dignified Roman gem-engraver's workshop inspired by Pliny's chapter on alopecia, eyes and ears, avoiding every harmful animal-derived remedy. Show exactly ONE complete fully clothed older adult artisan with natural patterned hair loss and a smooth thinning crown, presented without shame, illness, caricature or treatment. The artisan sits comfortably at a compact bench carving one blank oval gemstone, then pauses to observe exactly ONE complete living emerald-green scarab beetle resting unharmed on a separate pale stone tile, echoing Pliny's harmless note that gem engravers looked at green scarabs to rest their sight. The beetle has exactly six visible legs, two antennae and closed wing cases; it is small but clearly countable. The artisan does not touch the insect or apply anything to the head, eyes, ears or skin.\nScene/backdrop: quiet Roman lapidary workshop with one low bench, three simple bronze engraving tools laid flat, a small unlit oil lamp, a closed wooden tool drawer, violet cloth and an open garden doorway showing dry laurel. No client, patient, mirror, medical vessel, animal remains, ash, blood, ointment, loose powder, razor, recipe, eye procedure, ear procedure, sacrifice, fire or smoke.\nStyle/medium: original Plinian natural-history folio on pearl-grey vellum; refined iron-gall contour, meticulous stipple, gem-like mineral watercolor and dry-brushed workshop dust; distinctive palette of emerald, amethyst, smoky umber, pale gold, bone ivory and muted teal; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate three-quarter view from slightly above, seated artisan fully visible on the left with entire head, hands, robe, knees and sandaled feet, bench and blank gem centered, green scarab isolated on its tile at right in clear negative space. Every hair, finger, sandal, tool tip, gemstone, beetle antenna and each of six legs, tile, lamp, drawer, doorway and laurel leaf ends at least 130 pixels before every canvas edge. No discrete motif touches or continues beyond an edge. No water. Workshop shadows feather into broad blank vellum on all sides. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool northern window light with small emerald and amethyst glints, absorbed, humane and quietly exact.\nText: none.\nConstraints: exactly one adult human and exactly one scarab beetle; beetle complete with six visible legs; all subjects fully internal; no remedy enacted.\nAvoid: ridicule, deformity, dehumanization, exaggerated baldness, hair-restoration promise, medical advice, treatment, application, exposed anatomy, wound, blood, bodily fluids, illness, suffering, dead or dismembered animal, child, nudity, extra person, extra animal, spider, snake, bird, malformed hand, malformed insect, extra or missing leg, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ce688bd2-f708-46c8-8fbc-735adab7922b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete, dignified, fully clothed older gem engraver with natural patterned hair loss and exactly one complete emerald scarab with six visible legs and two antennae on a separate tile. No treatment, symptom, animal remains, eye or ear procedure, water, writing, panel, collage or clipping appears.",
+      "epistemicAndDignityNote": "Alopecia, eye and ear remedies remain transmitted ancient claims. The accepted scene preserves the artisan's dignity and uses only Pliny's harmless observation that gem engravers rested their sight on green scarabs.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:1",
+      "title": "THE ORIGIN OF THE MAGIC ART",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b30-c001.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "0db793e0990619d6398709112eb8803d6f2217c71d7969d684d72bab6d8e9190",
+        "englishSha256": "add76a968d777ac6d5de0918f59d6785f1e76e486827e096571f5b8a40f75db4",
+        "latinWords": 746,
+        "englishWords": 1670,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "cae1042e094d27000bea9907e848b898c22c5d1f4afdfc11a73b4733a80f0872",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-80d952cf-d31e-4358-8ac8-faa70de00b91",
+      "generationArtifactId": "exec-80d952cf-d31e-4358-8ac8-faa70de00b91",
+      "outputArtifact": "built-in-imagegen://exec-80d952cf-d31e-4358-8ac8-faa70de00b91.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: revised final independent Naturalis Historia Book XXX chapter 1 illustration master\nPrimary request: Create a sober open-terrace scene for Pliny's skeptical account of the origin and spread of magic. Show exactly ONE complete fully clothed Roman historian-philosopher standing behind one SMALL FREESTANDING stone study table on a broad dry terrace. On the table sit exactly THREE separate, complete, unused objects representing the three disciplines Pliny says magic appropriated: at left exactly ONE empty bronze mortar with exactly ONE pestle laid beside it for medicine; at center exactly ONE fully extinguished bronze incense lamp with no smoke or flame for religion; at right exactly ONE small unmarked bronze armillary sphere made only of plain geometric rings for astrology. The scholar holds both open empty hands apart in a questioning gesture, keeping the objects separate rather than combining them. No ritual, prediction, cure, spell, apparition or supernatural event occurs.\nScene/backdrop: unroofed late-Republican terrace before dawn, with one low balustrade fully contained far behind and distant Persian-toned mountains beneath a natural star field with no drawn constellation lines. Exactly ONE firmly closed plain scroll chest sits on dry pavement behind the scholar. There are NO columns, roof, arch, enclosing doorway or large architecture. No altar, sacrifice, wand, book of spells, glowing object, smoke, fire, victim, crowd, patient, priest, king, caravan, human remains or magical creature.\nStyle/medium: original Plinian natural-history folio vignette on deep blue-grey vellum; disciplined iron-gall contour, nocturnal cross-hatching, dry pigment bloom and restrained mineral watercolor with sparse burnished bronze; distinctive palette of midnight lapis, moon silver, Persian ochre, muted crimson, smoke grey and old bronze; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: spacious high-oblique landscape, scholar centered but fully visible from head through both sandaled feet, small freestanding table wholly visible in front with all four legs ending on dry pavement, three objects spaced clearly across it, closed chest isolated behind. The entire composed terrace vignette occupies only the central 70 percent of the canvas. Every finger, garment hem, sandal, mortar rim, pestle tip, lamp handle, armillary ring, chest corner, table corner and leg, balustrade end and mountain ends at least 150 pixels before every canvas edge. No object, floor line or sky pigment touches or continues beyond any edge. Surround the whole scene on all four sides with broad softly mottled blank vellum. No water. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool pre-dawn starlight with low bronze reflections, intellectually alert, grave and explicitly skeptical.\nText: none anywhere, including no signature.\nConstraints: exactly one living human; exactly one mortar, one pestle, one extinguished lamp, one unmarked armillary sphere and one closed chest; every subject and structure fully internal; no supernatural effect or enacted practice.\nAvoid: full-width table, cropped table leg, roof beam, column, architectural frame, edge contact, endorsement of magic, spellcasting, prophecy, occult glamour, glowing aura, supernatural smoke, constellation diagram, zodiac, pentagram, rune, sigil, magic circle, human sacrifice, violence, blood, wound, suffering, dead body, medical advice, recipe, loose powder, visible liquid, child, nudity, extra person, extra animal, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, artist mark, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern telescope, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-87df5d17-7cf3-46a0-be8d-2f8d78884fa5",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-80d952cf-d31e-4358-8ac8-faa70de00b91",
+          "status": "accepted-independent-replacement"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacementOfArtifactId": "exec-87df5d17-7cf3-46a0-be8d-2f8d78884fa5",
+        "replacementMode": "new independent built-in generation with revised prompt",
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the independent replacement found exactly one complete clothed historian, one empty mortar with one pestle, one extinguished lamp, one plain armillary sphere and one closed chest on a fully internal freestanding table. The entire terrace vignette has broad vellum margins; no roof, column, edge contact, signature, pseudo-writing, magic effect, water, panel or collage appears.",
+      "epistemicAndDignityNote": "Pliny's origin and diffusion account explicitly attacks magical fraud. Medicine, religion and astrology are represented as three unused and visibly separate objects, with no ritual, prediction, spell or endorsement.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-87df5d17-7cf3-46a0-be8d-2f8d78884fa5",
+          "outputArtifact": "built-in-imagegen://exec-87df5d17-7cf3-46a0-be8d-2f8d78884fa5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/evidence/history/b30-c001-rejected-01-signature-and-frame-contact.png",
+          "sha256": "b4157fd74d409269baf8f921abdbe2f8b84be8dbc9d138dc53db90a39b3a78ff",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXX chapter 1 illustration master\nPrimary request: Create a sober historical scene for Pliny's skeptical account of the origin and spread of magic. Show exactly ONE complete fully clothed Roman historian-philosopher standing in a roofed observation loggia before a long stone table. On the table sit exactly THREE separate, complete and unused objects representing the three disciplines Pliny says magic appropriated: at left exactly ONE empty bronze mortar with its pestle resting beside it for medicine; at center exactly ONE fully extinguished incense lamp with no smoke or flame for religion; at right exactly ONE small unmarked bronze armillary sphere made only of plain geometric rings for astrology. The scholar holds both open empty hands apart above the table in a questioning gesture, keeping the objects visually separate rather than combining them. No ritual, prediction, cure, spell, apparition or supernatural event occurs.\nScene/backdrop: elevated late-Republican portico before dawn, dry limestone floor, two fully visible columns and a distant view toward quiet Persian-toned mountains beneath a natural star field with no drawn constellation lines. One firmly closed plain scroll chest stands behind the scholar; all scrolls remain closed and blank-sided. No altar, sacrifice, wand, book of spells, glowing object, smoke, fire, victim, crowd, patient, priest, king, caravan, human remains or magical creature.\nStyle/medium: original Plinian natural-history folio on deep blue-grey vellum; disciplined iron-gall contour, nocturnal cross-hatching, dry pigment bloom and restrained mineral watercolor with sparse burnished bronze; distinctive palette of midnight lapis, moon silver, Persian ochre, muted crimson, smoke grey and old bronze; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: wide frontal architectural view, scholar complete and centered behind the table, three objects spaced in a clear horizontal rhythm but embedded in one continuous room, columns and mountains forming depth rather than panels. The scholar's entire head, hands, robe and sandaled feet are visible. Every finger, garment hem, mortar rim, pestle tip, lamp handle, armillary ring, chest corner, column capital and base, roofline, mountain and visible architectural element ends at least 130 pixels before all canvas edges. No discrete motif touches or continues beyond an edge. No water. Architecture and night pigment feather softly to broad unmarked vellum on all sides. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool pre-dawn starlight with low bronze reflections, intellectually alert, grave and explicitly skeptical.\nText: none.\nConstraints: exactly one living human; exactly one mortar with one pestle, one extinguished lamp, one unmarked armillary sphere and one closed chest; no supernatural effect or enacted practice.\nAvoid: endorsement of magic, spellcasting, prophecy, occult glamour, glowing aura, supernatural smoke, constellation diagram, zodiac, pentagram, rune, sigil, magic circle, human sacrifice, violence, blood, wound, suffering, dead body, medical advice, remedy recipe, loose powder, visible liquid, child, nudity, extra person, extra animal, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern telescope, modern object, photorealism, glossy CGI.",
+          "reason": "The first scene contained a signature-like mark at lower left and let the roof and table architecture contact or crop against canvas edges, creating prohibited pseudo-writing and frame-like edge pressure."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 852,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "28:20": {
+        "nearestMAD": 33.49,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+        "madAtDHashPeer": 45.62
+      },
+      "29:1": {
+        "nearestMAD": 30.16,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c064.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c011.png",
+        "madAtDHashPeer": 34.14
+      },
+      "29:2": {
+        "nearestMAD": 27.85,
+        "madPeer": "assets-source/chapter-scenes-v1/materia-wave-03/b20-c011.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "madAtDHashPeer": 45.32
+      },
+      "29:3": {
+        "nearestMAD": 25.53,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c006.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c003.png",
+        "madAtDHashPeer": 46.12
+      },
+      "29:4": {
+        "nearestMAD": 26.06,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c018.png",
+        "dHashAtMadPeer": 16,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-01/b20-c003.png",
+        "madAtDHashPeer": 37.7
+      },
+      "29:5": {
+        "nearestMAD": 37.5,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c012.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c068.png",
+        "madAtDHashPeer": 65.02
+      },
+      "29:6": {
+        "nearestMAD": 35.81,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c020.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c011.png",
+        "madAtDHashPeer": 41.45
+      },
+      "30:1": {
+        "nearestMAD": 27.05,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-06/b09-c050.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c021.png",
+        "madAtDHashPeer": 70.1
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/ancient-remedies-wave-04",
+    "status": "pass",
+    "output": ""
+  }
+}

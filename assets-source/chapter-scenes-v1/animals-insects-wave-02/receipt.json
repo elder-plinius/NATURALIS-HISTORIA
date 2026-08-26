@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-insects-wave-02",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "corpusGrounding": {
+    "source": "public/corpus/book-11.6e41d61d4a8e3042.json",
+    "chaptersRead": [
+      "11:15",
+      "11:16",
+      "11:17",
+      "11:18",
+      "11:19",
+      "11:20",
+      "11:23",
+      "11:24"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The complete Latin and English corpus fields for every assigned chapter were read before prompt design. Ancient honey tests, bee reproduction and governance, husbandry claims, silk manufacture, and spider taxonomy are bounded as transmitted testimony rather than modern fact or advice."
+  },
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 805,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "11:15": {
+        "nearestMAD": 22.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+        "madAtDHashPeer": 34.01
+      },
+      "11:16": {
+        "nearestMAD": 26.14,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-06/b08-c045.png",
+        "madAtDHashPeer": 47.73
+      },
+      "11:17": {
+        "nearestMAD": 20.44,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c011.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c049.png",
+        "madAtDHashPeer": 62.85
+      },
+      "11:18": {
+        "nearestMAD": 23.08,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b23-c001.png",
+        "madAtDHashPeer": 38.07
+      },
+      "11:19": {
+        "nearestMAD": 27,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c025.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 10,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 37.08
+      },
+      "11:20": {
+        "nearestMAD": 24.15,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b03-c024.png",
+        "madAtDHashPeer": 55.98
+      },
+      "11:23": {
+        "nearestMAD": 20.78,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c017.png",
+        "madAtDHashPeer": 37.97
+      },
+      "11:24": {
+        "nearestMAD": 20.5,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c014.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c026.png",
+        "madAtDHashPeer": 41.39
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "11:15",
+      "11:16",
+      "11:17",
+      "11:18",
+      "11:19",
+      "11:20",
+      "11:23",
+      "11:24"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 11,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 3,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "11:15",
+      "visualQaNotes": "Inspected at original resolution. One complete rock-crystal honey bowl, one complete bronze testing probe and support, one unbroken honey thread, one complete thyme sprig, and one internal oculus form a single nocturnal storeroom scene; all discrete subjects are fully internal.",
+      "uncertaintyNote": "Ancient sensory tests for honey are presented as Pliny’s transmitted account, not as modern food-safety advice.",
+      "title": "HOW HONEY IS TESTED. ERICÆUM. TETRALIX, OR SISIRUM",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c015.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "3e96454e9fce4d9ad462b5e5de3d89e0cdd42c5acc17b370c47ffd03d73eeba4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4d08520e-231c-4443-b4f0-b652ae9f8f15",
+      "generationArtifactId": "exec-4d08520e-231c-4443-b4f0-b652ae9f8f15",
+      "outputArtifact": "built-in-imagegen://exec-4d08520e-231c-4443-b4f0-b652ae9f8f15.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 15, on ancient tests of honey by color, clarity, aroma, and the fine thread it draws. A silent Roman storeroom at night, no people: exactly ONE complete shallow rock-crystal bowl filled with translucent golden thyme honey sits fully inside the lower-left third on a rough dark porphyry slab. Exactly ONE complete slender bronze testing probe rests diagonally on a small complete stone support beside it; from the probe's rounded tip, exactly ONE unbroken hair-thin strand of honey stretches visibly down into the bowl, demonstrating viscosity without a hand. Exactly ONE complete fresh thyme sprig lies to the right, all stem ends and leaves visible. A fully internal circular wall oculus high at upper right admits pearly full-moon light, but the moon itself is not shown as a separate object. No bee, insect, animal, person, hand, jar, second vessel, flame, water, food other than honey, text, letters, numerals, labels, symbols, border, frame, page, diagram, collage, or panels. Keep bowl, probe, support, and sprig comfortably away from every edge. Composition: dramatic diagonal between the fine amber thread and round oculus, with deep charcoal negative space. Style continuity: museum-grade Roman natural-history fresco and egg tempera—optically precise honey and crystal, verdigris bronze, porphyry violet, thyme green, moonlit chalk, restrained shell-gold glints; hairline ink contour, stipple, abraded lime plaster, rough slab against selectively polished liquid and metal. Ancient, timeless, exceptionally beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-4d08520e-231c-4443-b4f0-b652ae9f8f15",
+          "outputArtifact": "built-in-imagegen://exec-4d08520e-231c-4443-b4f0-b652ae9f8f15.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 15, on ancient tests of honey by color, clarity, aroma, and the fine thread it draws. A silent Roman storeroom at night, no people: exactly ONE complete shallow rock-crystal bowl filled with translucent golden thyme honey sits fully inside the lower-left third on a rough dark porphyry slab. Exactly ONE complete slender bronze testing probe rests diagonally on a small complete stone support beside it; from the probe's rounded tip, exactly ONE unbroken hair-thin strand of honey stretches visibly down into the bowl, demonstrating viscosity without a hand. Exactly ONE complete fresh thyme sprig lies to the right, all stem ends and leaves visible. A fully internal circular wall oculus high at upper right admits pearly full-moon light, but the moon itself is not shown as a separate object. No bee, insect, animal, person, hand, jar, second vessel, flame, water, food other than honey, text, letters, numerals, labels, symbols, border, frame, page, diagram, collage, or panels. Keep bowl, probe, support, and sprig comfortably away from every edge. Composition: dramatic diagonal between the fine amber thread and round oculus, with deep charcoal negative space. Style continuity: museum-grade Roman natural-history fresco and egg tempera—optically precise honey and crystal, verdigris bronze, porphyry violet, thyme green, moonlit chalk, restrained shell-gold glints; hairline ink contour, stipple, abraded lime plaster, rough slab against selectively polished liquid and metal. Ancient, timeless, exceptionally beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c015.png",
+          "sha256": "3e96454e9fce4d9ad462b5e5de3d89e0cdd42c5acc17b370c47ffd03d73eeba4",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:16",
+      "visualQaNotes": "Inspected at original resolution. One complete translucent horn observation hive contains exactly one adult queen and one visible larva in an open cell, with one complete heather sprig nearby; the hive and every discrete subject remain fully internal.",
+      "uncertaintyNote": "The reproductive interpretation is bounded as Pliny’s transmitted observation rather than modern entomology.",
+      "title": "THE REPRODUCTION OF BEES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c016.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "5bf9d083c0d4fb9d130c7309d3a141a8b4ad3365f211958e0b742176c76a460b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-db85fc51-12bc-4c74-a7ee-9655e309aad6",
+      "generationArtifactId": "exec-db85fc51-12bc-4c74-a7ee-9655e309aad6",
+      "outputArtifact": "built-in-imagegen://exec-db85fc51-12bc-4c74-a7ee-9655e309aad6.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 16, on ancient investigation of bee reproduction. Treat the passage as uncertain historical observation, not modern entomological fact. Inside a quiet Roman study, show exactly ONE complete small observation hive made from translucent lantern horn, a low rectangular object fully visible and comfortably internal on a limestone bench. Through its glowing amber side, show exactly ONE complete adult queen bee standing on the comb and exactly ONE pale curled larva resting visibly within ONE open hexagonal wax cell; all other cells are empty or sealed flat, with absolutely no other bees, larvae, eggs, insects, or animal forms. The adult bee must have a complete head, two antennae, thorax, abdomen, six legs, and four wings, all internal and anatomically coherent. The larva is intact and calm, non-graphic. Exactly one complete sprig of autumn heather rests outside the hive, linking the chapter's ericaeum honey passage. No person, hand, smoke, violence, dead insect, food consumption, open flame, water, text, letters, numerals, labels, symbols, border, frame, page, inset, diagram, collage, panels, or split scene. Composition: close oblique view with the horn wall catching a single warm beam against cool blue-grey negative space. Style continuity: ancient Roman natural history rendered in exquisite egg tempera and mineral pigment over worn lime plaster—precise entomology, wax gold, heather mauve, horn translucency, faded lapis shadow, iron-gall contour, stipple, fine cross-hatching, rough substrate and selectively polished highlights. Ancient, timeless, beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-db85fc51-12bc-4c74-a7ee-9655e309aad6",
+          "outputArtifact": "built-in-imagegen://exec-db85fc51-12bc-4c74-a7ee-9655e309aad6.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 16, on ancient investigation of bee reproduction. Treat the passage as uncertain historical observation, not modern entomological fact. Inside a quiet Roman study, show exactly ONE complete small observation hive made from translucent lantern horn, a low rectangular object fully visible and comfortably internal on a limestone bench. Through its glowing amber side, show exactly ONE complete adult queen bee standing on the comb and exactly ONE pale curled larva resting visibly within ONE open hexagonal wax cell; all other cells are empty or sealed flat, with absolutely no other bees, larvae, eggs, insects, or animal forms. The adult bee must have a complete head, two antennae, thorax, abdomen, six legs, and four wings, all internal and anatomically coherent. The larva is intact and calm, non-graphic. Exactly one complete sprig of autumn heather rests outside the hive, linking the chapter's ericaeum honey passage. No person, hand, smoke, violence, dead insect, food consumption, open flame, water, text, letters, numerals, labels, symbols, border, frame, page, inset, diagram, collage, panels, or split scene. Composition: close oblique view with the horn wall catching a single warm beam against cool blue-grey negative space. Style continuity: ancient Roman natural history rendered in exquisite egg tempera and mineral pigment over worn lime plaster—precise entomology, wax gold, heather mauve, horn translucency, faded lapis shadow, iron-gall contour, stipple, fine cross-hatching, rough substrate and selectively polished highlights. Ancient, timeless, beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c016.png",
+          "sha256": "5bf9d083c0d4fb9d130c7309d3a141a8b4ad3365f211958e0b742176c76a460b",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:17",
+      "visualQaNotes": "Inspected at original resolution. Exactly seven complete bees—one central queen and six workers—form a measured ring on one complete vine leaf; all bodies, wings, legs, and the leaf are fully inside the frame.",
+      "uncertaintyNote": "The monarchical analogy is presented as an ancient interpretation of bee society, not a modern biological or political claim.",
+      "title": "THE MODE OF GOVERNMENT OF THE BEES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c017.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "b13a21e5ce5eccf8d8b8c3099440871e27e14f431fa0a6b2aeaab3f6c491aa17",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fa8ccc5f-c1f4-4a30-bf66-68c0915cd17f",
+      "generationArtifactId": "exec-fa8ccc5f-c1f4-4a30-bf66-68c0915cd17f",
+      "outputArtifact": "built-in-imagegen://exec-fa8ccc5f-c1f4-4a30-bf66-68c0915cd17f.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 17, on the social order Pliny describes among bees. One continuous macro scene on a broad, fully internal vine leaf against a deep matte malachite-green plaster field: exactly SEVEN complete living bees, all fully visible and countable. At the precise center is exactly ONE larger queen bee with a long honey-amber abdomen, complete head, two antennae, thorax, six legs, and four wings. Around her, exactly SIX smaller worker bees form a spacious single protective ring, each complete with two antennae, six legs, and four wings, none touching, overlapping, hiding, carrying, stinging, or fighting. Total insects: seven—one central queen plus six workers—and no other insect or animal anywhere. Do not add crown, diadem, regalia, weapons, human political symbols, hive, honeycomb, flowers, fruit, person, hand, water, text, letters, numerals, labels, border, frame, page, inset, diagram, collage, panels, or specimen divisions. Keep the entire leaf and every bee comfortably inside the canvas with generous dark-green negative space. Treat Pliny's language of king, guards, and rule as an ancient metaphor for observed colony organization, not literal monarchy or settled modern sex biology. Style continuity: breathtaking Roman natural-history fresco and egg tempera—microscopically credible insects, translucent wings, iron-gall contour, malachite ground, amber and umber bodies, sparse cinnabar eyes, fine stipple and cross-hatching, worn lime-plaster grain with selectively burnished wings. Ancient, timeless, beautiful, rough and polished at once. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-fa8ccc5f-c1f4-4a30-bf66-68c0915cd17f",
+          "outputArtifact": "built-in-imagegen://exec-fa8ccc5f-c1f4-4a30-bf66-68c0915cd17f.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 17, on the social order Pliny describes among bees. One continuous macro scene on a broad, fully internal vine leaf against a deep matte malachite-green plaster field: exactly SEVEN complete living bees, all fully visible and countable. At the precise center is exactly ONE larger queen bee with a long honey-amber abdomen, complete head, two antennae, thorax, six legs, and four wings. Around her, exactly SIX smaller worker bees form a spacious single protective ring, each complete with two antennae, six legs, and four wings, none touching, overlapping, hiding, carrying, stinging, or fighting. Total insects: seven—one central queen plus six workers—and no other insect or animal anywhere. Do not add crown, diadem, regalia, weapons, human political symbols, hive, honeycomb, flowers, fruit, person, hand, water, text, letters, numerals, labels, border, frame, page, inset, diagram, collage, panels, or specimen divisions. Keep the entire leaf and every bee comfortably inside the canvas with generous dark-green negative space. Treat Pliny's language of king, guards, and rule as an ancient metaphor for observed colony organization, not literal monarchy or settled modern sex biology. Style continuity: breathtaking Roman natural-history fresco and egg tempera—microscopically credible insects, translucent wings, iron-gall contour, malachite ground, amber and umber bodies, sparse cinnabar eyes, fine stipple and cross-hatching, worn lime-plaster grain with selectively burnished wings. Ancient, timeless, beautiful, rough and polished at once. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c017.png",
+          "sha256": "b13a21e5ce5eccf8d8b8c3099440871e27e14f431fa0a6b2aeaab3f6c491aa17",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:18",
+      "visualQaNotes": "Inspected at original resolution. Exactly three complete and visibly distinct bees—a compact speckled bee, a pale bee, and a long-haired bee—occupy three separate blossoms in one continuous field study; all anatomy is fully internal.",
+      "uncertaintyNote": "Pliny’s bee kinds are treated as a transmitted ancient taxonomy rather than asserted as modern species identifications.",
+      "title": "THE VARIOUS KINDS OF BEES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c018.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "e02953e817ec0629092c5538c0bb81aeae93c0586425ee1ca299eab3076f6274",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b524929a-b4c8-4b3b-bfbb-221427f1e483",
+      "generationArtifactId": "exec-b524929a-b4c8-4b3b-bfbb-221427f1e483",
+      "outputArtifact": "built-in-imagegen://exec-b524929a-b4c8-4b3b-bfbb-221427f1e483.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 18, on the varied bee forms reported in field, domestic, Pontic, and Thermodon habitats. One continuous sunlit dry meadow seen from a low oblique angle, not a specimen plate: exactly THREE complete living bees, widely separated and fully countable. Bee one at left is compact, round, and finely speckled amber-black; bee two at center is unusually pale ivory-gold, recalling Pliny's reported white Pontic bee; bee three at right is longer, darker, and slightly hairier, but unmistakably a bee rather than a wasp. Each has one complete head, two antennae, thorax, abdomen, six legs, and two overlapping pairs of translucent wings; none is stinging, fighting, trapped, or touching another. Each bee rests on exactly ONE fully visible complete blossom—left on purple thyme, center on white rockrose, right on red clover—three blossoms total, with their short stems ending visibly above the ground. No other bees, insects, animals, flowers, plants, hive, comb, honey, human, water, text, letters, numerals, labels, border, frame, page, diagram, collage, panels, or modern object. Keep all three bees and all three blossoms comfortably inside the canvas with ample dusty-rose negative space between them. Present the varieties as Pliny's transmitted descriptions, not definitive modern taxonomy. Style continuity: a radiant Roman natural-history field fresco in egg tempera and mineral pigment—precise macro anatomy, restrained madder, violet, chalk, amber, soot and verdigris, iron-gall contours, fine stipple, weathered plaster tooth, luminous wings and selectively polished eyes. Ancient, timeless, extraordinarily beautiful, rough and polished at once. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-b524929a-b4c8-4b3b-bfbb-221427f1e483",
+          "outputArtifact": "built-in-imagegen://exec-b524929a-b4c8-4b3b-bfbb-221427f1e483.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 18, on the varied bee forms reported in field, domestic, Pontic, and Thermodon habitats. One continuous sunlit dry meadow seen from a low oblique angle, not a specimen plate: exactly THREE complete living bees, widely separated and fully countable. Bee one at left is compact, round, and finely speckled amber-black; bee two at center is unusually pale ivory-gold, recalling Pliny's reported white Pontic bee; bee three at right is longer, darker, and slightly hairier, but unmistakably a bee rather than a wasp. Each has one complete head, two antennae, thorax, abdomen, six legs, and two overlapping pairs of translucent wings; none is stinging, fighting, trapped, or touching another. Each bee rests on exactly ONE fully visible complete blossom—left on purple thyme, center on white rockrose, right on red clover—three blossoms total, with their short stems ending visibly above the ground. No other bees, insects, animals, flowers, plants, hive, comb, honey, human, water, text, letters, numerals, labels, border, frame, page, diagram, collage, panels, or modern object. Keep all three bees and all three blossoms comfortably inside the canvas with ample dusty-rose negative space between them. Present the varieties as Pliny's transmitted descriptions, not definitive modern taxonomy. Style continuity: a radiant Roman natural-history field fresco in egg tempera and mineral pigment—precise macro anatomy, restrained madder, violet, chalk, amber, soot and verdigris, iron-gall contours, fine stipple, weathered plaster tooth, luminous wings and selectively polished eyes. Ancient, timeless, extraordinarily beautiful, rough and polished at once. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c018.png",
+          "sha256": "e02953e817ec0629092c5538c0bb81aeae93c0586425ee1ca299eab3076f6274",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:19",
+      "visualQaNotes": "Inspected at original resolution. One complete hive stands on one fully internal four-footed plinth, with exactly one bee at its entrance and one moth on a distant wall ledge; the corrected plinth, hive, insects, and ledge are not clipped.",
+      "uncertaintyNote": "Threats to hives are visualized as ancient apicultural lore, not as contemporary pest-control guidance.",
+      "title": "THINGS THAT ARE NOXIOUS TO BEES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "6e26b44b8ee121976e4456bb5fce7d7c52373a0da12638f9e6bbccd74b8e07ef",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5ba65ec6-b681-4b24-bc36-35f2a6db3734",
+      "generationArtifactId": "exec-5ba65ec6-b681-4b24-bc36-35f2a6db3734",
+      "outputArtifact": "built-in-imagegen://exec-5ba65ec6-b681-4b24-bc36-35f2a6db3734.png",
+      "exactFinalPrompt": "Edit this exact Book XI.19 apiary illustration only for edge-safe framing. Preserve the same single healthy bee at the same hive entrance, the same single pale wax moth on the distant wall ledge, foggy blue Roman courtyard, lighting, palette, textures, and all subject anatomy. Scale the wooden hive and its stone plinth down together by about 18 percent and move the whole hive-plinth-bee group slightly right and slightly upward so that the ENTIRE rectangular plinth is visible: its full left edge, right edge, front edge, back edge, and all four complete stone feet must each have at least 60 pixels of visible floor between them and every canvas edge. The entire hive roof and walls must likewise remain internal. Keep exactly one bee and exactly one moth; do not add, remove, duplicate, crop, or alter them. The right architectural wall may continue through the canvas edge, but all discrete objects must be complete. Add no web, spider, animal, water, flame, smoke, text, symbol, border, panel, page, or object. Opaque 1536×1024 landscape sRGB PNG.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-ecdb3e74-1e18-475f-9efb-308214c6e76b",
+          "outputArtifact": "built-in-imagegen://exec-ecdb3e74-1e18-475f-9efb-308214c6e76b.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 19, on conditions Pliny says are noxious to bees. Show vulnerability without injury or spectacle. In a blue-black Roman apiary at foggy dawn stands exactly ONE complete small wooden box hive on exactly ONE complete low stone plinth, both fully visible and internal. At its round entrance pauses exactly ONE complete healthy honeybee, wings open and body bright, safely facing inward. Far across the composition on a separate dry wall ledge rests exactly ONE complete pale wax moth, also unharmed and not approaching the bee. A faint bank of dry silver-grey mist remains in the distant courtyard air but does not obscure any subject. No spider, web, hornet, wasp, frog, bird, crab, second bee, larva, dead or sick animal, attack, trapping, smoke, oil, honey smear, flame, water, puddle, person, hand, text, letters, numerals, labels, symbols, border, frame, page, inset, diagram, collage, or panels. Keep hive, plinth, bee, moth, and ledge ends comfortably inside the canvas. Composition: the warm bee and hive occupy the lower-left; the cool moth sits small at upper-right; the empty interval expresses risk and distance. Treat listed harms as ancient testimony rather than modern beekeeping or medical advice. Style continuity: cinematic Roman natural-history fresco in egg tempera and mineral pigments—precise insect anatomy, indigo and charcoal shadow, wax ivory, honey amber, muted verdigris wood, iron-gall contours, stippled wings, misty lime bloom, rough plaster and selective burnish. Ancient, timeless, beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/evidence/history/b11-c019-attempt-01-plinth-clipped-left.png",
+          "sha256": "8365fcedc842baea6a190b6850a97d8b59b5f5f1f281e2ca6ed6375af1da4ff2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The hive plinth was clipped by the left canvas edge."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-5ba65ec6-b681-4b24-bc36-35f2a6db3734",
+          "outputArtifact": "built-in-imagegen://exec-5ba65ec6-b681-4b24-bc36-35f2a6db3734.png",
+          "exactPrompt": "Edit this exact Book XI.19 apiary illustration only for edge-safe framing. Preserve the same single healthy bee at the same hive entrance, the same single pale wax moth on the distant wall ledge, foggy blue Roman courtyard, lighting, palette, textures, and all subject anatomy. Scale the wooden hive and its stone plinth down together by about 18 percent and move the whole hive-plinth-bee group slightly right and slightly upward so that the ENTIRE rectangular plinth is visible: its full left edge, right edge, front edge, back edge, and all four complete stone feet must each have at least 60 pixels of visible floor between them and every canvas edge. The entire hive roof and walls must likewise remain internal. Keep exactly one bee and exactly one moth; do not add, remove, duplicate, crop, or alter them. The right architectural wall may continue through the canvas edge, but all discrete objects must be complete. Add no web, spider, animal, water, flame, smoke, text, symbol, border, panel, page, or object. Opaque 1536×1024 landscape sRGB PNG.",
+          "editSourceArtifactId": "exec-ecdb3e74-1e18-475f-9efb-308214c6e76b",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+          "sha256": "6e26b44b8ee121976e4456bb5fce7d7c52373a0da12638f9e6bbccd74b8e07ef",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-ecdb3e74-1e18-475f-9efb-308214c6e76b",
+          "outputArtifact": "built-in-imagegen://exec-ecdb3e74-1e18-475f-9efb-308214c6e76b.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 19, on conditions Pliny says are noxious to bees. Show vulnerability without injury or spectacle. In a blue-black Roman apiary at foggy dawn stands exactly ONE complete small wooden box hive on exactly ONE complete low stone plinth, both fully visible and internal. At its round entrance pauses exactly ONE complete healthy honeybee, wings open and body bright, safely facing inward. Far across the composition on a separate dry wall ledge rests exactly ONE complete pale wax moth, also unharmed and not approaching the bee. A faint bank of dry silver-grey mist remains in the distant courtyard air but does not obscure any subject. No spider, web, hornet, wasp, frog, bird, crab, second bee, larva, dead or sick animal, attack, trapping, smoke, oil, honey smear, flame, water, puddle, person, hand, text, letters, numerals, labels, symbols, border, frame, page, inset, diagram, collage, or panels. Keep hive, plinth, bee, moth, and ledge ends comfortably inside the canvas. Composition: the warm bee and hive occupy the lower-left; the cool moth sits small at upper-right; the empty interval expresses risk and distance. Treat listed harms as ancient testimony rather than modern beekeeping or medical advice. Style continuity: cinematic Roman natural-history fresco in egg tempera and mineral pigments—precise insect anatomy, indigo and charcoal shadow, wax ivory, honey amber, muted verdigris wood, iron-gall contours, stippled wings, misty lime bloom, rough plaster and selective burnish. Ancient, timeless, beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/evidence/history/b11-c019-attempt-01-plinth-clipped-left.png",
+          "sha256": "8365fcedc842baea6a190b6850a97d8b59b5f5f1f281e2ca6ed6375af1da4ff2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The hive plinth was clipped by the left canvas edge."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:20",
+      "visualQaNotes": "Inspected at original resolution. One complete bronze sounding disk on its complete wooden stand faces one complete skep, with exactly three complete bees nearby; all instruments, hive, and insects are fully inside the frame.",
+      "uncertaintyNote": "The sounding practice is bounded as Pliny’s ancient husbandry claim rather than recommended modern beekeeping advice.",
+      "title": "HOW TO KEEP BEES TO THE HIVE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c020.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "ba0d2356dde28a31b27283b463a198125e41f93f17a2852ba8d16618112afaeb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-14cb2d50-e0fd-4125-9323-89175a808472",
+      "generationArtifactId": "exec-14cb2d50-e0fd-4125-9323-89175a808472",
+      "outputArtifact": "built-in-imagegen://exec-14cb2d50-e0fd-4125-9323-89175a808472.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 20, on the ancient report that clapping and ringing bronze gathers bees back to the hive. Treat this as transmitted Roman beekeeping belief, not settled modern proof of insect hearing. In a luminous empty apiary courtyard, show exactly ONE complete circular bronze sounding disk hanging from exactly ONE complete freestanding forked olivewood stand, every foot and branch tip fully visible. A small complete domed woven skep hive sits separately at far right, fully internal on dry paving. Exactly THREE complete living honeybees fly in a loose ascending spiral between the disk and the hive, all separated and countable, each with complete head, two antennae, thorax, abdomen, six legs, and two overlapping pairs of wings. No fourth bee or other animal. The disk is motionless and unstruck; no person, hand, stick, rope beyond its one short suspension cord, musical notation, sound-wave symbols, smoke, carcass, revival scene, dung, food, flower, honeycomb, water, text, letters, numerals, labels, border, frame, page, diagram, collage, or panels. Keep stand, disk, cord, skep, and all bees comfortably away from all edges. Composition: airy sun-bleached courtyard with the bronze circle low-left, three bees tracing a gentle visual arc, and the compact hive low-right beneath vast pale-coral negative space. Style continuity: exquisite Roman natural-history fresco and egg tempera—precise insects, warm bronze patina, woven straw, chalk paving, pale coral plaster, iron-gall contour, stippled translucent wings, weathered lime grain, rough matte architecture and selective burnish. Ancient, timeless, beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-14cb2d50-e0fd-4125-9323-89175a808472",
+          "outputArtifact": "built-in-imagegen://exec-14cb2d50-e0fd-4125-9323-89175a808472.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 20, on the ancient report that clapping and ringing bronze gathers bees back to the hive. Treat this as transmitted Roman beekeeping belief, not settled modern proof of insect hearing. In a luminous empty apiary courtyard, show exactly ONE complete circular bronze sounding disk hanging from exactly ONE complete freestanding forked olivewood stand, every foot and branch tip fully visible. A small complete domed woven skep hive sits separately at far right, fully internal on dry paving. Exactly THREE complete living honeybees fly in a loose ascending spiral between the disk and the hive, all separated and countable, each with complete head, two antennae, thorax, abdomen, six legs, and two overlapping pairs of wings. No fourth bee or other animal. The disk is motionless and unstruck; no person, hand, stick, rope beyond its one short suspension cord, musical notation, sound-wave symbols, smoke, carcass, revival scene, dung, food, flower, honeycomb, water, text, letters, numerals, labels, border, frame, page, diagram, collage, or panels. Keep stand, disk, cord, skep, and all bees comfortably away from all edges. Composition: airy sun-bleached courtyard with the bronze circle low-left, three bees tracing a gentle visual arc, and the compact hive low-right beneath vast pale-coral negative space. Style continuity: exquisite Roman natural-history fresco and egg tempera—precise insects, warm bronze patina, woven straw, chalk paving, pale coral plaster, iron-gall contour, stippled translucent wings, weathered lime grain, rough matte architecture and selective burnish. Ancient, timeless, beautiful, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c020.png",
+          "sha256": "ba0d2356dde28a31b27283b463a198125e41f93f17a2852ba8d16618112afaeb",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:23",
+      "visualQaNotes": "Inspected at original resolution. One complete silkworm, one complete cocoon, one complete cypress twig, and one continuous filament leading to one complete reed spindle appear in a single quiet workshop study; all endpoints and objects remain visible.",
+      "uncertaintyNote": "The Coan silk account is presented as transmitted ancient craft history, not as a settled modern reconstruction of the species or process.",
+      "title": "THE SILK-WORM OF COS—HOW THE COAN VESTMENTS ARE MADE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c023.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "11192443ff533c33d5874ad10f4e8dc039069eba67f3686f0f4ef21119cec310",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-20310bb9-dbf4-41e0-b7a0-ab918d0f583a",
+      "generationArtifactId": "exec-20310bb9-dbf4-41e0-b7a0-ab918d0f583a",
+      "outputArtifact": "built-in-imagegen://exec-20310bb9-dbf4-41e0-b7a0-ab918d0f583a.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 23, on the silkworm of Cos and the drawing of its fibre into thread. Treat Pliny's account of origin from fallen tree bloom as transmitted ancient explanation, not modern biology. In a windless Coan garden alcove, show exactly ONE complete living cream-colored silkworm, fully visible from head through every segment and all legs, crawling along exactly ONE complete short cypress twig whose cut ends and needles are fully internal. Beside it on the same twig hangs exactly ONE complete closed oval silk cocoon. From the cocoon, exactly ONE single luminous filament descends in a gentle curve to exactly ONE complete plain reed spindle resting diagonally on a low dark-green stone ledge; the entire spindle, both tips, and small whorl are visible. No moth, butterfly, second larva, additional cocoon, duplicate thread, garment, person, hand, vessel, tool other than the spindle, water, text, letters, numerals, labels, symbols, border, frame, page, inset, diagram, collage, or panels. Keep silkworm, twig, cocoon, filament, and spindle well within every canvas edge. Composition: the pale cocoon glows near upper-left, the silkworm traverses center, and the reed spindle anchors lower-right across generous cool malachite negative space. Style continuity: extremely beautiful Roman natural-history fresco and egg tempera—precise larval anatomy and plant detail, pearl silk, cypress green, reed ochre, faded lapis shadow, iron-gall contour, fine cross-hatching and stipple, abraded lime-plaster grain, rough matte stone against selectively polished filament. Ancient, timeless, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-20310bb9-dbf4-41e0-b7a0-ab918d0f583a",
+          "outputArtifact": "built-in-imagegen://exec-20310bb9-dbf4-41e0-b7a0-ab918d0f583a.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 23, on the silkworm of Cos and the drawing of its fibre into thread. Treat Pliny's account of origin from fallen tree bloom as transmitted ancient explanation, not modern biology. In a windless Coan garden alcove, show exactly ONE complete living cream-colored silkworm, fully visible from head through every segment and all legs, crawling along exactly ONE complete short cypress twig whose cut ends and needles are fully internal. Beside it on the same twig hangs exactly ONE complete closed oval silk cocoon. From the cocoon, exactly ONE single luminous filament descends in a gentle curve to exactly ONE complete plain reed spindle resting diagonally on a low dark-green stone ledge; the entire spindle, both tips, and small whorl are visible. No moth, butterfly, second larva, additional cocoon, duplicate thread, garment, person, hand, vessel, tool other than the spindle, water, text, letters, numerals, labels, symbols, border, frame, page, inset, diagram, collage, or panels. Keep silkworm, twig, cocoon, filament, and spindle well within every canvas edge. Composition: the pale cocoon glows near upper-left, the silkworm traverses center, and the reed spindle anchors lower-right across generous cool malachite negative space. Style continuity: extremely beautiful Roman natural-history fresco and egg tempera—precise larval anatomy and plant detail, pearl silk, cypress green, reed ochre, faded lapis shadow, iron-gall contour, fine cross-hatching and stipple, abraded lime-plaster grain, rough matte stone against selectively polished filament. Ancient, timeless, rough and polished at once. One continuous scene. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c023.png",
+          "sha256": "11192443ff533c33d5874ad10f4e8dc039069eba67f3686f0f4ef21119cec310",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "11:24",
+      "visualQaNotes": "Inspected at original resolution. One complete anatomically legible eight-legged spider rests on one complete oval web stretched between exactly two fully internal forked black branches; no flame, building, panel, text, page, or clipped focal object remains.",
+      "uncertaintyNote": "The plate honors Pliny’s close observation of web-making without asserting his full ancient taxonomy as modern arachnology.",
+      "title": "SPIDERS; THE KINDS THAT MAKE WEBS; THE MATERIALS USED BY THEM IN SO DOING",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c024.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "c393fa2282df14447dd9d055f9b654d2e4f83dcb347f65226c0ebedb637ee54a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8fa5ffc3-4be0-466f-bb7b-2ce47747260b",
+      "generationArtifactId": "exec-8fa5ffc3-4be0-466f-bb7b-2ce47747260b",
+      "outputArtifact": "built-in-imagegen://exec-8fa5ffc3-4be0-466f-bb7b-2ce47747260b.png",
+      "exactFinalPrompt": "Create a fundamentally different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 24, replacing a nocturnal candidate that failed the global perceptual-distance gate. Use a high-key near-overhead daylight composition with NO horizon: a vast field of luminous saffron-yellow lime plaster fills the canvas. Exactly TWO complete charcoal-black forked olive branches lie diagonally but separately across the field, both fully internal with visible cut bases and every twig tip. Suspended between them is exactly ONE complete oval orb web, its entire outer perimeter and all anchor threads comfortably internal; pearly white silk catches hard noon light and casts a crisp enlarged blue-violet geometric shadow onto the saffron ground. Exactly ONE complete orb-weaver spider stands off-center on the web, anatomically coherent with exactly EIGHT separate attached legs, all countable and internal. No prey, egg sac, second spider, insect, animal, plant foliage, structure, landscape, water, moon, flame, person, object, text, letters, numerals, labels, border, frame, page, inset, diagram, collage, or panels. Preserve one continuous physical scene; the web and its shadow are not separate panels. Present web-building as admired observation, not weather-divination or reproductive fact. Style continuity: bold but refined Roman natural-history fresco and egg tempera—saffron ochre, charcoal, pearl, faded lapis shadow and a tiny cinnabar accent; precise silk geometry, iron-gall anatomy, stipple, lime bloom, weathered plaster tooth, matte abrasion and selective burnish. Ancient, timeless, extraordinarily beautiful, rough and polished at once. Opaque sRGB PNG, landscape 3:2.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-6f7bbf7e-30a2-408f-bad5-76560a454313",
+          "outputArtifact": "built-in-imagegen://exec-6f7bbf7e-30a2-408f-bad5-76560a454313.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 24, celebrating the architecture and repair of a spider's web without showing predation. Exactly ONE complete orb-weaver spider occupies the center of exactly ONE complete circular web, fully visible and anatomically coherent with one cephalothorax, one abdomen, and exactly EIGHT separate attached legs. The entire web—including every radial, spiral, outer anchor, and its full circumference—is comfortably inside the canvas. It spans between exactly TWO complete forked dry olive branches planted upright in a broad earthen courtyard; both branches are fully internal with visible lower cut bases and every upper twig tip visible. No tree canopy or additional plant. The web bows slightly in a night breeze but is unbroken; no prey, egg sac, second spider, insect, lizard, animal, person, building, water, moon disk, text, letters, numerals, labels, border, frame, page, inset, diagram, collage, or panels. Keep spider, web, and branches at least eight percent inside every edge, surrounded by ample indigo negative space. Present Pliny's marveling account of web construction as historical observation without endorsing weather-divination or reproduction claims. Style continuity: a sublime nocturnal Roman natural-history fresco in egg tempera and mineral pigment—silver-white silk, precise lampblack spider anatomy, indigo and violet air, olivewood umber, a trace of cinnabar, iron-gall contours, hairline web geometry, stipple, eroded lime plaster and selective moonlike burnish. Ancient, timeless, beautiful, rough and polished at once. One continuous scene, not a specimen plate. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/evidence/history/b11-c024-attempt-01-extra-buildings-and-flames.png",
+          "sha256": "6a8d525f5d69ef8954b2be6c4b6fe37805f161e9b332596eaebbdb45926706e8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The generated scene introduced extra buildings, braziers, and flames contrary to the requested solitary web study."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-6bf7d4ac-b958-4911-87f0-64a25445b2fb",
+          "outputArtifact": "built-in-imagegen://exec-6bf7d4ac-b958-4911-87f0-64a25445b2fb.png",
+          "exactPrompt": "Edit this exact Book XI.24 spider-web illustration. Preserve exactly the same single complete eight-legged spider, complete web, two complete forked branches, their positions, anatomy, scale, every silk thread, indigo night, ground, mineral-pigment palette, and fresco texture. Remove all background buildings, walls, doorways, masonry, braziers, bowls, flames, and artificial lights on both sides and behind the web. Replace them seamlessly with one continuous empty dry earthen plateau and low distant violet hills beneath the same indigo sky. The finished image must contain only the one spider, one web, two branches, continuous terrain, hills, and sky—no discrete object besides the prescribed subjects. Do not alter, crop, duplicate, or add to the spider, web, or branches. No animal, insect, prey, plant, building, flame, smoke, water, moon disk, star symbols beyond natural tiny points of light, text, border, page, panel, or collage. Keep the web and both branches fully internal. Opaque 1536×1024 landscape sRGB PNG.",
+          "editSourceArtifactId": "exec-6f7bbf7e-30a2-408f-bad5-76560a454313",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/evidence/history/b11-c024-attempt-02-global-mad-13.90.png",
+          "sha256": "6e01339f46e594f60e114248334984a5b95181a932a91a8d434ffcd91db8b546",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The corrected composition failed the global corpus distinctness threshold with nearest-neighbor MAD 13.90."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-8fa5ffc3-4be0-466f-bb7b-2ce47747260b",
+          "outputArtifact": "built-in-imagegen://exec-8fa5ffc3-4be0-466f-bb7b-2ce47747260b.png",
+          "exactPrompt": "Create a fundamentally different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 24, replacing a nocturnal candidate that failed the global perceptual-distance gate. Use a high-key near-overhead daylight composition with NO horizon: a vast field of luminous saffron-yellow lime plaster fills the canvas. Exactly TWO complete charcoal-black forked olive branches lie diagonally but separately across the field, both fully internal with visible cut bases and every twig tip. Suspended between them is exactly ONE complete oval orb web, its entire outer perimeter and all anchor threads comfortably internal; pearly white silk catches hard noon light and casts a crisp enlarged blue-violet geometric shadow onto the saffron ground. Exactly ONE complete orb-weaver spider stands off-center on the web, anatomically coherent with exactly EIGHT separate attached legs, all countable and internal. No prey, egg sac, second spider, insect, animal, plant foliage, structure, landscape, water, moon, flame, person, object, text, letters, numerals, labels, border, frame, page, inset, diagram, collage, or panels. Preserve one continuous physical scene; the web and its shadow are not separate panels. Present web-building as admired observation, not weather-divination or reproductive fact. Style continuity: bold but refined Roman natural-history fresco and egg tempera—saffron ochre, charcoal, pearl, faded lapis shadow and a tiny cinnabar accent; precise silk geometry, iron-gall anatomy, stipple, lime bloom, weathered plaster tooth, matte abrasion and selective burnish. Ancient, timeless, extraordinarily beautiful, rough and polished at once. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c024.png",
+          "sha256": "c393fa2282df14447dd9d055f9b654d2e4f83dcb347f65226c0ebedb637ee54a",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-6f7bbf7e-30a2-408f-bad5-76560a454313",
+          "outputArtifact": "built-in-imagegen://exec-6f7bbf7e-30a2-408f-bad5-76560a454313.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 24, celebrating the architecture and repair of a spider's web without showing predation. Exactly ONE complete orb-weaver spider occupies the center of exactly ONE complete circular web, fully visible and anatomically coherent with one cephalothorax, one abdomen, and exactly EIGHT separate attached legs. The entire web—including every radial, spiral, outer anchor, and its full circumference—is comfortably inside the canvas. It spans between exactly TWO complete forked dry olive branches planted upright in a broad earthen courtyard; both branches are fully internal with visible lower cut bases and every upper twig tip visible. No tree canopy or additional plant. The web bows slightly in a night breeze but is unbroken; no prey, egg sac, second spider, insect, lizard, animal, person, building, water, moon disk, text, letters, numerals, labels, border, frame, page, inset, diagram, collage, or panels. Keep spider, web, and branches at least eight percent inside every edge, surrounded by ample indigo negative space. Present Pliny's marveling account of web construction as historical observation without endorsing weather-divination or reproduction claims. Style continuity: a sublime nocturnal Roman natural-history fresco in egg tempera and mineral pigment—silver-white silk, precise lampblack spider anatomy, indigo and violet air, olivewood umber, a trace of cinnabar, iron-gall contours, hairline web geometry, stipple, eroded lime plaster and selective moonlike burnish. Ancient, timeless, beautiful, rough and polished at once. One continuous scene, not a specimen plate. Opaque sRGB PNG, landscape 3:2.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/evidence/history/b11-c024-attempt-01-extra-buildings-and-flames.png",
+          "sha256": "6a8d525f5d69ef8954b2be6c4b6fe37805f161e9b332596eaebbdb45926706e8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The generated scene introduced extra buildings, braziers, and flames contrary to the requested solitary web study."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-6bf7d4ac-b958-4911-87f0-64a25445b2fb",
+          "outputArtifact": "built-in-imagegen://exec-6bf7d4ac-b958-4911-87f0-64a25445b2fb.png",
+          "exactPrompt": "Edit this exact Book XI.24 spider-web illustration. Preserve exactly the same single complete eight-legged spider, complete web, two complete forked branches, their positions, anatomy, scale, every silk thread, indigo night, ground, mineral-pigment palette, and fresco texture. Remove all background buildings, walls, doorways, masonry, braziers, bowls, flames, and artificial lights on both sides and behind the web. Replace them seamlessly with one continuous empty dry earthen plateau and low distant violet hills beneath the same indigo sky. The finished image must contain only the one spider, one web, two branches, continuous terrain, hills, and sky—no discrete object besides the prescribed subjects. Do not alter, crop, duplicate, or add to the spider, web, or branches. No animal, insect, prey, plant, building, flame, smoke, water, moon disk, star symbols beyond natural tiny points of light, text, border, page, panel, or collage. Keep the web and both branches fully internal. Opaque 1536×1024 landscape sRGB PNG.",
+          "editSourceArtifactId": "exec-6f7bbf7e-30a2-408f-bad5-76560a454313",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-02/evidence/history/b11-c024-attempt-02-global-mad-13.90.png",
+          "sha256": "6e01339f46e594f60e114248334984a5b95181a932a91a8d434ffcd91db8b546",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The corrected composition failed the global corpus distinctness threshold with nearest-neighbor MAD 13.90."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

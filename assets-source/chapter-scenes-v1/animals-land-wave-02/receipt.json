@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-land-wave-02",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "note": null,
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 648,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "8:11": {
+        "nearestMAD": 25.5,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c004.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 48.14
+      },
+      "8:12": {
+        "nearestMAD": 22.33,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c018.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c014.png",
+        "madAtDHashPeer": 49.89
+      },
+      "8:13": {
+        "nearestMAD": 22.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c007.png",
+        "madAtDHashPeer": 36.16
+      },
+      "8:14": {
+        "nearestMAD": 32.47,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c028.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c049.png",
+        "madAtDHashPeer": 34.63
+      },
+      "8:15": {
+        "nearestMAD": 21.58,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c010.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c007.png",
+        "madAtDHashPeer": 52.57
+      },
+      "8:16": {
+        "nearestMAD": 22.09,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c004.png",
+        "madAtDHashPeer": 47.88
+      },
+      "8:17": {
+        "nearestMAD": 25.84,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c005.png",
+        "dHashAtMadPeer": 37,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c014.png",
+        "madAtDHashPeer": 52.68
+      },
+      "8:18": {
+        "nearestMAD": 20.66,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b24-c018.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b04-c001.png",
+        "madAtDHashPeer": 35.86
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "8:11",
+      "title": "IN WHAT COUNTRIES THE ELEPHANT IS FOUND; THE ANTIPATHY OF THE ELEPHANT AND THE DRAGON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c011.png",
+      "sha256": "36bbfa70c48819c1ba5e5d51d049d332814f422f886218b05e39ee09214eb6e3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1eef2cb3-e10a-4cca-83f6-78a8227451c6",
+      "outputArtifact": "built-in-imagegen://exec-1eef2cb3-e10a-4cca-83f6-78a8227451c6.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: an independently composed chapter illustration for Pliny the Elder’s Naturalis Historia, Book VIII, chapter 11, “In What Countries the Elephant Is Found; the Antipathy of the Elephant and the Dragon.”\n\nSource and ethical framing: interpret Pliny’s “dragon” as transmitted ancient zoological hearsay about a very large snake, not as a verified monster. Do not depict a lethal fight, crushing, strangulation, wounds, or animal suffering. At the edge of an Indian monsoon forest just after rain, show exactly one complete adult Asian elephant in calm three-quarter profile, pausing with one forefoot raised and ears relaxed as it notices exactly one complete large but biologically plausible Indian rock python resting in a loose open S-curve on a sun-warmed stone across a narrow clearing. The two animals remain widely separated by open ground and neither threatens nor touches the other. The entire elephant—tusks, trunk tip, tail, all four feet—and the entire python from head to tail are visible. Their cautious mutual awareness evokes the old report without literalizing combat. No people, handlers, chains, spears, hunters, captivity, battle, dead animal, fantasy dragon, wings, fire, or supernatural effect.\n\nComposition: one continuous landscape scene, never a comparison panel. Use a low, respectful viewpoint through broad bands of wet ochre earth and luminous green understory, with the elephant held in the left-middle third and the much smaller python in the right-middle third. A complete shallow rain pool sits entirely enclosed between them, surrounded on all sides by dry stone and grass so no water reaches an outer boundary. Behind them, bamboo, sal trees, and distant blue-green ridges create layered habitat; one complete fallen teak branch lies well inside the foreground as a subtle scale reference. Let misty pale sky and a quiet central clearing provide breathing room. Every animal, tree trunk, branch, pool, and discrete plant remains comfortably internal. Outer edges contain only continuous mist, forest, or empty earth.\n\nStyle/medium: ancient, timeless, beautiful, rough and polished at once; coherent Book VIII Plinian zoological folio with natural-history accuracy and humane observation. Fine iron-gall anatomical contours, delicate stipple and cross-hatching for elephant skin and snake scales, translucent mineral and fresco washes—monsoon malachite, verdigris, wet ochre, slate blue, muted coral earth, ivory tusk, smoke gray, restrained shell-gold highlights in rain. Integrate lime-plaster grain, parchment-like abrasion, foxing, dry pigment bloom, and softened fresco loss into a museum-grade hand-painted surface. Combine Roman encyclopedic wonder, Pompeian wall-painting materiality, and Renaissance naturalist precision. Historically attentive Asian elephant ears, domed head, trunk and feet; plausible rock-python proportions and markings. No photorealism, fantasy concept art, spectacle, glossy digital rendering, or caricature.\n\nConstraints: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic layout, collage, map, diagram, or split. No text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, watermarks, banners, captions, zodiac, or decorative symbols. No duplicated animals, limbs, trunks, tusks, snakes, pools, or branches. Exactly one complete elephant, one complete plausible python, one fully enclosed rain pool, and one complete fallen branch. Keep all focal subjects and all water at least 8 percent inward from every edge.",
+      "visualQaNotes": "Inspected at native resolution. One complete Asian elephant and one complete plausible rock python remain widely separated around a fully enclosed rain pool and complete fallen branch; no combat, monster anatomy, text, panel, border, clipped subject, or edge water appears.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:12",
+      "title": "THE SAGACITY OF THESE ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c012.png",
+      "sha256": "4159637774e1e091a9ec16065d303b09a56bc24298a9d03a443aadeca4c94876",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-675024e5-973c-4016-9222-e9e354b4ad4d",
+      "outputArtifact": "built-in-imagegen://exec-675024e5-973c-4016-9222-e9e354b4ad4d.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 12 elephant problem-solving illustration.\n\nChange only the elephant’s tusk anatomy. The current mouth area reads as an ambiguous extra tusk. Correct it to exactly two anatomically plausible ivory tusks total: one complete near-side tusk and one complete far-side tusk, emerging naturally as a paired set from the mouth, clearly separated, with no third tusk, white spike, duplicate curve, or tusk-like highlight. Preserve the elephant’s identity, entire complete body, raised forefoot, curled trunk lifting the harmless leafy vine, all other anatomy and pose; preserve the exact vine, single boulder, three complete saplings, amber dry grove, camera, palette, shadows, framing, and museum-quality fresco-naturalist style.\n\nDo not change or add anything else. Maintain exactly one complete Asian elephant, exactly two tusks, one complete boulder, one harmless leafy vine and three complete saplings. No snake, dragon, blood, wound, attack, handlers, rope, chain, text, letters, numerals, inscriptions, pseudo-writing, signature, watermark, page, border, cartouche, panel, collage, or split. Keep all focal subjects fully internal. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution and with a dedicated mouth crop after the anatomy edit. One complete Asian elephant with exactly two anatomically paired tusks uses its trunk to loosen one harmless leafy vine beside one boulder and three complete saplings; no snake, injury, text, panel, border, or clipped subject appears.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fe5d89e2-148b-4ebc-9ff5-51986f070b3e.png",
+          "sha256": "a5ba082e72b13233734114b8424d73ee098be5128746a69d830188128c7813db",
+          "reason": "Rejected after native QA because the mouth area read as an ambiguous extra tusk rather than one anatomically paired set."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:13",
+      "title": "DRAGONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c013.png",
+      "sha256": "dd270a15b31393d493a1e104fa66fd437c0624d5958cc760d2de01ada4f8ab44",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-05e6d9f0-0e79-4f2a-baab-129c17df454b",
+      "outputArtifact": "built-in-imagegen://exec-05e6d9f0-0e79-4f2a-baab-129c17df454b.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 13 crestless-python Red Sea basin illustration.\n\nChange only the distant open-water boundary. Preserve exactly the complete python and its pose, head, scale pattern and tail; preserve the entire fully enclosed turquoise tidal basin, internal sandbar, exactly five complete driftwood/root pieces, coral shelf, red escarpments, camera, bright coastal light, palette, framing, and museum-quality fresco-naturalist rendering.\n\nThe background open sea currently continues through the right canvas edge. Remove that entire distant open-sea band and replace it seamlessly with a broad pale dry salt flat backed by one low continuous blue-violet land ridge across the full horizon. After the edit, the oval tidal basin must be the only water anywhere in the image, fully surrounded by visible dry sand and coral on every side. Every outer edge must contain only open sky, continuous dry land, or empty coral stone—never water. Do not change the basin’s internal shape or its sandbar.\n\nMaintain exactly one complete crestless plausible African rock python, one fully enclosed water basin, one internal sandbar, and exactly five driftwood/root pieces. No extra animal, person, boat, sea, river, pool, crest, wing, fire, fantasy, combat, text, letters, numerals, inscriptions, pseudo-writing, signature, watermark, visible page, border, cartouche, panels, collage, or split. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after removing the edge sea. One complete crestless plausible python rests above one fully enclosed tidal basin and internal sandbar with exactly five driftwood pieces; the outer boundaries are dry land or sky, with no monster traits, text, panel, border, duplicate animal, or clipped water.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-eaef67ce-ac5d-4bbb-b87e-c9ddbf75595b.png",
+          "sha256": "ae566ee670ba12bb2b6cccb307ec3e873318c8774be6ef86b67b359167cface7",
+          "reason": "Rejected after native QA because distant open sea continued through the right image boundary."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:14",
+      "title": "SERPENTS OF REMARKABLE SIZE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c014.png",
+      "sha256": "171daaf0ca42a62ab4a589535e6f302bcbedb1a325303bf18ea58d9233d6d40f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1ab7c848-0122-4f93-9857-05d8236e900a",
+      "outputArtifact": "built-in-imagegen://exec-1ab7c848-0122-4f93-9857-05d8236e900a.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 14 Roman specimen-examination illustration.\n\nChange only the serpent-skin artifact so it cannot be mistaken for a live or dead snake. Preserve exactly the two complete scholars, their identities, poses, clothing and unmarked measuring cord; preserve the paired clean jawbones on the padded stand, closed chest, exactly three jars, bright portico courtyard, high-oblique camera, palette, framing and museum-quality fresco-naturalist style.\n\nReplace the current thick three-dimensional snake-like body with one complete, clearly empty shed skin in the same broad S-shaped footprint: a thin, collapsed, translucent papery tube lying flat on the mosaic, with a visible open ventral split and small irregular wrinkles. The head end must be an empty flattened facial cap with no eyeball, pupil, flesh, tongue, teeth, shadowed mouth, raised head, or lifelike volume; the tail end tapers into a delicate dry transparent point. The paving must be plainly visible through the skin. It must read immediately as an old shed specimen, not a living animal or corpse. Do not alter its overall internal placement or the measuring action.\n\nMaintain exactly two complete scholars, one complete empty shed skin, one plain measuring cord, one paired jaw specimen, one padded stand, one closed chest and exactly three empty jars. No live snake, dead body, flesh, blood, child, prey, weapon, soldier, text, letters, numerals, labels, inscriptions, pseudo-writing, signature, watermark, visible page, border, cartouche, panels, collage, or split. Keep every focal subject fully internal. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after the artifact correction. Two complete scholars measure one complete translucent, collapsed, visibly empty shed skin beside one paired clean jaw specimen, stand, chest, and three jars; no live snake, flesh, text, panel, border, or clipped focal element appears.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6efed34b-84e2-4c8d-a03d-e4ac115a1c50.png",
+          "sha256": "88189daa2d52b73157db262d69aca3313c200c56cd4cc5511ad7709a860c3bb3",
+          "reason": "Rejected after native QA because the thick three-dimensional artifact retained a lifelike eye and head and read as a live or dead snake rather than an empty shed skin."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:15",
+      "title": "THE ANIMALS OF SCYTHIA; THE BISON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c015.png",
+      "sha256": "437d5be9141b60c35c2091b40eab84f248063e3e61304ea486087f9ef6c59cf7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-51674e1b-08ce-44be-a8a8-176e54a46096",
+      "outputArtifact": "built-in-imagegen://exec-51674e1b-08ce-44be-a8a8-176e54a46096.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 15 northern bison, aurochs, and wild-horse panorama.\n\nChange only the left birch-and-juniper stand framing. Preserve exactly the complete European bison, complete aurochs, exactly three complete wild horses, their anatomy, positions and scale; preserve the frosted steppe, hills, rose dawn sky, camera, palette, shadows, negative space and museum-quality fresco-naturalist style.\n\nThe tree stand currently crosses the left boundary. Shift and reduce it into one smaller complete cluster of exactly three slender silver birches and exactly two low junipers, entirely visible from roots to highest twigs and surrounded on the left, top and bottom by broad empty frosted grass and pale sky. Every trunk, root, crown and branch must remain at least 8 percent inward from the left and top boundaries. Replace the vacated left-edge area seamlessly with open sky and continuous empty steppe. Do not alter any animal or add other vegetation.\n\nMaintain exactly one bison, one aurochs, three wild horses, three birches and two junipers. No people, extra animals, trap, hunt, combat, text, letters, numerals, labels, inscriptions, pseudo-writing, signature, watermark, page, border, cartouche, panel, collage, or split. All focal subjects and the complete tree cluster remain internal. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after containing the tree stand. One complete European bison, one complete aurochs, exactly three complete wild horses, three birches and two junipers occupy a peaceful frost-steppe panorama without fabulous animals, hunting, text, panel, border, or clipped focal subject.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-784680f8-8eba-4c7a-a063-d8a05a9accca.png",
+          "sha256": "5459cfb1d14e4a0a339d5c1b87bf1efe7e1ae5309198a993ffb5e30f08f31061",
+          "reason": "Rejected after native QA because the birch-and-juniper stand crossed the left boundary."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:16",
+      "title": "THE DIFFERENT SPECIES OF LIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c016.png",
+      "sha256": "366ba62c18b594388d8e7d2946a55000d5999f1a4eb402b27eb235e70e51c515",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-78fefa62-a4ff-4f3e-8bed-ceca7abf33e4",
+      "outputArtifact": "built-in-imagegen://exec-78fefa62-a4ff-4f3e-8bed-ceca7abf33e4.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: a fully recomposed independent illustration for Pliny the Elder’s Naturalis Historia, Book VIII, chapter 16, “The Different Species of Lions.”\n\nSource and epistemic framing: Pliny distinguishes lions by body form and mane texture from ancient observation; present this as individual variation rather than a valid modern species taxonomy. At brilliant chalk-white noon in a broad North African limestone wadi, show exactly two complete adult male lions, widely separated and entirely peaceful. On a low complete pale limestone terrace in the upper-left middle ground sits one compact, broad-chested lion with a naturally dense, short, dark, slightly curly mane, complete paws aligned below him and tail resting visibly beside the terrace. In the lower-right middle ground, one longer-bodied, leaner lion with a lighter, straighter tawny mane walks calmly across pale gravel in three-quarter profile, with all four paws, face, mane and complete tail visible. Neither animal threatens, hunts, feeds, performs, fights, or interacts with people. No lioness, cub, hybrid, leopard, prey, wound, blood, cross, trap, arena, chain, cloak, chariot, fire, or circus.\n\nComposition: create a genuinely new high-key scene, not a recolored dusk panorama. Use a high oblique viewpoint over luminous limestone geometry and broad empty ivory gravel, arranging the seated compact lion upper-left and the walking long-bodied lion lower-right along a gentle diagonal. Exactly three complete low silvery wormwood shrubs punctuate the open ground, each separated and wholly internal. A continuous pale cyan sky occupies only a narrow upper band above low rose-beige wadi walls; no dark storm, sunset, acacia silhouette, basalt plain, or central horizon symmetry. Strong white sunlight casts short cool turquoise-violet shadows that make both anatomical silhouettes legible. Keep every lion, paw, tail, terrace, shrub and discrete rock comfortably inward. Outer edges contain only open sky, continuous pale wadi wall, or empty gravel. No water.\n\nStyle/medium: ancient, timeless, beautiful, rough and polished at once; coherent Book VIII Plinian zoological folio with precise fur, mane, paw and tail observation and a radically high-luminance desert palette. Fine iron-gall anatomical contours, layered mane strokes, delicate stipple and cross-hatching, translucent mineral and fresco washes—chalk ivory, pale sand, washed turquoise, dusty rose, tawny ochre, lampblack mane accents, cool violet shadow, sparse shell-gold light. Integrate lime-plaster grain, abrasion, foxing, dry pigment bloom and softened fresco loss into a museum-grade hand-painted surface. Combine Roman encyclopedic curiosity, Pompeian materiality, and Renaissance naturalist precision. Plausible North African lion anatomy. No photorealism, heraldic pose, fantasy, glossy digital art, theatrical spectacle, modern zoo, dark sky, or sentimental poster.\n\nConstraints: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic panels, collage, map, diagram, arrows, or split. No text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, watermarks, banners, captions, zodiac, or decorative symbols. No duplicated lion, head, limb, paw, mane, tail, terrace, shrub, sun, or moon. Exactly two complete adult male lions, one complete pale limestone terrace, and exactly three complete wormwood shrubs. No people or other animals. Keep all focal subjects at least 8 percent inward from every edge.",
+      "visualQaNotes": "Inspected at native resolution after a full high-key recomposition. Exactly two complete male lions with distinct plausible mane and body variation occupy an ivory limestone wadi with one complete terrace and three internal wormwood shrubs; no modern taxonomy claim, spectacle, text, panel, border, or clipped subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f00f5304-cea2-483a-8d8d-863241042ca1.png",
+          "sha256": "b8190f58d4bd8c751e8050655137bf11843278aa46cb292ed63a48e27b797784",
+          "reason": "Rejected after the live global audit because its nearest grayscale MAD was 18.13 against Book II chapter 54, below the campaign minimum of 20."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:17",
+      "title": "A MAN RECOGNIZED AND SAVED BY A DRAGON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c017.png",
+      "sha256": "6f3148bf399a6da5e8a6de0a06176eeb7e01125e04903a17a01e42788e4f43f2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-6a760e5b-f848-49cb-a3c7-64aa4c64565b",
+      "outputArtifact": "built-in-imagegen://exec-6a760e5b-f848-49cb-a3c7-64aa4c64565b.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VIII chapter 17 Thoas-and-serpent recognition illustration.\n\nChange only the cyclamen count beneath the oak. Preserve exactly the complete adult Thoas, his identity, pose, open hands and clothing; preserve the complete calm crestless snake, exact coil, raised closed-mouth head and tail; preserve the complete staff, child-sized woven reed bracelet on the stone, complete oak, mountains, camera, silver morning light, palette, framing and museum-quality fresco-naturalist style.\n\nThe current oak base reads as two cyclamen clumps. Make it exactly three visually separate, complete cyclamen plants total: retain the two existing rose-flowered plants and add one smaller third plant midway between them but clearly separated by visible moss. Each plant must have its own complete leaves, short stems, and exactly three muted-rose blossoms. Do not add any other flower, shrub, tree, object or animal.\n\nMaintain exactly one adult person, one complete plausible snake, one staff, one bracelet, one oak, and exactly three separate cyclamen plants. No attackers, weapons, blood, contact between person and snake, extra figures, extra snakes, text, letters, numerals, inscriptions, pseudo-writing, signature, watermark, visible page, border, cartouche, panels, collage, or split. Keep all focal subjects fully internal. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after the botanical count edit. One complete Thoas and one complete plausible crestless snake remain separated in a calm recognition scene with one staff, one reed bracelet, one complete oak and exactly three distinct cyclamen plants; no attack, miracle claim, text, panel, border, or clipped subject appears.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b838e494-b1bd-4d2d-a3d6-70cba28b3dfd.png",
+          "sha256": "dc2863b13c39d98c7b2b0f606639e922a9f61c66f38fd795be8cb47c115ff3b2",
+          "reason": "Rejected after native QA because the oak base showed two cyclamen clumps rather than the requested three separate plants."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:18",
+      "title": "CAMELS: THE DIFFERENT KINDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c018.png",
+      "sha256": "2ff9452f92c66631a226c6c2503c18303678ac6fedb9ff3c032480d5a1740cb1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-93d8b8d3-9669-444e-810c-f99f265c5abb",
+      "outputArtifact": "built-in-imagegen://exec-93d8b8d3-9669-444e-810c-f99f265c5abb.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: an independently composed chapter illustration for Pliny the Elder’s Naturalis Historia, Book VIII, chapter 18, “Camels: the Different Kinds.”\n\nSource and ethical framing: focus on Pliny’s real anatomical distinction between Bactrian camels and Arabian dromedaries. Do not depict war service, castration, overloading, forced labor, fighting with horses, tiger-cub theft, circus exhibition, or captivity spectacle. On a broad spring grazing terrace along an ancient Central Asian caravan route, show exactly two complete calm adult camels. At left stands one complete Bactrian camel with exactly two clearly separated humps, a dense shaggy umber coat, sturdy shorter legs, and relaxed expression. At right reclines one complete Arabian dromedary naturally on folded legs, with exactly one tall hump, a smoother pale cinnamon coat, long limbs, and the normal chest callosity subtly visible where it rests. Neither animal wears tack, load, halter, rope, brand, jewelry, blanket, or harness. They face slightly toward one another across open ground but do not touch. No people, horse, tiger, giraffe, calf, battle, caravan burden, cage, cruelty, or fantasy hybrid.\n\nComposition: one continuous environmental comparison, never a split panel. Use a gently elevated wide view so both complete animals, all humps, heads, feet, folded legs and tails are unambiguous. Hold the standing Bactrian in the left-middle third against distant blue-white Pamir foothills and the resting dromedary in the right-middle third against lower warm desert ridges, joined naturally by one uninterrupted sage-and-flower terrace. Exactly one complete tamarisk tree and exactly two complete clay salt blocks sit well inside the central background as shared habitat details. A large pale turquoise sky and broad empty foreground provide elegant negative space. Keep every camel, hump, limb, tail, tree, salt block and discrete stone comfortably inward. Outer edges contain only open sky, continuous distant land, or empty meadow. No water.\n\nStyle/medium: ancient, timeless, beautiful, rough and polished at once; coherent Book VIII Plinian zoological folio with precise comparative anatomy and a luminous Silk Road palette. Fine iron-gall contours, delicate hair and skin stipple, hoof and plant cross-hatching, translucent mineral and fresco washes—shaggy umber, pale cinnamon, sage green, faded turquoise, snow ivory, ochre earth, rose-violet distance, sparse shell-gold morning light. Integrate lime-plaster grain, abrasion, foxing, dry pigment bloom and softened fresco loss into a museum-grade hand-painted surface. Combine Roman encyclopedic curiosity, Central Asian environmental specificity, Pompeian materiality, and Renaissance naturalist precision. Plausible Bactrian and dromedary anatomy. No photorealism, glossy digital art, fantasy, heraldic symmetry, modern zoo, commercial camel-tour imagery, or sentimental poster.\n\nConstraints: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic panels, collage, map, diagram, arrows, or hard split. No text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, watermarks, banners, captions, zodiac, brands, or decorative symbols. No duplicated camel, head, limb, hump, tail, tree, salt block, sun, or moon. Exactly one complete two-humped Bactrian camel, one complete one-humped dromedary, one complete tamarisk tree, and exactly two complete clay salt blocks. Keep all focal subjects at least 8 percent inward from every edge.",
+      "visualQaNotes": "Inspected at native resolution. One complete two-humped Bactrian camel and one complete one-humped dromedary are anatomically clear around one internal tamarisk and two clay salt blocks; no tack, burden, handlers, cruelty, split panel, text, border, or clipped focal subject appears.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

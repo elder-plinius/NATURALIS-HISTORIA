@@ -1,0 +1,1701 @@
+{
+  "schemaVersion": 1,
+  "campaign": "atlas-replacement-books-02-07",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "2:3",
+    "2:9",
+    "2:19",
+    "2:25",
+    "2:43",
+    "2:45",
+    "2:66",
+    "2:71",
+    "2:79",
+    "2:93",
+    "2:103",
+    "2:104",
+    "3:1",
+    "3:4",
+    "3:5",
+    "3:7",
+    "3:22",
+    "3:25",
+    "5:1",
+    "5:10",
+    "5:11",
+    "5:28",
+    "6:13",
+    "6:19",
+    "7:1"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact accepted prompts and built-in generation artifact IDs were captured from the active ImageGen session. Portable built-in-imagegen references intentionally replace machine-private saved paths; both accepted and rejected built-in originals remain preserved.",
+  "sourceManifest": {
+    "sourceArtifact": "assets-source/chapter-artwork-manifest.json",
+    "sha256": "9dca2ade74ab86b94c477d58e631afe2cd28083356ea8719e29c886005f8b849"
+  },
+  "artworkPlan": {
+    "sourceArtifact": "assets-source/chapter-artwork-plan.json",
+    "sha256": "a68d57cc1b6a956239f225af9a69b406c800c5baf5588618488d02d0d6152e68"
+  },
+  "styleContract": {
+    "sourceArtifact": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+    "sha256": "0aee569ebc75887b046d4fd2362bcc87f53adba8be86b5b81d9ef88681ba925b"
+  },
+  "scopeNote": "This receipt covers the 25-chapter worker partition ending at 7:1. Chapters 7:20, 7:24, 7:33, 7:48, and 7:56 were explicitly transferred to another campaign worker and are not claimed here.",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "22879fa17273eb73b197125dbe6b0eb8c4258e96901039cf0813962f12296898"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "sha256": "a0f31904720bcac63a6c30b0bb86233be35383958fcf5e782c9b6e0bd408f313"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "11b2f88b7047b55888842b317eea6a14a3629ca0bffd0c24dae9e2fa5849ab57"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "sha256": "c076c4b5cfaeefc252f1c86dc68ddab515182b4e6c1e561e7e910e60e5fb4e25"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "f6db5689eae7b6be07036e85400746494bcd0d788b0ad5e3de079a04d215e0fc"
+    }
+  ],
+  "corpusGroundingNote": "The complete routed Latin and English fields and the exact chapter title were read before each accepted prompt. The illustrations render Pliny's transmitted natural philosophy and geography as historical subject matter, without upgrading ancient claims into verified modern science.",
+  "generationSummary": {
+    "acceptedCount": 25,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 30,
+    "independentInitialSceneCalls": 25,
+    "independentReplacementCalls": 5,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "campaignAudit": {
+    "command": "node scripts/audit-chapter-scene-campaign.mjs atlas-replacement-books-02-07",
+    "exitStatus": 0,
+    "performedAt": "2026-08-26",
+    "canonicalCountAtScan": 1065,
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "minimumObservedMAD": 20.28,
+    "minimumObservedDHash": 13,
+    "gatePass": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:3",
+      "title": "OF ITS NATURE; WHENCE THE NAME IS DERIVED",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:cosmos-celestial-mechanics-atlas.jpg#A1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/cosmos-celestial-mechanics-atlas.jpg",
+        "cell": "A1",
+        "cellLabel": "cosmic order and elements",
+        "title": "OF ITS NATURE; WHENCE THE NAME IS DERIVED"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c003.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3411d083f880a879f43235944186fee547120475302a25f686c759c8acf323fc",
+        "englishSha256": "61ecb9e4d1874aa925d637dc184c77b6ff99718a4510d33b51a88db849347bb1",
+        "latinWords": 124,
+        "englishWords": 234,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e8a0cb635ffaf5afade54316161b92038b2d60c675c7d873353bf4e700c67a60",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-62320ea7-06df-4fd1-a351-643cfebd7ef5",
+      "generationArtifactId": "exec-62320ea7-06df-4fd1-a351-643cfebd7ef5",
+      "outputArtifact": "built-in-imagegen://exec-62320ea7-06df-4fd1-a351-643cfebd7ef5.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 3, “OF ITS NATURE; WHENCE THE NAME IS DERIVED.” Landscape 3:2 composition, a 1536×1024-style master. Ground the image in the routed chapter’s central claim: the world’s rounded form turns eternally and silently through twenty-four hours at unimaginable speed, while the figures of animals and other beings appear impressed among the fixed stars. Show a broad curved terrestrial horizon and ocean below a single continuous revolving heaven, with a pale circular celestial band and recognizable but naturalistic constellation figures formed only by connected stars—never letters, diagrams, labels, or zodiac glyphs. At the lower edge, include one small, complete Roman-era natural philosopher standing on a rocky rise and looking upward, whole body visible and uncropped, to establish human scale. Treat the sky as a physical ancient cosmos, not modern outer space and not an infographic. Use warm aged vellum, iron-gall linework, cross-hatching and stipple, with restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes. Dense engraved detail around the curved world and stars, generous breathing room across the heavens, clear silhouette, restrained contrast, tactile folio texture. No text, no pseudo-writing, no numerals, no labels, no logos, no watermark, no modern objects, no telescope, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-672185e6-93cc-40b1-9d0b-2ff1c5101730",
+          "status": "rejected",
+          "reason": "Rejected before final acceptance because the exactFinalPrompt cited the adjacent chapter’s title rather than the manifest/corpus title for 2:3, despite matching the routed text’s rotational subject."
+        },
+        {
+          "generationArtifactId": "exec-62320ea7-06df-4fd1-a351-643cfebd7ef5",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a unified 3:2 ancient-cosmos panorama, with one complete uncropped philosopher, strong rounded Earth horizon, broad revolving celestial band, and clear star-formed creature figures. No text, pseudo-writing, logos, watermark, modern instrument, panel, grid, collage, duplication, or focal cropping is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-672185e6-93cc-40b1-9d0b-2ff1c5101730",
+          "outputArtifact": "built-in-imagegen://exec-672185e6-93cc-40b1-9d0b-2ff1c5101730.png",
+          "sha256": "a58c6631ef4e09ed9ea92dce1c111527224ef0ddc3b39a869de33360c0666eb1",
+          "status": "rejected",
+          "builtInOriginalPreserved": true,
+          "reason": "Rejected before final acceptance because the exactFinalPrompt cited the adjacent chapter’s title rather than the manifest/corpus title for 2:3, despite matching the routed text’s rotational subject."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:9",
+      "title": "OF THE NATURE OF THE STARS; OF THE MOTION OF THE PLANETS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:cosmos-celestial-mechanics-atlas.jpg#A3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/cosmos-celestial-mechanics-atlas.jpg",
+        "cell": "A3",
+        "cellLabel": "planets, seasons and time",
+        "title": "OF THE NATURE OF THE STARS; OF THE MOTION OF THE PLANETS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c009.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "96c5cb5fd237989db03867d930bdc9cb53436ab879cf7bbabb521802abc9731d",
+        "englishSha256": "6419eea614d4bd58c85853e4391e3fac77f9fc311b0a0a57d8d18ddea0e8b37d",
+        "latinWords": 319,
+        "englishWords": 613,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "7ea847eaca26cf2d62bf1b4681bd31827b19d7640f3c77fb9788e909aa7c934d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9def98ea-b502-4805-a87f-99f4dda68486",
+      "generationArtifactId": "exec-9def98ea-b502-4805-a87f-99f4dda68486",
+      "outputArtifact": "built-in-imagegen://exec-9def98ea-b502-4805-a87f-99f4dda68486.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 9, “OF THE NATURE OF THE STARS; OF THE MOTION OF THE PLANETS.” Landscape 3:2 composition, a 1536×1024-style master. Make this a materially distinct replacement composition centered on the chapter’s inquiry into the Moon: look outward from deep inside a broad, shadowed Latmian rock grotto, whose irregular lampblack arch forms a bold dark frame around a single open nocturnal vista. In the middle distance, Endymion is one small but complete, uncropped ancient observer kneeling at the grotto threshold beside a shallow stone basin, watching one enormous half-lit Moon low above bare mountains. Its illuminated half is softly silver-ochre, its dark half still faintly visible and mottled; its light makes one broken reflection across the basin water, embodying Pliny’s comparison of borrowed lunar light to sunlight reflected from water. A slim strip of distant sea lies beyond the rocks. No succession of phases and no celestial diagram: one Moon, one observer, one continuous place, with the cavern’s darkness, basin reflection, and low disk doing the explanatory work. Emphasize the complete circular lunar disk, reflected light, spotted surface, and changing height near the mountains. Warm aged vellum ground; iron-gall linework, dense cross-hatching and stipple in the cavern, restrained washes of umber, lampblack, verdigris, faded lapis, madder, and ochre; tactile folio texture and engraved natural-history precision, with generous breathing room around the Moon. No text, no pseudo-writing, no numerals, no labels, no orbit lines, no zodiac glyphs, no logos, no watermark, no modern objects, no telescope, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated human figure, no decorative filler.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a703fe29-8b9b-4fb0-b919-d143445a443d",
+          "status": "rejected",
+          "reason": "Rejected before final acceptance because the exactFinalPrompt used an informal lunar heading rather than the exact manifest/corpus title for 2:9."
+        },
+        {
+          "generationArtifactId": "exec-77096471-385f-460e-a137-3e7eff748e6b",
+          "status": "rejected",
+          "reason": "Rejected by the strict campaign uniqueness audit: nearestMAD 17.09 was below the mandatory 20 threshold against trees-aromatics-wave-43/b02-c032.png, despite no exact duplicate and passing dHash."
+        },
+        {
+          "generationArtifactId": "exec-9def98ea-b502-4805-a87f-99f4dda68486",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a single complete half-lit, mottled Moon dominates an open vista framed by a deeply cross-hatched Latmian grotto; Endymion is complete and uncropped beside a stone basin whose broken reflection makes the chapter’s borrowed-light comparison legible. No text, pseudo-writing, logo, watermark, modern instrument, diagram, panel, grid, collage, duplicated person, or cropped focal subject is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a703fe29-8b9b-4fb0-b919-d143445a443d",
+          "outputArtifact": "built-in-imagegen://exec-a703fe29-8b9b-4fb0-b919-d143445a443d.png",
+          "sha256": "5c6263fbeb863be2c42d9d16f2aaacb224504e56b77c085d643e30eb44f3f1dc",
+          "status": "rejected",
+          "builtInOriginalPreserved": true,
+          "reason": "Rejected before final acceptance because the exactFinalPrompt used an informal lunar heading rather than the exact manifest/corpus title for 2:9."
+        },
+        {
+          "generationArtifactId": "exec-77096471-385f-460e-a137-3e7eff748e6b",
+          "outputArtifact": "built-in-imagegen://exec-77096471-385f-460e-a137-3e7eff748e6b.png",
+          "sha256": "4797452a6ece2c3b8cb34965f62f7a86cf6dc854ea2f163da4e31ee833d70ea5",
+          "status": "rejected",
+          "builtInOriginalPreserved": true,
+          "reason": "Rejected by the strict campaign uniqueness audit: nearestMAD 17.09 was below the mandatory 20 threshold against trees-aromatics-wave-43/b02-c032.png, despite no exact duplicate and passing dHash."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:19",
+      "title": "OF THE MOTION OF THE SUN AND THE CAUSE OF THE IRREGULARITY OF THE DAYS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:cosmos-celestial-mechanics-atlas.jpg#A2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/cosmos-celestial-mechanics-atlas.jpg",
+        "cell": "A2",
+        "cellLabel": "Sun, Moon and eclipses",
+        "title": "OF THE MOTION OF THE SUN AND THE CAUSE OF THE IRREGULARITY OF THE DAYS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c019.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bb6c9e64104c5cdebf1d4523d29879615bd1f982afc14ff71bbd898a314b0f41",
+        "englishSha256": "3bfbe664138d0501b9ca654c0fcc23cc0fb6791b301901fa084e440a089d55df",
+        "latinWords": 74,
+        "englishWords": 144,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "a5826870e93991457a46d3cdf57fbdd441ad2ac7448fb2ee2ea9abe7db978c79",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e58a6395-5ccc-4a9a-8d35-90612583920e",
+      "generationArtifactId": "exec-e58a6395-5ccc-4a9a-8d35-90612583920e",
+      "outputArtifact": "built-in-imagegen://exec-e58a6395-5ccc-4a9a-8d35-90612583920e.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 19, “OF THE MOTION OF THE SUN AND THE CAUSE OF THE IRREGULARITY OF THE DAYS.” Landscape 3:2 composition, a 1536×1024-style master. Show a Roman-era natural philosopher observing the high summer Sun from an open stone gnomon court: one complete, uncropped figure stands beside a simple upright obelisk whose short, sharply engraved shadow crosses a circular pavement without any markings or writing. Beyond the court, a wide cultivated Mediterranean horizon remains brightly lit into evening, while a gently oblique band of faint stars and thin cloud sweeps diagonally across the upper sky to suggest the Sun’s slanting seasonal course through the heavens and the unequal length of days. Keep one Sun only, high and dominant; convey seasonal geometry through light, shadow, horizon, and the oblique celestial band rather than a modern diagram. Include complete architecture and breathing room around both observer and gnomon. Warm aged vellum ground, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes, tactile folio texture, engraved natural-history precision. No text, no pseudo-writing, no numerals, no labels, no calendar, no zodiac glyphs, no orbit arrows, no logos, no watermark, no modern objects, no telescope, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e58a6395-5ccc-4a9a-8d35-90612583920e",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: clear unified gnomon court, one complete uncropped observer, high single Sun, short coherent shadow, cultivated horizon, and subtle oblique stellar band communicate seasonal solar motion without becoming a labeled diagram. No text, pseudo-writing, logos, watermark, modern object, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:25",
+      "title": "THEIR NATURE, SITUATION, AND SPECIES",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:cosmos-celestial-mechanics-atlas.jpg#B1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/cosmos-celestial-mechanics-atlas.jpg",
+        "cell": "B1",
+        "cellLabel": "comets and celestial lights",
+        "title": "THEIR NATURE, SITUATION, AND SPECIES"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c025.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3f665c3f5c74e6a8fa3e58a81c2ab4e0fd3094fd1c387a0db1afae57136786f8",
+        "englishSha256": "23870ef74360148a6ee3417b5eb720a36963e153317ead908e3febf5f9aa49f1",
+        "latinWords": 516,
+        "englishWords": 918,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "03eda22036ef95aca90572e67806abf4fc156508d742c34170c4e9b505c4ab39",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dc3840a0-bed3-42c9-a6c8-e5fba25d73bd",
+      "generationArtifactId": "exec-dc3840a0-bed3-42c9-a6c8-e5fba25d73bd",
+      "outputArtifact": "built-in-imagegen://exec-dc3840a0-bed3-42c9-a6c8-e5fba25d73bd.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 25, “THEIR NATURE, SITUATION, AND SPECIES.” Landscape 3:2 composition, a 1536×1024-style master. Make this a materially distinct replacement composition grounded in the chapter’s account of the brilliant hairy star seen in Rome during the games for Venus Genetrix: show a street-level late-afternoon moment in an austere Roman forum, viewed upward between two tall, complete colonnades whose pale vertical architecture occupies both sides and whose blank stone surfaces bear no inscriptions. In the open center, one extraordinary silver-white comet is visible against a pale ochre daylight sky, its compact head high above the forum and its long bristling crimson-umber hair streaming almost vertically downward like a horse’s mane, clearly a celestial fire rather than a weapon or creature. Below it, a small complete circular altar and a restrained gathering of complete, uncropped Roman spectators turn upward during the games; a few plain garlands and extinguished torches indicate the civic occasion without signs or writing. Keep the ground plane broad and architectural, with strong upright columns and a luminous open sky—no hill town, no rural horizon, no specimen display, and no multiple comets. Preserve Pliny’s uncertainty about omen and natural cause: no literal deity, ghost, monster, spacecraft, or supernatural apparition. Warm aged vellum ground; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision, with generous clear space around the comet. No text, no pseudo-writing, no numerals, no labels, no banners, no charts, no star map, no logos, no watermark, no modern objects, no telescope, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated human figure, no decorative filler.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-cc7de781-f14f-4b2f-98fa-6deceafbd2ba",
+          "status": "rejected",
+          "reason": "Rejected by the strict campaign uniqueness audit: nearestMAD 16.08 was below the mandatory 20 threshold against trees-aromatics-wave-43/b02-c032.png, despite no exact duplicate and passing dHash."
+        },
+        {
+          "generationArtifactId": "exec-dc3840a0-bed3-42c9-a6c8-e5fba25d73bd",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a single brilliant hair-tailed comet occupies a pale open sky above a street-level Roman forum framed by strong colonnades; complete uncropped spectators and the blank circular altar establish the civic games without text. No pseudo-writing, logo, watermark, modern object, literal deity, chart, map, panel, grid, collage, duplicated focal figure, or cropped focal subject is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-cc7de781-f14f-4b2f-98fa-6deceafbd2ba",
+          "outputArtifact": "built-in-imagegen://exec-cc7de781-f14f-4b2f-98fa-6deceafbd2ba.png",
+          "sha256": "149167b9e68852df9aff679944e99381ce16e0869a50eab03a41cd4d09753e67",
+          "status": "rejected",
+          "builtInOriginalPreserved": true,
+          "reason": "Rejected by the strict campaign uniqueness audit: nearestMAD 16.08 was below the mandatory 20 threshold against trees-aromatics-wave-43/b02-c032.png, despite no exact duplicate and passing dHash."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:43",
+      "title": "OF THUNDER AND LIGHTNING",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:cosmos-celestial-mechanics-atlas.jpg#B2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/cosmos-celestial-mechanics-atlas.jpg",
+        "cell": "B2",
+        "cellLabel": "storms and atmospheric phenomena",
+        "title": "OF THUNDER AND LIGHTNING"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c043.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9940599b21ac36c90465a7a7c19c2521318877e3c28f632b219dffe82003def7",
+        "englishSha256": "a0bb830c2bd82e7b0f267d61a4932e5c5a8d00cb7c7fe0447a65bbfc41b4fab6",
+        "latinWords": 246,
+        "englishWords": 448,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "9d038c4f13a868041d3a7cddffd3d0449071b7bc05b6d9f73f74e18d97c14a6f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4ef67d17-330f-4899-a2f9-148b8bab3f1a",
+      "generationArtifactId": "exec-4ef67d17-330f-4899-a2f9-148b8bab3f1a",
+      "outputArtifact": "built-in-imagegen://exec-4ef67d17-330f-4899-a2f9-148b8bab3f1a.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 43, “OF THUNDER AND LIGHTNING.” Landscape 3:2 composition, a 1536×1024-style master. Depict Pliny’s physical account of a thunderstorm over an ancient Mediterranean valley: one immense dark cloud bank swells with trapped wind and vapor, then visibly splits along a single brilliant jagged lightning channel that descends toward an empty rocky slope. Rain curtains and wind-driven cloud edges reveal the pressure and violence inside the cloud; a warm inner glow around the rupture suggests fire entering moisture, like heated iron quenched in water, without literally showing metal or a laboratory analogy. In the lower foreground, two small complete Roman travelers shelter beneath a rock ledge, whole bodies visible and uncropped, their cloaks driven by the gust as they watch from a safe distance. Keep the lightning, cloud rupture, and moving air as the focal subject, with generous breathing room and no damage, gore, or struck person. Warm aged vellum, iron-gall linework, dense cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, restrained contrast except at the lightning. No text, no pseudo-writing, no labels, no logos, no watermark, no modern objects, no lightning rod, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4ef67d17-330f-4899-a2f9-148b8bab3f1a",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a single massive cloud bank visibly ruptures around one dominant lightning channel above an unoccupied slope, with coherent rain curtains and wind; two complete uncropped travelers shelter safely. No text, pseudo-writing, logos, watermark, modern object, panel, grid, collage, duplication, gore, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:45",
+      "title": "VARIOUS OBSERVATIONS RESPECTING WINDS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:cosmos-celestial-mechanics-atlas.jpg#B3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/cosmos-celestial-mechanics-atlas.jpg",
+        "cell": "B3",
+        "cellLabel": "winds and weather",
+        "title": "VARIOUS OBSERVATIONS RESPECTING WINDS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c045.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1bc4e0e2ea068b692652eadf18f34751180f070d83b51208ee28fdf7b57ad31b",
+        "englishSha256": "aeabeae2ac0896292e3b1ddbb006d5f82f849dfa194b728f141a67a9a856881c",
+        "latinWords": 150,
+        "englishWords": 275,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "05909c28646b237a341858e1e9393436ed73f99fb6fdfca10248876f9e22ce3c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1706f291-f846-4c03-88c4-a41d532349f8",
+      "generationArtifactId": "exec-1706f291-f846-4c03-88c4-a41d532349f8",
+      "outputArtifact": "built-in-imagegen://exec-1706f291-f846-4c03-88c4-a41d532349f8.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 45, “VARIOUS OBSERVATIONS RESPECTING WINDS.” Landscape 3:2 composition, a 1536×1024-style master. Depict the chapter’s striking Dalmatian observation: a dark natural cave mouth in a limestone cliff releases a sudden whirling current after a light object is lowered into it. One complete Roman-era naturalist, fully visible and uncropped, braces on the rocky ledge while lowering a small tuft of wool on a plain cord toward the cave; the wool, his cloak, grasses, dust, and nearby tree branches all stream outward in the same violent spiral of air. A second complete companion stands well back holding a simple travel staff, also buffeted by the gust. Keep the cavern, visible vortex, and responsive natural materials as the clear focal subject; the wind must feel physical and geographically grounded, not magical, personified, or like a modern experiment. Show the whole cave mouth with generous breathing room and the Adriatic coast faintly beyond. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision. No text, no pseudo-writing, no labels, no logos, no watermark, no modern objects, no machinery, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-1706f291-f846-4c03-88c4-a41d532349f8",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: the whole Dalmatian cave mouth, coherent outward vortex, tuft on cord, streaming cloak, grass, tree, and debris all communicate one physical wind event; both observers are complete and uncropped. No text, pseudo-writing, logos, watermark, modern apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:66",
+      "title": "HOW THE WATER IS CONNECTED WITH THE EARTH. OF THE NAVIGATION OF THE SEA AND THE RIVERS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:earth-processes-ocean-atlas.jpg#A2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/earth-processes-ocean-atlas.jpg",
+        "cell": "A2",
+        "cellLabel": "navigation and tides",
+        "title": "HOW THE WATER IS CONNECTED WITH THE EARTH. OF THE NAVIGATION OF THE SEA AND THE RIVERS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c066.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "84ba675cc5027ab81db215ca67d345fa6c9265468884928facc6dbdc8c46b7b6",
+        "englishSha256": "525a9f91ad88ad25af23850fe63b7dd7bbd3cd22d43f927a8ad1cef3a7a4b0de",
+        "latinWords": 20,
+        "englishWords": 37,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "cc0e7c9b07de9a7581741b4fabf2f57cdbffaba07bfcb243602e41ec2024f0db",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-871e75a4-d891-4c50-823c-c92ed52e29fc",
+      "generationArtifactId": "exec-871e75a4-d891-4c50-823c-c92ed52e29fc",
+      "outputArtifact": "built-in-imagegen://exec-871e75a4-d891-4c50-823c-c92ed52e29fc.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 66, “HOW THE WATER IS CONNECTED WITH THE EARTH. OF THE NAVIGATION OF THE SEA AND THE RIVERS.” Landscape 3:2 composition, a 1536×1024-style master. Depict the chapter’s central claim, established by seafaring experience, that water girds and connects the whole rounded earth. Show one complete Roman merchant vessel under square sail, entirely visible and uncropped, rounding a high coastal headland where an inland river broadens into an estuary and joins the open sea. The far ocean horizon should curve subtly around the land, while small distant islands and a second tiny sail establish continuity of navigation without turning the scene into a map. On the riverbank, one complete boatman guides a narrow river craft toward the estuary, showing the joined routes of river and sea. Keep the main merchant ship, estuary, and continuous water surface as one clear geographical subject with ample breathing room; this is an observed ancient maritime landscape, not a globe model, cutaway, or diagram. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, restrained contrast. No text, no pseudo-writing, no numerals, no labels, no compass rose, no map border, no logos, no watermark, no modern objects, no panel, no grid, no collage, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-871e75a4-d891-4c50-823c-c92ed52e29fc",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: complete uncropped Roman merchant ship and river boat occupy one continuous river-to-estuary-to-sea surface, with a subtly curved ocean horizon, headland, islands, and distant sail. No text, pseudo-writing, logos, watermark, modern object, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:71",
+      "title": "WHAT REGULATES THE DAYLIGHT ON THE EARTH",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:earth-processes-ocean-atlas.jpg#A1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/earth-processes-ocean-atlas.jpg",
+        "cell": "A1",
+        "cellLabel": "Earth form and measurement",
+        "title": "WHAT REGULATES THE DAYLIGHT ON THE EARTH"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c071.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7d38e895c80b66d2fde09858334181fbe7cc8acfd3a5f8f58281d0f971596709",
+        "englishSha256": "1579d81fc5bf3c7aba6215c721120e52554bb78e2ccbab8219860c2aff31ce45",
+        "latinWords": 108,
+        "englishWords": 218,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "4f7a6722a5c968ff7c7c4cdda1efbe77576a692ddaf404fc796dac6d17e7bc86",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f64e5da7-f71d-4f6d-936c-2e2eb62807cf",
+      "generationArtifactId": "exec-f64e5da7-f71d-4f6d-936c-2e2eb62807cf",
+      "outputArtifact": "built-in-imagegen://exec-f64e5da7-f71d-4f6d-936c-2e2eb62807cf.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 71, “WHAT REGULATES THE DAYLIGHT ON THE EARTH.” Landscape 3:2 composition, a 1536×1024-style master. Depict the routed chapter’s proof that daylight reaches different places at different times on the rounded Earth. Show a vast ancient western Mediterranean coastal panorama curving away toward the horizon at dawn: one golden Sun has just risen at the bright eastern edge, while farther west the same continuous landscape remains blue-dark. A chain of complete hilltop watchtowers recedes across the curvature; the nearest beacon burns brightly, the next is only being kindled, and the farthest remains dark, making the delay in sight and daylight physically legible without labels or diagram lines. Along the coast, one complete courier runs westward on a Roman road and one complete small sailing vessel heads toward the darker horizon, both uncropped and subordinate. Keep a single coherent place and moment with generous sky and land breathing room, not a map or time-sequence collage. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision. No text, no pseudo-writing, no numerals, no labels, no compass, no map border, no logos, no watermark, no modern objects, no panel, no grid, no collage, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f64e5da7-f71d-4f6d-936c-2e2eb62807cf",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: one curved coastal panorama transitions coherently from golden dawn to starry darkness, with three receding beacon towers in different states, one complete uncropped runner, and one complete ship. No text, pseudo-writing, logos, watermark, modern object, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:79",
+      "title": "OF EARTHQUAKES",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:earth-processes-ocean-atlas.jpg#A3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/earth-processes-ocean-atlas.jpg",
+        "cell": "A3",
+        "cellLabel": "earthquakes and clefts",
+        "title": "OF EARTHQUAKES"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c079.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "8b82a592c2794e703c8a8ba457af8cfad79d82fba164c25caed41a3a27f27b8c",
+        "englishSha256": "c53da79f40c23e0d6201574174eca6f702c4bacb83537f698be1647b1d7c64c5",
+        "latinWords": 187,
+        "englishWords": 319,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "5bf1f2214c8fa1240fce61f1b50e0197deb9018b367f6a4b90d5a31bfbc2a7dc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bb01223b-61b6-4f9f-93bd-31ab6d8287d1",
+      "generationArtifactId": "exec-bb01223b-61b6-4f9f-93bd-31ab6d8287d1",
+      "outputArtifact": "built-in-imagegen://exec-bb01223b-61b6-4f9f-93bd-31ab6d8287d1.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 79, “OF EARTHQUAKES.” Landscape 3:2 composition, a 1536×1024-style master. Depict Pliny’s explanation that imprisoned subterranean winds force open the earth. Show an ancient Greek town at the foot of Mount Taygetus at the first moment of an earthquake: one broad fresh fissure runs through an empty stone road and exhales dust and pale vapor, nearby columns tilt but have not fallen onto anyone, roof tiles shift, and the mountain flank is visibly cracked. In the foreground, one complete natural philosopher modeled on Anaximander raises an arm to warn a small group moving away into open ground; every figure is complete, fully visible, and uncropped. A few birds remain low against the turbulent, strangely still air, reinforcing the chapter’s observation without becoming the focal point. Emphasize physical strain, trapped air, and the ground rupture; keep people safe, distant, and non-heroic, with no bodies, gore, or spectacle of suffering. Warm aged vellum, iron-gall linework, dense cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision. No text, no pseudo-writing, no labels, no logos, no watermark, no modern objects, no seismograph, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-bb01223b-61b6-4f9f-93bd-31ab6d8287d1",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: one broad vapor-exhaling road fissure aligns with a cracked Taygetus slope and modest architectural displacement; the warning philosopher and departing townspeople are complete and uncropped, with no injury depicted. The few birds are higher than requested but remain minor and do not undermine the chapter’s central earthquake subject. No text, pseudo-writing, logos, watermark, modern object, panel, grid, collage, duplication, gore, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:93",
+      "title": "OF VENTS IN THE EARTH",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:earth-processes-ocean-atlas.jpg#B1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/earth-processes-ocean-atlas.jpg",
+        "cell": "B1",
+        "cellLabel": "island transformations",
+        "title": "OF VENTS IN THE EARTH"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c093.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "17c18123120fa7eefb6e726a5fdb5cf016b316d180d4a3afaaad825f7c8d4793",
+        "englishSha256": "5980adc084948186253d8b98208cb7fe1a615e0568e6244e458a08b8f045aa4e",
+        "latinWords": 180,
+        "englishWords": 323,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6397c5aeb332ea32ed619d479e40990da0ab854c81fc724c661fde86631ca0be",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3892e4ee-afe3-407c-a8ac-6ef09dace59f",
+      "generationArtifactId": "exec-3892e4ee-afe3-407c-a8ac-6ef09dace59f",
+      "outputArtifact": "built-in-imagegen://exec-3892e4ee-afe3-407c-a8ac-6ef09dace59f.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 93, “OF VENTS IN THE EARTH.” Landscape 3:2 composition, a 1536×1024-style master. Depict the chapter’s dangerous earth-breathing phenomenon at the Amsanctus valley: a deep, complete rocky chasm opens amid a wooded ancient Italian landscape and exhales a low pale mineral vapor that clings to the ground before thinning into open air. One complete Roman naturalist stands at a clearly safe distance on higher ground, fully visible and uncropped, holding his cloak across nose and mouth while observing; a complete local guide gestures for him to stay back. Birds approaching the vapor visibly wheel away in the clean air—none struck, dead, or falling. Sparse yellowed vegetation and mineral crust at the vent’s rim distinguish the poisonous exhalation from ordinary mist. Keep one cave-like vent, its vapor, and the cautious observers as a coherent physical scene, neither prophetic fantasy nor a collage of several sites. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous breathing room. No text, no pseudo-writing, no labels, no logos, no watermark, no modern objects, no gas mask, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no corpses, no gore, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-3892e4ee-afe3-407c-a8ac-6ef09dace59f",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: one fully visible mineral-crusted Amsanctus vent exhales low clinging vapor while two complete uncropped observers remain safely above it and birds wheel away in clean air. No text, pseudo-writing, logos, watermark, modern object, panel, grid, collage, duplication, corpse, gore, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:103",
+      "title": "THE WONDERS OF FOUNTAINS AND RIVERS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:earth-processes-ocean-atlas.jpg#B2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/earth-processes-ocean-atlas.jpg",
+        "cell": "B2",
+        "cellLabel": "springs and rivers",
+        "title": "THE WONDERS OF FOUNTAINS AND RIVERS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c103.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "e28505894dd35641388a635455f59c7f01d0ea7ce4f260461a0480e1fd24ad6e",
+        "englishSha256": "0da58f7c10f31f2504188881ea672b6a53e3aa0541b6f4f1688b41f2915accbd",
+        "latinWords": 821,
+        "englishWords": 1560,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "c230ec9fe5675e4fc025c82f771353b61c83fe254b356031349e56679e46f907",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dde89966-0b94-46a9-a844-ae100a5f2f3d",
+      "generationArtifactId": "exec-dde89966-0b94-46a9-a844-ae100a5f2f3d",
+      "outputArtifact": "built-in-imagegen://exec-dde89966-0b94-46a9-a844-ae100a5f2f3d.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 103, “THE WONDERS OF FOUNTAINS AND RIVERS.” Landscape 3:2 composition, a 1536×1024-style master. Depict one exact wonder from the routed chapter: the Rhône enters Lake Leman and its lighter fresh current remains visibly distinct for a long distance across the darker lake before continuing onward. Show a high Alpine lake panorama with the complete river entering from a broad valley, a sinuous band of paler clear water crossing the lake surface without artificial outlines, and snow-streaked ridges enclosing the basin. In the foreground, one complete ancient flat-bottomed boat carries a Roman-era naturalist and two local boatmen, all fully visible and uncropped, leaning to compare the two adjacent colors and textures of water. A few floating leaves follow only the pale current, reinforcing its path. Keep river, lake, and boat as one coherent observed landscape with generous breathing room; no supernatural effects, cutaway, or diagram. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision. No text, no pseudo-writing, no numerals, no labels, no map, no arrows, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped boat or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-dde89966-0b94-46a9-a844-ae100a5f2f3d",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: the Rhône visibly enters and crosses Lake Leman as a naturally edged pale current, tracked by floating leaves, within one complete Alpine basin; the boat is fully visible and uncropped with three coherent ancient occupants. No text, pseudo-writing, logos, watermark, modern object, diagram, map, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "2:104",
+      "title": "OF MALTHA",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:earth-processes-ocean-atlas.jpg#B3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/earth-processes-ocean-atlas.jpg",
+        "cell": "B3",
+        "cellLabel": "substances and fires of Earth",
+        "title": "OF MALTHA"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b02-c104.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9daf0498dcec913b028302582cee41bdde6d214d325a811642d35d901b7e953b",
+        "englishSha256": "01eef6daafb48f0e90c8b33a3f9c8d289bf25e9381a545dd7fcbbece2a2ce9c4",
+        "latinWords": 41,
+        "englishWords": 79,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "fc38c1e11a2b86e7029c51fff0d019a53c3a0bc870ae971ce7b42580e9432250",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8cfa855f-9133-48b6-a7db-ffb32bed225c",
+      "generationArtifactId": "exec-8cfa855f-9133-48b6-a7db-ffb32bed225c",
+      "outputArtifact": "built-in-imagegen://exec-8cfa855f-9133-48b6-a7db-ffb32bed225c.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 2 Chapter 104, “OF MALTHA.” Landscape 3:2 composition, a 1536×1024-style master. Depict a controlled ancient demonstration of the strange inflammable mud at Samosata in Commagene. In a shallow stone-edged pool beside the complete city wall, a dark viscous ribbon of maltha floats on water and burns with low ochre flames; the mud visibly clings to the end of a wooden pole as one complete local observer draws it back. A second complete observer, fully visible and uncropped, shovels dry earth onto one edge of the flame, where the fire is visibly smothered, illustrating Pliny’s claim that earth alone extinguishes it. Keep every person safely away from the burning substance, with no battle, injury, or dramatic explosion. The pool, sticky mud, flame on water, and earthen extinguishing action must read as one coherent physical event, not an alchemical fantasy or laboratory. Warm aged vellum, iron-gall linework, dense cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous breathing room. No text, no pseudo-writing, no labels, no logos, no watermark, no modern objects, no metal drum, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no gore, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8cfa855f-9133-48b6-a7db-ffb32bed225c",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: the complete stone-edged Samosata pool shows black viscous maltha burning directly on water, clinging to a pole, and being smothered by earth at one edge; both observers are complete, uncropped, and safe. No text, pseudo-writing, logos, watermark, modern object, panel, grid, collage, duplication, injury, gore, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "3:1",
+      "title": "THE BOUNDARIES AND GULFS OF EUROPE FIRST SET FORTH IN A GENERAL WAY",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:western-roman-regions-atlas.jpg#A1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/western-roman-regions-atlas.jpg",
+        "cell": "A1",
+        "cellLabel": "Hispania",
+        "title": "THE BOUNDARIES AND GULFS OF EUROPE FIRST SET FORTH IN A GENERAL WAY"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b03-c001.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ab5477e5e45b1b3eca674626c97c205f36e50c56bcb5bc4e75539da1b5a82bec",
+        "englishSha256": "f9ba0cdcd4d1876ea6099bdb3565215e8fa224d81502477ef6c1c357339b6690",
+        "latinWords": 1175,
+        "englishWords": 1625,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "47183843f9bd39e7dc2ed02433cb023271636fc72131753d59f3b70009626f8e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ba4f65e5-ac41-4b10-9e10-b88ac7c61a21",
+      "generationArtifactId": "exec-ba4f65e5-ac41-4b10-9e10-b88ac7c61a21",
+      "outputArtifact": "built-in-imagegen://exec-ba4f65e5-ac41-4b10-9e10-b88ac7c61a21.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 3 Chapter 1, “THE BOUNDARIES AND GULFS OF EUROPE FIRST SET FORTH IN A GENERAL WAY.” Landscape 3:2 composition, a 1536×1024-style master. Depict the western threshold of Pliny’s Europe from an elevated natural lookout above the Strait of Gades: the complete rocky mass of Calpe rises on the European shore in the foreground, the African pillar stands across the narrow water, the broad Atlantic opens to one side, and the Mediterranean reaches inward on the other. A complete Roman merchant vessel, entirely visible and uncropped, passes through the strait; farther along the European coast, the mouth of the Baetis enters a cultivated estuary near distant Gades, with small ancient settlements and fields subordinate to the geography. Keep the two seas, strait, opposing promontories, and river coast in one continuous believable vista, not an aerial map, emblem, or diagram. Use accurate ancient square sails, hull, roads, and low masonry; no oversized monuments. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous atmospheric breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ba4f65e5-ac41-4b10-9e10-b88ac7c61a21",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a coherent elevated vista joins opposing rocky pillars, narrow strait, open sea, cultivated Baetis estuary, distant settlement, and one complete uncropped ancient merchant vessel. No text, pseudo-writing, logos, watermark, modern object, political border, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "3:4",
+      "title": "OF THE PROVINCE OF GALLIA NARBONENSIS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:western-roman-regions-atlas.jpg#A2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/western-roman-regions-atlas.jpg",
+        "cell": "A2",
+        "cellLabel": "Gaul and the Alps",
+        "title": "OF THE PROVINCE OF GALLIA NARBONENSIS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b03-c004.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "corpusReadEvidence": {
+        "latinSha256": "25ef01ecfca78b250df17ff4b0661cb3fe14bce71dec66e4aa3cd7b2506695ad",
+        "englishSha256": "7241c902544d0353c452e9116a7b08d42601ccf1e015ff519cea8bbc56814edd",
+        "latinWords": 355,
+        "englishWords": 771,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "dfa26f058095e22968d73c744577bb0dbb6c9693298bbc4a3b5bbc3d65a538ee",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-085ae78f-3e4d-40e3-8a08-6aeb6be42ce6",
+      "generationArtifactId": "exec-085ae78f-3e4d-40e3-8a08-6aeb6be42ce6",
+      "outputArtifact": "built-in-imagegen://exec-085ae78f-3e4d-40e3-8a08-6aeb6be42ce6.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 3 Chapter 4, “OF THE PROVINCE OF GALLIA NARBONENSIS.” Landscape 3:2 composition, a 1536×1024-style master. Depict the fertile Roman province from an elevated southern Rhône landscape: the complete Rhône flows down from faint Alpine foothills, passes vineyards, olive groves, a stone road bridge, and a low walled river town, then divides naturally into broad reedy mouths before reaching the Mediterranean. At the coast, a complete small Roman cargo vessel under square sail enters the river while a second complete river barge carries amphorae inland; both boats are entirely visible and uncropped. A Roman road with a few tiny complete travelers crosses the cultivated plain toward distant Massilia, subordinate to the river geography. Keep the river’s descent, productive province, delta, and sea as one continuous believable vista, clearly distinct from a map or a Lake Leman scene. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous atmospheric breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-085ae78f-3e4d-40e3-8a08-6aeb6be42ce6",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a continuous Rhône vista descends from Alpine foothills through vineyards, bridge, walled town, road, reedy mouths, and Mediterranean coast; both cargo ship and amphora barge are complete and uncropped. No text, pseudo-writing, logos, watermark, modern object, political border, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "3:5",
+      "title": "OF ITALY",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:western-roman-regions-atlas.jpg#A3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/western-roman-regions-atlas.jpg",
+        "cell": "A3",
+        "cellLabel": "Italy and the Padus",
+        "title": "OF ITALY"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b03-c005.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "corpusReadEvidence": {
+        "latinSha256": "4611bd08cc309a5391ee87db13dc161d71a56ee1823af0259df70990d1f0be85",
+        "englishSha256": "020af97a65bf820d4e4ef1b983b09acba7328c581069634a183f8d71f2ec40f1",
+        "latinWords": 2472,
+        "englishWords": 4825,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2a31d8c51a780bda2627a0428ba6158fb6b72ee0aee9129816e9f259861c81de",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-00bbef79-6b27-4788-8b78-e98efb715c67",
+      "generationArtifactId": "exec-00bbef79-6b27-4788-8b78-e98efb715c67",
+      "outputArtifact": "built-in-imagegen://exec-00bbef79-6b27-4788-8b78-e98efb715c67.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 3 Chapter 5, “OF ITALY.” Landscape 3:2 composition, a 1536×1024-style master. Depict Italy as Pliny’s fertile foster-parent of lands through one sweeping, believable Roman-era panorama from a high Apennine shoulder: the mountain spine recedes down the peninsula; the Tiber winds past a distant, low, historically scaled Rome; farther south, the Campanian plain opens into a luminous bay with vineyards, orchards, grain fields, villas, and small ancient ships. Mount Vesuvius appears only as a quiet, intact, non-erupting mountain in the far distance near the Campanian coast—no smoke, fire, ash, destruction, or disaster narrative. In the foreground, a few complete farmers tend vines and grain beside a Roman road, all fully visible and uncropped, while an ox cart remains complete within the frame. Keep the geography, cultivation, roads, river, and cities continuous in one atmospheric vista, not a map, peninsula silhouette, emblem, or collage. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no eruption, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-00bbef79-6b27-4788-8b78-e98efb715c67",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: one expansive cultivated Italian vista connects the Apennine spine, winding river, low ancient cities, Roman road, vineyards, grain, bay, and ships; workers and ox cart are complete and uncropped. Vesuvius is a quiet intact distant mountain with no smoke, fire, ash, eruption, or destruction. No text, pseudo-writing, logos, watermark, modern object, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "3:7",
+      "title": "SARDINIA",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:western-roman-regions-atlas.jpg#B1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/western-roman-regions-atlas.jpg",
+        "cell": "B1",
+        "cellLabel": "western Mediterranean islands",
+        "title": "SARDINIA"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b03-c007.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3bce7186437c34a69224c8c6350418ba3dd550fa543de456b9b9f289d6efd3cd",
+        "englishSha256": "41d4cea3006fb9a653a14dc1795b19829c520ed35613dcd40c302ce36b8d8b2f",
+        "latinWords": 129,
+        "englishWords": 240,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "b77447afb5c9e5d9aae73070cccbbd757a262852d853773fe7f192bd388d66b0",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a9acf267-bcad-44a0-94e1-9f25f6568540",
+      "generationArtifactId": "exec-a9acf267-bcad-44a0-94e1-9f25f6568540",
+      "outputArtifact": "built-in-imagegen://exec-a9acf267-bcad-44a0-94e1-9f25f6568540.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 3 Chapter 7, “SARDINIA.” Landscape 3:2 composition, a 1536×1024-style master. Depict Roman-era Sardinia through a sweeping natural coastal vista from a high ridge above Caralis: the complete sheltered gulf and low ancient harbor town lie below, backed by rugged interior mountains, cork-oak woodland, cultivated plains, and winding roads. Several small offshore islets and a complete ancient merchant ship under square sail establish the island’s surrounding sea; the ship must be entirely visible and uncropped. In the foreground, two complete Sardinian shepherds with a small flock stand on the ridge, fully visible and uncropped, looking toward the harbor; use historically plausible simple wool clothing and no exotic costume. Let the coastline’s long irregular sweep hint at the island’s distinctive form without becoming a literal footprint, map outline, or aerial diagram. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous sea and sky breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a9acf267-bcad-44a0-94e1-9f25f6568540",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: one natural Sardinian coastal panorama includes Caralis gulf and harbor, rugged interior, cultivated plains, cork-like woodland, islets, complete ship, and two complete uncropped shepherds. No literal map or footprint form, text, pseudo-writing, logos, watermark, modern object, political border, panel, grid, collage, duplicated figure, or cropped focal subject is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "3:22",
+      "title": "DALMATIA",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:western-roman-regions-atlas.jpg#B2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/western-roman-regions-atlas.jpg",
+        "cell": "B2",
+        "cellLabel": "Greece and the Adriatic",
+        "title": "DALMATIA"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b03-c022.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7e09c01443acbdb02d7ffb03b930e3307b1447a0da1e62776d17e18c9b2691fc",
+        "englishSha256": "95ca5bbfd2e20607289abbaba185a4217f784f3b7f013f471a965bbb61d61a5e",
+        "latinWords": 238,
+        "englishWords": 452,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "617b31e7c2aed5ecc7f0f991621970759a3b4804bdd109cd18343c2bf8103a51",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6858c53f-61c2-4b89-b407-8e14c30eee5d",
+      "generationArtifactId": "exec-6858c53f-61c2-4b89-b407-8e14c30eee5d",
+      "outputArtifact": "built-in-imagegen://exec-6858c53f-61c2-4b89-b407-8e14c30eee5d.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 3 Chapter 22, “DALMATIA.” Landscape 3:2 composition, a 1536×1024-style master. Depict the distinctive Roman Dalmatian limestone coast near Salona and Tragurium: a clear river descends through a karst gorge toward a sheltered Adriatic harbor, pale marble is quarried from a complete stepped rock face, and squared blocks are moved down a timber ramp to a complete waiting cargo vessel. The low fortified town of Salona and several long rocky islands recede across the blue water. In the foreground, three complete quarry workers use historically simple wedges, levers, and a handcart, all bodies fully visible and uncropped; the quarry face, blocks, and ship must remain complete within the frame. Keep river, marble, fortified coast, harbor, and islands as one continuous working landscape, not a map or generalized Mediterranean port. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous sea and sky breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern machinery, no panel, no grid, no collage, no border, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6858c53f-61c2-4b89-b407-8e14c30eee5d",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: the Dalmatian scene coherently joins a complete stepped limestone quarry, three complete uncropped workers, handcart and blocks, karst stream, fortified Salona coast, long islands, and complete waiting cargo ship. No text, pseudo-writing, logos, watermark, modern machinery, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "3:25",
+      "title": "PANNONIA",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:western-roman-regions-atlas.jpg#B3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/western-roman-regions-atlas.jpg",
+        "cell": "B3",
+        "cellLabel": "Danube provinces",
+        "title": "PANNONIA"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b03-c025.png",
+      "corpusArtifact": "public/corpus/book-03.a0f31904720bcac6.json",
+      "corpusReadEvidence": {
+        "latinSha256": "cbe701a3c4041ed5027ceb3f808e35578ad859b529aed12238ac4ce09de83486",
+        "englishSha256": "8a62d36e068ac1345dc709da48b7420dac4e7bd41e5aa226de3e6b961dc87e2c",
+        "latinWords": 150,
+        "englishWords": 290,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2038b5c53d28f355da45ab48cb6266e5ad3e28f3509e81a455a897a246b6fa52",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bad0bd7f-c23e-4a18-a9f6-f6d9623bee33",
+      "generationArtifactId": "exec-bad0bd7f-c23e-4a18-a9f6-f6d9623bee33",
+      "outputArtifact": "built-in-imagegen://exec-bad0bd7f-c23e-4a18-a9f6-f6d9623bee33.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 3 Chapter 25, “PANNONIA.” Landscape 3:2 composition, a 1536×1024-style master. Depict inland Pannonia at a broad river junction near Segestica and Siscia: a swift darker tributary descends from wooded Alpine foothills and meets a wider calmer river around a complete inhabited island, where a low fortified trading town occupies the bank. Acorn-bearing oak forest frames the plain, and complete flat-bottomed barges carry timber, grain sacks, and amphorae along the gentler water; every boat remains entirely visible and uncropped. In the foreground, two complete local traders and one Roman surveyor stand beside stacked goods on the bank, all fully visible and uncropped, watching a barge enter the confluence. Use plausible simple Iron Age and Roman provincial clothing without exotic stereotypes. Keep oaks, contrasting river currents, island town, commerce, and mountain approach as one continuous inland landscape, not a map or generic seacoast. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous water and sky breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped boat or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-bad0bd7f-c23e-4a18-a9f6-f6d9623bee33",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a visibly swift mountain tributary joins a broad calm river around a complete fortified island town; oak canopy, acorns, complete cargo barges, timber raft, bank goods, and three complete uncropped observers establish Pannonian commerce. No text, pseudo-writing, logos, watermark, modern object, seacoast, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "5:1",
+      "title": "THE TWO MAURITANIAS",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:eastern-southern-regions-atlas.jpg#A1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/eastern-southern-regions-atlas.jpg",
+        "cell": "A1",
+        "cellLabel": "North Africa",
+        "title": "THE TWO MAURITANIAS"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b05-c001.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ad18cbfc2287d4926b6ac5e8b7e523eeaf5d5aebc20371e7fe43d074f7b08076",
+        "englishSha256": "30037860d49125a5bc0be90aa8cdd9b997d28e02cfd9479b672f2619e837f4eb",
+        "latinWords": 945,
+        "englishWords": 2172,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "c125098e4af622b54c107f727da81224ecc3652ae40266c2f37a24fedcbfaee7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2dfccf2b-66b1-47c0-8d92-78afb49d8d56",
+      "generationArtifactId": "exec-2dfccf2b-66b1-47c0-8d92-78afb49d8d56",
+      "outputArtifact": "built-in-imagegen://exec-2dfccf2b-66b1-47c0-8d92-78afb49d8d56.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 5 Chapter 1, “THE TWO MAURITANIAS.” Landscape 3:2 composition, a 1536×1024-style master. Depict the immense Mount Atlas as encountered by a Roman-era survey expedition in Mauritania: a snow-streaked high summit rises beyond a dense lower forest, while the foreground transitions into dark stony sand and dry foothills. One complete small expedition of two local Amazigh guides and two Roman naturalists pauses beside a large branching euphorbia plant, every figure fully visible and uncropped, with simple packs and walking staffs; portray the guides as specific competent collaborators in plausible ancient North African clothing, never exoticized. A complete small group of wild elephants moves far across an open valley, subordinate to the mountain and safely distant. Keep snow, forest, desert margin, flora, elephants, and human scale as one coherent Atlas landscape, rejecting the chapter’s reported satyrs and night fires rather than visualizing fantasy. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous mountain and sky breathing room. No text, no pseudo-writing, no numerals, no labels, no map, no logos, no watermark, no modern objects, no fantasy beings, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2dfccf2b-66b1-47c0-8d92-78afb49d8d56",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a snow-streaked Atlas massif rises above forest and stony desert margin; four complete uncropped collaborators study a large branching euphorbia while elephants cross safely in the middle distance. Clothing and conduct remain grounded, with no fantasy beings or exoticizing spectacle. No text, pseudo-writing, logos, watermark, modern object, map, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "5:10",
+      "title": "THE CITIES OF EGYPT",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:eastern-southern-regions-atlas.jpg#A2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/eastern-southern-regions-atlas.jpg",
+        "cell": "A2",
+        "cellLabel": "Egypt and the Nile",
+        "title": "THE CITIES OF EGYPT"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b05-c010.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "corpusReadEvidence": {
+        "latinSha256": "e283da0d996643bf697c5b8303b5e4d5f383c634d2bc9c1b16577f2dadaa85cc",
+        "englishSha256": "ba12486f3bd2a13bae5053835ff03d6bfc1951cb413287912e3929ccb7c230f1",
+        "latinWords": 171,
+        "englishWords": 352,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "cff4e78f19515a75697b91403c61b2255dbbcf1c1b18d4298b59eda0569e1bb1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-abe84888-3f9a-45de-b599-566bafc35a2c",
+      "generationArtifactId": "exec-abe84888-3f9a-45de-b599-566bafc35a2c",
+      "outputArtifact": "built-in-imagegen://exec-abe84888-3f9a-45de-b599-566bafc35a2c.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 5 Chapter 10, “THE CITIES OF EGYPT.” Landscape 3:2 composition, a 1536×1024-style master. Make this a materially distinct replacement composition at human eye level on Alexandria’s southern canal quay, not an aerial city panorama or map. A single complete, uncropped, shallow-draft Nile grain barge lies broadside across the middle ground, its woven reed cargo canopy, steering oars, mast, and hull entirely visible. On the stone quay, a small group of complete, uncropped Roman-era Egyptian dockworkers hand grain sacks and sealed amphorae from the barge toward a colonnaded warehouse; their coordinated labor is the focal civic action. Through a wide arched water gate behind the boat, Lake Mareotis opens into the distance with two tiny complete island settlements and one subordinate boat, showing the canal that carries inland commerce into Alexandria. On the opposite bank, a compact run of flat-roofed Alexandrian houses and a blank palace wall establishes the city; keep all architecture secondary to the barge and working quay. Emphasize water-borne exchange between city, lake, and Nile mouths as one inhabited place. No pyramids, no Pharos, no bird’s-eye coastline, no branching delta map, no fantasy monument, and no diagram. Warm aged vellum ground; iron-gall linework, fine cross-hatching and stipple; restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous clear water and sky around the complete vessel. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f6ad60c1-8fe5-4a95-b5b3-95fb8783bed2",
+          "status": "rejected",
+          "reason": "Rejected by the strict campaign uniqueness audit: nearestMAD 18.97 was below the mandatory 20 threshold in a mutual-nearest pairing with the accepted 3:1 scene, despite no exact duplicate and passing dHash."
+        },
+        {
+          "generationArtifactId": "exec-abe84888-3f9a-45de-b599-566bafc35a2c",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a complete broadside Nile grain barge and its human-scale unloading action dominate Alexandria’s southern canal quay; the arched water gate opens naturally onto Lake Mareotis and distant island settlements. The main workers, mast, steering oars, hull, cargo, amphorae, and quay architecture are legible and uncropped. No text, pseudo-writing, logo, watermark, modern object, aerial map apparatus, panel, grid, collage, duplicate focal figure, pyramid, or Pharos is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-f6ad60c1-8fe5-4a95-b5b3-95fb8783bed2",
+          "outputArtifact": "built-in-imagegen://exec-f6ad60c1-8fe5-4a95-b5b3-95fb8783bed2.png",
+          "sha256": "1ab46254a180cd24ef33271e7747cece7772395de3bfb6e9602ecbfd6a15ce57",
+          "status": "rejected",
+          "builtInOriginalPreserved": true,
+          "reason": "Rejected by the strict campaign uniqueness audit: nearestMAD 18.97 was below the mandatory 20 threshold in a mutual-nearest pairing with the accepted 3:1 scene, despite no exact duplicate and passing dHash."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "5:11",
+      "title": "THE COASTS OF ARABIA, SITUATE ON THE EGYPTIAN SEA",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:eastern-southern-regions-atlas.jpg#A3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/eastern-southern-regions-atlas.jpg",
+        "cell": "A3",
+        "cellLabel": "Syria, Judaea and the Euphrates",
+        "title": "THE COASTS OF ARABIA, SITUATE ON THE EGYPTIAN SEA"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b05-c011.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "corpusReadEvidence": {
+        "latinSha256": "25f9c6d6e06af5e1bbc6bacbfd5d9bb1e5a651c410138d606f7241c09033518c",
+        "englishSha256": "e646332d9e97a304b72fba4d7f2ab7251d6be08fdd1d77062c349613948b3755",
+        "latinWords": 91,
+        "englishWords": 167,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "39631e97ed17b5f076b28b061e82b0d45a626283090737210cf2e2c752f488ae",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dab31769-746b-4bc4-9225-fcf0692381fa",
+      "generationArtifactId": "exec-dab31769-746b-4bc4-9225-fcf0692381fa",
+      "outputArtifact": "built-in-imagegen://exec-dab31769-746b-4bc4-9225-fcf0692381fa.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 5 Chapter 11, “THE COASTS OF ARABIA, SITUATE ON THE EGYPTIAN SEA.” Landscape 3:2 composition, a 1536×1024-style master. Depict the chapter’s abrupt natural contrast across the narrow land between Pelusium and the Red Sea: from a high desert ridge, the green reed-fringed eastern Nile delta and distant Pelusium lie on one side, while the barren ochre route crosses toward the complete blue Heroöpolitic gulf on the other; Mount Casius rises as the single dominant landmark near the coast. A complete small Nabataean-Arabian caravan of camels and travelers follows the ancient desert track toward Arsinoë, every person and camel fully visible and uncropped, carrying modest bundles and perfume amphorae without luxury spectacle. Use historically plausible regional clothing and tack, avoiding generic fantasy or Orientalist exaggeration. Keep delta, sterile desert, mountain, gulf, and route as one continuous physical landscape that conveys Pliny’s remark about radically different places separated by a short distance; not a map or diagram. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous sky and desert breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-dab31769-746b-4bc4-9225-fcf0692381fa",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a single high ridge vista makes the sharp transition from green Pelusiac waterways across sterile desert to blue Red Sea gulf and dominant Mount Casius legible; the caravan’s people and camels are complete and uncropped, with restrained plausible clothing and loads. No text, pseudo-writing, logos, watermark, modern object, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "5:28",
+      "title": "CARIA",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:eastern-southern-regions-atlas.jpg#B1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/eastern-southern-regions-atlas.jpg",
+        "cell": "B1",
+        "cellLabel": "Anatolia, Armenia and Caucasus",
+        "title": "CARIA"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b05-c028.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "corpusReadEvidence": {
+        "latinSha256": "5e5777c8d85a7dc2c916f18ac92512ce1a370faafcca3f5e200fe0697a28c75d",
+        "englishSha256": "25cf1b42a49be3f9bb537b4a41fa24d0228ffb35b7f09a02985d046504043af9",
+        "latinWords": 85,
+        "englishWords": 180,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ba45d051795cb8f691a1a5a0f7ebe132b063df2215168f32160549112278599c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e9b87ef6-2f08-4765-a2af-4ed81987de18",
+      "generationArtifactId": "exec-e9b87ef6-2f08-4765-a2af-4ed81987de18",
+      "outputArtifact": "built-in-imagegen://exec-e9b87ef6-2f08-4765-a2af-4ed81987de18.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 5 Chapter 28, “CARIA.” Landscape 3:2 composition, a 1536×1024-style master. Depict the rugged Carian coast at Cnidos as one precise ancient maritime landscape: a long rocky promontory projects into the Aegean and shelters two complete natural harbors around a low walled town; steep inland mountains send a bright torrent through the valley toward the sea, while the island of Rhodes lies clearly offshore in blue atmospheric distance. One complete Carian merchant vessel under square sail rounds the promontory and a complete smaller harbor craft approaches the quay, both entirely visible and uncropped. In the foreground, two complete local sailors stand on a stone landing with coils of rope and amphorae, fully visible and uncropped, watching the vessel enter. Keep mountain torrent, promontory, bays, town, and offshore island as one continuous geographically plausible vista, not a map, coastline diagram, or generic Greek port. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous sea and sky breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped ship or focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e9b87ef6-2f08-4765-a2af-4ed81987de18",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: rugged Carian mountains and torrent descend to Cnidos’s complete projecting promontory and sheltered bays, with Rhodes atmospheric offshore; both vessels and both quay observers are complete and uncropped. No text, pseudo-writing, logos, watermark, modern object, map apparatus, panel, grid, collage, duplication, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "6:13",
+      "title": "NATIONS IN THE VICINITY OF THE SCYTHIAN OCEAN",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:eastern-southern-regions-atlas.jpg#B2",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/eastern-southern-regions-atlas.jpg",
+        "cell": "B2",
+        "cellLabel": "Caspian, Scythia and Mesopotamia",
+        "title": "NATIONS IN THE VICINITY OF THE SCYTHIAN OCEAN"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b06-c013.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "corpusReadEvidence": {
+        "latinSha256": "05d4723a0d1ce58cd3ca36675dd17cd42e80d331618429b8fbcd3915103bd587",
+        "englishSha256": "f722dff042834361b26635c5e8f7c8e1b336faef67f5cd5224d4f0b6a9f5fd30",
+        "latinWords": 606,
+        "englishWords": 1255,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "012096dd31fde5f92c440fbfe14d97866e0af337673a6acdc18681d6931186bf",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c8cb5cdd-fcbd-4128-9f42-c1a07580aaf9",
+      "generationArtifactId": "exec-c8cb5cdd-fcbd-4128-9f42-c1a07580aaf9",
+      "outputArtifact": "built-in-imagegen://exec-c8cb5cdd-fcbd-4128-9f42-c1a07580aaf9.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 6 Chapter 13, “NATIONS IN THE VICINITY OF THE SCYTHIAN OCEAN.” Landscape 3:2 composition, a 1536×1024-style master. Depict the vast northern Caspian world described in the routed chapter: the Caspian narrows into a long cold inlet beneath the immense snowbound Caucasus, while wind-scoured steppe and patches of frozen shore extend toward the Scythian north. On the foreground ridge, two complete Sarmatian-Scythian riders on small sturdy horses pause beside a complete felt tent and low cooking fire, every person, horse, and tent fully visible and uncropped; a family tends animals near the camp, shown as ordinary capable inhabitants in plausible ancient wool, felt, leather, and trousers, never barbaric caricature. A complete reed-and-wood fishing boat moves along the ice-free edge of the inlet far below. Keep water, frozen steppe, Caucasus passes, camp, riders, and human scale as one continuous severe landscape, not a map, fantasy tundra, or montage of peoples. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture, engraved natural-history precision, generous cold sky and steppe breathing room. No text, no pseudo-writing, no numerals, no labels, no compass rose, no political borders, no logos, no watermark, no modern objects, no fantasy armor, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c8cb5cdd-fcbd-4128-9f42-c1a07580aaf9",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a single cold Caspian inlet recedes between snowbound Caucasus and frozen steppe; two complete uncropped riders and horses, grounded family camp, herds, and complete fishing boat show ordinary regional life without caricature or fantasy armor. The tent brushes the left frame edge but remains a subordinate setting element; all focal people, horses, boat, waterway, and mountains are complete and uncropped. No text, pseudo-writing, logos, watermark, modern object, map apparatus, panel, grid, collage, or duplicated figure is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "6:19",
+      "title": "THE GANGES",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:eastern-southern-regions-atlas.jpg#B3",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/eastern-southern-regions-atlas.jpg",
+        "cell": "B3",
+        "cellLabel": "India, Arabia and Ethiopia",
+        "title": "THE GANGES"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b06-c019.png",
+      "corpusArtifact": "public/corpus/book-06.c076c4b5cfaeefc2.json",
+      "corpusReadEvidence": {
+        "latinSha256": "584149417bfe357a807511b8b05121539f3957634475ab1ea91e41a0cf2f55ac",
+        "englishSha256": "b7245482efefca66ed708ce92ac61f6a46c94a57246cd2de2f13ee122f0f59cd",
+        "latinWords": 316,
+        "englishWords": 678,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "c8f3037912fdcc60b383f17dbc2446b8e5b032acfef9a8a398893748ee0d7602",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-17349b07-88d1-4f10-b795-187a26e7fc12",
+      "generationArtifactId": "exec-17349b07-88d1-4f10-b795-187a26e7fc12",
+      "outputArtifact": "built-in-imagegen://exec-17349b07-88d1-4f10-b795-187a26e7fc12.png",
+      "exactFinalPrompt": "Create one independent, unified historical-geographical illustration for Pliny, Naturalis Historia, Book 6 Chapter 19, “THE GANGES.” Landscape 3:2 composition, a 1536×1024-style master. Depict an ancient Indian river plain beside the broad Ganges, grounded in the routed chapter’s observations of agriculture, cities, and elephants. One complete calm Asian elephant, entirely visible and uncropped, works beside two complete Indian farmers to draw a heavy wooden plough through moist alluvial soil; a knowledgeable mahout walks at the elephant’s shoulder using voice and an open guiding hand, with no weapon, hook, chain, wound, or distress. Nearby, complete merchants load grain baskets onto a river boat; a green inhabited river island and the long low timber-and-earth defenses of distant Palibothra extend across the horizon. All people should be represented with dignity in plausible ancient Indian wrapped cotton garments, varied occupations, and natural working poses; no Romans, colonial gaze, or generic fantasy palace. Keep elephant, cultivation, river traffic, island, and city as one continuous lived landscape with generous breathing room, not an ethnographic chart or collage. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision. No text, no pseudo-writing, no numerals, no labels, no logos, no watermark, no modern objects, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no violence, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-17349b07-88d1-4f10-b795-187a26e7fc12",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: a complete calm Asian elephant works a wooden plough under open-hand guidance, with complete farmers, merchants, boat, broad Ganges, inhabited island, and distant timber defenses of Palibothra in one continuous landscape. No hook, chain, wound, distress, Roman figure, caricature, text, pseudo-writing, logo, watermark, modern object, panel, grid, collage, duplication, violence, or focal crop is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "7:1",
+      "title": "MAN",
+      "replacesManifestAssignment": {
+        "artworkId": "atlas-cell:human-life-capacities-atlas.jpg#A1",
+        "kind": "atlas-cell",
+        "sourceArtifact": "assets-source/plates/human-life-capacities-atlas.jpg",
+        "cell": "A1",
+        "cellLabel": "human life and society",
+        "title": "MAN"
+      },
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-02-07/b07-c001.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b62be339b13951fa98ec1029254d284a4c50ed74611ab0e9af3e79ae085646ed",
+        "englishSha256": "30c80471c35f8c1a95395a7444ded0689f4b33a101741642008a2e91a7016f94",
+        "latinWords": 550,
+        "englishWords": 1187,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "51fa16421d698743f127500bc07c8fb229ad425392f04b0bdddff1d85a684b8e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte copy verified by matching SHA-256",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5bbaca53-6231-4711-8f82-2da1d7b753f5",
+      "generationArtifactId": "exec-5bbaca53-6231-4711-8f82-2da1d7b753f5",
+      "outputArtifact": "built-in-imagegen://exec-5bbaca53-6231-4711-8f82-2da1d7b753f5.png",
+      "exactFinalPrompt": "Create one independent, unified historical natural-history illustration for Pliny, Naturalis Historia, Book 7 Chapter 1, “MAN.” Landscape 3:2 composition, a 1536×1024-style master. Depict the chapter’s central contrast between human vulnerability at birth and the natural coverings given to other living beings. In a quiet Roman-era courtyard after birth, one complete seated mother and one complete experienced midwife gently wrap a small newborn in plain clean swaddling cloth; all bodies are fully visible and uncropped, the infant protected and non-graphic, with no exposed anatomy, blood, medical procedure, distress, or spectacle. Through the open courtyard beyond, a complete ewe with fleece shelters her lamb, a tortoise carries its shell, a bird preens its feathers, and a tree’s bark is richly visible—ordinary nearby life, integrated naturally rather than arranged as specimens. The adults’ calm attention and the infant’s small scale should convey Pliny’s observation that humans arrive dependent, must learn everything, and are clothed with resources borrowed from nature. Keep one intimate humane scene with ample quiet space, not an allegorical chart, triumphal portrait, or sentimental religious icon. Warm aged vellum, iron-gall linework, cross-hatching and stipple, restrained umber, lampblack, verdigris, faded lapis, madder, and ochre washes; tactile folio texture and engraved natural-history precision. No text, no pseudo-writing, no labels, no logos, no watermark, no modern objects, no halo, no panel, no grid, no collage, no border, no cropped focal subject, no duplicated figure, no nudity, no gore, no decorative filler.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5bbaca53-6231-4711-8f82-2da1d7b753f5",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "landscape3to2": true,
+        "opaqueRgbSrgb": true,
+        "accurateChapterFocalSubject": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "noModernObjects": true,
+        "noPanelGridOrCollage": true,
+        "singleContinuousScene": true,
+        "historicalAndDignifiedFraming": true,
+        "originalResolutionVisualInspection": true,
+        "globalExactShaUniqueness": true,
+        "corpusWidePerceptualUniquenessGate": true
+      },
+      "visualQaNotes": "Accepted after original-resolution inspection: one intimate, non-graphic courtyard scene shows a complete seated mother and kneeling midwife safely wrapping a protected newborn; complete ewe and lamb, tortoise, bird, and richly barked tree integrate Pliny’s contrast of natural coverings without becoming a chart. No exposed anatomy, blood, distress, religious iconography, text, pseudo-writing, logo, watermark, modern object, panel, grid, collage, duplication, gore, or cropped focal subject is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "portableReferenceValidation": {
+    "machinePrivatePathsSerialized": 0,
+    "fileUrisSerialized": 0,
+    "artifactReferencesUse": "built-in-imagegen://<generationArtifactId>.png"
+  }
+}

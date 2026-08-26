@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-27",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 280,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "19:5": {
+        "nearestMAD": 27.41,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c002.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c026.png",
+        "madAtDHashPeer": 35.62
+      },
+      "19:6": {
+        "nearestMAD": 28.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c039.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c021.png",
+        "madAtDHashPeer": 34.26
+      },
+      "19:7": {
+        "nearestMAD": 24.3,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c001.png",
+        "dHashAtMadPeer": 13,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c001.png",
+        "madAtDHashPeer": 24.3
+      },
+      "19:8": {
+        "nearestMAD": 23,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c020.png",
+        "dHashAtMadPeer": 15,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c020.png",
+        "madAtDHashPeer": 23
+      },
+      "19:9": {
+        "nearestMAD": 25.16,
+        "madPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c006.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-02/b20-c006.png",
+        "madAtDHashPeer": 85.67
+      },
+      "19:10": {
+        "nearestMAD": 29.93,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "madAtDHashPeer": 58.92
+      },
+      "19:11": {
+        "nearestMAD": 24.57,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c005.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c002.png",
+        "madAtDHashPeer": 31.48
+      },
+      "19:12": {
+        "nearestMAD": 26.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c008.png",
+        "madAtDHashPeer": 56.21
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "19:5",
+      "title": "VEGETABLES OF A CARTILAGINOUS NATURE—CUCUMBERS. PEPONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c005.png",
+      "sha256": "1aeacbf9eca239e7ff020db15e167d67d9397b7ebb8411a87791dc737fbd9c66",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-885f6c58-7097-48a1-a676-0d1f10457fa5",
+      "outputArtifact": "built-in-imagegen://exec-885f6c58-7097-48a1-a676-0d1f10457fa5.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 5, “Vegetables of a cartilaginous nature—cucumbers; pepones.” Show one continuous Roman palace kitchen-garden scene centered on the chapter’s extraordinary cucumber cultivation for Tiberius: exactly one complete low wooden raised cucumber bed on four small wheels, viewed in spacious three-quarter perspective, with vigorous curling cucumber vines, broad leaves, yellow blossoms, and several modest oblong fruits; exactly one fully visible ancient gardener gently rolls the bed across a sunlit stone courtyard toward a simple winter shelter screened with thin translucent lapis specularis mirror-stone. Every wheel, hand, foot, vine, fruit, roofline, and ground contact must remain comfortably inside the composition. Let the wheeled bed create a strong diagonal from lower left toward upper right, with a quiet open courtyard and pale sky providing intentional negative space. This is a single coherent scene, not a botanical plate, catalogue, diagram, timeline, collage, or set of panels.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose the primary subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, modern glass greenhouse, modern tools, photography, glossy digital rendering, split panels, repeated crops, floating objects, cropped primary subjects, visible sheet edge, paper rectangle, inner frame, or decorative border.\n\nMANDATORY FRAMING REGENERATION — the first chapter-specific attempt was rejected because its otherwise contextual portico entered through the upper and left edges. Omit the portico, all trees, pots, and all other edge-framing architecture. Set the complete wheeled cucumber bed and complete gardener on one finite, open courtyard island. Keep only the complete lapis-specularis shelter and exactly one low freestanding blank stone wall whose two ends are plainly visible, all surrounded on every side by broad uninterrupted vellum-toned courtyard and sky. Every roof beam, wall end, wheel, vine tip, person, shelter, shadow, and ground contour must remain at least a generous visual handspan from every canvas edge. Nothing may enter from, touch, or exit any edge. Preserve the one continuous wheeled-cucumber action and all style constraints.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete ancient gardener rolls one complete raised cucumber bed across an open courtyard; the bed’s wheel structure, cucumber vines, flowers and fruits, complete lapis-specularis shelter, and finite wall remain fully contained in broad edge-to-edge vellum space. The scene has no edge-entering architecture or vegetation, modern object, text, pseudo-writing, border, visible sheet, panel, repeated crop, floating object, or clipped subject. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e280055d-e958-454f-8800-b613be7a5177.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/evidence/history/b19-c005-rejected-01.png",
+          "sha256": "dfaf57997392f6cb678b44a25548a38302035be3ac4cbcaa9fa70d08440df142",
+          "reason": "Rejected at original-resolution QA because an otherwise contextual palace portico and roofline entered through and were cut by the upper and left image edges, violating the campaign’s complete-framing rule. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:6",
+      "title": "THE ROOTS, FLOWERS, AND LEAVES OF ALL THESE PLANTS. GARDEN PLANTS WHICH LOSE THEIR LEAVES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c006.png",
+      "sha256": "a42e67be5eba00eb180c3b4d90c19f34ef06621b1611d442cb6054055431edc5",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e984c15c-0ba3-4039-8d39-75c518841c6f",
+      "outputArtifact": "built-in-imagegen://exec-e984c15c-0ba3-4039-8d39-75c518841c6f.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 6, “The roots, flowers, and leaves of all these plants; garden plants which lose their leaves.” In one continuous Roman kitchen-garden scene at late summer, exactly one fully visible kneeling gardener carefully lifts one mature onion plant from an isolated oval mound of loose dark soil. The same complete living specimen must clearly show its intact fibrous root mass, layered bulb, slender stalk, blackening seed head, and naturally fading leaves. Three complete rooted companion plants—one onion, one garlic, and one cut-leek—remain in the mound as restrained context, with a few naturally shed dry leaves resting on the soil. Every plant begins and ends within the oval mound; every root tip, leaf tip, flower head, hand, foot, garment, and tool is fully visible and separated from all four canvas edges by generous open ground and vellum-toned air. Use an intimate low three-quarter viewpoint and asymmetric composition with the figure and lifted onion left of center, the three companion plants clustered well inside at right, and broad quiet negative space above and around the mound. This is one coherent garden action, never a botanical plate, specimen grid, collage, timeline, or split panel.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose primary and secondary subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, split panels, repeated crops, disembodied specimen fragments, floating objects, clipped roots, clipped leaves, edge-entering plants, cropped limbs, cropped garments, visible sheet edge, paper rectangle, inner frame, or decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete kneeling gardener lifts one mature onion whose bulb, intact fibrous roots, stalk, blackening seed head and fading leaves are all naturally legible; one onion, one garlic and one cut-leek remain completely rooted in the finite soil mound beside shed leaves and a complete hand tool. Every plant tip, root, body part, garment and tool remains inside broad edge-to-edge vellum space. No diagram, specimen grid, modern object, text, pseudo-writing, border, visible sheet, panel, floating fragment, or clipping was found. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-1c3d356c-89f9-4e27-a08b-26142f4d25fe.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/evidence/history/b19-c006-rejected-01.png",
+          "sha256": "4813a21cc967803e084d94ff02e8f7506461c3e7bc26fa8a6abdf99ead7ba6af",
+          "reason": "Rejected at original-resolution QA because secondary allium and cut-leek plants entered through the left, lower, and right edges despite the central lifted onion being complete. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:7",
+      "title": "THE NUMBER OF DAYS REQUIRED FOR THE RESPECTIVE PLANTS TO MAKE THEIR APPEARANCE ABOVE GROUND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c007.png",
+      "sha256": "1ed0cc55e34619074192211ec39b73e7d4e2be3fa962faa49ead1b80e15bec45",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-a0f35222-f0be-4047-b0bd-def53df81ca8",
+      "outputArtifact": "built-in-imagegen://exec-a0f35222-f0be-4047-b0bd-def53df81ca8.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 7, “The number of days required for the respective plants to make their appearance above ground.” In a single continuous Roman seed nursery seen from high oblique view, exactly one fully visible gardener crouches beside a tiny newly emerged parsley seedling in a patiently tended sparse patch. Within the same irregular, naturally curved island of dark nursery soil, vigorous rocket, turnip, and beet seedlings have already risen in visibly different natural densities, conveying unequal germination time through one spatial sweep rather than multiple time stages. A single complete woven seed pouch lies open near the gardener with a few varied seeds resting on the soil; a complete small hand hoe lies beside it. The entire irregular nursery island, every bed end, every leaf cluster, gardener, pouch, scattered seed, and hoe must be visible in full and surrounded on all sides by a very broad expanse of bare vellum-toned earth. No row or plant may touch or leave the frame. Arrange the plantings as three loose crescent-shaped swaths inside the island, not as boxes, panels, a grid, or a formal border. Preserve calm negative space between sparse parsley and the lush seedlings.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose primary and secondary subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, modern objects, clocks, calendars, diagrams, botanical labels, photography, glossy digital rendering, split panels, repeated crops, floating objects, clipped plants, edge-entering beds, cropped people or tools, visible sheet edge, paper rectangle, inner frame, or decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete gardener tends the sparse parsley portion of one fully visible irregular nursery island while denser rocket, turnip and beet growth curves through the same continuous soil, clearly conveying unequal emergence without a timeline. The complete pouch, scattered seeds, hand hoe, person, seedlings and every bed contour are surrounded by broad vellum-toned ground. No labels, numerals, clock, diagram, grid, panel, text, pseudo-writing, visible sheet, decorative border, floating object, or clipping was found. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-a80e5525-2ea7-4805-ac9a-8372a55fc933.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/evidence/history/b19-c007-rejected-01.png",
+          "sha256": "9c71e27181c8ef392a19804cac3b0df72d0b504f3c7f2a8bb4bbdca5066a87a3",
+          "reason": "Rejected at original-resolution QA because the nursery’s upper and right plant rows continued through the image edges, making the otherwise coherent high-oblique scene incompletely framed. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:8",
+      "title": "THE NATURE AND VARIETIES OF TWENTY-THREE GARDEN PLANTS. THE LETTUCE; ITS DIFFERENT VARIETIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c008.png",
+      "sha256": "2cf2f4ec3b3b129d406d537312ba9f6d40258bc4756a25254ffb4d945cbe6d9a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-adcc8903-98fc-4dda-96f9-a6a514a15a17",
+      "outputArtifact": "built-in-imagegen://exec-adcc8903-98fc-4dda-96f9-a6a514a15a17.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 8, “The nature and varieties of twenty-three garden plants; the lettuce; its different varieties.” Center one serene, continuous Roman kitchen-garden action on lettuce cultivation: exactly one fully visible gardener bends beside one magnificent complete pale lettuce and gently gathers and ties its broad outer leaves upward to blanch the tender heart, a practice suggested by Pliny’s attention to white, tender, abundant lettuces. A few complete companion lettuces of naturally differing form—one crisp upright head, one low spreading green head, one darker purplish head—recede loosely along a curved bed, integrated as a living garden rather than displayed as specimens. Use a side-on triangular composition, the tied white lettuce as the luminous center, with a shaded arbor and open vellum-toned sky providing breathing room. Keep the gardener’s whole figure, both hands, every primary lettuce, all leaf tips, soil contacts, and the entire curved bed comfortably inside the canvas. This is a single coherent scene, not a catalogue, botanical plate, grid, collage, recipe illustration, or split panel.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose primary subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, modern objects, photography, glossy digital rendering, split panels, repeated crops, floating vegetables, severed specimen parts, clipped figures or leaf tips, visible sheet edge, paper rectangle, inner frame, or decorative border.\n\nMANDATORY FRAMING REGENERATION — the first chapter-specific attempt was rejected because its contextual arbor and vines entered through the top and left edges. Omit the arbor, all trees, vines, walls, buildings, and any other edge-framing scenery. Place the complete gardener and exactly four complete rooted lettuces—the tied pale central lettuce plus three varied companions—inside one compact, irregular oval garden bed whose entire soil boundary is visible. Surround the entire bed on every side with a very broad field of empty vellum-toned garden ground and pale sky. Every hair, garment edge, finger, sandal, leaf tip, root contact, stone, and bed contour must remain at least a generous visual handspan from every image edge. Nothing may enter from, touch, or exit any edge. Preserve the single tying action and all style constraints.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete gardener ties the leaves of one complete pale lettuce within one finite oval bed containing exactly three additional complete, visibly varied lettuces. All four lettuces, every leaf tip and root contact, the full gardener and the entire irregular bed are contained in generous edge-to-edge vellum space. No catalogue grid, severed specimen, extra lettuce, text, pseudo-writing, visible sheet, border, panel, repeated crop, floating object, or clipping was found. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e080765b-3df0-4be3-91a1-00c5cce1cf27.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/evidence/history/b19-c008-rejected-01.png",
+          "sha256": "8efb7410847a00b23008bc2c0d079d1563ee81c3e512913705687f8067e25ecf",
+          "reason": "Rejected at original-resolution QA because the otherwise contextual arbor and its vines entered through and were cut by the top and left edges. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:9",
+      "title": "FOUR KINDS OF FERULACEOUS PLANTS. HEMP",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+      "sha256": "95128620876583e93cc7975f0e51b244179e6d2f57416ed73a5976103d1f3d5a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b4f122e9-fd52-4a9b-b67e-c271545c72dd",
+      "outputArtifact": "built-in-imagegen://exec-b4f122e9-fd52-4a9b-b67e-c271545c72dd.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 9, “Four kinds of ferulaceous plants; hemp.” Depict the chapter’s hemp-fiber work as one complete nocturnal Roman courtyard scene after the vintage: exactly one fully visible seated worker peels the outer bark from one long, complete hemp stalk, separating pale fibers with both hands. A compact bundle of complete harvested hemp stalks lies horizontally on a low trestle behind him, and one finished coil of rough rope plus one loosely folded hunting net rest on the ground as quiet evidence of hemp’s uses. A single small enclosed oil lamp casts a restrained madder-ochre pool of light across the hands and fibers; deep lampblack and faded-lapis night wash shape the surrounding negative space. Use a low side-on viewpoint and a broad horizontal composition, with the worker at right and the long stalk leading left across open ground. Keep the worker’s entire silhouette, every finger and foot, the full length of the handled stalk, both ends of every bundled stalk, trestle, lamp, rope coil, net, and all ground contacts comfortably inside the canvas. This is a single coherent work scene, not a textile diagram, process sequence, catalogue, collage, or split panel.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate beneath the night washes. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose all subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, modern tools, modern clothing, photography, glossy digital rendering, split panels, repeated crops, floating fibers, severed hands, gratuitous violence, clipped people, clipped stalks, clipped vessels, visible sheet edge, paper rectangle, inner frame, or decorative border.\n\nMANDATORY FRAMING REGENERATION — the first chapter-specific attempt was rejected because background foliage and architecture entered through the outer edges. Omit every tree, branch, vine, doorway, building, jar, column, roof, and edge-framing architectural feature. Place the complete seated hemp worker, complete trestle and stalk bundle, one complete handled hemp stalk, complete lamp, rope coil, and folded hunting net on one finite patch of courtyard ground. Behind them include only exactly one low blank freestanding wall with both ends clearly visible and a broad unbroken faded-lapis night sky. Every subject, wall end, shadow, and ground contour must remain at least a generous visual handspan from every canvas edge; nothing may enter from, touch, or exit any edge. Use a historically plausible low open Roman clay oil lamp rather than a modern glass lantern. Preserve the nocturnal hemp-peeling action and all style constraints.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete seated worker peels pale fiber from one complete long hemp stalk beside one contained stalk bundle and trestle, one historically plausible open clay oil lamp, one complete rope coil and one folded hunting net. Both finite wall ends, all objects, limbs, fibers, shadows and ground contacts remain wholly inside a spacious edge-to-edge vellum night scene. No modern lantern or tool, text, pseudo-writing, visible sheet, border, panel, process diagram, floating fiber, or clipping was found. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-35a058f3-2a82-46d5-9c6b-52564d8449c3.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/evidence/history/b19-c009-rejected-01.png",
+          "sha256": "6a497c7c15a0d6a11e8c37c660809241fbc1e61c64599c9377ea96f32fd4836d",
+          "reason": "Rejected at original-resolution QA because background foliage and courtyard architecture entered through multiple image edges; its enclosed lamp also read less clearly as an ancient open Roman lamp. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:10",
+      "title": "THE MALADIES OF GARDEN PLANTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c010.png",
+      "sha256": "d25f263afcb1f2daf45f1b3cd444aa1ad3d3c03506c2f2cdfb2821402a2317a0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-05df9c97-c895-4cd4-8035-4c02d38de5e9",
+      "outputArtifact": "built-in-imagegen://exec-05df9c97-c895-4cd4-8035-4c02d38de5e9.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 10, “The maladies of garden plants.” Show one continuous humane Roman garden-care scene grounded in Pliny’s practical remedies: exactly one fully visible gardener kneels beside one complete cabbage whose outer leaves bear a few small, realistically scaled caterpillar bites. With one hand he steadies a complete low clay bowl; with the other he uses a small bundle of wormwood as a brush to sprinkle wormwood decoction over the cabbage. A modest cluster of complete chickpea plants grows rooted nearby, recalling their protective companionship with cabbages. Include only a few tiny plausible caterpillars and one small snail close to the soil—observed pests, never enlarged monsters. Use an intimate ground-level diagonal viewpoint with the cabbage luminous at lower center, the kneeling figure behind it, and quiet bare soil as breathing room. Every person, garment, limb, bowl, wormwood bundle, cabbage leaf, chickpea stem, insect, and ground contact must remain fully visible and comfortably separated from every edge. This is a single coherent garden action, not a remedy catalogue, ritual, sacrifice, diagram, collage, or split panel.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose all subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, skulls, animal sacrifice, magical ritual, modern pesticide, modern objects, photography, glossy digital rendering, split panels, repeated crops, giant insects, floating plants, clipped figures, clipped leaves, visible sheet edge, paper rectangle, inner frame, or decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete kneeling gardener sprinkles physically connected droplets from one wormwood bundle onto one complete caterpillar-bitten cabbage while supporting one complete low clay bowl. Complete chickpea companions, two small plausible caterpillars and one small snail remain grounded and fully framed. No animal harm, ritual, giant pest, modern pesticide, text, pseudo-writing, visible sheet, border, panel, repeated crop, floating object, or clipping was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:11",
+      "title": "WHAT PLANTS ARE BENEFITTED BY SALT WATER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c011.png",
+      "sha256": "42d0389430700b5c69bd576f6d51edab9d8bbf782bf9392a4e5dc3584a1ca470",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b85b4e76-68f5-46bd-8dff-12d5cc842940",
+      "outputArtifact": "built-in-imagegen://exec-b85b4e76-68f5-46bd-8dff-12d5cc842940.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 11, “What plants are benefitted by salt water.” Show a single coastal Roman kitchen-garden scene in a wide, airy composition: exactly one fully visible gardener has carried seawater from the faded-lapis shore in one complete wide-mouthed earthen bucket and now pours a restrained stream at the roots of one compact, complete circular radish patch. A few complete beet, rue, and cunila plants stand in the same contained patch as secondary companions, all botanically plausible and rooted in soil. Salt crystals may glint subtly on the bucket rim, but nothing floats and there are no written signs. Use a distant high horizon, an S-shaped footpath from shore to garden, cool morning atmosphere, and unusually broad open sky and pale ground as negative space. The gardener, bucket, stream, circular patch, every leaf and root crown, entire path, shoreline vessel if any, and all essential ground contacts must be fully visible and comfortably inside the canvas; the sea is atmospheric background, not a framed panel. This is one continuous action, not a diagram comparing salt and fresh water, not a catalogue, collage, or split panel.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose primary subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, modern containers, modern irrigation, photography, glossy digital rendering, split panels, repeated crops, floating vegetables, detached roots, clipped person, clipped bucket, clipped garden plants, visible sheet edge, paper rectangle, inner frame, or decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete gardener pours a coherent stream from one complete salt-crusted earthen bucket into one fully contained coastal patch of radish with complete beet, rue and cunila companions; one complete ancient boat remains distant and contextual. Person, bucket, stream, patch, plants, boat, shore and path are fully legible in an airy continuous scene. No comparison diagram, modern container, text, pseudo-writing, visible sheet, border, panel, floating vegetable, detached root, or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:12",
+      "title": "THE PROPER METHOD OF WATERING GARDENS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c012.png",
+      "sha256": "5e4025729ce12bd8708c1b1db927d233bc2b6da897c399bf76d3bcb9b4b0c57e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-a13d4267-e75f-4605-92de-0872042d71a2",
+      "outputArtifact": "built-in-imagegen://exec-a13d4267-e75f-4605-92de-0872042d71a2.png",
+      "exactFinalPrompt": "Create an original historical natural-history folio illustration for Pliny the Elder, Book XIX chapter 12, “The proper method of watering gardens.” Depict the chapter’s practical advice in one serene Roman garden at the first cool light before sunrise: exactly one fully visible gardener stands in low profile and tips one complete two-handled clay watering jar so a gentle continuous stream reaches a newly transplanted, complete row of leeks. A shallow complete stone cistern rests behind him, and the long blue-gray shadows, closed flower heads, and low ochre glow on the horizon make the early hour unmistakable without clocks or symbols. One complete turnip seedling beside the leek row shows recent transplanting. Use a low lateral viewpoint with the figure and jar at left, the contained leek row crossing the middle, the cistern at right, and a large quiet field of dawn sky above. Keep the gardener’s entire silhouette, both hands and feet, full jar, full stream, every leek tip and root contact, the complete ends of the row, entire cistern, and turnip comfortably separated from all four edges. This is a single coherent act of cool-hour watering, not a comparison diagram, sequence, calendar, catalogue, collage, or split panel.\n\nRender as a deluxe Roman natural-history codex image: warm fibrous aged vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, beautiful, rough and polished at once. The warm fibrous aged-vellum material fills the entire 1536×1024 landscape canvas edge to edge as the image substrate. There must be no visible page edge, loose sheet, inner rectangular picture frame, decorative folio border, ruled border, mat, card, or blank outer band. Compose all subjects well inside the canvas through open scene space, not by drawing a border. Use opaque sRGB color.\n\nAbsolutely no lettering, captions, labels, numerals, inscriptions, pseudo-writing, signatures, logos, watermarks, clocks, calendars, modern irrigation, modern objects, photography, glossy digital rendering, split panels, repeated crops, floating vessels, clipped figures, clipped jars, clipped plants, visible sheet edge, paper rectangle, inner frame, or decorative border.\n\nMANDATORY FRAMING REGENERATION — the first chapter-specific attempt was rejected because contextual cypresses and foliage entered through the left and right edges. Omit all trees, cypresses, shrubs, vines, buildings, and every edge-framing plant. Keep only the complete gardener, watering jar and stream, the finite transplanted leek row, one turnip, one complete circular stone cistern, and exactly one low blank freestanding wall whose two ends are visible. Surround every one of these elements on all sides with broad open vellum-toned ground and an enormous quiet dawn sky. Every hair, finger, sandal, jar handle, water stream, leaf tip, root contact, cistern stone, wall end, shadow, and ground contour must remain at least a generous visual handspan from every canvas edge. Nothing may enter from, touch, or exit any edge. Preserve the cool-hour watering action and all style constraints.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete gardener waters one fully contained transplanted leek row from one complete two-handled jar during cool dawn; the coherent stream, one complete turnip, entire cistern, and both ends of the low blank wall remain fully visible. Broad open dawn sky and ground create negative space without a depicted sheet or frame. No clock, calendar, modern irrigation, text, pseudo-writing, visible sheet, border, panel, repeated crop, floating vessel, or clipping was found. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-726b394e-0ffe-45bd-90e7-16da0ac16751.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/evidence/history/b19-c012-rejected-01.png",
+          "sha256": "acffe05870400950e09477ad9fd11eea434e5f13deef3256ba6970a706fa4815",
+          "reason": "Rejected at original-resolution QA because contextual cypress trees and foliage entered through the left and right image edges, despite the watering action being correct. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

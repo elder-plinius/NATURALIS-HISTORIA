@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-26",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "18:32",
+      "title": "THE REVOLUTIONS OF THE MOON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c032.png",
+      "sha256": "e91e9de3f11adc006c0ac68e2af958c4f8345b5b27fa00e4c2a3071bcd49fa72",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-d8862255-b425-4ce9-92e4-6656d3dfd807",
+      "outputArtifact": "built-in-imagegen://exec-d8862255-b425-4ce9-92e4-6656d3dfd807.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVIII chapter 32\nPrimary request: Illustrate Pliny's practical observations on the moon's revolutions through one grounded agricultural act: cut grain gathered and housed while the moon is waning, with attention to timing rather than astrological spectacle.\nScene/backdrop: A quiet ancient Italian farmyard shortly after sunset, painted directly onto a full-bleed field of warm aged vellum. One small freestanding granary stands well away from every canvas edge with all four roof corners, both side walls, foundation and plain open doorway clearly visible. A low threshing floor lies before it. High in the broad indigo-washed sky, one modest waning crescent moon is fully visible and naturally scaled.\nSubject: Exactly one complete farmer carries one tied sheaf of dry grain from the threshing floor toward the granary. Several already aired sheaves rest in one tidy grounded stack under the eaves, while one shallow woven grain tray stands upright against the wall. His face turns briefly toward the crescent as a familiar seasonal check, not worship.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, distant spacious nocturne. The complete farmer, sheaves, tray and small granary together occupy only the lower-right central 45 percent. Preserve at least one full granary-width of open vellum between the building and the right canvas edge, a broad band above the roof, and open ground below. Keep the entire roof, all walls, doorway, person, sheaf, stack, tray, threshing floor and moon fully visible. One continuous moment.\nLighting/mood: Blue-gold dusk, habitual knowledge, labor synchronized with a quiet sky.\nConstraints: Exactly one person; exactly one moon; period-appropriate plain clothing, grain, basketry and masonry; all objects grounded; granary entirely unmarked; no worship gesture or divination tool; warm vellum and painted scene continue uninterrupted to all four canvas edges.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, multiple moons, phase diagram, zodiac, constellation lines, star chart, goddess, halo, giant moon, eclipse, modern lamp, photography, glossy digital rendering, split panels, collage, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped building, cropped roof, edge-touching wall, edge-touching crescent, floating sheaf, extra people. Scale the granary down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The corrected compact granary is complete on all sides with broad negative space; exactly one farmer, one moon, sheaf stack, tray and threshing floor remain fully framed. No text, phase diagram, ruled border, clipped roof or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-cdc290b8-fac9-4ce1-be85-0e88d9819acd.png",
+          "sha256": "4d023ff8ed5711f35c45426f25e086eb6939503a2368fb432ae9e775ddab1170",
+          "reason": "Rejected at native QA because a dark ruled frame enclosed the scene, creating an unnecessary frame-within-frame. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-2d2c2b7a-e495-454c-a7f5-71e8105f93dd.png",
+          "sha256": "8657f30484214576f828d6072467d10a63b1b16d3fcad6ddab0c1aa0bcdffefd",
+          "reason": "Rejected at native QA because the granary wall and roof were cut by the right canvas edge despite the full-bleed correction. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:33",
+      "title": "THE THEORY OF THE WINDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c033.png",
+      "sha256": "d0f4f8571ca0c56270cfb1da038889d4e085cc33d24119e7f58058978d891da9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-324b367f-fbb7-49a0-a6b9-c0c9b0736a61",
+      "outputArtifact": "built-in-imagegen://exec-324b367f-fbb7-49a0-a6b9-c0c9b0736a61.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVIII chapter 33\nPrimary request: Illustrate Pliny's practical theory of winds through a farmer using the shortest midday shadow to establish a cardinal working line, so pruning wounds and field work can be oriented away from harmful winds.\nScene/backdrop: A richly textured oval Roman orchard court at noon, painted directly across full-bleed warm aged vellum. Irregular dark-and-pale stone paving fills most of the view. One complete low masonry wall curves around the court with both ends visible; beyond it, a dense bank of golden grain and two complete low olive shrubs bend subtly in the same breeze against faded-lapis hills. No tall tree appears.\nSubject: Exactly one complete farmer stands near center beside one plain vertical wooden staff fixed firmly through a gap in the paving. The high sun stays outside direct view, producing short crisp shadows from staff and person across the stones. Bending slightly, he aligns one straight dark flax cord along the staff's shadow; the cord ends at one small plain stone weight. One small hoe rests flat against the interior wall, entirely supported and secondary.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes with strong tonal contrast; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain to every edge.\nComposition/framing: Landscape 3:2, intimate high-oblique courtyard view with the figure and staff forming a compact central vertical and the diagonal shadow and cord crossing patterned paving. The complete curved wall, grain, low olives and blue hills make dense layered bands unlike an empty field. Keep the complete person, staff, both short shadows, cord, weight, hoe, both wall ends, every olive branch and all grain fully within broad breathing room. One continuous observation, never a compass diagram.\nLighting/mood: Hard lucid noon, exacting simplicity, invisible air made legible through shadow, cloth and leaf.\nConstraints: Exactly one person; exactly one staff, one cord, one weight and one hoe; exactly two low olive shrubs; period-appropriate clothing and materials; physically consistent short shadows; every object grounded; wall entirely blank; no drawn symbols or directions.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, compass rose, circle, cross, X shape, arrows, map, ruler, sundial face, zodiac, wind god, storm, multiple suns, tall tree, cypress, modern surveying instrument, photography, glossy digital rendering, split panels, collage, decorative border, visible sheet, empty beige field covering most of image, clipped person, edge-touching plant, floating cord, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The final high-oblique paved court, complete curved wall, two low olives, grain bank, farmer, staff, short shadows, cord, weight and supported hoe are fully framed and materially distinct from the open-field sowing compositions. Direct global scan found nearest MAD 30.95 and dHash 15 with zero failures.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fe9d3841-70d4-4750-ab99-85b21c391163.png",
+          "sha256": "30d087f2fe4bdcee2c5db43aa74142d12e14699b8a043efd26b7d8b1396998d8",
+          "reason": "Rejected at native QA because the scene appeared on a rounded deckled sheet with visible white outside background. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-14a5c2bf-4b08-4e54-a8af-217b1a7bac0e.png",
+          "sha256": "11819e441037336562ac1e2965af2c7ca6b5f9a7c8a68ef143a7e8cd267cc79b",
+          "reason": "Rejected after semantic and framing QA because the repository-wide perceptual gate found MAD 17.58 against independently generated 18:16, below the 20 floor. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-876dac29-bcf1-4fac-adb5-2ec1f5006b49.png",
+          "sha256": "285622d705ae304b9263f93ab70159d8bda87e491f0c9da2e7819d3f55488302",
+          "reason": "Rejected at native QA because all three tall cypresses were cropped by the upper canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:34",
+      "title": "THE LAYING OUT OF LANDS ACCORDING TO THE POINTS OF THE WIND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+      "sha256": "538ae6be2f3d25c5dd7e95664bc15d1369d33ab6ff805dd84d229c35ae62a9a9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7e8705be-3306-40c0-83a9-34c092d5d778",
+      "outputArtifact": "built-in-imagegen://exec-7e8705be-3306-40c0-83a9-34c092d5d778.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVIII chapter 34\nPrimary request: Illustrate Pliny's laying out of farmland by the points of the wind: a central marker, one principal trench, a transverse east–west trench, and two oblique alignments used to orient planting and field work, shown as real earthworks rather than a labeled compass.\nScene/backdrop: A broad newly cleared Roman estate seen from a low hill at dawn, painted directly onto a full-bleed field of warm aged vellum. Four shallow practical furrow alignments pass naturally through one plain central stone: one runs toward and away from the viewer, one crosses the field, and two run obliquely toward distant wooden boundary stakes. The furrows are irregular hand-worked trenches in strong perspective, never ink lines. Small wind-bent grasses and cloud movement make the site's air visible.\nSubject: Exactly one complete land measurer kneels beside the central stone, sighting along one simple taut flax cord stretched between two securely planted wooden stakes. A second loose cord coil rests on the soil beside him. No circular device, board, dial, symbols, arrows, ruler or writing appears.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain continuing seamlessly to every canvas edge.\nComposition/framing: Landscape 3:2, elevated oblique landscape in which the converging furrows create depth rather than a flat emblem. Keep the complete person, central stone, cord, coil, all stakes and each visible furrow end fully inside broad breathing room. Use expansive uncultivated soil, distant ridge and pale sky as negative space. One continuous estate scene, no inset.\nLighting/mood: Wind-clear dawn, rational order emerging from terrain, patient orientation.\nConstraints: Exactly one person in period-appropriate plain clothing; plain unmarked stone, cords and stakes; furrows physically cut into soil with natural width and foreshortening; all objects grounded; no written directions; painted vellum fills all four edges.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, compass letters, arrowheads, map legend, ruler markings, sacred symbol, magic circle, glowing geometry, perfect flat diagram, circular board, modern transit, survey tripod, road signs, photography, glossy digital rendering, split panels, collage, decorative border, visible sheet, deckled edge, rounded paper corner, white outside background, clipped stake, edge-touching furrow, floating cord, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Four practical foreshortened furrow alignments, plain central stone, one land measurer, taut cord, coil and all stakes are grounded and fully framed in a full-bleed estate. No map labels, symbolic compass, border, clipping or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f8e5790e-9aa3-4402-a895-d9b7d323d52f.png",
+          "sha256": "15eb11cb8783e108ae3be1858aae0e8a630edc1b293949ba4a2fc9fb3ce927ff",
+          "reason": "Rejected at native QA because the output showed a visible deckled sheet and the small setting-out board did not reliably contain the requested eight pegs. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:35",
+      "title": "PROGNOSTICS DERIVED FROM THE SUN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c035.png",
+      "sha256": "76c5dbc038a914af153e8cfc96082d588495ada140ad6da0b5042adc193a7d1a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ff174b36-ea8d-47ce-9cba-2b4cdc6ef68e",
+      "outputArtifact": "built-in-imagegen://exec-ff174b36-ea8d-47ce-9cba-2b4cdc6ef68e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XVIII chapter 35\nPrimary request: Illustrate Pliny's weather prognostics derived from the sun: a sunrise partly hidden by red clouds mingled with darker bands, warning a prudent farmer of coming wind and rain before the harvest is exposed.\nScene/backdrop: A vast ancient Italian grain plain at first light, painted directly onto full-bleed warm aged vellum. The low rising sun is modest and partly veiled behind layered clouds: pale gold nearest it, restrained madder-red above, and several narrow lampblack-grey bands intermingled without lightning. Fine distant rain curtains are barely visible beneath one cloud bank. The ripe field below remains still for the moment.\nSubject: Exactly one complete farmer stands on a low earthen ridge in the lower left, shading his eyes with one hand as he studies the clouded sunrise. His simple sickle and an empty woven harvesting basket rest safely together on the soil at his feet; he has not begun cutting. A small complete roofed field shelter far behind him offers a place to house grain later, but no workers or carts appear.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain continuing seamlessly to every canvas edge.\nComposition/framing: Landscape 3:2, atmospheric panorama with nearly two thirds open sky. Keep the sun, every cloud band, complete farmer, both hands, sickle, basket, full ridge, field edges and complete distant shelter comfortably within broad breathing room. The horizon runs low and calm. One continuous forecast moment, no weather-symbol panel.\nLighting/mood: Tense luminous dawn, practical foresight, the storm known before it arrives.\nConstraints: Exactly one person; exactly one sun; period-appropriate plain clothing, sickle, basket and shelter; all objects grounded; cloud colors natural and subdued; no active harvest and no precipitation on the foreground.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, second sun, face in sun, halo, divine rays, zodiac, weather icons, arrows, lightning bolt, tornado, apocalyptic storm, modern forecast instrument, photography, glossy digital rendering, split panels, collage, decorative border, visible page edge, clipped cloud, edge-touching sun, floating tool, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The single veiled sun, red and dark cloud bands, distant rain, complete observing farmer, grounded sickle and basket, ripe field and complete shelter are fully framed in an atmospheric full-bleed panorama. No weather symbols, text, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:1",
+      "title": "HOW FLAX IS SOWN: TWENTY-SEVEN PRINCIPAL VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c001.png",
+      "sha256": "d87676d64313d101ba16165ffca32b37a8f139479bc49e8cee82ab668912400d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-a1421362-379b-47a0-afd9-6682c73db9f4",
+      "outputArtifact": "built-in-imagegen://exec-a1421362-379b-47a0-afd9-6682c73db9f4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIX chapter 1\nPrimary request: Illustrate Pliny's marvel of flax: minute seed cast into sandy soil becomes the linen that clothes people, makes nets, and catches the winds of the sea, linking Italy with Egypt.\nScene/backdrop: A sandy coastal field near Puteoli on warm aged vellum in early spring. One freshly ploughed strip of pale soil curves above a calm bay. Far offshore, one small complete ancient merchant vessel passes under one fully visible plain square linen sail, naturally scaled and secondary. A tidy bundle of last year's retted flax fibers lies completely on a low woven mat well inside the field.\nSubject: Exactly one complete farmer walks the near furrow and broadcasts a small handful of flaxseed from a plain seed pouch. The tiny dark seeds arc close to his hand and fall into the soil rather than floating through the scene. One small complete untouched patch of short blue-flowering flax stands several paces behind him as a living botanical reference.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain continuing seamlessly to every edge.\nComposition/framing: Landscape 3:2, distant sweeping coastal diagonal from sower and furrow in the lower-left center to complete vessel and sail in the upper-right distance. Keep the complete person, pouch, falling seeds, full furrow ends, entire flowering patch, mat, fiber bundle, hull, mast and sail comfortably within the central 78 percent, with broad vellum on all sides. Use calm sea and pale sky as negative space. One continuous coastal scene.\nLighting/mood: Bright salt morning, audacity born from a minute seed, terrestrial labor opening toward distance.\nConstraints: Exactly one person visible; exactly one vessel; period-appropriate clothing, pouch, ploughing, mat and rigging; plausible small flax flowers and seed scale; fibers grounded; sail entirely plain and unmarked; no resolved sailors.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, hull lettering, signatures, logos, watermark, giant seed, seed cloud, modern ship, triangular yacht sail, engine, cotton boll, awning, building, loom diagram, oversized flower, storm wreck, photography, glossy digital rendering, split panels, collage, decorative border, visible page edge, clipped flowers, clipped sail, edge-touching mast, floating fiber, extra people or boats.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete sower, seed pouch, falling seed, full flax patch, grounded mat and fibers, calm bay and one complete vessel with plain square sail are fully framed. No hull writing, extra person, clipping, split panel or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-dce44e48-ef48-4fbc-ac31-5e668230330c.png",
+          "sha256": "b9520f6ee2c9ba3589675ca0bd14dd9d23507eb58422269e2eeb69e9bc408411",
+          "reason": "Rejected at native QA because the reed awning and flowering flax patch were cut by the left canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:2",
+      "title": "THE NATURE OF SPARTUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c002.png",
+      "sha256": "ae4228e0e48c6b7ea7c7efda05a1c7ee42744a4cce864b41abf947f7bceb9301",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4f537f21-0358-4a53-ab16-9a112b56c4be",
+      "outputArtifact": "built-in-imagegen://exec-4f537f21-0358-4a53-ab16-9a112b56c4be.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIX chapter 2\nPrimary request: Illustrate Pliny's spartum of arid Spain: a tough spontaneous grass pulled by protected workers with a lever, dried into sheaves, and used for rope, sandals, bedding and shepherds' gear.\nScene/backdrop: A sun-struck mountain slope in Nearer Spain on warm aged vellum between May and June. Broad clumps of mature esparto grass grow from dry stony soil with no crops nearby. One small cleared patch holds two tied sheaves spread apart to dry in the sun. The distant ochre ridge is bare and wind-scoured.\nSubject: Exactly one complete gatherer wears period-appropriate thick leather boots and simple protective hand wraps. He braces low and twists one mature esparto clump around a short holm-oak lever to pull it by the roots, his anatomy and effort plausible. On a grounded woven mat behind him rest one finished coil of esparto rope and one plain pair of woven grass sandals, small evidence of the plant's utility rather than a display grid.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, dry verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain continuing to every edge.\nComposition/framing: Landscape 3:2, low diagonal slope with the complete worker and uprooted clump near center, drying sheaves receding left, and unharvested esparto masses balancing the right. Keep every grass tip, root, hand, boot, lever, complete figure, mat, rope and both sandals comfortably inside broad vellum margins. Use the empty ridge and pale sky as negative space. One continuous harvest scene.\nLighting/mood: Hard dry noon, arduous usefulness, survival craft drawn from hostile ground.\nConstraints: Exactly one person; exactly one rope coil and one pair of sandals; plausible esparto morphology and lever method; all objects grounded; no animal eating the grass; no fire.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, lush meadow, grain crop, giant grass blades, extra footwear, modern gloves, steel pry bar, plastic rope, burning torch, merchandise stall, specimen grid, photography, glossy digital rendering, split panels, collage, decorative border, visible page edge, clipped worker, edge-touching sheaf, floating sandals, extra people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete protected gatherer, rooted esparto clump, holm-oak lever, two drying sheaves, one rope coil and one woven pair of sandals are grounded and fully framed on the arid slope. No text, modern object, clipping or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:3",
+      "title": "MISY; ITON; AND GERANION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c003.png",
+      "sha256": "bf2465198ad4e67dac29ec1dddcec0d020738ed81ce8c342d656e93d0c544da8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e1a69d76-96a6-4d43-ab55-2ce824ecef9d",
+      "outputArtifact": "built-in-imagegen://exec-e1a69d76-96a6-4d43-ab55-2ce824ecef9d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIX chapter 3\nPrimary request: Illustrate Pliny's misy and related subterranean delicacies through the spring gathering of fragrant truffle-like bodies after autumn rains and thunder, emphasizing that they grow without visible root or stalk.\nScene/backdrop: A damp open grove near ancient Lampsacus on warm aged vellum in early spring. One small complete oak with a modest rounded crown stands well inside the left-center beside a rain-darkened meadow. The receding storm has left soft blue-grey clouds and moisture on moss, but no lightning. A small patch of naturally cracked earth reveals the rounded tops of a few walnut-sized subterranean fungi just below the surface.\nSubject: Exactly one complete forager kneels at the patch and uses a flat wooden spatula to lift the soil gently, exposing the earth-clad fragrant bodies without cutting them. A shallow grounded willow basket holds a modest handful of already gathered truffles cushioned in leaves. One tiny rootless, stalkless pezica fungus grows nearby on the surface, secondary and naturally scaled.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, moss verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain continuing to every edge.\nComposition/framing: Landscape 3:2, distant low damp crescent. The complete small oak occupies only the left-central 40 percent and leaves a broad uninterrupted band of sky above and to its left; the kneeling forager and basket balance the right. Keep every oak root and outer crown tip, complete person, both hands, spatula, tiny exposed fungi, basket and surface pezica fully within broad breathing room. One continuous gathering scene, no underground cutaway.\nLighting/mood: Rain-washed spring quiet, earthy fragrance, hidden abundance carefully found.\nConstraints: Exactly one person; plausible small truffle-like fungi no larger than walnuts; no dog, pig, lightning, open flame or cultivated rows; all tools and basket grounded; fungi remain partly soil-covered; no giant tree.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, giant mushroom, red fairy cap, glowing fungi, underground cross-section, roots attached to truffle, stalked truffle, magical thunderbolt, feast table, modern trowel, glass, photography, glossy digital rendering, split panels, collage, decorative border, visible page edge, clipped oak crown, edge-touching branch, floating basket, extra people. Scale down the oak rather than crop it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete small oak, one forager, wooden spatula, cracked soil, walnut-sized earth-clad fungi, grounded basket and tiny surface pezica are fully framed in a rain-washed landscape. No roots or stalks attach to the truffles; no text, clipping or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6d2923f3-1c2d-48f1-b81b-9794cb97e26e.png",
+          "sha256": "c197a2eff35f1acfe0b1a2123632fbe629358650528eb787980c6a4c83198d09",
+          "reason": "Rejected at native QA because the mature oak crown and branches were cut by the top and left canvas edges. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "19:4",
+      "title": "THE PLEASURES OF THE GARDEN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c004.png",
+      "sha256": "750de846f386e2920283ceb9fe80c24200d1b6dc636d94f920395d58ee75698d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-872796c6-5fe8-45bd-a7f0-d12cbd54a7ba",
+      "outputArtifact": "built-in-imagegen://exec-872796c6-5fe8-45bd-a7f0-d12cbd54a7ba.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XIX chapter 4\nPrimary request: Illustrate Pliny's praise of the garden as both pleasure ground and the poor citizen's sustaining field—a cultivated refuge inside the city where beauty, shade, food and daily labor are inseparable.\nScene/backdrop: A complete modest walled garden tucked among ancient Roman roofs on warm aged vellum in late spring. Curving narrow paths enclose irregular beds of leeks, cabbages, beans, lettuces and culinary herbs. One small freestanding grape arbor with all four posts and its complete leafy canopy shades a plain stone bench at left-center. One small complete fig tree stands at right-center near a shallow unadorned water basin. Climbing roses remain contained on the blank rear wall; distant tile roofs stay low.\nSubject: Exactly one complete older resident gardener kneels in the central bed and gathers a small armful of greens into a plain wicker basket. No servant, aristocratic banquet, king, deity or ritual appears; the abundance belongs to ordinary life.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, delicate mineral washes with richer verdigris and restrained madder blossoms; umber, lampblack, faded lapis and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain continuing to every edge.\nComposition/framing: Landscape 3:2, more distant elevated garden room with an S-shaped path guiding from the entry through vegetable beds to the complete arbor, bench, basin and small fig. Scale every plant and structure into the central 78 percent. Preserve generous vellum above and beside the full arbor canopy and every outer fig branch. Keep both garden-wall ends, complete person, basket, all four arbor posts, bench, basin, all plant beds and distant roofs fully inside broad breathing room. One continuous garden.\nLighting/mood: Dappled spring afternoon, nourishment as dignity, cultivated calm within the city.\nConstraints: Exactly one person in period-appropriate plain clothing; plausible Roman garden crops and masonry; all objects grounded; basin entirely unmarked; food plants recognizable but naturally intermingled; no plant touches any canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, Hanging Gardens spectacle, palace, king, goddess, satyr statue, magical fruit, formal French parterre, giant tree, modern furniture, hose, plastic pot, photography, glossy digital rendering, split panels, collage, decorative border, visible page edge, clipped fig crown, clipped arbor, edge-touching vine, floating basket, extra people. Scale the garden elements down rather than crop them.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete elevated garden room, one resident, basket, all four arbor posts, full grape canopy, bench, small fig, basin, food beds, paths and roofs are fully contained with broad negative space. No plant touches an edge; no text, palace spectacle, clipping or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-94f2ba78-bb35-4e15-96db-33c04526ceae.png",
+          "sha256": "7430d1f4b67af040911965c1397e244aa3e5a4a1bdd4b522d1c1d1a5a4cfbc79",
+          "reason": "Rejected at native QA because the grape canopy exited the left canvas and the fig crown exited the right canvas. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}
