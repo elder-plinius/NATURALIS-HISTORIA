@@ -1,0 +1,137 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const css = fs.readFileSync(path.join(root, 'app', 'globals.css'), 'utf8');
+const page = fs.readFileSync(path.join(root, 'app', 'page.tsx'), 'utf8');
+const ink = fs.readFileSync(path.join(root, 'app', 'InkDiffusionText.tsx'), 'utf8');
+const generatedImages = fs.readFileSync(path.join(root, 'app', 'generated-image-sources.css'), 'utf8');
+const robots = fs.readFileSync(path.join(root, 'app', 'robots.ts'), 'utf8');
+const headers = fs.readFileSync(path.join(root, 'public', '_headers'), 'utf8');
+const policy = JSON.parse(fs.readFileSync(path.join(root, 'edition-policy.json'), 'utf8'));
+
+const plateFieldRule = css.match(/\.plate-field\s*\{([^}]+)\}/)?.[1] ?? '';
+assert.match(plateFieldRule, /transition:\s*filter\s+\.45s\s+ease/);
+assert.doesNotMatch(plateFieldRule, /transition:[^;]*(?:background-position|background-size)/);
+
+assert.match(css, /\.is-focus\s+\.illustration-plate\s*\{\s*min-height:\s*0;\s*\}/);
+assert.match(css, /\.is-focus:not\(\.is-mobile-plate\)\s+\.gutter,\s*\.is-focus:not\(\.is-mobile-plate\)\s+\.page-right\s*\{\s*display:\s*none;\s*\}/);
+assert.match(css, /\.plate-field::before\s*\{[\s\S]*?background-position:\s*center;[\s\S]*?background-size:\s*contain;/);
+assert.doesNotMatch(css, /\.plate-(?:cabinet|detail)|\.layout-(?:triptych|ledger|hero|map|orbit)/);
+
+const reducedMotion = css.slice(css.indexOf('@media (prefers-reduced-motion: reduce)'));
+assert.match(
+  reducedMotion,
+  /\.turning-leaf,\s*\.phase-turning\s+\.book-spread\s*\{\s*animation:\s*none\s*!important;\s*\}/,
+);
+assert.match(reducedMotion, /\.phase-diffusing\s+\.ink-unit\s*\{\s*animation:\s*none\s*!important/);
+
+assert.match(page, /LATIN_DWELL_MS\s*=\s*520/);
+assert.match(page, /DIFFUSION_FAILSAFE_MS\s*=\s*1600/);
+assert.match(css, /--ink-morph-duration:\s*1\.3s/);
+assert.match(ink, /function stableHash/);
+assert.match(ink, /function animatedWordIndices/);
+assert.match(ink, /new Set<number>\(\[0\]\)/);
+assert.match(ink, /children\.push\(untouchedText\)/);
+assert.match(ink, /maxAnimatedWords\s*=\s*360/);
+assert.doesNotMatch(ink, /Math\.random/);
+assert.doesNotMatch(css.slice(css.indexOf('@keyframes passage-release'), css.indexOf('@keyframes ink-fragment-release')), /clip-path/);
+assert.match(css, /@keyframes ink-fragment-release[\s\S]*@keyframes ink-fragment-gather/);
+assert.match(css, /\.ink-vapor::before,[\s\S]*\.ink-vapor::after/);
+assert.doesNotMatch(css.slice(css.indexOf('@keyframes ink-fragment-release'), css.indexOf('@keyframes vapor-bloom')), /letter-spacing/);
+assert.match(reducedMotion, /\.passage-morph\.is-diffusing\s+\.passage-latin,[\s\S]*opacity:\s*0;\s*visibility:\s*hidden/);
+assert.match(reducedMotion, /\.passage-morph\.is-diffusing\s+\.passage-english,[\s\S]*opacity:\s*1;\s*visibility:\s*visible/);
+const finishDiffusion = page.slice(page.indexOf('const finishDiffusion'), page.indexOf('useLayoutEffect', page.indexOf('const finishDiffusion')));
+assert.doesNotMatch(finishDiffusion, /capturePassageProgress/);
+assert.match(page, /mode === 'en'[\s\S]*current === 'english' \? 'english' : 'diffusing'/);
+
+assert.match(page, /CORPUS_FETCH_TIMEOUT_MS\s*=\s*9000/);
+assert.match(page, /AbortController\(\)[\s\S]*The archive took too long to answer/);
+assert.match(page, /function recoverStaleCorpus[\s\S]*status !== 404[\s\S]*window\.location\.reload\(\)/);
+assert.match(page, /sessionStorage\.removeItem\(STALE_CORPUS_REFRESH_KEY\)/);
+assert.doesNotMatch(page, /new Image\(|preloadPlate|plateInflight/);
+assert.match(page, /preload\.rel = 'preload'[\s\S]*preload\.as = 'image'[\s\S]*preload\.type = 'image\/avif'/);
+assert.match(page, /window\.devicePixelRatio > 1\.4[\s\S]*targetIllustration\.preload\.desktop/);
+assert.match(page, /connection\?\.saveData/);
+assert.match(page, /idle\(\(\) => void loadBook\(neighbor\)/);
+assert.match(css, /background-image:\s*var\(--plate-main-image-set\)/);
+assert.match(css, /background-image:\s*var\(--plate-main-image-set-mobile\)/);
+assert.match(generatedImages, /image-set\([\s\S]*type\("image\/avif"\)[\s\S]*type\("image\/webp"\)/);
+assert.match(headers, /\/assets\/\*[\s\S]*max-age=31536000, immutable/);
+assert.match(headers, /\/corpus\/search\/\*[\s\S]*max-age=31536000, immutable/);
+assert.match(headers, /\/corpus\/manifest\.json[\s\S]*public, no-cache, must-revalidate/);
+assert.match(headers, /\/corpus\/book-\*\.json[\s\S]*max-age=31536000, immutable/);
+assert.match(headers, /\/read\/\*[\s\S]*public, no-cache, must-revalidate/);
+if (!policy.publicIndexing) {
+  assert.match(headers, /X-Robots-Tag:\s*noindex, nofollow, noarchive/);
+  assert.match(robots, /disallow:\s*'\/'/);
+}
+assert.match(page, /const prefersReducedMotion = window\.matchMedia\('\(prefers-reduced-motion: reduce\)'\)\.matches;[\s\S]*const turnDuration = prefersReducedMotion\s*\? 40/);
+assert.doesNotMatch(page, /if \(prefersReducedMotion\) capturePassageProgress\(\);/);
+assert.match(page, /type HistoryMode = 'push' \| 'replace' \| 'none'/);
+assert.match(page, /window\.history\.pushState/);
+assert.match(page, /window\.addEventListener\('popstate'/);
+assert.match(page, /function randomOrdinalExcluding[\s\S]*crypto\.getRandomValues\(draw\)[\s\S]*candidate >= excluded \? candidate \+ 1 : candidate/);
+assert.doesNotMatch(page, /Math\.random/);
+assert.match(page, /const openRandomPage[\s\S]*randomOrdinalExcluding\(currentManifest\.totalChapters, committedRef\.current\)[\s\S]*requestOrdinal\(targetOrdinal\)/);
+assert.match(page, /className=\{`fortuna-button[\s\S]*FORTVNA FOLIVM APERIT[\s\S]*Open a page by chance/);
+assert.match(css, /\.fortuna-random[\s\S]*\.fortuna-button\.is-casting[\s\S]*@keyframes fortuna-press[\s\S]*@keyframes fortuna-seal-turn[\s\S]*@keyframes fortuna-ink-bloom/);
+assert.match(reducedMotion, /\.fortuna-button,[\s\S]*animation:\s*none\s*!important;\s*transition:\s*none\s*!important/);
+assert.match(page, /function abortable<T>/);
+assert.match(page, /navigationVersionRef\.current/);
+assert.match(page, /stateOrdinal[\s\S]*requestOrdinal\(stateOrdinal, 'none'\)/);
+assert.match(page, /aria-label=\{diffusionState === 'latin' \? 'Mayhoff Latin reading text' : 'Bostock and Riley English translation'\}/);
+assert.match(page, /Mayhoff Latin reading text/);
+assert.match(page, /English translation/);
+assert.match(page, /passage-latin" lang="la" aria-hidden=\{state !== 'latin'\}/);
+assert.match(page, /passage-english"[\s\S]*aria-hidden=\{state === 'latin'\}/);
+assert.match(page, /const accessibleText = state === 'latin' \? latin : english/);
+assert.match(page, /role="progressbar"[\s\S]*Corpus reading progress/);
+assert.match(page, /aria-valuetext=\{`Reading unit \$\{committedOrdinal \+ 1\} of \$\{manifest\.totalChapters\}`\}/);
+assert.doesNotMatch(page, /<span>\{compactNumber\(committedOrdinal \+ 1\)\} \/ \{compactNumber\(manifest\.totalChapters\)\}<\/span>/);
+assert.match(page, /aria-pressed=\{indexBookNumber === book\.number\}/);
+assert.doesNotMatch(page, /Vesuvius Vigil|vesuvius-vigil|vigilOpen/);
+assert.match(page, /href="\/afterword\/vesuvius"[\s\S]*Afterword/);
+assert.match(page, /navigator\.share[\s\S]*navigator\.clipboard\.writeText/);
+assert.match(page, /copied = document\.execCommand\('copy'\)[\s\S]*previousFocus\?\.focus\(\)/);
+assert.doesNotMatch(page, /ready in your address bar/);
+assert.match(page, /searchAbortRef\.current\?\.abort\(\);[\s\S]*setSearchResults\(\[\]\);[\s\S]*setSearching\(searchIsReady\(nextQuery\.trim\(\)\)\);[\s\S]*setSearchQuery\(nextQuery\)/);
+assert.match(page, /const openSearchResult[\s\S]*translationModeRef\.current = result\.field[\s\S]*pendingSearchLandingRef\.current[\s\S]*requestOrdinal\(result\.ordinal\)/);
+assert.match(page, /A modern editorial illustration made specifically for this chapter\.[\s\S]*all interventions are disclosed\./);
+assert.doesNotMatch(page, /certified-atlas-cell|matchSource === '(?:campaign|curated|title|subheading)'|book-family fallback/);
+assert.match(page, /<details className="folio-apparatus"[\s\S]*<summary>[\s\S]*Notes &amp; sources[\s\S]*className="folio-apparatus-body"/);
+assert.doesNotMatch(page, /<details[^>]*className="folio-apparatus"[^>]*\sopen(?:=|\s|>)/);
+assert.match(css, /\.folio-apparatus summary[\s\S]*\.folio-apparatus\[open\] summary i[\s\S]*@keyframes apparatus-reveal/);
+assert.doesNotMatch(page, /plate-chart-mark|plate-sigil/);
+assert.doesNotMatch(css, /\.plate-field-main::after|\.plate-field-detail-one::after|\.plate-field-detail-two::after/);
+assert.match(css, /\.illustration-plate \{[\s\S]*flex:\s*1 1 auto;[\s\S]*min-height:\s*360px;/);
+assert.match(css, /\.illustration-plate figcaption[^}]*background:\s*linear-gradient\(transparent,rgba\(29,21,14,\.78\)\)/);
+assert.match(css, /\.illustration-plate figcaption[^}]*opacity:\s*\.35;[^}]*transform:\s*translateY\(4px\)/);
+assert.match(css, /\.illustration-plate:focus-within figcaption,[\s\S]*\.illustration-plate:active figcaption\s*\{\s*opacity:\s*1;\s*transform:\s*none;/);
+assert.match(css, /--scroll-rail:\s*rgba\(8,9,6,\.78\)[\s\S]*\*::\-webkit-scrollbar-thumb[\s\S]*background:\s*linear-gradient\(90deg,var\(--scroll-thumb\),var\(--scroll-thumb-light\)/);
+assert.match(css, /:where\(\.passage-scroll, \.book-inscription, \.afterword-passage, \.book-index, \.section-list, \.book-endmatter, \.search-results\)[\s\S]*--scroll-thumb-hover:\s*#694733/);
+assert.doesNotMatch(page, /useNarrator|Device narrator|narrat(?:e|ion|or)/i);
+assert.match(page, /<dialog[\s\S]*className="plate-viewer"[\s\S]*aria-modal="true"/);
+assert.match(page, /<p>CHAPTER ILLUSTRATION<\/p>[\s\S]*className="plate-viewer-picture"[\s\S]*mainIllustrationPanel\.source\.viewerImage/);
+assert.match(page, /Complete, uncropped modern editorial illustration created specifically for this chapter/);
+assert.doesNotMatch(page, /plateViewer(?:Index|Mode)|movePlateViewer|viewerKind === 'cell'|source atlas|Full source plate|Illustration studies/);
+assert.match(page, /href="\/edition#rights">Image provenance<\/a>/);
+assert.match(page, /plateViewerTriggerRef\.current\?\.focus/);
+assert.match(page, /event\.key === 'Escape'[\s\S]*closePlateViewer\(\)/);
+assert.match(css, /\.plate-field:focus-visible/);
+assert.match(css, /\.plate-viewer-media[\s\S]*touch-action:\s*pinch-zoom/);
+assert.match(css, /\.plate-viewer-picture img[\s\S]*max-width:\s*100%;[\s\S]*max-height:\s*100%;[\s\S]*object-fit:\s*contain/);
+assert.match(css, /@media \(max-width: 620px\)[\s\S]*\.plate-viewer-footer \{ min-height: 58px;/);
+assert.match(css, /\.passage-layer p\.is-search-landing/);
+assert.match(css, /@media \(max-width: 620px\)[\s\S]*\.header-actions \.header-action span \{ display: none; \}/);
+assert.match(css, /@media \(max-width: 620px\)[\s\S]*\.title-lockup \{ min-height: 36px; \}[\s\S]*\.edition-links a \{ display: inline-flex; min-height: 32px;/);
+assert.match(css, /\.folio-meta[\s\S]*color: #6f4634;/);
+assert.match(css, /\.edition-links a \{ color: #94865b;/);
+assert.match(page, /<span>Books<\/span>[\s\S]*<span>Search<\/span>[\s\S]*<span>Share<\/span>/);
+assert.match(page, /<span>BOOK<\/span>[\s\S]*<span>CHAPTER<\/span>/);
+assert.doesNotMatch(page, /PLINIVS SECVNDVS · OPVS INTEGRALE|COMPLETE READING CORPUS|Historical content note|Provenance ledger|Source · AGPL-3\.0/);
+assert.match(page, /<nav className="edition-links"[\s\S]*>Catalogue<[\s\S]*>Edition<[\s\S]*>Vesuvius<[\s\S]*>GitHub<[\s\S]*>Privacy</);
+
+console.log('Verified seeded bounded living-ink diffusion, stable scroll settlement, complete uncropped chapter illustrations, accessible fullscreen viewing, strict corpus framing, mode-correct bilingual accessibility, history/share wiring, reduced motion, cautious book prefetch, security headers, and bounded fetch behavior');

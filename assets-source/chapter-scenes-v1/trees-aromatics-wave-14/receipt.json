@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-14",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique output artifacts but no formal receipt ID or model identifier.",
+  "styleContractArtifact": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "styleContractApplied": true,
+  "chapterPlanArtifact": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "16:8",
+      "title": "CACHRYS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c008.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "e635bff031a2a7e45d6e6861ab4c4f56e3eb87a12ad0f759384557164401f1a5",
+      "acceptedArtifactId": "exec-21f49b5a-08ef-4dbc-a1cb-fcfaba61cdc6",
+      "outputArtifact": "built-in-imagegen://exec-21f49b5a-08ef-4dbc-a1cb-fcfaba61cdc6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 8, “Cachrys.” Create one coherent late-winter oak scene centered on a complete mature robur after leaf-fall. The entire bare branching crown carries scattered small round cachrys balls that have endured the winter; several are beginning to split naturally at the approach of spring, and one fallen open ball near the roots reveals a pine-nut-like kernel without becoming a diagram. One complete Roman-era herbal gatherer reaches for a low cachrys ball while holding a shallow plain basket. A few restrained oak mushrooms at the root flare and one small tuft of mistletoe high in the crown may hint at the robur’s many other products, but cachrys remains unmistakably dominant.\nScene/backdrop: cold Gallic woodland clearing at the first thaw, pale sky, sparse old snow and tiny new oak buds; no apothecary shop.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; airy tree-and-materia dialect with cool winter abrasion and tiny ochre kernel accents.\nComposition/framing: landscape 3:2, 1536x1024; a broad leafless crown creates an open radial silhouette over the small gatherer and exposed root flare, materially different from a summer harvest grove. Keep the entire crown, every twig tip, full trunk, all roots and ground contact, every cachrys ball, complete gatherer, both hands and feet, basket, mushrooms and mistletoe wholly inside generous blank vellum breathing room on all four edges. One continuous woodland moment only, not a seasonal timeline, botanical cutaway, plate, panel or collage.\nLighting/mood: crystalline late-winter light, austere multiplicity and close observation.\nConstraints: exactly one principal complete robur and exactly one complete gatherer; botanically convincing deciduous oak, winter buds and small spherical galls or balls; cachrys treatment is historical reportage rather than modern medical advice; sound anatomy; opaque sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, modern objects, laboratory glass, giant fruit, glowing fungus, fantasy magic, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, cropped twigs or roots, partial person, duplicated balls or limbs.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. One complete leafless robur with a fully contained radial crown bears scattered cachrys balls above one complete gatherer, basket, exposed roots, restrained mushrooms and a small mistletoe tuft. Every twig, root, ball, hand and foot remains inside broad vellum margins. No lettering, pseudo-writing, modern object, panel structure, duplicate frame, clipping or anatomy failure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:9",
+      "title": "TREES OF WHICH THE BARK IS USED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c009.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "7855db44ef07c6d1d21d5c76bf0719e6749fcfe1ad02704c6116d93819282e68",
+      "acceptedArtifactId": "exec-bf18a4b7-a9df-46e3-9ff7-0d1adbc6b849",
+      "outputArtifact": "built-in-imagegen://exec-bf18a4b7-a9df-46e3-9ff7-0d1adbc6b849.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 9, “Trees of Which the Bark Is Used.” Create one unified Roman peasant bark-craft scene beside a complete small woodland cottage. One complete living linden stands nearby with only one narrow outer-bark strip carefully lifted from a low branch, leaving the trunk largely intact; a complete fallen beech limb supplies broad bark sheets. One complete worker bends a flexible strip into a deep pannier, a second complete worker lashes a broad flat grain hamper, and a third complete worker on a low ladder fits overlapping bark slabs onto the cottage roof. Finished baskets hold a little grain and grapes, showing their use. Do not depict writing or carved signs despite the chapter’s mention of bark messages.\nScene/backdrop: rustic central-Italian woodland edge with a complete one-room cottage, full roof, doorway and all ground contacts visible among beech, linden and fir.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; tactile woodland-craft dialect emphasizing layered bark, fiber and handwoven structure.\nComposition/framing: landscape 3:2, 1536x1024; a gently descending diagonal from the complete linden crown through the roof worker to the two seated basket makers, organized as one lived worksite rather than separate demonstrations. Keep the entire tree canopy, every branch tip, full trunk and roots, the complete cottage and roof, all three complete workers, ladder, hands, feet, bark strips, fallen limb, pannier, hamper, grain and grapes wholly inside generous blank vellum breathing room on every edge. One continuous scene only, not a craft diagram, plate, panel or collage.\nLighting/mood: mild woodland afternoon, resourcefulness and vulnerable material knowledge.\nConstraints: exactly three complete workers, one principal complete linden, one complete cottage and one complete fallen beech limb; historically plausible Roman rural clothing, bark craft, baskets, lashings and roof construction; no fatal ring-barking of the living tree; sound anatomy; opaque sRGB.\nAvoid: any lettering, carved messages, symbols, captions, labels, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, modern tools, nails, plastic, paper, identical basket copies, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, cropped roof or tree, partial people, duplicated limbs.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. One complete linden and cottage anchor a single bark-craft worksite where exactly three complete workers make baskets, a grain hamper and overlapping roof covering from carefully sourced bark. Tree crown, trunk, cottage, roof, ladder, workers, baskets and ground contacts remain fully framed. No writing, pseudo-writing, modern hardware, ring-barking, panel structure, duplicated frame or crop was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:10",
+      "title": "SHINGLES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c010.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "8fe21f3515304f0d3e345373f68246f3675366142e390805d638bca645d503ca",
+      "acceptedArtifactId": "exec-0945b267-e418-4bb5-a766-ad882bd04173",
+      "outputArtifact": "built-in-imagegen://exec-0945b267-e418-4bb5-a766-ad882bd04173.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 10, “Shingles.” Create one coherent early-Roman roofing scene based on Pliny’s report that old Rome was roofed with wooden shingles. A complete modest timber-and-plaster house stands fully visible while two complete roofers lay overlapping split robur shingles across its broad pitched roof, leaving one small unfinished patch. On the ground, one complete carpenter uses a wooden mallet and iron froe to split straight shingles from a complete seasoned oak billet; a neat, irregular stack of finished shingles waits beside him. A complete oak trunk section, beech billet and pine billet lie nearby, their different grain and durability suggested by texture rather than labels, with oak clearly preferred.\nScene/backdrop: open edge of archaic Rome with low distant tiled-free houses, wooded Janiculum and no monumental imperial architecture.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; architecture-and-timber dialect with tactile split grain and dry ochre plaster.\nComposition/framing: landscape 3:2, 1536x1024; elevated three-quarter view led by the broad complete roof plane, with the two roofers above and the splitter below forming a triangular building workflow, materially distinct from a cottage bark-craft grove. Keep the entire house including ridge, all eaves, every corner, walls, doorway and ground contacts, all three complete people, ladder, hands, feet, mallet, froe, every billet, whole shingle stack and each featured roof shingle wholly inside generous blank vellum breathing room on every edge. One continuous building site only, not an architectural diagram, timeline, panel or collage.\nLighting/mood: clear construction-day light, civic continuity and durable craft.\nConstraints: exactly three complete workers and one complete house; historically plausible early-Roman clothing, wooden shingles, ladder, mallet and froe; no ceramic roof tiles on the principal house; sound anatomy and roof geometry; opaque sRGB.\nAvoid: lettering, carved marks, captions, labels, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, modern nails, power tools, scaffolding, safety helmets, ceramic tiles on the main roof, identical repeated shingles as a grid, photography, glossy CGI, frames, split scenes, repeated panels, multiple identical frames, cropped ridge, eaves, house or people, duplicated limbs.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. A complete archaic Roman timber-and-plaster house carries a broad wooden-shingle roof while two complete roofers lay shingles and one complete carpenter splits a billet below. Ridge, eaves, walls, doorway, ladder, workers, billets, tools and shingle stack are fully contained. No ceramic main-roof tiles, text-like marks, modern tools, panel structure, duplicated frame or clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:11",
+      "title": "METHODS OF MAKING TAR—HOW CEDRIUM IS MADE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c011.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "27c7e07090edab0fedfa272bd12d27105a0820f357d30da34425e3f2cad504b2",
+      "acceptedArtifactId": "exec-0a5952f0-e720-4d33-9095-71331f8c6ac3",
+      "outputArtifact": "built-in-imagegen://exec-0a5952f0-e720-4d33-9095-71331f8c6ac3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 11, “Methods of Making Tar—How Cedrium Is Made.” Create one coherent European tar-making yard centered on a complete squat masonry furnace packed with small resinous torch-tree billets and heated by separate controlled fires around its exterior. From the closed furnace, the first thin watery condensate runs through one complete clay channel into a stone reservoir; a second lower outlet releases a visibly thicker dark-red pitch into a robust oak trough. Exactly three complete workers tend the surrounding fires, inspect the first reservoir and stir a small complete bronze cauldron of thickening pitch with a restrained measure of vinegar. The two liquids must be distinct yet part of one connected apparatus.\nScene/backdrop: forest clearing near a Roman shipyard, stacks of resinous billets and distant hull ribs kept secondary; no embalming scene or human remains.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; stronger industrial chiaroscuro with matte smoke, red-brown pitch and sparse copper highlights.\nComposition/framing: landscape 3:2, 1536x1024; low wide view organized by the circular furnace, its radial exterior fires, and two descending channels toward separate vessels, with workers making one continuous operational arc. Keep the entire furnace including cap, base and every fire opening, all three complete workers, hands, feet, billets, both outlets, complete channel, reservoir, trough, cauldron, stirrer and fire tools wholly inside generous blank vellum breathing room on every edge. One apparatus and one moment only, not a process diagram, cutaway, sequence, panel or collage.\nLighting/mood: smoky dusk, controlled heat and formidable material craft.\nConstraints: exactly three complete workers; historically plausible Roman masonry furnace, clay channel, stone reservoir, oak trough, bronze cauldron, clothing and tools; no human preservation scene; smoke restrained enough to keep every silhouette legible; sound anatomy; opaque sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, modern refinery pipes, steel drums, glass, gauges, plastic, explosive fire, corpses, embalming, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, cropped furnace or people, duplicated limbs, opaque smoke hiding subjects.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. One complete squat masonry furnace, distinct watery and viscous outlets, clay channel, reservoir, oak trough and bronze cauldron form a continuous tar yard tended by exactly three complete workers. All apparatus, fires, figures and tools remain framed and legible through restrained smoke. No text, pseudo-writing, modern refinery object, human remains, panel structure, duplicate frame or clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:12",
+      "title": "HOW THE RESIN CALLED ZOPISSA IS PREPARED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c012.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "80f3fb0ec9ea8ccda8a1d6962252e1efa25b5301afcf0d2cc431d4130c63a2f8",
+      "acceptedArtifactId": "exec-e3469e38-5bd8-4825-99cc-a2d20ae596e2",
+      "outputArtifact": "built-in-imagegen://exec-e3469e38-5bd8-4825-99cc-a2d20ae596e2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 12, “How the Resin Called Zopissa Is Prepared.” Create one coherent Greek shipyard scene focused on a complete sea-going merchant vessel hauled fully ashore on sturdy wooden cradles, its entire hull from prow to stern and keel visible. Two complete workers beneath the raised vessel use broad hand scrapers to remove a thin weathered layer of pitch, wax and salt from the bottom planks into one shallow wooden trough. A third complete worker at a low bench gently warms and kneads the salty scrapings with a small measure of plain beeswax into one dark cohesive mass. Salt crust, old pitch and wax should be materially clear without labels, fire spectacle or separate demonstrations.\nScene/backdrop: quiet Aegean careening beach with complete cradles, coiled rope, oars and distant water; no sails raised and no modern dock.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; marine-craft dialect with dry salt abrasion, matte black pitch and restrained wax highlights.\nComposition/framing: landscape 3:2, 1536x1024; the complete beached hull forms a powerful elevated diagonal above the low arc of scrapers, trough and wax bench, materially distinct from the radial furnace scene. Keep the entire vessel including prow, stern, keel, gunwales and every support, all three complete workers, hands, feet, scrapers, trough, bench, wax, brazier, ropes and oars wholly inside generous blank vellum breathing room on every edge. One continuous shipyard moment only, not a before-and-after, process diagram, cutaway, panel or collage.\nLighting/mood: salt-bright morning, maritime wear transformed by patient ingenuity.\nConstraints: exactly one complete hauled-out ancient Greek merchant vessel and exactly three complete workers; historically plausible hull construction, cradles, scraping tools, wax, brazier, clothing and ropes; zopissa remains a historical material claim; sound anatomy; opaque sRGB.\nAvoid: lettering, ship names, carved symbols, captions, labels, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, modern shipyard machinery, cranes, steel, plastic, powered sanders, raised mast or sail touching the frame, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, cropped vessel, partial people, duplicated limbs, black tar hiding anatomy.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. One complete hauled-out ancient merchant vessel rests on fully visible cradles while exactly three complete workers scrape its salt-darkened hull and knead the collected wax-pitch material at one bench. Prow, stern, keel, gunwales, supports, figures, trough, ropes, oars and tools remain fully contained. No ship name, pseudo-writing, modern machinery, split process, repeated frame or clipping was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:13",
+      "title": "TREES THE WOOD OF WHICH IS HIGHLY VALUED. FOUR VARIETIES OF THE ASH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c013.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "ff3e591b02f681141c9e1da064025ad10c5a7a4d61a7fd7f38b83b40e314f400",
+      "acceptedArtifactId": "exec-492a63e0-434f-48b3-976e-3d38b8b08003",
+      "outputArtifact": "built-in-imagegen://exec-492a63e0-434f-48b3-976e-3d38b8b08003.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 13, “Trees the Wood of Which Is Highly Valued: Four Varieties of the Ash.” Create one coherent Macedonian ash-timber scene centered on a complete tall tapering ash with its entire airy pinnate crown, straight trunk, roots and long cast shadow visible. A second complete shorter, darker, knotty ash stands farther upslope with denser laurel-like leaves, clearly distinct but subordinate. At the base, exactly two complete woodworkers test the timber: one draws a flexible peeled ash stave into a gentle bow using a simple floor jig, while the other planes a long straight knot-free shaft beside several practical handles. A small living serpent remains calmly outside the far end of the ash’s shadow as a restrained visual record of Pliny’s reported observation, with no fire or harm.\nScene/backdrop: open Macedonian woodland edge with pale mountain slope and low workbench; no battlefield or heroic portrait.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; timber-and-tree dialect emphasizing straight grain, feathered foliage and long clean light.\nComposition/framing: landscape 3:2, 1536x1024; pull the entire scene back and scale both trees to the central sixty-five percent. Reserve a broad uninterrupted band of blank vellum equal to at least twelve percent of image height above the highest leaf and generous blank space beyond both lateral crown tips. An off-center soaring ash and sweeping diagonal shadow balance the low horizontal timber bench, jig and complete shorter ash. Keep both entire crowns with every pinnate leaflet, all twig tips, both trunks, roots and ground contacts, the whole cast shadow, both complete workers, hands, feet, stave, jig, plane, shaft, handles, workbench and complete serpent wholly inside the blank vellum moat on every edge. One continuous woodland worksite only, not a species chart, mythic scene, experiment, panel or collage.\nLighting/mood: long clear morning light, resilient timber and empirical wonder.\nConstraints: exactly two principal complete ash trees, exactly two complete workers and one small complete unharmed serpent; botanically convincing Fraxinus pinnate foliage and distinct tall versus shorter forms; historically plausible Roman-era tools, clothing, stave jig and handles; sound anatomy; opaque sRGB.\nAvoid: any canopy, leaf, branch, shadow, person or tool touching an image edge; lettering, Homeric quotation, captions, labels, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, Achilles, battle, spear violence, burning serpent, modern saws, power tools, impossible tree bending, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, partial people, duplicated limbs.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after one framing rejection and regeneration, with original-resolution review of the replacement. Two complete and visibly differentiated ashes, their full crowns, trunks, roots and cast shadow sit inside a broad vellum moat while exactly two complete woodworkers shape a stave and shaft beside one complete unharmed serpent. No text, pseudo-writing, battle imagery, modern tool, panel structure, repeated frame, clipping or anatomy failure was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-bde94fb6-d8a7-48ec-99b5-bc7c97c0c19e.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/evidence/history/b16-c013.rejected-6ed8bf2c719c963d0a6b22b15e7c70a1a14091929461d11049f2c8721396c9c1.png",
+          "sha256": "6ed8bf2c719c963d0a6b22b15e7c70a1a14091929461d11049f2c8721396c9c1",
+          "reason": "Rejected at original-resolution review because the topmost ash foliage reached the upper image boundary, violating the complete-subject and generous-margin framing gate."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:14",
+      "title": "TWO VARIETIES OF THE LINDEN-TREE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c014.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "ac133a964d1625121e8e41432aea92adeff8f12f98f1097df02b552890f11d57",
+      "acceptedArtifactId": "exec-862b49af-395d-4927-8627-7d3187ec0176",
+      "outputArtifact": "built-in-imagegen://exec-862b49af-395d-4927-8627-7d3187ec0176.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 14, “Two Varieties of the Linden-Tree.” Create one unified Roman grove scene in which a complete male and a complete female linden grow naturally on opposite sides of a shallow path, clearly different without labels. The male is slightly smaller, hard-looking and knotty, with red-brown exposed wood on one complete fallen branch, thicker inflexible bark, and no flowers or seed. The female has a thicker straight trunk, pale clean wood visible on one pruned limb, abundant fragrant blossoms and seed bracts. Exactly two complete craftspeople work between them: one carefully separates several fine inner-bark membranes from the female’s fallen limb; the other twists those thin philyra strips into soft ribbons for one simple leafy wreath resting on a low stool. No living trunk is ring-barked.\nScene/backdrop: mild Italian linden grove with low grass, flowering ground herbs and open vellum sky; no specimen garden or altar.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; intimate fiber-and-tree dialect with pale wood, sweet blossoms and tactile translucent bark ribbons.\nComposition/framing: landscape 3:2, 1536x1024; two unequal complete crowns form an open gateway over the low centered fiber work, with male angularity balancing female blossom softness. Keep both entire canopies with every tip, both trunks, roots and ground contacts, both complete fallen limbs, both complete people, hands, feet, membranes, twisting tool, stool and whole wreath wholly inside generous blank vellum breathing room on every edge. One continuous grove craft moment only, not a male/female comparison chart, botanical plate, panel or collage.\nLighting/mood: soft flowering-season light, contrast, sweetness and useful delicacy.\nConstraints: exactly two principal complete linden trees and exactly two complete craftspeople; historically plausible Roman-era clothing, simple fiber work and wreath; convincing linden cordate leaves, blossom bracts, bark layers and contrasting wood; no animal consuming fruit; sound anatomy; opaque sRGB.\nAvoid: lettering, captions, labels, male/female symbols, numerals, pseudo-writing, decorative glyphs, signatures, logos, watermarks, modern fiber tools, plastic, paper ribbon, identical twin trees, fatal bark stripping, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, cropped canopies, partial people, duplicated limbs.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. Two complete and visibly unequal lindens form a natural gateway while exactly two complete craftspeople separate inner-bark membranes and twist philyra ribbons beside complete fallen limbs, stool and wreath. Both crowns, trunks, roots, figures, tools and fiber work remain framed. No labels, pseudo-writing, fatal bark stripping, modern object, panel structure, cloned trees, repeated frame or crop was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "16:15",
+      "title": "TEN VARIETIES OF THE MAPLE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c015.png",
+      "corpusArtifact": "public/corpus/book-16.be53df101392353a.json",
+      "sha256": "8c1e6325f5df6ede8746a7dace66aa9542843f4897961e8b09beda6dcbcd342f",
+      "acceptedArtifactId": "exec-88944e42-8f6d-4172-81a9-29cf76adef8d",
+      "outputArtifact": "built-in-imagegen://exec-88944e42-8f6d-4172-81a9-29cf76adef8d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a deluxe Plinian natural-history codex\nPrimary request: Book XVI, chapter 15, “Ten Varieties of the Maple.” Create one coherent Roman cabinetmaker’s courtyard celebrating maple wood rather than an atlas of trees. A complete moderate-height maple grows within the open court, its lobed crown, trunk, roots and pale rough bark fully visible. Beneath it, exactly three complete craftspeople work around one low bench: the master planes a single wavy “peacock-grain” maple board whose natural curling figure catches restrained light; an apprentice holds one plain exceptionally white Gallic-maple board; a third craftsperson fits one reddish easily split zygia panel into a small elegant undecorated chest. A single rough crassivenium offcut rests under the bench. Grain differences must be shown solely through material texture, never marks or labels.\nScene/backdrop: Alpine-edge Roman woodworking court with low complete awning, plaster wall, mountain haze and scattered shavings; no luxury palace or merchant signage.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; cabinetmaking dialect with pale figured wood, soft red grain and precise hand-tool detail.\nComposition/framing: landscape 3:2, 1536x1024; pull back substantially so the complete tree, awning and workshop occupy only the central sixty-five percent of the page. Reserve an uninterrupted blank vellum band of at least twelve percent of image height above the highest maple leaf and broad blank margins beyond the crown and both awning ends. Use a high three-quarter view with the maple offset above one compact circular bench workflow; three different boards cross at distinct angles without becoming display panels. Keep the entire canopy, every branch tip, trunk, roots and ground contact, complete awning including ridge, both roof ends, every corner and post, all three complete people, hands, feet, plane, boards, offcut, bench, chest, mallet and shavings wholly inside the blank vellum moat on every edge. One continuous workshop moment only, not a wood-sample chart, labelled catalogue, split panel or collage.\nLighting/mood: cool clear workshop morning, refinement drawn from natural variation.\nConstraints: exactly one principal complete maple, exactly three complete craftspeople and one small complete chest; historically plausible Roman clothing, planes, mallet, joinery, bench and awning; botanically convincing maple leaves and timber grain; sound anatomy; opaque sRGB.\nAvoid: any leaf, branch, roof, post, person or object touching an image edge; lettering, carved decoration, captions, labels, numerals, pseudo-writing, peacock pictures or feathers, decorative glyphs, signatures, logos, watermarks, modern power tools, steel clamps, plywood, machine-perfect boards, glass, identical sample boards, photography, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, partial people, duplicated limbs.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after one framing rejection and regeneration, with original-resolution review of the replacement. One complete maple and complete awning occupy the central page above exactly three complete craftspeople working differentiated pale, wavy and reddish maple pieces into one small chest. Crown, roots, awning corners and posts, people, bench, tools, boards and shavings sit inside a broad vellum moat. No labels, pseudo-writing, modern equipment, split display, repeated frame, clipping or anatomy failure was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-ff313e1e-e6dc-4f8c-8174-b769c51985bc.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/evidence/history/b16-c015.rejected-0cbe039cd9f94623e0da9a24440fbbbd0dc0eb9a58c12e26faff7e07ce23ae58.png",
+          "sha256": "0cbe039cd9f94623e0da9a24440fbbbd0dc0eb9a58c12e26faff7e07ce23ae58",
+          "reason": "Rejected at original-resolution review because the maple crown was essentially flush with the upper boundary and lacked the required vellum breathing room."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

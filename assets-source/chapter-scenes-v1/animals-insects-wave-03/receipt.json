@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-insects-wave-03",
+  "generatedAt": "2026-08-25",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+  "corpusSha256": "6e41d61d4a8e304224778b12bcaea33508607eaf4e8f2fd5926af09fc1ffb2b2",
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book XI chapters 25, 26, 28, 29, 31, 32, 33 and 34 were read before prompting. Venom, lethality, spontaneous generation, fabulous scale, strange anatomy, blood-feeding, swarm destruction, extermination and remedy claims are treated as transmitted ancient testimony rather than verified modern biology, medical advice, stigma or permission to harm. Accepted scenes center calm plausible animals, non-explicit natural processes and uncertainty-aware observation.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "animals-insects-wave-03",
+    "receiptsCheckedAtCertification": 103,
+    "nonEvidenceMastersCheckedAtCertification": 806,
+    "skippedAtlasCells": [
+      "11:27",
+      "11:30"
+    ],
+    "selectedKeys": [
+      "11:25",
+      "11:26",
+      "11:28",
+      "11:29",
+      "11:31",
+      "11:32",
+      "11:33",
+      "11:34"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "assignments": [
+    "11:25",
+    "11:26",
+    "11:28",
+    "11:29",
+    "11:31",
+    "11:32",
+    "11:33",
+    "11:34"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 6,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 14,
+    "independentCalls": true,
+    "postGenerationPixelEdits": 0
+  },
+  "chapters": [
+    {
+      "chapterKey": "11:25",
+      "title": "SCORPIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c025.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "765f5e7912a69c9291cff8ca2fa172f4949a4cc171031291cd11c7778bcd723f",
+        "englishSha256": "26b5226c0b9056ee87af57cd1cafa1bb248b2e5724fc6f0abda91df45aa028b5",
+        "latinWords": 285,
+        "englishWords": 684
+      },
+      "sha256": "9e44515da356c36b6fb064b0806e11995e92f04a596f5ad42d1f96d2517bcbbb",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-022e1e47-88d2-4788-8263-2fee5e236c4b",
+      "generationArtifactId": "exec-022e1e47-88d2-4788-8263-2fee5e236c4b",
+      "outputArtifact": "built-in-imagegen://exec-022e1e47-88d2-4788-8263-2fee5e236c4b.png",
+      "exactFinalPrompt": "Create a single independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 25, as a humane visual record of transmitted ancient testimony about scorpions. The subject is exactly ONE calm, plausible Mediterranean yellow scorpion resting alone on one continuous patch of dry copper-red earth, seen from a nearly orthographic dorsal viewpoint so every appendage is unambiguous. Zoological count is mandatory: exactly TWO complete pedipalps ending in TWO pincers, exactly EIGHT complete walking legs total with FOUR clearly separated legs visible on the left and FOUR clearly separated legs visible on the right, and exactly ONE articulated tail with five metasomal segments plus a distinct telson; the tail curls loosely behind the body and the stinger is lowered into empty ground. Keep generous clear earth around the entire animal: every leg tip, pincer, tail segment, and shadow must remain comfortably inside the image on all four sides. No overlaps that hide a leg, no extra limbs, no missing limbs, no sting, attack, venom, prey, victim, young, death, injury, remedy, human, lettering, inscription, symbols, pseudo-writing, diagram labels, manuscript page, border, frame, split panel, collage, vignette, or water.\n\nRender it as an ancient yet timeless Plinian natural-history folio brought to life: hand-ground mineral pigments, translucent egg tempera and watercolor washes over fibrous warm parchment-like ground, selective shell-gold glints on the carapace, fine charcoal and iron-gall contour work, subtle abrasion and pigment blooms, rough material grain alongside exquisitely precise observation. This is one continuous environmental scene, not a specimen plate or a page. Use a low copper, ochre, and burnt-sienna palette cut by one broad cool cobalt-violet cast shadow and a few restrained malachite mineral flecks; soft raking late-afternoon light, quiet monumental stillness, crisp anatomy at the focal animal, atmospheric texture elsewhere. Landscape 3:2 composition designed natively for 1536 x 1024 pixels, opaque RGB/sRGB. No text of any kind.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-47393784-7c11-4f3d-9d84-dce30311512d",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-022e1e47-88d2-4788-8263-2fee5e236c4b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one complete calm scorpion, with two pedipalps and pincers, eight walking legs arranged four per side, one articulated five-segment metasoma and one telson, all fully internal. No sting event, victim, offspring, remedy, wings, water, text, pseudo-writing, panel, collage or clipped motif appears.",
+      "epistemicAndDignityNote": "Venom, lethality, flying-scorpion, remedy and offspring-violence claims remain transmitted ancient testimony. The accepted scene shows one undisturbed plausible scorpion and no harm.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-47393784-7c11-4f3d-9d84-dce30311512d",
+          "outputArtifact": "built-in-imagegen://exec-47393784-7c11-4f3d-9d84-dce30311512d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/evidence/history/b11-c025-attempt-01-ambiguous-leg-count.png",
+          "sha256": "0e7549c95da324d20ccba77943b6c59465ee46140a71e0e370c1e8b36a24cdce",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 25, SCORPIONS. Corpus grounding: Pliny transmits lethal-sting, sex, color, tail-joint, winged-scorpion, offspring-killing and ash-in-wine remedy claims. Treat these as ancient testimony, not medical advice or settled zoology. Show no attack, sting, venom, victim, suffering, offspring, death, remedy or fabulous wings. Scene: a single calm Mediterranean yellow scorpion resting on uninterrupted copper-ochre desert soil at blue hour, viewed from a steep three-quarter macro angle. Show EXACTLY ONE complete scorpion with plausible modern anatomy: exactly TWO symmetrical pedipalps ending in TWO complete claws; exactly EIGHT distinct walking legs, four on each side; one cephalothorax, one segmented abdomen; and one continuous curved tail of five metasomal segments ending in one small complete telson and stinger lowered harmlessly toward the ground. Every leg joint, foot, claw tip, body edge, tail segment and stinger must be visible, separate and at least 130 pixels inside every image edge. No second scorpion, insect, human, animal, nest, egg, young, cave, stone, plant, vessel, fire, medicine, blood, carcass, wing, flight or water. Only continuous subtly cracked earth and a broad cobalt-lapis shadow may extend through the frame. Compose the scorpion off-center in a relaxed open C-curve with abundant negative soil, not a specimen plate. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, minute cross-hatching and stipple, egg tempera, dry-brush abrasion, copper ochre, burnt umber, lampblack, deep faded lapis shadow, muted verdigris and tiny madder accents; ancient, timeless, beautiful, rough and polished at once. One continuous physical scene only. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, diagram, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+          "reason": "The low oblique pose left the far-side walking-leg count visually ambiguous, so an exact four-per-side anatomy certification was not possible."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:26",
+      "title": "THE STELLIO",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c026.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "674b747ecb971e57b3af17491f1554e7dc751b8ee8788d1384911e0501a6213e",
+        "englishSha256": "7f03e32bd3283051f5287810b808145c9453aebe96e0f09642268b6917edc3b9",
+        "latinWords": 201,
+        "englishWords": 429
+      },
+      "sha256": "6306d65d80a10518dfab0094d355306ff0b02bae912c05aa4ccb96517163c3bf",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c82b2118-9aca-45ef-a72a-79114f9a21ec",
+      "generationArtifactId": "exec-c82b2118-9aca-45ef-a72a-79114f9a21ec",
+      "outputArtifact": "built-in-imagegen://exec-c82b2118-9aca-45ef-a72a-79114f9a21ec.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 26, treating its claims as transmitted ancient observation, not settled biology. Use a high three-quarter overhead view of one continuous Mediterranean herb garden at luminous dawn. Depict exactly ONE complete stellion lizard (plausible Stellagama/Laudakia stellio) resting calmly on a broad internal sun-warmed limestone slab in the lower-left half. Arrange the lizard diagonally and unobstructed, with one head, one torso, exactly FOUR fully visible, clearly separated legs—front-left, front-right, rear-left, rear-right—each attached correctly and ending in five toes, plus exactly ONE intact tapering tail; no limb may hide behind its torso or another limb. At upper right, depict exactly ONE complete adult cicada perched separately on an internal fennel branch, viewed mostly from above so its anatomy reads clearly: one head, one thorax, one abdomen, exactly SIX legs visible as three separated pairs, TWO transparent forewings and TWO smaller transparent hindwings, and two short antennae. The two animals remain far apart and do not touch, hunt, eat, or threaten each other. Preserve generous clear margins: every toe, tail tip, leg, wing tip, antenna, plant tip, shadow, and each tiny dew droplet stays comfortably inside all four edges. Dew is only a few isolated beads and does not imply spontaneous generation. No spider, predation, feeding, hatchling, metamorphosis sequence, sex, injury, sting, death, suffering, extra animal, distorted anatomy, fused appendage, text, letters, numbers, inscription, pseudo-writing, labels, diagram, manuscript page, border, frame, panel, collage, inset, or water touching an edge.\n\nMaintain the Plinian natural-history material style: visible fibrous warm ground, translucent egg tempera and watercolor, hand-ground malachite and sap-green plants, yellow ochre limestone, muted orpiment gold, a restrained ultramarine dawn haze, fine charcoal and iron-gall contours, selective shell-gold dew glints, subtle pigment bloom, abrasion, and handmade grain. Balance rough ancient materiality with polished observational precision. Make it a broad breathing scene with luminous negative space and a cool misty valley beyond, not a specimen plate and not a manuscript page. One coherent continuous environment. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no text.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4a5b950e-a0e6-4dd4-9c00-760e03e7f5ca",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-c82b2118-9aca-45ef-a72a-79114f9a21ec",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete stellion lizard and one complete adult cicada in a continuous dawn habitat, widely separated and non-interacting. The lizard's four legs and intact tail are readable; the cicada has plausible six-legged, four-winged anatomy. Both focal animals and all discrete dew beads remain internal; no predation, spontaneous-generation sequence, water edge, writing or panel appears.",
+      "epistemicAndDignityNote": "Dew diet and cicada-development claims are treated as transmitted ancient observation rather than settled biology. No feeding, predation or literal dew-born life is shown.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-4a5b950e-a0e6-4dd4-9c00-760e03e7f5ca",
+          "outputArtifact": "built-in-imagegen://exec-4a5b950e-a0e6-4dd4-9c00-760e03e7f5ca.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/evidence/history/b11-c026-attempt-01-occluded-lizard-leg.png",
+          "sha256": "eff58d64c9e3cab49af670ad30ac6f3c9b2cde80a647f29ca328c3532791467a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 26. Frame the passage as transmitted ancient natural-history observation rather than settled biology. In one continuous dew-bright Mediterranean dawn habitat, depict exactly ONE complete stellion lizard (a plausible Stellagama/Laudakia stellio) resting quietly on a low sun-warmed stone at lower left and exactly ONE complete adult cicada perched separately on a slender wild-fennel stem at upper right. They do not touch, hunt, eat, or threaten one another. The lizard must have one head, one torso, exactly FOUR complete legs with FIVE distinct toes on each foot where perspective permits, and one long intact tapering tail; the cicada must have one head, one thorax, one abdomen, exactly SIX complete legs, TWO large transparent forewings plus TWO smaller hindwings, and two short antennae. Keep both animals and every toe, tail tip, wing tip, antenna, fennel stem, shadow, and each discrete dew bead comfortably inside the canvas with generous breathing room. Any dew appears only as a few tiny individual droplets deep within the scene, never as literal spontaneous generation. No spider, predation, feeding, hatchling, metamorphosis sequence, sexual behavior, injury, sting, death, suffering, anatomy distortion, extra animal, text, letters, numerals, inscription, pseudo-writing, diagram, label, manuscript page, border, frame, panel, collage, inset, or water touching any edge.\n\nUse the coherent Plinian zoological-folio material language: fibrous warm parchment-like ground visible beneath translucent egg tempera and watercolor, hand-ground malachite, sap green, yellow ochre, orpiment-gold, and a restrained ultramarine dawn shadow; delicate iron-gall and charcoal contour lines, selective shell-gold glints on dew and cicada veins, slight abrasion and pigment bloom, rough handmade surface paired with exact natural observation. Make this composition materially distinct from a specimen plate: a low oblique viewpoint through aromatic plants, luminous misty negative space, lizard anchored low-left, cicada high-right, soft green-gold sunrise. One continuous living scene, no decorative border. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB, no text of any kind.",
+          "reason": "The lizard's far foreleg was occluded by its body and the rock, preventing strict four-leg visibility certification."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:28",
+      "title": "THE WINGS OF INSECTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c028.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bf48abe4b7e31f1dd22859f21910f9a25d1a032759a3b7e9a21deb73b97244b3",
+        "englishSha256": "b6a173175fb0541a93d4e643cff8b282e7a71baab4b24d79d998a8d20de3267f",
+        "latinWords": 291,
+        "englishWords": 659
+      },
+      "sha256": "ac6e45be5d21d27ce688d056c0ad482bf36992ce3565d7021848435231527eca",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cb713568-3d7f-4890-bb41-54f59b026bc2",
+      "generationArtifactId": "exec-cb713568-3d7f-4890-bb41-54f59b026bc2",
+      "outputArtifact": "built-in-imagegen://exec-cb713568-3d7f-4890-bb41-54f59b026bc2.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 28, presenting an ancient comparison of insect wings as transmitted observation. Make a calm, continuous Mediterranean meadow seen directly from above. Show exactly TWO insects and no others, each unobstructed on its own broad internal leaf with ample empty earth between them. At left: exactly ONE complete common fly, dorsal view, with one head, one thorax, one abdomen, two short antennae, exactly SIX fully visible legs as three separated pairs, and exactly TWO membranous wings total, spread symmetrically left and right. At right: exactly ONE complete honeybee, dorsal view, with one head, one thorax, one abdomen, two antennae, exactly SIX fully visible legs as three separated pairs, and exactly FOUR fully distinct membranous wings opened in a clean X arrangement—TWO larger forewings angled forward and TWO smaller hindwings angled backward; no wing may overlap or hide another. No haltere rendered as an extra wing. Make attachment points plausible. Both insects are calm and do not touch. Every antenna, leg, wing, leaf, plant tip, shadow, and discrete object stays comfortably inside all four edges. No sting, attack, wound, predation, mating, larva, death, injury, suffering, hive, human, other insect, water, text, letters, numerals, inscription, pseudo-writing, label, arrow, diagram, specimen pin, manuscript page, border, frame, panel, collage, inset, or repetition.\n\nRender the one continuous environment in a Plinian zoological-folio material idiom without depicting a page: fibrous warm earth-ground visible through translucent egg tempera and watercolor; pale madder-pink rockrose petals scattered well inside the scene, lapis and indigo chicory petals, verdigris leaves, chalk and amber soil, very fine iron-gall contours, shell-gold specks only on pollen and wing veins, subtle abrasion, pigment bloom, and handmade grain. Rough ancient surface, polished observational anatomy. Arrange the two leaves across a spacious diagonal with a broad cool lapis-violet shadow band between them and soft morning light. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-3a36c7c7-dd54-479e-9b08-ee9700a87eed",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-cb713568-3d7f-4890-bb41-54f59b026bc2",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete fly with six legs and two wings on the left leaf, and exactly one complete honeybee with six legs and four individually readable wings on the right leaf. The continuous meadow ground prevents the two leaves from becoming panels. All anatomy and flowers are internal; no sting, injury, text, pseudo-writing, frame, collage or water appears.",
+      "epistemicAndDignityNote": "The ancient wing comparison is rendered through plausible fly and bee anatomy. No teleological sting claim, attack or harm is literalized.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-3a36c7c7-dd54-479e-9b08-ee9700a87eed",
+          "outputArtifact": "built-in-imagegen://exec-3a36c7c7-dd54-479e-9b08-ee9700a87eed.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/evidence/history/b11-c028-attempt-01-occluded-bee-hindwing.png",
+          "sha256": "b86411bac4ba58b9b5a63d89acd5c62eddd7a93df0df6f07d077b5d6fc49fd14",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 28, visually clarifying the ancient comparison of insect wings through plausible modern anatomy while presenting the passage as historical observation. In one continuous sunlit Mediterranean meadow, show exactly TWO insects and no others: exactly ONE common fly resting on a pale pink rockrose bloom at left, and exactly ONE honeybee resting separately on a small blue chicory bloom at right. Use a close, nearly overhead natural viewpoint and keep the insects separated by a broad field of softly painted stems. The fly must be complete and anatomically clear: one head with two antennae, one thorax, one abdomen, exactly SIX visible legs arranged as three clean pairs, and exactly TWO visible membranous flight wings—no extra wings. The honeybee must be complete and anatomically clear: one head with two antennae, one thorax, one abdomen, exactly SIX visible legs arranged as three clean pairs, and exactly FOUR distinct membranous wings—two larger forewings and two smaller hindwings—all individually readable and not fused. Both insects rest peacefully; no sting, attack, feeding wound, predation, mating, larvae, injury, death, suffering, hive, human, or extra animal. Keep every antenna, leg tip, wing tip, flower, stem, shadow, and discrete object comfortably inside all four edges with generous negative space. No water. No text, letters, numerals, inscription, pseudo-writing, diagram, arrows, labels, specimen pins, manuscript page, decorative border, frame, split panel, collage, inset, or repeated subject.\n\nRender a coherent Plinian zoological-folio world without looking like a page: fibrous warm ground beneath translucent egg tempera and watercolor; pale madder-pink rockrose, lapis and indigo chicory, verdigris stems, muted chalk and amber, delicate iron-gall contours, shell-gold dust caught only in wing veins and pollen, subtle pigment bloom, abrasion, and irregular handmade grain. Balance rough ancient material with polished scientific observation. Compose the fly lower-left and the bee upper-right across a gentle diagonal, with shallow morning depth, airy pale negative space, and a cooler lapis-violet shadow band that makes this scene materially distinct from other chapters. One continuous environment. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing of any kind.",
+          "reason": "Only three bee wings were separately readable because one hindwing was occluded, so the chapter's two-versus-four comparison could not be certified."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:29",
+      "title": "LOCUSTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c029.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d14601b6be1aea110ef21b9796f5686dee23b0119f6c122f451c79ea644a1f9a",
+        "englishSha256": "c6ec86cec5de88157e49537450b94f350b0ecf026a0868fd89235594812ca64e",
+        "latinWords": 372,
+        "englishWords": 855
+      },
+      "sha256": "74e851a4a3fcd49c92c581bb856752d6450bd4c3e1277b0b3a16886183f27562",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-aa83c323-552d-4933-8218-a86a40a71046",
+      "generationArtifactId": "exec-aa83c323-552d-4933-8218-a86a40a71046",
+      "outputArtifact": "built-in-imagegen://exec-aa83c323-552d-4933-8218-a86a40a71046.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 29, framing reports of locust migration and swarms as transmitted ancient testimony rather than settled biology or a call to harm. Use an elevated oblique viewpoint looking down through clear late-summer air toward distant uncultivated Mediterranean steppe. Show exactly THREE complete plausible migratory locusts in peaceful flight, no more and no fewer. Keep them large and widely separated in a loose triangular formation, each turned at a different gentle heading so they are not duplicated. Give every locust an unobstructed dorsal three-quarter pose with one head, one thorax, one abdomen, TWO antennae, exactly SIX complete legs visible as three separated pairs, and exactly FOUR independently readable wings opened in flight: TWO long narrow mottled forewings and TWO broader translucent fan-shaped hindwings, one forewing and one hindwing on each side; no wing may hide behind another. Every antenna tip, wing tip, leg tip, body, ridge, cloud, and shadow must stay comfortably inside all four edges with abundant clear air. No insect touches or overlaps another. No dense swarm, eggs, larvae, mating, crops, field, farmer, human, snake, bird, attack, killing, extermination, injury, death, suffering, giant scale, fabulous anatomy, extra insect, water, text, letters, numerals, inscription, pseudo-writing, label, diagram, page, border, frame, panel, collage, inset, or repeated copy.\n\nMake one continuous scene in the Plinian natural-history material language: fibrous warm ground visible through translucent egg tempera and watercolor; smoky orange, burnt ochre, pale saffron and cooler lilac, slate-violet, and muted ultramarine air; fine iron-gall and charcoal zoological contours; restrained shell-gold glints along hindwing veins; pigment blooms, dry-brush abrasion, and handmade grain, rough and ancient yet polished in observation. Vast airy negative space, quiet migration rather than menace, three different scales and headings but all large enough to inspect. Landscape 3:2, designed natively for 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b450fbfe-8e6d-4003-b551-10c4f31f31c4",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-aa83c323-552d-4933-8218-a86a40a71046",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three complete, widely separated migratory locusts in peaceful flight. Each has two antennae, three leg pairs and four opened wings with forewing and hindwing distinctions; all appendages remain internal. No dense swarm, damaged crop, person, violence, death, extermination, text, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Swarm, generation, giant-form and extermination reports remain transmitted ancient testimony. The scene shows quiet migration over uncultivated steppe, not menace or destruction.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-b450fbfe-8e6d-4003-b551-10c4f31f31c4",
+          "outputArtifact": "built-in-imagegen://exec-b450fbfe-8e6d-4003-b551-10c4f31f31c4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/evidence/history/b11-c029-attempt-01-occluded-wing-pairs.png",
+          "sha256": "e3e3ebd1840b62f5fc769aad01e140d459393a83904ebbf0db07f0c1a093d36f",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 29. Treat its reports of locust origins, migrations, prodigious swarms, and extermination as transmitted ancient testimony, not settled biology or a call to harm. Show exactly THREE complete, plausible migratory locusts flying peacefully across a vast empty late-summer sky above distant uncultivated Mediterranean steppe. No more and no fewer. Arrange them on a sweeping diagonal at three distinct depths but large enough for anatomy to remain readable and separated so no bodies, legs, antennae, wings, or shadows overlap. Each locust must have exactly one head, one thorax, one abdomen, TWO antennae, exactly SIX complete legs, and exactly FOUR wings: two narrow forewings plus two broad translucent hindwings opened for flight. Keep every antenna tip, wing tip, leg tip, body, distant ridge, and cloud comfortably inside all four edges with generous sky around them. No insect touches another. No mass swarm, egg mass, larvae, mating, damaged crops, field, farmer, human, snake, bird, attack, killing, extermination, injury, death, suffering, giant scale, fantastic anatomy, extra insect, water, text, letters, numerals, inscription, pseudo-writing, diagram, label, manuscript page, border, frame, split panel, collage, inset, or repeated copy.\n\nRender one continuous cinematic natural-history scene in the coherent Plinian folio material language: fibrous warm ground glowing through translucent egg tempera and watercolor; smoky orange, burnt ochre, and pale saffron sky crossed by cool lilac, slate-violet, and muted ultramarine cloud bands; fine iron-gall and charcoal anatomy lines, restrained shell-gold glints on transparent wing veins, visible pigment blooms, rubbed edges within the paint texture, and rough handmade grain balanced with polished zoological precision. Use a low upward viewpoint with immense airy negative space, the nearest locust lower-left, the middle locust near center, and the farthest upper-right, all fully internal. Quiet migration rather than menace. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The lateral flight poses overlapped forewings and hindwings, preventing four-wing visibility certification for all three locusts."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:31",
+      "title": "ANTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c031.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "cfa61c78917e1a2efbd7a19aca8b4221d63ed3bdc5cb0550075799118c66ca8a",
+        "englishSha256": "6021d0e4be4e006d24b90936df1687540046795e50b7aa5621f2654e04480c1e",
+        "latinWords": 62,
+        "englishWords": 143
+      },
+      "sha256": "a8675ab93e687358e2039b3ed4e4c4f97033611b00a3ae8351f93300d713d0d9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6809d644-9c9b-4bdd-ba11-fce23f2ef72b",
+      "generationArtifactId": "exec-6809d644-9c9b-4bdd-ba11-fce23f2ef72b",
+      "outputArtifact": "built-in-imagegen://exec-6809d644-9c9b-4bdd-ba11-fce23f2ef72b.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 31. Treat the famous account of giant gold-digging ants as transmitted ancient testimony and visual uncertainty, not literal zoological fact. Show exactly THREE ordinary-sized, plausible desert ants crossing a broad pale quartz-and-sand wash in one continuous arid habitat, viewed almost directly from above. No more and no fewer. Each ant must be complete, separated, and anatomically clear with one head, one thorax, one abdomen, TWO elbowed antennae, and exactly SIX fully visible legs arranged as three pairs; no overlapping bodies or fused, extra, or missing appendages. One ant at lower center carries exactly ONE tiny irregular mica-rich quartz fleck in its mandibles; the other two carry nothing. Make the mineral glint modest and natural, not a treasure nugget. Arrange the ants along three different curving paths and orientations to avoid repetition. Preserve large expanses of pale mineral negative space, and keep every antenna tip, leg tip, body, quartz chip, pebble, shadow, and discrete object comfortably inside all four edges. No giant scale, anthropomorphism, mound cutaway, people, camels, theft, attack, bite, injury, death, suffering, blood, wealth display, extra insect, water, text, letters, numerals, inscription, pseudo-writing, map, label, diagram, manuscript page, border, frame, split panel, collage, inset, or repeated copy.\n\nRender a serene Plinian natural-history scene with ancient material presence: chalk-white and warm sand ground, translucent egg tempera and watercolor, pale ochre, gypsum, soft rose quartz, tiny restrained shell-gold and silver-mica points, cool celadon and slate-blue shadows, hairline iron-gall contours, subtle pigment bloom, dry abrasion, and fibrous handmade grain. Combine rough mineral texture with precise zoological drawing. Use a radically spare top-down composition with the three ants forming an asymmetric arc across luminous open ground; crisp nearest ant, gently softer farther ants, no page or specimen-board appearance. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6809d644-9c9b-4bdd-ba11-fce23f2ef72b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three ordinary-sized complete desert ants, each with two antennae and six legs, on one continuous quartz-sand field. Exactly one ant carries one small mica-rich quartz fleck; all ants and mineral objects are fully internal. No giant scale, people, camels, theft, attack, text, panels, collage or water appears.",
+      "epistemicAndDignityNote": "The gold-digging giant-ant account is explicitly bounded as transmitted testimony. Plausible ordinary ants and a modest mica fleck signal uncertainty without literalizing violence or fabulous scale.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:32",
+      "title": "THE CHRYSALIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c032.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f78f1a9d53e5abf00b0aaf018ba9e139a4c3c9d6a05edefd27af8bb74658f4ee",
+        "englishSha256": "3855f1fe3edf7cc1b534398494fdae45281dbecd0293cbd7750f9d3831191996",
+        "latinWords": 53,
+        "englishWords": 127
+      },
+      "sha256": "ebe740f16efc38af3863d8dbbfaea3a763ae406c2050e286d281851972b4908f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ccd19abf-eb33-4e1c-a52f-8ba18f2a973e",
+      "generationArtifactId": "exec-ccd19abf-eb33-4e1c-a52f-8ba18f2a973e",
+      "outputArtifact": "built-in-imagegen://exec-ccd19abf-eb33-4e1c-a52f-8ba18f2a973e.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 32. Treat the passage's origin-from-dew language as transmitted ancient testimony, while depicting plausible metamorphosis after emergence. Make the scene radically high-key and luminous: a fully internal young radish plant rises from a small oval mound of pale chalky garden soil near the lower-right quadrant, surrounded by a vast warm ivory and blush-coral dawn atmosphere. On the upper surface of one fully visible internal leaf, depict exactly ONE complete adult butterfly at left of center, resting calmly in profile-three-quarter view. Beneath a separate nearby leaf tip hangs exactly ONE split empty chrysalis. The butterfly must have one head, one thorax, one abdomen, exactly TWO clubbed antennae, exactly SIX complete legs arranged as three pairs and visibly contacting the leaf, and exactly FOUR intact wings: two larger forewings and two smaller hindwings, held in an open shallow V so each wing has its own readable outer silhouette. The chrysalis is a single natural empty shell with one clean emergence split. Keep the entire plant, every root-mound edge, leaf tip, stem end, antenna, foot, wing tip, chrysalis, and shadow comfortably inside all four image edges with at least ten percent clear breathing room. No dew, literal spontaneous generation, developmental sequence, caterpillar, pupa cutaway, extra insect, mating, predation, fluid, injury, death, suffering, water, text, letters, numerals, inscription, pseudo-writing, label, diagram, manuscript page, border, frame, panels, collage, inset, or duplication.\n\nUse a bright Plinian natural-history material language: fibrous ivory ground visible through translucent egg tempera and watercolor, broad washes of shell pink, pale coral, chalk white and celadon air, one modest malachite radish plant, an ivory butterfly patterned with coral and lapis accents, pale umber chrysalis, fine iron-gall contours, restrained shell-gold dust on wing veins, pigment blooms, rubbed highlights, and tactile handmade grain. Ancient and rough yet polished in observation. Compose asymmetrically with roughly two-thirds luminous empty space; soft side light, delicate long shadow, no dark night backdrop, no dramatic black field. One continuous living garden environment, not a specimen plate or page. Landscape 3:2, designed natively for 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-81b0a1c8-e054-42b1-927d-18f84ac272d2",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-7dc078f7-2c76-4f34-8c60-1cc948ac1848",
+          "status": "rejected-global-uniqueness-audit"
+        },
+        {
+          "generationArtifactId": "exec-ccd19abf-eb33-4e1c-a52f-8ba18f2a973e",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete adult butterfly with two antennae, six legs and four distinct wings resting on one fully internal radish plant, beside exactly one empty split chrysalis. All focal anatomy, plant tips and chrysalis are safely internal. No dew-born creature, developmental panel, text, pseudo-writing, collage or water appears.",
+      "epistemicAndDignityNote": "The dew-origin claim remains transmitted ancient testimony; the accepted high-key scene shows only a plausible adult-after-emergence moment and an empty chrysalis.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-81b0a1c8-e054-42b1-927d-18f84ac272d2",
+          "outputArtifact": "built-in-imagegen://exec-81b0a1c8-e054-42b1-927d-18f84ac272d2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/evidence/history/b11-c032-attempt-01-hidden-legs-leaf-edge.png",
+          "sha256": "5437676222e0ed2bc777996831d718726923fd4eab20b68665a5eb351278eded",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 32. Treat the passage's origin-from-dew language as transmitted ancient testimony, while showing a plausible non-explicit moment after insect metamorphosis. In one continuous quiet Mediterranean kitchen garden, depict exactly ONE complete adult butterfly resting beside exactly ONE split, empty chrysalis attached to the underside edge of a broad radish leaf. The butterfly has already emerged and is calm, dry, and fully formed; it does not touch the chrysalis. Use a close three-quarter overhead view. The butterfly must have one head, one thorax, one abdomen, TWO clubbed antennae, exactly SIX complete legs arranged as three pairs, and exactly FOUR distinct intact wings—two larger forewings and two smaller hindwings—opened in a balanced shallow V so all four are individually readable. The chrysalis is a single natural shell with one clean emergence split, no creature inside. Keep the entire radish leaf, all leaf tips, butterfly antennae, legs and wing tips, chrysalis, stem, shadows, and every discrete object comfortably inside all four edges. No dew-born creature, no literal spontaneous generation, no developmental sequence, caterpillar, pupa cutaway, extra insect, mating, predation, wound, bodily fluid, injury, death, suffering, water, text, letters, numerals, inscription, pseudo-writing, label, diagram, manuscript page, border, frame, split panel, collage, inset, or duplication.\n\nRender it as an intimate Plinian natural-history scene in hand-made materials: fibrous warm ground under translucent egg tempera and watercolor; a luminous verdigris and malachite radish leaf, ivory and muted coral butterfly wings with small lapis and shell-gold eye-like accents that remain purely decorative pigment, pale umber chrysalis, fine iron-gall contours, subtle pigment pooling along veins, scraped highlights, abrasion, and tactile handmade grain. Ancient, rough, and timeless yet polished in close observation. Compose the leaf as a diagonal green canopy across a shadowed garden hollow, with the butterfly at upper-left of center and the empty chrysalis lower-right, surrounded by soft dark negative space; one continuous environment, not a specimen plate or page. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The butterfly's walking legs were hidden by its wings and body, and the dominant radish leaf reached the canvas edge, so strict anatomy and framing could not be certified."
+        },
+        {
+          "generationArtifactId": "exec-7dc078f7-2c76-4f34-8c60-1cc948ac1848",
+          "outputArtifact": "built-in-imagegen://exec-7dc078f7-2c76-4f34-8c60-1cc948ac1848.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/evidence/history/b11-c032-attempt-02-audit-mad-19.16.png",
+          "sha256": "80956fafa93e42bbcaff4cd9ee82fa1f4c13aea86a6d50712f15348002af6e97",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 32. Treat the passage's origin-from-dew claim as transmitted ancient testimony, while depicting plausible metamorphosis after emergence. In one continuous shadowed Mediterranean kitchen garden, show exactly ONE complete adult butterfly standing calmly on the narrow upper surface of a single broad radish leaf, beside exactly ONE split empty chrysalis hanging from the leaf's underside farther right. Use a low three-quarter side view chosen specifically to expose the butterfly's appendages. The butterfly must have one head, one thorax, one abdomen, exactly TWO clubbed antennae, exactly SIX fully visible legs—three clearly separated legs on the near side and three clearly separated legs on the far side, every foot touching the leaf—and exactly FOUR intact wings held upward in a shallow open V: two larger forewings and two smaller hindwings, all four separately outlined and not fused. The butterfly is dry and fully formed; it does not touch the chrysalis. The chrysalis is one natural empty shell with one clean emergence split. The entire radish leaf and stem are discrete internal objects with generous dark garden space surrounding them; keep every leaf tip, stem end, antenna, foot, wing tip, chrysalis, and shadow comfortably inside all four edges. No dew, spontaneous-generation literalization, developmental sequence, caterpillar, pupa cutaway, extra insect, mating, predation, injury, fluid, death, suffering, water, text, letters, numerals, inscription, pseudo-writing, label, diagram, manuscript page, border, frame, panels, collage, inset, or duplicate.\n\nUse Plinian natural-history materials: fibrous warm ground under translucent egg tempera and watercolor; luminous verdigris and malachite leaf, ivory and muted coral wings with restrained lapis and shell-gold accents, pale umber chrysalis, fine iron-gall contours, pigment pooling along veins, dry-brush abrasion, and tactile handmade grain. Ancient, rough, timeless, and exquisitely observed. Make the leaf a fully internal diagonal bridge from lower-left toward upper-right, butterfly at left of center and chrysalis at right, with velvety dark negative space around them. One continuous environment, not a specimen board or page. Landscape 3:2, designed natively for 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The fresh global scan returned nearest MAD 19.16 against trees-aromatics-wave-41/b02-c006.png, below the required MAD 20 threshold; dHash passed at 20. The image was rejected solely at the duplicate-distance gate."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:33",
+      "title": "ANIMALS WHICH BREED IN WOOD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c033.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "84a91f3e887fa804298ca47ad24fd8c95284f4c41a5818ea6fc2e3c933494d06",
+        "englishSha256": "ea57957ee9bd1776cf627060fca5209a15c24562ff29e0d15c2f264c6dffc23a",
+        "latinWords": 130,
+        "englishWords": 274
+      },
+      "sha256": "4682da660276bbaea83749f9cafdf81149a45c8c21043f218ed5f93f18fffe00",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-14dc1f46-cf11-44ad-b9b8-e7797891a516",
+      "generationArtifactId": "exec-14dc1f46-cf11-44ad-b9b8-e7797891a516",
+      "outputArtifact": "built-in-imagegen://exec-14dc1f46-cf11-44ad-b9b8-e7797891a516.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 33. Present the passage's claims about creatures arising in wood as transmitted ancient observation, not spontaneous generation or settled biology. In one continuous shaded Mediterranean woodland clearing, depict exactly ONE plausible adult longhorn beetle resting quietly on exactly ONE fully internal piece of weathered dead olive wood lying on moss-dark earth. The dead branch/log is a self-contained object: both broken ends and its full silhouette remain comfortably visible inside the canvas, with generous surrounding ground. Beside the beetle is exactly ONE small round natural exit hole in the wood, empty and dry. The beetle is large enough to inspect and complete: one head, one thorax, one abdomen covered by exactly TWO closed symmetrical elytra meeting along a central seam, exactly TWO long segmented antennae, and exactly SIX fully visible legs arranged as three pairs, each attached plausibly and separated from the others. Keep every antenna tip, foot, elytron, wood end, moss tuft, exit hole, shadow, and discrete object comfortably inside all four edges. No living tree host, larva, emerging animal, spontaneous-creation sequence, other insect, parasite, carrion, human, animal host, feeding, attack, wound, blood, injury, death, suffering, water, text, letters, numerals, inscription, pseudo-writing, label, diagram, specimen pin, manuscript page, border, frame, panels, collage, inset, or duplicate.\n\nRender an intimate Plinian natural-history scene through fibrous warm ground, translucent egg tempera and watercolor, deep emerald and malachite moss, umber and iron-oxide deadwood, charcoal-black beetle with restrained copper and shell-gold glints, a cool indigo crevice shadow, hairline iron-gall contours, pigment bloom, scuffed highlights, worm-eaten wood texture without visible larvae, and tactile handmade abrasion. Ancient and rough, yet polished and anatomically observant. Use a low macro viewpoint along the diagonal internal log, beetle slightly left of center and exit hole farther right, velvety dark negative space beyond; one continuous environment rather than a specimen plate or page. Landscape 3:2, designed natively for 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-14dc1f46-cf11-44ad-b9b8-e7797891a516",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete longhorn beetle with two antennae, six legs and two closed elytra on exactly one fully internal piece of dead olive wood beside exactly one dry exit hole. Antennae, feet, both wood ends and the hole remain internal. No living host, larva, carrion, parasite, harm, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Wood-generation and parasitic claims remain transmitted ancient testimony. A plausible adult beetle and an empty exit hole suggest observation without depicting spontaneous generation or suffering.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:34",
+      "title": "AN ANIMAL WHICH HAS NO PASSAGE FOR THE EVACUATIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c034.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d8c58ee3ac6213846381418dd0f0d876b1d4eb5231c2ff0fb80edf295b9a1a44",
+        "englishSha256": "62bca8a694c70030af09ac7a0068c0af2b0288ce3a3d4ec63376750466335b56",
+        "latinWords": 76,
+        "englishWords": 168
+      },
+      "sha256": "1ad774fc8dee2dd8e3f5d01f95d325161294513596b87a8587178fb74c15b3fe",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7f1c5ac7-407c-4adf-b0cf-5eb964da53a7",
+      "generationArtifactId": "exec-7f1c5ac7-407c-4adf-b0cf-5eb964da53a7",
+      "outputArtifact": "built-in-imagegen://exec-7f1c5ac7-407c-4adf-b0cf-5eb964da53a7.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 34. Frame the passage's tick, leech, blood-feeding, and rupture reports as transmitted ancient testimony, without depicting harm or offering medical advice. Show exactly ONE complete, unfed hard tick resting alone on the broad tip of a single pale grass blade in a dry Mediterranean meadow. Use an extreme but natural macro side-overhead viewpoint. The tick must remain ordinary-sized in context and anatomically plausible: one flattened oval unengorged body with a small distinct dorsal shield, compact forward-facing mouthparts that touch only air and pierce nothing, and exactly EIGHT complete legs arranged as four separated pairs, every joint and foot visible; no antennae, wings, extra limbs, or swollen abdomen. The grass blade bends gently under almost no weight. Keep the entire tick, all eight feet, its shadow, the entire visible grass-blade tip, nearby seed heads, and every discrete object comfortably inside all four edges with a wide halo of soft meadow space. No animal or human host, skin, dog, leech, blood, bite, feeding, wound, rupture, extraction, remedy, suffering, death, water, other arachnid, other insect, text, letters, numerals, inscription, pseudo-writing, labels, diagram, specimen pin, manuscript page, border, frame, panels, collage, inset, or duplication.\n\nRender one continuous luminous Plinian natural-history scene with fibrous warm ground beneath translucent egg tempera and watercolor: high-key pale celadon and chalk grass, a restrained cinnabar-red seed head far behind, warm straw and ivory, a small cool cobalt-violet shadow under the tick, minute shell-gold glints on the cuticle, fine iron-gall contours, pigment blooms, dry-brush abrasion, and tactile handmade grain. Rough and ancient yet polished in anatomical observation. Use generous hazy negative space, shallow depth of field, and a quiet diagonal blade floating across the central field; the tick is crisp but not menacing. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7f1c5ac7-407c-4adf-b0cf-5eb964da53a7",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, color conversion, resize or other pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete ordinary-scale unfed hard tick, with one flattened body and exactly eight separated legs, resting on a pale internal blade tip. Mouthparts pierce nothing; tick and all feet remain internal. No host, blood, bite, leech, wound, rupture, remedy, text, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Blood-feeding, rupture and remedy-adjacent claims are retained only as transmitted testimony. The scene is a calm non-feeding natural-history observation and not medical advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 806,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "11:25": {
+        "nearestMAD": 20.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c092.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c009.png",
+        "madAtDHashPeer": 37.86
+      },
+      "11:26": {
+        "nearestMAD": 29.3,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c058.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c095.png",
+        "madAtDHashPeer": 37.56
+      },
+      "11:28": {
+        "nearestMAD": 21.46,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c025.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c018.png",
+        "madAtDHashPeer": 35.06
+      },
+      "11:29": {
+        "nearestMAD": 24.99,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c018.png",
+        "madAtDHashPeer": 35.89
+      },
+      "11:31": {
+        "nearestMAD": 20.86,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c027.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c031.png",
+        "madAtDHashPeer": 91.08
+      },
+      "11:32": {
+        "nearestMAD": 21.75,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c030.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c011.png",
+        "madAtDHashPeer": 148.09
+      },
+      "11:33": {
+        "nearestMAD": 20.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c061.png",
+        "madAtDHashPeer": 28.31
+      },
+      "11:34": {
+        "nearestMAD": 22.18,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c032.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 119.7
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-insects-wave-03",
+    "status": "pass",
+    "output": ""
+  }
+}

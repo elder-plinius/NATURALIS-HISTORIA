@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-45",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted chapter records its unique built-in generation artifact ID. Four rejected generations are preserved under evidence/history and record their built-in artifact IDs, hashes, and native or global QA reasons.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 431,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:53": {
+        "nearestMAD": 24.59,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c005.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c055.png",
+        "madAtDHashPeer": 29.66
+      },
+      "2:54": {
+        "nearestMAD": 23.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-37/b24-c007.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b16-c042.png",
+        "madAtDHashPeer": 50.24
+      },
+      "2:55": {
+        "nearestMAD": 25.7,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c005.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "madAtDHashPeer": 92.29
+      },
+      "2:56": {
+        "nearestMAD": 25.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c008.png",
+        "madAtDHashPeer": 49.21
+      },
+      "2:57": {
+        "nearestMAD": 21.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c028.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 75.18
+      },
+      "2:58": {
+        "nearestMAD": 24.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c002.png",
+        "madAtDHashPeer": 29.45
+      },
+      "2:59": {
+        "nearestMAD": 22.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c068.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c022.png",
+        "madAtDHashPeer": 34.78
+      },
+      "2:60": {
+        "nearestMAD": 25.63,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c017.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-37/b02-c040.png",
+        "madAtDHashPeer": 45.97
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:53",
+      "title": "OF CONJURING UP THUNDER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c053.png",
+      "sha256": "aa9b4d5c7cb619ae3156726c97eb6ac38584d032ce28af915eedfc045d1d62d1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ce513f0a-d407-4381-9e64-133cfde03573",
+      "outputArtifact": "built-in-imagegen://exec-ce513f0a-d407-4381-9e64-133cfde03573.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 53, “OF CONJURING UP THUNDER.” Pliny recounts Etruscan and Roman traditions that rites could invoke thunder, then explicitly marks opinions as various—certain to some, doubtful or condemned by others. Depict the coexistence of ritual and weather without visually claiming that the person commands nature.\n\nAt copper-green late afternoon, exactly one complete Etruscan ritual specialist stands beside exactly one complete low, plain, unmarked stone altar in a small open sacred clearing. The person’s hands are lowered after placing one simple bronze bowl on the altar; posture is attentive and uncertain, not triumphant or spellcasting. Exactly three complete slender sacred trees form a loose arc around the clearing, each tiny enough that crown, branch tips, trunk and root contact are fully visible with broad sky between them. Far across a wide empty valley, one compact storm cloud rests entirely within the upper-left interior, separated from the altar by a great expanse of clear tarnished-gold sky. Exactly one thin distant lightning filament descends from that cloud to an uninhabited rocky ridge. No ray, glow, trail, or composition line connects altar and storm. The ritualist looks toward the weather, leaving causation unresolved.\n\nLandscape 3:2, exactly 1536×1024. One coherent landscape, never a ritual diagram, cause-and-effect split panel, collage, triptych, atlas, or visible page. Keep the entire person, face, hands, feet, plain clothing, altar and every corner, bowl, all three complete trees, cloud, lightning filament, valley and ridge comfortably within broad negative space. At least eight percent clear earth or sky separates every discrete subject from all four canvas edges. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contour drawing, meticulous cross-hatching and stipple, translucent mineral washes over warm fibrous vellum visible throughout; restrained verdigris, copper ochre, madder, faded lapis, lampblack, limestone white and small aged-gold accents. Ancient, timeless, solemn and beautiful—rough hand-worked grain with polished figure, stone, tree and weather observation. Low valley horizon, shallow fresco-like depth, raking after-rain light, natural asymmetry. Preserve Pliny’s epistemic ambiguity: show reported practice beside ordinary weather, not magical efficacy.\n\nNo sacrifice, animal, victim, monster Volta, King Numa portrait, Jupiter, deity, statue, temple, fire on altar, raised staff, spell gesture, glowing bowl, ray linking altar to cloud, lightning striking the person or altar, extra people, giant storm, panic, modern object, text, letters, numerals, inscription, pseudo-writing, symbol, watermark, signature, decorative border, internal frame, page edge, white exterior, split panel, cropped tree, edge-entering canopy, or clipped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete Etruscan ritual specialist, plain altar and bowl, exactly three fully contained trees, and a distant separated storm cloud and lightning filament remain legible without any visual causal link. No clipped subject, spell gesture, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:54",
+      "title": "GENERAL LAWS OF LIGHTNING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+      "sha256": "441dc2bda4cf8ea357ceb2d5704c94b832f6135961751f67904bad364ee5827d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4979a26e-5537-4328-b5c6-07266736401f",
+      "outputArtifact": "built-in-imagegen://exec-4979a26e-5537-4328-b5c6-07266736401f.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 54, “GENERAL LAWS OF LIGHTNING.” Ground the plate in Pliny’s observation that a lightning flash is seen before thunder is heard because light travels faster than sound, while historically framing his surrounding omen ideas.\n\nAt clear storm-violet twilight, depict a vast empty coastal basin from far back. Exactly one complete Roman observer stands in three-quarter profile in the lower-right interior. The gesture must be anatomically explicit and central: the observer’s LEFT ARM is fully extended, index finger pointing across the basin toward the distant flash; the RIGHT ELBOW projects outward and the open RIGHT HAND is visibly cupped directly behind the right ear in a listening gesture. Both complete arms, elbows, hands and all fingers are separated from the torso and clearly readable. The observer’s head turns toward the flash.\n\nFar away in the upper-left interior floats exactly one SMALL COMPLETE oval storm cloud, with clear violet sky surrounding its top, left, right and bottom edges. Exactly one thin branching lightning filament descends from it to one isolated barren boulder. The boulder remains intact with one tiny dust breath. A huge empty gulf of layered land and air separates event and witness. No tree or architecture appears.\n\nLandscape 3:2, exactly 1536×1024. One continuous observation, never a sound-wave graphic, omen chart, split panel, collage, atlas, or visible page. Keep the entire observer, head, both full arms and hands, every finger, feet, garment, whole cloud, every lightning branch, boulder, dust, basin and horizon at least ten percent away from every canvas edge. Nothing touches or is clipped. Scale all subjects down if necessary.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, fine cross-hatching and stipple, translucent mineral washes over warm fibrous vellum visible throughout; storm violet, muted lapis, lampblack, sea verdigris, bone white, umber and restrained cold silver. Ancient, timeless, lucid and beautiful—rough rain-abraded material with polished anatomy, rock and cloud observation. Low basin horizon, shallow fresco-like depth, natural asymmetry. Present light-before-sound as an observation, not a magical omen system.\n\nNo hand on hip, hand shading eyes, folded arm, missing finger, extra arm, casualty, struck animal or person, fire, explosion, giant bolt, multiple strikes, thunder god, temple, compass, arrows other than the natural pointing finger, sound waves, rings, clock, measuring instrument, extra person, modern gear, text, letters, numerals, label, inscription, pseudo-writing, watermark, signature, border, inner frame, page edge, white exterior, cloud touching an edge, edge-entering vegetation, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete observer visibly points toward one contained distant lightning filament with the left arm while cupping the right hand behind the ear; cloud, boulder, basin and figure are fully framed. No sound-wave graphic, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-7dfcc0e0-5061-4815-90b1-add7f914e766.png",
+          "sha256": "1e54582b5659c93774701e15927c6931e0f325b73c197c47039934300b5f72ed",
+          "reason": "Rejected after native QA because the observer did not make the required listening gesture and the storm cloud entered the upper canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:55",
+      "title": "OBJECTS WHICH ARE NEVER STRUCK",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c055.png",
+      "sha256": "2e0753ecc2725b0cf4b52427ed7454933136d3c9f40cdd9e8346ef210f30b25e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8e2e2457-af73-4dd7-baaa-f72bd6cfb6ba",
+      "outputArtifact": "built-in-imagegen://exec-8e2e2457-af73-4dd7-baaa-f72bd6cfb6ba.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 55, “OBJECTS WHICH ARE NEVER STRUCK.” Pliny transmits ancient claims that lightning avoids laurel, does not descend more than five feet into earth, and that deep caves were considered safe; he also records repeated destruction of wartime towers. Depict evidence and inherited belief side by side without endorsing guaranteed safety.\n\nOn a rain-washed Italian plain at clear green-gold morning, exactly one complete mature laurel tree stands fully inside the left-middle, its crown, every branch tip, trunk and root contact surrounded by broad air and soil. At right-middle sits exactly one complete low natural limestone grotto mound, small enough that its entire rounded exterior, shallow dark entrance, base and surrounding ground are visible. Exactly one complete Roman naturalist stands in the open between laurel and grotto—not sheltering under either—with both hands open in comparison. Far in the background, exactly one complete short abandoned watchtower stump bears a dark lightning scar and a partially broken top; it is tiny, unoccupied and fully contained. The storm has passed: one narrow cloud remnant recedes far behind the tower, but no active lightning appears. One fallen laurel leaf lies naturally at the observer’s feet; no experiment or danger is staged.\n\nLandscape 3:2, exactly 1536×1024. One coherent post-storm field observation, never a safety diagram, comparison panel, emblem, collage, atlas, or visible page. Keep the full person, hands, feet, complete laurel and every crown tip, whole grotto mound and entrance, full tower stump, cloud, leaf, field and horizon within generous negative space. At least eight percent clear sky or ground separates every discrete subject from every canvas edge. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, meticulous cross-hatching and stipple, translucent mineral washes over warm fibrous vellum visible throughout; restrained laurel verdigris, rain-silver, ochre, umber, lampblack, pale lapis and aged gold. Ancient, timeless, reflective and beautiful—rough rain-marked material with polished botanical, geological and architectural observation. Low field horizon, shallow fresco-like depth, clear oblique morning light, natural asymmetry. Explicitly present “never struck” as a transmitted ancient claim, not a modern safety instruction.\n\nNo active lightning, person hiding in cave, person under tree, safety endorsement, demonstration, eagle, seal skin, animal, tower currently struck, fire, body, casualty, extra people, extra trees, second cave, modern shelter, sign, measuring rod, text, letters, numerals, label, inscription, pseudo-writing, watermark, signature, decorative border, internal frame, page edge, white exterior, split panel, clipped laurel crown, edge-entering rock, floating leaf, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete laurel, low limestone grotto, open-standing naturalist, fallen leaf and distant scarred tower are all fully contained in one post-storm field. No active strike, safety endorsement, clipped crown, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:56",
+      "title": "SHOWERS OF MILK, BLOOD, FLESH, IRON, WOOL, AND BAKED TILES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c056.png",
+      "sha256": "a334b3d7d51d4b646021e994ece43d8229f0a510c580b921d2407f4dfe6848f5",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3c483bf9-384d-49f0-8ba4-ba63b3236538",
+      "outputArtifact": "built-in-imagegen://exec-3c483bf9-384d-49f0-8ba4-ba63b3236538.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 56, “SHOWERS OF MILK, BLOOD, FLESH, IRON, WOOL, AND BAKED TILES.” Pliny compiles several extraordinary annalistic reports. Choose one non-gory episode: the reported shower of wool around the castle of Carissanum. Present it as transmitted testimony, not proof that such weather occurred as described.\n\nAt rose-grey early evening, exactly one complete ancient textile worker stands in a wide open field outside exactly one complete small hill castle. The castle is distant and fully contained in the left-middle, including all low walls, one gate, two squat towers, rooflines, hill base and open sky around it; no part touches an edge. The worker occupies the lower-right interior, holding one empty shallow woven basket at waist height and looking upward. From exactly one complete modest pearl-grey cloud in the upper-center, a sparse irregular drift of soft white wool tufts descends over bare ground. The tufts vary naturally in size and twist, remain widely separated, and look like raw fleece—not snow, feathers, flowers, ash, flesh, or decorative symbols. A few tufts have landed on the dark earth and castle road. No sheep, spinner’s distaff, loom or supernatural figure appears. The scene is hushed and strange rather than catastrophic.\n\nLandscape 3:2, exactly 1536×1024. One continuous witness scene, never a catalogue of six substances, gore tableau, omen diagram, split panel, collage, atlas, or visible page. Keep the complete worker, head, hands, feet, clothing, basket, whole castle, cloud, every visible wool tuft, road, hill and horizon comfortably inside broad negative space. At least eight percent clear sky or earth separates every discrete subject and every tuft from all four canvas edges. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, fine cross-hatching and stipple, translucent mineral washes over warm fibrous vellum visible in every pixel; restrained dusty rose, pearl, faded lapis, lampblack, muted verdigris, umber and small aged-gold accents. Ancient, timeless, uncanny and beautiful—rough fibrous grain echoing the wool with polished architecture, basketry and figure observation. Low hill horizon, shallow fresco-like depth, gentle oblique twilight, natural asymmetry. Explicitly frame the event as an annalistic report preserved by Pliny.\n\nNo blood, flesh, body part, iron weapon, falling roof tile, milk rain, injury, panic, sheep, extra person, giant tuft, snowstorm, feather shower, angel, deity, glowing cloud, modern textile, text, letters, numerals, label, inscription, pseudo-writing, watermark, signature, decorative border, internal frame, page edge, white exterior, castle touching an edge, cloud touching an edge, split panel, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete textile worker and empty basket observe a sparse raw-wool drift from one contained cloud beside the fully framed distant castle of Carissanum. No gore, extra substance, clipped tuft, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:57",
+      "title": "RATTLING OF ARMS AND THE SOUND OF TRUMPETS HEARD IN THE SKY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c057.png",
+      "sha256": "c5849822a2221becd4f9ddbd9a3b039e9d0960c0a837a9840cbf4190284a892a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1836192b-cf6d-4ca8-bc50-bfa9993cdcb7",
+      "outputArtifact": "built-in-imagegen://exec-1836192b-cf6d-4ca8-bc50-bfa9993cdcb7.png",
+      "exactFinalPrompt": "Create one finished landscape illustration for Pliny the Elder, Naturalis Historia, Book II, chapter/section 57: the transmitted report of the sound of arms in the sky. This is an ancient natural-history testimony, not a literal supernatural fact.\n\nComposition: a very pale silver-green winter dawn over a broad chalk plain, with most of the image made of luminous ground and low pearly mist rather than dark sky. At lower left, show exactly one complete Roman-era signaler, fully inside the frame from head to sandals, standing in profile and listening upward; his bronze trumpet is lowered and not being blown, and a real round shield plus one spear rest beside him. High in the open sky, show exactly two small, separate, fully contained rust-red and copper cloud masses whose overlapping folds might suggest distant metallic resonance, but do not depict armies, warriors, weapons, faces, or literal battle in the clouds. Keep both cloud masses well away from every image edge and leave ample pale air around them. The narrative should read as an ambiguous natural phenomenon carefully observed and recorded.\n\nStyle: coherent Plinian illuminated natural-history folio; ancient, timeless, beautiful, rough and polished at once. Layer mineral pigments, egg-tempera opacity, subtle encaustic depth, oxidized copper, muted cinnabar, verdigris, bone white, charcoal underdrawing, lightly abraded parchment grain, and restrained gold-leaf glints. Precise Roman-era material culture, elegant but weathered, intellectually sober, museum-grade painterly finish. Strong asymmetric editorial composition and generous negative space. Avoid modern fantasy spectacle.\n\nHard constraints: 1536x1024 landscape 3:2; one continuous scene only; no panels, triptych, collage, internal frame, border, cartouche, parchment page margin, manuscript page shown within the image, captions, letters, numerals, pseudo-writing, runes, diagram labels, sound-wave graphics, halos, or watermark. Every figure, object, cloud, spear, shield, trumpet, and landscape feature must be fully contained and uncropped. No dark navy or black dominant sky. No gore. Opaque full-bleed artwork.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete listening signaler, lowered trumpet, grounded shield and spear sit inside a pale chalk-dawn panorama beneath exactly two small contained copper cloud masses. No literal sky armies, cropped object, pseudo-writing, sound-wave graphic, text, panel, border, visible sheet or watermark was found. The pale replacement clears the collection-wide similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2de30c41-0a78-4236-b7d8-d69a9319897c.png",
+          "sha256": "805ed509f1d1d5efda71e605c0fc82f0770ef0eb5ef0071b0139c362ae739136",
+          "reason": "Rejected after native QA because both copper cloud banks entered the top and side canvas edges. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-a4b45510-e495-4277-8230-91547b0463fe.png",
+          "sha256": "2307ea7cab02df86cae706dc90076575f8c3ad9a85ccca1ebcffd39493d916be",
+          "reason": "Rejected after global QA because the otherwise valid dark-sky scene measured grayscale MAD 15.20 against chapter 2:6, below the required 20.00 collection threshold. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:58",
+      "title": "OF STONES THAT HAVE FALLEN FROM THE CLOUDS. THE OPINION OF ANAXAGORAS RESPECTING THEM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c058.png",
+      "sha256": "e06321e7778ccc7dba676da7f1403f220719f85151e60c929bfb0f2bc6077920",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-780de5df-a222-4d61-8e38-408b21bc5dd0",
+      "outputArtifact": "built-in-imagegen://exec-780de5df-a222-4d61-8e38-408b21bc5dd0.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 58, “OF STONES THAT HAVE FALLEN FROM THE CLOUDS. THE OPINION OF ANAXAGORAS RESPECTING THEM.” Pliny accepts reports that stones have fallen from the atmosphere but is skeptical that Anaxagoras predicted the great burned stone at Aegospotami or that it came from the sun. Depict daylight examination after the event, not a prophecy or impact.\n\nOn the quiet bank of the ancient Aegospotami river in Thrace at pale gold midday, exactly one enormous complete dark burned-looking stone rests partly embedded in a shallow crater of dry soil. It is irregular, porous and wagon-load in scale, with every edge visible and broad ground around it; no flame, smoke or glow remains. Exactly one complete Greek natural philosopher stands several paces away, one hand open in skeptical inspection rather than divination. Exactly one complete small empty two-wheeled wooden wagon is parked farther behind for scale, both wheels, bed and shafts fully visible; no animal is attached. The narrow complete river bend, both near banks and a low distant ridge remain within the middle ground. One small bronze probe and one plain collecting tray lie grounded near the observer. The sky is calm and nearly empty, emphasizing material evidence rather than spectacle.\n\nLandscape 3:2, exactly 1536×1024. One coherent aftermath, never a meteor sequence, prophecy diagram, solar theory chart, split panel, collage, atlas, or visible page. Keep the full philosopher, head, hands, feet, stone and entire crater rim, wagon and both wheels and shafts, probe, tray, river bend, banks, ridge and shadows comfortably inside broad negative space. At least eight percent clear sky or ground separates every discrete subject from every canvas edge. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: dry iron-gall contours, exceptionally fine cross-hatching and geological stipple, translucent mineral washes over warm fibrous vellum visible in every pixel; restrained charcoal, burnt umber, ochre, river verdigris, faded lapis, bone white and aged gold. Ancient, timeless, empirical and beautiful—rough scorched stone texture with polished wagon, figure and landscape observation. Low river horizon, high oblique foreground, shallow fresco-like depth, clear raking noon light, natural asymmetry. Preserve Pliny’s distinction between fallen-stone testimony and skeptical doubt about prediction or solar origin.\n\nNo falling stone, comet, visible sun, fireball, impact explosion, smoke plume, crater blast, person under danger, worship, altar, pointing prophecy gesture, glowing stone, inscription on stone, extra people, animal, loaded wagon, modern cart, measuring ruler, text, letters, numerals, label, pseudo-writing, watermark, signature, decorative border, internal frame, page edge, white exterior, split panel, cropped wheel, edge-entering river, floating tool, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The enormous complete burned stone, skeptical philosopher, empty two-wheeled wagon, probe, tray and Aegospotami river bend are fully contained in a calm aftermath. No impact spectacle, prophecy gesture, clipped wheel, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:59",
+      "title": "THE RAINBOW",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c059.png",
+      "sha256": "c06629894384abca8e30481faf8257fb3b49dde7edb883babe7ba7590ae5b3d7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f5ef7574-7b06-4e83-91d2-a98f455653f1",
+      "outputArtifact": "built-in-imagegen://exec-f5ef7574-7b06-4e83-91d2-a98f455653f1.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 59, “THE RAINBOW.” Pliny treats rainbows as frequent rather than ominous and describes sunlight reflected and refracted in hollow cloud, always opposite the sun and semicircular. Make a serene observational landscape, not an omen or labeled optical diagram.\n\nAcross a spacious winter valley just after a shower, exactly one complete natural rainbow forms a restrained high semicircle in the middle sky. Both ends descend into two separate interior bands of mist above the valley floor, with a full hill-width of visible landscape beyond each end; no part of the rainbow touches any canvas edge. The colors are subtle mineral gradations—madder red, ochre, pale green, faded lapis and violet—softly mixed with cloud and air, never neon bands. Behind and within the arc lies one broad concave rain cloud whose complete lower edge is visible; a fine rain curtain withdraws over the far hills. The unseen low sun is behind the viewer, so no solar disk appears. One complete narrow river bend reflects only a diffuse fragment of the colored light. Exactly one tiny complete Roman traveler stands on an interior path near the lower-center, fully visible and looking toward the arc, giving scale without dominating the landscape. No gesture of worship or fear.\n\nLandscape 3:2, exactly 1536×1024. One continuous valley, never an optics chart, prism diagram, weather panel, collage, atlas, or visible page. Keep the full traveler, path, river bend, every hill, complete cloud edge, entire rainbow semicircle, both rainbow ends, mist and rain curtain comfortably inside broad negative space. At least eight percent clear sky or ground separates every discrete focal element from all four canvas edges. Nothing is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall landscape contours, extremely fine cross-hatching and stipple, translucent mineral washes over warm fibrous vellum visible throughout; restrained rain silver, verdigris, madder, ochre, faded lapis, violet, umber and aged gold. Ancient, timeless, calm and exceptionally beautiful—rough wet-grain material with polished atmospheric observation. Low rolling hills, shallow fresco-like depth, luminous raking winter light and natural asymmetry. Present the rainbow as ordinary natural wonder rather than portent, while historically framing Pliny’s optical explanation.\n\nNo second rainbow, night rainbow, visible sun or moon, pot of gold, deity, Iris figure, worship, panic, giant traveler, bright neon stripe, hard vector arc, labeled colors, prism, arrow, ray diagram, modern object, extra people, text, letters, numerals, label, inscription, pseudo-writing, watermark, signature, decorative border, internal frame, page edge, white exterior, rainbow touching an edge, edge-entering architecture, split panel, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete subdued mineral rainbow and both of its ends remain inside the winter valley above a contained cloud, river bend and one tiny complete traveler. No second arc, neon diagram, clipping, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:60",
+      "title": "THE NATURE OF HAIL, SNOW, HOAR, MIST, DEW; THE FORMS OF CLOUDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c060.png",
+      "sha256": "31e08391d72c5976d275efe95b4d1e261ea66278e21eb5c41559bb93f6978727",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-35fc6b5e-f52c-4896-abdf-2b81572fa410",
+      "outputArtifact": "built-in-imagegen://exec-35fc6b5e-f52c-4896-abdf-2b81572fa410.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book II, chapter 60, “THE NATURE OF HAIL, SNOW, HOAR, MIST, DEW; THE FORMS OF CLOUDS.” Ground this first portion in Pliny’s distinctions among frozen rain, softer snow, frozen dew, mist and serene-night dew. Integrate them into one believable winter dawn landscape rather than a labeled specimen chart, and frame the explanation as ancient natural philosophy.\n\nAt clear rose-blue dawn on a high Italian meadow, exactly one complete Roman naturalist kneels in the lower-center interior beside exactly one complete shallow oval rain pool. A thin translucent skin of ice covers only the shaded half of the pool while open water reflects dawn on the other half. Exactly one complete low sage shrub grows nearby: its shaded leaves carry fine white hoar, while several leaves reached by the first light hold small clear dew droplets. In the deep shadow of exactly one complete low flat rock lies a SMALL IRREGULAR HANDFUL OF CLEARLY VISIBLE ROUND HAILSTONES, naturally scattered rather than arranged or counted. Far beyond, one complete narrow band of valley mist lies between two fully contained hills, and a distant ridge carries an irregular cap of soft snow. The naturalist observes with empty open hands and does not touch anything. The phenomena connect through real depth, shade and temperature, not arrows or dividers.\n\nLandscape 3:2, exactly 1536×1024. One continuous winter dawn, never a weather encyclopedia, labeled comparison, multi-panel grid, collage, atlas, or visible page. Keep the entire naturalist, hands, feet, pool shoreline, ice edge, open water, complete sage and every leaf, all visible hailstones, whole flat rock, mist band, both hills, snow ridge and shadows inside broad breathing room. At least eight percent clear sky or ground separates every discrete foreground subject from every canvas edge. Nothing touches or is clipped.\n\nAncient Plinian natural-history folio aesthetic: iron-gall contours, extremely fine cross-hatching and stipple, translucent mineral washes over warm fibrous vellum visible throughout; restrained frost white, pale lapis, rose madder, sage verdigris, mist silver, umber, ochre and small aged-gold dawn accents. Ancient, timeless, delicate and exceptionally beautiful—rough crystalline and fibrous texture with polished hydrological, botanical and atmospheric observation. Low layered horizon, shallow fresco-like depth, cool raking dawn light, natural asymmetry. Present Pliny’s account as historically situated inquiry, not a complete modern theory.\n\nNo exact hailstone count requirement, no straight row of hailstones, extra person, animal, hailstorm in progress, blizzard, giant ice crystal, snowman, thermometer, weather instrument, glass vessel, label, arrow, diagram, decorative frost symbol, text, letters, numerals, inscription, pseudo-writing, watermark, signature, decorative border, internal frame, page edge, white exterior, split panel, edge-entering shrub, clipped pool, floating hail, or cropped subject.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete naturalist, half-iced pool, sage with distinct hoar and dew, irregular grounded hail cluster, valley mist and distant snow ridge integrate into one fully framed winter dawn. No chart geometry, clipped plant or pool, text, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c9f983a4-28bd-4f0c-be38-e8689014170c.png",
+          "sha256": "9cdaa82e547f54a7f866d3db57ccbc6344c039d5a3311170b184b0a1c6e29576",
+          "reason": "Rejected after native QA because it rendered exactly six visible hailstones despite the unnecessary exact-seven request; the accepted revision uses an irregular grounded cluster. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

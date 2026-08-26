@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-30",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted chapter records its unique built-in generation artifact ID. Rejected generations are preserved under evidence/history and listed with their built-in artifact IDs, hashes, and rejection reasons.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 316,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "21:9": {
+        "nearestMAD": 22.07,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c003.png",
+        "madAtDHashPeer": 33.3
+      },
+      "21:10": {
+        "nearestMAD": 22.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c018.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "madAtDHashPeer": 34.67
+      },
+      "21:11": {
+        "nearestMAD": 21.66,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c018.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c010.png",
+        "madAtDHashPeer": 27.91
+      },
+      "21:12": {
+        "nearestMAD": 24.45,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c007.png",
+        "madAtDHashPeer": 40.52
+      },
+      "21:14": {
+        "nearestMAD": 22.87,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c009.png",
+        "madAtDHashPeer": 38.48
+      },
+      "21:15": {
+        "nearestMAD": 25.46,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c027.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c002.png",
+        "madAtDHashPeer": 33.63
+      },
+      "21:16": {
+        "nearestMAD": 30.73,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c023.png",
+        "madAtDHashPeer": 52.67
+      },
+      "21:17": {
+        "nearestMAD": 20.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c026.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b14-c003.png",
+        "madAtDHashPeer": 41.75
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "21:9",
+      "title": "SHRUBS, THE BLOSSOMS OF WHICH ARE USED FOR CHAPLETS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c009.png",
+      "sha256": "81ba5496c5a8b6686b10009c8a3c3487423577c594f10f979af7874568b52067",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3bdd8c75-61a7-4db4-bb20-c9351455ce81",
+      "outputArtifact": "built-in-imagegen://exec-3bdd8c75-61a7-4db4-bb20-c9351455ce81.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 9, “Shrubs, the blossoms of which are used for chaplets”\nPrimary request: Create one original full-bleed scene about the making of a chaplet from both blossoms and leaves: an ancient garland-maker selects broom blossom, ivy corymbs, melilot and aromatic shrub sprigs and binds them into one varied wreath.\nScene/backdrop: A broad, empty Roman garden clearing at early autumn dusk, with uninterrupted earthen ground receding into a belt of tiny distant shrubs and low blue hills under a generous sky. No wall, no fence, no pergola, no roof, no arch, no tree canopy, and no architecture. Warm aged-vellum grain and mineral wash continue uninterrupted to every canvas edge.\nSubject: Exactly one complete seated garland-maker at one modest freestanding stone bench, both centered well inside the canvas, bends over one nearly finished circular wreath. Four clearly separate grounded plant bundles—yellow broom blossom, dark ivy clusters, pale melilot and one white aromatic cneorum twig—lie in a shallow arc before the bench. One small spool of plain flax cord sits beside the wreath. No other people.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel. Coherent with a Roman encyclopedic codex, but visually specific to this chapter.\nComposition/framing: Landscape 3:2, calm frontal-oblique view. Keep the complete person, head, hands, feet, bench and all four bench legs, wreath, cord and every plant bundle fully visible. Reserve a broad band of empty sky above the person, one full bench-width of open ground at left and right, and ample ground below the bundles. One continuous scene, no inset specimens. Only continuous earth, atmosphere and vellum texture may meet canvas edges; every discrete object is small and fully contained.\nLighting/mood: Low amber autumn light, tactile craft, botanical variety made orderly.\nConstraints: Exactly one person, one bench and one wreath; period-appropriate plain clothing, cord and plants; all objects grounded; no written marks; warm vellum and painted scene extend continuously to all four canvas edges.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra wreaths, crown on the person’s head, modern florist tools, scissors, wall, fence, hedge, pergola, portico, roof, arch, tree canopy, edge-entering foliage, fantasy flowers, giant blooms, photographic realism, glossy digital rendering, split panels, triptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, clipped person, clipped bench, cropped foliage, edge-touching subject, floating plants. Scale every discrete object down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete garland-maker, one freestanding bench, one wreath, cord spool and four distinct grounded plant bundles remain fully framed within broad open ground and sky. No architecture, clipped foliage, visible sheet, pseudo-writing, modern tool, panel, border or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2e74351d-beba-4a82-b2f8-aaecb7b2fe43.png",
+          "sha256": "125f715f3bbd6dfb8cc266a7ebd35ee3e8b66fc10d42848c7f553c2a7efddf36",
+          "reason": "Rejected at native QA because the pergola beams and vine canopy were cut by the top and right canvas edges. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-001171d2-d187-4fd4-9bed-1b6a5cc408fe.png",
+          "sha256": "aa08e6aed1272705ad35c355c862d5504c096aebf11094a39ef55e0be25a6e1e",
+          "reason": "Rejected at native QA because a second realization still cropped the pergola and foliage despite otherwise successful craft detail. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-abf0e1e4-87cd-4293-9e7e-d1d438d752fa.png",
+          "sha256": "a48578fe05f4ce28e53af2d309ae43f510da6975f3a7ca46d48ab3ca41866cfd",
+          "reason": "Rejected at native QA because the continuous low masonry wall entered and exited through both canvas edges, violating the fully contained discrete-object rule. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:10",
+      "title": "TWO VARIETIES OF THYME. PLANTS PRODUCED FROM BLOSSOMS AND NOT FROM SEED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c010.png",
+      "sha256": "6ceb8e173342c2b5f952f4ef1f3448a4e3f03cbeadb0104e74e42cbf012a4141",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-75671c81-34ba-4f99-bb1c-04870d065220",
+      "outputArtifact": "built-in-imagegen://exec-75671c81-34ba-4f99-bb1c-04870d065220.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 10, “Two varieties of thyme; plants produced from blossoms and not from seed”\nPrimary request: Illustrate Pliny’s observation that white and dark thyme flower at the summer solstice, foretell the honey crop, and thrive where sea air crosses stony ground—even though their seed seems hidden in the blossom.\nScene/backdrop: A sunlit limestone plain in ancient Gallia Narbonensis above a distant blue sea. Two low, clearly distinct oval mats of thyme—one pale-flowered, one dark violet—grow from separate patches of cracked stone. A single small woven beehive, complete and fully visible, rests between them on a flat slab. No buildings, walls, trees, or edge-entering vegetation.\nSubject: Exactly one complete beekeeper kneels between the two thyme patches, holding one flowering thyme tip close to the eye while letting a few tiny blossoms fall into a shallow earthen seed-bed. A light, natural drift of bees moves between the flowers and the hive. The person, hive, thyme mats and seed-bed are all small and fully contained.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, fine cross-hatching and stipple, delicate mineral washes; restrained umber, lampblack, verdigris, faded lapis, madder, smoky violet and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, long low horizon and spacious sea-air composition. Place the kneeling figure and hive in the middle third, the pale thyme patch to lower left and dark thyme patch to lower right, with broad open limestone around them and a large quiet sky. Keep the complete person, head, hands, knees, feet, hive, slab, both whole thyme mats and the full seed-bed fully visible. One continuous moment; no botanical diagram.\nLighting/mood: Brilliant solstice noon softened by sea haze; empirical wonder, abundance held inside minuteness.\nConstraints: Exactly one person, one hive, two thyme patches; period-appropriate plain clothing and basket hive; all objects grounded; no written marks; warm vellum, sky and stony terrain continue uninterrupted to all four canvas edges.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra hives, giant bees, honeycomb close-up, microscope, modern apiary gear, planted rows, wall, fence, roof, cropped vegetation, edge-touching figure, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible sheet, page edge, rounded paper corner, clipped subject, floating plant or hive. Scale every discrete object down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete beekeeper examines thyme above a contained seed-bed between two clearly differentiated complete thyme mats and one whole woven hive on the open Narbonensian limestone plain. No clipped primary object, modern equipment, diagram, text, visible sheet, frame or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:11",
+      "title": "TWO VARIETIES OF THE AMARACUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c011.png",
+      "sha256": "0d4c334120066ccebe6d51bda484491a6398144404f03b42a778443f933a7aa3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8bb7d811-e98d-4ca3-b2fb-bdb3eb5792e7",
+      "outputArtifact": "built-in-imagegen://exec-8bb7d811-e98d-4ca3-b2fb-bdb3eb5792e7.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 11, “Two varieties of the amaracus”\nPrimary request: Illustrate amaracus—also called sampsuchum—being propagated by both seed and cutting, a fragrant plant that prefers shade, water and manure and roots lightly near the soil.\nScene/backdrop: A broad flat nursery clearing in an ancient Mediterranean garden just after sunrise, rendered as open soil under a quiet vellum sky. One modest woven shade screen, including its entire woven rectangle, all four corners, and exactly two complete supporting stakes, stands small and fully inside the distant middle ground with empty sky around it. No ridges, trenches, irrigation channels, walls, buildings, trees or edge-entering vegetation.\nSubject: Exactly one complete crouching gardener between two small, fully visible round planting beds. In the left bed grows one young amaracus with a few fine surface roots visible where the gardener has brushed soil aside; beside it is one shallow bowl of tiny seeds. In the right bed, the gardener presses one fresh amaracus cutting into prepared dark soil. One small water jug and one low compost basket sit together beyond the right bed. Every discrete object is fully contained.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, muted rose and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, high oblique triangular composition: shade screen at the apex, seed-grown plant and bowl at lower left, cutting bed and jug at lower right, gardener in the center. Keep the complete gardener, both complete circular beds, every limb, plant, root, bowl, seed, jug, basket, screen and both stakes fully visible. Preserve wide empty soil margins left, right and below, plus a generous band of sky above the screen. One continuous scene, no inset root diagram. Only featureless earth, atmosphere and vellum texture may meet canvas edges.\nLighting/mood: Cool shaded green-gold morning; patient cultivation, fragrance suggested through delicacy rather than symbols.\nConstraints: Exactly one person, one seed bowl, one cutting, two living amaracus plants, one jug, one compost basket and one fully visible shade screen; period-appropriate plain clothing and tools; all objects grounded; no written marks; warm vellum and painted atmosphere continue uninterrupted to all four canvas edges.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, flower shop, modern pots, greenhouse, giant blossom, perfume bottle, scent curls, magical glow, roots floating above ground, cropped screen, edge-entering stake, irrigation rill, trench, garden ridge, garden border, wall, building, tree, cropped vegetation, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, clipped figure or object. Scale all discrete objects down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The accepted scene contains one complete gardener, two fully enclosed planting beds, seed bowl, lightly exposed grounded roots, cutting, jug, compost basket and one fully contained woven shade screen. No edge-entering rill or ridge, clipping, pseudo-writing, modern pot, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-ef3c9003-b298-4044-9007-5a1bd273aee7.png",
+          "sha256": "721646154a4078909d5cb5120d8e602f0961806121906c01d931ceda28fdb503",
+          "reason": "Rejected at native QA because the irrigation rill exited through the bottom edge and the nursery ridges entered from both side edges. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:12",
+      "title": "PLANTS WHICH SHOULD BE SOWN AMONG FLOWERS FOR BEES. THE CERINTHA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c012.png",
+      "sha256": "51dfddd0c1ee8e8a64daa582ffffed03753e1a1d2c1b15c414df1755864e3f2a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-0baa21e6-b70e-477f-95e8-7e05ffa7c26b",
+      "outputArtifact": "built-in-imagegen://exec-0baa21e6-b70e-477f-95e8-7e05ffa7c26b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 12, “Plants which should be sown among flowers for bees; the cerintha”\nPrimary request: Illustrate Pliny’s beekeeping garden through the cerintha beloved by bees and the remarkable practice at Hostilia of carrying hives upstream by boat when nearby flowers fail.\nScene/backdrop: The broad, quiet river Padus at blue-gold dawn. A complete narrow wooden riverboat floats well inside the canvas, parallel to a small sandy flower islet. On the islet grows one compact, wholly visible patch of cerintha with pale inward-curving leaves and cup-like flowers; low thyme and melilot mingle around it. Open river water and distant flat banks create spacious negative space; no dock, bridge, buildings, or edge-entering trees.\nSubject: Exactly one complete boatman-beekeeper stands inside the boat using a long pole. Exactly three complete woven beehives are secured in a row amidships. A delicate drift of naturally tiny bees crosses the short gap between the hives and cerintha flowers. The entire boat, both pointed ends, pole, person, all three hives and the entire flower patch remain visible.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, muted rose and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, elevated diagonal composition: the boat runs from lower left toward center-right while the small flower islet answers it in the upper-right middle distance. Leave at least one full boat-width of open water around every side of the craft, a broad sky above, and open foreground water below. Keep the complete person, pole, boat, three hives and entire cerintha patch fully contained. One continuous morning, no botanical inset.\nLighting/mood: Pearly river dawn with a narrow amber reflection; ingenious husbandry, quiet abundance, bees finding a temporary shore.\nConstraints: Exactly one person, one boat, three hives and one flower patch; period-appropriate clothing, simple river craft and basket hives; all objects physically grounded or afloat; no written marks; painted water, sky and warm vellum continue uninterrupted to all four canvas edges.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra boats, extra hives, giant bees, honeycomb close-up, modern apiary gear, motor, sail, dock, bridge, cropped boat, edge-touching pole, clipped person, edge-entering tree or structure, fantasy flowers, photographic realism, glossy digital rendering, split panels, triptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner. Scale all discrete objects down instead of cropping.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete boatman, both boat ends, pole, exactly three whole woven hives and the entire cerintha flower islet remain visible within broad open river and sky. Bees are naturally tiny; no dock, bridge, modern equipment, text, panel, border, visible page or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:14",
+      "title": "HONEY THAT FLIES WILL NOT TOUCH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c014.png",
+      "sha256": "6fea1d95e8d62a504a19933ebc555fcda3d192ca7bc99b517ce0d8604b2ce570",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8843c7a9-290d-4c7f-a260-1886be620b86",
+      "outputArtifact": "built-in-imagegen://exec-8843c7a9-290d-4c7f-a260-1886be620b86.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 14, “Honey that flies will not touch”\nPrimary request: Illustrate Pliny’s Cretan test for prized medicinal honey: flies gather readily on ordinary fruit nearby yet refuse the mountain honey.\nScene/backdrop: A high open limestone terrace on Crete in late afternoon beneath a broad, empty vellum sky. Bare warm stone stretches uninterrupted into a simple low horizon. Exactly three small, wholly visible thyme cushions punctuate the otherwise open ground. No mountain, sea, walls, buildings, trees, roofs, ledges or edge-entering vegetation.\nSubject: Exactly one complete kneeling apothecary watches a simple comparison laid on a low, fully visible stone slab. On the slab sit exactly two shallow earthen dishes: the left holds luminous amber honey with an immaculate untouched surface; the right holds exactly three opened figs, around which a few naturally tiny dark flies gather. Not one fly touches, crosses over, or hovers above the honey. One small stoppered medicine jar stands behind the honey dish, entirely unmarked.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, amber, muted violet and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, spare low lateral composition with the complete apothecary in the left-middle and the two dishes and jar in the center-right. Keep the complete figure, head, hands, knees, feet, entire slab and all four slab supports, both dishes, three opened figs, jar and all three thyme cushions fully visible. Preserve a broad empty sky above, at least half a slab-width of bare stone on both sides, and ample ground below. One continuous observed test, no diagram or symbolic prohibition mark. Only featureless sky, atmosphere, limestone ground and vellum texture may meet canvas edges.\nLighting/mood: Dry Cretan gold, sober empirical curiosity, a quiet marvel tested by observation.\nConstraints: Exactly one person, two dishes, three opened figs, one medicine jar and three thyme cushions; period-appropriate plain clothing and pottery; all objects grounded; honey visibly clear and untouched; flies tiny and confined tightly above the fig dish; no written marks; painted stone, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, fly on honey, fly between the dishes, giant fly, insect close-up, extra people, extra dishes, extra jars, beehive, magical aura, glowing halo, laboratory glass, modern medicine, mountain, sea, cliff, wall, building, tree, edge-touching figure or slab, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, clipped subject. Scale every discrete object down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete apothecary observes two complete dishes on a fully framed slab: clear untouched honey at left and three opened figs with tiny flies confined above the right dish. The jar and exactly three thyme cushions are fully visible. No fly crosses the honey, and no clipped terrain object, text, modern vessel, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c5febd09-60d9-4a97-b646-1626c1c7c3f5.png",
+          "sha256": "b786df3e78e930d08ad9cbf56d79f072c09b2516aa2148f9642183d372531bc3",
+          "reason": "Rejected at native QA because the Mount Carina ridge continued through the right canvas edge. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-031ea7eb-557f-4dc6-beed-6bd464740c87.png",
+          "sha256": "f06ef961fb4ab4afa3321bbcba13f6b8958141f442f010727e0bbfa20f752b19",
+          "reason": "Rejected at native QA because a reduced mountain realization still allowed the right foothill ridge to exit through the canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:15",
+      "title": "PLANTS WHICH GROW SPONTANEOUSLY: THE USE MADE OF THEM BY VARIOUS NATIONS, THEIR NATURE, AND REMARKABLE FACTS CONNECTED WITH THEM. THE STRAWBERRY, THE TAMNUS, AND THE BUTCHER’S BROOM. THE BATIS, TWO VARIETIES OF IT. THE MEADOW PARSNIP. THE HOP",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c015.png",
+      "sha256": "9e0932fb036e053a34b69262b09ddaa794b921cf10d9921e40d6d59bd37f11a7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-741701fc-b67f-4a7c-89b1-a958414dc2d2",
+      "outputArtifact": "built-in-imagegen://exec-741701fc-b67f-4a7c-89b1-a958414dc2d2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 15, “Plants which grow spontaneously and the use made of them by various nations”\nPrimary request: Illustrate Pliny’s account of Egypt’s abundant spontaneous edible plants through the Nile colocasia: its stalk eaten after boiling and its great leaves skilfully plaited into drinking vessels.\nScene/backdrop: A quiet Nile sandbank at pale morning, with open water crossing the middle distance and a low, reedless far bank under a broad vellum sky. One compact cluster of exactly three complete colocasia plants grows from damp soil near the water; every large shield-shaped leaf, stalk and base is fully visible and separated from the canvas edges. No architecture, boat, palms, trees or edge-entering reeds.\nSubject: Exactly one complete seated Egyptian gatherer plaits narrow strips cut from one colocasia leaf into one small cup-shaped vessel. Beside the person, one plain earthen pot holds several boiled fibrous stalk lengths, their threadlike texture visible naturally at the cut ends. A simple bronze knife lies grounded beside the unused leaf strips. No other people.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, Nile blue and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, spacious L-shaped composition. Place the complete colocasia cluster in the left-middle, the seated gatherer and small woven cup in the lower-right middle, and the earthen pot between them. Preserve a broad arc of open water behind, empty sky above, and wide sand below and at both sides. Keep the complete person, all limbs, all three whole plants, every leaf tip, pot, stalk pieces, knife, strips and cup fully visible. One continuous act, no botanical inset or ethnographic montage.\nLighting/mood: Misted blue-gold Nile morning; resourcefulness, river abundance, close observation of useful form.\nConstraints: Exactly one person, three colocasia plants, one woven cup, one pot and one knife; period-appropriate plain linen clothing and tools; all objects grounded; leaf plaiting physically plausible; no written marks; painted sand, water, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra people, extra vessels, basket workshop, architecture, pyramid, temple, boat, palm, tree, cropped leaf, edge-entering reed, fantasy lotus, giant person, modern knife, photographic realism, glossy digital rendering, split panels, triptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, clipped subject or floating plant. Scale every discrete object down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete seated gatherer plaits a small cup beside one complete earthen pot, bronze knife, strips and exactly three rooted colocasia plants whose large leaves remain fully framed against open Nile water and sky. No clipped leaf, anachronistic monument, extra person, text, panel, border, visible page or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:16",
+      "title": "THE CARDUUS, THE ACORNA, THE PHONOS, THE LEUCACANTHOS, THE CHALCEOS, THE CNECOS, THE POLYACANTHOS, THE ONOPYXOS, THE HELXINE, THE SCOLYMOS, THE CHAMÆLEON, THE TETRALIX, AND ACANTHICE MASTICHE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c016.png",
+      "sha256": "21d6efe39c7d2e180d2fc89a4c6e76a42885c058a322bd76ca055a2f1760dfe6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-092a2cdc-b7b0-42dd-af19-b3913ecb1b31",
+      "outputArtifact": "built-in-imagegen://exec-092a2cdc-b7b0-42dd-af19-b3913ecb1b31.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 16, the many thorny plants and the Sicilian cactos\nPrimary request: Illustrate Pliny’s ancient Sicilian “cactos” accurately as an Old World thistle/cardoon-like edible plant—not the later American prickly pear—showing its creeping broad thorny leaves, one upright tender stem, downy seed head and edible pale pith.\nScene/backdrop: An open Sicilian field of dark volcanic soil at late summer dusk, receding to a simple low level horizon beneath a broad smoky-gold sky. No hill, mountain, sea, architecture, walls, trees, modern cactus, or edge-entering plants.\nSubject: Exactly one complete kneeling Sicilian forager works beside exactly one fully visible cactos plant. The plant forms a low rosette of broad spiny cardoon-like leaves, sends two short creeping stalks along the ground, and one upright stem bearing a single downy pappus head. The forager uses one small bronze knife to peel a cut section of that upright stem, revealing pale palm-heart-like pith; one shallow earthen bowl holds exactly two prepared pieces. Every thorn, leaf tip, stalk, stem, person, knife and bowl is fully contained.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, rusty madder and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel.\nComposition/framing: Landscape 3:2, low triangular composition. Place the complete rosette and creeping stalks in the left-middle, the upright pappus stem near center, and the kneeling forager with bowl in the right-middle. Preserve broad open volcanic soil around the entire plant and person, empty sky above, and ample foreground below. Keep one full rosette-width of open soil to the left of the farthest leaf and one full body-width to the right of the person. One continuous act, no specimen inset. Only continuous soil, sky, atmosphere and vellum texture may meet canvas edges.\nLighting/mood: Smoky Sicilian amber; wary usefulness discovered within formidable form.\nConstraints: Exactly one person, one cactos plant, one upright pappus head, one knife, one bowl and two prepared pith pieces; period-appropriate plain clothing and bronze tool; all objects grounded; botanical form thistle/cardoon-like; no written marks; painted soil, atmosphere and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, prickly pear, opuntia, flat paddle cactus, saguaro, New World cactus fruit, extra people, extra plants, giant flower, severed hand, blood, magical sap, modern tool, hill, mountain, wall, building, tree, cropped horizon object, edge-touching leaf, clipped thorn, photographic realism, glossy digital rendering, split panels, diptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, clipped subject. Scale every discrete object down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The accepted image correctly avoids an anachronistic New World paddle cactus and shows one fully contained Old World cardoon-like cactos with rosette, two creeping stalks, upright pappus stem, one complete forager, bronze knife, bowl and two pale pith pieces. No clipped hill, leaf or thorn, text, blood, modern object, panel, border, visible sheet or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2889b5fc-2322-4ba5-9941-20d62e66c65e.png",
+          "sha256": "354ae731a3d9122ca6fa381bf95e0c939390431526c6b874f4592c72626bee66",
+          "reason": "Rejected at native QA because the otherwise successful volcanic field allowed the distant hill’s left foothill to continue through the canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:17",
+      "title": "THE VARIOUS KINDS OF EARED PLANTS: THE STANYOPS; THE ALOPECUROS; THE STELEPHUROS, ORTYX, OR PLANTAGO; THE THRYALLIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+      "sha256": "edcdb993257c3437d8c7762b510bc13d065eb3cb879eeb13a3eb0983bcfc6fba",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8ea000d1-fde2-4af8-9e1d-1de0f48fa8d5",
+      "outputArtifact": "built-in-imagegen://exec-8ea000d1-fde2-4af8-9e1d-1de0f48fa8d5.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: one-to-one illustrated folio for Pliny the Elder, Naturalis Historia, Book XXI chapter 17, “The various kinds of eared plants”\nPrimary request: Illustrate Pliny’s field observations of eared plants through three distinct forms—the soft fox-tail alopecuros, the successively flowering stelephuros, and thryallis—together with the partridge that eagerly digs up perdicium roots.\nScene/backdrop: A quiet, open Mediterranean meadow clearing in early spring, mostly bare ochre soil beneath a pale blue-gold vellum sky. No trees, shrubs, architecture, fence, hill, grain field, or edge-entering vegetation.\nSubject: Exactly one complete red-legged partridge scratches at one small perdicium plant, revealing several thick grounded roots in loosened soil. Around—but not touching—the bird stand exactly three separate, fully visible low botanical clumps: at left, alopecuros with several soft dense fox-tail ears; at center-back, stelephuros with flowers opening in clearly staggered sections along slim ears; at right, a smaller airy thryallis clump. Each clump has its whole basal foliage, stems and tips visible.\nStyle/medium: Original Plinian natural-history folio; iron-gall linework, exceptionally fine cross-hatching and stipple, translucent mineral washes; restrained umber, lampblack, verdigris, faded lapis, russet, soft straw and ochre; ancient, timeless, beautiful, rough and polished at once; subtle imperfect vellum grain filling every pixel. The bird is anatomically natural, not heraldic.\nComposition/framing: Landscape 3:2, low eye-level arc. The three plant clumps form a shallow crescent across the middle third; the complete partridge and exposed perdicium roots occupy the open center foreground. Preserve a broad empty sky, generous bare ground between every clump, one full bird-length of empty ground at left and right, and ample foreground below the feet and roots. Keep every feather, foot, root, leaf, stem and ear fully visible. One continuous field encounter, no specimen diagram.\nLighting/mood: Clear spring dawn; alert natural observation, softness and appetite among small forms.\nConstraints: Exactly one bird, one perdicium plant with exposed roots and three eared-plant clumps; all objects grounded; no humans, nests, eggs or written marks; painted soil, sky and warm vellum continue uninterrupted to every canvas edge.\nAvoid: any text, letters, numerals, labels, pseudo-writing, inscriptions, signatures, logos, watermark, extra birds, fox animal, wheat sheaves, cultivated crop rows, giant grass, floating roots, botanical cutaway, tree, bush, wall, building, clipped grass tip, edge-touching bird, photographic realism, glossy digital rendering, split panels, triptych, collage, specimen grid, decorative border, ruled line, frame-within-frame, visible page edge, rounded paper corner, cropped subject. Scale every discrete object down instead of cropping it.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one anatomically natural red-legged partridge scratches beside one grounded exposed perdicium root while three complete and visibly different eared-plant clumps form a spacious arc behind it. Every bird extremity, root, basal leaf, stem and flower tip is contained. No extra bird, crop row, pseudo-writing, panel, border, visible page or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

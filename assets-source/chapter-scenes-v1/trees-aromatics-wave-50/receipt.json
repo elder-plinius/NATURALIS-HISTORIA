@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-50",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 470,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:97": {
+        "nearestMAD": 20.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c014.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c022.png",
+        "madAtDHashPeer": 106.35
+      },
+      "2:98": {
+        "nearestMAD": 27.7,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c009.png",
+        "madAtDHashPeer": 67.85
+      },
+      "2:99": {
+        "nearestMAD": 31.84,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c025.png",
+        "madAtDHashPeer": 74.27
+      },
+      "2:100": {
+        "nearestMAD": 28.35,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c005.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 83.48
+      },
+      "2:101": {
+        "nearestMAD": 26.2,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c004.png",
+        "madAtDHashPeer": 85.6
+      },
+      "2:102": {
+        "nearestMAD": 33.83,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c006.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c009.png",
+        "madAtDHashPeer": 53.93
+      },
+      "2:105": {
+        "nearestMAD": 28.19,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+        "madAtDHashPeer": 34.71
+      },
+      "2:106": {
+        "nearestMAD": 31.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c070.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+        "madAtDHashPeer": 52.75
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:97",
+      "title": "CONCERNING THE CAUSE OF THE FLOWING AND EBBING OF THE SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c097.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "95dbee506b15542192098864914abae10eeb7dc63e65c23edb894ea089ea2815",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-376826ec-1923-480c-a870-c41cc0297f81",
+      "generationArtifactId": "exec-376826ec-1923-480c-a870-c41cc0297f81",
+      "outputArtifact": "built-in-imagegen://exec-376826ec-1923-480c-a870-c41cc0297f81.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 97, “CONCERNING THE CAUSE OF THE FLOWING AND EBBING OF THE SEA”\nPrimary request: Visualize Pliny’s transmitted account of the sea alternately flowing and ebbing in relation to the sun and moon, with different timing and strength in open ocean, enclosed seas and estuaries. Treat the celestial cause and timing as ancient natural philosophy, not a modern scientific diagram or asserted fact.\nScene/backdrop: One continuous Mediterranean estuary at blue dusk during a clearly observed ebb. A full moon rises fully contained above the open water while the opposite horizon retains a low ochre afterglow from the set sun. Water streams seaward through one narrow channel, exposing broad wet sandbars, shell-strewn mud and dark high-water stains on one small freestanding stone landing. The scene shows only one moment, never simultaneous high and low tides.\nSubject/action: One complete Roman harbour keeper stands on the top of the small landing well inside the frame, comparing the retreating water with an unmarked vertical wooden staff planted beside its stained courses. One small complete tied skiff rests low in the channel, its rope slackening as water recedes. No clock, inscription, measuring marks or written record.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. High oblique view down the sinuous estuary, with exposed flats forming broad negative space; moon in the upper-left interior, harbour keeper and the complete compact rectangular landing in the lower-right interior, complete skiff near center. The entire landing must be visibly surrounded on all four sides by exposed mud or shallow water, never attached to or cut by the canvas edge. Keep the moon, figure, staff, skiff, rope and every stone edge of the landing comfortably separated from all boundaries. Distant low shore may continue naturally through the frame, but no foreground tree, building, vessel or person may enter from an edge.\nColor palette: faded lapis dusk and tidal channel, muted verdigris wet flats, lampblack and umber hatching, pale ochre afterglow and moonlight, restrained madder garment accent.\nConstraints: historically plausible Roman stone landing, skiff, clothing and wooden staff; exactly one observer, one small complete landing and one skiff; opaque RGB/sRGB intent; calm observed rhythm.\nAvoid: text, captions, labels, numerals, pseudo-writing, staff markings, graffiti, glyphs, signatures, logos, watermarks, maps, clocks, charts, arrows, orbital diagrams, compass rose, tide graph, split high-low panels, diptych, collage, visible page edge, decorative border, modern harbour equipment, photography, photorealism, glossy CGI, storm, giant waves, lunar deity, face in moon, multiple moons, stone quay extending to an edge, cropped landing, cropped moon, cropped person, boat cut by edge, malformed hands, duplicated figures.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The full moon, one harbour keeper, unmarked staff, complete freestanding stone landing, complete tied skiff and slack rope are all fully contained; the ebbing estuary reads as one coherent observed moment. No text, pseudo-writing, panel, border, modern object or clipped primary subject was found. Accepted after preserving one quay-framing reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-3227d445-1ee0-412f-b1dd-04369f64d375.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c097-rejected-01.png",
+          "sha256": "8379ae3d8278d7af1da54790fc9eab9f9d25d92b7ba53e4c5590bd854a87a590",
+          "reason": "Rejected at original-resolution review because the focal stone quay steps continued through the right and bottom canvas edges instead of forming a complete contained structure. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:98",
+      "title": "WONDERS OF THE SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c098.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "004edcc954b10ca1200d4620f374b722ab19d8a25da9d664415068b2cd33b98d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7e0053a5-73e7-48a8-8e53-86734ec1c4a1",
+      "generationArtifactId": "exec-7e0053a5-73e7-48a8-8e53-86734ec1c4a1",
+      "outputArtifact": "built-in-imagegen://exec-7e0053a5-73e7-48a8-8e53-86734ec1c4a1.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 98, “WONDERS OF THE SEA”\nPrimary request: Ground the scene in Pliny’s transmitted report that some seas cast refuse ashore at full moon, especially near Messina and Mylæ, where dung-like deposits prompted the tale that the Sun’s oxen were stabled nearby. Omit the later claim about the timing of human death. Present the account as ancient coastal observation and legend, not validated natural law.\nScene/backdrop: One low ground-level view along a moonlit Sicilian strand after the ebb. A fully contained full moon hangs in the upper-right interior and lights a sinuous natural strandline of wet seaweed, foam, shells and irregular dark organic clumps newly cast onto pale sand. The calm Strait and distant hills remain low and open. In the middle distance stand exactly two small complete ochre oxen, side by side and visibly separated, beside one simple complete open-sided shore shelter. No third animal, hidden animal, partial body or extra head appears.\nSubject/action: One complete Roman-era shore worker kneels well inside the left-middle foreground, examining the cast-up strandline with a plain wooden rake and a complete woven basket. The worker does not touch a corpse, perform a ritual or display disgust; this is patient shoreline observation.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. The vellum texture is purely natural and contains no maker’s mark.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Very low shoreline viewpoint materially different from the prior elevated estuary. The curved strandline leads from the complete worker and basket toward the exactly two complete oxen and shelter, then to moonlit water. Keep moon, worker, rake, basket, both oxen, shelter and all focal clumps fully inside with generous edge breathing room; no shoreline plant, rock or architecture enters from an edge. Keep the entire outer five-percent band, especially both lower corners and bottom margin, free of isolated dark strokes, scribbles, glyph-like marks, initials or signature-like flourishes.\nColor palette: silvered faded lapis water and sky, muted verdigris seaweed, umber and lampblack strandline, pale ochre sand and cattle, restrained madder garment.\nConstraints: historically plausible Roman-era clothing, rake, basket, simple shelter and cattle; exactly one worker and exactly two oxen; opaque RGB/sRGB intent; quiet wonder without gore.\nAvoid: text, captions, labels, numerals, pseudo-writing, calligraphy, scribbles, isolated lower-corner marks, initials, artist signature, glyphs, logos, watermarks, maps, charts, arrows, diagrams, split panels, collage, visible page edge, decorative border, modern litter, plastic, modern tools, photography, photorealism, glossy CGI, corpse, dying person or animal, gore, manure heap, giant sun oxen, divine cattle, halo, ritual altar, extra cattle, third ox, partial ox, multiple moons, storm, cropped moon, worker cut by edge, clipped oxen or shelter, malformed hands, duplicated figures.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The moonlit strandline, one worker, rake, basket, exactly two oxen and one complete shelter are fully contained and legible. No third animal, pseudo-writing, signature-like mark, text, panel, border, modern litter or clipping was found. Accepted after preserving one wrong-count reject and one pseudo-writing reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fb41cd67-1587-4d80-a72d-44a2363b1a37.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c098-rejected-01.png",
+          "sha256": "c302b51c29d733be4f7e9d19be2f83df7d2405486411969a34908181cca0714a",
+          "reason": "Rejected at original-resolution review because the scene rendered three oxen rather than the required exact count of two. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-9602ad00-ef5b-4a99-82b5-cd5ca15bacc9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c098-rejected-02.png",
+          "sha256": "033f4ae6579a757382408c0f0f259ea0c5544ede3c0a90504a88c7f0e870526b",
+          "reason": "Rejected at original-resolution review because a signature-like pseudo-writing mark appeared in the lower-left margin. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:99",
+      "title": "THE POWER OF THE MOON OVER THE LAND AND THE SEA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c099.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "e01848022bb92184dcc0a9d0987f70dd003f0d14c2da04e547ae5d5b70715195",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-44f3fe36-1bdf-401f-b27d-41e13975cf03",
+      "generationArtifactId": "exec-44f3fe36-1bdf-401f-b27d-41e13975cf03",
+      "outputArtifact": "built-in-imagegen://exec-44f3fe36-1bdf-401f-b27d-41e13975cf03.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 99, “THE POWER OF THE MOON OVER THE LAND AND THE SEA”\nPrimary request: Visualize Pliny’s transmitted belief that the approaching moon fills living bodies, that shellfish and bloodless sea creatures respond to its increase, and that leaves and fodder feel the same moistening influence. Present this as ancient natural philosophy and close observation, not modern biological fact.\nScene/backdrop: One intimate moonlit Mediterranean tidepool viewed from a high near-overhead angle, with no horizon and no human figure. The pool is a single natural hollow among complete rounded rocks, reflecting one fully contained waxing moon. Within the clear water, one coherent living community appears in place: a cluster of complete oysters, several complete mussels and limpets, exactly two small sea anemones and exactly one small complete crab. On a broad dry rock shelf inside the upper-left third, one small complete low coastal vine curls toward the moisture with broad leaves carrying dew.\nSubject/action: The tidepool itself is the subject. Shells vary naturally in size and orientation and remain attached to rock rather than arranged as specimens. The crab stands on the pool floor; the two anemones remain rooted. Moon reflection, subtle water swelling against the rock and dew link sea and land without arrows or supernatural rays.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Tight yet breathable near-overhead composition with the complete oval pool centered off-axis, a broad quiet rock plane, and the entire compact vine placed well inside on one rock shelf. Reserve a wide uninterrupted band of bare rock between every vine leaf, stem and tendril and the top and left canvas edges. Keep every featured shell cluster, crab, anemone, moon reflection, pool rim and vine tip fully inside the canvas. Natural rock substrate may continue through the image field, but no plant or animal is cut by an edge.\nColor palette: deep faded-lapis water, muted verdigris algae and vine, pearly ochre shells, umber/lampblack hatching, tiny madder and violet anemone accents.\nConstraints: ecologically coherent Mediterranean rock pool; exactly one crab, exactly two anemones and one complete contained vine; opaque RGB/sRGB intent; quiet nocturnal abundance.\nAvoid: text, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, maps, charts, arrows, moonbeams as magic, scientific diagram, specimen grid, shell collection display, split land-sea panels, collage, visible page edge, decorative border, modern objects, photography, photorealism, glossy CGI, giant shell, pearl jewelry, human hand, extra crab, floating shellfish, detached anemone, multiple moon reflections, vine entering from edge, leaf or tendril touching edge, cropped plant, cropped crab or shells, malformed animals, repeated identical shells.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The overhead tidepool, single moon reflection, exact one crab, exact two anemones, attached shell community and complete dew-bearing coastal vine remain fully inside the image. No specimen grid, text, pseudo-writing, panel, border, floating organism or cropped primary subject was found. Accepted after preserving one clipped-vine reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-79444033-b37d-4a0e-b698-1ea77e6bdc58.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c099-rejected-01.png",
+          "sha256": "55c113f87f90038f5bbfd2854edbbaa9226f83782295eb19a154886278f7991d",
+          "reason": "Rejected at original-resolution review because the focal coastal vine and leaves were clipped by the top and left canvas edges. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:100",
+      "title": "THE POWER OF THE SUN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c100.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "cedc92d918c39f333e5c6b41c80325fdf3578d6717073a30a78e5202989f52af",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f6d098fe-279a-4e5b-805e-bbcc157099a7",
+      "generationArtifactId": "exec-f6d098fe-279a-4e5b-805e-bbcc157099a7",
+      "outputArtifact": "built-in-imagegen://exec-f6d098fe-279a-4e5b-805e-bbcc157099a7.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 100, “THE POWER OF THE SUN”\nPrimary request: Ground the scene in Pliny’s transmitted explanation that solar heat dries fluids and leaves the sea’s thicker, more acrid and salty matter behind, with deeper water thought less salt than the surface. Treat this as ancient natural philosophy and craft observation, not a modern account of ocean chemistry.\nScene/backdrop: One Roman coastal saltworks at high noon, seen from a high diagonal viewpoint. A fully contained pale sun hangs above a broad ochre coast. In the center lies one compact, complete saltworks cluster: exactly four small shallow connected clay-lined pans at different natural stages—blue-green brine, a pearly crystallizing skin and a dry pan with gathered salt—beside one separate complete deep intake basin of dark faded-lapis water. The entire cluster is surrounded on all sides by a wide ring of dry open ground. Thin natural heat haze rises, without rays or arrows.\nSubject/action: Exactly two complete Roman salt workers operate safely well inside the cluster. One draws a wooden rake through crystals in the dry pan; the other kneels beside the deep intake basin and fills one plain ceramic jar. One complete low shade canopy and exactly two complete salt baskets stand nearby. No furnace, ritual or written measure.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. High diagonal geometry sweeps across the self-contained cluster toward a low sea horizon; this remains one continuous place, not a grid or infographic. All four outer corners of every working pan and the entire deep basin must be visibly surrounded by dry earth and separated from the canvas edges. Keep the complete sun, both workers, canopy, rake, jar and two baskets fully visible with generous breathing room. Only distant sea and low land may continue through the frame.\nColor palette: blazing pale ochre and warm umber earth, pearly white salt, muted verdigris brine, deep faded-lapis basin and sea, lampblack hatching, restrained madder garments.\nConstraints: historically plausible Roman salt-making tools, clothing and clay-lined pans; exactly two workers, exactly four shallow pans, one deep basin, one canopy and two baskets; opaque RGB/sRGB intent; arduous but orderly midday labour.\nAvoid: text, captions, labels, numerals, pseudo-writing, scratched tally marks, signatures, logos, watermarks, maps, charts, arrows, chemical diagram, geometric split panels, collage, specimen grid, visible page edge, decorative border, modern pumps, metal machinery, plastic, modern salt factory, photography, photorealism, glossy CGI, personified sun, sun face, supernatural beams, giant flame, pan or basin continuing through an edge, cropped sun, worker cut by edge, canopy or basket clipped, malformed hands, duplicated figures.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The compact Roman saltworks contains exactly four complete shallow pans, one complete deep basin, two complete workers, one canopy and two baskets, all within open coastal breathing room. No diagram, inscription, panel, border, modern object, wrong count or clipped pan geometry was found. Accepted after preserving one bottom-edge pan reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-01e37e45-a78a-422f-8c55-b54f97a2bb4f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c100-rejected-01.png",
+          "sha256": "d644f29004fd4527c1b35a12c941aa3096458658d0524e747accef54f6f9dab5",
+          "reason": "Rejected at original-resolution review because the focal salt-pan geometry continued through the bottom canvas edge. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:101",
+      "title": "WHY THE SEA IS SALT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c101.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "23b9c980b6bd09b92f9b941334587d00ce620d3df9b123ec512260915c9170dd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-88c239d9-8e3e-422c-b2ae-681a604023c0",
+      "generationArtifactId": "exec-88c239d9-8e3e-422c-b2ae-681a604023c0",
+      "outputArtifact": "built-in-imagegen://exec-88c239d9-8e3e-422c-b2ae-681a604023c0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 101, “WHY THE SEA IS SALT”\nPrimary request: Ground the scene in Pliny’s transmitted counterpoint to solar drying: the moon was said to soften, moisten, melt ice and draw out humours without carrying them away, with fresh water imagined as the moon’s nourishment and salt water as the sun’s. Present this as ancient natural philosophy, not modern chemistry or physiology.\nScene/backdrop: One continuous quiet night landscape on a broad open treeless rocky bank. A small complete frost-rimmed spring hollow sits entirely within the upper-right interior, surrounded by bare stone; clear fresh water descends from it in a narrow runnel and reaches a dark Mediterranean inlet. A fully contained waning moon hangs in an open upper-left sky. Thin ice at the spring’s edge softens into droplets; mist rests low over the fresh runnel, and dew beads on nearby leaves. No grove and no large tree appears.\nSubject/action: No human or animal appears. Exactly one complete compact riverside shrub, with every root, stem and leaf visible, stands on the open bank inside the lower-right third and leans naturally toward the spring. Exactly one complete low reed tuft stands where fresh water meets the inlet. The observed actions are thawing frost, relaxing leaves, collected moisture and gentle flow.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Low lateral view along the luminous S-curve of the fresh stream from the fully contained compact frost hollow in the right interior toward the dark inlet at left-middle distance; moon and broad night sky provide negative space. Reserve a wide band of bare rock around the whole spring hollow and the complete shrub, and water around the whole reed tuft. Keep hollow, shrub, reed tuft, ice, moon and stream mouth fully inside with generous edge separation. Only distant low terrain and water may continue through the image field.\nColor palette: pearl-grey frost and moon, pale faded-lapis fresh water, deep lapis salt inlet, muted verdigris shrub and reeds, umber/lampblack hatching, restrained ochre earth.\nConstraints: geographically coherent Mediterranean freshwater mouth in a cold night; exactly one complete shrub, one complete reed tuft and no trees; opaque RGB/sRGB intent; tranquil balancing image.\nAvoid: text, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, maps, charts, arrows, chemical diagram, labeled fresh-salt divide, split panels, collage, visible page edge, decorative border, modern objects, pipes, fountain architecture, photography, photorealism, glossy CGI, magical moonbeam, moon face, corpse, sleeping person, animal carcass, grove, forest, large tree, giant ice, storm, spring hollow cut by edge, cropped moon, cropped shrub or reeds, edge-entering branch, repeated plants.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The treeless night bank, complete frost-rimmed spring hollow, S-shaped stream, one complete shrub, one reed tuft and waning moon are all contained and visually coherent. No carcass, medical claim, pseudo-writing, panel, border, added grove or clipped focal subject was found. Accepted after preserving one overgrown and edge-clipped reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-4a342d2a-6245-44d8-8a5e-508ad7743031.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c101-rejected-01.png",
+          "sha256": "2029a047f11bca55f76b6c1248b8398317f2cb6b09b6c8fda7a166016b90d741",
+          "reason": "Rejected at original-resolution review because it added an unintended grove and clipped the spring and tree forms against the top and right canvas edges. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:102",
+      "title": "WHERE THE SEA IS THE DEEPEST",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c102.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "fb9e81d35c5f2d791c09aea7d965656271256edae261fe9301aeccaa07e0edce",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-096f7a48-5b28-40b8-a641-dd25ae391a97",
+      "generationArtifactId": "exec-096f7a48-5b28-40b8-a641-dd25ae391a97",
+      "outputArtifact": "built-in-imagegen://exec-096f7a48-5b28-40b8-a641-dd25ae391a97.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 102, “WHERE THE SEA IS THE DEEPEST”\nPrimary request: Ground the scene in the transmitted reports attributed to Fabianus and others that parts of the Euxine opposite the Coraxi were immensely deep and that sounding lines found no bottom. Present the depth as an ancient mariner’s unsuccessful sounding, not a precise modern measurement or bathymetric fact.\nScene/backdrop: One immense calm Euxine sea under a pale overcast sky, seen from a steep high oblique viewpoint that looks down onto a single small complete Roman-era sounding boat surrounded by a vast uninterrupted field of deep faded-lapis water. A low complete Coraxi mountain coast sits far away along the upper horizon. No underwater cutaway or visible sea floor appears.\nSubject/action: Exactly two complete sailors work aboard the boat with the sail fully furled. One pays a very long plain sounding line vertically over the side into the opaque dark water; the other manages a large complete loose coil on deck. The line vanishes naturally beneath the surface with no lead or bottom visible. Hull, mast, yard, rudder, both sailors and every deck coil remain intact and contained.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Radical scale contrast: the complete boat occupies less than one-sixth of the canvas near the lower-center interior, encircled by broad dark negative space; distant coast remains a thin high band. Keep the entire vessel, mast, furled yard, rudder, figures, coil and visible line entry well separated from all edges. Water alone may continue through frame boundaries.\nColor palette: layered deep faded lapis, lampblack and muted verdigris water, pale ochre boat, umber linework, a thin grey-violet coast and restrained madder garment.\nConstraints: historically plausible Roman sounding boat, rope and clothing; exactly one boat and two sailors; opaque RGB/sRGB intent; austere, vertiginous calm.\nAvoid: text, captions, labels, numerals, pseudo-writing, rope markings, signatures, logos, watermarks, maps, charts, arrows, depth scale, bathymetric diagram, underwater cutaway, split above-below panel, collage, visible page edge, decorative border, modern sonar, modern ship, diving bell, photography, photorealism, glossy CGI, storm, giant wave, sea monster, visible bottom, broken line, shipwreck, vessel cut by edge, clipped mast or rudder, cropped sailor, malformed hands, duplicated boat.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The tiny complete Euxine sounding boat, hull, mast, furled yard, rudder, exactly two sailors, deck coil and line entry remain intact within vast dark water; the distant Coraxi coast stays a thin high band. No bottom, depth scale, cutaway, text, panel, modern equipment or clipping was found. Accepted on the first call; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:105",
+      "title": "OF NAPHTHA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c105.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "0f9ae1ab01f560a3eaa58f2d1ba5aa318efa01bf2e9d0061986294b741454eea",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1a71958e-e22a-4a22-9aa7-cdbddef7ccd6",
+      "generationArtifactId": "exec-1a71958e-e22a-4a22-9aa7-cdbddef7ccd6",
+      "outputArtifact": "built-in-imagegen://exec-1a71958e-e22a-4a22-9aa7-cdbddef7ccd6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 105, “OF NAPHTHA”\nPrimary request: Ground the scene in Pliny’s transmitted description of naphtha near Babylon and in Parthia as a liquid-bitumen seep with a strong affinity for nearby fire. Omit the violent Medea story entirely. Present a cautious ancient field observation of the material, not modern chemical advice or a claim of supernatural fire.\nScene/backdrop: One dry Babylonian-Parthian plain at late afternoon. A small complete natural seep well inside the frame releases glossy black-brown naphtha into one short shallow earthen channel, both fully surrounded by bare ochre ground. A tiny flame from one complete plain clay oil lamp, set on a separate stone at a safe distance, has just travelled as one thin low orange tongue across a narrow surface trace to the edge of the black liquid. The flame remains small and contained; no explosion or large pool fire.\nSubject/action: Exactly two complete ancient field workers stand behind one small complete crescent-shaped mound of loose earth in the interior left, well away from the seep. The entire protective mound is visibly surrounded by flat bare ground and does not connect to any canvas edge. One worker points with an empty hand while the other holds a complete basket of loose dry earth ready to smother the tiny flame. Neither touches fire or liquid. A single complete plain ceramic collecting jar rests upright beside them, still empty.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Low diagonal composition: workers and the compact fully visible mound in the interior left, complete seep and short black channel in the center-right, small lamp and travelling flame between them, broad barren plain and distant Babylonian palms providing negative space. Reserve open ground around all ends of the mound, channel and seep. Keep every person, basket, jar, lamp, flame, seep boundary and channel end fully inside with generous separation from all edges. No palm, architecture or foreground object enters from an edge.\nColor palette: black-brown lampblack naphtha, hot restrained madder-orange flame, pale ochre earth, umber hatching, faded-lapis distant haze, muted verdigris palm accents.\nConstraints: historically plausible ancient Near Eastern clothing, clay lamp, basket, jar and earthwork; exactly two people, one complete mound, one seep, one short channel, one lamp and one small flame; opaque RGB/sRGB intent; cautious observation.\nAvoid: text, captions, labels, numerals, pseudo-writing, vessel markings, signatures, logos, watermarks, maps, charts, arrows, chemical diagram, experiment instructions, split panels, collage, visible page edge, decorative border, modern protective gear, modern laboratory equipment, photography, photorealism, glossy CGI, Medea, woman at altar, crown, human on fire, ritual sacrifice, giant fire, explosion, burning people, injury, smoke plume, mound or channel entering from edge, flame or seep cut by edge, cropped worker, basket or jar clipped, malformed hands, duplicated figures.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The naphtha seep, short channel, one lamp, one small travelling flame, exactly two workers, basket, jar and compact complete crescent earth mound are fully contained. The scene reads as cautious ancient observation without violence or modern procedural certainty. No text, pseudo-writing, panel, border, injury or clipping was found. Accepted after preserving one clipped-berm reject; canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8d6a25b6-ebeb-4b89-9d20-a3e4a2cd530e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c105-rejected-01.png",
+          "sha256": "844ff2626183dc352552672443b1afdbfc179d88637105c9fde72665e197e7cb",
+          "reason": "Rejected at original-resolution review because the protective earthen berm continued through the left and bottom canvas edges rather than remaining a complete contained object. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:106",
+      "title": "PLACES WHICH ARE ALWAYS BURNING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c106.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "92c85cfa91d2cc7663321094ef17af234196a5ac7e47c8d61f2bddb878eb401a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6780897e-77c1-4e17-80f7-6d31240e27f0",
+      "generationArtifactId": "exec-6780897e-77c1-4e17-80f7-6d31240e27f0",
+      "outputArtifact": "built-in-imagegen://exec-6780897e-77c1-4e17-80f7-6d31240e27f0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 106, “PLACES WHICH ARE ALWAYS BURNING”\nPrimary request: Ground the scene in Pliny’s transmitted catalogue of naturally burning places by focusing on his opening example: Ætna said to burn continually at night while winter snow and frost cover its ejected ash. Present one restrained ancient landscape observation, not a montage and not modern volcanological certainty.\nScene/backdrop: A high-key moonlit winter ash plain occupies almost the entire lower two-thirds of the image, luminous bone-white with pale blue-grey frost, wind-combed ridges and sparse dark ash seams. In the right third of the distant horizon stands one compact, complete, snow-covered Ætna with its entire low foot visible and surrounded by open plain. The night sky is only a shallow upper band of smoky grey-violet and faded lapis, softly lightened by an unseen moon; include only a few faint stars. At the summit, one tiny madder-orange vent glow and one very short thin ash-vapour wisp are fully contained.\nSubject/action: No human, animal, building, tree, moon disc or other landmark appears. The complete mountain, vast frosted ash, snow and modest nocturnal fire are the sole subjects. The summit is active but quiet: no flowing lava reaches the plain, no settlement is endangered and no eruption dominates the sky.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. An intentionally asymmetrical, low-horizon nocturne that is tonally opposite a dark star-field composition. Frost plain fills about 68 percent of the height; shallow sky fills about 32 percent. Place the whole mountain near the right third, occupying no more than 30 percent of canvas width and 20 percent of image height. Keep the complete left foot, complete right foot, summit, tiny glow and short wisp well separated from all canvas edges. A very broad empty frost field extends from the mountain to the left and throughout the foreground. Only unbroken sky and empty frosted ground may continue through frame boundaries.\nColor palette: dominant bone-white, pale parchment and cool blue-grey frost; restrained umber and lampblack ash seams; shallow smoky grey-violet/faded-lapis sky; one pinprick of madder-orange fire; almost no saturated darkness.\nConstraints: geographically plausible isolated Sicilian volcanic mountain; exactly one mountain, one tiny vent glow and one short wisp; opaque RGB/sRGB intent; enduring wonder without catastrophe.\nAvoid: text, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, constellations drawn as lines, maps, charts, arrows, geological diagram, cutaway, multiple panels, collage, visible page edge, decorative border, modern buildings, observatory, photography, photorealism, glossy CGI, Vesuvius, city, people, animals, trees, moon disc, meteor, giant star field, dark-sky-dominant composition, central symmetrical mountain, giant eruption, explosive plume, pyroclastic flow, disaster, river of lava, multiple flames, mountain or foothills touching any edge, summit or wisp clipped, repeated peaks.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key moonlit frost plain, compact off-center complete Ætna, tiny vent glow and short contained wisp are all fully framed; no person, structure, tree, text, pseudo-writing, panel, border or catastrophe appears. Accepted after preserving one side-clipped mountain and one globally colliding dark nocturne; the replacement passes the full current corpus gate and canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-62f88529-0232-4edf-9ce3-2a66793e1444.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c106-rejected-01.png",
+          "sha256": "8dbb96e8d2aff854ae5813ca55f8ffdb94bb4e87d0e5f377c6422abb3fd73471",
+          "reason": "Rejected at original-resolution review because Ætna’s lower slopes continued through both side edges instead of forming a fully contained isolated mountain. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-7818d9eb-201c-4bc7-9131-932eceff1678.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/evidence/history/b02-c106-rejected-02.png",
+          "sha256": "8734a16da379cba7e341970b0e65c88334ad3672b671d036d33f2b10f0843bf6",
+          "reason": "Rejected after native visual acceptance because its dark nocturne collided with trees-aromatics-wave-41/b02-c008.png at MAD 11.31, below the required 20. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "latinConfirmed": [
+    {
+      "id": "lat-001",
+      "book": 1,
+      "unit": "praef",
+      "route": "/read/1/praef",
+      "before": "maxim i",
+      "after": "maximi",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:80-81",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:80"
+    },
+    {
+      "id": "lat-002",
+      "book": 1,
+      "unit": "praef",
+      "route": "/read/1/praef",
+      "before": "fortunae amplitude",
+      "after": "fortunae amplitudo",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:97",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:82"
+    },
+    {
+      "id": "lat-003",
+      "book": 1,
+      "unit": "praef",
+      "route": "/read/1/praef",
+      "before": "posseset velles",
+      "after": "posses et velles",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:98",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:82"
+    },
+    {
+      "id": "lat-004",
+      "book": 2,
+      "unit": "1",
+      "route": "/read/2/1",
+      "before": "naturae omniumn artifici",
+      "after": "naturae omnium artifici",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:4919",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:4576"
+    },
+    {
+      "id": "lat-005",
+      "book": 28,
+      "unit": "1",
+      "route": "/read/28/1",
+      "before": "vitamin quidem",
+      "after": "vitam quidem",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:62683",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:24474"
+    },
+    {
+      "id": "lat-006",
+      "book": 32,
+      "unit": "1",
+      "route": "/read/32/1",
+      "before": "per rerum ordinen",
+      "after": "per rerum ordinem",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:70957",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:26572"
+    },
+    {
+      "id": "lat-007",
+      "book": 33,
+      "unit": "1",
+      "route": "/read/33/1",
+      "before": "commercial victus gratia",
+      "after": "commercia victus gratia",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:72909",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:27170"
+    },
+    {
+      "id": "lat-008",
+      "book": 37,
+      "unit": "2",
+      "route": "/read/37/2",
+      "before": "primum inurbem myrrhina",
+      "after": "primum in urbem myrrhina",
+      "expectedCount": 1,
+      "sourceLoc": "phi0978.phi001.perseus-lat2.xml:82079",
+      "authorityLoc": "phi0978.phi001.perseus-lat1.xml:30116"
+    }
+  ],
+  "gutenbergVolume1AppendixForRead": [
+    {
+      "id": "eng-001",
+      "appendixPage": 13,
+      "appendixLine": 2,
+      "book": 2,
+      "unit": null,
+      "route": null,
+      "scope": "excluded-editorial-numbering-note",
+      "before": "Roman figures",
+      "after": "other figures",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-002",
+      "appendixPage": 20,
+      "appendixLine": 7,
+      "book": 2,
+      "unit": "6",
+      "route": "/read/2/6",
+      "scope": "reader",
+      "before": "the God of nature; he also lends his light to the other stars. He is most illustrious and excellent",
+      "after": "the God of nature. He supplies light to the universe, and dispels all darkness; He both conceals and reveals the other stars. It is He that regulates the seasons, and, in the course of nature, governs the year as it ever springs anew into birth; it is He that dispels the gloom of the heavens, and sheds his light upon the clouds of the human mind. He, too, lends his brightness to the other stars. He is most brilliant and most excellent",
+      "expectedCount": 1,
+      "note": "The Appendix cue prints tends where the body already has lends, and most illustrious and most excellent where the body has most illustrious and excellent. This target follows the emitted body exactly; terminal punctuation is excluded so the following comma is preserved."
+    },
+    {
+      "id": "eng-003",
+      "appendixPage": 21,
+      "appendixLine": 13,
+      "book": 2,
+      "unit": "7",
+      "route": "/read/2/7",
+      "scope": "reader",
+      "before": "elected",
+      "after": "erected",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-004",
+      "appendixPage": 21,
+      "appendixLine": 13,
+      "book": 2,
+      "unit": "7",
+      "route": "/read/2/7",
+      "scope": "reader",
+      "before": "Good Fortune",
+      "after": "Evil Fortune",
+      "expectedCount": 1,
+      "note": "Case preserved from the displayed deity name."
+    },
+    {
+      "id": "eng-005",
+      "appendixPage": 23,
+      "appendixLine": 18,
+      "book": 2,
+      "unit": "7",
+      "route": "/read/2/7",
+      "scope": "reader",
+      "before": "our scepticism concerning God is still increased",
+      "after": "our conjectures concerning God become more vague still",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-006",
+      "appendixPage": 23,
+      "appendixLine": 31,
+      "book": 2,
+      "unit": "7",
+      "route": "/read/2/7",
+      "scope": "reader",
+      "before": "and the existence of God becomes doubtful",
+      "after": "whereby the very existence of a God is shewn to be uncertain",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-007",
+      "appendixPage": 33,
+      "appendixLine": 4,
+      "book": 2,
+      "unit": "9",
+      "route": "/read/2/9",
+      "scope": "reader",
+      "before": "as she receives",
+      "after": "as receives",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-008",
+      "appendixPage": 54,
+      "appendixLine": 15,
+      "book": 2,
+      "unit": "23",
+      "route": "/read/2/23",
+      "scope": "reader",
+      "before": "the seventh of the circumference",
+      "after": "the seventh of the third of the circumference",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-009",
+      "appendixPage": 59,
+      "appendixLine": 36,
+      "book": 2,
+      "unit": "26",
+      "route": "/read/2/26",
+      "scope": "excluded-translation-footnote",
+      "before": "transeuntia",
+      "after": "transcurrentia",
+      "expectedCount": 1,
+      "sourceAnchor": "Footnote_296"
+    },
+    {
+      "id": "eng-010",
+      "appendixPage": 67,
+      "appendixLine": 26,
+      "book": 2,
+      "unit": "41",
+      "route": "/read/2/41",
+      "scope": "reader",
+      "before": "various circumstances, which act",
+      "after": "various influences, which act",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-011",
+      "appendixPage": 78,
+      "appendixLine": 9,
+      "book": 2,
+      "unit": "47",
+      "route": "/read/2/47",
+      "scope": "reader",
+      "before": "higher winds",
+      "after": "higher waves",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-012",
+      "appendixPage": 78,
+      "appendixLine": 17,
+      "book": 2,
+      "unit": "47",
+      "route": "/read/2/47",
+      "scope": "reader",
+      "before": "the male winds are therefore regulated by the odd numbers",
+      "after": "hence it is that the odd numbers are generally looked upon as males",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-013",
+      "appendixPage": 79,
+      "appendixLine": 15,
+      "book": 2,
+      "unit": "48",
+      "route": "/read/2/48",
+      "scope": "reader",
+      "before": "a portion of the cloud which it has broken off",
+      "after": "a portion of the icy cloud which it has broken off",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-014",
+      "appendixPage": 79,
+      "appendixLine": 21,
+      "book": 2,
+      "unit": "48",
+      "route": "/read/2/48",
+      "scope": "reader",
+      "before": "sprinkling it with vinegar",
+      "after": "throwing vinegar against it",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-015",
+      "appendixPage": 79,
+      "appendixLine": 22,
+      "book": 2,
+      "unit": "48",
+      "route": "/read/2/48",
+      "scope": "reader",
+      "before": "this substance being of a very cold nature",
+      "after": "that liquid being of a very cold nature",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-016",
+      "appendixPage": 80,
+      "appendixLine": 13,
+      "book": 2,
+      "unit": "49",
+      "route": "/read/2/49",
+      "scope": "reader",
+      "before": "but not until",
+      "after": "and not after",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-017",
+      "appendixPage": 80,
+      "appendixLine": 14,
+      "book": 2,
+      "unit": "49",
+      "route": "/read/2/49",
+      "scope": "reader",
+      "before": "the former is diffused in a gust, the latter is condensed with a violent impulse",
+      "after": "the latter is diffused in the blast, the former is condensed by the violent impulse",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-018",
+      "appendixPage": 80,
+      "appendixLine": 17,
+      "book": 2,
+      "unit": "49",
+      "route": "/read/2/49",
+      "scope": "reader",
+      "before": "as a loud noise does from a dash",
+      "after": "as a loud noise does from a crash",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-019",
+      "appendixPage": 81,
+      "appendixLine": 21,
+      "book": 2,
+      "unit": "51",
+      "route": "/read/2/51",
+      "scope": "reader",
+      "before": "many different kinds of thunder-storms",
+      "after": "many different kinds of thunder-bolts",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-020",
+      "appendixPage": 81,
+      "appendixLine": 27,
+      "book": 2,
+      "unit": "51",
+      "route": "/read/2/51",
+      "scope": "reader",
+      "before": "trace left of their operation",
+      "after": "trace left of its operation",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-021",
+      "appendixPage": 82,
+      "appendixLine": 8,
+      "book": 2,
+      "unit": "52",
+      "route": "/read/2/52",
+      "scope": "reader",
+      "before": "nine Gods who discharge thunder-storms",
+      "after": "nine Gods who discharge thunder-bolts",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-022",
+      "appendixPage": 85,
+      "appendixLine": 2,
+      "book": 2,
+      "unit": "54",
+      "route": "/read/2/54",
+      "scope": "reader",
+      "before": "everything is shaken and blown up before it is struck",
+      "after": "everything is shaken and blasted before it is struck",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-023",
+      "appendixPage": 88,
+      "appendixLine": 15,
+      "book": 2,
+      "unit": "57",
+      "route": "/read/2/57",
+      "scope": "reader",
+      "before": "those from the east were repelled",
+      "after": "those from the west were repelled",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-024",
+      "appendixPage": 89,
+      "appendixLine": 11,
+      "book": 2,
+      "unit": "58",
+      "route": "/read/2/58",
+      "scope": "reader",
+      "before": "there was even a stone in it",
+      "after": "there was ever a stone in it",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-025",
+      "appendixPage": 92,
+      "appendixLine": 9,
+      "book": 2,
+      "unit": "63",
+      "route": "/read/2/63",
+      "scope": "reader",
+      "before": "how many things do we compel her to produce spontaneously",
+      "after": "how many things do we compel her to produce! How many things does she pour forth spontaneously",
+      "expectedCount": 1,
+      "note": "The final exclamation mark already following the target is preserved."
+    },
+    {
+      "id": "eng-026",
+      "appendixPage": 92,
+      "appendixLine": 10,
+      "book": 2,
+      "unit": "63",
+      "route": "/read/2/63",
+      "scope": "reader",
+      "before": "odours and flowers",
+      "after": "odours and flavours",
+      "expectedCount": 1
+    },
+    {
+      "id": "eng-027",
+      "appendixPage": 93,
+      "appendixLine": 16,
+      "book": 2,
+      "unit": "63",
+      "route": "/read/2/63",
+      "scope": "reader",
+      "before": "How many luxuries and how many insults",
+      "after": "How many caprices and how many insults",
+      "expectedCount": 1
+    }
+  ],
+  "gutenbergVolume1AppendixSupplemental": [
+    {
+      "id": "eng-note-001",
+      "appendixPage": 1,
+      "appendixLine": 9,
+      "book": 1,
+      "unit": "praef",
+      "route": "/read/1/praef",
+      "scope": "excluded-translation-footnote",
+      "text": "The allusion, otherwise obscure, is to the fact that some friends of Catullus had filched a set of table-napkins, which had been given to him by Veranius and Fabius, and substituted others in their place."
+    }
+  ],
+  "latinExtractionRepairs": [
+    {
+      "id": "lat-extract-001",
+      "scope": "extraction-repair",
+      "before": "nomenclaturam,§20? quis",
+      "after": "nomenclaturam, quis",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-002",
+      "scope": "extraction-repair",
+      "before": "monitus,§24? oraculorum",
+      "after": "monitus, oraculorum",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-003",
+      "scope": "extraction-repair",
+      "before": "Aeminium aeminium (B)H coll. §115.emen- d. min- F2G. enumen- a. eumen- rov, oppida",
+      "after": "Aeminium, oppida",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-004",
+      "scope": "extraction-repair",
+      "before": "pb n=323 ",
+      "after": "",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-005",
+      "scope": "extraction-repair",
+      "before": "prupb n=432> nae",
+      "after": "prunae",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-006",
+      "scope": "extraction-repair",
+      "before": "crapulana pice, ac resina condire musta volgare ei est provinciisque finitimis. § 117: cfr. Pl. supra 75. — nonnusquam",
+      "after": "crapulana pice, ac resina condire musta volgare ei est provinciisque finitimis. nonnusquam",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-007",
+      "scope": "extraction-repair",
+      "before": "fugi- § 122: Th. VI 8,5; CVI 18,4. — tivis",
+      "after": "fugitivis",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-008",
+      "scope": "extraction-repair",
+      "before": "quod vocatur § quib; Q. § elaterium",
+      "after": "quod vocatur elaterium",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-009",
+      "scope": "extraction-repair",
+      "before": "§27 Est ergo",
+      "after": "Est ergo",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-010",
+      "scope": "extraction-repair",
+      "before": "cadmean, 32, celebri",
+      "after": "cadmean, celebri",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-011",
+      "scope": "extraction-repair",
+      "before": "reli- 5 gionis",
+      "after": "religionis",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-012",
+      "scope": "extraction-repair",
+      "before": "ven- 10 tosus",
+      "after": "ventosus",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-013",
+      "scope": "extraction-repair",
+      "before": "ap- 31 pellant",
+      "after": "appellant",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-014",
+      "scope": "extraction-repair",
+      "before": "vo- 23 cetur",
+      "after": "vocetur",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-015",
+      "scope": "extraction-repair",
+      "before": "si- 5 dere",
+      "after": "sidere",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-016",
+      "scope": "extraction-repair",
+      "before": "ter- 180 tium",
+      "after": "tertium",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-017",
+      "scope": "extraction-repair",
+      "before": "aqua- 15 rum",
+      "after": "aquarum",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-018",
+      "scope": "extraction-repair",
+      "before": "sim- 199 plex",
+      "after": "simplex",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-019",
+      "scope": "extraction-repair",
+      "before": "simi- 10 lis",
+      "after": "similis",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-020",
+      "scope": "extraction-repair",
+      "before": "pin- 5 gue",
+      "after": "pingue",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-021",
+      "scope": "extraction-repair",
+      "before": "im- 5 brem",
+      "after": "imbrem",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-022",
+      "scope": "extraction-repair",
+      "before": "co- 302 lumnis",
+      "after": "columnis",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-023",
+      "scope": "extraction-repair",
+      "before": "adver- 5 satur",
+      "after": "adversatur",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-024",
+      "scope": "extraction-repair",
+      "before": "pecti- 5 num",
+      "after": "pectinum",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-025",
+      "scope": "extraction-repair",
+      "before": "coclea- 5 rum",
+      "after": "coclearum",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    },
+    {
+      "id": "lat-extract-026",
+      "scope": "extraction-repair",
+      "before": "adgnascentium- queiis",
+      "after": "adgnascentiumque iis",
+      "expectedCount": 1,
+      "note": "Verified reading-text repair applied while extracting the Perseus TEI base text."
+    }
+  ]
+}

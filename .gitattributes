@@ -1,0 +1,9 @@
+public/corpus/** linguist-generated=true
+public/read/** linguist-generated=true
+public/assets/** linguist-generated=true
+app/generated-image-sources.css linguist-generated=true
+app/generated-image-sources.mjs linguist-generated=true
+*.jpg binary
+*.png binary
+*.avif binary
+*.webp binary

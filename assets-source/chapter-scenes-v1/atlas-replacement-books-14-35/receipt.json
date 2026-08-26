@@ -1,0 +1,1405 @@
+{
+  "schemaVersion": 1,
+  "campaign": "atlas-replacement-books-14-35",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "14:1",
+    "14:2",
+    "20:13",
+    "20:23",
+    "21:1",
+    "21:4",
+    "21:13",
+    "22:1",
+    "22:25",
+    "25:2",
+    "25:8",
+    "25:10",
+    "26:3",
+    "27:7",
+    "27:13",
+    "31:1",
+    "31:11",
+    "32:1",
+    "32:2",
+    "32:6"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Each accepted master and preserved rejected attempt is a direct byte-for-byte copy of one independent built-in ImageGen PNG output. Portable built-in-imagegen references intentionally replace machine-private saved paths. No local pixel edits, atlas crops, compositing, or built-in edit calls were used.",
+  "artworkPlan": {
+    "artifact": "assets-source/chapter-artwork-plan.json",
+    "sha256": "a68d57cc1b6a956239f225af9a69b406c800c5baf5588618488d02d0d6152e68"
+  },
+  "sourceManifest": {
+    "artifact": "assets-source/chapter-artwork-manifest.json",
+    "sha256": "9dca2ade74ab86b94c477d58e631afe2cd28083356ea8719e29c886005f8b849",
+    "selectionRule": "kind=atlas-cell and book 14 through 32 inclusive; Books 33 through 35 were assigned to a separate campaign owner."
+  },
+  "styleContract": {
+    "artifact": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+    "sha256": "0aee569ebc75887b046d4fd2362bcc87f53adba8be86b5b81d9ef88681ba925b"
+  },
+  "corpusGroundingNote": "The full routed Latin and full routed historical English facing text were read for every assigned chapter before prompting. Per-chapter hashes and counts below bind that read evidence to the pinned corpus artifacts.",
+  "generationSummary": {
+    "acceptedCount": 20,
+    "rejectedArtifactCount": 11,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 31,
+    "independentInitialSceneCalls": 20,
+    "independentReplacementSceneCalls": 11,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "campaignAudit": {
+    "command": "node scripts/audit-chapter-scene-campaign.mjs atlas-replacement-books-14-35",
+    "exitStatus": 0,
+    "performedAt": "2026-08-26",
+    "canonicalCountAtScan": 1065,
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "minimumObservedMAD": 21.67,
+    "minimumObservedDHash": 10
+  },
+  "chapters": [
+    {
+      "chapterKey": "14:1",
+      "title": "CHAPS. 1 & 2. (1.)—THE NATURE OF THE VINE. ITS MODE OF FRUCTIFICATION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b14-c001.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b14-c001.png",
+      "corpusArtifact": "public/corpus/book-14.5f82cb10ffe1436a.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "cb8c99523c6e23401befee909b437d5add7a0eb1d4adc03b9c0f0f59d7f6d4a8",
+          "characters": 6710,
+          "words": 930
+        },
+        "english": {
+          "sha256": "61daaba02f168b9bb2dbd15d639c70988ad874cd0e01dbf6e19db07395fcc13d",
+          "characters": 13318,
+          "words": 2361
+        }
+      },
+      "sha256": "38811b9a73fc752bfa558cf895036b3662de68e7b335158b78a154dc4f6f4a6b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e623e93a-7e2c-4e2e-905b-0c2c28e317f1",
+      "outputArtifact": "built-in-imagegen://exec-e623e93a-7e2c-4e2e-905b-0c2c28e317f1.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality viticultural scene for Book XIV, chapter 1, “The Nature of the Vine. Its Mode of Fructification,” showing the vine's woody stock, fruiting shoots, tendrils, flowers, and grapes through close Roman observation.\nScene/backdrop: an open Campanian vineyard terrace at early morning with low stone retaining walls, distant Vesuvius small on the horizon, and broad pale sky.\nSubject: no tree, trellis, post, fence, arbor, ladder, or architecture. In the central middle ground grows one complete low freestanding goblet-trained grapevine, historically plausible for ancient dry farming. Its entire root crown, short gnarled stock, four low spreading arms, every branch tip, leaf, curling tendril, tiny flower cluster, and several modest grape bunches at different ripening stages are visible against bare earth. One complete kneeling Roman vine grower lifts a fruiting shoot to inspect where the cluster forms opposite a leaf. One complete standing assistant, well separated from all edges, holds a single small closed curved vine knife at his side; no basket or other container appears. Keep vine and both figures wholly inside the central 60%.\nStyle/medium: ancient Mediterranean botanical and agricultural illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, meticulous vine cross-hatching and stipple, dry-brush earth, restrained translucent mineral washes with lightly burnished grapes.\nComposition/framing: one continuous 3:2 landscape with a low asymmetrical triangular grouping, not a centered-tree silhouette and not a horizontal barrier; a conspicuous ring of empty ochre earth and pale sky surrounds every focal subject on all four sides.\nLighting/mood: clear first light, empirical patience and fertility, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, grape madder, ochre, and chalk.\nConstraints: historically plausible Roman dress, goblet-trained Vitis vinifera, and closed pruning knife; output a 1536x1024-style landscape PNG master.\nAvoid: any tree, poplar, tall central canopy, centered-tree composition, trellis, posts, rails, fence, arbor, ladder, basket, extra container, modern wire, vineyard machine, wine bottle, text, labels, numerals, pseudo-writing, signature, logo, watermark, photography, glossy CGI, border, panel, grid, collage, duplicated vine or tool, malformed hands, edge crop, edge-touching foliage, or cropped focal subjects.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5fca7183-cd80-48ea-9c32-0d7c3bb94bd4",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-39506ec5-7da5-4337-b2eb-29a2898860c2",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-3d80facc-4bb8-42ce-8f92-7c7196479d9f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-e623e93a-7e2c-4e2e-905b-0c2c28e317f1",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: a complete low freestanding goblet-trained vine shows root crown, woody stock, shoots, tendrils, flowers, and ripening bunches; both observers and the single closed vine knife are complete, well separated from all edges, with no trellis, tree, duplicate object, text, collage, or crop.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-5fca7183-cd80-48ea-9c32-0d7c3bb94bd4",
+          "outputArtifact": "built-in-imagegen://exec-5fca7183-cd80-48ea-9c32-0d7c3bb94bd4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b14-c001-reject-01-canopy-crop.png",
+          "sha256": "1f442e57c28512b7057847dcc2515271d1db03a1d33d8307d0f5628f4337d574",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality illustration for Book XIV, chapter 1, “The Nature of the Vine; Its Mode of Fructification,” grounded in Pliny's description of Campanian vines “married” to poplar trees and climbing to astonishing height.\nScene/backdrop: a sun-warmed Roman Campanian vineyard, with distant low volcanic hills and a modest tiled farm building far behind.\nSubject: one magnificent but believable cultivated grapevine spirals around one complete poplar tree, climbs its trunk, and opens across the crown in heavy purple and pale-gold grape clusters. One complete Roman vintager stands safely on a fully visible wooden ladder within the lower canopy, pruning a shoot; another complete vineyard worker at ground level gathers one intact basket of grapes. Show the vine's knotted trunk, tendrils, leaves, fruit, and annual pruning with botanical clarity. Every figure, ladder, basket, tree crown, root area, and outer branch is fully inside the image with generous open sky and earth around it.\nStyle/medium: ancient Mediterranean natural-history illumination elevated to museum art; warm fibrous aged vellum integrated into the painted surface; iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, restrained mineral-pigment washes.\nComposition/framing: one unified 3:2 landscape scene, broad low viewpoint emphasizing the vine's ascent, subjects at least eight percent inward from every edge, generous breathing room and quiet negative space.\nLighting/mood: late-afternoon clarity, reverent observation, ancient and timeless, rough in material and polished in draftsmanship.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre.\nConstraints: historically plausible Roman clothing, ladder, basketry, vineyard practice, architecture, and landscape; accurate grape and poplar morphology; single continuous scene; output a 1536x1024-style landscape PNG master.\nAvoid: any text, lettering, captions, labels, numerals, pseudo-writing, signature, logo, watermark, modern object, photography, glossy CGI, visible page border, frame, panel, grid, collage, repeated scene, duplicated person, malformed hands, cropped focal subject, branch or ladder touching the frame.",
+          "reason": "Rejected at original resolution because the focal poplar canopy and upper vine ran out of the top frame, violating the edge-safety gate."
+        },
+        {
+          "generationArtifactId": "exec-39506ec5-7da5-4337-b2eb-29a2898860c2",
+          "outputArtifact": "built-in-imagegen://exec-39506ec5-7da5-4337-b2eb-29a2898860c2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b14-c001-reject-02-uniqueness-gate.png",
+          "sha256": "c8cfce73ab8d113125632b8f997bc8847d34ba733675c6df7e22e2b5c2d2cef3",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality illustration for Book XIV, chapter 1, “The Nature of the Vine; Its Mode of Fructification,” grounded in Pliny's Campanian practice of vines “married” to poplar trees.\nScene/backdrop: a broad, sun-warmed Roman Campanian vineyard with distant low volcanic hills and one modest tiled farm building far behind.\nSubject: from a deliberately distant viewpoint, show exactly one complete medium-height poplar from exposed roots to the highest twig, with a cultivated grapevine spiraling around its trunk and opening through its crown in purple and pale-gold grape clusters. The entire rounded canopy must be silhouetted against a large uninterrupted field of open sky; its highest leaf must sit at least fifteen percent below the top edge and its outermost branches at least twelve percent inward from both side edges. One complete Roman vintager stands safely on one fully visible ladder inside the lower canopy pruning a shoot; a second complete worker gathers grapes into one intact basket at ground level. Show knotted vine wood, tendrils, leaves, fruit, and pruning with botanical clarity.\nStyle/medium: ancient Mediterranean natural-history illumination elevated to museum art; warm fibrous aged vellum integrated into the paint; iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion, restrained translucent mineral pigments.\nComposition/framing: one unified 3:2 landscape scene; pull the entire composition far back; a generous ring of empty sky and quiet earth surrounds tree, figures, ladder, basket, roots, and every focal branch; nothing important touches any edge.\nLighting/mood: late-afternoon clarity, reverent observation, ancient and timeless, rough in material and polished in draftsmanship.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre.\nConstraints: historically plausible Roman clothing, ladder, basketry, vineyard practice, architecture, and landscape; accurate grape and poplar morphology; output a 1536x1024-style landscape PNG master.\nAvoid: text, lettering, captions, labels, numerals, pseudo-writing, signature, logo, watermark, modern object, photography, glossy CGI, visible border, frame, panel, grid, collage, repeated scene, duplicated person, malformed hands, cropped focal subject, cropped canopy, cropped root, or any branch or ladder touching the frame.",
+          "reason": "Rejected by the campaign uniqueness gate despite acceptable native visual QA: nearest-neighbor MAD was 19.85 against the 20.00 minimum because the large centered tree silhouette closely echoed an existing plate."
+        },
+        {
+          "generationArtifactId": "exec-3d80facc-4bb8-42ce-8f92-7c7196479d9f",
+          "outputArtifact": "built-in-imagegen://exec-3d80facc-4bb8-42ce-8f92-7c7196479d9f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b14-c001-reject-03-trellis-basket-crop.png",
+          "sha256": "0138e9a15741991da309c1c6f3b6cc4849247c42b6fed9bbbb5b85d438302adb",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality viticultural scene for Book XIV, chapter 1, “The Nature of the Vine. Its Mode of Fructification,” showing the vine's woody stock, new fruiting shoots, tendrils, flowers, and grapes through attentive Roman cultivation.\nScene/backdrop: a low open vineyard terrace in Campania at early morning, viewed along a diagonal row of vines, with distant Vesuvius small on the far horizon.\nSubject: avoid any tree. At the center is one complete low mature grapevine trained horizontally along a simple wooden yoke between two complete waist-high posts. The vine has a gnarled woody stock, two spreading arms, curling tendrils, several fresh shoots, tiny flower clusters, and a few ripening bunches at different stages, all growing naturally from the same plant. One complete kneeling Roman vine grower lifts a shoot to inspect where fruit forms opposite a leaf; one complete standing assistant holds a shallow pruning basket and a closed curved vine knife. Every root base, branch tip, leaf, tendril, bunch, post, crossbar, figure, hand, sandal, basket, and tool is fully visible.\nStyle/medium: ancient Mediterranean botanical and agricultural illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, meticulous vine cross-hatching and stipple, dry-brush earth and wood, restrained translucent mineral washes with lightly burnished grapes.\nComposition/framing: one continuous 3:2 landscape with a strong low horizontal and diagonal rhythm, not a centered-tree silhouette; compact trellis and both figures within the central 65%, surrounded by broad pale sky, terrace, and open earth on every edge.\nLighting/mood: clear first light, empirical patience and fertility, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, grape madder, ochre, and chalk.\nConstraints: historically plausible Roman dress, low vine training, basket, and closed pruning knife; botanically credible Vitis vinifera; output a 1536x1024-style landscape PNG master.\nAvoid: any tree, poplar, giant central canopy, centered-tree composition, modern wire trellis, vineyard machine, wine bottle, text, labels, numerals, pseudo-writing, signature, logo, watermark, photography, glossy CGI, border, panel, grid, collage, duplicated vine, malformed hands, edge crop, edge-touching foliage, or cropped focal subjects.",
+          "reason": "Rejected after original-resolution QA because the focal trellis rail continued toward the side edges and an unintended second basket was cropped by the right frame."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "14:2",
+      "title": "NINETY-ONE VARIETIES OF THE VINE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b14-c002.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b14-c002.png",
+      "corpusArtifact": "public/corpus/book-14.5f82cb10ffe1436a.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "fddd3baae708731d02a6197e5a12ec5d956ece44a12bf431ea0385ade28c1f45",
+          "characters": 5855,
+          "words": 796
+        },
+        "english": {
+          "sha256": "59cedce20ced5d194822004d78162ab08cf7b00ffaf45addbafff3da385bfce6",
+          "characters": 11800,
+          "words": 2120
+        }
+      },
+      "sha256": "9dcb6e9eee06f0d73e8f217bbbccbd69cf219daf3edb42aa8ee350b798ddb700",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1df61d8d-df26-4617-8a4e-c0df34471eca",
+      "outputArtifact": "built-in-imagegen://exec-1df61d8d-df26-4617-8a4e-c0df34471eca.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality illustration for Book XIV, chapter 2, “Ninety-One Varieties of the Vine,” expressing Pliny's observation that grape varieties are nearly as numerous as their districts.\nScene/backdrop: a broad Roman Italian vineyard in early autumn, with one compact demonstration trellis standing as a complete island in a large expanse of quiet ochre earth; distant vineyard rows remain soft background texture only.\nSubject: the entire demonstration trellis, from its first post to its last post and all vine tips, is fully visible and occupies only the middle sixty percent of the image. Along it grow six organically intermingled but visibly distinct grape forms: paired gemella clusters, one softly downy pale Aminean cluster, bee-visited apiana grapes, dusky purple helvolae, oblong-berried cocolobis, and one compact black cluster. Exactly one complete elderly Roman ampelographer holds a paired cluster while one complete younger vintner adjusts a wooden supporting fork. Both figures are full-body, small relative to the landscape, and fully separated from every edge.\nStyle/medium: ancient Mediterranean natural-history illumination elevated to museum art; warm fibrous aged vellum, iron-gall botanical contours, fine cross-hatching and stipple, dry-brush abrasion, restrained translucent mineral pigments.\nComposition/framing: one continuous 3:2 landscape, deliberately pulled back; at least fifteen percent open sky or bare earth on all four sides of the complete trellis, both figures, every cluster, tool, basket, and post; nothing important touches an edge.\nLighting/mood: lucid autumn morning, empirical curiosity, abundant but disciplined, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, dusty plum.\nConstraints: historically plausible Roman clothing, viticulture, wooden forks, wickerwork, and hand tools; accurate vine morphology; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, maps, signature, logo, watermark, modern objects, photography, glossy CGI, border, panel, grid, catalogue layout, collage, repeated motif, duplicated people, malformed hands, cropped grapes, cropped trellis, or any cropped focal subject.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2511bb32-f0c6-426d-8764-9bd67110aa72",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-1df61d8d-df26-4617-8a4e-c0df34471eca",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution review found a fully internal demonstration trellis with six visibly distinct grape morphologies, two complete Roman vineyard workers, complete supports, baskets and tools, and abundant open sky and earth. No clipped cluster, text, pseudo-writing, panel structure, duplication, or modern object is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-2511bb32-f0c6-426d-8764-9bd67110aa72",
+          "outputArtifact": "built-in-imagegen://exec-2511bb32-f0c6-426d-8764-9bd67110aa72.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b14-c002-reject-01-edge-crop.png",
+          "sha256": "1f7f4e81a910aaaf8dfb90f4da32df0a5ea449b0da21dff02d808e2c92f4c493",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality illustration for Book XIV, chapter 2, “Ninety-One Varieties of the Vine,” embodying Pliny's observation that grape varieties are almost as numerous as the districts where they grow.\nScene/backdrop: one continuous Roman Italian vineyard in early autumn, its low trellis passing naturally through changing patches of cool, moist, dry, and sun-warmed soil.\nSubject: one complete elderly Roman ampelographer and one complete young vintner compare grapes still growing along the same trellis. Make at least six botanically credible grape forms visibly distinct without arranging them as a chart: paired “gemella” clusters, a softly downy pale Aminean cluster, bee-visited apiana grapes, dusky purple helvolae, one oblong-berried cocolobis cluster, and one compact black cluster. The elder gently holds one intact paired cluster while the younger checks a supporting fork beneath a heavily laden vine. All vines, workers, hands, tools, and complete supporting stakes remain comfortably inside the image.\nStyle/medium: ancient Mediterranean natural-history illumination elevated to museum art; warm fibrous aged vellum; iron-gall botanical contours; fine cross-hatching, stipple, dry-brush abrasion, and restrained translucent mineral washes.\nComposition/framing: unified 3:2 landscape, oblique view down the trellis, figures separated by open earth and foliage, ample negative space around every edge; diversity should emerge organically from one place, never as specimens in boxes.\nLighting/mood: clear autumn morning, empirical curiosity, abundant but disciplined, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, dusty plum.\nConstraints: historically plausible Roman dress, viticulture, wooden forks, wicker basket, and hand tools; accurate vine leaves and clusters; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, maps, heraldry, signature, logo, watermark, modern objects, photography, glossy CGI, border, panel, grid, catalogue layout, collage, repeated motif, duplicated people, malformed hands, or any cropped focal subject.",
+          "reason": "Rejected at original resolution because a large focal grape cluster and trellis growth were clipped by the left edge."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "20:13",
+      "title": "ROCKET: TWELVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b20-c013.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b20-c013.png",
+      "corpusArtifact": "public/corpus/book-20.d916335165791203.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "e4e9667aa34f96950f62986e76ef66f848efa796f28ffe6c4c2456e9a85735e2",
+          "characters": 7240,
+          "words": 1040
+        },
+        "english": {
+          "sha256": "619ec4733a94ee86a927c264288d58915ef587ba9cdaf016e2f2370ab3c776ed",
+          "characters": 12338,
+          "words": 2191
+        }
+      },
+      "sha256": "0d1ab42b6b7431e2ec5b37744f0eb7ff564c1eb6f2b7f2a6cdf0c87db28bf6b4",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1b0d1cd2-52ab-4ff3-9f01-84a0cda9c3eb",
+      "outputArtifact": "built-in-imagegen://exec-1b0d1cd2-52ab-4ff3-9f01-84a0cda9c3eb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality botanical-remedy scene for Book XX, chapter 13, “Rocket: Twelve Remedies,” centered unmistakably on flowering rocket.\nScene/backdrop: a spacious Roman kitchen garden enclosed by a low stucco wall, viewed from far enough away to show an uninterrupted ring of bare earth around the scene.\nSubject: one complete flowering rocket plant, Eruca vesicaria, grows at center with deeply lobed leaves, slender pods, and pale four-petaled flowers carrying fine violet-brown veins. One complete seated Roman herbalist, shown full-body, compares a leaf and several seeds. Beside him stands one small complete freestanding wooden preparation table with its entire top and all four legs visible; on it sit only one bronze mortar, one honey bowl, one vinegar amphoriskos, and one folded cloth, each separate and complete. A single small scorpion retreats across bare earth far from the figure. No treatment is being performed.\nStyle/medium: intimate Roman materia-medica illumination on warm fibrous aged vellum; precise iron-gall botanical line, fine cross-hatching, seed-pod stipple, dry-brush abrasion, restrained mineral-pigment washes.\nComposition/framing: unified 3:2 landscape, deliberately pulled back; plant, complete figure, complete table, vessels, scorpion, and all shadows occupy only the central sixty-five percent, with at least twelve percent quiet earth or sky between every focal element and every edge.\nLighting/mood: gentle morning shade, tactile, observant, calm, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre.\nConstraints: historically plausible Roman clothing, garden, pottery, mortar, and table; botanically accurate rocket; output a 1536x1024-style landscape PNG master.\nAvoid: text, captions, labels, numerals, pseudo-writing, signature, logo, watermark, modern objects, medical gore, patient, photography, glossy CGI, border, panel, grid, collage, duplicated plant, malformed hands, cropped furniture, or any subject touching the frame.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5a323e8d-6f35-4bba-bbc1-42b42312a8a7",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-1b0d1cd2-52ab-4ff3-9f01-84a0cda9c3eb",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution review found one dominant botanically legible flowering rocket plant, one complete seated herbalist, complete freestanding table and four vessels, and one small safely separated scorpion. All subjects are edge-safe; no patient, text, pseudo-writing, panel, modern object, or malformed anatomy is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-5a323e8d-6f35-4bba-bbc1-42b42312a8a7",
+          "outputArtifact": "built-in-imagegen://exec-5a323e8d-6f35-4bba-bbc1-42b42312a8a7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b20-c013-reject-01-bench-crop.png",
+          "sha256": "8b6161a51bbf75641ac0b9987e790c90dbb31bccaeacd1ed3c29b097a61032dd",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality botanical-remedy scene for Book XX, chapter 13, “Rocket: Twelve Remedies,” centered unmistakably on rocket rather than the other herbs routed in the same reading unit.\nScene/backdrop: a quiet Roman kitchen garden and shaded preparation bench beside a simple stucco wall.\nSubject: one complete Roman herbalist kneels beside a fully visible flowering rocket plant, Eruca vesicaria, with deeply lobed leaves, slender pods, and pale four-petaled flowers marked by fine violet-brown veins. The herbalist compares fresh leaves and seeds, with one small bronze mortar, a honey bowl, a vinegar amphoriskos, and a clean folded cloth placed separately on a low complete bench. A single small scorpion retreats across bare earth well away from the figure, an understated visual reference to Pliny's first remedy. Keep the living rocket patch dominant and botanically legible; no treatment is being performed on a patient.\nStyle/medium: intimate Roman materia-medica illumination on warm fibrous aged vellum; iron-gall botanical line, fine cross-hatching and seed-pod stipple, dry-brush abrasion, restrained mineral pigments.\nComposition/framing: one unified 3:2 landscape, three-quarter garden view, herbalist and whole plant surrounded by generous quiet ground; every leaf tip, root area, hand, vessel, bench leg, and scorpion fully internal.\nLighting/mood: gentle morning shade, tactile, observant, calm, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre.\nConstraints: historically plausible Roman clothing, garden, pottery, mortar, and bench; accurate rocket morphology; single continuous scene; output a 1536x1024-style landscape PNG master.\nAvoid: text, captions, labels, numerals, pseudo-writing, signature, logo, watermark, modern objects, medical gore, distressed patient, photography, glossy CGI, border, frame, panel, grid, collage, duplicated plant, malformed hands, or any cropped focal subject.",
+          "reason": "Rejected at original resolution because the focal preparation bench and one leg were cut by the right and lower edges."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "20:23",
+      "title": "MEUM, AND MEUM ATHAMANTICUM: SEVEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b20-c023.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b20-c023.png",
+      "corpusArtifact": "public/corpus/book-20.d916335165791203.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "135bb01cb83f28676f7b98e3a5798ca68ff10d57c9c17dec4db0527cae5fae82",
+          "characters": 4592,
+          "words": 643
+        },
+        "english": {
+          "sha256": "968207eabbd86fa7c80fe81eb9ed8f3debe2a40c0e61959a932b37abac518ed5",
+          "characters": 7593,
+          "words": 1362
+        }
+      },
+      "sha256": "9f780dfdef580dc011b25ab13d819f24f12ae40e63f9f3f43e440d1c2bee45d4",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-4a5d8d1a-8c82-4726-96c7-66a03789741b",
+      "outputArtifact": "built-in-imagegen://exec-4a5d8d1a-8c82-4726-96c7-66a03789741b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality botanical scene for Book XX, chapter 23, “Meum, and Meum Athamanticum: Seven Remedies,” showing the rare mountain plant that Pliny says few Italian physicians cultivated.\nScene/backdrop: a high, stony slope of ancient Athamania with pale rock, sparse alpine grass, and distant folded mountains under a large quiet sky.\nSubject: one complete Greek physician-botanist kneels beside a small natural colony of Athamanta meum. He has carefully lifted one complete mature plant so its many oblique dark roots remain attached and clearly visible above a shallow excavation; its fine dill-like leaves and slender flowering stems rise from the same root crown. A second plant remains rooted nearby for comparison. One compact wicker gathering basket and one small bronze root knife lie separately on bare stone. The botanist, both plants, every root filament, basket, and tool are fully inside the frame.\nStyle/medium: ancient Mediterranean alpine herbarium scene elevated to museum art; warm fibrous aged vellum integrated into mineral washes; precise iron-gall contours, fine cross-hatching, root stipple, and dry-brush abrasion.\nComposition/framing: unified 3:2 landscape, pulled-back low viewpoint, plant and complete figure readable against open stone and sky with generous breathing room on all edges.\nLighting/mood: cool clear mountain light, rare discovery without fantasy, empirical and serene, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre.\nConstraints: historically plausible ancient clothing, basket, root knife, and landscape; botanically credible fine divided foliage and multiple dark oblique roots; single continuous scene; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, signature, logo, watermark, modern tools, modern alpine gear, photography, glossy CGI, border, frame, panel, grid, collage, repeated specimens, magical glow, malformed hands, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4a5d8d1a-8c82-4726-96c7-66a03789741b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete physician-botanist, one lifted meum plant with fine divided foliage and a fully visible mass of dark oblique roots, a second rooted plant, basket and root knife, all surrounded by open mountain terrain. No text, pseudo-writing, panel, modern object, or clipped focal subject is visible.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "21:1",
+      "title": "THE NATURE OF FLOWERS AND GARLANDS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b21-c001.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b21-c001.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "15cfc414da314b82078763b233175c3af92ed0c4b18374dc18c58deeaff8a82b",
+          "characters": 677,
+          "words": 91
+        },
+        "english": {
+          "sha256": "28f80a9961e03283c07f2d3bd022c3fa327e03854d0e3ee08615be5193875249",
+          "characters": 1248,
+          "words": 214
+        }
+      },
+      "sha256": "6cf0fac7aa073358836395d29b07734d10912c5122badb60d43a6026700b5195",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-312b6455-f96c-4096-b5ac-950c975bfc76",
+      "outputArtifact": "built-in-imagegen://exec-312b6455-f96c-4096-b5ac-950c975bfc76.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scene for Book XXI, chapter 1, “The Nature of Flowers and Garlands,” expressing Pliny's meditation that flowers attain supreme beauty for a day and are the first to fade.\nScene/backdrop: a spacious Roman garden court at dawn, with low flower beds of roses, violets, and crocus well behind a broad area of open paving.\nSubject: at the center stands one complete compact rectangular stone worktable, fully visible from all four corners to all four feet and surrounded by empty pavement. One complete seated garland maker weaves a circular wreath within a second loose spiral of flowers, as Pliny describes wreaths within wreaths. Fresh roses and violets glow near the hands; on the far end of the same table lie a few fallen petals and one gently fading garland. One complete young attendant approaches carrying one intact shallow flower basket. Every person, hand, sandal, table foot, basket, wreath, and flower cluster remains fully visible.\nStyle/medium: ancient Mediterranean floral illumination elevated to museum art; warm fibrous aged vellum, iron-gall contours, fine botanical cross-hatching and stipple, translucent mineral pigments, scraped dry-brush passages beside selectively polished petals.\nComposition/framing: one continuous 3:2 landscape, deliberately pulled back; the complete table and both full-body figures occupy only the central sixty percent, with a wide ring of empty paving, garden air, and pale sky on every side.\nLighting/mood: first light, fragrant, contemplative, fleeting beauty, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder rose, violet, and ochre.\nConstraints: historically plausible Roman dress, garden, wickerwork, stone table, and flowers; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, signature, logo, watermark, modern floristry materials, photography, glossy CGI, visible page, border, panel, grid, collage, duplicated person, malformed hands, cropped table, cropped flowers, or any focal element touching an edge.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-46edf437-9a69-4208-9814-0e2a78433abb",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-312b6455-f96c-4096-b5ac-950c975bfc76",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete freestanding stone table, one complete garland maker, one complete attendant and basket, nested fresh wreaths, fallen petals and a gently fading wreath in a unified Roman garden. All focal forms are edge-safe; no text, pseudo-writing, panel, modern object, or anatomy defect is visible.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-46edf437-9a69-4208-9814-0e2a78433abb",
+          "outputArtifact": "built-in-imagegen://exec-46edf437-9a69-4208-9814-0e2a78433abb.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b21-c001-reject-01-table-crop.png",
+          "sha256": "75884e689c80697878422ae5107bbc7501e1eeff2b8abc1b3d0d7be5448094a4",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scene for Book XXI, chapter 1, “The Nature of Flowers and Garlands,” expressing Pliny's meditation that flowers attain supreme beauty for a day and are the first to fade.\nScene/backdrop: a Roman garden court at dawn, with low beds of roses, violets, crocus, and meadow flowers opening beside a shaded stone worktable.\nSubject: one complete garland maker sits at the complete low table, weaving a circular wreath within a second loose spiral of flowers, exactly as Pliny describes wreaths within wreaths. Fresh roses and violets glow near the hands; at the far end of the same table a few naturally fallen petals and one gently fading garland suggest transience without decay or morbidity. One complete young garden attendant carries an intact shallow flower basket toward the maker. Every person, hand, foot, table leg, basket, wreath, and flower cluster is fully visible and clear of the frame.\nStyle/medium: ancient Mediterranean floral illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, fine botanical cross-hatching and stipple, translucent mineral pigments, scraped dry-brush passages beside selectively polished petals.\nComposition/framing: one unified 3:2 landscape, calm diagonal from living flower beds to wreath-making table, generous open paving and pale sky around the complete figures; no decorative border.\nLighting/mood: first light, fragrant, contemplative, fleeting beauty, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder rose, violet, and ochre.\nConstraints: historically plausible Roman dress, garden, wickerwork, stone table, and flower species; single continuous scene; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, signature, logo, watermark, modern floristry materials, photography, glossy CGI, visible page, border, panel, grid, collage, repeated person, malformed hands, severed flowers floating in space, or any cropped focal subject.",
+          "reason": "Rejected at original resolution because the central garland-making table continued through the right and lower edges."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "21:4",
+      "title": "THE ROSE: TWELVE VARIETIES OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b21-c004.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b21-c004.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "8f637d617b0c31df951552253912bb075c44b29bd451bbcf7a060705a5ca0a0e",
+          "characters": 3277,
+          "words": 433
+        },
+        "english": {
+          "sha256": "d72248bf234a2791ffa93c832b42540aa11316757982b0b44903f35a965c0578",
+          "characters": 5982,
+          "words": 1086
+        }
+      },
+      "sha256": "158fa8320fbbaddcbbc1f3faa81ddadfdf846ae2816687b9ce5bc3660a10018c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b46206b5-0e25-48f3-8d71-06b8f8d5cdcd",
+      "outputArtifact": "built-in-imagegen://exec-b46206b5-0e25-48f3-8d71-06b8f8d5cdcd.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality botanical scene for Book XXI, chapter 4, “The Rose: Twelve Varieties of It,” showing Pliny's differences of petal number, colour, scent, thorn, climate, and cultivation.\nScene/backdrop: a complete curved rose bed in a Roman Campanian garden after dawn dew, with thin stony soil and fragments of old masonry worked into the earth as Pliny recommends.\nSubject: one complete Roman rose grower kneels centrally among four distinct, fully visible rose shrubs growing organically in the same bed: a brilliant red twelve-petaled Milesian rose, a paler five-petaled rose, a small white Alabandian rose, and a dense many-petaled centifolia. The grower gently cups the rough calyx of one bloom to judge its perfume. A second complete garden worker pours warm water from a small bronze vessel into a shallow trench around an unopened early rosebud. Keep every shrub crown, root area, thorny stem, vessel, figure, hand, and sandal fully inside the frame.\nStyle/medium: ancient Mediterranean botanical illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, very fine cross-hatching and stipple, dry-brush abrasion, translucent mineral washes with selectively burnished petals.\nComposition/framing: one unified 3:2 landscape, pulled-back garden view with the complete bed occupying the central two-thirds and open paving and sky surrounding it.\nLighting/mood: fresh morning, sensuous but empirical, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder red, dusty rose, chalk white, and ochre.\nConstraints: historically plausible Roman dress, vessel, garden, and cultivation; botanically credible roses with clearly varied petals and thorns; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, signature, logo, watermark, modern hybrid tea roses, plastic, modern tools, photography, glossy CGI, border, panel, grid, catalogue layout, collage, duplicated blooms, malformed hands, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b46206b5-0e25-48f3-8d71-06b8f8d5cdcd",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: four distinct complete rose shrubs, both complete workers, warm-water vessel, and bounded bed are edge-safe; incidental background canopy only reaches the frame; no text, collage, or repeated frame.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "21:13",
+      "title": "POISONED HONEY, AND THE REMEDIES TO BE EMPLOYED BY THOSE WHO HAVE EATEN OF IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b21-c013.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b21-c013.png",
+      "corpusArtifact": "public/corpus/book-21.bb057cd0d683e030.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "29f79cc733e4ff7d2aea3a5278fd076ec242e7b07e1874c1c1145088f9d26a03",
+          "characters": 2244,
+          "words": 326
+        },
+        "english": {
+          "sha256": "2b3422317e671904d1d0ce295535cb4a31db0dc6ce205d75be7a51dddfad88d0",
+          "characters": 4345,
+          "words": 763
+        }
+      },
+      "sha256": "4d944046de7cdc435714958cc4c4feda52b628fe182952d99e0836c0cb3a3c2b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-2a2814a5-0e4b-4091-ac49-c43cf67a3390",
+      "outputArtifact": "built-in-imagegen://exec-2a2814a5-0e4b-4091-ac49-c43cf67a3390.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scene for Book XXI, chapter 13, on the poisoned “mad honey” of Pontus, grounded in Pliny's account of bees feeding on rain-soaked aegolethron and rhododendron blossoms near Heraclea.\nScene/backdrop: a damp spring clearing in the forested hills of ancient Pontus. Build the entire narrative as a compact central island with a wide ring of bare wet ground, mist, and pale sky around it.\nSubject: In the middle distance, one complete Pontic beekeeper kneels beside one complete opened honeycomb and tips a shallow bronze tasting bowl so unusually thin reddish honey visibly runs. He turns slightly from its sharp scent, alert and unharmed. To his left, one small complete flowering rhododendron shrub rises from a clearly bounded patch of earth; every root base, branch tip, glossy leaf, and pink blossom is visible with empty ground between the shrub and all four image edges. Bees move naturally from this single shrub to two complete woven beehives under a small shelter. One complete goat stands farther back. Keep the beekeeper, hands, feet, comb, bowl, honey stream, shrub, both hives, shelter, and goat entirely inside the central 70% of the frame.\nStyle/medium: ancient Mediterranean natural-history illumination on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, bee and comb stipple, dry-brush forest texture, restrained translucent mineral-pigment washes.\nComposition/framing: one continuous 3:2 landscape, deliberately pulled far back; no foreground object may enter from an edge; broad unoccupied mist and ground form a safety margin on every side.\nLighting/mood: cool light after rain, beautiful but cautionary, quiet natural mystery, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, rhododendron madder, livid red-ochre honey, and chalk.\nConstraints: historically plausible Pontic clothing, basketry hives, bronze bowl, forest, and apiculture; no person is poisoned or treated; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, skull symbols, fantasy poison glow, signature, logo, watermark, modern bee boxes, protective suits, modern objects, photography, glossy CGI, border, panel, grid, collage, swarming horror, foreground crop, edge-touching foliage, malformed hands, or cropped focal subjects.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c58e5b62-42d6-48ab-a8f4-bf5a9d592118",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-2a2814a5-0e4b-4091-ac49-c43cf67a3390",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete central beekeeper, running red honey, comb, single fully bounded rhododendron shrub, two hives, shelter, and goat; generous clear margins; no text, collage, repeated frame, or cropped focal subject.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-c58e5b62-42d6-48ab-a8f4-bf5a9d592118",
+          "outputArtifact": "built-in-imagegen://exec-c58e5b62-42d6-48ab-a8f4-bf5a9d592118.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b21-c013-reject-01-plant-crop.png",
+          "sha256": "c58738f6c09d14ddee80645f053e736e9f84dca0732b309c85178257d6413f98",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scene for Book XXI, chapter 13, on the poisoned “mad honey” of Pontus, grounded in Pliny's account of bees feeding on rain-soaked aegolethron and rhododendron blossoms near Heraclea.\nScene/backdrop: a damp spring clearing in the forested hills of ancient Pontus, pink rhododendron blooming after rain beside two complete woven beehives under a simple shelter.\nSubject: one complete Pontic beekeeper kneels beside an opened honeycomb and tilts one shallow bronze tasting bowl so unusually thin reddish honey visibly runs rather than setting. The beekeeper turns his face slightly away from its sharp scent, alert but unharmed. Bees travel naturally between the wet rhododendron blossoms and hives. One complete goat stands calmly at a distance beyond the flowers, not eating them. Honeycomb, bowl, both hives, flowering shrubs, beekeeper, and goat are all fully inside the frame with generous breathing room.\nStyle/medium: ancient Mediterranean natural-history illumination on warm fibrous aged vellum; iron-gall contours, fine cross-hatching, bee and comb stipple, dry-brush forest texture, restrained mineral-pigment washes.\nComposition/framing: one continuous 3:2 landscape, low oblique view linking flower, bee, comb, and observing beekeeper without diagrams or symbols; broad misty air and bare ground at edges.\nLighting/mood: cool light after rain, beautiful but cautionary, quiet natural mystery, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, rhododendron madder, livid red-ochre honey, and chalk.\nConstraints: historically plausible Pontic clothing, basketry hives, bronze bowl, forest, and apiculture; no person is poisoned or treated; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, skull symbols, fantasy poison glow, signature, logo, watermark, modern bee boxes, protective suits, modern objects, photography, glossy CGI, border, panel, grid, collage, swarming horror, malformed hands, or cropped focal subjects.",
+          "reason": "Rejected after original-resolution QA: the flowering rhododendron, a causal focal subject in the mad-honey narrative, was cut off by the left and lower image edges."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "22:1",
+      "title": "PLANTS USED BY NATIONS FOR THE ADORNMENT OF THE PERSON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b22-c001.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b22-c001.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "10f52bba9ba7a8036bc4e3f7f1bdc9b68cd93d5e036afbdb9fe6537b4921f53e",
+          "characters": 819,
+          "words": 108
+        },
+        "english": {
+          "sha256": "585df62b0127b78bec136a06f4607e0ae4c562845464d4f79c718b475a02b751",
+          "characters": 1523,
+          "words": 269
+        }
+      },
+      "sha256": "30f4a213a9fbbaee8aeb7e248548ed36724896fa068b1fbfce9baff82a4b69f0",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-656ddafc-4bfd-4ec8-a353-7b232be306fb",
+      "outputArtifact": "built-in-imagegen://exec-656ddafc-4bfd-4ec8-a353-7b232be306fb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a dignified museum-quality scene for Book XXII, chapter 1, “Plants Used by Nations for the Adornment of the Person,” grounded in Pliny's report of glastum, a plant resembling plantain, used for blue body colour in ancient Britain.\nScene/backdrop: a small, completely visible Iron Age British roundhouse and its sheltered courtyard at morning, centered in a broad misty field. The roundhouse roof, walls, doorway, and timber posts must all have sky or ground between them and the image edges.\nSubject: two complete adult British women in historically plausible wool garments prepare for a communal rite without nudity. One calmly applies a restrained blue-green plant stain in a simple flowing pattern to the other's forearm and cheek using a small bone applicator; the other holds a complete shallow wooden bowl of freshly crushed leaves. Beside them is one small, clearly bounded oval garden bed containing a complete patch of glastum or woad-like plants; every leaf and the entire earth boundary are visible. A complete stone mortar stands nearby. Their interaction is collaborative and dignified. Keep both full-body figures, hands, feet, garments, plant bed, mortar, bowl, applicator, and entire roundhouse within the central 70% of the image.\nStyle/medium: ancient natural-history illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush wool and timber, restrained translucent mineral pigments.\nComposition/framing: one unified 3:2 landscape, camera pulled far back, a wide quiet margin of empty grass, mist, and sky surrounding the compact scene; no foreground object enters from any edge.\nLighting/mood: quiet ritual preparation, mutual care, historically grounded, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis blue-green stain, madder, chalk, and ochre.\nConstraints: respectful adult subjects, period-plausible Iron Age British clothing, tools, roundhouse, and plant preparation; single continuous scene; output a 1536x1024-style landscape PNG master.\nAvoid: nudity, sexualization, war paint cliché, racial caricature, text, labels, runes, numerals, pseudo-writing, signature, logo, watermark, modern Celtic fantasy, modern objects, photography, glossy CGI, border, panel, grid, collage, duplicated figures, edge crop, stray cut-off objects, malformed hands, or cropped focal subjects.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-199cf208-8fa4-49c6-9908-0e1a0d17860e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-656ddafc-4bfd-4ec8-a353-7b232be306fb",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: two complete, dignified adult women, complete bounded glastum bed, mortar and bowls, and entire roundhouse fit with ample misty-field margins; no text, spectacle, collage, repeated frame, or cropped focal subject.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-199cf208-8fa4-49c6-9908-0e1a0d17860e",
+          "outputArtifact": "built-in-imagegen://exec-199cf208-8fa4-49c6-9908-0e1a0d17860e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b22-c001-reject-01-plant-architecture-crop.png",
+          "sha256": "9ecf96a2ad1da6957fc162dde16f6e9c303208cfa4cabf5df51e364b45794907",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a dignified museum-quality scene for Book XXII, chapter 1, “Plants Used by Nations for the Adornment of the Person,” grounded in Pliny's report of glastum, a plant resembling plantain, used for blue body colour in ancient Britain.\nScene/backdrop: a sheltered Iron Age British roundhouse courtyard at morning, with a complete patch of glastum or woad-like plants, woven fence, timber posts, and misty green hills.\nSubject: two complete adult British women in historically plausible wool garments prepare for a communal rite without nudity. One calmly applies a restrained blue-green plant stain in a simple flowing pattern to the other's forearm and cheek using a small bone applicator; the other holds a complete shallow wooden bowl of freshly crushed leaves. Their interaction is collaborative and dignified. A complete plant patch, stone mortar, bowl, applicator, both full-body figures, hands, feet, garments, and architecture remain fully inside the frame.\nStyle/medium: ancient natural-history illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush wool and timber, restrained translucent mineral pigments.\nComposition/framing: one unified 3:2 landscape, figures centered but modest in scale, wide breathing room of courtyard and mist on every edge; no spectacle or exoticizing pose.\nLighting/mood: quiet ritual preparation, mutual care, historically grounded, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis blue-green stain, madder, chalk, and ochre.\nConstraints: respectful adult subjects, period-plausible Iron Age British clothing, tools, roundhouse, and plant preparation; single continuous scene; output a 1536x1024-style landscape PNG master.\nAvoid: nudity, sexualization, war paint cliché, racial caricature, text, labels, runes, numerals, pseudo-writing, signature, logo, watermark, modern Celtic fantasy, modern objects, photography, glossy CGI, border, panel, grid, collage, duplicated figures, malformed hands, or cropped focal subjects.",
+          "reason": "Rejected after original-resolution QA: the required glastum patch ran out of the left/lower edges and the roundhouse architecture was cut off at the top/right, contrary to the complete-scene framing requirement."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "22:25",
+      "title": "THE VARIOUS KINDS OF MEAL: TWENTY-EIGHT REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b22-c025.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b22-c025.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "428a995bca6a80b51bbc3b9ed90321171ec5d7024410c9fc3a5dddea7ab74980",
+          "characters": 18089,
+          "words": 2581
+        },
+        "english": {
+          "sha256": "793bf5464ab7b6fe9193a6aae6e85e1976a28efdc2b4e0e7972c29a32f7edd87",
+          "characters": 28017,
+          "words": 4903
+        }
+      },
+      "sha256": "398bd3af841b3d6d095bbe9797f4f58baf6ffdc1dba7f2f98c2aebe35780b3c5",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ba467bdb-8c15-4066-9e48-153214ed6612",
+      "outputArtifact": "built-in-imagegen://exec-ba467bdb-8c15-4066-9e48-153214ed6612.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scene for Book XXII, chapter 25, “The Various Kinds of Meal: Twenty-Eight Remedies,” centered on Pliny's vivid anecdote of Sextus Pomponius finding relief while overseeing the winnowing in his granary.\nScene/backdrop: a spacious Roman granary with timber roof, plastered walls, complete grain bins, hand quern, winnowing basket, and shafts of dusty afternoon light.\nSubject: one complete dignified older Roman overseer sits on a low stool and rests both bare lower legs in one shallow, fully bounded mound of clean wheat, looking surprised by the relief. A complete granary worker nearby winnows grain from a broad basket, while a second complete worker turns a hand quern; separate small bowls of pale wheat meal, tawny barley meal, millet, and polenta rest on a complete low bench. The scene documents grain knowledge without showing wounds or treatment apparatus.\nStyle/medium: ancient Roman agricultural and materia-medica illumination on warm fibrous aged vellum; iron-gall contours, dense grain stipple, fine cross-hatching, dusty dry-brush abrasion, restrained mineral pigments.\nComposition/framing: one continuous 3:2 landscape, pulled back to show every full-body figure, complete mound, bench, bowls, quern, baskets, bins, and roof supports with clear space around all edges.\nLighting/mood: warm granary light, humane curiosity, tactile abundance, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, ochre grain, muted verdigris, faded lapis shadow, and quiet madder.\nConstraints: historically plausible Roman dress, granary, grain processing, quern, baskets, and vessels; single coherent scene; output a 1536x1024-style landscape PNG master.\nAvoid: text, labels, numerals, pseudo-writing, medical gore, distressed patient, modern machinery, sacks with printing, signature, logo, watermark, photography, glossy CGI, border, panel, grid, collage, duplicated people, malformed limbs, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ba467bdb-8c15-4066-9e48-153214ed6612",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: overseer, bounded grain mound, both workers, quern, baskets, bins, complete bench, and four bowls are fully visible and coherent; no text, collage, repeated frame, or cropped focal subject.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "25:2",
+      "title": "THE LATIN AUTHORS WHO HAVE WRITTEN UPON THESE PLANTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b25-c002.png",
+      "supersedesAtlasSourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b25-c002.png",
+      "corpusArtifact": "public/corpus/book-25.1c36758dd194a4e7.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "3d6f7474de5bcb51194310b266a9574bcc25a642c699222a21334ff7e750bab7",
+          "characters": 7065,
+          "words": 962
+        },
+        "english": {
+          "sha256": "4a92f214ea811d2a8981c3913bf8e857a3e2b2121f7268aae17daea948722de8",
+          "characters": 13582,
+          "words": 2385
+        }
+      },
+      "sha256": "759c76232cb6ef71444b217c6859d14fd15b6e97f16fcce5f6125268a07fac1d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-575a5d79-90c8-4585-a94e-5331acc4a777",
+      "outputArtifact": "built-in-imagegen://exec-575a5d79-90c8-4585-a94e-5331acc4a777.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scholarly scene for Book XXV, chapter 2, “The Latin Authors Who Have Written Upon These Plants,” grounded in Pliny's account of Pompeius Lenaeus translating King Mithridates' collected botanical observations into Latin after Pompey's victory.\nScene/backdrop: a quiet Roman garden-library court with pale paving and wall, where small trays of living and dried medicinal plants from Pontus stand beside a compact cabinet of closed scrolls and sealed wooden boxes.\nSubject: one complete middle-aged Roman grammarian-naturalist, Lenaeus, sits at one small, completely visible four-legged writing desk comparing a living herb, a dried specimen, and a wordless botanical painting of the same plant. His stylus pauses above a completely smooth blank wax tablet with no marks. One complete assistant approaches with a closed scroll cylinder. Every desk corner and leg, both figures from head to sandal, hands, plants, specimens, cabinet, scrolls, tablet, and painting board must fit inside the central 70% with visible paving beneath them.\nStyle/medium: ancient Mediterranean scholarly natural-history illumination on warm fibrous aged vellum; iron-gall contours, meticulous botanical cross-hatching and stipple, scraped passages, restrained mineral pigments.\nComposition/framing: one unified 3:2 landscape, camera pulled significantly back; diagonal from garden specimens to scholar and cabinet, surrounded on every side by generous quiet paving, garden air, and pale wall. No foreground furniture or planting may touch an edge.\nLighting/mood: lucid shaded daylight, attentive translation and stewardship, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk.\nConstraints: historically plausible late-Republican Roman dress, furniture, closed scrolls, wax tablet, specimen handling, and garden architecture; no visible writing; output a 1536x1024-style landscape PNG master.\nAvoid: any words, letters, numerals, labels, pseudo-writing, readable scrolls, map, signature, logo, watermark, modern books, modern instruments, photography, glossy CGI, border, panel, grid, collage, conquest scene, duplicated person, malformed hands, edge-touching desk, foreground crop, or cropped focal subjects.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-3f773fb1-ddb0-4e81-94f1-365d23a9910d",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-575a5d79-90c8-4585-a94e-5331acc4a777",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: Lenaeus, assistant, compact cabinet, smooth blank tablet, specimens, and complete four-legged desk are all fully visible with paving below; no visible writing, collage, repeated frame, or crop.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-3f773fb1-ddb0-4e81-94f1-365d23a9910d",
+          "outputArtifact": "built-in-imagegen://exec-3f773fb1-ddb0-4e81-94f1-365d23a9910d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b25-c002-reject-01-desk-crop.png",
+          "sha256": "94de7768462dc6658ee1d4c7feab8244cad58e52985e43933fc5b6d09af6e948",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality scholarly scene for Book XXV, chapter 2, “The Latin Authors Who Have Written Upon These Plants,” grounded in Pliny's account of Pompeius Lenaeus translating King Mithridates' collected botanical observations into Latin after Pompey's victory.\nScene/backdrop: a quiet Roman garden-library court, where trays of living and dried medicinal plants from Pontus stand beside a compact cabinet of closed scrolls and sealed wooden boxes.\nSubject: one complete middle-aged Roman grammarian-naturalist, Lenaeus, sits at one fully visible modest writing desk comparing a living herb, a dried specimen, and a small wordless botanical painting of the same plant. His stylus is paused above a completely smooth blank wax tablet with no marks visible. One complete assistant brings a closed scroll cylinder from the botanical cabinet. All desk legs, figures, hands, feet, plants, specimens, cabinet, closed scrolls, tablet, and painting board remain fully inside the frame; the emphasis is careful transmission of knowledge, not conquest.\nStyle/medium: ancient Mediterranean scholarly natural-history illumination on warm fibrous aged vellum; iron-gall contours, meticulous botanical cross-hatching and stipple, scraped passages, restrained mineral pigments.\nComposition/framing: one unified 3:2 landscape, diagonal from garden specimens to scholar and cabinet, generous quiet paving and pale wall around every focal element.\nLighting/mood: lucid shaded daylight, attentive translation and stewardship, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk.\nConstraints: historically plausible late-Republican Roman dress, furniture, closed scrolls, wax tablet, specimen handling, and garden architecture; no visible writing; output a 1536x1024-style landscape PNG master.\nAvoid: any words, letters, numerals, labels, pseudo-writing, readable scrolls, map, signature, logo, watermark, modern books, modern instruments, photography, glossy CGI, border, panel, grid, collage, conquest scene, duplicated person, malformed hands, or cropped focal subjects.",
+          "reason": "Rejected after original-resolution QA: the focal writing desk and its legs were clipped by the lower frame instead of appearing fully visible."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "25:8",
+      "title": "TWO VARIETIES OF THE PLANTAGO: FORTY-SIX REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b25-c008.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/wild-plants-animal-remedies-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-25.1c36758dd194a4e7.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "83fd67e45c764b846dab38698167a9243e5d0281509a05ab0cb3c25c550c6b32",
+          "characters": 8946,
+          "words": 1241
+        },
+        "english": {
+          "sha256": "733e2febc0a09aa895c4148406be4ead552884e1a6717923cda4ef3105e0194f",
+          "characters": 16362,
+          "words": 2902
+        }
+      },
+      "sha256": "37318ed2f870997e94d465ba3686d94819c9e118809cb999aa0048f832c492ee",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-d04103ce-657b-47b1-af84-c7bb4e58a7fc",
+      "outputArtifact": "built-in-imagegen://exec-d04103ce-657b-47b1-af84-c7bb4e58a7fc.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality botanical scene for Book XXV, chapter 8, “Two Varieties of the Plantago: Forty-Six Remedies,” making Pliny's two plantain forms visibly distinct.\nScene/backdrop: a damp Roman meadow garden beyond a modest villa herb court, after light rain, with one small bounded planting bed centered in open ground.\nSubject: one complete Roman herbal physician kneels at the central bed, comparing two complete botanically credible plantains that grow side by side: a smaller narrow-leaved dark plantain with compact flower spikes, and a larger broad-leaved plantain with seven strongly visible parallel ribs and taller seed spikes. A complete assistant holds a shallow basket containing a few clean plantain leaves and roots. A small stone mortar and plain ceramic cup rest wholly on the ground nearby. Every leaf tip, root crown, flower spike, figure, hand, sandal, basket, mortar, and cup is fully visible.\nStyle/medium: ancient Mediterranean botanical illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, meticulous leaf-rib cross-hatching, seed stipple, dry-brush abrasion, restrained translucent mineral washes.\nComposition/framing: one unified 3:2 landscape, camera pulled back; compact subjects in the central 70%, surrounded on every side by pale meadow, air, and empty ground.\nLighting/mood: lucid after-rain daylight, empirical comparison, healing knowledge held with restraint, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre, and chalk.\nConstraints: historically plausible Roman dress, vessels, plant gathering, and garden; accurate plantain rather than banana; output a 1536x1024-style landscape PNG master.\nAvoid: bananas, tropical foliage, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern clinical objects, modern tools, photography, glossy CGI, border, panel, grid, collage, duplicated plant, giant specimen, malformed hands, foreground crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d04103ce-657b-47b1-af84-c7bb4e58a7fc",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: the narrow and broad seven-ribbed plantains are visibly distinct and complete, with both figures, basket, mortar, cup, and bounded bed edge-safe; no banana morphology, text, collage, or crop.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "25:10",
+      "title": "EBULUM; SIX REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b25-c010.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/wild-plants-animal-remedies-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-25.1c36758dd194a4e7.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "1a0184da0e6bbd73abcf133d905c3f195841b1a15c2c72c486c17bf14b7940da",
+          "characters": 4063,
+          "words": 557
+        },
+        "english": {
+          "sha256": "171e48e0f8a00f794a04f36f7c632800011f1baca819e5139093a9661d35f826",
+          "characters": 7328,
+          "words": 1291
+        }
+      },
+      "sha256": "961103a0b7c21a89e26ff0f6546bf79c4994ce8c4eb3a91b38a4c233541d2d75",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-67e4f63a-383c-4731-907a-54565ace2085",
+      "outputArtifact": "built-in-imagegen://exec-67e4f63a-383c-4731-907a-54565ace2085.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality materia-medica scene for Book XXV, chapter 10, “Ebulum; Six Remedies,” centered on the dwarf elder and Pliny's practical account of its uses.\nScene/backdrop: a quiet Roman country-house herb court opening onto scrubby ground, with a single complete clump of dwarf elder, Sambucus ebulus, growing in a clearly bounded patch.\nSubject: one complete elderly herbalist kneels beside the complete low elder clump, whose herbaceous upright stems carry opposite serrated leaves, flat pale flower clusters, and a few dark berries. He places a small handful of dried leaves onto one fully visible clay brazier; a thin, believable trail of smoke drifts toward one complete snake that calmly retreats across open paving, illustrating fumigation without violence. A complete younger assistant holds a shallow basket of gathered roots and leaves. Keep every plant stem, root base, flower, berry cluster, figure, hand, sandal, basket, brazier, smoke source, and snake within the central 70%.\nStyle/medium: ancient Mediterranean botanical and domestic illumination on warm fibrous aged vellum; iron-gall contours, botanical cross-hatching and stipple, smoky dry-brush texture, restrained mineral-pigment washes.\nComposition/framing: one continuous 3:2 landscape, deliberately pulled back, a compact causal triangle of plant, brazier, and retreating snake surrounded by broad empty paving and air.\nLighting/mood: warm late-afternoon quiet, practical household knowledge, no spectacle, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, dark madder berries, ochre, and chalk.\nConstraints: historically plausible Roman clothing, brazier, basket, villa court, and botanically credible dwarf elder; output a 1536x1024-style landscape PNG master.\nAvoid: tree-sized elder, black-magic ritual, fantasy smoke, attacking snake, injury, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern objects, photography, glossy CGI, border, panel, grid, collage, duplicated figures, edge-touching foliage, foreground crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-67e4f63a-383c-4731-907a-54565ace2085",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete dwarf elder clump, herbalist, assistant, brazier, smoke source, and retreating snake form one coherent edge-safe scene; no fantasy effect, text, collage, or crop.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "26:3",
+      "title": "THE NEW SYSTEM OF MEDICINE: ASCLEPIADES THE PHYSICIAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b26-c003.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/wild-plants-animal-remedies-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-26.1a168b76f17c18bd.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "d05e5f3816033d557b722c4e8ace094f60077cb93d2bd9f3e16c4729bd44eb64",
+          "characters": 2276,
+          "words": 314
+        },
+        "english": {
+          "sha256": "e122c0500c93d00bfa37142d614db2702339bf0777c613073e10ce9279fc612c",
+          "characters": 5014,
+          "words": 852
+        }
+      },
+      "sha256": "56389ec1ae7309a2a549cac27922060ce6b22782ea09e6eb6ed2d6f6b9b54bf5",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-84f0ce3b-251c-42ea-bd2b-adf1abedea2d",
+      "outputArtifact": "built-in-imagegen://exec-84f0ce3b-251c-42ea-bd2b-adf1abedea2d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality historical scene for Book XXVI, chapter 3, “The New System of Medicine: Asclepiades the Physician,” portraying his gentler regimen of movement, friction, measured drink, suspended rest, and bathing as one coherent Roman garden practice.\nScene/backdrop: an open late-Republican Roman garden court. Place a small freestanding portico pavilion entirely in the middle distance, with abundant pale paving, sky, and garden visible beyond every side of it.\nSubject: Asclepiades, one complete Greek physician in modest Roman-era dress, walks slowly beside one complete recovering adult patient and steadies the patient's forearm. One complete attendant follows with a folded rubbing cloth and a small cup of watered wine. Behind them, wholly inside the pavilion, is one small complete suspended woven bed: both short ends, all four suspension ropes, and the entire mattress visible with empty wall around it. A small round cold-water basin stands separately on the paving. Keep all three people, hands, feet, cup, cloth, basin, complete bed, and ropes inside the central 65% of the image.\nStyle/medium: ancient Mediterranean medical-history illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, fine anatomical cross-hatching, stipple, scraped architectural passages, restrained translucent mineral washes.\nComposition/framing: one continuous 3:2 landscape, very wide pulled-back view; subjects form a compact central procession; broad unoccupied paving and garden air create a strong safety margin on all four edges. No object enters from an edge.\nLighting/mood: calm lucid morning, humane confidence tempered by Pliny's critical gaze, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre, and chalk.\nConstraints: historically plausible Hellenistic-Roman dress, pavilion, cup, woven suspended bed, bath basin, and medical demeanor; dignified adult patient; output a 1536x1024-style landscape PNG master.\nAvoid: miracle resurrection, operating theatre, hospital, stethoscope, modern medicine, text, labels, numerals, pseudo-writing, signature, logo, watermark, photography, glossy CGI, border, panel, grid, collage, five separate vignettes, duplicated people, malformed limbs, edge crop, edge-touching furniture, or cropped focal subjects.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5d5d04e6-2d27-4913-84fc-9c801dc70d7f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-84f0ce3b-251c-42ea-bd2b-adf1abedea2d",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete central pavilion, full suspended bed and ropes, basin, Asclepiades, patient, and attendant all sit within broad paving and sky margins; no text, collage, repeated frame, or crop.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-5d5d04e6-2d27-4913-84fc-9c801dc70d7f",
+          "outputArtifact": "built-in-imagegen://exec-5d5d04e6-2d27-4913-84fc-9c801dc70d7f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b26-c003-reject-01-bed-crop.png",
+          "sha256": "db5c577678624454318a197354d4dd83a7764a6180f73be99bcb7b00d5519efa",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality historical scene for Book XXVI, chapter 3, “The New System of Medicine: Asclepiades the Physician,” portraying his gentler regimen of movement, friction, measured drink, suspended rest, and bathing as a coherent practice rather than a diagram.\nScene/backdrop: a spacious late-Republican Roman garden portico with pale paving, one small cold-water basin, and one simple suspended woven bed visible in the shaded background.\nSubject: Asclepiades, shown as one complete Greek physician in modest Roman-era dress, walks slowly beside one complete recovering adult patient and steadies the patient's forearm while encouraging measured movement. A complete attendant waits nearby with a folded rubbing cloth and one small cup of watered wine, not actively treating anyone. The suspended bed and basin remain secondary environmental evidence of the regimen. All three figures, hands, feet, cup, cloth, basin, bed, ropes, and portico furniture are fully inside the frame.\nStyle/medium: ancient Mediterranean medical-history illumination elevated to museum art; warm fibrous aged vellum; iron-gall contours, fine anatomical cross-hatching, stipple, scraped architectural passages, restrained translucent mineral washes.\nComposition/framing: one unified 3:2 landscape, pulled-back central procession with broad quiet portico and garden air on every edge; one moment, not a sequence or catalogue.\nLighting/mood: calm lucid morning, humane confidence tempered by Pliny's critical gaze, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre, and chalk.\nConstraints: historically plausible Hellenistic-Roman dress, portico, cup, suspended bed, bath basin, and medical demeanor; dignified adult patient; output a 1536x1024-style landscape PNG master.\nAvoid: miracle resurrection, operating theatre, hospital, stethoscope, modern medicine, text, labels, numerals, pseudo-writing, signature, logo, watermark, photography, glossy CGI, border, panel, grid, collage, five separate vignettes, duplicated people, malformed limbs, edge crop, or cropped focal subjects.",
+          "reason": "Rejected after original-resolution QA: the suspended bed, explicitly required as complete evidence of Asclepiades' regimen, was sliced by the right frame edge."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:7",
+      "title": "ALGA RUFA OR RED SEA-WEED: ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b27-c007.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/aquatic-materia-medica-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "849938a199bb4d9805a7b186c9157d65c655bdd9bf0cc8dda8305fc40cf4d25f",
+          "characters": 4287,
+          "words": 610
+        },
+        "english": {
+          "sha256": "e39f93b550c2d96e9c5e5921f2cc726af0621dd60e90cdc7bc3b2b92c3a5cc7b",
+          "characters": 7204,
+          "words": 1285
+        }
+      },
+      "sha256": "a616173495e7eab5ea228f6436e7f37096c52683cd98025d31e3fa93ab81ec36",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5c1f2d2f-970a-4a75-9f28-03b22700c4d8",
+      "outputArtifact": "built-in-imagegen://exec-5c1f2d2f-970a-4a75-9f28-03b22700c4d8.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality coastal materia-medica scene for Book XXVII, chapter 7, “Alga Rufa or Red Sea-Weed: One Remedy,” showing the red seaweed and its restrained use after a scorpion sting.\nScene/backdrop: a calm rocky Mediterranean tidal cove at low water, with clear shallows and one complete shallow bronze basin set on dry stone above the tide.\nSubject: one complete shore herbalist kneels beside one complete seated adult traveler and gently lays a clean red-seaweed compress across the traveler's forearm. The skin is intact with only a tiny localized red mark; no wound or distress. Fresh crimson and madder-red branching seaweed is clearly visible both in the basin and as one complete living tuft attached to a submerged rock nearby. A single small scorpion remains distant on bare stone as contextual evidence, not a threat. Keep both figures, all limbs, basin, compress, living seaweed tuft, rock, and scorpion entirely within the central 70%.\nStyle/medium: ancient Mediterranean coastal natural-history illumination on warm fibrous aged vellum; iron-gall contours, delicate marine cross-hatching, salt and water stipple, dry-brush rock texture, restrained translucent mineral washes.\nComposition/framing: one continuous 3:2 landscape, pulled back with a generous surround of quiet water, shoreline, sky, and empty stone; no split water panel and no foreground crop.\nLighting/mood: clear coastal morning, careful relief and empirical observation, calm and humane, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis water, madder and red ochre seaweed, chalk, and ochre.\nConstraints: historically plausible Roman-era clothing, basin, shoreline, and non-graphic treatment; biologically plausible red seaweed; output a 1536x1024-style landscape PNG master.\nAvoid: gore, open wound, giant scorpion, fantasy coral, merpeople, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern medicine, photography, glossy CGI, border, panel, grid, collage, repeated figure, malformed hands, edge crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-5c1f2d2f-970a-4a75-9f28-03b22700c4d8",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete healer and seated traveler, basin, compress, living red-seaweed tuft, distant contextual scorpion, and tidal cove are coherent and non-graphic; no text, collage, repeated frame, or crop.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:13",
+      "title": "THE SOLANUM, BY THE GREEKS CALLED STRYCHNON: TWO REMEDIAL PROPERTIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b27-c013.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/wild-plants-animal-remedies-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "6eebec28d4440c64e4bacf3e2187d45bd584af64c064b4c5f99cfce3e5c26295",
+          "characters": 5732,
+          "words": 802
+        },
+        "english": {
+          "sha256": "f77d4092722a2e26a6da51ee615e965cff4320cb3aff742c00a6572288df7aee",
+          "characters": 9284,
+          "words": 1592
+        }
+      },
+      "sha256": "228d63805d410a78ccb8e9f95373ec1d600f1243e9cf209b2a1bd3edcf6d4505",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-54ee2014-c378-426e-b908-9c6a979208f2",
+      "outputArtifact": "built-in-imagegen://exec-54ee2014-c378-426e-b908-9c6a979208f2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality botanical scene for Book XXVII, chapter 13, “The Solanum, by the Greeks Called Strychnon: Two Remedial Properties,” depicting Pliny's cultivated medicinal nightshade without confusing it with deadly belladonna.\nScene/backdrop: a shaded Roman kitchen-herb garden at midday, with one small circular planting bed centered on pale paving.\nSubject: one complete botanically credible black nightshade plant, Solanum nigrum, grows wholly inside the bounded bed: branching green stems, ovate leaves, small white star-shaped flowers with yellow centers, and modest clusters of pea-sized black berries. One complete Roman herbalist kneels beside it and grinds a few leaves in a shallow stone mortar; a complete seated adult nearby receives a cool leaf poultice on one forearm with mild redness only. Keep plant crown, root base, every branch tip, both figures, hands, feet, mortar, pestle, bowl, and poultice entirely inside the central 70%.\nStyle/medium: ancient Mediterranean botanical and materia-medica illumination on warm fibrous aged vellum; iron-gall contours, meticulous leaf and flower cross-hatching, berry stipple, dry-brush abrasion, restrained mineral pigments.\nComposition/framing: one unified 3:2 landscape, compact central triangle of living plant, preparation, and gentle application, surrounded by broad empty paving, shadow, and garden air.\nLighting/mood: cool shaded stillness, accurate and cautious, healing knowledge without sensational poison imagery, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis shadow, quiet madder, ochre, chalk, and natural black berries.\nConstraints: use black nightshade morphology, not belladonna; historically plausible Roman clothing, garden, mortar, and bowl; non-graphic; output a 1536x1024-style landscape PNG master.\nAvoid: purple bell-shaped belladonna flowers, giant berries, skulls, poison symbols, magical glow, distress, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern medicine, photography, glossy CGI, border, panel, grid, collage, duplicated plant or person, malformed hands, edge crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-54ee2014-c378-426e-b908-9c6a979208f2",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete black-nightshade plant with white star flowers and black berries, bounded bed, herbalist, patient, mortar, and poultice are fully visible; no belladonna morphology, poison cliché, text, collage, or crop.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:1",
+      "title": "REMARKABLE FACTS CONNECTED WITH WATER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b31-c001.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/aquatic-materia-medica-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "b82838e5ff1f1571eb1688aca3a874a9df63586ce7be7c8e82cf9054d57ee5e2",
+          "characters": 1067,
+          "words": 145
+        },
+        "english": {
+          "sha256": "f9fcf2aca913bbe85a44f22daad426bb24efc18891882f584f3a35f7ff86b959",
+          "characters": 1783,
+          "words": 315
+        }
+      },
+      "sha256": "b1a5c02c44aadba1f746b821e42bf701265b7be43f7b0ba75d5c7e332462e897",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9eea8e94-9724-4473-9cfa-0058b621830b",
+      "outputArtifact": "built-in-imagegen://exec-9eea8e94-9724-4473-9cfa-0058b621830b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality natural-philosophy landscape for Book XXXI, chapter 1, “Remarkable Facts Connected with Water,” presenting water as the living connective element of the Roman world.\nScene/backdrop: one continuous elevated Mediterranean watershed after a storm: pale rain falls from a complete retreating cloud over distant wooded hills, gathers into a spring and winding river, passes cultivated fields and a small Roman aqueduct, then opens into a calm sea on the horizon.\nSubject: water itself is the protagonist. One complete Roman naturalist stands modestly on a dry central overlook, watching a shepherd guide two complete sheep to a clear spring below. The river, rain, spring, cultivated earth, aqueduct, and sea follow one believable topography and atmosphere, not separate examples. Keep cloud, naturalist, shepherd, sheep, spring source, visible aqueduct span, and river mouth fully within the frame.\nStyle/medium: ancient Mediterranean natural-history landscape on warm fibrous aged vellum; iron-gall contours, very fine topographic cross-hatching, rain and water stipple, dry-brush earth, restrained translucent mineral washes.\nComposition/framing: one unified 3:2 panoramic landscape, pulled far back with a long diagonal watershed and generous vellum-like sky and foreground breathing room on every edge.\nLighting/mood: clearing storm light, lucid wonder without supernatural spectacle, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis water and sky, quiet madder, ochre, and chalk.\nConstraints: historically and geographically plausible Roman Mediterranean landscape, clothing, husbandry, and small aqueduct; continuous natural scene; output a 1536x1024-style landscape PNG master.\nAvoid: map, diagram, arrows, labeled water cycle, allegorical goddess, flood disaster, fantasy, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern dam, modern objects, photography, glossy CGI, border, panel, grid, collage, duplicated landscape, edge crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9eea8e94-9724-4473-9cfa-0058b621830b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: one continuous watershed coherently joins rain, spring, river, aqueduct, fields, and sea; naturalist, shepherd, and sheep are complete and edge-safe; no diagram, text, collage, or repeated frame.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:11",
+      "title": "SPONGES, AND THE REMEDIES DERIVED FROM THEM: NINETY-TWO OBSERVATIONS THEREON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b31-c011.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/aquatic-materia-medica-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "34143bb579c3ec7e19ccf1c99692a01218dd87ca8b3c2e977dccc10f3a1c0f4d",
+          "characters": 3932,
+          "words": 549
+        },
+        "english": {
+          "sha256": "33690b1cbc2281bba04a4add6e10964aaabe272592ead66c35d289e9e4f6fcea",
+          "characters": 7130,
+          "words": 1195
+        }
+      },
+      "sha256": "5d4602e684f34137178583f586419b00fc11e70939017cec2330f0a6181513f5",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-906cb7c0-0060-4dae-bc5e-1db97f67ba3e",
+      "outputArtifact": "built-in-imagegen://exec-906cb7c0-0060-4dae-bc5e-1db97f67ba3e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality coastal natural-history scene for Book XXXI, chapter 11, “Sponges, and the Remedies Derived from Them,” showing sponge gathering and careful preparation at a Lyician shore.\nScene/backdrop: a calm, crystal-clear shallow cove on the coast of ancient Lycia, with a low wooden skiff anchored wholly in the middle distance and sunlit rocks visible beneath the water.\nSubject: one complete experienced sponge diver works in waist-deep transparent water, bending to cut one natural honeycomb-textured sponge from a submerged rock with a small bronze knife. His full body remains visible through the clear water. On dry shore, one complete worker kneels beside a shallow basin and gently rinses two gathered sponges; a complete wicker basket holds a few other varied sponges. One seabird stands at a distance. Keep diver, submerged rock, attached sponge, knife, shore worker, basin, basket, sponges, skiff, oars, and anchor rope entirely inside the central 70%.\nStyle/medium: ancient Mediterranean coastal natural-history illumination on warm fibrous aged vellum; iron-gall contours, delicate marine cross-hatching, sponge and water stipple, salt-worn dry-brush texture, restrained translucent mineral washes.\nComposition/framing: one continuous 3:2 shore scene, pulled back; transparent shallows unite underwater and shore activity naturally without a split panel; generous sea, sky, and bare rock margins on every edge.\nLighting/mood: bright quiet morning, skilled observation and sustainable gathering, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, sponge ochres and madder, chalk, and pale sand.\nConstraints: historically plausible ancient Mediterranean diving, skiff, knife, basin, basket, and clothing; biologically plausible natural sponges; output a 1536x1024-style landscape PNG master.\nAvoid: scuba gear, diving helmet, synthetic sponge, coral fantasy, gore, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern boat, photography, glossy CGI, border, panel, grid, collage, duplicated person, malformed limbs, foreground crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-906cb7c0-0060-4dae-bc5e-1db97f67ba3e",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete shallow-water diver, attached sponge and knife, shore rinser, basin, basket, varied sponges, skiff, oars, rope, and seabird are fully visible; transparent water reads as one continuous scene, not a split frame.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:1",
+      "title": "THE POWER OF NATURE AS MANIFESTED IN ANTIPATHIES. THE ECHENEÏS: TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b32-c001.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/aquatic-materia-medica-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "8d8e86f4bdc199db4a2c62af5c2e920c1f016ca294dc7175dc7dd7472e975da3",
+          "characters": 4286,
+          "words": 624
+        },
+        "english": {
+          "sha256": "7427346b9a3434ef323d0167332a7d3a4e47686d654a5889b4d71cf565246de3",
+          "characters": 8127,
+          "words": 1460
+        }
+      },
+      "sha256": "4e3b6155975138cbc3d4edb93c0b305e48b232d448f39d1ddb822f4470580dd8",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-a3d52990-6d55-4c8b-8d28-a8d3798b68ef",
+      "outputArtifact": "built-in-imagegen://exec-a3d52990-6d55-4c8b-8d28-a8d3798b68ef.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality marine scene for Book XXXII, chapter 1, “The Power of Nature as Manifested in Antipathies. The Echeneïs,” visualizing Pliny's famous remora stopping a vessel while keeping fish and vessel plausible.\nScene/backdrop: a broad calm Mediterranean roadstead seen from a slightly elevated oblique viewpoint; distant cliffs and two tiny far-off sailing boats show that wind continues.\nSubject: Place one small complete Roman merchant galley in exact profile in the middle of the image. Its entire hull from sternpost to prow, complete rudder blade, full short mast from deck to tip, compact rectangular sail, yard, rigging, and all crew must fit inside the central 60%, with a clear ring of sea and sky around every extremity. Use a modest short mast and compact sail so nothing approaches the top edge. One complete sailor leans safely over the stern and points down. Through exceptionally clear water beside the rudder, one realistically small grey-brown remora is visibly attached to the rudder blade; its elongated body and oval ridged suction disc on top of its head are anatomically clear. Use contrast and water clarity—not oversized scale—to make the fish legible.\nStyle/medium: ancient Mediterranean marine natural-history illumination on warm fibrous aged vellum; iron-gall contours, fine hull and fish cross-hatching, water stipple, dry-brush sail and weathering, restrained translucent mineral washes.\nComposition/framing: one continuous 3:2 landscape, very wide pulled-back view; the entire ship forms a compact central silhouette above the visible fish, with at least 15% empty margin on all four sides; no cutaway, inset, or diagram.\nLighting/mood: taut stillness and empirical wonder, mysterious without magic, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, quiet madder sail details, ochre, and chalk.\nConstraints: historically plausible Roman merchant galley and rigging; anatomically plausible remora with dorsal suction disc; output a 1536x1024-style landscape PNG master.\nAvoid: mast or sail touching the frame, cropped ship, giant fish, shark, eel, tentacle, magical aura, chain or rope from fish, shipwreck, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern vessel, photography, glossy CGI, border, panel, grid, collage, technical cutaway, duplicated ship, edge crop, or cropped focal subjects.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9f234a5a-b649-47c7-bcf4-4a87841ba6b9",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-a3d52990-6d55-4c8b-8d28-a8d3798b68ef",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete compact Roman galley, mast, sail, rigging, crew, rudder, and attached small remora are all visible within broad sea-and-sky margins; no cutaway, text, collage, repeated frame, giant fish, or crop.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-9f234a5a-b649-47c7-bcf4-4a87841ba6b9",
+          "outputArtifact": "built-in-imagegen://exec-9f234a5a-b649-47c7-bcf4-4a87841ba6b9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/evidence/history/b32-c001-reject-01-ship-crop.png",
+          "sha256": "3e231f8fb623b5f5d68b57876c635f27b1de375b21de21fe7838433f46073144",
+          "byteIdenticalToBuiltInOriginal": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality marine scene for Book XXXII, chapter 1, “The Power of Nature as Manifested in Antipathies. The Echeneïs,” visualizing Pliny's famous remora stopping a vessel while keeping the fish anatomically plausible.\nScene/backdrop: a calm open Mediterranean roadstead seen from a low near-water viewpoint, with one small complete Roman merchant galley unexpectedly motionless despite a filled square sail; distant cliffs and two far-off sailing vessels establish that wind persists.\nSubject: the complete stern, rudder, hull, mast, sail, rigging, and crew of the central galley are fully visible. One sailor leans safely over the stern and points downward. Just below the transparent surface, attached to the complete rudder blade, one clearly visible but realistically small grey-brown remora has an elongated body and distinct oval ridged suction disc on top of its head. The remora is emphasized by light and water clarity, not made monstrous. All ship parts, sailors, rudder, and fish remain within the central 70%.\nStyle/medium: ancient Mediterranean marine natural-history illumination on warm fibrous aged vellum; iron-gall contours, fine hull and fish cross-hatching, water stipple, dry-brush sail and weathering, restrained translucent mineral washes.\nComposition/framing: one continuous 3:2 landscape at a low oblique waterline, pulled back enough to show the complete vessel while clear shallow perspective reveals the fish at the rudder; broad sea and sky margins; no cutaway or diagram.\nLighting/mood: taut stillness and empirical wonder, mysterious without magic, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, quiet madder sail details, ochre, and chalk.\nConstraints: historically plausible Roman merchant galley and rigging; anatomically plausible remora with dorsal suction disc; output a 1536x1024-style landscape PNG master.\nAvoid: giant fish, shark, eel, tentacle, magical aura, chain or rope from fish, shipwreck, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern vessel, photography, glossy CGI, border, panel, grid, collage, technical cutaway, duplicated ship, edge crop, or cropped focal subjects.",
+          "reason": "Rejected after original-resolution QA: the focal galley's mast and sail were cut by the top frame, contrary to the complete-vessel composition; the remora also read too large relative to the rudder."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:2",
+      "title": "THE INSTINCTS OF FISHES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b32-c002.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/aquatic-materia-medica-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "a9210b3476d455b76966d29178b3937dbae4cb778efc0c56afb56a200bd132f7",
+          "characters": 5884,
+          "words": 832
+        },
+        "english": {
+          "sha256": "6ca26500d2af51745ac85d3021b027ead991f5dfce2c0079aa42a6f6eb695337",
+          "characters": 10271,
+          "words": 1863
+        }
+      },
+      "sha256": "465e1fd8acd6f7bb0af7dff491a56cde911ea80540484159965b9046e3bc04d4",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ad00e449-269e-4079-b19b-82c777a6821b",
+      "outputArtifact": "built-in-imagegen://exec-ad00e449-269e-4079-b19b-82c777a6821b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality underwater scene for Book XXXII, chapter 2, “The Instincts of Fishes,” centered on Pliny's account of scarus fish aiding one another to escape a trap.\nScene/backdrop: clear shallow Mediterranean water above a sand-and-rock seabed with sparse seagrass, sunlight descending through gentle ripples.\nSubject: one complete woven funnel-shaped fish trap lies wholly on the seabed. A complete Mediterranean parrotfish, scarus, backs tail-first out of the trap's narrow opening, while a second complete scarus outside grips the first fish gently by the tail tip to help pull it free, exactly expressing Pliny's observed cooperation. Three smaller distant fish keep natural scale and direction. Every fish, fin, eye, tail, basket rim, funnel, rope loop, rock, and seagrass clump is fully visible with water surrounding it.\nStyle/medium: ancient Mediterranean marine natural-history illumination on warm fibrous aged vellum; iron-gall contours, fine scale cross-hatching and stipple, dry-brush seagrass, restrained translucent mineral-pigment washes.\nComposition/framing: one unified 3:2 underwater landscape, a compact diagonal action entirely within the central 65%, surrounded by broad quiet water and sand; no human observer and no surface split.\nLighting/mood: lucid submerged stillness, intelligent cooperation, tender empirical wonder, ancient and timeless, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis, soft madder fish accents, ochre sand, and chalk light.\nConstraints: anatomically plausible Mediterranean parrotfish and ancient woven fish trap; gentle nonviolent interaction; output a 1536x1024-style landscape PNG master.\nAvoid: tropical neon fish, cartoon expressions, teeth, predation, aquarium, bubbles as decoration, text, labels, numerals, pseudo-writing, signature, logo, watermark, modern netting, photography, glossy CGI, border, panel, grid, collage, duplicated fish, malformed anatomy, edge crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ad00e449-269e-4079-b19b-82c777a6821b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete woven funnel trap and two complete scarus fish clearly show one backing tail-first while the other grips its tail; supporting fish, rocks, and seagrass are edge-safe; no cartooning, text, collage, or crop.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:6",
+      "title": "THE VARIOUS KINDS OF OYSTERS: FIFTY-EIGHT REMEDIES AND OBSERVATIONS. PURPLES: NINE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/atlas-replacement-books-14-35/b32-c006.png",
+      "supersedesAtlasSourceArtifact": "assets-source/plates/aquatic-materia-medica-atlas.jpg",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "completeFullLatinRead": true,
+        "completeFullEnglishRead": true,
+        "latin": {
+          "sha256": "4b4219c74a57ae8ada9a46ddcbb78110f48038948d49724956fde8a7d182e5b3",
+          "characters": 2890,
+          "words": 405
+        },
+        "english": {
+          "sha256": "71f2b81928baf4bb3200bcda5be9f45c1e63877a86ba5502341e4ad0d6054b20",
+          "characters": 5366,
+          "words": 932
+        }
+      },
+      "sha256": "c0e28f1668d3bbe643e578e04dae0b4d90b36401a1a920676c388085444d6e0f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9dd4702b-7b34-471c-83e5-fd941b599f06",
+      "outputArtifact": "built-in-imagegen://exec-9dd4702b-7b34-471c-83e5-fd941b599f06.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Pliny the Elder's Naturalis Historia\nPrimary request: Create a museum-quality aquaculture scene for Book XXXII, chapter 6, “The Various Kinds of Oysters ... Purples,” grounded in Roman transport and cultivation of oysters from Brundisium in the Lucrine or Avernian beds.\nScene/backdrop: a sheltered Campanian coastal vivarium where fresh spring water mingles with a tidal lagoon, with one small complete workboat moored wholly beside a low stone landing.\nSubject: two complete Roman shellfish workers transfer one shallow basket of closed irregular oysters from the boat into one fully bounded submerged wicker nursery pen. A third complete worker kneels on the landing comparing a broad flat oyster with a smaller ridged oyster beside a single purple-dye murex shell; all shells are natural objects, not arranged as a catalogue. Clear water reveals several living oysters settled on stones within the pen. Keep all figures, boat, bow, stern, oars, mooring rope, baskets, nursery pen, oysters, murex, and landing entirely inside the central 70%.\nStyle/medium: ancient Mediterranean marine and working-life illumination on warm fibrous aged vellum; iron-gall contours, shell and water cross-hatching, stipple, salt-worn dry-brush texture, restrained translucent mineral washes.\nComposition/framing: one continuous 3:2 lagoon scene, pulled far back, compact working group surrounded by broad open water, pale sky, and bare shore on every edge; no specimen plate or split frame.\nLighting/mood: soft early morning, practiced husbandry and abundance, ancient and timeless, beautiful, rough and polished at once.\nColor palette: restrained umber, lampblack, muted verdigris, faded lapis water, quiet madder and Tyrian-purple shell accents, ochre, and chalk.\nConstraints: historically plausible Roman clothing, small boat, wicker nursery, baskets, oysters, murex, and coastal engineering; output a 1536x1024-style landscape PNG master.\nAvoid: pearl treasure, open shell with oversized pearl, modern aquaculture cages, motorboat, plastic, text, labels, numerals, pseudo-writing, signature, logo, watermark, photography, glossy CGI, border, panel, grid, collage, repeated panels, duplicated workers, malformed hands, edge crop, or cropped focal subjects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9dd4702b-7b34-471c-83e5-fd941b599f06",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEditCalls": 0,
+        "localPixelEdits": 0,
+        "acceptedMasterIsIndependentGeneration": true
+      },
+      "nativeQaChecklist": {
+        "visuallyInspectedAtOriginalResolution": true,
+        "focalSubjectComplete": true,
+        "edgeCropSafe": true,
+        "singleContinuousScene": true,
+        "noPanelGridOrCollage": true,
+        "noTextPseudoWritingLogoOrWatermark": true,
+        "noModernObjects": true,
+        "historicalAndSemanticFit": true
+      },
+      "visualQaNotes": "Original-resolution QA passed: complete boat, oars, mooring rope, three workers, basket, bounded wicker nursery, oysters, and murex form one coherent lagoon scene; no specimen plate, text, collage, repeated frame, or crop.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ]
+}

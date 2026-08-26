@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-58",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 539,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "5:14": {
+        "nearestMAD": 22.67,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b05-c003.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c025.png",
+        "madAtDHashPeer": 29.54
+      },
+      "5:15": {
+        "nearestMAD": 22.12,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c058.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c026.png",
+        "madAtDHashPeer": 34.19
+      },
+      "5:16": {
+        "nearestMAD": 26.72,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b05-c003.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-02/b20-c008.png",
+        "madAtDHashPeer": 46.07
+      },
+      "5:17": {
+        "nearestMAD": 23.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c016.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c021.png",
+        "madAtDHashPeer": 31.11
+      },
+      "5:18": {
+        "nearestMAD": 22.29,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c009.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c030.png",
+        "madAtDHashPeer": 25.58
+      },
+      "5:19": {
+        "nearestMAD": 25.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c014.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-54/b04-c008.png",
+        "madAtDHashPeer": 46.57
+      },
+      "5:20": {
+        "nearestMAD": 26.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 69.03
+      },
+      "5:21": {
+        "nearestMAD": 37.32,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c022.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c100.png",
+        "madAtDHashPeer": 67.04
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "5:14",
+      "title": "JUDÆA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c014.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "1ec177ae482403d23cdd8d2453fb1127d3604b14db77f833c0a357a5f810696e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-638930cf-0b43-4a0d-a212-14d1dfd66c4c",
+      "generationArtifactId": "exec-638930cf-0b43-4a0d-a212-14d1dfd66c4c",
+      "outputArtifact": "built-in-imagegen://exec-638930cf-0b43-4a0d-a212-14d1dfd66c4c.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 14, JUDÆA. Ground it in the transmitted chapter: Judæa spreads beyond Idumæa and Samaria; Galilæa joins Syria; rugged mountainous Peræa lies toward Arabia and Egypt, separated from the rest by the river Jordan; the land includes watered palm groves and springs. Show a natural elevated field-observer viewpoint—not a map—across a broad rugged landscape: a luminous winding Jordan in the middle distance separates two materially different mountain regions, while one small complete palm-rich spring oasis sits well inside the lower-left quadrant and three small ancient foot travellers sit well inside the lower-right quadrant for scale. Do not attempt to enumerate or label the ten toparchies. Composition: high-key ochre-vellum relief, long diagonal river, layered ridges, airy negative sky; focal subject is the land-and-river relationship, not a city. CRITICAL FRAMING: leave a broad uninterrupted margin of open terrain between every palm crown, trunk, traveller and the canvas edges; the entire oasis grove, every palm, every person, and every foreground rock formation must be wholly visible and comfortably inset. Nothing recognizable may enter from or exit through an edge. House style: an original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of umber, lampblack, muted verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, full-bleed image field with no visible sheet edge, border, frame, panel, inset or collage. No readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, charts, arrows, maps, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The Jordan separates distinct mountain regions; the complete inset palm oasis and exactly three complete travellers have generous breathing room. No map logic, lettering, pseudo-writing, panel, border, modern object or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b97e4de0-a6c1-4988-a6e1-1344adb53268.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/evidence/history/b05-c014-rejected-01.png",
+          "sha256": "657ae886aa52d30782e78009ef7218dc912777a5216b091fc757031922dd13fa",
+          "reason": "Multiple focal oasis palms entered through the left edge, visibly clipping trunks and crowns. The original built-in bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:15",
+      "title": "JUDÆA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c015.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "5a30c5135102327aff16bdb0db77bce957a8f0439aff68e92f8b908515620c18",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3433234c-e433-409b-96b9-48bf946bdc74",
+      "generationArtifactId": "exec-3433234c-e433-409b-96b9-48bf946bdc74",
+      "outputArtifact": "built-in-imagegen://exec-3433234c-e433-409b-96b9-48bf946bdc74.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 15, JUDÆA. Ground it in the transmitted chapter: the delightful river Jordan rises from the spring at Panias, winds and lingers among settlements, enters the pleasant freshwater Lake Genesara ringed by towns, then ultimately moves toward the gloomy Asphaltites; Tiberias has health-giving hot springs. Depict this as an intimate river journey rather than a high mountain panorama. Use an eye-level long view: a small complete natural spring basin and low rounded grotto sit entirely inside the left-middle, with clear open ground visible behind and around the whole formation; a verdigris-and-faded-lapis stream flows from it in a broad S-curve past reeds and two tiny ancient dwellings, opening into a calm sunlit lake in the far-right distance. One small complete field observer kneels safely beside the water with an earthen cup, wholly within the lower-right quadrant. No tree canopy or large plant may cross any edge. Composition: cool luminous value structure, low horizon, serpentine river protagonist, quiet banks, airy upper field; no boat, no map, no city catalogue. CRITICAL FRAMING: pull the scene back. Keep a broad band of open vellum-textured sky or terrain between every identifiable spring rock, plant crown, trunk, reed clump, dwelling, person and vessel and all four canvas edges. Nothing recognizable may enter from or exit through an edge. House style: original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments—umber, lampblack, muted verdigris, faded lapis, pale madder and ochre—ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, decorative frame, panel, inset or collage. No readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, map symbols, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete Panias spring basin and low grotto, serpentine Jordan, distant Genesara, kneeling observer and earthen vessels are legible and contained. No lettering, pseudo-writing, panel, border, map device, modern object or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fa3924eb-9c95-4219-a065-896cd77685ae.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/evidence/history/b05-c015-rejected-01.png",
+          "sha256": "79821c10a3b5282afec9cca4c82ec45ffce5a8ea727b7f95aaa880b0d61ad129",
+          "reason": "The focal spring rock face and a large tree canopy were cut by the left and top edges. The original built-in bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:16",
+      "title": "JUDÆA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c016.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "29e4f017eda3f6e8a26a0bc089dee9064005f1d15803b8964b1d536754553083",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bcb87cf0-5462-4750-baa7-7e77f61472f1",
+      "generationArtifactId": "exec-bcb87cf0-5462-4750-baa7-7e77f61472f1",
+      "outputArtifact": "built-in-imagegen://exec-bcb87cf0-5462-4750-baa7-7e77f61472f1.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 16, JUDÆA. Render the chapter explicitly as Pliny's transmitted ancient observation, not as a modern scientific claim: Lake Asphaltites yields bitumen; Pliny says animal bodies, even bulls and camels, float; Arabia lies east, the fortress Machaerus south, and the warm medicinal spring Callirrhoë nearby. Show a low lateral lakeshore study at late amber light, compositionally unlike a regional panorama: dark lampblack-and-madder water occupies the middle band, a single complete living camel and a single complete living bull calmly buoyed in separate shallow-looking stretches of the lake under watch from two fully contained ancient handlers on shore; several glossy natural bitumen lumps lie as the close focal specimen on a complete flat stone well inside the lower-left; a small steaming spring pool sits far to the right; the compact fortress of Machaerus crowns a fully visible distant crag. No suffering, struggle, carcasses or danger. Give the lake an uncanny stillness, broad empty sky, and strong horizontal geometry. Every animal from ears to hooves/tail, every person, specimen stone, steam plume, spring basin and fortress crag must be wholly visible and comfortably inset from all four edges; nothing identifiable may enter from or exit through an edge. House style: original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of deep lampblack, umber, smoky madder, muted verdigris, faded lapis and ochre; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, frame, panel, inset, specimen label or collage. No readable text, pseudo-writing, glyph-like marks, captions, labels, numerals, charts, arrows, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The one calm camel and one bull, two observers, bitumen specimens, steaming Callirrhoë pool and distant Machaerus are coherent and fully framed. The scene reads as Pliny's transmitted observation without suffering or a modern-science claim. No text, pseudo-writing, panel, border, modern object or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:17",
+      "title": "JUDÆA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c017.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "f76d44e7698eced42755a72599ea647f4aae92450b75cd800d77a1df563f04f0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c0bff712-5bdf-4d23-ba03-755ea9b99a78",
+      "generationArtifactId": "exec-c0bff712-5bdf-4d23-ba03-755ea9b99a78",
+      "outputArtifact": "built-in-imagegen://exec-c0bff712-5bdf-4d23-ba03-755ea9b99a78.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 17, JUDÆA. Ground it respectfully in the transmitted chapter: west of Lake Asphaltites, far enough from the harmful exhalations, Pliny describes the Esseni as an austere community living without money and among palm trees, renewed by newcomers weary of fortune; below them stood palm-rich Engadda, later in ruins, and nearby Masada on its rock. Depict a humane Roman-era field observation, not an exotic spectacle. Use a distant, pulled-back high three-quarter view over a small complete palm-grove clearing, with the entire grove forming a compact oval island well inside the center of open desert terrain. Exactly five adult men in simple unadorned ancient robes share ordinary work: one tends a narrow irrigation channel, two sort dates into plain baskets, and two calmly welcome exactly one travel-worn adult newcomer along a path. The six complete figures are modest in scale. In the far distance, a tiny ashen ruin and the fully visible silhouette of a remote rock fortress are subordinate. Composition: small verdigris-and-ochre oval grove centered within broad pale terrain, people forming a gentle open arc, dappled light, abundant quiet sky and negative space; no foreground tree, no canopy over the viewer, no large object near an edge. No coins, commerce, weapons, ceremony, dramatic worship, or claim of modern ethnographic certainty. CRITICAL FRAMING: every palm must be shown from roots to complete crown with open sky around it; every person from head to both feet, basket, channel, ruin and fortress crag must be wholly visible and comfortably inset from all four edges. Nothing recognizable crosses an edge. House style: original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of muted verdigris, ochre, umber, lampblack, faded lapis and soft madder; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, frame, panel, inset or collage. Absolutely no readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, inscriptions on baskets or architecture, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The compact palm grove is wholly contained; exactly six complete figures enact irrigation, date sorting and welcome, with the remote ruin and rock fortress subordinate. No coins, spectacle, lettering, pseudo-writing, panel, border, modern object or clipped palm was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2ad35330-dc82-475a-9b81-acd891d4592d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/evidence/history/b05-c017-rejected-01.png",
+          "sha256": "c96fa59083c9a16a74740e8db3d46ecf46771823321221043e4fee4218ab32c6",
+          "reason": "Dominant foreground palm trunks and crowns crossed the left and top edges. The original built-in bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:18",
+      "title": "DECAPOLIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c018.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "efef5960a1e9a3dcec8187fc1d18adc2c558b20014cd19554f0b52973f96c1d5",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4b5f0afe-f630-42b2-95b6-411f331b92d9",
+      "generationArtifactId": "exec-4b5f0afe-f630-42b2-95b6-411f331b92d9",
+      "outputArtifact": "built-in-imagegen://exec-4b5f0afe-f630-42b2-95b6-411f331b92d9.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 18, DECAPOLIS. Ground it in the transmitted chapter: writers disagreed about the ten cities; Damascus is fertilized by the river Chrysorroös drawn into thirsty meadows; other cities extend toward Arabia, Gadara has the Hieromix before it, and Pella is rich in waters; tetrarchies lie among and around them. Avoid a literal map or an invented lineup of ten cities. Depict one close, chapter-specific act of water shaping a city-region from a distant raised field-observer viewpoint. Center a complete diamond-shaped irrigated garden complex within broad open ochre terrain: the complete Chrysorroös passes behind it, a small stone weir divides water into exactly three short channels that END visibly within three self-contained green meadow basins. Exactly three small ancient workers, wholly visible, lift a wooden sluice gate and guide the flow. A compact complete Damascus-like walled city sits well inside the upper-left quadrant with open sky and terrain visible on every side; dry Arabia-toned upland recedes upper-right. Composition: a central geometric island of verdigris water and meadow surrounded on every side by pale empty ground, strong off-center weir, bright midday value; focal subject is irrigation engineering, not a generic panorama. Do not portray or count all ten cities. CRITICAL FRAMING: pull the scene far back. Every person from head to feet, the entire weir and sluice, all three complete channel endpoints, every meadow boundary, every tree, and the entire city silhouette must be wholly visible and comfortably inset from all four edges. No field, channel, structure, vegetation or recognizable object crosses an edge; only featureless terrain and sky may continue beyond the frame. House style: original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments led by muted verdigris with ochre, umber, lampblack, faded lapis and small madder accents; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, decorative frame, panel, inset, diagram or collage. Absolutely no readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, chart symbols, arrows, map conventions, inscriptions, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete diamond-shaped irrigated garden, one weir, exactly three terminating channels and exactly three workers remain inside broad terrain; the compact city is contained. No map labels, pseudo-writing, panel, border, modern object or clipped focal structure was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c057f707-a1f9-4d62-9631-bb584f70241c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/evidence/history/b05-c018-rejected-01.png",
+          "sha256": "28f32c8a555dd1d138f941e1dd6b19280fffbcbdd88ad1781bc17c7339799e5d",
+          "reason": "The walled city was cut by the left edge and the focal irrigation plots and channels continued through the bottom boundary. The original built-in bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:19",
+      "title": "PHŒNICE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c019.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "346cf13cce82bc36f957a0ba48e7e2fda17e0a9269a6ebc7342c9d2e877acd60",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-75641c91-3f99-4f52-8998-900ae68ef12b",
+      "generationArtifactId": "exec-75641c91-3f99-4f52-8998-900ae68ef12b",
+      "outputArtifact": "built-in-imagegen://exec-75641c91-3f99-4f52-8998-900ae68ef12b.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 19, PHŒNICE. Ground it in the transmitted coastal itinerary: the river Belus carries sand prized for making glass onto a narrow shore below Mount Carmel; Ptolemais and the White Promontory follow; Tyre, formerly an island and later joined to the mainland, is famous for murex and purple; Sidon is famous for glass. Make a close oblique shore study, not another regional panorama and not a workshop interior. A complete small river mouth sits well inside the upper-left quadrant and fans a visibly different bed of fine ochre-white glassmaking sand across a complete crescent cove. Two fully visible ancient coastal observers kneel near the sand fan: one lets the grains run between his fingers, the other holds a small plain translucent green glass cup without decoration. Nearby, a compact group of exactly three complete natural murex shells and one folded undyed cloth with a single restrained madder-purple test stain rest on a flat rock. Across calm faded-lapis water, the whole silhouette of ancient Tyre and its narrow causeway sit small in the far distance beneath a complete white promontory. Composition: sweeping crescent shore and diagonal sand fan, close material specimens balanced against tiny distant city, sea-green and rare purple accents, abundant luminous open water and sky. CRITICAL FRAMING: no foreground cliff or large rock wall. Show the entire cove and all background headlands as small isolated landforms with open sky around their tops and open terrain around their sides. Every person, shell, cloth, vessel, river mouth, promontory and city silhouette must be wholly visible and comfortably inset; nothing recognizable may cross an edge. House style: original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of faded lapis, muted verdigris, ochre, umber, lampblack and one precious madder-purple accent; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, frame, panel, inset, specimen diagram or collage. Absolutely no readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, inscriptions, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The Belus sand fan, two observers, plain glass cup, exactly three murex shells, stained cloth, Tyre and causeway, and White Promontory are legible and framed. No lettering, pseudo-writing, specimen panel, border, modern object or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8a1c535c-0ec0-4d9d-8303-9aa6e992188b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/evidence/history/b05-c019-rejected-01.png",
+          "sha256": "ed363147a02c8cce6211d8cde5b17dd7d8bd4e86dd138dad00353ea5b2b6c9e9",
+          "reason": "A massive foreground Mount Carmel cliff entered through the left and top edges and compressed the focal coastal study. The original built-in bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:20",
+      "title": "SYRIA ANTIOCHIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c020.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "cf95b17831007777c112c5a884e0f2a2bcb5c55baa0e0236bec5eb0211463793",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4cde9f8f-4dc8-4fa2-88c2-15c97f2ec971",
+      "generationArtifactId": "exec-4cde9f8f-4dc8-4fa2-88c2-15c97f2ec971",
+      "outputArtifact": "built-in-imagegen://exec-4cde9f8f-4dc8-4fa2-88c2-15c97f2ec971.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 20, SYRIA ANTIOCHIA. Ground it in the transmitted chapter: the long Libanus range extends toward Simyra; the parallel Antilibanus faces it across the valley of Cœle Syria and was formerly joined to it by a wall; beneath Libanus lies a succession of coastal rivers, old towns and the island city Arados, before Phœnicia ends and Syria begins. Center the landform relationship rather than attempting a map or town catalogue. Use a low ground-level one-point perspective looking straight along the deep Cœle Syrian valley at late afternoon: two complete parallel mountain walls rise on left and right like opposing natural wings, their lower slopes visible down to the valley floor and their highest crests surrounded by open sky; a faint short remnant of an ancient stone wall spans one distant saddle. A small complete caravan of exactly two pack mules and three ancient travellers advances away from the viewer along the central valley road, entirely within the middle foreground. Far beyond them, a tiny cool-lapis glimmer suggests the coast and a small fully contained island settlement. Composition: solemn bilateral mountain geometry, deep central vanishing point, long cool shadows, faded-lapis and violet-madder atmosphere over ochre vellum; materially unlike an overhead relief, riverbank, irrigation basin or shore specimen study. All people and mules from head/ears to every hoof, loads, wall remnant, island settlement and every distinctive mountain peak must be wholly visible and comfortably inset; no cliff, tree, person, animal or structure may enter from or exit through an edge. House style: original Plinian natural-history folio on warm aged fibrous vellum, iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of faded lapis, smoky violet-madder, ochre, umber, lampblack and muted verdigris; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, frame, panel, inset, diagram or collage. Absolutely no readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, map symbols, inscriptions, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The paired Libanus and Antilibanus crests, deep Cœle Syrian valley, wall remnant and island settlement, exactly two complete pack mules and three complete travellers are clear. No map treatment, lettering, pseudo-writing, panel, border, modern object or clipped person or animal was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "5:21",
+      "title": "SYRIA ANTIOCHIA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c021.png",
+      "corpusArtifact": "public/corpus/book-05.11b2f88b7047b558.json",
+      "sha256": "1cf5f09c19c4afa48084ce00c4936b48da05c2fc82ea41ce4bfabc5de5a9c55f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5f411e52-fba6-43bc-b3fc-559bc16c7d3d",
+      "generationArtifactId": "exec-5f411e52-fba6-43bc-b3fc-559bc16c7d3d",
+      "outputArtifact": "built-in-imagegen://exec-5f411e52-fba6-43bc-b3fc-559bc16c7d3d.png",
+      "exactFinalPrompt": "Create one independent full-resolution historical-scene illustration for Pliny the Elder, Naturalis Historia, Book V chapter 21, SYRIA ANTIOCHIA. Ground it exactly in the brief transmitted chapter: the promontory of Syria Antiochia; inland the free city Antiochia Epidaphnes, divided by the river Orontes; on the promontory the free city Seleucia Pieria. Depict this concise relationship as a serene HIGH-KEY MIDDAY river portrait, not a map, not twilight, and not a dark or purple storm scene. Use a near-eye-level long view from a pale open riverbank: the broad Orontes begins as a complete reflective pool in the lower-center and recedes almost vertically toward a compact complete Antiochia in the middle distance, visibly dividing the city into two balanced but irregular neighborhoods. Exactly one complete low stone bridge crosses the river. A restrained light verdigris grove beyond the left bank suggests Daphne. Far in the upper-right distance, a separate small complete ochre promontory projects into a band of pale faded-lapis sea with tiny Seleucia Pieria and a sheltered harbor, all fully visible. Composition: bright bone-white vellum dominates at least half the image through sunlit sky, pale ground and water reflections; very light ink density; vertical river axis crossed by one horizontal bridge; city small and central; ample clean atmospheric negative space. Use no violet, purple, storm clouds, dusk, night, or dramatic darkness. Every bridge, city wall, tower silhouette, grove, harbor, vessel if any, and the entire promontory tip must be wholly visible and comfortably inset; no architecture, tree, boat or distinctive landform may cross an edge. House style: original Plinian natural-history folio on warm aged fibrous vellum, delicate iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of pale faded lapis, light muted verdigris, ochre, umber and sparing lampblack; ancient, timeless, beautiful, rough and polished at once, coherent with a deluxe Roman natural-history codex. Landscape 3:2, one unified full-bleed image field, no visible sheet edge, border, decorative frame, panel, inset, diagram or collage. Absolutely no readable text, pseudo-writing, glyph-like marks, labels, captions, numerals, map symbols, inscriptions, signage, signatures, logos, watermarks, modern objects, photography, photorealism or glossy digital rendering.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high-key Orontes divides complete Antiochia into two neighborhoods, exactly one bridge crosses it, and distant Seleucia promontory and harbor are legible. No map symbols, lettering, pseudo-writing, panel, border, modern object or clipped focal architecture was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-443a89c4-b9c1-4120-892d-9c5432edfe89.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/evidence/history/b05-c021-rejected-global-01.png",
+          "sha256": "46e13794459df1fb2632f94734dc1b072571e2403a09419e42ad103c333939ec",
+          "reason": "The twilight candidate passed native QA but measured MAD 19.98 against assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png, below the required MAD 20 threshold. The original built-in bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

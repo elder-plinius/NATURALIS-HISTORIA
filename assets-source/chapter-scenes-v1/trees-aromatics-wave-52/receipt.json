@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-52",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "note": null,
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 490,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "3:10": {
+        "nearestMAD": 23.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+        "madAtDHashPeer": 44.59
+      },
+      "3:11": {
+        "nearestMAD": 25.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-01/b02-c007.png",
+        "madAtDHashPeer": 42.17
+      },
+      "3:12": {
+        "nearestMAD": 25.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c006.png",
+        "madAtDHashPeer": 60.62
+      },
+      "3:13": {
+        "nearestMAD": 22.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b03-c024.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c015.png",
+        "madAtDHashPeer": 50.38
+      },
+      "3:14": {
+        "nearestMAD": 21.82,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "dHashAtMadPeer": 37,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c007.png",
+        "madAtDHashPeer": 57.04
+      },
+      "3:15": {
+        "nearestMAD": 25.31,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c108.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 65.82
+      },
+      "3:16": {
+        "nearestMAD": 21.67,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c014.png",
+        "madAtDHashPeer": 35.11
+      },
+      "3:17": {
+        "nearestMAD": 23.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c010.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c014.png",
+        "madAtDHashPeer": 62.96
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "3:10",
+      "title": "MAGNA GRÆCIA, BEGINNING AT LOCRI",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c010.png",
+      "sha256": "898b8b11425bbf2aca218d4d1fb1464cd19f5c02561fcc487ecf843d80632dd7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ef3e0df3-7c11-4303-afcb-af696c5782eb",
+      "outputArtifact": "built-in-imagegen://exec-ef3e0df3-7c11-4303-afcb-af696c5782eb.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book III, chapter 10, “MAGNA GRÆCIA, BEGINNING AT LOCRI.” Pliny follows the coast from Locri through the three bays of Magna Graecia and notes the exceptionally narrow waist between the Gulfs of Scylacium and Terina. Make a historically situated geographic panorama, not a measured modern map.\n\nComposition: from a very high inland ridge at warm copper dawn, look south along a complete narrow Calabrian isthmus stretching through the middle of the image. Two distinct seas lie on opposite sides of the land spine: faded-lapis water at left and deep-verdigris water at right. Along the left-hand coast, exactly three separate complete concave bays are clearly visible in succession, each with both headlands fully contained; the middle bay has exactly one tiny complete Greek coastal settlement with pale walls and one small sanctuary, representing the world beginning at Locri without a label. On the right-hand side, exactly one broad complete gulf curves inward toward the narrow waist, stopping far short of the three bays. Several thin natural river threads descend from the interior hills, but none touches an image edge. Exactly one complete ancient geographer stands very small on the foreground ridge beside exactly one complete low stone sighting platform, both fully framed and without instruments. The landform, coastlines, towns and waters read as lived terrain rather than a diagram.\n\nStyle: inaugurate a coherent Book III Plinian geography dialect—ancient, timeless, beautiful, rough and polished at once. Iron-gall coast contours and fine topographic cross-hatching, sea stipple, translucent mineral washes over fibrous vellum texture filling every pixel; copper ochre, faded lapis, deep verdigris, madder, limestone white, umber and restrained aged-gold dawn glints. Shallow fresco-like aerial depth, weathered salt-grain, precise ancient architecture, broad atmospheric negative space and museum-grade observational finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous geographic landscape. Keep the full geographer, platform, complete tiny settlement and sanctuary, all three bays and every headland, broad opposite gulf, river threads and land waist comfortably inside the frame. No coast feature, building, person or river touches an edge. No map labels, compass rose, scale bar, route line, arrows, text, letters, numerals, pseudo-writing, modern borders, modern city, modern boat, split panel, collage, internal frame, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The high oblique Calabrian panorama contains two distinct seas, a complete narrow land waist, three separate contained bays, one opposite gulf, one tiny settlement and sanctuary, and one complete geographer beside a low platform. No clipped coastline, river, architecture, text, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:11",
+      "title": "THE SECOND REGION OF ITALY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c011.png",
+      "sha256": "a87b06f90e8deb256c54eed50590f09a34e96975e2f282bafe040dabe8faabea",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-17f01f40-33c4-4299-ac1e-41ad0ea38a7c",
+      "outputArtifact": "built-in-imagegen://exec-17f01f40-33c4-4299-ac1e-41ad0ea38a7c.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book III, chapter 11, “THE SECOND REGION OF ITALY.” Pliny follows the deep Gulf of Tarentum around Calabria, Apulia and the Salentine peninsula, dwelling on Brundisium as a famous sheltered port for the passage toward Greece. Ground the image in that maritime geography without reducing the region to a labeled map.\n\nComposition: a low, wide predawn view from inside ancient Brundisium’s sheltered double harbor. Two complete narrow natural inlet arms curve inward from the distant open-water band and then separate around a fully contained central tongue of ochre land, creating a calm Y-shaped harbor geometry; both shores and the junction remain comfortably inside the frame. Exactly one complete small Roman merchant ship rests in the central basin in perfect profile, with entire hull, ram, sternpost, mast tip, both yard ends, furled square sail, rigging and reflection fully visible. Exactly one complete dockworker stands on a SMALL freestanding stone quay in the lower-left interior; scale the whole quay to no more than twenty percent canvas width and leave at least eight percent clear water between every quay corner and every canvas edge. A single tied amphora and one coil of rope sit grounded beside the worker. At upper-right, exactly one complete COMPACT port settlement occupies no more than twenty-five percent of canvas width; all roofs, outer walls and exactly one complete pale harbor column are visible, with at least ten percent open sky, water or ground separating every part of the settlement from the top and right canvas edges. Beyond the harbor mouth, a faint blue-violet opposing coast suggests the shortest eastern passage without claiming exact scale.\n\nStyle: coherent Book III Plinian geography folio—ancient, timeless, beautiful, rough and polished at once. Iron-gall naval and shore contours, meticulous cross-hatching and water stipple, translucent mineral washes over fibrous vellum texture filling every pixel; storm silver, deep oxidized teal, faded lapis, ochre, bone white, umber and restrained aged-gold glints. Salt-abraded surface, precise Roman harbor engineering and rigging, low horizontal perspective, spacious cool atmosphere and museum-grade finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous harbor scene. Keep the complete ship and all rigging, full worker, entire freestanding quay, amphora, rope, both inlet arms and junction, complete settlement and every outer building, complete harbor column and distant coast comfortably inside the frame. No ship, mast, rope, quay, building or column touches an edge. No modern harbor, lighthouse beam, second ship, extra person, map, route line, compass, text, letters, numerals, pseudo-writing, label, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Brundisium reads as one continuous double-harbor scene with a complete merchant ship and rigging, one complete worker on a freestanding quay, and a compact fully contained settlement and harbor column. No clipped ship, quay, building, text, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-196b9449-4cff-4eef-9cef-73eb3e1c3959.png",
+          "sha256": "8bd716cbfc3387b0a27f858c94cf70e155c6e939d09f0d5fd219da3c325e6652",
+          "reason": "Rejected after native QA because the settlement entered and touched the right canvas edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:12",
+      "title": "THE FOURTH REGION OF ITALY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c012.png",
+      "sha256": "384114bd90fe22e3d5f02b353afa595712f5935bac7ac9a1e704c063e5ae1187",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-9e45a15e-a0a8-4c4c-b9a7-b8c93eaee70b",
+      "outputArtifact": "built-in-imagegen://exec-9e45a15e-a0a8-4c4c-b9a7-b8c93eaee70b.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book III, chapter 12, “THE FOURTH REGION OF ITALY.” Pliny ranges from the Frentani coast through the inland Sabine and Apennine peoples, then describes the dew-clad hills, sulphurous waters and Lake Cutiliae with its floating island, which Varro called the central point of Italy. Ground the image in that distinctive inland natural geography, while treating the “navel” claim as transmitted ancient interpretation.\n\nComposition: at pale green morning in a high Sabine valley, show exactly one complete oval lake fully contained in the middle of a broad bowl of dew-bright hills; every shore is visible with generous meadow around it. At the lake’s center floats exactly one complete low natural reed-and-turf island, wholly surrounded by water, with three small willows and exposed interwoven roots at the waterline; it is clearly a natural floating mat, not a magical levitating rock. From the lake’s right shore, exactly one narrow sulphur-yellow stream winds through the meadow to one complete small mineral pool, both endpoints and all banks visible. Exactly one complete ancient geographer stands in the lower-left interior beside a complete low stone bench, observing the floating island with both hands lowered. A fine belt of pearl mist lies across the distant hills, and dew glints on foreground grass. No settlement is needed.\n\nStyle: coherent Book III Plinian inland-geography folio—ancient, timeless, beautiful, rough and polished at once. Iron-gall botanical and topographic contours, fine cross-hatching, water and dew stipple, translucent mineral washes over fibrous vellum texture filling every pixel; deep malachite, pale verdigris, sulphur ochre, mist silver, faded lapis, umber and restrained aged-gold dew glints. Cool wet surface, precise wetland botany and hydrology, shallow fresco-like valley depth, centered natural wonder balanced by asymmetrical observer, museum-grade finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous inland landscape. Keep the entire lake shoreline, complete floating island and every root, all three willows, complete sulphurous stream and mineral pool, full geographer, bench, hills and mist comfortably inside the frame. No lake, island, root, stream, plant, person or bench touches an edge. No halo, magic glow, levitating stone, compass point, map, label, text, letters, numerals, pseudo-writing, extra person, building, modern object, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The Sabine basin contains one complete oval Lake Cutiliae, exactly one fully water-surrounded reed-and-root floating island with three willows, one complete sulphurous stream and mineral pool, and one complete observer with bench. No clipped water or plants, levitating rock, text, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:13",
+      "title": "THE FIFTH REGION OF ITALY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c013.png",
+      "sha256": "6b6d6721a36110c9aa2498d0b710e626d608210db4e8bab9f816e2b34769d2e4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e9713c4f-9d45-42f6-b722-ca6e6b00121d",
+      "outputArtifact": "built-in-imagegen://exec-e9713c4f-9d45-42f6-b722-ca6e6b00121d.png",
+      "exactFinalPrompt": "Create one independent finished chapter illustration for Pliny the Elder, Naturalis Historia, Book III, chapter 13, “THE FIFTH REGION OF ITALY.” Pliny describes Picenum from the Aternus northward: a once densely populated territory with many river towns, cultivated interior hills, and Ancona on the elbow-like Promontory of Cumerus where the coast bends inward. Depict that geographic hinge and settled landscape, without turning population history into a crowd or ethnic stereotype.\n\nComposition: a high autumn view along the Adriatic coast at rose-madder late afternoon. In the central interior, exactly one complete pale limestone promontory projects into the sea in a strong bent-elbow shape, both sides of its coast and rounded tip fully visible with open water around them. Exactly one complete compact walled hill town occupies the promontory shoulder, with all outer walls, roofs, one gate and one small harbor basin fully contained. Beyond it, the coastline visibly changes direction and curves inward toward bronze vineyards and grain terraces. In the UPPER-LEFT MIDDLE DISTANCE ONLY, show exactly three complete narrow rivers: each begins at its own tiny visible spring pool among interior terraces and ends at its own separate contained mouth on the coast; all six endpoints and every bank are fully visible, and no river continues into the foreground. In the lower-right interior, exactly one complete ancient geographer stands beside a low freestanding uninscribed stone, hands open toward the bend. Leave broad dry ground below every river. No boats are shown. Habitation is conveyed through tiny contained roofs and cultivated plots, not a crowd.\n\nStyle: coherent Book III Plinian regional-geography folio—ancient, timeless, beautiful, rough and polished at once. Iron-gall shore and architectural contours, precise cross-hatching and stipple, translucent mineral washes over fibrous vellum texture filling every pixel; rose madder, bronze ochre, faded lapis, dusty verdigris, limestone white, umber and restrained aged-gold highlights. Autumn salt haze, exact ancient settlement morphology, shallow aerial fresco depth, strong elbow-shaped visual rhythm and museum-grade finish.\n\nHard constraints: 1536x1024 landscape 3:2; opaque full-bleed; one continuous coastal landscape. Keep the entire promontory and tip, complete walled town and harbor, all three complete rivers, spring pools and mouths, full geographer, unmarked stone and every discrete building comfortably inside the frame. No promontory tip, river, spring, mouth, town, harbor, person or stone touches an edge. No boat, crowd, military formation, physiognomic caricature, modern city, map, route line, label, text, letters, numerals, pseudo-writing, compass rose, split panel, collage, internal border, visible page edge, signature, logo, or watermark.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete elbow-shaped promontory, contained walled town and harbor, exactly three contained inland rivers and mouths, cultivated coast, and one complete geographer with uninscribed stone all remain inside the frame. No clipped waterway, boat, text, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-60ec0dfb-a336-49b8-a1cb-69833f2de9ea.png",
+          "sha256": "7fadf526d772853c32c2fe8709b840dfe9de25516cfe2638bf1aed245207c841",
+          "reason": "Rejected after native QA because one foreground river continued through and was severed by the bottom edge. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:14",
+      "title": "THE SIXTH REGION OF ITALY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c014.png",
+      "sha256": "f61a1976943ab5688c826fc23440de9f241293f70c3d176d5f26ebaee9a03f2b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-8e96c24e-9622-4f0a-910a-52754ac449ba",
+      "outputArtifact": "built-in-imagegen://exec-8e96c24e-9622-4f0a-910a-52754ac449ba.png",
+      "exactFinalPrompt": "Create a second revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book III, chapter 14, \"The Sixth Region of Italy.\"\n\nThis replacement must be compositionally unlike a conventional horizon landscape. Use a near-vertical bird's-eye viewpoint with no sky and no horizon, yet render lived terrain rather than a map or diagram. More than seventy-five percent of the image should be luminous pale limestone, dry flax field, chalk-green meadow, and wide negative ground. Through the central interior, one narrow silver-blue serpentine river begins at one tiny complete circular spring pool near upper-center and ends at one complete circular reed pool near lower-center, both pools and every bank fully surrounded by pale dry ground. One small complete three-arch stone bridge crosses the river exactly at center. Exactly one tiny complete traveler and one complete pack mule stand together on the bridge. Far apart on the left and right middle ground, exactly two very small complete hill towns occupy separate rounded knolls—one pale limestone, one muted brick—with every wall, roof, gate and hill base fully visible. Sparse olive rows and flax-blue cultivation marks are contained as fine internal textures, never symbols. No coast band.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Book III Plinian regional folio, unusually high-key and airy. Fine iron-gall contours, delicate topographic cross-hatching and stipple, translucent mineral washes over fibrous vellum-like texture filling every pixel; bone white, chalk green, flax blue, silver-blue water, muted brick madder, pale umber and restrained aged-gold glints. Archaeological precision, quiet inhabited land, severe negative space, weathered fresco softness and museum-grade finish. One continuous terrain scene, never a map, collage or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG. Full-bleed painted terrain with no visible page, paper margin, mat, frame, cartouche, internal border, vignette, inset, triptych, panel, diagram, cutaway, or horizon. Keep the complete river, both pools, full bridge and approaches, traveler, mule, both towns, all nearby trees and every discrete plant at least ten percent inward from every image edge. No water, bridge, wall, person, animal, tree, branch, rock, road, field row, or foreground object enters from, touches, or is severed by an edge. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, map marks, compass roses, routes, arrows, legends, banners, or captions. No duplicated or floating objects. Exactly one river, two pools, one bridge, one traveler, one mule, two towns. Convincing anatomy, architecture and hydrology.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The unusually high-key near-vertical Umbrian terrain contains one complete river between two internal pools, one complete central three-arch bridge, two fully contained contrasting hill towns, and one complete traveler and mule. No clipped water, vegetation, town, bridge, text, map marks, panel, border, visible sheet, signature or watermark was found. The final replacement clears the current global similarity gate.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9ffec61c-f670-47e6-bfde-7e26d7cc783e.png",
+          "sha256": "552681a67c132d3ae68385e04d22e8a8d5e56612a0de8ee7003d7436f33af6d7",
+          "reason": "Rejected after native QA because marsh water and foreground vegetation entered or touched the bottom, right and left canvas edges. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b61e66a8-866f-4868-a707-fd19b02f920b.png",
+          "sha256": "218c0a45dd5f1b6f78463caf2c3c3970907a79929c7894f43137530396ccb40c",
+          "reason": "Rejected after the live cross-lane global audit because the otherwise valid valley scene measured grayscale MAD 19.83 against the newly completed chapter 3:2 master, below the required 20.00 collection threshold. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:15",
+      "title": "THE EIGHTH REGION OF ITALY; THE PADUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c015.png",
+      "sha256": "8c801e5fb4414763fa8c67dc8f7127f78260cca656a80f89b562707e5b3bb5ae",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-80201802-415a-48ae-9997-de39217e73d2",
+      "outputArtifact": "built-in-imagegen://exec-80201802-415a-48ae-9997-de39217e73d2.png",
+      "exactFinalPrompt": "Create one independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book III, chapter 15, \"The Eighth Region of Italy; the Padus.\"\n\nSubject: a quiet late-antique geographic vision of the Rubicon as the former boundary of Italy. Seen from a slightly elevated oblique viewpoint, a complete narrow river curves through the middle distance toward the Adriatic wetlands near Ravenna. A small complete three-arch stone bridge crosses it, with one lone Roman traveler and pack mule paused at the center. On either bank stand exactly two complete uninscribed weathered boundary stones, fully inside the frame. Beyond, Ravenna appears as a compact, completely visible brick town amid silver-green marshes and pine groves; the distant Apennines form the inland horizon. Hint at several other coastal waterways only as fine contained threads in the far landscape. The mood is geographic memory rather than military spectacle: no Caesar, no army, no crowd.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; a coherent Plinian natural-history folio painting, mineral earth pigments, faded malachite, lapis-gray water, warm ochre, muted cinnabar accents, delicate iron-gall contour lines, subtle abrasion and foxing integrated into the image surface, exquisitely observed terrain and architecture. Renaissance naturalist precision filtered through a Roman encyclopedic imagination, luminous atmospheric depth, restrained grandeur. Single unified scene, not a collage or split panel.\n\nComposition and output constraints: landscape 3:2, 1536x1024, opaque sRGB PNG. Use the entire frame as painted landscape with no visible page, paper margin, mat, frame, cartouche, ornamental internal border, vignette, triptych, or multiple panels. Keep every bridge, stone, person, animal, tree, building, shoreline, pool, and river endpoint completely inside the image with generous breathing room; no foreground object may enter from or be cut by any edge. No text, letters, numerals, labels, map writing, inscriptions, symbols, signatures, watermarks, pseudo-writing, legends, compass roses, banners, or captions. No floating or duplicated objects. Exactly one traveler, one mule, one bridge, and two boundary stones. Preserve convincing scale and anatomy.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The quiet Rubicon boundary scene contains one complete three-arch bridge, one traveler and mule, exactly two uninscribed boundary stones, and a fully contained Ravenna amid marshes and pines. No Caesar spectacle, clipped subject, text, pseudo-writing, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:16",
+      "title": "THE EIGHTH REGION OF ITALY; THE PADUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c016.png",
+      "sha256": "e81b696f466dda8ea31f0ce90b24457235d296df92b96e44d3e03f57a6c9db38",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-517817b4-b3bf-4e1a-831f-319393788e4c",
+      "outputArtifact": "built-in-imagegen://exec-517817b4-b3bf-4e1a-831f-319393788e4c.png",
+      "exactFinalPrompt": "Create a second revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book III, chapter 16, \"The Eighth Region of Italy; the Padus.\"\n\nThis revision must make the disappearance and reappearance unambiguous without any diagram or cutaway.\n\nScene: a distant elevated view of a complete self-contained alpine basin, with generous dry land on all four edges and clear sky above all complete peaks. On the upper-left terrace, one complete oval turquoise spring pool below a fully visible snowy Mount Vesulus feeds a short narrow surface stream into one complete dark natural swallow-hole. The stream visibly STOPS at that hole. Across the entire central third of the landscape is a broad continuous dry ochre ridge with rocks, grass, and pines: absolutely no blue line, stream, wet channel, or visible water of any kind crosses this dry ridge. On the lower-right side, spatially separate from the swallow-hole, one complete limestone cavern emits a bright young river. That emerging river curves only a short distance and terminates inside one complete reed-edged expansion pool, with dry ground fully surrounding it before the image edge. One small, fully visible ancient naturalist kneels beside the re-emergent cavern holding one staff. This is Pliny's transmitted marvel of the Padus hiding underground and rising again, portrayed as poetic natural-history landscape, not modern geology. No mythology.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Plinian natural-history folio painting, iron-gall contour linework, delicate cross-hatching and stipple, mineral earth pigments, faded malachite pines, lapis and turquoise water, warm ochre limestone, muted madder robe, subtle abrasion and foxing within the image surface. Roman encyclopedic wonder through Renaissance naturalist precision, cool luminous mountain air, restrained majesty. One unified continuous scene, never a collage or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG. Whole frame painted. No visible page, parchment margin, mat, frame, cartouche, internal border, vignette, diagram, arrows, cutaway, inset, triptych, or panels. Keep the spring pool, complete peak, entire swallow-hole, entire cavern mouth, entire terminal pool, naturalist, staff, nearby trees, and focal rocks at least 8 percent inward from all image edges. No watercourse, tree, rock, person, or foreground object may touch, enter from, or be cut by an edge. No text, letters, numerals, labels, map writing, inscriptions, symbols, signatures, watermarks, pseudo-writing, legends, compass roses, banners, or captions. No duplicated or floating objects. Exactly one spring pool, one swallow-hole, one re-emergent cavern, one terminal pool, one naturalist, one staff. Convincing scale and anatomy.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete alpine source pool feeds one swallow-hole; a broad visibly dry ridge separates it from one distinct re-emergent cavern, naturalist and terminal pool. All focal water and landforms are contained, and no visible stream crosses the dry interval. No clipped watercourse, diagram, text, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-22810e1e-4d04-425b-a8d6-624918352154.png",
+          "sha256": "fe962bb8b6726b4488818eeba763c21ab138ef2e1c4ea1cdf7c6ab47d0d47a8d",
+          "reason": "Rejected after native QA because the re-emergent river continued through the right edge and the alpine mass pressed into the upper edge. Preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-40410f3c-a815-4609-a34c-2a779c495750.png",
+          "sha256": "7e490d5fe42b065f3ede9472b431b95e2479a09cccaef8c7653bf93b356a15bd",
+          "reason": "Rejected after native QA because visible surface water remained between the swallow-hole and re-emergent cavern, contradicting the chapter-specific disappearance. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "3:17",
+      "title": "THE ELEVENTH REGION OF ITALY; ITALIA TRANSPADANA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+      "sha256": "21218713855c78fe4f69c2ae3d15b400988ead302c3d54f9771a1f5abe99efbe",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-26dbb09e-749d-4b16-9ed3-2f49f10751a6",
+      "outputArtifact": "built-in-imagegen://exec-26dbb09e-749d-4b16-9ed3-2f49f10751a6.png",
+      "exactFinalPrompt": "Create a revised, independently composed chapter illustration for Pliny the Elder's Naturalis Historia, Book III, chapter 17, \"The Eleventh Region of Italy; Italia Transpadana.\"\n\nMandatory framing revision: use a pulled-back bird's-eye view of a self-contained Transpadane river basin. A broad belt of dry meadow and vineyard must surround every side of the water, dock, barge, cargo, and figures; nothing may touch any image edge. In the center, one complete navigable crescent-shaped reach of the Padus is fully enclosed by visible banks, beginning and ending inside the landscape like a long calm river expansion. Against the inner bank sits one complete rectangular timber landing, seen entirely from end to end and connected only to that internal bank—not to the picture edge. One complete shallow Roman cargo barge in three-quarter view is moored beside it. Exactly two complete dock workers unload one compact cargo group: several amphorae together, folded cloth together, and one closed spice chest, all resting securely on barge or landing. Beyond is one compact fully visible Augusta Taurinorum; behind it, a complete Alpine ridge displays exactly two clear pass saddles. Vine plots and meadows evoke the inland region receiving \"the gifts of all the seas.\" No army, parade, mythology, or crowd.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent Plinian natural-history folio painting, iron-gall contours, delicate cross-hatching and stipple, mineral pigments—warm ochre morning, faded malachite fields, lapis-gray water, muted cinnabar garments, chalky alpine violet—subtle abrasion and foxing integrated into the painted image. Roman encyclopedic breadth through Renaissance naturalist precision, luminous haze and restrained grandeur. One unified continuous scene, never collage or split panel.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG. Whole frame painted as landscape; no visible page, parchment margin, mat, frame, cartouche, internal border, vignette, inset, triptych, or panels. Keep every part of the barge, freestanding landing, town, workers, cargo, crescent water reach, nearby trees, and both mountain passes at least 8 percent inward from all edges. No river, dock, boat, rope, building, person, tree, shoreline, cargo, rock, or foreground object may enter from, touch, or be severed by an edge. No text, letters, numerals, labels, inscriptions, symbols, signatures, watermarks, pseudo-writing, decorative marks, map writing, legends, banners, or captions. No floating or duplicated objects. Exactly one barge, one landing, two workers, one compact cargo group, one town, two pass saddles. Convincing perspective, boat construction, anatomy, scale.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The bird's-eye Transpadane basin contains one fully enclosed navigable river reach, one complete internal landing, one complete cargo barge, exactly two workers, one coherent cargo group, a contained Augusta Taurinorum and a full Alpine ridge. No clipped dock or water, text, pseudo-writing, panel, border, visible sheet, signature or watermark was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-059dd50c-cc2c-48fb-b072-b9dcf1f99cd1.png",
+          "sha256": "efdcdd13dd1ff3a5fe84530b3a36d6e0b90192547e6ff2c0d92f33d8e7be9fc7",
+          "reason": "Rejected after native QA because the timber landing entered and was cut by the lower-right edge, the river left the frame, and a signature-like mark appeared at lower-left. Preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

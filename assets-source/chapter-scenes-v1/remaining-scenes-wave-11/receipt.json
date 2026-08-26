@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-11",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "32:7",
+    "32:8",
+    "32:9",
+    "32:10",
+    "32:11",
+    "33:3",
+    "33:11",
+    "33:13"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in prompts and artifact IDs were extracted from the current ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    "public/corpus/book-32.2d6a8f163011f933.json",
+    "public/corpus/book-33.47332e398e91d3e3.json"
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus fields for all eight selected chapters were read before prompting. Harmful aquatic prescriptions, animal cruelty, magical medicine and gendered luxury criticism remain transmitted ancient testimony; accepted scenes use humane living-animal observation, dignified artisanship and non-actionable historical material culture.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 4,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 12,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 1,
+    "builtInEditCalls": 3,
+    "acceptedBuiltInEdits": 2,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-11",
+    "receiptsCheckedAtSelection": 113,
+    "nonEvidenceMastersCheckedAtSelection": 879,
+    "selectedKeys": [
+      "32:7",
+      "32:8",
+      "32:9",
+      "32:10",
+      "32:11",
+      "33:3",
+      "33:11",
+      "33:13"
+    ],
+    "activeClaimsExcluded": [
+      "26:12",
+      "26:13",
+      "26:14",
+      "26:15",
+      "27:1",
+      "27:2",
+      "27:3",
+      "27:4",
+      "30:13",
+      "30:14",
+      "30:15",
+      "30:16",
+      "31:2",
+      "31:3",
+      "31:4",
+      "31:5",
+      "31:6",
+      "31:7",
+      "31:8",
+      "31:9",
+      "31:10",
+      "32:3",
+      "32:4",
+      "32:5"
+    ],
+    "receiptsCheckedAtCertification": 115,
+    "nonEvidenceMastersCheckedAtCertification": 910,
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "chapters": [
+    {
+      "chapterKey": "32:7",
+      "title": "REMEDIES FOR ALOPECY, CHANGE OF COLOUR IN THE HAIR, AND ULCERATIONS OF THE HEAD. THE SEA-MOUSE: TWO REMEDIES, THE SEA-SCORPION: TWELVE REMEDIES. THE LEECH: SEVEN REMEDIES. THE MUREX: THIRTEEN REMEDIES. THE CONCHYLIUM: FIVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b32-c007.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1d31b1461e3de328ae76878eea2efe92351e24506aa088fe6c8affad2ecfed67",
+        "englishSha256": "79cbe4d78bf7d540372304e100d34abc15f59bac8579cfa62abd773b6ed8c60c",
+        "latinWords": 1079,
+        "englishWords": 2326,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "62469018d16c5bfbb9c0fe58454449ad257720e80c812fd5b69056e79f846009",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9f933863-214b-45b3-ae6d-f88fe57f0d57",
+      "generationArtifactId": "exec-9f933863-214b-45b3-ae6d-f88fe57f0d57",
+      "outputArtifact": "built-in-imagegen://exec-9f933863-214b-45b3-ae6d-f88fe57f0d57.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 7 illustration master\nPrimary request: Create a humane coastal natural-history scene responding skeptically to Pliny's long catalogue of supposed aquatic remedies for hair, eyes, ears, teeth and skin. Show exactly ONE complete fully clothed mature Roman woman with naturally silver-streaked, visibly thinning hair standing calmly on a dry limestone terrace, dignified and neither ill nor ashamed. Her hands are empty and relaxed. She looks toward exactly ONE complete small oval tidal pool below, where exactly ONE complete living purple sea urchin and exactly ONE complete small uranoscopos-like stargazer fish remain alive, separate and unharmed. Beside her on a low stone lies exactly ONE complete naturally empty murex shell and a folded piece of murex-purple wool as material culture, not medicine. Nothing is touched, captured, crushed, burned, mixed, swallowed or applied.\nScene/backdrop: enclosed Campanian sea-cliff garden at windless dawn, dry pale rock, one compact myrtle shrub, distant coastal headlands and a narrow band of sky. The entire tidal pool and every water edge are visible inside the terrace; no ocean or water reaches any canvas edge. No patient, mirror, comb, cosmetic act, medical tool, vessel, ingredient pile, fire, smoke, injury, exposed anatomy or remedy demonstration.\nStyle/medium: original deluxe Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine hair, shell and marine cross-hatching, stipple, scraped dry-brush limestone and translucent egg tempera with restrained Tyrian purple, pearl grey, faded lapis, muted verdigris, madder and ochre; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: wide low diagonal view, landscape 3:2, native 1536x1024; complete mature woman at upper-left center, complete pool isolated lower-right center, living urchin and fish separated within clear shallow water, murex shell and folded purple wool on the stone between them. Keep her entire head, every hair edge, hands, robe, legs and sandaled feet, both animals, shell, wool, pool rim, shrub, stones and headlands at least 135 pixels before all four edges. No discrete subject, water, horizon line, shadow or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the central scene.\nLighting/mood: pearl dawn with one deep purple accent, humane, self-possessed, observational and skeptical.\nText: none.\nConstraints: exactly one human, one living sea urchin, one living fish, one empty murex shell and one folded purple wool cloth; all complete, countable and fully internal; one continuous opaque RGB/sRGB scene; no medical action.\nAvoid: modern medical advice, cure promise, hair-restoration act, ridicule, shame, caricature, sickness, patient, eye or ear procedure, tooth treatment, depilation, animal harm, dead or dismembered animal, ash, blood, bodily fluids, exposed anatomy, magic shown as fact, child, nudity, extra human or animal, clipped subject, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, botanical or zoological plate, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9f933863-214b-45b3-ae6d-f88fe57f0d57",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete mature woman with natural silver-streaked hair, one living sea urchin, one living stargazer-like fish, one naturally empty murex shell and one folded purple cloth. The complete tide pool and distant sea remain inside the vellum vignette; hands, anatomy, counts, edge safety, text, panels and non-actionable framing all pass.",
+      "epistemicAndDignityNote": "Hair, eye, ear, tooth and skin prescriptions remain transmitted ancient testimony. The adult woman is dignified and healthy; cited marine organisms remain alive and untouched.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:8",
+      "title": "REMEDIES FOR SCROFULA, IMPOSTHUMES OF THE PAROTID GLANDS, QUINSY, AND DISEASES OF THE FAUCES. THE MÆNA: THIRTEEN REMEDIES. THE SEA-SCOLOPENDRA: TWO REMEDIES. THE SAURUS: ONE REMEDY. SHELL-FISH: ONE REMEDY. THE SILURUS: FIFTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b32-c008.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "a108987a0384bc11a7cefc84ac10eb75835821852bbebcef29808e1fc95d8e77",
+        "englishSha256": "0b2375114bbbb5979fe5edc537656bc69761ad06b50bcbdade4901fb4e16ce8f",
+        "latinWords": 384,
+        "englishWords": 783,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "deedd62d34ff491f956a8d14818c68f78fe49487b3c1924abf46835737123047",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-51e1ddfc-9052-452f-a772-d009b8fef99f",
+      "generationArtifactId": "exec-51e1ddfc-9052-452f-a772-d009b8fef99f",
+      "outputArtifact": "built-in-imagegen://exec-51e1ddfc-9052-452f-a772-d009b8fef99f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 8 illustration master\nPrimary request: Create a dignified Roman rehearsal scene for Pliny's chapter on ailments of the throat and voice, while leaving its animal-derived prescriptions as transmitted ancient claims rather than fact or advice. Show exactly ONE complete healthy fully clothed adult Roman singer standing alone on the dry orchestra floor of a small open-air theatre, holding exactly ONE complete seven-string lyre at rest against the hip. The singer's mouth is gently open in an ordinary sustained note, with no distress, treatment or patient role. At the far side of the orchestra, exactly ONE complete living silurus-like freshwater catfish swims calmly in exactly ONE small round stone vivarium whose entire rim and every water edge are visible. The singer does not approach, touch, eat or use the fish.\nScene/backdrop: compact Campanian theatre at clear sunrise, three complete curved tiers of empty pale stone seats, one complete stage portico, a dry cypress and distant hills. The vivarium is a modest architectural detail, not a medical vessel. No audience, physician, sore, swelling, neck restraint, gargle, food, animal remains, frog, crab, shell, brine, honey, vinegar, fire, smoke, recipe or remedy action.\nStyle/medium: original deluxe Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, rhythmic architectural cross-hatching, delicate figure work, stipple, dry-brush stone abrasion and restrained mineral washes of sunrise coral, limestone cream, faded lapis, muted verdigris, umber and a small bronze-gold accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: steep high-oblique architectural view, landscape 3:2, native 1536x1024; singer and lyre complete in the lower-center orchestra, round vivarium with the lone catfish isolated upper-right, empty seats sweeping asymmetrically around them. Keep the singer's entire head, mouth, hands, robe, legs and sandaled feet, every lyre arm and string, complete fish nose-to-tail and fins, full basin rim and all water, every seat tier end, portico roof, column, cypress crown and hill at least 135 pixels before all four edges. No discrete subject, architecture, water, shadow or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the theatre.\nLighting/mood: low coral sunrise crossing cool empty stone, resonant, spacious, humane and observational.\nText: none.\nConstraints: exactly one human singer, one lyre, one living catfish and one round contained vivarium; all complete, countable and fully internal; one continuous opaque RGB/sRGB scene; no remedy enacted.\nAvoid: modern medical advice, cure promise, throat procedure, illness, patient, neck swelling, choking, suffering, animal harm, dead or prepared fish, food service, medicine, magic shown as fact, child, nudity, extra human or animal, audience, malformed hands, malformed fish, clipped subject, water at edge, text, letters, numerals, pseudo-writing, musical notation, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-51e1ddfc-9052-452f-a772-d009b8fef99f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete singer with one complete lyre in an empty theatre and one complete living catfish inside a fully bounded round vivarium. Figure, instrument, fish, basin, seats and portico are internal; no audience, remedy, writing, panel or clipping appears.",
+      "epistemicAndDignityNote": "Throat, voice and animal-derived prescriptions remain historical claims. The healthy singer rehearses normally and the catfish is observed alive rather than used.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:9",
+      "title": "REMEDIES FOR PAINS IN THE LIVER AND SIDE. THE ELONGATED CONCH: SIX REMEDIES. THE TETHEA: FIVE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b32-c009.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "39a258a2cca5273d03fa31ed889e9b4ff0c61118f4f84f243aa6de3b4782fc70",
+        "englishSha256": "61b44e1bca63eea4b24704ba5dfc5fa6d38f2826d1c4e8edcb56032cd1bcbed0",
+        "latinWords": 1086,
+        "englishWords": 2317,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "4fdfaf1a1a71edcd8f8152389e2555e0d335436dee7985e8bbc0a7529480f5ee",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e45872ed-b927-411b-a7a1-667316b670fb",
+      "generationArtifactId": "exec-e45872ed-b927-411b-a7a1-667316b670fb",
+      "outputArtifact": "built-in-imagegen://exec-e45872ed-b927-411b-a7a1-667316b670fb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 9 illustration master\nPrimary request: Replace Pliny's many supposed internal remedies with a precise, non-prescriptive observation of the marine organisms named in the chapter. In exactly ONE small fully enclosed natural rock pool at low tide, show exactly FIVE living marine subjects, all calm and unharmed: exactly ONE elongated tawny trumpet-conch with its complete shell visible; exactly ONE solitary rust-orange tethea-like sea squirt attached naturally to a low rock; and exactly THREE separate closed blue-black mussels attached beside a short complete frond of seaweed. No person or other animal appears. Nothing is gathered, opened, cooked, ground, eaten, administered or arranged as a remedy.\nScene/backdrop: steep overhead view of a dry rose-and-slate limestone intertidal shelf under clear midday light. The pool is an irregular but complete oval with every rim and all water visible inside a wide field of dry rock. A few complete salt-tolerant plants and one small driftwood fragment sit far from the pool. No open sea, medical object, food vessel, mortar, wine, honey, oil, fire, smoke, patient, anatomy, wound or clinical action.\nStyle/medium: original deluxe Plinian marine folio on cool pearl-grey fibrous vellum; precise iron-gall contours, microscopic shell and rock cross-hatching, stipple, salt-like pigment bloom, dry-brush abrasion and translucent mineral washes of deep teal, ultramarine, rust orange, mussel black, rose limestone and muted verdigris; ancient, timeless, beautiful, rough in material and polished in natural observation.\nComposition/framing: near-vertical top-down composition, landscape 3:2, native 1536x1024; complete pool offset left of center, elongated conch crossing a pale submerged stone diagonally, single orange tethea isolated upper-right within the pool, three mussels individually countable lower-right beside the complete seaweed frond, generous clear water and dry rock between motifs. Keep every shell edge, conch tip and aperture, tethea outline, each mussel, seaweed tip, driftwood end, plant and every water edge at least 145 pixels before all four canvas edges. No discrete subject, water, shoreline, shadow or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the vignette.\nLighting/mood: crystalline overhead light with lapis-green depth, exacting, serene and full of natural wonder.\nText: none.\nConstraints: exactly one elongated conch, one tethea-like tunicate and three mussels; exactly five living marine subjects total; all complete, separated, countable and fully internal; one continuous opaque RGB/sRGB scene; no remedy action.\nAvoid: modern medical advice, laxative or diuretic claim, treatment, ingestion, cooking, dissection, animal harm, open or broken shell, dead organism, blood, bodily fluids, exposed anatomy, illness, patient, magic shown as fact, human, fish, crab, frog, extra shellfish, clipped subject, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, specimen board, botanical or zoological grid, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e45872ed-b927-411b-a7a1-667316b670fb",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found a complete bounded rock pool containing one elongated conch shell with the animal withdrawn safely inside, one orange tethea-like tunicate and exactly three closed mussels beside one complete seaweed frond. Exact counts, water-edge safety, subject separation, text and single-scene requirements pass.",
+      "epistemicAndDignityNote": "The purgative, internal and topical recipes remain transmitted testimony. The image limits itself to calm intertidal natural history and supplies no preparation or use.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:10",
+      "title": "REMEDIES FOR FEVERS. THE FISH CALLED ASELLUS: ONE REMEDY. THE PHAGRUS: ONE REMEDY. THE BALÆNA: ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b32-c010.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "5f7ece6d9cb8b50310b580919552292612f1cde10326ac098a78be3cc37e4a63",
+        "englishSha256": "6f977e941341baa9437997970d25606ae3ed7287497f80abd79f954e624b9deb",
+        "latinWords": 1629,
+        "englishWords": 3475,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e463fcd669cc8ba5b29b9fb7473bac5c2baa001849d85db6547cf7b34f768d64",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-eab0bf97-c575-4345-93a1-aebf3c24da2c",
+      "generationArtifactId": "exec-eab0bf97-c575-4345-93a1-aebf3c24da2c",
+      "outputArtifact": "built-in-imagegen://exec-eab0bf97-c575-4345-93a1-aebf3c24da2c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 10 illustration master\nPrimary request: Create a humane natural-history counter-image to Pliny's catalogue of supposed fever amulets, animal applications and magical procedures. At an ordinary rural three-way junction before dawn, show exactly THREE complete living animals, calm, separate and unharmed: exactly ONE small green tree frog resting naturally on a dry central limestone marker; exactly ONE river crab walking across a separate patch of damp earth with all claws and legs visible; and exactly ONE small asellus-like fish swimming in a complete shallow spring basin nearby, visible nose-to-tail through clear water. No person or other animal appears. Nothing is captured, tied, blinded, boiled, killed, worn, smelled, eaten, applied or used as treatment.\nScene/backdrop: an ancient Campanian Y-shaped country path surrounded by low dry meadow, one compact willow, a distant empty farmhouse and indigo hills at first light. The spring basin is a fully enclosed irregular oval set beside one branch of the road, with its entire stone rim and every water edge visible. The three roads end naturally inside the vignette before broad vellum; no signpost, inscription, medical object, amulet, vessel, fire, smoke, patient, bed, symptom or supernatural effect.\nStyle/medium: original deluxe Plinian natural-history folio on cool smoke-indigo fibrous vellum; fine iron-gall contour, nocturnal cross-hatching, stipple, granular dry-brush meadow texture and restrained mineral washes of indigo, moon silver, frog green, river-clay rust, faded lapis, ochre and pale dawn rose; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: sweeping high-oblique Y composition, landscape 3:2, native 1536x1024; three dry paths form a broad asymmetrical fork, complete frog and low marker left-center, complete crab lower-center, complete contained basin and fish right-center, with generous empty earth separating all three animals. Keep every toe, eye, claw, leg, antenna, fin, tail, marker corner, basin rim, water edge, willow root and crown, farmhouse and hill at least 140 pixels before all four canvas edges. No discrete subject, road line, water, horizon, shadow or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the central landscape.\nLighting/mood: blue predawn yielding to a narrow rose horizon, cool, watchful, humane and explicitly skeptical.\nText: none.\nConstraints: exactly one frog, one river crab and one fish; all complete, anatomically plausible, separated and fully internal; one continuous opaque RGB/sRGB scene; no human and no remedy enacted.\nAvoid: modern medical advice, cure promise, fever patient, illness, amulet, ritual, magic shown as fact, animal restraint, animal harm, dead or dismembered animal, blood, bodily fluids, exposed anatomy, cooking, medicine, child, human, extra animal, malformed limbs, clipped subject, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, zoological plate, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-eab0bf97-c575-4345-93a1-aebf3c24da2c",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete green frog on a marker, one complete river crab with visible limbs and one complete fish in a fully enclosed spring basin, separated across a Y-shaped predawn junction. No human, harm, ritual, treatment, text, collage, water-edge contact or clipping appears.",
+      "epistemicAndDignityNote": "Fever amulets, animal applications and magical procedures remain ancient reports. Every animal is alive, free and unrelated to a treatment.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:11",
+      "title": "THE NAMES OF ALL THE ANIMALS THAT EXIST IN THE SEA, ONE HUNDRED AND SEVENTY-SIX IN NUMBER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b32-c011.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "77501ffa19cd94516fdaee6b67711a530f78fb6bb058741961ff24c24bd1b13f",
+        "englishSha256": "d79c0561ea1afb04bb06b3de0c91e58a8f88fd16073b1684d9364063d2e68cfb",
+        "latinWords": 702,
+        "englishWords": 1552,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "67a83dd0361257e601c74c52020e83ac6698352c0e1eb31a69c56b7016a31e10",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cb45625d-e37e-4222-b3fc-ab35a025855f",
+      "generationArtifactId": "exec-cb45625d-e37e-4222-b3fc-ab35a025855f",
+      "outputArtifact": "built-in-imagegen://exec-cb45625d-e37e-4222-b3fc-ab35a025855f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 11 illustration master\nPrimary request: Create a grand but disciplined marine biodiversity panorama for Pliny's attempt to enumerate all animals of the sea. In exactly ONE vast naturally enclosed coastal limestone lagoon, show exactly EIGHT complete living marine animals, each anatomically plausible, individually separated and easy to count: exactly ONE small common dolphin; exactly ONE green sea turtle; exactly ONE broad stingray; exactly ONE red-brown common octopus with all eight arms visible; exactly ONE Mediterranean moray eel; exactly ONE rust-red shore crab; exactly ONE ochre sea star; and exactly ONE living purple murex snail with its complete spined shell. No human or other animal appears. The image celebrates the impulse to catalogue while treating fabulous names such as tritons, nereids and sea-men as reports rather than literal beings.\nScene/backdrop: a spectacular clear saltwater sinkhole set in pale Mediterranean karst, connected to the open sea only by an unseen subterranean passage. Its entire irregular oval shoreline and every water edge are visible inside dry rock. A submerged arch, seagrass patches and isolated stones create natural depth. No boat, net, hook, captivity, aquarium architecture, hunting, feeding, carcass, specimen label, magical creature or open ocean.\nStyle/medium: original deluxe Plinian marine folio on pale blue-grey fibrous vellum; masterful iron-gall contour, layered aquatic cross-hatching, stipple, dry-brush salt abrasion and transparent mineral glazes of deep lapis, turquoise, purple, coral red, ochre, muted verdigris and limestone cream; ancient, timeless, beautiful, rough in material and polished in natural observation.\nComposition/framing: sweeping high-oblique view, landscape 3:2, native 1536x1024; dolphin and turtle occupy separate upper-water diagonals, ray isolated in the central blue depth, octopus on a lower-left submerged stone, moray fully visible in an open lower-right curve, crab and sea star separated on a shallow shelf, murex snail isolated on pale sand. Generous clear water separates every subject. Keep every snout, eye, fin, flipper, tail, arm tip, sucker line, eel curve, leg, claw, ray wing, sea-star arm, shell spine, lagoon rim, submerged arch, seagrass frond and stone at least 140 pixels before every canvas edge. No discrete subject, water, shoreline, shadow or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the complete lagoon.\nLighting/mood: high Mediterranean sun descending through jewel-clear water, encyclopedic, immense, serene and full of wonder.\nText: none.\nConstraints: exactly eight animals total—one dolphin, one turtle, one ray, one octopus, one moray eel, one crab, one sea star and one murex snail; all complete, separate, countable, anatomically plausible and unharmed; one continuous opaque RGB/sRGB scene.\nAvoid: fabulous humanoid, hybrid, monster, extra fish, fish school, duplicate animal, predation, animal harm, dead animal, captivity, medical advice, recipe, human, boat, net, clipped subject, missing octopus arm, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, specimen board, zoological grid, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-cb45625d-e37e-4222-b3fc-ab35a025855f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly eight complete separated animals in one bounded saltwater lagoon: dolphin, turtle, ray, eight-armed octopus, moray, crab, sea star and murex snail. All water edges and organisms are internal; no extra fish, fabulous humanoid, predation, writing, panel or clipping appears.",
+      "epistemicAndDignityNote": "The scene honors Pliny's enumerating impulse while treating tritons, nereids, sea-men and similar names as transmitted reports rather than literal zoology.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "33:3",
+      "title": "OTHER USES MADE OF GOLD, BY FEMALES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b33-c003.png",
+      "corpusArtifact": "public/corpus/book-33.47332e398e91d3e3.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2dada934e0ac42aae8d40a46c73732ae32e497844cae7385d0bdb5acca4096cb",
+        "englishSha256": "684a5474ec8f504ae9e3f6e37d8dcbb876e4ee0112ae0e1abfafb3584705c19f",
+        "latinWords": 1418,
+        "englishWords": 3231,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "4a86b4f2995d97a87623a253c796d7615d5c5dfdb8fa6f48abe8fd5ef76404af",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d97d390a-bb6a-4d52-bcec-122836e5d29b",
+      "generationArtifactId": "exec-d97d390a-bb6a-4d52-bcec-122836e5d29b",
+      "outputArtifact": "built-in-imagegen://exec-d97d390a-bb6a-4d52-bcec-122836e5d29b.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final independent-replacement Naturalis Historia Book XXXIII chapter 3 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the outer camera framing of Image 1. Pull back and slightly lower the viewpoint so both white peristyle columns are completely visible from their full bases through their entire shafts to their complete capitals, with clear cream wall, leaves and unmarked vellum above every capital. Keep the complete grape arbor and every vine tip inside as well. Preserve unchanged the exact mature woman goldsmith, pose, face, hands, clothing, one square gold leaf, bronze tongs, one round table, one ingot, one stone hammer, one bronze balance, closed chest on low stool, internal arch, hills, dappled courtyard light, high-key palette and all object positions and counts. Do not add, remove, duplicate or alter any subject or object.\nComposition/framing: native 1536x1024 landscape; complete woman head-to-sandal, complete table rim and all legs, both columns base-to-capital, complete arbor, chest, stool, internal arch, tongs, leaf, ingot, hammer and balance all at least 105 pixels from every canvas edge. No discrete object, structure, shadow or pigment reaches an edge; broad luminous vellum surrounds the courtyard.\nText: none.\nConstraints: exactly one adult human, one square gold leaf, one gold ingot, one hammer, one balance, one round table and one closed chest on one stool; all complete, separate, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: changing identity, pose, high-key lighting or counts, adding person or object, clipped column or arbor, night, dark workshop, furnace, brazier, flame, smoke, water, letters, numerals, pseudo-writing, malformed hand, signature, watermark, border, depicted page, panels, collage, photorealism, glossy CGI.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8081574a-899b-4fb0-9952-9fe602e4fa79",
+          "status": "rejected-native-visual-qa"
+        },
+        {
+          "generationArtifactId": "exec-dabc66ba-71a1-43c8-a498-700063fc832b",
+          "status": "rejected-global-similarity-gate",
+          "builtInEditOfArtifactId": "exec-8081574a-899b-4fb0-9952-9fe602e4fa79"
+        },
+        {
+          "generationArtifactId": "exec-c5fe4118-992d-475c-9dc6-1ba62e9f2970",
+          "status": "rejected-native-visual-qa",
+          "independentReplacementOfArtifactId": "exec-dabc66ba-71a1-43c8-a498-700063fc832b"
+        },
+        {
+          "generationArtifactId": "exec-d97d390a-bb6a-4d52-bcec-122836e5d29b",
+          "status": "accepted-built-in-edit",
+          "builtInEditOfArtifactId": "exec-c5fe4118-992d-475c-9dc6-1ba62e9f2970"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-dabc66ba-71a1-43c8-a498-700063fc832b",
+            "builtInEditOfArtifactId": "exec-8081574a-899b-4fb0-9952-9fe602e4fa79",
+            "accepted": false
+          },
+          {
+            "generationArtifactId": "exec-d97d390a-bb6a-4d52-bcec-122836e5d29b",
+            "builtInEditOfArtifactId": "exec-c5fe4118-992d-475c-9dc6-1ba62e9f2970",
+            "accepted": true
+          }
+        ],
+        "independentReplacements": [
+          {
+            "generationArtifactId": "exec-c5fe4118-992d-475c-9dc6-1ba62e9f2970",
+            "independentReplacementOfArtifactId": "exec-dabc66ba-71a1-43c8-a498-700063fc832b"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review of the accepted high-key replacement found one complete mature woman goldsmith, one complete square gold leaf, tongs, ingot, hammer, balance, round table and closed chest on a stool. Both columns are complete base-to-capital, all objects and architecture are internal, and no text, coin portrait, fire or clipping appears.",
+      "epistemicAndDignityNote": "The artisan is centered as a knowledge-bearing maker, not a target of Pliny's gendered luxury critique. Gold's thinness and craft are shown without a chemical recipe or conspicuous consumption.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-8081574a-899b-4fb0-9952-9fe602e4fa79",
+          "outputArtifact": "built-in-imagegen://exec-8081574a-899b-4fb0-9952-9fe602e4fa79.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/evidence/history/b33-c003-reject-01-clipped-workbench.png",
+          "sha256": "4abc0c22296802fff3a349a04046009c78bb7929268339d7b44e38df9923b14e",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIII chapter 3 illustration master\nPrimary request: Create a dignified Roman goldsmith's workshop centered on gold's malleability and endurance rather than Pliny's gendered attack on luxury. Show exactly ONE complete fully clothed mature Roman woman as a master goldsmith, standing at a low basalt workbench and lifting exactly ONE complete tissue-thin square of hammered gold leaf with a pair of fine bronze tongs into a shaft of light. Her other hand rests naturally on the bench. Exactly ONE small plain gold ingot, exactly ONE smooth stone hammer, and exactly ONE unmarked bronze balance sit separately on the workbench. Behind her, exactly ONE dark wooden jewelry chest is firmly closed and bound with a red cord. A complete compact charcoal brazier stands cold and empty nearby, acknowledging the chapter's discussion of fire without demonstrating a process. No jewelry is worn or displayed.\nScene/backdrop: deep-shadowed Roman metalworking room with dry brick, one high window, one complete stone workbench and a distant open doorway to a sunlit courtyard. No assistant, customer, victim, sacrifice, coin portrait, imperial effigy, gold-covered architecture, treasure heap, molten metal, flame, smoke, quicksilver, salt, vinegar, recipe or conspicuous consumption.\nStyle/medium: original deluxe Plinian arts-and-metals folio on charcoal-brown fibrous vellum; crisp iron-gall contours, dense workshop cross-hatching, stipple, dry-brush soot and restrained mineral washes of old gold, lampblack, umber, wine red, muted verdigris and pale limestone; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: dramatic low three-quarter view, landscape 3:2, native 1536x1024; complete goldsmith occupies right-center, the tiny gold leaf glows high in the central light shaft, complete workbench and its four separated objects form a low diagonal, closed chest isolated in left shadow, cold brazier farther back. Keep her entire head, hands, fingers, robe, legs and sandaled feet, tongs, every gold-leaf corner, ingot, hammer, balance arm and pan, bench, chest, cord, brazier, window and doorway at least 135 pixels before all four canvas edges. No discrete subject, architecture, shadow or pigment touches or continues beyond an edge. Broad dark-to-warm unmarked vellum surrounds the vignette.\nLighting/mood: one severe diagonal sunbeam igniting the single gold leaf against deep smoke-black shadow, intellectually critical, skill-centered and quietly magnificent.\nText: none.\nConstraints: exactly one adult human, one gold leaf, one gold ingot, one hammer, one balance, one closed chest and one cold brazier; all complete, separated, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: sexist caricature, luxury celebration, jewelry-covered woman, slave, child, nudity, violence, sacrifice, molten gold, pouring, fire, smoke, medical or chemical instruction, extra person, extra gold object, coin face, letters, numerals, pseudo-writing, malformed hand, clipped subject, water, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "Original-resolution review rejected the first independent candidate because the basalt workbench and its front support were cut by the lower canvas edge."
+        },
+        {
+          "generationArtifactId": "exec-dabc66ba-71a1-43c8-a498-700063fc832b",
+          "outputArtifact": "built-in-imagegen://exec-dabc66ba-71a1-43c8-a498-700063fc832b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/evidence/history/b33-c003-reject-02-global-mad-16.77.png",
+          "sha256": "84e493573f07b45055cc8d379e62d1bfea54f74b4c19635ee7ea003ac96aac4e",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXIII chapter 3 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the camera framing and outer vignette of Image 1. Pull the viewpoint farther back so the entire basalt workbench is fully visible, including every tabletop corner, all four legs and their complete feet, with at least a broad band of dry floor and dark unmarked vellum beneath and around it. Also ensure the complete high lattice window, open doorway, closed chest, cold brazier and the goldsmith's entire figure remain comfortably inside the canvas. Preserve the exact mature woman, pose, face, hands, clothing, one square gold leaf, bronze tongs, one gold ingot, one stone hammer, one bronze balance, closed red-cord chest, cold empty brazier, architecture, diagonal light shaft, palette, surface texture and critical meaning unchanged. Do not add, remove, duplicate, open or alter any subject or object.\nComposition/framing: native 1536x1024 landscape; complete woman head-to-sandal, complete workbench corner-to-corner and all four legs, complete window, doorway, chest, cord, brazier, tongs, leaf, ingot, hammer and balance all at least 110 pixels from every canvas edge. No discrete object, structure, shadow or pigment reaches an edge; broad dark-to-warm vellum surrounds the whole workshop.\nText: none.\nConstraints: exactly one adult human, one gold leaf, one gold ingot, one hammer, one balance, one closed chest and one cold brazier; all complete, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: changing identity or pose, adding person or object, jewelry display, open chest, flame, smoke, malformed hand, clipped bench or architecture, water, text, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panels, collage, photorealism, glossy CGI.",
+          "reason": "The corrected dark workshop passed native visual QA but failed the permanent global similarity gate: nearest-neighbor MAD was 16.77 against assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c006.png in the 904-master scan, below the required 20."
+        },
+        {
+          "generationArtifactId": "exec-c5fe4118-992d-475c-9dc6-1ba62e9f2970",
+          "outputArtifact": "built-in-imagegen://exec-c5fe4118-992d-475c-9dc6-1ba62e9f2970.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/evidence/history/b33-c003-reject-03-clipped-columns.png",
+          "sha256": "af2a239aed349042105548af7aba33ab216907c8af86bfe263a0617bfca232bc",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent replacement Naturalis Historia Book XXXIII chapter 3 illustration master after a global-similarity rejection\nPrimary request: Create a radically high-key Roman goldsmith's courtyard scene centered on gold's malleability, resistance and skilled making rather than Pliny's gendered attack on luxury. Show exactly ONE complete fully clothed mature Roman woman as master goldsmith standing in brilliant open shade at exactly ONE complete small round white-limestone worktable. She holds exactly ONE tissue-thin square of hammered gold leaf flat between two fine bronze tongs so sunlight shines through its crinkled surface; her second hand is open and empty. On the table sit exactly ONE plain gold ingot, exactly ONE smooth stone hammer and exactly ONE small unmarked bronze balance, each fully separated. Exactly ONE firmly closed pale wooden jewelry chest rests on a complete low stool far behind. No furnace or brazier appears in this replacement.\nScene/backdrop: airy whitewashed peristyle courtyard at clear noon, with two complete slender columns, one compact grape arbor casting dappled leaf shadow, a complete ochre wall and distant blue hills visible through an internal arch. The floor is pale dry mosaic-free limestone. No assistant, customer, sacrifice, coin portrait, imperial effigy, jewelry display, treasure heap, flame, smoke, molten metal, quicksilver, salt, vinegar, recipe or luxury spectacle.\nStyle/medium: original deluxe Plinian arts-and-metals folio on luminous cream fibrous vellum; crisp iron-gall contour, fine sunlit cross-hatching, chalky stipple and dry-brush plaster abrasion with restrained old-gold, lemon ochre, pale turquoise, muted verdigris, coral madder and cool blue-grey mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Tonally bright and compositionally unlike any dark nocturne.\nComposition/framing: steep high-oblique courtyard view, landscape 3:2, native 1536x1024; complete circular table isolated in lower-left center, complete standing goldsmith in upper-right center, closed chest on low stool far upper-left, two columns and internal arch forming an open asymmetrical triangle. Keep her entire head, hands, robe, legs and sandaled feet, tongs, every leaf corner, ingot, hammer, balance arm and pans, table rim, all table legs, chest, stool, both columns, arbor and arch at least 135 pixels before all four canvas edges. No discrete subject, structure, shadow or pigment touches or continues beyond an edge. Broad luminous vellum surrounds the vignette.\nLighting/mood: clear white noon with a single warm gold flash, lucid, skill-centered, self-possessed and quietly critical of excess.\nText: none.\nConstraints: exactly one adult human, one square gold leaf, one gold ingot, one hammer, one balance, one round table and one closed chest on one stool; all complete, separate, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: dark workshop, night sky, astronomical orbs, sexist caricature, jewelry-covered woman, luxury celebration, slave, child, nudity, violence, sacrifice, furnace, brazier, flame, smoke, molten gold, pouring, chemical instruction, extra person, extra gold object, coin face, letters, numerals, pseudo-writing, malformed hand, clipped subject, water, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "Original-resolution review rejected the first high-key independent replacement because both peristyle columns continued beyond the top canvas edge."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "33:11",
+      "title": "INSTANCES OF LUXURY IN SILVER PLATE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b33-c011.png",
+      "corpusArtifact": "public/corpus/book-33.47332e398e91d3e3.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bbce67eeed053a61c08982a378479d96f0d56dbaaade435a412141d0099499b5",
+        "englishSha256": "b105273305d0f267c57f8bbe15b9621b6c301f72c8d634103e7005028be0b7e2",
+        "latinWords": 628,
+        "englishWords": 1451,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "803c2b24973b5203e223dcf7b5de4c5cdf86e4c682c14973f9c28a351ae5021a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d7a243c7-6bef-4d85-9378-77f83b03a39c",
+      "generationArtifactId": "exec-d7a243c7-6bef-4d85-9378-77f83b03a39c",
+      "outputArtifact": "built-in-imagegen://exec-d7a243c7-6bef-4d85-9378-77f83b03a39c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIII chapter 11 illustration master\nPrimary request: Create an architecturally dramatic critique of Roman luxury in silver plate, centered on the absurd scale Pliny records rather than on a sumptuous banquet. In a purpose-built metalworking hall, show exactly ONE enormous complete circular silver charger resting upright on a complete timber A-frame cradle, its entire rim visible and its surface plain except for subtle hammer marks. Show exactly TWO complete fully clothed adult Roman metalworkers standing apart beside it: one mature woman master artisan at left holds a short plain measuring rod with no markings; one mature man at right rests both empty hands on his hips. They study the disproportionate object with sober expressions. No slave, owner, diner, feast or carrying spectacle appears.\nScene/backdrop: high vaulted dry workshop with complete timber roof trusses, one cold masonry furnace, one closed tool chest and wide empty stone floor. Exactly EIGHT much smaller plain silver dishes sit nested together on a low distant rack as a single quiet reference to Pliny's accompanying chargers; all are unused and undecorated. No food, table service, gold, tortoiseshell, carriage, mule, auction, wealth display, flame, smoke, molten metal or manufacturing instruction.\nStyle/medium: original deluxe Plinian arts-and-metals folio on cool slate-grey fibrous vellum; forceful iron-gall architectural contour, dense cross-hatching, silverpoint-like stipple, scraped dry-brush workshop dust and restrained mineral washes of moon silver, blue-grey, lampblack, muted teal, umber and one sober madder accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: wide frontal basilica-like view, landscape 3:2, native 1536x1024; complete giant charger and complete A-frame occupy the central half like a false moon, two artisans stand fully visible and widely separated at its lower sides, nested dishes small on a far shelf, cold furnace and chest counterweight the rear architecture. Keep both people head-to-sandal, every finger, measuring rod end, charger rim, cradle beam and foot, all eight small dish rims, rack, furnace, chest, truss and floor boundary at least 125 pixels before all four canvas edges. No discrete subject, structure, shadow or pigment touches or continues beyond an edge. Broad cool unmarked vellum surrounds the workshop vignette.\nLighting/mood: cold clerestory light sliding across hammered silver, monumental, austere, materially exact and openly skeptical of excess.\nText: none.\nConstraints: exactly two adult humans, one giant charger on one complete A-frame, exactly eight nested small dishes on one rack, one cold furnace and one closed chest; all complete, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: luxury celebration, banquet, food, ruler, crowd, slave spectacle, humiliation, violence, child, nudity, extra person, gold object, coin, open chest, flame, smoke, molten metal, letters, numerals, pseudo-writing, malformed hand, clipped platter, person or architecture, water, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d7a243c7-6bef-4d85-9378-77f83b03a39c",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found exactly two complete adult metalworkers, one enormous complete plain silver charger on a complete timber cradle, exactly eight nested smaller dishes, a cold furnace and closed chest. Counts, hands, platter rim, architecture, edge safety, text and single-scene requirements pass.",
+      "epistemicAndDignityNote": "The workshop makes Pliny's critique of disproportionate luxury visible without turning enslaved labor, banqueting or wealth into spectacle.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "33:13",
+      "title": "CÆRULEUM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/b33-c013.png",
+      "corpusArtifact": "public/corpus/book-33.47332e398e91d3e3.json",
+      "corpusReadEvidence": {
+        "latinSha256": "01128ff904aef733fddeeea809df15570b7a16037fdb8cba8ccdb5116a3742c1",
+        "englishSha256": "aa11661f9831bbf26d242def9df22d441d171affc45c97ba7c8af3b5cf6f0ba0",
+        "latinWords": 242,
+        "englishWords": 539,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "1b5c9ebda36ec60cbe02dd3bc0369537b833c4bfb878b14691297a145a4a30c1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5336389b-06f7-44a4-9009-6de1c5037017",
+      "generationArtifactId": "exec-5336389b-06f7-44a4-9009-6de1c5037017",
+      "outputArtifact": "built-in-imagegen://exec-5336389b-06f7-44a4-9009-6de1c5037017.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXIII chapter 13 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Correct only the pigment-cup count and the outer framing in Image 1. Remove exactly ONE cup: remove the middle medium-blue cup that is third from the left in the row of five, replacing its former location with matching bare stone tabletop and natural shadow. The final table must hold exactly FOUR complete pigment cups total, left to right: pale powder blue, vivid turquoise-blue, deep lapis-blue and smoky black-blue. Do not add, merge, recolor or move the other four cups. Pull the viewpoint back just enough that the entire low stone palette table is fully visible—every tabletop corner, all support legs and their feet—with broad dry floor and unmarked vellum around it. Preserve unchanged the exact seated woman muralist, pose, face, hands, brush, complete blue niche and gradient, stool, sponge, closed round casket, windows, doorway, plaster, lighting, palette and workshop.\nComposition/framing: native 1536x1024 landscape; complete muralist head-to-sandal, complete stool, complete palette table and every leg, exactly four cup rims and pigment surfaces, sponge, closed casket, brush, niche arch, windows and doorway all at least 110 pixels before each canvas edge. No discrete object, structure, shadow or pigment reaches an edge.\nText: none.\nConstraints: exactly one adult human, one stool, one brush, one complete palette table, exactly four blue pigment cups, one sponge and one closed casket; all complete, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: fifth cup, missing cup, extra object, changing identity or pose, moving the four retained cups, open casket, water, visible liquid, text, letters, numerals, pseudo-writing, malformed hand, clipped table or architecture, signature, watermark, border, depicted page, panels, collage, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6f13adab-f2a1-4923-86f2-13544fdba6ea",
+          "status": "rejected-native-visual-qa"
+        },
+        {
+          "generationArtifactId": "exec-5336389b-06f7-44a4-9009-6de1c5037017",
+          "status": "accepted-built-in-edit",
+          "builtInEditOfArtifactId": "exec-6f13adab-f2a1-4923-86f2-13544fdba6ea"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-5336389b-06f7-44a4-9009-6de1c5037017",
+            "builtInEditOfArtifactId": "exec-6f13adab-f2a1-4923-86f2-13544fdba6ea",
+            "accepted": true
+          }
+        ],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review of the accepted correction found one complete seated muralist, one brush, complete stool and palette table, exactly four blue pigment cups, one sponge and one closed casket. The blue light-to-shadow niche, windows, doorway, hands, feet and every table support are internal; no writing, liquid, panel or clipping appears.",
+      "epistemicAndDignityNote": "Cæruleum is presented as historical material craft and painterly light, not as the chapter's medicinal recommendation or an actionable manufacturing recipe.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-6f13adab-f2a1-4923-86f2-13544fdba6ea",
+          "outputArtifact": "built-in-imagegen://exec-6f13adab-f2a1-4923-86f2-13544fdba6ea.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-11/evidence/history/b33-c013-reject-01-five-cups-clipped-table.png",
+          "sha256": "7f02c41181d4de1820dae9a8d1d3f188fccd5831dc7215bae3f249f2d85e646a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXIII chapter 13 illustration master\nPrimary request: Create a luminous Roman painter's workshop devoted to cæruleum, the blue sand pigment Pliny describes. Show exactly ONE complete fully clothed mature Roman woman muralist seated on exactly ONE complete low wooden stool, painting a broad unlettered curved architectural niche with a long-handled brush. The niche contains only a smooth nonfigurative transition from pale sky blue in direct light to deep Egyptian blue in shadow, demonstrating Pliny's distinction of shadows from light without any label or diagram. On one complete low stone palette table beside her sit exactly FOUR separate shallow ceramic pigment cups, each fully visible and holding one dry blue pigment of a distinct tone: pale powder blue, vivid turquoise-blue, deep lapis-blue and smoky black-blue. One unused sponge and one closed pigment casket rest behind them.\nScene/backdrop: high dry plastering room at Puteoli with one arched window, rough cream wall, complete blue niche, a distant internal doorway and no other person. No boiling, plant dye, water, liquid, medicine, ulcer, cautery, burning-coal test, price list, merchant, coin, text, figure painting, seascape or modern art material.\nStyle/medium: original deluxe Plinian arts-and-pigments folio on cool cream fibrous vellum; confident iron-gall contour, plaster-grain cross-hatching, stipple, scraped dry-brush abrasion and sumptuous but restrained mineral washes of Egyptian blue, turquoise, lapis, smoke-blue, limestone cream, umber and a minute madder accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: tall-feeling wide interior, landscape 3:2, native 1536x1024; complete blue niche rises asymmetrically through the left-center, complete seated muralist occupies right-center, four cups form a clean receding diagonal on the low palette table between them. Keep her entire head, hands, fingers, robe, knees and sandaled feet, brush tip and handle, complete stool, every cup rim, dry pigment surface, table corner and leg, sponge, closed casket, niche arch, window and doorway at least 130 pixels before all four canvas edges. No discrete subject, structure, shadow or pigment touches or continues beyond an edge. Broad cream-to-blue unmarked vellum surrounds the complete workshop.\nLighting/mood: white noon light through the high arch becoming deep ultramarine inside the niche, lucid, contemplative and materially radiant.\nText: none.\nConstraints: exactly one adult human, one stool, one brush, one palette table, four blue pigment cups, one sponge and one closed casket; all complete, separated, countable and fully internal; one continuous opaque RGB/sRGB scene.\nAvoid: medical instruction, ulcer, cautery, fire, smoke, water, visible liquid, recipe, price, text, Greek or Latin characters, letters, numerals, pseudo-writing, painted person or animal, extra human, malformed hand, clipped subject, signature, watermark, border, decorative frame, depicted page, specimen grid, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "Original-resolution review rejected the first candidate because it contained five pigment cups instead of exactly four and the palette table continued beyond the lower-left canvas edge."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 910,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "32:7": {
+        "nearestMAD": 22.25,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c010.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b30-c001.png",
+        "madAtDHashPeer": 58.46
+      },
+      "32:8": {
+        "nearestMAD": 26.88,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "madAtDHashPeer": 41.71
+      },
+      "32:9": {
+        "nearestMAD": 26.64,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c013.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c006.png",
+        "madAtDHashPeer": 35.68
+      },
+      "32:10": {
+        "nearestMAD": 26.62,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c044.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c009.png",
+        "madAtDHashPeer": 39.1
+      },
+      "32:11": {
+        "nearestMAD": 25.88,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c006.png",
+        "madAtDHashPeer": 28.93
+      },
+      "33:3": {
+        "nearestMAD": 27.79,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-06/b09-c051.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c020.png",
+        "madAtDHashPeer": 78.24
+      },
+      "33:11": {
+        "nearestMAD": 29.5,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c025.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c014.png",
+        "madAtDHashPeer": 34.94
+      },
+      "33:13": {
+        "nearestMAD": 34.03,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c019.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-06/b09-c050.png",
+        "madAtDHashPeer": 41.84
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-11",
+    "status": "pass",
+    "output": ""
+  }
+}

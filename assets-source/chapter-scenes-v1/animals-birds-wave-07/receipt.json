@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-07",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "corpusSha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4",
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book X chapters 53, 54, 56, 58, 59, 60, 62 and 63 were read before prompting. Ancient developmental, reproductive, husbandry, ritual, remedy, moralizing, coercive, violent and food-safety claims are treated as transmitted testimony rather than verified modern biology, instruction, stigma, cruelty or spectacle. Sensitive reproduction is represented only through calm living animals, intact eggs, incubation and parental attention.",
+  "assignments": [
+    "10:53",
+    "10:54",
+    "10:56",
+    "10:58",
+    "10:59",
+    "10:60",
+    "10:62",
+    "10:63"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "animals-birds-wave-07",
+    "receiptsCheckedAtCertification": 99,
+    "nonEvidenceMastersCheckedAtCertification": 777,
+    "correctedTargetNote": "The originally proposed 10:61 was rejected before generation because the live plan marked it receipt-backed-atlas-cell; parent supplied collision-free planned-full-scene key 10:63 instead.",
+    "skippedAtlasCells": [
+      "10:55",
+      "10:57",
+      "10:61"
+    ],
+    "selectedKeys": [
+      "10:53",
+      "10:54",
+      "10:56",
+      "10:58",
+      "10:59",
+      "10:60",
+      "10:62",
+      "10:63"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13,
+    "independentCalls": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:53",
+      "title": "THE VARIOUS KINDS OF EGGS, AND THEIR NATURE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c053.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "c215fe6ebdf180da0c540395e94466c8aef318cef168f979bcef992e4a3b2b58",
+        "englishSha256": "acb7ce095aeb993bb47fb161cdd53d3b0960c10a9ff714c9ad22496a58499b2d",
+        "latinWords": 255,
+        "englishWords": 527
+      },
+      "sha256": "14b1b593e5b8e239756e2b76eb0b788da0bbddb8d6182c74dac6719a3382b304",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e689856d-9896-4d34-abb1-2b1f14d8d08f",
+      "generationArtifactId": "exec-e689856d-9896-4d34-abb1-2b1f14d8d08f",
+      "outputArtifact": "built-in-imagegen://exec-e689856d-9896-4d34-abb1-2b1f14d8d08f.png",
+      "exactFinalPrompt": "Create a replacement independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 53, THE VARIOUS KINDS OF EGGS, AND THEIR NATURE. Corpus grounding: the chapter records differing laying seasons and clutch frequency, incubation, egg development, and competing ancient claims about twins and fetal position. Present this as transmitted Roman-era natural-history observation, not verified modern embryology, breeding guidance, or permission to harm birds. One continuous quiet high-oblique farmyard scene. Show EXACTLY ONE complete healthy young black-and-russet hen standing calmly at center-left beside EXACTLY FIVE intact eggs of subtly different natural sizes in one shallow circular straw nest at center-right. Every egg must be separate, fully visible, uncracked, and countable. The hen looks toward the clutch without touching it. Use only a broad continuous plain lime-plaster floor and continuous softly mottled wall as the background; these background surfaces may extend through the canvas. Add no haystacks, straw bundles, threshold, doorway, architecture, pot, tool, person, rooster, chick, embryo, cutaway, transparent shell, blood, feather pulling, injury, food, or water. Keep the entire hen, both legs and feet, tail, crest, the complete nest circumference, every straw tip, and all five eggs at least 110 pixels inside every edge. Spacious negative floor surrounds both subjects. Original Plinian zoological folio materiality: warm fibrous aged-vellum atmosphere, iron-gall contours, fine cross-hatching and stipple, egg tempera, dry-brush abrasion, restrained celadon verdigris, eggshell cream, russet umber, lampblack, pale ochre, and one muted madder accent; ancient, timeless, beautiful, rough and polished at once. Natural chicken anatomy and believable scale. Illustration alone, not a depicted manuscript page. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, diagrams, anatomical sections, borders, frames, page edges, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, or clipping. Opaque RGB/sRGB.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c00b3088-231f-453f-acac-925ad9879cc3",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-e689856d-9896-4d34-abb1-2b1f14d8d08f",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete healthy black-and-russet hen beside one complete nest containing exactly five separate intact eggs. Crest, tail, both legs and feet, nest circumference and every egg remain internal; no chick, embryo, cutaway, transparent shell, blood, injury, text, panel, collage, water or clipped motif appears.",
+      "epistemicAndDignityNote": "Incubation and egg variation are shown as quiet observation. Fetal-position, twin and other developmental claims remain transmitted ancient testimony rather than verified embryology or husbandry guidance.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-c00b3088-231f-453f-acac-925ad9879cc3",
+          "outputArtifact": "built-in-imagegen://exec-c00b3088-231f-453f-acac-925ad9879cc3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/evidence/history/b10-c053-attempt-01-straw-bundles-clipped.png",
+          "sha256": "7d4dbf844d93128ef58f84a362482993c6763bae8376c56183a65c9a1294a7c3",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 53, THE VARIOUS KINDS OF EGGS, AND THEIR NATURE. Corpus grounding: the chapter records differing laying seasons and clutch frequency, incubation, egg development, and competing ancient claims about twins and fetal position. Present this as transmitted Roman-era natural-history observation, not verified modern embryology, breeding guidance, or permission to harm birds. Scene: a quiet high-oblique view into a sunlit farmyard nesting alcove. Show EXACTLY ONE complete healthy young black-and-russet hen standing calmly beside EXACTLY FIVE intact eggs of subtly different natural sizes in one shallow circular straw nest; every egg must be separate, fully visible, uncracked, and countable. The hen looks toward the clutch without touching it. Include a fully visible low clay threshold, scattered clean straw, and a small patch of pale winter light; no person, rooster, chick, embryo, cutaway, transparent shell, blood, feather pulling, injury, food, tool, or water. Keep the entire hen, both legs and feet, tail, crest, nest, five eggs, threshold, and all discrete straw bundles at least 90 pixels inside every edge. One continuous scene with an asymmetric oval composition and spacious untouched vellum-toned floor. Original Plinian zoological folio materiality: warm fibrous aged vellum atmosphere, iron-gall contours, fine cross-hatching and stipple, egg tempera, dry-brush abrasion, restrained celadon verdigris, eggshell cream, russet umber, lampblack, pale ochre, and one muted madder accent; ancient, timeless, beautiful, rough and polished at once. Natural chicken anatomy and believable scale. Illustration alone, not a depicted manuscript page. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, diagrams, anatomical sections, borders, frames, page edges, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, or clipping. Opaque RGB/sRGB.",
+          "reason": "Large discrete straw bundles were cut by the upper-left and upper-right canvas edges."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:54",
+      "title": "DEFECTS IN BROOD-HENS, AND THEIR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c054.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "a0b00d14166fe00efa3b87b39f66325421a1cf3d50890c0f791858798b7e474a",
+        "englishSha256": "c9cb7923940d72a91349b448f3f5ed8533b8d8a4782fb0bf646696c7cca4efa9",
+        "latinWords": 139,
+        "englishWords": 327
+      },
+      "sha256": "3f639e595353105e0cfe9fb52b0e579e8f5d728bfb79d21711a9becc2e5af2b8",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a06d0056-96d7-4490-a8c5-17017ca2e05c",
+      "generationArtifactId": "exec-a06d0056-96d7-4490-a8c5-17017ca2e05c",
+      "outputArtifact": "built-in-imagegen://exec-a06d0056-96d7-4490-a8c5-17017ca2e05c.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 54, DEFECTS IN BROOD-HENS, AND THEIR REMEDIES. Corpus grounding: the chapter transmits Roman advice about egg age, candling, floating, incubation timing, thunder, hawk calls, an iron nail and plough-earth. Treat these as ancient testimony, not modern veterinary or farming instruction. Do not demonstrate or endorse any remedy. Scene: inside a deep, dry, shadowed earthen nesting alcove during a distant spring storm, show EXACTLY ONE complete calm brown brood hen crouched protectively behind EXACTLY SEVEN intact pale eggs arranged in a loose crescent in one complete low nest. Every egg is separate, fully visible, uncracked, and countable; the hen does not cover or touch them. Her head, folded wings, tail, both legs and both feet are anatomically plausible and fully visible. In the back wall, include one small COMPLETE circular opening entirely inside the image, revealing only dark violet clouds and a faint ochre dawn—no lightning bolt, hawk, moon, symbol, or water. No person, hand, lamp, nail, iron, plough-earth, vessel, test, shaking, floating egg, injury, dead bird, chick, or embryo. Keep hen, nest, all seven eggs, circular opening, and every discrete motif at least 100 pixels from every edge; only the continuous earthen wall and floor may extend through the frame. Low frontal viewpoint, triangular composition, broad indigo shadow around a warm nest. Original Plinian zoological folio materiality: fibrous aged-vellum atmosphere, iron-gall linework, fine cross-hatching, stipple, egg tempera, dry-brush abrasion, deep faded lapis and smoky violet, terracotta umber, pale eggshell, muted verdigris, ochre glow, restrained madder; ancient, timeless, beautiful, rough and polished at once. Natural anatomy and scale. One continuous illustration only, not a manuscript page. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, instruction diagram, borders, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a06d0056-96d7-4490-a8c5-17017ca2e05c",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete calm brood hen behind one complete low nest containing exactly seven separate intact eggs. Both legs and feet, tail and wings remain visible; the circular storm opening is fully enclosed. No nail, plough-earth, test, person, injury, chick, text, pseudo-writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The protected clutch is depicted without demonstrating thunder, hawk-call, iron-nail, floating, shaking or other ancient tests and remedies as modern advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:56",
+      "title": "THE BEST KINDS OF FOWLS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c056.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "68863eede5a51b815e26099ad8300e498c4a9411413459f1ba4787d7de558789",
+        "englishSha256": "336310e8288478a509d59e006d0418386a959cc2bc7c25b5645f70f3c2ae8c9a",
+        "latinWords": 57,
+        "englishWords": 112
+      },
+      "sha256": "ccf054cf063185800e998cf23f06bbe8df26184d981b3a7f4993f14bcba3e106",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a685fe3b-74cb-4eaf-bf6e-24124285c7f5",
+      "generationArtifactId": "exec-a685fe3b-74cb-4eaf-bf6e-24124285c7f5",
+      "outputArtifact": "built-in-imagegen://exec-a685fe3b-74cb-4eaf-bf6e-24124285c7f5.png",
+      "exactFinalPrompt": "Create a replacement independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 56, THE BEST KINDS OF FOWLS. Corpus grounding: Pliny describes fowl quality through an erect crest, sometimes doubled, black plumage, reddish face or beak, unequal toes and occasional polydactyly; he also records ritual color preferences and a dwarf kind. Treat these as transmitted Roman classifications, not modern breed standards, divination truth, or an invitation to judge living animals by purity. To preserve plausible anatomy, illustrate the ordinary erect-crest form and do NOT attempt a double crest or extra toes. Scene: a bold low side-profile portrait of EXACTLY ONE complete, healthy black hen walking naturally across a broad pale limestone courtyard. Give her one normal anatomically plausible erect red single comb, iridescent black folded wings and full tail, a muted red face and beak, two natural legs, and two normal chicken feet with clearly separated plausible toes. Keep the complete crest, beak, body, both wings, full tail, both legs and every toe visible and at least 130 pixels from every image edge. No second bird, egg, nest, person, altar, ritual, purity symbol, sacrifice, tool, plant, architecture, or water. Use only a continuous limewashed oxide-red wall and continuous chalky limestone floor extending through the background, with the bird’s long cool shadow fully internal. Spacious negative wall above and ahead; crisp horizontal composition unlike a nest vignette. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, microscopic cross-hatching and stipple, egg tempera, dry-brush abrasion, lampblack and blue-black feathers, lime white, oxide red, restrained turquoise-verdigris shadow, pale ochre and tiny madder accents; ancient, timeless, beautiful, rough and polished at once. Natural living dignity, no caricature or deformity spectacle. One continuous illustration only, not a manuscript page or specimen chart. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, diagrams, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching an edge. Opaque RGB/sRGB.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7cac6d4e-1913-4d90-88ab-b6c05756ae56",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-a685fe3b-74cb-4eaf-bf6e-24124285c7f5",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete healthy black hen in a natural walking profile with one normal erect red comb, two folded wings, full tail, two legs and two plausible feet. The bird and cool shadow are fully internal; there is no malformed crest, extra bird, egg, ritual object, text, panel, collage, water or clipping.",
+      "epistemicAndDignityNote": "Pliny’s color and morphology preferences are treated as an ancient classification, not purity, divination truth or a modern breed standard. The ordinary single-crest form is used to preserve plausible anatomy.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-7cac6d4e-1913-4d90-88ab-b6c05756ae56",
+          "outputArtifact": "built-in-imagegen://exec-7cac6d4e-1913-4d90-88ab-b6c05756ae56.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/evidence/history/b10-c056-attempt-01-malformed-double-crest-toes.png",
+          "sha256": "178cb331fd50c58d8094c4aa4d23ccd62bfd86a4d446530adab5122f3af500eb",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 56, THE BEST KINDS OF FOWLS. Corpus grounding: Pliny describes fowl quality through an erect or double crest, black plumage, reddish face or beak, unequal toes and occasional polydactyly; he also records ritual color preferences and a dwarf kind. Treat these as transmitted Roman classifications, not modern breed standards, divination truth, or an invitation to judge living animals by purity. Scene: a bold low side-profile portrait of EXACTLY ONE complete, healthy black polydactyl hen walking naturally across a broad pale limestone courtyard. Give her one anatomically plausible erect DOUBLE crest, iridescent black wings and tail, a muted red face and beak, and natural legs. The nearer foot must be clearly planted and visibly have EXACTLY FIVE distinct plausible toes, including one small raised rear toe; the farther foot may have the normal four. Keep the complete crest, beak, body, both folded wings, full tail, both legs and every toe visible, separate and at least 130 pixels from every image edge. No second bird, egg, nest, person, altar, ritual, purity symbol, sacrifice, tool, plant, architecture, or water. Use only a continuous limewashed oxide-red wall and continuous chalky limestone floor extending through the background, with the bird’s long cool shadow fully internal. Spacious negative wall above and ahead of the walking hen; crisp horizontal composition unlike a nest vignette. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, microscopic cross-hatching and stipple, egg tempera, dry-brush abrasion, lampblack and blue-black feathers, lime white, oxide red, a restrained turquoise-verdigris shadow, pale ochre and tiny madder accents; ancient, timeless, beautiful, rough and polished at once. Natural living dignity, no caricature or deformity spectacle. One continuous illustration only, not a manuscript page or specimen chart. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, diagrams, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching an edge. Opaque RGB/sRGB.",
+          "reason": "The attempted double crest became horn-like and the near foot had an ambiguous excess toe count, failing anatomy QA."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:58",
+      "title": "WHEN BIRDS LAY, AND HOW MANY EGGS. THE VARIOUS KINDS OF HERONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c058.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "dc946ad1ee433fe22a5cd2597eea1ede38b281d8d7fd15ed64af820f0b11b846",
+        "englishSha256": "ac5ee0243546703ac5f3b5c8a658aca805d3f2998dd5369df02126bdec373f28",
+        "latinWords": 140,
+        "englishWords": 265
+      },
+      "sha256": "9e3dee6adda879ba7482e5508037558ee829ed6cc484fac56b8601cd44f6d718",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c5c11b26-b33d-451a-a4a3-3746fd706df8",
+      "generationArtifactId": "exec-c5c11b26-b33d-451a-a4a3-3746fd706df8",
+      "outputArtifact": "built-in-imagegen://exec-c5c11b26-b33d-451a-a4a3-3746fd706df8.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 58. Although the inherited English title mentions herons, the actual Latin and English chapter text concerns pigeons and doves: billing, pairs of eggs, shared incubation, and hypenemia. Ground the scene in the actual corpus. Treat reproductive timing and sex claims as transmitted ancient observation, not modern biological fact. Keep the scene living, calm, and non-explicit. Scene: an airy Roman tiled rooftop at pale spring morning, viewed from a high three-quarter angle. Show EXACTLY TWO complete adult rock pigeons and EXACTLY TWO intact white eggs. One pigeon stands at upper-left carrying one small complete twig in its beak; the other stands at lower-right beside one complete shallow nest containing the two separate, fully visible, countable eggs. The birds look toward one another across open space but do not touch, bill, mate, or display. Their heads, beaks, bodies, both folded wings, full tails, both legs and feet must be anatomically plausible and fully visible. Keep both birds, the twig, complete nest circumference, both eggs, and their shadows at least 100 pixels from every edge. Use only a broad continuous field of faded rose terracotta roof tiles and pale blue sky; no discrete chimney, building, tree, human, chick, broken shell, embryo, injury, food, vessel, or water. Strong descending diagonal from twig-carrier to nest, with ample cool sky negative space. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, fine cross-hatching and stipple, egg tempera, dry-brush abrasion, faded lapis sky, smoky rose tiles, soft grey and green pigeon iridescence, eggshell white, ochre and restrained madder; ancient, timeless, beautiful, rough and polished at once. One continuous illustration only, not a page or specimen plate. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, diagram, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c5c11b26-b33d-451a-a4a3-3746fd706df8",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete adult rock pigeons and exactly two intact eggs in one complete rooftop nest. One bird carries one complete twig; both birds, feet, tails, nest, eggs and twig remain internal and separate. No billing, mating, chick, broken shell, text, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The actual pigeon-and-dove corpus is followed despite the inherited repeated heron title. Pairing and incubation are presented non-explicitly; timing and sex claims remain historical testimony.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:59",
+      "title": "WHEN BIRDS LAY, AND HOW MANY EGGS. THE VARIOUS KINDS OF HERONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c059.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1f9fede56f58767936d03640f4444e89718661531b24b2d2a6063bcae128f372",
+        "englishSha256": "f11f0fae65d5972ad8fb1278d4f38a7e300c2e23019f36b3244ef41e0bf37b5b",
+        "latinWords": 159,
+        "englishWords": 363
+      },
+      "sha256": "ad2cbfabbb1c1a014847523a0d7cd7721e18ca794f8b5f867bd5d3b131dcfd19",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-eb57d814-dd9c-4f84-8521-1dadffe53ccf",
+      "generationArtifactId": "exec-eb57d814-dd9c-4f84-8521-1dadffe53ccf",
+      "outputArtifact": "built-in-imagegen://exec-eb57d814-dd9c-4f84-8521-1dadffe53ccf.png",
+      "exactFinalPrompt": "Create a second replacement independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 59. The actual Latin and English text concerns peahen laying and goose incubation. Ground the image in that corpus. The text includes mating, broken eggs, egg-taking, fatal injury and folk remedies; treat all as transmitted ancient testimony, not modern husbandry or medical advice. Show only a non-explicit living nesting scene. Make the composition radically unlike dark night landscapes: depict the first clear light just after nocturnal laying in a steep bird’s-eye oblique view over one continuous, sun-bleached pale mint-and-ivory limestone courtyard. The floor occupies the entire canvas as a real physical surface, with fine irregular stone grain and long cool cobalt cast shadows; it is NOT parchment, a page, diagram, chart, panel or species plate. Show EXACTLY ONE complete adult peahen standing calmly in three-quarter profile at upper-left of center and one complete soft circular grass nest at lower-right of center containing EXACTLY FOUR intact pale eggs. All four eggs are separate, fully visible, countable and uncracked. Her modest brown-green crest, head, beak, body, both folded wings, entire long closed tail, both legs and feet are anatomically plausible, fully visible and separate from the nest. Keep peahen, tail tip, every foot, complete nest circumference, four eggs and all shadows at least 120 pixels from every edge. No male peacock, goose, second bird, chick, water, person, egg-taking, mating, broken shell, violence, restraint, nettle, remedy, tool, food, moon, shrub, flower, grass tuft, tree, structure, pot or other discrete object. Only continuous stone may meet the edges. Original Plinian zoological folio materiality: fibrous aged-vellum sensibility within luminous egg tempera, iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, pale mint verdigris, ivory lime, cool cobalt-lapis shadows, brown-green feathers, eggshell, soft ochre and restrained plum-madder; ancient, timeless, beautiful, rough and polished at once. One continuous physical scene only. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d08e6618-fd12-4a32-be85-ab674278cd04",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-b63b2915-909e-4b6a-8fe3-795151df4ba2",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-eb57d814-dd9c-4f84-8521-1dadffe53ccf",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete adult peahen and one complete nest holding exactly four separate intact eggs on one continuous sunlit limestone courtyard. Crest, wings, long closed tail, both legs and feet, nest circumference, eggs and shadows remain internal; no other bird, text, panel, collage, broken shell or water appears.",
+      "epistemicAndDignityNote": "The actual peahen-and-goose corpus is followed despite the inherited repeated heron title. The image shows only the first light after laying; mating, egg-breaking, egg-taking, injury and remedies are not depicted or endorsed.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d08e6618-fd12-4a32-be85-ab674278cd04",
+          "outputArtifact": "built-in-imagegen://exec-d08e6618-fd12-4a32-be85-ab674278cd04.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/evidence/history/b10-c059-attempt-01-foreground-shrubs-clipped.png",
+          "sha256": "68ac627248e5d8a1d6fa5ad5736ee228728cca868a977e14e9b604b4285cf60a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 59. Although the inherited English title repeats the heron heading, the actual Latin and English text concerns peahen laying and goose incubation. Ground the image in the corpus itself. The text includes mating, broken eggs, egg-taking, fatal injury and folk remedies; treat all of that as transmitted ancient testimony, not modern husbandry or medical advice. Show only a non-explicit living nesting scene. Scene: a secret dry hillside hollow at blue-violet night, viewed from a steep high-oblique angle. Show EXACTLY ONE complete adult peahen standing calmly in three-quarter profile beside one complete soft circular grass nest containing EXACTLY FOUR intact pale eggs. All four eggs are separate, fully visible, countable and uncracked. The peahen’s modest brown-green crest, head, beak, body, both folded wings, entire long closed tail, both legs and feet must be anatomically plausible, fully visible and separated from the nest. Add one small complete crescent moon fully internal in the upper sky, sparse low lavender, dark plum earth and distant charcoal hills; no male peacock, goose, second bird, chick, water, pond, person, egg-taking, mating, broken shell, violence, restraint, nettle, remedy, tool, or food. Keep peahen, tail tip, feet, nest, four eggs, moon, every shrub and all discrete motifs at least 100 pixels from every edge; only continuous earth and sky may cross the frame. Use an off-center spiral composition: the peahen’s closed tail curves gently toward the nest without touching it. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone beneath luminous egg tempera, iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, deep faded lapis, smoky violet, dark verdigris, moonlit eggshell, plum-madder and muted copper; ancient, timeless, beautiful, rough and polished at once. One continuous illustration only, not a page or diagram. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+          "reason": "Several discrete foreground shrubs were clipped by the bottom and side edges."
+        },
+        {
+          "generationArtifactId": "exec-b63b2915-909e-4b6a-8fe3-795151df4ba2",
+          "outputArtifact": "built-in-imagegen://exec-b63b2915-909e-4b6a-8fe3-795151df4ba2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/evidence/history/b10-c059-attempt-02-global-mad-13.83.png",
+          "sha256": "77c6d33b9716592885905e17cf05fd18775f9a8d10af0eba0183035e19972c52",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a replacement independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 59. The actual Latin and English text concerns peahen laying and goose incubation. Ground the image in that corpus. The text includes mating, broken eggs, egg-taking, fatal injury and folk remedies; treat all as transmitted ancient testimony, not modern husbandry or medical advice. Show only a non-explicit living nesting scene. Scene: a secret dry hillside hollow at blue-violet night, viewed from a steep high-oblique angle. Show EXACTLY ONE complete adult peahen standing calmly in three-quarter profile beside one complete soft circular grass nest containing EXACTLY FOUR intact pale eggs. All four eggs are separate, fully visible, countable and uncracked. The peahen’s modest brown-green crest, head, beak, body, both folded wings, entire long closed tail, both legs and feet must be anatomically plausible, fully visible and separated from the nest. Add one small complete crescent moon fully internal in the upper-left sky and low continuous distant charcoal hills. Use only uninterrupted bare dark-plum earth with subtle dry-brush texture across the foreground; absolutely NO shrubs, flowers, tall grasses, stones, trees, structures, or other discrete background objects. No male peacock, goose, second bird, chick, water, pond, person, egg-taking, mating, broken shell, violence, restraint, nettle, remedy, tool, or food. Keep peahen, tail tip, feet, complete nest circumference, four eggs and moon at least 110 pixels from every edge; only continuous earth, hills and sky may cross the frame. Use an off-center spiral composition: the peahen’s closed tail curves gently toward the nest without touching it. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone beneath luminous egg tempera, iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, deep faded lapis, smoky violet, dark verdigris, moonlit eggshell, plum-madder and muted copper; ancient, timeless, beautiful, rough and polished at once. One continuous illustration only, not a page or diagram. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+          "reason": "The edge-safe blue-night candidate scored nearest-neighbor MAD 13.83, below the permanent 20.00 corpus threshold."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:60",
+      "title": "WHAT EGGS ARE CALLED HYPENEMIA, AND WHAT CYNOSURA. HOW EGGS ARE BEST KEPT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c060.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "51075d1959e0c0f3c61582ed5f42938547ad245d2f9915db8d938769c15dbaee",
+        "englishSha256": "cf9f8080b51889a3ee0be0efc0a3b7ef2f2eb1dde064fdb53e9eee158c7a4234",
+        "latinWords": 174,
+        "englishWords": 369
+      },
+      "sha256": "6d8883e56830842f816c01dead7e4b25ef027ff743015eb7746cbb0a6225ac76",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-69bffc2d-b55a-486e-bb54-dfb1820c54ae",
+      "generationArtifactId": "exec-69bffc2d-b55a-486e-bb54-dfb1820c54ae",
+      "outputArtifact": "built-in-imagegen://exec-69bffc2d-b55a-486e-bb54-dfb1820c54ae.png",
+      "exactFinalPrompt": "Create a replacement independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 60, whose actual corpus opens by naming three kinds of heron before discussing incubation, infertile eggs and preservation. Pliny transmits painful-coupling and eye-bleeding claims, egg counts, wind-generated eggs, vinegar softening and storage practices. Treat all as ancient testimony, not verified reproductive biology, food-safety guidance, or medical advice. Do not depict mating, blood, distress, experiments, storage, or remedies. Make the visual structure radically unlike pale horizon landscapes: use a steep high-oblique view over one COMPLETE enclosed oval marsh pool at center, filled with deep malachite-green and near-black water. The oval water must occupy no more than the central 55 percent of the width and 45 percent of the height and be surrounded on ALL FOUR SIDES by a broad uninterrupted copper-red and dark-umber dry bank at least 180 pixels wide; absolutely no water may touch any outer edge. Show EXACTLY THREE complete calm herons, physically separated on the dry bank and never standing in water: one white great-egret-like heron at lower-left in profile, one grey-heron-like bird farther back above the pool in three-quarter view, and one purple-heron-like bird at lower-right in profile. Vary their scale, gaze and posture so this remains one natural scene, not a lineup. Every bird’s head, long beak, S-curved neck, body, both folded wings, full tail, both long legs and all feet/toes must be anatomically plausible, fully visible, dry, and at least 100 pixels inside every edge. No fourth bird, eggs, nest, chick, blood, wound, mating, food, prey, person, vessel, experiment, structure, tree, tall reed, large rock, or any other discrete object. Only continuous earth may meet the canvas edges. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, extremely fine cross-hatching and stipple, luminous egg tempera, dry-brush abrasion, deep malachite and lampblack pool, copper-red and burnt-umber bank, chalk white, smoke grey, muted plum, tiny faded-lapis and ochre accents; ancient, timeless, beautiful, rough and polished at once. One continuous natural scene only, not a page, specimen plate or diagram. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7816aaf7-48f1-4b59-a83f-dffbae082b8f",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-69bffc2d-b55a-486e-bb54-dfb1820c54ae",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly three complete, distinct and non-interacting herons around one fully enclosed deep-green oval pool: white at lower left, grey above, purple at lower right. Every head, beak, wing, tail, leg and foot is dry and internal; the water is surrounded on all sides by broad earth and touches no edge. No egg, mating, blood, distress, text, panel or collage appears.",
+      "epistemicAndDignityNote": "The three named heron kinds are rendered as calm plausible forms. Pain, eye-bleeding, infertile-egg generation, vinegar and storage claims remain ancient testimony, not biology, food-safety or medical advice.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-7816aaf7-48f1-4b59-a83f-dffbae082b8f",
+          "outputArtifact": "built-in-imagegen://exec-7816aaf7-48f1-4b59-a83f-dffbae082b8f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/evidence/history/b10-c060-attempt-01-global-mad-19.50.png",
+          "sha256": "2644b25d09d107806c2cce657f3610de837eb83ae06a43471104548ae6004f9b",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 60, whose actual corpus opens by naming three kinds of heron before discussing incubation, infertile eggs and preservation. Corpus grounding: Pliny transmits painful-coupling and eye-bleeding claims, counts for many birds, wind-generated eggs, vinegar softening and storage practices. Treat all as ancient testimony, not verified reproductive biology, food-safety guidance, or medical advice. Do not depict mating, blood, distress, experiments, storage, or remedies. Scene: a serene dry Mediterranean reed meadow at silvery early dawn, viewed from a wide low panoramic angle. Show EXACTLY THREE complete calm herons, all physically separated and non-interacting: one white great-egret-like heron at left in profile, one grey-heron-like bird farther back at center facing three-quarters, and one purple-heron-like bird at right in profile. Every bird’s head, long beak, S-curved neck, body, both folded wings, full tail, both long legs and all feet/toes must be anatomically plausible, fully visible, and at least 100 pixels inside every edge. No fourth bird, eggs, nest, chick, blood, wounds, mating, open beak distress, food, prey, person, vessel, experiment, architecture, or water anywhere. Use a continuous low field of pale sage reed stubble and dry chalky mud extending through the lower frame, with distant low lavender hills and a broad faded-lapis sky. No discrete tall reed, branch, rock, tree or structure may touch an edge. The three birds create a spacious uneven rhythm rather than a lineup or taxonomy plate; vary their depth, scale, gaze and posture. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, extremely fine cross-hatching and stipple, egg tempera, dry-brush abrasion, pale sage verdigris, chalk white, smoke grey, muted plum, faded lapis, ochre and restrained madder; ancient, timeless, beautiful, rough and polished at once. One continuous natural scene only, not a page, specimen plate or diagram. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, repeated copies, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+          "reason": "The dry pale-reed meadow candidate scored nearest-neighbor MAD 19.50, below the permanent 20.00 corpus threshold."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:62",
+      "title": "TERRESTRIAL ANIMALS THAT ARE OVIPAROUS.—VARIOUS KINDS OF SERPENTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c062.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b9baaeb30cf0fa88e8c44f4154c69cdafe604c024c5d36de461f1d77b102f9af",
+        "englishSha256": "e412e294b06067cc74c9d162023d858320b686886b77e59839ba9784d438f216",
+        "latinWords": 92,
+        "englishWords": 192
+      },
+      "sha256": "13aababe8eb929752d8ac7821ca26fee9ea473d8ce979ab33b4ad958671526d7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-94b15c23-2a08-41bf-8c6e-827fc67692bc",
+      "generationArtifactId": "exec-94b15c23-2a08-41bf-8c6e-827fc67692bc",
+      "outputArtifact": "built-in-imagegen://exec-94b15c23-2a08-41bf-8c6e-827fc67692bc.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 62, TERRESTRIAL ANIMALS THAT ARE OVIPAROUS—VARIOUS KINDS OF SERPENTS. Corpus grounding: Pliny describes entwined mating, a violent and biologically inaccurate viper birth story, other serpents laying attached eggs in earth, and alternating crocodile incubation. Treat all as transmitted ancient testimony, not verified modern biology. Do not literalize mating, internal hatching, gore, parental death, aggression, or fabulous anatomy. Center the plausible observation that some terrestrial snakes lay eggs in earth. Scene: a steep top-down view into one dry Mediterranean earthen hollow at warm late afternoon. Show EXACTLY ONE complete healthy Aesculapian-snake-like nonvenomous serpent curved in one relaxed open spiral around, but not touching, EXACTLY SIX intact soft-white leathery eggs resting in a shallow soil depression. Every egg must be separate, fully visible, countable, uncracked, and naturally oval. The snake must have exactly one head, one continuous plausible body and one tapering tail, with its complete silhouette fully visible and no self-overlap that could suggest a second head. Keep snake head, entire coil, tail tip, all six eggs and the complete depression at least 130 pixels inside every edge. No second snake, crocodile, hatchling, mating, biting, blood, wound, birth, carcass, person, tool, pot, architecture, prey, food, water, tree, branch, plant, or large rock. Use only continuous compacted umber soil with subtle natural cracks and a broad clean breathing perimeter. Off-center spiral composition, tactile but serene. Original Plinian zoological folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, minute cross-hatching and stipple, egg tempera, dry-brush abrasion, deep malachite and muted jade scales, russet umber earth, eggshell white, pale ochre, restrained cinnabar and soot; ancient, timeless, beautiful, rough and polished at once. Natural snake anatomy and living dignity. One continuous illustration only, not a page, diagram or specimen plate. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, duplicated animal, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-94b15c23-2a08-41bf-8c6e-827fc67692bc",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete Aesculapian-snake-like nonvenomous serpent with one head, one continuous body and one tapering tail around exactly six separate intact leathery eggs. Snake, depression and eggs remain fully internal; there is no second head, second snake, mating, birth, biting, gore, text, panel, collage or water.",
+      "epistemicAndDignityNote": "The plausible observation that some terrestrial snakes lay eggs in earth is centered. Pliny’s mating and lethal viper-birth accounts are not literalized as fact or graphic spectacle.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:63",
+      "title": "GENERATION OF ALL KINDS OF TERRESTRIAL ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c063.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f127488dd82e60d56f40c242968fb9f0db174eaf88e3533515fa61e1e3156fa8",
+        "englishSha256": "dc1665803f25dd38f51930d9c43d62402c91b53d0f64c7fa51f8a748140064ad",
+        "latinWords": 674,
+        "englishWords": 1483
+      },
+      "sha256": "985d94d6d6dee4a862607b1c833148f6a8776bc19090674f2fa4e63216688f6e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bb93a821-7648-4fc9-bf82-d3adf46522e8",
+      "generationArtifactId": "exec-bb93a821-7648-4fc9-bf82-d3adf46522e8",
+      "outputArtifact": "built-in-imagegen://exec-bb93a821-7648-4fc9-bf82-d3adf46522e8.png",
+      "exactFinalPrompt": "Use case: historical-scene. Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 63, GENERATION OF ALL KINDS OF TERRESTRIAL ANIMALS. Corpus grounding: this long chapter mixes human sexual moralizing, coercive and explicit mating descriptions, unreliable generalizations, gestation and litter claims, folk interventions, animal injury, and observations of parents and young. Treat it as transmitted ancient testimony, not modern reproductive science, moral judgment, breeding instruction, or justification for coercion. Depict no sex, mating, birth, genitals, abortion, force, restraint, violence, distress, medical act, or human figure. Center only the dignity of living parent and young. Scene: a vast open Mediterranean upland at coral-pink sunrise, seen from a very low eye-level viewpoint. Show EXACTLY TWO animals total: one complete healthy chestnut adult mare at right and one complete healthy pale chestnut young foal at left, standing several body lengths apart in quiet mutual attention. The mare lowers her head gently toward the foal but they do not touch; the foal stands confidently, not nursing. Both animals must be shown in three-quarter profile with correct equine anatomy, complete ears, faces, necks, bodies, manes, tails, all FOUR distinct legs and all FOUR hooves visible on each animal. Keep every ear tip, muzzle, tail hair and hoof at least 120 pixels inside every edge. No stallion, third animal, person, harness, bridle, rope, fence, stable, cart, tool, building, tree, large rock, food, foaling, placenta, blood, wound, branding, racing, or water. Use only continuous short dry grass and a low band of distant lilac hills beneath a huge pale turquoise and coral sky. No discrete object may touch an edge. Compose the mare and foal as an open diagonal with generous luminous negative space between and around them, materially distinct from nest and specimen scenes. Original Plinian natural-history folio materiality: warm fibrous aged-vellum undertone, iron-gall contours, fine cross-hatching and stipple, luminous egg tempera, dry-brush abrasion, chestnut umber, coral madder, faded turquoise-lapis, pale lilac, dusty ochre, charcoal and restrained verdigris; ancient, timeless, beautiful, rough and polished at once. Quiet living dignity and credible scale. One continuous illustration only, not a page or diagram. Absolutely no text, letters, numerals, labels, pseudo-writing, symbols, border, frame, page edge, panels, collage, duplicated animal, signature, logo, watermark, modern object, photography, glossy CGI, clipping, or water touching any edge. Opaque RGB/sRGB.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-bb93a821-7648-4fc9-bf82-d3adf46522e8",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete animals—a healthy chestnut mare and pale chestnut foal—standing apart in quiet mutual attention. Each has correct ears, face, body, mane, tail, four distinct legs and four hooves visible and internal. There is no stallion, third animal, person, harness, mating, birth, nursing, injury, text, panel, collage or water.",
+      "epistemicAndDignityNote": "The long chapter’s explicit human moralizing, coercive mating, folk interventions and injury are not depicted. The final scene centers living parental dignity and makes no modern reproductive-science claim.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 777,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:53": {
+        "nearestMAD": 30.95,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c008.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c051.png",
+        "madAtDHashPeer": 59.41
+      },
+      "10:54": {
+        "nearestMAD": 23.69,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 11,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c006.png",
+        "madAtDHashPeer": 81.49
+      },
+      "10:56": {
+        "nearestMAD": 36.2,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c035.png",
+        "madAtDHashPeer": 59.83
+      },
+      "10:58": {
+        "nearestMAD": 21.66,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-02/b08-c018.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c031.png",
+        "madAtDHashPeer": 36.44
+      },
+      "10:59": {
+        "nearestMAD": 27.83,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c035.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c053.png",
+        "madAtDHashPeer": 35.56
+      },
+      "10:60": {
+        "nearestMAD": 23.52,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c091.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c020.png",
+        "madAtDHashPeer": 41.14
+      },
+      "10:62": {
+        "nearestMAD": 20.95,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c092.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c003.png",
+        "madAtDHashPeer": 42.51
+      },
+      "10:63": {
+        "nearestMAD": 22.51,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c044.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c044.png",
+        "madAtDHashPeer": 22.51
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-birds-wave-07",
+    "status": "pass",
+    "output": ""
+  }
+}

@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-10",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "31:6",
+    "31:7",
+    "31:8",
+    "31:9",
+    "31:10",
+    "32:3",
+    "32:4",
+    "32:5"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in prompts and artifact IDs were extracted from the current ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "sha256": "c8284d6cf7925f5ccad03526873080c10c335388a27c94b811bb770dfcf66bca"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "sha256": "2d6a8f163011f933d1ab1ad6abf1e2ab6a6bd7bff1a171f371f9608adf8e9a19"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXI chapters 6 through 10 and Book XXXII chapters 3 through 5 were read before prompting. Engineering, material-production and zoological subjects are depicted specifically; medicinal, magical, toxicological and animal-derived practices remain transmitted ancient testimony. Accepted scenes omit actionable remedies, suffering, capture, mutilation, coercion and supernatural verification.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 7,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 15,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 2,
+    "builtInEditCalls": 5,
+    "acceptedBuiltInEdits": 3,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-10",
+    "receiptsCheckedAtSelection": 113,
+    "nonEvidenceMastersCheckedAtSelection": 880,
+    "receiptsCheckedAtCertification": 117,
+    "nonEvidenceMastersCheckedAtCertification": 915,
+    "selectedKeys": [
+      "31:6",
+      "31:7",
+      "31:8",
+      "31:9",
+      "31:10",
+      "32:3",
+      "32:4",
+      "32:5"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPlanStatuses": {
+      "31:6": "planned-full-scene",
+      "31:7": "planned-full-scene",
+      "31:8": "planned-full-scene",
+      "31:9": "planned-full-scene",
+      "31:10": "planned-full-scene",
+      "32:3": "planned-full-scene",
+      "32:4": "planned-full-scene",
+      "32:5": "planned-full-scene"
+    },
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 915,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "31:6": {
+        "nearestMAD": 24.66,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-04/b29-c002.png",
+        "madAtDHashPeer": 42.84
+      },
+      "31:7": {
+        "nearestMAD": 21.84,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c049.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c017.png",
+        "madAtDHashPeer": 41.41
+      },
+      "31:8": {
+        "nearestMAD": 31.54,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-12/b34-c007.png",
+        "madAtDHashPeer": 73.06
+      },
+      "31:9": {
+        "nearestMAD": 25.2,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c020.png",
+        "madAtDHashPeer": 58.05
+      },
+      "31:10": {
+        "nearestMAD": 31,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c025.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-05/b30-c007.png",
+        "madAtDHashPeer": 42.34
+      },
+      "32:3": {
+        "nearestMAD": 24.53,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c005.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c015.png",
+        "madAtDHashPeer": 65.87
+      },
+      "32:4": {
+        "nearestMAD": 24.73,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c004.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c021.png",
+        "madAtDHashPeer": 47.7
+      },
+      "32:5": {
+        "nearestMAD": 28.81,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c017.png",
+        "dHashAtMadPeer": 38,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c018.png",
+        "madAtDHashPeer": 55.13
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "31:6",
+      "title": "THE METHOD OF CONVEYING WATER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b31-c006.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ed5dcea60189a983937d473221ea11fa1919d49c4580aedf8af72f0e7a65a170",
+        "englishSha256": "2392e527a7c3323a7cac24d1606dcb29675eb6195d9a25e04502e15de68417a4",
+        "latinWords": 869,
+        "englishWords": 1884,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "be14540a46d4abe92c04ad0c5f60cf26e55d82c6b0254dd738862b946bb233a4",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ba26cad3-e51f-466e-a164-0fa26bb11140",
+      "generationArtifactId": "exec-ba26cad3-e51f-466e-a164-0fa26bb11140",
+      "outputArtifact": "built-in-imagegen://exec-ba26cad3-e51f-466e-a164-0fa26bb11140.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXI chapter 6 illustration master\nPrimary request: Create a historically plausible Roman water-engineering landscape inspired by Pliny's account of conveying water. Show exactly ONE complete hillside spring basin in the upper-left interior feeding a long, clearly legible chain of fitted terracotta pipe sections that descends, rises over one low saddle, and enters exactly ONE complete small stone distribution reservoir (castellum aquae) in the lower-right interior. Include exactly ONE complete adult Roman surveyor standing beside the pipe run with a simple leveling frame and plumb line, and exactly TWO complete adult workers carefully fitting one dry pipe joint with lime mortar; no one drinks, bathes, receives treatment, or enters the water. The continuous above-ground pipe course and its changing gradient are the visual subject.\nScene/backdrop: broad dry Campanian hillside with pale volcanic ridges, sparse olive scrub, one tunnel ventilation shaft visible in the middle distance, and a compact Roman settlement far beyond. Water appears only as still surfaces fully enclosed inside the source basin and the open top of the reservoir; every water boundary is surrounded by substantial stone and dry earth. No lead-smelting, medical procedure, sea, ship, flood, miracle, or dangerous consumption.\nStyle/medium: one museum-grade Plinian natural-history folio on warm fibrous aged vellum; fine iron-gall contours, exact architectural cross-hatching, stipple, dry-brush abrasion, translucent mineral watercolor and restrained burnished highlights; palette of terracotta red, limestone ivory, dusty ochre, muted verdigris, faded lapis, lampblack and a small madder accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: spacious high-oblique single landscape with a sweeping S-shaped pipe course; spring, entire pipe chain, leveling frame, all three people, tunnel shaft, reservoir and settlement are complete, countable and at least 120 pixels inward from every edge. Broad unmarked sky and dry ground surround the discrete subjects. Only continuous empty sky or non-focal dry terrain may naturally continue beyond the frame. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: lucid late-morning light, ingenious, measured, calm and humane.\nText: none.\nConstraints: exactly three adult humans total; one spring basin; one continuous pipe chain; one leveling frame; one reservoir; all fully internal. The scene records ancient engineering testimony and does not endorse Pliny's medicinal-water claims.\nAvoid: any water touching or crossing a canvas edge, clipped person, clipped pipe, clipped structure, extra figure, animal, treatment, sickness, nudity, recipe, flowing water at edge, modern plumbing, modern survey gear, aqueduct arcade dominating the scene, diagram, cutaway, exploded view, map, labels, arrows, letters, numerals, inscriptions, pseudo-writing, signature, watermark, border, decorative frame, depicted page, cartouche, inset, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ba26cad3-e51f-466e-a164-0fa26bb11140",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found one complete source basin, one fully legible terracotta pipe course, one complete distribution reservoir, one surveyor and two workers with natural anatomy. Both water surfaces are enclosed; no subject, pipe or structure is clipped; no writing, diagram, remedy action or modern equipment appears.",
+      "epistemicAndDignityNote": "The accepted plate centers Roman hydraulic engineering. Pliny's hot-spring, sea-water and therapeutic claims remain transmitted ancient testimony and are neither enacted nor offered as advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:7",
+      "title": "THE VARIOUS KINDS OF SALT; THE METHODS OF PREPARING IT, AND THE REMEDIES DERIVED FROM IT. TWO HUNDRED AND FOUR OBSERVATIONS THEREUPON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b31-c007.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f3989ded585dda81a28f2852ea895c6761f9cbf6f906832667de7a4e5e24b966",
+        "englishSha256": "23a462e2cfa909670d4f1734328f4f46fb907b4372c365593173834a521fb182",
+        "latinWords": 1153,
+        "englishWords": 2451,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "b413b63983d81f65eeed5b4775eb9c756d67b3585f3f0e727b5542a3216bd6ec",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4a43cf1a-8c51-45b9-be43-db1d52f05c31",
+      "generationArtifactId": "exec-4a43cf1a-8c51-45b9-be43-db1d52f05c31",
+      "outputArtifact": "built-in-imagegen://exec-4a43cf1a-8c51-45b9-be43-db1d52f05c31.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXI chapter 7 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Change ONLY the distant blue sea band that currently runs into the left and right canvas edges. Completely remove that water and replace it with a continuous sequence of dry blue-grey coastal hills and atmospheric haze beneath the existing sky. There must be absolutely NO sea, lake, river, water or brine touching any outer edge.\nPreserve unchanged: the exact six complete salt pans and their white, saffron-gold, rose, violet, silvery and russet colors; every closed berm and dry-earth margin; exactly two workers, rake, basket, one donkey, one cart, the salt hill and quarry opening, storehouse, existing mountains, all anatomy, positions, lighting, palette, vellum texture, and edge-safe spacious framing. Keep all six crystallizing pan surfaces fully enclosed and internal.\nStyle/medium: same museum-grade Plinian folio—warm fibrous aged vellum, iron-gall contours, crystalline stipple, fine cross-hatching, translucent mineral wash, restrained mica-like highlights; ancient, timeless, rough and polished at once.\nComposition/framing: native 1536x1024 landscape, opaque RGB/sRGB. Only continuous dry ground, dry hills and open sky may reach an outer boundary.\nText: none.\nConstraints: exactly six complete salt pans, two humans, one donkey, one cart, one basket, one salt hill, all fully internal.\nAvoid: any water or brine touching any edge, changing or duplicating a pan, person, animal or cart, clipping, added object, checkerboard grid, panels, collage, split scene, diagram, map, remedy, modern machinery, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, inset, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-705d0e4f-cc90-47c2-b171-51a01b268d68",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4a4ac759-76a2-416b-bdb5-d5a705edec7f",
+          "status": "rejected-native-qa",
+          "editOfArtifactId": "exec-705d0e4f-cc90-47c2-b171-51a01b268d68"
+        },
+        {
+          "generationArtifactId": "exec-4a43cf1a-8c51-45b9-be43-db1d52f05c31",
+          "status": "accepted",
+          "editOfArtifactId": "exec-4a4ac759-76a2-416b-bdb5-d5a705edec7f"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-4a4ac759-76a2-416b-bdb5-d5a705edec7f",
+            "editOfArtifactId": "exec-705d0e4f-cc90-47c2-b171-51a01b268d68",
+            "result": "rejected-native-qa"
+          },
+          {
+            "generationArtifactId": "exec-4a43cf1a-8c51-45b9-be43-db1d52f05c31",
+            "editOfArtifactId": "exec-4a4ac759-76a2-416b-bdb5-d5a705edec7f",
+            "result": "accepted"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly six complete irregular salt pans in six distinct colors, two complete workers, one donkey, one cart, one basket, one salt hill and one storehouse. Every pan and brine surface is enclosed by visible berm and dry earth; no water, animal, tool or structure touches an edge; no grid, panel or writing appears.",
+      "epistemicAndDignityNote": "The scene records ancient salt formation, extraction and variety. Medicinal and physiological claims remain historical testimony and no remedy is shown.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-705d0e4f-cc90-47c2-b171-51a01b268d68",
+          "outputArtifact": "built-in-imagegen://exec-705d0e4f-cc90-47c2-b171-51a01b268d68.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b31-c007-reject-01-clipped-pans.png",
+          "sha256": "fda6fc4adc603655e7bd8649ca86f5bfc883a0fadedd4b44aadc4688a3b1fc51",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXI chapter 7 illustration master\nPrimary request: Create a sweeping ancient saltworks landscape inspired by Pliny's catalogue of native and artificial salts. Show exactly SIX complete shallow salt pans arranged irregularly—not as a grid—inside one broad dry coastal basin, every pan and every brine boundary fully surrounded by pale clay berms. Their crystallizing surfaces differ naturally: chalk white, saffron, rose, muted violet, silvery mirror-bright and dark russet. Exactly TWO complete adult Roman salt workers are present: one rakes a dry white crystal pan with a long wooden rake while the other carries one complete woven basket of salt on an internal path. In the far middle distance, one complete low hill of translucent rock salt is being quarried at a small exposed face; exactly ONE complete donkey stands calmly beside a complete two-wheeled cart, both fully internal and not overloaded. The sea is visible only as a thin distant horizontal band entirely above the basin and does not touch any outer edge.\nScene/backdrop: sun-baked Mediterranean saltworks under a north wind, low clay berms, scattered reeds kept away from edges, distant limestone hills and one tiny walled storehouse. No ritual, offering, patient, medical application, food preparation, garum vat, animal distress, or modern industrial machinery.\nStyle/medium: one museum-grade Plinian natural-history folio on warm fibrous aged vellum; precise iron-gall contour, crystalline stipple, fine cross-hatching and dry-brush abrasion, translucent mineral watercolor with restrained mica-like and shell-gold highlights; palette of chalk white, saffron ochre, madder rose, Tyrian violet, muted verdigris, faded lapis and warm umber; ancient, timeless, beautiful, rough in surface and polished in draftsmanship.\nComposition/framing: elevated diagonal panorama, six irregular pans creating a branching rhythm rather than panels, workers in separated zones, salt hill and donkey-cart small in depth. Every pan, berm, person, tool, basket, donkey, cart, hill and storehouse is complete and at least 110 pixels inward from all edges. Broad dry clay and open sky surround all discrete subjects. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: brilliant dry afternoon, crystalline, expansive and wondrous but observational.\nText: none.\nConstraints: exactly six salt pans, two adult humans, one donkey, one cart, one salt basket, one salt hill; all complete, countable and fully internal. This depicts ancient production and variety, not medicinal claims.\nAvoid: water or brine touching a canvas edge, regular checkerboard grid, infographic, diagram, map, panels, collage, split scene, salt remedy, ingestion, suffering, clipped animal, clipped cart, clipped tool, extra person, extra animal, ship, modern machinery, plastic, readable marks, letters, numerals, inscriptions, pseudo-writing, signature, watermark, border, decorative frame, depicted page, cartouche, inset, photorealism, glossy CGI.",
+          "reason": "The white foreground pan and russet foreground pan continued through the left and bottom canvas edges, so their complete berms were not visible."
+        },
+        {
+          "generationArtifactId": "exec-4a4ac759-76a2-416b-bdb5-d5a705edec7f",
+          "outputArtifact": "built-in-imagegen://exec-4a4ac759-76a2-416b-bdb5-d5a705edec7f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b31-c007-reject-02-sea-hit-edges.png",
+          "sha256": "4cd9d009567d85327f1c3186e553363fef83b30977fe45900adb2f11a7390040",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXI chapter 7 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Preserve this beautiful ancient saltworks scene, its exact six differently colored salt pans, exactly two workers, one donkey, one cart, salt hill, storehouse, distant sea, palette, lighting, vellum texture and overall spatial relationships, but pull the entire foreground saltworks farther back and add broad continuous dry clay ground around it so that EVERY salt pan is complete and fully surrounded by its own visible berm and an additional band of dry earth on all sides. The large white pan currently cut by the left edge and the dark russet pan currently cut by the bottom edge must become smaller, completely visible closed shapes at least 110 pixels inward from every canvas edge. The reeds at lower left must also become a complete internal clump rather than being clipped. Keep exactly six pans total: white, saffron-gold, rose, violet, silvery, and russet. Do not add, merge, remove or duplicate any pan.\nPreserve unchanged: both complete workers and their anatomically natural bodies, rake, basket, donkey, cart, salt hill and quarry opening, storehouse, mountain, sea band and coherent single-landscape treatment. Maintain all water/brine fully enclosed and separated from every outer edge by dry ground.\nStyle/medium: same museum-grade Plinian folio—warm fibrous aged vellum, iron-gall contours, crystalline stipple, fine cross-hatching, translucent mineral wash, restrained mica-like highlights; ancient, timeless, rough and polished at once.\nComposition/framing: native 1536x1024 landscape, opaque RGB/sRGB. Use a slightly higher and wider viewpoint rather than a frame or border. Only non-focal dry earth, distant mountain, sea horizon and sky may naturally continue beyond the image boundary.\nText: none.\nConstraints: exactly six complete salt pans, two humans, one donkey, one cart, one basket, one salt hill, all fully internal.\nAvoid: any pan or brine touching an edge, clipped reeds, added people or animals, altered anatomy, checkerboard grid, panels, collage, split scene, diagram, map, remedy, modern machinery, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, inset, photorealism, glossy CGI.",
+          "editOfArtifactId": "exec-705d0e4f-cc90-47c2-b171-51a01b268d68",
+          "reason": "The pullback corrected all six pans, but the distant sea band still reached both lateral canvas edges and failed the no-water-at-edge gate."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:8",
+      "title": "ALEX: EIGHT REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b31-c008.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "d25ddb9dcb19ebde75e544f2662c96423e22a97ee1b30101b0c277a0bff57f2e",
+        "englishSha256": "2e11ac186670e6f754a6ecf01ea5197ee186307cf14517d9c89f249f55f7628b",
+        "latinWords": 250,
+        "englishWords": 576,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "47ae67807c40b54086c7f21599a6f5f280c0fbdc167db4a6a80159fa4c424308",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e3f49e51-014b-488b-86f6-1ced1aff1af3",
+      "generationArtifactId": "exec-e3f49e51-014b-488b-86f6-1ced1aff1af3",
+      "outputArtifact": "built-in-imagegen://exec-e3f49e51-014b-488b-86f6-1ced1aff1af3.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXI chapter 8 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Preserve this beautiful Roman garum workshop and change ONLY the foreground table's size and placement. Make the entire low wooden table smaller and move it upward and slightly left so all four table legs, every tabletop corner, and the complete table silhouette are visible, grounded, and surrounded by at least 100 pixels of uninterrupted dry floor before the bottom and right canvas edges. Keep exactly three intact silver fish and the complete shallow alex dish on that table, preserving their count, anatomy and arrangement. Do not crop or remove any part of the table.\nPreserve unchanged: exactly two complete workers and their faces, hands, feet and clothing; woven straining basket; complete bronze receiving bowl with enclosed amber garum; sealing amphora; exactly four background closed amphorae; one lidded fermentation vat; doorway town, walls, timber awning, lighting, palette and folio texture. Keep every vessel fully internal. No water except the small enclosed amber liquid in the bowl.\nStyle/medium: same museum-grade Plinian natural-history folio on warm fibrous aged vellum, iron-gall contours, cross-hatching, salt-grain stipple, dry-brush abrasion and translucent mineral wash; ancient, timeless, rough and polished at once.\nComposition/framing: native 1536x1024 landscape, opaque RGB/sRGB. Add continuous dry floor around the newly contained table; do not add a frame or border.\nText: none.\nConstraints: exactly two humans, three fish, one basket, one receiving bowl, one sealing amphora, four background amphorae, one lidded vat, one alex dish, one fully visible table.\nAvoid: clipped table, clipped foot, altered anatomy, added person, extra fish, extra vessel, liquid touching an edge, entrails, gore, drinking, remedy, text, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panels, collage, split scene, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f5c5821f-ee67-45a0-80e5-ac0f886965b4",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-e3f49e51-014b-488b-86f6-1ced1aff1af3",
+          "status": "accepted",
+          "editOfArtifactId": "exec-f5c5821f-ee67-45a0-80e5-ac0f886965b4"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-e3f49e51-014b-488b-86f6-1ced1aff1af3",
+            "editOfArtifactId": "exec-f5c5821f-ee67-45a0-80e5-ac0f886965b4",
+            "result": "accepted"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two complete workers, three intact fish, one basket, one receiving bowl with enclosed amber garum, one amphora being sealed, four closed background amphorae, one lidded vat, one alex dish and one fully visible grounded table. No liquid reaches an edge; no pseudo-writing, graphic processing, remedy action or clipping appears.",
+      "epistemicAndDignityNote": "The accepted image presents garum and alex as Roman food-production material culture. It omits bodily remedies, animal suffering, medical instruction and religious caricature.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-f5c5821f-ee67-45a0-80e5-ac0f886965b4",
+          "outputArtifact": "built-in-imagegen://exec-f5c5821f-ee67-45a0-80e5-ac0f886965b4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b31-c008-reject-01-clipped-table.png",
+          "sha256": "3f70d6d0b2979dac5e5d0de9cc5ac8fc599e384c9e13f58bfe91aff7c33e36aa",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXI chapter 8 illustration master\nPrimary request: Create an intimate Roman coastal garum workshop inspired by Pliny's account of alex, garum and muria. Show exactly TWO complete fully clothed adult workers inside one open-air stone workshop: one worker lifts a complete woven straining basket above exactly ONE complete deep bronze receiving bowl containing a small fully enclosed pool of amber garum, while the other worker seals exactly ONE tall ceramic amphora with a plain clay stopper. On a separate low table sit exactly THREE complete small silver scomber fish, clean and intact as food ingredients, beside exactly ONE shallow dish of dark strained alex residue. Behind them stand exactly FOUR complete plain closed amphorae in different earth tones and exactly ONE complete lidded fermentation vat. No remedy is applied or consumed.\nScene/backdrop: shaded Roman-era fish-sauce workshop near Carthago Spartaria, with pale stone walls, timber awning wholly visible, dry mosaic-free floor, a distant compact harbor town glimpsed through the doorway, and no visible sea or water beyond the enclosed bronze bowl. No patient, wound, animal suffering, exposed entrails, blood, rot spectacle, medical procedure, sacred caricature, or modern food factory.\nStyle/medium: one museum-grade Plinian natural-history folio on warm fibrous aged vellum; strong iron-gall contours, fine basket and ceramic cross-hatching, salt-grain stipple, dry-brush abrasion, translucent mineral watercolor and restrained amber/gold highlights; palette of deep Pompeian red, smoked umber, amber, oxidized bronze, chalk ivory, faded lapis shadow and muted verdigris; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: close but spacious three-quarter interior view with a triangular rhythm among basket, receiving bowl and sealed amphora. All two workers, hands, feet, vessels, fish, table, awning, vat and architecture are complete, countable, and at least 120 pixels inward from every edge. Every discrete object rests on visible ground or support with breathing room. Only continuous blank wall, dry floor, open sky or non-focal timber may naturally continue beyond the frame. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: cool shade crossed by one amber shaft of afternoon light; tactile, costly, industrious and quietly strange.\nText: none.\nConstraints: exactly two humans, three intact fish, one straining basket, one receiving bowl, one open amber liquid surface, one amphora being sealed, four background closed amphorae, one lidded vat, one alex dish; all fully internal. Historical production only, no medical endorsement.\nAvoid: liquid or water touching any edge, extra person, living fish, injured animal, blood, entrails, gore, vomiting, illness, treatment, drinking, open vat, steam, smoke, fire, clipping, pseudo-writing on amphorae, maker marks, labels, letters, numerals, inscriptions, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, diagram, photorealism, glossy CGI.",
+          "reason": "The foreground fish table was severed by the lower-right boundary, leaving its full structure and legs outside the frame."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:9",
+      "title": "THE NATURE OF SALT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b31-c009.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9d47dec6842588df3c3971e6da6efb381dc647266c7cb16bf062c83c6547ac9a",
+        "englishSha256": "5bd1899b5df1e9ec8a8791f14865192505994ab520e9495884beb530a7499358",
+        "latinWords": 496,
+        "englishWords": 1046,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "81c5e6c25aff34545956d4f9c7982c7611e2ef54c4810042c564cd932d4a9989",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9925285c-8b34-4668-adb0-73ad02aa20cd",
+      "generationArtifactId": "exec-9925285c-8b34-4668-adb0-73ad02aa20cd",
+      "outputArtifact": "built-in-imagegen://exec-9925285c-8b34-4668-adb0-73ad02aa20cd.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent replacement Naturalis Historia Book XXXI chapter 9 illustration master\nPrimary request: Paint an unmistakably hand-illustrated Roman material study of the nature of salt—NOT a photograph, render, product still life, or glossy realism. On exactly ONE complete low dark basalt table fully visible inside a plain Roman workshop, arrange exactly ONE angular white rock-salt cluster at center; exactly ONE small complete bronze brazier at left with a tiny contained flame; exactly ONE complete iron testing spoon held by a simple complete bronze forked stand above the brazier; exactly ONE ancient closed two-handled clay amphora at right, its plain wax stopper visible and no glass or metal clasp; exactly ONE corroded iron key; exactly ONE folded strip of dry wool; and exactly ONE intact dried laurel wreath. A sparse internal trail of salt grains connects these materials but ends well before the table rim. No people or animals.\nScene/backdrop: flat smoke-darkened lime plaster, one complete round-arched opening revealing only dry moonlit hills and sky, dry stone floor. The objects suggest Pliny's themes of fire, corrosion, binding, drying and preservation without showing a remedy, ritual, treatment or supernatural effect.\nStyle/medium: visibly hand-painted ancient natural-history codex folio: warm fibrous aged vellum visibly woven through the color; confident dark iron-gall outlines around every object; deliberate cross-hatching, stipple, flat egg-tempera shapes, dry watercolor blooms, rubbed pigment, small imperfect brush edges and selective dull shell-gold glints. Restrained palette of chalk white, basalt charcoal, Pompeian red, oxidized bronze, madder ember, faded lapis and warm ochre. Ancient, timeless, beautiful, rough in material and exquisitely polished in drawing. Use compressed medieval/Renaissance manuscript depth, not photographic optics.\nComposition/framing: broad frontal view with generous empty wall above and dry floor below. The complete table and all feet, crystal, brazier, flame, spoon, stand, amphora, key, wool and wreath are countable and at least 120 pixels inward from all four edges. Only continuous plain plaster, floor, arch wall and open sky reach the boundaries. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: stylized pools of ember orange and moon-blue painted as mineral washes, austere and elemental.\nText: none.\nConstraints: no living subjects; exactly one table, one salt cluster, one brazier, one flame, one spoon, one stand, one ancient sealed clay amphora, one key, one wool strip and one wreath; all fully internal.\nAvoid: photorealism, photography, cinematic 3D, glossy CGI, physically rendered crystal or glass, wire-bail jar, modern lid, modern object, water, liquid, salt touching an edge, clipped table, extra object, cooking, eating, remedy, magic, letters, numerals, inscriptions, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, diagram.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7ac5f350-680f-4e1f-b18e-709dc2006095",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-9925285c-8b34-4668-adb0-73ad02aa20cd",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found a complete basalt table bearing one rock-salt cluster, one contained-flame brazier, one testing spoon and stand, one ancient sealed clay amphora, one corroded key, one wool strip and one wreath. All motifs are complete and internal; the result is visibly hand-painted, period-plausible and free of writing, water, modern hardware, panels or remedy action.",
+      "epistemicAndDignityNote": "Salt's fiery, corrosive, binding, drying and preservative nature is treated as a historical material study; none of the chapter's medical applications is demonstrated or endorsed.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-7ac5f350-680f-4e1f-b18e-709dc2006095",
+          "outputArtifact": "built-in-imagegen://exec-7ac5f350-680f-4e1f-b18e-709dc2006095.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b31-c009-reject-01-modern-photoreal-jar.png",
+          "sha256": "54585a71a102a0d4180790e763e4159370b5a4a8b9efdbfb2dd2a7b6612ee6ab",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXI chapter 9 illustration master\nPrimary request: Create a dramatic Roman material-study still life embodying Pliny's description of salt as fiery, corrosive, binding, drying and preservative without demonstrating any medical use. On exactly ONE complete low oval basalt plinth, place exactly ONE large complete translucent halite crystal cluster at center. Around it, arrange exactly ONE complete shallow bronze brazier containing a small contained flame, exactly ONE complete long iron testing spoon resting on a separate forked bronze stand above but not inside the flame, exactly ONE complete sealed clear glass jar containing preserved purple olives, exactly ONE complete corroded iron key, exactly ONE small folded strip of dry wool, and exactly ONE intact dried laurel wreath. A sparse drift of loose white salt grains links the objects across the black stone like a natural constellation. No people or animals.\nScene/backdrop: quiet open Roman workshop alcove at night, plain smoke-darkened plaster behind the isolated plinth, dry mosaic-free stone floor, one distant arch opening onto moonlit dry hills. No patient, food serving, remedy, wound, body, ritual, inscription, scroll, label or modern laboratory.\nStyle/medium: one museum-grade Plinian natural-history folio on warm fibrous aged vellum; bold iron-gall contours, exquisite crystalline facets, dense chiaroscuro cross-hatching, stipple and dry-brush abrasion, translucent mineral watercolor, restrained silver and ember-gold highlights; palette of salt white, basalt black, violet glass, oxidized bronze, ember madder, faded lapis and warm umber; ancient, timeless, beautiful, rough in surface and polished in draftsmanship.\nComposition/framing: low eye-level theatrical composition with halite rising as a luminous central silhouette and the seven surrounding material motifs clearly separated. Entire oval plinth, all feet/supports, brazier, flame, spoon, stand, jar, key, wool, wreath and crystal are fully visible, grounded and at least 120 pixels inward from every edge. Broad dark floor and blank plaster create negative space on all sides. Only continuous wall, dry floor, arch masonry or sky may reach the boundary. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: controlled ember light and cool moonlight, austere, elemental and enduring.\nText: none.\nConstraints: no living subjects; exactly one plinth, one halite cluster, one brazier, one flame, one spoon, one spoon stand, one sealed olive jar, one key, one wool strip and one laurel wreath; all complete and fully internal. Historical material observation only, no remedy or medical claim.\nAvoid: water, liquid outside the sealed jar, salt touching an edge, clipped object, extra object, open jar, cooking, eating, medical application, supernatural effect, explosion, large fire, smoke obscuring forms, letters, numerals, inscriptions, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, diagram, modern apparatus, photorealism, glossy CGI.",
+          "reason": "The material study rendered as glossy photorealism and introduced a modern wire-bail glass jar, violating both the codex medium and Roman-period artifact gates."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:10",
+      "title": "THE VARIOUS KINDS OF NITRUM, THE METHODS OF PREPARING IT, AND THE REMEDIES DERIVED FROM IT: TWO HUNDRED AND TWENTY-ONE OBSERVATIONS THEREON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b31-c010.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "174d97d2ae49c2239ee4f765a4f5569172182097bdfe8406e543199747f88cc6",
+        "englishSha256": "bae98ab5d0c30079de32f188c44ec85a05eb1df44be6b9fb9a4f24b4409aa656",
+        "latinWords": 945,
+        "englishWords": 1999,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "106c03e42253b5fc917eb6711e68b8d72aebc442656a0ab15e3457f42ec42765",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d5dff532-3a12-4ef4-bda0-7d399d325d84",
+      "generationArtifactId": "exec-d5dff532-3a12-4ef4-bda0-7d399d325d84",
+      "outputArtifact": "built-in-imagegen://exec-d5dff532-3a12-4ef4-bda0-7d399d325d84.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXI chapter 10 illustration master\nPrimary request: Create a geological field scene inspired by Pliny's account of nitrum at Chalestra in Macedonia. In one broad dry basin, show exactly ONE complete small oval freshwater spring at the absolute center, its turquoise surface entirely enclosed by a thick ring of dark earth. Around—but clearly separate from—the spring, an irregular pale nitrous crust spreads in porous white, tawny and faint purple patches, with delicate froth-like crystalline edges and no geometric salt pans. Exactly ONE complete fully clothed adult Roman naturalist kneels on a dry internal ledge, holding exactly ONE complete porous nitrum specimen with wooden tongs and examining its texture; exactly ONE complete adult worker stands farther back beside exactly THREE complete low harvested heaps: one white, one red-earth stained, one grey. In the upper-right middle distance, exactly ONE complete shallow cave mouth shows a few pale mineral drips along its ceiling, integrated into the same basin geology.\nScene/backdrop: Macedonian valley at the rising of the Dog Star season, dry hills, sparse thorn scrub, clear predawn sky warming at the horizon. No Egyptian workshop, salt-pan grid, glassmaking, bread, dyeing, medical treatment, animal, patient, illness, fire, caustic application, recipe or miracle. The chapter's remedies remain transmitted ancient claims, not modern advice.\nStyle/medium: one museum-grade Plinian natural-history folio on warm fibrous aged vellum; confident iron-gall geological contour, porous stipple, granular cross-hatching, dry-brush abrasion, translucent mineral watercolor and restrained chalky highlights; palette of turquoise, chalk white, dusty mauve, red earth, smoky grey, faded lapis, ochre and one madder cloak accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: spacious low-oblique basin view, oval spring a small jewel within sweeping asymmetrical mineral crust, naturalist foreground-left, three heaps and worker upper-left, cave upper-right. Spring, all water, people, hands, feet, tongs, specimen, heaps, cave, ridges and discrete scrub are complete and at least 120 pixels inward from every edge. Broad dry empty earth and sky surround them. Only continuous dry terrain and open sky may reach the boundary. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: cool predawn with first amber light, strange, empirical and mineral-rich.\nText: none.\nConstraints: exactly two adult humans, one enclosed spring, one specimen, one tongs, three heaps, one cave mouth; all complete and internal. Non-actionable historical observation only.\nAvoid: any water touching an edge, clipped mineral heap, clipped person, extra person, animal, regular pans, checkerboard, treatment, ingestion, caustic use, modern science gear, glass vessel, letters, numerals, inscriptions, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, map, diagram, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d5dff532-3a12-4ef4-bda0-7d399d325d84",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one fully enclosed turquoise spring within asymmetric porous nitrous crust, exactly two complete adults, one tong-held specimen, three colored heaps and one complete cave mouth. Water remains internal and anatomy is sound; no salt-pan grid, medical application, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "The plate visualizes ancient geological and production observations at Chalestra. Nitrum remedies and caustic uses remain transmitted claims rather than modern guidance.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:3",
+      "title": "AMPHIBIOUS ANIMALS. CASTOREUM: SIXTY-SIX REMEDIES AND OBSERVATIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b32-c003.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "13a28fb3353edbacf4b5669d5846a5896debcf623402ab21a19af3076c2ea5c5",
+        "englishSha256": "1201e0ae4233d1c7e621825b1ccd2cbca648fa41161bbbb6b15f235c9a8b9503",
+        "latinWords": 322,
+        "englishWords": 758,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "bfebf9776aed09cb73b4213d4acc8c7c6f619fbe42a891b6e1e998cb8458afdd",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-12875b2f-c690-4ff6-b94b-a5ce2dd3044a",
+      "generationArtifactId": "exec-12875b2f-c690-4ff6-b94b-a5ce2dd3044a",
+      "outputArtifact": "built-in-imagegen://exec-12875b2f-c690-4ff6-b94b-a5ce2dd3044a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 3 illustration master\nPrimary request: Create a humane natural-history observation of the beaver's amphibious life, deliberately refusing the ancient mutilation myth and all animal-derived remedy action. Show exactly TWO complete healthy Eurasian beavers on a broad dry bank beside exactly ONE fully enclosed reed-ringed pond. The nearer beaver sits in calm profile gnawing exactly ONE complete willow twig; its whole rounded body, head, teeth, four feet and broad scaled tail are visible. The second beaver walks toward a complete low stick lodge carrying exactly ONE complete short branch; its entire body, feet and tail remain visible on dry earth. A complete compact stick dam crosses only the interior neck of the pond, with both ends fully visible in dry banks. No human, trap, hunter, pouch, specimen, medicine, blood or injury.\nScene/backdrop: quiet Pontic wetland at misty dawn, willow clumps, sedges, alder, distant blue hills and pale sky. The oval pond, all banks, dam and lodge are fully surrounded by ample dry ground and never touch an image edge. Water may show one small ring of ripples but no animal is submerged. No dramatic predator or anthropomorphic behavior.\nStyle/medium: one museum-grade Plinian animal folio on warm fibrous aged vellum; precise iron-gall zoological contours, fine fur hatching, tail-scale stipple, twig and reed dry-brush abrasion, translucent mineral watercolor and restrained silver water glints; palette of russet brown, peat umber, muted malachite, faded lapis, mist grey, willow ochre and soft madder; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: low wide landscape with the two beavers forming a gentle diagonal from foreground bank to lodge, enclosed pond centered behind them, abundant pale mist and empty ground. Both complete animals, twig, branch, pond, dam, lodge, every discrete tree crown and reed clump are at least 120 pixels inward from all edges. Only continuous open sky or non-focal dry terrain may naturally continue beyond the frame. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: pearl-grey dawn with quiet amber rim light, intelligent, peaceful and observant.\nText: none.\nConstraints: exactly two living beavers, one twig, one carried branch, one pond, one dam, one lodge; all complete and internal. The castoreum remedies and capture myth remain transmitted ancient testimony, not endorsement.\nAvoid: water touching any edge, submerged or partly hidden animal, clipped tail, extra beaver, person, trap, restraint, mutilation, exposed anatomy, body part, blood, hunting, fear, medical application, pouch, bottle, anthropomorphic clothing, letters, numerals, labels, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, diagram, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-12875b2f-c690-4ff6-b94b-a5ce2dd3044a",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two complete healthy beavers with visible feet and scaled tails, one complete twig, one carried branch, one enclosed pond, one internal dam and one lodge. No water reaches an edge and no animal is hidden, trapped, injured, anthropomorphized or duplicated; no writing or panels appear.",
+      "epistemicAndDignityNote": "The scene centers living beaver ecology and explicitly refuses the self-mutilation myth, capture and animal-derived remedy action.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:4",
+      "title": "THE TORTOISE: SIXTY-SIX REMEDIES AND OBSERVATIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b32-c004.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f71ffad5d390ba6361cd7fd94144511ba60a6dd86b9afcb1839e0c50056773c6",
+        "englishSha256": "c730386ca1f5fbcd75ccf69370a8e4fecf7bfc8ded2dc1cfe0ca9d18ad7a3117",
+        "latinWords": 620,
+        "englishWords": 1362,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "130487af279f96fe3a8e9ba453a427c8c14b3da9b9f2fef5343d1ba61e463cdf",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-10f95fe5-d5aa-4b26-ab9b-be2aedea7419",
+      "generationArtifactId": "exec-10f95fe5-d5aa-4b26-ab9b-be2aedea7419",
+      "outputArtifact": "built-in-imagegen://exec-10f95fe5-d5aa-4b26-ab9b-be2aedea7419.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXII chapter 4 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Preserve this beautiful four-chelonian habitat panorama and correct ONLY the two edge violations. First, completely remove the distant open sea that currently reaches the right canvas edge and replace it with layered dry blue-grey Mediterranean hills, a broad pale sand shelf and atmospheric sky. Keep the existing turquoise crescent cove in the right middle ground, but make its entire water perimeter unmistakably closed and fully surrounded by a wide continuous band of visible sand and rock; absolutely no water may touch any outer edge. Second, replace the large olive tree currently cut by the top-left boundaries with one smaller complete ancient olive tree standing fully inside the upper-left slope, its entire crown, trunk and roots visible with open sky and dry ground around it.\nPreserve unchanged: exactly four complete healthy chelonians—the left land tortoise, the pond turtle on its complete log, the central mud turtle, and the right sea turtle—and every head, shell, foot, tail and flipper; preserve the complete spring pool, mudflat, cove, connected habitat flow, vegetation, light, color and vellum folio style. Do not add, duplicate, remove, move, crop or submerge any animal.\nStyle/medium: same museum-grade Plinian animal folio on warm fibrous aged vellum, iron-gall zoological contours, shell scute geometry, cross-hatching, stipple, dry-brush herbs and translucent mineral wash; ancient, timeless, rough and polished at once.\nComposition/framing: native 1536x1024 landscape, opaque RGB/sRGB. Only continuous dry terrain and open sky may reach a canvas boundary.\nText: none.\nConstraints: exactly four living chelonians, one complete internal olive tree, one complete log, one spring pool, one mudflat, one fully enclosed cove; all internal.\nAvoid: any water touching an edge, clipped tree, altered animal anatomy, extra turtle, partly submerged animal, human, capture, harm, medicine, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panels, collage, split scene, infographic, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c0d84ed5-2fb4-4fcb-b96e-0cecba74ba3b",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-10f95fe5-d5aa-4b26-ab9b-be2aedea7419",
+          "status": "accepted",
+          "editOfArtifactId": "exec-c0d84ed5-2fb4-4fcb-b96e-0cecba74ba3b"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-10f95fe5-d5aa-4b26-ab9b-be2aedea7419",
+            "editOfArtifactId": "exec-c0d84ed5-2fb4-4fcb-b96e-0cecba74ba3b",
+            "result": "accepted"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly four complete healthy chelonians—one land tortoise, one pond turtle on a full log, one mud turtle and one sea turtle—across one continuous habitat. The spring pool and turquoise cove are fully enclosed, the olive tree is complete, and no animal, water body or focal plant is clipped; no paneling, writing or harm appears.",
+      "epistemicAndDignityNote": "The accepted panorama preserves Pliny's four habitat categories while omitting every capture, killing, anatomical extraction, recipe and magical claim.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-c0d84ed5-2fb4-4fcb-b96e-0cecba74ba3b",
+          "outputArtifact": "built-in-imagegen://exec-c0d84ed5-2fb4-4fcb-b96e-0cecba74ba3b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b32-c004-reject-01-sea-and-tree-hit-edges.png",
+          "sha256": "cc05397ca5d1d03cb1150144ef5d711b26166c378dcd4457f088b6e0607dedb2",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 4 illustration master\nPrimary request: Create one humane continuous Mediterranean habitat panorama showing Pliny's four kinds of tortoise without any remedy, capture, mutilation, cooking or magical claim. Show exactly FOUR complete healthy chelonians, each anatomically distinct and wholly visible: exactly ONE domed land tortoise walking across a dry thyme-covered limestone terrace at left; exactly ONE small freshwater pond turtle resting with all four feet and tail visible on a complete fallen log beside a fully enclosed clear spring pool in the center; exactly ONE broad flatter mud turtle walking on a dark internal mudflat among sparse sedges; and exactly ONE complete sea turtle resting naturally on pale sand beside a fully enclosed turquoise coastal cove at right, all four flippers, head and shell visible. No animal is submerged, restrained, handled, threatened or injured.\nScene/backdrop: one seamless Roman Mediterranean coastal landscape descending from dry olive upland through spring-fed wet meadow and mudflat to a crescent cove. Every pool, mudflat and cove shoreline is complete and entirely surrounded by visible dry land or sand; no water touches an outer edge. Distant islands and low hills sit below generous sky. No human, vessel, ship, harbor, predator, fire, knife, blood, body part, egg, medicine, patient or ritual.\nStyle/medium: one museum-grade Plinian animal folio on warm fibrous aged vellum; confident iron-gall zoological contours, precise shell scute geometry, fine cross-hatching and stipple, dry-brush herbs and sand, translucent mineral watercolor and restrained shell-gold highlights; palette of tortoise umber, olive green, mud violet, turquoise, faded lapis, limestone ivory, ochre and muted madder; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: spacious high-oblique panorama with habitats flowing diagonally and naturally into one another, never panels or a specimen grid. Each of the four complete animals occupies a separate but connected ecological zone and remains large enough to read. All four animals, log, pools, mudflat, cove, trees, rocks and discrete plants are at least 120 pixels inward from all canvas edges. Only continuous sky or non-focal dry terrain may reach the boundary. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: luminous late-spring morning, calm, generous and attentive to difference.\nText: none.\nConstraints: exactly four living chelonians total—one land tortoise, one pond turtle, one mud turtle, one sea turtle; all complete, countable and internal. Ancient remedy claims remain testimony, not endorsement.\nAvoid: any water touching an edge, partly submerged animal, clipped shell, clipped flipper, extra turtle, duplicated animal, human, capture, restraint, overturned turtle, harm, blood, anatomical specimen, cooking, fire, medicine, magic, ships, modern conservation gear, labels, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, quadrants, collage, split scene, infographic, photorealism, glossy CGI.",
+          "reason": "The distant open sea reached the right canvas boundary and the large olive tree was clipped by the top-left edges."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "32:5",
+      "title": "REMEDIES FOR POISONS, AND FOR NOXIOUS SPELLS. THE DORADE: FOUR REMEDIES. THE SEA-STAR: SEVEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/b32-c005.png",
+      "corpusArtifact": "public/corpus/book-32.2d6a8f163011f933.json",
+      "corpusReadEvidence": {
+        "latinSha256": "97344195ff21c29fdfed82f5e3e9dd2962f9138ff478e985d74990460817c43d",
+        "englishSha256": "d4f92200233418abd141c0c3eaed45ee890d103e30f1606b642f5ab52b60e2dd",
+        "latinWords": 827,
+        "englishWords": 1896,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "c2080fc3dc60f3e5064a05af3b7c3d6a83583ebcd47b2bff0682a61aeeaaae5b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5aaa5169-9b52-4838-b845-112de0bfcf3e",
+      "generationArtifactId": "exec-5aaa5169-9b52-4838-b845-112de0bfcf3e",
+      "outputArtifact": "built-in-imagegen://exec-5aaa5169-9b52-4838-b845-112de0bfcf3e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent replacement Naturalis Historia Book XXXII chapter 5 illustration master\nPrimary request: Paint a distinctly bright, asymmetrical Mediterranean marine observation inspired by Pliny's dorade, sea-star and other aquatic antidote lore, without enacting any poison, spell, remedy, capture or harm. In a vast field of sun-bleached ivory limestone, show exactly ONE complete irregular crescent-shaped tide pool running diagonally from the upper-left interior toward the lower-center interior. Its entire turquoise waterline and every cove of its pale stone rim must be fully visible and surrounded on every side by a very broad band of dry white limestone. Through clear shallow water show exactly SIX complete healthy marine animals: exactly ONE golden dorade near the upper curve; exactly ONE red-striped surmullet near the lower curve; exactly ONE five-armed cobalt-blue sea star on a pale submerged slab; exactly ONE crimson sea urchin; exactly ONE curled violet seahorse; and exactly ONE small ivory-and-russet sea crab. Every animal is separate, unobscured and anatomically complete. Add only three small complete coral-red seaweed tufts within the water.\nScene/backdrop: high oblique view across a luminous limestone tidal terrace at midday, with subtle ochre fissures, a few complete internal thyme cushions and a tiny distant dry headland beneath a broad faded-lapis sky. No open sea is visible. No human, boat, hook, net, nail, door charm, blood, fox, frog, snake, scorpion, dog, crocodile, wound, potion, cooking, preserved carcass or supernatural effect. Ancient poison and magic claims remain transmitted testimony, not fact or advice.\nStyle/medium: unmistakably hand-painted Plinian codex folio on warm fibrous aged vellum: strong iron-gall contours, flat egg-tempera color shapes, fish-scale stipple, angular limestone cross-hatching, dry-brush abrasion, visible watercolor blooms and restrained dull shell-gold highlights. Bright distinctive palette of ivory limestone, turquoise, ultramarine, coral red, dorade gold, violet, pale rose and tiny lampblack accents. Ancient, timeless, beautiful, rough in material and exquisitely polished in drawing; compressed manuscript depth, never photography or glossy rendering.\nComposition/framing: the crescent pool is strongly off-center with abundant luminous negative stone space, not a centered oval or specimen grid. Pool, rim, all water, six animals, seaweed, thyme and discrete rocks are at least 120 pixels inward from every edge. Only continuous blank limestone, distant dry hills and open sky may reach a boundary. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: brilliant high sun, airy, strange and celebratory.\nText: none.\nConstraints: exactly six living marine animals—one dorade, one surmullet, one five-armed sea star, one sea urchin, one seahorse, one sea crab; one fully enclosed crescent pool; all complete and internal.\nAvoid: centered dark oval pool, black volcanic background, any water touching an edge, clipped animal, extra animal, duplicate fish, predation, blood, death, bait, handling, remedy, poison action, magical charm, labels, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, specimen boxes, infographic, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e2e9f4cf-f051-4f59-9855-7c0c9fa964c8",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-1c85c3aa-8297-4397-a140-be89ab90433d",
+          "status": "rejected-global-audit",
+          "editOfArtifactId": "exec-e2e9f4cf-f051-4f59-9855-7c0c9fa964c8"
+        },
+        {
+          "generationArtifactId": "exec-5aaa5169-9b52-4838-b845-112de0bfcf3e",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [
+          {
+            "generationArtifactId": "exec-1c85c3aa-8297-4397-a140-be89ab90433d",
+            "editOfArtifactId": "exec-e2e9f4cf-f051-4f59-9855-7c0c9fa964c8",
+            "result": "rejected-global-audit"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete off-center crescent pool fully enclosed by luminous limestone and exactly six complete animals: one dorade, one surmullet, one five-armed sea star, one sea urchin, one seahorse and one sea crab. Every fin, arm, spine and limb is visible; no water or discrete plant touches an edge; no harm, charm, writing, panel or modern object appears.",
+      "epistemicAndDignityNote": "The plate treats Pliny's marine antidote and spell claims as historical testimony only, presenting healthy organisms without capture, poison, treatment or supernatural verification.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-e2e9f4cf-f051-4f59-9855-7c0c9fa964c8",
+          "outputArtifact": "built-in-imagegen://exec-e2e9f4cf-f051-4f59-9855-7c0c9fa964c8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b32-c005-reject-01-clipped-edge-thyme.png",
+          "sha256": "0b3ce7a2785c83dd0f7d8ba7a38dd940ddb1e092e602c936c69482b7e8ef444a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXXII chapter 5 illustration master\nPrimary request: Create a humane, jewel-like marine natural-history scene centered on the creatures Pliny associates with antidotes and marvels, without enacting any poison, spell, remedy, killing or capture. Show exactly ONE complete oval rock pool viewed from a high oblique angle, its entire stone rim visible and surrounded on every side by broad dry dark volcanic rock. Through exceptionally clear enclosed water, show exactly SIX complete healthy marine animals, each anatomically distinct and wholly visible: exactly ONE golden dorade fish; exactly ONE red-striped surmullet; exactly ONE five-armed ochre sea star resting naturally on a submerged stone; exactly ONE purple sea urchin; exactly ONE small curled seahorse; and exactly ONE russet sea crab walking on pale sand. The two fish swim peacefully in different directions with fins and tails unobscured; no animal touches another.\nScene/backdrop: quiet Mediterranean tidal terrace after dawn, the single pool fully internal, with a few complete seaweed fronds rooted inside the pool and complete dry thyme cushions outside it. No human, boat, hook, net, nail, doorway charm, blood, fox, frog, snake, scorpion, dog, crocodile, injury, wound, potion, cooking, salted carcass or supernatural effect. Pliny's poison and magic claims remain transmitted ancient testimony, not modern advice or fact.\nStyle/medium: one museum-grade Plinian aquatic folio on warm fibrous aged vellum; precise iron-gall zoological contours visible through transparent mineral washes, fish-scale stipple, shell and rock cross-hatching, dry-brush abrasion and restrained shell-gold/silver glints; palette of deep lapis, turquoise, coral madder, dorade gold, purple, rust, basalt black and sand ivory; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: the complete oval pool floats like a luminous interior cosmos within wide dark dry-rock negative space, never a specimen grid or panel. All water, rim, animals, fins, tails, limbs, seaweed and discrete rock forms are at least 120 pixels inward from every canvas edge. Only continuous dry volcanic ground may naturally reach the boundary. Native landscape 3:2, 1536x1024, opaque RGB/sRGB.\nLighting/mood: clear dawn light refracted through shallow water, mysterious, peaceful and encyclopedic.\nText: none.\nConstraints: exactly six living marine animals—one dorade, one surmullet, one five-armed sea star, one sea urchin, one seahorse, one sea crab; one fully enclosed pool; all complete, countable, harmless and internal.\nAvoid: any water touching an edge, clipped fish or fin, partly hidden animal, extra animal, duplicate fish, predation, blood, injury, death, bait, hook, net, handling, remedy, poisoning, magical charm, boiling, anthropomorphism, labels, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, specimen boxes, infographic, photorealism, glossy CGI.",
+          "reason": "Decorative thyme clumps were visibly severed at the lower-left and lower-right canvas boundaries."
+        },
+        {
+          "generationArtifactId": "exec-1c85c3aa-8297-4397-a140-be89ab90433d",
+          "outputArtifact": "built-in-imagegen://exec-1c85c3aa-8297-4397-a140-be89ab90433d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-10/evidence/history/b32-c005-reject-02-global-mad-17.27.png",
+          "sha256": "1996dafca6ed572d6a7621081740a57553e54903f8905d1770344c566197ebf8",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Naturalis Historia Book XXXII chapter 5 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Preserve this jewel-like enclosed tide-pool composition and change ONLY the dry plants outside the pool. Completely remove every thyme or flower clump that is cut by or touches the left, right, top or bottom canvas edges, especially the lower-left and lower-right clumps. Replace those cropped plants with seamless continuous dark volcanic rock matching the surrounding texture. Keep only a few small COMPLETE thyme cushions fully inside the dry-rock area, each entire silhouette at least 100 pixels from every canvas edge. No discrete plant may touch or be cut by any edge.\nPreserve unchanged: the complete oval pool and entire stone rim; all enclosed water; exactly six complete healthy marine animals—one golden dorade, one red-striped surmullet, one five-armed ochre sea star, one purple sea urchin, one curled seahorse, one russet sea crab; every fin, tail, arm, spine, limb and anatomical detail; complete underwater rocks and seaweed; colors, lighting, mineral-pigment folio texture and spatial arrangement. Do not add, duplicate, remove, crop or obscure any animal.\nStyle/medium: same museum-grade Plinian aquatic folio on warm fibrous aged vellum with iron-gall zoological contours, scale stipple, cross-hatching, dry-brush abrasion and translucent mineral wash; ancient, timeless, rough and polished at once.\nComposition/framing: native 1536x1024 landscape, opaque RGB/sRGB. The only material reaching an outer boundary should be continuous unbroken dark volcanic rock.\nText: none.\nConstraints: exactly six marine animals and one fully enclosed pool; all complete and internal; all remaining plant clumps complete and internal.\nAvoid: any water touching an edge, clipped plant, altered animal anatomy, extra animal, partly hidden animal, remedy, poison, magic, hook, net, labels, letters, numerals, pseudo-writing, signature, watermark, border, depicted page, panels, collage, split scene, specimen grid, photorealism, glossy CGI.",
+          "editOfArtifactId": "exec-e2e9f4cf-f051-4f59-9855-7c0c9fa964c8",
+          "reason": "Native visual QA passed, but the permanent collection audit found nearest grayscale MAD 17.27 against animals-insects-wave-02/b11-c017.png, below the required minimum of 20; dHash at that peer was 18."
+        }
+      ],
+      "providerFailures": []
+    }
+  ]
+}

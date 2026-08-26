@@ -1,0 +1,638 @@
+{
+  "schemaVersion": 1,
+  "campaign": "ancient-remedies-wave-03",
+  "generatedAt": "2026-08-26",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+  "corpusSha256": "7297f744b879fe661751ff3d256e206bdc67ced91cac61038f417a2ced53f75c",
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book XXVIII chapters 12 through 19 were read before prompting. Face, stomach, bowel, urinary, gout, mental-health, breathing, haemorrhage, reproductive, sexual, infant-care, animal-substance, magical and recipe claims are retained only as transmitted ancient testimony. Accepted scenes are non-actionable and non-graphic, omit symptoms and bodily materials, preserve patient absence or adult dignity, and use sealed objects, healthy animals, craft, companionship and scholarly domestic material culture instead of treatment depictions.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "ancient-remedies-wave-03",
+    "receiptsCheckedAtCertification": 106,
+    "nonEvidenceMastersCheckedAtCertification": 841,
+    "selectedKeys": [
+      "28:12",
+      "28:13",
+      "28:14",
+      "28:15",
+      "28:16",
+      "28:17",
+      "28:18",
+      "28:19"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "assignments": [
+    "28:12",
+    "28:13",
+    "28:14",
+    "28:15",
+    "28:16",
+    "28:17",
+    "28:18",
+    "28:19"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 13,
+    "independentCalls": true,
+    "postGenerationPixelEdits": 0
+  },
+  "chapters": [
+    {
+      "chapterKey": "28:12",
+      "title": "REMEDIES FOR DISEASES OF THE FACE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c012.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "83d250492936a95ba2569447aa19c9a6db6f40ee9eed6efba91f70d9a5923a13",
+        "englishSha256": "4fa4a7c11ef3e680f9d630e14cdb19c8a2f85789452dc05097bffc09ec79b3a2",
+        "latinWords": 684,
+        "englishWords": 1427
+      },
+      "sha256": "4035cb1002e3043e05c24e8e2ae10b56a8509ece6108681fa25f3f1c57fc9a61",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-09cafee1-bd4d-4827-b893-09b249baf08f",
+      "generationArtifactId": "exec-09cafee1-bd4d-4827-b893-09b249baf08f",
+      "outputArtifact": "built-in-imagegen://exec-09cafee1-bd4d-4827-b893-09b249baf08f.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 12, REMEDIES FOR DISEASES OF THE FACE. Present the passage as transmitted ancient medical testimony, never as modern advice or a usable recipe. In a quiet first-century Roman domestic courtyard, depict exactly ONE dignified healthy adult woman, fully clothed in a modest undyed linen stola and muted madder palla, seated upright beside a small freestanding polished bronze mirror. She regards the mirror thoughtfully but does not touch, wash, rub, medicate, or expose her face; her skin is healthy and no symptom is shown. Angle the mirror so it reflects only diffuse morning sky and olive leaves, never a second face or duplicate figure. At a respectful distance on a low stone ledge, place exactly THREE sealed, unmarked household vessels of visibly different shapes, one folded clean linen cloth, and one living mallow plant in a complete small pot; nothing is open, mixed, measured, heated, poured, or applied. In the far courtyard, include exactly ONE calm healthy she-ass standing fully inside the scene as a historical allusion to the chapter's account of asses' milk, with no milking and no container near the animal. Keep the complete woman, hands, feet, garments, mirror and stand, all vessels, cloth, plant pot, the entire she-ass including ears, hooves and tail, and every discrete shadow comfortably inside all four edges with generous negative space. Architecture and continuous floor may extend beyond the canvas. No patient, lesion, ulcer, blood, bodily fluid, nudity, exposed anatomy, distress, animal harm, cosmetic procedure, actionable ingredient combination, water, text, letters, numerals, inscription, pseudo-writing, label, recipe, manuscript page, border, frame, panel, collage, inset, signature, logo, watermark, or reflected duplicate.\n\nRender one continuous scene in a timeless Plinian natural-history folio material language: warm fibrous aged-vellum atmosphere beneath translucent egg tempera and watercolor, pearly chalk, muted madder rose, lavender-grey, soft verdigris olive leaves, aged bronze, fine iron-gall contours and selective cross-hatching, delicate shell-gold abrasion on the mirror rim, pigment blooms, rubbed plaster and handmade grain. Ancient, beautiful, rough in surface and polished in observation. Use an intimate eye-level viewpoint with the woman left of center, mirror near center angled away, sealed vessels and mallow at right, and the she-ass small but complete in a luminous rear court. Quiet dignity and skepticism, not luxury spectacle. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing of any kind.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-09cafee1-bd4d-4827-b893-09b249baf08f",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one dignified fully clothed adult woman, one complete bronze mirror reflecting only sky and leaves, three sealed vessels, one folded cloth, one potted mallow and one complete healthy she-ass. Every discrete subject remains internal; no symptom, application, liquid, duplicated reflection, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The Poppaea, face-remedy, throat and cough material remains transmitted historical testimony. The scene shows reflection, sealed household objects and a healthy animal without procedure, ingredients or advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:13",
+      "title": "REMEDIES FOR AFFECTIONS OF THE STOMACH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c013.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b420fc73e5e51d90813c927f534197a1f54abedd1475b49800e2f6d9f07840ef",
+        "englishSha256": "5c41fe24ee03e228b7a93d56cc3bde74e409c7031937fe5e7cad4dbd46ea9141",
+        "latinWords": 402,
+        "englishWords": 818
+      },
+      "sha256": "8f446464e5297fb08b4c513a1ef0133b27b69324acbb289eee2c8cbc3d717982",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b8611bb0-1fbd-4ea7-b148-5bfdef51091b",
+      "generationArtifactId": "exec-b8611bb0-1fbd-4ea7-b148-5bfdef51091b",
+      "outputArtifact": "built-in-imagegen://exec-b8611bb0-1fbd-4ea7-b148-5bfdef51091b.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 13, REMEDIES FOR AFFECTIONS OF THE STOMACH. Treat the chapter's animal substances, food preparations, amulets, and magical procedures strictly as transmitted historical testimony, never as modern medical advice or an actionable recipe. Make a steep overhead view of one fully internal round Roman dining-and-study table standing alone on a broad continuous cinnabar-and-umber plaster floor. The complete tabletop and all four legs must remain visible with generous floor around it. On the tabletop arrange, widely separated and not combined: exactly ONE intact unsliced loaf of bread; exactly ONE sealed creamware milk jug with its stopper in place; exactly ONE sealed dark wine amphora with its stopper in place; exactly ONE small bronze balance with two empty pans hanging level; exactly ONE plain lidded ceramic box; and exactly ONE small terracotta hare figurine that is unmistakably an inert crafted object, not an animal body part. Add a single folded undyed linen napkin. Nothing is open, poured, mixed, measured, heated, consumed, prescribed, or applied; the balance does not hold ingredients. The objects form an asymmetric ring around a wide empty center, suggesting scrutiny and Pliny's skepticism. Keep the complete table, every leg, loaf, vessel, stopper, balance arm and pans, box, figurine, cloth, and every discrete shadow comfortably inside all four edges. No person, patient, symptom, pain, blood, bodily fluid, organ, animal remains, raw flesh, dung, urine, nudity, exposed anatomy, suffering, living animal, medical procedure, actionable ingredient grouping, water, text, letters, numerals, pseudo-writing, labels, recipe, scroll, manuscript page, border, frame, panel, collage, inset, signature, logo, or watermark.\n\nRender one continuous archaeological domestic scene in the Plinian folio material language: warm fibrous aged-vellum atmosphere, translucent egg tempera and watercolor, iron-red and burnt-sienna floor, lampblack and deep indigo vessel shadows, chalk-white ceramics, toasted-ochre bread, aged bronze with restrained shell-gold wear, fine iron-gall contours, stipple, dry-brush abrasion, pigment blooms and handmade grain. Ancient, timeless, rough and polished together. Use strong raking afternoon light from upper left and long separated shadows, a radical near-vertical viewpoint, ample negative floor and no page-like border. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing of any kind.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b8611bb0-1fbd-4ea7-b148-5bfdef51091b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one fully internal round table supporting exactly one intact loaf, one sealed pale jug, one sealed dark amphora, one empty bronze balance, one closed ceramic box, one terracotta hare figurine and one folded cloth. All objects are separate and internal; nothing is prepared or consumed, and no person, symptom, fluid, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Animal substances, foods, amulets and magical stomach remedies remain transmitted testimony. Empty balance pans and sealed vessels frame scrutiny rather than instruction.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:14",
+      "title": "REMEDIES FOR BOWEL COMPLAINTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c014.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b6de2dcbdcd19bf04a1cb92189178ce37c98e14b09b9ec0eb40f2fce54a0d37f",
+        "englishSha256": "55483b0b83f699e2cf4edb636ee920d727f9cbc675f900ba66f3712a0ee65c76",
+        "latinWords": 626,
+        "englishWords": 1166
+      },
+      "sha256": "9305c027b7ecaf9a67016c4bcede88fc98616a2478373db3c467be40fdf1fd47",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-aa427ec7-89b9-4dcb-8317-f79fb89a7650",
+      "generationArtifactId": "exec-aa427ec7-89b9-4dcb-8317-f79fb89a7650",
+      "outputArtifact": "built-in-imagegen://exec-aa427ec7-89b9-4dcb-8317-f79fb89a7650.png",
+      "exactFinalPrompt": "Create a replacement independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 14, REMEDIES FOR BOWEL COMPLAINTS. Present the catalogue of milk, cheese, antler, rennet, ash, dung, blood, and animal remedies only as transmitted ancient testimony, never modern advice, a recipe, or a procedure. In a cool first-century Roman storeroom viewed obliquely from the doorway, depict exactly ONE dignified healthy adult household curator, fully clothed in a modest blue-grey tunic and green mantle, seated upright on one plain internal stool with both empty hands resting visibly on the knees. On one long irregular stone ledge behind the curator, widely separated, place exactly THREE sealed unmarked ceramic vessels total—one large grey amphora, one medium celadon jar, and one small chalk-white jar—each with its stopper clearly in place; exactly ONE whole uncut cheese wheel partly resting on one loose clean cloth; and exactly ONE single naturally shed deer antler lying horizontally by itself, with one burr end and one branching beam, not a paired rack and not mounted. Nothing is opened, mixed, measured, powdered, heated, poured, eaten, prescribed, or applied. In a distant sunlit doorway, include exactly ONE healthy goat standing fully inside the yard and not being milked. Keep the complete curator, hands, feet, stool, garments, all three vessels and stoppers, cheese and cloth, the single antler, the complete goat including horns, hooves and tail, and every discrete shadow comfortably inside all four edges. Continuous wall, ledge and floor may extend beyond the canvas. No patient, symptom, pain, toilet, blood, fluid, organ, rennet, dung, urine, flesh, animal remains other than the naturally shed antler, nudity, exposed anatomy, illness, distress, suffering, medical action, actionable grouping, water, text, letters, numerals, inscription, pseudo-writing, label, recipe, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous archaeological interior in Plinian folio materiality: fibrous warm ground under translucent egg tempera and watercolor, cool celadon and faded lapis walls, chalk and grey-green ceramics, pale cheese rind, weathered antler ivory, muted umber wood, fine iron-gall contours, selective cross-hatching, mineral pigment blooms, rubbed plaster, a restrained shell-gold doorway glow, and tactile handmade abrasion. Ancient, timeless, beautiful, rough and polished together. Use a high three-quarter viewpoint, a strong diagonal from seated curator at lower-left to goat at upper-right, long cool shadows, luminous negative wall, and no page-like presentation. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b85d1652-f4a0-4be4-990f-5c3f7b38b86e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-aa427ec7-89b9-4dcb-8317-f79fb89a7650",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one dignified clothed curator on one complete internal stool, exactly three sealed vessels, one whole cheese on clean cloth, one single naturally shed antler and one complete healthy goat. Counts and margins are clear; no symptom, bodily material, preparation, treatment, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "The bowel-remedy catalogue is presented as archived material culture, not a usable preparation. Blood, dung, rennet, organs, illness and patient suffering are omitted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-b85d1652-f4a0-4be4-990f-5c3f7b38b86e",
+          "outputArtifact": "built-in-imagegen://exec-b85d1652-f4a0-4be4-990f-5c3f7b38b86e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/evidence/history/b28-c014-attempt-01-wrong-vessel-antler-count.png",
+          "sha256": "55c990ba417eb4d8f7b24f2a290d15a624c24ec31aa9ad5f8438505fb4c5ba28",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 14, REMEDIES FOR BOWEL COMPLAINTS. Present the chapter's long catalogue of milk, cheese, antler, rennet, ash, dung, blood, and animal-part remedies solely as transmitted ancient medical testimony, never as advice, a recipe, or a procedure. In a cool first-century Roman storeroom seen down one diagonal aisle, depict exactly ONE dignified healthy adult household curator, fully clothed in a modest blue-grey tunic and green mantle, standing calmly with both empty hands visible and not touching any object. Along a single irregular stone ledge, widely separated, place exactly FOUR sealed unmarked ceramic vessels of different sizes, exactly ONE whole uncut cheese wheel wrapped with a loose clean cloth, and exactly ONE naturally shed complete deer antler displayed dry on its own small wooden support. No vessel is open; no object is mixed, measured, powdered, heated, poured, eaten, prescribed, or applied. At the far open doorway, include exactly ONE healthy goat standing fully inside a sunlit yard, not being milked. Keep the complete curator, hands, feet, garments, every vessel and stopper, cheese and cloth, antler and support, the complete goat including horns, hooves and tail, and all discrete shadows comfortably inside all four edges. Continuous walls, floor and ceiling may extend through the frame. No patient, bowel symptom, pain, toilet, blood, bodily fluid, organ, rennet, dung, urine, raw flesh, animal remains, nudity, exposed anatomy, illness, distress, suffering, medical action, actionable ingredient grouping, water, text, letters, numerals, inscription, pseudo-writing, label, recipe, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous archaeological interior in the coherent Plinian natural-history material style: fibrous warm ground beneath translucent egg tempera and watercolor, cool celadon and faded lapis walls, chalk-white and grey-green ceramics, pale cheese rind, weathered antler ivory, muted umber wood, fine iron-gall contours, cross-hatching, mineral pigment bloom, rubbed plaster, selective shell-gold dust in the doorway, and tactile handmade abrasion. Ancient, timeless, beautiful, rough and polished at once. Use a deep diagonal perspective from a low standing viewpoint, long cool shadows, luminous doorway at upper right, curator left of center, objects spaced along the receding ledge, and ample negative wall. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The draft showed only three of the requested four vessels and rendered a paired antler rack rather than one single naturally shed antler, so count and motif certification failed."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:15",
+      "title": "REMEDIES FOR AFFECTIONS OF THE BLADDER, AND FOR URINARY CALCULI",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c015.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "e67411b7c4285e46a1bac0d585978ae7d0a9afbaaf69a2044bb6ddf7e5b06cc1",
+        "englishSha256": "f68b68bc865141371224626bb940cbffc4e8a5cbd1c7376186331a3a1774ea1b",
+        "latinWords": 523,
+        "englishWords": 1025
+      },
+      "sha256": "cc919093c61aaaafcc9e638add5039a0fb40c54071e8f420b374e4818cc266d1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7be64424-a1cb-4de0-b1f7-a0a24bd6b4f5",
+      "generationArtifactId": "exec-7be64424-a1cb-4de0-b1f7-a0a24bd6b4f5",
+      "outputArtifact": "built-in-imagegen://exec-7be64424-a1cb-4de0-b1f7-a0a24bd6b4f5.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 15, REMEDIES FOR AFFECTIONS OF THE BLADDER, AND FOR URINARY CALCULI. Treat the chapter's claims about urine, organs, animal parts, stones, amulets, fumigation, and genital or urinary conditions solely as transmitted ancient testimony, never as advice, diagnosis, recipe, or procedure. Create a symbolic, non-clinical Roman material-culture still life in one continuous shadowed archive alcove. On a fully internal low black-basalt table, place exactly FIVE separate smooth pale mineral pebbles of clearly different natural shapes on one dark indigo folded cloth, suggesting the historical word “calculi” without depicting disease; exactly ONE sealed bronze hydria with its lid firmly closed; exactly ONE plain closed wooden casket; and exactly ONE small terracotta wild-boar figurine, unmistakably a crafted object rather than a living or dead animal. Keep all objects widely separated. Nothing is opened, poured, mixed, measured, crushed, heated, consumed, attached to a body, prescribed, or applied. The complete rectangular table, all four table legs, five pebbles, entire cloth, hydria and lid, casket, boar figurine, and every shadow remain comfortably inside all four image edges with generous surrounding plaster floor and wall. No person, patient, symptom, pain, urine, blood, fluid, organ, bladder, genitals, groin, sore, nudity, exposed anatomy, animal remains, killing, distress, suffering, medical instrument, treatment action, actionable ingredient grouping, water, text, letters, numerals, inscription, pseudo-writing, label, recipe, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender this one continuous archaeological still life in a Plinian natural-history material language: fibrous warm ground under translucent egg tempera and watercolor, deep lampblack basalt, indigo and Tyrian-violet cloth, chalk-white and rose-grey stones, verdigris bronze, burnt-umber casket, muted terracotta boar, fine iron-gall contours, crisp raking shadows, subtle shell-gold wear, pigment bloom, dry abrasion and tactile handmade grain. Ancient, timeless, enigmatic, rough and exquisitely polished. Use a very low eye-level viewpoint across the table, strong moonlit-cool light from the left and a narrow warm aperture glow from far right, with large dark negative wall above. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7be64424-a1cb-4de0-b1f7-a0a24bd6b4f5",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found one complete internal basalt table with exactly five separate pale mineral pebbles on one indigo cloth, one sealed bronze hydria, one closed casket and one terracotta wild-boar figurine. All objects and shadows are internal; no body, symptom, fluid, organ, instrument, treatment action, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Urinary, genital, animal-part and magical claims remain transmitted testimony. The five dry stones are a non-clinical material metaphor for calculi, not diagnosis or advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:16",
+      "title": "REMEDIES FOR GOUT AND FOR DISEASES OF THE FEET",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c016.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "eab9da35c4da69d11a2c51e3ea9cb459dc0822adf672165543cd4ccaf08dff34",
+        "englishSha256": "4269edfede384fccdf7cf8b22fd2b0abc6fd5a67d9f6713a5994e1a472471ec1",
+        "latinWords": 692,
+        "englishWords": 1386
+      },
+      "sha256": "bbf3c84aea8efcfa536d450cb56906eb189da7fde095c48a7fc4b8ac8ec15804",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b7379baf-29e2-474a-a3ba-74441528c3ad",
+      "generationArtifactId": "exec-b7379baf-29e2-474a-a3ba-74441528c3ad",
+      "outputArtifact": "built-in-imagegen://exec-b7379baf-29e2-474a-a3ba-74441528c3ad.png",
+      "exactFinalPrompt": "Create a replacement independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 16, REMEDIES FOR GOUT AND FOR DISEASES OF THE FEET. Treat the chapter's animal substances, amputated charms, burning, fever magic, and remedies strictly as transmitted ancient testimony; foreground Pliny's expressed skepticism and provide no advice. In a sparse first-century Roman shoemaker's workshop, depict exactly TWO dignified healthy fully clothed adults. At left-of-center, one older patron sits upright on exactly ONE complete low wooden bench, wearing two intact closed leather calcei that cover both feet. At right-of-center, one adult craftsperson kneels on the plain continuous floor and holds exactly ONE unworn finished sandal in both hands for visual inspection, without touching the patron. On the floor between them place exactly ONE complete wooden shoe last and exactly ONE small closed tool chest. Through a modest rear doorway, show exactly ONE healthy living hare resting fully inside an enclosed garden, all four feet intact, as a nonviolent allusion to the hare-foot charm. Keep a strict twelve-percent empty safety margin around every discrete subject: both adults and every head, hand, foot, garment edge, the whole bench including all four legs and both ends, sandal, shoe last, closed chest, complete hare including ears and feet, and their shadows must be comfortably inside all four canvas edges. Use only continuous bare plaster wall and continuous floor elsewhere; add no shelves, pots, loose tools or extra objects. No pain, swelling, deformity, bare patient foot, exposed anatomy, diagnosis, treatment, medical action, blood, fluid, fracture, amputation, animal harm, fire, dung, urine, medicine, ingredient, amulet, water, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous human-scale scene in Plinian folio materiality: fibrous warm aged-vellum atmosphere, translucent egg tempera and watercolor, burnt-umber leather, muted russet, deep teal and verdigris garments, ochre plaster, faded lapis shadows, fine iron-gall contours, cross-hatching, worn wood, dry-brush abrasion, pigment bloom, and restrained shell-gold garden light. Ancient, timeless, beautiful, rough and polished at once. Use a low floor-height viewpoint but pull the camera far enough back to preserve the full bench and generous margins; compose the two adults in a shallow inward-facing arc with large quiet plaster negative space above and around them. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-1813a607-951d-42a6-aa45-34e7959f2cf0",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-b7379baf-29e2-474a-a3ba-74441528c3ad",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two dignified clothed adults, a complete internal bench, one unworn sandal, one wooden shoe last, one closed tool chest and one complete healthy hare in the rear garden. The patron's closed footwear covers both feet; all discrete subjects are internal. No symptom, procedure, animal harm, amulet, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Gout, fever magic, amputated-hare-foot and burning claims remain transmitted testimony. Pliny's skepticism is reflected through calm footwear craft and an intact living hare, not treatment.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-1813a607-951d-42a6-aa45-34e7959f2cf0",
+          "outputArtifact": "built-in-imagegen://exec-1813a607-951d-42a6-aa45-34e7959f2cf0.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/evidence/history/b28-c016-attempt-01-bench-clipped.png",
+          "sha256": "dd1937e651c541d21b75cc4deb246989aee070a8b0a85c6634e52aa97a060e41",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 16, REMEDIES FOR GOUT AND FOR DISEASES OF THE FEET. Treat the chapter's animal substances, amputated charms, burning, fever magic, and other remedies strictly as transmitted ancient testimony; emphasize Pliny's expressed skepticism and provide no modern advice. In one continuous first-century Roman shoemaker's workshop, depict exactly TWO dignified healthy adults, both fully clothed: one older patron seated upright on a complete low bench at left wearing two intact closed leather calcei that cover the feet, and one adult craftsperson kneeling at a respectful distance at right, holding exactly ONE unworn finished sandal in both hands for visual inspection. The craftsperson does not touch the patron. Between them on the floor, place exactly ONE complete wooden shoe last and exactly ONE small closed tool chest; no loose blade, needle, hot coal, medicine, ingredient, amulet, animal part, or procedure is present. Both adults have calm attentive expressions and complete natural hands; no pain, swelling, deformity, injury, diagnosis, or treatment is shown. Through a rear opening, include exactly ONE healthy living hare resting fully inside a small enclosed garden as a nonviolent allusion to the chapter's hare-foot charm, with all four feet intact. Keep both complete adults, heads, hands, garments and footwear, the entire bench, sandal, wooden last, closed chest, complete hare including ears and feet, and every discrete shadow comfortably inside all four edges. Continuous workshop walls and floor may extend through the canvas. No bare patient foot, exposed anatomy, lesion, blood, bodily fluid, broken bone, amputation, animal harm, burning, dung, urine, medical action, recipe, actionable treatment, water, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous human-scale scene in Plinian folio materiality: fibrous warm aged-vellum atmosphere, translucent egg tempera and watercolor, burnt umber leather, muted russet, deep teal and verdigris garments, ochre plaster, faded lapis shadows, fine iron-gall contours, cross-hatching, worn wood, dry-brush abrasion, pigment bloom, and a restrained shell-gold edge of garden light. Ancient, timeless, beautiful, rough and polished at once. Use a very low viewpoint near floor height, strong diagonal bench-to-artisan composition, large quiet plaster negative space, and crisp footwear material detail without a clinical close-up. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The first workshop draft clipped the focal bench at the left canvas edge, violating complete-discrete-subject framing."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:17",
+      "title": "REMEDIES FOR MELANCHOLY, LETHARGY, AND PHTHISIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c017.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "345f51f566b35e1771e1459b47534a9e2ed3957b678667513baba65f2e741683",
+        "englishSha256": "25be48ec2858570738a494eacf05f12b6b38103bb5db6eb625b64bed67cfee0d",
+        "latinWords": 519,
+        "englishWords": 1098
+      },
+      "sha256": "a1a8136c93918ab4d106a9780d383ab2b86b156fb921be3c4b1a847cad56aff9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e328e292-ddad-475b-a6f3-0befa25082a7",
+      "generationArtifactId": "exec-e328e292-ddad-475b-a6f3-0befa25082a7",
+      "outputArtifact": "built-in-imagegen://exec-e328e292-ddad-475b-a6f3-0befa25082a7.png",
+      "exactFinalPrompt": "Create a replacement independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 17, REMEDIES FOR MELANCHOLY, LETHARGY, AND PHTHISIS. Treat melancholy, sleep, breathing illness, smoke, animal substances, dropsy, burns, and magical remedies only as transmitted ancient testimony, never modern mental-health or medical advice. Center dignity and companionship. In one continuous first-century Roman rooftop loggia overlooking a completely dry inland landscape at dawn, depict exactly TWO healthy dignified adults, fully clothed and fully visible. At left, one adult sits upright and calmly contemplative on exactly ONE complete simple stool, looking toward the brightening horizon. At right, one adult companion stands several paces away with relaxed posture and one open empty hand, attentive but not touching, diagnosing, treating, or rescuing. Both faces are alert and composed. On the floor between them place exactly ONE complete unplayed lyre and exactly ONE small closed unmarked wooden casket, widely separated. Keep both complete people, heads, hands, feet, garments, stool including every leg, lyre strings and frame, closed casket, and all discrete shadows comfortably inside every edge. Beyond the continuous parapet show only dry ochre hills, olive groves, cypress, roofs and distant mountains; absolutely no sea, lake, river, pool, fountain, wet reflection or water anywhere. No patient suffering, stereotype, despair, unconsciousness, coughing, emaciation, blood, bodily fluid, lesion, exposed anatomy, nudity, diagnosis, treatment, smoke, flame, animal harm, dung, urine, medicine, actionable remedy, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender a spacious restrained Plinian folio scene: fibrous warm aged-vellum atmosphere under translucent egg tempera and watercolor, deep predawn indigo and violet yielding to saffron, pale rose and shell-gold sunrise over dry hills, muted teal and umber garments, fine iron-gall contours, subtle cross-hatching, broad pigment blooms, abraded plaster, atmospheric mineral washes and tactile handmade grain. Ancient, timeless, beautiful, rough and polished at once. Use a wide cinematic viewpoint with immense luminous negative sky, seated figure low-left, standing companion mid-right, lyre centered low, and a tonal transition from shadow to dawn without implying a cure. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing and no water.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c755f2a4-a225-482d-af4d-d9d33ddaeae4",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-e328e292-ddad-475b-a6f3-0befa25082a7",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two healthy dignified clothed adults, one complete stool, one unplayed lyre and one closed casket on a dry inland loggia. All discrete subjects are internal, the background contains only dry hills and settlement, and no water, symptom, stigma, treatment, smoke, writing, panel or collage appears.",
+      "epistemicAndDignityNote": "Melancholy, lethargy, phthisis, dropsy and animal-substance claims remain transmitted historical testimony. Companionship is shown without diagnosing, rescuing, stigmatizing or implying a cure.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-c755f2a4-a225-482d-af4d-d9d33ddaeae4",
+          "outputArtifact": "built-in-imagegen://exec-c755f2a4-a225-482d-af4d-d9d33ddaeae4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/evidence/history/b28-c017-attempt-01-distant-water-edge.png",
+          "sha256": "1a8939041ca92fa0706ccabeb7a6e46a9ccbc1e815d2cdf448972676bd3b3beb",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 17, REMEDIES FOR MELANCHOLY, LETHARGY, AND PHTHISIS. Treat the chapter's claims about melancholy, sleep, breathing illness, smoke, animal substances, dropsy, burns, and magical remedies only as transmitted ancient testimony, never as modern mental-health or medical advice. Center dignity and companionship rather than illness. In one continuous first-century Roman rooftop loggia at dawn, depict exactly TWO healthy dignified adults, fully clothed and fully visible. At left, one adult sits upright and calmly contemplative on exactly ONE complete simple stool, looking toward the brightening horizon; at right, one adult companion stands several paces away with relaxed posture and one open empty hand, attentive but not touching, diagnosing, treating, or rescuing the seated person. Both faces are alert and composed. On the floor between them, place exactly ONE complete unplayed lyre and exactly ONE small closed unmarked wooden casket, widely separated; no medicines, ingredients, smoke, flame, vessel, animal part, or procedure. Keep both complete people, heads, hands, feet, garments, stool including all legs, lyre strings and frame, closed casket, and all discrete shadows comfortably inside every edge with generous open air around them. The continuous parapet, floor and distant landscape may extend through the canvas. No patient suffering, stereotype, despair, unconsciousness, coughing, emaciation, blood, bodily fluid, lesion, exposed anatomy, nudity, diagnosis, treatment action, smoke inhalation, burning, animal harm, dung, urine, actionable remedy, water, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender a spacious, emotionally restrained Plinian folio scene: fibrous warm aged-vellum atmosphere under translucent egg tempera and watercolor, deep predawn indigo and violet yielding to saffron, pale rose and shell-gold sunrise, muted teal and umber garments, fine iron-gall contours, subtle cross-hatching, broad pigment blooms, abraded plaster, atmospheric mineral washes and tactile handmade grain. Ancient, timeless, beautiful, rough and polished at once. Use a wide cinematic viewpoint with immense luminous negative sky, seated figure low-left, standing companion mid-right, lyre centered low, and strong tonal transition from shadow to dawn without implying a cure. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The otherwise acceptable first dawn scene introduced a distant body of water reaching the right canvas edge, violating the no-water-edge gate."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:18",
+      "title": "REMEDIES FOR HÆMORRHAGE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c018.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2dccbe09a62ab9900ed3dabd92b38d9a0720db6dc418b0b3789e022cbcc6a2fe",
+        "englishSha256": "f59a7ef456ece041c37eec95058eb3849f9a6087cb9a35cb2ea7495388ce6180",
+        "latinWords": 411,
+        "englishWords": 777
+      },
+      "sha256": "7e2c58e06871d01219d476f7dd83bf078ea8a621ba9a6b22ff8a275174ac8376",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-914333c4-c1f4-41f3-bd20-98c0ba0185b4",
+      "generationArtifactId": "exec-914333c4-c1f4-41f3-bd20-98c0ba0185b4",
+      "outputArtifact": "built-in-imagegen://exec-914333c4-c1f4-41f3-bd20-98c0ba0185b4.png",
+      "exactFinalPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 18, REMEDIES FOR HÆMORRHAGE. Treat the chapter's claims about rennet, ash, dung, animal blood, wounds, ulcers, glue, and scar remedies solely as transmitted ancient medical testimony, never as advice or a procedure. Avoid all graphic or clinical imagery. In one continuous sunlit first-century Roman linen workshop, depict exactly ONE dignified healthy adult craftswoman, fully clothed in a modest ivory tunic and deep red mantle, standing upright behind one complete internal worktable. Her complete empty hands gently fold exactly THREE pristine undyed linen cloths stacked together; the cloths are dry, clean, unmarked and never placed on a body. At the far end of the table, widely separated from the cloths, place exactly ONE closed unmarked bronze casket, exactly ONE naturally shed complete deer antler lying dry, and exactly ONE coiled skein of crimson wool thread as an abstract visual metaphor—not blood. Nothing is opened, mixed, measured, powdered, heated, poured, prescribed, attached, or applied. Keep the complete woman, head, hands, feet, garments, entire table and all four legs, all three cloths, closed casket, single antler, thread skein, and every discrete shadow comfortably inside all four edges with generous pale floor and wall around them. Continuous architecture may extend beyond the canvas. No patient, wound, cut, ulcer, lesion, bandaging, bleeding, blood-like liquid, bodily fluid, exposed anatomy, nudity, illness, distress, animal remains other than a naturally shed antler, animal harm, medical instrument, treatment action, recipe, actionable ingredient grouping, water, basin, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous luminous Plinian folio scene: fibrous warm aged-vellum atmosphere beneath translucent egg tempera and watercolor, dominant ivory, chalk and pale peach, one restrained crimson and madder accent in mantle and wool, aged bronze, antler-grey, delicate iron-gall contours, selective cross-hatching, shell-gold dust in sunlit fibers, pigment blooms, dry abrasion, woven texture and handmade grain. Ancient, timeless, beautiful, rough and polished at once. Use a high side angle with the long table running diagonally from lower-left toward upper-right, airy white negative space, clear separated objects, and quiet textile craftsmanship rather than medicine. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-914333c4-c1f4-41f3-bd20-98c0ba0185b4",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one dignified clothed craftswoman folding exactly three pristine dry cloths at one complete internal table, with one closed bronze casket, one naturally shed antler and one crimson wool skein. All subjects are internal; no patient, wound, blood-like liquid, procedure, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Haemorrhage, wound, ulcer, glue and scar remedies remain transmitted testimony. Clean linen and red thread function only as non-clinical material metaphor and provide no treatment instructions.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "28:19",
+      "title": "REMEDIES FOR FEMALE DISEASES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c019.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusReadEvidence": {
+        "latinSha256": "34340e479b6f5df0bdd82077f494997a5e73543ec9dc5057c1024e0144eaa250",
+        "englishSha256": "83e48d5d7b9e8543326665086a608b48c5112c6a55f9e5d4f1deded058628b1f",
+        "latinWords": 951,
+        "englishWords": 2045
+      },
+      "sha256": "3e8d23236326db23d64fce4de242d35a91579b33e363c3ae7ad58f75dd103b63",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2b7f0902-aaad-4fe8-a081-b21dadbc915e",
+      "generationArtifactId": "exec-2b7f0902-aaad-4fe8-a081-b21dadbc915e",
+      "outputArtifact": "built-in-imagegen://exec-2b7f0902-aaad-4fe8-a081-b21dadbc915e.png",
+      "exactFinalPrompt": "Create a final replacement independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 19, traditionally titled REMEDIES FOR FEMALE DISEASES. Treat claims about menstruation, pregnancy, birth, fertility, infants, sexuality, depilation, amulets, animal substances, and magic solely as transmitted ancient testimony, never advice or a recipe. Refuse the passage's reduction of women to bodies and center adult women as knowledgeable historical agents. In a sparse first-century Roman domestic workroom with one uninterrupted bare plaster wall and bare floor, depict exactly TWO dignified healthy adult women of different ages, fully clothed in modest layered garments. They sit at equal height on exactly TWO complete simple stools, facing one another across exactly ONE fully internal low wooden table and meeting each other's gaze in calm discussion. The older respected household scholar and midwife gestures with one open empty hand. The younger adult craftsperson holds exactly ONE plain wooden spindle wrapped with undyed wool as material culture. On the table, widely separated, place exactly ONE closed unmarked wooden chest; exactly ONE small ceramic jar whose mouth is completely covered by a clearly visible fitted domed lid with a round knob—no opening or liquid visible; exactly ONE folded plain indigo textile without pattern; and exactly ONE healthy myrtle plant in exactly ONE complete pot. Nothing is opened, mixed, measured, heated, poured, consumed, prescribed, inserted, fumigated, attached or applied. Preserve at least ten percent safety margin around both complete women, heads, hands, feet, garments, both entire stools and every leg, the entire table and every leg, spindle and wool, chest, the visibly lidded jar, folded textile, plant and pot, and all shadows. Add no shelf, niche, background vessel, basket, curtain, lamp, furnishing, extra plant, extra textile or object. No patient, examination, pregnancy display, childbirth, infant, breast emphasis, sexual scene, nudity, exposed anatomy, menstruation, blood, bodily fluid, lesion, pain, illness, distress, procedure, animal part, animal harm, recipe, actionable remedy, water, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous intellectually warm Plinian folio scene: fibrous aged-vellum atmosphere under translucent egg tempera and watercolor, rich Tyrian violet, muted saffron, indigo, lapis and malachite garments, warm umber wood, chalk ceramic, healthy green myrtle, fine iron-gall contours, delicate cross-hatching, restrained shell-gold wear, pigment blooms, dry-brush abrasion, woven fiber and handmade grain. Ancient, timeless, beautiful, rough and polished at once. Use a pulled-back asymmetric three-quarter viewpoint, the two women forming an open conversational arc around the small table, with a vast warm blank wall behind them and no object near an edge. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-26472aac-376e-494e-80aa-99680e5729aa",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-5ae3b223-155b-4274-b321-35de717527ab",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-2b7f0902-aaad-4fe8-a081-b21dadbc915e",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or pixel edit; accepted and rejected PNGs are direct byte-identical built-in outputs.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly two dignified fully clothed adult women at equal height in scholarly conversation, two complete stools, one complete table, one spindle, one closed chest, one visibly lidded ceramic jar, one folded indigo textile and one potted myrtle. All subjects are internal against a bare wall; no patient, examination, reproductive display, infant, bodily focus, procedure, writing, panel, collage or water appears.",
+      "epistemicAndDignityNote": "Reproductive, sexual, infant-care and magical claims remain transmitted testimony. The accepted scene explicitly centers women as knowledgeable agents and avoids stereotype, objectification, anatomy and actionable medical content.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-26472aac-376e-494e-80aa-99680e5729aa",
+          "outputArtifact": "built-in-imagegen://exec-26472aac-376e-494e-80aa-99680e5729aa.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/evidence/history/b28-c019-attempt-01-extra-clipped-vessels.png",
+          "sha256": "8e67b6fdbb7403c39a3ab6da10a60cb21e6d0e91c0e3e2b06b9f5b597b918733",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 19, traditionally titled REMEDIES FOR FEMALE DISEASES. Treat the chapter's claims about menstruation, pregnancy, birth, fertility, infants, sexuality, depilation, amulets, animal substances, and magic solely as transmitted ancient testimony, never as medical advice or a recipe. Refuse the passage's reduction of women to bodies: center adult women as knowledgeable historical agents. In one continuous first-century Roman domestic workroom, depict exactly TWO dignified healthy adult women of different ages, both fully clothed in modest layered garments, seated at equal height on exactly TWO complete simple stools facing one another across exactly ONE fully internal low wooden table. The older woman is a respected household scholar and midwife; the younger is an adult craftsperson and learner. They meet each other's gaze in calm discussion. The older woman gestures with one open empty hand; the younger holds exactly ONE plain wooden spindle wrapped with undyed wool, as material culture rather than a medical object. On the table, widely separated, place exactly ONE closed unmarked wooden chest, exactly ONE sealed unmarked ceramic jar, exactly ONE folded plain indigo textile with no pattern, and exactly ONE healthy myrtle plant in a complete small pot. Nothing is opened, mixed, measured, heated, poured, consumed, prescribed, inserted, fumigated, attached, or applied. Keep both complete women, heads, hands, feet, garments, both stools including every leg, entire table and all four legs, spindle and wool, chest, sealed jar, folded textile, plant and pot, and every discrete shadow comfortably inside all four edges with generous room. Continuous walls and floor may extend through the canvas. No patient, examination, pregnancy display, childbirth, infant, breast emphasis, sexual scene, nudity, exposed anatomy, menstruation, blood, bodily fluid, lesion, pain, illness, distress, medical procedure, animal part, animal harm, recipe, actionable remedy, water, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous, intellectually warm Plinian folio scene: fibrous aged-vellum atmosphere under translucent egg tempera and watercolor, rich Tyrian violet, muted saffron, indigo, lapis and malachite garments, warm umber wood, chalk ceramic, healthy green myrtle, fine iron-gall contours, delicate cross-hatching, shell-gold wear at textile edges, pigment blooms, dry-brush abrasion, woven fiber and handmade grain. Ancient, timeless, beautiful, rough and polished at once. Use a balanced but not symmetrical three-quarter viewpoint, the two women forming an open conversational arc around the small table, a broad band of warm negative wall behind them, and side light suggesting continuity of knowledge rather than cure or domestic confinement. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The draft introduced unrequested background containers, including a vessel clipped at the right edge, violating count and complete-discrete-subject framing."
+        },
+        {
+          "generationArtifactId": "exec-5ae3b223-155b-4274-b321-35de717527ab",
+          "outputArtifact": "built-in-imagegen://exec-5ae3b223-155b-4274-b321-35de717527ab.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/evidence/history/b28-c019-attempt-02-unsealed-jar.png",
+          "sha256": "2d67c0a6da24226f8518aa8f024f3c07dae13cd50aac3d802d76d6833a672d86",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a replacement independent full-bleed landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 19, traditionally titled REMEDIES FOR FEMALE DISEASES. Treat claims about menstruation, pregnancy, birth, fertility, infants, sexuality, depilation, amulets, animal substances, and magic solely as transmitted ancient testimony, never advice or a recipe. Refuse the passage's reduction of women to bodies and center adult women as knowledgeable historical agents. In an intentionally sparse first-century Roman domestic workroom with one continuous bare plaster wall and one continuous bare floor, depict exactly TWO dignified healthy adult women of different ages, both fully clothed in modest layered garments. They sit at equal height on exactly TWO complete simple stools, facing one another across exactly ONE fully internal low wooden table, meeting each other's gaze in calm discussion. The older respected household scholar and midwife gestures with one open empty hand. The younger adult craftsperson holds exactly ONE plain wooden spindle wrapped with undyed wool, purely material culture. On the table, widely separated, place exactly ONE closed unmarked wooden chest, exactly ONE sealed unmarked ceramic jar, exactly ONE folded plain indigo textile without pattern, and exactly ONE healthy myrtle plant in exactly ONE complete small pot. Nothing is opened, mixed, measured, heated, poured, consumed, prescribed, inserted, fumigated, attached or applied. Preserve at least ten percent clear safety margin around both complete women, heads, hands, feet, garments, both entire stools and every leg, the entire table and all four legs, spindle and wool, chest, sealed jar, folded textile, plant and pot, and every discrete shadow. Add absolutely no shelf, niche, background vessel, basket, curtain, lamp, furnishing, extra plant, extra textile or other object. No patient, examination, pregnancy display, childbirth, infant, breast emphasis, sexual scene, nudity, exposed anatomy, menstruation, blood, bodily fluid, lesion, pain, illness, distress, procedure, animal part, animal harm, recipe, actionable remedy, water, text, letters, numerals, inscription, pseudo-writing, label, scroll, manuscript page, border, frame, panels, collage, inset, signature, logo, or watermark.\n\nRender one continuous intellectually warm Plinian folio scene: fibrous aged-vellum atmosphere under translucent egg tempera and watercolor, rich Tyrian violet, muted saffron, indigo, lapis and malachite garments, warm umber wood, chalk ceramic, healthy green myrtle, fine iron-gall contours, delicate cross-hatching, shell-gold wear at textile edges, pigment blooms, dry-brush abrasion, woven fiber and handmade grain. Ancient, timeless, beautiful, rough and polished at once. Use a pulled-back balanced but not symmetrical three-quarter viewpoint, the two women forming an open conversational arc around the small table, with a vast warm blank wall behind them and nothing near the image edges. Landscape 3:2, designed natively at 1536 x 1024, opaque RGB/sRGB. Absolutely no writing.",
+          "reason": "The sparse replacement rendered the specified sealed jar with an open mouth, weakening the non-actionable material-culture framing."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 841,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "28:12": {
+        "nearestMAD": 31.94,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c021.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c004.png",
+        "madAtDHashPeer": 46.8
+      },
+      "28:13": {
+        "nearestMAD": 28.7,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c017.png",
+        "madAtDHashPeer": 46.07
+      },
+      "28:14": {
+        "nearestMAD": 30.86,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-04/b09-c037.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c007.png",
+        "madAtDHashPeer": 54.8
+      },
+      "28:15": {
+        "nearestMAD": 24.93,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c026.png",
+        "madAtDHashPeer": 98.77
+      },
+      "28:16": {
+        "nearestMAD": 29,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-05/b08-c037.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c011.png",
+        "madAtDHashPeer": 43.96
+      },
+      "28:17": {
+        "nearestMAD": 27.88,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c053.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c023.png",
+        "madAtDHashPeer": 52.68
+      },
+      "28:18": {
+        "nearestMAD": 34.73,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c054.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b02-c107.png",
+        "madAtDHashPeer": 83.14
+      },
+      "28:19": {
+        "nearestMAD": 32.26,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c016.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c013.png",
+        "madAtDHashPeer": 41.64
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/ancient-remedies-wave-03",
+    "status": "pass",
+    "output": ""
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-41",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "1:praef",
+      "title": "Dedication and table of contents",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b01-praef.png",
+      "corpusArtifact": "public/corpus/book-01.08604b31c76db84c.json",
+      "sha256": "27911f74cbe9f319afe12095d57579d2eb93bcb52e00be21a813ed18b939235c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b8a12da1-19ca-489c-9174-92b64b1b5f8f",
+      "generationArtifactId": "exec-b8a12da1-19ca-489c-9174-92b64b1b5f8f",
+      "outputArtifact": "built-in-imagegen://exec-b8a12da1-19ca-489c-9174-92b64b1b5f8f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book I, praefatio, “Dedication and table of contents”\nPrimary request: Ground the scene in Pliny’s own preface: his Natural History is a novel Roman undertaking compiled from many predecessors during interrupted nights, dedicated to Titus, and equipped with an index so readers can find only what they seek. At the blue-gold threshold of dawn in a modest Roman administrative peristyle, show exactly two complete adults. An older Pliny in plain equestrian field dress approaches from the left after a night’s work and respectfully offers exactly one complete closed rectangular wooden manuscript chest, bound by one plain cord and one blank unmarked wax seal, to a younger Titus in an undecorated toga standing at right. Both support the chest naturally between them with coherent hands; neither is enthroned, deified, haloed, or rendered as a modern celebrity portrait. The chest stays closed: no page, writing surface, scroll end, title, index mark, or text is visible. On one complete low side table well behind Pliny rests exactly one complete small Roman oil lamp with a fading wick, suggesting nocturnal labor; the table and lamp remain secondary and untouched. Through the open colonnade, first daylight reaches a quiet city roofline. Convey dedication, humility, public usefulness, and the handing-over of an organized life's inquiry without showing any written content.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; praefatio dialect with cool nocturnal shadow yielding to restrained dawn gold, worn wood grain, quiet civic architecture, and generous air; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; spacious low-oblique view along one continuous diagonal colonnade. Keep Pliny complete in the left-middle and Titus complete in the right-middle, both modest in scale, separated and connected by the fully visible closed chest. Preserve both heads, faces, arms, hands, fingers, garment hems, legs, sandals, the chest lid, every chest corner, cord, blank seal, complete table from top to all legs, complete lamp, threshold, columns, roofline, floor, and all cast shadows wholly inside generous breathing room. Leave a broad unoccupied strip of stone floor beneath the figures and calm dawn sky above. One coherent encounter only, not an interior frame, catalogue, table-of-contents diagram, split scene, panel, or procession.\nHistorical and epistemic framing: visualize the act of dedication and Pliny’s stated method and modesty; do not imply that every claim in the work is verified or that the depicted faces are exact portraits.\nConstraints: exactly two complete adults, one complete closed manuscript chest, one complete low table, and one complete oil lamp; historically plausible Roman dress, chest, lamp, architecture, and anatomy; opaque RGB/sRGB.\nAvoid: any person, chest, cord, seal, table, lamp, column, architecture, or shadow touching an image edge; all lettering, captions, labels, numerals, pseudo-writing, inscriptions, seal devices, decorative glyphs, signatures, logos, watermarks, visible page, open book, open scroll, scroll ends, tablet, writing instrument, external sheet edge, torn parchment, decorative border, picture frame, internal frame, grid, collage, split panel, repeated crop, throne, crown, deity, halo, triumphal spectacle, extra people, animals, modern object, floating prop, photography, photorealism, glossy CGI, smooth digital rendering, cropped primary subject, or multiple identical frames.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no external page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete adults exchange one fully closed, unmarked manuscript chest in a coherent dawn peristyle; the complete low table and fading oil lamp remain secondary and fully contained. Faces, hands, feet, chest corners, cord, blank seal, architecture, floor, and shadows remain inside breathing room. No visible page, scroll end, writing, pseudo-writing, seal device, internal frame, panel, modern object, or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:4",
+      "title": "OF ITS NATURE; WHENCE THE NAME IS DERIVED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c004.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "080a78dd40495ada2e064efc0ae8ce681e1eb22d97c558b22ad28567e5c313ea",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bda7e4a5-6ff0-46ef-9ff9-efa6c1914c72",
+      "generationArtifactId": "exec-bda7e4a5-6ff0-46ef-9ff9-efa6c1914c72",
+      "outputArtifact": "built-in-imagegen://exec-bda7e4a5-6ff0-46ef-9ff9-efa6c1914c72.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 4, “Of Its Nature; Whence the Name Is Derived”\nPrimary request: Visualize Pliny’s account that Greeks called the world kosmos from ornament, Romans called it mundus from complete elegance, caelum as though engraved with stars, and the sun follows the twelve zodiac figures. In one open Roman astronomical metalworker’s court at clear sunrise, show exactly one complete large freestanding bronze celestial hoop on exactly two complete low plain stone supports. The hoop is a real three-dimensional period craft object, not a border, chart, portal, diagram, or zodiac-wheel graphic. Its broad bronze face must be one completely continuous, uninterrupted, unsegmented metal band: absolutely no radial divider lines, no compartments, no boxes, no cartouches, no repeated frames, and no panel boundaries anywhere. Distributed with ample empty bronze between them around that single continuous band are exactly twelve small separately modeled text-free relief emblems in one continuous sequence: one ram, one bull, one paired set of human twins counted as a single emblem, one crab, one lion, one maiden, one balance scale, one scorpion, one centaur archer, one sea-goat, one water bearer, and one paired set of fish counted as a single emblem. The twelve reliefs float directly on the same unbroken bronze surface; each is visually discrete, but none is enclosed. No extra ornament, stars, creatures, marks, words, initials, numerals, constellation lines, arrows, or glyph bands occur on the hoop. Exactly one complete ancient bronze-worker-astronomer stands well to the left with lowered empty hands, inspecting the finished object without touching it. Exactly one complete ochre sun disk rises through the hoop’s open center, while one coherent curved hoop shadow lies fully across the floor.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; engraved-heavens dialect with weathered bronze, tiny modeled relief, cool dawn shadow, one ochre sun, and broad architectural negative space; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; spacious low three-quarter court view. Place the complete hoop in the right-middle, tilted only slightly so its full outer silhouette, open center, continuous unsegmented face, all twelve unenclosed reliefs, both supports, and ground contacts remain visible. Keep the complete observer small in the left-middle. Preserve every relief, hoop edge, support corner, the observer’s head, hands, fingers, garment hem, legs and feet, sun disk, blank wall, floor, and all shadows wholly inside generous breathing room. Reserve calm faded-lapis sky above and a wide empty band of floor below. One continuous historical workshop scene only.\nHistorical and epistemic framing: present the twelvefold zodiac and Pliny’s etymologies as an ancient cultural account, not as modern linguistic or astronomical proof.\nConstraints: exactly one complete unsegmented zodiac hoop, exactly twelve unenclosed relief emblems in the specified set, exactly two supports, exactly one complete adult, and exactly one sun disk; historically plausible Roman craft and anatomy; opaque RGB/sRGB.\nAvoid: any divider, segment, compartment, box, panel, radial line, internal frame, zodiac chart, wheel graphic, decorative border, repeated framing structure, incorrect emblem count, duplicate signs, missing reliefs, extra animals or people; any primary subject touching an edge; all lettering, captions, labels, numerals, pseudo-writing, inscriptions, decorative glyphs, signatures, logos, watermarks, visible page, external sheet edge, torn parchment, picture frame, split panel, collage, grid, repeated crop, modern telescope, magic, floating object, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, no panels, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete continuous unsegmented bronze hoop carries exactly twelve individually legible, unenclosed zodiac reliefs on a single uninterrupted metal band; both plain supports, the complete observer, one sun disk, floor, and curved shadow are contained. No radial divisions, compartments, chart structure, lettering, pseudo-writing, panel, modern object, or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-38a047fa-aa47-44e9-9ab1-f8d76391d5b4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c004-attempt-01-segmented-zodiac-panels.png",
+          "sha256": "a66a18af1a936d3db64825d22f3e6b98a344361fe9360cd423765195541c3d8f",
+          "reason": "Rejected at native QA because radial segmented compartments enclosed the zodiac figures and read as repeated panels/internal framing. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:5",
+      "title": "OF THE ELEMENTS AND THE PLANETS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c005.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "a395233826e9ade8a49d695a5b506049bc233ff5accfc8317b726475dc7674c2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bd50eb35-f1c2-4981-8f5d-61b72ffab4fe",
+      "generationArtifactId": "exec-bd50eb35-f1c2-4981-8f5d-61b72ffab4fe",
+      "outputArtifact": "built-in-imagegen://exec-bd50eb35-f1c2-4981-8f5d-61b72ffab4fe.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 5, “Of the Elements and the Planets”\nPrimary request: Render Pliny’s reported four-element cosmology as one natural, dynamic ancient Mediterranean seascape—not a diagram, symbolic arrangement, geometric tableau, or modern scientific fact. From a rugged high headland at first light, show four interlocked material presences: EARTH as exactly one complete small irregular rocky island with one continuous ochre shoreline and sparse verdigris scrub; WATER as one uninterrupted faded-lapis sea visibly surrounding every point of the island; AIR as exactly one complete compact irregular wind-torn cloud mass with soft asymmetric lobes, entirely surrounded by clear sky; and FIRE as exactly one complete small ochre sun disk, the sole luminous body. The cloud must look like ordinary weather, never a crescent, ring, emblem, wing, bowl, symbol, or geometrically isolated icon. Arrange the island off-center toward the right-middle, the cloud on a crossing diagonal in the upper-left-middle, and the sun farther upper right so the scene reads as lived landscape rather than four stacked tokens. Exactly one complete ancient natural philosopher stands small and well inside the lower-left-middle on an ordinary sloping natural promontory of fractured stone and wind-bent grass, hands empty, looking diagonally across the sea. The promontory is environmental terrain and may continue naturally beyond the lower-left canvas, but the whole person and every cast shadow must remain well inside. No constructed platform, circle of stones, globe, model, instrument, altar, ship, animal, second island, flame, smoke, lightning, moon, star, extra cloud, or extra person.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; elemental-cosmos dialect with vast airy negative space, mineral-blue depth, tactile ochre island rock, wind-scored ordinary cloud, and one restrained solar accent; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; immense high-oblique panorama with a strong diagonal from observer to island to sun. The complete observer occupies less than one tenth of the width. The complete island is no wider than one quarter and retains a broad open-water perimeter. The compact cloud occupies less than one third of the canvas and has clear blue sky beyond every tip and contour. Preserve the island’s entire shoreline, the whole cloud, sun disk, complete person from head through both feet, and all primary shadows wholly inside generous breathing room. Let empty sky and sea dominate at least four fifths of the image. One continuous landscape only, never four panels, four quadrants, an elemental wheel, layered chart, cutaway, cosmological diagram, collage, repeated frame, or centrally stacked icon arrangement.\nHistorical and epistemic framing: evoke the four elements and central balance as Pliny’s ancient explanatory scheme without endorsing it as modern physics or astronomy.\nConstraints: exactly one complete island, one continuous sea, one complete natural cloud mass, one sun disk, and one complete adult; plausible ancient dress and anatomy; opaque RGB/sRGB.\nAvoid: artificial circular lookout, paving, geometric platform, crescent cloud, symbolic cloud, visual tokens, diagrammatic symmetry, stacked composition, any island, cloud, sun, person, or primary shadow touching an image edge; extra islands, clouds, suns, fires, stars, moons, ships, animals, people, or instruments; lettering, captions, labels, element symbols, numerals, pseudo-writing, signatures, logos, watermarks, visible page, sheet edge, decorative border, picture frame, internal frame, grid, split panel, collage, four-part layout, repeated crop, arrow, orbit line, magic glow, modern object, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 3,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The accepted continuous seascape contains exactly one complete irregular island with its whole shoreline surrounded by sea, one wholly contained ordinary wind-torn cloud, one sun disk, and one complete small observer on natural terrain. Negative space dominates, and the four-element idea remains an explicitly historical landscape interpretation. No symbolic platform, diagram, extra body, text, pseudo-writing, panel, modern object, or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-139aaee6-99a8-4d92-bc27-078dcdcf6d63.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c005-attempt-01-cloud-edge-clipping.png",
+          "sha256": "299c34fc57a05e43dc7a5430c99f5dbe55a9f6646f6cc8ed9ecc19549869d5fa",
+          "reason": "Rejected at native QA because the primary cloud belt continued through both lateral image edges rather than remaining completely contained. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-f9759c0a-63d1-4c07-8f36-7daacb471b54.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c005-attempt-02-diagrammatic-platform.png",
+          "sha256": "3a4878fdaf9ffaecc69ee0a333e453f5a67c13879206c5a1244f4226cceebfd5",
+          "reason": "Rejected at native QA because the artificial circular observer platform and vertically isolated elemental symbols read as a cosmology diagram rather than a natural seascape. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:6",
+      "title": "OF THE ELEMENTS AND THE PLANETS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c006.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "b433039e4a3e10193ab7f991480959f2fd401187229e2e627762e4a48278d7b8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cac29ce6-574e-4d90-8a67-c76bbf74d80c",
+      "generationArtifactId": "exec-cac29ce6-574e-4d90-8a67-c76bbf74d80c",
+      "outputArtifact": "built-in-imagegen://exec-cac29ce6-574e-4d90-8a67-c76bbf74d80c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 6, “Of the Elements and the Planets”\nPrimary request: Visualize Pliny’s ancient scheme of seven wandering stars suspended between earth and heaven, with the sun carried in their midst. Treat this as an imagined Roman cosmological vision, not a realistic simultaneous sky and not modern astronomy. Above one completely dark, moonless, starless Mediterranean plain before dawn, arrange exactly seven—and only seven—complete separated luminous celestial bodies in one broad asymmetric rising S-curve. In sequence from upper left through the exact middle to lower right: (1) one small pale lead-gray Saturn disk; (2) one somewhat larger muted-ochre Jupiter disk; (3) one small restrained madder-red Mars disk; (4) exactly one large ochre-gold Sun disk at the geometric center of the seven, clearly brightest but without face, rays, or halo; (5) one bright pearl-white Venus disk; (6) one smaller dim umber Mercury disk; and (7) one thin complete silver-gray crescent Moon. Every body has open dark sky around its silhouette. The distant horizon must remain a continuous dark blue-gray land silhouette with no sunrise, sunset, glowing breach, reflection, fire, light, disk, orb, bright point, or second sun anywhere on or below the horizon. No other visible stars, luminous dots, lamps, flames, or celestial marks. Exactly one complete ancient observer stands small on a low ridge in the lower-left-middle, hands empty and body fully visible, looking toward the central sun.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; seven-wanderers dialect with immense deep-lapis negative space, sparse mineral disks, quiet ground shadow, and one controlled solar brightness; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; very wide low-horizon view with sky occupying at least five sixths. Let the seven bodies form a loose S rather than a perfect arc, wheel, row, or diagram; vary heights and spacing while preserving the stated order and keeping the sun fourth at center. The complete observer occupies less than one twelfth of the width. Preserve all seven full bodies, the observer from head through both feet, ridge, dark horizon, and every shadow wholly inside generous breathing room. Leave clear dark sky beyond the first and seventh body and above and below each. One continuous imagined historical sky only, never seven panels, a chart, solar-system diagram, or process sequence.\nHistorical and epistemic framing: present seven wanderers, their ordering, and the sun’s rulership as Pliny’s reported ancient cosmology; do not imply agreement with current planetary classification, scale, visibility, or orbital science.\nConstraints: exactly seven visible luminous bodies in the specified order and colors, exactly one complete adult, and no eighth light of any kind; opaque RGB/sRGB.\nAvoid: horizon sun, horizon glow, sunrise, sunset, bright reflection, extra luminous point, wrong count, duplicate body, extra star, ringed Saturn, modern planet textures, orbit lines, arrows, divine faces, zodiac signs, instruments, rituals, extra people or animals; any body, person, ridge, or shadow touching an edge; lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, visible page, sheet edge, decorative border, frame, grid, split panel, collage, repeated crop, glowing magic, modern object, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly seven separated luminous bodies occupy the starless pre-dawn sky in the requested loose S-curve, with the large sun fourth and central, and no additional horizon light. The complete observer, ridge, horizon, bodies, and shadows are contained. No orbit line, zodiac sign, text, pseudo-writing, panel, modern texture, or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8d1a54cd-5042-4fab-a2ec-f4d55d78981c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c006-attempt-01-extra-horizon-sun.png",
+          "sha256": "4b1a0cb9f4e1d96914dcdd38355524b485528fc97f4619d3bf89066d194d99d8",
+          "reason": "Rejected at native QA because it contained the seven intended bodies plus an eighth luminous sun at the horizon. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:8",
+      "title": "OF THE NATURE OF THE STARS; OF THE MOTION OF THE PLANETS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "87eaa9c8abca8c8362f77a716e6ca93dfdf47496cee854c59551cfd670761b3a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bb40dd9a-23b4-407c-b55d-c8fa21742c58",
+      "generationArtifactId": "exec-bb40dd9a-23b4-407c-b55d-c8fa21742c58",
+      "outputArtifact": "built-in-imagegen://exec-bb40dd9a-23b4-407c-b55d-c8fa21742c58.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 8, “Of the Nature of the Stars; Of the Motion of the Planets”\nPrimary request: Ground the scene in Pliny’s opening correction of a popular belief: fixed stars are not individually assigned to the rich, poor, or old, do not arise and die with particular people, and a falling star does not announce a person’s death. On one continuous dark Mediterranean hillside above a quiet empty coast, show exactly three complete living Roman-era observers sharing the same undivided night sky while standing at different depths rather than in a row. At left-middle, one complete well-dressed but unadorned civic adult stands beside a plain low stone seat; lower near the center, one complete laborer in a worn simple tunic pauses on the path with an empty hand basket set fully on the ground; farther right-middle, one complete elderly shepherd in a plain cloak sits upright on a fully visible low rock with a complete staff resting on the ground beside the body. All three are calm, awake, visibly alive, and looking upward; no one is ill, dying, grieving, threatened, linked to a specific star, or gesturing at another person. Above them spreads one continuous dense field of many small fixed stars of mixed brightness, distributed across the whole sky without clusters assigned to the figures. Exactly one restrained falling meteor with a short natural taper appears high over the empty sea at far right, well separated from every person and edge. Add exactly three subtly larger wandering lights—one pale gray, one muted ochre, and one quiet madder—at unequal heights amid the fixed field, but no paths, arrows, or lines; their asymmetry suggests independent motion without diagramming it.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; shared-sky dialect with powdered lapis night, stippled star field, restrained human silhouettes, and a fine meteor accent; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; broad high-oblique hillside view with sky occupying about two thirds. Place the civic observer left-middle, laborer lower center, and elder right-middle at different heights on one continuous S-shaped path, leaving generous dark ground between them. The empty coast opens beneath the meteor at far right. Keep every observer’s full head, face, hands, fingers, garment hem, legs and feet, the entire seat, basket including rim and base, rock, staff from end to end, meteor, three wandering lights, hillside, coast, and all shadows wholly inside generous breathing room. One unified night landscape only, never a social chart, triptych, comparison panel, omen tableau, or process sequence.\nHistorical and epistemic framing: make Pliny’s rejection of personal star assignment and death omens visually clear; treat the described celestial nature and motion as ancient reasoning rather than current astronomical measurement.\nConstraints: exactly three complete living adults, one complete seat, one complete basket, one complete staff, one meteor, and three prominent wandering lights; historically plausible dress and anatomy; opaque RGB/sRGB.\nAvoid: star-to-person lines, rays, halos, zodiac signs, constellation lines, orbit paths, death, corpse, illness, grief, social caricature, omen ritual, astrology chart, extra people or animals; any person, prop, meteor, wandering light, rock, or shadow touching an edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible page, sheet edge, decorative border, picture frame, internal frame, grid, split panel, collage, repeated crop, modern object, telescope, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete living observers at different depths share one continuous dense fixed-star sky, with the complete seat, grounded basket, seated elder’s rock and staff, one short meteor, and three prominent wandering lights all contained. The figures are calm and unlinked to individual stars, preserving Pliny’s rejection of personal omens. No death imagery, star-to-person line, text, pseudo-writing, panel, telescope, or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:20",
+      "title": "WHY THUNDER IS ASCRIBED TO JUPITER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c020.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "afe7dd03a814fb448ef63a76a6a49cf1e6978464a11c0847ebfb378b0e96759c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8251885e-e7d7-4f7b-9496-9ca2624f9b7b",
+      "generationArtifactId": "exec-8251885e-e7d7-4f7b-9496-9ca2624f9b7b",
+      "outputArtifact": "built-in-imagegen://exec-8251885e-e7d7-4f7b-9496-9ca2624f9b7b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 20, “Why Thunder Is Ascribed to Jupiter”\nPrimary request: Visualize Pliny’s reported ancient hypothesis that thunderbolts were celestial fire associated with the three superior wandering stars, chiefly middle Jupiter, perhaps where moisture meets heat. Do not show a god and do not present this as modern fact. Pull very far back over a vast inland plain at late afternoon. Show exactly one complete compact storm cloud mass floating in the middle distance, no wider than half the canvas and no taller than two fifths, with its entire top, bottom, left edge, right edge, rain curtain, and every cloud lobe clearly surrounded by broad open ochre-gray sky and empty land. Absolutely no cloud, vapor, rain, or shadow may touch or continue beyond the top or either lateral image edge. Through one natural clear opening well above the cloud appear exactly three small complete separated disks: pale cold-gray Saturn highest, restrained ochre Jupiter middle and subtly brightest, and small madder-red Mars lowest. Exactly one single narrow unbranched lightning stroke descends from the cloud base to one empty patch of distant ground. The bolt must be a single continuous zigzag line with no fork, branch, duplicate flash, fire, victim, or damage. Exactly one complete ancient sky observer stands small on a fully visible rocky shelf in the lower-left-middle, cloak held by wind, hands empty and safely distant. The lightning clearly begins at the cloud, not a disk.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; thunder dialect with lampblack cloud volume, fine diagonal rain hatching, one pale mineral stroke, three restrained upper lights, and enormous ochre atmospheric space; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; extremely wide high-oblique panorama. Place the complete compact cloud in the right-middle and the complete observer in the left-middle, separated by a large sweep of quiet ground. Reserve at least one sixth of the canvas as open sky beyond the cloud on left, right, and above; reserve open land below the entire rain curtain and bolt ground contact. Preserve the full cloud contour, all rain, three disks, bolt from origin to ground contact, observer’s head, hands, garment edges, legs and feet, shelf, horizon, and all primary shadows wholly inside generous breathing room. One continuous weather event only, never mythological tableau, scientific diagram, omen sequence, panel, or collage.\nHistorical and epistemic framing: present the three-star explanation and Jupiter attribution as Pliny’s ancient reported reasoning; do not endorse celestial causation, divination, or divine agency.\nConstraints: exactly one fully contained compact cloud, exactly three disks, exactly one unbranched lightning stroke, and exactly one complete adult; opaque RGB/sRGB.\nAvoid: edge-touching cloud, cropped vapor, full-canvas storm, forked lightning, multiple bolts, anthropomorphic Jupiter, deity, eagle, weapon, omen, prophecy, worship, extra disks, stars, fires, structures, victims, animals, people, modern instruments; lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, visible page, sheet edge, decorative border, frame, grid, split panel, collage, repeated crop, magic aura, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one compact storm cloud, including every lobe and rain curtain, is surrounded by open sky and land; exactly three small disks sit above it, and one narrow unbranched lightning stroke reaches empty ground. The complete distant observer and rocky shelf are fully contained. No deity, forked bolt, extra light, victim, text, pseudo-writing, panel, modern instrument, or clipped primary subject was found.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9026cec9-a4ca-4f52-bb2d-c462539387af.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c020-attempt-01-cropped-cloud-forked-bolt.png",
+          "sha256": "7a337d8a7df8525c8dd48bff1652f8b7ac349cd5f50828dacd177b1057088c14",
+          "reason": "Rejected at native QA because the storm cloud filled and touched the image edges and the lightning visibly forked. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:21",
+      "title": "OF THE DISTANCES OF THE STARS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c021.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "bb5f454ac3b8502bac2161ab0990944741ebcb8f40f8df9478790abbae78031a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5c11b151-b5db-4673-8773-b336ce988f6d",
+      "generationArtifactId": "exec-5c11b151-b5db-4673-8773-b336ce988f6d",
+      "outputArtifact": "built-in-imagegen://exec-5c11b151-b5db-4673-8773-b336ce988f6d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 21, “Of the Distances of the Stars”\nPrimary request: Ground the image in Pliny’s report that many investigators attempted to measure celestial distances and published differing ratios, including calculations attributed to Pythagoras and Sulpicius Gallus. Show the attempt to measure, not a correct modern result. On one long high Roman coastal surveying terrace at pale morning twilight, show exactly one complete ancient astronomer-surveyor standing beside exactly one complete historically plausible bronze dioptra mounted on a complete three-legged wooden tripod. The dioptra is a simple unmarked rotating sighting rule with two plain sight vanes, no scale, numerals, writing, gears, lens, telescope, or modern mechanism. The observer uses one hand to steady the rule while looking along it across a vast layered distance. In the clear sky appear exactly two complete celestial bodies: one restrained silver-gray half moon high in the left-middle and one small ochre sun disk very low above the far right sea horizon. They are widely separated by immense empty faded-lapis sky. The terrace foreground stands for earth; receding headlands, sea bands, and aerial haze make attempted distance visible without lines, arrows, labels, ratios, or a diagram. Exactly one complete plain coiled measuring cord rests on the stone floor beside the tripod, fully grounded and unknotted, suggesting terrestrial surveying limits. No second observer, book, tablet, or written calculation.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching, stipple, and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; measurement dialect with long atmospheric recession, precise bronze and wood geometry, restrained dawn light, and vast quiet sky; never photographic or glossy.\nComposition/framing: landscape 3:2; native 1536x1024. Use a very wide side-on terrace view materially different from the preceding storm. Place the complete observer, tripod, dioptra, and cord as a compact group in the lower-left-middle, occupying no more than one quarter of the canvas. Let a strong diagonal of parapet and repeated natural headlands recede toward the tiny sun at far right. The half moon floats well above and left of center. Keep the observer’s head, face, hands, fingers, garment hem, legs and feet, every tripod leg and foot, the full sighting rule and both vanes, the entire cord coil, moon, sun, terrace ends, parapet, sea, horizon, and all shadows wholly inside generous breathing room. One continuous observational moment only, never an astronomy lesson panel, ratio diagram, chart, or process sequence.\nHistorical and epistemic framing: present the reported figures as ancient estimates and the instrument scene as inquiry under severe observational limits; do not endorse the specific distances as accurate.\nConstraints: exactly one complete adult, one complete dioptra, one complete tripod, one complete cord coil, one half moon, and one sun disk; plausible Roman dress, surveying tool, and anatomy; opaque RGB/sRGB.\nAvoid: modern telescope, lens, eyepiece, sextant, clockwork, written scale, numbers, ratio marks, map, tablet, open book, extra people, bodies, instruments, cords, ships, animals; any person, instrument, cord, moon, sun, terrace, or primary shadow touching an edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, visible page, sheet edge, decorative border, frame, grid, split panel, collage, repeated crop, orbit line, arrow, magic glow, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The complete ancient observer, simple unmarked bronze dioptra, three-legged tripod, and grounded cord coil form one compact group on a long coastal terrace, with exactly one half moon and one low sun separated by broad sky. Hands, feet, vanes, tripod feet, cord, terrace, headlands, and shadows are fully contained. No scale, numeral, writing, pseudo-writing, modern lens, diagram, panel, or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:22",
+      "title": "OF THE HARMONY OF THE STARS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c022.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "f980ae15ae2ac8249d7b03d05281fe72e3af250a3d605dec663a0df1182bb298",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bfacc51a-0d38-4744-859d-d1570ce9cdec",
+      "generationArtifactId": "exec-bfacc51a-0d38-4744-859d-d1570ce9cdec",
+      "outputArtifact": "built-in-imagegen://exec-bfacc51a-0d38-4744-859d-d1570ce9cdec.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II, chapter 22, “Of the Harmony of the Stars”\nPrimary request: Visualize Pliny’s report that Pythagoras expressed the intervals of the wandering stars in musical terms as seven tones or a diapason, while Pliny regarded the refinement as ingenious but more pleasing than necessary. Treat this as an ancient speculative analogy, never literal audible astrophysics. In one spacious luminous blue-gold Roman court at twilight, show exactly one complete seated Pythagorean philosopher-musician on exactly one complete plain stone bench. Across his lap he holds one complete large front-facing wooden lyre with EXACTLY SEVEN STRINGS. The seven strings are the only string-like lines in the entire image. Make them thick enough to count at native resolution, widely and evenly spaced across the open center of the lyre, each a continuous dark vertical from the plain top crossbar to its own fastening point on the soundbox. Count explicitly from left to right: string 1, string 2, string 3, string 4, string 5, string 6, string 7, then stop. No eighth string, no doubled line, no diagonal cord, no wire, no string ornament. Keep all tuning hardware small, plain, and visually subordinate; its count is not a subject. One hand plucks only central string 4, while the other holds the solid outer wooden arm without crossing or obscuring any string. Place the complete lyre and all seven strings against a quiet pale wall area, never over patterned clothing, so each line is unmistakable.\nAcross the upper-right sky show exactly seven—and only seven—complete separated mineral-colored wandering disks in a loose horizontal cadence: pale gray, muted ochre, restrained madder, brighter ochre, pearl white, dim umber, silver gray. Outside these seven disks the entire sky is empty of point lights: no stars, tiny white dots, flecks, sparks, sun, moon, lamps, fire, or extra disk. Render the sky only with continuous faded-lapis and ochre wash and fine horizontal cross-hatching, never light stipple. The seven disks and seven strings form a visual analogy without connecting lines, labels, diagrams, notes, or rays.\nScene/backdrop: broad limestone paving, one completely blank low wall, a distant quiet coastal horizon, and long coherent shadows. No tree, basin, column, arch, instrument case, book, tablet, scroll, extra furniture, extra person, or animal. Keep the set deliberately spare so count and historical uncertainty remain legible.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine visible cross-hatching and dry-brush abrasion; restrained translucent mineral washes of umber, lampblack, muted verdigris, faded lapis, quiet madder, and ochre; ancient, timeless, beautiful, rough in material yet polished in draftsmanship; cosmic-harmony dialect with sun-warmed limestone, tactile carved wood, seven crisp taut ink strings, and seven restrained sky disks; never photographic or glossy. No sky stipple.\nComposition/framing: landscape 3:2, native 1536x1024; spacious low-oblique courtyard view. Place the complete figure, complete bench, and large front-facing lyre in the left-to-center-middle, occupying no more than half the canvas. Place the seven disks in the upper-right against otherwise empty sky. Reserve a broad band of unoccupied paving across the lower foreground and open sky beyond all disks. Keep the philosopher’s head, face, both arms, both hands and every finger, garment hems, legs and both sandaled feet, every bench corner and leg, both lyre arms, crossbar, seven strings, seven lower fastening points, soundbox, each of seven sky disks, wall, horizon, paving, and all primary shadows wholly inside generous breathing room. One continuous court only, never a music diagram, scientific chart, panel sequence, dark hillside panorama, split frame, or collage.\nHistorical and epistemic framing: present celestial harmony as a Pythagorean analogy reported by Pliny and preserve Pliny’s skepticism; do not imply that space literally produces these tones or that the depicted arrangement is current astronomy.\nConstraints: exactly one complete adult, one complete bench, one complete front-facing lyre with precisely seven clearly countable strings, and exactly seven visible celestial disks with absolutely no other point lights; plausible ancient dress, instrument, architecture, and anatomy; opaque RGB/sRGB.\nAvoid: wrong string count, extra string-like line, obscured string, five, six, eight, or more strings; any extra star, speck, or point light; extra people, animals, trees, basins, columns, books, tablets, scrolls, musical notation, sound waves, connecting lines, deity, trance, ritual, any subject touching an edge; lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, visible page, sheet edge, decorative border, internal frame, grid, split panel, collage, repeated crop, magic glow, modern instrument, guitar, harp, photography, photorealism, glossy CGI, smooth digital rendering, or clipped primary subject.\nOutput intent: one unified full-bleed opaque landscape master, no transparency, no page edge, no internal framing, and no text-like marks anywhere.",
+      "generationAttempts": 7,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original 1536x1024 resolution and in an enlarged native crop of the instrument. Exactly seven complete, individually countable strings run from the plain crossbar to seven distinct lower fastening points, and exactly seven complete mineral-colored disks occupy an otherwise empty, unspeckled sky. The complete seated philosopher, natural hands and feet, full lyre, complete bench, wall, horizon, paving, and shadows remain inside generous breathing room. No extra string-like line, extra point light, musical notation, sound wave, lettering, pseudo-writing, panel, modern object, or clipped primary subject was found. The sparse bright coastal court is compositionally distinct from the dark 2:8 hillside and passes the global perceptual gates.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-702947ce-fde0-4fdd-a41a-da531cd79aa3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c022-attempt-01-global-mad-collision-with-b02-c008.png",
+          "sha256": "6ef795b39fabffdfe53f8775cc4fd19b40e7ea28ede83f420dfb6155ab1cacb3",
+          "reason": "Rejected after native visual acceptance because the dark olive-grove composition collided perceptually with chapter 2:8 at MAD 12.13, below the campaign threshold of 20. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-872b5cbd-9acc-41db-8512-839badc809d8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c022-attempt-02-five-string-lyre.png",
+          "sha256": "2e6b1814f6c2d9720e8246b374f8553a780da6081253380ae603a15577c9750d",
+          "reason": "Rejected at native enlarged QA because the otherwise distinct bright-court candidate rendered only five complete strings on the lyre. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-05b09258-deaa-4dad-9e93-d2f3cfd53d57.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c022-attempt-03-ambiguous-tuning-peg-count.png",
+          "sha256": "64fefe0fa80ad54d799748d053ceced7a8048714b0c3d210b7341ffa44f84139",
+          "reason": "Rejected on a stricter enlarged count audit because seven strings were visible but the six top spheres plus lateral round hardware made the prompt-required exact seven tuning-peg count ambiguous. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-94735299-2fe2-4ec8-af0e-ec1ee69544db.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c022-attempt-04-clipped-olive-canopy.png",
+          "sha256": "014bf14418ce6c2c30ff4fc2e04fbd3291aba5e57ce70f463764db972594bc71",
+          "reason": "Rejected at native QA because the exact-count lyre was successful but the primary olive canopy crossed the top and left image edges. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-485660db-55d8-4340-93a1-9115bd70c4f5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c022-attempt-05-extra-sky-specks.png",
+          "sha256": "afbead57aad904a32afc70aa6d706bd1c0065213b5ce2b555b1a52ca4c781344",
+          "reason": "Rejected at native QA because multiple tiny star-like point lights appeared outside the seven intended wandering lights, defeating the exact celestial count. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-245df2e6-def6-40c1-8cb9-21928343333a.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/evidence/history/b02-c022-attempt-06-six-tuning-pegs.png",
+          "sha256": "e5878f95535859cca309beb7a98e4eff148a4d5e3a3b1d3cb01a4e2e37d21769",
+          "reason": "Rejected in an enlarged native crop because the otherwise clean scene rendered only six round tuning peg heads where that attempt's prompt required exactly seven. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 431,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b01-praef.png": {
+        "nearestMAD": 34.74,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b17-c002.png",
+        "madAtDHashPeer": 65.28
+      },
+      "2:4": {
+        "nearestMAD": 36.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c056.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-10/b15-c013.png",
+        "madAtDHashPeer": 49.96
+      },
+      "2:5": {
+        "nearestMAD": 21.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b24-c018.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c005.png",
+        "madAtDHashPeer": 25.13
+      },
+      "2:6": {
+        "nearestMAD": 21.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c010.png",
+        "madAtDHashPeer": 111.93
+      },
+      "2:8": {
+        "nearestMAD": 20.19,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+        "madAtDHashPeer": 44.38
+      },
+      "2:20": {
+        "nearestMAD": 24.39,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c048.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c018.png",
+        "madAtDHashPeer": 46.1
+      },
+      "2:21": {
+        "nearestMAD": 25.47,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c018.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c016.png",
+        "madAtDHashPeer": 43.83
+      },
+      "2:22": {
+        "nearestMAD": 26.51,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c032.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "madAtDHashPeer": 58.96
+      }
+    }
+  }
+}

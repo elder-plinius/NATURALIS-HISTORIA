@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-04",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "corpusSha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4",
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book X chapters 26, 27, 28, 29, 30, 32, 34 and 35 were read before prompting. Tomb assemblies, locust relief, ibis protection, geographic absence, unusual coloration, halcyon weather, nest structure, pigeon relations, longevity, seasonal song and claw growth are treated as transmitted ancient testimony rather than verified miracle, universal modern zoology, moral law, navigation rule, intervention guidance or cruelty spectacle.",
+  "assignments": [
+    "10:26",
+    "10:27",
+    "10:28",
+    "10:29",
+    "10:30",
+    "10:32",
+    "10:34",
+    "10:35"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "animals-birds-wave-04",
+    "receiptsCheckedAtCertification": 97,
+    "nonEvidenceMastersCheckedAtCertification": 767,
+    "examinedCanonicalRange": "Book X after the already owned or assigned 10:1 through 10:25 range",
+    "skippedCandidates": [
+      {
+        "chapterRange": "10:1-10:25",
+        "reason": "existing assignment, receipt ownership, or non-evidence master in prior Book X bird campaigns"
+      },
+      {
+        "chapterKey": "10:31",
+        "reason": "receipt-backed atlas cell, not planned-full-scene"
+      },
+      {
+        "chapterKey": "10:33",
+        "reason": "receipt-backed atlas cell, not planned-full-scene"
+      }
+    ],
+    "selectedKeys": [
+      "10:26",
+      "10:27",
+      "10:28",
+      "10:29",
+      "10:30",
+      "10:32",
+      "10:34",
+      "10:35"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 10,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 18,
+    "independentCalls": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:26",
+      "title": "THE MEMNONIDES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c026.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2961a6c840083b0c58aab0f340c897a0e0b5e3ce1e13e4e75b6bdfdc53f3da65",
+        "englishSha256": "065702cf0200989cfc1e90a722402cc2bf4c4ad27c86ff28316b1c9246bece2a",
+        "latinWords": 67,
+        "englishWords": 129
+      },
+      "sha256": "e1ba1a743ac7a0c76d53f4194b6a9409e59ec384874aac98a77ae77dc6c625af",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2ef2232b-02bc-4095-8125-2846ffb314dd",
+      "generationArtifactId": "exec-2ef2232b-02bc-4095-8125-2846ffb314dd",
+      "outputArtifact": "built-in-imagegen://exec-2ef2232b-02bc-4095-8125-2846ffb314dd.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 26, “The Memnonides.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat the chapter’s accounts of birds assembling at Memnon’s tomb and of African meleagrides as transmitted ancient testimony, not verified migration or ritual fact. Show exactly THREE complete helmeted guinea fowl gathered around one complete low circular memorial mound in clear morning light. One bird holds both wings half-raised in a non-contact display; the other two stand alert at separated positions. No collision, combat, blood, injury, death, sacrifice, person, or supernatural apparition.\n\nCOMPOSITION AND DISTINCT VALUE DESIGN: Use an almost vertical overhead view dominated by a broad WHITE limewashed court with large quiet negative space. Center the complete small ochre-red earthen mound and a small blank dark basalt marker. Around the mound is one complete circular pavement made from a simple sequence of broad alternating chalk-white limestone and charcoal-black basalt radial wedges, like ancient opus sectile without any symbol; the whole circular pavement is fully internal and is environmental flooring, not a border or panel. Place the three birds asymmetrically around the ring, all completely visible and separated. Keep every helmet, beak, feather, wingtip, tail, leg, toe, mound, marker, and every paving wedge wholly inside the canvas with conspicuous margins. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular high-key Plinian zoological folio on pale fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Deliberately strong black-versus-white value structure with ochre-red, pearl-spotted blue-grey birds, a little celadon shadow, and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Natural guinea-fowl anatomy, restrained archaeological stillness, not heraldic fantasy. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, other animals, people, corpse, bones, blood, attack, sacrifice, supernatural aura, ghost, modern object, clipping, fused birds, duplicated anatomy, structure crossing an edge.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b80978ea-cc66-4afb-8fec-da8d3ce2471c",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-e607f3a5-b8df-4b79-8052-e18cfa8f6c19",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-b8f03aa0-47a1-4f89-b46a-8d5a82aa9254",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-2ef2232b-02bc-4095-8125-2846ffb314dd",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly three complete helmeted guinea fowl around one complete high-key radial pavement and memorial mound: one bird raises two wings in non-contact display and two stand alert. All heads, wings, tails, legs, toes, mound, marker and pavement remain internal; there is no water, person, contact, harm, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Annual assembly, conflict at Memnon’s tomb and the meleagride association are treated as transmitted ancient testimony. The scene uses restrained non-contact display and omits combat, death, table use and supernatural certainty.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-b80978ea-cc66-4afb-8fec-da8d3ce2471c",
+          "outputArtifact": "built-in-imagegen://exec-b80978ea-cc66-4afb-8fec-da8d3ce2471c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c026-reject-01-global-mad-17.46.png",
+          "sha256": "f8b96c93c308fcab73bffcf5ade9c6185f967eaca7066eeccf57a5da55b750ee",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent 1536x1024 landscape preservation master for Pliny the Elder, Naturalis Historia Book X chapter 26, “The Memnonides”\nPrimary request: create a dignified scene inspired by authors who said birds flew from Ethiopia to Ilium and contended around Memnon’s tomb, and by Pliny’s comparison with African meleagrides/guinea fowl. Treat the yearly journey and combat as transmitted ancient legend, not verified migration or supernatural fact. Do not stage animal fighting or harm.\nScene/backdrop: a broad dry plain outside ancient Ilium at red-gold dawn. At center sits one complete low earthen memorial mound encircled by a complete ring of small stones and one short blank upright stele. The entire mound, stone ring, stele, every shadow and every bird must remain within the central seventy percent, with wide uninterrupted dry earth between all discrete subjects and every canvas edge. Low continuous distant hills and sky fill the background; no isolated tree, water, structure or object touches an edge.\nSubject: exactly THREE complete helmeted guinea fowl with naturally mottled pearl-gray plumage, widely separated around the mound. One stands alert at left, one walks at right, and one at the rear gently lifts both wings in a non-contact display. Every head, casque, beak, eye, wing, foot and tail is fully visible and anatomically plausible. The birds do not strike, chase, bleed, collapse or touch one another. No other bird, feather pile, corpse, food, table, person, weapon, palace or animal.\nStyle/medium: original deluxe Plinian natural-history folio over warm fibrous vellum; iron-gall contours, exceptionally fine cross-hatching and stipple, egg tempera and mineral pigments; rough dusty ground and hand-worked pigment paired with polished plumage and luminous dawn; ancient, timeless, beautiful, never photographic or glossy.\nComposition/framing: low panoramic memorial scene with an asymmetric three-bird orbit and broad sky negative space. One continuous place only, not a myth diagram, battle scene, specimen row, map, inset, frame, panel, collage or repeated crop.\nLighting/mood: solemn red dawn, curiosity and remembrance without violent spectacle.\nColor palette: burnt sienna, madder red, ochre dust, pearl gray, lampblack, faded violet and restrained old gold.\nConstraints: opaque RGB/sRGB PNG. No text, letters, numerals, labels, inscriptions, pseudo-writing, signature, logo, watermark, visible page edge, border, cartouche, graphic harm, extra animal, clipped subject, focal/discrete subject touching an edge, water touching an edge, panels or collage.",
+          "editLineage": [],
+          "reason": "The initially edge-safe memorial scene scored nearest-neighbor MAD 17.46 against assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-e607f3a5-b8df-4b79-8052-e18cfa8f6c19",
+          "outputArtifact": "built-in-imagegen://exec-e607f3a5-b8df-4b79-8052-e18cfa8f6c19.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c026-reject-02-global-mad-12.93.png",
+          "sha256": "a60b75f9a5f8c745de15fb963b42d67915395d2ff679e292d455b931108c6322",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 26, “The Memnonides.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat the chapter’s accounts of birds assembling at Memnon’s tomb and of African meleagrides as transmitted ancient testimony, not verified migration or ritual fact. Show exactly THREE complete helmeted guinea fowl gathered around a complete low circular memorial mound at deep blue twilight. One bird holds both wings half-raised in a non-contact display; the other two stand alert at clearly separated positions. There is no collision, combat, blood, injury, death, sacrifice, person, or supernatural apparition.\n\nCOMPOSITION: Use a markedly oblique overhead view with a strong radial arrangement. The complete round black-basalt mound, its complete copper-red gravel ring, and one small blank dark stone marker are all centered well inside a broad octagonal patch of blue-grey volcanic paving; the entire octagonal patch is itself wholly inside a surrounding field of matte indigo earth. Put one bird near the upper-left of the ring, one at lower-left, one at right, all fully visible head-to-toe and separated from one another. Keep every helmet, beak, feather, wing tip, tail, leg, toe, mound, ring, marker, paving corner, and other discrete feature wholly inside the canvas with conspicuous margins. No water. No focal or discrete subject may touch or be cut by an edge.\n\nSTYLE AND MATERIALITY: A singular nocturne Plinian zoological folio on dark-stained fibrous vellum: iron-gall and pale-chalk contour work, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Saturated azurite and indigo, black basalt, copper-red, pearl-white spotting, violet shadow, and restrained pale gold. Ancient, timeless, beautiful, rough and polished at once. Natural guinea-fowl anatomy and solemn archaeological stillness, not theatrical fantasy. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, other animals, people, corpse, bones, blood, attack, sacrifice, supernatural aura, ghost, modern object, clipping, fused birds, duplicated anatomy, structure crossing an edge.",
+          "editLineage": [],
+          "reason": "The blue nocturne replacement scored nearest-neighbor MAD 12.93 against assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-b8f03aa0-47a1-4f89-b46a-8d5a82aa9254",
+          "outputArtifact": "built-in-imagegen://exec-b8f03aa0-47a1-4f89-b46a-8d5a82aa9254.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c026-reject-03-wedge-count.png",
+          "sha256": "cb469733542d8897d2d45fe4f54c0cf3bc536f7be5e14a697d931e6bc4681101",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 26, “The Memnonides.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat the chapter’s accounts of birds assembling at Memnon’s tomb and of African meleagrides as transmitted ancient testimony, not verified migration or ritual fact. Show exactly THREE complete helmeted guinea fowl gathered around one complete low circular memorial mound in clear morning light. One bird holds both wings half-raised in a non-contact display; the other two stand alert at separated positions. No collision, combat, blood, injury, death, sacrifice, person, or supernatural apparition.\n\nCOMPOSITION AND DISTINCT VALUE DESIGN: Use an almost vertical overhead view dominated by a broad WHITE limewashed court with large quiet negative space. Center the complete small ochre-red earthen mound and a small blank dark basalt marker. Around the mound is one complete circular pavement of exactly TWELVE broad alternating chalk-white limestone and charcoal-black basalt radial wedges, like a simple ancient opus-sectile sunburst without symbols; the whole circular pavement is fully internal, not a border or panel. Place the three birds asymmetrically at roughly 10 o’clock, 4 o’clock, and 7 o’clock around the ring, all completely visible and separated. Keep every helmet, beak, feather, wingtip, tail, leg, toe, mound, marker, and every paving wedge wholly inside the canvas with conspicuous margins. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular high-key Plinian zoological folio on pale fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Deliberately strong black-versus-white value structure with ochre-red, pearl-spotted blue-grey birds, a little celadon shadow, and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Natural guinea-fowl anatomy, restrained archaeological stillness, not heraldic fantasy. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, other animals, people, corpse, bones, blood, attack, sacrifice, supernatural aura, ghost, modern object, clipping, fused birds, duplicated anatomy, structure crossing an edge.",
+          "editLineage": [],
+          "reason": "The high-key radial candidate contained more paving wedges than the prompt’s exact requested count, so its discrete count was not certifiable."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:27",
+      "title": "THE SELEUCIDES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c027.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f77d1d170d8534835c3a04414db5bf3d4a40414c871b234db151ed27923f8d27",
+        "englishSha256": "72c0438275d307c9ac2d98f1508b9731679af3438e4f1f50023968d6fc7e2ca3",
+        "latinWords": 29,
+        "englishWords": 63
+      },
+      "sha256": "7830fbafa1fed462e1e83f80f5d2a3466be3aff99fb352f143d443e737378e03",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-19ee8bb5-110e-4fc2-b06d-7cd4944fe60b",
+      "generationArtifactId": "exec-19ee8bb5-110e-4fc2-b06d-7cd4944fe60b",
+      "outputArtifact": "built-in-imagegen://exec-19ee8bb5-110e-4fc2-b06d-7cd4944fe60b.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 27, “The Seleucides.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat the chapter’s account of Seleucid birds arriving when locusts threaten crops as transmitted ancient testimony, not a proven protective mechanism or modern pest-control advice. Show exactly THREE complete rosy starlings passing above a barley plot and exactly ONE complete anatomically legible locust resting alone on a small complete black-basalt stone. The birds and locust are widely separated and do not interact. No chase, predation, pecking, injury, crop destruction, ritual, miracle, or person.\n\nCOMPOSITION AND DISTINCT VALUE DESIGN: Use a near-vertical overhead view over a broad chalk-white dry terrace. A complete long rhomboid barley plot lies diagonally from lower-left toward upper-right, entirely inside the canvas, made of alternating broad bands of deep malachite-green barley and pale harvested-looking earth; these are continuous agricultural furrows, not panels. The small basalt stone and complete side-profile locust sit in the open white ground below the plot, with one head, two antennae, six coherent legs, folded wings, and all extremities visible. Exactly three complete rosy starlings fly above the green plot at separated diagonal positions, each whole bird readable with two wings, tail, head, and feet; none overlaps another. Keep the full plot, locust, stone, all three birds, every wingtip, tail, foot, antenna, and all discrete subjects wholly inside the canvas with large margins. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular high-key Plinian agricultural folio on pale fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Deliberately strong chalk-white, black, and malachite value rhythm with rose-copper bird breasts, barley gold, and restrained lapis shadow. Ancient, timeless, beautiful, rough and polished at once. Natural bird and insect anatomy, crisp overhead spatial hierarchy. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, extra insects, other animals, person, shrine, sacrifice, supernatural aura, attack, dead animal, damage, modern object, clipping, fused wings, duplicated anatomy, ambiguous seed-pod insect, structure crossing an edge.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8ecc15d6-0bad-4ae6-b39d-e7ffeee89029",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-39c85a0f-b93a-4ba5-90d7-f92a49d188cb",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-c479fcb3-54d1-4c33-a54b-2790cb4f6210",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-19ee8bb5-110e-4fc2-b06d-7cd4944fe60b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly three complete, separated rosy starlings above one wholly internal diagonal barley plot and exactly one complete side-profile locust on one internal basalt stone. Bird extremities and the insect’s head, two antennae, folded wings and coherent six-leg anatomy remain internal; there is no interaction, water, damage, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The Seleucid birds’ timely arrival is presented as transmitted ancient testimony, not a verified protective mechanism or modern pest-control recommendation. No predation, crop destruction, invocation or miracle is literalized.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-8ecc15d6-0bad-4ae6-b39d-e7ffeee89029",
+          "outputArtifact": "built-in-imagegen://exec-8ecc15d6-0bad-4ae6-b39d-e7ffeee89029.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c027-reject-01-pseudo-signature-ambiguous-locusts.png",
+          "sha256": "09d73c46617ae3c2acbca0ce97ba3268ed82e378e427724ace59eb2b19213d2e",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent 1536x1024 landscape preservation master for Pliny the Elder, Naturalis Historia Book X chapter 27, “The Seleucides”\nPrimary request: depict the sudden seasonal arrival of birds in a grain field troubled by locusts, inspired by Pliny’s report that inhabitants of Mount Casius prayed for the mysterious Seleucides. Treat divine dispatch, unknown origin and protective power as transmitted ancient belief, not documented supernatural fact or pest-control advice. Show no ritual, miracle beam or mass killing.\nScene/backdrop: one complete small rectangular barley plot bounded by a low dry-stone curb, centered within a broad sunlit Syrian upland terrace. The entire outer curb, every corner, complete shadows and all plants are visible, with at least ten percent of bare earth separating the plot from every canvas edge. Low continuous hills and pale morning sky form the backdrop. No discrete tree, building, water, smoke, altar or object touches an edge.\nSubject: exactly THREE complete rosy starlings, plausible candidates for the ancient Seleucides, arriving calmly over the barley. One bird stands among the stalks at left; one lands at center with both wings spread and both feet visible; one perches at right. All heads, beaks, eyes, wings, feet and tails remain complete and separated. On exactly one central barley stem rests one small fully contained natural cluster of several locusts; the cluster is modest, does not form a plague cloud, and stays far from all birds and boundaries. No bird captures, tears or swallows an insect. No other bird, airborne locust, dead insect, human, deity, sacrifice, weapon or animal.\nStyle/medium: original Plinian natural-history folio over warm fibrous vellum; fine iron-gall contours, meticulous cross-hatching and stipple, layered egg tempera and mineral washes; rough dry earth and hand-worked grain paired with polished feathers and luminous morning air; ancient, timeless, beautiful, never photographic or glossy.\nComposition/framing: high three-quarter field portrait with three birds forming a shallow arc and the complete plot as a contained golden island. One coherent landscape only, not a miracle illustration, taxonomy plate, map, inset, frame, panel, collage or repeated crop.\nLighting/mood: clear hopeful morning, seasonal mystery without supernatural certainty.\nColor palette: barley gold, spring verdigris, dusty rose, charcoal wing, pale turquoise sky and restrained old gold.\nConstraints: opaque RGB/sRGB PNG. No text, letters, numerals, labels, inscriptions, pseudo-writing, signature, logo, watermark, page edge, border, cartouche, modern pesticide or equipment, graphic harm, extra animal, clipped subject, focal/discrete subject touching an edge, water touching an edge, panels or collage.",
+          "editLineage": [],
+          "reason": "A signature-like pseudo-writing mark appeared at lower right, and the purported locust read ambiguously as a seed pod rather than a clearly anatomical insect."
+        },
+        {
+          "generationArtifactId": "exec-39c85a0f-b93a-4ba5-90d7-f92a49d188cb",
+          "outputArtifact": "built-in-imagegen://exec-39c85a0f-b93a-4ba5-90d7-f92a49d188cb.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c027-reject-02-global-mad-19.37.png",
+          "sha256": "90f5e5792435c1319db6a30e783dcec3b656d78108dfb2d71bd4d738ee03fae8",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene\nAsset type: fresh independent 1536x1024 landscape preservation master for Pliny the Elder, Naturalis Historia Book X chapter 27, “The Seleucides”\nPrimary request: show a mysterious seasonal arrival of birds beside grain troubled by a locust, inspired by Pliny’s story of the Seleucides at Mount Casius. Divine dispatch and protective power remain ancient belief, not supernatural fact, documented pest control or practical advice. No prayer ritual, miracle light, swarm massacre or graphic predation.\nScene/backdrop: a low intimate view across one complete compact OVAL barley garden enclosed by a complete ankle-high curb of pale Syrian limestone. The garden, entire curb, every plant, every bird, the locust and all shadows must fit inside the central seventy-five percent. A very broad band of bare smooth earth separates every discrete subject from all four edges. Behind are low continuous mauve hills and a clear sky; no isolated tree, building, altar, smoke, water or edge-touching object.\nSubject: exactly THREE complete rosy starlings and exactly ONE complete desert locust, no other animals or insects. One starling stands left among barley, one stands right, and one descends near center with both wings fully open and both feet visible; all three are widely separated and look toward the field rather than attacking. The single large locust rests clearly on the top of one short isolated barley stalk in the lower-middle, entirely visible in side profile with one head, two antennae, six legs and folded wings, far from every bird and edge. No extra locust, insect-shaped seed pod, dead insect, bird carrying prey, food, human, deity, sacrifice or weapon.\nStyle/medium: original deluxe Plinian natural-history folio over warm fibrous vellum; iron-gall contours, fine cross-hatching and stipple, luminous egg tempera and mineral washes; rough earth, tactile grain and hand-worked pigment paired with polished feathers and exact locust anatomy; ancient, timeless, beautiful, never photographic or glossy.\nComposition/framing: low diagonal three-bird rhythm around a single central locust, with generous negative space and one coherent field. No miracle diagram, taxonomy plate, map, inset, internal frame, panels, collage or repeated crop.\nLighting/mood: clear spring morning, watchful seasonal mystery without supernatural certainty.\nColor palette: spring verdigris, barley gold, dusty rose, charcoal, pale turquoise, mauve and restrained old gold.\nConstraints: opaque RGB/sRGB PNG. Absolutely no mark resembling a signature, initials, monogram, writing or watermark anywhere, especially the corners. No text, letters, numerals, labels, inscription, pseudo-writing, page edge, border, cartouche, modern equipment, graphic harm, extra animal, clipped subject, focal/discrete subject touching an edge, water touching an edge, panels or collage.",
+          "editLineage": [],
+          "reason": "The corrected agricultural scene scored nearest-neighbor MAD 19.37 against assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c013.png, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-c479fcb3-54d1-4c33-a54b-2790cb4f6210",
+          "outputArtifact": "built-in-imagegen://exec-c479fcb3-54d1-4c33-a54b-2790cb4f6210.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c027-reject-03-global-mad-18.32.png",
+          "sha256": "3fdd35b37d08e5c98a36607ae7a83135064eb38ed1ca684f0787f7adcd3b1b5f",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 27, “The Seleucides.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat the chapter’s account of Seleucid birds arriving when locusts threaten crops as transmitted ancient testimony, not a proven protective mechanism or modern pest-control advice. Show exactly THREE complete rosy starlings arriving above a barley field and exactly ONE complete anatomically legible locust resting alone on a complete flat black-basalt stepping stone. The birds and locust are widely separated and do not interact. No chase, predation, pecking, injury, crop destruction, ritual, miracle, or person.\n\nCOMPOSITION: A dramatic low field-level view at cool pre-dawn. The single basalt stepping stone sits fully inside the lower-left foreground; the complete locust appears in clear side profile upon it, with one head, two antennae, six legs, coherent folded wings, and all extremities visible. A low continuous sweep of blue-green barley occupies the middle distance. Exactly three rosy starlings fly in a loose diagonal arc across the upper-right sky, each whole bird individually readable with both wings, tail, head, and feet separated; none overlaps another. A distant violet ridge remains only continuous background landscape. Keep the locust, stone, all three birds, every wingtip, tail, foot, antenna, and all other discrete subjects well inside the canvas with generous margins. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular cool-toned Plinian agricultural folio on blue-stained fibrous vellum: iron-gall and pale-chalk contours, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Saturated malachite, lapis, midnight teal, violet, rose-copper bird breasts, black basalt, and restrained silver-gold. Ancient, timeless, beautiful, rough and polished at once. Natural bird and insect anatomy, crisp silhouette hierarchy, atmospheric stillness. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, extra insects, other animals, person, shrine, sacrifice, supernatural aura, attack, dead animal, damage, modern object, clipping, fused wings, duplicated anatomy, ambiguous seed-pod insect, structure crossing an edge.",
+          "editLineage": [],
+          "reason": "The cool blue field-level replacement scored nearest-neighbor MAD 18.32 against assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png, below the permanent 20.00 threshold."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:28",
+      "title": "THE IBIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c028.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "67f1647a6c9b17a78b7f1a460c53df236f8cacf706ac2bebb11822a756fb1c9d",
+        "englishSha256": "26709b10b829de0be66164224aa4feee94304e9b58d87cdf0cea6dc21774b2fe",
+        "latinWords": 24,
+        "englishWords": 43
+      },
+      "sha256": "819d1032dfbab740a4f94352b11b2e0348edac9b7903287db83cb105ac76fa9c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-aeea4b02-0569-417c-aa13-ddb7c9881fe4",
+      "generationArtifactId": "exec-aeea4b02-0569-417c-aa13-ddb7c9881fe4",
+      "outputArtifact": "built-in-imagegen://exec-aeea4b02-0569-417c-aa13-ddb7c9881fe4.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 28, “The Ibis.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Render a quiet ancient Egyptian dry garden at morning, treating the chapter’s protective ibis tradition as transmitted ancient belief, not verified zoological fact. Show exactly TWO complete sacred ibises, both fully visible head-to-toe with correct long curved beaks, black heads and legs, white bodies, natural wings, and exactly ONE complete slender snake, fully visible and widely separated from the birds, calmly moving away across dry ground. No attack, bite, blood, injury, sacrifice, pestilence, spectacle, or implied modern advice.\n\nCOMPOSITION: A spacious elevated three-quarter view. At the center is ONE complete low oval garden bed of packed earth, wholly enclosed by a modest ring of pale stones and positioned far from every canvas edge. Within it are exactly TWO small complete papyrus clumps, both wholly visible and uncropped. One ibis stands left of the oval, one stands upper right; the snake crosses open lower-middle ground, well away from both birds. Behind is only a softly layered empty desert ridge, without trees, buildings, walls, doors, monuments, or other discrete objects. Keep every bird, beak, leg, toe, wing, tail, snake, garden bed, stone, and plant wholly inside the canvas with conspicuous outer margins. No water anywhere. No focal or discrete subject may touch or be cut by any canvas edge.\n\nSTYLE AND MATERIALITY: A singular Plinian zoological folio scene: fibrous vellum ground, iron-gall contour drawing, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. White, lapis, malachite, desert ochre, and restrained gold. Ancient, timeless, beautiful, simultaneously rough and polished. Natural anatomy, restrained movement, legible depth; not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, hieroglyphs, cartouches, pseudo-writing, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, modern object, deity, supernatural aura, dramatic combat, dead animal, gore, clipping, duplicated anatomy, extra birds, extra snakes, palm trees, buildings, courtyard walls, or structures crossing the canvas edge.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ee491c8a-53f8-4567-882a-7f6f1de14b0f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-aeea4b02-0569-417c-aa13-ddb7c9881fe4",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete sacred ibises, exactly one complete separated snake, two complete papyrus clumps and one complete oval dry garden bed. All beaks, legs, toes, wings, tail, snake and garden features remain internal; there is no water, attack, sacrifice, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Ibis protection against serpents is treated as transmitted Egyptian belief, not verified zoological fact. Sacrifice, pestilence, attack and modern advice are not depicted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-ee491c8a-53f8-4567-882a-7f6f1de14b0f",
+          "outputArtifact": "built-in-imagegen://exec-ee491c8a-53f8-4567-882a-7f6f1de14b0f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c028-reject-01-clipped-palms-wall.png",
+          "sha256": "933570e1c1ad6f332958d817d5f07547e9b64b5b3630a459a572a7fd9e515033",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 28, “The Ibis.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Render an ancient Egyptian walled papyrus garden at quiet morning, treating the chapter’s protective ibis tradition as transmitted ancient belief, not verified zoological fact. Show exactly TWO complete sacred ibises, both fully visible head-to-toe with correct long curved beaks, black heads and legs, white bodies, natural wings, and exactly ONE complete slender snake, fully visible and widely separated from the birds, calmly retreating across dry ground. No attack, bite, blood, injury, sacrifice, pestilence, spectacle, or implied modern advice.\n\nCOMPOSITION: A spacious elevated three-quarter view across one coherent courtyard. A complete low mudbrick enclosure and two complete raised papyrus planters sit well inside the canvas, with generous breathing room on every side. One ibis stands at left near a planter, the other at upper right; the snake crosses the open lower-middle dry ground, well away from both birds. Keep every bird, beak, leg, toe, wing, tail, snake, planter, and other discrete structure wholly inside the canvas with conspicuous margins. No water anywhere. No focal or discrete subject may touch or be cut by any canvas edge.\n\nSTYLE AND MATERIALITY: A singular Plinian zoological folio scene: fibrous vellum ground, iron-gall contour drawing, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. White, lapis, malachite, desert ochre, and restrained gold. Ancient, timeless, beautiful, simultaneously rough and polished. Natural anatomy, restrained movement, legible depth; not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, hieroglyphs, cartouches, pseudo-writing, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, modern object, deity, supernatural aura, dramatic combat, dead animal, gore, clipping, duplicated anatomy, extra birds, or extra snakes.",
+          "editLineage": [],
+          "reason": "Although the animal counts were correct, background palms and courtyard walls were cut by canvas edges, failing the requested discrete-structure framing."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:29",
+      "title": "PLACES IN WHICH CERTAIN BIRDS ARE NEVER FOUND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c029.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "7e5490bd368df64101ab7041f7e7672d49b5b743c16d7b3a13ea25d7f5b65828",
+        "englishSha256": "8702275b29b6ff0d1e11c91cf5fb69c496769ee95dc0598d173574274b4d59df",
+        "latinWords": 626,
+        "englishWords": 1413
+      },
+      "sha256": "e79aad4af86ee5d62ef36f9b943672fe374f05239fc3e28c5dfb4c06fdde4a25",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7d397231-5d9a-45fb-a53b-eb693ea366a9",
+      "generationArtifactId": "exec-7d397231-5d9a-45fb-a53b-eb693ea366a9",
+      "outputArtifact": "built-in-imagegen://exec-7d397231-5d9a-45fb-a53b-eb693ea366a9.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 29, “Places in Which Certain Birds Are Never Found.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Evoke the chapter’s reported absence of owls in Crete as an ancient inquiry, not proof of a natural law. In one quiet Cretan limestone terrace at cool dusk, show exactly TWO complete Roman-era naturalists, both fully clothed, calm, and fully visible head-to-toe. They contemplate exactly ONE complete EMPTY freestanding wooden bird perch and exactly ONE complete small potted olive tree. No bird or other animal is present. The empty perch is a restrained visual metaphor for reported absence; do not depict importation, death, a body, a cage, experiments, or supernatural exclusion.\n\nCOMPOSITION: Wide architectural stillness with strong negative space. Place the two naturalists together in the left-middle, one standing and one seated on a complete low stool, all limbs and garments visible. Place the empty perch in the right-middle and the complete terracotta pot with olive tree farther behind it. A low limestone terrace platform is centered and wholly internal, surrounded by bare rocky earth and distant soft hills. Keep every person, hand, foot, stool, perch, pot, trunk, branch, and leaf wholly inside the canvas with generous clear margins. No object may touch or be cut by any canvas edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian observational folio: fibrous vellum ground, iron-gall contours, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. Cool indigo, limestone white, olive green, muted aubergine, and a trace of warm lamp-gold in the sky only. Ancient, timeless, beautiful, rough and polished at once. Quiet philosophical mood; natural human proportions and historically plausible tunics and mantles. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, map, scroll, tablet, book, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, bird, owl, animal, feather, cage, corpse, death, injury, sacrifice, miracle, supernatural aura, modern object, clipped anatomy, extra people, duplicated body parts, or any discrete object crossing an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7d397231-5d9a-45fb-a53b-eb693ea366a9",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete, fully clothed Roman-era naturalists, one complete empty perch, one complete potted olive and one complete internal terrace platform. There is no bird, animal, body, cage, map, writing, pseudo-writing, panel, collage, water or clipped discrete subject.",
+      "epistemicAndDignityNote": "The empty perch represents the chapter’s report of absence in Crete without claiming proof, depicting imported birds dying, or universalizing the many geographic and seasonal reports in the passage.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:30",
+      "title": "THE ŒNANTHE, THE CHLORION, THE BLACKBIRD, AND THE IBIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c030.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3594b80f74f343adf6983fd86b11ecfbeb8c88e5f28afc88d0702fcd316caa53",
+        "englishSha256": "ef6ec5d22877598fd1060db456f239a6abcd16442420fce0116ee9d0c622ad21",
+        "latinWords": 19,
+        "englishWords": 40
+      },
+      "sha256": "fe63d85d0a07dfe9484b77bf340d27c41ef70ff84f6987c3446913cf69a4dd52",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d959887f-b382-4853-b761-6fb55c3a5332",
+      "generationArtifactId": "exec-d959887f-b382-4853-b761-6fb55c3a5332",
+      "outputArtifact": "built-in-imagegen://exec-d959887f-b382-4853-b761-6fb55c3a5332.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 30, “The Oenanthe, the Chlorion, the Blackbird, and the Ibis.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Illustrate the chapter’s reported white blackbirds near Mount Cyllene as transmitted ancient geographic observation, not modern taxonomic certainty. Show exactly TWO complete European-blackbird-shaped birds: exactly ONE leucistic creamy-white blackbird with a yellow-orange beak and dark eye, and exactly ONE normal charcoal-black blackbird with a yellow-orange beak. Both birds must be unmistakably blackbird-like in body, beak, tail, stance, and scale—not doves, pigeons, thrush charts, or fantasy birds.\n\nCOMPOSITION: A close yet spacious oblique view of one complete low pale limestone boulder on a high Arcadian meadow at early spring dawn. The complete leucistic bird stands on the left half of the boulder; the complete dark bird stands on the right half, turned slightly away so the encounter feels observational rather than staged symmetry. Exactly three small complete crocus clumps grow below the boulder. Distant snow-flecked mountain forms are only continuous background landscape, with no building, tree, object, or peak treated as a separate focal element. Keep both entire birds—including crowns, beaks, wings, tails, legs, feet, and every toe—the entire boulder, and all three crocus clumps wholly inside the canvas with generous margin. No discrete subject may touch or be cut by any canvas edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian zoological folio scene on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. Pale celadon, snow white, charcoal, madder-crocus, limestone cream, and restrained dawn gold. Ancient, timeless, beautiful, rough and polished at once. Accurate natural anatomy, quiet attention, lightly weathered surface. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, other animals, nest, eggs, cage, dead animal, injury, supernatural aura, modern object, clipping, fused feet, duplicated anatomy, branch or object crossing an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d959887f-b382-4853-b761-6fb55c3a5332",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete blackbird-shaped birds on one complete internal boulder: one creamy-white leucistic bird and one charcoal-black bird, both with coherent beaks, wings, tails, legs and feet. Exactly three complete crocus clumps remain internal; there is no chart, extra bird, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The white blackbirds near Cyllene are framed as a reported ancient geographic observation rather than modern species certainty. The adjacent ibis color report is not turned into a comparison chart.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:32",
+      "title": "THE HALCYONES: THE HALCYON DAYS THAT ARE FAVOURABLE TO NAVIGATION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c032.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "cfff2c8485fb6be8c68d0bf122daf043af4c7f2c68e65b710a0a831cacb22c95",
+        "englishSha256": "df116d40cd5268b6d0c501a86d54cbf50dab58faed7a223aa7551782199c092f",
+        "latinWords": 146,
+        "englishWords": 339
+      },
+      "sha256": "fa6d8c4dee8998ef01e078855bb3c3172a2eccead3a22be29ce36f8f7a4e0364",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-92bc8e31-6a8d-4f2a-958c-54fd6ec613f3",
+      "generationArtifactId": "exec-92bc8e31-6a8d-4f2a-958c-54fd6ec613f3",
+      "outputArtifact": "built-in-imagegen://exec-92bc8e31-6a8d-4f2a-958c-54fd6ec613f3.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 32, “The Halcyons and the Halcyon Days.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat Pliny’s account of halcyon weather and the bird’s unusual nest as transmitted ancient natural history, not a guaranteed navigational rule. Show exactly ONE complete kingfisher-like halcyon, fully visible with anatomically coherent head, beak, two wings, tail, legs, and feet, beside exactly ONE complete roughly spherical porous nest with exactly ONE small narrow round entrance. The nest should look organically sponge-like and woven from fine dry plant fibres—not a beehive, jar, shell, stone carving, or architectural object. Do not show eggs, chicks, another bird, a ship, sailors, or a storm.\n\nCOMPOSITION: An elevated, intimate view across one complete oval stone-lined tidal pool wholly enclosed inside the canvas, leaving a broad band of dry pale rock around it on every side. The water must form a closed interior oval and must not touch any canvas edge. One complete low dry-rock island sits inside the pool with generous clearance from every edge. The halcyon perches on the left side of the island; the complete spherical nest rests on the right side, separated and easy to inspect. A few non-focal submerged pebbles may show through the still water, but no fish or other animal. Keep the entire bird, every feather extremity, island, nest, pool, stone curb, and all discrete objects wholly inside the canvas with conspicuous margins. Nothing focal or discrete may touch or be cut by any edge.\n\nSTYLE AND MATERIALITY: A singular Plinian marine-bird folio on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. Ultramarine, purple, chalk white, sea green, warm limestone, and restrained copper-gold. Ancient, timeless, beautiful, rough and polished at once. Delicate porous nest texture, quiet glassy water, accurate bird anatomy, restrained wonder. Not photographic, glossy, cinematic, cartoon, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, eggs, chicks, fish, boat, people, storm, miracle, supernatural aura, dead animal, injury, modern object, clipping, fused feet, duplicated anatomy, water reaching an edge, open channel, or discrete structure crossing an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-92bc8e31-6a8d-4f2a-958c-54fd6ec613f3",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete kingfisher-like halcyon and exactly one complete porous spherical fibre nest with one narrow entrance on a complete internal rock island. The closed oval pool is surrounded by dry stone on every side and no water reaches a canvas edge; there is no egg, chick, second bird, ship, storm, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The halcyon weather and unusual nest are treated as transmitted ancient natural history, not a guaranteed navigational rule. No miracle, storm rescue or unverified egg count is literalized.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:34",
+      "title": "PIGEONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c034.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "4ee0d4b2b1246dba1809584c205220f294caf79b0c497ef59bd2418e9de41af0",
+        "englishSha256": "80662fcb0744e1b2091a9d562381538885114ca144e1c0a5bc307c5e9116e2c3",
+        "latinWords": 111,
+        "englishWords": 287
+      },
+      "sha256": "d11032d6ac7281ce5b1a2a84fda9a1206189aad62525a96f94c78c1fcf503bf9",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a3d497a8-2ffe-4017-8286-bf5aa9a62ca5",
+      "generationArtifactId": "exec-a3d497a8-2ffe-4017-8286-bf5aa9a62ca5",
+      "outputArtifact": "built-in-imagegen://exec-a3d497a8-2ffe-4017-8286-bf5aa9a62ca5.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 34, “Pigeons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Illustrate the chapter’s description of shared pigeon care as transmitted ancient observation, without endorsing its gendered moral claims or depicting correction by violence. Show exactly TWO complete adult rock pigeons and exactly TWO complete small nestlings in exactly ONE complete circular twig nest. Both adults have both wings naturally folded and empty beaks. One adult stands to the upper-left looking outward; the second stands to the lower-right with its head gently inclined toward the young. No carried material, pecking, attack, accusation, forced feeding, regurgitation, blood, injury, breeding, or moral allegory.\n\nCOMPOSITION AND DISTINCT VALUE DESIGN: Use a near-vertical overhead view of a quiet Roman courtyard floor divided diagonally into two continuous ancient materials: chalk-WHITE lime plaster across the upper-left half and matte CHARCOAL-BLACK basalt paving across the lower-right half. This is one coherent floor, not a panel or split scene. Center a complete shallow oval terracotta nesting dish exactly along the diagonal join; the complete circular twig nest rests inside it, with the two distinct nestlings clearly visible. Put the first adult wholly on the white side above-left and the second wholly on the black side below-right, creating a strong diagonal value composition. Both adults are fully visible head-to-feet with coherent beaks, folded wings, tails, two legs, feet, and toes. Keep every bird, feather extremity, nestling, twig, dish, and all discrete subjects wholly inside the canvas with generous clear margins. No focal or discrete subject may touch or be cut by any edge. No water.\n\nSTYLE AND MATERIALITY: A singular high-contrast Plinian domestic-bird folio on fibrous vellum: iron-gall and pale-chalk contours, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Dominant chalk-white versus charcoal-black value division, smoky blue-grey pigeons, rose neck sheen, terracotta orange, soft chick gold, and restrained lapis shadow. Ancient, timeless, beautiful, rough and polished at once. Accurate pigeon anatomy and tender but unsentimental observation. Not photographic, glossy, cinematic, cartoon, sentimental greeting-card art, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, mosaic symbols, map, page, border, decorative frame, panel, split narrative, collage, inset, specimen chart, ornamental manuscript margin, extra birds, extra nestlings, extra nests, eggs, raised wing, cage, humans, extra vessel, other animal, mating, violence, dead animal, supernatural aura, modern object, clipping, fused birds, duplicated anatomy, hidden nestling count, discrete structure crossing an edge.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2b909786-6caf-4806-8a5c-3fc70b2cb8c3",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-313548ed-dbbe-46e1-9741-b1a1eb9b5d86",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-ca8d4332-251c-4554-80d8-0af85371c574",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-a3d497a8-2ffe-4017-8286-bf5aa9a62ca5",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly two complete adult rock pigeons, exactly two distinct nestlings, exactly one complete circular twig nest and one complete terracotta nesting dish. The black-and-white diagonal is one continuous courtyard floor; all birds, tails, feet, nestlings, twigs and dish remain internal, with no water, pecking, feeding, harm, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Shared care is centered as transmitted observation. Gendered moral claims, alleged corrective pecking, forced feeding and anthropomorphic accusation are not endorsed or depicted.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-2b909786-6caf-4806-8a5c-3fc70b2cb8c3",
+          "outputArtifact": "built-in-imagegen://exec-2b909786-6caf-4806-8a5c-3fc70b2cb8c3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c034-reject-01-ambiguous-forked-straw.png",
+          "sha256": "8541030c9483cefffc9aa8a7a04d5f45cee9fb4b93b4e51e2bb6eb6f2f7a628a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 34, “Pigeons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Illustrate the chapter’s description of shared pigeon care as transmitted ancient observation, without endorsing its gendered moral claims or depicting correction by violence. Show exactly TWO complete adult rock pigeons and exactly TWO complete small nestlings in exactly ONE complete circular twig nest. One adult stands beside the nest carrying exactly ONE single straw crosswise in its beak; the other adult stands on the opposite side with one wing gently arched above—but not touching or concealing—the two visible nestlings. No pecking, attack, accusation, forced feeding, regurgitation, blood, injury, breeding, or moral allegory.\n\nCOMPOSITION: A close elevated view into one quiet Roman dovecote alcove presented as a single coherent space, not a panel. The complete shallow semicircular stone ledge and its complete arched niche are centered well inside a larger wall field, leaving broad unadorned lime-plaster margins on every canvas side. The nest sits in the center of the ledge. Both adults must be fully visible head-to-feet, with coherent beaks, two wings, tails, legs, and toes; both nestlings must have distinct complete heads and small bodies visible inside the nest. Keep every bird, feather extremity, straw, twig, nest rim, ledge, and arch wholly inside the canvas with generous clearance. No discrete subject or structure may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian domestic-bird folio on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. Warm rose, smoky blue-grey, umber, chalk cream, muted terracotta, and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Accurate pigeon anatomy and tender but unsentimental observation. Not photographic, glossy, cinematic, cartoon, sentimental greeting-card art, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, mosaic text, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, extra nestlings, extra nests, eggs, cage, humans, food bowl, other animal, mating, violence, dead animal, supernatural aura, modern object, clipping, fused birds, duplicated anatomy, hidden nestling count, architectural element crossing an edge.",
+          "editLineage": [],
+          "reason": "The carried material read as a forked or multiple-strand twig rather than the requested single unambiguous straw, so the discrete count was not certifiable."
+        },
+        {
+          "generationArtifactId": "exec-313548ed-dbbe-46e1-9741-b1a1eb9b5d86",
+          "outputArtifact": "built-in-imagegen://exec-313548ed-dbbe-46e1-9741-b1a1eb9b5d86.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c034-reject-02-global-mad-19.98.png",
+          "sha256": "ba55a72ae8c8778652df7edbfa9c0209315f0932c064e396409fd0fcf7801aa3",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 34, “Pigeons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Illustrate the chapter’s description of shared pigeon care as transmitted ancient observation, without endorsing its gendered moral claims or depicting correction by violence. Show exactly TWO complete adult rock pigeons and exactly TWO complete small nestlings in exactly ONE complete circular twig nest. Both adults have both wings naturally folded against their bodies and empty beaks. One adult stands to the left of the nest looking outward; the other stands to the right, leaning its head toward the nestlings in quiet watch. No carried material, pecking, attack, accusation, forced feeding, regurgitation, blood, injury, breeding, or moral allegory.\n\nCOMPOSITION: A close elevated view into one quiet Roman dovecote alcove presented as a single coherent space, not a panel. The complete shallow asymmetrical stone ledge and its complete arched niche are centered well inside a larger wall field, leaving broad unadorned lime-plaster margins on every canvas side. The nest sits slightly right of center. Both adults must be fully visible head-to-feet, with coherent beaks, exactly two folded wings, tails, two legs, and feet; both nestlings must have distinct complete heads and small bodies clearly visible inside the nest. Keep every bird, feather extremity, twig, nest rim, ledge, and arch wholly inside the canvas with generous clearance. No discrete subject or structure may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian domestic-bird folio on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. Warm rose, smoky blue-grey, umber, chalk cream, muted terracotta, and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Accurate pigeon anatomy and tender but unsentimental observation. Not photographic, glossy, cinematic, cartoon, sentimental greeting-card art, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, mosaic text, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, extra nestlings, extra nests, eggs, carried twig or straw, raised wing, cage, humans, food bowl, other animal, mating, violence, dead animal, supernatural aura, modern object, clipping, fused birds, duplicated anatomy, hidden nestling count, architectural element crossing an edge.",
+          "editLineage": [],
+          "reason": "The revised alcove scene scored nearest-neighbor MAD 19.98 against assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c017.png, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-ca8d4332-251c-4554-80d8-0af85371c574",
+          "outputArtifact": "built-in-imagegen://exec-ca8d4332-251c-4554-80d8-0af85371c574.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/evidence/history/b10-c034-reject-03-global-mad-19.81.png",
+          "sha256": "a539d54d2cde48768ef1bf0f68e26f1abffe21bac522341e0b6cf106fbcc6bff",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 34, “Pigeons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Illustrate the chapter’s description of shared pigeon care as transmitted ancient observation, without endorsing its gendered moral claims or depicting correction by violence. Show exactly TWO complete adult rock pigeons and exactly TWO complete small nestlings in exactly ONE complete circular twig nest. Both adults have both wings naturally folded and empty beaks. One adult stands at the upper-left of the nest looking outward; the other stands at the lower-right, head inclined toward the young in quiet vigilance. No carried material, pecking, attack, accusation, forced feeding, regurgitation, blood, injury, breeding, or moral allegory.\n\nCOMPOSITION: A strongly oblique overhead view across a complete low square blue-black basalt plinth centered diagonally within a broad field of matte Pompeian-red courtyard plaster. The entire plinth is well inside the canvas with a deep red margin on all sides. The nest rests on a complete shallow round terracotta nesting dish at the plinth’s center; the dish rim and all nest twigs remain visible. Both adult pigeons are fully visible head-to-feet with coherent beaks, exactly two folded wings, tails, two legs, feet, and toes; the two nestlings have distinct complete heads and small bodies clearly visible inside the nest. Keep every bird, feather extremity, nestling, twig, nest rim, dish, and plinth corner wholly inside the canvas with generous clearance. No focal or discrete subject or structure may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian domestic-bird folio on red-stained fibrous vellum: iron-gall and pale-chalk contours, disciplined fine hatching and stipple, opaque egg-tempera and mineral pigments. Saturated Pompeian red, blue-black basalt, smoky blue-grey plumage, rose, terracotta orange, chalk cream, and restrained pale gold. Ancient, timeless, beautiful, rough and polished at once. Accurate pigeon anatomy and tender but unsentimental observation. Not photographic, glossy, cinematic, cartoon, sentimental greeting-card art, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, mosaic symbols, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, extra nestlings, extra nests, eggs, raised wing, cage, humans, food bowl beyond the single nesting dish, other animal, mating, violence, dead animal, supernatural aura, modern object, clipping, fused birds, duplicated anatomy, hidden nestling count, structure crossing an edge.",
+          "editLineage": [],
+          "reason": "The red-and-black overhead replacement scored nearest-neighbor MAD 19.81 against assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c014.png, below the permanent 20.00 threshold."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:35",
+      "title": "PIGEONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c035.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "862bf339b550d4d0a6b2ed30f787a141ccc809c948f82a0e90fabddf1b22da47",
+        "englishSha256": "21c139a2c5b88217a01fd6c946245bdf1c51b500bc9dd8e1f1bbdb8601d6baaf",
+        "latinWords": 61,
+        "englishWords": 133
+      },
+      "sha256": "931a13cbc452f70a832d0173ac0cee982a58609f72a3c58c7ac306dee0e53a94",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-04ecaba4-dd90-4463-bace-1124e185a024",
+      "generationArtifactId": "exec-04ecaba4-dd90-4463-bace-1124e185a024",
+      "outputArtifact": "built-in-imagegen://exec-04ecaba4-dd90-4463-bace-1124e185a024.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 35, “Pigeons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Render Pliny’s reports of the ring-dove’s longevity, seasonal silence, returning spring song, and naturally lengthening claws as transmitted ancient observation, not a modern age claim or handling instruction. Show exactly ONE complete mature ring-dove, fully visible in three-quarter profile, perched on one complete low gnarled almond shrub in early spring. Its beak is just slightly open as if the seasonal voice has returned. Both complete feet grip a clear branch, with naturally somewhat long but healthy claws plainly visible. No person, trimming, tool, restraint, wound, cage, intervention, or numeric symbol.\n\nCOMPOSITION: A quiet low eye-level portrait with abundant negative space. The complete almond shrub is a compact, living, freestanding form rooted in one complete small oval mound of earth, all wholly inside the canvas. Its trunk, every branch tip, sparse silver-green leaf, and exactly seven modest pink-white blossom clusters are visible and uncropped. The ring-dove rests slightly left of center on a horizontal inner branch; its entire crown, beak, breast, two folded wings, tail, two legs, feet, toes, and claws have clear separation from the foliage. Background is a continuous pale spring hillside and cool dawn sky only, without buildings, trees, other discrete plants, or objects. Keep bird, shrub, blossoms, and mound well away from every canvas edge. No focal or discrete subject may touch or be cut by any edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian seasonal bird folio on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, egg-tempera and mineral-pigment washes. Silver-lilac, dove grey, olive, rose-white, pale celadon, and restrained dawn gold. Ancient, timeless, beautiful, rough and polished at once. Accurate ring-dove anatomy, subtle neck marking, fine claw detail, quiet spring air. Not photographic, glossy, cinematic, cartoon, sentimental greeting-card art, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, signature, watermark, labels, caption, map, calendar, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra birds, nest, eggs, chicks, other animal, person, knife, scissors, grooming, injury, cage, supernatural aura, modern object, clipping, fused feet, duplicated anatomy, branch or plant crossing an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-04ecaba4-dd90-4463-bace-1124e185a024",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete mature ring-dove on one complete low almond shrub rooted in one complete internal mound, with both feet and naturally long healthy claws visible. Exactly seven complete blossom clusters remain internal; there is no second bird, nest, handler, tool, intervention, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Longevity, seasonal voice and claw growth are treated as reported ancient observation. The scene does not prove a numeric age or turn the claw passage into handling or grooming advice.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 767,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:26": {
+        "nearestMAD": 33.77,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-06/b09-c051.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c006.png",
+        "madAtDHashPeer": 105.34
+      },
+      "10:27": {
+        "nearestMAD": 27.14,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c012.png",
+        "madAtDHashPeer": 38.38
+      },
+      "10:28": {
+        "nearestMAD": 21.33,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c018.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c055.png",
+        "madAtDHashPeer": 95.58
+      },
+      "10:29": {
+        "nearestMAD": 24.48,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c023.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b04-c001.png",
+        "madAtDHashPeer": 40.1
+      },
+      "10:30": {
+        "nearestMAD": 24.44,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c019.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c055.png",
+        "madAtDHashPeer": 40.23
+      },
+      "10:32": {
+        "nearestMAD": 23.23,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c013.png",
+        "dHashAtMadPeer": 16,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c039.png",
+        "madAtDHashPeer": 30.92
+      },
+      "10:34": {
+        "nearestMAD": 40.61,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c012.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c002.png",
+        "madAtDHashPeer": 49.94
+      },
+      "10:35": {
+        "nearestMAD": 20.45,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c006.png",
+        "madAtDHashPeer": 46.91
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-birds-wave-04",
+    "status": "pass",
+    "output": ""
+  }
+}

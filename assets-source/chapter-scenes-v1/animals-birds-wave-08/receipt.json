@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-birds-wave-08",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+  "corpusSha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4",
+  "corpusGroundingNote": "The complete Latin and English entries for Book X chapters 64 through 71 were read before prompting. Pregnancy, false conception, extraordinary fecundity, unknown origins, spontaneous-generation stories, salamander fire and toxicity claims, ancient classifications of sex and reproduction, animal-sense rankings, human deafness and speech, fish response to sound, poison and bait reports, and feeding behaviors are treated as transmitted ancient testimony of varying reliability—not verified miracle, modern zoology, physiology, medical advice, disability analogy, poison guidance, or license for harm. Reproduction stays non-explicit; no suffering, predation, capture, blood, disease symptom or graphic anatomy is shown.",
+  "assignments": [
+    "10:64",
+    "10:65",
+    "10:66",
+    "10:67",
+    "10:68",
+    "10:69",
+    "10:70",
+    "10:71"
+  ],
+  "selectionValidation": {
+    "coordinationFrontier": "10:63",
+    "coordinationDecision": "The parent coordinator assigned collision-free Book X chapters 10:64 through 10:71 after wave-07 ownership through 10:63. Before generation, the live plan, all available receipts and every non-evidence master were rechecked; all eight selected keys were planned-full-scene with zero prior owners or masters.",
+    "receiptsCheckedAtSelection": 97,
+    "receiptsCheckedAtCertification": 100,
+    "selectedKeys": [
+      "10:64",
+      "10:65",
+      "10:66",
+      "10:67",
+      "10:68",
+      "10:69",
+      "10:70",
+      "10:71"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 4,
+    "providerFailedNoArtifactCount": 1,
+    "totalBuiltInCalls": 13
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:64",
+      "title": "THE POSITION OF ANIMALS IN THE UTERUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c064.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6c034a45370c847b25b90269816d64debde170d3275cebe7ac2865c213a35835",
+        "englishSha256": "a8f1e1ab745cc92fd04d2395b9ffa7a1c23349be303d2ae15bf3c03dc9ea70e0",
+        "latinWords": 69,
+        "englishWords": 143
+      },
+      "sha256": "fa77811b8f5c7c766aedd61c5dff04caef806cf5b740c2190b2803fe32054d86",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c52e9884-abc6-4784-8de4-c36b84e9094e",
+      "generationArtifactId": "exec-c52e9884-abc6-4784-8de4-c36b84e9094e",
+      "outputArtifact": "built-in-imagegen://exec-c52e9884-abc6-4784-8de4-c36b84e9094e.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 64 illustration master\nPrimary request: Illustrate Pliny’s chapter on the posture of young before birth through a dignified, non-anatomical visual analogy rather than a literal medical claim. In a quiet Arcadian sheepfold, exactly ONE complete adult ewe stands protectively beside exactly ONE complete newborn lamb curled naturally asleep nose-near-knees on clean straw. The lamb’s curled posture gently recalls the chapter’s description without showing birth, womb, fetus, dissection, false conception, or medical intervention. Treat all reproductive and medical assertions as transmitted ancient testimony, not verified fact or advice.\nScene/backdrop: an open limestone sheepfold beneath a weathered olive tree, low hills and a small arched shelter in the middle distance, all resolving into warm vellum.\nStyle/medium: original Plinian natural-history folio on aged ivory vellum; iron-gall contour, fine cross-hatching and stipple, mineral watercolor and egg-tempera materiality; restrained warm ochre, dusty rose madder, olive verdigris, soft umber and charcoal; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate low three-quarter viewpoint, asymmetric oval grouping in the lower-middle with generous pale negative space. Both animals are complete, distinct, anatomically plausible, calm, and separated enough to count. Every ear, hornless head, hoof, tail, straw tuft, olive branch, shelter and hill ends visibly inside a softly feathered unmarked vellum perimeter with at least 90 pixels breathing room; no focal or discrete subject touches an outer edge. No water. One continuous landscape scene, not a page or diagram. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: soft amber dawn, protective, observational, serene.\nText: none.\nConstraints: exactly two animals total—one ewe and one lamb; no other creatures; no visible pregnancy or birth; no human.\nAvoid: womb, fetus, embryo, cutaway, anatomy, blood, placenta, udder emphasis, mating, pregnancy test, disease, disability, suffering, miracle, medical instruction, extra animal, duplicate animal, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c52e9884-abc6-4784-8de4-c36b84e9094e",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly one complete ewe and one complete curled sleeping lamb in a calm sheepfold. Both animals, all hooves, ears and the olive-and-shelter setting remain inside the soft vellum perimeter. No womb, fetus, birth, medical procedure, text, pseudo-writing, panel, collage, clipping or extra creature appears.",
+      "rejectedAttempts": [],
+      "providerFailures": [
+        {
+          "generationArtifactId": "exec-abb217c8-b678-4f42-8c83-ddeea8199683",
+          "status": "failed-before-artifact",
+          "artifactProduced": false,
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 64 illustration master\nPrimary request: Illustrate Pliny’s chapter on the posture of young before birth through a dignified, non-anatomical visual analogy rather than a literal medical claim. In a quiet Arcadian sheepfold, exactly ONE complete adult ewe stands protectively beside exactly ONE complete newborn lamb curled naturally asleep nose-near-knees on clean straw. The lamb’s curled posture gently recalls the chapter’s description without showing birth, womb, fetus, dissection, false conception, or medical intervention. Treat all reproductive and medical assertions as transmitted ancient testimony, not verified fact or advice.\nScene/backdrop: an open limestone sheepfold beneath a weathered olive tree, low hills and a small arched shelter in the middle distance, all resolving into warm vellum.\nStyle/medium: original Plinian natural-history folio on aged ivory vellum; iron-gall contour, fine cross-hatching and stipple, mineral watercolor and egg-tempera materiality; restrained warm ochre, dusty rose madder, olive verdigris, soft umber and charcoal; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate low three-quarter viewpoint, asymmetric oval grouping in the lower-middle with generous pale negative space. Both animals are complete, distinct, anatomically plausible, calm, and separated enough to count. Every ear, hornless head, hoof, tail, straw tuft, olive branch, shelter and hill ends visibly inside a softly feathered unmarked vellum perimeter with at least 90 pixels breathing room; no focal or discrete subject touches an outer edge. No water. One continuous landscape scene, not a page or diagram. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: soft amber dawn, protective, observational, serene.\nText: none.\nConstraints: exactly two animals total—one ewe and one lamb; no other creatures; no visible pregnancy or birth; no human.\nAvoid: womb, fetus, embryo, cutaway, anatomy, blood, placenta, udder emphasis, mating, pregnancy test, disease, disability, suffering, miracle, medical instruction, extra animal, duplicate animal, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+          "failureReason": "image generation failed: connection failed: error sending request"
+        }
+      ]
+    },
+    {
+      "chapterKey": "10:65",
+      "title": "ANIMALS WHOSE ORIGIN IS STILL UNKNOWN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c065.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2fcd23af5c80359f893a8c2e1d467ae400a9de95063501ce8ca58805ea52a747",
+        "englishSha256": "495fcbf6de1bcc8886cf29a6eb527778b640b9502e83f3d45da772c11e1175c5",
+        "latinWords": 170,
+        "englishWords": 376
+      },
+      "sha256": "be32ec0004166897d64342cec86a3858c21a0cf77e21abe401dba182e5aa09c0",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e2193644-59cc-451e-a287-e2567ae556a9",
+      "generationArtifactId": "exec-e2193644-59cc-451e-a287-e2567ae556a9",
+      "outputArtifact": "built-in-imagegen://exec-e2193644-59cc-451e-a287-e2567ae556a9.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book X chapter 65 illustration master\nInput image: Image 1 is the edit target.\nPrimary request: Add exactly ONE additional intact pale speckled egg to the shallow hollow on the broad upper-right stone, immediately behind and centered between the existing two eggs, so that exactly THREE eggs are visible in a compact triangular group. The new third egg must be fully visible, distinct from both existing eggs, and match their moonlit scale, speckling, shading and perspective.\nPreserve unchanged: exactly THREE complete field mice, exactly ONE complete Mediterranean lizard, the existing two eggs, every animal’s exact position and anatomy, the crescent moon, deep ultramarine nocturne palette, plateau, pale stubble arc, thyme, scattered stones, distant hills, broad soft vellum perimeter, and all edge spacing.\nContext and ethics: the scene evokes Pliny’s uncertain reports about animal origins without showing reproduction or treating extraordinary claims as modern zoological fact.\nConstraints: final image must contain exactly three mice, one lizard and exactly three eggs; no other animals or eggs; all subjects complete; no water; native 1536x1024 landscape, opaque RGB/sRGB.\nText: none.\nAvoid: moving, cropping, duplicating or deleting any existing animal; changing the lizard; adding more than one egg; hatching, birth, embryo, mating, disease, poison, suffering, edge contact, text, letters, numerals, pseudo-writing, signature, watermark, hard border, frame, depicted page, panel, collage, photorealism, glossy CGI.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-f63b3c1a-64f6-49fb-af27-107a89c44bf7",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-5f8931fd-683d-474d-86d2-c9d38b1bb8c6",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-08af2f66-59e1-42cf-82d9-24c79050767c",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-e2193644-59cc-451e-a287-e2567ae556a9",
+          "status": "accepted",
+          "editOfArtifactId": "exec-08af2f66-59e1-42cf-82d9-24c79050767c"
+        }
+      ],
+      "editLineage": {
+        "acceptedEditOfArtifactId": "exec-08af2f66-59e1-42cf-82d9-24c79050767c",
+        "editPurpose": "Add exactly one third egg while preserving the independent nocturne scene, all four animals, edge spacing and palette."
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection of the final edited nocturne found exactly three complete field mice, one complete lizard and three distinct intact eggs. All tails, paws, toes and egg contours remain well inside the vignette; no architecture, water, reproduction, disease, poison, text, pseudo-writing, panel, collage or extra creature appears.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-f63b3c1a-64f6-49fb-af27-107a89c44bf7",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/evidence/history/b10-c065-rejected-01-upper-right-architecture-edge.png",
+          "sha256": "f07c76cc3482f37d3dc61966a58ac6fb2073bcf8000abd6a5f8ac88db46e2a6d",
+          "outputArtifact": "built-in-imagegen://exec-f63b3c1a-64f6-49fb-af27-107a89c44bf7.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 65 illustration master\nPrimary request: Ground Pliny’s collection of uncertain stories about mice and lizards in a calm observed field margin, without literalizing miraculous fecundity or spontaneous birth. Show exactly THREE complete field mice quietly foraging among fallen barley kernels and exactly ONE complete small Mediterranean lizard watching from a sun-warmed stone beside exactly THREE intact pale eggs in a shallow natural hollow. The animals are peaceful and well spaced; the eggs are simply present, not hatching. Treat the chapter’s extraordinary reproductive and disappearance claims as transmitted ancient reports of uncertain reliability, not modern zoological fact.\nScene/backdrop: high-oblique view of a late-summer grain terrace where golden stubble meets one strip of green herbs, with a dry-stone granary threshold and distant russet hills, all softly resolving into vellum.\nStyle/medium: original Plinian natural-history folio on lightly smoked vellum; crisp iron-gall drawing, delicate stipple and short hatch, dry-brush mineral pigments; strong but restrained saffron ochre, russet madder, sage verdigris, charcoal and touches of chalk white; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique close landscape, a diagonal sweep from the three separated mice at lower left through scattered grain to the lizard and three eggs at upper right. No rows, boxes, specimens, or diagram logic. Every mouse, tail, paw, whisker, lizard toe and tail, egg, stone, herb and architectural form is complete and ends at least 95 pixels from every canvas edge. Broad unmarked vellum perimeter on all four sides. No water. One continuous habitat, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: clear copper late-afternoon light, alert but serene, observational rather than sensational.\nText: none.\nConstraints: exactly three mice, exactly one lizard, exactly three eggs, no other animals; anatomically plausible; all focal subjects distinct and fully visible.\nAvoid: swarms, infestation, mating, pregnancy, birth, licking as reproduction, hatching, worms, disease, poison, salt experiment, drought death, corpse, predation, trap, grain contamination, extra creature, duplicate animal, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+          "rejectionReason": "The animals and counts were correct, but the upper-right granary architecture continued too near the top and right edges, violating the strict complete-discrete-motif framing requirement.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        },
+        {
+          "generationArtifactId": "exec-5f8931fd-683d-474d-86d2-c9d38b1bb8c6",
+          "status": "rejected-global-audit",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/evidence/history/b10-c065-rejected-02-global-mad.png",
+          "sha256": "bb2ae8a44aa2853f2caa74b81632900a954de54b8c22737e86f4a07ad391a1f7",
+          "outputArtifact": "built-in-imagegen://exec-5f8931fd-683d-474d-86d2-c9d38b1bb8c6.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: revised final independent Book X chapter 65 illustration master\nPrimary request: Ground Pliny’s collection of uncertain stories about mice and lizards in a calm observed field margin, without literalizing miraculous fecundity or spontaneous birth. Show exactly THREE complete field mice quietly foraging among fallen barley kernels and exactly ONE complete small Mediterranean lizard watching from a low sun-warmed stone beside exactly THREE intact pale eggs in a shallow natural hollow. The animals are peaceful and well spaced; the eggs are simply present, not hatching. Treat the chapter’s extraordinary reproductive and disappearance claims as transmitted ancient reports of uncertain reliability, not modern zoological fact.\nScene/backdrop: an entirely open late-summer grain terrace where golden stubble meets one strip of green herbs, with only low scattered stones and distant russet hills—NO building, wall, doorway, granary, architecture, or tall tree.\nStyle/medium: original Plinian natural-history folio on lightly smoked vellum; crisp iron-gall drawing, delicate stipple and short hatch, dry-brush mineral pigments; strong but restrained saffron ochre, russet madder, sage verdigris, charcoal and touches of chalk white; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high-oblique close landscape, a diagonal sweep from the three separated mice at lower left through scattered grain to the lizard and three eggs at upper right. All landscape matter feathers softly to blank vellum at least 100 pixels before all four edges. No rows, boxes, specimens, or diagram logic. Every mouse, tail, paw, whisker, lizard toe and tail, egg, stone, herb and hill is complete and ends at least 100 pixels from every canvas edge. No water. One continuous habitat, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: clear copper late-afternoon light, alert but serene, observational rather than sensational.\nText: none.\nConstraints: exactly three mice, exactly one lizard, exactly three eggs, no other animals; anatomically plausible; all focal and background motifs distinct, complete, and fully visible.\nAvoid: building, wall, doorway, swarms, infestation, mating, pregnancy, birth, licking as reproduction, hatching, worms, disease, poison, salt experiment, drought death, corpse, predation, trap, grain contamination, extra creature, duplicate animal, clipping, edge contact, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+          "rejectionReason": "The native scene passed, but the permanent global comparison found nearest MAD 17.77 against trees-aromatics-wave-24/b18-c023.png, below the required minimum 20.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        },
+        {
+          "generationArtifactId": "exec-08af2f66-59e1-42cf-82d9-24c79050767c",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/evidence/history/b10-c065-rejected-03-two-eggs.png",
+          "sha256": "d59f686029a92f23f9b0280ccff82d04c1fc9432dfac8cd556fef4f476e3d45e",
+          "outputArtifact": "built-in-imagegen://exec-08af2f66-59e1-42cf-82d9-24c79050767c.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: second revised final independent Book X chapter 65 illustration master\nPrimary request: Ground Pliny’s collection of uncertain stories about mice and lizards in a calm nocturnal field observation, without literalizing miraculous fecundity or spontaneous birth. Show exactly THREE complete field mice quietly moving through low moonlit thyme and exactly ONE complete small Mediterranean lizard resting on a broad pale stone beside exactly THREE intact eggs in a shallow natural hollow. The animals are peaceful and widely separated; the eggs are simply present and not hatching. Treat the extraordinary reproductive and disappearance claims as transmitted ancient reports of uncertain reliability, not modern zoological fact.\nScene/backdrop: a dry open plateau at night, one crescent-shaped patch of pale stubble, low thyme, scattered flat stones and distant ink-blue hills. NO building, wall, doorway, granary, architecture, tall tree, grain pile or daylight sky.\nStyle/medium: original Plinian natural-history folio on blue-grey smoke-stained vellum; crisp iron-gall drawing, dense stipple and dry-brush mineral pigments; dramatically cool nocturne palette of deep ultramarine lapis, blue-black charcoal, malachite, moonlit chalk, muted violet madder and only tiny copper accents; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low ground-level panoramic viewpoint, three mice traveling in a loose shallow arc across the lower middle, lizard and three eggs elevated on one interior stone at upper-right, broad dark negative sky and pale moonlit ground. No rows, boxes, specimens or diagram logic. Every mouse, tail, paw, whisker, lizard toe and tail, egg, stone, herb and hill is complete and ends at least 120 pixels from every canvas edge. All landscape matter feathers softly into a broad blank vellum perimeter. No water. One continuous habitat, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: silver-blue moonlight, secretive but serene, observational rather than sensational.\nText: none.\nConstraints: exactly three mice, exactly one lizard, exactly three eggs, no other animals; anatomically plausible; all focal subjects distinct and fully visible.\nAvoid: warm ochre daylight dominance, building, wall, doorway, swarms, infestation, mating, pregnancy, birth, licking as reproduction, hatching, worms, disease, poison, salt experiment, drought death, corpse, predation, trap, extra creature, duplicate animal, clipping, edge contact, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+          "rejectionReason": "The nocturne composition and animal anatomy were sound, but it rendered only two eggs instead of the exact requested count of three.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:66",
+      "title": "SALAMANDERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c066.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "74e4751566d568096dd42c4b4acc436681eb7917188872ca38bf6484e80dca91",
+        "englishSha256": "6b80e127b5145858be29c766ba4c00e5b39a9a08db9341220369be0b2fcd04cb",
+        "latinWords": 20,
+        "englishWords": 33
+      },
+      "sha256": "2bb97cca0785b9147bacd366f4f1c432879bb06956a105e0aca05d6a5e959182",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-69c0c0b0-f294-4873-959d-04c75dd556fd",
+      "generationArtifactId": "exec-69c0c0b0-f294-4873-959d-04c75dd556fd",
+      "outputArtifact": "built-in-imagegen://exec-69c0c0b0-f294-4873-959d-04c75dd556fd.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 66 illustration master\nPrimary request: Illustrate the chapter’s theme of origins that ancient authors considered hidden or unknown, while refusing to literalize its story that a serpent could arise from human spinal marrow. Show exactly ONE complete small nonvenomous serpent calmly coiled on a warm stone shelf inside a limestone grotto. Nearby, a naturally ridged pale calcite formation and a twisted tree root merely create an ambiguous resemblance to a chain of shapes; they are plainly mineral and wood, never bone or human remains. The image should evoke inquiry and uncertainty, not prove supernatural generation.\nScene/backdrop: a spacious dry Mediterranean cave mouth opening toward a distant violet dawn and scrub hillside; no person, body, skeleton, grave, laboratory, or ritual.\nStyle/medium: original Plinian natural-history folio on smoke-darkened vellum; iron-gall contour, dense fine cross-hatching, stipple and dry mineral wash; a distinctive nocturne palette of charcoal, deep faded lapis, malachite verdigris, violet madder, chalk limestone and restrained gold ochre; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: low oblique interior viewpoint, serpent isolated in a pool of dawn light at lower-center, cave arch and root curving around generous central darkness. The serpent’s full head, uninterrupted body loop and tail tip are clearly visible and anatomically plausible. Every serpent part, stone ledge, calcite formation, root, cave mouth and distant hill resolves completely inside a softly feathered unmarked vellum perimeter with at least 110 pixels breathing room; no discrete subject touches or is cut by an edge. No water. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: hushed pre-dawn chiaroscuro, contemplative, mysterious but not ominous.\nText: none.\nConstraints: exactly one animal total; one complete serpent; mineral and root shapes must not resemble a literal human spine too closely.\nAvoid: corpse, skeleton, vertebra, marrow, flesh, blood, birth, transformation, miracle shown as fact, venom attack, open mouth, suffering, graphic anatomy, person, extra creature, clipping, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-69c0c0b0-f294-4873-959d-04c75dd556fd",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete calmly coiled serpent on an interior cave shelf, with intact head, body loop and tail. Calcite and root remain plainly mineral and wood; there is no body, bone, spine, birth, violence, water, text, pseudo-writing, panel, collage or edge clipping.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:67",
+      "title": "SALAMANDERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c067.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "41aa147e0196399077ba60d8416272c517a0f160fb27c4cd5d5c288196d13cf9",
+        "englishSha256": "c4eabac3710187079440bc1dc0199f840f1c09ebf08763c535ad1dbcb44868e4",
+        "latinWords": 48,
+        "englishWords": 86
+      },
+      "sha256": "3da271d363fcb4765c801d6a6236b44c15402908a5179243dd5537b762d05d9a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-18463272-90c3-4f0b-958b-d5f83c8dcb94",
+      "generationArtifactId": "exec-18463272-90c3-4f0b-958b-d5f83c8dcb94",
+      "outputArtifact": "built-in-imagegen://exec-18463272-90c3-4f0b-958b-d5f83c8dcb94.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 67 illustration master\nPrimary request: Illustrate Pliny’s observation that the salamander appears during heavy rain, while treating his claims about extinguishing fire and harmful secretions as transmitted ancient testimony rather than demonstrated fact. Show exactly ONE complete fire salamander, black with restrained golden spots, moving calmly across a mossy limestone flag during a rainstorm. No human touches it; no secretion, injury, illness, hair loss, skin change, or medical action is shown.\nScene/backdrop: a shaded woodland spring hollow with ferns, cyclamen, wet stones and exactly ONE small oval rain puddle completely enclosed by dry mossy ground. In the far middle distance, a tiny cold stone brazier contains only grey inert ash—no flame, smoke, glowing coal, or interaction with the salamander.\nStyle/medium: original Plinian natural-history folio on cool grey-blue vellum; iron-gall contour, very fine stipple, etched rain lines and translucent mineral wash; distinctive storm palette of deep faded lapis, malachite verdigris, charcoal, slate violet, chalk and small golden-ochre accents; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: intimate near-ground three-quarter viewpoint, salamander centered on a diagonal between fern and internal puddle, with broad misty negative space behind. The whole salamander—head, four legs with plausible toes, trunk and tail tip—is clear and fully visible. Every animal part, fern frond, flower, puddle, stone and brazier ends visibly at least 110 pixels before all canvas edges; all water is contained well inside the scene and never touches or approaches any outer edge. The entire scene feathers softly into blank vellum. One continuous landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: silver rain light with quiet golden accents, fresh, reverent, observational.\nText: none.\nConstraints: exactly one animal total; exactly one fully enclosed puddle; no fire.\nAvoid: active flame, fire being extinguished, spitting, milk-like substance, poison demonstration, skin lesions, baldness, suffering, human contact, medical advice, miracle presented as fact, extra creature, duplicate salamander, malformed limbs, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-18463272-90c3-4f0b-958b-d5f83c8dcb94",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete four-legged spotted salamander in heavy rain, with plausible toes and a fully visible tail. The single puddle is completely enclosed by dry moss and stone; the brazier contains inert ash only. No flame, secretion, contact, injury, illness, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:68",
+      "title": "ANIMALS WHICH ARE BORN OF BEINGS THAT HAVE NOT BEEN BORN THEMSELVES—ANIMALS WHICH ARE BORN THEMSELVES BUT ARE NOT REPRODUCTIVE—ANIMALS WHICH ARE OF NEITHER SEX",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c068.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "c5921fec4d10d712ac389cc72e03cd5099142f4129d7c0a1605d4a6495f1cca9",
+        "englishSha256": "0d2a32b15609425f8a94c3e8efc6af1f869818c6f19001ecc85eba96023f67fd",
+        "latinWords": 109,
+        "englishWords": 222
+      },
+      "sha256": "0ad6d90e68393fce0328427c7601408bf3cde5e7d993b356358d261c613b6784",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7b955775-713b-4c21-a7cb-12353bad8c2f",
+      "generationArtifactId": "exec-7b955775-713b-4c21-a7cb-12353bad8c2f",
+      "outputArtifact": "built-in-imagegen://exec-7b955775-713b-4c21-a7cb-12353bad8c2f.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 68 illustration master\nPrimary request: Create one coherent spring-shore microhabitat that reflects the diverse animals Pliny grouped under ancient claims of sexlessness or generation without parents, without depicting those claims as true or showing any reproductive act. Show exactly ONE complete spotted salamander resting on a damp bank; exactly ONE complete eel curving visibly beneath the clear surface of a small enclosed rock pool; exactly THREE distinct oysters attached naturally to one limestone at the pool’s inner edge; and exactly ONE complete housefly resting on a pink cyclamen blossom. These are simply co-present organisms observed in one place.\nScene/backdrop: a secluded limestone spring terrace beneath low laurel, with the entire oval pool surrounded by dry stone and moss and softly fading hills beyond.\nStyle/medium: original Plinian natural-history folio on pale green-grey vellum; iron-gall contour, fine cross-hatching, stipple and translucent mineral watercolor; fresh spring palette of aquamarine, malachite verdigris, muted coral madder, chalk, umber and lampblack; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique crescent composition, salamander on the left bank, fully visible eel within the central internal pool, three countable oysters on one right-bank stone, single fly enlarged enough to read clearly on the foreground blossom. Organisms are naturally dispersed, not a specimen lineup or diagram. Every head, limb, tail tip, shell edge, wing, flower, stone, shrub and the entire water surface ends at least 115 pixels before every outer edge. All water remains fully enclosed and never touches an edge. Broad softly feathered unmarked vellum perimeter. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: luminous overcast spring morning, quiet and inquisitive.\nText: none.\nConstraints: exactly six animals total: one salamander, one eel, three oysters, one fly; all distinct and complete; no eggs, larvae, birth, mating, hatching, decay, or human.\nAvoid: spontaneous generation shown literally, anatomical sex claims, medical advice, infestation, maggots, carrion, sewage, suffering, predation, extra creature, duplicate oyster, malformed eel or salamander, clipping, water at edge, labels, arrows, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7b955775-713b-4c21-a7cb-12353bad8c2f",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete salamander, one complete eel, three distinct oysters and one complete fly in one continuous spring habitat. The oval pool is fully enclosed by stone and every organism is countable and inside the vignette. No birth, mating, larvae, decay, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:69",
+      "title": "THE SENSES OF ANIMALS—THAT ALL HAVE THE SENSES OF TOUCH AND TASTE—THOSE WHICH ARE MORE REMARKABLE FOR THEIR SIGHT, SMELL, OR HEARING—MOLES—WHETHER OYSTERS HAVE THE SENSE OF HEARING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c069.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f9b1b976840011d4fd9cb6d4f738ad68093edc028bfc705458bd7c63a55fc395",
+        "englishSha256": "c91afc16779d03f1c4e623b3b4ea0b6c9e94eb48577efb9c0c27cfe6947e6e29",
+        "latinWords": 89,
+        "englishWords": 186
+      },
+      "sha256": "29d8af680ebe74cef16b749355f71bae8543598295d94519c4b0d97690884502",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c4023bec-d9f6-4092-b18e-079d8c21f53b",
+      "generationArtifactId": "exec-c4023bec-d9f6-4092-b18e-079d8c21f53b",
+      "outputArtifact": "built-in-imagegen://exec-c4023bec-d9f6-4092-b18e-079d8c21f53b.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 69 illustration master\nPrimary request: Create one continuous Mediterranean cliff-to-soil observation scene inspired by Pliny’s comparisons of animal senses, while treating his rankings and causal claims as ancient natural-history testimony rather than modern physiology. Show exactly FOUR complete animals in naturally separated positions: exactly ONE golden eagle perched on a low central rock scanning the far valley; exactly ONE griffon vulture gliding fully visible across an interior patch of sky; exactly ONE mole paused calmly at a small earthen burrow entrance; and exactly ONE solen razor clam visible beneath the clear surface of a tiny fully enclosed tidal basin. Their posture may suggest alertness, but use no symbolic rays, arrows, sound waves, labels, or proofs.\nScene/backdrop: a broad limestone headland at still twilight, with dry thyme slopes, exposed soil and one small oval rock basin completely surrounded by stone. No person and no reference to human deafness, speech, disability, medicine, or fishing.\nStyle/medium: original Plinian natural-history folio on rose-grey vellum; iron-gall contours, refined cross-hatching and stipple, translucent mineral watercolor; distinctive muted palette of plum madder, twilight lapis, chalk limestone, burnt sienna, silver grey and restrained gold; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: panoramic side-on viewpoint, eagle as calm central anchor, vulture upper-left, mole lower-left, tiny basin and solen lower-right. All four animals remain distinct, countable, anatomically plausible and completely visible. Every wingtip, talon, beak, mole paw, tail, shell edge, rock, plant and the entire water surface ends at least 110 pixels before every outer edge. All water is enclosed well inside and never touches an edge. The scene softly dissolves to unmarked vellum on all sides. One continuous landscape, not a diagram. Native 1536x1024, opaque RGB/sRGB.\nLighting/mood: quiet violet-gold twilight, attentive and contemplative.\nText: none.\nConstraints: exactly four animals total—one eagle, one vulture, one mole, one solen; no other bird, fish, insect or shellfish; no human.\nAvoid: human disability analogy, medical claims, sensory organs cutaway, fishing, clapping, bait, capture, attack, suffering, predation, extra creature, duplicate bird, malformed wings or paws, clipping, water at edge, icons, arrows, sound waves, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c4023bec-d9f6-4092-b18e-079d8c21f53b",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete golden eagle, one complete gliding griffon vulture, one complete mole and one complete solen in a coherent headland scene. The basin and all water are fully enclosed. No human-disability analogy, diagram marks, sound waves, harm, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:70",
+      "title": "WHICH FISHES HAVE THE BEST HEARING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c070.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9dd35d89fada1c2d7206377db846cada17e1c3371c15a8f46bec6531813c0ba5",
+        "englishSha256": "ed408b6d74addca7b9234a2c24b45ef135377575520d1f5e8bc4acf4322afeb7",
+        "latinWords": 152,
+        "englishWords": 364
+      },
+      "sha256": "795954e19372196259e1e2c124bdf9cd16d4ce0cc644b6a9863e46931bc9f6fc",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1b9d45bb-90ee-45a8-9cfe-cb820dd8dc7a",
+      "generationArtifactId": "exec-1b9d45bb-90ee-45a8-9cfe-cb820dd8dc7a",
+      "outputArtifact": "built-in-imagegen://exec-1b9d45bb-90ee-45a8-9cfe-cb820dd8dc7a.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: revised final independent Book X chapter 70 illustration master\nPrimary request: Illustrate Pliny’s report that certain pond fish gathered when people clapped or called, as a quiet ancient observation rather than proof of auditory anatomy. In one completely enclosed Roman garden fishpond, show exactly FOUR complete fish visible through clear water: exactly ONE silver-grey mullet, exactly ONE olive European sea bass, exactly ONE gold-striped salema, and exactly ONE small dusky chromis. They approach from different directions without crowding. On the dry bank stands exactly ONE complete adult Roman caretaker in a plain undyed tunic, gently bringing open palms together once; posture calm, no food, bait, vessel, net, hook, line, weapon, or capture.\nScene/backdrop: an open low-walled orchard terrace with a low stone-edged oval pond, clipped thyme, two small myrtle shrubs and distant low hills. NO building, roof, colonnade, column, arch, doorway, tall tree, tall cypress, or architecture above knee height. The image avoids all later chapter claims about blood, bilge, poisons, or killing.\nStyle/medium: original Plinian natural-history folio on warm rose-ivory vellum; iron-gall contour, precise cross-hatching and stipple, translucent mineral wash; distinctive teal verdigris, faded lapis, terracotta madder, silver grey, olive and ochre; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique open-garden viewpoint, internal oval pond as the central shape, four fish separately readable under the surface, caretaker small on upper-left dry paving. Every fish from snout to tail, every fin, both hands and all fingers, the entire human figure, pond rim, water surface, low wall, shrub and hill ends at least 120 pixels before all canvas edges. Every patch of water is fully enclosed by dry stone and never touches an edge. The entire landscape dissolves softly into an unmarked vellum perimeter at least 100 pixels wide on all four sides. One continuous scene, not a diagram. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: lucid late-morning light, curious, calm, humane.\nText: none.\nConstraints: exactly four fish total, one of each listed kind; exactly one person; complete anatomy; fish remain clearly distinct and countable.\nAvoid: buildings, colonnades, roofs, columns, tall trees, extra fish, schools, bait, feeding, blood, salted flesh, bilge, cunila, poison, fishing, capture, net, hook, line, injury, dead animal, suffering, sound-wave icon, labels, clipping, edge contact, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ec9d2eba-5040-47ee-9b48-9583a5ed555f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-1b9d45bb-90ee-45a8-9cfe-cb820dd8dc7a",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection of the revised open orchard found exactly four distinct complete fish—mullet, sea bass, salema and chromis—and one complete caretaker with plausible hands and feet. The pond is fully enclosed and all subjects and low landscape motifs remain within the vellum perimeter. No bait, fishing, harm, sound icons, text, pseudo-writing, panel, collage, building or clipping appears.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-ec9d2eba-5040-47ee-9b48-9583a5ed555f",
+          "status": "rejected-native-qa",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/evidence/history/b10-c070-rejected-01-colonnade-top-edge.png",
+          "sha256": "12ef721fc3df5a6ac3c393b60996ac99e2fdcd410763b9d4be315acf309e1cf5",
+          "outputArtifact": "built-in-imagegen://exec-ec9d2eba-5040-47ee-9b48-9583a5ed555f.png",
+          "exactPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 70 illustration master\nPrimary request: Illustrate Pliny’s report that certain pond fish gathered when people clapped or called, as a quiet ancient observation rather than proof of auditory anatomy. In one completely enclosed Roman garden fishpond, show exactly FOUR complete fish visible through clear water: exactly ONE silver-grey mullet, exactly ONE olive European sea bass, exactly ONE gold-striped salema, and exactly ONE small dusky chromis. They approach from different directions without crowding. On the dry bank stands exactly ONE complete adult Roman caretaker in a plain undyed tunic, gently bringing open palms together once; posture calm, no food, bait, vessel, net, hook, line, weapon, or capture.\nScene/backdrop: a serene peristyle orchard with low stone-edged oval pond, two trimmed myrtles and distant terracotta colonnade, all enclosed within the vignette. The image avoids all later chapter claims about blood, bilge, poisons, or killing.\nStyle/medium: original Plinian natural-history folio on warm rose-ivory vellum; iron-gall contour, precise cross-hatching and stipple, translucent mineral wash; distinctive teal verdigris, faded lapis, terracotta madder, silver grey, olive and ochre; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: high oblique architectural viewpoint, internal oval pond as the central shape, four fish separately readable under the surface, caretaker small on upper-left dry paving. Every fish from snout to tail, every fin, both hands and all fingers, the entire human figure, pond rim, water surface, column and plant ends at least 115 pixels before all canvas edges. Every patch of water is fully enclosed by dry stone and never touches an edge. Architecture and garden dissolve softly into an unmarked vellum perimeter. One continuous scene, not a diagram. Native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: lucid late-morning light, curious, calm, humane.\nText: none.\nConstraints: exactly four fish total, one of each listed kind; exactly one person; complete anatomy; fish remain clearly distinct and countable.\nAvoid: extra fish, schools, bait, feeding, blood, salted flesh, bilge, cunila, poison, fishing, capture, net, hook, line, injury, dead animal, suffering, sound-wave icon, labels, clipping, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+          "rejectionReason": "Fish counts, person and pond were correct, but the colonnade roof touched the top edge and continued toward the right edge, failing strict complete-discrete-architecture framing.",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality"
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:71",
+      "title": "DIVERSITIES IN THE FEEDING OF ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c071.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "43a232f5502d788eed1d3f21f6b7ed4b41f5f08c6101da23f967ba871566ef92",
+        "englishSha256": "1604acd3813761ed4de8f73cc88714e3d49341f7f47138d69f6a79da35e148c3",
+        "latinWords": 73,
+        "englishWords": 175
+      },
+      "sha256": "4400982a24748df39c7ccb0a5ea883278a706a84af0dcd33fc81a62048356b23",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7ccefc08-6ad1-4fab-a753-6a0feb962256",
+      "generationArtifactId": "exec-7ccefc08-6ad1-4fab-a753-6a0feb962256",
+      "outputArtifact": "built-in-imagegen://exec-7ccefc08-6ad1-4fab-a753-6a0feb962256.png",
+      "exactFinalPrompt": "Use case: historical natural-history illustration\nAsset type: final independent Book X chapter 71 illustration master\nPrimary request: Visualize Pliny’s theme that animals take food in many different ways through one peaceful, coherent orchard meadow—never predation, harm, or a taxonomy chart. Show exactly SIX complete animals, naturally dispersed at different depths: exactly ONE small goat browsing olive leaves; exactly ONE green parakeet holding a split fig in one foot and nibbling it; exactly ONE spoonbill gently sifting its broad bill in a tiny enclosed pool; exactly ONE woodpecker tapping a standing dead branch for hidden insects without showing prey; exactly ONE butterfly sipping a purple flower; and exactly ONE hen scratching beside a few loose grains. No other animals.\nScene/backdrop: a sunlit Campanian orchard terrace with olive and fig trees, flowered meadow, one low dead branch and one small oval pool completely encircled by dry stones. The six actions should feel like one living landscape, not separated examples.\nStyle/medium: original Plinian natural-history folio on honey-toned vellum; iron-gall contours, animated fine hatching, stipple and luminous egg-tempera mineral wash; richer yet restrained palette of emerald verdigris, cinnabar madder, purple lake, ochre, faded lapis, umber and chalk; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: broad eye-level landscape with a gentle zigzag rhythm through six feeding actions: goat at left-middle, parakeet on an interior fig bough, spoonbill at the enclosed pool, woodpecker on an interior dead branch, butterfly at lower-middle flower, hen at lower-right. Each animal is separated, countable, anatomically plausible and fully visible. Every horn, hoof, wingtip, tail, foot, beak, bill, antenna, flower, branch, grain, stone and the entire water surface ends at least 115 pixels before every canvas edge. All water stays fully enclosed and never touches an edge. Entire habitat feathers softly into broad blank vellum. One continuous scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: warm clear morning, abundant, humane, observant.\nText: none.\nConstraints: exactly six animals total, one of each listed kind; no hidden or distant extra birds or insects; no visible prey; all complete.\nAvoid: hunting, killing, blood, carcass, prey, capture, beak injury, feeding hierarchy, food advice, specimen lineup, grid, diagram, extra creature, duplicate bird, malformed anatomy, clipping, water at edge, labels, arrows, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panel, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7ccefc08-6ad1-4fab-a753-6a0feb962256",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly six complete animals in one continuous orchard: browsing goat, fig-holding parakeet, sifting spoonbill, woodpecker, flower-sipping butterfly and grain-scratching hen. The internal pool is fully enclosed and every focal subject is complete. No visible prey, harm, extra creature, text, pseudo-writing, panel, collage or clipping appears.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 781,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:64": {
+        "nearestMAD": 29.93,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c019.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c012.png",
+        "madAtDHashPeer": 66.65
+      },
+      "10:65": {
+        "nearestMAD": 20.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-08/b10-c066.png",
+        "madAtDHashPeer": 47.44
+      },
+      "10:66": {
+        "nearestMAD": 32.92,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c040.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c023.png",
+        "madAtDHashPeer": 66.41
+      },
+      "10:67": {
+        "nearestMAD": 23.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c018.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 10,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c012.png",
+        "madAtDHashPeer": 30.46
+      },
+      "10:68": {
+        "nearestMAD": 28.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c027.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c042.png",
+        "madAtDHashPeer": 38.98
+      },
+      "10:69": {
+        "nearestMAD": 26.74,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c004.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c024.png",
+        "madAtDHashPeer": 36.17
+      },
+      "10:70": {
+        "nearestMAD": 20.73,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c016.png",
+        "madAtDHashPeer": 26.16
+      },
+      "10:71": {
+        "nearestMAD": 24.51,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c014.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c001.png",
+        "madAtDHashPeer": 33.18
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-birds-wave-08",
+    "status": "pass",
+    "output": ""
+  }
+}

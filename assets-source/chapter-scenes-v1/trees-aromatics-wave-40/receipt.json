@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-40",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "25:9",
+      "title": "THE ARGEMONIA: FOUR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+      "sha256": "498389e0e7223a1f961c42ba7110dd82d686a0ee2a588fbef4e998178a75cb0c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7f538492-0622-4c07-aac0-9bb49ddc2b17",
+      "outputArtifact": "built-in-imagegen://exec-7f538492-0622-4c07-aac0-9bb49ddc2b17.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXV chapter 9, “The Argemonia: Four Remedies.” This is a historical natural-history observation, not medical advice. Show an intimate ground-level Roman field study: at left, exactly one complete ancient naturalist crouches calmly and observes rather than administers anything; at center-right, one complete argemonia specimen has just been lifted so its frankincense-scented root, slender stem, deeply divided parsley-like leaves, and wild-poppy-like flower head can all be seen together, while a second complete rooted argemonia remains growing nearby. A tiny natural saffron-colored bead may appear at one cut stem, with no vessel, dosage, patient, wound, or treatment. Arrange the two plants as a living field scene, not an atlas or diagram. Use a low oblique viewpoint, sparse stony grasses, and generous calm negative space around every silhouette.\n\nBinding house style: an original deluxe Roman natural-history folio rendered as a full-bleed 3:2 landscape image, exactly 1536×1024, opaque sRGB. Warm aged vellum is the image material itself, not a depicted page; iron-gall contour linework, fine cross-hatching and stipple, restrained mineral pigments of umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Ancient, timeless, beautiful, tactile, rough and polished at once. Plant morphology must be legible and plausible. Keep every person, plant, root, flower, shadow, and ground contact completely inside generous uninterrupted breathing room on all four edges. One continuous scene only. Absolutely no lettering, captions, labels, numerals, pseudo-writing, manuscript marks, signatures, logos, watermarks, decorative border, visible sheet, panel, collage, split frame, modern object, photography, glossy digital rendering, magical glow, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete crouching naturalist observes one complete lifted argemonia with connected root, divided leaves, slender stem, flower and a minute saffron-colored sap bead; a second complete rooted flowering plant remains grounded nearby. The scene is botanical observation rather than dosing or treatment. No patient, vessel, dosage, text, pseudo-writing, panel, repeated crop, visible sheet, watermark, modern object, magical effect, floating subject or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "25:11",
+      "title": "REMEDIES FOR DISEASES OF THE HEAD. NYMPHÆA HERACLIA: TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c011.png",
+      "sha256": "20443bd0067c1bd90cd5b70ca71b6f981a4dd255236d4b7619da929ef58d84ea",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7f028a0d-5c1d-495d-9562-404c017cc988",
+      "outputArtifact": "built-in-imagegen://exec-7f028a0d-5c1d-495d-9562-404c017cc988.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXV chapter 11, “Remedies for Diseases of the Head; Nymphaea Heraclia.” Frame all remedy lore as transmitted ancient testimony, not modern treatment. Depict a quiet waterside botanical harvest with no patient and no application: from a high diagonal viewpoint, exactly one complete ancient botanist kneels safely on a curved spring bank, using both hands to lift one complete water-lily-like nymphaea heraclia rhizome from clear shallow water so the intact root, long stems, rounded floating leaves, and pale flowers are visibly connected. A second complete flowering nymphaea remains rooted in the spring. Let the curving bank, ripples, reeds, and lily pads form one spacious flowing composition; no specimen grid, no dissection, no medical instruments.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum as the image material itself rather than a depicted page; iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments with faded-lapis water, muted verdigris leaves, ochre earth, umber and lampblack structure, tiny madder accents. Ancient, timeless, beautiful, tactile, rough and polished at once. Botanical anatomy and human hands must be plausible. Keep the botanist, every limb and garment, both complete plants, all flowers, roots, ripples, and shadows fully inside generous uninterrupted breathing room at every edge. One continuous scene only. Absolutely no text, labels, captions, numerals, pseudo-writing, marginalia, signatures, logos, watermarks, decorative border, visible paper sheet, panels, collage, repeated crops, modern objects, photography, glossy digital rendering, treatment of a person, scalp imagery, wounds, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete kneeling botanist lifts one complete connected nymphaea rhizome, stems, leaves and flowers from a shallow spring; a second complete flowering water plant remains rooted and grounded in the water. The high-diagonal spring composition is spacious and distinct. No patient, scalp imagery, application, medical instrument, text, pseudo-writing, panel, collage, repeated crop, visible sheet, watermark, modern object, floating subject or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "25:12",
+      "title": "REMEDIES FOR DISEASES OF THE EYES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c012.png",
+      "sha256": "886ca7e20629b748271ed428294610fa72a51cc969d8b760ecbdbe36bbd800cc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-23a071d5-0b41-451e-8a41-9a94ea92c370",
+      "outputArtifact": "built-in-imagegen://exec-23a071d5-0b41-451e-8a41-9a94ea92c370.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXV chapter 12, “Remedies for Diseases of the Eyes.” Present the chapter as historical botanical practice, never as current medical instruction. Make a serene open-air Roman apothecary observation with no patient, face, eye, or treatment: exactly one complete seated herbal observer is shown in three-quarter profile beneath a simple vine shade, steeping several flowering stems of greater centaury in a broad shallow ceramic basin of rainwater, while one complete rooted greater-centaury plant grows beside the work surface with its upright stem, opposite leaves, branching crown, and small clustered flowers clearly legible. Include only a plain water jug and a folded undyed cloth as secondary objects; no honey, opium, dosage device, surgical tool, written recipe, or labels. Compose the basin as a luminous central oval, the intact plant as a tall counterpoint, and the figure lower and lateral, with ample negative space and a different silhouette from field-harvest scenes.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum is the image field itself, not a visible page; iron-gall contour drawing, fine cross-hatching and stipple, restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral washes. Ancient, timeless, beautiful, tactile, rough and polished at once. The preparation must read as period testimony and observation, not a recommendation. Keep the complete figure, chair, work surface, basin, vessel, cloth, complete plant, stems, shadows, and ground contacts wholly inside generous uninterrupted margins on all sides. One continuous scene only. Absolutely no lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, decorative border, depicted sheet, panels, collage, repeated crops, modern objects, glassware, photography, glossy digital rendering, eye anatomy, patient, application, magical effects, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete seated observer steeps flowering greater-centaury stems in one broad rainwater basin beside one complete centaury plant; the water jug, cloth, chair and worktable are supported and fully framed. The scene reads as transmitted period preparation without showing an eye, patient, application or dosage. No text, pseudo-writing, honey, opium, surgical tool, glassware, panel, repeated crop, visible sheet, watermark, modern object, magical effect or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "25:13",
+      "title": "THE ANAGALLIS, OR CORCHORON; TWO VARIETIES OF IT: SIX REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c013.png",
+      "sha256": "1ba153755ead3900b217ffe99b2f01aa572adfd22982cbf6ff7058bf487403df",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-6bfca576-ff04-4864-a88f-c5194a7b0eca",
+      "outputArtifact": "built-in-imagegen://exec-6bfca576-ff04-4864-a88f-c5194a7b0eca.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXV chapter 13, “The Anagallis, or Corchoron; Two Varieties.” Render Pliny's ancient red-flowered “male” and blue-flowered “female” classification strictly as historical testimony, not modern botanical fact. Show a single continuous rain-damp Roman garden at first light with no people: two naturally intermingled but unmistakable complete anagallis plants grow beside a shallow irrigation runnel. One has small vivid madder-red blossoms; the other has small faded-lapis-blue blossoms opening slightly earlier in the dawn light. Both plants are no more than palm-high in scale relative to nearby pebbles, with tender stems and diminutive rounded leaves drooping close to wet ground; every stem and root-ground contact is visible. Use a near-overhead sweeping viewpoint, asymmetric S-curve of water, glistening soil, and broad quiet vellum-toned garden space. This must feel like ecology, not a paired specimen plate, taxonomy chart, panel, or diagram.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum is the image material itself and never a depicted page; iron-gall linework, fine cross-hatching and stipple, restrained mineral pigments of umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Ancient, timeless, beautiful, tactile, rough and polished at once. Botanically plausible delicate morphology. Keep both complete plants, every blossom, runnel, pebble, shadow, and ground contact fully inside generous uninterrupted breathing room at every edge. One continuous composition only. Absolutely no text, labels, captions, numerals, pseudo-writing, marginalia, signatures, logos, watermarks, ornamental border, visible paper sheet, split panels, collage, repeated crops, human figure, remedy preparation, modern object, photography, glossy digital rendering, magical glow, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Two complete low-growing anagallis forms with distinct red and blue blossoms occupy opposite banks of one continuous wet-garden runnel; stems, rounded leaves and root-ground contacts remain legible and fully contained. The historical color classification is presented as habitat observation rather than modern taxonomy or remedy use. No person, text, pseudo-writing, labels, specimen grid, split panel, repeated crop, visible sheet, watermark, modern object, magical effect or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "26:1",
+      "title": "NEW FORMS OF DISEASE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b26-c001.png",
+      "sha256": "645922f53e8d93b405641e43deefe58ba4285bd3b05f1eaee584685bf94e1985",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5d72c2e5-2cbc-4b5a-83e0-5a55efc9fc4f",
+      "outputArtifact": "built-in-imagegen://exec-5d72c2e5-2cbc-4b5a-83e0-5a55efc9fc4f.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXVI chapter 1, “New Forms of Disease.” This must read as sober historical testimony about disease appearing and spreading in imperial Rome, never as modern diagnosis, advice, or spectacle. Avoid depicting symptoms. Use a wide architectural panorama: beneath a complete Roman city gate and long portico, exactly three complete modestly scaled figures stand with ample space between them—an arriving eastern Mediterranean traveller with a closed travel case, a Roman physician carrying only a plain herb satchel, and a civic observer looking outward over a distant diverse forum crowd. Every face is calm and unmarked; no one touches or examines another. On a low stone bench, an unused ancient cautery iron rests cold beside a small tied coin purse, alluding to the chapter's account of invasive and expensive practitioners without endorsing them. Let the gate, route, and distant city suggest the historical arrival of unfamiliar afflictions; the mood is alert, humane, and non-stigmatizing.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum as the image material itself, not a depicted page; iron-gall linework, fine cross-hatching and stipple, restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre mineral washes. Ancient, timeless, beautiful, tactile, rough and polished at once. Keep the complete gate, all architecture, all three figures, every limb, case, satchel, bench, cold tool, purse, crowd silhouette, shadow, and ground contact fully inside generous uninterrupted breathing room on all edges. One continuous scene only. Absolutely no text, lettering, captions, labels, numerals, pseudo-writing, placards, manuscript marks, signatures, logos, watermarks, decorative border, visible paper sheet, panels, collage, repeated crops, modern object, modern mask, photography, glossy digital rendering, medical procedure, visible symptom, deformity, wound, suffering, magical effect, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete foreground figures—a traveller, herb-satchel physician and civic observer—stand beneath a complete central Roman gateway, with a distant forum crowd, cold unused cautery and tied coin purse providing historically grounded context. All faces are calm and unmarked; no contact, examination or procedure occurs. Contextual porticoes extend full bleed while the central gateway and every primary figure and object are complete. No visible symptom, stigma, patient, text, pseudo-writing, modern mask, panel, repeated crop, visible sheet, watermark, magical effect or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "26:2",
+      "title": "COLIC",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b26-c002.png",
+      "sha256": "179b30c01fd60f5c01874c30238e10effba8e16da7c53298daf654ad7115a0fa",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-24688e02-149e-49ce-93a8-0ce8cb2db0ed",
+      "outputArtifact": "built-in-imagegen://exec-24688e02-149e-49ce-93a8-0ce8cb2db0ed.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXVI chapter 2, “Colic,” focusing on Pliny's praise of Hippocratic plant knowledge and his criticism of later medicine's empty verbiage. This is historical intellectual commentary, not treatment advice. In a vast wind-shaped upland at the edge of a dry valley, exactly one complete Roman naturalist kneels to observe a single complete small wild medicinal plant in its actual habitat; his hands do not pick, mix, or administer it. Far behind him, a complete but empty stone lecture colonnade and vacant teaching seat recede into haze, contrasting direct seasonal field observation with merely sitting in schools. Use an expansive low horizon, diagonal footpath, broad sky-toned vellum negative space, and a tiny focused plant as the moral center. No patient, no abdominal imagery, no medicine container, no written treatise.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum is the image field itself, never a depicted sheet; iron-gall contours, fine cross-hatching and stipple, restrained mineral washes of umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Ancient, timeless, beautiful, tactile, rough and polished at once. Human anatomy and plant morphology must be plausible. Keep the complete figure, every limb and garment, complete plant, full colonnade, teaching seat, path, stones, shadows, and all ground contacts wholly inside generous uninterrupted breathing room at every edge. One continuous landscape only. Absolutely no lettering, captions, labels, numerals, pseudo-writing, books with marks, signatures, logos, watermarks, decorative border, visible paper sheet, split panels, collage, repeated crops, modern objects, photography, glossy digital rendering, medical procedure, remedy preparation, patient, pain gesture, magical effect, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete kneeling Roman naturalist observes one complete rooted wild plant in a vast upland; a complete empty lecture colonnade and vacant teaching seat recede behind him, clearly expressing Pliny's contrast between field knowledge and empty verbiage. No patient, pain gesture, abdominal imagery, preparation, dose, book, text, pseudo-writing, panel, repeated crop, visible sheet, watermark, modern object, magical effect or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "26:4",
+      "title": "REMARKS IN DISPRAISE OF THE PRACTICES OF MAGIC",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b26-c004.png",
+      "sha256": "6ac0380521825fedc6f5d7e31344ce705d4a2887e8853b14da7a1acc122e4d50",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-05b8a3c3-c9d9-4b55-bd5f-15b510d1be75",
+      "outputArtifact": "built-in-imagegen://exec-05b8a3c3-c9d9-4b55-bd5f-15b510d1be75.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXVI chapter 4, “Remarks in Dispraise of the Practices of Magic.” Make Pliny's skepticism unmistakable: no supernatural claim is shown as true. In one continuous low-angle Roman landscape, exactly one complete skeptical naturalist stands on a stone causeway between a visibly full flowing river and a broad water-filled marsh; behind him a massive complete city gate remains firmly shut. He holds one ordinary æthiopis-like herb loosely at arm's length and studies it with a wry, doubtful expression while his other open hand indicates that neither water has dried nor gate has opened. A plain discarded ritual cord and harmless empty amulet lie small and separate on the causeway. No spell is underway, no magical energy exists, and the ordinary natural world remains unchanged. Use strong triangular spacing among skeptic, river, and closed gate, with open water creating negative space.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum as the image material itself rather than a depicted page; iron-gall linework, fine cross-hatching and stipple, restrained faded-lapis water, muted verdigris marsh plants, umber and lampblack stone, ochre and tiny madder accents. Ancient, timeless, beautiful, tactile, rough and polished at once. Keep the complete person, entire herb, both hands, full gate and doors, river banks, marsh, causeway, cord, amulet, shadows, and ground contacts fully within generous uninterrupted breathing room at all edges. One continuous scene only. Absolutely no text, lettering, captions, labels, numerals, pseudo-writing, sigils, runes, manuscripts, signatures, logos, watermarks, decorative border, visible sheet, panels, collage, repeated crops, modern objects, photography, glossy digital rendering, glowing plants, spell effects, fantasy apparition, violence, patient, remedy use, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete skeptic holds one ordinary rooted herb between a visibly full river, water-filled marsh and firmly shut complete gate; his open hand, inert cord and empty amulet make Pliny's disbelief legible without depicting supernatural efficacy. No spell, glowing plant, dried water, opened gate, patient, treatment, text, pseudo-writing, sigil, panel, repeated crop, visible sheet, watermark, modern object, violence or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "26:5",
+      "title": "SCROFULA",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b26-c005.png",
+      "sha256": "2c54479378e0d7b50a40c0b1fa319abb39617cb9d9c3ae33c65f18e7eff8f836",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-be992a38-f869-4f5c-a373-adc39aa4a699",
+      "outputArtifact": "built-in-imagegen://exec-be992a38-f869-4f5c-a373-adc39aa4a699.png",
+      "exactFinalPrompt": "Create one independent original chapter illustration for Pliny the Elder's Naturalis Historia, Book XXVI chapter 5, “Scrofula.” Treat the listed remedies and amulet practices strictly as transmitted ancient claims, never as modern care. Favor Pliny's criticism of manipulative herbalists; show no patient, disease, treatment, or ritual. In an intimate side-lit grove, show exactly ONE human being total: one complete seated Roman plant observer at left, entirely visible head to sandals, facing one complete large-leaved sideritis growing intact in undisturbed soil at center-right. His right hand is wholly visible and raised in a calm refusal gesture; his left hand rests visibly on his own knee. No other person, limb, hand, arm, or cropped body part may appear anywhere. On a flat stone safely between the person and plant lie a loose plain cord and one unused small ancient bronze nail, clearly inert and untouched, showing that the plant will not be cleft, tied on, or replanted as a charm. Nearby one small complete plantago rosette and one complete cinquefoil grow naturally as quiet chapter-grounded context. Use a low circular composition around the protected rooted sideritis and broad calm negative space. A contextual tree trunk and canopy may appear in the far background but must not dominate.\n\nBinding house style: original deluxe Roman natural-history folio, full-bleed 3:2 landscape, exactly 1536×1024, opaque sRGB. Warm aged vellum is the image material itself, not a visible page; iron-gall contours, fine cross-hatching and stipple, restrained mineral pigments of umber, lampblack, muted verdigris, faded lapis, madder, and ochre. Ancient, timeless, beautiful, tactile, rough and polished at once. Human anatomy and all plant forms must be plausible. Keep the sole complete seated figure, every limb and garment, the complete rooted sideritis, plantago, cinquefoil, stone, nail, cord, shadows, and every ground contact wholly inside generous uninterrupted breathing room on all four edges. One continuous scene only. Absolutely no second person, extra hand, partial limb, figure entering from an edge, lettering, captions, labels, numerals, pseudo-writing, sigils, manuscripts, signatures, logos, watermarks, decorative border, visible paper sheet, panels, collage, repeated crops, modern objects, photography, glossy digital rendering, magical glow, spell effect, talisman in use, preparation vessel, wound, swelling, neck lesion, medical examination, or graphic illness.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete seated Roman observer raises one fully visible hand in refusal before one intact rooted large-leaved sideritis; an inert cord and unused bronze nail rest on a grounded stone, with complete plantago and cinquefoil as restrained chapter context. No second person or limb, patient, swelling, lesion, talisman in use, preparation, treatment, text, pseudo-writing, sigil, panel, repeated crop, visible sheet, watermark, modern object, magical effect or clipped primary subject was found. Accepted second built-in generation after removing an edge-entering extra hand; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-85e19c77-965d-4e8e-9459-2e53f9769d46.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/evidence/history/b26-c005-rejected-01-exec-85e19c77-965d-4e8e-9459-2e53f9769d46.png",
+          "sha256": "51c809ea8404b965c12708455c1c7d0c093d36099759f30a5b1c17d94a90be7b",
+          "reason": "Rejected at original-resolution review because a second person's cropped hand entered from the left edge offering the cord; this violated the exactly-one-complete-person and no-edge-entering-subject gates."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 376,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "25:9": {
+        "nearestMAD": 30.6,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c035.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c007.png",
+        "madAtDHashPeer": 35.07
+      },
+      "25:11": {
+        "nearestMAD": 26.87,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c006.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-03/b20-c011.png",
+        "madAtDHashPeer": 39.36
+      },
+      "25:12": {
+        "nearestMAD": 28.03,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c008.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c008.png",
+        "madAtDHashPeer": 28.03
+      },
+      "25:13": {
+        "nearestMAD": 23.81,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b21-c034.png",
+        "madAtDHashPeer": 58.74
+      },
+      "26:1": {
+        "nearestMAD": 30.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c010.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c039.png",
+        "madAtDHashPeer": 48.42
+      },
+      "26:2": {
+        "nearestMAD": 23.82,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c006.png",
+        "dHashAtMadPeer": 43,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "madAtDHashPeer": 43.48
+      },
+      "26:4": {
+        "nearestMAD": 25.3,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b24-c019.png",
+        "madAtDHashPeer": 53.14
+      },
+      "26:5": {
+        "nearestMAD": 30.51,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c009.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c001.png",
+        "madAtDHashPeer": 53.43
+      }
+    }
+  }
+}

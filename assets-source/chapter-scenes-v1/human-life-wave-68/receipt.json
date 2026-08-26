@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "campaign": "human-life-wave-68",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "chapters": [
+    {
+      "chapterKey": "7:37",
+      "title": "NAMES OF MEN WHO HAVE EXCELLED IN THE ARTS, ASTROLOGY, GRAMMAR, AND MEDICINE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c037.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "9c8efe1bcf2ad37bd3b92b668c75b1d17a436c0158b17da04072420f6ff60e01",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-77213f88-3d47-4e58-9d21-3cbb2b43762f",
+      "generationArtifactId": "exec-77213f88-3d47-4e58-9d21-3cbb2b43762f",
+      "outputArtifact": "built-in-imagegen://exec-77213f88-3d47-4e58-9d21-3cbb2b43762f.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 37, “NAMES OF MEN WHO HAVE EXCELLED IN THE ARTS, ASTROLOGY, GRAMMAR, AND MEDICINE.” Ground the composition in Pliny’s transmitted account of Hippocrates anticipating a pestilence from Illyria and sending pupils to aid multiple cities. Treat this as an ancient report about organized care and learned service, not proof of prophecy, supernatural foresight, or modern medical efficacy.\nScene/backdrop: dawn at the harbor of Kos. Hippocrates stands on a broad pale stone quay and sends exactly three complete adult pupils toward different destinations: one steps toward a fully contained small open sailboat moored at a complete short landing stage; one turns toward an inland road through a distant complete gate; one remains beside Hippocrates receiving a closed plain medical satchel. Exactly four people total. A faint grey-violet weather haze lies far beyond the sea, ambiguous rather than ominous. Plain covered herb baskets and stoppered water flasks sit ready; nobody is ill or being examined.\nComposition/framing: very wide elevated oblique panorama, with all four figures small and complete in the lower middle, boat and landing stage fully inside on one side, inland gate fully inside on the other, generous bands of quiet sea, sky, and open paving. The routes diverge naturally through one continuous scene, never as a diagram or collage. Strong airy negative space and a materially different silhouette from a courtyard discussion.\nLighting/mood: pale first light, disciplined, humane, observant, quietly purposeful.\nColor palette: sea-dominant faded lapis and silvered verdigris, bone ochre quay, umber linework, a single restrained smoky-madder cloak, grey-violet distant haze.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, very fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nHistorical and ethical framing: the image visualizes one transmitted ancient account with uncertainty. It does not assert that prediction was supernatural or clinically verified, and it does not offer medical advice.\nConstraints: landscape 3:2, output 1536x1024, opaque full-bleed RGB/sRGB PNG. Keep Hippocrates, exactly three pupils, every head, hand, and foot, the entire small boat including hull/mast/sail, the whole landing stage, the complete road gate, all baskets, flasks, and satchel comfortably within the canvas with generous breathing room. No focal person, vessel, dock, or structure touches or crosses any edge. Natural sea and sky alone may continue to the canvas boundaries.\nAvoid: illness spectacle, plague victims, suffering, corpses, miracle aura, prophetic rays, map, route lines, arrows, diagrams, medical apparatus, heroic pedestal, military imagery, repeated poses, border, frame, visible page, panels, inset, montage, collage, lettering, labels, captions, numerals, pseudo-writing, inscriptions, marked scrolls or tablets, signatures, logos, watermarks, modern objects, photography, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution. Hippocrates and exactly three pupils are complete on the Kos quay; the small boat, landing stage, inland gate, satchel, baskets, and flasks are fully contained. The scene reads as uncertain transmitted testimony about organized care, not supernatural prediction or medical advice. No illness spectacle, text, pseudo-writing, panel, border, modern object, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e886309d-b8d9-46bb-95f3-86ca3c548c9a.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c037-reject-01-exec-e886309d-b8d9-46bb-95f3-86ca3c548c9a.png",
+          "sha256": "d2ffe3049e2ce33b9c3e1bf7337d486719d21176a0b7c8c98663beaf017133fc",
+          "reason": "Rejected after native QA because the overloaded hybrid night-and-day workshop compressed numerous figures, machines, architecture, and miniature city models into a montage-like composition; several foreground vessels and mechanisms were clipped by the outer edges, contradicting the campaign framing contract. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:38",
+      "title": "OF PAINTING; ENGRAVING ON BRONZE, MARBLE, AND IVORY; OF CARVING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c038.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "c6d549dccb9f0681cea971ac493fe909a0576147ef91980a076623567cf8bbb1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-68bdd489-b001-4091-8076-22b7e1c066ba",
+      "generationArtifactId": "exec-68bdd489-b001-4091-8076-22b7e1c066ba",
+      "outputArtifact": "built-in-imagegen://exec-68bdd489-b001-4091-8076-22b7e1c066ba.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 38, “OF PAINTING; ENGRAVING ON BRONZE, MARBLE, AND IVORY; OF CARVING.” Ground it in Pliny’s catalogue of artists whose paintings, stonework, bronze, ivory, and carved vessels were extraordinarily valued. Re-center the chapter on skilled hands and material knowledge rather than royal ownership, erotic legend, or price.\nScene/backdrop: one sunlit Rhodian artisan courtyard during an ordinary workday. Exactly four complete adult artisans collaborate along a single gently curving shared work zone without walls dividing them: a woman painter at a low easel applies mineral wash to an entirely abstract field of three broad color shapes with no people, letters, symbols, border, or pseudo-writing; a seated bronze worker chases a fully visible small plain cup; an ivory carver shapes a fully visible undecorated comb; and a standing stone sculptor works on a fully contained, partly finished, modestly draped human figure whose head, hands, feet, plinth, and surrounding chips are all inside the image. The artisans look toward one another and exchange tools naturally, so this reads as one workshop community rather than four separate demonstrations.\nComposition/framing: pulled-back high three-quarter view across an open asymmetrical diagonal. The complete easel and abstract color field occupy the rear-left, bronze cup and ivory comb the center, and the complete draped stone figure the forward-right, all separated by generous visible paving and unified by one long pool of angled sunlight. Exactly four artisans total, every full body visible. No grids or repeated panel rhythm.\nLighting/mood: luminous late morning, tactile, absorbed, collegial, reverent toward labor.\nColor palette: chalky pale stone and bone ochre, muted verdigris, concentrated smoky madder and faded lapis only in pigment bowls, warm umber and lampblack shadows, restrained bronze and ivory highlights.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nHistorical and ethical framing: visualize ancient craft traditions as transmitted cultural history, not a hierarchy of civilizations or endorsement of the chapter’s monetary valuations.\nConstraints: landscape 3:2, output 1536x1024, opaque full-bleed RGB/sRGB PNG. Keep exactly four complete artisans, all heads, hands, and feet, the entire low easel and its abstract mark-free painted surface, the full bronze cup, ivory comb, work stools, hand tools, and the complete draped stone sculpture and plinth comfortably inside with generous clear breathing room. No artisan, easel, tool, cup, comb, statue, or plinth touches or crosses any edge. Background floor and sky alone may continue through the canvas boundaries.\nAvoid: eroticized nudity, Cnidian Venus legend, warfare, royal auction, coins, price tags, collectors posing, spectacle, anatomy study, broken limbs, duplicated tools, decorative architectural frame, border, visible page, panel, inset, montage, collage, diptych, triptych, lettering, labels, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, photography, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution. Exactly four complete artisans share one Rhodian courtyard; the abstract easel painting, chased bronze cup, ivory comb, hand tools, stools, and fully contained draped stone figure are present. The visual center is skilled collaborative labour rather than ownership or price. No text, pseudo-writing, panel, border, duplicate person, or clipped focal object was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:39",
+      "title": "SLAVES FOR WHICH A HIGH PRICE HAS BEEN GIVEN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c039.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "854f7139113aac3908503047c661ee129dc9dd9612845d01ba97592bb44d788e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-de64c63a-19c6-4451-a8f2-0cca19a17aed",
+      "generationArtifactId": "exec-de64c63a-19c6-4451-a8f2-0cca19a17aed",
+      "outputArtifact": "built-in-imagegen://exec-de64c63a-19c6-4451-a8f2-0cca19a17aed.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the edge safety of Image 1, the dignity-centered Daphnus teaching scene for Pliny the Elder, Naturalis Historia, Book VII chapter 39, “SLAVES FOR WHICH A HIGH PRICE HAS BEEN GIVEN.” Move the older learner at far left and the whole of his stool inward so his full robe, elbow, body, sandals, and stool have generous clear space from the left and bottom canvas edges. Preserve the scene’s ethical center: Daphnus is an intellectually authoritative adult teaching exactly three adult learners as peers; enslavement and human pricing remain historical violence rather than spectacle.\nInput image: Image 1 is the edit target and must remain the same independent illustration.\nInvariants: Keep Daphnus, the other two learners, all faces, identities, poses, expressions, clothing, exactly five plain counting stones, complete teaching table, closed cashbox, unused balance scale, pileus, folded cloak, bench, complete laurel sapling, Roman library garden, lighting, palette, vellum texture, iron-gall contours, cross-hatching, stipple, dry-brush abrasion, restrained mineral washes, and all object relationships unchanged. Keep exactly four living people. Keep every prop fully contained. The background only may continue to the edges.\nComposition/framing: Expand or rebalance the left and lower negative space naturally; every person, foot, hand, stool, focal prop, table, bench, scale, cashbox, and tree must sit comfortably inside the 3:2 landscape with breathing room.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024.\nAvoid: changing the narrative, adding or removing people, adding or removing stones or props, human sale, auction, chains, shackles, guards, pricing, coins, humiliation, exoticization, sexualization, violence, visible writing, text, lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, modern objects, border, frame, visible page, panels, inset, montage, collage, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution after one framing edit. Daphnus remains the authoritative teacher among exactly three complete adult learners; exactly five counting stones, complete teaching table, closed cashbox, unused scale, pileus, cloak, bench, and laurel sapling are all safely internal. The market apparatus is remote and unused, so enslavement is historical violence rather than spectacle. No text, sale, hierarchy, panel, border, or clipped focal subject remains. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-bc56d27e-4f32-48ac-9ac6-d086658185a2.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c039-rejected-01.png",
+          "sha256": "d131c5ec0a927eafd28556dbcf2aaa7f13a7f2436276a4a4ee064dff548251e4",
+          "reason": "Rejected after native QA because the older learner at far left and his robe grazed the left canvas boundary despite the prompt requiring every learner and stool to remain comfortably internal. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:40",
+      "title": "SUPREME HAPPINESS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c040.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "6146dd2c5c3a66bd3dab51f879fb469e24a3583658d21c61212c75c9a006b382",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-50941281-4555-4f20-9bde-e72445e08c6b",
+      "generationArtifactId": "exec-50941281-4555-4f20-9bde-e72445e08c6b",
+      "outputArtifact": "built-in-imagegen://exec-50941281-4555-4f20-9bde-e72445e08c6b.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 chapter illustration for an interactive illuminated edition.\nPrimary request: Erase the small pale angular two-stroke mark in the extreme lower-right corner of Image 1. It sits within the bottom-right 90-by-90-pixel region, roughly 35 pixels from the right edge and 35 pixels from the bottom edge, and resembles a tiny white signature or bent chevron. Replace that entire mark with seamless, non-directional weathered grey stone matching the immediately surrounding terrace. The repaired area must contain no line, glyph, scratch cluster, symbol, initials, chevron, signature, or watermark. Make no other change.\nInput image: Image 1 is the edit target, the “SUPREME HAPPINESS” scene for Pliny the Elder, Naturalis Historia, Book VII chapter 40.\nInvariants: Keep the complete elderly woman, pose, identity, face, hands, feet, garments, pebble in her palm, urn, all scattered pebbles, woven mat, hill terrace, valley, houses, sheep, dawn, perspective, lighting, palette, composition, vellum grain, linework, hatching, washes, and every pixel outside the local bottom-right repair visually unchanged. Keep exactly one living person. Preserve full-bleed 3:2 landscape and safe internal framing.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024.\nAvoid: any mark or symbol in the repaired lower-right corner; text, lettering, labels, captions, numerals, pseudo-writing, signature, logo, watermark, border, frame, visible page, panels, inset, montage, collage, new people or objects, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution after two localized cleanup edits. The complete elderly woman, white pebble in her palm, tipped urn, natural black-and-white pebble scatter, full woven mat, and Thracian valley are all safely framed. The reported custom remains reflective rather than exoticized or supernatural. The lower-right pseudo-signature is absent; no text, border, panel, or clipped focal subject remains. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-2d048b31-ca62-4554-9657-8b2b85182380.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c040-attempt-01-bottom-right-pseudo-signature.png",
+          "sha256": "83b8584f110e2bf50d0f00dc9843de960909cf4b4ddd0671fdb84c54d09d291e",
+          "reason": "Rejected after native QA because a small pale angular mark resembling an artist signature appeared near the lower-right corner. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-2e7f006b-a7c6-44af-b493-c0179d404504.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c040-attempt-02-pseudo-signature-persists.png",
+          "sha256": "1fe8c44c4b63c0b84041f1372c187da896d4aaf0613bd1411cab2b2755588d23",
+          "reason": "Rejected after the first cleanup because the same pale angular pseudo-signature remained visible within the bottom-right edge region. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:41",
+      "title": "RARE INSTANCES OF GOOD FORTUNE CONTINUING IN THE SAME FAMILY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c041.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "4879945d7385d734d3aeedd47a8918b015f20fe31478702a06f6d68d9c870fcd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5c57823b-7408-490a-93d9-c8d1a39d9396",
+      "generationArtifactId": "exec-5c57823b-7408-490a-93d9-c8d1a39d9396",
+      "outputArtifact": "built-in-imagegen://exec-5c57823b-7408-490a-93d9-c8d1a39d9396.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 chapter illustration for an interactive illuminated edition.\nPrimary request: Make one framing-only correction to Image 1: reduce the complete olive tree by about fifteen percent and move it slightly down and right so every leaf has at least 35 pixels of clear blue sky or pale courtyard wall between it and the top edge, and at least 55 pixels of clear wall between it and the left edge. Keep the full rooted trunk, complete crown, and natural dappled shadow. Reconstruct vacated areas seamlessly as matching wall, sky, and paving.\nInput image: Image 1 is the edit target, the Lampido family-council scene for Pliny the Elder, Naturalis Historia, Book VII chapter 41.\nInvariants: Keep Lampido and exactly three adult male relatives, all identities, faces, bodies, hands, feet, garments, poses, chairs, complete table, exactly three uninscribed bronze rings, olive sprig, covered grain measure, doorway, hills, all non-tree geometry, lighting, palette, perspective, vellum texture, iron-gall linework, hatching, stipple, dry-brush abrasion, and mineral washes unchanged. Keep exactly four people and exactly three rings. No new objects or plants.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024 landscape.\nAvoid: any leaf touching or nearly touching an edge, cropped tree, extra rings, text, lettering, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution after two tree-framing edits. Lampido anchors a council with exactly three complete adult male relatives; exactly three uninscribed bronze rings, the olive sprig, covered measure, complete table and chairs are present. The complete olive tree now has generous wall and sky clearance. The scene does not present lineage as inherited worth. No crown, pedigree diagram, text, border, panel, or clipped focal subject remains. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e5a5264e-cef4-4bf3-ba5b-fc00600fe8bb.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c041-attempt-01-clipped-olive-canopy.png",
+          "sha256": "964d3fa311e12cfdeddbca1fe70538ec5dee412bdfd410a529845848525f4af5",
+          "reason": "Rejected after native QA because the featured olive canopy crossed the top and left boundaries. The original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-a2f74f92-f973-4374-9504-101552d519f8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c041-attempt-02-canopy-top-margin-too-narrow.png",
+          "sha256": "84e84cbd2059df0c7f5ffbddfdfd7d74e15c720a6865a8c5f6f13a88fe4c7d42",
+          "reason": "Rejected after the first tree correction because the highest leaves remained within a very narrow top margin rather than the required generous breathing room. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:42",
+      "title": "REMARKABLE EXAMPLE OF VICISSITUDES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c042.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "5dd127cb25c859413ee6a1c09f6a65ee516b33b5fc4326ce9bfa32d53fde5069",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d509768f-ee13-4540-9cf8-92f237114fb4",
+      "generationArtifactId": "exec-d509768f-ee13-4540-9cf8-92f237114fb4",
+      "outputArtifact": "built-in-imagegen://exec-d509768f-ee13-4540-9cf8-92f237114fb4.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the framing of Image 1 by pulling the viewpoint back and widening the visible pottery yard. Make the entire wooden grape-garland beam structure fully visible inside the canvas, including its complete top crossbeam and both upright posts with clear sky or wall around them. Make every foreground potsherd and broken vessel fragment fully visible and comfortably internal, with a broad unbroken wet-paving margin between the nearest shard and the bottom, left, and right edges. Keep the complete kiln internal as well. Reconstruct the expanded margins naturally as storm sky, yard wall, and reflective wet paving.\nInput image: Image 1 is the edit target, the post-fire pottery-yard scene for Pliny the Elder, Naturalis Historia, Book VII chapter 42.\nInvariants: Keep exactly three complete adult potters, their identities, faces, bodies, hands, feet, garments, poses, the central intact undecorated amphora, complete wooden mallet, exactly two carried roof tiles, cracked kiln, repair tile stack, damp garland, all existing potsherds, reflected water curve, lighting, palette, emotional tone, vellum grain, iron-gall contours, cross-hatching, stipple, dry-brush abrasion, and restrained mineral washes unchanged. Keep every ceramic plain and uninscribed. Do not add or remove people, tiles, shards, vessels, tools, plants, or architectural elements.\nComposition/framing: all three people, kiln, full pergola, garland, amphora, mallet, exactly two tiles, repair stack, and every depicted shard must have generous edge clearance; only sky, distant wall, and continuous wet paving may reach an edge.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024 landscape.\nAvoid: clipped or edge-touching objects, new shards, extra tiles, goddess Fortune, allegory, miracle, injury, text, lettering, labels, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution after one framing edit. Exactly three complete potters, the intact amphora, complete mallet, exactly two carried roof tiles, cracked kiln, full beam-and-garland structure, repair stack, and all depicted shards remain safely internal. The mixed moment of accident and repair does not claim that suffering is necessary or redemptive. No injury, allegorical Fortune, text, border, panel, or clipped focal object remains. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c2c40833-8741-4507-979c-301bad4b324a.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c042-attempt-01-clipped-beam-and-sherds.png",
+          "sha256": "8daa8059cbd851cca0f482f23f87fc9413e333464520d0bc3c81f6ede074d5e3",
+          "reason": "Rejected after native QA because the grape-garland beam crossed the top and right boundaries and multiple foreground potsherds were cut by the bottom and side edges. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:43",
+      "title": "REMARKABLE EXAMPLES OF HONOURS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c043.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "6159856465da6ab9a75573c59de02ad1295b6a64567b5161f5946c3b981c373c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3c13d24d-9604-4992-bed7-e4c5ff186cad",
+      "generationArtifactId": "exec-3c13d24d-9604-4992-bed7-e4c5ff186cad",
+      "outputArtifact": "built-in-imagegen://exec-3c13d24d-9604-4992-bed7-e4c5ff186cad.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 43, “REMARKABLE EXAMPLES OF HONOURS.” Ground it in Pliny’s transmitted account of the elder L. Metellus, who lost his sight while rescuing the Palladium from the Temple of Vesta and was later granted the exceptional right to travel by carriage to the Senate. Show the civic accommodation and his continuing public agency without turning disability into pity, punishment, or inspirational spectacle.\nScene/backdrop: a clear winter morning before an uninscribed Roman senate-house entrance. One complete modest two-wheeled carriage, drawn by exactly one complete calm mule, has stopped well inside the broad paving. Metellus, a complete older statesman with sight loss, steps down independently with one hand on the carriage rail and a plain walking staff in the other, upright and intent. A complete companion stands nearby with an open palm indicating the clear route but does not pull or infantilize him. A complete seated driver holds loose reins. One complete senator waits several paces away at equal eye level and offers a respectful open-handed greeting. The carriage bears no triumphal ornament; one small singed fold of plain cloth tucked beneath the seat quietly recalls the temple fire, without flames or relic spectacle.\nComposition/framing: long lateral street-level view, the whole mule-carriage ensemble placed on a shallow diagonal beneath a rhythm of tall columns, with ample empty paving leading to the senate doorway. Exactly four living people and exactly one mule. Keep every body, head, hand, foot, staff, rein, wheel, shaft, carriage, mule ear, tail, and hoof fully visible with generous clearance on every side. The architecture is a spacious environment, not a monumental hero backdrop.\nLighting/mood: pale winter sun, cool clear air, long restrained shadows; dignified, lucid, public, ethically attentive.\nColor palette: cool travertine, blue-grey shadow, muted russet cloak, dark cypress green, aged leather brown, a small ember-red accent in the tucked cloth.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Landscape 3:2, 1536x1024.\nHistorical framing: present the episode as Pliny’s transmitted moral history. Do not imply that disability diminishes wisdom or citizenship, that suffering purchases worth, or that honour compensates for harm.\nConstraints: opaque full-bleed RGB/sRGB PNG. Exactly four complete people and exactly one complete mule. All focal subjects and objects fully contained; only paving, blank walls, columns, and sky may continue through edges. No fasces, standards, plaques, or text-bearing objects.\nAvoid: triumphal parade, battlefield, captive child, chains, proscription violence, gore, fire, divine apparition, disability caricature, clouded horror eyes, helpless pose, pitying crowd, miraculous cure, inspirational halo, military spectacle, throne, open book, open scroll, tablet, inscription, text, lettering, labels, captions, numerals, pseudo-writing, signatures, logos, watermarks, modern wheelchair, modern objects, border, frame, visible page, panels, inset, montage, collage, duplication, photography, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution. Metellus, the companion, driver, and senator are four complete people; the one complete mule, modest carriage, staff, loose reins, wheels, shafts, and small singed cloth are fully visible. Civic access and continuing agency are centered without pity or disability stigma. No triumphal spectacle, text, pseudo-writing, border, panel, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:44",
+      "title": "TEN VERY FORTUNATE CIRCUMSTANCES WHICH HAVE HAPPENED TO THE SAME PERSON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/b07-c044.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "435fc1e12ccac1452c10b02d17daaed6d3f095d587073922968c6bc34c41c355",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8bfb75b9-a41b-4e1b-afcf-a3247707185d",
+      "generationArtifactId": "exec-8bfb75b9-a41b-4e1b-afcf-a3247707185d",
+      "outputArtifact": "built-in-imagegen://exec-8bfb75b9-a41b-4e1b-afcf-a3247707185d.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the edge safety of the cypress landscape in Image 1. Reduce and reposition every prominent cypress so each tree’s entire crown, trunk, and rooted base are fully visible inside the canvas with generous clear sky or terrain around it. In particular, replace the tall cypresses clipped by the top and right boundaries with smaller complete cypresses set farther into the landscape. Reconstruct the vacated top and right areas seamlessly as the same indigo sky and rocky terrain. No tree, branch, or leaf may touch any canvas edge.\nInput image: Image 1 is the edit target, the Metellus Macedonicus funeral scene for Pliny the Elder, Naturalis Historia, Book VII chapter 44.\nInvariants: Keep exactly four complete adult sons, their identities, bodies, heads, hands, feet, garments, poses, the complete plain wooden bier, all four handles and poles, the completely shrouded deceased person, the shroud silhouette, road, road bend, distant Rome, low stone well, faded laurel wreath, closed unmarked bronze seal box, bird’s-eye perspective, blue-dawn lighting, palette, solemn mood, vellum grain, iron-gall contours, cross-hatching, stipple, dry-brush abrasion, and restrained mineral washes unchanged. Keep exactly four living people and one fully covered deceased person. Do not add people, animals, vehicles, buildings, props, or trees.\nComposition/framing: preserve the compact diagonal procession and broad negative space. All focal subjects and every tree must be fully contained; only continuous road, distant terrain, and sky may reach an edge.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024 landscape.\nAvoid: any clipped tree, visible corpse, anatomy, gore, fire, triumphal pomp, pedigree symbolism, text, lettering, labels, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at original resolution after one landscape-framing edit. Exactly four complete sons carry the complete plain bier and fully shrouded deceased person; all poles, handles, limbs, shroud, well, wreath, seal box, road, and every cypress are fully contained. The scene is solemn and anti-triumphal, not an assertion of hereditary virtue or unalloyed happiness. No visible body, gore, fire, text, border, panel, or clipped focal subject remains. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-1633296f-6ae8-4a58-a23c-6451ff43d142.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-68/evidence/history/b07-c044-attempt-01-clipped-cypresses.png",
+          "sha256": "d3bc1891ba0b196875d29d9600b57d36516bd42699ac30cdc91ad79745dc1b69",
+          "reason": "Rejected after native QA because several prominent cypresses crossed the top and right boundaries despite the all-subject edge-safety constraint. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 622,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "7:37": {
+        "nearestMAD": 23.67,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c034.png",
+        "madAtDHashPeer": 98.58
+      },
+      "7:38": {
+        "nearestMAD": 30.29,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c013.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c001.png",
+        "madAtDHashPeer": 58.82
+      },
+      "7:39": {
+        "nearestMAD": 34.01,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c009.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c002.png",
+        "madAtDHashPeer": 47.7
+      },
+      "7:40": {
+        "nearestMAD": 25.45,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c027.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c023.png",
+        "madAtDHashPeer": 49.36
+      },
+      "7:41": {
+        "nearestMAD": 35.28,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b19-c002.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c029.png",
+        "madAtDHashPeer": 42.59
+      },
+      "7:42": {
+        "nearestMAD": 23.44,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c091.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-18/b17-c002.png",
+        "madAtDHashPeer": 75.47
+      },
+      "7:43": {
+        "nearestMAD": 31.06,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c010.png",
+        "madAtDHashPeer": 31.92
+      },
+      "7:44": {
+        "nearestMAD": 21.17,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-66/b07-c025.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c076.png",
+        "madAtDHashPeer": 104.23
+      }
+    }
+  }
+}

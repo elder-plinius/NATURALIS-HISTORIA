@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "campaign": "naturalis-active-plates-v1",
+  "generatedAt": "2026-08-24",
+  "tool": "OpenAI built-in image_gen",
+  "creator": "OpenAI ImageGen, directed by the project owner and Codex",
+  "legacyReceiptReconciliation": {
+    "auditedAt": "2026-08-26",
+    "ownerLicenseDirection": {
+      "recordedAt": "2026-08-24T19:25:33.594Z",
+      "license": "AGPL-3.0-only",
+      "verbatimInstruction": "and for license i thinkk we do agpl 3.0 as alwys!"
+    },
+    "method": "For each retained active plate JPEG, the completed built-in ImageGen receipt ID, exact revised-prompt SHA-256, original PNG SHA-256, and active source JPEG SHA-256 were recovered. Re-encoding the recorded PNG with the recorded macOS sips settings reproduced the active JPEG byte-for-byte. Prompts and image bytes were not rewritten."
+  },
+  "assets": {},
+  "legacyAssets": {
+    "dedication-pliny-vespasian.jpg": {
+      "logicalId": "plate:dedication-pliny-vespasian",
+      "receiptId": "exec-9c7e3c60-36e9-4827-8d31-cf0166d809e0",
+      "originalArtifact": "built-in-imagegen://exec-9c7e3c60-36e9-4827-8d31-cf0166d809e0.png",
+      "originalSha256": "f5979b5005b7b3dd63ca32cb7b975b84b6dbd3786ec31d3a50fb59fdf320d3e0",
+      "generatedAt": "2026-08-23T17:26:00.397Z",
+      "promptRecord": "exact revised prompt retained in the built-in ImageGen receipt; SHA-256 recorded without normalization",
+      "generationPromptSha256": "f152de4cf5340bea74955bdf552943e076b91d003a25f54ebdac0c4a5cc3a9b1",
+      "sourceArtifact": "assets-source/plates/dedication-pliny-vespasian.jpg",
+      "sourceSha256": "42331de0bd9868cf31229663277476df0083b4a59bd6a8883dfe769ec1e01fa4",
+      "sourceDimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceBinding": "byte-exact JPEG reproduction from the recorded PNG produced the active source SHA-256",
+      "sourceEncoding": "macOS sips format=jpeg formatOptions=88"
+    },
+    "pliny-younger-vesuvius-letters-atlas.jpg": {
+      "logicalId": "plate:pliny-younger-vesuvius-letters-atlas",
+      "receiptId": "exec-19c62397-99c7-4070-9259-b5507a363ddd",
+      "originalArtifact": "built-in-imagegen://exec-19c62397-99c7-4070-9259-b5507a363ddd.png",
+      "originalSha256": "ed9c0f8b601a7adac62bdefad3a0d96ba407f05de81a205d5e0044b296ea08a9",
+      "generatedAt": "2026-08-24T03:39:14.060Z",
+      "promptRecord": "exact revised prompt retained in the built-in ImageGen receipt; SHA-256 recorded without normalization",
+      "generationPromptSha256": "b92268df3fb16969e902d8f2092432210690980cddd39b3d26cab283ca4019db",
+      "sourceArtifact": "assets-source/plates/pliny-younger-vesuvius-letters-atlas.jpg",
+      "sourceSha256": "48e1cc82a81ca0194d6cb9cd2af0630475bdcd14124edfb70d9c0030e6934b39",
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "sourceBinding": "byte-exact JPEG reproduction from the recorded PNG produced the active source SHA-256",
+      "sourceEncoding": "macOS sips format=jpeg formatOptions=86"
+    }
+  }
+}

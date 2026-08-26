@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-42",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "chapters": [
+    {
+      "chapterKey": "2:23",
+      "title": "OF THE DIMENSIONS OF THE WORLD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c023.png",
+      "sha256": "79d7038da7f0cf78441ce17b4928730d1b1b1174e661d8a8c911ed7886a93e9e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7ee482cd-97be-4c59-b643-ffa4891cc435",
+      "outputArtifact": "built-in-imagegen://exec-7ee482cd-97be-4c59-b643-ffa4891cc435.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 23, “Of the Dimensions of the World”\nPrimary request: Present Posidonius's and Pliny's ancient estimates of atmospheric and celestial distance as transmitted conjecture, not settled modern science and not a technical diagram. On a high Roman-era hill at dawn, exactly one complete natural philosopher stands beside an unused plain plumb-line and loosely coiled measuring cord, both fully supported on stone, and looks upward rather than claiming to measure the heavens. Below him lies one complete curved terrestrial horizon; above it a low dense belt of mist, wind-bent cloud and rain gives way gradually to a vast clear region of uninterrupted faded-lapis light. A small complete pale moon hangs midway in the clear depth and a complete small ochre sun glows much farther across the sky, with ample open air between them. The layered atmosphere must read as one real panoramic landscape, never as concentric rings, a scale chart, cutaway, or labeled cosmology.\nScene/backdrop: one finite Mediterranean upland with distant sea, a complete low ridge, cloud bank and broad open sky; no building, crowd, telescope, book, tablet, scroll, abacus, ruler or astronomical chart\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; airy cosmos dialect with pale atmospheric bands and sparse ochre celestial accents\nComposition/framing: 3:2 landscape, extremely low horizon and tall open sky. Keep the entire philosopher, hair, hands, feet, garment, plumb-line, cord, horizon, cloud belt, moon disc, sun disc, shadows and ground contacts comfortably inside generous uninterrupted breathing room on all four edges. The sun and moon must be modest in scale and separated from the borders.\nHistorical and epistemic framing: illustrate the scale of ancient speculation and Pliny's own caution about measuring heaven “by a plumb-line”; do not endorse the stated distances or geocentric geometry as modern fact.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, equations, degree marks, maps, scale bars, labeled chart, orbital diagram, concentric circles, cutaway earth, multiple panels, collage, repeated crops, modern telescope, modern measuring device, fantasy planets, magical glow, clipped person, clipped celestial disc, edge-entering object, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete natural philosopher stands with a supported plain plumb-line and coiled cord beneath one continuous low cloud belt, broad clear air, one complete pale moon and one complete ochre sun. The landscape makes ancient scale conjecture legible without becoming a diagram and honors Pliny's explicit caution about exact measurement. No equation, numeral, degree mark, chart, orbital ring, cutaway, modern instrument, text, pseudo-writing, panel, collage, visible page, internal border, watermark, floating subject or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:24",
+      "title": "OF THE STARS WHICH APPEAR SUDDENLY, OR OF COMETS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c024.png",
+      "sha256": "4ea59f9eaf30665efbcc0539b1bfd7792e6cdfb216123180d223c2278f121e6c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7179efeb-caf7-489b-86e2-41ddd06fb52e",
+      "outputArtifact": "built-in-imagegen://exec-7179efeb-caf7-489b-86e2-41ddd06fb52e.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 24, “Of the Stars Which Appear Suddenly, or of Comets”\nPrimary request: Render the chapter's terse report that unfamiliar stars or comets appear suddenly and in varied forms as one witnessed ancient phenomenon, not modern settled astrophysics or an omen. Over a quiet Hellenistic-era coastal anchorage at blue twilight, one single complete comet has just appeared in a previously clear region of sky: a compact ochre-white head and one long fluid, slightly curved faded-lapis-and-madder tail, both entirely visible and detached from every edge. On the quay below, exactly one complete small harbour watchman stands still with an upturned face; he does not point, pray, flee or hold an instrument. Two complete grounded amphorae and one complete moored ancient skiff establish scale, all fully contained. No disaster or supernatural action follows.\nScene/backdrop: one finite crescent harbour with both ends of its breakwater visible, low calm sea, one complete skiff, distant dark hills and an unusually open twilight sky; no temple, palace, army, fire, extra person, constellation or second comet\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, deep faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; marine-celestial dialect of cool twilight water, sparse warm comet light and quiet vellum air\nComposition/framing: 3:2 landscape, low maritime horizon with the complete comet sweeping diagonally across the upper-left sky; the tiny complete watchman and skiff form a grounded counterweight at lower right. Leave broad uninterrupted sky around the entire head and every tail filament. Keep every person, foot, amphora, boat prow, stern, mastless hull, rope, breakwater end, reflection and shadow comfortably inside all edges.\nHistorical and epistemic framing: show an ancient observation of a sudden comet-like star; do not claim how comets form and do not portray it as a prophecy.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, star names, constellation lines, astronomical chart, multiple comets, meteor shower, explosion, impact, burning city, panic, prophecy, magical aura, panel, collage, repeated crop, modern boat, modern lamp, telescope, clipped comet, clipped tail, clipped person, clipped skiff, edge-entering architecture, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete newly appeared comet with compact head and long curved mineral-pigment tail floats fully inside a broad twilight sky above exactly one complete calm harbour watchman, two grounded amphorae and one complete moored ancient skiff. The finite harbour reads as period observation, not prophecy or impact. No second comet, meteor shower, panic, fire, constellation lines, text, pseudo-writing, panel, collage, repeated crop, visible page, internal border, watermark, modern object or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:26",
+      "title": "THE DOCTRINE OF HIPPARCHUS ABOUT THE STARS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c026.png",
+      "sha256": "407825bac9305b761fc681a5e2119719b7423993d995e559e4867f6af23f38c9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-6507879b-54eb-4acf-b4bd-5bb7ff093d16",
+      "outputArtifact": "built-in-imagegen://exec-6507879b-54eb-4acf-b4bd-5bb7ff093d16.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 26, “The Doctrine of Hipparchus About the Stars”\nPrimary request: Depict Hipparchus's historically remarkable attempt to compare stellar positions after observing a new star, while framing the chapter's soul-and-heaven language as ancient philosophy rather than modern fact. On one complete flat Rhodian rooftop at deep night, exactly one complete elderly Greek astronomer adjusts a simple complete ancient sighting frame made of wood, bronze pivot and two plain aligned vanes, with no written scale or numerals. The instrument points toward one unusually bright complete new star set among a restrained irregular field of smaller fixed stars. A second plain sighting cord and one complete unmarked bronze armillary ring rest securely nearby, suggesting positional comparison without displaying a chart. Hipparchus's gaze and hands are intent and empirical; no astrology, divination or supernatural link to a soul is shown.\nScene/backdrop: one finite rooftop whose four parapet corners are visible, distant Rhodes shoreline and low hills, dark open sky; no assistant, book, scroll, tablet, star catalogue, globe, constellation figure, column, temple or modern observatory\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained lampblack and umber night, deep faded lapis, muted verdigris bronze, tiny madder and ochre star accents; ancient, timeless, beautiful, rough in material and polished in draftsmanship; nocturnal observational dialect with precise instrument linework and luminous but sparse stars\nComposition/framing: 3:2 landscape, steep high-oblique rooftop view. The complete astronomer and sighting frame create one compact diagonal at lower left; the single new star anchors the open upper-right sky; armillary ring and cord remain low and supported. Keep the whole figure, every finger, foot, garment, instrument end, ring, cord, parapet corner, new star and all relevant shadows well inside generous breathing room.\nHistorical and epistemic framing: honor Hipparchus's comparative observational method as ancient history; do not present the soul-stars relation, fixed-star model or any specific catalogued position as modern scientific certainty.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, written catalogue, degree marks, constellation lines, zodiac symbols, diagram, split panel, collage, repeated crop, telescope, lens, clock, modern observatory, electrical light, extra person, winged soul, mystical beam, giant star, clipped person, clipped instrument, edge-entering architecture, photography, photorealism, glossy CGI.\nGLOBAL-DIVERSITY AND MATERIAL REPAIR: Discard the prior dark-sky-dominant silhouette completely while preserving Hipparchus, the new star, the ancient sighting frame, armillary ring, cord, one finite rooftop, and all historical constraints. Use a very steep high-oblique predawn view in which the warm ochre rooftop floor occupies roughly two-thirds of the canvas and forms a broad asymmetric trapezoid. Place the complete standing astronomer and complete sighting frame together in the lower-right quadrant, aimed diagonally toward one brilliant new star in the upper-left. The remaining sky is a PALE faded-lapis predawn wash with a restrained handful of still-visible small stars, not a dark lampblack night field. Place the armillary ring and cord on the broad open roof at lower-left, widely separated from the figure. The pale sky wash and warm roof textures must continue naturally to relevant outer edges without any pale perimeter band, oval, rectangle, vignette, visible page, or internal frame. Keep every primary subject fully contained with generous air.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete standing elderly astronomer adjusts one complete unmarked ancient sighting frame toward a single brilliant new star in a pale predawn field; the complete armillary ring and sighting cord rest separately on a broad supported rooftop. The empirical comparison is chapter-specific without a written catalogue, astrology or modern instrument. Sky and roof washes reach the relevant edges naturally with no page-like rim or internal vignette. No lettering, numeral, degree mark, constellation line, chart, mystical soul, panel, collage, visible page, watermark, telescope, clipped person or clipped instrument was found. Accepted third built-in generation after a material-framing rejection and a global-diversity rejection; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-490e6049-a1b1-4b7c-b72b-00b36b3164c7.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/evidence/history/b02-c026-rejected-01-exec-490e6049-a1b1-4b7c-b72b-00b36b3164c7.png",
+          "sha256": "4730f4b3debfdeb21f01b5bef53c13fa20aea0b4148daf145620c2ac072e3eea",
+          "reason": "Rejected at original-resolution review because the deep night wash ended in a conspicuous warm inner rim on all sides, reading as an internal vignette rather than a genuinely edge-to-edge full-bleed scene."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-ce74118c-a5a4-4e11-9cc7-4996835ac8c9.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/evidence/history/b02-c026-rejected-02-exec-ce74118c-a5a4-4e11-9cc7-4996835ac8c9.png",
+          "sha256": "7e2f4d737fb62f34404902d6255faa993ac83cd27dac4978f32c7f3abd7cdec5",
+          "reason": "Passed native subject and framing review but was rejected by the global gate: MAD 19.40 against trees-aromatics-wave-43/b02-c036.png, below the mandatory minimum 20, despite dHash 33."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:27",
+      "title": "OF THE COLOURS OF THE SKY AND OF CELESTIAL FLAME",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c027.png",
+      "sha256": "ef08c005dffff5e23ea0cf8a0501ee585b3495e205d2653bdecb6aa2aa7b6ee1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ec2df6dd-cb2d-4230-b722-0e3049dce793",
+      "outputArtifact": "built-in-imagegen://exec-ec2df6dd-cb2d-4230-b722-0e3049dce793.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 27, “Of the Colours of the Sky and of Celestial Flame”\nPrimary request: Show the rare bloody-looking celestial flame Pliny reports while making his naturalistic skepticism clear: it is a recurring atmospheric phenomenon observed in a fearful age, not a supernatural cause of disaster. Across a high Macedonian valley at late dusk, one complete vertical curtain of deep madder-red celestial flame descends through a narrow opening in dark clouds but stops visibly high above the distant earth; it has soft wind-torn edges, no solid object, no comet head and no impact. Exactly one complete Roman-era natural philosopher stands on a safe foreground ridge, holding both empty hands calmly apart as he studies the unchanged valley. Far below, peaceful fields and one complete small farmhouse remain intact and unburned. No crowd, army, king, battle or catastrophe appears.\nScene/backdrop: one finite mountain bowl with every ridge peak contained, a high dark horizon, cloud opening, undamaged fields and one complete farmhouse; no city, sea, temple, altar, weapon, fire on earth or extra person\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained lampblack and umber cloud, deep madder celestial flame, smoky ochre horizon, small muted-verdigris fields and faint faded-lapis dusk; ancient, timeless, beautiful, rough in material and polished in draftsmanship\nComposition/framing: 3:2 landscape, high enclosing horizon and strong vertical sky action. Place the complete observer small at lower left, the complete suspended red flame in the upper central air, and the complete farmhouse low at right, joined by one continuous valley. Preserve broad dark sky between the flame's lower tip and the ground. Keep every limb, garment, cloud edge, red veil, ridge peak, farmhouse wall and roof, shadow and ground contact comfortably inside all edges.\nHistorical and epistemic framing: depict the phenomenon as rare transmitted observation whose cause Pliny says is obscure; do not show it causing war, death, fire or any magical event.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, omen symbols, gods, angel, prophecy, spell, falling solid object, comet head, meteor impact, lightning bolt, burning land, blood on earth, battle, panic, diagram, panels, collage, repeated crop, modern object, clipped person, clipped flame, clipped mountain, edge-entering farmhouse, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete suspended madder-red atmospheric flame descends through dark cloud yet stops visibly above an intact Macedonian valley; exactly one complete calm observer, a complete small farmhouse and undamaged fields remain fully framed. The phenomenon is rare and ominous-looking but causes no event, matching Pliny's natural-period interpretation rather than supernatural causation. No solid meteor, impact, earth fire, war, panic, god, prophecy, text, pseudo-writing, panel, collage, visible page, internal border, watermark, modern object or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:28",
+      "title": "OF CELESTIAL CORONÆ",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c028.png",
+      "sha256": "f7a6634a00e537e28b1abd0af6f61f8589d64cba25883f23d7c166fb1e94dea1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-64f0fad0-ba6d-4853-af02-91adbfe69fd7",
+      "outputArtifact": "built-in-imagegen://exec-64f0fad0-ba6d-4853-af02-91adbfe69fd7.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 28, “Of Celestial Coronae”\nPrimary request: Present the ancient report of stars beside the daytime sun and a many-coloured corona seen when the young Augustus entered Rome, without treating the display as supernatural legitimation or modern settled optics. Exactly one complete young Roman traveller, modestly dressed and without insignia or attendants, walks calmly toward one complete finite city gateway along a sunlit road. High above and well separated from the architecture, one complete modest sun is surrounded by a single broad natural corona of restrained faded-lapis, ochre and faint madder colour, its irregular radiating texture only recalling a grain wreath without depicting literal ears of corn. Three tiny complete daylight stars are visible near but outside the corona. The traveller notices the sky without saluting it; the city remains ordinary and peaceful.\nScene/backdrop: one finite approach road, one fully contained Roman gateway with both flanking wall ends visible, low city roofs beyond, pale daytime sky; no horse, chariot, crowd, procession, laurel, standard, altar, temple, weapon or second person\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, luminous faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; bright civic-celestial dialect with airy daylight and a delicate mineral corona\nComposition/framing: 3:2 landscape, frontal road perspective with a low city horizon. Keep the complete young man small at lower left, the complete finite gateway low at right, and the sun-corona high in open sky between them. Leave generous clean air around the outer corona. Keep every hair, hand, foot, garment hem, gate tower, wall end, sun disc, colour ring, daylight star, road edge, shadow and ground contact comfortably inside all four edges.\nHistorical and epistemic framing: illustrate Pliny's reported celestial corona and historical association; do not imply divine approval, causation, prophecy or exact modern optical explanation.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the canvas edge to edge as image substrate; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, imperial emblem, crown, literal grain wreath, angel, god, omen symbol, magical rays, second sun, planetary diagram, orbit line, chart, panel, collage, repeated crop, modern object, clipped figure, clipped gateway, clipped corona, edge-entering wall, photography, photorealism, glossy CGI.\nFRAMING REPAIR: Pull the entire civic foreground substantially farther back. Replace the long edge-running city wall with one compact, freestanding finite gatehouse: two modest towers, the central arch, and two very short terminal wall stubs whose OUTER END FACES are visibly exposed. Leave at least eight percent uninterrupted road, field or sky between every masonry edge and the canvas border. The gatehouse must occupy less than one quarter of the image width. Keep the complete young traveller smaller and wholly inside the opposite lower quadrant. Preserve the single complete sun, one complete natural coloured corona and exactly three small daylight stars with generous air. Absolutely no wall, road object, person, corona or architecture may touch or exit any edge.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete young Roman traveller approaches one compact complete freestanding gatehouse whose two short wall stubs terminate visibly in open field. Above them one complete modest sun, one broad naturally irregular coloured corona and exactly three small daylight stars remain generously separated from all edges. The scene records the reported display and historical association without insignia, procession or divine legitimation. No second sun, literal grain wreath, omen, text, pseudo-writing, diagram, panel, collage, visible page, internal border, watermark, modern object or clipped primary subject was found. Accepted second built-in generation after pulling an edge-running wall fully into frame; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-828d1117-46a7-42e3-b4c4-055ae02f775b.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/evidence/history/b02-c028-rejected-01-exec-828d1117-46a7-42e3-b4c4-055ae02f775b.png",
+          "sha256": "e472a413e089975637cc06e62035ff71efdb5700e225f9c0f4fd6d2f39f66502",
+          "reason": "Rejected at original-resolution review because the gateway was complete but its attached right wall continued out through the canvas edge, violating the finite-architecture and no-clipping gates."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:29",
+      "title": "OF SUDDEN CIRCLES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c029.png",
+      "sha256": "a4da0e4bee8615b1673bf43c1d5e058a38c938581458653b4b08ffd850139775",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-14d69055-0dcf-4672-89a0-6b1bdac2b8f4",
+      "outputArtifact": "built-in-imagegen://exec-14d69055-0dcf-4672-89a0-6b1bdac2b8f4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 29, “Of Sudden Circles”\nPrimary request: Depict the ancient report of coronae forming around the moon and principal stationary stars as a quiet observed night-sky event, not a labeled astronomical chart or supernatural sign. Above a still highland salt lake, one complete pale moon hangs off centre within one single broad luminous circular halo formed naturally by thin veils of cloud. A single complete bright principal star lies well outside the moon halo and carries only a faint short curved arc of its own, not a second perfect ring. The moon halo and star arc are visibly atmospheric, irregular and softly broken rather than geometric linework. Their light makes one subdued complete reflection in the lake; no person watches.\nScene/backdrop: one finite oval salt lake whose entire shoreline is visible, low dark reeds contained around it, one complete distant ridge and a deep open night sky; no city, building, boat, animal, figure, sun, aurora or additional bright star\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained lampblack, deep faded lapis, moon-silver ochre, muted verdigris reeds and a trace of madder in the halo; ancient, timeless, beautiful, rough in material and polished in draftsmanship; nocturnal atmospheric dialect with quiet circular rhythm and spare reflected light\nComposition/framing: 3:2 landscape, near-symmetrical low lake and very broad night sky. Place the complete moon and full atmospheric halo in the upper-left quadrant, the principal star and short arc upper right, and the complete lake reflection below. Leave broad sky between every luminous form and all outer edges. Keep the whole shoreline, ridge peaks, reeds, moon disc, halo, star, arc and reflection comfortably contained.\nHistorical and epistemic framing: show the sudden circles Pliny reports as period observation; do not assert a supernatural cause or convert the scene into a modern optical lesson.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: the night and warm fibrous vellum texture fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, constellation lines, zodiac, arrows, diagram, perfect compass line, multiple rings, multiple moons, sun, eclipse, magical portal, omen, figure, panel, collage, repeated crop, modern object, clipped halo, clipped shoreline, edge-entering reed, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete pale moon sits within one broad irregular cloud corona while one principal star carries a much fainter broken secondary corona, all above a complete still salt lake and contained ridge. A single subdued lunar reflection is supported by the water. The halos remain atmospheric and organic rather than compass-drawn or instructional. No sun, extra moon, constellation line, zodiac, arrow, portal, omen, text, pseudo-writing, labeled chart, panel, collage, visible page, internal border, watermark, modern object or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:30",
+      "title": "OF UNUSUALLY LONG ECLIPSES OF THE SUN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+      "sha256": "b83dd944ae9daee28944ea84e5a0a4ad6d104bcd79e336a843b14a7839e6be58",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-eee007ac-3748-4668-88d4-7c51a636a255",
+      "outputArtifact": "built-in-imagegen://exec-eee007ac-3748-4668-88d4-7c51a636a255.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 30, “Of Unusually Long Eclipses of the Sun”\nPrimary request: Render Pliny's historical report that the sun remained dim for an extraordinarily long period around Caesar's death and the war against Antony as transmitted Roman testimony, not a literal modern eclipse-duration claim and not an omen causing political events. In one continuous ashen midday countryside, exactly one complete Roman vineyard keeper stands in a dormant, fully contained vineyard and studies one complete small veiled sun. The sun is not a black totality: it is a muted ochre disc behind persistent grey-lapis haze, with a thin dull red circle close around it, casting only a faint shortened shadow. The keeper carries one unlit plain oil lamp at his side but does not pray or panic. Bare vines, a few retained dry grapes and newly fallen leaves together suggest prolonged dim seasonal light without creating a before-and-after sequence.\nScene/backdrop: one finite terraced vineyard with every row end visible, one complete low storage hut, distant contained Apennine ridge and broad hazed sky; no city, battlefield, corpse, monument, weapon, procession, crowd, second person, sundial, calendar or written record\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained ash-grey lampblack, faded lapis haze, dull ochre sun, quiet madder ring, umber earth and sparse muted verdigris; ancient, timeless, beautiful, rough in material and polished in draftsmanship; sustained-dimness dialect with low contrast, cool air and one subdued celestial accent\nComposition/framing: 3:2 landscape, elevated oblique view across diagonal vine rows. The complete keeper and unlit lamp sit lower right, the complete hut lower left, and the small dim sun high left across broad haze. Keep every body part, lamp handle and flame-less spout, vine stake and tendril, row end, hut wall and roof, ridge peak, sun disc, red circle and shadow fully inside generous breathing room.\nHistorical and epistemic framing: depict an ancient claim about prolonged dim sunlight; do not present a year-long solar eclipse as modern scientific fact and do not imply the sky caused assassination or war.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum and atmospheric wash fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, total black sun, solar corona spikes, multiple suns, sequence, seasons panel, split frame, collage, repeated crop, bloody sky, magical omen, murder, battle, grief tableau, modern lamp, modern weather device, clipped figure, clipped hut, clipped sun, edge-entering vine, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete vineyard keeper carries one complete unlit ancient oil lamp through a subdued dormant vineyard beneath one complete small ochre sun veiled in grey-lapis haze and a thin dull-red circle; one complete storage hut and contained ridge provide scale. The scene expresses reported prolonged dimness without depicting totality, assassination, war or a literal year-long modern eclipse. No second sun, black totality, sequence, calendar, battle, grief scene, text, pseudo-writing, panel, collage, visible page, internal border, watermark, modern object or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:31",
+      "title": "MANY SUNS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c031.png",
+      "sha256": "eeeb0f9fb204a0035ae5626997464d9054b36c3ae44bb946525dff50c32233a1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-b178cf87-9912-46d2-ad0a-33fb27cc03e9",
+      "outputArtifact": "built-in-imagegen://exec-b178cf87-9912-46d2-ad0a-33fb27cc03e9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book II chapter 31, “Many Suns”\nPrimary request: Depict the ancient report of three suns visible above the Bosphorus as one coherent parhelion-like observation, not multiple panels, prophecy or a modern labeled explanation. From a high cliff above the strait at late afternoon, show exactly THREE complete luminous discs total: one true ochre sun slightly above centre and two smaller paler false suns positioned obliquely to its lower left and lower right within a broad field of thin ice-crystal haze. The three are separate, not vertically stacked, and no fourth disc or reflected sun appears. Below, exactly one complete ancient merchant vessel under a furled square sail and one complete small rowboat cross the blue-grey Bosphorus, their full hulls, oars and shadows visible. Both shores curve through one continuous panorama; no observer is needed.\nScene/backdrop: one finite Bosphorus strait with both contained shores, distant low hills, one complete ancient merchant ship, one complete rowboat and a huge airy sky; no city skyline, tower, temple, army, fire, storm or extra vessel\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained faded-lapis water and haze, ochre true sun, pale madder-gold false suns, umber shores and muted verdigris scrub; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Bosphorus-celestial dialect with fluid depth, crystalline air and sparse three-disc rhythm\nComposition/framing: 3:2 landscape, very high cliff viewpoint and low winding strait. The three complete discs form a shallow inverted triangle in the upper half with large clear gaps; the merchant ship and rowboat form two small counterpoints below. Keep every disc, atmospheric glow, shore end, hill peak, hull, prow, stern, mast, furled sail, rope, oar, wake and shadow comfortably inside broad uninterrupted breathing room at all edges.\nHistorical and epistemic framing: illustrate the three-sun appearance Pliny and earlier witnesses report; do not assert a divine or political meaning and do not claim an exact modern mechanism.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum and sky-water washes fill the canvas edge to edge; no visible sheet, page edge, paper rectangle, decorative border, internal frame, mat, card, ruled line, caption area or vignette boundary.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, more or fewer than three luminous discs, sun reflection that looks like a fourth disc, night sky, eclipse, halo ring, astronomical diagram, orbit line, arrow, panel, collage, repeated crop, modern ship, steam, engine, clipped sun, clipped vessel, clipped shore, edge-entering sail, photography, photorealism, glossy CGI.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly three complete luminous discs form the reported oblique many-suns display above one continuous Bosphorus panorama; one complete ancient merchant vessel and one complete rowboat remain fully contained below. No reflected fourth disc is present, and both shores, hulls and wakes are legible. The scene is transmitted observation without political or divine meaning. No extra sun, eclipse, halo diagram, orbit line, text, pseudo-writing, panel, collage, visible page, internal border, watermark, modern vessel or clipped primary subject was found. Accepted first built-in generation; canonical bytes were verified identical to the built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 408,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:23": {
+        "nearestMAD": 27.45,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c036.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c014.png",
+        "madAtDHashPeer": 43.21
+      },
+      "2:24": {
+        "nearestMAD": 21.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c012.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c027.png",
+        "madAtDHashPeer": 32.81
+      },
+      "2:26": {
+        "nearestMAD": 27.22,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c005.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c003.png",
+        "madAtDHashPeer": 52.25
+      },
+      "2:27": {
+        "nearestMAD": 29.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c006.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c021.png",
+        "madAtDHashPeer": 45.83
+      },
+      "2:28": {
+        "nearestMAD": 22.59,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c028.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c017.png",
+        "madAtDHashPeer": 41.63
+      },
+      "2:29": {
+        "nearestMAD": 23.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c014.png",
+        "madAtDHashPeer": 30.49
+      },
+      "2:30": {
+        "nearestMAD": 21.19,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c033.png",
+        "madAtDHashPeer": 54.38
+      },
+      "2:31": {
+        "nearestMAD": 23.99,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c012.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 85.22
+      }
+    }
+  }
+}

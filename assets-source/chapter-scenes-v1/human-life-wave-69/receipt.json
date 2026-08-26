@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "campaign": "human-life-wave-69",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted and rejected PNG was byte-compared with its built-in original. One provider-moderated attempt emitted no artifact and is recorded with its failed generation ID and request ID.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+  "assignments": [
+    "7:45",
+    "7:46",
+    "7:47",
+    "7:49",
+    "7:50",
+    "7:51",
+    "7:52",
+    "7:53"
+  ],
+  "atlasAssignmentNotRegenerated": "7:48",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 5,
+    "providerFailedNoArtifactCount": 1,
+    "totalBuiltInCalls": 14
+  },
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 622,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "7:45": {
+        "nearestMAD": 25.37,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c002.png",
+        "madAtDHashPeer": 71.36
+      },
+      "7:46": {
+        "nearestMAD": 23.08,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c015.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-01/b02-c001.png",
+        "madAtDHashPeer": 36.82
+      },
+      "7:47": {
+        "nearestMAD": 33.5,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c006.png",
+        "madAtDHashPeer": 39.48
+      },
+      "7:49": {
+        "nearestMAD": 34.61,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c008.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c004.png",
+        "madAtDHashPeer": 44.37
+      },
+      "7:50": {
+        "nearestMAD": 21.42,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c015.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c016.png",
+        "madAtDHashPeer": 66.27
+      },
+      "7:51": {
+        "nearestMAD": 36.06,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-45/b02-c054.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b15-c030.png",
+        "madAtDHashPeer": 59.13
+      },
+      "7:52": {
+        "nearestMAD": 36.38,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b26-c004.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 22,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b20-c024.png",
+        "madAtDHashPeer": 63.28
+      },
+      "7:53": {
+        "nearestMAD": 28.96,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-47/b02-c070.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c022.png",
+        "madAtDHashPeer": 50.13
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "7:45",
+      "title": "THE MISFORTUNES OF AUGUSTUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c045.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "d7fd8ad17365a8d7390656466b94ce073b97a8909c89bdbcc3ade43d220eecf2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-56a11fb4-3673-4568-b574-09cb803b3a76",
+      "generationArtifactId": "exec-56a11fb4-3673-4568-b574-09cb803b3a76",
+      "outputArtifact": "built-in-imagegen://exec-56a11fb4-3673-4568-b574-09cb803b3a76.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a digital illuminated edition of Pliny the Elder's Naturalis Historia\nPrimary request: Create one independently composed illustration for Book VII, chapter 45, \"The Misfortunes of Augustus.\" Humanize the elderly Augustus at Nola near the end of his life: he sits awake and unarmored in a plain deep-blue cloak on a low bench beneath a shadowed colonnade at blue dusk, looking toward a distant rain-washed horizon rather than toward the viewer. His complete body, hands, sandals, and face are fully visible. On a separate low stone table well inside the frame rest exactly three quiet emblems from Pliny's long catalogue of reversals: one complete laurel wreath laid aside, one complete empty grain measure, and one complete small storm-damaged ship model with a snapped mast. Exactly one complete trusted attendant stands several paces away in respectful silence holding a folded undyed blanket, also fully visible. Beyond the open arcade, a narrow internal garden path and three dark cypresses lead toward distant hills; no water or structure meets an outer edge. The scene is about the contradiction between public divinity and private human uncertainty, not triumph or blame. Treat Pliny's accusations and rumors as his transmitted catalogue, not verified biography.\nStyle/medium: exceptionally beautiful ancient natural-history codex folio, hand-ground faded lapis, indigo, umber, madder, ochre, lampblack, chalk, and sparse shell-gold; egg tempera and transparent watercolor over warm fibrous aged vellum grain; fine iron-gall contours, cross-hatching, stipple, and dry-brush abrasion; weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once; historically plausible early Imperial Roman clothing and architecture.\nComposition/framing: quiet wide oblique interior-to-landscape view, asymmetrical negative space, one coherent continuous scene, landscape 3:2, 1536x1024, full bleed. Keep Augustus, attendant, bench, table, wreath, grain measure, ship model, arcade openings, and cypresses wholly visible with generous breathing room; no focal subject may touch any edge. Only non-focal shadowed wall, sky, or foreground stone floor may naturally continue beyond the canvas.\nLighting/mood: cool blue dusk, faint last gold along the horizon, intimate, grave, compassionate, restrained.\nConstraints: exactly two people total; exactly one wreath, one grain measure, one ship model; no crown on Augustus, no armor, no battle, no dead bodies, no illness spectacle, no modern object, no deification glow, no supernatural sign.\nAvoid: words, letters, numerals, inscriptions, pseudo-writing, captions, signature, watermark, decorative border, internal frame, page-within-page, map, diagram, montage, triptych, collage, split panel, repeated portrait, duplicate objects, floating symbols, glossy CGI, photography, white or page-colored outside area.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-56a11fb4-3673-4568-b574-09cb803b3a76",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Re-inspected at native 1536x1024 after resumption. The pre-existing accepted master remains byte-for-byte unchanged: elderly Augustus and one attendant are complete; the laid-aside laurel, empty grain measure, and storm-damaged ship model are individually legible; the scene reads as private uncertainty rather than triumph or verified accusation. No text, pseudo-writing, supernatural glow, panel, border, modern object, or duplicate motif was found.",
+      "rejectedAttempts": [],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:46",
+      "title": "MEN WHOM THE GODS HAVE PRONOUNCED TO BE THE MOST HAPPY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c046.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "f2a9768a6d1eb40bcf5de848a8c4dd28afbb06c0de264c41cc7e9d25af2d381b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-16d11390-e3e7-401d-879f-e02172e67689",
+      "generationArtifactId": "exec-16d11390-e3e7-401d-879f-e02172e67689",
+      "outputArtifact": "built-in-imagegen://exec-16d11390-e3e7-401d-879f-e02172e67689.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for a digital illuminated edition of Pliny the Elder's Naturalis Historia\nPrimary request: Create one fresh, independently composed illustration for Book VII, chapter 46, \"Men Whom the Gods Have Pronounced to Be the Most Happy,\" centered on Pliny's transmitted story of Aglaus of Psophis. From a high sunlit viewpoint, show one entire modest Arcadian hillside farm held like a green island within dry ochre mountains: a small complete stone cottage with tiled roof, one complete fenced kitchen garden, a compact barley patch, three fruit trees, six vines on a low terrace, and a complete spring-fed cistern whose water perimeter remains well inside the frame. In the central field, exactly one complete grey-haired farmer, Aglaus, kneels peacefully to gather beans into a plain wicker basket; his whole body, hands, sandals, basket, and hoe are visible with open ground around them. At the far end of the internal lane stands exactly one complete richly dressed but unarmed Lydian royal emissary with an empty hand extended in astonished greeting, also fully visible, his small scale subordinate to the land. Exactly one complete small dun donkey waits beside the cottage. The contrast is between sufficient daily work and royal ambition; do not show a god, oracle, revelation, halo, treasure, poverty spectacle, or claim supernatural verification. Treat the Delphic judgment as an ancient report and moral paradox.\nStyle/medium: exceptionally beautiful ancient natural-history codex folio, hand-ground spring malachite, pale verdigris, apricot ochre, faded lapis, madder, umber, lampblack, chalk, and sparse burnished gold; egg tempera and translucent watercolor over warm fibrous aged vellum; precise iron-gall contours, botanical stipple, fine cross-hatching, and dry-brush abrasion; weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once; historically plausible rural Arcadia and clothing.\nComposition/framing: airy high-oblique panorama with an S-shaped terrace path, abundant pale negative space, one coherent continuous landscape, landscape 3:2, 1536x1024, full bleed. Keep the whole cottage, fenced garden, cistern, farmer, emissary, donkey, fruit trees, vines, basket, and hoe wholly visible with generous breathing room; no focal subject or cistern water may touch any edge. Only non-focal mountain slope, sky, or dry foreground grass may naturally continue beyond the canvas.\nLighting/mood: crisp apricot morning after rain, tender, self-sufficient, unhurried.\nConstraints: exactly two human figures total and exactly one donkey; no extra workers, family, guards, soldiers, shrine, temple, crown, coins, gold hoard, supernatural light, modern agriculture, or ruined-tourist setting.\nAvoid: words, letters, numerals, inscriptions, pseudo-writing, captions, signature, watermark, decorative border, internal frame, page-within-page, map, diagram, montage, diptych, triptych, collage, split panel, repeated motifs, duplicate people or donkey, floating symbols, glossy CGI, photography, white or page-colored outside area.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-16d11390-e3e7-401d-879f-e02172e67689",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Re-inspected at native 1536x1024 after resumption. The pre-existing accepted master remains byte-for-byte unchanged: exactly two people and one donkey occupy a complete high-oblique Arcadian farm; cottage, fenced garden, spring-fed cistern, crops, vines, basket, and hoe remain legible and edge-safe. No oracle apparition, poverty spectacle, text, pseudo-writing, panel, border, modern object, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:47",
+      "title": "THE MAN WHOM THE GODS ORDERED TO BE WORSHIPPED DURING HIS LIFE-TIME; A REMARKABLE FLASH OF LIGHTNING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c047.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "b7025bd00dad3ea897963a7fe4de326555c688d2d1478c6d06f21f4fd3842718",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a0656ebe-37cf-4543-8265-a1a9d6a9c40d",
+      "generationArtifactId": "exec-a0656ebe-37cf-4543-8265-a1a9d6a9c40d",
+      "outputArtifact": "built-in-imagegen://exec-a0656ebe-37cf-4543-8265-a1a9d6a9c40d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: chapter illustration master for Book VII, chapter 47 of an illustrated Naturalis Historia\nPrimary request: Create one independent landscape illustration grounded in Pliny's transmitted report about Euthymus of Locri. After a storm, witnesses inspect a fully clothed bronze civic victory statue that tradition said was struck by lightning, while a courier has just arrived with news that another statue at Olympia was reportedly struck the same day. Present this as an ancient reported omen and civic response, not as verified divine intervention.\nScene/backdrop: early dawn in a South Italian Greek sanctuary courtyard at Locri after rain; wet blue-gray paving, pale limestone colonnade, distant receding thundercloud over the Ionian sea; one weathered bronze victory statue wearing a modest draped knee-length ceremonial chiton and wrapped athletic hands, standing on a low stone plinth with a small natural storm scar and a faint wisp of cooling smoke.\nSubject: exactly three living adult human figures, all fully clothed, fully visible head to sandal, and entirely inside the frame: an older civic record keeper calmly examining the scar, a rain-soaked courier holding a sealed but completely blank wax tablet with no marks, and a local bronze worker touching the plinth with a wooden measuring rod. The clothed bronze figure is clearly an inanimate statue, not a living fourth person. Small flower and grain offerings sit at the base without active sacrifice.\nStyle/medium: museum-quality historical gouache, mineral pigment and charcoal on rough warm vellum texture, hand-rendered but polished; ancient, timeless, beautiful, rough and refined at once; coherent Plinian natural-history folio aesthetic; expressive but anatomically credible faces and hands; no photorealism.\nComposition/framing: cinematic low oblique viewpoint, wide 3:2 landscape, 1536x1024; statue slightly off-center with diagonal wet paving leading toward it; airy negative space in storm-cleared sky; every person, sandal, prop, plinth, cloud, and visible shoreline fully contained with generous edge safety; no cropped bodies or clipped water.\nLighting/mood: silver-blue post-storm dawn crossed by one muted amber sunbeam; sober wonder, inquiry, and civic restraint rather than spectacle.\nColor palette: lapis gray, rain-washed teal, oxidized bronze, pale limestone, restrained amber and earth red.\nMaterials/textures: hammered bronze patina, rain-dark stone, worn linen, rough vellum grain, dry-brush edges, subtle ink contour.\nText: none.\nConstraints: one continuous scene only; opaque RGB/sRGB PNG; full-bleed artwork with no visible page outside it; the simultaneous strike is conveyed only by the courier's arrival and the witnesses' uncertainty, never by split scenes, maps, labels, magical beams, or supernatural aura; historically plausible Magna Graecian clothing and architecture.\nAvoid: any letters, numbers, inscriptions, pseudo-writing, signature, watermark, caption, border, decorative frame, white margin, manuscript page mockup, panels, triptych, collage, duplicated figures, duplicate statues, active lightning bolt, gore, battle, exposed skin beyond hands and faces, fire, worshipful prostration, graphic sacrifice, divine apparition, halos, modern objects, clipped anatomy, cropped feet, clipped architecture, clipped sea or shoreline.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a577d8c7-22cf-420d-9cdf-81f54fe678da",
+          "status": "failed-no-artifact"
+        },
+        {
+          "generationArtifactId": "exec-a0656ebe-37cf-4543-8265-a1a9d6a9c40d",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly three complete living adults examine one clearly inanimate, fully clothed bronze victory statue after a storm; the courier tablet is blank, offerings are restrained, and the reported simultaneous strike is framed as civic testimony rather than verified divine action. No active lightning, worship spectacle, text, pseudo-writing, panel, border, modern object, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "providerFailures": [
+        {
+          "generationArtifactId": "exec-a577d8c7-22cf-420d-9cdf-81f54fe678da",
+          "status": "failed",
+          "requestId": "b07e9ccb-3ed6-4588-a1c8-8b6dfbd5beb2",
+          "moderationStage": "output",
+          "category": "sexual",
+          "artifactEmitted": false,
+          "note": "The provider safety system blocked the first statue wording. No image artifact was emitted. The successful retry specified a fully clothed civic victory statue; no safety setting was bypassed.",
+          "exactPrompt": "Use case: historical-scene\nAsset type: chapter illustration master for Book VII, chapter 47 of an illustrated Naturalis Historia\nPrimary request: Create one independent landscape illustration grounded in Pliny's transmitted report about Euthymus of Locri: after a storm, witnesses inspect a bronze athlete statue that tradition said was struck by lightning, while a courier has just arrived with news that another statue at Olympia was said to have been struck the same day. Present this as an ancient reported omen and civic response, not as verified divine intervention.\nScene/backdrop: early dawn in a South Italian Greek sanctuary courtyard at Locri after rain; wet blue-gray paving, pale limestone colonnade, distant receding thundercloud over the Ionian sea; one weathered bronze standing boxer statue on a low stone plinth with a small natural lightning scar and faint wisp of cooling smoke, undamaged enough to remain dignified.\nSubject: exactly three living human figures, all fully visible head to sandal and entirely inside the frame: an older civic record keeper calmly examining the scar, a rain-soaked courier holding a sealed but completely blank wax tablet with no marks, and a local bronze worker touching the plinth with a wooden measuring rod. The bronze athlete is a statue, not a living fourth person. Small flower and grain offerings sit at the base without active sacrifice.\nStyle/medium: museum-quality historical gouache, mineral pigment and charcoal on rough warm vellum texture, hand-rendered but polished; ancient, timeless, beautiful, rough and refined at once; coherent Plinian natural-history folio aesthetic; expressive but anatomically credible faces and hands; no photorealism.\nComposition/framing: cinematic low oblique viewpoint, wide 3:2 landscape, 1536x1024; statue slightly off-center with diagonal wet paving leading toward it; airy negative space in storm-cleared sky; every person, sandal, prop, plinth, cloud, and visible shoreline fully contained with generous edge safety; no cropped bodies or clipped water.\nLighting/mood: silver-blue post-storm dawn crossed by one muted amber sunbeam; sober wonder, inquiry, and civic restraint rather than spectacle.\nColor palette: lapis gray, rain-washed teal, oxidized bronze, pale limestone, restrained amber and earth red.\nMaterials/textures: hammered bronze patina, rain-dark stone, worn linen, rough vellum grain, dry-brush edges, subtle ink contour.\nText: none.\nConstraints: one continuous scene only; opaque RGB/sRGB PNG; full-bleed artwork with no visible page outside it; the simultaneous strike is conveyed only by the courier's arrival and the witnesses' uncertainty, never by split scenes, maps, labels, magical beams, or supernatural aura; historically plausible Magna Graecian clothing and architecture.\nAvoid: any letters, numbers, inscriptions, pseudo-writing, signature, watermark, caption, border, decorative frame, white margin, manuscript page mockup, panels, triptych, collage, duplicated figures, duplicate statues, active lightning bolt, gore, battle, fire, worshipful prostration, graphic sacrifice, divine apparition, halos, modern objects, clipped anatomy, cropped feet, clipped architecture, clipped sea or shoreline."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:49",
+      "title": "THE VARIETY OF DESTINIES AT THE BIRTH OF MAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c049.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "b3d8a7f2aa2c99425d8f7fcdd80dcb796904a745a5446c96ab56b24fb8d9cc67",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0f009f52-ce85-478b-b759-b1aeab988791",
+      "generationArtifactId": "exec-0f009f52-ce85-478b-b759-b1aeab988791",
+      "outputArtifact": "built-in-imagegen://exec-0f009f52-ce85-478b-b759-b1aeab988791.png",
+      "inputArtifact": "built-in-imagegen://exec-6886c7ba-b9f1-4a6d-9905-6866cf7034dd.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final chapter illustration master for Book VII chapter 49\nPrimary request: Edit only the framing of Image 1. Pull the camera back enough to place the census clerk's entire chair, including every back rail, seat edge, leg, and foot, comfortably inside the canvas with broad pale paving between the chair and all four image edges. Also keep the complete free-standing table and all four table legs entirely inside. Preserve the same five people, their identities, ages, poses, garments, arrangement, expressions, all four older citizens, the exactly four clay counters, blank closed tablet, sealed scroll, plain unmarked tally stick, armillary sphere, columns, river valley, high oblique viewpoint, hand-painted tempera-gouache folio style, lighting, color palette, and historical meaning unchanged.\nComposition/framing: retain wide 3:2 landscape at 1536x1024; expand the view mostly toward the lower-left and lower edge; every person head-to-sandal, every chair element, every table element, every counter, tablet, scroll, tally stick, armillary sphere, column, and the contained river opening must remain complete with generous edge clearance.\nText: none.\nConstraints: one continuous full-bleed scene; opaque RGB/sRGB PNG; visualize uncertain ancient lifespan theories compared with reported census evidence, not modern prediction.\nAvoid: changing people or counts, adding people or objects, duplicate faces, any letters, numerals, inscriptions, tally marks, pseudo-writing, signature, watermark, caption, visible page, border, decorative frame, white margin, panels, collage, astrology symbols, modern objects, cropped bodies, cropped sandals, clipped chair, clipped furniture, clipped armillary sphere, clipped columns, clipped river opening, photorealism, CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6886c7ba-b9f1-4a6d-9905-6866cf7034dd",
+          "status": "rejected-preserved"
+        },
+        {
+          "generationArtifactId": "exec-0f009f52-ce85-478b-b759-b1aeab988791",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 after one framing correction. One complete clerk and exactly four complete older citizens surround a fully contained table and chair; exactly four clay counters, a blank closed tablet, sealed scroll, unmarked tally stick, armillary sphere, columns, and river-valley opening are legible. The image contrasts disputed calculation with reported census evidence without prediction, stigma, text, pseudo-writing, panel, border, or clipping.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-6886c7ba-b9f1-4a6d-9905-6866cf7034dd",
+          "outputArtifact": "built-in-imagegen://exec-6886c7ba-b9f1-4a6d-9905-6866cf7034dd.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/evidence/history/b07-c049-rejected-01-clipped-clerk-chair.png",
+          "sha256": "b9533b8d73428822d3c0d9651c59b47c4cf5f0445bb07148a9b39dca1b7da6fd",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent chapter illustration master for Book VII, chapter 49 of an illustrated Naturalis Historia\nPrimary request: Visualize Pliny's contrast between uncertain astrological lifespan theories and the recent Roman census records of very old people. Treat both the ages and theories as ancient reported evidence under scrutiny, never as guaranteed prediction or verified modern demography.\nScene/backdrop: a quiet open-air Roman census station in the hill town of Veleia, between the Apennines and the river Po; pale stone loggia opening to green-gray foothills and a silver river valley; an abandoned bronze armillary sphere stands unconsulted in deep shade at the far rear, while ordinary people and observation occupy the sunlit foreground.\nSubject: exactly five complete adult human figures, each fully visible head to sandal and comfortably inside the frame: one seated census clerk at a small free-standing wooden table, and exactly four dignified older citizens of visibly varied ages standing in a loose arc. One citizen offers a plain wooden tally stick without marks; another gently steadies an elderly companion; the remaining two wait calmly. On the table lie exactly four unmarked clay counters, a sealed scroll, and one completely blank closed wax tablet. No one points at the sky.\nStyle/medium: hand-painted historical folio illustration in translucent egg tempera and gouache with iron-gall contours, fine cross-hatching, stipple, dry-brush abrasion and visible warm fibrous vellum grain; poetic, tactile, museum quality; ancient, timeless, beautiful, materially rough yet compositionally polished; not photorealistic or glossy.\nComposition/framing: high oblique bird's-eye three-quarter view, wide 3:2 landscape, 1536x1024; the small table and five people form an asymmetric spiral in a broad pale courtyard; strong negative space of paving between figures; distant valley appears only through the contained central loggia opening; keep the complete free-standing table, all four legs, every figure and sandal, counters, tally stick, closed tablet, sealed scroll, armillary sphere, columns, and river opening fully visible with generous edge clearance.\nLighting/mood: clear late-morning light, calm empirical attention, humility before uncertainty.\nColor palette: pale chalk and bone, sage verdigris, silver river blue, warm walnut, muted saffron, tiny madder accents.\nMaterials/textures: worn stone, aged hands, undyed linen, carved wood, bronze patina, granular mineral wash, rough vellum fibers.\nText: none.\nConstraints: one continuous scene only; opaque RGB/sRGB PNG; full-bleed artwork with no visible page outside; the ancient lifespan claims are framed as disputed calculations compared with reported census testimony; no person is exoticized, idealized, or used as a medical specimen.\nAvoid: all lettering, Roman numerals, numbers, inscriptions, pseudo-writing, tally marks, signatures, watermarks, captions, labels, zodiac symbols, constellations, horoscope chart, magical rays, fate threads, medical examination, disability stigma, death imagery, visible page, border, decorative frame, white margin, manuscript mockup, panels, split comparison, collage, duplicated faces or bodies, extra people, clipped anatomy, cropped feet, clipped furniture, clipped armillary sphere, clipped columns, clipped river or valley, modern objects, photography, photorealism, CGI.",
+          "reason": "Native-resolution QA found the census clerk chair crossing the lower-left canvas edge. The first candidate was rejected for incomplete furniture framing and preserved byte-identically.",
+          "hashReconciled": true
+        }
+      ],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:50",
+      "title": "VARIOUS INSTANCES OF DISEASES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c050.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "463ac097aa1fb2c633ffa2c93cb2899305d27dba165f9dc1ac4ec3da5444d37a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dc168022-c12b-4cee-bde2-a17858138856",
+      "generationArtifactId": "exec-dc168022-c12b-4cee-bde2-a17858138856",
+      "outputArtifact": "built-in-imagegen://exec-dc168022-c12b-4cee-bde2-a17858138856.png",
+      "inputArtifact": "built-in-imagegen://exec-a776a10e-f2f2-416a-8225-4d84af7bef4d.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final chapter illustration master for Book VII chapter 50\nPrimary request: Edit only the framing and size of the sleeping couch and canopy at the far left of Image 1. Pull the viewpoint back and shift the couch-and-canopy slightly inward so the entire low couch, every couch leg, every canopy post from base to finial, the full canopy cloth, all corners, and visible clear terrace paving around that furniture are comfortably inside the canvas. Preserve the rest of the image: exactly three fully clothed adults, their identities, poses, garments, the chairs, attendant's folded blanket and single oil lamp, low stool with covered water jar and untouched cup, complete courtyard fountain, Roman rooftops, predawn sky, wide quiet composition, lighting, indigo-plum palette, painterly folio texture, and respectful account of Maecenas's reported sleepless illness.\nComposition/framing: 3:2 landscape at 1536x1024; expand the view chiefly at left and lower left while keeping all three people head-to-sandal and all focal objects comfortably away from every edge. The unused bed and canopy must read as one small complete freestanding object with pale paving visible on every side.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; illness as transmitted ancient testimony and companionship, not medical instruction or verified prognosis.\nAvoid: changing figure count or identities, adding people, duplicating bodies, moving the central figures, extra lamps or vessels, any letters, numbers, inscriptions, pseudo-writing, signature, watermark, caption, visible page, border, decorative frame, white margin, panel, collage, graphic symptoms, treatment, modern objects, clipped body, clipped sandal, clipped chair, clipped couch, clipped canopy cloth or posts, clipped stool, jar, cup, fountain, or garden opening, photography, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a776a10e-f2f2-416a-8225-4d84af7bef4d",
+          "status": "rejected-preserved"
+        },
+        {
+          "generationArtifactId": "exec-dc168022-c12b-4cee-bde2-a17858138856",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 after one framing correction. Exactly three complete adults, both chairs, the entire unused sleeping couch and all canopy posts, the covered jar, untouched cup, lamp, blanket, and courtyard fountain are contained. Maecenas is shown with companionship rather than treatment or spectacle. No graphic symptom, medical advice, text, pseudo-writing, panel, border, modern object, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a776a10e-f2f2-416a-8225-4d84af7bef4d",
+          "outputArtifact": "built-in-imagegen://exec-a776a10e-f2f2-416a-8225-4d84af7bef4d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/evidence/history/b07-c050-rejected-01-clipped-canopy.png",
+          "sha256": "51c85133d0ebaaa42a8940417f39c06f2180f103daea6a38efc11ee8a7b1d32a",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent chapter illustration master for Book VII, chapter 50 of an illustrated Naturalis Historia\nPrimary request: Visualize Pliny's transmitted report that Maecenas endured unrelenting fever and, during his last years, scarcely slept. Present a dignified ancient account of illness and attentive companionship, not a diagnosis, miracle, medical instruction, or proof that Pliny's general claims about disease are correct.\nScene/backdrop: a spacious upper terrace of a late first-century BCE Roman house in the blue hour just before dawn; open sky turns from deep indigo to a narrow pale horizon; a small enclosed courtyard garden and a complete freestanding stone fountain are visible below through the terrace opening; one simple low sleeping couch sits unused beneath a complete fabric canopy.\nSubject: exactly three fully clothed adult human figures, all fully visible and comfortably inside the frame. Maecenas sits upright in a cushioned chair with a light wool wrap, tired but composed, looking toward dawn. An older physician sits at equal eye level several paces away with hands resting open, offering attentive presence without examination or medicine. A household attendant quietly shutters one complete oil lamp and carries a folded blanket. A plain covered water jar and untouched cup stand on a separate low stool; no one administers anything.\nStyle/medium: richly hand-rendered Roman historical folio in mineral gouache, egg tempera, iron-gall contours, charcoal shadow, delicate cross-hatching and granular dry-brush on warm fibrous vellum; ancient, timeless, beautiful, tactile and rough in surface yet polished in composition; painterly rather than photorealistic.\nComposition/framing: very wide eye-level view from across the terrace, 3:2 landscape, 1536x1024; all three figures small within the lower middle third, unused couch and complete canopy separated to one side, expansive predawn sky as calm negative space; keep every person head-to-sandal, chair, couch, all canopy posts and roof corners, lamp, blanket, stool, jar, cup, fountain basin and garden opening entirely visible with generous edge safety.\nLighting/mood: cool predawn quiet, exhaustion without melodrama, mutual care and human fragility.\nColor palette: deep faded lapis, blue-black, malachite shadow, muted plum, pale bone, one low amber lamp accent.\nMaterials/textures: rumpled wool, aged cedar, weathered plaster, glazed clay, stone fountain, scratched pigment, vellum tooth.\nText: none.\nConstraints: one continuous full-bleed scene; opaque RGB/sRGB PNG; Pliny's disease patterns and Maecenas story are framed as ancient testimony rather than present-day medicine; no visible treatment, prognosis, or biological mechanism.\nAvoid: letters, numbers, inscriptions, pseudo-writing, signatures, watermarks, captions, labels, charts, pulse diagram, zodiac, magical aura, death apparition, graphic symptoms, vomiting, wounds, blood, parasites, exposed anatomy, nudity, medical procedure, medication, advice, suffering spectacle, disability stigma, idealized endurance, duplicate figures, extra people, modern hospital objects, visible page, border, decorative frame, white margin, manuscript mockup, panels, triptych, collage, clipped bodies, cropped sandals, clipped furniture, clipped canopy, clipped lamp, clipped jar or cup, clipped fountain or garden opening, photography, glossy CGI.",
+          "reason": "Native-resolution QA found the sleeping couch and canopy clipped at the left edge. The candidate was rejected and preserved before a framing-only correction.",
+          "hashReconciled": true
+        }
+      ],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:51",
+      "title": "DEATH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c051.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "e25222121de71faaab1995c55185784531ca824b9777de2d981a24072da98a54",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a35371cf-5cc7-45f7-9dfb-e8d57e9862aa",
+      "generationArtifactId": "exec-a35371cf-5cc7-45f7-9dfb-e8d57e9862aa",
+      "outputArtifact": "built-in-imagegen://exec-a35371cf-5cc7-45f7-9dfb-e8d57e9862aa.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent chapter illustration master for Book VII, chapter 51 of an illustrated Naturalis Historia\nPrimary request: Create a restrained historical scene grounded in Pliny's list of signs that ancient physicians associated with approaching death. Show careful observation, uncertainty, and family presence around a resting person. Treat these signs as transmitted ancient medical testimony, never as a reliable modern prognosis, diagnosis, or instruction.\nScene/backdrop: a sun-warmed healing portico in a Roman household at midmorning; a complete low couch stands free of the walls beneath pale stucco and soft moving olive-leaf shadows; a fully contained open doorway looks into a small ochre courtyard with one water basin.\nSubject: exactly four fully clothed adult human figures and no others. One older patient rests on their back beneath a light coverlet, entire body and couch visible, face peaceful and non-graphic. One physician sits beside the couch and lightly holds the patient's wrist with two fingers, attentive but not triumphant. One adult family member sits at the foot of the couch holding the patient's relaxed hand. One assistant stands behind the physician closing a completely blank wax-tablet diptych, with no marks visible. No one administers medicine and no bodily fluid or distress is shown.\nStyle/medium: original historical folio illustration in warm mineral gouache, egg tempera, iron-gall line, soft charcoal, cross-hatching, stipple and dry-brush abrasion across visible fibrous vellum; intimate and hand wrought, ancient, timeless, beautiful, rough in material and polished in draftsmanship; painterly, not photographic.\nComposition/framing: quiet near-overhead three-quarter view, wide 3:2 landscape, 1536x1024; complete couch forms a gentle diagonal within a broad sunlit floor; four figures create a compact but uncrowded constellation around it; large pale area of floor and wall provides negative space. Keep the whole couch, every couch leg, patient's entire covered body, all four heads, hands and feet, blank tablet, doorway, water basin, and every focal prop comfortably inside all edges.\nLighting/mood: warm, lucid midmorning; tenderness, humility, and attentive presence without supernatural portent or melodrama.\nColor palette: bone and warm chalk, sunlit saffron, muted wine red, olive green, soft umber, a trace of charcoal blue.\nMaterials/textures: woven wool coverlet, worn cedar couch, matte plaster, bronze basin, aged linen, granular pigment and vellum fiber.\nText: none.\nConstraints: one coherent full-bleed scene only; opaque RGB/sRGB PNG; no claim that visual signs can determine an outcome; no modern medical advice; historical care is emphasized over prediction.\nAvoid: any letters, numbers, inscriptions, pseudo-writing, labels, caption, signature, watermark, medical chart, diagram, anatomical cutaway, death figure, soul, ghost, halo, miracle, graphic symptoms, bodily fluids, open mouth, worms, parasites, blood, wound, exposed anatomy, nudity, invasive procedure, medication, modern instrument, neglect, restraint, suffering spectacle, fear, disability stigma, corpse display, extra people, duplicated bodies, visible page, border, decorative frame, white margin, manuscript mockup, panels, triptych, collage, clipped patient, cropped bodies, cropped feet, clipped couch or furniture, clipped doorway or water basin, photography, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a35371cf-5cc7-45f7-9dfb-e8d57e9862aa",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly four fully clothed adults, the resting patient and complete couch, physician, family member, assistant, blank tablet, doorway, and basin are fully legible. Ancient prognostic observation is framed with humility and care, not as modern diagnosis. No graphic symptom, invasive procedure, death apparition, text, pseudo-writing, panel, border, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:52",
+      "title": "PERSONS WHO HAVE COME TO LIFE AGAIN AFTER BEING LAID OUT FOR BURIAL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c052.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "a154f010552894abb09001eedd426af2da54462af38aa01b0e8c5b1587d1fc34",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ba6da52f-7d95-42a4-ac4a-fd32054b75ad",
+      "generationArtifactId": "exec-ba6da52f-7d95-42a4-ac4a-fd32054b75ad",
+      "outputArtifact": "built-in-imagegen://exec-ba6da52f-7d95-42a4-ac4a-fd32054b75ad.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent chapter illustration master for Book VII, chapter 52 of an illustrated Naturalis Historia\nPrimary request: Ground the scene in Varro's transmitted story that at Capua a man being carried toward burial rose and walked home from the forum. Show the humane aftermath: an alert man returning on foot with family support while an empty funerary bier is put away. Present this as a remarkable ancient report whose truth is not established, not as a verified resurrection, soul journey, miracle, or modern medical event.\nScene/backdrop: a broad Capuan street just after sunrise, viewed toward a modest open household doorway; pale rose sky, long cool shadows, worn buff paving, low brick-and-stucco houses, distant forum portico kept small and complete in the background; no pyre, tomb, temple spectacle, crowd, or supernatural light.\nSubject: exactly four fully clothed adult human figures, all fully visible head to sandal and comfortably within frame. The returned man walks steadily at the center in a simple pale travel cloak, awake and looking toward his doorway. One older relative and one younger relative walk on either side, each offering a light supportive hand without carrying him. Several steps behind, one funerary attendant calmly folds a complete plain undyed shroud beside one fully visible empty wooden bier resting on four low legs. The bier is unmistakably empty. A closed household door stands open ahead; no one kneels or worships.\nStyle/medium: luminous historical folio painting in translucent mineral gouache and egg tempera with iron-gall contours, fine stipple, dry-brush edges, subtle charcoal and visible fibrous vellum grain; ancient, timeless, beautiful, rough and polished at once; narrative but restrained, painterly rather than photoreal.\nComposition/framing: low street-level diagonal viewpoint, wide 3:2 landscape, 1536x1024; returning trio advances from center-left toward the open doorway at right; empty bier and attendant form a quieter counterpoint in rear left; generous open paving separates all silhouettes. Keep every person head-to-sandal, every hand, the complete shroud, entire bier with all four legs, complete doorway, and distant forum portico fully inside the canvas with substantial edge clearance.\nLighting/mood: pearlescent early sun, bewildered relief and practical care, no triumphal miracle.\nColor palette: shell pink, pale turquoise shadow, warm buff, chalk white, smoke gray, restrained madder and muted green.\nMaterials/textures: worn linen, weathered wood, dusted stone, lime plaster, granular mineral wash, vellum fibers.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; the image must clearly frame the episode as ancient testimony through ordinary human reactions and an empty bier; no medical claim or advice.\nAvoid: lettering, numbers, inscriptions, pseudo-writing, signature, watermark, caption, label, halo, aura, ghost, soul, raven spirit, angel, divine figure, magic rays, before-and-after double, duplicated man, funeral flames, cremation, corpse, open grave, body wound, blood, gore, exposed anatomy, nudity, panic, mob, religious worship, extra people, duplicated faces, modern emergency equipment, visible page, border, decorative frame, white margin, manuscript mockup, panels, split scene, montage, collage, clipped bodies or sandals, clipped shroud, clipped bier or legs, clipped doorway, clipped portico, photography, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ba6da52f-7d95-42a4-ac4a-fd32054b75ad",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly four complete adults accompany one alert man toward home while a complete empty bier and plain shroud remain behind; the street, doorway, and distant portico are legible. The account reads as transmitted testimony and practical family care, with no literal miracle aura, body spectacle, text, pseudo-writing, panel, border, or clipped focal subject.",
+      "rejectedAttempts": [],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:53",
+      "title": "INSTANCES OF SUDDEN DEATH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c053.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "05cf9e34f821de1eb71e010198a69fdce2886823a949a131009c713d679eb944",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5bb9bc64-3f66-4948-93b3-af64db659618",
+      "generationArtifactId": "exec-5bb9bc64-3f66-4948-93b3-af64db659618",
+      "outputArtifact": "built-in-imagegen://exec-5bb9bc64-3f66-4948-93b3-af64db659618.png",
+      "inputArtifact": "built-in-imagegen://exec-c63c6417-3308-4308-9577-a72c3592f6e7.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final chapter illustration master for Book VII chapter 53\nPrimary request: Make exactly two corrections to Image 1 and preserve everything else. First, remove the plain cup at the near/front edge of the square table, leaving exactly three cups on the table plus exactly one cup held by the standing blue-cloaked companion: exactly four cups total in the entire image. Restore natural uninterrupted wood grain where the removed front cup stood. Second, reduce the orange tree and shift it downward/inward so its entire crown, every orange, trunk, and square planter are fully visible with a broad band of turquoise wall and blue sky around the crown; no leaf or branch may touch or cross the top or right canvas edge.\nPreserve unchanged: exactly four complete adults and no others; Hilarus seated upright bare-headed with eyes gently closed; kneeling, standing, and seated companions; all poses, faces, garments, chairs and stool; complete square table and legs; one inanimate painted wooden comic mask; exactly one leaf chaplet lying beside the mask and nowhere else; one covered bowl; the high-key near-overhead composition; complete reflecting basin and every water edge; pale geometric paving; turquoise walls; pearly daylight; shell-pink, pale-aqua and lapis mineral folio palette; rough vellum texture; dignified ancient-literary framing.\nText: none.\nConstraints: 3:2 landscape 1536x1024, one continuous full-bleed opaque RGB/sRGB scene. Every figure, sandal, chair, stool, table, mask, single chaplet, covered bowl, exactly four cups total, basin, water edge, tree crown, trunk and planter must remain comfortably inside all edges.\nAvoid: adding or removing people, changing identities or poses, extra masks, extra wreaths, any chaplet on Hilarus, extra cups, letters, numbers, inscriptions, pseudo-writing, signature, watermark, caption, border, page mockup, panels, collage, ghost, halo, blood, exposed anatomy, modern objects, clipped people, furniture, basin, water, tree or planter, photography, glossy CGI.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8feeaee4-ec1c-42af-9858-af4fbdd680d7",
+          "status": "rejected-preserved"
+        },
+        {
+          "generationArtifactId": "exec-cfd97b97-596b-43de-82af-08af6ee47cc6",
+          "status": "rejected-preserved"
+        },
+        {
+          "generationArtifactId": "exec-c63c6417-3308-4308-9577-a72c3592f6e7",
+          "status": "rejected-preserved"
+        },
+        {
+          "generationArtifactId": "exec-5bb9bc64-3f66-4948-93b3-af64db659618",
+          "status": "accepted"
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 after three rejected candidates. Exactly four complete adults occupy the high-key court; Hilarus is bare-headed and composed; exactly one painted stage mask, one chaplet, one covered bowl, and four cups total are present. The full table, chairs, stool, reflecting basin and water edges, orange-tree crown, trunk, and planter remain contained. No supernatural event, graphic death, text, pseudo-writing, panel, border, modern object, or clipping was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-8feeaee4-ec1c-42af-9858-af4fbdd680d7",
+          "outputArtifact": "built-in-imagegen://exec-8feeaee4-ec1c-42af-9858-af4fbdd680d7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/evidence/history/b07-c053-rejected-01-duplicate-chaplet-clipped-arbor.png",
+          "sha256": "485c7964dd8ddaa862b6a586186e0fdadeff17f27b207606de1d18a933f7a3d5",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent chapter illustration master for Book VII, chapter 53 of an illustrated Naturalis Historia\nPrimary request: Ground the image in Pliny's transmitted story of the comic actor M. Ofilius Hilarus, said to have died quietly at his birthday supper after placing his chaplet on the stage mask from that day's performance. Depict the instant companions notice his stillness with dignity and restraint. Treat the episode as an ancient literary report about sudden death, not a medical explanation, ideal death, supernatural event, or advice.\nScene/backdrop: a small open garden dining court in Rome after sunset, enclosed by low russet stucco walls and a complete grape arbor set well back from the edges; amber oil lamps, dark cypress-blue sky, a few fallen vine leaves, no audience or crowd.\nSubject: exactly four fully clothed adult human figures and no others, all fully visible and entirely inside the frame. Hilarus sits upright in a plain chair at one side of a complete free-standing round wooden table, eyes gently closed, hands relaxed, neither collapsed nor grotesque. Exactly three adult companions occupy separate positions around the table: one seated companion leans forward in dawning concern, one standing companion lowers an untouched cup, and one standing companion reaches calmly toward Hilarus's shoulder. On the table, one clearly inanimate plain theatrical mask lies face-up with one simple leaf chaplet resting around it, beside a small bowl of warm drink and four plain cups. The mask is unmistakably a prop and not a fifth living figure.\nStyle/medium: dramatic but tender historical folio painting in mineral gouache, egg tempera, iron-gall line, lampblack wash, fine cross-hatching, stipple, dry-brush and visible fibrous vellum grain; ancient, timeless, beautiful, rough in material and polished in composition; painterly, not photographic.\nComposition/framing: intimate medium-wide view from slightly below eye level, 3:2 landscape, 1536x1024; round table sits off-center beneath a pool of amber lamplight, four figures form an irregular ring with dark blue garden negative space between them; keep every person head-to-sandal, chair, complete round tabletop and every table leg, mask, leaf chaplet, bowl, all four cups, each complete oil lamp, and complete contained grape arbor comfortably clear of all edges.\nLighting/mood: copper-gold lamplight against deep cypress blue; quiet realization, mortality, and fellowship without horror or sentimentality.\nColor palette: burnt copper, deep blue-black, muted wine, walnut, olive, ochre, bone highlights.\nMaterials/textures: theatrical painted wood mask, crushed leaves, warm ceramic bowl, aged oak, worn linen, scratched pigment, granular vellum.\nText: none.\nConstraints: one continuous full-bleed scene; opaque RGB/sRGB PNG; no depiction of the other deaths, suicide, sexual acts, battlefield casualties, or cremation stories in the chapter; no causal medical claim.\nAvoid: lettering, numbers, inscriptions, pseudo-writing, signature, watermark, caption, label, readable scroll, ghost, soul, halo, omen, magic rays, grim reaper, blood, wound, poison, collapse, contorted body, open mouth, exposed anatomy, nudity, sexual content, corpse spectacle, grief frenzy, medicine, modern objects, extra people, duplicated bodies or faces, mask resembling a living severed head, multiple masks, extra cups, visible page, border, decorative frame, white margin, manuscript mockup, panels, triptych, split scene, montage, collage, clipped bodies or sandals, clipped chair, table, table legs, mask, chaplet, cup, lamp or arbor, photography, glossy CGI.",
+          "reason": "Native-resolution QA found a second chaplet on Hilarus in addition to the mask chaplet, extra cup ambiguity, and an arbor crossing the top and side edges. The candidate was rejected and preserved byte-identically.",
+          "hashReconciled": true
+        },
+        {
+          "generationArtifactId": "exec-cfd97b97-596b-43de-82af-08af6ee47cc6",
+          "outputArtifact": "built-in-imagegen://exec-cfd97b97-596b-43de-82af-08af6ee47cc6.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/evidence/history/b07-c053-rejected-02-global-mad-below-20.png",
+          "sha256": "d8a788a8814d1327d47e3ac85ae41a4e47257110d2c3f7cf336ced89846f931b",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent chapter illustration master for Book VII, chapter 53 of an illustrated Naturalis Historia\nPrimary request: Ground the image in Pliny's transmitted story of the comic actor M. Ofilius Hilarus, said to have died quietly at his birthday supper after placing his chaplet on the stage mask from that day's performance. Depict the instant companions notice his stillness with dignity and restraint. Treat the episode as an ancient literary report about sudden death, not a medical explanation, ideal death, supernatural event, or advice.\nScene/backdrop: a spacious open Roman garden dining court after sunset, with a low russet stucco wall fully behind the figures, two small contained cypress trees in square planters, and clear deep-blue sky; no overhead arbor, vines, audience, crowd, or structure crossing an image edge.\nSubject: exactly four fully clothed adult human figures and no others, every figure fully visible head to sandal. Hilarus sits upright in a plain freestanding chair at one side of a complete freestanding round wooden table, eyes gently closed, hands relaxed, neither collapsed nor grotesque. His head is bare, with absolutely no leaf, wreath, crown, or chaplet on him. Exactly three adult companions occupy separate positions around the table: one seated companion leans forward in dawning concern, one standing companion holds one untouched cup, and one standing companion reaches calmly toward Hilarus's shoulder. On the table, exactly one clearly inanimate painted wooden theatrical mask rests upright against a small covered jar, with exactly one simple leaf chaplet draped around that mask and nowhere else. The table also holds one shallow bowl of warm drink and exactly three plain cups, so there are exactly four cups total including the cup held by the standing companion. No other cups, masks, crowns, or wreaths.\nStyle/medium: dramatic but tender historical folio painting in mineral gouache, egg tempera, iron-gall line, lampblack wash, fine cross-hatching, stipple, dry-brush and visible fibrous vellum grain; ancient, timeless, beautiful, rough in material and polished in composition; painterly and illustrative, not photographic.\nComposition/framing: pulled-back medium-wide view from slightly above eye level, 3:2 landscape, 1536x1024; round table sits in the lower middle beneath a contained pool of amber lamplight, four complete figures form an irregular ring, and open deep-blue sky and plain wall provide negative space. Keep every figure, sandal, chair, complete tabletop and every table leg, mask, single chaplet, bowl, jar, exactly four cups, two complete freestanding oil lamps, both cypress trees and both planters comfortably inside all edges with visible floor or sky around every focal item.\nLighting/mood: copper-gold lamplight against cypress blue; quiet realization, mortality, and fellowship without horror or sentimentality.\nColor palette: burnt copper, deep cypress blue, muted wine, walnut, olive, ochre and bone highlights.\nMaterials/textures: clearly painted wooden stage mask, crushed leaves, warm ceramic bowl, aged oak, worn linen, scratched pigment and granular vellum.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; no depiction of the other deaths, suicide, sexual acts, battlefield casualties, or cremation stories in the chapter; no causal medical claim.\nAvoid: letters, numbers, inscriptions, pseudo-writing, signature, watermark, caption, label, readable scroll, ghost, soul, halo, omen, magic rays, blood, wound, poison, collapse, contorted body, open mouth, exposed anatomy, nudity, sexual content, corpse spectacle, grief frenzy, medicine, modern objects, extra people, duplicated bodies or faces, mask resembling a living severed head, extra masks, any chaplet on Hilarus, more than one chaplet, more or fewer than exactly four cups total, visible page, border, decorative frame, white margin, manuscript mockup, panels, triptych, split scene, montage, collage, clipped bodies or sandals, clipped chair, table, table legs, mask, chaplet, cup, lamp, tree or planter, photography, glossy CGI.",
+          "reason": "The composition passed native visual QA but failed the live global distinctness gate: nearest grayscale MAD was 19.11, below the required 20. It was rejected and preserved byte-identically rather than counted as distinct.",
+          "hashReconciled": true
+        },
+        {
+          "generationArtifactId": "exec-c63c6417-3308-4308-9577-a72c3592f6e7",
+          "outputArtifact": "built-in-imagegen://exec-c63c6417-3308-4308-9577-a72c3592f6e7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-69/evidence/history/b07-c053-rejected-03-five-cups-clipped-tree.png",
+          "sha256": "497c6fe3d4b4cfc6dfa40cd4381acff5567895fb80092ba6b768a6ca93fde5cb",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent final chapter illustration master for Book VII, chapter 53 of an illustrated Naturalis Historia\nPrimary request: Create a wholly new high-key composition grounded in Pliny's transmitted story of the comic actor M. Ofilius Hilarus, said to have died quietly at his birthday meal after placing his chaplet on the stage mask from that day's performance. Depict companions recognizing his stillness with dignity. Treat this as an ancient literary report about sudden death, not a medical explanation, ideal death, supernatural event, or advice.\nScene/backdrop: a bright roofless Roman garden court during a pale late-afternoon meal; turquoise limewashed walls, white limestone paving, an oblong reflecting basin fully contained in one corner, and one small freestanding orange tree in a square planter; no night, dark arbor, stage, audience, or crowd.\nSubject: exactly four fully clothed adult human figures and no others, all complete head to sandal. Hilarus sits upright in a plain freestanding chair beside a complete small square meal table, eyes gently closed and hands relaxed, neither collapsed nor grotesque; his head is bare with no wreath. Exactly three companions are spaced around him: one kneels on the paving at a respectful distance, one stands holding a single untouched cup, and one sits on a low stool extending an open hand toward him. On the table, one clearly inanimate painted wooden comic stage mask lies beside exactly one simple leaf chaplet, one covered warm-drink bowl, and exactly three additional plain cups, making exactly four cups total including the held one. No other mask, crown, wreath, bowl, or cup.\nStyle/medium: exceptionally luminous hand-rendered historical folio in translucent mineral gouache and egg tempera, iron-gall contour, sparse charcoal, delicate cross-hatching and visible rough vellum tooth; ancient, timeless, beautiful, rough in surface and polished in design; decisively illustrative, not photographic.\nComposition/framing: steep near-overhead bird's-eye view, wide 3:2 landscape, 1536x1024; four figures and square table form an asymmetrical diamond across a large expanse of pale geometric paving; reflecting basin and orange tree sit far apart as secondary accents; abundant high-key negative space. Keep every figure, sandal, chair, low stool, complete tabletop and every table leg, mask, single chaplet, covered bowl, exactly four cups, complete reflecting basin including every water edge, complete tree crown, trunk and planter entirely inside the canvas with broad edge clearance.\nLighting/mood: diffuse pearly daylight with pale aqua shadows; quiet recognition, fellowship and mortality without horror.\nColor palette: chalk white, pale turquoise, shell pink, oxidized copper, citron leaf, small madder and faded lapis accents; no dominant black.\nMaterials/textures: painted wooden stage mask, crushed leaf chaplet, ceramic vessels, weathered cedar, limewash, limestone, mineral bloom and fibrous vellum.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; no causal medical claim; no depiction of other sudden-death anecdotes in the chapter.\nAvoid: letters, numbers, inscriptions, pseudo-writing, signature, watermark, caption, label, readable scroll, ghost, soul, halo, omen, magic rays, blood, wound, poison, collapse, contorted body, open mouth, exposed anatomy, nudity, sexual content, corpse spectacle, grief frenzy, medicine, modern objects, extra people, duplicated bodies or faces, mask resembling a living severed head, multiple masks, chaplet on Hilarus, more than one chaplet, more or fewer than exactly four cups total, dark night scene, arbor, visible page, border, decorative frame, white margin, manuscript mockup, panels, triptych, split scene, montage, collage, clipped people or sandals, clipped furniture, table legs, mask, chaplet, cup, basin, water edge, tree or planter, photography, glossy CGI.",
+          "reason": "The high-key replacement contained five cups total rather than exactly four, and the orange-tree crown crossed the top edge. It was rejected and preserved before a two-item correction.",
+          "hashReconciled": true
+        }
+      ],
+      "providerFailures": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

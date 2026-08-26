@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-22",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique output artifacts but no formal receipt ID or model identifier.",
+  "styleContractArtifact": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "styleContractApplied": true,
+  "chapterPlanArtifact": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "17:28",
+      "title": "MEDICAMENTS FOR TREES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b17-c028.png",
+      "corpusArtifact": "public/corpus/book-17.6a74441fb98b4023.json",
+      "sha256": "0b28722d44685eb5577d04d4eef4b81f30b7ae4db264306c96841db938c33728",
+      "acceptedArtifactId": "exec-bc72c475-7e58-46f1-8e31-e3105cf771ff",
+      "outputArtifact": "built-in-imagegen://exec-bc72c475-7e58-46f1-8e31-e3105cf771ff.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVII, chapter 28, “Medicaments for Trees”\nPrimary request: Create one coherent early-spring orchard treatment centered on exactly one complete mature fig tree. Its broad finite crown, full trunk, exposed root flare and every ground contact are visible. Exactly two complete Roman cultivators work together at the roots: one gradually pours diluted olive amurca from one complete plain amphora into a shallow earthen basin around the tree, while the second lays one restrained ring of clean straw and gently moulds soil back over the treated roots. A small complete shallow basket beside them holds only pale wood ash and fresh rue sprigs, ready to be scattered against worms and root decay. The tree is living and vigorous, never grotesquely wounded.\nScene/backdrop: quiet Italian orchard edge after winter, low stone boundary, sparse herbs and one distant secondary row of small trees kept atmospheric; no apothecary shop, altar, fumigation, fire, animal remains or ritual.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; intimate orchard-materia dialect with tactile root bark, straw ochre, soft ash and restrained rue green.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; low close view, the entire fig crown forming one airy asymmetrical umbrella above a compact crescent of exposed roots, amphora, straw and the two complete people. Preserve a broad uninterrupted vellum band above every crown tip and clear lateral air beyond all branches. Keep the entire canopy, every twig, full trunk, all roots and cast shadow, both complete people, heads, hands, fingers and feet, complete amphora including both handles and base, full basin, straw ring, basket rim and base, all rue sprigs, wall ends and orchard ground wholly inside broad vellum margins. One continuous treatment moment only, never sequential remedies, a recipe diagram, specimen plate, grid, panel, collage or multiple frame.\nLighting/mood: soft cool morning after frost; practical care, experiment and respect for a living organism.\nColor palette: warm vellum, iron-gall umber and lampblack, muted verdigris fig and rue, pale ochre straw and ash, restrained madder clothing, faint faded-lapis distance.\nMaterials/textures: fibrous vellum, fissured fig bark, fibrous roots, dry straw, powdery ash, matte amurca, clay amphora, soil and wool.\nHistorical and epistemic framing: present these as orchard treatments Pliny and Cato report, not as verified modern arboricultural advice; omit the chapter’s harmful or magical prescriptions.\nConstraints: exactly one complete principal fig tree and exactly two complete cultivators; one complete amphora, one complete ash-and-rue basket and one restrained straw ring; plausible Roman clothing and orchard tools; natural anatomy and tree morphology; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, scrolls, recipe marks, measuring lines, animal blood, urine, beaver skin, bear skin, lizard, fish bait, menstruation scene, charm, sacrifice, smoke, tar, flame, modern fertilizer bags, hoses, plastic, glass, extra people, floating vessels, severed roots, dying tree, photography, photorealism, glossy CGI, frames, split scenes, repeated panels, multiple identical frames, cropped or edge-touching crown, roots, people, amphora, basket, straw, wall or ground.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. One complete mature fig tree, including its airy crown, trunk, root flare and ground contact, contains exactly two complete cultivators treating the roots with diluted amurca, straw, ash and rue. Amphora, basin, basket, wall ends and all principal subjects remain inside broad vellum margins. No text, pseudo-writing, harmful or magical ingredient, extra person, panel, repeated frame, crop, anatomy or morphology failure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:1",
+      "title": "TASTE OF THE ANCIENTS FOR AGRICULTURE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c001.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "662fd760739f2a876c1c8b7708125d31cb3528b295df0e9a8d9b0c1fc1f2b0cb",
+      "acceptedArtifactId": "exec-00618659-679c-4551-80f1-2a66281aa913",
+      "outputArtifact": "built-in-imagegen://exec-00618659-679c-4551-80f1-2a66281aa913.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 1, “Taste of the Ancients for Agriculture”\nPrimary request: Create one quiet early-Roman field scene that honors agriculture as service to the common Earth rather than wealth or spectacle. Exactly three complete people share one sowing morning: an elderly citizen-farmer in a plain short tunic kneels and lets dark living soil run through one hand; a complete adult woman broadcasts a modest handful of grain into a newly opened furrow; a complete younger farmer tends a small irregular herb-and-flower margin with a wooden hoe. One complete simple ard-plough rests upright at the end of the furrow, unused in this instant. The field carries low emerging grain, useful herbs and a few restrained native flowers, all rooted naturally rather than displayed as specimens.\nScene/backdrop: modest archaic Latium holding with one complete small wattle-and-daub farmhouse, low woven fence, distant uncultivated hills and a very broad open sky; no villa, slave gang, army, poisoned weapon, allegorical goddess, throne or ceremony.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; earth-and-sowing dialect with dark friable soil, tender grain green, modest flower flecks and immense breathing sky.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; very low wide view, one long fresh furrow making a gentle diagonal beneath the three unequal gestures—touching earth, casting seed, hoeing herbs—while the tiny farmhouse sits at a separate depth. Reserve the upper third as mostly uninterrupted vellum sky. Keep all three complete people, heads, hands, every finger and foot, every falling seed close to the sower, full furrow from end to end, complete plough including handle, share and ground contact, entire farmhouse roof, walls, doorway and foundation, full fence ends, every featured rooted herb and flower, hills and field boundary wholly inside broad vellum margins. One continuous morning only, never an agricultural catalogue, moral allegory, timeline, panel, collage or multiple frame.\nLighting/mood: clear first light; humility, abundance, responsibility and durable public usefulness.\nColor palette: warm vellum, iron-gall umber and lampblack, dark soil, muted verdigris shoots, pale ochre straw and house, faded-lapis hills, restrained madder clothing and minute native blossoms.\nMaterials/textures: fibrous vellum, crumbly earth, seed, young grain blades, herb leaves, wool, worn wood, wattle and plaster.\nHistorical and epistemic framing: evoke Pliny’s praise of ancient agricultural virtue and his defense of Earth as common parent without literalizing Earth as a deity or endorsing his rhetoric as a historical scene.\nConstraints: exactly three complete people, one complete resting ard-plough and one complete modest farmhouse; plausible early-Roman clothing, sowing and hand tools; natural anatomy and rooted vegetation; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, scrolls, poison, weapon, army, chained labor, branded faces, goddess figure, halo, throne, banquet, grand villa, modern machinery, sacks with marks, floating seeds far from the hand, isolated specimen plants, extra people, photography, photorealism, glossy CGI, frames, grids, split scenes, repeated panels, multiple identical frames, cropped people, plough, furrow, farmhouse, fence, field, hills or rooted plants.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. Exactly three complete people touch soil, sow grain and tend the herb-and-flower margin in a quiet early-Roman holding; the complete resting ard, farmhouse, fence, furrow and field remain fully contained beneath deliberate open vellum sky. No allegorical deity, poison, text, pseudo-writing, extra figure, panel, repeated frame, crop or anatomy failure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:2",
+      "title": "WHEN THE FIRST WREATHS OF CORN WERE USED AT ROME",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c002.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "90bd1b6584b4d89ec87a04a13ac0f2929a917940157f95e41c7cd37a51f23982",
+      "acceptedArtifactId": "exec-15f26a21-5522-4458-8cbf-ad9cf8302604",
+      "outputArtifact": "built-in-imagegen://exec-15f26a21-5522-4458-8cbf-ad9cf8302604.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 2, “When the First Wreaths of Corn Were Used at Rome”\nPrimary request: Illustrate Pliny’s reported tradition of the first Arval brotherhood as exactly twelve complete adult men in one harvested archaic Latium field. The twelve-person count is the central semantic requirement. Arrange them in TWO clearly separated shallow ranks: exactly SIX complete standing men in the back rank and exactly SIX complete kneeling or half-kneeling men in the front rank. 6 + 6 = exactly 12 men total. The third man from the left in the standing back rank raises exactly one simple circular wreath made only of ripe corn ears, with exactly one plain white wool fillet tied to it. The other eleven turn naturally toward him in quiet agrarian fellowship.\nScene/backdrop: one continuous harvested grain field with low stubble; three complete bound sheaves rest asymmetrically to one side, with a modest grove and low Alban hills under a broad vellum sky. This is an outdoor legendary agricultural gathering, not a staged portrait roster, temple rite, imperial ceremony or military assembly.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall linework, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained mineral pigments in umber, lampblack, muted verdigris, faded lapis, madder and ochre; ancient, timeless, beautiful, rough in material and polished in draftsmanship; harvest dialect with pale ochre stalks, ivory-white fillet, muted tunic accents and ample open vellum sky.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; elevated oblique view across the field. The six standing men form a gently irregular back arc with open air between all bodies; the six kneeling men form a lower staggered front arc, offset so no face or limb blocks another. Make every figure large enough to count unmistakably. Every one of the exactly twelve men must show one distinct head and face, complete torso, both arms and hands, and both complete legs and feet even when kneeling; no body may hide behind another and no distant people may appear. Keep every head, raised arm, fingertip, foot, sandal, garment hem, wreath, white fillet end, sheaf, field edge, grove and hill wholly within generous blank vellum margins. One coherent natural scene only, never panels, boxes, a contact sheet, collage, repeated frame or repeated identical figure.\nLighting/mood: lucid late-afternoon harvest light; gratitude, kinship, agricultural dignity and legendary antiquity.\nColor palette: warm vellum, iron-gall umber and lampblack, pale ochre grain, muted verdigris grove, faded lapis hills and a few garments, restrained madder accents, unmarked ivory-white wool.\nMaterials/textures: fibrous vellum, ripe corn ears and awns, white wool fillet, rough homespun tunics, dry stubble, bound straw.\nHistorical and epistemic framing: show this as Pliny’s reported tradition rather than archaeologically verified eyewitness history; keep the clothing plausibly early Roman and unostentatious.\nConstraints: EXACTLY TWELVE complete adult men total, displayed as exactly six standing plus exactly six kneeling; exactly one corn-ear wreath; exactly one white fillet; exactly three bound sheaves; no women, children, animals, attendants or tiny background people; natural anatomy; opaque RGB/sRGB.\nAvoid: any count other than twelve, more or fewer than six in either rank, hidden bodies, overlapping faces, extra limbs, duplicated faces, lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, scrolls, tablets, coins, banners, weapons, armor, gold or laurel crowns, altar, sacrifice, halo, throne, palace, modern objects, photographic rendering, glossy CGI, panels, grids, split scenes, repeated panels, multiple identical frames, cropped people, wreath, fillet, sheaves, field, grove or hills.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 3,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after two count failures and a targeted independent regeneration, then inspected at original resolution. Exactly twelve complete men are unmistakably countable as six standing and six kneeling, with one corn-ear wreath, one white fillet and three complete sheaves in a unified harvest field. All figures, limbs, wreath, fillet, sheaves, grove and hills remain framed. No text, pseudo-writing, extra figure, imperial regalia, panel, repeated frame, crop or anatomy failure was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-7b264334-357a-4374-9570-7362ad02feb8.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/evidence/history/b18-c002-attempt-01-wrong-count-11.png",
+          "sha256": "bb14fff403bf96e82ccc9e6de617b9bcf3a484153524c83ee045255fb7139fea",
+          "reason": "Rejected at original-resolution review because only eleven adult men were rendered, not the twelve required by Pliny's reported Arval-brotherhood tradition."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-85ff2496-da9f-4c40-bfd2-aedfc0bd962b.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/evidence/history/b18-c002-attempt-02-wrong-count-10.png",
+          "sha256": "518d17bfd86168c119f8a41a89878bd479055a1042ebc35f0ee27ae3dfb502eb",
+          "reason": "Rejected at original-resolution review because the revised 5 + 1 + 6 layout still rendered only ten adult men."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:3",
+      "title": "THE JUGERUM OF LAND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c003.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "78edf637807620d26c7f8cc4390c6a6d9a152fc179f0a06fa96fac14d240bc60",
+      "acceptedArtifactId": "exec-4ca9e32a-841d-4be8-9bcc-c09141b7f012",
+      "outputArtifact": "built-in-imagegen://exec-4ca9e32a-841d-4be8-9bcc-c09141b7f012.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 3, “The Jugerum of Land”\nPrimary request: Show the lived agricultural meaning of a Roman jugerum: the oblong stretch of land that one yoke of oxen can plough in one day. Exactly one complete citizen-farmer guides one complete wooden ard behind exactly two complete oxen joined under exactly one complete wooden yoke. They have nearly finished a long measured-by-labor field strip, its parallel furrows turning naturally at a low unmarked boundary stone. A plain folded civic cloak rests on a separate complete wooden stake at the field edge, quietly evoking the ancient honor of farmers called from the plough without depicting a second episode.\nScene/backdrop: one modest early-Roman holding in open country, with the entire worked strip, unploughed verge, low boundary stones, a distant complete small hut and low hills under a spacious morning sky. No surveyor, army, magistrate, city, written plan, ruler, triumph or spectacle.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; ploughed-earth dialect with long iron-gall furrow rhythms, deep umber soil, warm ox hides and a small madder cloak accent.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; high diagonal view along the full oblong strip from the lower-left turning stone toward the upper-right hut. The two yoked oxen and farmer occupy the middle distance on the final furrow, their movement crossing rather than facing front. The repeating parallel furrows create the composition’s geometry without drawn measurement lines. Keep both complete oxen from horns and ears through hooves and tails, the full yoke and every strap, the entire ard from handle to share, the farmer’s head, hands, legs and feet, all visible furrow ends, every boundary stone, full stake and cloak, complete hut, field edges and hills wholly inside broad blank vellum margins. One continuous moment only, never a diagram, map, scale, timeline, panel, collage or repeated frame.\nLighting/mood: low clear morning light with long soft shadows; disciplined labor, civic dignity, proportion and calm endurance.\nColor palette: warm vellum, iron-gall umber and lampblack, deep brown worked soil, pale ochre stubble, muted verdigris verge, faded-lapis hills, restrained madder cloak.\nMaterials/textures: fibrous vellum, cloddy furrows, ox hide and horn, worn yoke wood and leather, iron-dark plough share, rough wool cloak, weathered stone.\nHistorical framing: ground the scene in Pliny’s explanation of the jugerum and his praise of ancient citizen-farmers, without presenting a modern standardized surveying diagram.\nConstraints: exactly one complete farmer, exactly two complete oxen, exactly one complete yoke, exactly one complete ard, exactly one cloak on exactly one stake, no other people or animals; plausible early-Roman farming equipment and clothing; natural anatomy; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, ruler, measuring rod, survey grid, map, scroll, tablet, coin, army, weapons, magistrate, extra people, extra oxen, horse, wheeled mouldboard plough, modern fencing, machinery, telegraph poles, duplicate limbs, floating tools, photography, photorealism, glossy CGI, frames, panels, split scenes, repeated panels, multiple identical frames, cropped farmer, oxen, horns, hooves, tails, yoke, straps, ard, stake, cloak, hut, field or hills.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. Exactly one complete farmer guides one complete ard behind exactly two fully framed oxen under one yoke along an oblong day-ploughed strip; the complete cloak and stake, boundary stones, hut, field and hills remain contained. No survey notation, text, pseudo-writing, modern machinery, extra figure or animal, panel, repeated frame, crop or anatomy failure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:4",
+      "title": "POINTS TO BE OBSERVED IN BUYING LAND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c004.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "d9927b576f3d2b001421282f35bca705f7e03113b542448840bb0f5ff9f38b9a",
+      "acceptedArtifactId": "exec-a3972c10-78f4-4646-bc71-ff43ac7bd804",
+      "outputArtifact": "built-in-imagegen://exec-a3972c10-78f4-4646-bc71-ff43ac7bd804.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 4, locally titled “Points to Be Observed in Buying Land”\nPrimary request: Ground this chapter in its actual transition from field culture to agricultural method, causes, experience, and the seasonal indications of the constellations. At predawn, exactly one complete elderly cultivator kneels at the edge of a complete prepared field, crumbling a small clod between his bare fingers while looking up toward a few naturally placed fading stars. Exactly one complete younger cultivator stands several paces away, studying the same soil, dew, wind-bent grass and sky through direct observation. A complete unused wooden hoe and a small unmarked seed basket rest naturally beside them. Their knowledge comes from tested rural experience, not a written manual or magical divination.\nScene/backdrop: one continuous modest Roman field before sowing, with dew-dark furrows, wind-marked verge grasses, a complete low vine line at far left to acknowledge the chapter’s opening, one complete small shelter far in the distance, low hills and a very broad fading night sky. No land sale, buyer, seller, crowd, temple, astrologer, sundial, map, scroll or instruments.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; observational predawn dialect with faded-lapis sky wash, iron-gall furrows, silvered dew suggested in untouched vellum and tiny muted verdigris vegetation.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; low wide silhouette-driven composition with the two unequal human figures confined to the lower-left third and the long field receding toward the complete shelter at far right. Reserve almost the upper half as uninterrupted vellum-rich predawn sky containing only a sparse natural star pattern, never a zodiac diagram. Let diagonal furrows, bent verge grass and the elder’s gaze connect earth to sky. Keep both complete people, their heads, hands, fingertips, feet and shadows, full clod, complete hoe and handle, entire seed basket and contents, full vine line from rooted base to tip, all furrows and field edges, full shelter including roof and foundation, hills, stars and sky wash wholly inside generous blank vellum margins. One continuous observation only, never a lesson diagram, constellation chart, panel, collage, timeline or repeated frame.\nLighting/mood: blue hour just before sunrise; attentive, empirical, patient and quietly revelatory.\nColor palette: warm vellum, lampblack and iron-gall umber, deep brown soil, muted verdigris verge and vine leaves, faded-lapis sky and hills, restrained madder garment edge, pale ochre basket and hoe.\nMaterials/textures: fibrous vellum, moist clod, dew, fine grass blades, pruned vine wood, rough wool, worn wood, woven reed basket.\nHistorical framing: translate Pliny’s language of agricultural “oracles” into time-tested observation by working cultivators; do not depict supernatural prophecy or a modern scientific instrument.\nConstraints: exactly two complete adult people, exactly one complete hoe, exactly one unmarked seed basket, one complete distant shelter; plausible Roman clothing, field preparation and tools; natural anatomy and rooted vegetation; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, scrolls, tablets, books, maps, star charts, drawn constellation lines, zodiac symbols, telescope, compass, quadrant, modern machinery, seller, buyer, coins, deed, extra people or animals, sorcerer, halo, oracle smoke, floating tools, botanical specimen grid, photography, photorealism, glossy CGI, frames, panels, split scenes, repeated panels, multiple identical frames, cropped people, hands, feet, tools, basket, vine, shelter, field, hills or stars.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. The locally duplicated title is grounded in this chapter's actual transitional text: exactly two complete cultivators compare soil, dew, wind and sparse predawn stars through direct observation. The complete hoe, seed basket, vine line, field, shelter and hills remain framed under expansive lapis-vellum sky. No star chart, supernatural oracle, text, pseudo-writing, panel, repeated frame, crop or anatomy failure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:5",
+      "title": "POINTS TO BE OBSERVED IN BUYING LAND",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c005.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "495294082b4b786b2adca210f0bd6a96881c59a7a9e9bc1284a77708b7a83f15",
+      "acceptedArtifactId": "exec-f5600aab-1fe0-4c69-af77-608e7ac41266",
+      "outputArtifact": "built-in-imagegen://exec-f5600aab-1fe0-4c69-af77-608e7ac41266.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 5, “Points to Be Observed in Buying Land”\nPrimary request: Show a practical Roman inspection of farmland before purchase, grounded in Cato’s counsel as quoted by Pliny. Exactly three complete adults walk together at a sunlit farm entrance: a prospective buyer bends to taste clear water from a complete roadside spring basin; the current farmer points along a sound all-weather road toward carefully tilled fields and well-maintained buildings; a healthy neighboring woman approaches from her own complete kitchen garden carrying one plain unmarked produce basket. Their attention is on water, road, healthy neighbors, sound structures and cultivated soil—not coins or a contract.\nScene/backdrop: one coherent productive holding near a small settlement. The full spring flows into a narrow irrigation channel; the complete road curves past a complete modest farmhouse and complete barn toward a tiny but fully contained distant town; a navigable river glints separately in the middle distance beside a complete moored flat-bottomed produce boat with no crew. Include a complete watered garden, a compact vineyard, meadow and tilled field at different depths without turning them into labelled samples. No grand villa, neglected ruin, marsh, pestilence, market crowd or legal ceremony.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; clear inspection-day dialect with luminous ochre road, transparent faded-lapis water, healthy muted-verdigris cultivation and small madder garment accents.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; elevated sunlit S-curve composition. Begin with the complete spring basin and buyer in the lower-right, lead the eye along the road past the farmer and neighboring woman to the sound farmhouse and barn, then toward the distant town; let the river and boat cross a separate middle-distance diagonal. Keep all three complete people, every head, hand, finger, foot and shadow, full basket and produce, complete spring lip, water source and channel, full road width and both verges, farmhouse and barn from roof ridge to foundation, entire garden fence, vineyard rows, meadow and field boundaries, complete riverbanks, full boat from prow to stern, town silhouette and hills wholly within generous blank vellum margins. Use natural depth and visual hierarchy; one continuous visit only, never a property map, checklist, diagram, aerial plan, panel, collage or repeated frame.\nLighting/mood: bright temperate morning; prudence, health, stewardship and practical foresight.\nColor palette: warm vellum, iron-gall umber and lampblack, pale ochre road and masonry, muted verdigris garden/vineyard/meadow, faded-lapis spring and river, restrained madder garments and produce.\nMaterials/textures: fibrous vellum, clear water, worn stone basin, packed road, tilled soil, vine wood, garden leaves, wool, woven basket, plaster, timber and river wood.\nHistorical framing: embody Pliny’s record of Cato’s purchasing advice as a plausible Roman farm visit, without claiming the named author is literally present.\nConstraints: exactly three complete adult people; one complete spring basin and irrigation channel; one complete farmhouse, one complete barn, one complete uncrewed boat, one complete unmarked basket; plausible Roman clothing, road, farming and building types; natural anatomy and rooted vegetation; opaque RGB/sRGB.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, deed, scroll, tablet, map, measuring grid, coins, money pouch, handshake close-up, auction, magistrate, extra people, boat crew, animals, grand colonnaded villa, palace, modern road, bridge, machinery, tiled suburb, floating buildings or produce, photography, photorealism, glossy CGI, frames, panels, split scenes, repeated panels, multiple identical frames, cropped people, basket, spring, road, buildings, garden, vineyard, meadow, field, boat, river, town or hills.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 1,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted on the first independent generation after original-resolution review. Exactly three complete adults inspect water, road, neighbors, sound buildings and cultivated soil in one continuous property visit; spring, channel, road, farmhouse, barn, garden, vineyard, field, river, uncrewed boat and town remain fully framed. No deed, money, map, text, pseudo-writing, extra figure, panel, repeated frame, crop or anatomy failure was observed.",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:6",
+      "title": "THE PROPER ARRANGEMENTS FOR A FARM-HOUSE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c006.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "ca0938ce620fe71816c1244f5f502d9474ff47df8e7ad26691255dd7d3949969",
+      "acceptedArtifactId": "exec-90e5b957-7fb6-4410-985b-47cfa96c932d",
+      "outputArtifact": "built-in-imagegen://exec-90e5b957-7fb6-4410-985b-47cfa96c932d.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 6, “The Proper Arrangements for a Farm-House”\nPrimary request: Depict one moderate Roman farmstead whose buildings fit its land—neither an undersized storehouse nor an extravagant villa. From a high oblique viewpoint, show one complete compact farmhouse arranged around an open working yard, with one complete attached granary, one complete open-front implement shed, one complete small stable, and a complete tiled drainage channel leading safely downhill away from the buildings. Exactly three complete adults demonstrate attentive stewardship: the resident owner inspects grain in the granary doorway, an experienced steward checks one complete iron-tipped mattock and one complete ploughshare laid neatly on a bench, and a well-kept farm worker leads exactly one complete healthy ass carrying exactly two plain unmarked panniers across the yard. No other people or animals appear anywhere, including the background.\nScene/backdrop: the entire farmstead stands on a dry temperate east-facing rise, sheltered from but not fronting a distant river and wholly away from a complete reed marsh visible only as a small far-off patch. A proportionate carefully tilled field, orchard and completely empty pasture surround it, with a full access lane and low hills. The buildings are useful, sound and modest; no livestock herd, bird, dog, palace, luxury garden, barracks, prison or crowded labor gang.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; architectural-farm dialect with crisp iron-gall masonry, ochre tile roofs, deep yard shadows, verdigris cultivation and small faded-lapis water distance.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; elevated three-quarter view of a single unified farm complex, not a plan or cutaway. Place the complete L-shaped farmhouse and open yard slightly off-center; use the drainage channel, access lane and field boundaries as three different receding lines. The three unequal gestures—inspecting grain, checking tools, leading the ass—occupy separated yard zones without repeating poses. Keep every roof ridge, eave, wall, doorway, foundation, granary, shed, stable, yard corner, drainage inlet and outlet, bench, mattock, ploughshare, all three complete people with heads, hands, fingers, legs and feet, complete ass from ears through hooves and tail, both complete panniers and straps, field/orchard/empty-pasture boundaries, road, distant riverbanks, marsh patch and hills wholly within broad blank vellum margins. One continuous working morning only, never an architectural elevation, diagram, labelled plan, cross-section, panel, collage or repeated frame.\nLighting/mood: temperate morning light with firm but soft yard shadows; moderation, order, personal supervision, humane competence and durable usefulness.\nColor palette: warm vellum, iron-gall umber and lampblack, pale ochre plaster and tiles, muted verdigris orchard and empty pasture, faded-lapis river and hills, restrained madder garment accents.\nMaterials/textures: fibrous vellum, lime plaster, rough stone, terracotta tile, timber beams, packed earth, grain, wrought iron, leather tack, ass hide, woven panniers and drain gravel.\nHistorical framing: synthesize Pliny’s advice on proportion, siting, supervision, humane care, useful tools and drainage into a plausible Roman farm morning; omit his sensational anecdotes and harmful vegetation remedies.\nConstraints: exactly three complete adult people total; exactly one complete animal total, the healthy ass; exactly two panniers; one coherent complete farmhouse complex with attached granary, implement shed and small stable; one complete drainage course; plausible Roman materials, clothing, tools and farm layout; natural anatomy; opaque RGB/sRGB.\nAvoid: every additional person or animal, even tiny distant livestock or birds; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, architectural notation, blueprint, floor plan, cutaway, exploded view, scroll, tablet, luxury villa, columns, mosaic palace, prison, chains, punishment, crowd, oversized estate, tiny unusable hut, building directly on a marsh or riverfront, modern plumbing, machinery, roof antenna, floating tools, photography, photorealism, glossy CGI, frames, panels, split scenes, repeated panels, multiple identical frames, cropped people, ass, panniers, tools, bench, roofs, walls, foundations, yard, drain, fields, road, river, marsh or hills.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 2,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after one extra-animal rejection and a targeted independent regeneration, then inspected at original resolution. A complete moderate farm complex includes farmhouse, granary, implement shed, stable, yard and drainage with exactly three complete adults and exactly one complete ass bearing two panniers; the surrounding orchard, empty pasture, road, river and hills remain fully framed. No distant livestock, text, pseudo-writing, architectural diagram, luxury villa, panel, repeated frame, crop or anatomy failure was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-745899ad-b5e3-4967-ab58-e2796de4f9ef.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/evidence/history/b18-c006-attempt-01-extra-background-animals.png",
+          "sha256": "ed20fd407b1b9869867ca0c60db9daad167353d4581b9ddc97ae9ec141e856d1",
+          "reason": "Rejected at original-resolution review because a herd of additional cattle appeared in the distant pasture, violating the exact one-animal contract."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "18:7",
+      "title": "THE DIFFERENT KINDS OF GRAIN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c007.png",
+      "corpusArtifact": "public/corpus/book-18.caec1c4f25359929.json",
+      "sha256": "fe0e6d75bc5bd5537f9fa1d090fa5da3686341d19365aa44a5b01dbd4693abdd",
+      "acceptedArtifactId": "exec-5513b0da-f000-4a41-90fd-e090d2bcc64b",
+      "outputArtifact": "built-in-imagegen://exec-5513b0da-f000-4a41-90fd-e090d2bcc64b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XVIII, chapter 7, “The Different Kinds of Grain”\nPrimary request: Make one living harvest-and-threshing scene that clearly distinguishes Pliny’s two principal grain classes without becoming a specimen plate. Inside a modest circular packed-earth threshing floor, exactly three complete adult workers handle crops in different natural forms: one complete standing woman holds a complete bound sheaf showing long-bearded barley ears beside fuller wheat and hulled spelt; one complete kneeling man opens mature bean and chickpea pods into one broad unmarked wicker tray; one complete standing man uses one complete jointed wooden threshing flail on a low irregular layer of cereal ears. Behind the threshing floor, a complete rooted strip of wheat, barley and spelt transitions naturally into a separate complete rooted patch of branching beans and chickpeas with visible leaves and pods.\nScene/backdrop: one coherent early-Roman farm edge at harvest. The threshing floor has a low closed oval stone curb: the ENTIRE continuous oval perimeter must be visible, including its nearest lower arc, with a wide band of untouched earth or vellum outside the curb on the left, right, top and especially below. One small open granary shelter stands alone in the middle distance with its full roof, all four corners, all posts, open interior and ground contact visible and clear landscape space on every side. Add one modest winnowed grain mound and one separate modest pile of unopened legume pods inside the circle. No other building, market, mill, bread, birds or animals.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum with handmade irregularity; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral pigments; ancient, timeless, beautiful, rough in material and polished in draftsmanship; crop-morphology dialect with precise awns, nodes, fibrous roots glimpsed at one lifted clod, branching pod stems, ochre chaff movement and restrained green-brown leaf variation.\nComposition/framing: landscape 3:2, intended as a 1536x1024 preservation master; pull the viewpoint well back and slightly upward so the complete threshing-floor oval occupies no more than the middle two-thirds of the canvas and is surrounded by generous empty ground. Build a triangular rhythm between the complete cereal sheaf at left, low pod tray near center and moving flail at right; keep the small complete shelter near upper-center, never near an edge. Let a small sweep of chaff remain close to the flail. Keep all three complete people, every head, hand, finger, leg and foot, full sheaf, full tray and all pods, entire jointed flail including both wooden members and connector, complete closed threshing-floor curb, both working piles, every featured rooted plant from ground contact to highest ear or pod, complete shelter, fields and hills wholly within generous blank vellum margins. One harvest moment only, never a botanical chart, labelled catalogue, grid, panel, collage, cross-section, timeline or repeated frame.\nLighting/mood: dry clear harvest morning; abundance, close observation, practiced knowledge and tactile order.\nColor palette: warm vellum, iron-gall umber and lampblack, pale and deep ochre grain and chaff, muted verdigris bean/chickpea foliage, faded-lapis distance, restrained madder garments.\nMaterials/textures: fibrous vellum, packed earth, low stone curb, wheat/spelt/barley ears and awns, straw, fibrous roots, bean/chickpea leaves and pods, loose grain, woven tray, worn flail wood and rough wool.\nHistorical and botanical framing: faithfully evoke the chapter’s distinction between cereals and leguminous crops, including ears versus pods and differing stalk/leaf habits, while treating Pliny’s timings and regional claims as historical natural-history observations rather than modern agronomic certainty.\nConstraints: exactly three complete adult people; exactly one complete jointed flail, one complete wicker tray, one complete small open granary shelter, one fully closed and wholly visible threshing-floor curb; recognizable plausible wheat, barley, spelt, bean and chickpea morphology; natural anatomy and rooted vegetation; opaque RGB/sRGB.\nAvoid: any part of the threshing-floor curb or shelter touching or crossing an image edge; lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, sacks, scales, scrolls, tablets, maize/corn cobs, rice paddies, sunflower, extra people, children, animals, birds, bakery, market, floating seeds, plants aligned as specimens, equal rectangular crop plots, cutaway, photography, photorealism, glossy CGI, frames, grids, panels, split scenes, repeated panels, multiple identical frames, cropped people, flail, sheaf, tray, plants, roots, piles, threshing circle, shelter, field or hills.\nOutput intent: one unified opaque landscape illustration, 3:2 composition, no transparency and no text-like marks anywhere.",
+      "builtInMode": true,
+      "tool": "image_gen.imagegen",
+      "generationAttempts": 3,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "colorMode": "RGB",
+      "opaque": true,
+      "colorSpace": "sRGB",
+      "hashReconciled": true,
+      "visualQaNotes": "Accepted after two framing rejections and a targeted independent regeneration, then inspected at original resolution. Exactly three complete workers handle cereal ears and legume pods on one complete closed threshing-floor oval; the complete jointed flail, sheaf, tray, grain mound, rooted wheat/barley/spelt and bean/chickpea patches, freestanding shelter, fields and hills remain fully contained. No text, pseudo-writing, specimen grid, extra figure or animal, panel, repeated frame, crop or anatomy failure was observed.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-7bc85946-72e4-4377-a0d5-61dbe6be1d5b.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/evidence/history/b18-c007-attempt-01-cropped-shelter.png",
+          "sha256": "f63fc508441676f103408c0665fd5c6593f309ebee6685ae618299120c51d56a",
+          "reason": "Rejected at original-resolution review because the granary shelter extended beyond the right image edge."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-96b803d8-3bfb-44ad-9caa-c05977b69782.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/evidence/history/b18-c007-attempt-02-cropped-threshing-floor.png",
+          "sha256": "bb9fa31ac1f482a89cf66a376a7c52faf674edfbe7db1ba9b4bd366f435c54d4",
+          "reason": "Rejected at original-resolution review because the lower perimeter of the threshing floor ran out of frame rather than forming a fully visible closed oval."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateQa": {
+    "algorithm": {
+      "meanAbsoluteDifference": "64x64 greyscale raw mean absolute pixel difference",
+      "madFailureThreshold": "less than 20",
+      "differenceHash": "9x8 greyscale horizontal 64-bit difference hash Hamming distance",
+      "differenceHashFailureThreshold": "less than 10"
+    },
+    "global": {
+      "masterCount": 269,
+      "uniqueSha256Count": 269,
+      "exactDuplicateGroups": [],
+      "minimumMeanAbsoluteDifference": 20.95849609375,
+      "minimumMadPair": [
+        "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c011.png"
+      ],
+      "madViolationCount": 0,
+      "madViolations": [],
+      "minimumDifferenceHashDistance": 10,
+      "minimumDifferenceHashPair": [
+        "assets-source/chapter-scenes-v1/metals-wave-01/b33-c004.png",
+        "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c021.png"
+      ],
+      "differenceHashViolationCount": 0,
+      "differenceHashViolations": []
+    },
+    "waveSpecific": {
+      "targetMasterCount": 8,
+      "minimumMeanAbsoluteDifference": 26.30126953125,
+      "minimumMadPair": [
+        "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c002.png",
+        "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c003.png"
+      ],
+      "madViolationCount": 0,
+      "madViolations": [],
+      "minimumDifferenceHashDistance": 15,
+      "minimumDifferenceHashPair": [
+        "assets-source/chapter-scenes-v1/metals-wave-01/b33-c001.png",
+        "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b17-c028.png"
+      ],
+      "differenceHashViolationCount": 0,
+      "differenceHashViolations": [],
+      "result": "PASS"
+    }
+  }
+}

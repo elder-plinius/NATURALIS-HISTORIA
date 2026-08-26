@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-09",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "30:13",
+    "30:14",
+    "30:15",
+    "30:16",
+    "31:2",
+    "31:3",
+    "31:4",
+    "31:5"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Portable built-in-imagegen references replace machine-private generated-image paths. Every accepted and rejected file was byte-compared directly with its built-in original.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    "public/corpus/book-30.2dc2a1d22287891f.json",
+    "public/corpus/book-31.c8284d6cf7925f5c.json"
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus fields for all eight chapters were read before prompting. Medical, reproductive, magical, zoological and extraordinary-water claims remain attributed ancient testimony; no scene offers actionable treatment or presents a contested claim as modern fact.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 4,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 12,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 0,
+    "builtInEditCalls": 4,
+    "acceptedBuiltInEdits": 4,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "selectedKeys": [
+      "30:13",
+      "30:14",
+      "30:15",
+      "30:16",
+      "31:2",
+      "31:3",
+      "31:4",
+      "31:5"
+    ],
+    "nonEvidenceMastersCheckedAtSelection": 860,
+    "receiptsCheckedAtCertification": 113,
+    "nonEvidenceMastersCheckedAtCertification": 882,
+    "selectedPlanStatusAtReceiptTime": [
+      "planned-full-scene"
+    ],
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "chapters": [
+    {
+      "chapterKey": "30:13",
+      "title": "METHODS FOR ARRESTING HÆMORRHAGE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b30-c013.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "c13e2deb881d5c31eef8e83029be00511cc1164d41ee937626752cb1a8f0a073",
+        "englishSha256": "539f2443dbfe844f4c4968e6bc97db230893c201597502a63ea9f5f718a155e3",
+        "latinWords": 660,
+        "englishWords": 1298,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e66771bfa0864a1c07e410cc1d96a16653acc9495ec8cf4b4b9341747d68284b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-72b43fd4-530b-4c72-b22d-1a4f861fda1e",
+      "generationArtifactId": "exec-72b43fd4-530b-4c72-b22d-1a4f861fda1e",
+      "outputArtifact": "built-in-imagegen://exec-72b43fd4-530b-4c72-b22d-1a4f861fda1e.png",
+      "exactFinalPrompt": "Targeted correction to this exact landscape 3:2 Roman symbolic still life. Preserve the composition, amphora, basalt plinth, folded linen, empty snail shell, spider web, niche, light, colors, and painterly mineral-pigment texture. Fix only the crimson mineral vein on the white amphora: it must descend from the upper shoulder and terminate cleanly at the horizontal repaired crack beneath the central bronze clamp. Remove every trace of the crimson line below that repaired seam; the lower half of the amphora must be plain white alabaster with only subtle neutral stone grain. Keep the ancient bronze clamps and horizontal crack exactly visible. This stopped line is the essential metaphor for arrested flow. Do not add any object, liquid, stain, writing, or decoration. All discrete subjects remain fully inside generous safe margins.\n\nMaintain mineral-pigment gouache, encaustic wax bloom, fine charcoal contours, lampblack depth, chalky alabaster, oxidized bronze, restrained worn-gold dust, tactile ancient plaster and vellum-like grain; dramatic but humane, painterly not glossy.\n\nHard exclusions: no text, glyphs, pseudo-writing, letters, numerals, labels, captions, watermark, signature, border, manuscript page, panels, collage, duplicate object, extra vessel, cropped object, object touching canvas edge, visible liquid, water, blood, wound, flesh, anatomy, patient, injury, cruelty, remedy preparation, medical procedure, instructional diagram.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-0abf4344-1de2-495b-b792-a24f0a5698ea",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-72b43fd4-530b-4c72-b22d-1a4f861fda1e",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "A complete white alabaster amphora, basalt plinth, folded linen, empty snail shell and single web are fully internal. The crimson mineral vein now stops cleanly at the central repair clamp; the lower vessel is neutral stone. No liquid, wound, anatomy, text, panel or clipping appears.",
+      "epistemicAndDignityNote": "The chapter's blood-staunching prescriptions remain transmitted ancient testimony. A repaired vessel provides a non-graphic, non-actionable metaphor.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-0abf4344-1de2-495b-b792-a24f0a5698ea",
+          "outputArtifact": "built-in-imagegen://exec-0abf4344-1de2-495b-b792-a24f0a5698ea.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/evidence/history/b30-c013-reject-01-crimson-vein-crossed-repair.png",
+          "sha256": "9605cc58e4672be5f3fd25fa400e4658c93abc1264261fa31c38a45317cf4701",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 13, METHODS FOR ARRESTING HÆMORRHAGE. Treat the chapter's blood-staunching and wound prescriptions only as transmitted ancient testimony, never advice. Landscape 3:2, 1536×1024, full-bleed single continuous scene. In a dark Roman conservation chamber, center exactly one complete tall white alabaster amphora on a low basalt plinth. A clean old crack crosses the vessel, already stabilized by a short row of small ancient bronze repair clamps; a natural crimson mineral vein in the alabaster ends precisely at that repaired seam, creating an abstract metaphor for arrested flow without any liquid or blood. Beside the amphora, widely separated, lie exactly one neatly folded undyed linen cloth and exactly one empty intact snail shell. In the upper corner, exactly one delicate natural spider web spans a shallow niche and catches a diagonal beam of dawn. No human, animal body, wound, medical act, remedy mixture, or open container. Amphora, plinth, cloth, shell, web, and their discrete shadows all fully inside generous safe margins, nothing clipped.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a stark symbolic still life; mineral-pigment gouache, encaustic wax bloom, fine charcoal and iron-gall contours, chalky alabaster, oxidized bronze, lampblack depth, one restrained madder-crimson vein and sparse worn-gold dust in the light; tactile plaster and vellum-like grain within the painting, ancient, timeless, beautiful, rough and polished at once. Monumental negative space, low three-quarter viewpoint, dramatic chiaroscuro, painterly not glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscription, captions, watermark, signature, border, decorative frame, manuscript page, open book, split panel, triptych, collage, montage, duplicate object, extra vessel, cropped object, object touching canvas edge, visible liquid, water, blood, wound, flesh, anatomy, patient, injury, cruelty, animal harm, remedy preparation, medical procedure, instructional diagram.",
+          "reason": "The crimson mineral vein continued below the horizontal repaired seam, breaking the essential arrested-flow metaphor."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:14",
+      "title": "REMEDIES FOR FEMALE COMPLAINTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b30-c014.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "4bb04aab8ea70152b845075a78caa38475ca6bc1da5d7d980fd30880dfed9999",
+        "englishSha256": "42e2dbafb7ff2d4ee106b80487363d73f7c3af6f4e4af50fc430008ee9518116",
+        "latinWords": 604,
+        "englishWords": 1237,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "6ea94fd374ac3b8c33ed4647534101771169774c079b997790ba002ec9c622a1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4b332d03-ad3c-44a0-982d-d141c040b29a",
+      "generationArtifactId": "exec-4b332d03-ad3c-44a0-982d-d141c040b29a",
+      "outputArtifact": "built-in-imagegen://exec-4b332d03-ad3c-44a0-982d-d141c040b29a.png",
+      "exactFinalPrompt": "Edit only the supplied illustration. Preserve the exact composition, palette, lighting, manuscript-paint texture, the exact two fully clothed adult Roman women, the complete round table, the single potted myrtle, and the closed casket. Remove every painted or sculpted human or animal figure from the background walls and colonnade; replace all figurative fresco imagery with softly weathered, nonfigurative ochre, mineral-blue, and muted vermilion plaster fields and simple geometric architectural bands. There must be exactly two human figures total in the entire image, both the foreground women. Keep both women fully inside the canvas with anatomically natural hands and faces. Adjust the younger woman's joined hands to rest naturally at her side or lightly on the table edge, not over her abdomen, without changing her identity or clothing. No additional people, faces, animals, limbs, objects, writing, letters, numerals, symbols, signature, border, frame, page, panel divisions, collage, pregnancy, nudity, procedure, illness, liquid, blood, or graphic content. The result must remain a single coherent ancient Roman garden consultation scene, landscape 3:2, opaque sRGB, 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a1569f06-b9f7-4f7c-80f1-bc9977b01ff6",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4b332d03-ad3c-44a0-982d-d141c040b29a",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly two complete fully clothed adult women stand with natural hands around one complete marble table holding one potted myrtle and one closed casket. Background plaster is nonfigurative; there are no extra people, pregnancy cues, procedures, text, panels, liquid or clipping.",
+      "epistemicAndDignityNote": "The source's reproductive, cosmetic, animal-derived and coercive claims are not enacted. Adult women are centered as dignified knowledge agents.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a1569f06-b9f7-4f7c-80f1-bc9977b01ff6",
+          "outputArtifact": "built-in-imagegen://exec-a1569f06-b9f7-4f7c-80f1-bc9977b01ff6.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/evidence/history/b30-c014-reject-01-extra-figurative-fresco.png",
+          "sha256": "c78a46886e93911b8099b06414508a4e9df9ff4040f1dba96877fd9ff3e44275",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create one independent illustrated chapter plate for Pliny the Elder, Naturalis Historia, Book XXX chapter 14, traditionally titled REMEDIES FOR FEMALE COMPLAINTS. Treat its reproductive, cosmetic, animal-derived, magical, and coercive claims solely as transmitted ancient testimony, never advice. Refuse to reduce women to bodies. Landscape 3:2, 1536×1024, full-bleed single continuous scene. In a luminous Roman cloister garden, depict exactly two dignified healthy adult women, both fully visible and modestly clothed. A senior woman physician-scholar in a deep turquoise stola stands at left, calmly speaking with one open empty hand; an adult apprentice in a coral and ivory stola stands at right, listening with both empty hands loosely joined. Between them, fully internal, is one small complete round marble table holding exactly one healthy potted myrtle and exactly one closed unmarked wooden casket, widely separated. They examine the living plant as natural history; nothing is opened, mixed, measured, prescribed, applied, ingested, or attached. A pomegranate tree, colonnade, and bright sky create a generous scholarly garden. Both complete women, natural hands and feet, garments, table, pot, plant, casket, and all discrete shadows remain comfortably inside every edge. No patient, pregnancy display, infant, examination, symptom, medical action, or animal.\n\nCoherent series aesthetic: museum-grade Roman natural-history illumination transformed into a radiant humanist painting; translucent mineral-pigment gouache and encaustic bloom, fine charcoal figure drawing, turquoise, coral, ivory and malachite, restrained shell-gold abrasion in the sun, tactile plaster and vellum-like grain within the image; ancient, timeless, beautiful, rough and polished at once. Open asymmetrical composition, high airy negative space, gentle side light, scholarly warmth, painterly not glossy photography.\n\nHard exclusions: absolutely no text, glyphs, pseudo-writing, letters, numerals, labels, inscription, captions, watermark, signature, border, decorative frame, manuscript page, open book, scroll, split panel, triptych, collage, montage, extra person, child, duplicate object, extra vessel, malformed hand, extra limb or digit, cropped body or object, subject touching canvas edge, nudity, pregnancy emphasis, childbirth, blood, bodily fluid, lesion, pain, illness, cruelty, animal part, remedy preparation, medical procedure, instructional diagram, water.",
+          "reason": "Background fresco figures violated the exact two-person count and weakened the intended nonfigurative architectural setting."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:15",
+      "title": "REMEDIES FOR THE DISEASES OF INFANTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b30-c015.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "92744bfa9838355a14e9ae93d69a95611e4cb3112ce2f1d296d15196c632d9f0",
+        "englishSha256": "d04dcd38297a193b7ea20fc47a3c2cdd8d9e970aaa8a6f38794c3a55b3f02b83",
+        "latinWords": 654,
+        "englishWords": 1389,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "4c948d0011292a0f52a04b7bd3b76d9ae03e2fc40218edb3333d2467e1c9ed02",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7da3d4ae-619c-40a1-85b3-33a09d3110b0",
+      "generationArtifactId": "exec-7da3d4ae-619c-40a1-85b3-33a09d3110b0",
+      "outputArtifact": "built-in-imagegen://exec-7da3d4ae-619c-40a1-85b3-33a09d3110b0.png",
+      "exactFinalPrompt": "Create a singular, exceptionally beautiful chapter illustration for Pliny the Elder's Naturalis Historia, Book XXX chapter 15, treated as an ancient transmitted record rather than modern medical advice. Scene: a serene Roman courtyard nursery at first light, exactly one healthy sleeping infant fully visible and safely nestled inside one complete low wooden cradle, and exactly one fully clothed adult caregiver seated beside it, fully visible, watching with calm protective attention. The caregiver's two hands must be anatomically natural and clearly visible, one resting on their own knee and one lightly touching the outer edge of the cradle. Include one complete folded wool blanket on a nearby low stool and one tiny living snail on a garden leaf well behind the cradle as a subtle natural-history echo; no other people or animals. Keep the cradle, baby, caregiver, stool, blanket, and snail fully inside the canvas with generous breathing room. Render as a luminous Roman wall-painting and medieval natural-history manuscript synthesis: mineral pigments, egg-tempera translucency, gold-leaf glints without a gold background, softly abraded fresco grain, hand-worked brush edges, elegant but not glossy, ancient, timeless, rough and polished at once. A restrained palette of lapis blue, madder rose, aged ivory, olive, umber, and small vermilion accents; raking dawn light, quiet tenderness, coherent depth, landscape 3:2. Single continuous scene, not a collage. No border, frame, page, panels, split composition, vignettes, writing, letters, numerals, labels, symbols, signature, watermark, additional figures, floating limbs, distorted hands, pregnancy, nudity, sickness, treatment, medicine, procedure, blood, injury, suffering, dead animal, vessel with liquid, or water reaching a canvas edge. Opaque sRGB PNG, 1536x1024.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7da3d4ae-619c-40a1-85b3-33a09d3110b0",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No built-in edit and no local pixel edit; the accepted master is the direct independent built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly one healthy sleeping infant rests safely in one complete cradle beside exactly one complete fully clothed caregiver with natural hands. The stool, folded blanket and small living snail are internal; no illness, remedy action, text, water, panel or clipping appears.",
+      "epistemicAndDignityNote": "Ancient claims about infant illness and unrelated magical remedies remain testimony. The scene is a safe, healthy domestic observation with no treatment.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:16",
+      "title": "OTHER MARVELLOUS FACTS CONNECTED WITH ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b30-c016.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "235fc414f5c1669148715379acd23918003ecd6adbc0c945b070ccf834c6a1db",
+        "englishSha256": "60ca1f2723b6e040dcb8b73ce424b119caa12ad3d8565f431ec8137c11e8bf06",
+        "latinWords": 169,
+        "englishWords": 323,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "990c6041099f2a5e938a94f284331a8f8f4f5e85e07db14d27ac6e92e4c6f6a1",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4ebdd0f2-2352-41d3-814c-14970bc60b61",
+      "generationArtifactId": "exec-4ebdd0f2-2352-41d3-814c-14970bc60b61",
+      "outputArtifact": "built-in-imagegen://exec-4ebdd0f2-2352-41d3-814c-14970bc60b61.png",
+      "exactFinalPrompt": "Edit only the supplied illustration. Preserve the entire composition, color, texture, lighting, rocks, fully enclosed spring, exact one complete mule, exact one complete crane, exact one complete beehive, bee cluster, and every other detail. Change only the snake-like form on the foreground stone: it must unmistakably be one empty, papery, translucent shed snakeskin, flattened and partially split along the belly, with a delicate hollow head-casing but absolutely no eyes, tongue, flesh, living head, or living snake. Keep that empty slough completely on the same stone and fully inside the canvas. Do not add or remove anything else. Maintain anatomically correct animals and a single coherent ancient fresco/bestiary scene. No writing, symbols, signature, border, page, panels, collage, people, harm, blood, or water reaching any canvas edge. Landscape 3:2, opaque sRGB, 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-bbc80b75-3fcc-4283-852a-c75c249ae77e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4ebdd0f2-2352-41d3-814c-14970bc60b61",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One complete mule with four plausible legs, one complete crane with two legs, one complete hive with nearby bees, one clearly hollow split shed snakeskin and one fully enclosed spring are all internal. No harm, writing, panel, hybrid anatomy or water-edge failure appears.",
+      "epistemicAndDignityNote": "Pliny's marvelous animal reports are presented poetically, not as verified zoology or actionable practice; every living animal is unharmed.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-bbc80b75-3fcc-4283-852a-c75c249ae77e",
+          "outputArtifact": "built-in-imagegen://exec-bbc80b75-3fcc-4283-852a-c75c249ae77e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/evidence/history/b30-c016-reject-01-snakeskin-read-as-living.png",
+          "sha256": "b64ec07a13db2b5ae60aea540a8459b06b716171b5febb856fd49cbc534487c4",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a singular, museum-caliber chapter illustration for Pliny the Elder's Naturalis Historia, Book XXX chapter 16, presenting its reported 'marvellous facts connected with animals' as poetic ancient testimony, never as instruction or verified zoology. Scene: a broad Arcadian limestone terrace at amber dusk, with exactly one complete calm she-mule standing in profile on dry ochre earth, exactly one complete elegant crane standing nearby with folded wings, and exactly one small complete woven beehive on a low stone plinth with a restrained cloud of tiny bees close around its entrance. Beyond them, a dark rocky cleft holds one small fully enclosed black-blue spring whose entire shoreline is visible, anticipating the work's transition to aquatic productions. A single shed snakeskin lies naturally on a flat stone, clearly empty and fully visible; no living snake. Every discrete animal and object must be complete, uncropped, separated, and fully inside the canvas; no hooves, legs, wings, beak, hive, snakeskin, or water may touch an image edge. Give the mule four believable legs and natural hooves; the crane two believable legs and one beak; no hybrid anatomy. Render as an ancient Roman fresco fused with a luxury medieval bestiary: mineral pigment, egg tempera, faint gold-leaf dust in the sky, matte abraded plaster grain, delicate incised line, restrained naturalism, handmade irregularity, ancient and timeless, rough and polished at once. Palette: charcoal blue, warm limestone, ochre, muted cinnabar, olive, and tarnished gold. Strong coherent depth and generous negative space, landscape 3:2, single continuous scene. No border, frame, page, panels, triptych, collage, captions, writing, letters, numerals, labels, glyphs, signature, watermark, people, extra large animals, harm, restraints, mutilation, treatment, bowls, potions, blood, death, suffering, fantasy monster, or water reaching a canvas edge. Opaque sRGB PNG, 1536x1024.",
+          "reason": "The foreground shed snakeskin read too strongly as a living snake, contrary to the exact empty-slough request."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:2",
+      "title": "THE DIFFERENT PROPERTIES OF WATERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b31-c002.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1a5daa6d9fd41cd0ee13ebc6dfe1b6c6269b6933a132b7ff2bc1af6aad382c10",
+        "englishSha256": "2f76fe003957f11c3b979707c7922d006707ab642ac7c7966b8d6d7cfe487082",
+        "latinWords": 1380,
+        "englishWords": 2862,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "5151f10d734d2715b26e4c33bb40fe005df39f96ecca29e418a3acc5c4b2ef1e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9a843be5-8a0f-49a2-b090-025b487c7e43",
+      "generationArtifactId": "exec-9a843be5-8a0f-49a2-b090-025b487c7e43",
+      "outputArtifact": "built-in-imagegen://exec-9a843be5-8a0f-49a2-b090-025b487c7e43.png",
+      "exactFinalPrompt": "Create a singular, awe-filled chapter illustration for Pliny the Elder's Naturalis Historia, Book XXXI chapter 2, 'The Different Properties of Waters,' explicitly visualizing ancient reports as wonders and testimony rather than modern medical fact. One continuous panoramic volcanic landscape at blue dawn: two adjacent natural springs divided by a narrow complete spine of pale rock, the left spring steaming hot with sulphur-gold mineral terraces, the right spring crystalline cold with a faint rime of ice; behind them a grotto where dripping mineral deposits have formed multicolored stone columns, and far beyond, a tiny complete Roman hill town gathered around a bathhouse. In one shallow foreground pool, a single green leaf floats; in the neighboring dark pool, a single matching leaf is visible resting on the bottom—poetic reference to Pliny's contrasting waters, not a scientific claim. All four bodies of water must be entirely enclosed by visible shore or stone on every side, comfortably separated from every canvas edge; no water, steam plume, town, building, leaf, or discrete object touches an edge. No people or animals. Compose with grand geological depth, flowing diagonals, and generous luminous sky. Style: monumental Roman landscape fresco fused with medieval cosmological manuscript painting, mineral pigments, egg tempera veils, lapis and malachite, sulphur yellow, bitumen black, aged ivory, restrained gold-leaf glints, softly abraded plaster, hand-burnished highlights, exquisite handmade detail—ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, 1536x1024, opaque sRGB. Single uninterrupted landscape, never a diagram or collage. No border, frame, page, panels, split-screen, captions, writing, letters, numerals, labels, maps, symbols, signature, watermark, human figure, animal, corpse, treatment scene, vessel, dangerous action, fantasy architecture, or water reaching a canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9a843be5-8a0f-49a2-b090-025b487c7e43",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No built-in edit and no local pixel edit; the accepted master is the direct independent built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Four visually distinct hot, cold, floating-leaf and sinking-leaf mineral pools are fully enclosed, with a petrifying grotto and distant bath-city in one continuous landscape. No water reaches an edge; no people, animals, text, panels or labels appear.",
+      "epistemicAndDignityNote": "The many wondrous properties of waters are framed as ancient reports and visual contrasts, not medical or scientific fact.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:3",
+      "title": "THE WHOLESOMENESS OF WATERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b31-c003.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bea322c22f55747e1638748477625093962572ca5f6b1cc61b73492c657a06f2",
+        "englishSha256": "d11d3e4f050d59fdd00c498853c3e537c8dcbdfedf75d4d9561d087ff06e231c",
+        "latinWords": 1193,
+        "englishWords": 2766,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "5634f6559c99bd487494f1f4d5eef34c6de427e8a12c9c3bfd155ae066c16e4d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-035b8416-2329-49ff-93e4-76ac826bb783",
+      "generationArtifactId": "exec-035b8416-2329-49ff-93e4-76ac826bb783",
+      "outputArtifact": "built-in-imagegen://exec-035b8416-2329-49ff-93e4-76ac826bb783.png",
+      "exactFinalPrompt": "Create a singular, elegant chapter illustration for Pliny the Elder's Naturalis Historia, Book XXXI chapter 3, 'The Wholesomeness of Waters,' centering observation and civic engineering rather than endorsing ancient medical claims. Scene: under a pale Roman morning, a long complete aqueduct arcade sweeps from distant wooded foothills toward a civic fountain court. Exactly one fully clothed Roman water engineer stands fully visible in the middle ground, thoughtfully comparing exactly two complete small unmarked bronze vessels on a complete waist-high stone testing table; one vessel is clear, the other bears a faint natural mineral deposit on its interior rim. The engineer has two anatomically natural visible hands, one resting beside the vessels and one holding a small complete balance beam with empty pans. A single roofed public well and one complete arched fountain niche stand nearby. Any visible water is confined entirely inside the well opening, the two vessels, and one small complete fountain basin whose full rim is visible; no stream or water surface reaches an image edge. Show the aqueduct's masonry precision, gravity, shade, and public purpose with sweeping depth and ample negative sky. Render as a refined Roman architectural fresco crossed with a medieval scientific manuscript illumination: lapis shadows, travertine ivory, verdigris, umber, muted cinnabar, sparing gold-leaf glints, egg-tempera layers, scraped plaster grain, fine incised construction lines, handmade yet monumental, ancient, timeless, rough and polished at once. Landscape 3:2, opaque sRGB, 1536x1024, one continuous scene. No border, frame, page, panels, collage, diagram arrows, captions, writing, letters, numerals, labels, inscriptions, pseudo-text, signature, watermark, extra people, animals, statues with human faces, distorted hands, drinking, treatment, illness, blood, danger, modern object, or water touching any canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-035b8416-2329-49ff-93e4-76ac826bb783",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No built-in edit and no local pixel edit; the accepted master is the direct independent built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Exactly one complete engineer with natural hands compares two complete vessels and an empty-pan balance beside one roofed well, fountain niche and sweeping aqueduct. Visible water remains bounded; there are no extra people, text, panels or edge failures.",
+      "epistemicAndDignityNote": "The scene emphasizes Pliny's observation, comparative testing, wells and public aqueduct infrastructure rather than endorsing universal health claims.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:4",
+      "title": "THE QUALITIES OF WATER AT THE DIFFERENT SEASONS OF THE YEAR",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b31-c004.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "012624321201b4de803509d7229d3d798a52f536e13ea9a4538137ef00d3e18e",
+        "englishSha256": "854fc43046378b012aa3393c43332a1bc7b3207ff1ebfc5045df95130e5f373b",
+        "latinWords": 228,
+        "englishWords": 549,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "3979cbaad434c92b781c3a55fac795283794a230e3e832d85336452b8f0d390e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-431d913a-88a9-4470-ab05-d62a045d430c",
+      "generationArtifactId": "exec-431d913a-88a9-4470-ab05-d62a045d430c",
+      "outputArtifact": "built-in-imagegen://exec-431d913a-88a9-4470-ab05-d62a045d430c.png",
+      "exactFinalPrompt": "Create a singular poetic landscape illustration for Pliny the Elder's Naturalis Historia, Book XXXI chapter 4, 'The Qualities of Water at the Different Seasons of the Year.' Make one seamless valley, never a split-screen: at its center lies exactly one small natural spring basin with its entire irregular stone shoreline visible and ample dry ground between the water and every canvas edge. Across the same continuous terrain, weather and vegetation gradually pass from blue-shadowed winter frost in the far left hills, through tender spring cultivation around the basin, to a high dry amber summer and russet autumn woodland at the far right. The transition must be atmospheric and organic, with no dividing line. A partly thinned ancient grove on one slope reveals a newly damp patch of earth, while a carefully tilled field nearer the spring suggests Pliny's observation that cultivation and tree cover alter water's appearance. Include no people or animals; a complete small abandoned wooden mattock may rest fully inside the cultivated field as scale. Water remains entirely confined within the central basin—no river, runoff, rain streak, or water touching any edge. Use sweeping land rhythms, a large changing sky, and calm negative space. Render as a sublime Roman seasonal fresco blended with medieval calendar illumination: mineral azurite, malachite, ochre, russet, chalk white, smoky violet, sparing gold dust, egg-tempera glazing, scraped plaster, visible handmade strokes, refined but weathered, ancient, timeless, rough and polished at once. Landscape 3:2, opaque sRGB, 1536x1024, one continuous coherent scene. No border, frame, page, panels, quadrants, collage, diagram, captions, writing, letters, numerals, labels, symbols, zodiac signs, signature, watermark, buildings cut by an edge, human figure, animal, modern tool, disaster, wildfire, treatment, or water reaching a canvas edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-431d913a-88a9-4470-ab05-d62a045d430c",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No built-in edit and no local pixel edit; the accepted master is the direct independent built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One seamless valley transitions organically from frost through spring cultivation to dry summer and autumn woodland. The single spring is fully enclosed and the complete mattock internal; no panel seam, person, animal, text or water-edge failure appears.",
+      "epistemicAndDignityNote": "Seasonal and land-use observations are represented as a continuous environmental meditation without claiming a modern causal model.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "31:5",
+      "title": "HISTORICAL OBSERVATIONS UPON WATERS WHICH HAVE SUDDENLY MADE THEIR APPEARANCE OR SUDDENLY CEASED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/b31-c005.png",
+      "corpusArtifact": "public/corpus/book-31.c8284d6cf7925f5c.json",
+      "corpusReadEvidence": {
+        "latinSha256": "18d50e024ddd6c23425c172c900afcb684892a38249aff35dc065c1b4e682bc8",
+        "englishSha256": "5f8439d242a3ab70d708f2780f4bcc979b3cb248408616b8085423f6648ba773",
+        "latinWords": 147,
+        "englishWords": 310,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "c2edb885e1c16528970f0552b46f4ae9b1f5c4d0c916aef08aa4e03178c70869",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4e1d85b1-ea30-4de6-935d-75ebcb474dc0",
+      "generationArtifactId": "exec-4e1d85b1-ea30-4de6-935d-75ebcb474dc0",
+      "outputArtifact": "built-in-imagegen://exec-4e1d85b1-ea30-4de6-935d-75ebcb474dc0.png",
+      "exactFinalPrompt": "Edit only the supplied illustration. Preserve the night-blue sky, mineral mountains, fault line, exact one enclosed turquoise spring on the left, exact one complete dry sinkhole on the right, their positions, palette, lighting, texture, and the single continuous scene. Correct only the stone channel: shorten and recompose its near end so the entire channel is fully visible and terminates clearly in dry earth well before the lower canvas edge, leaving a generous uninterrupted band of dry rocky foreground below it. No part of the stone channel may touch or be cut by any canvas edge. Keep all visible water entirely enclosed and away from every edge. Do not add or remove any other feature. No people, animals, writing, symbols, signature, border, frame, page, panels, collage, modern objects, active disaster, or water touching an edge. Landscape 3:2, opaque sRGB, 1536x1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-68afe6ef-48a0-4e53-acc9-d9eba9b73d1d",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4e1d85b1-ea30-4de6-935d-75ebcb474dc0",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen correction referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "One enclosed turquoise spring, one complete dry sinkhole, a fully internal dry stone channel, fault line and mineral hills form one continuous still landscape. No active disaster, people, animals, text, panels or water-edge failure appears.",
+      "epistemicAndDignityNote": "Sudden spring appearances and disappearances are treated as recorded geological marvels; the aftermath is solemn and non-graphic.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-68afe6ef-48a0-4e53-acc9-d9eba9b73d1d",
+          "outputArtifact": "built-in-imagegen://exec-68afe6ef-48a0-4e53-acc9-d9eba9b73d1d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-09/evidence/history/b31-c005-reject-01-channel-clipped-lower-edge.png",
+          "sha256": "fd5bc2e05ceb571436dde18fd0a2dbf641569292826b4f00d6301d6b227bdaba",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Create a singular dramatic geological illustration for Pliny the Elder's Naturalis Historia, Book XXXI chapter 5, 'Waters Which Have Suddenly Appeared or Ceased.' Depict one continuous ancient Arcadian landscape in the silent aftermath of an earthquake, with no active destruction: a pale fault line zigzags across a broad limestone basin. On the left, exactly one complete newly emerged turquoise spring fills a small circular depression, its entire shoreline visibly enclosed by dry stone; on the right, exactly one complete old spring has vanished into a dry shadowed sinkhole ringed by mineral residue. Between them a broken but fully visible stone channel ends in dry earth. In the distance, one salt-whitened hillside and a vein of iron-red rock evoke the reported changes from fresh to brackish and from blue to red water without showing separate panels. Keep both geological features comfortably inside the canvas; all visible water remains completely surrounded by stone and far from every image edge. No people, animals, buildings, falling debris, flames, or disaster victims. Create strong diagonal tension but also solemn stillness and substantial negative sky. Render as an epic Roman geological fresco merged with a medieval lapidary illumination: ultramarine, turquoise, chalk, iron oxide, smoked umber, moonlit violet, subtle shell-gold fissures, egg-tempera translucency, pitted and abraded plaster, exquisite mineral textures, handmade irregularity—ancient, timeless, beautiful, rough and polished at once. Landscape 3:2, opaque sRGB, 1536x1024, one coherent scene. No border, frame, page, panels, diptych, collage, diagram, arrows, captions, writing, letters, numerals, labels, map, symbol, signature, watermark, fantasy portal, human, animal, gore, active catastrophe, modern object, or water reaching any canvas edge.",
+          "reason": "The dry stone channel continued through and was clipped by the lower canvas edge, failing complete-discrete-subject framing."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 882,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "30:13": {
+        "nearestMAD": 27.2,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c051.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b27-c004.png",
+        "madAtDHashPeer": 27.51
+      },
+      "30:14": {
+        "nearestMAD": 29.04,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c058.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c020.png",
+        "madAtDHashPeer": 49.81
+      },
+      "30:15": {
+        "nearestMAD": 26.04,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-53/b03-c021.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-03/b28-c012.png",
+        "madAtDHashPeer": 42.47
+      },
+      "30:16": {
+        "nearestMAD": 22.72,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c006.png",
+        "madAtDHashPeer": 40.93
+      },
+      "31:2": {
+        "nearestMAD": 30.57,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c016.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c010.png",
+        "madAtDHashPeer": 61.83
+      },
+      "31:3": {
+        "nearestMAD": 26.74,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-51/b03-c008.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c022.png",
+        "madAtDHashPeer": 35.67
+      },
+      "31:4": {
+        "nearestMAD": 24.45,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c019.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+        "madAtDHashPeer": 57.99
+      },
+      "31:5": {
+        "nearestMAD": 23.75,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c022.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c032.png",
+        "madAtDHashPeer": 47.43
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-09",
+    "pass": true
+  }
+}

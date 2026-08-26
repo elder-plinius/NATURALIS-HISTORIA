@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-14",
+  "generatedAt": "2026-08-26",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+  "corpusSha256": "b37c72287e2ea8d58c5a951a9870f923c1fbf644bf6c495fd201e14c61ef902b",
+  "corpusGroundingNote": "The complete Latin and English fields for Book XXXV chapters 1 through 8 were read before prompting. Scenes follow each chapter’s history of painting, portraits, painters, light and shade, pigments, encaustic practice, and early masters while omitting sexualized anecdotes, gladiatorial and battle violence, outdated disability framing, invented inscriptions, and any instructional presentation of toxic or medical pigment claims.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-14",
+    "receiptsCheckedAtSelection": 115,
+    "receiptOwnedKeysCheckedAtSelection": 888,
+    "nonEvidenceMasterKeysCheckedAtSelection": 906,
+    "selectedKeys": [
+      "35:1",
+      "35:2",
+      "35:3",
+      "35:4",
+      "35:5",
+      "35:6",
+      "35:7",
+      "35:8"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "activeClaimsExcluded": [
+      "31:6",
+      "31:7",
+      "31:8",
+      "31:9",
+      "31:10",
+      "32:3",
+      "32:4",
+      "32:5",
+      "32:7",
+      "32:8",
+      "32:9",
+      "32:10",
+      "32:11",
+      "33:3",
+      "33:11",
+      "33:13",
+      "34:10",
+      "34:11",
+      "34:12",
+      "34:14",
+      "34:15",
+      "34:16",
+      "34:17",
+      "34:18"
+    ]
+  },
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact prompts and artifact IDs are copied from the built-in ImageGen calls. Portable built-in-imagegen references replace machine-private saved paths.",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 2,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 10,
+    "independentCalls": true,
+    "builtInImageEditCalls": 2,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "assignments": [
+    "35:1",
+    "35:2",
+    "35:3",
+    "35:4",
+    "35:5",
+    "35:6",
+    "35:7",
+    "35:8"
+  ],
+  "chapters": [
+    {
+      "chapterKey": "35:1",
+      "title": "THE HONOUR ATTACHED TO PAINTING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c001.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "300768236243a0be9b1ded0580ed5993737e13e8084b961d31541666758833be",
+        "englishSha256": "972ba0136c256f3b8c76935ee35d218f61609abfc4e6c32542a5e0db5893a580",
+        "latinWords": 160,
+        "englishWords": 359,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "baf2ff2efae09a868555a533fef476dd8d9c7ce5ee516ee4e12668eb188e6b17",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e4287d17-81b4-4c11-9c23-fd97613a73e8",
+      "generationArtifactId": "exec-e4287d17-81b4-4c11-9c23-fd97613a73e8",
+      "outputArtifact": "built-in-imagegen://exec-e4287d17-81b4-4c11-9c23-fd97613a73e8.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 1, “The Honour Attached to Painting”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of an ancient Roman hall at the moment painting is being displaced by luxury stone, reflecting Pliny’s lament. In one continuous interior, a broad lime-plaster wall carries one surviving hand-painted olive tree and distant ochre hills directly in the fresco surface, luminous but weathered. From the opposite side, exactly three complete polished marble revetment slabs—one pale, one purple-veined, one dark Numidian—lean unopened against the wall as if awaiting installation, partly threatening but not yet covering the fresco. Place no people and no tools. The painted landscape must read as pigment bonded to architecture, not as a framed picture or separate panel.\nScene/backdrop: quiet Roman domestic hall with simple mosaic floor, plain doorway, open clerestory light, and broad areas of untouched plaster.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral washes; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, rough in material yet polished in draftsmanship; medicine/minerals/arts dialect shifting toward a painter’s workshop.\nComposition/framing: wide oblique architectural view, fresco growing organically across the left wall and the three separate slabs standing fully inside the right-middle ground; generous negative plaster and clear depth; one coherent scene, no border or split-screen.\nLighting/mood: cool morning light touching the old pigments, restrained melancholy and durable beauty rather than ruin spectacle.\nConstraints: exactly three marble slabs, each wholly visible and separated; one continuous nonfigurative wall fresco; historically plausible Roman plaster and revetment; opaque sRGB color; all discrete subjects fully inside canvas.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, animals, portraits, figures in the fresco, gold, extra slabs, frame around the fresco, framed painting, modern renovation equipment, panels, collage, page mockup, cropped slab, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e4287d17-81b4-4c11-9c23-fd97613a73e8",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found one unframed architectural fresco and exactly three complete separated marble slabs in one continuous Roman hall. The olive and hills remain part of the wall surface; every slab is internal, and no person, text, extra panel, tool, gold, or clipped focal object appears.",
+      "epistemicAndDignityNote": "The scene visualizes Pliny’s evaluative contrast between durable painted craft and luxury revetment without treating his rhetoric as a neutral archaeological fact.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:2",
+      "title": "THE HONOUR ATTACHED TO PORTRAITS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c002.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "39a450296a6af4ef3d7d5ab55c27b97cd2f3784ea6bd21763a8aa0c00e1c2225",
+        "englishSha256": "3e947c76d5fa4e43722032d7bfeea008196a1937bc7d7df2b4eb187a60cc9bb9",
+        "latinWords": 432,
+        "englishWords": 936,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ea38d92bba3c6d3de4b160f908e38a5f1765bf75a0813945185ccd9c57b8fb92",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e266d25d-2fc2-437d-87d9-e29c0b577b40",
+      "generationArtifactId": "exec-e266d25d-2fc2-437d-87d9-e29c0b577b40",
+      "outputArtifact": "built-in-imagegen://exec-e266d25d-2fc2-437d-87d9-e29c0b577b40.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 2, “The Honour Attached to Portraits”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of the ancestral portrait tradition Pliny describes. In a quiet Roman atrium, show exactly three complete, dignified wax portrait masks—one elderly woman, one middle-aged man, and one younger adult woman—each mounted separately on a plain dark wooden support inside its own open wall niche. Their entire oval edges, ears, hair treatment, chin, support, and niche are visible; they are clearly crafted wax likenesses, not severed heads or living people. The varied calm faces should suggest memory and character rather than wealth. No family tree lines, names, scrolls, funeral procession, or foreign statuary.\nScene/backdrop: austere domestic atrium with limewashed wall, shallow wooden cupboards, a distant square of daylight from the compluvium, and restrained floor mosaic without symbols.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect.\nComposition/framing: three niches form a gentle diagonal rather than a grid, with ample plaster negative space; every mask, support, and niche fully inside the image; one continuous architectural scene, no border.\nLighting/mood: soft amber atrium light, intimate, humane, contemplative, never funerary or macabre.\nConstraints: exactly three wax portrait masks and no other human faces or figures; historically plausible Roman wax and cabinetry; opaque sRGB color; all discrete subjects fully inside canvas.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, living people, bodies, severed-head appearance, gore, closed eyes, skulls, death masks, extra portraits in mosaics or decoration, pedigree lines, inscriptions, frames around portraits, modern museum cases, panels, collage, page mockup, cropped masks, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e266d25d-2fc2-437d-87d9-e29c0b577b40",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly three complete, separated wax likenesses—elder woman, middle-aged man, and younger adult woman—on individual supports in open niches. The forms read as crafted portrait masks rather than living or severed heads; no extra face, figure, pedigree line, inscription, panel, or crop appears.",
+      "epistemicAndDignityNote": "The plate treats ancestral likenesses as humane artifacts of memory and avoids macabre staging or a false claim that one imagined atrium is a documented individual household.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:3",
+      "title": "WHEN SHIELDS WERE FIRST INVENTED WITH PORTRAITS UPON THEM; AND WHEN THEY WERE FIRST ERECTED IN PUBLIC",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c003.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "8e9f836c9e30729b5ae0a19557f63fbb549fc8eb884f0067178a05ba975ce15b",
+        "englishSha256": "ab270282d1a677bce1a8285a69690d7a3e59625c2e57d84b1591a4dcb40b517b",
+        "latinWords": 399,
+        "englishWords": 796,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "252d3cd774f47330ff8d19a669474b30b76f53c2439382e5744ac0d4538211b7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-79fd80b9-d6c0-4c9d-a83f-d4bccd3e98b0",
+      "generationArtifactId": "exec-79fd80b9-d6c0-4c9d-a83f-d4bccd3e98b0",
+      "outputArtifact": "built-in-imagegen://exec-79fd80b9-d6c0-4c9d-a83f-d4bccd3e98b0.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 3, “Portrait Shields and the Origins of Painting”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration focused on the portrait shields first dedicated in public at Rome. In an empty side chapel of the Temple of Bellona, show exactly one complete round bronze clypeus resting upright on one simple complete wooden display stand. Painted directly at its center is one restrained monochrome profile portrait of a dignified fully clothed adult ancestor, rendered only as an ochre silhouette with fine dark contour and no inscription. The circular rim, entire portrait, rear support, and all four feet of the stand must be fully visible. The spare profile should quietly recall Pliny’s account that painting began by tracing the human shadow, without staging a lesson or adding a person.\nScene/backdrop: plain early Roman stone sanctuary with one column, muted plaster, and a distant open doorway; no other shields, weapons, portraits, or figurative decoration.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect.\nComposition/framing: low oblique view with the shield’s complete circle slightly off-center, stand entirely internal and a broad field of quiet sanctuary shadow; one coherent scene, no border.\nLighting/mood: one diagonal sunbeam catches the rim and painted profile; reserved public memory, not military triumph.\nConstraints: exactly one shield, one stand, and one painted profile portrait; no living people; historically plausible bronze, wood, and mineral pigment; opaque sRGB color; all discrete subjects fully inside canvas.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra faces, children, battle, gore, active weapons, helmet, spear, shield-wall, nudity, framed portrait, extra shields, clipped circle or stand feet, panels, collage, page mockup, modern museum barriers, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-79fd80b9-d6c0-4c9d-a83f-d4bccd3e98b0",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete bronze clypeus, one complete wooden stand, and one restrained ochre profile painted at its center. The rim, rear support, and stand feet are fully internal; no living person, second face, inscription, weapon, battle, panel, or crop appears.",
+      "epistemicAndDignityNote": "The image combines two motifs reported in the chapter without presenting Pliny’s shadow-origin tradition as experimentally proven history; the source’s sexualized anecdote is omitted.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:4",
+      "title": "ROMAN PAINTERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c004.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "a5b3b97d510eb0a79b6e2e63a380fc46fbea006cde195e8a0e04992f4bd80239",
+        "englishSha256": "854ac66c13de55f83b4bad1b8185d24cf21837b470b2b1b27afb65f8fd67e5f9",
+        "latinWords": 620,
+        "englishWords": 1244,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "008040c120c663078458ec0c0260554064668fb981b213aba21e767acbf27880",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fdce3159-f984-4682-ba5f-c21f403dc4d2",
+      "generationArtifactId": "exec-fdce3159-f984-4682-ba5f-c21f403dc4d2",
+      "outputArtifact": "built-in-imagegen://exec-fdce3159-f984-4682-ba5f-c21f403dc4d2.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: corrected full-page chapter illustration for Naturalis Historia, Book XXXV chapter 4\nInput image: edit target.\nPrimary request: Correct only the painter’s hand assignment and the minimum arm/torso pose needed to make it anatomically unambiguous. The short paintbrush must be held and used by the painter’s own anatomical LEFT hand. The oval palette must be held by the painter’s own anatomical RIGHT hand. Turn the fully clothed painter slightly into a front three-quarter pose if needed, so the left brush hand appears on the viewer’s right and reaches naturally to the wall, while the right palette hand appears on the viewer’s left. Both hands must have natural finger anatomy and remain fully visible.\nInvariants: preserve exactly one mature adult painter, the same identity, white Roman clothing, sandals, same complete body, same Veronese portico, same nonfigurative olive-vine wall border, same single pigment box, same palette, same brush, same lighting, palette colors, wide composition, linework, vellum, and mineral-pigment folio style. Keep all discrete subjects fully inside the frame. Do not change or add the mural design.\nConstraints: exactly one brush in anatomical left hand; exactly one palette in anatomical right hand; no additional person or limb.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra people, extra hands, malformed fingers, duplicated brush or palette, battle scene, figures in mural, crop, panels, collage, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-17e33969-42dc-4a75-8b2b-5f5aa6ff0092",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-fdce3159-f984-4682-ba5f-c21f403dc4d2",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen edit referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the corrected output found exactly one complete mature painter in a front three-quarter pose, with the short brush unambiguously in his anatomical left hand and the palette in his anatomical right. Both hands, sandals, pigment box, and nonfigurative vine mural are coherent and internal; no extra limb, person, battle, figure in the mural, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The plate isolates Pliny’s craft detail about Turpilius rather than dramatizing his public battle catalogues; the chapter’s outdated disability framing is not repeated.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-17e33969-42dc-4a75-8b2b-5f5aa6ff0092",
+          "outputArtifact": "built-in-imagegen://exec-17e33969-42dc-4a75-8b2b-5f5aa6ff0092.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/evidence/history/b35-c004-reject-01-brush-in-right-hand.png",
+          "sha256": "32168908e2c95008be5c899256a3682c76731369d8287986e233a122cff47d2f",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 4, “Roman Painters”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of a Roman painter at work, inspired by Pliny’s unusual note that Turpilius painted with his left hand. Show exactly one fully visible, fully clothed mature adult painter standing on the floor of a Veronese temple portico. The painter holds one small oval palette securely in the right hand and applies mineral color with exactly one short brush in the left hand to a low plaster wall. The unfinished wall painting is entirely nonfigurative: a restrained continuous olive-vine border and simple red-ochre architectural bands, with no people, animals, letters, or battle. Both hands, all fingers, both sandals, palette, brush, and the whole body are anatomically coherent and fully inside the canvas.\nScene/backdrop: quiet northern Italian Roman portico with plain columns, open courtyard light, one small complete pigment box on the floor, and no spectators, statues, or other workers.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; restrained umber, lampblack, muted verdigris, faded lapis, madder, and ochre; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect.\nComposition/framing: broad side view with the complete painter occupying one third and the long nonfigurative plaster surface opening negative space across the rest; grounded floor visible around both feet; one coherent scene, no border.\nLighting/mood: clear northern morning, absorbed craft, quiet dignity, and public art without triumphal display.\nConstraints: exactly one living adult, one palette, one brush, and one pigment box; brush unmistakably in the left hand and palette in the right; historically plausible Roman clothing and materials; opaque sRGB color; all discrete subjects fully inside canvas.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, extra people or faces, children, battle painting, gore, war map, statues, animals, nude figures, ladder, scaffold, cropped anatomy, malformed hands, brush touching image edge, framed painting, modern easel, panels, collage, page mockup, glossy CGI, photorealism.",
+          "reason": "Native review rejected the otherwise coherent scene because the brush was held in the painter’s anatomical right hand, contradicting the source-specific left-handed Turpilius detail."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:5",
+      "title": "THE ART OF PAINTING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c005.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "b36c1b06541907afec4998af0d3acf27114e35b35164bfb40ece6f0f7c9d16a3",
+        "englishSha256": "2c88cc0b96a1dce9b2b8c804fbb129b6853eed7f332a5b0314f16441d63d977d",
+        "latinWords": 79,
+        "englishWords": 179,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "20aa37b3dab8509ff5abfbe399d1577fdc547b79ce9298650286eddb7340083f",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8a56b10a-a410-4f23-8920-4de82cbaea97",
+      "generationArtifactId": "exec-8a56b10a-a410-4f23-8920-4de82cbaea97",
+      "outputArtifact": "built-in-imagegen://exec-8a56b10a-a410-4f23-8920-4de82cbaea97.png",
+      "exactFinalPrompt": "Use case: stylized-concept\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 5, “The Art of Painting”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration that makes Pliny’s concepts of light, shade, lustre, tonal gradation, and blended transition visible through extreme simplicity. Show exactly one complete closed ripe pomegranate resting on one complete low pale limestone plinth in an otherwise empty painter’s study. A single side light creates a small bright lustre on the fruit, a continuous red-to-umber tonal turn across its round form, and one long soft-edged cast shadow that dissolves gradually into the wall and floor. Include a short intact leafy twig attached to the fruit, fully visible. No cut fruit, bowl, cloth, brush, palette, or person.\nScene/backdrop: bare warm plaster niche and stone floor merging in gentle perspective, with ample empty vellum-toned space.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; precise iron-gall contour, fine cross-hatching and stipple following form, dry-brush abrasion, translucent madder and ochre mineral wash; restrained lampblack, umber, muted verdigris, and a breath of faded lapis in the deepest reflected shade; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect.\nComposition/framing: intimate low three-quarter study, fruit and entire plinth fully within the lower-middle, cast shadow fully ending inside the canvas, large quiet negative field; one coherent scene, no border or diagram.\nLighting/mood: one controlled shaft of warm light, meditative and analytical without looking modern.\nConstraints: exactly one pomegranate with one attached twig and one plinth; natural fruit anatomy; all discrete subjects and shadow fully inside canvas; opaque sRGB color.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, animals, extra fruit, seeds, cut surface, vessel, drapery, tools, geometry labels, arrows, split tonal chart, panels, collage, frame, page mockup, cropped crown/twig/plinth/shadow, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8a56b10a-a410-4f23-8920-4de82cbaea97",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete closed pomegranate with one intact attached twig on one complete limestone plinth. Raking light produces a contained lustre, continuous tonal turn, and fully internal soft cast shadow; no extra fruit, cut surface, vessel, tool, person, diagram, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "A simple observed object makes the chapter’s terminology legible without pretending to reconstruct a lost ancient exercise or adding modern diagram labels.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:6",
+      "title": "PIGMENTS OTHER THAN THOSE OF A METALLIC ORIGIN. ARTIFICIAL COLOURS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c006.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "f1e71dcdd4afceaafdaea400a2b37e8ee7eea66a5c309375de984e35b682a59b",
+        "englishSha256": "76bc013ef93c3c138d3bc45c95e9b70706b33696d37c2f00e14654c75a10f033",
+        "latinWords": 1133,
+        "englishWords": 2312,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "d9ce7f66e12b3021ba7307b6e1bdc8cc5bd48846bfc034c69ddb184de8d54386",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b88de58f-a80c-4f1c-b8e8-02ddb4684fbe",
+      "generationArtifactId": "exec-b88de58f-a80c-4f1c-b8e8-02ddb4684fbe",
+      "outputArtifact": "built-in-imagegen://exec-b88de58f-a80c-4f1c-b8e8-02ddb4684fbe.png",
+      "exactFinalPrompt": "Use case: style-transfer\nAsset type: corrected full-page chapter illustration for Naturalis Historia, Book XXXV chapter 6\nInput image: edit target; preserve exact geometry, object count, colors, crop, viewpoint, lighting direction, spacing, and arrangement.\nPrimary request: Change only the rendering medium and surface treatment. Transform the near-photographic pigment still life into an unmistakable hand-illuminated Plinian natural-history folio on warm fibrous aged vellum. Render every dish, pigment mound, bench fissure, wall, and window light with visible iron-gall contour, dense fine cross-hatching, stipple, dry-brush abrasion, and translucent matte mineral washes. Reduce photographic microtexture and specular realism. Keep the red, yellow, white, black, faded-lapis blue, and muted-verdigris green distinct but restrained, letting warm vellum fibers show across the whole image.\nInvariants: keep exactly six complete shallow stone dishes and exactly six contained dry pigment mounds, in the same loose crescent and same left-to-right color order; retain all rims, feet, shadows, bench, plaster wall, and high slit window unchanged and fully inside the canvas; do not add, remove, spill, mix, or move anything.\nConstraints: one coherent 1536×1024 landscape 3:2 scene; opaque sRGB; ancient, timeless, rough in material yet polished in draftsmanship; no border.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, animals, extra vessels, tools, liquid, smoke, powder spills, grid, panels, collage, frame, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-14235a36-3bae-4404-b97f-1eb91b22b8e3",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-b88de58f-a80c-4f1c-b8e8-02ddb4684fbe",
+          "status": "accepted-after-built-in-edit"
+        }
+      ],
+      "editLineage": "One targeted built-in ImageGen edit referenced the byte-preserved rejected original; no local crop, retouch, composite, resize, conversion or pixel edit was performed.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review of the corrected output found exactly six separated complete stone dishes and six contained dry mounds—red, yellow, white, black, faded-lapis blue, and muted-verdigris green—in the same loose crescent. Strong iron-gall contour, hatching, stipple, matte wash, and vellum replace the rejected gloss; no spill, tool, person, label, grid, panel, or crop appears.",
+      "epistemicAndDignityNote": "The pigment display is deliberately closed and dry: it observes the chapter’s categories while avoiding recipes, unsafe handling, or endorsement of Pliny’s toxic and medical claims.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-14235a36-3bae-4404-b97f-1eb91b22b8e3",
+          "outputArtifact": "built-in-imagegen://exec-14235a36-3bae-4404-b97f-1eb91b22b8e3.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/evidence/history/b35-c006-reject-01-photorealistic-materials.png",
+          "sha256": "ccf56173636dffb2ae3232312bfd64cf9e0900948ec025dcc0f6c7ff0d41e60e",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 6, “Native and Artificial Pigments”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration of ancient pigments as observed materials, not a recipe. On a broad worn travertine painter’s bench, arrange exactly six separate complete shallow stone pigment dishes in a loose sweeping crescent, never a grid. Each dish holds one small dry contained mound below its rim: Pontic sinopis red, Attic ochre yellow, Melian white, lampblack, Armenian blue, and Appian green. Every vessel rim, foot, and dry pigment surface is fully visible; no powder spills, mixing, grinding, fire, liquid, hand, brush, label, or medicinal use. Leave the rest of the bench and plaster background empty.\nScene/backdrop: quiet Roman pigment storeroom with plain shadowed plaster, one high slit of daylight, and no shelves of extra containers.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; restrained umber, lampblack, muted verdigris, faded lapis, madder, ochre, and chalk white; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect with tactile earth color.\nComposition/framing: wide oblique tabletop view, six dishes stepping in scale across a shallow crescent with unequal spacing and ample negative bench; each silhouette fully separated; one coherent scene, no border, panel, or color-chart grid.\nLighting/mood: soft raking daylight revealing grain and matte pigment, observational, precious but not luxurious.\nConstraints: exactly six dishes and exactly six dry pigment mounds in the specified colors; all objects wholly inside generous margins; historically plausible stone dishes; opaque sRGB color.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, hands, animals, extra vessels, tools, mortar, pestle, brush, palette, liquid, flame, smoke, spilled powder, recipes, medical procedure, modern color swatches, grid, panels, collage, frame, page mockup, cropped dish, glossy CGI, photorealism.",
+          "reason": "The six dishes, six specified colors, spacing, and edge safety were correct, but native review rejected the glossy near-photographic rendering and insufficiently visible folio linework."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:7",
+      "title": "WHICH COLOURS DO NOT ADMIT OF BEING LAID ON A WET COATING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c007.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2e0d56882db4a1af107e7b75da31794308246eee690f18898ab7a867ce8c12eb",
+        "englishSha256": "7b5d4e472dafda7a9fb4199d7c69f937ab65ac83d29fd387282e2fc062f924e4",
+        "latinWords": 231,
+        "englishWords": 470,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "efdab432cceddd54ad5f401b2aa5977712e006c3813fd4241da4c7325ddedd9d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3935f090-0bd1-4b4c-a784-247110747d1c",
+      "generationArtifactId": "exec-3935f090-0bd1-4b4c-a784-247110747d1c",
+      "outputArtifact": "built-in-imagegen://exec-3935f090-0bd1-4b4c-a784-247110747d1c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 7, “Colours That Refuse a Wet Coating”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration grounded in Pliny’s account of dry-ground pigments, wax colour, ship painting, and the four-colour discipline of early masters. Show exactly one complete small Roman merchant ship hauled entirely onto a dry shore and resting on one complete timber cradle. Its whole hull is decorated with restrained encaustic bands using only Melian white, Attic yellow, Pontic red, and lampblack; no blue, purple, green, image, eye, figure, or text. The single mast, furled square sail, rigging, stern, prow, rudder, keel, and every cradle support must all end visibly inside generous canvas margins. No people, animals, cargo, fire, water, or battle.\nScene/backdrop: quiet ancient boatyard above the tide line, packed ochre earth, low stone shed, distant dry hills, and open vellum sky; absolutely no sea or water visible.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, translucent matte mineral washes; restrained umber, lampblack, Melian white, Attic ochre, and Pontic red; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect.\nComposition/framing: wide side-on three-quarter view, ship occupying no more than 70 percent of width and 65 percent of height, complete silhouette surrounded by sky and earth; rigging simplified and contained; one coherent scene, no border.\nLighting/mood: clear dry afternoon, disciplined craft and practical colour rather than naval spectacle.\nConstraints: exactly one ship, one mast, one furled sail, one rudder, and one timber cradle; exactly four visible pigment colors on the hull; historically plausible Roman construction; all discrete parts fully inside canvas; opaque sRGB color.\nAvoid: text, labels, numerals, pseudo-writing, signatures, logos, watermarks, people, animals, extra ships, water, sea, waves, combat, weapons, oars extending to edges, painted eyes or portraits, unfurled sail touching sky edge, clipped mast/rigging/prow/stern/keel/cradle, panels, collage, frame, page mockup, modern dry dock, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-3935f090-0bd1-4b4c-a784-247110747d1c",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native review found exactly one complete Roman merchant ship on one complete timber cradle in a dry boatyard. Its single mast, furled sail, rigging, rudder, keel, prow, stern, and cradle supports all terminate inside the canvas, while the hull remains limited to restrained white, yellow, red, and black bands; no water, person, animal, battle, text, panel, or crop appears.",
+      "epistemicAndDignityNote": "The dry hauled ship evokes encaustic and four-colour practice without staging the chapter’s gladiatorial violence or turning ancient material claims into instructions.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "35:8",
+      "title": "THE AGE OF PAINTING; WITH THE NAMES OF THE MORE CELEBRATED WORKS AND ARTISTS, FOUR HUNDRED AND FIVE IN NUMBER",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-14/b35-c008.png",
+      "corpusArtifact": "public/corpus/book-35.b37c72287e2ea8d5.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6f21a5f6e631c56b5e12a8e7da30825d8154f460c18f7baf7fea614cfb206983",
+        "englishSha256": "e1266c9bf27e17c9c85c2da70ed047da2e616947fa4a0c2e9f7dd832508dac22",
+        "latinWords": 273,
+        "englishWords": 559,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "bbfbf6db7faeaae2d17025f2ed79424f3a7116ac39170e36f96a188c77a6d3fe",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b28030d7-2365-4ad3-b75c-4c3b2943abdf",
+      "generationArtifactId": "exec-b28030d7-2365-4ad3-b75c-4c3b2943abdf",
+      "outputArtifact": "built-in-imagegen://exec-b28030d7-2365-4ad3-b75c-4c3b2943abdf.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: full-page chapter illustration for Naturalis Historia, Book XXXV chapter 8, “The Age of Painting and the Early Masters”\nPrimary request: Create one original 1536×1024 landscape 3:2 Plinian folio illustration celebrating the early painters’ discovery of oblique views, varied gaze, articulated limbs, and natural drapery. Show one ancient Greek wall fresco painted directly on a broad, slightly curved plaster wall: exactly one complete fully clothed adult traveler in a three-quarter oblique pose, stepping gently forward while turning the head upward and back. The painted figure wears an opaque ankle-length chiton and mantle whose natural folds clearly describe the shoulders, elbows, knees, and movement without exposed torso or anatomical display. Use only four restrained colors—Melian white, Attic ochre, Pontic red, and lampblack—over the warm plaster. The entire fresco figure, every hand, sandal, garment edge, and cast painted ground-line must remain inside the wall surface. No living painter, battle, second figure, shield, or inscription.\nScene/backdrop: empty early sanctuary passage with the curved fresco wall, worn stone paving, narrow daylight opening, and generous unpainted plaster; the figure is unmistakably an inanimate wall painting.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, fine cross-hatching and stipple, dry-brush abrasion, matte four-colour mineral wash; ancient, timeless, rough in material yet polished in draftsmanship; Book XXXV painter’s-workshop dialect.\nComposition/framing: wide close architectural view, painted traveler occupies one side while the curve of wall and empty plaster create depth and negative space; the fresco is unframed and part of one continuous scene, never a separate panel.\nLighting/mood: cool archaeological daylight grazing the plaster, quiet astonishment at an old technical breakthrough.\nConstraints: exactly one painted adult figure and no living people; fully opaque clothing from shoulders to ankles; anatomically coherent complete hands and sandals; exactly four pigment colors in the fresco; all discrete imagery fully inside canvas; opaque sRGB color.\nAvoid: text, inscriptions, labels, numerals, pseudo-writing, signatures, logos, watermarks, living people, extra faces, children, nudity, exposed torso, sheer cloth, sensual pose, battle, weapons, blood, painter, palette, framed painting, border around fresco, cropped painted body, panels, collage, page mockup, glossy CGI, photorealism.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b28030d7-2365-4ad3-b75c-4c3b2943abdf",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": "No post-generation crop, retouch, composite, resize, conversion or local pixel edit; accepted PNG is the direct byte-identical built-in output.",
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native original-resolution review found exactly one inanimate, fully clothed painted adult traveler on a continuous curved plaster wall. The oblique pose, upward-backward gaze, complete hands, complete sandals, opaque drapery, and painted ground line are all coherent and internal; no living person, second face, weapon, battle, inscription, frame, panel, or crop appears.",
+      "epistemicAndDignityNote": "The plate demonstrates formal qualities praised by Pliny through an invented nonviolent fresco study, not a claimed reconstruction of any named lost work.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 924,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "35:1": {
+        "nearestMAD": 30.83,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-35/b22-c019.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-64/b07-c005.png",
+        "madAtDHashPeer": 44.82
+      },
+      "35:2": {
+        "nearestMAD": 39.33,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c013.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-16/b16-c024.png",
+        "madAtDHashPeer": 56.15
+      },
+      "35:3": {
+        "nearestMAD": 31.29,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-07/b26-c013.png",
+        "madAtDHashPeer": 71.29
+      },
+      "35:4": {
+        "nearestMAD": 31.6,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-07/b10-c058.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c034.png",
+        "madAtDHashPeer": 49.85
+      },
+      "35:5": {
+        "nearestMAD": 26.63,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-17/b16-c034.png",
+        "madAtDHashPeer": 43.88
+      },
+      "35:6": {
+        "nearestMAD": 30.73,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-07/b08-c056.png",
+        "madAtDHashPeer": 39.68
+      },
+      "35:7": {
+        "nearestMAD": 22.81,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c026.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c015.png",
+        "madAtDHashPeer": 39.74
+      },
+      "35:8": {
+        "nearestMAD": 27.31,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c058.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c004.png",
+        "madAtDHashPeer": 52.47
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-14",
+    "status": "pass",
+    "output": ""
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-31",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 300,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "21:18": {
+        "nearestMAD": 26.48,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c011.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c029.png",
+        "madAtDHashPeer": 70.14
+      },
+      "21:19": {
+        "nearestMAD": 29.57,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c023.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c020.png",
+        "madAtDHashPeer": 35.06
+      },
+      "21:20": {
+        "nearestMAD": 27,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c006.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-19/b17-c009.png",
+        "madAtDHashPeer": 33.5
+      },
+      "21:21": {
+        "nearestMAD": 21.47,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c019.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c011.png",
+        "madAtDHashPeer": 27.92
+      },
+      "21:22": {
+        "nearestMAD": 22.14,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c011.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c008.png",
+        "madAtDHashPeer": 37.86
+      },
+      "21:23": {
+        "nearestMAD": 23.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c026.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c001.png",
+        "madAtDHashPeer": 71.86
+      },
+      "21:24": {
+        "nearestMAD": 24.4,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c017.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c020.png",
+        "madAtDHashPeer": 31.29
+      },
+      "21:25": {
+        "nearestMAD": 25.05,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c020.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c005.png",
+        "madAtDHashPeer": 35.61
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "21:18",
+      "title": "SIX VARIETIES OF THE RUSH: FOUR REMEDIES DERIVED FROM THE CYPIROS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c018.png",
+      "sha256": "c20ab375781f09f4bc2745c9f7100cb2cfbd4f26c6464e07aca459d29a3d4998",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-3844c6f7-008b-4051-8935-2223f7a34d5b",
+      "outputArtifact": "built-in-imagegen://exec-3844c6f7-008b-4051-8935-2223f7a34d5b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 18, “Six Varieties of the Rush: Four Remedies Derived from the Cypiros”\nPrimary request: Show the chapter’s marsh rushes and their practical uses in one continuous Roman coastal-wetland action. Exactly one complete ancient basket-maker sits on a low dry hummock and weaves one complete rounded fish-kype from supple holoschoenus rushes. Behind the worker, several small, fully contained rush clumps grow on separate natural mounds: a slender pointed barren kind, a thicker black-seeded female kind, and a fleshy holoschoenus with compact egg-like seed clusters. Beside the worker lie one complete partially rolled rush mat and one complete split rush whose pale pith can be seen; a tiny open clay oil lamp with a rush-pith wick rests safely on bare ground, unlit. This is a single coherent wetland craft scene, not a species catalogue, diagram, or object lineup.\nScene/backdrop: one finite marsh pool with both banks visible, pale water, a distant contained low shore, no buildings, boats, extra people, animals, or edge-entering reeds\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; rush-and-water dialect of soft verdigris, pale lapis reflections, ochre fiber and dark seed heads\nComposition/framing: landscape 3:2, low wide view. The complete seated craftsperson and kype form a compact crescent at lower left; finite rush islands arc across the middle; broad pale water and vellum-toned air provide negative space. Keep the entire person, hands, sandals, kype, mat, lamp, split rush, every plant clump, root contact, seed head, bank end, pool and shore visibly inside generous uninterrupted breathing room on all four sides.\nHistorical and epistemic framing: depict the varieties and uses Pliny transmits as period natural history, without modern medicinal endorsement.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: the warm fibrous aged-vellum material is the image substrate and fills the canvas edge to edge. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Create breathing room with open water, ground, and air, never with a drawn border.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, modern basket tools, photography, photorealism, glossy CGI, botanical plate, specimen grid, split panels, collage, repeated crops, duplicate objects, floating tools, clipped person, clipped reeds, edge-entering vegetation, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete seated basket-maker weaves one complete grounded fish-kype beside one complete rolled rush mat, split pith-bearing rush and ancient unlit rush-wick lamp. Three distinct, fully rooted and separated marsh-rush clumps remain contained on natural islands across one continuous wetland. Person, hands, feet, craft objects and primary plants are fully framed. No label, pseudo-writing, modern tool, panel, catalogue grid, repeated crop, floating object, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:19",
+      "title": "TWENTY-ONE REMEDIES DERIVED FROM THE LILY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c019.png",
+      "sha256": "d485666b29b3922bc9e1144ef479a7afe3fb858a5de3aaaf856e02910f1b1ec2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e0f497a1-6591-4db8-8ec2-47278e7adccb",
+      "outputArtifact": "built-in-imagegen://exec-e0f497a1-6591-4db8-8ec2-47278e7adccb.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 19, “Twenty-One Remedies Derived from the Lily”\nPrimary request: Center the chapter’s medicinal use of lily roots in one quiet Roman apothecary-garden action. Exactly one complete kneeling herbalist has carefully lifted one complete white lily from a compact oval bed: its several open white flowers, leaves, stem, layered bulb and entire fibrous root mass remain naturally connected and fully legible. With one hand the herbalist supports the intact bulb above a shallow complete clay wash basin; with the other hand the herbalist gently cleans soil from the roots. A second complete white lily remains rooted nearby for living context. On a low stone work slab with both ends visible rest one complete small mortar, one complete honey cup and one complete wine jug, all supported and unused; no patient or treatment is shown.\nScene/backdrop: a finite Roman physic-garden island on bare ground, one low blank wall with both ends visible, pale open air, no other flowers, people, buildings, trees, shelves, or edge-framing vegetation\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; lily-root dialect of creamy white petals, ochre bulb scales, verdigris leaves, clear water and quiet madder cloth\nComposition/framing: landscape 3:2, intimate low three-quarter view. Form an open triangle between the complete kneeling herbalist, lifted lily and stone slab; leave a broad field of pale vellum air above. Keep every hair, finger, sandal, petal tip, root tip, basin rim, vessel, slab end, rooted lily and wall end fully visible and comfortably separated from all four edges.\nHistorical and epistemic framing: show period materia-medica preparation grounded in Pliny’s text, without depicting or endorsing treatment of a disease.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the entire canvas edge to edge as the image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Negative space must be open scene space, never a drawn margin.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern objects, glassware, medical procedure, patient, photography, photorealism, glossy CGI, specimen plate, root inset, cutaway diagram, split panels, collage, repeated crops, detached floating flower, impossible hands, clipped roots, clipped petals, edge-entering plants, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete kneeling herbalist washes one complete lifted white lily whose flowers, leaves, stem, bulb and fibrous roots remain naturally connected; one second complete lily remains rooted nearby. Basin, mortar, honey cup, wine jug and stone slab are grounded, complete and historically coherent. No patient, procedure, modern glassware, text, pseudo-writing, botanical inset, panel, repeated crop, floating flower, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:20",
+      "title": "EIGHT REMEDIES DERIVED FROM GALLIC NARD",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c020.png",
+      "sha256": "ebc92a92f109347b10a5d60324fedd0002f6a42f905450c846ab4a5e293c4e8f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e892f17f-609c-4004-a272-a29dbdade458",
+      "outputArtifact": "built-in-imagegen://exec-e892f17f-609c-4004-a272-a29dbdade458.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 20, “Eight Remedies Derived from Gallic Nard”\nPrimary request: Show a restrained Roman-era preparation of Gallic nard root in one continuous high-country work scene. Exactly one complete travelling apothecary sits at a low, finite stone table on a Gallic mountain terrace. A complete freshly gathered nard plant lies supported on the table, with its small aromatic leaves, slender stem and dense brown fibrous root naturally connected. The apothecary uses one complete stone pestle in one complete mortar to bruise a modest portion of dried nard root; exactly one complete small wine cup and one complete narrow-necked wine jug stand nearby, recalling Pliny’s repeated wine preparations without showing a patient. A single rooted nard clump grows on a compact mound beside the table as botanical context.\nScene/backdrop: a cool open upland with one finite low terrace wall, distant contained blue-grey mountains, no other person, animal, tree, building, shrine, shelves, horn boxes, or extra medicaments\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Gallic-nard dialect of cold lapis distance, silvery mountain air, dry ochre roots, grey stone and one restrained wine-red accent\nComposition/framing: landscape 3:2, pulled-back asymmetric side view. The complete apothecary and worktable occupy the right third; the rooted nard mound anchors the lower left; a vast cool mountain sky creates negative space between them. Keep the whole person, both hands and sandals, every table end, plant tip and root, mortar, pestle, cup, jug, mound, wall end and mountain silhouette visibly inside broad breathing room.\nHistorical and epistemic framing: depict a period preparation Pliny reports, not a modern clinical claim; no medical outcome is implied.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the entire canvas edge to edge as the image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Negative space is atmospheric ground and sky, not a drawn frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, modern laboratory objects, modern glassware, extra herbs, saffron, iris, patient, medical procedure, photography, photorealism, glossy CGI, botanical plate, ingredient grid, split panels, collage, repeated crops, floating roots, impossible hands, clipped person, clipped vessels, clipped mountain, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete upland apothecary bruises Gallic nard root with one complete mortar and pestle at one fully supported stone table. The connected gathered nard plant, one complete rooted nard clump, wine cup and jug remain clear against a cold Gallic mountain atmosphere, with all primary bodies, roots, vessels and table ends fully framed. No other herb, patient, modern laboratory object, label, pseudo-writing, panel, ingredient grid, floating root, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:21",
+      "title": "FOUR REMEDIES DERIVED PROM TREFOIL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c021.png",
+      "sha256": "44cc98c0adf3d78a21642206179350734825dfc68559b4bd1431a6da4c3b16b9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-bd8b1571-fe34-4693-a1a9-ee9b6a246a6c",
+      "outputArtifact": "built-in-imagegen://exec-bd8b1571-fe34-4693-a1a9-ee9b6a246a6c.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 21, “Four Remedies Derived from Trefoil”\nPrimary request: Visualize Pliny’s explicit uncertainty about trefoil as a remedy in one observational Roman field scene, without endorsing either claim. Exactly one complete naturalist kneels beside one finite, fully visible oval patch of three-leaved trefoil. The naturalist holds one complete trefoil sprig above one empty shallow clay bowl but pauses rather than preparing or administering it. On bare ground well outside the trefoil patch, exactly one small complete non-striking snake turns away from the plants; it neither attacks nor touches the person. A sealed wine jug remains set aside behind the naturalist. The posture should communicate caution and unresolved testimony, not fear, magic, or triumph.\nScene/backdrop: open dry meadow with the entire trefoil patch, snake, bowl and jug contained; one low blank stone marker with no writing, distant finite hills, no extra people, animals, herbs, buildings, altars, or edge-entering vegetation\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; skeptical-field dialect of subdued verdigris trefoil, pale ochre ground, faint lapis hills and a restrained madder garment edge\nComposition/framing: landscape 3:2, steep high-oblique view. Place the complete trefoil patch and kneeling naturalist in the lower-left half, the small snake on open ground in the upper-right half, joined by one continuous field rather than divided panels. Preserve a wide empty interval between plant and snake. Keep the entire person, hands, feet, sprig, bowl, jug, patch contour, every trefoil leaf, snake from head to tail, marker, hills and ground wholly inside broad uninterrupted breathing room.\nHistorical and epistemic framing: present Pliny’s conflicting reports—traditional antidote claims countered by Sophocles and Simus—as unresolved period testimony; do not claim trefoil repels snakes or cures venom.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the entire canvas edge to edge as the image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Use bare meadow as negative space, never a visual divider or frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, magical aura, serpent attack, bite wound, patient, treatment, animal harm, modern object, scales of justice, split-screen comparison, diagram, specimen grid, panels, collage, repeated crops, floating herb, giant snake, clipped figure, clipped snake, edge-entering plants, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete naturalist pauses with one trefoil sprig above one empty bowl beside one fully contained trefoil patch; one small complete non-striking snake remains well outside the patch across broad open ground, and one sealed wine jug stays set aside. The scene communicates unresolved testimony rather than cure or magic. No attack, wound, animal harm, magical symbol, modern object, text, pseudo-writing, split comparison, panel, floating herb, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:22",
+      "title": "ONE REMEDY DERIVED FROM THE LEUCANTHEMUM. NINE REMEDIES DERIVED FROM THE AMARACUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c022.png",
+      "sha256": "b94dcbfb2e86b557d083de41fdf36e8e0ef9bad9709c0696f49021f9ae3d7199",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-2bfed8f6-8cf7-46d8-9862-e1890395ee2f",
+      "outputArtifact": "built-in-imagegen://exec-2bfed8f6-8cf7-46d8-9862-e1890395ee2f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 22, “One Remedy Derived from the Leucanthemum; Nine Remedies Derived from the Amaracus”\nPrimary request: Show both named plants and one restrained period preparation in a single Cypriot physic-garden scene. Exactly one complete seated apothecary works at one low round stone table. With one complete pestle, the apothecary bruises fragrant fresh amaracus leaves in one complete mortar; one complete narrow-necked vinegar jug, a small pinch of coarse salt on the table, and one complete shallow oil cup recall the preparations Pliny describes without treating a patient. Beside the table grow two separate, fully rooted and complete plants: a low leucanthemum bearing clear white ray flowers with yellow centers, and a bushy Cyprus amaracus with small opposite leaves and delicate flower clusters. The person smells the amaracus thoughtfully while working, emphasizing its esteemed fragrance.\nScene/backdrop: one compact oval garden court with the entire table and both plant mounds visible, a finite patch of bare ground and pale open air, no other herbs, flowers, people, animals, buildings, shelves, or edge-framing foliage\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; Cypriot aromatic dialect of dusty verdigris, white petals, pale ochre stone, amber oil and a quiet madder garment\nComposition/framing: landscape 3:2, intimate high three-quarter view organized as one circular working rhythm around the complete table. Place the rooted leucanthemum low left, the seated apothecary and table center, and rooted amaracus low right, all joined by continuous ground. Keep the entire person, both hands and feet, table circumference, every vessel, salt, mortar, pestle, flower, leaf tip, root contact and plant mound fully visible and comfortably inside all edges.\nHistorical and epistemic framing: depict preparation practices reported by Pliny as period testimony, not validated modern treatment.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the complete canvas edge to edge as the substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Breathing room is open garden air and ground, never a drawn margin.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, wound, scorpion, medical procedure, modern glassware, modern tools, photography, photorealism, glossy CGI, two-panel comparison, ingredient grid, botanical plate, collage, repeated crops, floating leaves, duplicate vessels, clipped person, clipped plants, edge-entering vegetation, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete seated apothecary smells amaracus while bruising its leaves in one complete mortar at one complete round table. A rooted flowering leucanthemum and a separate rooted Cyprus amaracus are botanically legible; pestle, vinegar jug, salt and oil cup are grounded and complete. No patient, wound, scorpion, modern object, text, pseudo-writing, botanical plate, ingredient grid, panel, repeated crop, floating leaves, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:23",
+      "title": "TEN REMEDIES DERIVED FROM THE ANEMONE OR PHRENION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c023.png",
+      "sha256": "e7e21368f7fd2f74f6a2170cc11969f8d2c02a807aaa49e78112f47905bb1091",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-ffb2b090-b15f-441e-b4aa-505d0d9f1997",
+      "outputArtifact": "built-in-imagegen://exec-ffb2b090-b15f-441e-b4aa-505d0d9f1997.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 23, “Ten Remedies Derived from the Anemone or Phrenion”\nPrimary request: Make the anemone’s wind-responsive flowering the central phenomenon of one coherent sandy Roman garden scene. Exactly one complete standing gardener leans lightly into a visible breeze and watches a finite, fully contained crescent of cultivated anemones whose flowers are open in the moving air: scarlet blooms are most abundant, with a few purple and milk-white flowers, all on short stems with parsley-like leaves. On a separate small sandy mound well behind them grows one complete larger wild scarlet anemone with broader leaves. Wind is shown only through the natural common lean of flower stems, a soft fold of the gardener’s cloak and a few grounded drifting grains of sand; no magical rays or symbols. Every plant remains rooted.\nScene/backdrop: one broad sandy garden clearing with a low finite dune and distant contained pale hills, no chaplets, red cloth, ritual, other person, animal, building, tree, poppy, or edge-entering plant\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; wind-flower dialect of vivid but restrained madder scarlet, muted purple, milk white, sandy ochre and faded-lapis moving air\nComposition/framing: landscape 3:2, very low wide lateral view. Let the crescent of short anemones sweep from lower left toward center, the complete gardener stand small at right, and the isolated wild plant sit in the upper-left middle distance. Preserve an enormous open vellum-toned sky. Keep the person, cloak, hands, sandals, every finite plant silhouette, petal, leaf, mound, dune end and hill comfortably separated from all edges.\nHistorical and epistemic framing: show Pliny’s botanical observation that the flower opens in wind; no medicinal claim or magical gathering prescription is endorsed.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the entire canvas edge to edge as the image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Negative space is natural sky and sand, never a visual frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, magical aura, spoken words, red wrapping cloth, wound, patient, detached flowers, oversized poppies, modern objects, photography, photorealism, glossy CGI, botanical plate, lifecycle sequence, split panels, collage, repeated crops, floating plant, clipped person, cropped petals, edge-entering vegetation, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A complete crescent of short cultivated anemones—predominantly scarlet with restrained purple and milk-white blooms—leans and opens coherently in one visible breeze; one larger complete wild scarlet anemone grows separately on a sandy mound, watched by exactly one complete gardener. Flowers remain rooted and the wind reads through stems and cloak. No poppy confusion, ritual, red cloth, magic, detached bloom, text, pseudo-writing, lifecycle panel, collage, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:24",
+      "title": "SIX REMEDIES DERIVED FROM THE ŒNANTHE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c024.png",
+      "sha256": "ee7e32e8e82ba998b1869bb0a7366d1df804d33fbffa0cb6f118949f8386876f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-99cd85b8-fee4-474d-9bf6-4b9ae0cbfa70",
+      "outputArtifact": "built-in-imagegen://exec-99cd85b8-fee4-474d-9bf6-4b9ae0cbfa70.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 24, “Six Remedies Derived from the Oenanthe”\nPrimary request: Render one exceptionally clear living observation of the plant Pliny describes, without turning it into a diagram. One complete oenanthe grows from a naturally eroded cleft in one finite ochre rock outcrop. Its parsnip-like divided leaves and complete stalk rise into open air, while the cleft naturally reveals one large root with numerous fine branching fibers; every fiber remains physically connected to the main root, embedded among moist earth and small stones, never floating or dissected. A small complete clay cup of honey and one complete dark-wine jug rest securely on a flat lower rock as quiet period context, with no person or treatment.\nScene/backdrop: one isolated self-contained rocky outcrop surrounded by sparse open ground, a distant contained faded-lapis shoreline, no other plants, people, animals, buildings, tools, labels, cutaway slab, or edge-entering rocks\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; rock-root dialect of pale limestone, dark moist fissure, fine umber fibers, cool verdigris foliage and dark madder wine\nComposition/framing: landscape 3:2, close low profile with the complete rock outcrop and rooted plant occupying the lower middle third and a vast quiet field of air above. The root is revealed by believable erosion in the front face, not a geometric section or inset. Keep every rock contour, root fiber, leaf tip, stalk, honey cup, jug, shoreline and shadow fully visible and comfortably separated from all four edges.\nHistorical and epistemic framing: illustrate morphology and preparations transmitted by Pliny without presenting the remedies as modern medical fact.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the complete canvas edge to edge as image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Use atmospheric ground and air for breathing room, never a drawn frame.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, patient, childbirth, anatomical body, modern object, modern glassware, severed root, floating fibers, impossible plant anatomy, scientific cutaway, arrows, botanical plate, specimen inset, split panels, collage, repeated crops, photography, photorealism, glossy CGI, clipped rock, clipped leaves, edge-entering stone, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete oenanthe grows naturally from one self-contained eroded rock cleft: its parsnip-like divided leaves, stalk, large main root and many fine connected fibers are all legible and physically embedded rather than diagrammed or floating. One complete honey cup and dark-wine jug rest securely on a lower rock. No person, medical procedure, severed root, scientific cutaway, label, pseudo-writing, panel, inset, repeated crop, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "21:25",
+      "title": "ELEVEN REMEDIES DERIVED FROM THE HELICHRYSOS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-31/b21-c025.png",
+      "sha256": "9ae7bbf094e72505daa7951c65d67552a9be8a823db8cc980bfdeaf36c8ae653",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7ef26101-f47b-4d94-bf7d-3ecf654d8894",
+      "outputArtifact": "built-in-imagegen://exec-7ef26101-f47b-4d94-bf7d-3ecf654d8894.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe illustrated edition of Pliny the Elder, Natural History, Book XXI, chapter 25, “Eleven Remedies Derived from the Helichrysos”\nPrimary request: Show the everlasting golden clusters and their ancient chaplet use in one luminous, continuous Roman-Egyptian garden workshop. Exactly one complete seated garland-maker weaves one complete circular chaplet from freshly gathered helichrysum stems. Beside the artisan grows one finite, fully visible shrub of helichrysum: small pale branches, whitish narrow leaves, and many compact flower clusters glistening muted gold in direct sun. Exactly one complete modest stone household deity statuette stands securely on one low pedestal behind the worker, awaiting the chaplet but not yet adorned. A small complete folded wool garment rests on the ground with one loose helichrysum sprig laid upon it, recalling the plant’s use among clothing.\nScene/backdrop: open contained garden terrace with one finite low wall whose ends are visible, broad sunlit air, no palace, temple, altar fire, second person, other flower, tree, animal, vessel, or edge-framing foliage\nStyle/medium: original Plinian natural-history folio; warm fibrous aged vellum, iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, madder and ochre mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship; everlasting-flower dialect of luminous ochre-gold clusters, silvery leaves, chalky stone, warm vellum and a restrained Ptolemaic faded-lapis accent\nComposition/framing: landscape 3:2, sunlit diagonal composition. The complete golden shrub anchors the left third, the complete artisan and circular chaplet occupy center, and the small complete statuette stands at right with broad open air between them. Keep every hair, hand, sandal, stem, flower cluster, leaf tip, chaplet circumference, garment edge, sprig, pedestal, statuette and wall end fully visible within generous uninterrupted breathing room.\nHistorical and epistemic framing: present the chaplet custom and remedies as Pliny’s period report, not a portrait of Ptolemy or a modern medicinal claim.\nOutput intent: one opaque RGB/sRGB preservation master at exactly 1536x1024 proportions.\nFull-bleed invariant: warm fibrous aged vellum fills the entire canvas edge to edge as the image substrate. No visible sheet, page edge, paper rectangle, decorative border, inner frame, mat, card, ruled line, or blank outer band. Compose breathing room from open terrace and air, never a drawn border.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, named ruler portrait, giant idol, ritual spectacle, flame, modern object, synthetic gold, photography, photorealism, glossy CGI, flower catalogue, specimen grid, split panels, collage, repeated crops, duplicate chaplets, floating flower, clipped person, clipped shrub, clipped statuette, edge-entering vegetation, visible sheet edge, inner rectangular frame, decorative border.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly one complete garland-maker weaves one complete circular helichrysum chaplet beside one complete rooted shrub of whitish leaves and muted-gold flower clusters. One complete modest statuette and pedestal remain separate and supported; one folded garment and protective sprig are grounded. No ruler portrait, ritual spectacle, extra chaplet, synthetic gold, modern object, lettering, pseudo-writing, botanical grid, panel, repeated crop, floating flower, visible sheet, watermark or clipped primary subject was found. Accepted first generation.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

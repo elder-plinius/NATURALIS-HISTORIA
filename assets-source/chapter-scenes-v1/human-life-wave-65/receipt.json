@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "campaign": "human-life-wave-65",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 608,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "7:10": {
+        "nearestMAD": 27.77,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c020.png",
+        "madAtDHashPeer": 68.19
+      },
+      "7:11": {
+        "nearestMAD": 33.17,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c009.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-15/b16-c023.png",
+        "madAtDHashPeer": 47.44
+      },
+      "7:12": {
+        "nearestMAD": 31.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c105.png",
+        "madAtDHashPeer": 37.6
+      },
+      "7:13": {
+        "nearestMAD": 24.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c031.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c002.png",
+        "madAtDHashPeer": 33.58
+      },
+      "7:14": {
+        "nearestMAD": 24.1,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c097.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "madAtDHashPeer": 69.87
+      },
+      "7:15": {
+        "nearestMAD": 27.01,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b14-c003.png",
+        "madAtDHashPeer": 45.82
+      },
+      "7:16": {
+        "nearestMAD": 32.62,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c092.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c003.png",
+        "madAtDHashPeer": 40.28
+      },
+      "7:17": {
+        "nearestMAD": 39.04,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-69/b07-c046.png",
+        "madAtDHashPeer": 44.58
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "7:10",
+      "title": "WHO WERE CALLED VOPISCI",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c010.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "354dac62df0f55d9437ac1edb7d73bd5764a197cc58dfb47d6740f659a773fff",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4ea0d464-30cc-4616-84b9-f41dbe5fc16f",
+      "generationArtifactId": "exec-4ea0d464-30cc-4616-84b9-f41dbe5fc16f",
+      "outputArtifact": "built-in-imagegen://exec-4ea0d464-30cc-4616-84b9-f41dbe5fc16f.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for a deluxe illustrated edition of Pliny the Elder, Naturalis Historia, Book VII chapter 10, “Who Were Called Vopisci”\nPrimary request: Ground the scene in Pliny’s brief report that the ancient term Vopiscus was used for a child born alive after a co-twin was lost, while making unmistakably clear through restraint that this is a rare transmitted ancient circumstance, not a medical explanation. Show no abortion, loss event, body, blood, procedure, or distressed infant.\nScene/subject: In a quiet Roman-era domestic room at pale blue dawn, exactly TWO complete fully clothed adults share a calm postpartum moment. A seated mother in a long undyed tunic and mantle rests upright on a low couch at left; a complete experienced midwife in a dark muted-verdigris palla stands near center and gently presents exactly ONE peaceful fully swaddled newborn, asleep and safely supported. At right, exactly TWO small woven bassinets rest side by side: one contains a folded ochre blanket; the other is empty and covered by a simple folded cloth, a quiet non-graphic acknowledgment of absence. No other person, infant, doll, figure, or medical object. A small oil lamp is extinguished; a high window admits dawn.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple, and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, pale ochre, and chalk-white mineral washes; ancient, timeless beauty, rough in material yet polished in draftsmanship; human-life dialect with soft woven cloth, calm hands, dignified faces, cool dawn and one restrained madder hem accent; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; intimate asymmetrical room with the complete seated mother isolated left, standing midwife and sole swaddled newborn centered, and both complete bassinets separated at right beneath broad quiet wall negative space. Show every adult’s full head, hands, feet, garment hems, the newborn’s entire swaddled form and supported head, both complete baskets, all basket rims/bases, couch legs, lamp, window, floor contacts, and shadows wholly inside generous breathing room. One continuous room only, never a medical diagram, birthing scene, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: present a compassionate artistic response to Pliny’s rare reported naming circumstance; do not imply a modern diagnosis, causal mechanism, prognosis, ritual, blame, supernatural meaning, or medical advice.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: warm fibrous vellum, painted wall, floor and dawn atmosphere fill the canvas edge to edge; no visible sheet, page edge, torn paper, mat, decorative border, caption area, cartouche, ruled line, or vignette.\nAvoid: lettering, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, nudity, exposed breast, blood, gore, embryo, fetus, abortion depiction, childbirth procedure, corpse, burial object, crying or distressed infant, grieving spectacle, stigma, deformity, medical instrument, extra adult, extra infant, doll, clipped person, clipped newborn, clipped basket, modern object, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. The seated mother, standing midwife, sole peaceful swaddled newborn, two complete bassinets, couch, lamp, and high window are fully framed. The rare reported naming circumstance is treated with compassion rather than medical explanation; there is no loss event, graphic material, text, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:11",
+      "title": "THE CONCEPTION AND GENERATION OF MAN",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c011.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "9a13aae66d1875fefbbec76b4c5eb8dbb41db150d290077db2c5c0e5bcbe805b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bac7c41b-f600-4996-93e7-fce75bcee1aa",
+      "generationArtifactId": "exec-bac7c41b-f600-4996-93e7-fce75bcee1aa",
+      "outputArtifact": "built-in-imagegen://exec-bac7c41b-f600-4996-93e7-fce75bcee1aa.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for Naturalis Historia, Book VII chapter 11, “The Conception and Generation of Man”\nPrimary request: Ground the scene in Pliny’s compilation of extraordinary and conflicting ancient reports about conception, superfetation, inherited marks and birth outcomes, but stage the material as uncertain testimony being discussed—not as modern reproductive science, diagnosis, fertility guidance, or fact. No procedure, explicit anatomy, embryo, fetus, birth, loss event, or infant.\nScene/subject: In a sunlit Roman atrium viewed from a gentle high three-quarter angle, exactly FOUR complete fully clothed adults meet in a respectful consultation. A pregnant client in a loose layered mantle and her supportive partner sit together on one bench at left, their hands relaxed and no belly exposed or touched. Across a small round table at center-right, an experienced midwife and an older physician-scholar sit on separate stools. They compare exactly TWO closed, tied case bundles—one faded-lapis cord, one ochre cord—with completely blank outer surfaces and no writing. Their open-handed gestures show uncertainty and disagreement rather than instruction. A single contained potted pomegranate branch behind the table bears exactly TWO blossoms at visibly different stages, offered only as a period-plausible poetic motif, not a biological diagram. No other person, child, animal, medical instrument, potion, specimen, scroll, or tablet.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre and pale limestone washes; ancient, timeless beauty, rough in material yet polished in draftsmanship; human-life consultation dialect with warm atrium light, worn linen, cool shadow geometry and restrained colored cords; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; open high-three-quarter atrium composition with the complete couple isolated left, complete midwife and scholar right, small round table and exactly two closed bundles between them, and the whole potted branch behind. Use broad pale floor and wall as intentional negative space. Preserve every head, hand, foot, garment hem, bench/stool leg, table rim/base, both closed bundles and cords, complete pot, full branch, both blossoms, floor contacts and shadows inside generous breathing room. One continuous consultation only, never a medical diagram, pregnancy examination, internal frame, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: present Pliny’s claims as debated ancient testimony; do not imply that superfetation examples, timing rules, scars, moles, family marks, parentage inferences, or pregnancy outcomes are medically established, predictable, diagnostic, or advisable.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: vellum, painted architecture and atrium atmosphere fill the canvas edge to edge; no visible sheet, page edge, border, cartouche, caption area, ruled line, or vignette.\nAvoid: lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, nudity, exposed abdomen or breast, touching/examining the abdomen, sex act, embryo, fetus, abortion, childbirth, blood, gore, distressed person, distressed infant, medical instrument, specimen, ancestry caricature, disability stigma, parentage accusation, modern object, extra figure, extra blossom, open document, clipped person, clipped furniture, panel, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching an edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly four complete adults hold a calm, equal conversation around two closed unmarked bundles and one potted flowering plant; all bodies, furniture, hands, feet, and props remain internal. The scene frames Pliny's reproductive claims as disputed ancient testimony, without procedure, exposed anatomy, diagnosis, instruction, pseudo-writing, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:12",
+      "title": "STRIKING INSTANCES OF RESEMBLANCE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c012.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "f63f1b9e41fbfee8b60d7cf56c9f30cf7b23a45b35bc11664dd24d6ae1f4b86b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-eabf9200-7bb1-44ee-92ba-a79dff45f115",
+      "generationArtifactId": "exec-eabf9200-7bb1-44ee-92ba-a79dff45f115",
+      "outputArtifact": "built-in-imagegen://exec-eabf9200-7bb1-44ee-92ba-a79dff45f115.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for Naturalis Historia, Book VII chapter 12, “Striking Instances of Resemblance”\nPrimary request: Ground the image in Pliny’s anecdotes about children resembling parents and grandparents, while rejecting his speculation that parental imagination determines appearance and avoiding complexion, ancestry, defect, disability, caste, slavery, or physiognomic comparison. Portray resemblance as affectionate family observation, not taxonomy or proof.\nScene/subject: In a warm late-afternoon Roman courtyard, exactly FOUR complete fully clothed family members share an ordinary woodcarving moment. One seated grandparent at center-left carves a small plain wooden bird; one complete school-age child sits on a separate stool beside the grandparent and naturally echoes the same head tilt and hand posture while holding a second unfinished wooden bird. Exactly TWO complete adult parents stand separately in the right half, each with a distinct clear silhouette and at least one forearm’s width of open wall or floor between them and the seated pair; one parent gently echoes the child’s relaxed crossed-ankle stance, the other watches the shared craft. All four remain distinct individuals with varied ages and natural features; no identical clones, judging, pointing, spectacle, or posed lineup. At far left-middle stands exactly ONE small young olive tree in a broad clay planter, no taller than a standing adult. Show the entire planter base/rim, trunk, every branch and closed crown with blank wall around it. Two wooden birds only, blank and unpainted. No mirror, portrait, mask, stage, servant, slave-dealer, weapon, crown, scroll, or inscription.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre and pale limestone washes; ancient, timeless beauty, rough in material yet polished in draftsmanship; human-life family dialect with olive shade, tender gesture, weathered wood, muted cloth and warm courtyard air; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; pulled-back shallow courtyard scene with the complete potted olive isolated left, grandparent and child seated below center with two distinct stools, and both parents standing well-spaced at right. Crucial visibility rule: show every one of the four people from crown to sandal, including both hands, both feet, every garment hem and a separate ground contact; no person may stand behind or be occluded by another. Preserve both complete birds, carving tools safely directed away, whole planter/tree, all stool legs and shadows wholly inside generous margins. One continuous family scene only, never a comparison chart, portrait grid, genealogy diagram, mirror pairing, split panel, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: shared gesture is a meditation on resemblance, not evidence that appearance establishes parentage, ancestry, moral worth, identity, intelligence, or ancient conception-impression theories.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: vellum, wall, courtyard floor and olive shade fill the canvas edge to edge; no visible sheet, page edge, border, cartouche, caption area, ruled line, or vignette.\nAvoid: lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, complexion comparison, ethnic or physiognomic caricature, disability stigma, eye defect, scar display, parentage accusation, identical cloned faces, enslaved person, slave sale, stage actor, nudity, violence, extra figure, extra child, extra bird, extra tree, mirror, open document, hidden foot, occluded person, clipped person, clipped tree or planter, panel, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching an edge.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Four distinct family members, both plain wooden birds, both stools, safe carving tools, and the complete small potted olive remain visible with separate silhouettes and breathing room. Shared gesture reads as affectionate observation rather than physiognomic proof; no complexion hierarchy, accusation, pseudo-writing, panel, border, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-7535924e-363d-43b3-85ce-2fee37ac2b79.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/evidence/history/b07-c012-attempt-01-clipped-olive-crown.png",
+          "sha256": "b980ba80eea9864d36bc82bdd89509da0e242c31a0a1bb79b301de89023a7443",
+          "reason": "The first family scene let the focal olive crown and leaf tips continue through the upper canvas edge after the prompt required the whole tree and crown internal. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-c3c75804-3fb0-46ef-978a-f2021fec1522.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/evidence/history/b07-c012-attempt-02-occluded-parent-feet.png",
+          "sha256": "34bb2a9779f049f61f9c4d5fe8921888b7b9f78c1bfe27275aba2d3d0c41565d",
+          "reason": "The second family scene placed the standing parents behind the seated pair so their lower bodies and feet were occluded, contrary to the required complete, separated silhouettes. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:13",
+      "title": "WHAT MEN ARE SUITED FOR GENERATION. INSTANCES OF VERY NUMEROUS OFFSPRING",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c013.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "74ae595df5cbb104ea41161fa7ceef25e15e8bdaa9ec0e2cc22fa4dad0563125",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-70eca541-3a9d-4874-b0c6-cc9faa345be3",
+      "generationArtifactId": "exec-70eca541-3a9d-4874-b0c6-cc9faa345be3",
+      "outputArtifact": "built-in-imagegen://exec-70eca541-3a9d-4874-b0c6-cc9faa345be3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for Naturalis Historia, Book VII chapter 13, “What Men Are Suited for Generation; Instances of Very Numerous Offspring”\nPrimary request: Ground the scene in Pliny’s records of unusually large families and several generations gathered together, but do not visualize bodily compatibility, sex-selection, fertility, miscarriage, or “suitability” claims as truth. Show kinship as shared ordinary life, not reproductive achievement, medical advice, dynasty, census, parade, or spectacle.\nScene/subject: On a broad Roman-era farm terrace in harvest-afternoon light, exactly SEVEN complete fully clothed family members of three generations prepare one shared outdoor meal. One older adult sits on a low bench to the LEFT of, not behind, a small table, sorting figs into one shallow bowl held on the lap; both feet remain visible. Exactly THREE complete adult relatives stand widely separated: one carries one bread basket, one pours water from one jug into one cup on the table, and one spreads one woven cloth on the ground. Exactly THREE complete school-age children help by carrying respectively one small fig basket, one folded cushion, and one bunch of grapes. No infant, pregnancy, ritual, hierarchy, servant, crown, weapon, census tablet, scroll, procession, or any basket/food placed in the foreground.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre and pale limestone washes; ancient, timeless beauty, rough in material yet polished in draftsmanship; human-life harvest dialect with broad sunlit terrace, tactile baskets, dusty figs, wine-dark grapes, shared labor and muted woven cloth; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; wide pulled-back diagonal terrace with exactly seven figures distributed in an open crescent around one fully contained table and one fully contained bench. Reserve an empty ten-percent band of bare terrace around all four edges. Crucial visibility: each person has a separate full silhouette from crown to sandal, both hands, both feet or sandals and garment hem visible, clear ground contact and open space between bodies; nobody stands behind or is occluded by another or by furniture. Show every basket, jug, cup, bowl, cloth, cushion, grape bunch, table/bench leg and shadow wholly inside the central eighty percent. Do not place any object in the lower-left or lower-right corner. Low fields and one distant contained farmhouse provide atmosphere.\nHistorical and epistemic framing: treat Pliny’s numerical family anecdotes as literary records rather than evidence of fertility rules, compatibility, virtue, status, sex prediction, or medically desirable family size.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: vellum, terrace, fields and sky fill the canvas edge to edge; no visible sheet, page edge, border, cartouche, caption area, ruled line, vignette, or internal frame.\nAvoid: lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, pregnancy, childbirth, infant, fertility symbol, sex selection, miscarriage, medical treatment, parade, sacrifice, dynasty portrait, rigid lineup, servant hierarchy, caricature, nudity, violence, extra figure, wrong figure count, hidden feet, fused bodies, foreground basket, clipped person, clipped prop, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching an edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly seven complete family members of three generations, the complete table and bench, baskets, jug, cup, bowl, cloth, cushion, grapes, and food are distributed with clear ground contacts and no foreground crop. Shared work replaces reproductive spectacle or family-size prescription; there is no pregnancy, medical claim, hierarchy, pseudo-writing, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-0ffdcad1-cbca-436f-9801-c60018754f69.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/evidence/history/b07-c013-attempt-01-clipped-foreground-basket.png",
+          "sha256": "13a452b5c5231c8d12ec53afa470b3deb92d821d9baa43331d97be1d5c811b53",
+          "reason": "The first harvest scene placed a large fig basket across the lower-left boundary after the prompt prohibited foreground baskets and required every focal prop fully contained. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:14",
+      "title": "AT WHAT AGE GENERATION CEASES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c014.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "4265892c818d34deec53dbb9410c97b7fc60ff7c698ceff8b91227f9321babcd",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2c1b07ee-1127-4d1d-9136-d6e5c7c1c540",
+      "generationArtifactId": "exec-2c1b07ee-1127-4d1d-9136-d6e5c7c1c540",
+      "outputArtifact": "built-in-imagegen://exec-2c1b07ee-1127-4d1d-9136-d6e5c7c1c540.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution preservation master for Naturalis Historia, Book VII chapter 14, “At What Age Generation Ceases”\nPrimary request: Ground the scene in Pliny’s age-threshold claims and anecdotes of later parenthood, but present them only as variable ancient testimony. Do not imply a universal reproductive cutoff, guarantee of later fertility, sex difference, medical prognosis, or advice. No pregnancy, infant, examination, birth, body display, or age-shaming.\nScene/subject: In an autumn Roman garden at copper-violet dusk, exactly THREE complete fully clothed older adults hold a quiet peer conversation: one older woman and one older man sit on separate low stone seats, while one experienced older midwife-scholar stands facing both with empty hands and a non-authoritative gesture. Nearby, exactly ONE complete plain stone sundial stands on a low pedestal with a completely blank unmarked face and one shadow. Behind it, one small fully contained grapevine on one freestanding wooden trellis carries mixed green and ochre leaves but no fruit, a seasonal metaphor only. A shallow reflecting pool lies in the distant middle.\nStyle/medium: original Plinian natural-history folio painted directly across warm fibrous aged vellum; iron-gall contours, exceptionally fine cross-hatching, stipple and dry-brush abrasion; restrained umber, lampblack, muted verdigris, faded lapis, quiet madder, ochre and pale limestone washes; ancient, timeless beauty, rough in material yet polished in draftsmanship; human-life autumn dialect with copper dusk, violet shadow, weathered skin and cloth, dry vine texture and still water; never photographic or glossy.\nComposition/framing: landscape 3:2, native 1536x1024; PULL FAR BACK and keep every subject within the central seventy-five percent. Place the complete seated woman at left-middle with at least twelve percent empty ground and wall between her outer garment and the left edge; the complete seated man near center; the complete standing midwife-scholar at right-middle with equal margin. Put the blank sundial between center and right and the fully contained vine/trellis in the rear-left middle. Show every head, hand, both feet, garment hem, all edges and legs of both stone seats, whole sundial/pedestal, all four trellis feet/posts/top bars, every vine tip, pool rim, ground contacts and shadows, with no overlap or edge contact. One continuous garden conversation only, never an age chart, fertility timeline, medical diagram, seasonal panel, split frame, collage, repeated crop, or multiple views.\nHistorical and epistemic framing: Pliny’s reported ages and examples are not modern population evidence; communicate uncertainty and individual variation without promising or denying anyone’s fertility.\nOutput intent: one opaque sRGB/RGB master at exactly 1536x1024.\nFull-bleed invariant: vellum, garden wall, sky and earth fill the canvas edge to edge; no visible sheet, page edge, border, cartouche, caption area, ruled line, or vignette.\nAvoid: lettering, labels, numerals, pseudo-writing, signatures, logos, watermarks, marked sundial, hourglass, pregnancy, infant, childbirth, exposed body, examination, fertility symbol, medical instrument, potion, age cutoff diagram, ageism, ridicule, distressed person, extra figure, younger person, hidden feet, overlapping figures, clipped person, clipped seat, clipped trellis or sundial, panels, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching an edge.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly three complete older adults, both separate seats, the blank sundial and pedestal, complete freestanding vine trellis, and distant pool are all internal. The autumn conversation conveys uncertainty and individual variation without cutoff advice, age-shaming, pregnancy, examination, pseudo-writing, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b7d11c96-5258-46e6-8e2e-21e162ac2f40.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/evidence/history/b07-c014-attempt-01-clipped-left-elder-seat.png",
+          "sha256": "f6b0ce50253826460b972ae07536306d2f0b0b55fdb07f0cdfe313cb4c78bc14",
+          "reason": "The first autumn conversation pushed the left elder and stone seat into the left boundary, cutting the seat and violating the requested twelve-percent breathing room. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:15",
+      "title": "REMARKABLE CIRCUMSTANCES CONNECTED WITH THE MENSTRUAL DISCHARGE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c015.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "f473ce369293ca1004fdde09dba333293f104dd772e277e302ee882c495c8a53",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5480cee6-af1a-4757-87fc-fc2123997784",
+      "generationArtifactId": "exec-5480cee6-af1a-4757-87fc-fc2123997784",
+      "outputArtifact": "built-in-imagegen://exec-5480cee6-af1a-4757-87fc-fc2123997784.png",
+      "exactFinalPrompt": "Create one independent, full-resolution 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 15, “Remarkable Circumstances Connected with the Menstrual Discharge.” Historical epistemic framing is essential: depict Pliny’s transmitted ancient superstitions as claims under skeptical comparison, never as modern medical fact, advice, proof, or a woman’s harmful power. Make one coherent open-air Roman garden courtyard inquiry at cool silver-verdigris morning, viewed from a pulled-back high three-quarter angle rather than a frontal consultation. Exactly three fully clothed adult scholars, all complete head-to-foot with clear space between them: a woman natural historian standing as an equal examiner at center, one older man seated to the left, and one younger assistant kneeling to the right. Every hand is empty and visible; their open questioning gestures convey doubt and conflicting testimony. Between them place one low rectangular stone worktable carrying exactly six fully contained harmless period test objects, one of each and no duplicates anywhere else: one sealed must jar, one small bowl of grain seeds, one polished blank bronze mirror, one iron blade, one ivory comb, and one closed bitumen vessel. Behind the table, a single small complete beehive stands safely in the middle distance among healthy living garden plants; nothing is damaged or dying. No other handheld objects, blades, combs, mirrors, vessels, bowls, tablets, scrolls, sheets, or writing surfaces. No patient, no pregnancy, no exposed body, no blood, no bodily fluid, no anatomy, no procedure, no distress, no stigma, no accusation, no fertility symbol, no magic aura, no supernatural effect, no clinical instruction. All people, furniture, objects, hive, plants, shadows, hands, feet, garments, and tools must be wholly visible within generous blank lateral and lower breathing margins, with no focal element touching an edge. One unified scene only, not a diagram, collage, diptych, triptych, inset, repeated crop, framed page, or multi-panel layout. House style: an original deluxe Plinian natural-history folio, ancient, timeless, beautiful, rough and polished at once; warm fibrous aged-vellum ground integrated through the whole image; iron-gall linework; very fine cross-hatching and stipple; restrained mineral pigments of umber, lampblack, muted verdigris, faded lapis, madder, ochre, and subtle silver-gray; tactile hand-worked surface; elegant intentional negative space; materially coherent with a Roman natural-history codex while using a distinctive cool reflective palette and investigative composition. Landscape 3:2. No lettering, words, captions, labels, numerals, glyphs, pseudo-writing, decorative calligraphy, signatures, logos, watermarks, borders, page edges, modern objects, photography, photorealism, glossy digital rendering, exposed anatomy, violence, gore, or cropped subjects.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly three complete adult scholars and exactly one each of the sealed must jar, seed bowl, blank mirror, iron blade, ivory comb, and closed bitumen vessel appear on the complete worktable; the single beehive is internal among healthy plants. The composition makes the inherited superstitions objects of skeptical comparison, with no patient, bodily fluid, harmful effect, pseudo-writing, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-8ee44114-f8a2-49a0-8f60-9378f110dfeb.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/evidence/history/b07-c015-attempt-01-duplicated-blade-and-comb.png",
+          "sha256": "1141d1b936c08002e198075a7315ec60438fa245080c3e10b116d7cbbf6eb48e",
+          "reason": "The first inquiry scene duplicated both the blade and comb by placing additional examples in the kneeling scholar's hands, violating the exact one-of-each specimen count. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:16",
+      "title": "THE THEORY OF GENERATION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c016.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "a431aa01dd60008935ecfe4ca0bf640b8a0435140f14fe2f5a618dcb0323f46d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7f63b7d3-a6e4-4115-a3a9-8de0308da19e",
+      "generationArtifactId": "exec-7f63b7d3-a6e4-4115-a3a9-8de0308da19e",
+      "outputArtifact": "built-in-imagegen://exec-7f63b7d3-a6e4-4115-a3a9-8de0308da19e.png",
+      "exactFinalPrompt": "Precise edit of the immediately preceding chapter illustration. Preserve the same Roman garden-school scene, all identities, poses, period dress, overall late-afternoon lighting, vellum-and-iron-gall folio medium, palette, and all unaffected objects. Make only these production corrections:\n1. Recompose slightly wider so the complete pomegranate tree is wholly visible with its entire crown, every branch, trunk, and ground base inside the canvas, with clear breathing room above and to the left.\n2. Move the kneeling parent and the seated younger sibling slightly inward so their complete bodies, garments, sandals, feet, and shadows have comfortable clear margin from all edges.\n3. There must be exactly ONE physical shed tooth in the entire scene: show the parent holding that single tiny white tooth above a completely empty shallow pottery dish; remove every other tooth-like white pellet from the dish, table, or hands. The standing child's natural missing front baby tooth remains a gap in the smile, not another object.\n4. Preserve exactly five plain wooden blocks total and the simple arch arrangement.\nKeep the complete speaking child, complete teacher, complete distant child and guardian, full grapevine, all furniture, two closed unmarked scroll rolls, lidded keepsake box, flute, columns, wall, and paving intact. One continuous 3:2 landscape scene, exactly 1536x1024 opaque sRGB.\nAvoid: new people or props, text, lettering, numerals, pseudo-writing, visible page edge, border, panels, collage, clipping, duplicate objects, mouth examination, anatomical diagram, spectacle, modern items, signature, logo, watermark.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. The complete older naturalist, woman preparing blank tablets, speaking child, younger child with blocks, flute, table, pomegranate tree, vine pergola, and garden architecture remain legible and internal. The image favors ordinary growth, speech, craft, and family observation over Pliny's bodily omens and extraordinary-size claims; there is no anatomy display, stigma, pseudo-writing, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-eec6115c-0531-45bb-a582-cc9ad4284eca.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/evidence/history/b07-c016-attempt-01-clipped-tree-and-duplicate-tooth.png",
+          "sha256": "ed8172c237629f078741acc0585153583d7de72e83787efea01f02a5540291e9",
+          "reason": "The first growth-and-speech scene let the pomegranate tree continue through the upper-left boundary and duplicated a loose tooth-like specimen, contrary to complete framing and exact-object constraints. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:17",
+      "title": "SOME REMARKABLE PROPERTIES OF THE BODY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c017.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "5dc2f316f47983c5965c92d49ff46558ccecf459e58a3204752abc5ade28f76b",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-32db7acf-95c4-4129-a6c0-2d75cf138689",
+      "generationArtifactId": "exec-32db7acf-95c4-4129-a6c0-2d75cf138689",
+      "outputArtifact": "built-in-imagegen://exec-32db7acf-95c4-4129-a6c0-2d75cf138689.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent 1536×1024 landscape chapter illustration for a digital Plinian natural-history codex, Book VII chapter 17, “Some Remarkable Properties of the Body”\nPrimary request: portray the chapter’s most defensible observational motif—comparing an adult person’s height with the span of outstretched arms—as a respectful ancient inquiry, while treating Pliny’s other bodily and sex-based assertions only as transmitted ancient testimony, not modern science. Do not depict corpses, floating bodies, nudity, stigma, a hierarchy between sexes, or medical advice.\nScene/backdrop: a bright Roman-era courtyard workshop opening onto a small Mediterranean garden, pale limestone paving, one low bench, a simple bronze balance set aside in the background, no scrolls and no writing.\nSubject: exactly four adults. At center, a fully clothed adult woman stands upright with both arms extended horizontally in a natural T pose, serene and self-possessed. A fully clothed adult man stands a few paces behind her, watching as an equal participant, one hand visibly left-handed as he loosely holds an unmarked wooden baton. Two older natural philosophers compare the woman’s arm span and height with one continuous unmarked linen measuring cord, collaborating rather than judging. Their faces and bodies must be individualized and dignified.\nStyle/medium: exceptionally beautiful hand-rendered natural-history folio illustration; finely hatched graphite and iron-gall linework over translucent egg-tempera and mineral watercolor washes; tactile linen, worn stone, bronze patina, subtle paper-grain texture within the painted image; ancient, timeless, rough and polished at once; coherent with an illuminated Roman scientific codex but without a page border.\nComposition/framing: wide full-bleed single scene, slightly elevated three-quarter view; all four adults shown completely head-to-sandals with generous breathing room from every edge; the full horizontal arm span and the entire measuring cord visible and unoccluded; subjects remain well inside the canvas; no cropped limbs, no cut-off furniture or props, no split panels, no collage, no diagram.\nLighting/mood: clear late-morning light, humane curiosity, calm collegial observation rather than spectacle.\nColor palette: high-key limestone cream, muted lapis blue, verdigris green, soft saffron and restrained madder accents; distinct from the preceding garden scene while retaining the same codex family.\nConstraints: opaque sRGB landscape PNG; no visible text, letters, numerals, labels, inscriptions, signatures, logos, watermarks, page edge, border, frame, pseudo-writing, gore, eroticization, deformity spectacle, or duplicated people/objects. Anatomically correct hands and limbs. Exactly four adults and no background people. Keep every person, sandal, hand, cord, baton, balance and bench fully inside the frame.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly four complete adults, the woman's full arm span, the complete measuring cord, baton, balance, and bench are fully visible with clear separation from every edge. The courtyard treats body proportion as collegial ancient observation while refusing the chapter's sex hierarchy, corpse claims, and medical authority; no nudity, stigma, text, panel, border, or clipped focal subject was found. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

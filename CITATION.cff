@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this edition, please cite the software and the source texts identified in its corpus manifest."
+title: "Naturalis Historia — The Living Codex"
+type: software
+version: 1.0.0
+authors:
+  - family-names: "Naturalis Historia contributors"
+repository-code: "https://github.com/elder-plinius/NATURALIS-HISTORIA"
+url: "https://github.com/elder-plinius/NATURALIS-HISTORIA"
+license: AGPL-3.0-only
+keywords:
+  - Pliny the Elder
+  - Naturalis Historia
+  - digital classics
+  - bilingual edition
+  - Latin

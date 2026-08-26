@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-land-wave-03",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted and rejected PNG was compared byte-for-byte with its built-in original. No provider failure without an artifact occurred in this campaign.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+  "corpusGroundingNote": "The Latin and English chapter corpus for Book VIII chapters 19 through 26 was read before prompting. Fabulous animals, transformation stories, dangerous animals, animal behavior, captivity, and Roman exhibition are framed as transmitted ancient testimony or cautious observation, never as verified miracles, dehumanizing literalization, cruelty, spectacle, or modern advice.",
+  "assignments": [
+    "8:19",
+    "8:20",
+    "8:21",
+    "8:22",
+    "8:23",
+    "8:24",
+    "8:25",
+    "8:26"
+  ],
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 13,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 21
+  },
+  "chapters": [
+    {
+      "chapterKey": "8:19",
+      "title": "THE CHAMA, AND THE CEPUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c019.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "80394dd8dcb06b3892db3db9fabadb8a9f635bff1e791fc44d299c0fff0cdb6c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d1c9427b-233c-490d-ad23-72402a10a442",
+      "generationArtifactId": "exec-d1c9427b-233c-490d-ad23-72402a10a442",
+      "outputArtifact": "built-in-imagegen://exec-d1c9427b-233c-490d-ad23-72402a10a442.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 19 illustration master\nPrimary request: Change only the vegetation touching the image edges in Image 1. Remove every foreground and side shrub, branch, leaf, and plant that crosses or touches the left, right, or bottom canvas boundary; replace those cut plants with uninterrupted open wet gravel matching the existing courtyard. Keep only small self-contained shrubs whose complete crown, stems, and base are clearly visible away from all edges. Preserve the exact two animals, three humans, complete short monkey perch, full water basin, complete awning, empty arch, all poses, anatomy, lighting, style, palette and meaning unchanged.\nComposition/framing: landscape 3:2 at 1536x1024; let only sky and flat gravel naturally continue across outer edges. Every human, animal, tail, paw, branch end, leaf, basin and water edge, awning post and roof corner, pot, jar, shrub and arch must be fully contained with broad breathing room.\nText: none.\nConstraints: one continuous opaque RGB/sRGB folio; ordinary calm animals, no captivity spectacle or hybrid anatomy.\nAvoid: adding or removing figures, duplicate animals, changing faces or poses, edge-cut vegetation, letters, numerals, pseudo-writing, signature, watermark, cage, chain, border, page, panel, collage, clipped focal subject or prop, photography, glossy CGI.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-801d563f-f512-4bdd-8b51-61a259260344",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-6ede2e6e-1f4b-4a90-8143-775ce6631636",
+          "status": "rejected-native-qa",
+          "inputArtifact": "built-in-imagegen://exec-801d563f-f512-4bdd-8b51-61a259260344.png"
+        },
+        {
+          "generationArtifactId": "exec-9708fe61-49ad-46cb-b2c5-6f41870bd96d",
+          "status": "rejected-native-qa",
+          "inputArtifact": "built-in-imagegen://exec-6ede2e6e-1f4b-4a90-8143-775ce6631636.png"
+        },
+        {
+          "generationArtifactId": "exec-d1c9427b-233c-490d-ad23-72402a10a442",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-9708fe61-49ad-46cb-b2c5-6f41870bd96d.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly two ordinary animals and three complete human attendants occupy one calm post-games care courtyard. The hyena-like canid, black-faced monkey, complete freestanding perch, complete basin and every water edge, complete awning, pots, jars, arch and remaining vegetation are internal and countable. No cage, chain, crowd, spectacle, hybrid anatomy, text, pseudo-writing, panel, border, duplicate motif, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-801d563f-f512-4bdd-8b51-61a259260344",
+          "outputArtifact": "built-in-imagegen://exec-801d563f-f512-4bdd-8b51-61a259260344.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c019-rejected-01-clipped-awning-branch-basin.png",
+          "sha256": "8d932996e44546a22ea22525634942f5b7fbeeb5ce895d742177198a969fdef4",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 19, “THE CHAMA, AND THE CEPUS”\nPrimary request: Ground the scene in Pliny's report that Pompey's games first displayed an unfamiliar spotted wolf-like animal called chama or rufius and Ethiopian animals called cepi. Show a quiet animal-care courtyard after the public games, where witnesses compare unfamiliar creatures without turning them into monsters or spectacle. Treat Pliny's names and anatomical comparisons as uncertain ancient testimony, not modern zoological identification.\nScene/backdrop: dawn in a spacious planted service courtyard behind a Roman arena; the distant arena arch stands empty and small; open gravel, complete shade awning, shallow water basins, fig and bay shrubs; no audience, cages, chains, weapons, or performance.\nSubject: exactly two complete nonhuman animals, separated by open ground and both calm: one plausible tawny canid resembling a small spotted hyena, with wolf-like proportions and irregular dark pard-like spots; one ordinary black-faced Ethiopian monkey with natural primate hands and feet, dark head, warm gray-brown coat and long tail. Do not give the monkey human legs, human feet, or hybrid anatomy. Exactly three complete fully clothed adult humans stand well apart: one North African caretaker setting down a water bowl, one Gallic traveler making a cautious descriptive hand gesture, and one Roman natural historian observing with a completely closed blank wax-tablet diptych. Nobody touches, points at, restrains, or exhibits an animal.\nStyle/medium: original deluxe Book VIII natural-history folio on warm fibrous aged vellum; iron-gall contours, fine zoological cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and mineral gouache; ancient, timeless, beautiful, materially rough yet exquisitely polished; naturalistic but clearly hand-painted, not photographic.\nComposition/framing: wide low three-quarter viewpoint, landscape 3:2, 1536x1024. The spotted canid rests in left middle ground, the monkey explores a complete low branch at right middle ground, and the three adults form a loose background arc with generous gravel between every silhouette. Keep both animals from nose to tail and paw, all three humans head to sandal, the entire branch, water bowl, complete shade awning including every post and roof corner, plants, and empty arena arch wholly inside all edges with broad breathing room.\nLighting/mood: pearly post-rain dawn, muted curiosity, care, and epistemic humility.\nColor palette: shell gray, tawny umber, muted verdigris, dusty rose, faded lapis shadow and pale ochre.\nText: none.\nConstraints: one coherent full-bleed opaque RGB/sRGB scene; historically plausible Roman-era clothing and animal care; the ancient “human-like” comparison is not literalized; no claim of exact species identity.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, map, diagram, hybrid animal, human-faced animal, human hands or feet on an animal, deformed anatomy, monster, caricature, circus performance, cheering crowd, cage bars, chain, leash, whip, injury, blood, predation, fear, extra people, extra animals, duplicates, visible page, border, decorative frame, white margin, manuscript mockup, panel, inset, split scene, montage, collage, cropped human, cropped animal, clipped tail, paw, branch, water basin, awning, plant or arch, photography, glossy CGI.",
+          "reason": "The awning, monkey branch, and water basin were cut by image edges; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-6ede2e6e-1f4b-4a90-8143-775ce6631636",
+          "outputArtifact": "built-in-imagegen://exec-6ede2e6e-1f4b-4a90-8143-775ce6631636.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c019-rejected-02-branch-continues-right.png",
+          "sha256": "cf2d736da84b2036a6e84de3f3c99a07917130a3d6ac3f74f233ae192405688c",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 19 illustration master\nPrimary request: Edit only the framing of Image 1. Pull the viewpoint substantially farther back so the complete freestanding shade awning appears fully inside the canvas with all four post bases, every finial, roof corner and the entire woven roof visible against clear courtyard space. Also place the monkey's entire low fig branch, from both cut ends through every twig and leaf, fully inside with gravel visible around it; place the entire round water basin at lower right, including its whole outer rim and all water edges, fully inside with broad ground around it. Preserve exactly the same two animals, exactly three humans, identities, poses, animal anatomy, empty arch, plants, gravel, dawn lighting, mineral-folio style, palette and testimony-focused meaning.\nComposition/framing: retain landscape 3:2 at 1536x1024, expand all four sides but chiefly left, top and lower right; both animals remain complete nose-to-tail and paw; all humans remain complete head-to-sandal; every focal item has generous edge clearance.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; the spotted canid and ordinary Ethiopian monkey remain calm and unrestrained; no hybrid anatomy or spectacle.\nAvoid: adding or removing humans or animals, changing faces or poses, duplicate animal, extra monkey or canid, letters, numerals, inscriptions, pseudo-writing, signature, watermark, caption, cage, chain, injury, panel, border, visible page, collage, clipped human, animal, tail, paw, awning, post, branch, leaf, water basin, water edge, plant or arch, photography, glossy CGI.",
+          "reason": "The freestanding monkey branch still continued through the right edge; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-9708fe61-49ad-46cb-b2c5-6f41870bd96d",
+          "outputArtifact": "built-in-imagegen://exec-9708fe61-49ad-46cb-b2c5-6f41870bd96d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c019-rejected-03-edge-cut-shrubs.png",
+          "sha256": "38efdd512b80692b91266a1d812d6e80089194f76ee481558f1f130277353366",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 19 illustration master\nPrimary request: Change only the monkey's perch and adjacent right-side vegetation in Image 1. Replace the attached branch that continues through the right edge with one short freestanding fallen fig limb placed horizontally on the open gravel: both sawn ends, every twig and every leaf must be visible, with broad clear gravel on all sides and no connection to any tree or edge. Keep the same monkey naturally standing on that complete limb. Remove the large foliage mass that currently touches the right edge behind the monkey, replacing it with open gravel and a few small fully contained shrubs. Preserve exactly the same two animals, three humans, poses, anatomy, complete awning, water basin, empty arch, courtyard, lighting, style and palette unchanged.\nComposition/framing: landscape 3:2, 1536x1024; all people head-to-sandal; canid nose-to-tail and paw; monkey nose-to-tail and paw; complete short limb with both ends visible; entire water basin and all water edges; complete awning and every post—all comfortably inside.\nText: none.\nConstraints: one continuous opaque RGB/sRGB folio scene; calm unrestrained animals, no spectacle, no hybrid anatomy.\nAvoid: adding humans or animals, extra branch, tree touching edges, duplicate figure, letters, numerals, pseudo-writing, signature, watermark, cage, chain, injury, border, page, panel, collage, clipped human, animal, tail, paw, branch, twig, leaf, basin, water, awning, post, shrub or arch, photography, glossy CGI.",
+          "reason": "Foreground and side shrubs still touched the canvas edges; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:20",
+      "title": "THE RHINOCEROS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c020.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "06c36117787d9d2c31ea9496e8fd536fb5d2315012d2e1c607bca5a2fb419587",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-61fbda87-2d06-4d9a-b16e-ab44c4a609e7",
+      "generationArtifactId": "exec-61fbda87-2d06-4d9a-b16e-ab44c4a609e7",
+      "outputArtifact": "built-in-imagegen://exec-61fbda87-2d06-4d9a-b16e-ab44c4a609e7.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 20 illustration master\nPrimary request: Make exactly two corrections to Image 1. First, remove the smaller rear horn from the rhinoceros's snout completely, restoring natural uninterrupted skin so the animal has exactly ONE nasal horn total: the single long front horn touching the rock. Second, remove every puddle and water patch that touches or crosses the bottom, left, or right canvas boundaries, replacing them with continuous damp earth and small stones; retain at most one small oval puddle wholly inside the middle distance with every water edge visible. Preserve the same one rhinoceros, anatomy, pose, complete rock, distant hills, acacias, mauve-gold dawn, low lateral composition, mineral folio texture and testimony-focused meaning unchanged.\nComposition/framing: landscape 3:2 at 1536x1024; entire one-horned rhinoceros horn-to-tail and every foot, complete rock, all near trees, and any retained puddle with its full water perimeter must remain comfortably inside. Only sky and distant dry land may cross canvas boundaries.\nText: none.\nConstraints: exactly one animal and exactly one horn; one continuous full-bleed opaque RGB/sRGB scene; calm rubbing behavior, not combat preparation.\nAvoid: second horn, horn nub, scar where second horn was, extra animals, people, elephant, charge, injury, blood, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, clipped horn, tail, foot, rock, puddle, water edge, tree or hill, photography, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-398e9d73-97e6-4212-b6d0-b8d504a90c8d",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-61fbda87-2d06-4d9a-b16e-ab44c4a609e7",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-398e9d73-97e6-4212-b6d0-b8d504a90c8d.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly one complete rhinoceros with one nasal horn touches one complete rock in a quiet observation scene. The animal, rock, vegetation, and tiny middle-distance water patch with every water edge are wholly internal. No elephant, staged combat, human, second horn, text, pseudo-writing, panel, border, duplicate animal, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-398e9d73-97e6-4212-b6d0-b8d504a90c8d",
+          "outputArtifact": "built-in-imagegen://exec-398e9d73-97e6-4212-b6d0-b8d504a90c8d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c020-rejected-01-two-horns-clipped-puddles.png",
+          "sha256": "a689395dec030e3fb0f4ea811a9e72c2ce9756f982667fa97bdf086cb02573ce",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 20, “THE RHINOCEROS”\nPrimary request: Visualize the observable animal behind Pliny's report: one rhinoceros with a single nasal horn and comparatively short legs rubs the side of its horn against a rough rock in open scrub. Treat Pliny's claim that it sharpens the horn to fight elephants as ancient inference, not animal intent or verified natural history. Do not show an elephant, combat, captivity, arena, or human witness.\nScene/backdrop: broad East African thorn scrub after a light rain, with low distant basalt hills, complete isolated rock outcrop, sparse acacia silhouettes and small contained puddles reflecting a mauve-gold dawn; open land and sky, no structure.\nSubject: exactly one complete adult rhinoceros and no other animal. It stands in calm side profile, head slightly lowered, one horn touching the rock gently as natural rubbing behavior; boxwood-tawny skin, heavy folds, compact short legs, anatomically credible feet, relaxed ears and tail. The animal is uninjured and neither charges nor threatens.\nStyle/medium: original deluxe Book VIII zoological folio on warm fibrous aged vellum; iron-gall contours, dense anatomical cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and mineral gouache; ancient, timeless, beautiful, materially rough and exquisitely polished; naturalistic hand painting, not photography.\nComposition/framing: very low lateral viewpoint, landscape 3:2, 1536x1024; rhinoceros and isolated rock occupy the lower central third while huge open dawn sky creates negative space. Keep the entire rhinoceros from horn tip to tail tuft and every foot, the entire rock from base to summit, each complete puddle and every water edge, and every near acacia crown and trunk wholly inside with generous breathing room. Only distant land and sky may naturally continue across the canvas boundaries.\nLighting/mood: first light after rain, quiet physical power, calm observation.\nColor palette: boxwood gold, smoky mauve, faded lapis, oxidized green, basalt gray and small rust accents.\nText: none.\nConstraints: one coherent full-bleed opaque RGB/sRGB scene; the animal's behavior is observation, not proof of preparation for battle; historically grounded material style with no arena context.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, diagrams, arrows, elephant, second rhinoceros, birds, prey, people, combat, charge, gore, blood, wound, weapon, cage, chain, spectacle, monster anatomy, extra horn, missing horn, duplicate limbs, visible page, border, decorative frame, panel, split scene, collage, cropped horn, tail, foot, rock, puddle, water edge, tree or hill, photography, glossy CGI.",
+          "reason": "The first rhinoceros had two horns instead of the requested source-grounded single horn, and puddles were cut by image edges; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:21",
+      "title": "THE LYNX, THE SPHINX, THE CROCOTTA, AND THE MONKEY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c021.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "f99d8bb8d4104336909cf061ce584764572ab7a70c0b11416afa069dbdb3eeb7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-e21f950a-8d60-4e0e-b2db-89616f6f70e7",
+      "generationArtifactId": "exec-e21f950a-8d60-4e0e-b2db-89616f6f70e7",
+      "outputArtifact": "built-in-imagegen://exec-e21f950a-8d60-4e0e-b2db-89616f6f70e7.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 21, “THE LYNX, THE SPHINX, THE CROCOTTA, AND THE MONKEY”\nPrimary request: Reframe Pliny's long catalogue of Ethiopian and Indian “monstrous” animals as the kind of ordinary wildlife that travelers may have described through unstable names and analogies. In one continuous Ethiopian escarpment landscape, show exactly four plausible animals corresponding cautiously to the chapter title: one complete caracal-like lynx, one complete hamadryas baboon as a possible animal behind the ancient “sphinx” label, one complete spotted hyena as a possible source for the crocotta report, and one complete black-faced vervet monkey. These are ordinary animals, not confirmed identifications or hybrids; no fabulous claim is literalized.\nScene/backdrop: high dry Ethiopian basalt gorge at clear late morning, with complete isolated rock ledges, red-gold grasses, a narrow complete grove of frankincense shrubs, and a pale distant river far below whose entire visible bend remains inside the landscape.\nSubject: exactly four animals total and no humans. The caracal stands alert but calm on a low left ledge; the baboon sits naturally on a separate central shelf; the spotted hyena walks at an ordinary pace through middle-distance grass; the vervet monkey rests on one short complete fallen branch at right. Every animal has scientifically plausible anatomy and species-appropriate face, paws, tail and posture. They do not interact, hunt, threaten, perform, or line up.\nStyle/medium: original deluxe Book VIII zoological folio on warm fibrous aged vellum; iron-gall contours, precise fur cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and restrained mineral gouache; ancient, timeless, beautiful, rough in material and polished in observation; hand-painted rather than photographic.\nComposition/framing: wide high-oblique panorama, landscape 3:2, 1536x1024; four animals occupy distinct depths and asymmetrical zones within one coherent gorge, separated by generous terrain; no panel-like divisions. Keep every animal nose-to-tail and paw, both ears, each complete ledge, the entire fallen branch with both ends, every contained shrub, and the complete visible river bend and all water edges comfortably inside with broad edge clearance. Only distant sky and non-focal outer slopes may continue through canvas boundaries.\nLighting/mood: lucid highland sun, clear air, curiosity without exotic spectacle.\nColor palette: iron-rich sienna, pale malachite, bone ochre, faded lapis river, charcoal fur and quiet madder accents.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; names and correspondences remain ancient testimony and modern visual hypotheses, not settled zoology.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, diagrams, winged horse, horned horse, unicorn, three-horned ox, manticore, human-faced animal, human breasts, human voice effect, oversized mouth, continuous bone teeth, scorpion tail, fatal gaze, basilisk, hybrid anatomy, monster, gore, hunt, pit, trap, injury, crowd, cage, extra animals, duplicate species, visible page, border, frame, panels, inset, montage, collage, animal lineup, clipped ear, tail, paw, ledge, branch, shrub, river or water edge, photography, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-e21f950a-8d60-4e0e-b2db-89616f6f70e7",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly four complete, separated and anatomically plausible ordinary animals inhabit one Ethiopian escarpment: a caracal-like lynx, hamadryas baboon as a possible natural referent for the transmitted sphinx name, spotted hyena as a possible crocotta referent, and black-faced vervet monkey. No human, literal fabulous hybrid, monster anatomy, attack, text, pseudo-writing, panel, border, repeated animal, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:22",
+      "title": "WOLVES; THE ORIGIN OF THE STORY OF VERSIPELLIS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c022.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "e643b5b6dd01d3f7821a1419b3261d679357d54c20962d6cef0b198f1854cd5a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4ad0a038-677b-4859-8f0c-203062111d56",
+      "generationArtifactId": "exec-4ad0a038-677b-4859-8f0c-203062111d56",
+      "outputArtifact": "built-in-imagegen://exec-4ad0a038-677b-4859-8f0c-203062111d56.png",
+      "exactFinalPrompt": "Use case: surgical object-removal edit\nAsset type: final Book VIII chapter 22 illustration master\nPrimary request: Preserve Image 1 exactly except for one tiny correction: remove both pale wax tablets or slabs from the two hanging balance pans. Restore the two pans as clearly EMPTY, plain shallow bronze dishes with uninterrupted bronze interiors and natural light only. Leave no paper, tablet, slab, line, glyph, groove, symbol, scratch, pseudo-writing, or residue in either pan. Do not add anything to the table.\nPreserve unchanged: exactly TWO complete adult humans, exactly ONE complete anatomically normal gray wolf, the luminous chalk-white open terrace, complete octagonal evidence table and pedestal, entire bronze balance and chains, complete folded cloak, low parapet, dry Arcadian valley, fully contained turquoise oval lake and every water edge, pale high-key mineral-pigment folio style, framing, scale, lighting, and negative space.\nMeaning: transmitted ancient testimony being skeptically weighed; no literal transformation or supernatural proof.\nText: none anywhere.\nComposition/framing: landscape 3:2 at 1536x1024; no important motif may touch or cross an edge.\nConstraints: exactly two humans and one wolf; empty balance pans; opaque RGB/sRGB.\nAvoid: adding or removing any living figure, changing any count, adding tablets, papers, inscriptions, marks, letters, numerals, pseudo-writing, signature, watermark, column, roof, hybrid, werewolf, transformation, violence, crowd, cage, chain used for captivity, panel, collage, page, border, clipped human, foot, wolf, table, balance, cloak, lake or water, photorealism, glossy CGI.",
+      "generationAttempts": 7,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-cffe9ad5-ab43-46d8-87f1-c2f7eba1d57d",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-824b534c-d960-4955-94cd-ebd1d8c08648",
+          "status": "rejected-global-audit",
+          "inputArtifact": "built-in-imagegen://exec-cffe9ad5-ab43-46d8-87f1-c2f7eba1d57d.png"
+        },
+        {
+          "generationArtifactId": "exec-ce9ce7db-78f3-423c-a5f9-0abb9bb9011e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-15a787e1-5f63-44fd-b915-60c953841267",
+          "status": "rejected-global-audit",
+          "inputArtifact": "built-in-imagegen://exec-ce9ce7db-78f3-423c-a5f9-0abb9bb9011e.png"
+        },
+        {
+          "generationArtifactId": "exec-e84bf335-69cc-41ce-aa28-3d2a703a168f",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-35d2ac7a-a166-4638-83fa-2297ac373d1b",
+          "status": "rejected-native-qa",
+          "inputArtifact": "built-in-imagegen://exec-e84bf335-69cc-41ce-aa28-3d2a703a168f.png"
+        },
+        {
+          "generationArtifactId": "exec-4ad0a038-677b-4859-8f0c-203062111d56",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-35d2ac7a-a166-4638-83fa-2297ac373d1b.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly two complete adult humans skeptically weigh transmitted testimony on a luminous open limestone terrace while exactly one complete anatomically normal wolf remains separate on the dry bank of a fully contained turquoise oval lake. The octagonal table and pedestal, bronze balance with two unambiguously empty pans, folded cloak, both people and feet, wolf, lake and every water edge are complete. No literal transformation, werewolf body, magical proof, extra figure, text, pseudo-writing, panel, border, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-cffe9ad5-ab43-46d8-87f1-c2f7eba1d57d",
+          "outputArtifact": "built-in-imagegen://exec-cffe9ad5-ab43-46d8-87f1-c2f7eba1d57d.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c022-rejected-01-clipped-oak.png",
+          "sha256": "b5954076efe68cc5b58a4ba1d025f3a291706aaf64319183b4a5e6280962c61b",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 22, “WOLVES; THE ORIGIN OF THE STORY OF VERSIPELLIS”\nPrimary request: Center Pliny's explicit rejection of werewolf transformation. At an Arcadian lake, show two ancient investigators considering the material ingredients of the story—an oak, folded clothing, water, wilderness, and one ordinary wolf—without any person changing shape. Present the tale as inherited testimony and folklore under scrutiny, not literal magic or a dehumanizing image.\nScene/backdrop: cool violet evening in the Arcadian highlands; one small complete oval lake with its entire shoreline and all water edges visible inside a broad meadow; one complete old oak stands well away from the left edge; a full low stone ridge and pale mountains surround the basin.\nSubject: exactly two fully clothed adult humans and exactly one wolf. One older traveler stands beside the oak and lifts a neatly folded plain cloak from a low branch; one younger natural historian sits on a complete low stool several paces away, closing a completely blank wax-tablet diptych and looking toward the real animal. Across the contained lake, one complete gray wolf drinks quietly at the far shore, natural wolf anatomy from nose to tail and all paws visible. The two humans are ordinary people; neither resembles, mirrors, shadows, or transforms into the wolf.\nStyle/medium: original deluxe Book VIII natural-history folio on warm fibrous aged vellum; iron-gall contours, fine botanical and fur cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and mineral gouache; ancient, timeless, beautiful, materially rough and compositionally polished; hand-painted, not photographic.\nComposition/framing: elevated diagonal view, landscape 3:2, 1536x1024; complete lake centered as a pool of faded lapis, two humans and oak in near-left meadow, lone wolf small on far-right shore, wide open space between them. Keep both humans head-to-sandal, stool, folded cloak, every oak root/trunk/branch/crown, wolf nose-to-tail and paw, complete lake shoreline, every water edge, ridge and all focal rocks comfortably inside with broad margins. Only distant meadow and sky may naturally continue across outer edges.\nLighting/mood: blue-violet dusk with pale silver on the water; thoughtful, quiet and skeptical rather than ominous.\nColor palette: faded lapis, violet umber, silver sage, pale ochre, smoke gray and a restrained madder cloak.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; Pliny's denial is the conceptual center; the wolf is a normal animal and the people remain fully human.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, label, full moon symbolism, transformation, morphing effect, hybrid body, wolf-headed human, human-faced wolf, duplicate person, duplicate wolf, mirrored pose, cast shadow shaped like wolf, discarded naked body, nudity, human sacrifice, entrails, blood, hunt, attack, fear, cage, arena, extra humans, extra animals, visible page, border, frame, panels, before-and-after, split scene, montage, collage, clipped human, wolf, tail, paw, cloak, stool, oak, branch, root, lake, shoreline, water edge or ridge, photography, glossy CGI.",
+          "reason": "The oversized oak crossed the left, top, and bottom edges; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-824b534c-d960-4955-94cd-ebd1d8c08648",
+          "outputArtifact": "built-in-imagegen://exec-824b534c-d960-4955-94cd-ebd1d8c08648.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c022-rejected-02-global-mad-below-threshold.png",
+          "sha256": "f9e1f548d0b55e05d8cb5d1f969107e46e4cf3000a6f4ae58d3bd2c8d9513a4c",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 22 illustration master\nPrimary request: Edit only the oak and framing at left in Image 1. Replace the oversized edge-crossing oak with a smaller complete old oak positioned inward behind the standing traveler: its entire rounded crown, every branch tip, trunk, and all exposed roots must be fully visible with clear violet sky and meadow around every part. Keep the traveler in the same pose lifting the same folded cloak from one low branch. Pull back slightly if needed. Remove all roots or branches that cross the left, top, or bottom edges. Preserve exactly the same two humans, one wolf, complete lake and shoreline, stool, blank diptych, ridge, mountains, lighting, palette, hand-painted folio style and skeptical meaning unchanged.\nComposition/framing: landscape 3:2 at 1536x1024; both humans head-to-sandal, complete stool and cloak, entire oak crown-to-root, wolf nose-to-tail and paw, whole oval lake and all water edges, ridge and focal rocks all comfortably inside with broad breathing room. Only distant meadow and sky may cross boundaries.\nText: none.\nConstraints: one continuous opaque RGB/sRGB scene; no transformation; people remain human and wolf remains ordinary.\nAvoid: adding people or wolves, duplicate figure, changing pose or face, edge-cut oak or root, full moon, morphing, hybrid, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, clipped human, wolf, cloak, stool, tree, lake or ridge, photography, glossy CGI.",
+          "reason": "The scene passed native content inspection but failed the live global uniqueness gate: nearest-neighbor MAD 16.72 was below the required 20 against trees-aromatics-wave-50/b02-c097.png. The built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-ce9ce7db-78f3-423c-a5f9-0abb9bb9011e",
+          "outputArtifact": "built-in-imagegen://exec-ce9ce7db-78f3-423c-a5f9-0abb9bb9011e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c022-rejected-03-clipped-table-column.png",
+          "sha256": "e05698637c61dee1741c7e8e8c5e05b6be9e18c77a66fa568cda085a43e5472c",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: editorial illustration\nAsset type: final chapter-scene master for Pliny the Elder, Naturalis Historia Book VIII chapter 22\nPrimary request: Create one independent, historically grounded Roman natural-history scene that visualizes Pliny’s explicit skepticism toward transmitted werewolf stories without depicting any transformation as real. In a dark indigo Roman archive vestibule at blue hour, exactly TWO adult human figures examine testimony: a dignified seated natural historian compares several completely blank wax tablets beside a small bronze balance, while one standing Arcadian messenger has placed a complete folded cloak on a low stool and gestures toward the landscape beyond. Through one complete central stone arch, exactly ONE anatomically normal gray wolf stands calmly on the far dry path beside a fully visible small oval lake; the wolf remains physically separate from both people. The contrast must read as claim, witness, and skeptical inquiry—not a miracle.\nBook VIII continuity and aesthetics: ancient natural-history folio materiality translated into a single continuous scene; rough mineral pigments, charcoal underdrawing, lapis/indigo shadows, muted cinnabar cloth, warm lamp-gold highlights, chalky limestone, subtle pumice abrasion and handmade irregularity; museum-quality, timeless, ancient, rough and polished at once. This chapter should differ strongly from sunlit animal landscapes: deep nocturnal palette, frontal architectural depth, concentrated pool of lamplight, strong arch silhouette, quiet investigative mood.\nComposition: landscape 3:2, intended native output 1536x1024. Frontal interior-to-exterior viewpoint, one continuous spatial scene, not a diagram. Keep both humans, the normal wolf, the entire oval lake and every water edge, the complete arch, complete table, complete balance, complete blank tablets, complete folded cloak and complete stool comfortably inside the frame with generous breathing room. All three living figures separated and countable. Background architecture and distant hills may recede softly, but no important motif may touch or cross an image edge.\nContent accuracy and epistemic framing: Pliny reports Arcadian lake-and-cloak testimony and rejects extreme Greek credulity; present the story only as transmitted ancient testimony under examination. No literal metamorphosis, hybrid body, magical aura, ritual sacrifice, boxing contest, supernatural proof, mockery, or modern claim.\nText: none. Tablets and surfaces must be completely blank.\nConstraints: exactly two humans total and exactly one wolf total; no other animals, figures, statues shaped like people, reflections that resemble extra figures, or ambiguous silhouettes. Opaque RGB/sRGB raster. One full-bleed continuous scene.\nAvoid: transformation sequence, split before/after image, panels, diptych, collage, page, border, frame, inset, caption, letters, numerals, runes, pseudo-writing, signature, watermark, heraldry, modern objects, cage, chain, captivity, violence, injury, blood, body horror, ritual cruelty, crowd, spectacle, photorealism, glossy CGI, repeated motifs, cropped human, cropped wolf, cropped lake or water, cropped arch, cropped furniture, clipped tree, clipped hill, anything entering from an edge.",
+          "reason": "The nocturnal archive replacement clipped the table and left column at the canvas edges; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-15a787e1-5f63-44fd-b915-60c953841267",
+          "outputArtifact": "built-in-imagegen://exec-15a787e1-5f63-44fd-b915-60c953841267.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c022-rejected-04-global-mad-below-threshold.png",
+          "sha256": "5a5016c20ea6934d2b7f56b5f7fbf15dcec91090a8c80dc55cd9b6d4dcdd1843",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise composition repair\nAsset type: final Book VIII chapter 22 illustration master\nPrimary request: Recompose Image 1 by pulling the camera substantially backward and slightly upward so every important motif becomes fully visible with generous clear margins. Preserve the same single skeptical archive scene, same deep indigo and warm lamp-gold mineral-pigment style, same exact cast, and same semantic relationship. The final image must still contain exactly TWO adult humans and exactly ONE anatomically normal gray wolf: the seated natural historian studies completely blank tablets beside a small bronze balance; the standing Arcadian messenger gestures toward the normal wolf outside; the complete folded cloak rests on the complete low stool; the wolf remains separate on the far dry path beside the fully visible oval lake.\nMandatory framing correction: the entire rectangular table, its complete tabletop, all four table legs, and all table corners must be visible with clear floor around them; the seated human’s entire body and both feet must be visible; the complete stool and every hanging fold of the cloak must remain inside; the complete standing messenger and both feet must remain inside; the complete central arch and its supports must remain inside; the entire wolf, lake, and every water edge must remain inside. Reveal more floor and more of the left vestibule so no column, furniture, limb, cloak, wolf, lake, water, arch or important landscape element touches or crosses any image edge.\nComposition: landscape 3:2 at 1536x1024, one continuous interior-to-exterior scene, frontal architectural depth. Maintain a concentrated warm pool of lamplight against the nocturnal indigo vestibule, but use the expanded negative space to keep the scene calm and investigative.\nText: none; every tablet and wall remains blank.\nConstraints: exactly two humans total, exactly one wolf total, no other animals or people; no transformation, hybrid, magic, violence, spectacle, cage, chain, crowd. Opaque RGB/sRGB raster.\nAvoid: altering identities or counts, adding furniture or tablets, adding architectural figures or statues, pseudo-writing, letters, numerals, signature, watermark, split image, panels, collage, page, border, decorative frame, clipped table, clipped table leg, clipped column, clipped human, clipped foot, clipped stool, clipped cloak, clipped wolf, clipped arch, clipped lake or water, anything entering from an edge, photorealism, glossy CGI.",
+          "reason": "The reframed nocturnal archive passed native inspection but failed the live global uniqueness gate: nearest-neighbor MAD 12.00 was below the required 20 against trees-aromatics-wave-41/b02-c006.png. The built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-e84bf335-69cc-41ce-aa28-3d2a703a168f",
+          "outputArtifact": "built-in-imagegen://exec-e84bf335-69cc-41ce-aa28-3d2a703a168f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c022-rejected-05-clipped-columns-tablet-marks.png",
+          "sha256": "cd3680d667e82e33656303af29a5c1fc32638b544ebc28a1fc9b419129488671",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: editorial illustration\nAsset type: replacement final chapter-scene master for Pliny the Elder, Naturalis Historia Book VIII chapter 22\nPrimary request: Create a radically luminous, historically grounded Roman natural-history scene that presents the Arcadian werewolf story as transmitted testimony under skeptical examination, never as a real transformation. In a broad sunlit limestone peristyle above an Arcadian valley, exactly TWO adult humans stand on opposite sides of a complete low octagonal stone evidence table. A dignified natural historian calmly weighs two completely blank wax tablets on a small bronze balance while an Arcadian witness lays one complete folded cloak beside them. Beyond the open colonnade, exactly ONE anatomically normal gray wolf stands on the far dry bank of a fully visible bright turquoise oval lake, physically separate from both humans. No human resembles the wolf and no metamorphosis occurs.\nBook VIII continuity and distinctive aesthetics: ancient natural-history folio materiality, but in a rare high-key palette unlike dark nocturnes: large fields of luminous chalk-white and pale honey limestone, turquoise water, sun-bleached ochre valley, restrained coral-red garment, soft celadon shadows, charcoal underdrawing, mineral pigment bloom, pumice abrasion, handmade irregularity. Ancient, timeless, rough and polished at once. The mood is lucid inquiry at noon, not magic.\nComposition: landscape 3:2 at native 1536x1024. High oblique three-quarter view across the airy peristyle into the valley; one continuous scene, not a diagram or diorama. The full architectural bay is open and spacious. Keep both complete humans with both feet, the entire octagonal table and pedestal, complete balance, all completely blank tablets, complete folded cloak, one complete wolf, the entire oval lake and every water edge, complete freestanding columns and capitals, and distant hills comfortably inside the image with broad negative space. Every living figure is separated and countable. No important motif touches any image edge.\nContent accuracy and epistemic framing: Pliny reports the lake, clothes, witness tradition and Greek claims, then expresses explicit disbelief. Show only testimony being tested. No verified miracle, literal change of species, ritual, sacrifice, boxing, supernatural aura, ridicule, or modern advice.\nText: none; tablets and all architectural surfaces are blank.\nConstraints: exactly two humans total, exactly one normal wolf total, no other animals, humans, statues shaped like people, reflections resembling figures, or ambiguous silhouettes. One full-bleed continuous opaque RGB/sRGB scene.\nAvoid: werewolf, hybrid anatomy, transformation sequence, before-and-after, panels, split image, collage, page, border, decorative frame, inset, caption, letters, numerals, pseudo-writing, signature, watermark, heraldry, modern object, cage, chain, captivity, violence, injury, blood, body horror, crowd, spectacle, moon or night sky, predominantly dark palette, photorealism, glossy CGI, clipped person, clipped foot, clipped wolf, clipped table, clipped column, clipped cloak, clipped lake or water, clipped hill, object entering from any edge.",
+          "reason": "The luminous replacement cleared global distance provisionally but included edge-cut portico columns and line-like marks on the weighed tablets; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-35d2ac7a-a166-4638-83fa-2297ac373d1b",
+          "outputArtifact": "built-in-imagegen://exec-35d2ac7a-a166-4638-83fa-2297ac373d1b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c022-rejected-06-pan-surfaces-not-unambiguously-blank.png",
+          "sha256": "d40195a2169bc9ff9e57945d6ecfe62af55c735073729651722f1c809bd4f0c0",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-and-framing edit\nAsset type: final Book VIII chapter 22 illustration master\nPrimary request: Make only these controlled corrections to Image 1 while preserving its luminous high-key mineral-pigment scene, landscape, turquoise oval lake, exact cast, octagonal table, bronze balance, folded cloak, skepticism theme, and spacious noon atmosphere:\n1. Remove the entire colonnade and every column, capital, shaft, base, entablature, roof fragment, and partial architectural element from the image. Replace them with a simple open-air limestone belvedere: a complete low pale parapet behind the people and table, broad unbroken sky above, and continuous pale terrace floor below. No building or architectural object may enter from or be cut by any image edge.\n2. Erase every dark line, glyph-like mark, groove, or pseudo-writing from the two wax tablets on the balance pans. Each tablet must be a completely blank, smooth, uniform warm-ivory wax surface with only natural light and shadow. All other surfaces remain blank.\n3. Keep exactly TWO complete adult humans, exactly ONE complete anatomically normal gray wolf, and no other people or animals. Preserve the wolf on the dry bank beside the same fully contained turquoise lake. Keep the complete octagonal table, its full pedestal and all corners, the entire bronze balance, both blank tablets, and the complete folded cloak.\nComposition/framing: landscape 3:2 at 1536x1024. Pull back only if necessary so both humans and both feet, the full table and pedestal, all balance parts, cloak, normal wolf, complete low parapet, entire lake and every water edge are comfortably inside with clear breathing room. One continuous open-air scene. No important object touches any edge.\nMeaning: transmitted Arcadian testimony under skeptical Roman inquiry; no literal transformation, magic, or verified miracle.\nText: none anywhere.\nConstraints: exactly two humans total and one wolf total; opaque RGB/sRGB.\nAvoid: changing animal or person counts, extra silhouette, statues, reflection figures, adding an object, adding a column, arch, roof, partial wall, letters, numerals, writing, pseudo-writing, signature, watermark, werewolf, hybrid, transformation, ritual, violence, cage, chain, crowd, spectacle, panel, collage, page, border, decorative frame, photorealism, glossy CGI, clipped human, clipped foot, clipped table, clipped parapet, clipped wolf, clipped lake or water, clipped architecture, anything entering from an edge.",
+          "reason": "The open-terrace edit fixed the columns but the pale objects in the balance pans retained line-like surfaces that were not unambiguously blank; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:23",
+      "title": "DIFFERENT KINDS OF SERPENTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c023.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "1cb542ecdaaa6eaf166d6f5f3d4d9a9392639b2f078a0547cbcf2599620f28f2",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3fc0a5e0-ed83-42e4-b509-d551d85d5500",
+      "generationArtifactId": "exec-3fc0a5e0-ed83-42e4-b509-d551d85d5500",
+      "outputArtifact": "built-in-imagegen://exec-3fc0a5e0-ed83-42e4-b509-d551d85d5500.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 23 illustration master\nPrimary request: Edit only the tamarisk shrub and its framing in Image 1. Reduce the shrub slightly and shift it downward so its entire rounded crown, every leaf and branch tip, full trunk, and all exposed roots are visible with a broad band of pale sand around the complete plant; no leaf or branch may touch the top or side canvas edges. Keep the same complete slender tree snake naturally on the same short contained branch, with its head, full body and tail unchanged. Preserve the horned viper, cobra, complete basalt shelf, damp oval, exact three-snake count, all poses, lighting, palette, overhead composition, folio texture and cautious meaning unchanged.\nComposition/framing: landscape 3:2 at 1536x1024; complete shrub crown-to-root and all three snakes head-through-coils-to-tail, exactly two viper horn scales, complete rock shelf and damp oval all comfortably inside. Only plain sand may cross edges.\nText: none.\nConstraints: one continuous opaque RGB/sRGB scene; exactly three ordinary snakes; no literal fabulous creature or medical advice.\nAvoid: adding snakes or animals, changing snake anatomy, two-headed snake, edge-cut tree, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, clipped head, horn, coil, tail, branch, leaf, root, shelf or damp patch, photography, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-7fdf9800-d7d2-4fe0-899a-85ef70107361",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-3fc0a5e0-ed83-42e4-b509-d551d85d5500",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-7fdf9800-d7d2-4fe0-899a-85ef70107361.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly three complete ordinary snakes are separated in one cautious field-observation scene: a horned viper with two horn scales, one tree snake, and one cobra. The entire tamarisk crown and base, basalt shelf, snakes, and small internal damp oval with all water edges are contained. No two-headed or flying serpent, attack, medical instruction, text, pseudo-writing, panel, border, duplicate snake, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-7fdf9800-d7d2-4fe0-899a-85ef70107361",
+          "outputArtifact": "built-in-imagegen://exec-7fdf9800-d7d2-4fe0-899a-85ef70107361.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c023-rejected-01-clipped-tamarisk-crown.png",
+          "sha256": "13448f6d2d761329e9fa6042d1946b5e06cfa3726d3a05114e4e0fc724cc511a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 23, “DIFFERENT KINDS OF SERPENTS”\nPrimary request: Translate Pliny's catalogue into a cautious field-observation scene of three plausible snakes in one dry North African wadi. Show one ordinary horned viper, one ordinary tree snake, and one ordinary cobra separated in their habitats. Do not literalize the two-headed amphisbena, flying jaculus, universal deadly venom, mate revenge, or Pliny's medical claims; these remain transmitted reports, not verified zoology or advice.\nScene/backdrop: pale midday in a broad chalk-and-rose desert wadi; smooth sand fans, one complete isolated tamarisk shrub, one complete flat basalt shelf, and a small oval patch of damp soil with no open water; no people, prey, settlement, or laboratory.\nSubject: exactly three snakes total and no other animal. One complete horned viper with exactly two small horn scales rests loosely coiled on open sand, every body curve and tail tip visible; one complete slender tree snake lies naturally along one short fully contained tamarisk branch, not airborne; one complete cobra rests on the complete basalt shelf with its hood only gently broadened and head turned away, not striking. All have anatomically credible scales and calm postures; no snake touches another.\nStyle/medium: original deluxe Book VIII zoological folio on warm fibrous aged vellum; fine iron-gall contours, microscopic scale cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and restrained mineral gouache; ancient, timeless, beautiful, materially rough and observationally polished; clearly hand-painted, not photographic.\nComposition/framing: steep near-overhead view, landscape 3:2, 1536x1024; three snakes form an asymmetrical triangle across large pale negative space, separated by sand. Keep every snake from head through every coil to tail tip, both viper horns, the complete tamarisk crown, trunk, roots and short branch, complete basalt shelf, and damp oval comfortably inside with generous edge clearance. Only flat sand may naturally continue through canvas edges.\nLighting/mood: lucid white sun and short blue-green shadows; alert observation without menace.\nColor palette: chalk white, shell rose, pale celadon, basalt blue-gray, sand ochre and restrained rust.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; no behavior or danger claim is presented as modern fact; no medical instruction.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, diagram, arrows, two-headed snake, head at tail, winged or airborne snake, four horns, extra snakes, duplicate coil, prey, bird, rodent, person, attack, bite, blood, amputation, venom spray, dead animal, combat, supernatural aura, monster, visible page, border, frame, panels, specimen boxes, triptych, collage, animal lineup, clipped head, horn, coil, tail, branch, shrub, root, rock or damp patch, photography, glossy CGI.",
+          "reason": "The tamarisk crown crossed the top edge; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:24",
+      "title": "THE ICHNEUMON",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c024.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "108440ced0a823ecbab5fdbe118bc130cad2a08272696d36517f51796c085783",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-85682eea-5390-4990-9ff6-10e2b1c5dc32",
+      "generationArtifactId": "exec-85682eea-5390-4990-9ff6-10e2b1c5dc32",
+      "outputArtifact": "built-in-imagegen://exec-85682eea-5390-4990-9ff6-10e2b1c5dc32.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 24 illustration master\nPrimary request: Edit only the framing of Image 1. Pull the viewpoint back and shift the mongoose and limestone slab inward so the mongoose's entire tail, including its final tuft, is fully visible with broad pale silt between the tail and the right canvas edge. Also reduce and shift both reed clumps inward so every root, stem and tip is fully visible with clear sky or silt around them; no reed may touch the left, top, or any other edge. Preserve the same one mongoose, one cobra, pool, slab, animal poses, drying mud, distant fields, lighting, palette, folio style and non-combat meaning unchanged.\nComposition/framing: landscape 3:2 at 1536x1024; mongoose nose-to-tail and every paw, cobra head through all curves to tail tip, entire slab, complete oval mud pool with every water edge, both complete reed clumps root-to-tip, and field boundary comfortably inside. Only sky and flat silt may cross boundaries.\nText: none.\nConstraints: exactly two animals total, one continuous opaque RGB/sRGB scene; no combat or instruction.\nAvoid: adding animals, changing anatomy or poses, clipped tail, paw, reed, pool, water or slab, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, attack, blood, photography, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6c4c7192-621f-459e-9ce0-2a25b7e9369e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-85682eea-5390-4990-9ff6-10e2b1c5dc32",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-6c4c7192-621f-459e-9ce0-2a25b7e9369e.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly one complete muddy mongoose dries in the sun while exactly one complete ordinary snake retreats without contact. The pool and every water edge, stone slab, two reed clumps, both animals and tails are internal. The transmitted mud-coating account is presented as cautious ancient observation, not medical instruction. No bite, combat, gore, text, pseudo-writing, panel, border, duplicate animal, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-6c4c7192-621f-459e-9ce0-2a25b7e9369e",
+          "outputArtifact": "built-in-imagegen://exec-6c4c7192-621f-459e-9ce0-2a25b7e9369e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c024-rejected-01-clipped-tail-reeds.png",
+          "sha256": "be94aa522074d284e173c9fd64225d3c32fc500830655924a054a6a944b2388c",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 24, “THE ICHNEUMON”\nPrimary request: Show the observable behavior underlying Pliny's account without staging the reported fight to the death. One Egyptian mongoose has rolled in Nile mud and now dries peacefully in the sun; one ordinary cobra withdraws at a safe distance through reeds. Present the “mud armor” and combat sequence as ancient interpretation, not proven strategy or an invitation to violence.\nScene/backdrop: a warm Nile floodplain terrace at early morning; one complete small oval mud pool with every muddy water edge visible inside pale silt; two compact fully contained reed clumps, a low complete sun-warmed limestone slab, distant green fields and no human structure.\nSubject: exactly one complete Egyptian mongoose and exactly one complete cobra, no other animal or person. The mongoose stands relaxed on the limestone slab, nose-to-tail and all paws visible, its ordinary brown-gray coat naturally mottled with drying mud; its tail is lowered. Far behind the pool, the cobra glides away through open silt with hood folded and whole body to tail tip visible. The animals do not touch, face off, chase, strike, bite, kill, or look injured.\nStyle/medium: original deluxe Book VIII zoological folio on warm fibrous aged vellum; fine iron-gall contours, minute fur and scale cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and mineral gouache; ancient, timeless, beautiful, rough in material and polished in natural observation; hand-painted, not photographic.\nComposition/framing: intimate ground-level lateral view, landscape 3:2, 1536x1024; mongoose large but fully contained on one side, complete mud pool centered low, cobra small and distant on the other side, with bands of pale silt as negative space. Keep mongoose nose, ears, every paw and tail tip, cobra head through every curve to tail tip, complete slab, entire pool and all water edges, both complete reed clumps from roots to tips, and distant field boundary comfortably inside with broad margins. Only flat silt and sky may cross outer boundaries.\nLighting/mood: honey morning light, calm alertness and ecological distance, no menace.\nColor palette: Nile silt umber, honey gold, muted emerald, oxidized teal shadow, bone limestone and tiny madder reed tips.\nText: none.\nConstraints: one coherent full-bleed opaque RGB/sRGB scene; ancient causal claims remain uncertain testimony; no medical or animal-handling instruction.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, diagram, arrows, attack, combat, raised striking hood, bite, throat seizure, blood, wound, dead animal, mud shell armor plates, supernatural protection, extra mongoose, extra snake, bird, crocodile, person, cage, spectacle, visible page, border, frame, panels, inset, collage, clipped animal, tail, paw, pool, water edge, slab, reed root or reed tip, photography, glossy CGI.",
+          "reason": "The mongoose tail was cut by the right edge and reeds were clipped at the left and top; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:25",
+      "title": "THE CROCODILE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c025.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "b616411f7012aac1c84b4bc1ff4ce8ab85ff2a598680719fdcb57f5406ffc170",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-30891732-5f10-4e4c-a8fa-f159cd22fb59",
+      "generationArtifactId": "exec-30891732-5f10-4e4c-a8fa-f159cd22fb59",
+      "outputArtifact": "built-in-imagegen://exec-30891732-5f10-4e4c-a8fa-f159cd22fb59.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 25, “THE CROCODILE”\nPrimary request: Visualize a restrained Nile-bank observation from Pliny's chapter: one crocodile rests after feeding while one small trochilus-like bird forages near the outside of its slightly open jaws. Treat the famous tooth-cleaning partnership, jaw anatomy, lifespan, enemies and other behaviors as ancient reports rather than verified zoology or medical fact. Show no predation, animal entering the throat, combat, capture, or human danger.\nScene/backdrop: a broad high sandbar beside one complete crescent-shaped Nile backwater whose entire water perimeter is visible inside the scene; two compact fully contained papyrus clumps, pale wet sand, distant emerald fields and low blue cliffs under soft overcast afternoon.\nSubject: exactly one complete Nile crocodile and exactly one complete small bird, no other animal or person. The crocodile lies diagonally on dry sand, anatomically plausible from snout through all four feet to tail tip, body relaxed and uninjured; its jaws are only slightly open. The tiny bird stands on the sand just outside the jaw, pecking a harmless small fish scale from the ground rather than entering the mouth. The two animals are calm and the image does not assert cooperation as fact.\nStyle/medium: original deluxe Book VIII zoological folio on warm fibrous aged vellum; iron-gall contours, dense scale cross-hatching, delicate feather stipple, dry-brush abrasion, translucent egg tempera and mineral gouache; ancient, timeless, beautiful, tactile and rough in surface yet polished in observation; hand-painted, not photographic.\nComposition/framing: sweeping high side view, landscape 3:2, 1536x1024; crocodile occupies an elegant diagonal across the lower middle, small bird near the snout, complete crescent pool behind, ample pale sand as negative space. Keep crocodile snout, jaws, all feet and claws, entire tail tip, complete bird beak-to-tail and both feet, complete backwater and every water edge, both papyrus clumps root-to-tip, and all focal stones comfortably inside with broad breathing room. Only distant field and sky may naturally cross outer edges.\nLighting/mood: cool diffused Nile light, stillness and careful observation without menace.\nColor palette: Nile turquoise, malachite, pale sand, charcoal green, bone gray, faded lapis and tiny madder accents.\nText: none.\nConstraints: one coherent full-bleed opaque RGB/sRGB scene; one crocodile and one bird only; ancient claims remain testimony, not instruction.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, diagram, arrows, open gaping mouth, bird inside mouth, throat entry, ichneumon, dolphin, hippopotamus, second crocodile, eggs, fish body, prey, human, attack, bite, gore, blood, corpse, weapon, capture, riding, arena, cage, extra animals, visible page, border, frame, panels, inset, collage, clipped snout, jaw, foot, claw, tail, bird, pool, water edge, papyrus root or tip, photography, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-30891732-5f10-4e4c-a8fa-f159cd22fb59",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly one complete crocodile and one complete small bird occupy a restrained observation scene; the bird remains outside the slightly open jaws. The full crescent Nile backwater and every water edge, crocodile, bird, banks, and papyrus clumps are wholly contained. No bird enters the throat, predation, attack, human, text, pseudo-writing, panel, border, duplicate animal, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "8:26",
+      "title": "WHO FIRST EXHIBITED THE HIPPOPOTAMUS AND THE CROCODILE AT ROME",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/b08-c026.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "8ed452894f288b3ed4273081584e03914df25f25515ae679164251162dbd4c5e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-eada79f4-a246-43d2-b659-40cfce3de073",
+      "generationArtifactId": "exec-eada79f4-a246-43d2-b659-40cfce3de073",
+      "outputArtifact": "built-in-imagegen://exec-eada79f4-a246-43d2-b659-40cfce3de073.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book VIII chapter 26 illustration master\nPrimary request: Make exactly one correction to Image 1: remove the lower-middle crocodile that begins near the center-bottom of the pool and points diagonally upward-left, restoring uninterrupted shallow blue-green water and natural pool-floor texture where that animal was. Preserve all other animals and every other element unchanged. The final image must contain exactly one hippopotamus plus exactly FIVE crocodiles: two crocodiles on the upper-left dry sand shelf, one crocodile on the right dry bank, and exactly two crocodiles in the water (the upper-middle swimmer and lower-right swimmer). No sixth crocodile, partial tail, ghost shape, or reflection remains in the cleared area.\nComposition/framing: landscape 3:2 at 1536x1024; all six animals total remain complete and separated; entire oval pool and all water edges, complete dry shelves, retaining wall, empty seating bank with supports, and open gate remain comfortably inside.\nText: none.\nConstraints: exactly six animals total; one hippo and five crocodiles; one continuous opaque RGB/sRGB scene; quiet post-exhibition institutional critique.\nAvoid: adding or changing any animal, people, overlap, hidden crocodile, partial crocodile, letters, numerals, pseudo-writing, signature, watermark, crowd, cage, chain, injury, border, page, panel, collage, clipped animal, pool, water, seat, wall or gate, photography, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-51b3d167-1d56-4cc4-b415-d081d0e79f44",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-eada79f4-a246-43d2-b659-40cfce3de073",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-51b3d167-1d56-4cc4-b415-d081d0e79f44.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCounts": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly one complete hippopotamus plus exactly five complete crocodiles are separated around one fully contained temporary oval euripus: two crocodiles on the upper-left dry shelf, one on the right dry bank, and two in the water. All water edges, animals, dry shelves, retaining walls, empty seating bank and open gate are complete. The scene critiques the human institution after the exhibition rather than staging captivity or spectacle. No human, crowd, chain, cage, injury, text, pseudo-writing, panel, border, duplicate crop, sixth crocodile, or clipped focal subject was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-51b3d167-1d56-4cc4-b415-d081d0e79f44",
+          "outputArtifact": "built-in-imagegen://exec-51b3d167-1d56-4cc4-b415-d081d0e79f44.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-03/evidence/history/b08-c026-rejected-01-six-crocodiles.png",
+          "sha256": "1f8776f3cb20fea85ad0477e73823ba0c15ea63506524a837bef4a137d87f411",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter master for Pliny the Elder, Naturalis Historia, Book VIII chapter 26, “WHO FIRST EXHIBITED THE HIPPOPOTAMUS AND THE CROCODILE AT ROME”\nPrimary request: Render Pliny's report that M. Scaurus displayed one hippopotamus and five crocodiles in a temporary water channel at Rome, but shift attention from entertainment to the quiet architecture of captivity after the public has departed. Show the animals resting with space and water, empty viewing seats, and no performance, handling, injury, or crowd. Treat the event as transmitted historical testimony, not celebration.\nScene/backdrop: pale dawn in a large temporary Roman euripus built of timber, packed earth and lime-plastered retaining walls; one complete elongated oval pool with every water edge visible; one complete small semicircular bank of empty wooden viewing seats set far behind the pool, wholly inside the frame; open service gate stands quiet, no audience, banners, cages, chains or weapons.\nSubject: exactly SIX animals total and no humans: exactly one complete hippopotamus and exactly five complete crocodiles. The hippo rests partly in shallow water at the broad end, entire head, back, all four feet and tail visible. Five crocodiles are individually separated and easy to count: two rest on one dry sand shelf, two float in shallow water with every head, body, feet and tail still visible through clear water, and one rests alone on the opposite bank. Every animal is calm, uninjured and anatomically plausible; none overlaps, attacks, performs, or faces a crowd.\nStyle/medium: original deluxe Book VIII historical-zoological folio on warm fibrous aged vellum; iron-gall contours, precise scale and hide cross-hatching, stipple, dry-brush abrasion, translucent egg tempera and restrained mineral gouache; ancient, timeless, beautiful, materially rough and architecturally polished; hand-painted, not photographic.\nComposition/framing: steep high-oblique architectural view, landscape 3:2, 1536x1024; complete oval euripus forms a diagonal across open pale earth, empty seats small at upper side, hippo at one broad end and five clearly separated crocodiles distributed asymmetrically. Keep all six animals from snout to tail and every foot, complete pool and all water edges, both dry shelves, entire seating bank including every end and support, retaining walls, and open gate fully inside with broad breathing room. Only plain earth and sky may naturally cross outer boundaries.\nLighting/mood: cool apricot dawn, hushed aftermath, humane attention and institutional critique rather than spectacle.\nColor palette: pale apricot, Nile blue-green, chalk, weathered cedar, muted umber, faded lapis and restrained madder shadows.\nText: none.\nConstraints: one continuous full-bleed opaque RGB/sRGB scene; exactly one hippo plus exactly five crocodiles; no depiction of the chapter's self-wounding medical claim and no advice.\nAvoid: letters, numerals, inscriptions, pseudo-writing, caption, signature, watermark, labels, diagram, cheering spectators, crowd, person, trainer, chain, cage bars, whip, spear, blood, cut reed, wound, self-injury, medical procedure, combat, predation, feeding spectacle, dead animal, more or fewer than five crocodiles, second hippo, overlapping animals, duplicate crop, visible page, border, frame, panels, inset, split scene, collage, clipped hippo, crocodile, snout, tail, foot, pool, water edge, shelf, seat, support, wall or gate, photography, glossy CGI.",
+          "reason": "The first exhibition aftermath scene contained six crocodiles instead of the required five; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 653,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "8:19": {
+        "nearestMAD": 22.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c094.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c007.png",
+        "madAtDHashPeer": 46.46
+      },
+      "8:20": {
+        "nearestMAD": 21.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c016.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+        "madAtDHashPeer": 33.88
+      },
+      "8:21": {
+        "nearestMAD": 24.39,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c003.png",
+        "madAtDHashPeer": 43.36
+      },
+      "8:22": {
+        "nearestMAD": 36.52,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/materia-wave-03/b20-c009.png",
+        "madAtDHashPeer": 43.83
+      },
+      "8:23": {
+        "nearestMAD": 27.31,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-21/b17-c027.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 12,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b14-c021.png",
+        "madAtDHashPeer": 44.15
+      },
+      "8:24": {
+        "nearestMAD": 24.97,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-30/b21-c017.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-01/b33-c005.png",
+        "madAtDHashPeer": 39.11
+      },
+      "8:25": {
+        "nearestMAD": 27.91,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c057.png",
+        "madAtDHashPeer": 61.46
+      },
+      "8:26": {
+        "nearestMAD": 23.63,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c042.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c030.png",
+        "madAtDHashPeer": 29.99
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-land-wave-03",
+    "status": "pass",
+    "output": ""
+  }
+}

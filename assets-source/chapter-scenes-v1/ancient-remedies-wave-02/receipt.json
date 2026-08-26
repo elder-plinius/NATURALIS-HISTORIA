@@ -1,0 +1,676 @@
+{
+  "schemaVersion": 1,
+  "campaign": "ancient-remedies-wave-02",
+  "generatedAt": "2026-08-26",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "corpusGrounding": {
+    "source": "public/corpus/book-28.7297f744b879fe66.json",
+    "chaptersRead": [
+      "28:4",
+      "28:5",
+      "28:6",
+      "28:7",
+      "28:8",
+      "28:9",
+      "28:10",
+      "28:11"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The complete Latin and English corpus fields for every assigned chapter were read before prompt design. Bodily, misogynistic, magical, and animal-derived claims are bounded as transmitted ancient testimony—often contradicted or mocked by Pliny—rather than modern fact, advice, or spectacle."
+  },
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 830,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "28:4": {
+        "nearestMAD": 23.71,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c051.png",
+        "madAtDHashPeer": 38.21
+      },
+      "28:5": {
+        "nearestMAD": 26.55,
+        "madPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c010.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-33/b22-c005.png",
+        "madAtDHashPeer": 44.67
+      },
+      "28:6": {
+        "nearestMAD": 21.44,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-03/b10-c023.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c089.png",
+        "madAtDHashPeer": 51.77
+      },
+      "28:7": {
+        "nearestMAD": 25.01,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c018.png",
+        "madAtDHashPeer": 50.85
+      },
+      "28:8": {
+        "nearestMAD": 21.15,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c023.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c015.png",
+        "madAtDHashPeer": 25.06
+      },
+      "28:9": {
+        "nearestMAD": 28.69,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-06/b10-c049.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c015.png",
+        "madAtDHashPeer": 37.47
+      },
+      "28:10": {
+        "nearestMAD": 20.84,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c010.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c015.png",
+        "madAtDHashPeer": 52.34
+      },
+      "28:11": {
+        "nearestMAD": 27.41,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c023.png",
+        "madAtDHashPeer": 68.1
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "28:4",
+      "28:5",
+      "28:6",
+      "28:7",
+      "28:8",
+      "28:9",
+      "28:10",
+      "28:11"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 15,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 7,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "28:4",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete clothed traveller, one complete doorway and threshold, exactly three separate pearlescent droplets, and one separate complete right sandal form a discreet dawn ritual scene; the traveller remains fully shod and every discrete subject is internal.",
+      "uncertaintyNote": "Spittle customs and claimed effects are framed as disputed Roman ritual and folk medicine, not modern medical advice.",
+      "title": "PROPERTIES OF THE HUMAN SPITTLE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c004.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "d15a27f8b9e2e80556e36488dcdaaf398531b3faa235276174cb5b9779ff74b2",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-40b54e88-9593-4ceb-8bc7-993cbb494c89",
+      "generationArtifactId": "exec-40b54e88-9593-4ceb-8bc7-993cbb494c89",
+      "outputArtifact": "built-in-imagegen://exec-40b54e88-9593-4ceb-8bc7-993cbb494c89.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 4, “Properties of the Human Spittle.” Treat the passage explicitly as a historical record of Roman apotropaic custom and disputed folk medicine, never as modern medical advice. At blue dawn in a quiet Roman atrium, show exactly ONE complete clothed adult traveller in profile, fully visible from laurel-crowned head to both sandalled feet and comfortably inside the frame. The traveller pauses before exactly ONE complete limestone doorway, raises one hand discreetly near the closed mouth, and looks down toward exactly THREE tiny separate pearlescent droplets already resting on a dark basalt threshold stone—no stream, spray, mucus, wound, illness, patient, child, treatment, violence, or disgust. Place exactly ONE complete right sandal beside the threshold as a separate votive object, fully internal, all straps visible; the traveller remains shod in a different pair. A small beam of first sunlight crosses the three droplets and doorway while the rest of the atrium recedes into faded lapis shadow. No vessel, food, animal, skeleton, body part, explicit fluid source, medical procedure, magical glow, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep person, doorway, threshold stone, separate sandal, and all droplets well away from every edge. Composition: austere low horizontal frieze with enormous blue-black and chalk negative space, three minute silver points carrying the visual rhythm; one continuous scene. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, restrained shell-gold dawn, basalt charcoal, Pompeian blue, chalk, muted madder, subtle pumice grain; ancient, timeless, beautiful, rough and polished at once, observational and humane, not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous plaster wall, floor, shadow, and light may meet canvas edges; no discrete subject may be clipped.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-40b54e88-9593-4ceb-8bc7-993cbb494c89",
+          "outputArtifact": "built-in-imagegen://exec-40b54e88-9593-4ceb-8bc7-993cbb494c89.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 4, “Properties of the Human Spittle.” Treat the passage explicitly as a historical record of Roman apotropaic custom and disputed folk medicine, never as modern medical advice. At blue dawn in a quiet Roman atrium, show exactly ONE complete clothed adult traveller in profile, fully visible from laurel-crowned head to both sandalled feet and comfortably inside the frame. The traveller pauses before exactly ONE complete limestone doorway, raises one hand discreetly near the closed mouth, and looks down toward exactly THREE tiny separate pearlescent droplets already resting on a dark basalt threshold stone—no stream, spray, mucus, wound, illness, patient, child, treatment, violence, or disgust. Place exactly ONE complete right sandal beside the threshold as a separate votive object, fully internal, all straps visible; the traveller remains shod in a different pair. A small beam of first sunlight crosses the three droplets and doorway while the rest of the atrium recedes into faded lapis shadow. No vessel, food, animal, skeleton, body part, explicit fluid source, medical procedure, magical glow, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep person, doorway, threshold stone, separate sandal, and all droplets well away from every edge. Composition: austere low horizontal frieze with enormous blue-black and chalk negative space, three minute silver points carrying the visual rhythm; one continuous scene. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, restrained shell-gold dawn, basalt charcoal, Pompeian blue, chalk, muted madder, subtle pumice grain; ancient, timeless, beautiful, rough and polished at once, observational and humane, not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous plaster wall, floor, shadow, and light may meet canvas edges; no discrete subject may be clipped.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c004.png",
+          "sha256": "d15a27f8b9e2e80556e36488dcdaaf398531b3faa235276174cb5b9779ff74b2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:5",
+      "visualQaNotes": "Inspected at original resolution. Exactly two complete clothed adults enact Lucullus accepting a reminder of moderation; one complete couch, porphyry table, bronze platter with figs and bread, and plain cup are all fully internal, with no coercion or humiliation.",
+      "uncertaintyNote": "The scene presents Pliny’s moral anecdote about moderation as history, not as a prescriptive health regimen.",
+      "title": "REMEDIES DEPENDING UPON THE HUMAN WILL",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c005.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "43d358c83494f7099cf07f63b651dd8eb49e3b4d5260b5836a4df5a16880ada8",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c7178c94-adbb-44e1-bc80-300a77222659",
+      "generationArtifactId": "exec-c7178c94-adbb-44e1-bc80-300a77222659",
+      "outputArtifact": "built-in-imagegen://exec-c7178c94-adbb-44e1-bc80-300a77222659.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 5, “Remedies Depending Upon the Human Will,” grounded in its closing anecdote about moderation and Lucullus. Present moral history, not medical advice and not a scene of coercion. In a sunlit Capitol dining loggia, show exactly TWO complete clothed adult Roman men, both fully visible head-to-sandal and comfortably inside the frame. At the right, an elderly laurel-crowned Lucullus sits upright on exactly ONE complete low dining couch, his expression lucid and reflective; his near hand has stopped in midair before reaching exactly ONE complete round bronze platter laden with figs and bread. At the left, one middle-aged household attendant of equal visual dignity stands calmly and draws the platter a little farther away with both hands, while Lucullus accepts the reminder. Include exactly ONE complete narrow porphyry table beneath the platter and exactly ONE complete small plain water cup beside it. No third person, servant caricature, force, grabbing, humiliation, feast crowd, alcohol vessel, illness, treatment, nudity, child, animal, weapon, text, letters, numerals, inscription, pseudo-writing, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep both people, couch, table, platter, food, and cup fully internal and separated from every edge. Composition: balanced lateral exchange across generous pale architectural negative space; the suspended hand, receding platter, and two gazes create a quiet triangle. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall drapery and hand contours, porphyry violet, fig green, bread ochre, muted cinnabar, chalk, restrained shell-gold sunlight, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational rather than theatrical, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, sky, and distant architecture may meet canvas edges; no discrete subject may be cropped.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-c7178c94-adbb-44e1-bc80-300a77222659",
+          "outputArtifact": "built-in-imagegen://exec-c7178c94-adbb-44e1-bc80-300a77222659.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 5, “Remedies Depending Upon the Human Will,” grounded in its closing anecdote about moderation and Lucullus. Present moral history, not medical advice and not a scene of coercion. In a sunlit Capitol dining loggia, show exactly TWO complete clothed adult Roman men, both fully visible head-to-sandal and comfortably inside the frame. At the right, an elderly laurel-crowned Lucullus sits upright on exactly ONE complete low dining couch, his expression lucid and reflective; his near hand has stopped in midair before reaching exactly ONE complete round bronze platter laden with figs and bread. At the left, one middle-aged household attendant of equal visual dignity stands calmly and draws the platter a little farther away with both hands, while Lucullus accepts the reminder. Include exactly ONE complete narrow porphyry table beneath the platter and exactly ONE complete small plain water cup beside it. No third person, servant caricature, force, grabbing, humiliation, feast crowd, alcohol vessel, illness, treatment, nudity, child, animal, weapon, text, letters, numerals, inscription, pseudo-writing, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep both people, couch, table, platter, food, and cup fully internal and separated from every edge. Composition: balanced lateral exchange across generous pale architectural negative space; the suspended hand, receding platter, and two gazes create a quiet triangle. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall drapery and hand contours, porphyry violet, fig green, bread ochre, muted cinnabar, chalk, restrained shell-gold sunlight, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational rather than theatrical, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, sky, and distant architecture may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c005.png",
+          "sha256": "43d358c83494f7099cf07f63b651dd8eb49e3b4d5260b5836a4df5a16880ada8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:6",
+      "visualQaNotes": "Inspected at original resolution. One complete clothed actor stands in a high-key dry peristyle with exactly one airborne feather, one bronze ring in the open palm, and one visible Hercules-knot belt; the corrected saffron mantle and every body part remain fully inside the frame.",
+      "uncertaintyNote": "Sneezing gestures and associated prescriptions are presented as Roman folk belief, not medical instruction.",
+      "title": "REMEDIES DERIVED FROM SNEEZING",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c006.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "87e20c65106de4dc70ee58b80ef884ef75c5ce2f6ed41d5da3a90c17e884aad0",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-b9757f6a-878f-4793-a3a2-7e7c6e3725b5",
+      "generationArtifactId": "exec-b9757f6a-878f-4793-a3a2-7e7c6e3725b5",
+      "outputArtifact": "built-in-imagegen://exec-b9757f6a-878f-4793-a3a2-7e7c6e3725b5.png",
+      "exactFinalPrompt": "Targeted edge-containment correction to this exact high-key Book XXVIII.6 peristyle illustration. Preserve exactly the same single complete adult actor, identity, anatomy, profile, closed mouth and eyes, both hands, the one bronze ring in the open palm, the one white feather, the one Hercules-knot belt, clothing, pose, sandals, colonnade, dry floor, pale turquoise sky, light, palette, contours, and fresco texture. Change ONLY the far-right end of the saffron mantle: shorten and curl the streaming cloth inward so its complete frayed tip is clearly visible at least 90 pixels inside the right canvas edge, with pale sky or column background visible between every part of the mantle and the edge. Keep the windblown energy but make the entire mantle fully internal. Do not change or add any person, limb, finger, ring, feather, knot, garment, column, object, text, symbol, border, page, panel, inset, diagram, or decoration. No water, spray, illness, or treatment. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera scene, opaque sRGB, 1536×1024 landscape 3:2.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-d56d82f7-7d56-4db0-8ada-3c1101d6bc1f",
+          "outputArtifact": "built-in-imagegen://exec-d56d82f7-7d56-4db0-8ada-3c1101d6bc1f.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 6, “Remedies Derived from Sneezing.” Treat the many gestures and prescriptions as an antiquarian record of Roman folk belief, never as medical advice. Make an elegant symbolic still life in an empty red-plaster cabinet: exactly ONE complete life-sized terracotta Roman portrait mask rests upright on exactly ONE complete low black-stone stand, both fully internal. The mask is calm, dignified, and intact, with open eye and nostril apertures but no body, illness, mucus, spray, or grotesque expression. Exactly ONE complete soft white feather floats horizontally a finger’s breadth before the mask’s nose without touching it. On the left of the stand lies exactly ONE complete undyed linen cord tied in a single visible Hercules knot; on the right lies exactly ONE complete plain bronze finger ring. Behind and slightly below the mask sits exactly ONE complete shallow bronze basin of still warm water, with only the faintest translucent vapor and no hands entering it. No person, patient, child, animal, genital reference, treatment in progress, bodily fluid, wound, blood, explicit anatomy, extra mask, extra feather, extra ring, extra knot, vessel beyond the one basin, magical glow, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep mask, stand, feather, cord, ring, and basin well inside every edge. Composition: frontal archaeological still life with vast oxidized-cinnabar negative space and one long blue-violet cast shadow; objects form a sparse asymmetric constellation, not a display grid. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, chalk-white feather, fired-clay umber, verdigris bronze, black basalt, oxidized cinnabar, restrained shell-gold glints, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, quiet and observational, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous plaster wall, shelf plane, and shadow may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c006-attempt-01-global-mad-17.96.png",
+          "sha256": "bcbea368a0b547d5570e7bc9c9f4462d51018f5ffb98633afc0d37a951625681",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The otherwise valid red mask still life failed the permanent corpus distinctness threshold with nearest-neighbor MAD 17.96."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-cbc96976-83b2-4585-8c68-cd1df7e77020",
+          "outputArtifact": "built-in-imagegen://exec-cbc96976-83b2-4585-8c68-cd1df7e77020.png",
+          "exactPrompt": "Create a fresh, radically different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 6, “Remedies Derived from Sneezing.” Treat the passage as a staged historical vignette of Roman folk belief, never medical advice. In a vast high-key seaside peristyle at windy morning—dry stone only, no visible water—show exactly ONE complete fully clothed adult Roman actor, fully visible head-to-sandal and well inside the right third. The actor stands relaxed in profile with eyes gently closed and mouth closed, as exactly ONE complete white feather is carried by the breeze a hand’s breadth before the nose, not held and not touching. The actor’s near palm is open and contains exactly ONE complete plain bronze finger ring; the cream linen belt at the natural waist is tied in exactly ONE clearly visible Hercules knot. The far hand rests open at the side. A long saffron mantle streams horizontally in the wind but remains completely inside the frame. No sneeze spray, mucus, illness, treatment, mask, basin, hot water, patient, child, animal, genital reference, wound, blood, body fluid, extra person, extra feather, extra ring, extra knot, magical effect, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep actor, every finger, sandal, mantle tip, feather, ring, and belt knot fully internal. Composition: radically high-key and asymmetrical—enormous bone-white colonnade and pale turquoise sky negative space on the left, a single saffron figure on the right, feather crossing the empty center; one continuous scene, not a still-life arrangement. Style continuity: museum-grade Roman natural-history fresco and egg tempera on sun-abraded lime plaster, precise iron-gall figure and feather contours, chalk white, pale turquoise, saffron, sparse cinnabar, aged bronze, restrained shell-gold sun, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, humane and observational, not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous floor, columns, sky, shadow, and light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c006-attempt-02-mantle-clipped-right.png",
+          "sha256": "2b30ea7dbc79966409698ffa8f9c3ee8115ac8784e093023380219699f6c9a67",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The fresh high-key composition had its saffron mantle clipped by the right canvas edge."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-b9757f6a-878f-4793-a3a2-7e7c6e3725b5",
+          "outputArtifact": "built-in-imagegen://exec-b9757f6a-878f-4793-a3a2-7e7c6e3725b5.png",
+          "exactPrompt": "Targeted edge-containment correction to this exact high-key Book XXVIII.6 peristyle illustration. Preserve exactly the same single complete adult actor, identity, anatomy, profile, closed mouth and eyes, both hands, the one bronze ring in the open palm, the one white feather, the one Hercules-knot belt, clothing, pose, sandals, colonnade, dry floor, pale turquoise sky, light, palette, contours, and fresco texture. Change ONLY the far-right end of the saffron mantle: shorten and curl the streaming cloth inward so its complete frayed tip is clearly visible at least 90 pixels inside the right canvas edge, with pale sky or column background visible between every part of the mantle and the edge. Keep the windblown energy but make the entire mantle fully internal. Do not change or add any person, limb, finger, ring, feather, knot, garment, column, object, text, symbol, border, page, panel, inset, diagram, or decoration. No water, spray, illness, or treatment. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera scene, opaque sRGB, 1536×1024 landscape 3:2.",
+          "editSourceArtifactId": "exec-cbc96976-83b2-4585-8c68-cd1df7e77020",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c006.png",
+          "sha256": "87e20c65106de4dc70ee58b80ef884ef75c5ce2f6ed41d5da3a90c17e884aad0",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-d56d82f7-7d56-4db0-8ada-3c1101d6bc1f",
+          "outputArtifact": "built-in-imagegen://exec-d56d82f7-7d56-4db0-8ada-3c1101d6bc1f.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 6, “Remedies Derived from Sneezing.” Treat the many gestures and prescriptions as an antiquarian record of Roman folk belief, never as medical advice. Make an elegant symbolic still life in an empty red-plaster cabinet: exactly ONE complete life-sized terracotta Roman portrait mask rests upright on exactly ONE complete low black-stone stand, both fully internal. The mask is calm, dignified, and intact, with open eye and nostril apertures but no body, illness, mucus, spray, or grotesque expression. Exactly ONE complete soft white feather floats horizontally a finger’s breadth before the mask’s nose without touching it. On the left of the stand lies exactly ONE complete undyed linen cord tied in a single visible Hercules knot; on the right lies exactly ONE complete plain bronze finger ring. Behind and slightly below the mask sits exactly ONE complete shallow bronze basin of still warm water, with only the faintest translucent vapor and no hands entering it. No person, patient, child, animal, genital reference, treatment in progress, bodily fluid, wound, blood, explicit anatomy, extra mask, extra feather, extra ring, extra knot, vessel beyond the one basin, magical glow, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep mask, stand, feather, cord, ring, and basin well inside every edge. Composition: frontal archaeological still life with vast oxidized-cinnabar negative space and one long blue-violet cast shadow; objects form a sparse asymmetric constellation, not a display grid. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, chalk-white feather, fired-clay umber, verdigris bronze, black basalt, oxidized cinnabar, restrained shell-gold glints, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, quiet and observational, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous plaster wall, shelf plane, and shadow may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c006-attempt-01-global-mad-17.96.png",
+          "sha256": "bcbea368a0b547d5570e7bc9c9f4462d51018f5ffb98633afc0d37a951625681",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The otherwise valid red mask still life failed the permanent corpus distinctness threshold with nearest-neighbor MAD 17.96."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-cbc96976-83b2-4585-8c68-cd1df7e77020",
+          "outputArtifact": "built-in-imagegen://exec-cbc96976-83b2-4585-8c68-cd1df7e77020.png",
+          "exactPrompt": "Create a fresh, radically different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 6, “Remedies Derived from Sneezing.” Treat the passage as a staged historical vignette of Roman folk belief, never medical advice. In a vast high-key seaside peristyle at windy morning—dry stone only, no visible water—show exactly ONE complete fully clothed adult Roman actor, fully visible head-to-sandal and well inside the right third. The actor stands relaxed in profile with eyes gently closed and mouth closed, as exactly ONE complete white feather is carried by the breeze a hand’s breadth before the nose, not held and not touching. The actor’s near palm is open and contains exactly ONE complete plain bronze finger ring; the cream linen belt at the natural waist is tied in exactly ONE clearly visible Hercules knot. The far hand rests open at the side. A long saffron mantle streams horizontally in the wind but remains completely inside the frame. No sneeze spray, mucus, illness, treatment, mask, basin, hot water, patient, child, animal, genital reference, wound, blood, body fluid, extra person, extra feather, extra ring, extra knot, magical effect, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collage, montage, inset, or panels. Keep actor, every finger, sandal, mantle tip, feather, ring, and belt knot fully internal. Composition: radically high-key and asymmetrical—enormous bone-white colonnade and pale turquoise sky negative space on the left, a single saffron figure on the right, feather crossing the empty center; one continuous scene, not a still-life arrangement. Style continuity: museum-grade Roman natural-history fresco and egg tempera on sun-abraded lime plaster, precise iron-gall figure and feather contours, chalk white, pale turquoise, saffron, sparse cinnabar, aged bronze, restrained shell-gold sun, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, humane and observational, not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous floor, columns, sky, shadow, and light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c006-attempt-02-mantle-clipped-right.png",
+          "sha256": "2b30ea7dbc79966409698ffa8f9c3ee8115ac8784e093023380219699f6c9a67",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The fresh high-key composition had its saffron mantle clipped by the right canvas edge."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:7",
+      "visualQaNotes": "Inspected at original resolution. One complete dignified non-pregnant woman artisan-scholar stands beside one complete worktable with one bronze mirror, one folded purple cloth, one potted rue plant, and one sealed white milk flask; all objects are internal and no body-centered remedy is shown.",
+      "uncertaintyNote": "The image rejects the chapter’s misogynistic prodigies and respectfully frames women’s material knowledge alongside Pliny’s own doubts and contradictions.",
+      "title": "FORTY-ONE REMEDIES DERIVED FROM THE FEMALE SEX",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c007.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "0cd304735922ffd03e71ae851e854b2633473ec8c1931a4e17c8e18723cf7dd4",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-5f6f15e2-9a7a-4689-98f4-8f46f16b2d59",
+      "generationArtifactId": "exec-5f6f15e2-9a7a-4689-98f4-8f46f16b2d59",
+      "outputArtifact": "built-in-imagegen://exec-5f6f15e2-9a7a-4689-98f4-8f46f16b2d59.png",
+      "exactFinalPrompt": "Targeted dignity correction to this exact Book XXVIII.7 illustration. Preserve the same single adult woman’s identity, face, hair, skin tone, pose, hands, sandals, thoughtful expression, room, complete table, complete bronze hand mirror, one folded purple cloth, one potted rue plant, one sealed white milk flask, object positions, violet-grey wall, amber window light, palette, fresco texture, and 1536×1024 composition. Change ONLY the woman’s torso silhouette and garment draping so she is unmistakably NOT pregnant: an ordinary non-pregnant adult torso of average build, with a simple straight ivory tunic falling vertically from a natural waist and a narrow purple belt at the natural waist; remove the rounded projecting abdomen, under-bust gathering, and maternity-like drape. Keep her fully clothed and dignified, with no bodily emphasis. Do not change her age or make her unusually thin. Do not add or remove any person, object, limb, finger, vessel, plant, cloth, mirror, table, text, symbol, border, panel, page, or decoration. No nudity, pregnancy, bodily fluid, illness, treatment, child, or animal. Keep every discrete subject fully internal. Final remains one continuous museum-grade Roman fresco and egg-tempera scene, opaque sRGB landscape 3:2, 1536×1024.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-e12e3fdf-1014-48a8-9bed-3d29efaa6b1e",
+          "outputArtifact": "built-in-imagegen://exec-e12e3fdf-1014-48a8-9bed-3d29efaa6b1e.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 7, “Forty-One Remedies Derived from the Female Sex.” The source mixes material knowledge with explicitly misogynistic prodigies that Pliny himself often calls monstrous, contradictory, or better disbelieved. Reframe it respectfully as a dignified historical study of women’s household knowledge and the instability of the claims—never reduce a woman to her body, and never depict a remedy being performed. In a serene Roman textile room at late afternoon, show exactly ONE complete fully clothed adult woman artisan-scholar, fully visible head-to-sandal and comfortably internal, standing beside exactly ONE complete low cypress worktable. She has an assured, thoughtful expression and rests one open hand beside exactly ONE complete polished bronze hand mirror, face-up on the table. Also on the table: exactly ONE neatly folded piece of Tyrian-purple wool cloth, exactly ONE complete living rue plant in a small plain terracotta pot, and exactly ONE complete sealed white ceramic milk flask; every object separate, intact, and fully visible. Her other hand gently closes the plain lid of the milk flask—no liquid visible. No exposed body, pregnancy, menstruation, blood, spittle, hair burning, illness, wound, infant, child, treatment, nudity, sexualization, magical effect, storm, dead animal, animal part, inscription, text, letters, numerals, pseudo-writing, symbol, caption, border, frame, page, diagram, collection grid, collage, montage, inset, or panels. No extra people, mirrors, cloths, plants, vessels, or tables. Keep woman, table, mirror, cloth, plant, and flask fully inside all edges. Composition: one continuous room, broad violet-grey wall and floor as negative space, the woman and four materials joined by a quiet crescent of amber window light; neither clinical nor devotional. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, dignified anatomy and drapery, Tyrian purple, rue green, chalk-white ceramic, verdigris bronze, warm umber skin, restrained shell-gold light, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational not fantastical or photorealistic. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, shadow, and window light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c007-attempt-01-pregnant-silhouette.png",
+          "sha256": "46b565f368369d6c197dbd81a5b26f8839560bb5206f89a348922668fe3dd6ef",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Despite the prompt prohibition, the garment silhouette made the woman appear pregnant and reduced the intended dignity-centered framing."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-5f6f15e2-9a7a-4689-98f4-8f46f16b2d59",
+          "outputArtifact": "built-in-imagegen://exec-5f6f15e2-9a7a-4689-98f4-8f46f16b2d59.png",
+          "exactPrompt": "Targeted dignity correction to this exact Book XXVIII.7 illustration. Preserve the same single adult woman’s identity, face, hair, skin tone, pose, hands, sandals, thoughtful expression, room, complete table, complete bronze hand mirror, one folded purple cloth, one potted rue plant, one sealed white milk flask, object positions, violet-grey wall, amber window light, palette, fresco texture, and 1536×1024 composition. Change ONLY the woman’s torso silhouette and garment draping so she is unmistakably NOT pregnant: an ordinary non-pregnant adult torso of average build, with a simple straight ivory tunic falling vertically from a natural waist and a narrow purple belt at the natural waist; remove the rounded projecting abdomen, under-bust gathering, and maternity-like drape. Keep her fully clothed and dignified, with no bodily emphasis. Do not change her age or make her unusually thin. Do not add or remove any person, object, limb, finger, vessel, plant, cloth, mirror, table, text, symbol, border, panel, page, or decoration. No nudity, pregnancy, bodily fluid, illness, treatment, child, or animal. Keep every discrete subject fully internal. Final remains one continuous museum-grade Roman fresco and egg-tempera scene, opaque sRGB landscape 3:2, 1536×1024.",
+          "editSourceArtifactId": "exec-e12e3fdf-1014-48a8-9bed-3d29efaa6b1e",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c007.png",
+          "sha256": "0cd304735922ffd03e71ae851e854b2633473ec8c1931a4e17c8e18723cf7dd4",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-e12e3fdf-1014-48a8-9bed-3d29efaa6b1e",
+          "outputArtifact": "built-in-imagegen://exec-e12e3fdf-1014-48a8-9bed-3d29efaa6b1e.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 7, “Forty-One Remedies Derived from the Female Sex.” The source mixes material knowledge with explicitly misogynistic prodigies that Pliny himself often calls monstrous, contradictory, or better disbelieved. Reframe it respectfully as a dignified historical study of women’s household knowledge and the instability of the claims—never reduce a woman to her body, and never depict a remedy being performed. In a serene Roman textile room at late afternoon, show exactly ONE complete fully clothed adult woman artisan-scholar, fully visible head-to-sandal and comfortably internal, standing beside exactly ONE complete low cypress worktable. She has an assured, thoughtful expression and rests one open hand beside exactly ONE complete polished bronze hand mirror, face-up on the table. Also on the table: exactly ONE neatly folded piece of Tyrian-purple wool cloth, exactly ONE complete living rue plant in a small plain terracotta pot, and exactly ONE complete sealed white ceramic milk flask; every object separate, intact, and fully visible. Her other hand gently closes the plain lid of the milk flask—no liquid visible. No exposed body, pregnancy, menstruation, blood, spittle, hair burning, illness, wound, infant, child, treatment, nudity, sexualization, magical effect, storm, dead animal, animal part, inscription, text, letters, numerals, pseudo-writing, symbol, caption, border, frame, page, diagram, collection grid, collage, montage, inset, or panels. No extra people, mirrors, cloths, plants, vessels, or tables. Keep woman, table, mirror, cloth, plant, and flask fully inside all edges. Composition: one continuous room, broad violet-grey wall and floor as negative space, the woman and four materials joined by a quiet crescent of amber window light; neither clinical nor devotional. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, dignified anatomy and drapery, Tyrian purple, rue green, chalk-white ceramic, verdigris bronze, warm umber skin, restrained shell-gold light, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational not fantastical or photorealistic. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, shadow, and window light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c007-attempt-01-pregnant-silhouette.png",
+          "sha256": "46b565f368369d6c197dbd81a5b26f8839560bb5206f89a348922668fe3dd6ef",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Despite the prompt prohibition, the garment silhouette made the woman appear pregnant and reduced the intended dignity-centered framing."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:8",
+      "visualQaNotes": "Inspected at original resolution. Exactly four complete living animals—one elephant, one striped hyena, one chameleon on one complete olive branch, and one crocodile—share a humane dry nocturnal landscape; the corrected mineral flat is visibly cracked and contains no water.",
+      "uncertaintyNote": "Animal remedies and magical claims are bounded as ancient testimony that Pliny often disputes; no animal part, hunting, or treatment is depicted.",
+      "title": "REMEDIES DERIVED FROM FOREIGN ANIMALS: THE ELEPHANT, EIGHT REMEDIES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c008.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "35f07b933ad0660154bd7552950808f707feac63b9fcede2fb9de0fbbe5075fa",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c8bd8620-2ec6-46cb-b004-707c4bbbea03",
+      "generationArtifactId": "exec-c8bd8620-2ec6-46cb-b004-707c4bbbea03",
+      "outputArtifact": "built-in-imagegen://exec-c8bd8620-2ec6-46cb-b004-707c4bbbea03.png",
+      "exactFinalPrompt": "Targeted dry-ground correction to this exact Book XXVIII.8 foreign-animals bestiary. Preserve exactly the same four complete living animals—the one elephant, one striped hyena, one chameleon on one complete olive branch, and one crocodile—their identities, anatomy, poses, sizes, positions, spacing, moon, dry terraces, palms, night sky, foreground, palette, iron-gall contours, and fresco texture. Change ONLY the long horizontal turquoise band behind and beneath the elephant, which currently could read as water. Replace that entire band with an unmistakably DRY pale turquoise-and-chalk mineral salt flat: matte cracked polygonal earth, scattered dry dust, sparse tiny scrub, no sheen, no ripples, no reflections, no shoreline, no wetness, and no liquid anywhere. Make the elephant’s four feet rest solidly on this cracked dry ground. Preserve all limbs, tusks, tails, branch tips, and every focal subject fully internal. Do not add, remove, crop, duplicate, or alter any animal, branch, moon, tree, object, text, symbol, border, panel, page, inset, map, diagram, or decoration. No water body anywhere. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera landscape, opaque sRGB, 1536×1024 landscape 3:2.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-0018d46c-86d5-4f46-9f4c-b8520fbd6e7c",
+          "outputArtifact": "built-in-imagegen://exec-0018d46c-86d5-4f46-9f4c-b8520fbd6e7c.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 8, “Remedies Derived from Foreign Animals: The Elephant, Eight Remedies.” The chapter ranges from elephant, lion, camel, hyena, crocodile, chameleon, scincus, hippopotamus, and lynx to magical claims that Pliny repeatedly calls vain or ridiculous. Depict a humane living bestiary, not animal parts, medicines, hunting, or treatment. In a dry moonlit Nilotic garden of ochre terraces, show exactly FOUR complete living animals, each anatomically natural and comfortably inside the frame: exactly ONE calm African elephant walking left-to-right in the middle distance, entire trunk, tusks, ears, body, four legs, and tail visible; exactly ONE striped hyena standing alert on a low limestone shelf at far left, all four feet and tail visible; exactly ONE small chameleon perched on exactly ONE complete forked olive branch in the foreground center, all four feet, curled tail, and the whole branch visible; and exactly ONE Nile crocodile resting on a dry sandbar at far right, full snout, body, four legs, and tail visible. The elephant is largest and visually primary. The animals neither touch nor threaten one another. No lion, camel, scincus, hippopotamus, lynx, extra animal, human, trap, leash, blood, wound, carcass, detached anatomy, medicine, vessel, fire, water body, magical effect, attack, suffering, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, display grid, collage, montage, inset, or panels. Keep all four animals, every limb, tusk, tail, and the branch fully internal; continuous dry terrain and night sky alone may meet edges. Composition: a single deep panoramic landscape, elephant crossing a band of turquoise moonlight, hyena and crocodile counterweighting the foreground chameleon; large indigo sky and empty sand create negative space, never a lineup. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall zoological contours, elephant grey, hyena umber, chameleon malachite, crocodile olive-black, faded Egyptian turquoise, moonlit chalk, sparse shell-gold dust, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, humane and observational, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c008-attempt-01-ambiguous-water-band.png",
+          "sha256": "e1ba43e1de5925c08dc1d9cc33a2466a19215011b4d220ffe1fbbda44d164b1d",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "A horizontal turquoise band could read as edge-touching water despite the requested dry landscape."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-c8bd8620-2ec6-46cb-b004-707c4bbbea03",
+          "outputArtifact": "built-in-imagegen://exec-c8bd8620-2ec6-46cb-b004-707c4bbbea03.png",
+          "exactPrompt": "Targeted dry-ground correction to this exact Book XXVIII.8 foreign-animals bestiary. Preserve exactly the same four complete living animals—the one elephant, one striped hyena, one chameleon on one complete olive branch, and one crocodile—their identities, anatomy, poses, sizes, positions, spacing, moon, dry terraces, palms, night sky, foreground, palette, iron-gall contours, and fresco texture. Change ONLY the long horizontal turquoise band behind and beneath the elephant, which currently could read as water. Replace that entire band with an unmistakably DRY pale turquoise-and-chalk mineral salt flat: matte cracked polygonal earth, scattered dry dust, sparse tiny scrub, no sheen, no ripples, no reflections, no shoreline, no wetness, and no liquid anywhere. Make the elephant’s four feet rest solidly on this cracked dry ground. Preserve all limbs, tusks, tails, branch tips, and every focal subject fully internal. Do not add, remove, crop, duplicate, or alter any animal, branch, moon, tree, object, text, symbol, border, panel, page, inset, map, diagram, or decoration. No water body anywhere. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera landscape, opaque sRGB, 1536×1024 landscape 3:2.",
+          "editSourceArtifactId": "exec-0018d46c-86d5-4f46-9f4c-b8520fbd6e7c",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c008.png",
+          "sha256": "35f07b933ad0660154bd7552950808f707feac63b9fcede2fb9de0fbbe5075fa",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-0018d46c-86d5-4f46-9f4c-b8520fbd6e7c",
+          "outputArtifact": "built-in-imagegen://exec-0018d46c-86d5-4f46-9f4c-b8520fbd6e7c.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 8, “Remedies Derived from Foreign Animals: The Elephant, Eight Remedies.” The chapter ranges from elephant, lion, camel, hyena, crocodile, chameleon, scincus, hippopotamus, and lynx to magical claims that Pliny repeatedly calls vain or ridiculous. Depict a humane living bestiary, not animal parts, medicines, hunting, or treatment. In a dry moonlit Nilotic garden of ochre terraces, show exactly FOUR complete living animals, each anatomically natural and comfortably inside the frame: exactly ONE calm African elephant walking left-to-right in the middle distance, entire trunk, tusks, ears, body, four legs, and tail visible; exactly ONE striped hyena standing alert on a low limestone shelf at far left, all four feet and tail visible; exactly ONE small chameleon perched on exactly ONE complete forked olive branch in the foreground center, all four feet, curled tail, and the whole branch visible; and exactly ONE Nile crocodile resting on a dry sandbar at far right, full snout, body, four legs, and tail visible. The elephant is largest and visually primary. The animals neither touch nor threaten one another. No lion, camel, scincus, hippopotamus, lynx, extra animal, human, trap, leash, blood, wound, carcass, detached anatomy, medicine, vessel, fire, water body, magical effect, attack, suffering, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, display grid, collage, montage, inset, or panels. Keep all four animals, every limb, tusk, tail, and the branch fully internal; continuous dry terrain and night sky alone may meet edges. Composition: a single deep panoramic landscape, elephant crossing a band of turquoise moonlight, hyena and crocodile counterweighting the foreground chameleon; large indigo sky and empty sand create negative space, never a lineup. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall zoological contours, elephant grey, hyena umber, chameleon malachite, crocodile olive-black, faded Egyptian turquoise, moonlit chalk, sparse shell-gold dust, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, humane and observational, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c008-attempt-01-ambiguous-water-band.png",
+          "sha256": "e1ba43e1de5925c08dc1d9cc33a2466a19215011b4d220ffe1fbbda44d164b1d",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "A horizontal turquoise band could read as edge-touching water despite the requested dry landscape."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:9",
+      "visualQaNotes": "Inspected at original resolution. One complete stone dairy bench supports exactly one sealed milk jug, one round cheese resting directly on bare stone, one butter bowl, and one wooden churn with dasher; one complete fig branch hangs separately on the wall and no tabletop leaves remain.",
+      "uncertaintyNote": "Milk, cheese, butter, and processing are presented as ancient material and food history, not therapeutic instruction.",
+      "title": "REMEDIES FURNISHED IN COMMON BY ANIMALS OF THE SAME CLASS, WHETHER WILD OR TAME. FIFTY-FOUR MEDICINAL USES OF MILK, WITH OBSERVATIONS THEREON",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c009.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "5ac1ae822a11d42d1b786dd99304e1e82b7813a4c569242a2ef669c8aedb584a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-43667378-7035-42ac-a7d3-d693c15d47ec",
+      "generationArtifactId": "exec-43667378-7035-42ac-a7d3-d693c15d47ec",
+      "outputArtifact": "built-in-imagegen://exec-43667378-7035-42ac-a7d3-d693c15d47ec.png",
+      "exactFinalPrompt": "Targeted tabletop simplification to this exact Book XXVIII.9 Roman dairy still life. Preserve exactly the same complete stone bench, sealed milk jug, one round white cheese, green butter bowl and butter, wooden churn and dasher, complete hanging fig branch on the wall, room, sea-green plaster, morning light, shadows, object positions, palette, iron-gall contours, and fresco texture. Change ONLY the tabletop area directly beneath and around the round white cheese: remove EVERY leaf and every green botanical fragment from the tabletop, leaving clean pale stone visible, with the cheese resting directly on the bench. There must be zero leaves on the tabletop. Preserve the separate hanging fig branch and all of its leaves unchanged on the wall. Do not add any plate, cloth, mat, second cheese, vessel, object, food, plant, text, symbol, border, frame, page, panel, inset, diagram, or decoration. Do not remove or alter the jug, cheese, butter bowl, butter, churn, branch, bench, or architecture. Keep all discrete subjects fully internal. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera still life, opaque sRGB, 1536×1024 landscape 3:2.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-a933c42e-dbcd-4308-82e8-f3e76539a8d2",
+          "outputArtifact": "built-in-imagegen://exec-a933c42e-dbcd-4308-82e8-f3e76539a8d2.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 9, on ancient observations about milk, cheese, butter, whey, fat, marrow, and gall. Present material culture and food history only, not therapeutic instructions. In an empty sun-washed Roman dairy room, show exactly ONE complete low pale-stone workbench, fully internal and seen at a gentle three-quarter angle. Arrange exactly FOUR complete objects on it in a loose arc: at left, exactly ONE tall sealed ceramic milk jug with a plain cork and no visible liquid; near center-left, exactly ONE fresh round white goat cheese resting on exactly ONE complete fig leaf; near center-right, exactly ONE shallow green-glazed bowl holding a smooth mound of pale butter; at right, exactly ONE small upright wooden butter churn with its complete fitted lid and vertical dasher, all parts visible. Behind the bench, exactly ONE complete fresh fig branch hangs from a peg as a quiet reference to the chapter’s curdling account, all leaf and twig tips visible. No person, animal, milk stream, medical treatment, diseased body, blood, gall, meat, bone, knife, fire, extra vessel, extra cheese, extra bowl, extra branch, label, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, recipe, diagram, collection grid, collage, montage, inset, or panels. Keep bench, jug, cheese, leaf, bowl, butter, churn, dasher, and branch fully inside every edge. Composition: luminous still life with a large field of sea-green plaster negative space; oval bowl, round cheese, tall jug, and churn create an unforced rhythm rather than a catalog lineup. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, polished ceramic and butter against rough stone and wood, milk chalk, fig green, faded turquoise, wheat ochre, coral shadow, restrained shell-gold morning light, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, tactile and observational, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, and light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c009-attempt-01-extra-fig-leaves.png",
+          "sha256": "9e95655d61463907f829ca52fdc66faea35adf7a3ba104fe8332d2fb98a929a6",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The image placed several separate fig leaves beneath the cheese instead of the requested single leaf."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-58534ebb-3187-43ce-9b7a-ea3987aa758d",
+          "outputArtifact": "built-in-imagegen://exec-58534ebb-3187-43ce-9b7a-ea3987aa758d.png",
+          "exactPrompt": "Targeted leaf-count correction to this exact Book XXVIII.9 Roman dairy still life. Preserve exactly the same complete stone bench, sealed milk jug, one round white cheese, green butter bowl and butter, wooden churn and dasher, hanging fig branch on the wall, room, sea-green plaster, light, shadows, object positions, palette, iron-gall contours, and fresco texture. Change ONLY the leaves directly beneath the round cheese on the tabletop: remove the current cluster of several separate leaves and replace it with exactly ONE single large complete five-lobed fig leaf, fully visible as one continuous leaf with one short stem, centered under the cheese. It is fine for part of this ONE leaf’s central surface to be covered by the cheese, but all five lobes and its outer silhouette must be unambiguously visible; there must be no second tabletop leaf. Do not change the separate complete hanging fig branch or its leaves. Do not add, remove, crop, duplicate, or alter any other object, vessel, food, branch, table, peg, text, symbol, border, frame, page, panel, inset, diagram, or decoration. Keep every discrete subject fully internal. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera still life, opaque sRGB, 1536×1024 landscape 3:2.",
+          "editSourceArtifactId": "exec-a933c42e-dbcd-4308-82e8-f3e76539a8d2",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c009-attempt-02-extra-tabletop-leaves.png",
+          "sha256": "5f19ceb443b84f52b26303fb522ea41404d83e05969159c93139b9e587e7825e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first correction still rendered multiple separate tabletop leaves."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-43667378-7035-42ac-a7d3-d693c15d47ec",
+          "outputArtifact": "built-in-imagegen://exec-43667378-7035-42ac-a7d3-d693c15d47ec.png",
+          "exactPrompt": "Targeted tabletop simplification to this exact Book XXVIII.9 Roman dairy still life. Preserve exactly the same complete stone bench, sealed milk jug, one round white cheese, green butter bowl and butter, wooden churn and dasher, complete hanging fig branch on the wall, room, sea-green plaster, morning light, shadows, object positions, palette, iron-gall contours, and fresco texture. Change ONLY the tabletop area directly beneath and around the round white cheese: remove EVERY leaf and every green botanical fragment from the tabletop, leaving clean pale stone visible, with the cheese resting directly on the bench. There must be zero leaves on the tabletop. Preserve the separate hanging fig branch and all of its leaves unchanged on the wall. Do not add any plate, cloth, mat, second cheese, vessel, object, food, plant, text, symbol, border, frame, page, panel, inset, diagram, or decoration. Do not remove or alter the jug, cheese, butter bowl, butter, churn, branch, bench, or architecture. Keep all discrete subjects fully internal. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera still life, opaque sRGB, 1536×1024 landscape 3:2.",
+          "editSourceArtifactId": "exec-58534ebb-3187-43ce-9b7a-ea3987aa758d",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c009.png",
+          "sha256": "5ac1ae822a11d42d1b786dd99304e1e82b7813a4c569242a2ef669c8aedb584a",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-a933c42e-dbcd-4308-82e8-f3e76539a8d2",
+          "outputArtifact": "built-in-imagegen://exec-a933c42e-dbcd-4308-82e8-f3e76539a8d2.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 9, on ancient observations about milk, cheese, butter, whey, fat, marrow, and gall. Present material culture and food history only, not therapeutic instructions. In an empty sun-washed Roman dairy room, show exactly ONE complete low pale-stone workbench, fully internal and seen at a gentle three-quarter angle. Arrange exactly FOUR complete objects on it in a loose arc: at left, exactly ONE tall sealed ceramic milk jug with a plain cork and no visible liquid; near center-left, exactly ONE fresh round white goat cheese resting on exactly ONE complete fig leaf; near center-right, exactly ONE shallow green-glazed bowl holding a smooth mound of pale butter; at right, exactly ONE small upright wooden butter churn with its complete fitted lid and vertical dasher, all parts visible. Behind the bench, exactly ONE complete fresh fig branch hangs from a peg as a quiet reference to the chapter’s curdling account, all leaf and twig tips visible. No person, animal, milk stream, medical treatment, diseased body, blood, gall, meat, bone, knife, fire, extra vessel, extra cheese, extra bowl, extra branch, label, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, recipe, diagram, collection grid, collage, montage, inset, or panels. Keep bench, jug, cheese, leaf, bowl, butter, churn, dasher, and branch fully inside every edge. Composition: luminous still life with a large field of sea-green plaster negative space; oval bowl, round cheese, tall jug, and churn create an unforced rhythm rather than a catalog lineup. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall contours, polished ceramic and butter against rough stone and wood, milk chalk, fig green, faded turquoise, wheat ochre, coral shadow, restrained shell-gold morning light, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, tactile and observational, not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, and light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c009-attempt-01-extra-fig-leaves.png",
+          "sha256": "9e95655d61463907f829ca52fdc66faea35adf7a3ba104fe8332d2fb98a929a6",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The image placed several separate fig leaves beneath the cheese instead of the requested single leaf."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-58534ebb-3187-43ce-9b7a-ea3987aa758d",
+          "outputArtifact": "built-in-imagegen://exec-58534ebb-3187-43ce-9b7a-ea3987aa758d.png",
+          "exactPrompt": "Targeted leaf-count correction to this exact Book XXVIII.9 Roman dairy still life. Preserve exactly the same complete stone bench, sealed milk jug, one round white cheese, green butter bowl and butter, wooden churn and dasher, hanging fig branch on the wall, room, sea-green plaster, light, shadows, object positions, palette, iron-gall contours, and fresco texture. Change ONLY the leaves directly beneath the round cheese on the tabletop: remove the current cluster of several separate leaves and replace it with exactly ONE single large complete five-lobed fig leaf, fully visible as one continuous leaf with one short stem, centered under the cheese. It is fine for part of this ONE leaf’s central surface to be covered by the cheese, but all five lobes and its outer silhouette must be unambiguously visible; there must be no second tabletop leaf. Do not change the separate complete hanging fig branch or its leaves. Do not add, remove, crop, duplicate, or alter any other object, vessel, food, branch, table, peg, text, symbol, border, frame, page, panel, inset, diagram, or decoration. Keep every discrete subject fully internal. Final remains one continuous museum-grade Roman natural-history fresco and egg-tempera still life, opaque sRGB, 1536×1024 landscape 3:2.",
+          "editSourceArtifactId": "exec-a933c42e-dbcd-4308-82e8-f3e76539a8d2",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c009-attempt-02-extra-tabletop-leaves.png",
+          "sha256": "5f19ceb443b84f52b26303fb522ea41404d83e05969159c93139b9e587e7825e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first correction still rendered multiple separate tabletop leaves."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:10",
+      "visualQaNotes": "Inspected at original resolution, including a native crop of the goat. Exactly one complete alert dog, one complete calm calf, and one complete two-horned he-goat are separated by one complete closed willow gate on two stone feet; one oregano sprig is internal and no attack, foam, wound, or treatment appears.",
+      "uncertaintyNote": "The scene represents ancient fear and animal remedy lore without depicting rabies as a diagnosis or offering medical or veterinary advice.",
+      "title": "REMEDIES FOR THE BITE OF THE MAD DOG. REMEDIES DERIVED FROM THE CALF, THE HE-GOAT, AND VARIOUS OTHER ANIMALS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c010.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "3643a52b763be127fb5fe41e3f501823825b871ecb543dc75123637758079ab7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-3bdd0ae5-c2ed-4909-bb58-35082a5ae55a",
+      "generationArtifactId": "exec-3bdd0ae5-c2ed-4909-bb58-35082a5ae55a",
+      "outputArtifact": "built-in-imagegen://exec-3bdd0ae5-c2ed-4909-bb58-35082a5ae55a.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 10, “Remedies for the Bite of the Mad Dog; Remedies Derived from the Calf, the He-Goat, and Various Other Animals.” Treat the passage as historical testimony about ancient fear and animal remedies, not medical or veterinary advice. At misty dawn in a dry rural Roman courtyard, show exactly THREE complete living animals, all anatomically natural, unharmed, and fully internal: at far left, exactly ONE lean tawny village dog stands alert but does not lunge, bark, foam, bite, or show teeth; at center-right, exactly ONE calm cream-colored calf stands broadside; at far right, exactly ONE calm black-and-white he-goat stands three-quarter view with two natural horns. Between dog and the two farm animals stands exactly ONE complete low freestanding woven-willow gate on two complete stone feet, fully visible and closed, a humane visual boundary. The calf and goat look toward the dog without panic. Include exactly ONE complete small sprig of oregano lying on the ground beside the goat as a textual echo, all leaves visible. No person, injured patient, wound, blood, saliva, foam, attack, suffering, carcass, animal part, medicine preparation, incision, knife, rope, chain, collar, cage, fire, vessel, water, extra animal, extra gate, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collection grid, collage, montage, inset, or panels. Keep dog, calf, goat, horns, tails, legs, gate, stone feet, and oregano well away from every edge. Composition: one continuous courtyard with the complete gate as a diagonal hinge; wide dove-grey mist and bare ochre ground supply negative space, with the dog isolated in blue shadow and calf/goat held in pale dawn. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall animal contours, humane natural anatomy, tawny umber, milk chalk, goat black, willow brown, faded blue-grey, sparse madder, restrained shell-gold dawn, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, sober and observational, not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, ground, mist, and distant terrain may meet canvas edges; no discrete subject may be cropped.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-3bdd0ae5-c2ed-4909-bb58-35082a5ae55a",
+          "outputArtifact": "built-in-imagegen://exec-3bdd0ae5-c2ed-4909-bb58-35082a5ae55a.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 10, “Remedies for the Bite of the Mad Dog; Remedies Derived from the Calf, the He-Goat, and Various Other Animals.” Treat the passage as historical testimony about ancient fear and animal remedies, not medical or veterinary advice. At misty dawn in a dry rural Roman courtyard, show exactly THREE complete living animals, all anatomically natural, unharmed, and fully internal: at far left, exactly ONE lean tawny village dog stands alert but does not lunge, bark, foam, bite, or show teeth; at center-right, exactly ONE calm cream-colored calf stands broadside; at far right, exactly ONE calm black-and-white he-goat stands three-quarter view with two natural horns. Between dog and the two farm animals stands exactly ONE complete low freestanding woven-willow gate on two complete stone feet, fully visible and closed, a humane visual boundary. The calf and goat look toward the dog without panic. Include exactly ONE complete small sprig of oregano lying on the ground beside the goat as a textual echo, all leaves visible. No person, injured patient, wound, blood, saliva, foam, attack, suffering, carcass, animal part, medicine preparation, incision, knife, rope, chain, collar, cage, fire, vessel, water, extra animal, extra gate, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, diagram, collection grid, collage, montage, inset, or panels. Keep dog, calf, goat, horns, tails, legs, gate, stone feet, and oregano well away from every edge. Composition: one continuous courtyard with the complete gate as a diagonal hinge; wide dove-grey mist and bare ochre ground supply negative space, with the dog isolated in blue shadow and calf/goat held in pale dawn. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall animal contours, humane natural anatomy, tawny umber, milk chalk, goat black, willow brown, faded blue-grey, sparse madder, restrained shell-gold dawn, subtle pumice grain; ancient, timeless, exceptionally beautiful, rough and polished at once, sober and observational, not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, ground, mist, and distant terrain may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c010.png",
+          "sha256": "3643a52b763be127fb5fe41e3f501823825b871ecb543dc75123637758079ab7",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "28:11",
+      "visualQaNotes": "Inspected at original resolution. One complete pale marble portrait bust with natural mild crown thinning, one complete shed deer antler, and one living maidenhair fern in one complete blue pot form a bold ultramarine courtyard tableau; every object and plinth is fully internal.",
+      "uncertaintyNote": "Animal-derived prescriptions are framed as historical catalogue material; no treatment, patient suffering, or claim of efficacy is shown.",
+      "title": "REMEDIES FOR DISEASES OF THE HEAD, AND FOR ALOPECY",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c011.png",
+      "corpusArtifact": "public/corpus/book-28.7297f744b879fe66.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "23b1d7ea5ca979a3c1465abf2e1681fd47e581f568e6de4d9a8bcbe995da3bb7",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-981cc59a-a453-4037-a7b5-ecc2a5b51e0f",
+      "generationArtifactId": "exec-981cc59a-a453-4037-a7b5-ecc2a5b51e0f",
+      "outputArtifact": "built-in-imagegen://exec-981cc59a-a453-4037-a7b5-ecc2a5b51e0f.png",
+      "exactFinalPrompt": "Create a fresh, radically different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 11, “Remedies for Diseases of the Head, and for Alopecy.” Treat the prescriptions as historical testimony, never medical advice; show no treatment, patient, shame, or suffering. In a brilliantly lit Roman sculptor-naturalist’s courtyard, show exactly ONE complete pale marble portrait bust of a dignified middle-aged adult, including head, shoulders, chest block, and integral square plinth, all fully visible and centered slightly left. The sculpted hair shows a natural mildly thinning crown without caricature; the calm face looks toward the sun. On the dry cobalt-and-ochre mosaic floor to the right of the bust stand exactly TWO complete textual echoes: exactly ONE naturally shed deer antler lying flat with every tine visible, and exactly ONE living maidenhair fern in a small complete blue-glazed pot, every frond internal. The fern casts a large lace-like shadow upward onto a saturated ultramarine plaster wall, while the antler casts a crisp separate shadow. No living person, mirror, stool, animal, skull, severed flesh, blood, wound, rash, lice, medicine, shaving, cutting, bowl, bottle, soot, gall, urine, dung, fire, extra bust, extra antler, extra plant, label, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, recipe, diagram, collection grid, collage, montage, inset, or panels. Keep bust, plinth, antler, pot, fern, and all shadows legible and every discrete object well inside the canvas. Composition: bold high-key archaeological tableau with the white bust as a vertical mass, antler a low diagonal, fern a living green counterweight, and a huge ultramarine negative field; one continuous courtyard scene, not a display catalog. Style continuity: museum-grade Roman natural-history fresco and egg tempera on sun-abraded lime plaster, precise iron-gall hair, antler, and fern contours, marble chalk, lapis and Egyptian blue, fern malachite, ochre floor, sparse cinnabar tesserae, restrained shell-gold sun, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, mosaic floor, shadow, and sunlight may meet canvas edges; no discrete subject may be cropped.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-7c12cc69-7aef-42ce-befb-74c4ece6ac7d",
+          "outputArtifact": "built-in-imagegen://exec-7c12cc69-7aef-42ce-befb-74c4ece6ac7d.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 11, “Remedies for Diseases of the Head, and for Alopecy.” Treat the animal-derived prescriptions as a historical catalogue, never as medical advice; show no remedy being applied and no illness or shame. In a quiet Roman barber-scholar’s room at green dusk, show exactly ONE complete dignified clothed middle-aged adult seated fully visible on exactly ONE complete low three-legged stool, both safely internal. The adult has a natural mildly thinning crown, healthy scalp, and composed expression, and studies their reflection without distress in exactly ONE complete polished bronze mirror mounted on exactly ONE complete freestanding wooden support. Their hands rest open on their lap; no comb or substance touches the head. On the floor between stool and mirror support lie exactly TWO complete textual echoes, separate and fully visible: exactly ONE naturally shed deer antler and exactly ONE living maidenhair fern in a small plain terracotta pot. No second person, animal, skull, detached flesh, blood, wound, rash, lice, bald caricature, treatment, shaving, cutting, medicine, bowl, bottle, soot, gall, urine, dung, fire, extra mirror, extra antler, extra plant, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, recipe, diagram, collection grid, collage, montage, inset, or panels. Keep adult, stool, mirror, stand, antler, pot, and every fern frond fully inside all edges. Composition: a single room with a long diagonal between the living fern, shed antler, reflective mirror, and calm human gaze; broad malachite-black plaster negative space and a narrow amber skylight, contemplative rather than clinical. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall portrait, hair, hand, antler, and fern contours, verdigris bronze, fern malachite, deer-bone umber, charcoal green, muted cinnabar garment, restrained shell-gold dusk, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, shadow, and light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c011-attempt-01-global-mad-19.99.png",
+          "sha256": "cd52b847f35c0d7d1ffeb181322e01a22e3869c3b4e34288be5b64ac12a35f68",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The otherwise valid dark mirror scene missed the permanent corpus distinctness threshold with nearest-neighbor MAD 19.99."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-981cc59a-a453-4037-a7b5-ecc2a5b51e0f",
+          "outputArtifact": "built-in-imagegen://exec-981cc59a-a453-4037-a7b5-ecc2a5b51e0f.png",
+          "exactPrompt": "Create a fresh, radically different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 11, “Remedies for Diseases of the Head, and for Alopecy.” Treat the prescriptions as historical testimony, never medical advice; show no treatment, patient, shame, or suffering. In a brilliantly lit Roman sculptor-naturalist’s courtyard, show exactly ONE complete pale marble portrait bust of a dignified middle-aged adult, including head, shoulders, chest block, and integral square plinth, all fully visible and centered slightly left. The sculpted hair shows a natural mildly thinning crown without caricature; the calm face looks toward the sun. On the dry cobalt-and-ochre mosaic floor to the right of the bust stand exactly TWO complete textual echoes: exactly ONE naturally shed deer antler lying flat with every tine visible, and exactly ONE living maidenhair fern in a small complete blue-glazed pot, every frond internal. The fern casts a large lace-like shadow upward onto a saturated ultramarine plaster wall, while the antler casts a crisp separate shadow. No living person, mirror, stool, animal, skull, severed flesh, blood, wound, rash, lice, medicine, shaving, cutting, bowl, bottle, soot, gall, urine, dung, fire, extra bust, extra antler, extra plant, label, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, recipe, diagram, collection grid, collage, montage, inset, or panels. Keep bust, plinth, antler, pot, fern, and all shadows legible and every discrete object well inside the canvas. Composition: bold high-key archaeological tableau with the white bust as a vertical mass, antler a low diagonal, fern a living green counterweight, and a huge ultramarine negative field; one continuous courtyard scene, not a display catalog. Style continuity: museum-grade Roman natural-history fresco and egg tempera on sun-abraded lime plaster, precise iron-gall hair, antler, and fern contours, marble chalk, lapis and Egyptian blue, fern malachite, ochre floor, sparse cinnabar tesserae, restrained shell-gold sun, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational not photorealistic or fantasy. Full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, mosaic floor, shadow, and sunlight may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c011.png",
+          "sha256": "23b1d7ea5ca979a3c1465abf2e1681fd47e581f568e6de4d9a8bcbe995da3bb7",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-7c12cc69-7aef-42ce-befb-74c4ece6ac7d",
+          "outputArtifact": "built-in-imagegen://exec-7c12cc69-7aef-42ce-befb-74c4ece6ac7d.png",
+          "exactPrompt": "Create one independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XXVIII chapter 11, “Remedies for Diseases of the Head, and for Alopecy.” Treat the animal-derived prescriptions as a historical catalogue, never as medical advice; show no remedy being applied and no illness or shame. In a quiet Roman barber-scholar’s room at green dusk, show exactly ONE complete dignified clothed middle-aged adult seated fully visible on exactly ONE complete low three-legged stool, both safely internal. The adult has a natural mildly thinning crown, healthy scalp, and composed expression, and studies their reflection without distress in exactly ONE complete polished bronze mirror mounted on exactly ONE complete freestanding wooden support. Their hands rest open on their lap; no comb or substance touches the head. On the floor between stool and mirror support lie exactly TWO complete textual echoes, separate and fully visible: exactly ONE naturally shed deer antler and exactly ONE living maidenhair fern in a small plain terracotta pot. No second person, animal, skull, detached flesh, blood, wound, rash, lice, bald caricature, treatment, shaving, cutting, medicine, bowl, bottle, soot, gall, urine, dung, fire, extra mirror, extra antler, extra plant, text, letters, numerals, inscription, pseudo-writing, symbol, caption, border, frame, page, recipe, diagram, collection grid, collage, montage, inset, or panels. Keep adult, stool, mirror, stand, antler, pot, and every fern frond fully inside all edges. Composition: a single room with a long diagonal between the living fern, shed antler, reflective mirror, and calm human gaze; broad malachite-black plaster negative space and a narrow amber skylight, contemplative rather than clinical. Style continuity: museum-grade Roman natural-history fresco and egg tempera on abraded lime plaster, precise iron-gall portrait, hair, hand, antler, and fern contours, verdigris bronze, fern malachite, deer-bone umber, charcoal green, muted cinnabar garment, restrained shell-gold dusk, subtle pumice grain; ancient, timeless, humane, exceptionally beautiful, rough and polished at once, observational not photorealistic or fantasy. One continuous scene, full-bleed landscape 3:2, opaque sRGB PNG. Only continuous wall, floor, shadow, and light may meet canvas edges; no discrete subject may be cropped.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/evidence/history/b28-c011-attempt-01-global-mad-19.99.png",
+          "sha256": "cd52b847f35c0d7d1ffeb181322e01a22e3869c3b4e34288be5b64ac12a35f68",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The otherwise valid dark mirror scene missed the permanent corpus distinctness threshold with nearest-neighbor MAD 19.99."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

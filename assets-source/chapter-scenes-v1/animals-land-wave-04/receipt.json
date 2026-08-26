@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-land-wave-04",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "corpusGrounding": {
+    "source": "public/corpus/book-08.0e4c75290ce42e33.json",
+    "chaptersRead": [
+      "8:27",
+      "8:28",
+      "8:29",
+      "8:30",
+      "8:31",
+      "8:32",
+      "8:33",
+      "8:34"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The actual Latin and English corpus fields for every assigned chapter were read before prompt design. Ancient remedy, prognostic, extermination, and fabulous-animal claims are explicitly bounded as transmitted testimony rather than modern fact or advice."
+  },
+  "chapters": [
+    {
+      "chapterKey": "8:27",
+      "title": "THE MEDICINAL REMEDIES WHICH HAVE BEEN BORROWED FROM ANIMALS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c027.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "2f47550be2e70b8e238a1e57a3208870a591a68e9a79195e77790cc69e973de1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1454adfb-38f5-4ee5-8b2a-5f822b36a404",
+      "generationArtifactId": "exec-1454adfb-38f5-4ee5-8b2a-5f822b36a404",
+      "outputArtifact": "built-in-imagegen://exec-1454adfb-38f5-4ee5-8b2a-5f822b36a404.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VIII chapter 27, “THE MEDICINAL REMEDIES WHICH HAVE BEEN BORROWED FROM ANIMALS.” Ground it in Pliny’s transmitted report that a snake emerging from winter rubbed among fennel and juniper while shedding its old skin. Render the real animal process of ecdysis accurately, while treating any medicinal or plant-specific inference as ancient observation rather than established pharmacology or advice.\nScene/backdrop: early spring on a dry Mediterranean limestone bank. Exactly one complete nonvenomous Aesculapian snake moves slowly through a complete low stand of flowering fennel beside one complete young juniper shrub. Its head and forward body have emerged cleanly; one complete translucent shed skin lies behind it in a natural inside-out tube, visibly empty and anatomically distinct from the living snake. The animal is unwounded, unstressed, and not posed as a symbol. A few dew-dark stones and tiny crocus leaves suggest the end of winter; no people, vessel, prepared remedy, hunt, or intervention.\nComposition/framing: intimate ground-level naturalist view, with the snake’s complete sinuous body tracing an off-center S curve across the lower middle and the empty slough forming a separate quieter echo. The full fennel crowns, roots, juniper crown and trunk, snake from snout to tail tip, and entire shed skin must be visible with generous open earth and pale morning sky around them. Exactly one living animal.\nLighting/mood: clear silver-green dawn after rain; attentive, quiet, empirical, newly seasonal.\nColor palette: oxidized sage, pale fennel gold, cool limestone, smoke-grey skin, muted olive and a small crocus-violet accent.\nStyle/medium: original Plinian zoological folio on warm fibrous aged vellum; precise iron-gall anatomical contour, very fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Naturalistic species proportions and scale, not a decorative emblem. Landscape 3:2, 1536x1024.\nHistorical and medical framing: visualize a transmitted ancient association while making the observable event—normal shedding—the only thing shown. Do not imply that fennel, juniper, snake products, or animal imitation treat human disease.\nConstraints: opaque full-bleed RGB/sRGB PNG. Exactly one complete living snake and one clearly empty complete shed skin. Every animal feature, plant crown, root, branch, and focal stone safely internal with broad edge clearance; only continuous earth, distant scrub, and sky may reach the canvas boundaries.\nAvoid: venom strike, fighting, wound, arrow, blood, gore, skinning, dissected animal, dead animal, medicine preparation, dosage, physician, patient, cure demonstration, mystical aura, serpent staff, allegory, repeated snake, confusing the slough for a second animal, open book, scroll, tablet, labels, text, lettering, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, duplication, photography, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-1454adfb-38f5-4ee5-8b2a-5f822b36a404",
+          "outputArtifact": "built-in-imagegen://exec-1454adfb-38f5-4ee5-8b2a-5f822b36a404.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VIII chapter 27, “THE MEDICINAL REMEDIES WHICH HAVE BEEN BORROWED FROM ANIMALS.” Ground it in Pliny’s transmitted report that a snake emerging from winter rubbed among fennel and juniper while shedding its old skin. Render the real animal process of ecdysis accurately, while treating any medicinal or plant-specific inference as ancient observation rather than established pharmacology or advice.\nScene/backdrop: early spring on a dry Mediterranean limestone bank. Exactly one complete nonvenomous Aesculapian snake moves slowly through a complete low stand of flowering fennel beside one complete young juniper shrub. Its head and forward body have emerged cleanly; one complete translucent shed skin lies behind it in a natural inside-out tube, visibly empty and anatomically distinct from the living snake. The animal is unwounded, unstressed, and not posed as a symbol. A few dew-dark stones and tiny crocus leaves suggest the end of winter; no people, vessel, prepared remedy, hunt, or intervention.\nComposition/framing: intimate ground-level naturalist view, with the snake’s complete sinuous body tracing an off-center S curve across the lower middle and the empty slough forming a separate quieter echo. The full fennel crowns, roots, juniper crown and trunk, snake from snout to tail tip, and entire shed skin must be visible with generous open earth and pale morning sky around them. Exactly one living animal.\nLighting/mood: clear silver-green dawn after rain; attentive, quiet, empirical, newly seasonal.\nColor palette: oxidized sage, pale fennel gold, cool limestone, smoke-grey skin, muted olive and a small crocus-violet accent.\nStyle/medium: original Plinian zoological folio on warm fibrous aged vellum; precise iron-gall anatomical contour, very fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Naturalistic species proportions and scale, not a decorative emblem. Landscape 3:2, 1536x1024.\nHistorical and medical framing: visualize a transmitted ancient association while making the observable event—normal shedding—the only thing shown. Do not imply that fennel, juniper, snake products, or animal imitation treat human disease.\nConstraints: opaque full-bleed RGB/sRGB PNG. Exactly one complete living snake and one clearly empty complete shed skin. Every animal feature, plant crown, root, branch, and focal stone safely internal with broad edge clearance; only continuous earth, distant scrub, and sky may reach the canvas boundaries.\nAvoid: venom strike, fighting, wound, arrow, blood, gore, skinning, dissected animal, dead animal, medicine preparation, dosage, physician, patient, cure demonstration, mystical aura, serpent staff, allegory, repeated snake, confusing the slough for a second animal, open book, scroll, tablet, labels, text, lettering, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, duplication, photography, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c027.png",
+          "sha256": "2f47550be2e70b8e238a1e57a3208870a591a68e9a79195e77790cc69e973de1",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The scene shows normal snake ecdysis. Pliny's association with fennel, juniper, or human remedies remains transmitted ancient testimony, not established pharmacology or advice.",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete living Aesculapian snake and one clearly empty complete slough are distinct; the full fennel stand, juniper shrub, anatomy, head and tail are safely internal. The snake is unwounded and unhandled. No remedy preparation, patient, text, pseudo-writing, signature, page, frame, panel, montage, duplicated animal, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:28",
+      "title": "PROGNOSTICS OF DANGER DERIVED FROM ANIMALS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c028.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "a2bb0dac43f353c307ca32174f515619bb4634b49ca1b34825e4a6cbff77e1af",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-cf13f095-89f8-448f-8253-de8030860d0d",
+      "generationArtifactId": "exec-cf13f095-89f8-448f-8253-de8030860d0d",
+      "outputArtifact": "built-in-imagegen://exec-cf13f095-89f8-448f-8253-de8030860d0d.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Make three edge-and-safety corrections to Image 1, the Book VIII chapter 28 frozen-lake scene. First, erase the small black cursive-like pseudo-signature in the extreme bottom-left corner and replace it with seamless untouched snow and rock texture. Second, move the complete fox farther back onto firm snowy ground so all four paws are visibly on snow at least one full fox-body length away from the ice shoreline; keep its lowered listening posture directed toward the lake, but it must not touch or step onto the ice. Third, reposition the two travelers as complete standing adults behind the same stone marker, with both full heads, hands, garments, legs, and sandal-clad feet clearly visible and comfortably internal; keep both walking staffs laid horizontally on the snow in front of them.\nInvariants: Preserve exactly one red fox and exactly two travelers; preserve their identities, ancient winter clothing, complete oval frozen lake and unbroken internal shoreline, open-water patch, basin, mountains, blue-hour sky, all ice textures, stone marker, two staffs, elevated oblique composition, palette, restrained mood, vellum grain, iron-gall contour, cross-hatching, stipple, dry-brush abrasion, and mineral washes. Nobody enters or tests the ice. Do not add or remove any other element.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024 landscape.\nAvoid: any signature or mark in the lower-left, fox paw on ice, concealed human feet, crossing, rescue, fall, breaking ice, ritual, prophecy magic, text, lettering, labels, captions, numerals, pseudo-writing, inscriptions, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, new people or animals, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-e7b3d258-e436-48e4-ab71-418aa67cd665",
+          "outputArtifact": "built-in-imagegen://exec-e7b3d258-e436-48e4-ab71-418aa67cd665.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VIII chapter 28, “PROGNOSTICS OF DANGER DERIVED FROM ANIMALS.” Ground it in Pliny’s transmitted Thracian report that people watched foxes at frozen water and interpreted a fox placing its ear near the ice as a test of thickness. Show cautious historical observation, not a verified animal forecast or guidance for judging ice safety.\nScene/backdrop: a high, snow-muted Thracian basin at blue dusk containing one complete small oval frozen lake; its entire shoreline forms an unbroken ring fully visible inside the canvas. Exactly one complete red fox remains on firm snowy bank, body low and one ear inclined toward the ice without stepping onto it. Across the near ridge, exactly two complete adult travelers in restrained ancient winter cloaks wait behind a low stone marker, their walking staffs laid horizontally on the ground; neither approaches or crosses the lake. The ice contains subtle natural tonal variation and a small patch of open dark water near the far shore, making uncertainty visible without dramatic cracking.\nComposition/framing: elevated oblique view that contains the entire lake like a dark silver lens within broad snowfields. The fox is a warm off-center accent near the lower shoreline; the two travelers are small but complete on a separate ridge. Exactly one fox and two humans. Keep the whole fox, both people, staffs, stone marker, all four paws, tails, hands and feet, the complete lake, and every part of its shoreline safely inside with generous negative space.\nLighting/mood: quiet blue hour under a low winter sky; watchful, restrained, uncertain, cold but not ominous.\nColor palette: silver-blue ice, indigo shadow, chalk snow, dark stone, russet fox fur, a single muted madder cloak.\nStyle/medium: original Plinian zoological folio on warm fibrous aged vellum; precise iron-gall animal and landscape contour, fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Natural red-fox anatomy and scale. Landscape 3:2, 1536x1024.\nHistorical and safety framing: this is a visualization of Pliny’s transmitted report, not evidence that fox behavior reliably measures ice. The image must not encourage anyone to enter or test frozen water.\nConstraints: opaque full-bleed RGB/sRGB PNG. Exactly one complete fox and exactly two complete humans. The complete frozen lake and unbroken shoreline must be wholly internal; no water or ice reaches an outer edge. All people, animal anatomy, clothing, staffs, marker, and focal terrain safely contained. Only sky and continuous snowfield may continue through canvas edges.\nAvoid: human or fox on the ice, crossing, skating, rescue, fall, drowning, breaking ice, danger spectacle, augur ritual, entrails, sacrifice, prophecy magic, glowing omen, modern clothing, modern safety equipment, open book, scroll, tablet, labels, text, lettering, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, duplication, photography, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c028-attempt-01-pseudo-signature-fox-at-ice.png",
+          "sha256": "fffdb7ee7fae59d578ad478a37aee92ee4b24b1169cf53055987b1ef90b75a33",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because a cursive-like pseudo-signature appeared in the extreme lower-left, the fox stood too close to the ice edge, and both seated travelers had concealed feet. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-cf13f095-89f8-448f-8253-de8030860d0d",
+          "outputArtifact": "built-in-imagegen://exec-cf13f095-89f8-448f-8253-de8030860d0d.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Make three edge-and-safety corrections to Image 1, the Book VIII chapter 28 frozen-lake scene. First, erase the small black cursive-like pseudo-signature in the extreme bottom-left corner and replace it with seamless untouched snow and rock texture. Second, move the complete fox farther back onto firm snowy ground so all four paws are visibly on snow at least one full fox-body length away from the ice shoreline; keep its lowered listening posture directed toward the lake, but it must not touch or step onto the ice. Third, reposition the two travelers as complete standing adults behind the same stone marker, with both full heads, hands, garments, legs, and sandal-clad feet clearly visible and comfortably internal; keep both walking staffs laid horizontally on the snow in front of them.\nInvariants: Preserve exactly one red fox and exactly two travelers; preserve their identities, ancient winter clothing, complete oval frozen lake and unbroken internal shoreline, open-water patch, basin, mountains, blue-hour sky, all ice textures, stone marker, two staffs, elevated oblique composition, palette, restrained mood, vellum grain, iron-gall contour, cross-hatching, stipple, dry-brush abrasion, and mineral washes. Nobody enters or tests the ice. Do not add or remove any other element.\nOutput intent: opaque full-bleed RGB/sRGB PNG, 1536x1024 landscape.\nAvoid: any signature or mark in the lower-left, fox paw on ice, concealed human feet, crossing, rescue, fall, breaking ice, ritual, prophecy magic, text, lettering, labels, captions, numerals, pseudo-writing, inscriptions, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, new people or animals, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-e7b3d258-e436-48e4-ab71-418aa67cd665",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c028.png",
+          "sha256": "a2bb0dac43f353c307ca32174f515619bb4634b49ca1b34825e4a6cbff77e1af",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The fox-at-ice motif is presented as a transmitted ancient report, not a verified method for assessing ice safety; nobody enters or tests the lake.",
+      "visualQaNotes": "Inspected at original resolution after one targeted correction. Exactly one complete fox stands with all four paws on the snowy bank; exactly two complete standing observers and two laid-down staffs remain behind the marker. The complete frozen lake and unbroken shoreline, including the open-water patch, are wholly visible. Nobody enters or tests the ice. No text, pseudo-writing, signature, page, frame, panel, montage, duplication, concealed feet, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-e7b3d258-e436-48e4-ab71-418aa67cd665.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c028-attempt-01-pseudo-signature-fox-at-ice.png",
+          "sha256": "fffdb7ee7fae59d578ad478a37aee92ee4b24b1169cf53055987b1ef90b75a33",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: independent full-resolution zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Create one original illustration for Pliny the Elder, Naturalis Historia, Book VIII chapter 28, “PROGNOSTICS OF DANGER DERIVED FROM ANIMALS.” Ground it in Pliny’s transmitted Thracian report that people watched foxes at frozen water and interpreted a fox placing its ear near the ice as a test of thickness. Show cautious historical observation, not a verified animal forecast or guidance for judging ice safety.\nScene/backdrop: a high, snow-muted Thracian basin at blue dusk containing one complete small oval frozen lake; its entire shoreline forms an unbroken ring fully visible inside the canvas. Exactly one complete red fox remains on firm snowy bank, body low and one ear inclined toward the ice without stepping onto it. Across the near ridge, exactly two complete adult travelers in restrained ancient winter cloaks wait behind a low stone marker, their walking staffs laid horizontally on the ground; neither approaches or crosses the lake. The ice contains subtle natural tonal variation and a small patch of open dark water near the far shore, making uncertainty visible without dramatic cracking.\nComposition/framing: elevated oblique view that contains the entire lake like a dark silver lens within broad snowfields. The fox is a warm off-center accent near the lower shoreline; the two travelers are small but complete on a separate ridge. Exactly one fox and two humans. Keep the whole fox, both people, staffs, stone marker, all four paws, tails, hands and feet, the complete lake, and every part of its shoreline safely inside with generous negative space.\nLighting/mood: quiet blue hour under a low winter sky; watchful, restrained, uncertain, cold but not ominous.\nColor palette: silver-blue ice, indigo shadow, chalk snow, dark stone, russet fox fur, a single muted madder cloak.\nStyle/medium: original Plinian zoological folio on warm fibrous aged vellum; precise iron-gall animal and landscape contour, fine cross-hatching and stipple, dry-brush abrasion, translucent restrained mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Natural red-fox anatomy and scale. Landscape 3:2, 1536x1024.\nHistorical and safety framing: this is a visualization of Pliny’s transmitted report, not evidence that fox behavior reliably measures ice. The image must not encourage anyone to enter or test frozen water.\nConstraints: opaque full-bleed RGB/sRGB PNG. Exactly one complete fox and exactly two complete humans. The complete frozen lake and unbroken shoreline must be wholly internal; no water or ice reaches an outer edge. All people, animal anatomy, clothing, staffs, marker, and focal terrain safely contained. Only sky and continuous snowfield may continue through canvas edges.\nAvoid: human or fox on the ice, crossing, skating, rescue, fall, drowning, breaking ice, danger spectacle, augur ritual, entrails, sacrifice, prophecy magic, glowing omen, modern clothing, modern safety equipment, open book, scroll, tablet, labels, text, lettering, captions, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, duplication, photography, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because a cursive-like pseudo-signature appeared in the extreme lower-left, the fox stood too close to the ice edge, and both seated travelers had concealed feet. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:29",
+      "title": "NATIONS THAT HAVE BEEN EXTERMINATED BY ANIMALS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c029.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "4b9cb39c19afcb312bfa660613a5b72840b814b04d8db3c70270713f7fe3b1d9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-69ed4cb7-bc32-44d8-9922-2b14299e902e",
+      "generationArtifactId": "exec-69ed4cb7-bc32-44d8-9922-2b14299e902e",
+      "outputArtifact": "built-in-imagegen://exec-69ed4cb7-bc32-44d8-9922-2b14299e902e.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 29.\nPrimary subject and action: Create one continuous, quiet archaeological-afterward scene for Varro's transmitted report that a town in Spain was driven away by rabbits. From a low ground-level viewpoint on a dry Iberian hillside, show exactly three complete, anatomically credible European rabbits near three separate natural burrow mouths beneath a fully visible, already-weathered stone terrace wall. One rabbit sits upright listening, one sniffs thyme beside a burrow, and one is stepping calmly across ochre soil; every ear, paw, tail, and body is complete and comfortably inside the canvas. In the middle distance, show a small, wholly visible Roman-era hill settlement standing empty and peaceful, with several modest terracotta-roofed houses, a winding path, and dry grasses reclaiming the margins. The settlement should look long unoccupied rather than actively attacked: no collapse in progress, no people, no bodies, no panic, no swarm. The image must only evoke an old reported association between burrows and human departure, never claim literal extermination or certain causation.\nComposition: single uninterrupted landscape, strongly oblique diagonal from close rabbit burrows at lower right toward the complete hill settlement at upper left; ample lavender dusk sky and warm negative space; wide environmental scale, no cutaway, no diagram. Keep the entire settlement silhouette, terrace wall ends, all burrow mouths, and all rabbits at least 60 pixels inside every edge.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: dense iron-gall contour, fine cross-hatching, stippled rabbit fur and stone, dry-brush abrasion, visible fibrous vellum-like grain carried through the full image, restrained mineral pigments in baked terracotta, tawny ochre, thyme green, smoky violet, and small touches of faded malachite. Ancient, timeless, rough and polished at once; naturalistic animal anatomy; no modern objects; not photorealistic, not glossy CGI.\nHistorical and ethical framing: portray a transmitted ancient observation through restrained aftermath, not a spectacle. Do not show extermination, injury, killing, gore, vermin stigma, dehumanization, supernatural infestation, or medical advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, maps, symbols, seals, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, triptych, inset, montage, collage, split scene, repeated or duplicated rabbits, cropped anatomy, cropped buildings, foreground object touching an edge, people, weapons, traps, carcasses, dramatic ruin, fire, storm, modern architecture.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-69ed4cb7-bc32-44d8-9922-2b14299e902e",
+          "outputArtifact": "built-in-imagegen://exec-69ed4cb7-bc32-44d8-9922-2b14299e902e.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 29.\nPrimary subject and action: Create one continuous, quiet archaeological-afterward scene for Varro's transmitted report that a town in Spain was driven away by rabbits. From a low ground-level viewpoint on a dry Iberian hillside, show exactly three complete, anatomically credible European rabbits near three separate natural burrow mouths beneath a fully visible, already-weathered stone terrace wall. One rabbit sits upright listening, one sniffs thyme beside a burrow, and one is stepping calmly across ochre soil; every ear, paw, tail, and body is complete and comfortably inside the canvas. In the middle distance, show a small, wholly visible Roman-era hill settlement standing empty and peaceful, with several modest terracotta-roofed houses, a winding path, and dry grasses reclaiming the margins. The settlement should look long unoccupied rather than actively attacked: no collapse in progress, no people, no bodies, no panic, no swarm. The image must only evoke an old reported association between burrows and human departure, never claim literal extermination or certain causation.\nComposition: single uninterrupted landscape, strongly oblique diagonal from close rabbit burrows at lower right toward the complete hill settlement at upper left; ample lavender dusk sky and warm negative space; wide environmental scale, no cutaway, no diagram. Keep the entire settlement silhouette, terrace wall ends, all burrow mouths, and all rabbits at least 60 pixels inside every edge.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: dense iron-gall contour, fine cross-hatching, stippled rabbit fur and stone, dry-brush abrasion, visible fibrous vellum-like grain carried through the full image, restrained mineral pigments in baked terracotta, tawny ochre, thyme green, smoky violet, and small touches of faded malachite. Ancient, timeless, rough and polished at once; naturalistic animal anatomy; no modern objects; not photorealistic, not glossy CGI.\nHistorical and ethical framing: portray a transmitted ancient observation through restrained aftermath, not a spectacle. Do not show extermination, injury, killing, gore, vermin stigma, dehumanization, supernatural infestation, or medical advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, maps, symbols, seals, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, triptych, inset, montage, collage, split scene, repeated or duplicated rabbits, cropped anatomy, cropped buildings, foreground object touching an edge, people, weapons, traps, carcasses, dramatic ruin, fire, storm, modern architecture.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c029.png",
+          "sha256": "4b9cb39c19afcb312bfa660613a5b72840b814b04d8db3c70270713f7fe3b1d9",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The image interprets Varro's report as a quiet association between rabbit burrows and an already-unoccupied settlement. It does not literalize extermination, show deaths, or claim certain causation.",
+      "visualQaNotes": "Inspected at original resolution. Exactly three distinct complete European rabbits occupy three separate burrow mouths below a complete weathered terrace; the distant settlement is fully contained and long unoccupied. No swarm, people, bodies, panic, active destruction, vermin stigma, text, pseudo-writing, signature, page, frame, panel, montage, duplication, or clipped focal subject was found.",
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:30",
+      "title": "THE HYÆNA",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c030.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "509173e92bd49434baabe2a69d4a7d359f740bdf08b34e66286c0c44d02d9a95",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7361a108-f05b-4914-b710-5c6bec4344c2",
+      "generationArtifactId": "exec-7361a108-f05b-4914-b710-5c6bec4344c2",
+      "outputArtifact": "built-in-imagegen://exec-7361a108-f05b-4914-b710-5c6bec4344c2.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the right-edge framing of Image 1, the high-key Book VIII chapter 30 hyena salt-plain scene. Shorten the distant chalk ridge so its complete right end slopes naturally down to the flat horizon around x=1370, leaving at least 120 pixels of uninterrupted pale sky and flat salt horizon between the ridge and the right canvas edge. The ridge's complete left and right ends, top silhouette, and base must all be visible inside the image. Replace the former continuation through the right edge with seamless existing powder-blue sky and pale flat salt plain. No ridge rock may touch any edge.\nInvariants: Preserve exactly one complete spotted hyena, its identity, closed mouth, glance-back pose, correct four legs and paws, full tail, rounded ears, sloping back, scale, position, and edge clearance. Preserve exactly one small complete termite mound, every foreground stone, very high horizon, sunrise light, salt textures, rose-gold and ivory palette, powder-blue sky, quiet spacious composition, iron-gall contour, cross-hatching, stippling, dry-brush abrasion, and fibrous grain. Do not add any animal, person, enclosure, plant, building, or new geological object.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: ridge touching an edge, alterations to hyena anatomy, open mouth, extra limbs, duplicated animals, text, letters, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, dark night palette, fantasy elements, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-1fd0d138-ef54-4b98-84e9-25349763566c",
+          "outputArtifact": "built-in-imagegen://exec-1fd0d138-ef54-4b98-84e9-25349763566c.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 30.\nPrimary subject and action: Show exactly one complete, anatomically accurate adult spotted hyena in a natural North African night landscape, treated as a real animal rather than a fabulous monster. The hyena stands in three-quarter side profile on firm tawny ground, with rounded ears, strong forequarters, naturally sloping back, four correctly placed weight-bearing legs, short spotted coat, and a full tail. Its head is lifted slightly and its mouth is only gently open in an ordinary nocturnal whoop; it is attentive but neither menacing nor attacking. Far behind it, show one small, wholly visible stone-and-thorn pastoral enclosure with a closed wooden gate and one extinguished brazier, suggesting human listeners have safely withdrawn; no people, livestock, dogs, graves, or bodies are visible. This visual responds to ancient reports of the hyena's voice by centering the known animal and refusing literal human speech, magical shadows, sex-changing anatomy, corpse-digging, the corocotta, or the manticore.\nComposition: single uninterrupted scene, low side-on viewpoint; the hyena occupies the lower-left middle ground and faces into a broad field of indigo negative space at right, while a pale crescent moon and the distant secure enclosure balance the upper-right. Keep the entire hyena, moon, enclosure, and terrain silhouette comfortably inside the canvas with at least 70 pixels around prominent forms. No object touches an edge.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: confident iron-gall contour, very fine cross-hatching, stippled fur, scratched dry-brush highlights, full-field fibrous vellum-like grain, and restrained mineral washes of deep indigo, lampblack, smoky plum, tawny ochre, and muted moon-silver. Ancient, timeless, rough and polished at once; zoologically credible; atmospheric but not horror; not photorealistic, not glossy CGI.\nHistorical and ethical framing: an observed real spotted hyena in a calm natural moment. Treat Pliny's marvelous claims as transmitted testimony, not fact. No stigma, spectacle, gore, injury, hunting, or attack.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, speech marks, sound waves, mystical symbols, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated hyenas, other animals, cropped ears, paws, legs, or tail, extra limbs, distorted anatomy, bared fangs, blood, graves, bones, carcasses, human figures, hybrid monsters, fantasy eyes, glowing magic, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c030-attempt-01-global-mad-below-20.png",
+          "sha256": "26c5e7a35bc5a7b5a41d0c6d59b16349ce14d5c1ce3246d9488442f57c2bacda",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected by the live global distinctness audit: the otherwise valid moonlit hyena master measured nearestMAD 16.79 against an existing dark mineral-wash scene, below the campaign minimum of 20. Its original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-b2ebc1fa-a070-4ee5-94b2-fa38f045d464",
+          "outputArtifact": "built-in-imagegen://exec-b2ebc1fa-a070-4ee5-94b2-fa38f045d464.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 30.\nPrimary subject and action: Show exactly one complete, anatomically accurate adult spotted hyena as an ordinary real animal crossing a broad North African limestone salt plain just after sunrise. The hyena walks calmly from right toward left in a clean three-quarter side profile and glances back over one shoulder, mouth closed. Show rounded ears, powerful forequarters, naturally sloping back, short spotted coat, exactly four distinct correctly jointed legs in a measured walking gait, four complete paws, and one full tail. Its expression is alert, intelligent, and nonthreatening. Far behind, include exactly one small wholly visible pale termite mound and a low fully contained chalk ridge; no enclosure, people, livestock, other animals, graves, bones, attack, or hunt. The image answers Pliny's marvelous catalogue by centering the known hyena and refusing literal human speech, magical shadows, sex-changing anatomy, corpse-digging, corocotta, or manticore.\nComposition: one uninterrupted, unusually high-key panorama from a slightly elevated long-lens viewpoint. Place the complete hyena in the lower-right middle ground, facing into an immense open band of pale salt and rose-gold morning light at left; use a very high horizon and a thin powder-blue sky. Keep every ear, paw, tail hair, the entire termite mound, ridge silhouette, and all prominent stones at least 100 pixels inside the canvas. Nothing prominent touches an edge. No moon, star field, camp, wall, night, or dark indigo ground.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: warm iron-gall contour, delicate cross-hatching, stippled coat, granular salt texture, dry-brush wind abrasion, subtle fibrous vellum-like grain across the whole field, and translucent restrained mineral washes of chalk ivory, rose-gold, pale coral, dusty celadon, honey ochre, and a narrow powder-blue sky. Ancient, timeless, rough and polished at once; quiet sunlit spaciousness; zoologically credible; not photorealistic, not glossy CGI.\nHistorical and ethical framing: portray one real spotted hyena in calm habitat. Treat Pliny's fabulous claims as transmitted testimony, not zoological fact. No stigma, fear spectacle, gore, injury, hunting, or dehumanization.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, speech marks, sound waves, mystical symbols, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated hyenas, other animals, cropped ears, paws, legs, or tail, extra limbs, distorted anatomy, open mouth, bared fangs, blood, graves, bones, carcasses, human figures, hybrid monsters, fantasy eyes, glowing magic, moon, dark navy field, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c030-attempt-02-chalk-ridge-cropped-right.png",
+          "sha256": "ee6be7d827bae655405c2b3ba65e07ab36dbf63c969e2ea37ebc3859cec96f34",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the high-key regeneration because the distant chalk ridge continued through the right boundary rather than remaining wholly internal. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-7361a108-f05b-4914-b710-5c6bec4344c2",
+          "outputArtifact": "built-in-imagegen://exec-7361a108-f05b-4914-b710-5c6bec4344c2.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the right-edge framing of Image 1, the high-key Book VIII chapter 30 hyena salt-plain scene. Shorten the distant chalk ridge so its complete right end slopes naturally down to the flat horizon around x=1370, leaving at least 120 pixels of uninterrupted pale sky and flat salt horizon between the ridge and the right canvas edge. The ridge's complete left and right ends, top silhouette, and base must all be visible inside the image. Replace the former continuation through the right edge with seamless existing powder-blue sky and pale flat salt plain. No ridge rock may touch any edge.\nInvariants: Preserve exactly one complete spotted hyena, its identity, closed mouth, glance-back pose, correct four legs and paws, full tail, rounded ears, sloping back, scale, position, and edge clearance. Preserve exactly one small complete termite mound, every foreground stone, very high horizon, sunrise light, salt textures, rose-gold and ivory palette, powder-blue sky, quiet spacious composition, iron-gall contour, cross-hatching, stippling, dry-brush abrasion, and fibrous grain. Do not add any animal, person, enclosure, plant, building, or new geological object.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: ridge touching an edge, alterations to hyena anatomy, open mouth, extra limbs, duplicated animals, text, letters, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, dark night palette, fantasy elements, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-b2ebc1fa-a070-4ee5-94b2-fa38f045d464",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c030.png",
+          "sha256": "509173e92bd49434baabe2a69d4a7d359f740bdf08b34e66286c0c44d02d9a95",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "A real spotted hyena replaces the chapter's fabulous and stigmatizing claims. Human speech, magical shadows, sex-changing anatomy, grave violation, corocotta, and manticore are deliberately not literalized.",
+      "visualQaNotes": "Inspected at original resolution after a global-distinctness regeneration and one ridge-framing edit. Exactly one complete spotted hyena has correct sloping-back anatomy, four distinct legs and paws, rounded ears, a closed mouth, and a full tail. The termite mound and complete chalk ridge are safely internal in a bright salt-plain panorama. No other animal, monster, attack, grave, bones, text, pseudo-writing, signature, page, frame, panel, montage, duplication, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-1fd0d138-ef54-4b98-84e9-25349763566c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c030-attempt-01-global-mad-below-20.png",
+          "sha256": "26c5e7a35bc5a7b5a41d0c6d59b16349ce14d5c1ce3246d9488442f57c2bacda",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 30.\nPrimary subject and action: Show exactly one complete, anatomically accurate adult spotted hyena in a natural North African night landscape, treated as a real animal rather than a fabulous monster. The hyena stands in three-quarter side profile on firm tawny ground, with rounded ears, strong forequarters, naturally sloping back, four correctly placed weight-bearing legs, short spotted coat, and a full tail. Its head is lifted slightly and its mouth is only gently open in an ordinary nocturnal whoop; it is attentive but neither menacing nor attacking. Far behind it, show one small, wholly visible stone-and-thorn pastoral enclosure with a closed wooden gate and one extinguished brazier, suggesting human listeners have safely withdrawn; no people, livestock, dogs, graves, or bodies are visible. This visual responds to ancient reports of the hyena's voice by centering the known animal and refusing literal human speech, magical shadows, sex-changing anatomy, corpse-digging, the corocotta, or the manticore.\nComposition: single uninterrupted scene, low side-on viewpoint; the hyena occupies the lower-left middle ground and faces into a broad field of indigo negative space at right, while a pale crescent moon and the distant secure enclosure balance the upper-right. Keep the entire hyena, moon, enclosure, and terrain silhouette comfortably inside the canvas with at least 70 pixels around prominent forms. No object touches an edge.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: confident iron-gall contour, very fine cross-hatching, stippled fur, scratched dry-brush highlights, full-field fibrous vellum-like grain, and restrained mineral washes of deep indigo, lampblack, smoky plum, tawny ochre, and muted moon-silver. Ancient, timeless, rough and polished at once; zoologically credible; atmospheric but not horror; not photorealistic, not glossy CGI.\nHistorical and ethical framing: an observed real spotted hyena in a calm natural moment. Treat Pliny's marvelous claims as transmitted testimony, not fact. No stigma, spectacle, gore, injury, hunting, or attack.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, speech marks, sound waves, mystical symbols, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated hyenas, other animals, cropped ears, paws, legs, or tail, extra limbs, distorted anatomy, bared fangs, blood, graves, bones, carcasses, human figures, hybrid monsters, fantasy eyes, glowing magic, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected by the live global distinctness audit: the otherwise valid moonlit hyena master measured nearestMAD 16.79 against an existing dark mineral-wash scene, below the campaign minimum of 20. Its original bytes are preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-b2ebc1fa-a070-4ee5-94b2-fa38f045d464.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c030-attempt-02-chalk-ridge-cropped-right.png",
+          "sha256": "ee6be7d827bae655405c2b3ba65e07ab36dbf63c969e2ea37ebc3859cec96f34",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 30.\nPrimary subject and action: Show exactly one complete, anatomically accurate adult spotted hyena as an ordinary real animal crossing a broad North African limestone salt plain just after sunrise. The hyena walks calmly from right toward left in a clean three-quarter side profile and glances back over one shoulder, mouth closed. Show rounded ears, powerful forequarters, naturally sloping back, short spotted coat, exactly four distinct correctly jointed legs in a measured walking gait, four complete paws, and one full tail. Its expression is alert, intelligent, and nonthreatening. Far behind, include exactly one small wholly visible pale termite mound and a low fully contained chalk ridge; no enclosure, people, livestock, other animals, graves, bones, attack, or hunt. The image answers Pliny's marvelous catalogue by centering the known hyena and refusing literal human speech, magical shadows, sex-changing anatomy, corpse-digging, corocotta, or manticore.\nComposition: one uninterrupted, unusually high-key panorama from a slightly elevated long-lens viewpoint. Place the complete hyena in the lower-right middle ground, facing into an immense open band of pale salt and rose-gold morning light at left; use a very high horizon and a thin powder-blue sky. Keep every ear, paw, tail hair, the entire termite mound, ridge silhouette, and all prominent stones at least 100 pixels inside the canvas. Nothing prominent touches an edge. No moon, star field, camp, wall, night, or dark indigo ground.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: warm iron-gall contour, delicate cross-hatching, stippled coat, granular salt texture, dry-brush wind abrasion, subtle fibrous vellum-like grain across the whole field, and translucent restrained mineral washes of chalk ivory, rose-gold, pale coral, dusty celadon, honey ochre, and a narrow powder-blue sky. Ancient, timeless, rough and polished at once; quiet sunlit spaciousness; zoologically credible; not photorealistic, not glossy CGI.\nHistorical and ethical framing: portray one real spotted hyena in calm habitat. Treat Pliny's fabulous claims as transmitted testimony, not zoological fact. No stigma, fear spectacle, gore, injury, hunting, or dehumanization.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, speech marks, sound waves, mystical symbols, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated hyenas, other animals, cropped ears, paws, legs, or tail, extra limbs, distorted anatomy, open mouth, bared fangs, blood, graves, bones, carcasses, human figures, hybrid monsters, fantasy eyes, glowing magic, moon, dark navy field, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after the high-key regeneration because the distant chalk ridge continued through the right boundary rather than remaining wholly internal. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:31",
+      "title": "BRAMBLE-FROGS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c031.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "96010f627934664972c13a2ec0292ad2afda0922a41219369446c5cbc8b7af1c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-758d1ef4-3ee7-412e-b12b-02c0ca3c7d0e",
+      "generationArtifactId": "exec-758d1ef4-3ee7-412e-b12b-02c0ca3c7d0e",
+      "outputArtifact": "built-in-imagegen://exec-758d1ef4-3ee7-412e-b12b-02c0ca3c7d0e.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the edge safety and limb clarity of Image 1, the Book VIII chapter 31 spring-pool scene. Recompose the single arching blackberry bramble entirely within the upper-right quadrant: its woody stem must begin and end visibly inside the image, every leaf, thorn, twig, and berry cluster must be complete, and the nearest plant pixel must be at least 70 pixels from the top and right edges. Retain one natural arching stem with a few dark berries, but no plant element may enter from or leave through any edge. On the same single toad, subtly clarify the four-limb structure without changing its pose or identity: show two distinct correctly attached front legs with complete toes and two distinct correctly folded hind legs with complete toes, all comfortably inside the image and anatomically plausible.\nInvariants: Preserve exactly one toad-like amphibian, its same body, eyes, mottled skin, calm pose, mossed stone, the complete irregular oval spring pool and every part of its unbroken shoreline, submerged pebbles, single soft reflection, surrounding rocks and moss, high-oblique macro composition, fibrous grain, iron-gall contour, cross-hatching, stippling, dry-brush texture, mineral palette, lighting, and generous open-water negative space. Preserve the strict absence of all other animals and people. Do not crop or alter the pool boundary.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: any plant or animal touching an edge, cropped bramble, cropped toes, extra limbs, duplicated toes, second amphibian, tadpoles, fish, insects, human hands, vessels, remedies, poison, text, lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, fantasy glow, modern objects, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-f3ff1e28-8fe7-4843-8c75-0c4d434f5979",
+          "outputArtifact": "built-in-imagegen://exec-f3ff1e28-8fe7-4843-8c75-0c4d434f5979.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 31.\nPrimary subject and action: Create a close, natural-history encounter with exactly one complete adult Mediterranean toad-like amphibian beside a bramble, offered as a plausible modern visual analogue for the uncertain creature translated as the ancient 'bramble-frog' rather than a definitive species claim. The toad rests calmly on a broad mossed stone at the lower-right edge of a small spring pool; its entire rounded body, both golden eyes, four correctly articulated legs, all toes, and mottled olive-and-umber skin are clearly visible. A single arching blackberry bramble with leaves and a few dark berries rises behind the stone. The pool forms a complete irregular oval wholly inside the image, with an unbroken visible shoreline, clear shallow water, submerged pebbles, and one soft reflection; no tadpoles, fish, insects, or other animals. Nothing is collected, handled, secreted, swallowed, or applied.\nComposition: one continuous intimate scene seen from a high oblique macro viewpoint, with the complete pool occupying the left two-thirds and the single toad anchoring the lower right; cool open water provides generous negative space. Keep the toad, all four limbs and toes, the bramble tip, the full pool shoreline, and all prominent stones at least 70 pixels inside every image edge. Do not crop any anatomy or water boundary.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: fine iron-gall contour, delicate cross-hatching, stippled amphibian skin, scratched dry-brush highlights on moss and water, subtle full-field fibrous vellum-like grain, and translucent mineral washes of malachite green, wet umber, muted copper, pearl grey, and pale celadon. Ancient, timeless, rough and polished at once; close observation, quiet jewel-like beauty; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and medical framing: the animal is simply alive in habitat. Ancient remedy claims are transmitted historical testimony, not diagnosis, treatment, or advice. The species identification remains visually restrained and receipt-explicit; do not depict poison, medicine, secretion, experimentation, or human use.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, botanical annotations, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated amphibians, tadpoles, other animals, cropped pool, shoreline leaving the canvas, cropped toes or bramble, extra limbs, monstrous anatomy, human hands, vessels, tools, remedies, injuries, blood, fantasy glow, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c031-attempt-01-bramble-cropped-right-edge.png",
+          "sha256": "093345869e9e0d9e24c4d92e65128b87d02156cac43b96048257d8f9d5d49cea",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the featured bramble stem exited the right boundary and the amphibian's four-limb structure needed clearer separation. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-758d1ef4-3ee7-412e-b12b-02c0ca3c7d0e",
+          "outputArtifact": "built-in-imagegen://exec-758d1ef4-3ee7-412e-b12b-02c0ca3c7d0e.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the edge safety and limb clarity of Image 1, the Book VIII chapter 31 spring-pool scene. Recompose the single arching blackberry bramble entirely within the upper-right quadrant: its woody stem must begin and end visibly inside the image, every leaf, thorn, twig, and berry cluster must be complete, and the nearest plant pixel must be at least 70 pixels from the top and right edges. Retain one natural arching stem with a few dark berries, but no plant element may enter from or leave through any edge. On the same single toad, subtly clarify the four-limb structure without changing its pose or identity: show two distinct correctly attached front legs with complete toes and two distinct correctly folded hind legs with complete toes, all comfortably inside the image and anatomically plausible.\nInvariants: Preserve exactly one toad-like amphibian, its same body, eyes, mottled skin, calm pose, mossed stone, the complete irregular oval spring pool and every part of its unbroken shoreline, submerged pebbles, single soft reflection, surrounding rocks and moss, high-oblique macro composition, fibrous grain, iron-gall contour, cross-hatching, stippling, dry-brush texture, mineral palette, lighting, and generous open-water negative space. Preserve the strict absence of all other animals and people. Do not crop or alter the pool boundary.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: any plant or animal touching an edge, cropped bramble, cropped toes, extra limbs, duplicated toes, second amphibian, tadpoles, fish, insects, human hands, vessels, remedies, poison, text, lettering, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, fantasy glow, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-f3ff1e28-8fe7-4843-8c75-0c4d434f5979",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c031.png",
+          "sha256": "96010f627934664972c13a2ec0292ad2afda0922a41219369446c5cbc8b7af1c",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The toad-like amphibian is a plausible habitat-led analogue for the uncertain ancient bramble-frog, not a definitive taxonomic identification. No remedy or poison claim is visualized as advice.",
+      "visualQaNotes": "Inspected at original resolution after one plant-and-anatomy correction. Exactly one complete toad-like amphibian rests unhandled on a complete mossed stone with readable four-limb anatomy; the single bramble begins and ends inside the field. The complete irregular pool and unbroken shoreline are wholly visible with no other animals. No secretion, remedy, patient, text, pseudo-writing, signature, page, frame, panel, montage, duplication, cropped water boundary, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-f3ff1e28-8fe7-4843-8c75-0c4d434f5979.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c031-attempt-01-bramble-cropped-right-edge.png",
+          "sha256": "093345869e9e0d9e24c4d92e65128b87d02156cac43b96048257d8f9d5d49cea",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 31.\nPrimary subject and action: Create a close, natural-history encounter with exactly one complete adult Mediterranean toad-like amphibian beside a bramble, offered as a plausible modern visual analogue for the uncertain creature translated as the ancient 'bramble-frog' rather than a definitive species claim. The toad rests calmly on a broad mossed stone at the lower-right edge of a small spring pool; its entire rounded body, both golden eyes, four correctly articulated legs, all toes, and mottled olive-and-umber skin are clearly visible. A single arching blackberry bramble with leaves and a few dark berries rises behind the stone. The pool forms a complete irregular oval wholly inside the image, with an unbroken visible shoreline, clear shallow water, submerged pebbles, and one soft reflection; no tadpoles, fish, insects, or other animals. Nothing is collected, handled, secreted, swallowed, or applied.\nComposition: one continuous intimate scene seen from a high oblique macro viewpoint, with the complete pool occupying the left two-thirds and the single toad anchoring the lower right; cool open water provides generous negative space. Keep the toad, all four limbs and toes, the bramble tip, the full pool shoreline, and all prominent stones at least 70 pixels inside every image edge. Do not crop any anatomy or water boundary.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: fine iron-gall contour, delicate cross-hatching, stippled amphibian skin, scratched dry-brush highlights on moss and water, subtle full-field fibrous vellum-like grain, and translucent mineral washes of malachite green, wet umber, muted copper, pearl grey, and pale celadon. Ancient, timeless, rough and polished at once; close observation, quiet jewel-like beauty; naturalistic anatomy; not photorealistic, not glossy CGI.\nHistorical and medical framing: the animal is simply alive in habitat. Ancient remedy claims are transmitted historical testimony, not diagnosis, treatment, or advice. The species identification remains visually restrained and receipt-explicit; do not depict poison, medicine, secretion, experimentation, or human use.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, botanical annotations, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated amphibians, tadpoles, other animals, cropped pool, shoreline leaving the canvas, cropped toes or bramble, extra limbs, monstrous anatomy, human hands, vessels, tools, remedies, injuries, blood, fantasy glow, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the featured bramble stem exited the right boundary and the amphibian's four-limb structure needed clearer separation. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:32",
+      "title": "STAGS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c032.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "bc669f2936da7826bdccde34a50d5f05db515f5ea128b1c411e7d999184bbae9",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4ec99a70-8936-47c3-9b93-07abe058217e",
+      "generationArtifactId": "exec-4ec99a70-8936-47c3-9b93-07abe058217e",
+      "outputArtifact": "built-in-imagegen://exec-4ec99a70-8936-47c3-9b93-07abe058217e.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the lower-left edge safety of Image 1, the Book VIII chapter 32 deer-learning scene. Shorten and reposition the single fallen olive branch so its complete natural broken end is clearly visible near x=190, y=900 and at least 90 pixels from both the left and bottom edges. Keep its opposite complete end near x=1100, y=650 and at least 90 pixels from all edges. The entire branch, every twig, and every leaf must be wholly visible inside the canvas; nothing belonging to the branch may enter from or leave through an edge. Replace the former cropped continuation at the lower-left with seamless meadow grass, small internal flowers, and limestone pebbles consistent with the existing field.\nInvariants: Preserve exactly one adult antlerless red-deer hind and exactly two red-deer fawns, their identities, positions, scale, poses, expressions, spots, correct four-limb anatomy, complete ears, hooves and tails, the hopping action, wide lateral rhythm, pale meadow, distant limestone hills, sky, lighting, airy negative space, iron-gall contours, fine cross-hatching, stippling, fibrous grain, dry-brush grass, and mineral palette. Do not alter, duplicate, crop, overlap, or add any deer. The hopping fawn must still clear the branch naturally.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: branch touching any edge, cropped leaves or twigs, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, more than three deer, antlers, hidden or extra limbs, water, hunters, dogs, humans, blood, modern objects, fantasy glow, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-4d00130b-157b-461f-9b87-b9fdeee82203",
+          "outputArtifact": "built-in-imagegen://exec-4d00130b-157b-461f-9b87-b9fdeee82203.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 32.\nPrimary subject and action: Show exactly one complete adult red-deer hind and exactly two complete red-deer fawns in a calm spring meadow, illustrating the plausible ancient observation that hinds lead their young in running and teach them to cross low obstacles. The antlerless hind has just stepped over one low, wholly visible fallen olive branch and turns her head back attentively. The first fawn follows with all four legs clearly separated in a small, natural hop above the branch; the second fawn waits one body length behind in a balanced standing pose, watching. Every animal must be a distinct individual with correct red-deer anatomy, naturally proportioned heads, ears, necks, bodies, four legs, hooves, and tails; all limbs are visible and no animal overlaps another. No stag, antlers, hunters, dogs, people, injury, pursuit, or remedy practice.\nComposition: single uninterrupted wide lateral scene at deer-eye height; the three animals create a clear left-to-right rhythm across the middle third, with the complete fallen branch running on a shallow diagonal below them. Pale grassland and distant low limestone hills provide airy negative space. Keep every ear, hoof, tail, the entire branch, all hill silhouettes, and every prominent flower at least 80 pixels inside the canvas. No foreground element touches an edge.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: supple iron-gall contour, fine cross-hatching, stippled fawn coats, dry-brush grass, subtle fibrous vellum-like grain across the whole image, and luminous restrained mineral washes of pale honey, young-grass green, warm limestone, faded coral, and clear powder blue. Ancient, timeless, rough and polished at once; unusually light and spacious compared with neighboring scenes; naturalistic animal behavior; not photorealistic, not glossy CGI.\nHistorical framing: portray one credible behavior attributed by ancient observers, without claiming that every accompanying remedy or marvel in the chapter is medically true. Center animal learning and care, not hunting.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated deer, more than three deer, antlers, overlapping bodies, cropped ears or hooves, hidden legs, extra legs, fused limbs, impossible jump, tree trunks entering from edges, water, cliffs, traps, weapons, blood, carcasses, humans, modern objects, fantasy glow, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c032-attempt-01-fallen-branch-cropped-lower-left.png",
+          "sha256": "1962933303635c27d01ddfe0a3dd9a105a7d70877928ea79c6650f91552ab3ac",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the otherwise valid fallen olive branch exited the lower-left boundary. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-4ec99a70-8936-47c3-9b93-07abe058217e",
+          "outputArtifact": "built-in-imagegen://exec-4ec99a70-8936-47c3-9b93-07abe058217e.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the lower-left edge safety of Image 1, the Book VIII chapter 32 deer-learning scene. Shorten and reposition the single fallen olive branch so its complete natural broken end is clearly visible near x=190, y=900 and at least 90 pixels from both the left and bottom edges. Keep its opposite complete end near x=1100, y=650 and at least 90 pixels from all edges. The entire branch, every twig, and every leaf must be wholly visible inside the canvas; nothing belonging to the branch may enter from or leave through an edge. Replace the former cropped continuation at the lower-left with seamless meadow grass, small internal flowers, and limestone pebbles consistent with the existing field.\nInvariants: Preserve exactly one adult antlerless red-deer hind and exactly two red-deer fawns, their identities, positions, scale, poses, expressions, spots, correct four-limb anatomy, complete ears, hooves and tails, the hopping action, wide lateral rhythm, pale meadow, distant limestone hills, sky, lighting, airy negative space, iron-gall contours, fine cross-hatching, stippling, fibrous grain, dry-brush grass, and mineral palette. Do not alter, duplicate, crop, overlap, or add any deer. The hopping fawn must still clear the branch naturally.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: branch touching any edge, cropped leaves or twigs, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, more than three deer, antlers, hidden or extra limbs, water, hunters, dogs, humans, blood, modern objects, fantasy glow, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-4d00130b-157b-461f-9b87-b9fdeee82203",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c032.png",
+          "sha256": "bc669f2936da7826bdccde34a50d5f05db515f5ea128b1c411e7d999184bbae9",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The scene centers the plausible ancient observation of a hind guiding fawns over an obstacle. It does not visualize the chapter's remedy claims as established medicine.",
+      "visualQaNotes": "Inspected at original resolution after one branch-framing correction. Exactly one complete antlerless hind and exactly two distinct complete fawns form a readable learning sequence; every deer has plausible four-leg anatomy, complete ears, hooves, and tail. The fallen branch is entirely internal. No hunter, dog, remedy, text, pseudo-writing, signature, page, frame, panel, montage, duplication, overlap, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-4d00130b-157b-461f-9b87-b9fdeee82203.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c032-attempt-01-fallen-branch-cropped-lower-left.png",
+          "sha256": "1962933303635c27d01ddfe0a3dd9a105a7d70877928ea79c6650f91552ab3ac",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 32.\nPrimary subject and action: Show exactly one complete adult red-deer hind and exactly two complete red-deer fawns in a calm spring meadow, illustrating the plausible ancient observation that hinds lead their young in running and teach them to cross low obstacles. The antlerless hind has just stepped over one low, wholly visible fallen olive branch and turns her head back attentively. The first fawn follows with all four legs clearly separated in a small, natural hop above the branch; the second fawn waits one body length behind in a balanced standing pose, watching. Every animal must be a distinct individual with correct red-deer anatomy, naturally proportioned heads, ears, necks, bodies, four legs, hooves, and tails; all limbs are visible and no animal overlaps another. No stag, antlers, hunters, dogs, people, injury, pursuit, or remedy practice.\nComposition: single uninterrupted wide lateral scene at deer-eye height; the three animals create a clear left-to-right rhythm across the middle third, with the complete fallen branch running on a shallow diagonal below them. Pale grassland and distant low limestone hills provide airy negative space. Keep every ear, hoof, tail, the entire branch, all hill silhouettes, and every prominent flower at least 80 pixels inside the canvas. No foreground element touches an edge.\nMaterial and style: coherent Plinian zoological folio materiality without showing a page: supple iron-gall contour, fine cross-hatching, stippled fawn coats, dry-brush grass, subtle fibrous vellum-like grain across the whole image, and luminous restrained mineral washes of pale honey, young-grass green, warm limestone, faded coral, and clear powder blue. Ancient, timeless, rough and polished at once; unusually light and spacious compared with neighboring scenes; naturalistic animal behavior; not photorealistic, not glossy CGI.\nHistorical framing: portray one credible behavior attributed by ancient observers, without claiming that every accompanying remedy or marvel in the chapter is medically true. Center animal learning and care, not hunting.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated deer, more than three deer, antlers, overlapping bodies, cropped ears or hooves, hidden legs, extra legs, fused limbs, impossible jump, tree trunks entering from edges, water, cliffs, traps, weapons, blood, carcasses, humans, modern objects, fantasy glow, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the otherwise valid fallen olive branch exited the lower-left boundary. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:33",
+      "title": "THE CHAMELEON",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c033.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "59f18fe08a6598b99656972ec319e74e6a907edf6a8a198c8ef11511af7733eb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-fccaf74a-83c5-4e55-b816-8d322cdf7ccb",
+      "generationArtifactId": "exec-fccaf74a-83c5-4e55-b816-8d322cdf7ccb",
+      "outputArtifact": "built-in-imagegen://exec-fccaf74a-83c5-4e55-b816-8d322cdf7ccb.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the limb count and visibility of the single chameleon in Image 1, the Book VIII chapter 33 tamarisk scene. The current animal visibly presents two front legs and only one hind leg. Preserve those three existing limbs, then reveal exactly one complete far-side hind leg so the animal has exactly four legs total. The new far-side hind leg must emerge anatomically from behind the torso just ahead of the tail base around x=1030, y=360, angle down and slightly left behind the existing near hind leg, and end in one complete zygodactyl foot grasping its own separate tamarisk twig around x=1040, y=500. The new leg and foot must be visually distinct from the existing hind leg, correctly jointed, naturally scaled, and must not overlap or fuse with the tail. Do not add, remove, or reshape any other limb, foot, toe group, body part, twig, or animal.\nInvariants: Preserve exactly one chameleon; preserve its same identity, side profile, casque, two turret eyes, closed mouth, subtly olive-to-lichen skin, body, complete spiral tail, existing two front legs and one near hind leg, all three existing grasping feet, the full rooted tamarisk shrub, all branch tips, limestone boulder, apricot sky, negative space, composition, edge clearance, iron-gall contour, cross-hatching, stippled scales, fibrous grain, dry-brush texture, palette, and lighting. All plant and animal forms remain fully internal.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: fewer or more than exactly four chameleon legs, a fifth limb, duplicated feet, fused toes, leg attached to tail, hidden foot, cropped anatomy, second chameleon, insects, text, letters, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, fantasy color, open mouth, tongue, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-77792b17-c0bd-4f86-abb0-90340a6a9e61",
+          "outputArtifact": "built-in-imagegen://exec-77792b17-c0bd-4f86-abb0-90340a6a9e61.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 33.\nPrimary subject and action: Create an anatomy-led close observation of exactly one complete Mediterranean chameleon moving slowly through a small, wholly visible tamarisk shrub rooted in a limestone cleft. Show the chameleon in a clean side profile with a gently arched body, casque-like head, two turreted eyes oriented in subtly different directions, a complete tightly coiled prehensile tail, and four correctly attached legs. Each foot must visibly grasp its own twig with plausible opposing toe groups; no foot or limb is hidden. Its skin shifts only subtly and naturally from olive green in light to lichen grey-brown in shadow, with restrained mottling—no rainbow, no instant transformation, no transparency. The entire low tamarisk shrub, its roots in the rock, every branch tip, and the complete limestone boulder are comfortably visible within the canvas. No other animal appears.\nComposition: one uninterrupted near-macro scene with a low three-quarter side viewpoint; the complete shrub rises diagonally from the lower-left interior toward the upper-right interior, while the chameleon forms an opposing S-curve across the center. Keep the chameleon's nose, casque, belly, every toe, tail coil, all branch tips, roots, and boulder at least 80 pixels inside every edge. Use a broad softly washed apricot sky as negative space around the isolated silhouette.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: precise iron-gall contour, jewel-fine cross-hatching, stippled scales, dry-brush abrasion on limestone, subtle full-field fibrous vellum-like grain, and translucent mineral washes of olive, lichen grey, pale malachite, dusty rose, warm apricot, and chalk white. Ancient, timeless, rough and polished at once; delicate and luminous; zoologically credible; not photorealistic, not glossy CGI.\nHistorical framing: center the real animal's anatomy and ordinary context-dependent color modulation. Treat Pliny's claim that it lives only on air as transmitted ancient testimony, not fact; depict no feeding claim, experiment, capture, remedy, or magical camouflage.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, anatomical labels, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated chameleons, other animals, cropped plant or rock, plant entering from an edge, hidden feet, extra legs or toes, malformed eye, severed branch, open mouth, tongue strike, food, insects, human hands, cage, medicine, fantasy glow, rainbow colors, transparency, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c033-attempt-01-only-three-legs-visible.png",
+          "sha256": "54a6c2a75eac42cc663f9d405cb34ea9d8243eb06e0e5d6bcdd17b9216023f09",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because only three of the chameleon's four legs were visibly resolved. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-fccaf74a-83c5-4e55-b816-8d322cdf7ccb",
+          "outputArtifact": "built-in-imagegen://exec-fccaf74a-83c5-4e55-b816-8d322cdf7ccb.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the limb count and visibility of the single chameleon in Image 1, the Book VIII chapter 33 tamarisk scene. The current animal visibly presents two front legs and only one hind leg. Preserve those three existing limbs, then reveal exactly one complete far-side hind leg so the animal has exactly four legs total. The new far-side hind leg must emerge anatomically from behind the torso just ahead of the tail base around x=1030, y=360, angle down and slightly left behind the existing near hind leg, and end in one complete zygodactyl foot grasping its own separate tamarisk twig around x=1040, y=500. The new leg and foot must be visually distinct from the existing hind leg, correctly jointed, naturally scaled, and must not overlap or fuse with the tail. Do not add, remove, or reshape any other limb, foot, toe group, body part, twig, or animal.\nInvariants: Preserve exactly one chameleon; preserve its same identity, side profile, casque, two turret eyes, closed mouth, subtly olive-to-lichen skin, body, complete spiral tail, existing two front legs and one near hind leg, all three existing grasping feet, the full rooted tamarisk shrub, all branch tips, limestone boulder, apricot sky, negative space, composition, edge clearance, iron-gall contour, cross-hatching, stippled scales, fibrous grain, dry-brush texture, palette, and lighting. All plant and animal forms remain fully internal.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: fewer or more than exactly four chameleon legs, a fifth limb, duplicated feet, fused toes, leg attached to tail, hidden foot, cropped anatomy, second chameleon, insects, text, letters, captions, labels, numerals, pseudo-writing, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, fantasy color, open mouth, tongue, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-77792b17-c0bd-4f86-abb0-90340a6a9e61",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c033.png",
+          "sha256": "59f18fe08a6598b99656972ec319e74e6a907edf6a8a198c8ef11511af7733eb",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "The image depicts real chameleon anatomy and ordinary context-dependent color modulation. The ancient air-only feeding claim is not presented as fact, and no magical camouflage is shown.",
+      "visualQaNotes": "Inspected at original resolution after one anatomy correction. Exactly one complete Mediterranean chameleon has a casque, turreted eyes, closed mouth, complete spiral tail, and exactly four distinct correctly attached grasping legs; the added far-side hind foot is separate from the tail. The rooted tamarisk and complete limestone boulder are fully internal. No insect, feeding claim, rainbow transformation, text, pseudo-writing, signature, page, frame, panel, montage, duplication, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-77792b17-c0bd-4f86-abb0-90340a6a9e61.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c033-attempt-01-only-three-legs-visible.png",
+          "sha256": "54a6c2a75eac42cc663f9d405cb34ea9d8243eb06e0e5d6bcdd17b9216023f09",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 33.\nPrimary subject and action: Create an anatomy-led close observation of exactly one complete Mediterranean chameleon moving slowly through a small, wholly visible tamarisk shrub rooted in a limestone cleft. Show the chameleon in a clean side profile with a gently arched body, casque-like head, two turreted eyes oriented in subtly different directions, a complete tightly coiled prehensile tail, and four correctly attached legs. Each foot must visibly grasp its own twig with plausible opposing toe groups; no foot or limb is hidden. Its skin shifts only subtly and naturally from olive green in light to lichen grey-brown in shadow, with restrained mottling—no rainbow, no instant transformation, no transparency. The entire low tamarisk shrub, its roots in the rock, every branch tip, and the complete limestone boulder are comfortably visible within the canvas. No other animal appears.\nComposition: one uninterrupted near-macro scene with a low three-quarter side viewpoint; the complete shrub rises diagonally from the lower-left interior toward the upper-right interior, while the chameleon forms an opposing S-curve across the center. Keep the chameleon's nose, casque, belly, every toe, tail coil, all branch tips, roots, and boulder at least 80 pixels inside every edge. Use a broad softly washed apricot sky as negative space around the isolated silhouette.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: precise iron-gall contour, jewel-fine cross-hatching, stippled scales, dry-brush abrasion on limestone, subtle full-field fibrous vellum-like grain, and translucent mineral washes of olive, lichen grey, pale malachite, dusty rose, warm apricot, and chalk white. Ancient, timeless, rough and polished at once; delicate and luminous; zoologically credible; not photorealistic, not glossy CGI.\nHistorical framing: center the real animal's anatomy and ordinary context-dependent color modulation. Treat Pliny's claim that it lives only on air as transmitted ancient testimony, not fact; depict no feeding claim, experiment, capture, remedy, or magical camouflage.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, anatomical labels, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated chameleons, other animals, cropped plant or rock, plant entering from an edge, hidden feet, extra legs or toes, malformed eye, severed branch, open mouth, tongue strike, food, insects, human hands, cage, medicine, fantasy glow, rainbow colors, transparency, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because only three of the chameleon's four legs were visibly resolved. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:34",
+      "title": "OTHER ANIMALS WHICH CHANGE COLOUR; THE TARANDUS, THE LYCAON, AND THE THOS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c034.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "2220814a55fcc880bd9244bb6a911866ea075c05f70b9fa16fea33025ee4bdd5",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-40ee1855-09c1-470c-ac2e-0c1aff818f18",
+      "generationArtifactId": "exec-40ee1855-09c1-470c-ac2e-0c1aff818f18",
+      "outputArtifact": "built-in-imagegen://exec-40ee1855-09c1-470c-ac2e-0c1aff818f18.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the upper-left edge safety of Image 1, the Book VIII chapter 34 reindeer landscape. Scale the single stand of exactly five birch trees down to about 72 percent of its current height and reposition it slightly right and down so every one of the five trees is wholly visible: all five complete crowns and outermost leaves must be at least 90 pixels below the top edge and 90 pixels right of the left edge, and all five complete trunks and root flares must remain visible above the ground. Preserve the stand's natural grouping and autumn leaves. Replace the former cropped tree continuations along the top and left edges with seamless existing silver-grey sky and distant boreal terrain. No tree, leaf, branch, trunk, or root may touch or exit any edge.\nInvariants: Preserve exactly one complete reindeer, its identity, pose, correct four legs and cloven hooves, complete natural antler pair, muzzle, ears, short tail, seasonal russet-grey-cream coat, scale, edge clearance, and position. Preserve the complete lichen boulder, continuous first-snow habitat, old snow patches, shrubs, distant valley and hills, single uninterrupted composition, iron-gall contour, hatching, stippling, dry-brush snow, fibrous grain, palette, light, and quiet northern mood. Do not add any animal or person and do not create a before-and-after division.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: cropped trees, plant matter entering from an edge, fewer or more than exactly five birches, duplicated trunks, malformed crowns, alterations to reindeer anatomy, extra legs, malformed antlers, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, other animals, hunters, hides, blood, magical color change, transparency, modern objects, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-44065fbf-1072-4414-b79b-97905db7c86e",
+          "outputArtifact": "built-in-imagegen://exec-44065fbf-1072-4414-b79b-97905db7c86e.png",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 34.\nPrimary subject and action: Offer a cautious naturalistic visual interpretation of Pliny's uncertain 'tarandus' as exactly one complete adult reindeer in a continuous boreal late-autumn landscape at first snow. The reindeer stands in a clear three-quarter side profile on a shallow rise, calm and alert, with anatomically accurate muzzle, ears, neck, torso, four distinct weight-bearing legs, cloven hooves, short tail, and one complete natural antler pair. Its real seasonal coat is subtly mottled from russet-brown across the back to grey-cream along neck and flanks, harmonizing with lichen, birch bark, tawny dwarf shrubs, and irregular old snow patches around it; depict ordinary seasonal pelage and dappled light only, never literal instant color change, transparency, or magical camouflage. No lycaon, thos, wolf, other animal, person, hunter, or hide appears; the image deliberately avoids inventing visual certainty for the chapter's other ambiguous names.\nComposition: one uninterrupted compressed-landscape scene from a slightly elevated viewpoint. Place the complete reindeer off-center in the right middle ground, facing left into an open silver-grey meadow; a small wholly visible stand of five slender birches occupies the upper-left interior and a low complete lichen-covered boulder balances the lower-left. Keep every antler tine, ear, hoof, tail, birch crown and root, boulder, snow patch, and horizon at least 90 pixels inside every edge. Nothing prominent touches an edge. The mixed ground cover must read as one continuous habitat, not two halves or a before-and-after comparison.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: assured iron-gall contour, finely hatched coat and bark, stippled lichen, dry-brush snow abrasion, subtle fibrous vellum-like grain through the full field, and restrained mineral washes of silver grey, muted rust, birch cream, lichen green, smoky teal, and a trace of faded vermilion. Ancient, timeless, rough and polished at once; quiet northern majesty; zoologically credible; not photorealistic, not glossy CGI.\nHistorical framing: the identification of 'tarandus' with reindeer is plausible but uncertain and will be stated as such in the receipt. Portray environmental blending as observation, not a supernatural claim. No hunting, skinning, armour-making, injury, dehumanization, or medical advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, maps, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated reindeer, other animals, more than four legs, fused hooves, malformed or cropped antlers, cropped birches or boulder, forest entering from an edge, magical transformation, half-and-half body, rainbow colors, transparency, glowing camouflage, hunters, weapons, hides, blood, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c034-attempt-01-birch-crowns-cropped-top-left.png",
+          "sha256": "25d230f36cb8be8f42af5bdc632b1834f41c85fd75759be01961f0a96e23d756",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the five-birch stand crossed the top and left boundaries. The original bytes are preserved under evidence/history."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-40ee1855-09c1-470c-ac2e-0c1aff818f18",
+          "outputArtifact": "built-in-imagegen://exec-40ee1855-09c1-470c-ac2e-0c1aff818f18.png",
+          "exactPrompt": "Use case: precise-object-edit.\nAsset type: final independent 1536x1024 zoological chapter illustration for an interactive illuminated edition.\nPrimary request: Correct only the upper-left edge safety of Image 1, the Book VIII chapter 34 reindeer landscape. Scale the single stand of exactly five birch trees down to about 72 percent of its current height and reposition it slightly right and down so every one of the five trees is wholly visible: all five complete crowns and outermost leaves must be at least 90 pixels below the top edge and 90 pixels right of the left edge, and all five complete trunks and root flares must remain visible above the ground. Preserve the stand's natural grouping and autumn leaves. Replace the former cropped tree continuations along the top and left edges with seamless existing silver-grey sky and distant boreal terrain. No tree, leaf, branch, trunk, or root may touch or exit any edge.\nInvariants: Preserve exactly one complete reindeer, its identity, pose, correct four legs and cloven hooves, complete natural antler pair, muzzle, ears, short tail, seasonal russet-grey-cream coat, scale, edge clearance, and position. Preserve the complete lichen boulder, continuous first-snow habitat, old snow patches, shrubs, distant valley and hills, single uninterrupted composition, iron-gall contour, hatching, stippling, dry-brush snow, fibrous grain, palette, light, and quiet northern mood. Do not add any animal or person and do not create a before-and-after division.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024 landscape.\nAvoid: cropped trees, plant matter entering from an edge, fewer or more than exactly five birches, duplicated trunks, malformed crowns, alterations to reindeer anatomy, extra legs, malformed antlers, text, letters, captions, labels, numerals, pseudo-writing, inscriptions, signatures, logos, watermarks, border, frame, visible page, panels, inset, montage, collage, split scene, other animals, hunters, hides, blood, magical color change, transparency, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": "exec-44065fbf-1072-4414-b79b-97905db7c86e",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c034.png",
+          "sha256": "2220814a55fcc880bd9244bb6a911866ea075c05f70b9fa16fea33025ee4bdd5",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "uncertaintyNote": "Tarandus is cautiously rendered as a plausible reindeer identification, which remains uncertain. Lycaon and thos are omitted to avoid false visual certainty; only ordinary seasonal pelage and environmental blending are shown.",
+      "visualQaNotes": "Inspected at original resolution after one birch-framing correction. Exactly one complete reindeer has four distinct legs, cloven hooves, a complete antler pair, and natural russet-grey seasonal pelage. Exactly five complete birches, all crowns, trunks and roots, plus the complete lichen boulder are safely internal. No other animal, magical transformation, hide, hunt, text, pseudo-writing, signature, page, frame, panel, montage, duplication, or clipped focal subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-44065fbf-1072-4414-b79b-97905db7c86e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-04/evidence/history/b08-c034-attempt-01-birch-crowns-cropped-top-left.png",
+          "sha256": "25d230f36cb8be8f42af5bdc632b1834f41c85fd75759be01961f0a96e23d756",
+          "exactPrompt": "Use case: historical-scene.\nAsset type: final independent 1536x1024 landscape zoological chapter illustration for an interactive illuminated edition of Pliny's Natural History, Book VIII chapter 34.\nPrimary subject and action: Offer a cautious naturalistic visual interpretation of Pliny's uncertain 'tarandus' as exactly one complete adult reindeer in a continuous boreal late-autumn landscape at first snow. The reindeer stands in a clear three-quarter side profile on a shallow rise, calm and alert, with anatomically accurate muzzle, ears, neck, torso, four distinct weight-bearing legs, cloven hooves, short tail, and one complete natural antler pair. Its real seasonal coat is subtly mottled from russet-brown across the back to grey-cream along neck and flanks, harmonizing with lichen, birch bark, tawny dwarf shrubs, and irregular old snow patches around it; depict ordinary seasonal pelage and dappled light only, never literal instant color change, transparency, or magical camouflage. No lycaon, thos, wolf, other animal, person, hunter, or hide appears; the image deliberately avoids inventing visual certainty for the chapter's other ambiguous names.\nComposition: one uninterrupted compressed-landscape scene from a slightly elevated viewpoint. Place the complete reindeer off-center in the right middle ground, facing left into an open silver-grey meadow; a small wholly visible stand of five slender birches occupies the upper-left interior and a low complete lichen-covered boulder balances the lower-left. Keep every antler tine, ear, hoof, tail, birch crown and root, boulder, snow patch, and horizon at least 90 pixels inside every edge. Nothing prominent touches an edge. The mixed ground cover must read as one continuous habitat, not two halves or a before-and-after comparison.\nMaterial and style: coherent Plinian zoological folio materiality without depicting a page: assured iron-gall contour, finely hatched coat and bark, stippled lichen, dry-brush snow abrasion, subtle fibrous vellum-like grain through the full field, and restrained mineral washes of silver grey, muted rust, birch cream, lichen green, smoky teal, and a trace of faded vermilion. Ancient, timeless, rough and polished at once; quiet northern majesty; zoologically credible; not photorealistic, not glossy CGI.\nHistorical framing: the identification of 'tarandus' with reindeer is plausible but uncertain and will be stated as such in the receipt. Portray environmental blending as observation, not a supernatural claim. No hunting, skinning, armour-making, injury, dehumanization, or medical advice.\nOutput intent: opaque full-bleed RGB/sRGB PNG, exactly 1536x1024.\nAvoid: text, letters, captions, labels, numerals, pseudo-writing, inscriptions, maps, signatures, logos, watermarks, decorative border, frame, visible paper edge, book page, panels, inset, montage, collage, split scene, repeated or duplicated reindeer, other animals, more than four legs, fused hooves, malformed or cropped antlers, cropped birches or boulder, forest entering from an edge, magical transformation, half-and-half body, rainbow colors, transparency, glowing camouflage, hunters, weapons, hides, blood, modern objects, photorealism, glossy CGI.",
+          "editSourceArtifactId": null,
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Rejected after native QA because the five-birch stand crossed the top and left boundaries. The original bytes are preserved under evidence/history."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 648,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "8:27": {
+        "nearestMAD": 23.66,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c006.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c014.png",
+        "madAtDHashPeer": 33.1
+      },
+      "8:28": {
+        "nearestMAD": 25.22,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c083.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c005.png",
+        "madAtDHashPeer": 37.82
+      },
+      "8:29": {
+        "nearestMAD": 21.9,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c034.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c007.png",
+        "madAtDHashPeer": 45.91
+      },
+      "8:30": {
+        "nearestMAD": 21.46,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c080.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b15-c030.png",
+        "madAtDHashPeer": 52.94
+      },
+      "8:31": {
+        "nearestMAD": 26.58,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c030.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c014.png",
+        "madAtDHashPeer": 45.11
+      },
+      "8:32": {
+        "nearestMAD": 22.44,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-03/b12-c022.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c006.png",
+        "madAtDHashPeer": 159.26
+      },
+      "8:33": {
+        "nearestMAD": 25.12,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-25/b18-c028.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "madAtDHashPeer": 41.97
+      },
+      "8:34": {
+        "nearestMAD": 21.64,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-22/b18-c002.png",
+        "madAtDHashPeer": 37.49
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "8:27",
+      "8:28",
+      "8:29",
+      "8:30",
+      "8:31",
+      "8:32",
+      "8:33",
+      "8:34"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 15,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 7,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  }
+}

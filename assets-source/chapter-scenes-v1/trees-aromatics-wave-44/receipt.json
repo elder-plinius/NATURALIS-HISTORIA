@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "campaign": "trees-aromatics-wave-44",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in tool exposed unique exec-prefixed output artifacts but no formal receipt ID or model identifier; null is preserved rather than fabricated.",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 435,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "2:42": {
+        "nearestMAD": 23.51,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-42/b02-c024.png",
+        "dHashAtMadPeer": 26,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c015.png",
+        "madAtDHashPeer": 32.75
+      },
+      "2:44": {
+        "nearestMAD": 22.49,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c012.png",
+        "madAtDHashPeer": 44.42
+      },
+      "2:46": {
+        "nearestMAD": 28.45,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-32/b21-c029.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c015.png",
+        "madAtDHashPeer": 35.53
+      },
+      "2:47": {
+        "nearestMAD": 24.02,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c005.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-34/b22-c015.png",
+        "madAtDHashPeer": 40.65
+      },
+      "2:48": {
+        "nearestMAD": 24.39,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c020.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-14/b16-c013.png",
+        "madAtDHashPeer": 62.43
+      },
+      "2:49": {
+        "nearestMAD": 21.34,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c019.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c015.png",
+        "madAtDHashPeer": 43.08
+      },
+      "2:50": {
+        "nearestMAD": 24.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-09/b15-c003.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c004.png",
+        "madAtDHashPeer": 35.54
+      },
+      "2:51": {
+        "nearestMAD": 25.44,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c009.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c001.png",
+        "madAtDHashPeer": 62.81
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:42",
+      "title": "OF UNCERTAIN STATES OF THE WEATHER",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-bb687a82-26d7-4e7b-8d5c-27beecf246bb",
+      "outputArtifact": "built-in-imagegen://exec-bb687a82-26d7-4e7b-8d5c-27beecf246bb.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c042.png",
+      "sha256": "a8a7a73120cda0efe7b3be7dc0a868a0851f25b77230ef5594319ef24899c6cf",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 42, “OF UNCERTAIN STATES OF THE WEATHER”\nPrimary request: Visualize Pliny’s transmitted observation that uncertain showers and winds may arise from moist or smoke-like exhalations from the earth, and that clouds have palpable density because they intercept the sun. Treat this as an ancient natural-philosophy observation, not a modern scientific diagram or asserted fact.\nScene/backdrop: One continuous Roman Mediterranean coastal marsh at early morning, seen obliquely from a low open rocky rise with no foreground trees. Damp vapour rises softly from reeds and wet soil while a separate thinner smoke-like earth haze rises from sun-warmed stone; both merge naturally into one dense but quiet cloud. A single broad sunbeam is visibly intercepted by the cloud and continues into a clear deep inlet where one small, complete ancient diver is discernible beneath the water.\nSubject/action: One complete Roman-era field observer stands well inside the frame, watching the changing air rather than performing a ritual. Keep weather uncertain and transitional: a few isolated raindrops over reeds, stirred grasses, calm water elsewhere. No violent storm.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Airy asymmetric panorama with the complete cloud and complete sunshaft high but separated from every canvas edge, observer and marsh low, broad breathing room around every subject. Reserve an uninterrupted five-percent vellum-and-sky breathing zone at all four outer edges: no branch, tree, cloud mass, rock, figure, reed, shoreline focal object or sunbeam may touch or cross the canvas boundary. One coherent scene, readable at thumbnail size. Keep the observer’s whole silhouette and the underwater diver’s whole silhouette visible.\nColor palette: pale umber and lampblack linework, muted verdigris marsh, faded-lapis inlet and cloud shadow, restrained ochre sunlight, tiny madder accent in the observer’s garment.\nConstraints: historically plausible Roman dress and environment; exactly one observer and one small underwater diver; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, glyphs, signatures, logos, watermarks, maps, charts, arrows, diagrams, cutaways, split panels, collage, specimen plate, visible paper sheet, decorative border, modern objects, modern scientific instruments, photography, photorealism, glossy CGI, giant wave, tornado, dramatic lightning, any object touching an edge, cropped cloud, cropped figure, cropped vegetation, edge-entering branch, malformed anatomy, duplicated people.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete observer and one complete submerged diver occupy a single continuous coastal-marsh panorama. Moist and smoke-like earth exhalations, a fully contained dense cloud, isolated rain and an intercepted sunshaft are legible without diagrammatic devices. Primary figures and cloud forms have breathing room; no text, pseudo-writing, modern object, panel structure or malformed anatomy was found. Accepted after one framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-c8514857-defa-470c-8c62-f306ac3304af.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/evidence/history/b02-c042-rejected-01.png",
+          "sha256": "8ab5a38e062722cfb38ab45a935128d935aca2c40927bf9fd5a6aa0fa99b207d",
+          "reason": "Rejected at original-resolution QA because a nonessential foreground tree and vegetation were sliced by the left canvas boundary, violating the wave’s strict containment contract. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:44",
+      "title": "THE ORIGIN OF WINDS",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-34e5bf7c-bf0e-4e56-9ba2-6c150bc4990d",
+      "outputArtifact": "built-in-imagegen://exec-34e5bf7c-bf0e-4e56-9ba2-6c150bc4990d.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c044.png",
+      "sha256": "a62db5bafb18db3c4d623f6c7ed024343a11636263106e50886c43d60f5ad477",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 44, “THE ORIGIN OF WINDS”\nPrimary request: Visualize Pliny’s transmitted observation that irregular mountain bends, broken ridges, defiles and hollow valleys cleave and rebound the air, continually giving rise to winds. Present an ancient field observation, not a modern aerodynamic diagram or asserted scientific fact.\nScene/backdrop: One continuous high oblique panorama into a dry Mediterranean mountain amphitheatre. A complete hooked ridge, a complete notch-like defile and a deep concave valley form a legible natural sequence. The air’s movement is shown only through physical effects: fine ochre dust curling out of the notch, staggered grasses bending around rock shoulders, and one loose cloak lifting in the valley. No arrows or symbolic wind faces.\nSubject/action: One complete Roman-era mountain traveller stands on a safe interior ledge, hand cupped to the ear as if hearing an echo while looking into the defile. A small complete tethered mule stands beside him, both well within the frame. The scene is breezy and clear, not stormy.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Elevated sweeping S-curve from open foreground ledge through hollow valley to the angular defile; low horizon and ample clear faded-lapis sky distinguish this from the marsh scene. Every mountain peak and ridge silhouette that functions as a subject must be fully visible below the top edge. Keep traveller, mule, ledge, dust curl and vegetation comfortably inside the canvas with broad breathing room.\nColor palette: warm ochre and umber stone, lampblack hatched ravines, muted verdigris scrub, a thin faded-lapis sky, restrained madder cloak.\nConstraints: historically plausible Roman clothing and tack; exactly one traveller and one mule; opaque RGB/sRGB intent; calm observational tone.\nAvoid: text, captions, labels, numerals, pseudo-writing, glyphs, signatures, logos, watermarks, maps, compass roses, charts, arrows, diagrams, wind deities, human faces in clouds, split panels, collage, atlas, visible sheet, ornamental border, modern objects, modern instruments, photography, photorealism, glossy CGI, lightning, rainstorm, tornado, waterspout, impossible terrain, unsafe precipice action, mountain cut by top edge, cropped figure, cropped mule, edge-entering branch, malformed anatomy, duplicated figures.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. The hooked ridge, broken defile and hollow valley make one clear terrain sequence; dust, grass and the traveller’s cloak carry the wind action without arrows. The complete traveller and mule are safely contained, primary peak silhouettes remain below the top edge, and the ochre mountain geometry is materially distinct from all neighboring scenes. No text, pseudo-writing, storm cliché, modern object, panel or clipping was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:46",
+      "title": "VARIOUS OBSERVATIONS RESPECTING WINDS",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-5df8907d-d80c-496e-a9fe-095272316322",
+      "outputArtifact": "built-in-imagegen://exec-5df8907d-d80c-496e-a9fe-095272316322.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c046.png",
+      "sha256": "c920e561811b75cbea382df8da96973d01cffd186ea300d8bebe3600a9158291",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 46, “VARIOUS OBSERVATIONS RESPECTING WINDS”\nPrimary request: Ground the scene in Pliny’s praise of old Greek observers who studied winds for the benefit of posterity and safer navigation, contrasted with voyages made only for gain. Treat these as transmitted ancient observations and values, not modern meteorological fact.\nScene/backdrop: One continuous sunlit Greek-speaking Mediterranean harbour viewed from a broad high stone terrace. Below, one complete merchant vessel approaches safely under a steady cross-breeze while small complete dock workers handle amphora cargo on the quay. On the terrace, one shallow charcoal brazier releases one slender smoke trail that reveals the breeze through natural motion.\nSubject/action: Exactly two complete foreground people: one elderly Greek natural observer watches the brazier smoke, sea texture and sail together with both hands empty; one younger apprentice holds a plain knotted sounding cord and looks toward the ship. Their bodies, garments, hands and feet are entirely visible and separated from all edges. No books, scrolls, tablets, lettering or instrument dials. The harbour remains orderly and calm.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Place both observers together in the interior lower-left third, surrounded by open terrace on every side; place the brazier beside them, not beneath a boundary. A strong diagonal descends to the complete ship and curved harbour; high horizon, long quiet sea plane and distant islands. Keep a generous empty breathing margin between both people, their garments, the brazier and all four canvas edges. Keep the smoke trail and entire ship including mast and sail fully inside the canvas. No edge-entering vegetation or architecture.\nColor palette: faded lapis and muted verdigris sea, pale ochre stone and sunlight, umber/lampblack linework, restrained madder sail trim and garments.\nConstraints: historically plausible Hellenistic/Roman-era clothing, sailing vessel, harbour and tools; exactly two foreground observers; opaque RGB/sRGB intent; documentary observational tone.\nAvoid: text, captions, labels, numerals, pseudo-writing, scratched marks, glyphs, signatures, logos, watermarks, maps, charts, arrows, diagrams, compass roses, wind roses, modern weather instruments, anachronistic telescope, scroll, book, tablet, person holding smoke or flame, split panels, collage, visible sheet, decorative border, photography, photorealism, glossy CGI, storm, lightning, tornado, waterspout, pirate attack, shipwreck, ritual scene, any foreground person touching an edge, cropped person, cropped garment, cropped brazier, cropped smoke, cropped mast or sail, ship cut by edge, malformed hands, duplicated figures.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete observers stand within a broad terrace while one contained brazier smoke trail, sea texture and one complete approaching merchant vessel form a coherent ancient observational practice. Harbour workers and amphora cargo remain subordinate scale cues. No tablet, text, pseudo-writing, modern instrument, panel, storm, clipping or malformed anatomy was found. Accepted after one observer-framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-cb2d45a8-102d-4bbb-ae1f-8a6092f5af4c.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/evidence/history/b02-c046-rejected-01.png",
+          "sha256": "9db08f977d45a7eb76b730f266d3b9299a06da0a5b835a8c401fd8e52693e00a",
+          "reason": "Rejected at original-resolution QA because the elder observer’s cloak and body were cut by the left canvas boundary. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:47",
+      "title": "THE DIFFERENT KINDS OF WINDS",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-e330957b-9fba-4bf0-b765-cbe8539e5289",
+      "outputArtifact": "built-in-imagegen://exec-e330957b-9fba-4bf0-b765-cbe8539e5289.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c047.png",
+      "sha256": "aea278dc41f60cee3fa8ffd3d3f7910093c211cf48932f11af156c3818d1351c",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 47, “THE DIFFERENT KINDS OF WINDS”\nPrimary request: Condense Pliny’s long transmitted catalogue of named regional and seasonal winds into one practical seafaring observation: the same steady wind can carry vessels on different headings when their sails are set differently, and winds reveal seasons and local limits through sea, birds and coast. Do not present the catalogue as a modern fact chart.\nScene/backdrop: One open Mediterranean sea far outside any harbour, viewed almost at water level in clear late-spring light. Two complete Roman-era sailing vessels cross at generous distance on opposite headings under the same mild breeze, with visibly different but plausible sail trim. A low complete coastal ridge on the horizon checks the far haze. A small flock of swallows enters the open sky as a seasonal cue, and a pair of kingfishers rests beside a calm sheltered patch of shore.\nSubject/action: The central action is the paired navigation under one wind; tiny complete helmsmen and crews work safely aboard both ships. Wind is visible through angled sails, narrow wakes, bird flight and a cloud opening—never through arrows, diagrams or personified wind heads.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Wide horizontal rhythm and a low water-level viewpoint, materially different from the previous high-harbour observer scene. Place one complete vessel in the left-middle distance and the other complete vessel in the right-middle distance with open water between them; every hull, rudder, mast, yard and sail must be fully visible with broad separation from all edges. Keep all birds, ridge peaks and cloud opening fully contained.\nColor palette: deep faded-lapis open water, muted verdigris shallows, pale ochre sails and sunlight, umber/lampblack hatching, tiny madder details on one vessel.\nConstraints: historically plausible Roman-era ships and rigging; exactly two principal sailing vessels; one coherent safe sea scene; opaque RGB/sRGB intent.\nAvoid: text, captions, labels, numerals, pseudo-writing, sail markings, signatures, logos, watermarks, maps, charts, compass roses, arrows, radial diagrams, wind gods, faces blowing from clouds, calendars, split seasons, split panels, collage, atlas, visible sheet, decorative border, harbour city, observer with brazier, modern ships, modern instruments, photography, photorealism, glossy CGI, storm, giant waves, lightning, tornado, waterspout, collision, shipwreck, pirate attack, vessel cut by edge, sail or mast clipped, cropped birds, malformed rigging, duplicated ship.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. Exactly two complete Roman sailing vessels travel on opposite headings with plausibly different sail trim under one mild wind; both hulls, masts, yards and sails are intact and contained. Swallows, kingfishers, open sea and a low ridge provide seasonal and regional cues in one horizontal water-level scene. No compass rose, arrows, text, sail markings, storm, collision, panel or clipping was found.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:48",
+      "title": "ECNEPHIAS AND TYPHON",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-04193697-b085-44d9-a2c8-2527563e4289",
+      "outputArtifact": "built-in-imagegen://exec-04193697-b085-44d9-a2c8-2527563e4289.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c048.png",
+      "sha256": "097c772c947a29193fe12cacfd9826c4660d4e48a2e70aac9ac272769a1346cc",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 48, “ECNEPHIAS AND TYPHON”\nPrimary request: Visualize Pliny’s transmitted distinction between a sudden squall that ruptures a dry cloud and a tighter fireless Typhon that carries and rotates a cold broken piece of cloud, dreaded by sailors. Include the ancient report that sailors cast vinegar toward it only as a historical action, not as validated advice or modern fact.\nScene/backdrop: One open Mediterranean sea with an otherwise spacious faded-lapis sky. Suspend one small, complete oval dry cloud in the upper-left interior, entirely visible with clear sky above, below and beside it. From a small interior rupture in that fully visible cloud descends one compact, pale, rope-like rotation of cold vapour containing a few small icy fragments; it bends above the waves without becoming a water-sucking column and contains no fire or lightning.\nSubject/action: One complete Roman merchant vessel rides the edge of the gust without wrecking. Its hull, mast, yard, sail, rudder and rigging are all intact and visible. Two complete sailors brace safely on deck; one casts a short visible arc of vinegar from a small unmarked amphora toward the approaching cold rotation while the other controls a line. No one falls, no vessel breaks.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Dynamic diagonal between a modest isolated cloud in the upper-left inner third and a modest vessel in the lower-right inner third, with broad untouched sky surrounding the entire cloud and broad sea surrounding the entire vessel. Enforce at least ten percent clear sky between every part of the cloud and the top, left and right canvas edges. Keep the cold rotating form, vinegar arc, every icy fragment, ship and both sailors separated from every edge. The vessel occupies less than one-third of the width.\nColor palette: deep faded-lapis sea and sky, cold pale grey-blue cloud fragment, umber and lampblack linework, ochre sail, tiny madder garment accents.\nConstraints: historically plausible Roman-era vessel, rigging, clothing and amphora; exactly one complete cloud, one ship and two visible sailors; opaque RGB/sRGB intent; controlled peril without catastrophe.\nAvoid: text, captions, labels, numerals, pseudo-writing, glyphs, sail markings, signatures, logos, watermarks, maps, charts, arrows, diagrams, split panels, collage, visible sheet, decorative border, modern objects, photography, photorealism, glossy CGI, cloud bank, cloud filling top edge, cloud touching any edge, lightning, flame, fiery tornado, giant hurricane, water-sucking waterspout, monster face in cloud, shipwreck, broken mast, drowning, gore, person overboard, vessel cut by edge, vortex cut by edge, cropped sailors, malformed hands, duplicated ship or vortex.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete isolated dry cloud releases a compact pale fireless rotation with discrete icy fragments; it remains visually distinct from the later water-sucking column. One complete vessel and exactly two sailors are contained, with a short vinegar arc shown only as the transmitted ancient response. No lightning, fire, text, pseudo-writing, wreck, panel, clipping or malformed anatomy was found. Accepted after one cropped-cloud rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-fa7a1036-2599-40a7-a5b8-2a4a9610160e.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/evidence/history/b02-c048-rejected-01.png",
+          "sha256": "bf0f38c73ca2ea6f4c0a2a9ab0afe9805b2acab05f46e0e12b6befbdb625fd04",
+          "reason": "Rejected at original-resolution QA because the otherwise coherent cold rotation emerged from a large cloud bank cropped across the top and left boundaries. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:49",
+      "title": "TORNADOES; BLASTING WINDS; WHIRLWINDS, AND OTHER WONDERFUL KINDS OF TEMPESTS",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-32c1712c-a476-4c9c-a9a3-5a3965895a5d",
+      "outputArtifact": "built-in-imagegen://exec-32c1712c-a476-4c9c-a9a3-5a3965895a5d.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c049.png",
+      "sha256": "182ca45378c37bfcbf63ed569ba589bc2f70035f9faa0ef93cb666aa8392d8fc",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 49, “TORNADOES; BLASTING WINDS; WHIRLWINDS, AND OTHER WONDERFUL KINDS OF TEMPESTS”\nPrimary request: Visualize one of Pliny’s transmitted “wonderful tempests”: a dark condensed cloud forming a rigid-looking pillar or narrow tube that appears to draw water upward. Present the phenomenon as an ancient coastal observation, not a modern meteorological explanation or factual diagram.\nScene/backdrop: From a dry rocky Mediterranean bluff, look across a broad shallow bay toward one distant, slender vertical moisture column rising from a small circular disturbance in the water into one modest irregular dark cloud. The entire cloud is a compact island of vapour floating in the upper-right middle distance, with abundant pale sky visibly surrounding its top, sides and underside. It has a vaguely animal-like weight only in accidental silhouette, with no literal head, eyes, limbs or monster.\nSubject/action: Two complete Roman-era shore workers in the foreground pull a small complete fishing skiff farther onto land and secure one plain reed mat while watching the distant column. Their action is practical and calm; no ship is caught in the phenomenon, no one is injured, and the bay provides scale.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Broad terrestrial foreground occupies the lower-left, quiet bay opens diagonally, and the narrow moisture pillar stands in the right-middle distance beneath a small complete cloud. Reserve at least fifteen percent pale sky between the entire cloud and the top, left and right canvas edges; the cloud must never fill or touch the upper boundary. Keep open water on both sides of the whole pillar. Keep both workers, skiff, mat, cloud and complete column comfortably inside the frame; no foreground branch or rock may intrude from an edge.\nColor palette: ochre and umber dry bluff, muted verdigris shallows, faded-lapis bay, lampblack and deep desaturated plum-grey cloud, restrained madder garment accents.\nConstraints: historically plausible Roman clothing, skiff and shore gear; exactly two foreground workers and one distant moisture column; opaque RGB/sRGB intent; observed wonder without spectacle.\nAvoid: text, captions, labels, numerals, pseudo-writing, glyphs, signatures, logos, watermarks, maps, charts, arrows, diagrams, split panels, collage, visible sheet, decorative border, modern objects, photography, photorealism, glossy CGI, large cloud bank, cloud touching or cut by top edge, literal monster cloud, face in cloud, multiple tornadoes, giant hurricane, lightning, fire, vinegar-throwing sailor, large sailing vessel, shipwreck, drowning, gore, column cut by edge, cropped people, skiff cut by edge, edge-entering vegetation, malformed hands, duplicated figures.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One slender distant moisture column joins a small fully contained dark cloud to a circular bay disturbance, with abundant pale sky and open water around it. Exactly two complete shore workers secure one complete skiff and reed mat on land, keeping the scene observational rather than catastrophic. No literal monster, lightning, text, pseudo-writing, panel, modern object, clipping or malformed anatomy was found. Accepted after one cropped-cloud rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9d5a914a-58a0-4b59-8b19-af31ebc76620.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/evidence/history/b02-c049-rejected-01.png",
+          "sha256": "5e77cd01ad9eb05014925174bff14f08709e58e4b0c120c7cec6fe8a5f2f74c6",
+          "reason": "Rejected at original-resolution QA because the dark cloud mass was cut by the upper canvas boundary despite the otherwise complete workers, skiff and column. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:50",
+      "title": "OF THUNDER; IN WHAT COUNTRIES IT DOES NOT FALL, AND FOR WHAT REASON",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-485e4f93-7d38-4607-9dac-baa2609355e6",
+      "outputArtifact": "built-in-imagegen://exec-485e4f93-7d38-4607-9dac-baa2609355e6.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c050.png",
+      "sha256": "6dc33683eab3e95b4b6cf3b35573b8e9ad16b60401aa90ed80cef5660075e820",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 50, “OF THUNDER; IN WHAT COUNTRIES IT DOES NOT FALL, AND FOR WHAT REASON”\nPrimary request: Ground the scene in Pliny’s transmitted explanation that frozen northern air and excessive Egyptian heat were thought to make thunder rare, while Italy’s mild, showery, spring-like or autumn-like air made thunder more frequent. Focus on the observed Campanian temperate season and treat the causal account as ancient natural philosophy, not modern meteorological fact.\nScene/backdrop: One continuous open Campanian agricultural valley in a mild transitional season, neither winter nor high summer. A compact fully contained rain cloud hangs over distant low hills and gives one small contained lightning fork and a soft veil of rain. The foreground remains warmly lit: low vineyard rows, a distant olive grove and one modest complete Roman farm villa sit beneath broken pale sky. Far on one horizon only, a faint cool snow ridge provides geographic contrast without creating another scene or panel. Do not place any foreground tree at either side.\nSubject/action: Two complete Roman farm workers calmly cover harvest baskets with a plain woven cloth and lead one complete donkey toward the villa’s open shelter before the rain arrives. No one runs in panic; lightning remains remote and does not strike an object.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Broad low agricultural foreground and a long lateral valley lead to the modest cloud in the upper-middle distance. Keep generous pale sky around every edge of the cloud and lightning; the complete cloud occupies less than one-quarter of the canvas. Place the complete villa in the interior right-middle distance with open ground around its entire roof and walls. Place the two workers, complete donkey, baskets and low vines in the interior foreground, all separated from canvas edges. Use an open central path as negative space. The outer five percent of the image must contain only unobtrusive ground, sky and distant low horizon—no tree crown, trunk, person, animal, building, basket or vine focal object may enter from an edge.\nColor palette: warm ochre field and villa, muted verdigris vines and distant olives, faded-lapis grey rain cloud, umber/lampblack linework, restrained madder garments and harvest cloth.\nConstraints: historically plausible Roman Campanian clothing, farm, tools and crops; exactly two foreground workers and one donkey; exactly one remote lightning fork; opaque RGB/sRGB intent; quiet seasonal observation.\nAvoid: text, captions, labels, numerals, pseudo-writing, graffiti, glyphs, signatures, logos, watermarks, maps, charts, arrows, diagrams, divided climate zones, split panels, triptych, collage, visible sheet, decorative border, modern objects, modern farm equipment, photography, photorealism, glossy CGI, multiple storms, tornado, waterspout, giant lightning, lightning striking a person or building, fire, disaster, volcanic eruption, foreground olive tree, any tree touching an edge, cropped cloud, lightning cut by edge, cropped people or donkey, clipped villa, edge-entering tree or vine, malformed hands, duplicated figures.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. A single fully contained rain cloud and remote lightning fork sit above a continuous Campanian valley rather than divided climate panels. Exactly two complete workers, one complete donkey, covered baskets, an open path and a complete farm villa form a quiet seasonal action; the distant snow ridge remains a subordinate contrast. No text, pseudo-writing, modern equipment, volcanic action, disaster, panel or clipped primary subject was found. Accepted after one edge-tree rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-a53e219b-ed83-43ec-9ffb-a14e6ab65051.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/evidence/history/b02-c050-rejected-01.png",
+          "sha256": "98b4b467540a0093b2201d2287dae5bcdcc3dc690112adb3cef5e19d032b531d",
+          "reason": "Rejected at original-resolution QA because a large foreground olive crown and branches were cut by the top and right canvas boundaries. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "2:51",
+      "title": "OF THE DIFFERENT KINDS OF LIGHTNING AND THEIR WONDERFUL EFFECTS",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-1642ed49-5278-4b9a-af6d-a2233c8bb1fc",
+      "outputArtifact": "built-in-imagegen://exec-1642ed49-5278-4b9a-af6d-a2233c8bb1fc.png",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c051.png",
+      "sha256": "2fa2fac0acb2e95d0753a0ddbea9e3a05d3f3310e5ba506e1496043747fbf633",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-page chapter illustration for Naturalis Historia, Book II chapter 51, “OF THE DIFFERENT KINDS OF LIGHTNING AND THEIR WONDERFUL EFFECTS”\nPrimary request: Visualize Pliny’s transmitted report of “bright lightning” that supposedly emptied covered casks without visible damage and altered metals without burning their containers. Present this explicitly as an ancient reported wonder, not a validated physical fact. Do not depict the harmed pregnancy anecdote.\nScene/backdrop: One coherent Roman storeroom opening onto a small clear-sky courtyard through one broad roof oculus. A single thin, pale, fully contained trace of clear-sky lightning descends through the complete oculus but strikes no person and starts no fire. The dim interior contains exactly one large complete wooden cask, two plain complete amphorae and one small complete low stone worktable arranged naturally rather than as a specimen display.\nSubject/action: Exactly two complete Roman witnesses. The storekeeper alone holds exactly one intact circular cask lid with both hands after lifting it and looks into the mysteriously empty, undamaged cask. The second witness has completely empty hands, keeps them visible at his sides, and leans slightly to inspect the unscorched wood. On the small table rests one plain unburnt cloth purse with a simple smooth blank wax seal beside three small softened lumps of gold, copper and silver, treated as the reported aftermath rather than a technical demonstration.\nStyle/medium: Original Plinian natural-history folio on warm fibrous aged vellum, full-bleed image field; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent mineral wash; ancient, timeless, beautiful, rough in material and polished in draftsmanship. Use restrained interior chiaroscuro while preserving the same folio material language.\nComposition/framing: Landscape 3:2, 1536x1024 proportions. Low intimate viewpoint through the storeroom, with the complete cask and two witnesses forming one triangular action in the interior center; the small worktable sits entirely within the right-middle foreground with open floor visible below and beside all four table edges. The complete oculus provides high negative space. Keep the entire oculus, lightning trace, both people, the single lifted lid, cask, two amphorae, purse, blank seal, metals and all four edges and legs of the worktable comfortably separated from every canvas edge. All architecture reads as one room.\nColor palette: warm umber and lampblack interior, ochre light through the oculus, faded-lapis clear sky, muted verdigris shadow, restrained metallic gold/copper/silver accents and small madder garment notes.\nConstraints: historically plausible Roman storehouse, clothing, vessels and purse; exactly two people, exactly one cask, exactly one cask lid, exactly two amphorae, exactly one fully visible table and exactly one lightning trace; opaque RGB/sRGB intent; quiet astonishment, no disaster.\nAvoid: text, captions, labels, numerals, pseudo-writing, stamped or lettered seal, graffiti, glyphs, signatures, logos, watermarks, maps, charts, arrows, diagrams, specimen grid, separate object panels, split panels, collage, visible sheet, decorative border, modern objects, electricity equipment, photography, photorealism, glossy CGI, storm cloud, rain, tornado, waterspout, giant lightning, lightning touching a person, pregnant woman, injury, fire, scorch marks, explosion, broken cask, spilled liquid, duplicate lid, second witness holding any object, cropped oculus or lightning, cropped person, cask or table cut by edge, malformed hands, duplicated figures or vessels.",
+      "visualQaNotes": "Inspected at original 1536x1024 resolution. One complete clear-sky oculus and one restrained lightning trace illuminate a single coherent storeroom. Exactly two complete witnesses inspect one complete empty cask and exactly one intact lid; the second witness’s hands are empty. Two amphorae and a fully contained table with one plain purse, blank seal and three softened metals support the reported wonder without a specimen grid. No text, pseudo-writing, scorch, injury, modern object, panel, clipping or malformed anatomy was found. Accepted after one semantic-count and framing rejection.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-4e5575e0-348e-48e8-aa01-991a92ef1b99.png",
+          "evidenceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/evidence/history/b02-c051-rejected-01.png",
+          "sha256": "05f2ff7b0ac8f0aa7beeef4d4d186a591310345dec44284da04a8463c9ccca24",
+          "reason": "Rejected at original-resolution QA because both witnesses held separate circular cask lids despite the single-cask scene, and the primary worktable was cropped by the bottom and right boundaries. The built-in original is preserved unchanged under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

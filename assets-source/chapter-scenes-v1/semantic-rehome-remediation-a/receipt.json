@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "campaign": "semantic-rehome-remediation-a",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "2:52",
+    "30:6",
+    "27:9",
+    "22:21",
+    "10:57"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact prompts and artifact IDs were extracted from the current built-in ImageGen session. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "sha256": "22879fa17273eb73b197125dbe6b0eb8c4258e96901039cf0813962f12296898"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "sha256": "2dc2a1d22287891f88144f1f396e9bdcd4e79fb9a5ac06d2a9653e1c8ad8ff98"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "sha256": "5fb4720a9f6695614a151734c7476b41a6c223efb0fbcfb52e96f47924160385"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "sha256": "210c02b999cbee9a6ffa9ed3431b18ffd4fa3eb1cdd5831c5808dfd61e28c64d"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English fields for all five chapters were read before prompting. Etruscan and Roman thunderbolt classifications, animal-derived materia medica, plant remedies, and fowl treatments are presented only as historically transmitted natural philosophy and practice, never as verified modern meteorology, medicine, botany, veterinary care, or instructions for harm.",
+  "generationSummary": {
+    "acceptedCount": 5,
+    "rejectedArtifactCount": 1,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 6,
+    "independentInitialSceneCalls": 5,
+    "independentReplacementCalls": 1,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "chapters": [
+    {
+      "chapterKey": "2:52",
+      "title": "THE ETRURIAN AND THE ROMAN OBSERVATIONS ON THESE POINTS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-a/b02-c052.png",
+      "corpusArtifact": "public/corpus/book-02.22879fa17273eb73.json",
+      "corpusReadEvidence": {
+        "latinSha256": "709a84bf4598c00e62a31e3b16c5b6b007ac589243fafb71a0da21971960ad63",
+        "englishSha256": "d86c64206e9c668fcfd0e5b4ff35b0d7a0de6774cac2d4dd56b46078e0e8761b",
+        "latinWords": 172,
+        "englishWords": 333,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "0c484f5ac2ca15fa78f4ed17ec9d880c423bbe099653d1441b9ab32be114fd7e",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-12a46523-7043-4eb9-83de-112117f61b03",
+      "generationArtifactId": "exec-12a46523-7043-4eb9-83de-112117f61b03",
+      "outputArtifact": "built-in-imagegen://exec-12a46523-7043-4eb9-83de-112117f61b03.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book II chapter 52 illustration master\nPrimary request: Create an original Plinian natural-philosophy folio for THE ETRURIAN AND THE ROMAN OBSERVATIONS ON THESE POINTS, showing Roman observation of the transmitted distinction between ordinary daytime lightning attributed to Jupiter and rarer nocturnal lightning attributed to Summanus. These are historical Etruscan and Roman beliefs, not literal gods or verified meteorology.\nScene/backdrop: one continuous broad Roman Campagna landscape at the liminal hour after a storm, with an unbroken sky grading naturally from cold pale daylight at left to deep faded-lapis night at right. A receding daytime rain shaft and one thin oblique lightning stroke remain in the brighter distance; one subtler nearly vertical nocturnal lightning stroke glows far off beneath the darker cloud bank. The terrain is one coherent place and time, never a split scene or diagram.\nSubject: exactly one complete mature Roman natural observer standing on a low dry rise, fully visible head through sandals, in a plain undyed tunic and muted verdigris mantle. He watches the sky calmly and analytically, one hand shading his eyes and the other holding one closed blank wax tablet against his side; the tablet has absolutely no marks. Include one low complete stone survey marker near him, plain and uninscribed. No deity, divine figure, temple, priest, sacrifice, prophecy performance, supernatural creature, fire, ruined city, or harmed person.\nStyle/medium: unmistakably hand-illuminated Plinian folio painted into warm fibrous aged vellum, with firm iron-gall contours, exact cross-hatching and stipple, thin egg-tempera and mineral-watercolor washes, dry-brush abrasion, flattened manuscript depth, restrained matte highlights. Palette: umber, lampblack, verdigris, faded lapis, madder, ochre, chalk, and smoky violet. Ancient, timeless, beautiful, rough in material and polished in draftsmanship; historically plausible, never glossy modern rendering.\nComposition/framing: landscape 3:2, native 1536x1024, opaque RGB/sRGB. Asymmetric low horizon and expansive sky with generous breathable negative space. The complete observer, hands, sandals, tablet, marker, and both complete lightning strokes are fully internal and separated from every edge. Continuous atmosphere may reach the canvas edges.\nLighting/mood: sober wonder, watchful stillness, the last cold daylight yielding to nocturnal indigo.\nText: none.\nConstraints: one continuous scene; exactly one person; lightning remains natural atmospheric observation; distinguish brighter diurnal weather and rarer nocturnal event without panels, symbolic gods, or infographic devices.\nAvoid: text, letters, numerals, labels, inscriptions, pseudo-writing, constellations, zodiac marks, divine emblems, thunderbolt icons, halos, gods, fantasy, border, page margin, mat, frame, dark perimeter line, depicted manuscript page, panels, diptych, collage, diagram, repeated observer, cropped focal subject, clipped lightning, signature, logo, watermark, modern object, photography, cinematic oil painting, photorealism, glossy CGI, neon effects.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-12a46523-7043-4eb9-83de-112117f61b03",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "globalExactShaUniqueness": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found one complete Roman observer and uninscribed tablet beneath a continuous pale-daylight-to-indigo storm sky, with separate complete oblique daytime and rarer nocturnal lightning strokes. The figure, marker and both events are fully internal; no god, fantasy, text, pseudo-writing, panel, collage, city fire or clipped focal subject appears.",
+      "epistemicAndDignityNote": "Jupiter and Summanus remain names in transmitted Etruscan and Roman classification; the image depicts natural weather observation without literal divinity, prophecy spectacle, or a claim of verified meteorology.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:6",
+      "title": "REMEDIES FOR PAINS IN THE STOMACH",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-a/b30-c006.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "9cbae6e9af666136c308e241e22c9a036f9011d1370c8633a457309f3fd90175",
+        "englishSha256": "b790e79d5c75dd1caa7a967b6b173a3f5f2e0ded4bb3adb91a341f82a9d6ba25",
+        "latinWords": 650,
+        "englishWords": 1343,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "7e34908831f6fcb89dd970e2b5ac049eab0f04e81a1b072e3a530c6e8ed84e23",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-08fb59e2-77d2-4a22-af60-9bf903210de9",
+      "generationArtifactId": "exec-08fb59e2-77d2-4a22-af60-9bf903210de9",
+      "outputArtifact": "built-in-imagegen://exec-08fb59e2-77d2-4a22-af60-9bf903210de9.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent replacement Naturalis Historia Book XXX chapter 6 illustration master\nPrimary request: Create an original Roman materia-medica folio for REMEDIES FOR PAINS IN THE STOMACH, centered on Pliny’s transmitted snail-diet preparation as historical testimony, not contemporary medical or dietary advice.\nScene/backdrop: one spare, continuous open-air Roman kitchen court with a broad plain ochre plaster wall and floor. At the center stands ONE SMALL COMPLETE FREESTANDING STONE TABLE, visibly ending on all four sides and fully showing its entire top, all four corners, every support and every foot. Leave at least 170 pixels of empty floor between the complete table and every canvas edge. No shelf, inscription, mosaic, architecture cutaway, clinic, or other furniture.\nSubject: exactly one complete mature Roman household practitioner, fully visible head through sandals, kneeling beside a small fully enclosed clay brazier. Using one plain wooden tong, the practitioner carefully turns one complete whole snail on a low bronze grill over restrained coals. On the small complete stone table sit exactly five additional complete, unmistakable edible land snails with naturally spiraled brown shells in one shallow woven storage basket; one small complete clay cooking pot holding clear warmed water; one complete plain wine jug; and one tiny complete garum flask. Keep all five basket snails visually distinct and countable, with no shell fragments or exposed flesh. No mouse, weasel, bird, blood, wound, patient, eating, force-feeding, recipe performance toward the viewer, or suffering.\nStyle/medium: unmistakably hand-illuminated Plinian folio painted into warm fibrous aged vellum, with firm iron-gall contours, fine cross-hatching and stipple, thin egg-tempera and mineral-watercolor washes, dry-brush abrasion, flattened manuscript depth, restrained matte highlights. Palette: umber, lampblack, verdigris, faded lapis, madder, ochre, clay red, ash gray, and shell ivory. Ancient, timeless, beautiful, rough in material and polished in draftsmanship; historically plausible, never glossy modern rendering.\nComposition/framing: landscape 3:2, native 1536x1024, opaque RGB/sRGB. A calm medium-distance three-quarter view with the practitioner and brazier at left and the compact freestanding table arrangement at right, one coherent continuous scene with generous negative wall and floor. THE TABLE MUST NOT TOUCH OR RUN OUT OF THE IMAGE: its right end, back edge, front edge, legs and underside all appear against visible empty floor/wall. The complete practitioner, hands, sandals, tongs, brazier, coals, grill, table, basket, every snail, pot, jug, flask, and every vessel handle are fully internal with generous clear margins.\nLighting/mood: sober late-afternoon workshop quiet, humane and observational.\nText: none.\nConstraints: snail storage, simmering vessel, grilling, wine, and garum are visually unambiguous but remain a historical record rather than an endorsed cure; all animals non-graphic; one person only; no modern object.\nAvoid: any clipped or edge-touching table, bench, vessel, figure, brazier, or snail; text, letters, numerals, labels, inscriptions, pseudo-writing, symbols, recipe chart, medical endorsement, border, page margin, mat, frame, dark perimeter, depicted manuscript page, panels, collage, inset, repeated figure, severed animal, gore, exposed meat, illness spectacle, signature, logo, watermark, modern cookware, photography, cinematic oil painting, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-2bd2f16e-4df7-4972-8cba-c6eb580924db",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-08fb59e2-77d2-4a22-af60-9bf903210de9",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalExactShaUniqueness": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found one complete kneeling practitioner, a complete enclosed brazier and grill, one snail on the grill, exactly five distinct shelled snails in the basket, warmed water, wine and garum on one fully visible freestanding stone table. Every person, vessel, table leg and focal prop is internal; there is no mouse, gore, exposed flesh, eating, text, pseudo-writing, panel, collage or modern object.",
+      "epistemicAndDignityNote": "The scene records snail preparation in a sober historical kitchen without presenting animal-derived remedies as safe or effective modern medicine and without graphic material or a suffering patient.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-2bd2f16e-4df7-4972-8cba-c6eb580924db",
+          "outputArtifact": "built-in-imagegen://exec-2bd2f16e-4df7-4972-8cba-c6eb580924db.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-a/evidence/history/b30-c006-reject-01-clipped-bench.png",
+          "sha256": "1d19f3f4307bc11c1734af8741244f4b5b14192f780fca9b20efb00461af5e19",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXX chapter 6 illustration master\nPrimary request: Create an original Roman materia-medica folio for REMEDIES FOR PAINS IN THE STOMACH, centered on Pliny’s transmitted snail-diet preparation as historical testimony, not contemporary medical or dietary advice.\nScene/backdrop: one spare, continuous open-air Roman kitchen court with a broad plain ochre plaster wall and a low complete stone workbench. No shelves, inscription, mosaic, architecture cutaway, animal slaughter, or clinic.\nSubject: exactly one complete mature Roman household practitioner, fully visible head through sandals, kneeling beside a small fully enclosed clay brazier. Using one plain wooden tong, the practitioner carefully turns one complete whole snail on a low bronze grill over restrained coals. On the fully visible stone bench sit exactly five additional complete, unmistakable edible land snails with naturally spiraled brown shells in one shallow woven storage basket; one small complete clay cooking pot holding clear warmed water; one complete plain wine jug; and one tiny complete garum flask. Keep the snails visually distinct and countable, with no shell fragments or exposed flesh. No mouse, weasel, bird, blood, wound, patient, eating, force-feeding, recipe performance toward the viewer, or suffering.\nStyle/medium: unmistakably hand-illuminated Plinian folio painted into warm fibrous aged vellum, with firm iron-gall contours, fine cross-hatching and stipple, thin egg-tempera and mineral-watercolor washes, dry-brush abrasion, flattened manuscript depth, restrained matte highlights. Palette: umber, lampblack, verdigris, faded lapis, madder, ochre, clay red, ash gray, and shell ivory. Ancient, timeless, beautiful, rough in material and polished in draftsmanship; historically plausible, never glossy modern rendering.\nComposition/framing: landscape 3:2, native 1536x1024, opaque RGB/sRGB. A calm low three-quarter view with the practitioner and brazier at left and the bench arrangement at right, one coherent continuous scene with generous negative wall and floor. The complete practitioner, hands, tongs, brazier, flame/coals, bench, basket, every snail, pot, jug, flask, and vessel handle must be fully internal and separated from every edge.\nLighting/mood: sober late-afternoon workshop quiet, humane and observational.\nText: none.\nConstraints: snail storage, simmering vessel, grilling, wine, and garum are visually unambiguous but remain a historical record rather than an endorsed cure; all animals non-graphic; one person only; no modern object.\nAvoid: text, letters, numerals, labels, inscriptions, pseudo-writing, symbols, recipe chart, medical endorsement, border, page margin, mat, frame, dark perimeter, depicted manuscript page, panels, collage, inset, repeated figure, clipped focal subject, severed animal, gore, exposed meat, illness spectacle, signature, logo, watermark, modern cookware, photography, cinematic oil painting, photorealism, glossy CGI.",
+          "reason": "Native review rejected the otherwise accurate scene because the long stone workbench and its right support were clipped by the right canvas edge."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:9",
+      "title": "THE COCCUS CNIDIUS, OR GRAIN OF CNIDOS: TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-a/b27-c009.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "c617c47cd59d3e2d25cdab0ff4a57f161addd43f70f5b39d2fb38d43479cce89",
+        "englishSha256": "660bca94ead2d8a9ddc0c012437872f4d47580b69ea28e69eb25cf00b41d316b",
+        "latinWords": 636,
+        "englishWords": 1329,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "58b64bda8ae2d2e767ee4dd701fb80122e3d327c299e931d0f742cdd914eaa24",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-107fa3e2-7fe2-4492-b28d-fba0be2087d2",
+      "generationArtifactId": "exec-107fa3e2-7fe2-4492-b28d-fba0be2087d2",
+      "outputArtifact": "built-in-imagegen://exec-107fa3e2-7fe2-4492-b28d-fba0be2087d2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 9 illustration master\nPrimary request: Create an original botanical-materia-medica Plinian folio for THE COCCUS CNIDIUS, OR GRAIN OF CNIDOS: TWO REMEDIES. Depict Pliny’s transmitted description of the Cnidian grain as kermes-red and larger than a peppercorn, traditionally enclosed in bread crumb because of its burning quality. Present this as ancient testimony, not contemporary medical advice or an invitation to ingest the plant.\nScene/backdrop: one continuous sun-warmed sandy Cnidian hillside garden. At left grows exactly one complete low Daphne-like Cnidian shrub, fully visible from exposed base to highest twig, with narrow evergreen lanceolate leaves and a modest cluster of round deep kermes-red grains/berries. At right stands one small complete low wooden preparation table, fully visible including all edges and legs.\nSubject: on the table, a shallow complete terracotta dish holds exactly seven separate round kermes-red Cnidian grains/berries, visibly larger than exactly three tiny black peppercorns placed beside the dish for scale. Next to it lies one complete torn piece of coarse Roman bread: one additional red grain is gently enclosed in a pinched hollow of its crumb, with no hand, mouth, patient, eating, dose chart, or active treatment. Include one small complete woven collecting basket under the shrub containing a few red grains, all safely internal. No blossom chart, anatomical cutaway, snake, injury, or disease spectacle.\nStyle/medium: unmistakably hand-illuminated Plinian botanical folio painted into warm fibrous aged vellum, with firm iron-gall contours, meticulous cross-hatching and stipple, thin egg-tempera and mineral-watercolor washes, dry-brush abrasion, flattened manuscript depth, restrained matte highlights. Palette: umber, lampblack, verdigris, faded lapis, kermes-madder red, ochre, bread ivory, and terracotta. Ancient, timeless, beautiful, rough in material and polished in draftsmanship; historically plausible, never glossy modern rendering.\nComposition/framing: landscape 3:2, native 1536x1024, opaque RGB/sRGB. Spacious diagonal rhythm from complete shrub to complete table; broad untouched vellum-toned sky and sandy ground provide generous negative space. Every branch tip, root base, basket, table leg, dish, berry/grain, peppercorn, and bread edge remains fully visible and generously separated from every canvas edge. One coherent continuous scene.\nLighting/mood: lucid late-summer herbarium observation, sober and precise.\nText: none.\nConstraints: the red grains/berries must be unmistakable, round, kermes-colored, and visibly larger than peppercorns; bread-crumb preparation clear; Cnidian plant context clear; no ingestion or modern efficacy claim.\nAvoid: text, letters, numerals, labels, inscriptions, pseudo-writing, symbols, botanical labels, diagram arrows, border, page margin, mat, frame, dark perimeter, depicted manuscript page, panels, collage, inset, repeated plant specimen, clipped focal subject, excessive berries, ambiguous grapes, apples, cherries, grain stalks, blood, gore, signature, logo, watermark, modern object, photography, cinematic oil painting, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-107fa3e2-7fe2-4492-b28d-fba0be2087d2",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndBotany": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "globalExactShaUniqueness": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found one complete narrow-leaved Cnidian shrub with kermes-red grains, a complete collecting basket, exactly seven separate red grains in the dish, exactly three smaller black peppercorns, and one red grain enclosed in coarse bread crumb. The table and all focal objects are fully internal; no ingestion, text, label, diagram, panel, collage, gore or clipped subject appears.",
+      "epistemicAndDignityNote": "The size comparison and bread-crumb preparation record Pliny’s ancient account without inviting ingestion or claiming modern safety or efficacy.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "22:21",
+      "title": "THE ONOCHILON, ARCHEBION, ONOCHELIS, RHEXIA, OR ENCHRYSA: THIRTY REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-a/b22-c021.png",
+      "corpusArtifact": "public/corpus/book-22.210c02b999cbee9a.json",
+      "corpusReadEvidence": {
+        "latinSha256": "07ac764ef0d9dc9d9fc7a2a47521dae7dba22f0a696b515e736b3c5d46661882",
+        "englishSha256": "ef0922f7a86d003b65ab25ba0d53b72088ffd2e6a6880bcc4ca754eebf201545",
+        "latinWords": 893,
+        "englishWords": 1923,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "5c6ca76c4a60cfb3f714832155ead91af03fb1af1a60fd12077088c0ea677fc7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6ce77a57-227d-478d-896c-84f129c750fd",
+      "generationArtifactId": "exec-6ce77a57-227d-478d-896c-84f129c750fd",
+      "outputArtifact": "built-in-imagegen://exec-6ce77a57-227d-478d-896c-84f129c750fd.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXII chapter 21 illustration master\nPrimary request: Create an original botanical excavation folio for THE ONOCHILON, ARCHEBION, ONOCHELIS, RHEXIA, OR ENCHRYSA: THIRTY REMEDIES. Concentrate precisely on Pliny’s description: a diminutive stem, purple flower, rough leaves and branches, and a root blood-red at harvest while otherwise dark. Present the medicinal claims only as ancient testimony, not modern botany or treatment advice.\nScene/backdrop: one continuous quiet sandy Mediterranean field at harvest time. At center grows exactly one complete small onochilon/anchusa-like plant. A neat shallow crescent of sandy soil has been carefully removed around it so that the ENTIRE ATTACHED ROOT is visible from crown to tapered tip while the plant remains upright and alive; the excavation is natural, not a diagram or cutaway.\nSubject: the plant has one diminutive branching stem, exactly three small purple five-petaled flowers, visibly rough narrow leaves and bristled branch surfaces, and one fully visible dark outer root with a freshly exposed saturated blood-red central surface at a small naturally split area—botanical pigment red, not gore. Beside the excavation lie exactly one complete small bronze hand trowel and one complete shallow woven harvest basket holding a few loose sandy clods only. No person, hand, serpent, wound, patient, potion, other plant specimen, vase, or medical demonstration.\nStyle/medium: unmistakably hand-illuminated Plinian botanical folio painted into warm fibrous aged vellum, with firm iron-gall contours, meticulous cross-hatching and stipple, hairline botanical bristles, thin egg-tempera and mineral-watercolor washes, dry-brush abrasion, flattened manuscript depth, restrained matte highlights. Palette: umber, lampblack, verdigris, faded lapis, purple madder, blood-root madder red, ochre, sand ivory, and aged bronze. Ancient, timeless, beautiful, rough in material and polished in draftsmanship; precise and historically plausible, never glossy modern rendering.\nComposition/framing: landscape 3:2, native 1536x1024, opaque RGB/sRGB. The low plant and exposed root form a central vertical axis with the trowel and basket as a quiet diagonal. Broad pale sandy field and empty vellum-toned air create generous negative space. Every flower petal, branch tip, leaf, root tip, excavation edge, trowel, and basket is fully visible and generously separated from every canvas edge. One coherent continuous scene.\nLighting/mood: lucid dry harvest light, reverent botanical attention.\nText: none.\nConstraints: flower must read purple; leaves and branches visibly rough; stem diminutive; attached root clearly blood-red at harvest and fully exposed; no literal blood, injury, snake-killing scene, or efficacy endorsement.\nAvoid: text, letters, numerals, labels, inscriptions, pseudo-writing, symbols, botanical caption, measurement marks, diagram arrows, border, page margin, mat, frame, dark perimeter, depicted manuscript page, panels, collage, inset, repeated specimens, uprooted duplicate, clipped focal subject, gore, severed limb, magical glow, signature, logo, watermark, modern tool, photography, cinematic oil painting, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6ce77a57-227d-478d-896c-84f129c750fd",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndBotany": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalExactShaUniqueness": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found one complete small bristled plant with exactly three purple five-petaled flowers, rough leaves and branches, and one fully exposed attached root with a dark exterior and vivid red center. The complete trowel, basket, excavation and plant remain internal; no blood, wound, serpent, text, label, panel, collage, duplicate or clipped motif appears.",
+      "epistemicAndDignityNote": "The purple flower, rough growth and red harvest root are treated as Pliny’s historical plant description; medical and serpent claims are not enacted or endorsed.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:57",
+      "title": "THE DISEASES OF FOWLS, AND THEIR REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/semantic-rehome-remediation-a/b10-c057.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "1b18f25969087c1b63e3dd02a3d563efdaffc70d703578ade3358f0428efcefa",
+        "englishSha256": "89a9699da2960e5a79d298bb36693c061ce9df66f9aaa42be49f8775fd89bb45",
+        "latinWords": 55,
+        "englishWords": 122,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "ef05a5b88eba8c64e5970cf1b5883f8b4ec69f893403012b0a6d68c4dda94c76",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-85c11e8e-00de-4c32-b870-af316366fbf4",
+      "generationArtifactId": "exec-85c11e8e-00de-4c32-b870-af316366fbf4",
+      "outputArtifact": "built-in-imagegen://exec-85c11e8e-00de-4c32-b870-af316366fbf4.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book X chapter 57 illustration master\nPrimary request: Create an original Plinian zoological folio for THE DISEASES OF FOWLS, AND THEIR REMEDIES. Show one mildly sick domestic fowl receiving the chapter’s ancient spare-diet and bay-or-savin smoke treatment in a humane Roman farmyard. Treat the remedy as transmitted historical husbandry, not modern veterinary advice; omit the invasive feather-through-the-nostrils procedure entirely.\nScene/backdrop: one continuous quiet Roman farmyard at the season between harvest and vintage. A broad plain lime-plaster wall and clean packed-earth floor form the background. One small complete low reed shade stands entirely inside the scene, with open air around it; no cage, coop bars, architecture cutaway, slaughter area, or other animal.\nSubject: exactly one complete adult brown-and-black hen rests upright beneath the shade, fully visible from comb and beak through folded wings, tail, both legs, both feet, and every toe. The hen appears mildly unwell only through slightly ruffled feathers, a lowered head, and half-closed eyes; she remains alive, intact, breathing calmly, and dignified. In front of her sits one tiny complete shallow clay bowl containing only a sparse scattering of spelt and leek pieces, making the spare diet clear. At a safe distance to her left stands one small complete vented clay brazier with no open flame, only gentle pale smoke rising from a clearly visible cluster of whole bay leaves and one short savin/juniper sprig on warm embers. Smoke curls loosely through the air without obscuring or choking the bird. No person, hand, feather insertion, owlet, white-vine seed, injury, blood, mucus, dead bird, second fowl, or eating action.\nStyle/medium: unmistakably hand-illuminated Plinian zoological folio painted into warm fibrous aged vellum, with firm iron-gall contours, exact feather cross-hatching, stipple, thin egg-tempera and mineral-watercolor washes, dry-brush abrasion, flattened manuscript depth, restrained matte highlights. Palette: umber, lampblack, verdigris, faded lapis, madder, ochre, bay green, smoke gray, and eggshell ivory. Ancient, timeless, beautiful, rough in material and polished in draftsmanship; natural anatomy and historically plausible farm material, never glossy modern rendering.\nComposition/framing: landscape 3:2, native 1536x1024, opaque RGB/sRGB. Spacious low triangular composition of complete brazier, complete hen, and tiny bowl, with generous empty plaster wall and floor. Every reed end of the shade, feather tip, toe, bowl rim, leaf, savin twig, brazier foot, and smoke curl is fully internal and separated from every canvas edge. One coherent continuous scene.\nLighting/mood: subdued amber dusk, attentive calm, no suffering spectacle.\nText: none.\nConstraints: exactly one complete living fowl; illness indicated subtly without gore; sparse diet and bay/savin smoke both unambiguous; no invasive procedure; historical testimony only.\nAvoid: text, letters, numerals, labels, inscriptions, pseudo-writing, symbols, medical diagram, border, page margin, mat, frame, dark perimeter, depicted manuscript page, panels, collage, inset, repeated bird, clipped focal subject, cropped shade, smoke touching an edge, gore, open wound, mucus, dead animal, animal restraint, feather in nostril, magical cure effect, signature, logo, watermark, modern object, photography, cinematic oil painting, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-85c11e8e-00de-4c32-b870-af316366fbf4",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalExactShaUniqueness": true
+      },
+      "visualQaNotes": "Native 1536x1024 review found exactly one complete living hen, subtly ruffled and drowsy but intact, beneath a complete reed shade. One sparse spelt-and-leek bowl and one complete vented brazier with whole bay leaves, a savin-like sprig and gentle internal smoke are clear. Every toe, feather, reed and prop is internal; no invasive feather, injury, mucus, text, panel, collage, second bird or clipped motif appears.",
+      "epistemicAndDignityNote": "The spare diet and smoke treatment are presented as historical husbandry testimony. The invasive feather procedure is omitted, the bird remains dignified, and no modern veterinary efficacy is claimed.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "portableReferenceValidation": {
+    "machinePrivatePathsSerialized": 0,
+    "fileUrisSerialized": 0,
+    "artifactReferencesUse": "built-in-imagegen://<generationArtifactId>.png"
+  }
+}

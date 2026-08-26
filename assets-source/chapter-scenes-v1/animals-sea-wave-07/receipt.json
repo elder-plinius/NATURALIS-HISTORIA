@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-sea-wave-07",
+  "generatedAt": "2026-08-25",
+  "tool": "OpenAI built-in image_gen tool",
+  "builtInMode": true,
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and exact revised prompts but no formal receipt ID or model identifier; none was invented. Every accepted master and preserved rejection was byte-compared with its built-in original. Private generated-image and session paths were used only for reconciliation and are intentionally omitted from this portable receipt.",
+  "corpusGrounding": {
+    "source": "public/corpus/book-09.12645fd29e59bbcb.json",
+    "chaptersRead": [
+      "9:55",
+      "9:56",
+      "9:57",
+      "9:58",
+      "9:59",
+      "9:60",
+      "9:61",
+      "9:62"
+    ],
+    "fieldsRead": [
+      "latin",
+      "english"
+    ],
+    "note": "The complete Latin and English corpus fields for every assigned chapter were read before prompt design. Fabulous zoology, spontaneous generation, ancient aquaculture, fishing, and uncertain natural explanations are bounded as transmitted testimony rather than modern fact, advice, or spectacle."
+  },
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "chapters": [
+    {
+      "chapterKey": "9:55",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete living moray is fully visible in the only water body, a completely enclosed oval courtyard pond. Both cypresses and the lamp are complete and internal; the background is dry volcanic terrain with no open sea, text, frame, panel, or collage.",
+      "uncertaintyNote": "Pliny’s banquet, mourning, and earring anecdotes are treated as evidence of Roman status culture; the animal remains calm, unadorned, and unharmed.",
+      "title": "WHO INVENTED PRESERVES FOR MURENÆ",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c055.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "732c755c6c933150e508f3c3dc676acde7c551bb42093176fa8b1a2fd0f4680c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-61426df3-49f2-4f32-b5e5-3770d65471fe",
+      "generationArtifactId": "exec-61426df3-49f2-4f32-b5e5-3770d65471fe",
+      "outputArtifact": "built-in-imagegen://exec-61426df3-49f2-4f32-b5e5-3770d65471fe.png",
+      "exactFinalPrompt": "Targeted framing and setting correction to this exact Book IX.55 moray fishpond illustration. Preserve exactly the same one complete living moray eel, its anatomy, S-curve, scale and position; preserve the fully enclosed oval courtyard pond, limestone paving, curved exedra, one unlit clay lamp, high oblique camera, blue-twilight lighting, palette, mineral-pigment texture, and egg-tempera finish. Make only these corrections: (1) completely remove the visible open sea and ocean horizon behind the parapet, replacing that entire band with continuous dry dark volcanic hills beneath the existing twilight sky, so the oval fishpond is the ONLY water anywhere in the final image; (2) shorten and reposition both cypress trees so each is a complete discrete tree with its trunk base and pointed crown tip clearly visible and at least eight percent inside every canvas edge. Do not change or crop the eel or pond. Add no person, animal, fish, shell, jewellery, food, banquet object, tool, writing, border, panel, page texture, or other water. Final remains a full-bleed 1536x1024 landscape, with only continuous architecture, terrain and sky allowed to meet canvas edges.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-68cf55fd-44fb-4d07-88f6-2e93154f813a",
+          "outputArtifact": "built-in-imagegen://exec-68cf55fd-44fb-4d07-88f6-2e93154f813a.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 55, on the Roman invention of private preserves for moray eels and the elite obsession that followed. Show exactly ONE complete living Mediterranean moray eel, calm and entirely unadorned, making a loose S-curve through one small fully enclosed oval fishpond in a quiet seaside villa courtyard at blue twilight. The animal's head, open breathing mouth, eye, continuous patterned body, dorsal fin, and tail tip must all be anatomically credible, clearly visible through the water, and at least ten percent inside every canvas edge. The fishpond water must be completely surrounded on all sides by a broad continuous ring of weathered limestone paving; NO water may touch the canvas edge. Beyond it, a low exedra, two complete cypress silhouettes, and one complete unlit clay lamp suggest the wealthy preserve without depicting spectacle. The courtyard is empty. Treat Pliny's stories of six thousand banquet fish, mourning, and earrings as evidence of Roman status culture, not an invitation to literalize animal ornament or excess. No earring, jewellery, banquet, food, dead fish, crowd, human, hand, tool, net, hook, blood, injury, second animal, loose shell, open sea, or water outside the pond. Composition: high oblique architectural view with generous negative space and the small luminous pond slightly off center; one continuous scene, not a diagram. Style: timeless Roman marine natural history in museum-grade egg tempera and mineral pigment on subtly abraded lime plaster; precise iron-gall contours on the eel, rough pumice grain in the stone, restrained indigo, verdigris, umber, porphyry red, limestone cream, and sparse shell-gold lamplight; ancient, solemn, beautiful, rough and polished at once, material rather than glossy, naturalistic rather than photorealistic. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, label, caption, letters, numerals, pseudo-writing, watermark, signature, panel, inset, split scene, montage, collage, or modern object. Keep the eel, lamp, cypresses, and every discrete object fully inside the frame; only continuous architecture and sky may extend through edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c055-attempt-01-open-sea-and-clipped-cypresses.png",
+          "sha256": "189cce215b5d0482ae3d53a7aff78c668a7099a3492ec620186c4af529edd5e5",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Open sea touched both side edges and both cypress crowns were clipped."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-61426df3-49f2-4f32-b5e5-3770d65471fe",
+          "outputArtifact": "built-in-imagegen://exec-61426df3-49f2-4f32-b5e5-3770d65471fe.png",
+          "exactPrompt": "Targeted framing and setting correction to this exact Book IX.55 moray fishpond illustration. Preserve exactly the same one complete living moray eel, its anatomy, S-curve, scale and position; preserve the fully enclosed oval courtyard pond, limestone paving, curved exedra, one unlit clay lamp, high oblique camera, blue-twilight lighting, palette, mineral-pigment texture, and egg-tempera finish. Make only these corrections: (1) completely remove the visible open sea and ocean horizon behind the parapet, replacing that entire band with continuous dry dark volcanic hills beneath the existing twilight sky, so the oval fishpond is the ONLY water anywhere in the final image; (2) shorten and reposition both cypress trees so each is a complete discrete tree with its trunk base and pointed crown tip clearly visible and at least eight percent inside every canvas edge. Do not change or crop the eel or pond. Add no person, animal, fish, shell, jewellery, food, banquet object, tool, writing, border, panel, page texture, or other water. Final remains a full-bleed 1536x1024 landscape, with only continuous architecture, terrain and sky allowed to meet canvas edges.",
+          "editSourceArtifactId": "exec-68cf55fd-44fb-4d07-88f6-2e93154f813a",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c055.png",
+          "sha256": "732c755c6c933150e508f3c3dc676acde7c551bb42093176fa8b1a2fd0f4680c",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-68cf55fd-44fb-4d07-88f6-2e93154f813a",
+          "outputArtifact": "built-in-imagegen://exec-68cf55fd-44fb-4d07-88f6-2e93154f813a.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 55, on the Roman invention of private preserves for moray eels and the elite obsession that followed. Show exactly ONE complete living Mediterranean moray eel, calm and entirely unadorned, making a loose S-curve through one small fully enclosed oval fishpond in a quiet seaside villa courtyard at blue twilight. The animal's head, open breathing mouth, eye, continuous patterned body, dorsal fin, and tail tip must all be anatomically credible, clearly visible through the water, and at least ten percent inside every canvas edge. The fishpond water must be completely surrounded on all sides by a broad continuous ring of weathered limestone paving; NO water may touch the canvas edge. Beyond it, a low exedra, two complete cypress silhouettes, and one complete unlit clay lamp suggest the wealthy preserve without depicting spectacle. The courtyard is empty. Treat Pliny's stories of six thousand banquet fish, mourning, and earrings as evidence of Roman status culture, not an invitation to literalize animal ornament or excess. No earring, jewellery, banquet, food, dead fish, crowd, human, hand, tool, net, hook, blood, injury, second animal, loose shell, open sea, or water outside the pond. Composition: high oblique architectural view with generous negative space and the small luminous pond slightly off center; one continuous scene, not a diagram. Style: timeless Roman marine natural history in museum-grade egg tempera and mineral pigment on subtly abraded lime plaster; precise iron-gall contours on the eel, rough pumice grain in the stone, restrained indigo, verdigris, umber, porphyry red, limestone cream, and sparse shell-gold lamplight; ancient, solemn, beautiful, rough and polished at once, material rather than glossy, naturalistic rather than photorealistic. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, label, caption, letters, numerals, pseudo-writing, watermark, signature, panel, inset, split scene, montage, collage, or modern object. Keep the eel, lamp, cypresses, and every discrete object fully inside the frame; only continuous architecture and sky may extend through edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c055-attempt-01-open-sea-and-clipped-cypresses.png",
+          "sha256": "189cce215b5d0482ae3d53a7aff78c668a7099a3492ec620186c4af529edd5e5",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Open sea touched both side edges and both cypress crowns were clipped."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:56",
+      "visualQaNotes": "Inspected at original resolution and with native crops. Exactly one complete snail has two long eye-bearing upper eyestalks and two clearly visible shorter lower tentacles. The complete foreground ring, exactly three leaves, three complete empty background rings, and one complete saucer are all internal; no water, text, frame, panel, or collage is present.",
+      "uncertaintyNote": "The scene presents Roman snail preserves and feed as material history, not husbandry or dietary advice.",
+      "title": "WHO INVENTED PRESERVES FOR SEA-SNAILS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c056.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "3c9b96bcb490ca305c3e4ce22cf481693851348a2afe5e371054c8aa1f38ba04",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-a5233304-e0d3-488a-a21e-d4b5f9ad7a5c",
+      "generationArtifactId": "exec-a5233304-e0d3-488a-a21e-d4b5f9ad7a5c",
+      "outputArtifact": "built-in-imagegen://exec-a5233304-e0d3-488a-a21e-d4b5f9ad7a5c.png",
+      "exactFinalPrompt": "Single-object removal correction to this exact Book IX.56 illustration. Preserve the whole image exactly, including the complete snail with its correct four tentacles, complete foreground circular nursery ring, three complete background rings, complete saucer, garden, framing, light, palette and texture. Inside the foreground ring there are three large vine leaves plus one unwanted small fourth leaf-like sprig directly behind the snail's upper eyestalks near the rear-center of the dark soil. Remove ONLY that small rear-center leaf-like sprig and seamlessly replace it with matching bare dark nursery earth. The final image must have exactly THREE vine leaves total: the two large leaves at left and the one large leaf at right. Change nothing else. Add no object, animal, plant fragment, water, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+      "generationAttempts": 7,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-50b6e0b0-1a07-4c8b-9c3f-9dfd3792f2a3",
+          "outputArtifact": "built-in-imagegen://exec-50b6e0b0-1a07-4c8b-9c3f-9dfd3792f2a3.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 56, on Fulvius Lippinus's Roman snail preserves near Tarquinii and the sorting and fattening of edible snails. Show exactly ONE complete large Roman edible snail moving across the broad inner lip of one low circular limestone nursery enclosure in a sunlit terraced garden. Its entire spiral shell, foot, tail, head, exactly two long eye-bearing upper tentacles, and exactly two shorter lower tentacles must be anatomically clear, separated, and comfortably inside the frame. Inside the enclosure is only damp dark earth, moss, and three complete vine leaves; no water. In the middle distance, exactly THREE small empty circular nursery rings recede asymmetrically through rosemary and dry grass, each fully visible as architecture rather than panels. Beside the foreground enclosure, include exactly ONE complete shallow clay saucer holding a modest mixture of spelt grains and reduced grape must as a quiet historical detail; keep it untouched and fully internal. No other snail, slug, animal, person, hand, dead creature, cooking, feast, amphora, coin, jewellery, label, or modern farming apparatus. Present this as a material history of Roman elite aquaculture and gastronomy, not husbandry advice. Composition: intimate low eye-level macro foreground with a warm spacious garden beyond, clearly different from the blue nocturnal fishpond of the prior chapter. Style: exceptionally beautiful Roman natural-history egg tempera and mineral pigment on subtly worn lime plaster; crisp iron-gall anatomical contour, fine stipple and shell cross-hatching, rough pumice tooth and dry pigment bloom, burnished highlights only on shell and morning dew; restrained terracotta, olive green, rosemary grey, ochre, cream, umber, and muted madder; ancient, timeless, tactile, rough and polished at once, museum-grade, not photorealistic or glossy. One continuous full-bleed landscape 3:2 scene, 1536x1024, opaque sRGB PNG. No visible page, parchment, margin, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, plate, grid, inset, split, montage, or collage. Keep the snail, saucer, vine leaves, and each discrete nursery ring fully inside the canvas; only continuous terrain, vegetation, architecture, and sky may meet an edge.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-01-clipped-ring-and-saucer.png",
+          "sha256": "587323abb65085052d23edff407871b23227e359908914c7bba6fb1e8415ccd8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The foreground nursery ring and clay saucer were clipped by canvas edges."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-0e201649-9275-4e17-bea9-82bc49b8f21e",
+          "outputArtifact": "built-in-imagegen://exec-0e201649-9275-4e17-bea9-82bc49b8f21e.png",
+          "exactPrompt": "Targeted framing correction to this exact Book IX.56 Roman snail-nursery illustration. Preserve exactly the same single complete snail, its shell, body, two long eye-bearing upper tentacles and two shorter lower tentacles; preserve exactly three vine leaves inside the foreground nursery, exactly three empty background nursery rings, one clay feeding saucer with the same modest spelt-and-grape mixture, garden, architecture, light, palette, mineral-pigment texture, and egg-tempera finish. Pull the camera back enough and recompose so the ENTIRE foreground circular limestone nursery enclosure is visible as a closed complete ring with at least six percent of continuous ground between its outer edge and every canvas edge, and the ENTIRE round clay saucer is visible with an equally clear ground margin on all sides. Keep the snail large enough for all four tentacles and the tail tip to remain clearly countable, separated, and fully internal. Keep all three background nursery rings complete and internal. Do not add any snail, animal, vessel, leaf, nursery ring, food object, water, person, writing, border, panel, page texture, or modern item. Final remains a single full-bleed 1536x1024 landscape scene; only continuous terrain, wall, vegetation, and sky may meet canvas edges.",
+          "editSourceArtifactId": "exec-50b6e0b0-1a07-4c8b-9c3f-9dfd3792f2a3",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-02-three-visible-tentacles.png",
+          "sha256": "8f867b2b05c4308da539a79c05e78fe26f929b8a4e113adc5aa3ba9a54da31f8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Framing was corrected, but native anatomy QA found only three visible tentacles."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-90478645-26bd-4c74-9c33-92da17b23e10",
+          "outputArtifact": "built-in-imagegen://exec-90478645-26bd-4c74-9c33-92da17b23e10.png",
+          "exactPrompt": "Precise anatomical correction to this exact zoomed-out Book IX.56 snail-nursery illustration. Preserve the entire composition exactly: one snail, shell, foot, tail, the two existing long eye-bearing upper tentacles, complete foreground nursery ring, exactly three vine leaves, exactly three empty background rings, complete clay feeding saucer, garden, light, camera, palette, mineral-pigment texture, and all current edge clearances. Correct ONLY the snail's lower sensory tentacles: the current head shows one short lower tentacle. Add the matching second short lower tentacle on the opposite side of the mouth so there are exactly TWO clearly visible, separate, shorter lower tentacles beneath the two long upper eyestalks. Both new and existing lower tentacle tips must be fully visible and distinct; do not add an eye to either lower tentacle. Do not duplicate or alter any other subject or object, and add no animal, leaf, vessel, nursery ring, water, text, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-0e201649-9275-4e17-bea9-82bc49b8f21e",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-03-still-three-tentacles.png",
+          "sha256": "8fb7f8aceef1b4fa3357fb11dee72f1c48d4e352febc6f87d33312eb916cdc36",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first anatomical repair still showed only three visible tentacles."
+        },
+        {
+          "order": 4,
+          "artifactId": "exec-61110895-586d-4c8a-9121-c2aa15280e88",
+          "outputArtifact": "built-in-imagegen://exec-61110895-586d-4c8a-9121-c2aa15280e88.png",
+          "exactPrompt": "Second precise anatomical correction to this exact Book IX.56 snail-nursery illustration. Preserve every pixel-scale subject and all current framing as closely as possible: one complete snail, shell, foot, tail, both long upper eyestalks, complete foreground nursery ring, three vine leaves, three empty background rings, complete feeding saucer, garden, light, palette, textures, and margins. The snail head currently has exactly two long upper eyestalks and only one clearly visible short lower tentacle pointing downward. Add EXACTLY ONE additional short lower sensory tentacle so the head visibly has four total tentacles: two long upper eyestalks plus two shorter lower tentacles. Place the new short lower tentacle on the far side of the mouth, projecting diagonally forward and slightly sideways beneath the lower long eyestalk, clearly separated from both upper stalks and from the existing downward short tentacle. It should be about one third the length of an upper eyestalk, have no eye spot, and end in a rounded tip. Do not remove or duplicate any existing tentacle, and do not change the snail's pose. Add or alter nothing else: no extra animal, leaf, ring, saucer, food, water, writing, panel, border, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-90478645-26bd-4c74-9c33-92da17b23e10",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-04-still-three-tentacles.png",
+          "sha256": "83a3a31b521b91ad4c35c5f61743a8f23661431c89418106eeba0e249b4c1b1a",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The second anatomical repair still showed only three visible tentacles."
+        },
+        {
+          "order": 5,
+          "artifactId": "exec-9ebe6052-bbd1-4b43-904f-fc4ebd081c6a",
+          "outputArtifact": "built-in-imagegen://exec-9ebe6052-bbd1-4b43-904f-fc4ebd081c6a.png",
+          "exactPrompt": "Create a fresh independent replacement illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 56, on Fulvius Lippinus's Roman edible-snail preserves near Tarquinii. Wide landscape 3:2, 1536x1024, one continuous full-bleed scene. In a sunlit terraced Roman garden, show exactly ONE complete large Roman snail on the broad top of one complete low circular limestone nursery enclosure. Turn the snail's head slightly toward the viewer so its anatomy is unmistakable: exactly TWO long upper eyestalks, each ending in one tiny dark eye, and exactly TWO shorter lower sensory tentacles, all four separate, splayed, fully visible from base to rounded tip, and comfortably inside the frame. The complete spiral shell, entire foot, head and tail tip must also be visible. Pull the camera far enough back that the entire foreground circular enclosure is a closed ring with clear ground around every side. Inside it are damp dark earth and exactly three complete vine leaves; no water. In the middle distance, exactly THREE small empty circular limestone nursery rings recede asymmetrically, each complete and fully internal. On the ground beside the foreground ring is exactly ONE complete shallow clay saucer holding a modest mixture of spelt grain and reduced grape must, with the whole saucer and a broad ground margin visible. No other snail, slug, animal, leaf, vessel, nursery ring, person, hand, dead creature, cooking, feast, water, label, or modern apparatus. Present material history, not farming advice. Aesthetic: museum-grade Roman natural-history egg tempera and mineral pigment on subtly abraded lime plaster; precise iron-gall anatomical contour and shell hatching, rough pumice tooth, dry pigment bloom, burnished dew; restrained terracotta, olive, rosemary grey, ochre, cream, umber, and muted madder; ancient, timeless, beautiful, tactile, rough and polished at once; naturalistic, not photorealistic or glossy. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, grid, panel, inset, split, montage, or collage. Keep every discrete subject at least six percent inside all canvas edges; only continuous terrain, wall, vegetation, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-05-four-tentacles-but-ring-clipped.png",
+          "sha256": "9169827f952e951a08018dd0bf9074f3d7d8efb1c10d1160817b7b0bdf81d85e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The fresh replacement showed four tentacles, but the discrete foreground nursery ring was clipped."
+        },
+        {
+          "order": 6,
+          "artifactId": "exec-545cc3eb-1b83-449f-b17b-f7d6956d8542",
+          "outputArtifact": "built-in-imagegen://exec-545cc3eb-1b83-449f-b17b-f7d6956d8542.png",
+          "exactPrompt": "Targeted framing correction to this exact fresh Book IX.56 snail-preserve illustration. Preserve the same single complete snail and especially its correct anatomy: exactly two long upper eyestalks with dark eyes plus exactly two clearly visible shorter lower tentacles; preserve shell, foot, tail, pose, complete clay saucer, exactly three empty background nursery rings, garden, light, palette, mineral-pigment texture, and egg-tempera finish. Pull the camera back by about fifteen percent and extend only the surrounding continuous ground so the ENTIRE foreground circular stone nursery enclosure becomes a closed complete ring with at least six percent of bare earth visible between the ring's outermost stone and every canvas edge. Keep the complete saucer at least six percent inside the bottom and right edges. Inside the foreground ring retain exactly THREE complete vine leaves total; remove any fourth leaf-like fragment or sprig. Keep the snail large enough that all four tentacles remain individually visible and countable. Add no snail, animal, ring, vessel, leaf, water, person, text, frame, panel, page texture, or other discrete object. Final remains a full-bleed 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-9ebe6052-bbd1-4b43-904f-fc4ebd081c6a",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-06-extra-fourth-leaf.png",
+          "sha256": "b495b7df564fab0bd45fc064e33dbf66e8ba1ed222f2c90ece70e71899677119",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The framing repair retained an unwanted fourth leaf-like sprig, violating the exact count."
+        },
+        {
+          "order": 7,
+          "artifactId": "exec-a5233304-e0d3-488a-a21e-d4b5f9ad7a5c",
+          "outputArtifact": "built-in-imagegen://exec-a5233304-e0d3-488a-a21e-d4b5f9ad7a5c.png",
+          "exactPrompt": "Single-object removal correction to this exact Book IX.56 illustration. Preserve the whole image exactly, including the complete snail with its correct four tentacles, complete foreground circular nursery ring, three complete background rings, complete saucer, garden, framing, light, palette and texture. Inside the foreground ring there are three large vine leaves plus one unwanted small fourth leaf-like sprig directly behind the snail's upper eyestalks near the rear-center of the dark soil. Remove ONLY that small rear-center leaf-like sprig and seamlessly replace it with matching bare dark nursery earth. The final image must have exactly THREE vine leaves total: the two large leaves at left and the one large leaf at right. Change nothing else. Add no object, animal, plant fragment, water, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-545cc3eb-1b83-449f-b17b-f7d6956d8542",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c056.png",
+          "sha256": "3c9b96bcb490ca305c3e4ce22cf481693851348a2afe5e371054c8aa1f38ba04",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-50b6e0b0-1a07-4c8b-9c3f-9dfd3792f2a3",
+          "outputArtifact": "built-in-imagegen://exec-50b6e0b0-1a07-4c8b-9c3f-9dfd3792f2a3.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 56, on Fulvius Lippinus's Roman snail preserves near Tarquinii and the sorting and fattening of edible snails. Show exactly ONE complete large Roman edible snail moving across the broad inner lip of one low circular limestone nursery enclosure in a sunlit terraced garden. Its entire spiral shell, foot, tail, head, exactly two long eye-bearing upper tentacles, and exactly two shorter lower tentacles must be anatomically clear, separated, and comfortably inside the frame. Inside the enclosure is only damp dark earth, moss, and three complete vine leaves; no water. In the middle distance, exactly THREE small empty circular nursery rings recede asymmetrically through rosemary and dry grass, each fully visible as architecture rather than panels. Beside the foreground enclosure, include exactly ONE complete shallow clay saucer holding a modest mixture of spelt grains and reduced grape must as a quiet historical detail; keep it untouched and fully internal. No other snail, slug, animal, person, hand, dead creature, cooking, feast, amphora, coin, jewellery, label, or modern farming apparatus. Present this as a material history of Roman elite aquaculture and gastronomy, not husbandry advice. Composition: intimate low eye-level macro foreground with a warm spacious garden beyond, clearly different from the blue nocturnal fishpond of the prior chapter. Style: exceptionally beautiful Roman natural-history egg tempera and mineral pigment on subtly worn lime plaster; crisp iron-gall anatomical contour, fine stipple and shell cross-hatching, rough pumice tooth and dry pigment bloom, burnished highlights only on shell and morning dew; restrained terracotta, olive green, rosemary grey, ochre, cream, umber, and muted madder; ancient, timeless, tactile, rough and polished at once, museum-grade, not photorealistic or glossy. One continuous full-bleed landscape 3:2 scene, 1536x1024, opaque sRGB PNG. No visible page, parchment, margin, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, plate, grid, inset, split, montage, or collage. Keep the snail, saucer, vine leaves, and each discrete nursery ring fully inside the canvas; only continuous terrain, vegetation, architecture, and sky may meet an edge.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-01-clipped-ring-and-saucer.png",
+          "sha256": "587323abb65085052d23edff407871b23227e359908914c7bba6fb1e8415ccd8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The foreground nursery ring and clay saucer were clipped by canvas edges."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-0e201649-9275-4e17-bea9-82bc49b8f21e",
+          "outputArtifact": "built-in-imagegen://exec-0e201649-9275-4e17-bea9-82bc49b8f21e.png",
+          "exactPrompt": "Targeted framing correction to this exact Book IX.56 Roman snail-nursery illustration. Preserve exactly the same single complete snail, its shell, body, two long eye-bearing upper tentacles and two shorter lower tentacles; preserve exactly three vine leaves inside the foreground nursery, exactly three empty background nursery rings, one clay feeding saucer with the same modest spelt-and-grape mixture, garden, architecture, light, palette, mineral-pigment texture, and egg-tempera finish. Pull the camera back enough and recompose so the ENTIRE foreground circular limestone nursery enclosure is visible as a closed complete ring with at least six percent of continuous ground between its outer edge and every canvas edge, and the ENTIRE round clay saucer is visible with an equally clear ground margin on all sides. Keep the snail large enough for all four tentacles and the tail tip to remain clearly countable, separated, and fully internal. Keep all three background nursery rings complete and internal. Do not add any snail, animal, vessel, leaf, nursery ring, food object, water, person, writing, border, panel, page texture, or modern item. Final remains a single full-bleed 1536x1024 landscape scene; only continuous terrain, wall, vegetation, and sky may meet canvas edges.",
+          "editSourceArtifactId": "exec-50b6e0b0-1a07-4c8b-9c3f-9dfd3792f2a3",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-02-three-visible-tentacles.png",
+          "sha256": "8f867b2b05c4308da539a79c05e78fe26f929b8a4e113adc5aa3ba9a54da31f8",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Framing was corrected, but native anatomy QA found only three visible tentacles."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-90478645-26bd-4c74-9c33-92da17b23e10",
+          "outputArtifact": "built-in-imagegen://exec-90478645-26bd-4c74-9c33-92da17b23e10.png",
+          "exactPrompt": "Precise anatomical correction to this exact zoomed-out Book IX.56 snail-nursery illustration. Preserve the entire composition exactly: one snail, shell, foot, tail, the two existing long eye-bearing upper tentacles, complete foreground nursery ring, exactly three vine leaves, exactly three empty background rings, complete clay feeding saucer, garden, light, camera, palette, mineral-pigment texture, and all current edge clearances. Correct ONLY the snail's lower sensory tentacles: the current head shows one short lower tentacle. Add the matching second short lower tentacle on the opposite side of the mouth so there are exactly TWO clearly visible, separate, shorter lower tentacles beneath the two long upper eyestalks. Both new and existing lower tentacle tips must be fully visible and distinct; do not add an eye to either lower tentacle. Do not duplicate or alter any other subject or object, and add no animal, leaf, vessel, nursery ring, water, text, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-0e201649-9275-4e17-bea9-82bc49b8f21e",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-03-still-three-tentacles.png",
+          "sha256": "8fb7f8aceef1b4fa3357fb11dee72f1c48d4e352febc6f87d33312eb916cdc36",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first anatomical repair still showed only three visible tentacles."
+        },
+        {
+          "order": 4,
+          "artifactId": "exec-61110895-586d-4c8a-9121-c2aa15280e88",
+          "outputArtifact": "built-in-imagegen://exec-61110895-586d-4c8a-9121-c2aa15280e88.png",
+          "exactPrompt": "Second precise anatomical correction to this exact Book IX.56 snail-nursery illustration. Preserve every pixel-scale subject and all current framing as closely as possible: one complete snail, shell, foot, tail, both long upper eyestalks, complete foreground nursery ring, three vine leaves, three empty background rings, complete feeding saucer, garden, light, palette, textures, and margins. The snail head currently has exactly two long upper eyestalks and only one clearly visible short lower tentacle pointing downward. Add EXACTLY ONE additional short lower sensory tentacle so the head visibly has four total tentacles: two long upper eyestalks plus two shorter lower tentacles. Place the new short lower tentacle on the far side of the mouth, projecting diagonally forward and slightly sideways beneath the lower long eyestalk, clearly separated from both upper stalks and from the existing downward short tentacle. It should be about one third the length of an upper eyestalk, have no eye spot, and end in a rounded tip. Do not remove or duplicate any existing tentacle, and do not change the snail's pose. Add or alter nothing else: no extra animal, leaf, ring, saucer, food, water, writing, panel, border, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-90478645-26bd-4c74-9c33-92da17b23e10",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-04-still-three-tentacles.png",
+          "sha256": "83a3a31b521b91ad4c35c5f61743a8f23661431c89418106eeba0e249b4c1b1a",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The second anatomical repair still showed only three visible tentacles."
+        },
+        {
+          "order": 5,
+          "artifactId": "exec-9ebe6052-bbd1-4b43-904f-fc4ebd081c6a",
+          "outputArtifact": "built-in-imagegen://exec-9ebe6052-bbd1-4b43-904f-fc4ebd081c6a.png",
+          "exactPrompt": "Create a fresh independent replacement illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 56, on Fulvius Lippinus's Roman edible-snail preserves near Tarquinii. Wide landscape 3:2, 1536x1024, one continuous full-bleed scene. In a sunlit terraced Roman garden, show exactly ONE complete large Roman snail on the broad top of one complete low circular limestone nursery enclosure. Turn the snail's head slightly toward the viewer so its anatomy is unmistakable: exactly TWO long upper eyestalks, each ending in one tiny dark eye, and exactly TWO shorter lower sensory tentacles, all four separate, splayed, fully visible from base to rounded tip, and comfortably inside the frame. The complete spiral shell, entire foot, head and tail tip must also be visible. Pull the camera far enough back that the entire foreground circular enclosure is a closed ring with clear ground around every side. Inside it are damp dark earth and exactly three complete vine leaves; no water. In the middle distance, exactly THREE small empty circular limestone nursery rings recede asymmetrically, each complete and fully internal. On the ground beside the foreground ring is exactly ONE complete shallow clay saucer holding a modest mixture of spelt grain and reduced grape must, with the whole saucer and a broad ground margin visible. No other snail, slug, animal, leaf, vessel, nursery ring, person, hand, dead creature, cooking, feast, water, label, or modern apparatus. Present material history, not farming advice. Aesthetic: museum-grade Roman natural-history egg tempera and mineral pigment on subtly abraded lime plaster; precise iron-gall anatomical contour and shell hatching, rough pumice tooth, dry pigment bloom, burnished dew; restrained terracotta, olive, rosemary grey, ochre, cream, umber, and muted madder; ancient, timeless, beautiful, tactile, rough and polished at once; naturalistic, not photorealistic or glossy. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, grid, panel, inset, split, montage, or collage. Keep every discrete subject at least six percent inside all canvas edges; only continuous terrain, wall, vegetation, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-05-four-tentacles-but-ring-clipped.png",
+          "sha256": "9169827f952e951a08018dd0bf9074f3d7d8efb1c10d1160817b7b0bdf81d85e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The fresh replacement showed four tentacles, but the discrete foreground nursery ring was clipped."
+        },
+        {
+          "order": 6,
+          "artifactId": "exec-545cc3eb-1b83-449f-b17b-f7d6956d8542",
+          "outputArtifact": "built-in-imagegen://exec-545cc3eb-1b83-449f-b17b-f7d6956d8542.png",
+          "exactPrompt": "Targeted framing correction to this exact fresh Book IX.56 snail-preserve illustration. Preserve the same single complete snail and especially its correct anatomy: exactly two long upper eyestalks with dark eyes plus exactly two clearly visible shorter lower tentacles; preserve shell, foot, tail, pose, complete clay saucer, exactly three empty background nursery rings, garden, light, palette, mineral-pigment texture, and egg-tempera finish. Pull the camera back by about fifteen percent and extend only the surrounding continuous ground so the ENTIRE foreground circular stone nursery enclosure becomes a closed complete ring with at least six percent of bare earth visible between the ring's outermost stone and every canvas edge. Keep the complete saucer at least six percent inside the bottom and right edges. Inside the foreground ring retain exactly THREE complete vine leaves total; remove any fourth leaf-like fragment or sprig. Keep the snail large enough that all four tentacles remain individually visible and countable. Add no snail, animal, ring, vessel, leaf, water, person, text, frame, panel, page texture, or other discrete object. Final remains a full-bleed 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-9ebe6052-bbd1-4b43-904f-fc4ebd081c6a",
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c056-attempt-06-extra-fourth-leaf.png",
+          "sha256": "b495b7df564fab0bd45fc064e33dbf66e8ba1ed222f2c90ece70e71899677119",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The framing repair retained an unwanted fourth leaf-like sprig, violating the exact count."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:57",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete amphibious goby-like fish has two raised eyes and two distinct supporting pectoral fins, with coherent head, body, dorsal fins, and tail. The burrow and remnant puddle are complete and internal, exactly three reed bundles are internal, and no water touches an edge.",
+      "uncertaintyNote": "The fish is a respectful visual analogue for testimony attributed to Theophrastus, not proof of spontaneous generation or indefinite terrestrial survival.",
+      "title": "LAND FISHES",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c057.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "ba18d0e4f1efe514461c681b9895bece8712c56f0eb6850050b2778aad83ba65",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f00fa315-9455-4907-9dc5-5ddde2723de6",
+      "generationArtifactId": "exec-f00fa315-9455-4907-9dc5-5ddde2723de6",
+      "outputArtifact": "built-in-imagegen://exec-f00fa315-9455-4907-9dc5-5ddde2723de6.png",
+      "exactFinalPrompt": "Targeted anatomical correction to this exact Book IX.57 dried-riverbed illustration. Preserve the single complete goby-like fish, its full body, fins, tail, position, the complete burrow, fully enclosed puddle, exactly three complete reed bundles/stems, cracked alluvial landscape, copper dawn, palette, mineral-pigment texture, and all current framing. Adjust only the fish's front third into a slight three-quarter orientation toward the viewer so BOTH raised eyes are clearly visible as a natural paired set, and BOTH sturdy pectoral fins are clearly visible, separate, and supporting the body—one on each side. Maintain one coherent head and body with plausible amphibious goby anatomy; do not duplicate an eye, head, jaw, fin, or fish. Keep every subject fully internal and keep the puddle enclosed. Add no animal, object, water, person, text, panel, border, or page texture. Final remains 1536x1024 landscape.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-0d698f46-74d8-4c7f-9ae5-67b3bf9c3970",
+          "outputArtifact": "built-in-imagegen://exec-0d698f46-74d8-4c7f-9ae5-67b3bf9c3970.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 57, “Land Fishes,” transmitting reports attributed to Theophrastus about fish surviving in burrows after irrigation waters recede near Babylon and the Black Sea. Show exactly ONE complete small amphibious goby-like fish moving calmly across a broad cracked alluvial riverbed between one complete damp burrow opening and one tiny fully enclosed remnant puddle. The fish is the observable center: entire head, two eyes, gill covers, body, scales, dorsal fin, tail, and both sturdy pectoral fins used for support are anatomically plausible, clearly visible, and comfortably inside the frame. Its body is fully living and coherent—never half earth, never monstrous. The burrow opening and oval puddle are separate internal elements; the puddle must be surrounded on every side by a wide continuous band of mud and NO water may touch a canvas edge. Add exactly three complete dry reed stems lying on the mud and distant low baked-earth irrigation banks; no standing person or structure. Present the scene explicitly as a respectful visual analogue for transmitted ancient testimony, not proof that fish generate from soil or live indefinitely without water. No second fish, eel, frog, mouse, mole, worm, egg, human, hand, excavation, cooking pan, ice, capture, suffering, blood, dead animal, tool, boat, text, or modern object. Composition: low wide field view at copper dawn, fish and burrow in the lower-middle third, long cracked-mud negative space and hazy indigo hills; visually distinct from villa architecture and specimen close-ups. Style: timeless Roman-Mesopotamian natural-history painting in disciplined egg tempera and mineral pigment on weathered lime plaster; fine iron-gall fin and scale contour, stippled silt, rough pumice fissures, translucent ochre and burnt sienna washes, muted lapis distance, verdigris traces, sparing shell-gold dawn; ancient, beautiful, serious, rough and polished at once; museum-grade, tactile, naturalistic, not photorealistic or fantasy. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, map, diagram, panel, inset, split, collage, or montage. Keep fish, burrow, puddle, and all three discrete reed stems fully inside the frame; only continuous terrain, distant banks, hills, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c057-attempt-01-only-one-eye-and-pectoral-visible.png",
+          "sha256": "cbc7614afc2b9080adf955a2769f539d673e5f07dda4ec8fa12b7b4c678766b2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Native anatomy QA found only one eye and one supporting pectoral fin clearly visible."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-f00fa315-9455-4907-9dc5-5ddde2723de6",
+          "outputArtifact": "built-in-imagegen://exec-f00fa315-9455-4907-9dc5-5ddde2723de6.png",
+          "exactPrompt": "Targeted anatomical correction to this exact Book IX.57 dried-riverbed illustration. Preserve the single complete goby-like fish, its full body, fins, tail, position, the complete burrow, fully enclosed puddle, exactly three complete reed bundles/stems, cracked alluvial landscape, copper dawn, palette, mineral-pigment texture, and all current framing. Adjust only the fish's front third into a slight three-quarter orientation toward the viewer so BOTH raised eyes are clearly visible as a natural paired set, and BOTH sturdy pectoral fins are clearly visible, separate, and supporting the body—one on each side. Maintain one coherent head and body with plausible amphibious goby anatomy; do not duplicate an eye, head, jaw, fin, or fish. Keep every subject fully internal and keep the puddle enclosed. Add no animal, object, water, person, text, panel, border, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-0d698f46-74d8-4c7f-9ae5-67b3bf9c3970",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c057.png",
+          "sha256": "ba18d0e4f1efe514461c681b9895bece8712c56f0eb6850050b2778aad83ba65",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-0d698f46-74d8-4c7f-9ae5-67b3bf9c3970",
+          "outputArtifact": "built-in-imagegen://exec-0d698f46-74d8-4c7f-9ae5-67b3bf9c3970.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 57, “Land Fishes,” transmitting reports attributed to Theophrastus about fish surviving in burrows after irrigation waters recede near Babylon and the Black Sea. Show exactly ONE complete small amphibious goby-like fish moving calmly across a broad cracked alluvial riverbed between one complete damp burrow opening and one tiny fully enclosed remnant puddle. The fish is the observable center: entire head, two eyes, gill covers, body, scales, dorsal fin, tail, and both sturdy pectoral fins used for support are anatomically plausible, clearly visible, and comfortably inside the frame. Its body is fully living and coherent—never half earth, never monstrous. The burrow opening and oval puddle are separate internal elements; the puddle must be surrounded on every side by a wide continuous band of mud and NO water may touch a canvas edge. Add exactly three complete dry reed stems lying on the mud and distant low baked-earth irrigation banks; no standing person or structure. Present the scene explicitly as a respectful visual analogue for transmitted ancient testimony, not proof that fish generate from soil or live indefinitely without water. No second fish, eel, frog, mouse, mole, worm, egg, human, hand, excavation, cooking pan, ice, capture, suffering, blood, dead animal, tool, boat, text, or modern object. Composition: low wide field view at copper dawn, fish and burrow in the lower-middle third, long cracked-mud negative space and hazy indigo hills; visually distinct from villa architecture and specimen close-ups. Style: timeless Roman-Mesopotamian natural-history painting in disciplined egg tempera and mineral pigment on weathered lime plaster; fine iron-gall fin and scale contour, stippled silt, rough pumice fissures, translucent ochre and burnt sienna washes, muted lapis distance, verdigris traces, sparing shell-gold dawn; ancient, beautiful, serious, rough and polished at once; museum-grade, tactile, naturalistic, not photorealistic or fantasy. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, map, diagram, panel, inset, split, collage, or montage. Keep fish, burrow, puddle, and all three discrete reed stems fully inside the frame; only continuous terrain, distant banks, hills, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c057-attempt-01-only-one-eye-and-pectoral-visible.png",
+          "sha256": "cbc7614afc2b9080adf955a2769f539d673e5f07dda4ec8fa12b7b4c678766b2",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Native anatomy QA found only one eye and one supporting pectoral fin clearly visible."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:58",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete healthy mouse, including all paws and the full continuous tail, emerges from a complete root-sheltered nest. Exactly three footprint clusters and two complete fallen reeds are internal; no water, half-formed body, text, frame, panel, or collage is present.",
+      "uncertaintyNote": "The natural nest and footprints gently correct the ancient false inference that mice generate half-formed from Nile mud.",
+      "title": "THE MICE OF THE NILE",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c058.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "589d635e04d388ad21d20d7d942842cd8818594e25d85fb721efaa55bbf41220",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-586c0dfb-8fc0-47f1-9e67-9d7583cb64df",
+      "generationArtifactId": "exec-586c0dfb-8fc0-47f1-9e67-9d7583cb64df",
+      "outputArtifact": "built-in-imagegen://exec-586c0dfb-8fc0-47f1-9e67-9d7583cb64df.png",
+      "exactFinalPrompt": "Single-detail correction to this exact Book IX.58 Nile mouse illustration. Preserve exactly the same one complete healthy mouse, nest opening, papyrus roots and continuous foliage, two complete fallen reed stems, mud bank and flood stain, all anatomy, framing, light, palette, mineral-pigment texture, and edge clearances. The silt currently shows four distinct mouse footprint clusters in a diagonal trail. Remove ONLY the farthest-right footprint cluster—the one nearest the lower-right reed stem—and seamlessly replace it with matching undisturbed moist silt. Leave the other three footprint clusters unchanged so exactly THREE complete footprint sets remain. Do not add, remove, or alter any other animal, paw, tail, reed, plant, object, water, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-ce8543df-077f-4796-a7cc-00b84ee380d3",
+          "outputArtifact": "built-in-imagegen://exec-ce8543df-077f-4796-a7cc-00b84ee380d3.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 58, “The Mice of the Nile.” The chapter repeats the ancient false inference that mice emerge half-formed from flood mud. Gently correct it through observation: show exactly ONE complete healthy Nile grass mouse stepping from one small fully visible nest opening beneath a dense clump of papyrus roots on newly exposed alluvial silt after the inundation has receded. The mouse must be entirely animal and anatomically natural—complete head, two ears, two eyes, whiskers, four paws, warm brown-grey fur, body, and one continuous tail from base to tip, all clearly visible and comfortably inside the frame. Three tiny sets of complete mouse footprints lead from the sheltered root opening across the moist silt, quietly revealing ordinary movement rather than spontaneous generation. In the middle distance a soft mineral stain on a continuous mud bank marks the former high-water level, but show NO visible river, pool, or water body. Include exactly two complete fallen reed stems wholly internal; living papyrus foliage may continue naturally beyond the upper background as continuous vegetation. No second mouse, half-mouse, clay body, embryo, egg, animal emerging from solid earth, corpse, predator, snake, bird, person, hand, trap, grain bait, tool, writing, or modern object. Present Pliny's sentence as transmitted ancient testimony and the image as a humane observational correction. Composition: intimate ground-level close field scene with the mouse in the left-middle third, nest roots opposite, broad luminous silt negative space, pale post-flood dawn; no spectacle. Style: timeless Nilotic-Roman natural-history egg tempera and mineral pigment on worn lime plaster, precise iron-gall fur and whisker contour, delicate stipple, rough silt granulation, restrained raw umber, reed green, ochre, pale blue-grey, muted rose and sparse shell-gold; ancient, beautiful, tender but unsentimental, rough and polished at once, museum-grade, naturalistic rather than photorealistic or whimsical. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No page, papyrus sheet, margin, border, frame, cartouche, hieroglyph, text, letters, numerals, pseudo-writing, signature, watermark, diagram, panel, inset, split, montage, or collage. Keep the mouse, nest opening, tail tip, footprints, and fallen reeds fully internal; only continuous terrain, bank, vegetation, and sky may touch edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c058-attempt-01-four-footprint-clusters.png",
+          "sha256": "5ca3c5113f632b8dd05ac75ba2598ff044bf02c034b35b471d2913446d2139cf",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first candidate contained four footprint clusters rather than exactly three."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-586c0dfb-8fc0-47f1-9e67-9d7583cb64df",
+          "outputArtifact": "built-in-imagegen://exec-586c0dfb-8fc0-47f1-9e67-9d7583cb64df.png",
+          "exactPrompt": "Single-detail correction to this exact Book IX.58 Nile mouse illustration. Preserve exactly the same one complete healthy mouse, nest opening, papyrus roots and continuous foliage, two complete fallen reed stems, mud bank and flood stain, all anatomy, framing, light, palette, mineral-pigment texture, and edge clearances. The silt currently shows four distinct mouse footprint clusters in a diagonal trail. Remove ONLY the farthest-right footprint cluster—the one nearest the lower-right reed stem—and seamlessly replace it with matching undisturbed moist silt. Leave the other three footprint clusters unchanged so exactly THREE complete footprint sets remain. Do not add, remove, or alter any other animal, paw, tail, reed, plant, object, water, writing, border, panel, or page texture. Final remains 1536x1024 landscape.",
+          "editSourceArtifactId": "exec-ce8543df-077f-4796-a7cc-00b84ee380d3",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c058.png",
+          "sha256": "589d635e04d388ad21d20d7d942842cd8818594e25d85fb721efaa55bbf41220",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-ce8543df-077f-4796-a7cc-00b84ee380d3",
+          "outputArtifact": "built-in-imagegen://exec-ce8543df-077f-4796-a7cc-00b84ee380d3.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 58, “The Mice of the Nile.” The chapter repeats the ancient false inference that mice emerge half-formed from flood mud. Gently correct it through observation: show exactly ONE complete healthy Nile grass mouse stepping from one small fully visible nest opening beneath a dense clump of papyrus roots on newly exposed alluvial silt after the inundation has receded. The mouse must be entirely animal and anatomically natural—complete head, two ears, two eyes, whiskers, four paws, warm brown-grey fur, body, and one continuous tail from base to tip, all clearly visible and comfortably inside the frame. Three tiny sets of complete mouse footprints lead from the sheltered root opening across the moist silt, quietly revealing ordinary movement rather than spontaneous generation. In the middle distance a soft mineral stain on a continuous mud bank marks the former high-water level, but show NO visible river, pool, or water body. Include exactly two complete fallen reed stems wholly internal; living papyrus foliage may continue naturally beyond the upper background as continuous vegetation. No second mouse, half-mouse, clay body, embryo, egg, animal emerging from solid earth, corpse, predator, snake, bird, person, hand, trap, grain bait, tool, writing, or modern object. Present Pliny's sentence as transmitted ancient testimony and the image as a humane observational correction. Composition: intimate ground-level close field scene with the mouse in the left-middle third, nest roots opposite, broad luminous silt negative space, pale post-flood dawn; no spectacle. Style: timeless Nilotic-Roman natural-history egg tempera and mineral pigment on worn lime plaster, precise iron-gall fur and whisker contour, delicate stipple, rough silt granulation, restrained raw umber, reed green, ochre, pale blue-grey, muted rose and sparse shell-gold; ancient, beautiful, tender but unsentimental, rough and polished at once, museum-grade, naturalistic rather than photorealistic or whimsical. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No page, papyrus sheet, margin, border, frame, cartouche, hieroglyph, text, letters, numerals, pseudo-writing, signature, watermark, diagram, panel, inset, split, montage, or collage. Keep the mouse, nest opening, tail tip, footprints, and fallen reeds fully internal; only continuous terrain, bank, vegetation, and sky may touch edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c058-attempt-01-four-footprint-clusters.png",
+          "sha256": "5ca3c5113f632b8dd05ac75ba2598ff044bf02c034b35b471d2913446d2139cf",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The first candidate contained four footprint clusters rather than exactly three."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:59",
+      "visualQaNotes": "Inspected at original resolution. One complete skiff, one complete seated fisherman with an empty open palm, and exactly five separate complete anthias fish are fully internal. The cove is enclosed on every side by limestone and mountains replace the former external sea; no capture gear, harm, text, frame, panel, or collage is present.",
+      "uncertaintyNote": "The illustration emphasizes patient habituation and trust while leaving Pliny’s capture, line-cutting, and court anecdotes as transmitted stories.",
+      "title": "HOW THE FISH CALLED THE ANTHIAS IS TAKEN",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c059.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "178bbfd356e93225cad7ccccd6515a4f9bc61e5009c34e7c5f81073b23b675d1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0210d281-172c-4bf1-84f0-d801d5fb62db",
+      "generationArtifactId": "exec-0210d281-172c-4bf1-84f0-d801d5fb62db",
+      "outputArtifact": "built-in-imagegen://exec-0210d281-172c-4bf1-84f0-d801d5fb62db.png",
+      "exactFinalPrompt": "Targeted background correction to this exact Book IX.59 anthias-cove illustration. Preserve the entire internal scene exactly: one complete ochre skiff, one complete seated fisherman with empty open palm, exactly five complete coral anthias fish, the fully enclosed turquoise cove, enclosing limestone rim, all anatomy, positions, scale, high oblique camera, midday light, palette, mineral-pigment texture, and egg-tempera finish. Remove ONLY the bands of open blue sea visible beyond the island rock along the far-left and far-right upper background. Replace those external sea bands seamlessly with continuous hazy pale-violet mountain terrain meeting the existing blue sky, so the enclosed cove becomes the ONLY visible water anywhere in the final image. Do not change the cove water or rock enclosure. Add or remove no fish, person, boat, limb, object, shrub, water, text, border, panel, or page texture. Final remains 1536x1024 landscape, with no water touching any canvas edge.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-44c0f82f-aeb7-4457-b70e-005b8c3f5534",
+          "outputArtifact": "built-in-imagegen://exec-44c0f82f-aeb7-4457-b70e-005b8c3f5534.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 59, on the anthias fish and the ancient account of fishermen patiently habituating a shoal to one boat and one hour. Reframe the capture story around trust and observation rather than harm. Use a high oblique bird's-eye view of one small completely enclosed rocky Mediterranean cove at clear midday. The cove's transparent turquoise water must be surrounded on EVERY side by a broad continuous rim of pale island limestone and scrub; NO water may touch a canvas edge. Inside the cove show exactly ONE complete small ochre-painted wooden skiff, fully visible from bow to stern and comfortably internal. Exactly ONE complete adult fisherman sits calmly in the skiff, anatomically coherent and fully visible, extending one empty open palm toward the water; no bait, hook, line, net, weapon, catch, or second person. Beneath and beside the hand, show exactly FIVE complete living Mediterranean anthias / swallowtail sea-perch, each with entire head, eye, fins, vivid coral-rose body and forked tail visible through clear water. One slightly larger lead fish approaches first while four follow in a loose crescent, all separate, countable, uninjured, and fully internal. No sixth fish, bird, shell, other animal, basket, cloth, market, food, capture, struggle, blood, or dead creature. Treat Pliny's line-cutting and court anecdotes as transmitted stories, not reenactments. Composition: spacious island geology dominates the outer frame, with skiff and five fish forming a small luminous spiral in the internal cove; lyrical but observational, clearly unlike a specimen plate. Style: exceptionally beautiful Hellenistic-Roman marine natural history in egg tempera and mineral pigment on subtly rough lime plaster; disciplined iron-gall boat, hand, fin, and scale contours; stippled water light, abraded stone, dry-brush scrub; restrained faded lapis, sea-glass green, coral madder, ochre, cream, umber and sparing shell-gold sun; ancient, timeless, humane, rough and polished at once, museum-grade, not photorealistic, glossy, or cartoonish. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, map, diagram, panel, inset, split, montage, or collage. Keep boat, fisherman, open hand, all five fish and every discrete shrub fully inside the frame; only continuous rock, terrain, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c059-attempt-01-external-sea-touches-edges.png",
+          "sha256": "d8bd3ca0eaab072e15af95776f846e956752394b206c6efb60e1bfca1b947dc3",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Open sea remained visible beyond the island and touched the left and right canvas edges."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-0210d281-172c-4bf1-84f0-d801d5fb62db",
+          "outputArtifact": "built-in-imagegen://exec-0210d281-172c-4bf1-84f0-d801d5fb62db.png",
+          "exactPrompt": "Targeted background correction to this exact Book IX.59 anthias-cove illustration. Preserve the entire internal scene exactly: one complete ochre skiff, one complete seated fisherman with empty open palm, exactly five complete coral anthias fish, the fully enclosed turquoise cove, enclosing limestone rim, all anatomy, positions, scale, high oblique camera, midday light, palette, mineral-pigment texture, and egg-tempera finish. Remove ONLY the bands of open blue sea visible beyond the island rock along the far-left and far-right upper background. Replace those external sea bands seamlessly with continuous hazy pale-violet mountain terrain meeting the existing blue sky, so the enclosed cove becomes the ONLY visible water anywhere in the final image. Do not change the cove water or rock enclosure. Add or remove no fish, person, boat, limb, object, shrub, water, text, border, panel, or page texture. Final remains 1536x1024 landscape, with no water touching any canvas edge.",
+          "editSourceArtifactId": "exec-44c0f82f-aeb7-4457-b70e-005b8c3f5534",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c059.png",
+          "sha256": "178bbfd356e93225cad7ccccd6515a4f9bc61e5009c34e7c5f81073b23b675d1",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-44c0f82f-aeb7-4457-b70e-005b8c3f5534",
+          "outputArtifact": "built-in-imagegen://exec-44c0f82f-aeb7-4457-b70e-005b8c3f5534.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 59, on the anthias fish and the ancient account of fishermen patiently habituating a shoal to one boat and one hour. Reframe the capture story around trust and observation rather than harm. Use a high oblique bird's-eye view of one small completely enclosed rocky Mediterranean cove at clear midday. The cove's transparent turquoise water must be surrounded on EVERY side by a broad continuous rim of pale island limestone and scrub; NO water may touch a canvas edge. Inside the cove show exactly ONE complete small ochre-painted wooden skiff, fully visible from bow to stern and comfortably internal. Exactly ONE complete adult fisherman sits calmly in the skiff, anatomically coherent and fully visible, extending one empty open palm toward the water; no bait, hook, line, net, weapon, catch, or second person. Beneath and beside the hand, show exactly FIVE complete living Mediterranean anthias / swallowtail sea-perch, each with entire head, eye, fins, vivid coral-rose body and forked tail visible through clear water. One slightly larger lead fish approaches first while four follow in a loose crescent, all separate, countable, uninjured, and fully internal. No sixth fish, bird, shell, other animal, basket, cloth, market, food, capture, struggle, blood, or dead creature. Treat Pliny's line-cutting and court anecdotes as transmitted stories, not reenactments. Composition: spacious island geology dominates the outer frame, with skiff and five fish forming a small luminous spiral in the internal cove; lyrical but observational, clearly unlike a specimen plate. Style: exceptionally beautiful Hellenistic-Roman marine natural history in egg tempera and mineral pigment on subtly rough lime plaster; disciplined iron-gall boat, hand, fin, and scale contours; stippled water light, abraded stone, dry-brush scrub; restrained faded lapis, sea-glass green, coral madder, ochre, cream, umber and sparing shell-gold sun; ancient, timeless, humane, rough and polished at once, museum-grade, not photorealistic, glossy, or cartoonish. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, map, diagram, panel, inset, split, montage, or collage. Keep boat, fisherman, open hand, all five fish and every discrete shrub fully inside the frame; only continuous rock, terrain, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c059-attempt-01-external-sea-touches-edges.png",
+          "sha256": "d8bd3ca0eaab072e15af95776f846e956752394b206c6efb60e1bfca1b947dc3",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Open sea remained visible beyond the island and touched the left and right canvas edges."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:60",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete pale sea star has exactly five distinct arms, all fully internal on a spacious dry limestone shelf. No water, seaweed, second animal, flame, burning, text, frame, panel, or collage is present. The fresh global image-distance audit also passes.",
+      "uncertaintyNote": "The warm light is non-literal; Pliny’s scorching-heat claim remains questioned ancient testimony.",
+      "title": "SEA-STARS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c060.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "5194fb013c7a0a1b17502d22e159342b33b359a44354af34f2dd79bff36d467e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9b8f8ea4-4d87-4491-ac3c-014cc808df05",
+      "generationArtifactId": "exec-9b8f8ea4-4d87-4491-ac3c-014cc808df05",
+      "outputArtifact": "built-in-imagegen://exec-9b8f8ea4-4d87-4491-ac3c-014cc808df05.png",
+      "exactFinalPrompt": "Targeted horizon correction to this exact pale Book IX.60 sea-star illustration. Preserve exactly the same single complete five-armed ivory-mauve sea star, its anatomy, position, stone rise, broad pale limestone shelf, violet cliff, low camera, pre-dawn sky, rose-gold light, matte fresco palette and mineral texture. Remove the narrow blue horizontal band at the far-right horizon that could read as distant water. Replace it seamlessly with continuous pale limestone flats rising into a low muted-violet land ridge, so the entire scene contains absolutely NO sea, pool, or water body. Do not move, crop, duplicate, recolor, or alter the starfish. Add no seaweed, animal, shell, object, water, writing, border, panel, or page texture. Final remains 1536x1024 landscape; only continuous stone, cliff, land ridge, and sky may meet edges.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-bca600be-cea8-47a3-8058-c70ebc56bc4c",
+          "outputArtifact": "built-in-imagegen://exec-bca600be-cea8-47a3-8058-c70ebc56bc4c.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 60, “Sea-Stars.” The chapter reports that learned authors imagined a sea-star hot enough to scorch whatever it touched, and Pliny himself questions how this was tested. Show exactly ONE complete living common Mediterranean sea star resting calmly on a broad rain-darkened basalt shelf after the tide, with exactly FIVE natural tapered arms radiating from one coherent central disc. Every arm tip, tube-foot groove, upper-surface ossicle and the entire animal must be anatomically plausible, distinct, and at least ten percent inside every canvas edge. A narrow diagonal shaft of amber dawn light crosses only two arms, creating a visual echo of warmth, while the rest remains in cool violet shadow; show absolutely NO flame, smoke, burning, char, sparks, cooked prey, or supernatural glow. Include exactly one small complete tuft of green sea lettuce, fully internal and separated from the animal; otherwise the surface is empty mineral rock. No visible sea, tidepool, puddle, or other water body. No second star, shell, fish, crab, person, hand, experiment, food, injury, death, text, or modern object. Present the animal's real form with wonder while treating the scorching-heat claim as explicitly transmitted and questioned ancient testimony. Composition: spare near-overhead macro field study with radical negative space and strong oblique light, clearly unlike the populated cove and architectural preserves. Style: museum-grade Roman natural-history egg tempera and mineral pigment on deeply tactile black lime plaster; fine iron-gall anatomical incisions, stippled ossicles, rough volcanic pumice grain, restrained madder-red, coral, lampblack, violet, verdigris, ochre and sparing shell-gold in the light; ancient, timeless, beautiful, austere, rough and polished at once; naturalistic rather than photorealistic, glossy, heraldic, or fantastical. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, radial chart, specimen plate, panel, inset, split, montage, or collage. Keep the complete sea star and complete sea-lettuce tuft fully internal; only continuous rock and light/shadow may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c060-attempt-01-audit-mad-19-71.png",
+          "sha256": "9755041f4856a8f448c221619cdf83393b40e1f8a6bab75a3011293ac1d48b92",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Although visually valid, the permanent global audit found nearest-neighbor MAD 19.71, below the required 20.00 floor."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-94194b82-95a8-4eb6-8e97-45705f802505",
+          "outputArtifact": "built-in-imagegen://exec-94194b82-95a8-4eb6-8e97-45705f802505.png",
+          "exactPrompt": "Create a fresh, fundamentally different independent replacement for Pliny the Elder, Naturalis Historia, Book IX chapter 60, “Sea-Stars.” Do NOT use a dark basalt overhead macro or a red-orange starfish. Instead build a spacious low side-view natural-history landscape on a pale wind-smoothed limestone shelf under cool pre-dawn sky. Show exactly ONE complete living Mediterranean sea star in muted ivory and dusty mauve, resting on a slight natural stone rise in the left-middle third. It must have exactly FIVE clearly separate tapered arms attached to one coherent central disc; every arm tip, upper ossicle pattern, and entire animal must be anatomically plausible, countable, and at least ten percent inside all edges. A long horizontal band of soft rose-gold dawn light touches only the tips of two arms, suggesting warmth without literal fire. The broad remainder is empty chalky stone with delicate fossil texture and a distant continuous violet cliff. Show NO sea, water, pool, wet shine, seaweed, second star, animal, shell, prey, flame, smoke, burning, char, sparks, supernatural glow, person, hand, experiment, food, injury, text, or modern object. Treat the ancient scorching-heat claim as questioned testimony and emphasize the observable five-rayed form. Aesthetic: unmistakably hand-painted Roman-Pompeian natural history, not photography—matte egg tempera and mineral fresco washes on pale abraded lime plaster, simplified but precise iron-gall contour, visible dry-brush strokes, chalk bloom, hairline craquelure, restrained bone white, dusty mauve, faded lapis, cool grey, soft ochre and one narrow shell-gold light band; ancient, timeless, austere, beautiful, rough and polished at once. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. One continuous scene only; no page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, radial chart, specimen plate, panel, inset, split, montage, or collage. Keep the complete star fully internal; only continuous stone, cliff and sky may meet canvas edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c060-attempt-02-distant-water-band.png",
+          "sha256": "4b5e85986692a11384d9a22be8d901b40a86b46afd18c38ed2dae1711107601b",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The fundamentally different replacement passed visual uniqueness intent but retained a distant blue horizon band that could read as edge-touching water."
+        },
+        {
+          "order": 3,
+          "artifactId": "exec-9b8f8ea4-4d87-4491-ac3c-014cc808df05",
+          "outputArtifact": "built-in-imagegen://exec-9b8f8ea4-4d87-4491-ac3c-014cc808df05.png",
+          "exactPrompt": "Targeted horizon correction to this exact pale Book IX.60 sea-star illustration. Preserve exactly the same single complete five-armed ivory-mauve sea star, its anatomy, position, stone rise, broad pale limestone shelf, violet cliff, low camera, pre-dawn sky, rose-gold light, matte fresco palette and mineral texture. Remove the narrow blue horizontal band at the far-right horizon that could read as distant water. Replace it seamlessly with continuous pale limestone flats rising into a low muted-violet land ridge, so the entire scene contains absolutely NO sea, pool, or water body. Do not move, crop, duplicate, recolor, or alter the starfish. Add no seaweed, animal, shell, object, water, writing, border, panel, or page texture. Final remains 1536x1024 landscape; only continuous stone, cliff, land ridge, and sky may meet edges.",
+          "editSourceArtifactId": "exec-94194b82-95a8-4eb6-8e97-45705f802505",
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c060.png",
+          "sha256": "5194fb013c7a0a1b17502d22e159342b33b359a44354af34f2dd79bff36d467e",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [
+        {
+          "order": 1,
+          "artifactId": "exec-bca600be-cea8-47a3-8058-c70ebc56bc4c",
+          "outputArtifact": "built-in-imagegen://exec-bca600be-cea8-47a3-8058-c70ebc56bc4c.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 60, “Sea-Stars.” The chapter reports that learned authors imagined a sea-star hot enough to scorch whatever it touched, and Pliny himself questions how this was tested. Show exactly ONE complete living common Mediterranean sea star resting calmly on a broad rain-darkened basalt shelf after the tide, with exactly FIVE natural tapered arms radiating from one coherent central disc. Every arm tip, tube-foot groove, upper-surface ossicle and the entire animal must be anatomically plausible, distinct, and at least ten percent inside every canvas edge. A narrow diagonal shaft of amber dawn light crosses only two arms, creating a visual echo of warmth, while the rest remains in cool violet shadow; show absolutely NO flame, smoke, burning, char, sparks, cooked prey, or supernatural glow. Include exactly one small complete tuft of green sea lettuce, fully internal and separated from the animal; otherwise the surface is empty mineral rock. No visible sea, tidepool, puddle, or other water body. No second star, shell, fish, crab, person, hand, experiment, food, injury, death, text, or modern object. Present the animal's real form with wonder while treating the scorching-heat claim as explicitly transmitted and questioned ancient testimony. Composition: spare near-overhead macro field study with radical negative space and strong oblique light, clearly unlike the populated cove and architectural preserves. Style: museum-grade Roman natural-history egg tempera and mineral pigment on deeply tactile black lime plaster; fine iron-gall anatomical incisions, stippled ossicles, rough volcanic pumice grain, restrained madder-red, coral, lampblack, violet, verdigris, ochre and sparing shell-gold in the light; ancient, timeless, beautiful, austere, rough and polished at once; naturalistic rather than photorealistic, glossy, heraldic, or fantastical. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, radial chart, specimen plate, panel, inset, split, montage, or collage. Keep the complete sea star and complete sea-lettuce tuft fully internal; only continuous rock and light/shadow may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c060-attempt-01-audit-mad-19-71.png",
+          "sha256": "9755041f4856a8f448c221619cdf83393b40e1f8a6bab75a3011293ac1d48b92",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "Although visually valid, the permanent global audit found nearest-neighbor MAD 19.71, below the required 20.00 floor."
+        },
+        {
+          "order": 2,
+          "artifactId": "exec-94194b82-95a8-4eb6-8e97-45705f802505",
+          "outputArtifact": "built-in-imagegen://exec-94194b82-95a8-4eb6-8e97-45705f802505.png",
+          "exactPrompt": "Create a fresh, fundamentally different independent replacement for Pliny the Elder, Naturalis Historia, Book IX chapter 60, “Sea-Stars.” Do NOT use a dark basalt overhead macro or a red-orange starfish. Instead build a spacious low side-view natural-history landscape on a pale wind-smoothed limestone shelf under cool pre-dawn sky. Show exactly ONE complete living Mediterranean sea star in muted ivory and dusty mauve, resting on a slight natural stone rise in the left-middle third. It must have exactly FIVE clearly separate tapered arms attached to one coherent central disc; every arm tip, upper ossicle pattern, and entire animal must be anatomically plausible, countable, and at least ten percent inside all edges. A long horizontal band of soft rose-gold dawn light touches only the tips of two arms, suggesting warmth without literal fire. The broad remainder is empty chalky stone with delicate fossil texture and a distant continuous violet cliff. Show NO sea, water, pool, wet shine, seaweed, second star, animal, shell, prey, flame, smoke, burning, char, sparks, supernatural glow, person, hand, experiment, food, injury, text, or modern object. Treat the ancient scorching-heat claim as questioned testimony and emphasize the observable five-rayed form. Aesthetic: unmistakably hand-painted Roman-Pompeian natural history, not photography—matte egg tempera and mineral fresco washes on pale abraded lime plaster, simplified but precise iron-gall contour, visible dry-brush strokes, chalk bloom, hairline craquelure, restrained bone white, dusty mauve, faded lapis, cool grey, soft ochre and one narrow shell-gold light band; ancient, timeless, austere, beautiful, rough and polished at once. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. One continuous scene only; no page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, radial chart, specimen plate, panel, inset, split, montage, or collage. Keep the complete star fully internal; only continuous stone, cliff and sky may meet canvas edges.",
+          "editSourceArtifactId": null,
+          "disposition": "rejected",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/evidence/history/b09-c060-attempt-02-distant-water-band.png",
+          "sha256": "4b5e85986692a11384d9a22be8d901b40a86b46afd18c38ed2dae1711107601b",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": "The fundamentally different replacement passed visual uniqueness intent but retained a distant blue horizon band that could read as edge-touching water."
+        }
+      ],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:61",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete intact dactyl-like bivalve rests in one internal limestone niche with exactly three complete luminous moisture beads. The grotto contains no water body, handling, extraction, text, frame, panel, or collage.",
+      "uncertaintyNote": "The restrained glow presents Pliny’s transmitted observation while acknowledging that the exact organism and luminous mechanism remain uncertain.",
+      "title": "THE MARVELLOUS PROPERTIES OF THE DACTYLUS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c061.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "8845dd32237af63df934e4dbfd176ca284b437b7ac36fc5bb7bc9d58811f9ee1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0e07c642-2995-46b6-840c-1d0f29d65b6f",
+      "generationArtifactId": "exec-0e07c642-2995-46b6-840c-1d0f29d65b6f",
+      "outputArtifact": "built-in-imagegen://exec-0e07c642-2995-46b6-840c-1d0f29d65b6f.png",
+      "exactFinalPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 61, “The Marvellous Properties of the Dactylus,” describing a shellfish said to shine in darkness. Show exactly ONE complete living date mussel / rock-boring dactyl shellfish (Pholas-like form) resting naturally within one shallow oval limestone niche in a dark coastal grotto. Its entire elongated paired shell, hinge, both valve edges, subtle ridges, and a small glimpse of intact living mantle must be anatomically plausible, fully visible, unhandled, and comfortably inside the frame. The valves are parted only slightly. A restrained cool blue-green bioluminescent radiance comes from moist living tissue inside the shell and softly reveals the immediate niche wall; it must look like faint natural marine luminescence, not magic fire. Exactly THREE tiny complete luminous moisture beads lie close together on the niche floor, each fully internal and not touching any edge. Show NO water body, sea, pool, stream, or wet edge anywhere; the surrounding grotto is dry matte stone fading into deep indigo darkness. No hand, mouth, person, eating, cloth, detached shell, second mollusc, pearl, jewellery, flame, lamp, sparks, stars, constellation, animal injury, extraction, tool, experiment, text, or modern object. Treat Pliny's account as transmitted observation whose species and mechanism remain uncertain, while keeping the organism dignified and natural. Composition: low intimate grotto nocturne, luminous shell in the right-lower third with a large arch of dark negative space and faint mineral veins, clearly distinct from the sunlit sea-star macro. Style: exquisite Roman natural-history egg tempera and mineral pigment on blackened rough lime plaster; precise iron-gall shell contours, stippled calcium ridges, dry pumice abrasion, matte indigo and lampblack shadows, restrained verdigris-cyan glow, bone cream, umber and a trace of shell-gold; ancient, timeless, mysterious, beautiful, rough and polished at once, museum-grade, not glossy fantasy or photorealistic. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, specimen label, panel, inset, split, montage, or collage. Keep the shell, niche, and all three moisture beads fully internal; only continuous grotto rock and darkness may meet canvas edges.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-0e07c642-2995-46b6-840c-1d0f29d65b6f",
+          "outputArtifact": "built-in-imagegen://exec-0e07c642-2995-46b6-840c-1d0f29d65b6f.png",
+          "exactPrompt": "Create one independent chapter illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 61, “The Marvellous Properties of the Dactylus,” describing a shellfish said to shine in darkness. Show exactly ONE complete living date mussel / rock-boring dactyl shellfish (Pholas-like form) resting naturally within one shallow oval limestone niche in a dark coastal grotto. Its entire elongated paired shell, hinge, both valve edges, subtle ridges, and a small glimpse of intact living mantle must be anatomically plausible, fully visible, unhandled, and comfortably inside the frame. The valves are parted only slightly. A restrained cool blue-green bioluminescent radiance comes from moist living tissue inside the shell and softly reveals the immediate niche wall; it must look like faint natural marine luminescence, not magic fire. Exactly THREE tiny complete luminous moisture beads lie close together on the niche floor, each fully internal and not touching any edge. Show NO water body, sea, pool, stream, or wet edge anywhere; the surrounding grotto is dry matte stone fading into deep indigo darkness. No hand, mouth, person, eating, cloth, detached shell, second mollusc, pearl, jewellery, flame, lamp, sparks, stars, constellation, animal injury, extraction, tool, experiment, text, or modern object. Treat Pliny's account as transmitted observation whose species and mechanism remain uncertain, while keeping the organism dignified and natural. Composition: low intimate grotto nocturne, luminous shell in the right-lower third with a large arch of dark negative space and faint mineral veins, clearly distinct from the sunlit sea-star macro. Style: exquisite Roman natural-history egg tempera and mineral pigment on blackened rough lime plaster; precise iron-gall shell contours, stippled calcium ridges, dry pumice abrasion, matte indigo and lampblack shadows, restrained verdigris-cyan glow, bone cream, umber and a trace of shell-gold; ancient, timeless, mysterious, beautiful, rough and polished at once, museum-grade, not glossy fantasy or photorealistic. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, diagram, specimen label, panel, inset, split, montage, or collage. Keep the shell, niche, and all three moisture beads fully internal; only continuous grotto rock and darkness may meet canvas edges.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c061.png",
+          "sha256": "8845dd32237af63df934e4dbfd176ca284b437b7ac36fc5bb7bc9d58811f9ee1",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "9:62",
+      "visualQaNotes": "Inspected at original resolution. Exactly one complete adult fin whale and exactly one complete small guide fish are separate, fully internal, and anatomically coherent. The vast gulf and distant channel terminate within surrounding headlands; no water touches a canvas edge and no third animal, harm, text, frame, panel, or collage is present.",
+      "uncertaintyNote": "The aligned animals visualize Pliny’s friendship account as transmitted moral natural history, not settled zoological fact.",
+      "title": "THE ANTIPATHIES AND SYMPATHIES THAT EXIST BETWEEN AQUATIC ANIMALS",
+      "planStatusVerified": "planned-full-scene",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c062.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "corpusFieldsRead": [
+        "latin",
+        "english"
+      ],
+      "sha256": "676e74efdb4b6a1f3270d302c13f2bbec12d539ff9d79cb714eed042e6e1b51c",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bf8b4032-9801-4e8d-ad15-8cf72fe91476",
+      "generationArtifactId": "exec-bf8b4032-9801-4e8d-ad15-8cf72fe91476",
+      "outputArtifact": "built-in-imagegen://exec-bf8b4032-9801-4e8d-ad15-8cf72fe91476.png",
+      "exactFinalPrompt": "Create one independent closing illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 62, on the alleged antipathies and sympathies of aquatic animals. Avoid the chapter's violent rivalries and focus on its final friendship image: a whale and a small companion fish said to guide it through shallows. From a very high oblique aerial view at quiet rose-gold dusk, show exactly TWO complete living marine animals in one vast bowl-shaped Mediterranean gulf: exactly ONE complete adult fin whale and exactly ONE complete small silver-grey pilot fish swimming several body-lengths ahead above a pale submerged sandbar. The whale's entire streamlined body, head, two pectoral fins, dorsal fin, and complete tail flukes must be anatomically plausible, visible through clear water, uninjured, and comfortably inside the frame. The small guide fish must be distinct, complete from head to tail, clearly not a calf or remora, and also fully internal. Their aligned paths suggest companionship without arrows, magic, hierarchy, or literal telepathy. The gulf water must be completely contained within the composition by a broad continuous amphitheatre of limestone headlands and dry scrub; a narrow distant channel may recede between two headlands but must close visually inside the landscape. NO water may touch any canvas edge. No third animal, school, calf, dolphin, octopus, shell, bird, boat, person, net, attack, bitten tail, wound, blood, stranded whale, text, or modern object. Treat the partnership as Pliny's transmitted moral-natural-history observation rather than settled zoological fact. Composition: monumental spacious aerial landscape, whale crossing the lower-middle gulf and tiny guide fish catching a path of pale light ahead, broad stone and mauve sky as negative space; elegiac final cadence for Book IX, clearly distinct from the small anthias skiff cove. Style: exceptionally beautiful Roman marine natural history in egg tempera, iron-gall drawing, and mineral pigments on abraded lime plaster; precise restrained anatomy, stippled water transparency, dry-brush headlands, faint porphyry and shell-gold dusk; faded lapis, sea-glass green, whale blue-grey, limestone cream, ochre, mauve and charcoal; ancient, timeless, humane, epic but unsensational, rough and polished at once, museum-grade, not photorealistic or glossy fantasy. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, map, diagram, arrows, panel, inset, split, montage, or collage. Keep both animals and all discrete shrubs fully inside the frame; only continuous rock, terrain, hills, and sky may meet edges.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "order": 1,
+          "artifactId": "exec-bf8b4032-9801-4e8d-ad15-8cf72fe91476",
+          "outputArtifact": "built-in-imagegen://exec-bf8b4032-9801-4e8d-ad15-8cf72fe91476.png",
+          "exactPrompt": "Create one independent closing illustration for Pliny the Elder, Naturalis Historia, Book IX chapter 62, on the alleged antipathies and sympathies of aquatic animals. Avoid the chapter's violent rivalries and focus on its final friendship image: a whale and a small companion fish said to guide it through shallows. From a very high oblique aerial view at quiet rose-gold dusk, show exactly TWO complete living marine animals in one vast bowl-shaped Mediterranean gulf: exactly ONE complete adult fin whale and exactly ONE complete small silver-grey pilot fish swimming several body-lengths ahead above a pale submerged sandbar. The whale's entire streamlined body, head, two pectoral fins, dorsal fin, and complete tail flukes must be anatomically plausible, visible through clear water, uninjured, and comfortably inside the frame. The small guide fish must be distinct, complete from head to tail, clearly not a calf or remora, and also fully internal. Their aligned paths suggest companionship without arrows, magic, hierarchy, or literal telepathy. The gulf water must be completely contained within the composition by a broad continuous amphitheatre of limestone headlands and dry scrub; a narrow distant channel may recede between two headlands but must close visually inside the landscape. NO water may touch any canvas edge. No third animal, school, calf, dolphin, octopus, shell, bird, boat, person, net, attack, bitten tail, wound, blood, stranded whale, text, or modern object. Treat the partnership as Pliny's transmitted moral-natural-history observation rather than settled zoological fact. Composition: monumental spacious aerial landscape, whale crossing the lower-middle gulf and tiny guide fish catching a path of pale light ahead, broad stone and mauve sky as negative space; elegiac final cadence for Book IX, clearly distinct from the small anthias skiff cove. Style: exceptionally beautiful Roman marine natural history in egg tempera, iron-gall drawing, and mineral pigments on abraded lime plaster; precise restrained anatomy, stippled water transparency, dry-brush headlands, faint porphyry and shell-gold dusk; faded lapis, sea-glass green, whale blue-grey, limestone cream, ochre, mauve and charcoal; ancient, timeless, humane, epic but unsensational, rough and polished at once, museum-grade, not photorealistic or glossy fantasy. Full-bleed landscape 3:2, 1536x1024, opaque sRGB PNG. No visible page, parchment, border, frame, cartouche, caption, letters, numerals, pseudo-writing, signature, watermark, map, diagram, arrows, panel, inset, split, montage, or collage. Keep both animals and all discrete shrubs fully inside the frame; only continuous rock, terrain, hills, and sky may meet edges.",
+          "editSourceArtifactId": null,
+          "disposition": "accepted",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c062.png",
+          "sha256": "676e74efdb4b6a1f3270d302c13f2bbec12d539ff9d79cb714eed042e6e1b51c",
+          "hashReconciled": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "reason": null
+        }
+      ],
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "rejectedAttempts": [],
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 735,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "9:55": {
+        "nearestMAD": 27.92,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c055.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c038.png",
+        "madAtDHashPeer": 41.69
+      },
+      "9:56": {
+        "nearestMAD": 25.85,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c028.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-08/b14-c015.png",
+        "madAtDHashPeer": 71.69
+      },
+      "9:57": {
+        "nearestMAD": 20.05,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c028.png",
+        "dHashAtMadPeer": 18,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c034.png",
+        "madAtDHashPeer": 42.32
+      },
+      "9:58": {
+        "nearestMAD": 27.5,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-60/b06-c001.png",
+        "madAtDHashPeer": 32.35
+      },
+      "9:59": {
+        "nearestMAD": 30.7,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c022.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c017.png",
+        "madAtDHashPeer": 32.52
+      },
+      "9:60": {
+        "nearestMAD": 20.68,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-07/b09-c058.png",
+        "madAtDHashPeer": 39.53
+      },
+      "9:61": {
+        "nearestMAD": 20.47,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c006.png",
+        "dHashAtMadPeer": 36,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c032.png",
+        "madAtDHashPeer": 50.58
+      },
+      "9:62": {
+        "nearestMAD": 21.15,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c030.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-07/b14-c009.png",
+        "madAtDHashPeer": 73.08
+      }
+    }
+  },
+  "receiptTruthChecks": {
+    "exactPlannedKeys": [
+      "9:55",
+      "9:56",
+      "9:57",
+      "9:58",
+      "9:59",
+      "9:60",
+      "9:61",
+      "9:62"
+    ],
+    "plannedFullSceneEntriesVerified": 8,
+    "exactPromptsExtractedFromLiveSession": 20,
+    "acceptedArtifactsByteReconciled": 8,
+    "rejectedArtifactsByteReconciled": 12,
+    "noModelIdentifierInvented": true,
+    "portableReferencesOnly": true,
+    "privatePathFree": true
+  }
+}

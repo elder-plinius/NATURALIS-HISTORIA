@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "campaign": "remaining-scenes-wave-08",
+  "generatedAt": "2026-08-26",
+  "assignments": [
+    "27:5",
+    "27:6",
+    "27:8",
+    "27:10",
+    "27:11",
+    "27:12",
+    "30:11",
+    "30:12"
+  ],
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact built-in revised prompts and artifact IDs were extracted from the current ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    "public/corpus/book-27.5fb4720a9f669561.json",
+    "public/corpus/book-30.2dc2a1d22287891f.json"
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus fields for all eight selected chapters were read before prompting. Plant remedies, reproductive claims, poison, animal-derived prescriptions and magic remain transmitted ancient testimony; Pliny's skepticism is preserved where explicit. Accepted scenes are botanical observation, humane living-animal observation, closed material culture or refusal, and provide no actionable medical instruction.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 2,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 10,
+    "independentInitialSceneCalls": 8,
+    "independentReplacementCalls": 2,
+    "builtInEditCalls": 0,
+    "acceptedBuiltInEdits": 0,
+    "postGenerationLocalPixelEdits": 0
+  },
+  "selectionValidation": {
+    "requestedCampaign": "remaining-scenes-wave-08",
+    "receiptsCheckedAtSelection": 109,
+    "nonEvidenceMastersCheckedAtSelection": 853,
+    "selectedKeys": [
+      "27:5",
+      "27:6",
+      "27:8",
+      "27:10",
+      "27:11",
+      "27:12",
+      "30:11",
+      "30:12"
+    ],
+    "activeClaimsExcluded": [
+      "30:2",
+      "30:3",
+      "30:4",
+      "30:5",
+      "30:7",
+      "30:8",
+      "30:9",
+      "30:10",
+      "6:33",
+      "6:34",
+      "26:6",
+      "26:7",
+      "26:8",
+      "26:9",
+      "26:10",
+      "26:11",
+      "26:12",
+      "26:13",
+      "26:14",
+      "26:15",
+      "27:1",
+      "27:2",
+      "27:3",
+      "27:4"
+    ],
+    "receiptsCheckedAtCertification": 110,
+    "nonEvidenceMastersCheckedAtCertification": 879,
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": []
+  },
+  "chapters": [
+    {
+      "chapterKey": "27:5",
+      "title": "APARINE, OMPHALOCARPOS, OR PHILANTHROPOS: THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c005.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "8ecf98d67294463a0da0f483c3aa45aa85cecf8ef2307f68813e46d90d6ae8b7",
+        "englishSha256": "660be38263b3fe60951fec4f3539070ef8603acca83386f348d5c9b53ece6d6e",
+        "latinWords": 432,
+        "englishWords": 807,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2fac5219a220cdcc1b2e338c2fcf33fff39299da09cb58f1b40a7a8394f9776a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1bdf09f1-2cbf-455b-a7dc-0253adcb99a1",
+      "generationArtifactId": "exec-1bdf09f1-2cbf-455b-a7dc-0253adcb99a1",
+      "outputArtifact": "built-in-imagegen://exec-1bdf09f1-2cbf-455b-a7dc-0253adcb99a1.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 5 illustration master\nPrimary request: Create a botanically specific Roman field observation centered on aparine, the ramose hairy plant Pliny also reports under the names omphalocarpos and philanthropos. Show exactly ONE complete mature aparine plant growing freely in a small cultivated grain-field margin, with several branching square-ish stems, regular whorls of five or six narrow leaves, fine hooked hairs, and a few round concave burr-like seeds. Exactly ONE complete fully clothed Roman naturalist kneels nearby without touching or harvesting the plant, studying how exactly THREE loose aparine burrs have naturally caught on a small blank rectangle of coarse undyed wool cloth laid on a low stone. His hands remain open and empty. No remedy, treatment, ingestion, wound, snake, spider, blood, or medical procedure is shown.\nScene/backdrop: enclosed Campanian field margin with low wheat, meadow grasses, a small kitchen garden and distant dry olive hills; all vegetation and architecture wholly internal. No scroll, book, labels, jars, powders, liquid, fire, patient, or ritual.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; confident iron-gall contours, fine cross-hatching, stipple and dry-brush abrasion; restrained verdigris, straw ochre, umber, faded lapis and a tiny madder accent; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: spacious low three-quarter field view, aparine dominant in left-center, kneeling naturalist complete in right-center, cloth and three burrs clearly separated on the low stone between them. The naturalist’s entire head, hands, tunic, legs and sandals are visible. Every stem tip, leaf, seed, burr, cloth corner, finger, sandal, wheat head, stone, tree crown and hill ends at least 130 pixels before all four canvas edges. No discrete subject or environmental line touches or continues beyond an edge. No water. The scene feathers softly into broad unmarked vellum on every side. One coherent continuous 3:2 scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: clear late-morning light, curious, humane and observational.\nText: none.\nConstraints: exactly one living human; no living animal; exactly one central aparine plant and exactly three loose burrs on the cloth; all complete and fully internal.\nAvoid: modern medical advice, remedy demonstration, dosage, plant ingestion, injury, illness, exposed anatomy, bodily fluids, suffering, magic shown as fact, children, nudity, extra people or animals, cropped subjects, water at edge, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, botanical plate grid, specimen label, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-1bdf09f1-2cbf-455b-a7dc-0253adcb99a1",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete kneeling naturalist with empty hands, one complete living aparine plant and exactly three loose burrs on one blank wool cloth. Whorled leaves, hooked seed forms and field habitat are legible; anatomy, counts, edge safety, text, panels, water and non-actionable framing all pass.",
+      "epistemicAndDignityNote": "The reported remedies remain ancient testimony. The scene limits itself to Pliny's botanical morphology and the harmless observation that aparine catches on cloth.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:6",
+      "title": "ALUM, ALSO CALLED SYMPHYTON PETRÆON: FOURTEEN REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c006.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "72a6b8357da0fbebcdb4b147e858dce56aebf30496da1fda009615c6c985c65b",
+        "englishSha256": "20e7d8dd2cf89da586cb99a218a826b17f915fd09818f4730cd8e40085e28394",
+        "latinWords": 106,
+        "englishWords": 239,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "f2ae71d87d400074340ca89940f3c7bbd3305f4c61185cb69c59617cd08c2148",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-edf78b17-de70-4b40-af5d-5f13786e3b82",
+      "generationArtifactId": "exec-edf78b17-de70-4b40-af5d-5f13786e3b82",
+      "outputArtifact": "built-in-imagegen://exec-edf78b17-de70-4b40-af5d-5f13786e3b82.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 6 illustration master\nPrimary request: Create a botanically exact, non-medical study of the rock-growing herb Pliny calls alum or symphyton petraeon. Show exactly ONE complete living mature plant rooted in a freestanding pale limestone outcrop, with exactly FOUR main woody branches rising from one crown, many small oval leaves, compact thyme-like flowering tops, and exactly ONE long russet-red root naturally visible through a broad dry eroded fissure in the rock. The root remains attached and unharmed. No person or animal appears. Convey the ancient idea of “joining” only through two naturally interlocking but unbroken stones beside the plant, never through flesh, bones, wounds, treatment, or a recipe.\nScene/backdrop: quiet upland limestone terrace with dry thyme, a few distant cypresses and hazy mountains, all fully contained. No vessel, fire, ash, pepper, wine, honey, mortar, medicine, body, scroll, label, or ritual. No water.\nStyle/medium: original Plinian natural-history folio on warm fibrous aged vellum; iron-gall contour, meticulous cross-hatching and stipple, powdery dry-brush abrasion, restrained mineral washes of red ochre, muted verdigris, pale limestone, umber and faded violet-lapis; ancient, timeless, beautiful, materially rough and draftsmanship-polished.\nComposition/framing: low close landscape view with the entire limestone outcrop isolated in the central 68 percent, plant crown and all four branches fully visible above, the single attached red root visible within one natural fissure below, and the two interlocking stones resting separately to one side. Every leaf tip, flower head, branch, root end, rock corner, thyme sprig, cypress and mountain ends at least 145 pixels before every canvas edge. No subject, ground line or pigment reaches an edge. Surround the vignette with broad unmarked vellum on all four sides. One continuous coherent 3:2 scene, not a diagram or specimen plate; native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool early light with a warm glow inside the dry rock fissure, patient, lucid and contemplative.\nText: none.\nConstraints: exactly one plant, four main branches, one attached red root; no living human or animal; all elements complete, countable and fully internal.\nAvoid: medical advice, remedy action, dosage, ingestion, wound, fracture, exposed anatomy, blood, bodily fluids, suffering, magic endorsed as fact, severed root, uprooted plant, extra plant of the same species, clipped subject, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, botanical grid, labeled plate, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-edf78b17-de70-4b40-af5d-5f13786e3b82",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete living rock-rooted plant with four principal flowering branches and one attached branching russet root visible through a dry fissure. The freestanding rock, paired stones and whole habitat are internal; no person, animal, remedy action, text, panel, water or clipping appears.",
+      "epistemicAndDignityNote": "The medicinal and agglutinating properties remain transmitted claims. Natural interlocking stones evoke the Greek name without showing wounds, fractures or treatment.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:8",
+      "title": "THE BALLOTES, MELAMPRASION, OR BLACK LEEK: THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c008.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "829397df85cadddb5c78fe03f51988312aeb413dd908989d48130f8069ba8eee",
+        "englishSha256": "d6c3b8c7a71ec0349b9ccb0e0c34168639a2f500e32d4be9050426459371b90a",
+        "latinWords": 733,
+        "englishWords": 1504,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "83eb58f66f7804dcf2a8ad826e1af1494b7010976ec6b34502396a9f2adae37b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8fa14e7c-71dc-4575-9b9c-16e1823b62a3",
+      "generationArtifactId": "exec-8fa14e7c-71dc-4575-9b9c-16e1823b62a3",
+      "outputArtifact": "built-in-imagegen://exec-8fa14e7c-71dc-4575-9b9c-16e1823b62a3.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 8 illustration master\nPrimary request: Create a botanically specific Roman garden observation centered on ballotes, which Pliny transmits as melamprasion or “black leek.” Show exactly ONE complete mature ballotes plant growing in a raised dry herb bed: a dense branchy silhouette with dark angular stems, broad dusky hairy leaves larger than leek leaves, and small muted purple flower whorls. Exactly ONE complete fully clothed older Roman herb-gardener stands at a respectful distance with both hands empty, turning his head slightly as if noticing the plant’s powerful scent, without touching, crushing, gathering or preparing it. Exactly ONE complete calm tawny farm dog lies asleep in a separate distant patch of sunlight, healthy and unharmed, with no contact or implied bite. This is observational ancient testimony, not a remedy demonstration.\nScene/backdrop: enclosed courtyard garden at a Cappadocian-style stone villa, with a wholly internal dry pebbled channel, a few yellow botrys-like shrubs in the far bed, and low hills. No patient, injury, ulcer, inflammation, bite, salt, honey, cabbage leaf, vessel, powder, fire, smoke, amulet, spell, dead bird, sexuality, pregnancy, or clinical action. No water.\nStyle/medium: original Plinian natural-history folio on smoky warm aged vellum; assertive lampblack and iron-gall contour, velvety cross-hatching, stipple and dry-brush abrasion, with restrained black-green, muted purple, tarnished verdigris, ochre and faded lapis mineral washes; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: oblique dusk garden view with the dark ballotes plant as a strong central-left silhouette, complete gardener standing right-center, and small sleeping dog isolated in the far left-middle distance. All three subjects are visually separate and countable. The gardener’s entire head, hands, robe, legs and sandals and the dog’s ears, paws and tail are visible. Every plant stem and leaf, finger, sandal, dog silhouette, raised bed, channel end, wall, shrub and hill ends at least 135 pixels before every canvas edge. No line or pigment touches or continues beyond an edge. Broad softly mottled blank vellum surrounds the whole scene. One continuous coherent 3:2 landscape, native 1536x1024, opaque RGB/sRGB.\nLighting/mood: a low amber shaft across deep green-purple shade, pungent, quiet, skeptical and humane.\nText: none.\nConstraints: exactly one human, one dog, and one central ballotes plant; all complete and fully internal; no enacted remedy.\nAvoid: dog bite, animal harm, fear, restraint, wound, blood, bodily fluids, sickness, patient, medical advice, recipe, ingestion, crushed plant, magic or fertility claim shown as fact, child, nudity, extra people or animals, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, specimen chart, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-8fa14e7c-71dc-4575-9b9c-16e1823b62a3",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete mature dark-stemmed ballotes, one complete standing gardener with empty hands and one complete sleeping dog, all calm, separate and fully internal. No bite, injury, remedy, writing, water, panel, collage or edge clipping appears.",
+      "epistemicAndDignityNote": "Dog-bite, ulcer and magical claims remain historical testimony. The dog is healthy and distant; the gardener only observes the plant's morphology and reputed strong scent.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:10",
+      "title": "GLAUCION: THREE REMEDIES. DIAGLAUCIA: TWO REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c010.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "a30c4726de315d2527697c3775f16616d488d29792b52dad7093fabb9b0ff487",
+        "englishSha256": "1777450e281873bd88e63fe015410275b8565603bd184499a42b516363491425",
+        "latinWords": 497,
+        "englishWords": 1011,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "4b8bb9c34998d977cef92954adaeb21fd45aca0b129f9e04ec8a1225e17c2e70",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-2d983012-db28-4d3a-9701-bef3c958cdba",
+      "generationArtifactId": "exec-2d983012-db28-4d3a-9701-bef3c958cdba",
+      "outputArtifact": "built-in-imagegen://exec-2d983012-db28-4d3a-9701-bef3c958cdba.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: second independent replacement Naturalis Historia Book XXVII chapter 10 illustration master after two global-similarity rejections\nPrimary request: Create a strongly asymmetric Syrian courtyard study of glaucion with a distinctive diagonal luminance design. Show exactly ONE complete living glaucion plant growing in a small raised rectangular bed of pale gravel in the lower-right quadrant, low and dense with thick dusty blue-green blunt-lobed leaves and exactly THREE intact saffron-gold seed capsules. In the upper-left quadrant stands exactly ONE small fully contained cold clay oven, empty, unlit, smokeless and unused. No pot, person, animal, ingredient, tool or remedy action appears.\nScene/backdrop: a whitewashed Roman-era Syrian herb courtyard. A natural grape-arbor shadow creates ONE broad diagonal band running from upper right toward lower left, placing the cold oven in deep cool violet shade while the glaucion plant sits in brilliant cream-gold sunlight. The wall, bed, oven, shadow band and a distant sliver of ochre mountain are all wholly internal. Dry ground only: no water, fire, smoke, vessel, powder, loose seed, juice, patient, medicine, scroll or writing.\nStyle/medium: original Plinian natural-history folio on fibrous vellum; iron-gall contour, crisp cross-hatching, granular stipple and scraped dry-brush plaster texture; unusually high-contrast but restrained mineral washes of chalk cream, ultramarine-violet shadow, saffron gold, dusty verdigris and Pompeian rose; ancient, timeless, beautiful, materially rough and draftsmanship-polished. The composition must be neither an all-pale panorama nor an all-dark nocturne.\nComposition/framing: high oblique corner view with a single natural diagonal of shadow, cold oven isolated upper left, glaucion isolated lower right, and a broad empty sunlit zone between them. The one plant and all three capsules remain the focal subject. Every leaf, capsule, root crown, bed corner, oven opening and dome, shadow terminus, wall end and mountain ends at least 155 pixels before all four edges. No discrete subject or architectural line touches or continues beyond an edge. Surround the central vignette with broad plain neutral vellum. One coherent continuous physical courtyard, not panels or split scene; native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: hard clear midday sunlight crossing cool architectural shade, lucid, austere and observational.\nText: none.\nConstraints: exactly one glaucion plant with exactly three intact seed capsules; one cold oven; no living human or animal; everything complete and fully internal.\nAvoid: symmetric centered plant portrait, pale desert panorama, dark starry nocturne, medical advice, preparation recipe, heating, extraction, liquid, open vessel, loose seed, ingestion, eye application, illness, injury, suffering, magic shown as fact, person, animal, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, botanical grid, labeled plate, panels, collage, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-d5a3a47c-9709-4335-85bb-82f2ea26e18f",
+          "status": "rejected-global-similarity-gate"
+        },
+        {
+          "generationArtifactId": "exec-d5817697-3182-4da6-8f30-ca0b4ada38f4",
+          "status": "rejected-global-similarity-gate"
+        },
+        {
+          "generationArtifactId": "exec-2d983012-db28-4d3a-9701-bef3c958cdba",
+          "status": "accepted-independent-replacement",
+          "independentReplacementOfArtifactId": "exec-d5817697-3182-4da6-8f30-ca0b4ada38f4"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [
+          {
+            "generationArtifactId": "exec-d5817697-3182-4da6-8f30-ca0b4ada38f4",
+            "independentReplacementOfArtifactId": "exec-d5a3a47c-9709-4335-85bb-82f2ea26e18f"
+          },
+          {
+            "generationArtifactId": "exec-2d983012-db28-4d3a-9701-bef3c958cdba",
+            "independentReplacementOfArtifactId": "exec-d5817697-3182-4da6-8f30-ca0b4ada38f4"
+          }
+        ],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review of the second independent replacement found one complete glaucion plant with exactly three intact saffron capsules, one wholly internal cold oven, and a clear diagonal of natural arbor shade. Counts, framing, no-text, no-water and non-actionable gates pass; nothing is heated, extracted or administered.",
+      "epistemicAndDignityNote": "The eye-salve and other medical uses remain transmitted claims. The accepted scene shows the living plant and a cold unused oven only, without recipe, preparation or patient.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-d5a3a47c-9709-4335-85bb-82f2ea26e18f",
+          "outputArtifact": "built-in-imagegen://exec-d5a3a47c-9709-4335-85bb-82f2ea26e18f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/evidence/history/b27-c010-rejected-01-global-mad.png",
+          "sha256": "e268aa9e256255a5c4936d389fef04d35ce903a7d245aad11b126b439234b1bb",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 10 illustration master\nPrimary request: Create a Syrian-Parthian botanical landscape centered on glaucion, the low bitter herb Pliny describes with thick poppy-like leaves and saffron-colored seed. Show exactly ONE complete living glaucion plant growing in a dry terraced garden, low and dense, with dusty blue-green blunt-lobed leaves smaller than poppy leaves and exactly THREE intact ochre-saffron seed capsules. Beside the terrace, show exactly ONE small completely cold clay beehive oven with a dark empty opening and no flame, embers or smoke, and exactly ONE closed plain clay pot placed outside it, merely evoking the reported historical craft without demonstrating extraction or medicine. No person or animal appears.\nScene/backdrop: broad high desert garden overlooking fully contained Syrian hills and a small distant date grove; dry stone terrace, wind-smoothed sand and sparse aromatic scrub. No open vessel, visible juice, powder, mortar, mixing, dosage, eye treatment, patient, wound, magic, woodpecker, animal material, or food.\nStyle/medium: original Plinian natural-history folio on sun-bleached fibrous vellum; iron-gall linework, fine stipple, arid cross-hatching and scraped dry-brush texture; restrained saffron ochre, dusty teal, rose-brown, faded lapis and clay red mineral washes; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: wide high-oblique landscape with the complete glaucion plant large in the lower center, cold oven and closed pot separated in the mid-right, date grove and hills small in the upper distance. The entire plant including every leaf and each of three capsules, the oven dome and opening, the entire lidded pot, every terrace end, tree crown and hill ends at least 145 pixels before all four canvas edges. No discrete object, ground line or pigment touches an edge. No water. Broad blank vellum surrounds the entire vignette. One continuous coherent 3:2 scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: dry rose-gold sunset with blue desert shadows, austere, observant and non-prescriptive.\nText: none.\nConstraints: exactly one glaucion plant with exactly three intact seed capsules, one cold oven, one closed pot, no living subjects; everything complete and fully internal.\nAvoid: medical advice, preparation recipe, heating action, fire, smoke, extraction, liquid, loose seeds, ingestion, eye application, lactation imagery, bodily fluids, illness, injury, suffering, magic shown as fact, humans, animals, extra vessels, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, labeled botanical plate, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "The first candidate passed original-resolution visual QA, but its nearest-neighbor MAD was 18.71 against assets-source/chapter-scenes-v1/trees-aromatics-wave-24/b18-c023.png in the 872-master global scan, below the permanent minimum of 20."
+        },
+        {
+          "generationArtifactId": "exec-d5817697-3182-4da6-8f30-ca0b4ada38f4",
+          "outputArtifact": "built-in-imagegen://exec-d5817697-3182-4da6-8f30-ca0b4ada38f4.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/evidence/history/b27-c010-rejected-02-global-mad.png",
+          "sha256": "d0fdb306e2852c6bcc5c28918be3283122c6ba9f5f4175be3293d4540776d3d4",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "sipsSpace": "RGB",
+          "sipsHasAlpha": "no",
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent replacement Naturalis Historia Book XXVII chapter 10 illustration master after a global-similarity rejection\nPrimary request: Create a dramatically nocturnal, botanically precise portrait of glaucion in its Syrian-Parthian habitat. Show exactly ONE complete living glaucion plant growing from a circular pocket of dark basalt gravel on a dry raised terrace. The plant is low, dense and asymmetrically windswept, with thick blunt-lobed dusty blue leaves smaller than poppy leaves and exactly THREE intact upright saffron-gold seed capsules at visibly different heights. A cold moonlit breeze turns a few leaves to reveal their pale undersides. No person, animal, oven, vessel, ingredient or tool appears. Nothing is harvested, heated, extracted, prepared, touched or administered.\nScene/backdrop: an enclosed high desert terrace at deep blue hour, with a fully contained low basalt wall curving behind the plant, one small distant stand of date palms and dark violet mountains under a clear sky. The habitat is dry; no water, fire, smoke, lamp, patient, medicine, scroll, label, powder or loose seeds.\nStyle/medium: original Plinian natural-history folio on charcoal-indigo fibrous vellum; luminous silver iron-gall contours, dense nocturnal cross-hatching and stipple, abraded dry pigment and restrained mineral washes of midnight lapis, moon silver, saffron gold, black-green and violet-brown; ancient, timeless, beautiful, rough in material and polished in botanical observation. This image must be tonally much darker and compositionally unlike a pale daytime desert panorama.\nComposition/framing: low near-ground close view, complete glaucion plant sweeping horizontally across the central lower half, three gold capsules forming an irregular rising diagonal, curved basalt wall and tiny palms creating depth in the central upper half. Every leaf tip, root crown, capsule, wall end, stone, palm crown and mountain ends at least 150 pixels before all four canvas edges. No subject, horizon, shadow or pigment touches or continues beyond an edge. A wide halo of plain dark blue-grey vellum surrounds the entire vignette. One coherent continuous 3:2 scene, not a specimen plate; native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cold moonlight with three restrained saffron highlights, austere, wind-swept and contemplative.\nText: none.\nConstraints: exactly one glaucion plant with exactly three intact seed capsules; no living human or animal; everything complete, countable and fully internal.\nAvoid: pale daytime panorama, medical advice, recipe, heating, extraction, liquid, open vessel, loose seed, ingestion, eye application, lactation imagery, illness, injury, suffering, magic shown as fact, humans, animals, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, botanical grid, labeled plate, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+          "reason": "The first independent replacement passed original-resolution visual QA, but its nearest-neighbor MAD was 13.47 against assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b02-c008.png in the 873-master global scan, below the permanent minimum of 20."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:11",
+      "title": "THE HYPOGLOSSA: ONE REMEDY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c011.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "aed5a1f0c0337ec502b0ac9dea3f65b1e68b369017cc86fdc2be392e8b7f2379",
+        "englishSha256": "a67630c9c9c0fdc9ea0318494f878ba8012d03e984be71f6b3b5ab8159ac48b8",
+        "latinWords": 543,
+        "englishWords": 1118,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "2983dbcd56a92000f477d7f4bb9c81061b388998e158751552c2dc7b3e10de58",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-92973854-1724-424d-971c-f3a0c67b1361",
+      "generationArtifactId": "exec-92973854-1724-424d-971c-f3a0c67b1361",
+      "outputArtifact": "built-in-imagegen://exec-92973854-1724-424d-971c-f3a0c67b1361.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 11 illustration master\nPrimary request: Create an intimate living rock-garden study of two plants Pliny describes in this chapter, led by the hypoglossa. Show exactly ONE complete hypoglossa plant growing in the central foreground, a low graceful shrub with dark wild-myrtle-like concave leaves, softly prickled margins, and within many outer leaves a clearly visible smaller inner leaf shaped like a little tongue. On a separate pale rock shelf behind it, show exactly ONE complete low lithospermum plant with fine rush-thick stems and a sparse row of round pearl-white stone-like seeds nestled naturally among rue-like leaves, reflecting Pliny’s own wonder at their beauty. Both plants remain rooted, alive and unharmed. No human or animal appears, and neither plant is gathered, worn, prepared or administered.\nScene/backdrop: a sheltered Cretan mountain garden at cool dawn, with dry moss on one ordinary river-stone placed far from any water, a few internal boulders and distant blue peaks. Do not depict the quoted incantation, poisonous arrows, treatment, amulet, patient, injury, or recipe. No vessel, scroll, writing, fire, liquid, loose powder, bodily material or water.\nStyle/medium: original Plinian natural-history folio on pearl-warm fibrous vellum; luminous iron-gall contour, minute stipple, fine cross-hatching and dry-brush abrasion; restrained myrtle green, pearl white, lavender-grey, faded lapis, umber and a trace of madder mineral wash; ancient, timeless, beautiful, materially rough and exquisitely drafted.\nComposition/framing: intimate ground-level three-quarter view in one continuous habitat, hypoglossa fully visible and dominant in lower center-left, lithospermum clearly separate and smaller on the rear rock shelf, distant peaks creating depth. Every root crown, stem, outer leaf, tongue-like inner leaflet, white seed, mossy stone, boulder and peak ends at least 145 pixels before all four edges. No motif, shadow, ground line or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the central vignette. One coherent continuous 3:2 scene, not a diagram or plate; native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: cool dawn with pearl highlights and deep green shade, exacting, serene and full of natural wonder.\nText: none.\nConstraints: exactly one hypoglossa plant and exactly one lithospermum plant; no living human or animal; both complete, distinct, rooted and fully internal.\nAvoid: medical advice, dosage, ingestion, wreath, amulet, incantation, poisonous arrow, animal harm, wound, blood, bodily fluids, illness, exposed anatomy, magic shown as fact, pregnancy or child imagery, uprooted specimen, extra plant cluster of either focal species, clipping, water, text, Greek or Latin characters, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, botanical plate, specimen label, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-92973854-1724-424d-971c-f3a0c67b1361",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete rooted hypoglossa with clearly nested tongue-like inner leaflets and one distinct complete rooted lithospermum with pearl-like seeds. Both plants, rocks and mountains are internal; no human, animal, amulet, incantation, text, panel, water or clipping appears.",
+      "epistemicAndDignityNote": "Remedies, poison and incantation remain transmitted claims. The scene confines itself to the two plants' morphology and Pliny's expressed wonder at lithospermum.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "27:12",
+      "title": "THE MEDION: THREE REMEDIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c012.png",
+      "corpusArtifact": "public/corpus/book-27.5fb4720a9f669561.json",
+      "corpusReadEvidence": {
+        "latinSha256": "bd52d443c04eb9c8745f84fed11add68a6acbd00ccacc38ff44fecfb4b6984f4",
+        "englishSha256": "13cd895f5002ff30cc416c0f15dc8b1e9c177e2f19bfa58267b893ef8c6da7ea",
+        "latinWords": 1478,
+        "englishWords": 2822,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "e6dec3f7e25910edaa580a556be29940db0be104dfa89d96c09bafab017a1185",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-6c549897-4a4e-431a-84e1-3a738268e8f6",
+      "generationArtifactId": "exec-6c549897-4a4e-431a-84e1-3a738268e8f6",
+      "outputArtifact": "built-in-imagegen://exec-6c549897-4a4e-431a-84e1-3a738268e8f6.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXVII chapter 12 illustration master\nPrimary request: Create a dignified shaded-rock botanical encounter centered on the medion. Show exactly ONE complete living mature medion plant rising from a sheltered limestone cleft, with a single straight stem about three Roman feet high, iris-like leaves at its base, and exactly ONE large round deep-purple flower at the summit with a small golden center. Exactly ONE complete fully clothed mature Roman woman naturalist sits on a low freestanding stone stool several paces away, calmly observing the flower with both hands relaxed and empty. She neither gathers nor prepares it, and she is not a patient; no pregnancy, symptom, treatment, ritual, remedy or medical claim is visualized.\nScene/backdrop: cool Umbrian upland rock shelter opening toward a fully internal sunlit valley, with dry lichened stone, sparse non-flowering grasses and one distant umbrella pine. No honey, wine, seed dose, vessel, tool, scroll, tablet, juice, powder, fire, water, patient, wound, scar, eye treatment, incantation or magical action.\nStyle/medium: original Plinian natural-history folio on warm mauve-grey fibrous vellum; elegant iron-gall contour, delicate cross-hatching, stipple and scraped dry-brush stone grain; restrained amethyst, faded lapis, soft verdigris, limestone grey, umber and muted gold mineral wash; ancient, timeless, beautiful, rough in material and polished in observation.\nComposition/framing: spacious eye-level grotto view with the complete tall medion plant left-center against pale stone, the complete seated naturalist right-center at equal visual dignity, and the valley as a narrow depth cue between them. Her entire head, hands, robe, stool, legs and sandaled feet are visible. Every flower petal, stem, leaf, root crown, finger, garment hem, sandal, stool leg, rock, grass, pine and hill ends at least 145 pixels before all canvas edges. No cave line, ground line, shadow or pigment touches or continues beyond an edge. No water. The entire scene dissolves into broad unmarked vellum on every side. One coherent continuous 3:2 scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: one soft shaft of afternoon light illuminating the purple flower, contemplative, humane and quietly magnificent.\nText: none.\nConstraints: exactly one human and one medion plant with exactly one large purple flower; all complete and fully internal; no remedy enacted.\nAvoid: medical advice, dosage, ingestion, menstruation imagery, pregnancy, childbirth, miscarriage, wound, scar, blood, bodily fluids, illness, exposed anatomy, suffering, magic shown as fact, child, nudity, object in hands, extra person or animal, extra large flower, uprooted plant, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, labeled botanical plate, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6c549897-4a4e-431a-84e1-3a738268e8f6",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete living medion with one tall stem, iris-like basal leaves and exactly one large purple flower, plus one complete seated clothed woman naturalist with empty hands. The stool, cave, valley and figures are fully internal; no remedy, symptom, text, water, panel or clipping appears.",
+      "epistemicAndDignityNote": "Menstrual, reproductive, magical and other medical assertions remain ancient testimony. The naturalist is a dignified observer rather than a patient and no claim is enacted.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:11",
+      "title": "REMEDIES FOR JAUNDICE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b30-c011.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3b0677da56a4d83d9615e0778070004ae32a8f8242c523f909a4bc4ba8260cd8",
+        "englishSha256": "69f9a5bfd9e388053a4c05511ef76586fd1fe24d608cabbaf6590c0ad69ab89d",
+        "latinWords": 662,
+        "englishWords": 1582,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "fce0fe93b327a72f5ec07b8aea846ca2bc5afe8b1636ee5349a9425e44596062",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9062b8d0-efae-4753-8416-d3ee90b1f9d2",
+      "generationArtifactId": "exec-9062b8d0-efae-4753-8416-d3ee90b1f9d2",
+      "outputArtifact": "built-in-imagegen://exec-9062b8d0-efae-4753-8416-d3ee90b1f9d2.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXX chapter 11 illustration master\nPrimary request: Create a grave, explicitly skeptical historical scene responding to Pliny’s catalogue of remedies for jaundice and fever. Show exactly ONE complete fully clothed Roman historian standing in an open archive courtyard beside exactly ONE firmly closed, plain dark wooden remedy chest. He turns slightly away from the closed chest and extends one empty open palm in a restrained gesture of refusal; the other hand is also empty. Across the dry courtyard, exactly ONE complete healthy golden-yellow oriole-like bird, the reported “icterus” or “galgulus,” perches freely on a small fig-tree branch, calm and alive. The historian does not stare at, approach, capture or use the bird. The scene treats both the cure-by-looking story and the animal-derived prescriptions as transmitted claims under criticism, never as fact or advice.\nScene/backdrop: austere late-Republican courtyard with a low freestanding stone table kept completely empty, one extinguished lamp on a separate wall niche, a small fig tree, and distant hills beyond a fully internal low wall. No patient, sickbed, zodiac, amulet, ingredients, ash, animal remains, organs, bodily material, medicine, vessel, food, fire, smoke, ritual, spell, harm or supernatural effect. No water.\nStyle/medium: original Plinian natural-history folio on deep ochre-grey fibrous vellum; stronger medicine-book chiaroscuro, iron-gall contours, dense cross-hatching, stipple and dry-brush abrasion with restrained old gold, lampblack, umber, muted verdigris, faded lapis and a sober madder accent; ancient, timeless, beautiful, rough and polished at once.\nComposition/framing: wide diagonal courtyard view, complete historian in left-center, closed chest isolated in central shadow, empty table farther behind, and the single golden bird small but clearly complete on the fig branch in right-center light. The historian’s entire head, hands, robe, legs and sandals and the bird’s beak, wings, feet and tail are visible. Every finger, garment hem, chest corner, table leg, lamp, branch, leaf, bird silhouette, wall and hill ends at least 145 pixels before all four canvas edges. No architecture, floor line, shadow or pigment touches or continues beyond an edge. Broad unmarked vellum surrounds the whole vignette. One coherent continuous 3:2 scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: one clear gold beam on the living bird against cool archive shadow, humane, intellectually severe and skeptical.\nText: none.\nConstraints: exactly one human, exactly one living bird, one closed chest, one empty table, one extinguished lamp; all complete and fully internal; no remedy or illness depicted.\nAvoid: modern medical advice, cure demonstration, jaundiced skin, fever symptom, patient, disease, dosage, animal death, animal captivity, animal remains, blood, wounds, bodily fluids, exposed anatomy, suffering, amulet, zodiac, magic shown as fact, child, nudity, extra person or animal, open chest, ingredients, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-9062b8d0-efae-4753-8416-d3ee90b1f9d2",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one complete historian making an empty-handed refusal gesture, one closed remedy chest, one empty table, one extinguished lamp and one complete healthy golden bird freely perched in a fig tree. All are internal; no patient, illness, harm, remedy, text, panel, water or clipping appears.",
+      "epistemicAndDignityNote": "Pliny explicitly repudiates many prescriptions in this chapter. The living golden bird and closed chest present the cure-by-looking story and animal remedies as rejected testimony, not medical advice or verified magic.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "30:12",
+      "title": "REMEDIES FOR ERYSIPELAS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b30-c012.png",
+      "corpusArtifact": "public/corpus/book-30.2dc2a1d22287891f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6b19aef1511352f751171a0325d28db4a992a1754c7aec95be9ad4f0b3c92ff5",
+        "englishSha256": "8855a582ee979a7cd05b6ee7743dc110ec8574a6fb275b6ed8538ad2350cc706",
+        "latinWords": 365,
+        "englishWords": 672,
+        "completeLatinAndEnglishFieldsReadBeforePrompting": true
+      },
+      "sha256": "3b909927a8031fc4c810abf8ab3a5978c50615abd13c75c0c4ed8ae7150b6799",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "sipsSpace": "RGB",
+      "sipsHasAlpha": "no",
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-78664f13-2f69-444b-be63-c10e78a2c60b",
+      "generationArtifactId": "exec-78664f13-2f69-444b-be63-c10e78a2c60b",
+      "outputArtifact": "built-in-imagegen://exec-78664f13-2f69-444b-be63-c10e78a2c60b.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: final independent Naturalis Historia Book XXX chapter 12 illustration master\nPrimary request: Create a humane, non-actionable material-culture still life responding skeptically to Pliny’s catalogue for erysipelas and burns. In one continuous Roman courtyard threshold, show exactly FOUR widely separated motifs and nothing being prepared: exactly ONE small clean folded cream fleece on a low stone bench; exactly ONE firmly sealed rose-red glass flask with no visible liquid surface; exactly ONE complete naturally shed translucent snake slough lying empty and hollow on dry paving, clearly not a dead animal; and exactly ONE complete living field cricket resting unharmed on a separate flat stone, with exactly six visible legs and two long antennae. No human or other animal appears. Nothing is crushed, burned, mixed, touched, administered or placed on a body.\nScene/backdrop: quiet shaded peristyle corner with dry mosaic-free limestone paving, one blank wall niche holding an extinguished lamp, and a distant rosebush entirely internal in the courtyard. No patient, skin symptom, sore, boil, burn, wound, blood, tick, worm, dead animal, dung, ash, fat, gall, body part, poison, cauldron, recipe, amulet, ritual, fire, smoke, loose powder or open container. No water.\nStyle/medium: original Plinian natural-history folio on dusky rose-grey fibrous vellum; medicine-book chiaroscuro, crisp iron-gall contour, dense stipple, cross-hatching and tactile dry-brush abrasion; restrained wool ivory, faded madder, old bronze, muted verdigris, lampblack and violet-lapis mineral washes; ancient, timeless, beautiful, rough in material and polished in draftsmanship.\nComposition/framing: intimate high three-quarter view, four motifs forming a spacious broken circle around a broad empty center of paving: fleece upper left, sealed flask upper right, hollow slough lower right, living cricket lower left. The scene remains a single physical courtyard, not a specimen board. Every fleece fold, bench corner and leg, flask stopper, slough head opening and tail tip, each cricket antenna and all six legs, stone, niche, lamp, rose stem and wall end at least 150 pixels before every canvas edge. No shadow, floor line or pigment touches or continues beyond an edge. Broad blank vellum surrounds the whole vignette. One coherent continuous 3:2 scene, native 1536x1024 landscape, opaque RGB/sRGB.\nLighting/mood: narrow cool daylight with restrained rose reflections, sober, humane and explicitly non-prescriptive.\nText: none.\nConstraints: exactly one living cricket with six visible legs and two antennae; one folded fleece, one sealed flask, one complete empty snake slough; all complete, separate and fully internal; no action.\nAvoid: modern medical advice, recipe, dosage, mixing, treatment, skin disease, patient, suffering, blood, wound, bodily fluids, dead or dismembered animal, crushed insect, animal captivity, exposed anatomy, magic shown as fact, human, child, extra animal or insect, open vessel, visible liquid, clipping, water, text, letters, numerals, pseudo-writing, signature, watermark, border, decorative frame, depicted page, specimen labels, panels, collage, split scene, modern object, photorealism, glossy CGI.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-78664f13-2f69-444b-be63-c10e78a2c60b",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": {
+        "builtInEdits": [],
+        "independentReplacements": [],
+        "postGenerationLocalPixelEdits": 0,
+        "allAcceptedAndRejectedFilesAreDirectBuiltInBytes": true
+      },
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "completeSubjectEdgeSafety": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "nonActionableHistoricalFraming": true,
+        "dignityAndNonGraphicTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Original-resolution review found one folded fleece, one sealed flask, one complete hollow naturally shed snake slough and one complete healthy cricket with six visible legs and two antennae, widely separated in one courtyard. No treatment, patient, dead animal, text, panel, water or clipping appears.",
+      "epistemicAndDignityNote": "Animal-derived remedies remain transmitted ancient claims. Humane living-animal observation and separated sealed material culture prevent the scene from functioning as a recipe or endorsement.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-26",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 879,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "27:5": {
+        "nearestMAD": 23.85,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c013.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c010.png",
+        "madAtDHashPeer": 24.16
+      },
+      "27:6": {
+        "nearestMAD": 24.7,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c010.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c015.png",
+        "madAtDHashPeer": 29.74
+      },
+      "27:8": {
+        "nearestMAD": 20.02,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c006.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/metals-wave-02/b33-c008.png",
+        "madAtDHashPeer": 24.87
+      },
+      "27:10": {
+        "nearestMAD": 42.75,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-40/b25-c009.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/ancient-remedies-wave-02/b28-c007.png",
+        "madAtDHashPeer": 89.91
+      },
+      "27:11": {
+        "nearestMAD": 28.53,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c012.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-05/b10-c041.png",
+        "madAtDHashPeer": 29.82
+      },
+      "27:12": {
+        "nearestMAD": 23.83,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-02/b10-c013.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b16-c007.png",
+        "madAtDHashPeer": 32.56
+      },
+      "30:11": {
+        "nearestMAD": 25.22,
+        "madPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c008.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/remaining-scenes-wave-08/b27-c011.png",
+        "madAtDHashPeer": 37.39
+      },
+      "30:12": {
+        "nearestMAD": 26.66,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-03/b09-c024.png",
+        "dHashAtMadPeer": 34,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-44/b02-c044.png",
+        "madAtDHashPeer": 40.6
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/remaining-scenes-wave-08",
+    "status": "pass",
+    "output": ""
+  }
+}

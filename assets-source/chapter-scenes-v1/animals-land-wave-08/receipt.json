@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-land-wave-08",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed generation artifact IDs and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted and rejected PNG was compared byte-for-byte with its built-in original. No provider failure without an artifact occurred in this campaign.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+  "selectionValidation": {
+    "requestedNominalKeys": [
+      "8:60",
+      "8:61",
+      "8:62",
+      "8:63",
+      "8:64",
+      "8:65",
+      "8:66",
+      "8:67"
+    ],
+    "requestedKeysExistInPlan": false,
+    "authoritativeBookEightChapterCount": 59,
+    "authoritativeBookEightFinalKey": "8:59",
+    "decision": "Did not invent nonexistent Book VIII chapters. Applied the requested skip-and-advance rule in canonical order.",
+    "receiptsCheckedBeforeClaim": 90,
+    "skippedCandidates": [
+      {
+        "chapterKey": "9:1",
+        "planStatus": "receipt-backed-atlas-cell",
+        "receiptOwners": [],
+        "reason": "not a full-scene assignment"
+      },
+      {
+        "chapterKey": "9:2",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:3",
+        "planStatus": "receipt-backed-atlas-cell",
+        "receiptOwners": [],
+        "reason": "not a full-scene assignment"
+      },
+      {
+        "chapterKey": "9:4",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:5",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:6",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:7",
+        "planStatus": "receipt-backed-atlas-cell",
+        "receiptOwners": [],
+        "reason": "not a full-scene assignment"
+      },
+      {
+        "chapterKey": "9:8",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:9",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:10",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      },
+      {
+        "chapterKey": "9:11",
+        "planStatus": "generated-full-scene",
+        "receiptOwners": [
+          "animals-sea-wave-01"
+        ],
+        "reason": "already generated and receipt-owned"
+      }
+    ],
+    "selectedKeys": [
+      "9:12",
+      "9:13",
+      "9:14",
+      "9:15",
+      "9:16",
+      "9:17",
+      "9:18",
+      "9:19"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": []
+  },
+  "corpusGroundingNote": "The exact Latin and English corpus for Book IX chapters 12 through 19 was read before prompting. Ancient totals, prodigious size, augury, animal voice, gill claims, predation, killing, capture, culinary practice, luxury, and dehumanizing or marvelous assertions are treated as historical testimony of varying reliability, never as verified modern science, prophecy, cruelty, spectacle, or advice.",
+  "assignments": [
+    "9:12",
+    "9:13",
+    "9:14",
+    "9:15",
+    "9:16",
+    "9:17",
+    "9:18",
+    "9:19"
+  ],
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 12,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 20
+  },
+  "chapters": [
+    {
+      "chapterKey": "9:12",
+      "title": "DISTRIBUTION OF AQUATIC ANIMALS INTO VARIOUS SPECIES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c012.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "bfd8b001de612cdb8535bff48b7b545d75e3d7e22aa9966997fe30417cef08cd",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7442226c-d25e-49e2-a591-2777a287c07e",
+      "generationArtifactId": "exec-7442226c-d25e-49e2-a591-2777a287c07e",
+      "outputArtifact": "built-in-imagegen://exec-7442226c-d25e-49e2-a591-2777a287c07e.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 12 illustration master\nPrimary request: Change only the upper-right outer edge area in Image 1. Remove the separate blue water sliver that lies beyond the ring of tidal-pool rocks and touches the top and right canvas edges. Replace that blue sliver with continuous pale dry limestone matching the surrounding outer rock. Close the rock ring naturally so the single main tidal pool and every one of its water edges are fully contained inside the canvas.\nPreserve unchanged: exactly SIX animals total—the complete resting monk seal, swimming sea turtle, spiny lobster with all antennae, sea urchin, rough-skinned squatina, and octopus with all arms—their anatomy, positions, scale and spacing; the main pool, clear-water refraction, rocks, high-oblique composition, mineral-watercolor and egg-tempera folio materiality, palette, lighting, landscape 3:2 framing and 1536x1024 output.\nText: none.\nConstraints: one fully enclosed internal pool; only dry flat limestone may continue through an outer edge; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any animal; changing the main pool; any water touching an image edge; extra puddle, channel or sea; text, letters, numerals, pseudo-writing, signature, watermark, border, page, panel, collage, inset, specimen grid, clipped animal, clipped antenna, clipped arm, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4f10c3fe-39dd-4f08-a295-97abea6adb64",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-7442226c-d25e-49e2-a591-2777a287c07e",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-4f10c3fe-39dd-4f08-a295-97abea6adb64.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly six complete and naturally separated animals occupy one fully enclosed tidal pool: monk seal, sea turtle, spiny lobster, sea urchin, squatina, and octopus. The pool and every water edge, animal, fin, antenna, arm, and central rock are wholly internal. The scene is a continuous living-habitat observation rather than a specimen grid. No human, capture, dead animal, text, pseudo-writing, page, border, panel, collage, duplicate animal, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-4f10c3fe-39dd-4f08-a295-97abea6adb64",
+          "outputArtifact": "built-in-imagegen://exec-4f10c3fe-39dd-4f08-a295-97abea6adb64.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c012-rejected-01-outer-water-touches-edge.png",
+          "sha256": "bb01abafca5f0964cf281c447108a3d24c0f6b4fb1f2d632c9ce7580a8a966c0",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 12, “Distribution of Aquatic Animals into Various Species”\nPrimary request: Visualize Pliny’s survey of aquatic animals by their different outer coverings as one believable Mediterranean tidal-pool encounter, never as a diagram or specimen grid. In one crystal-clear, fully contained oval rock pool, show exactly SIX complete, naturally spaced animals: one small Mediterranean monk seal resting on a dry inner rock with hide and short hair; one sea turtle swimming; one spiny lobster on the sandy bottom; one sea urchin on a separate stone; one small ray-like squatina resting on sand with rough skin; and one octopus moving between two rocks. Each animal is anatomically ordinary and alive. No humans.\nStyle/medium: exceptionally beautiful ancient natural-history folio rendered as hand-ground mineral watercolor and egg tempera over subtle fibrous vellum grain; charcoal and iron-gall underdrawing, translucent celadon and malachite water, faded coral, chalk limestone, umber shadows, shell-gold glints used sparingly; museum-quality draftsmanship with abrasion and irregular handmade edges, ancient, timeless, rough and polished at once. Coherent Book IX aquatic folio style.\nComposition/framing: high oblique three-quarter view into the single oval pool, landscape 3:2, native 1536x1024. The complete pool, every water edge, all encircling rocks, the seal and its full body, turtle, lobster with every antenna, urchin, squatina, octopus and every arm must be well inside the canvas with broad dry-stone breathing room. Every animal is separate and countable; only flat outer stone and pale sky reflection may naturally continue to an edge.\nLighting/mood: clear late-morning light refracted through shallow water; lucid, observational, calm.\nContent framing: show living animal diversity and surfaces without extraction, handling, capture, consumption, medical instruction, or hierarchical spectacle.\nText: none.\nConstraints: exactly six animals total, one of each listed species; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: extra fish, birds, insects, people, duplicate animal, shell collection, dead animal, exposed anatomy, attack, blood, cage, net, hook, labels, letters, numerals, pseudo-writing, signature, watermark, border, manuscript page, panel, collage, inset, catalog layout, decorative frame, clipped pool, clipped water, clipped rock, clipped seal, clipped fin, clipped antenna, clipped arm, anything entering from an edge, photorealism, glossy CGI.",
+          "reason": "A separate outer water sliver beyond the main tidal pool touched the top and right canvas edges; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:13",
+      "title": "THOSE WHICH ARE COVERED WITH HAIR, OR HAVE NONE, AND HOW THEY BRING FORTH. SEA-CALVES, OR PHOCÆ",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c013.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "8939fcd7a85937109fc10e9dda1a02a09069130521c14e725fd44b95609d6383",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ecc57bc3-824a-4e0e-be0f-d29ddc3655cf",
+      "generationArtifactId": "exec-ecc57bc3-824a-4e0e-be0f-d29ddc3655cf",
+      "outputArtifact": "built-in-imagegen://exec-ecc57bc3-824a-4e0e-be0f-d29ddc3655cf.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 13 illustration master\nPrimary request: Change only vegetation touching the canvas edges in Image 1. Remove every foreground plant, leaf, stem, root, flower, and shrub that touches or crosses the left, right, or bottom image edge, including the cut plants in both lower corners. Restore uninterrupted pale dry limestone texture in those removed areas. Keep only the small complete plants whose roots and tips are fully visible away from every edge.\nPreserve unchanged: exactly THREE complete seals—the mother, nursing pup, and second pup—their anatomy, positions, faces, flippers, spacing and gestures; the fully enclosed oval saltwater pool and every water edge; the continuous dry rock rim; sky, lighting, palette, mineral-watercolor and egg-tempera folio materiality; landscape 3:2 at 1536x1024.\nText: none.\nConstraints: only sky and flat dry stone may continue through an outer edge; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping a seal; changing pool shape; adding water or open sea; any clipped plant; text, letters, numerals, pseudo-writing, signature, watermark, border, page, panel, collage, inset, clipped seal, flipper, pool or water, anything entering from an edge, photography, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-1e38bec8-8bde-4124-b7fb-056602321639",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-714c1557-5579-4249-8386-1c6d120d5d05",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-ecc57bc3-824a-4e0e-be0f-d29ddc3655cf",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-714c1557-5579-4249-8386-1c6d120d5d05.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly three complete Mediterranean monk seals—a mother, nursing pup, and second pup—remain calm and separated on dry limestone near one fully enclosed internal saltwater pool. Every whisker, flipper, seal body, pool edge, rim, and surviving plant is complete and internal. The source is framed through maternal care and gradual learning, not hunting, training spectacle, detached skin, or magical sleep. No extra animal, human, text, pseudo-writing, page, border, panel, collage, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-1e38bec8-8bde-4124-b7fb-056602321639",
+          "outputArtifact": "built-in-imagegen://exec-1e38bec8-8bde-4124-b7fb-056602321639.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c013-rejected-01-open-sea-and-inlet-cut-edges.png",
+          "sha256": "07f60a98ed6cd03eebaf85b82fe2c6f9dd4c674ea7595361307a296a2d028f91",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 13, “Those Which Are Covered with Hair, and How They Bring Forth: Sea-Calves”\nPrimary request: Center the chapter on the source’s humane maternal observation rather than its hunting, training, or marvelous claims. On a secluded Mediterranean limestone cove at silver dawn, show exactly THREE complete Mediterranean monk seals: one adult mother resting on a broad dry shelf while one small pup nurses at her side and one second pup pauses at the margin of a fully contained crescent-shaped inlet, beginning to become accustomed to the sea. Their bodies are anatomically credible, calm, dignified, and naturally spaced. No humans and no other animals.\nStyle/medium: deluxe ancient natural-history folio, mineral watercolor and egg tempera over subtle fibrous vellum grain, fine charcoal and iron-gall contours, ash-lavender shadows, pearl gray fur, muted sea-glass blue, pale limestone, restrained rose dawn and sparse shell-gold glints; tactile dry-brush abrasion with polished anatomical draftsmanship; ancient, timeless, rough and refined at once; coherent Book IX aquatic style.\nComposition/framing: low shoreline view with a gentle diagonal from mother and nursing pup toward the curious second pup and contained inlet; landscape 3:2, native 1536x1024. Keep all three seals from whiskers to rear flippers, the complete limestone shelf, the entire crescent inlet and every water edge, and all visible plants wholly inside with broad breathing room. Only pale sky and flat dry outer stone may naturally continue beyond the canvas. Clear separation and exact count.\nLighting/mood: cool early dawn with one quiet rose reflection; tenderness, patient learning, protected habitat.\nContent framing: Pliny’s statements about sea-calf reproduction, sleep, training, detached skins, and soporific fins are transmitted ancient observations and claims. Depict only living maternal care and gradual entry into water; do not validate magical properties or show exploitation.\nText: none.\nConstraints: exactly three seals total—one mother and two pups; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: extra seal, fish, bird, person, trainer, audience, spectacle, saluting seal, cage, rope, chain, net, hook, weapon, detached skin, severed head, injury, blood, predation, magical sleep aura, medicinal instruction, letters, numerals, pseudo-writing, signature, watermark, border, manuscript page, panel, diptych, collage, inset, clipped seal, clipped flipper, clipped inlet, clipped water, clipped plant, anything entering from an edge, photography, glossy CGI.",
+          "reason": "The open sea and connected inlet water crossed outer canvas edges, failing the strict water-boundary gate; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-714c1557-5579-4249-8386-1c6d120d5d05",
+          "outputArtifact": "built-in-imagegen://exec-714c1557-5579-4249-8386-1c6d120d5d05.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c013-rejected-02-foreground-plants-cut-edges.png",
+          "sha256": "6bc10bdebfdbe94d22a0988aeb41c9adffc8bc1419fe24bd821735a28f3bd958",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: replacement final chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 13\nPrimary request: Create a completely new seal-family composition centered on humane maternal observation. On a broad dry limestone shelf at cool dawn, show exactly THREE complete Mediterranean monk seals: one adult mother resting in profile; one small pup nursing at her side; and one second pup several body lengths away, cautiously looking toward a small enclosed saltwater nursery pool. The pool is a complete oval basin fully surrounded by a continuous dry rock rim, with every water edge visible. No open sea is visible. No humans or other animals.\nStyle/medium: museum-quality ancient natural-history folio, hand-ground mineral watercolor and egg tempera over subtle fibrous vellum grain; charcoal and iron-gall contours, pearl gray fur, ash-lavender shadow, pale limestone, a restrained rose dawn sky and sea-glass pool, sparse shell-gold glints; tactile dry-brush abrasion with anatomically polished draftsmanship; ancient, timeless, rough and refined at once; coherent Book IX aquatic style.\nComposition/framing: wide low-oblique landscape, 3:2 at 1536x1024. Place the complete seal family across the lower-middle dry shelf, with generous rock below every flipper; place the smaller complete oval pool in the middle-right distance, entirely surrounded by dry stone. Keep all three seals from whiskers to rear flippers, the complete pool and every water edge, every plant including roots and tips, and the full visible rock rim comfortably inside. Broad empty pale sky and dry stone supply edge-safe negative space. Only sky and flat dry stone may continue beyond canvas edges.\nLighting/mood: silver dawn with a quiet rose band; tenderness, protected habitat, gradual learning.\nContent framing: Pliny’s reproduction and training accounts and marvelous claims about detached skins and sleep-inducing fins are transmitted ancient reports. Depict living maternal care only; no magical validation, exploitation, or hunting.\nText: none.\nConstraints: exactly three seals total—one mother and two pups; one internal pool; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: open sea, water touching any canvas edge, extra seal, fish, bird, person, trainer, audience, spectacle, cage, rope, chain, net, hook, weapon, detached skin, death, injury, blood, magical aura, medicinal instruction, letters, numerals, pseudo-writing, signature, watermark, border, page, panel, collage, inset, clipped seal, clipped flipper, clipped pool, clipped water, clipped plant, anything entering from an edge, photography, glossy CGI.",
+          "reason": "The enclosed-pool replacement had foreground plants cut by the lower corners; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:14",
+      "title": "HOW MANY KINDS OF FISH THERE ARE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c014.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "c6beffa69c6cd264a4c8479cdc6cd5e4d47679a7278ebae2b5f2ba8cdc0fc6d7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8f99d6f4-84a1-4374-9162-3c43cbaea615",
+      "generationArtifactId": "exec-8f99d6f4-84a1-4374-9162-3c43cbaea615",
+      "outputArtifact": "built-in-imagegen://exec-8f99d6f4-84a1-4374-9162-3c43cbaea615.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 14 illustration master\nPrimary request: Change only plants, coral, and reef fragments that touch the outer canvas edges in Image 1. Remove every sea-grass blade, plant, coral tip, and projecting rock that touches or crosses the left, right, or bottom edge. Replace removed side vegetation with featureless deep blue water and removed bottom-edge material with uninterrupted plain sand, preserving the complete central reef mound well inside the canvas.\nPreserve unchanged: exactly ELEVEN complete animals—eight fish (tuna, garfish, red mullet, bream, grouper, moray, sole, dogfish) and three crustaceans (lobster, crab, shrimp)—their anatomy, counts, positions, sizes and spacing; every fin, tail, eel tip, lobster antenna, crab leg and shrimp antenna; the central reef, sandy oval, underwater lighting, lapis/viridian mineral folio style, landscape 3:2 and 1536x1024 output.\nText: none.\nConstraints: only featureless water and flat sand may continue through outer edges; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any animal; changing any antenna; extra fish, extra crustacean, edge-cut plant, edge-cut rock, bubble stream, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, specimen layout, clipped animal, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-6f136554-eaa9-4e8c-b347-9fa2110bd136",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-8f99d6f4-84a1-4374-9162-3c43cbaea615",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-6f136554-eaa9-4e8c-b347-9fa2110bd136.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly eleven complete animals inhabit one continuous reef: eight distinct fish—tuna, garfish, red mullet, bream, grouper, moray, sole, and dogfish—and three crustaceans—lobster, crab, and shrimp. Counts, fins, tails, eel tip, legs, and antennae are clear and internal; the complete central reef and sand remain distinct while only featureless water and flat sand continue through edges. No literal ancient-total claim, label, specimen grid, capture, text, pseudo-writing, page, border, panel, collage, duplicate animal, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-6f136554-eaa9-4e8c-b347-9fa2110bd136",
+          "outputArtifact": "built-in-imagegen://exec-6f136554-eaa9-4e8c-b347-9fa2110bd136.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c014-rejected-01-edge-cut-seagrass.png",
+          "sha256": "0c3f3e9b7ac8ea9a5c142dc29e53299360258f723a541d574d43f18c811ee7df",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 14, “How Many Kinds of Fish There Are”\nPrimary request: Evoke the source’s numerical abundance without attempting to illustrate its ancient totals literally and without making a catalog diagram. Create one continuous immersive Mediterranean reef scene containing exactly ELEVEN complete living animals at three natural depths: exactly EIGHT distinct fish—a bluefin tuna, red mullet, gilt-head bream, small dusky grouper, slender moray eel, sole resting on sand, small dogfish shark, and long silver garfish—and exactly THREE crustaceans—a spiny lobster, shore crab, and red shrimp. Each appears once, anatomically plausible, clearly separated, and naturally scaled for a single reef habitat.\nStyle/medium: exceptionally beautiful Book IX natural-history folio translated into underwater space; hand-ground lapis, azurite, malachite, verdigris, madder and chalk mineral washes with egg-tempera highlights over subtle fibrous vellum grain; charcoal underdrawing, fine iron-gall contour, stipple, dry-brush abrasion, suspended pigment bloom; ancient, timeless, rough in surface and polished in observation, never photographic or glossy.\nComposition/framing: immersive wide landscape 3:2, native 1536x1024, low three-quarter underwater viewpoint across a complete central limestone reef mound and complete sandy oval. Tuna and garfish occupy open middle water; the other fish and crustaceans inhabit distinct reef niches. Keep all eleven animals from snout to tail, every fin, eel tip, lobster antenna, crab leg and shrimp antenna, the complete reef mound, all sea-grass clumps with roots and tips, and the sandy oval comfortably inside. Let only featureless blue water naturally continue through canvas edges. No animal, rock, plant, sunbeam, or bubble stream may touch an edge.\nLighting/mood: cool shafts of late-morning light, deep lapis corners, luminous viridian middle water; exploratory and abundant, not crowded.\nContent framing: the ancient counts are Pliny’s taxonomy, not a modern scientific species total. Show representative diversity only.\nText: none.\nConstraints: exactly eleven animals total: eight fish and three crustaceans, each listed species appearing once; one continuous opaque RGB/sRGB scene; full-bleed artwork.\nAvoid: extra fish, duplicate species, octopus, seal, turtle, bird, human, fishing gear, dead animal, capture, predation, attack, blood, food display, diagram, labeled specimens, grid, panel, collage, inset, page, border, letters, numerals, pseudo-writing, signature, watermark, clipped animal, clipped tail, clipped antenna, clipped reef, clipped plant, object entering from edge, photorealism, glossy CGI.",
+          "reason": "Sea-grass clumps and reef vegetation were cut by the left, right, and bottom edges; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:15",
+      "title": "WHICH OF THE FISHES ARE OF THE LARGEST SIZE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c015.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "ef07137d1dd365f8d3c2aeba4980aecb31ff89e50975aac56fb1796359aec923",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-12f9eacf-c537-4b09-959c-7f8cb1d12e65",
+      "generationArtifactId": "exec-12f9eacf-c537-4b09-959c-7f8cb1d12e65",
+      "outputArtifact": "built-in-imagegen://exec-12f9eacf-c537-4b09-959c-7f8cb1d12e65.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 15 illustration master\nPrimary request: Make only two edge-safety corrections to Image 1.\n1. Remove every sea-grass clump or blade that touches or crosses the left, right, or bottom canvas edge, replacing those areas with uninterrupted plain sand or featureless blue water as appropriate. Keep the complete internal grass clumps around the white rock.\n2. Remove the visible water-surface texture and bright light beam that enter from the top and upper-left edges. Replace them with continuous featureless deep teal-blue water matching the surrounding open water, while retaining a soft diffuse internal glow that does not touch any edge.\nPreserve unchanged: exactly SEVEN complete bluefin tuna—one large foreground adult and six smaller adults—their anatomy, counts, positions, size hierarchy, fins and tails; the complete luminous white rock, its complete internal sandy shelf, all complete internal grasses, current veils, mineral-pigment folio materiality, landscape 3:2 and 1536x1024 output.\nText: none.\nConstraints: only featureless deep water and flat sand may continue through an edge; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any tuna; extra animal; altering the white rock; edge-cut grass; visible surface boundary; beam entering from edge; bubbles; letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, map, diagram, clipped fish, clipped fin, clipped tail, clipped rock, photography, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-ed430e10-465f-4e9c-b894-2a88dc2f1e2e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-12f9eacf-c537-4b09-959c-7f8cb1d12e65",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-ed430e10-465f-4e9c-b894-2a88dc2f1e2e.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly seven complete bluefin tuna—one large adult and six smaller adults—form a calm migration arc past one complete luminous white submerged rock and internal sand shelf. Every fish, fin, tail, rock face, and surviving grass clump is internal; only featureless deep water and flat sand continue through edges. The image uses the observable Bosporus migration account rather than literalizing fabulous dimensions, elephant attacks, capture, pain, or preparation. No other animal, human, fishing gear, text, pseudo-writing, page, border, panel, collage, duplicate crop, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-ed430e10-465f-4e9c-b894-2a88dc2f1e2e",
+          "outputArtifact": "built-in-imagegen://exec-ed430e10-465f-4e9c-b894-2a88dc2f1e2e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c015-rejected-01-edge-grass-and-sunbeam.png",
+          "sha256": "d6896099959df27b664898d36bca58f631bd4e399740eb67572e238a32dd5c27",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 15, “Which of the Fishes Are of the Largest Size”\nPrimary request: Ground this long chapter in its recurring, observable subject—large bluefin tuna moving through the Thracian Bosporus—rather than literalizing its extreme size reports, elephant attacks, pain, capture, or food preparation. Create one continuous underwater migration scene with exactly SEVEN complete bluefin tuna: one large adult in the lower foreground and six smaller adults following in a sweeping diagonal shoal past one complete luminous white submerged rock associated with Pliny’s Chalcedon account. The fish are calm, uninjured, and free; no humans or other animals.\nStyle/medium: monumental ancient Book IX natural-history folio, hand-ground indigo, deep teal, oxidized copper-blue, chalk white, umber and sparse shell-gold mineral pigment with egg-tempera highlights over subtle fibrous vellum grain; iron-gall contour, fine cross-hatching, stipple, dry-brush abrasion and translucent current veils; tactile, timeless, rough in material and polished in anatomy, not photographic.\nComposition/framing: wide panoramic underwater landscape, 3:2 at native 1536x1024. Strong lower-left to upper-right migration arc, with the large tuna entirely visible and the six smaller tuna separated behind it. The complete irregular white rock mound rests on a complete internal sandy shelf at middle-right. Keep all seven tuna from snout to tail and every fin, the full rock and shelf, and every complete sea-grass clump comfortably inside. Only featureless deep water and flat sand may naturally continue through outer edges; no fish, rock, grass, sunbeam, bubble stream, ship, shoreline, or water boundary touches an edge.\nLighting/mood: cold blue current crossed by a warm copper shaft and the pale rock’s reflected glow; immense scale, direction, seasonal movement, no spectacle.\nContent framing: Pliny transmits measurements, attacks, towing, fishing and culinary material whose accuracy varies. Present only natural tuna migration; do not verify fabulous dimensions or harmful behavior and do not provide fishing or preparation instruction.\nText: none.\nConstraints: exactly seven tuna total and no other animals or humans; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: elephant, horse, giant worm, monster fish, bite, attack, predation, hooked or chained fish, oxen, net, spear, boat, blood, injury, dead fish, cut fish, food display, duplicate crop, extra tuna, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, map, diagram, clipped fish, clipped tail, clipped rock, clipped plant, anything entering from an edge, photorealism, glossy CGI.",
+          "reason": "Sea-grass touched lower edges and a visible surface/light beam entered from the upper-left edge; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:16",
+      "title": "THAT AUGURIES ARE DERIVED FROM FISHES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c016.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "8e6553a19526fcfd986713180494da864ed56055fc1b7f33ea0f231a87f6f625",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-dcd05354-07a1-478d-96f3-98278c42b961",
+      "generationArtifactId": "exec-dcd05354-07a1-478d-96f3-98278c42b961",
+      "outputArtifact": "built-in-imagegen://exec-dcd05354-07a1-478d-96f3-98278c42b961.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 16 illustration master\nPrimary request: Change only vegetation touching outer canvas edges in Image 1. Remove every grass tuft, stem, root and plant that touches or crosses the left, right, or bottom edge, especially the cut foreground tuft at the bottom center. Replace each removed plant with uninterrupted matching dry limestone and sand. Preserve all complete internal plants whose roots and tips are visible away from edges.\nPreserve unchanged: exactly THREE complete humans—Augustus, older diviner, younger attendant—and exactly ONE complete silver fish; their faces, gestures, garments, feet, positions and spacing; the fully enclosed oval pool, its complete raised rim and every water edge; all internal stones, pale dry landscape, rose-saffron sky, mineral-pigment folio materiality, landscape 3:2 and 1536x1024 output.\nText: none.\nConstraints: only sky and flat dry stone may continue through outer edges; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any person or fish; changing the pool; adding water; clipped plant; letters, numerals, pseudo-writing, inscription, signature, watermark, page, border, panel, collage, inset, clipped human, foot, garment, fish, pool or rim, anything entering from an edge, photography, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-168c716e-0130-49eb-826a-1c7d37178312",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-64fb5435-3ad7-4978-a297-072bab86b069",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-dcd05354-07a1-478d-96f3-98278c42b961",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-64fb5435-3ad7-4978-a297-072bab86b069.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly three complete adults—unarmored Augustus, an older diviner, and a younger attendant—stand uncertainly around exactly one complete ordinary silver fish and one fully enclosed oval pool. Every person, foot, garment, fish, pool rim, and water edge is complete; only pale sky and flat dry stone continue through edges. The event reads as an interpreted ancient report, not verified prophecy or triumph. No halo, deity, worship, battle, crowd, text, pseudo-writing, page, border, panel, collage, extra figure, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-168c716e-0130-49eb-826a-1c7d37178312",
+          "outputArtifact": "built-in-imagegen://exec-168c716e-0130-49eb-826a-1c7d37178312.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c016-rejected-01-open-sea-and-pool-cut-edges.png",
+          "sha256": "6f58154403e5305329484f888791eb807b164fc86d0c1f4ca755120109b8117e",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 16, “That Auguries Are Derived from Fishes”\nPrimary request: Present Pliny’s Augustus shoreline story as an interpreted ancient report, not verified prophecy. On a broad pale Sicilian coastal shelf at rose-gold dawn, exactly THREE complete adult humans stand around one unexpected but ordinary event: Augustus, unarmored in a plain muted purple travel cloak, has paused several steps from exactly ONE complete small silver fish that has just landed alive on wet sand beside a fully contained crescent-shaped seawater pool. One older diviner observes the fish with an open, questioning hand; one younger attendant watches the water. Their expressions are sober and uncertain, with no worship or triumph. No other humans or animals.\nStyle/medium: ancient Roman natural-history folio, hand-ground rose madder, saffron, chalk, faded Tyrian purple, sea-glass teal, umber and restrained shell-gold mineral pigment with egg-tempera highlights over subtle fibrous vellum grain; iron-gall contour, fine cross-hatching, stipple and dry-brush abrasion; beautiful, tactile, ancient, timeless, rough and polished at once, historically plausible late Republican clothing.\nComposition/framing: wide low-oblique landscape, 3:2 at native 1536x1024. Arrange the three complete figures in a loose arc with open negative space around the single fish. Keep every head, hand, sandal, garment hem, the fish from snout to tail, the complete crescent pool and every water edge, complete small stones and any sparse plants fully inside. Dry sand, distant low hills, and pale sky may naturally continue through edges; no water, body, fish, plant, prop or important motif touches an edge.\nLighting/mood: quiet rose-and-saffron dawn, a small teal reflection in the pool; ambiguity, observation, political interpretation rather than divine certainty.\nContent framing: the omen and diviners’ reading are transmitted ancient testimony tied to the Sicilian war and Sextus Pompeius; do not confirm supernatural causation or glorify conquest.\nText: none.\nConstraints: exactly three adult humans and exactly one fish; no other living figure; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: halo, divine apparition, magical glow around fish, prophecy text, Neptune, battle, fleet, weapon, armor, banner, emblem, victory pose, worship, prostration, crowd, dead fish, injury, blood, fishing gear, letters, numerals, pseudo-writing, inscription, signature, watermark, page, border, panel, collage, inset, split scene, clipped person, clipped foot, clipped fish, clipped pool or water, clipped plant, anything entering from an edge, photography, glossy CGI.",
+          "reason": "The first shoreline scene included open sea and a foreground pool cut by canvas edges; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-64fb5435-3ad7-4978-a297-072bab86b069",
+          "outputArtifact": "built-in-imagegen://exec-64fb5435-3ad7-4978-a297-072bab86b069.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c016-rejected-02-bottom-plant-cut-edge.png",
+          "sha256": "6182ab23650d7f3ec83ffb3e21945cdb8a33569db121876dec1de71bceb2a746",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: replacement final chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 16\nPrimary request: Create a new composition that presents the reported fish augury as uncertain ancient interpretation. On a very broad dry Sicilian coastal limestone shelf at rose-and-saffron dawn, show exactly THREE complete adult humans: unarmored Augustus in a plain muted purple travel cloak, an older diviner with one open questioning hand, and a younger attendant watching quietly. Exactly ONE complete small silver fish lies alive on a damp patch of sand between them and one small fully enclosed oval saltwater pool. The pool is entirely surrounded by a complete raised dry limestone rim, with every water edge visible. No open sea is visible anywhere. The three figures remain upright and sober, with no worship, triumph, or certainty.\nStyle/medium: ancient Roman natural-history folio in hand-ground rose madder, saffron, chalk, faded Tyrian purple, sea-glass teal, umber and sparse shell-gold mineral pigments with egg-tempera highlights over subtle fibrous vellum grain; iron-gall contour, fine cross-hatching, stipple and dry-brush abrasion; tactile, dignified, ancient, timeless, rough and polished at once; historically plausible late Republican clothing.\nComposition/framing: high-oblique wide landscape, 3:2 at 1536x1024. Place the complete pool in the lower-middle distance and the complete fish on damp sand just outside its rim. Arrange the three complete people in a broad asymmetrical arc, each fully visible head to sandals with open negative space between. Keep the fish, pool, every water edge, complete raised rim, all stones and any plants wholly inside. Only pale sky and flat dry stone may continue through canvas edges.\nLighting/mood: lucid warm dawn, restrained teal reflection, uncertainty and observational inquiry.\nContent framing: the diviners’ reading during the Sicilian war is transmitted ancient testimony, not verified prophecy or supernatural causation.\nText: none.\nConstraints: exactly three adult humans and exactly one fish, no other living figure; one enclosed pool; one continuous opaque RGB/sRGB scene.\nAvoid: open sea, water touching an edge, halo, divine apparition, magical glow around fish, Neptune, battle, fleet, weapon, armor, banner, emblem, victory pose, worship, prostration, crowd, dead fish, injury, blood, fishing gear, letters, numerals, pseudo-writing, inscription, signature, watermark, page, border, panel, collage, inset, split scene, clipped person, clipped foot, clipped fish, clipped pool, clipped plant, anything entering from an edge, photography, glossy CGI.",
+          "reason": "The enclosed-pool replacement retained a foreground plant cut by the bottom edge; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:17",
+      "title": "THE MULLET",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c017.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "63d3474fb28d2233c36f86de107871fca0fc5242eab913698ff478d85b87700b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-f6df38ec-e508-489d-8377-0f8a91001a0a",
+      "generationArtifactId": "exec-f6df38ec-e508-489d-8377-0f8a91001a0a",
+      "outputArtifact": "built-in-imagegen://exec-f6df38ec-e508-489d-8377-0f8a91001a0a.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: replacement final chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 17, “The Mullet”\nPrimary request: Create a wholly new composition, visually unlike an overhead enclosed lagoon. Use a luminous side-on underwater view across a broad uninterrupted pale sand plain. Exactly THREE complete red mullets move left-to-right in a shallow descending diagonal, each using its paired chin barbels to disturb one small internal veil of sand. Exactly ONE complete gray-green sargus follows behind and slightly above them with a smooth chin and no barbels, feeding among the disturbed sediment. All four fish are alive, uninjured, separated, and naturally scaled. No humans or other animals.\nStyle/medium: high-key ancient Book IX folio with large fields of pale aquamarine, milky turquoise, shell-white sand, vivid restrained coral-red fish, celadon shadow and sparse shell-gold; translucent mineral watercolor and egg-tempera over subtle fibrous vellum grain, iron-gall contours, stippled scales, charcoal underdrawing and dry-brush silt; ancient, timeless, rough and polished at once, observational rather than photographic.\nComposition/framing: horizontal-band landscape 3:2 at native 1536x1024, low side-on underwater viewpoint. Featureless luminous aquamarine water fills the upper two-thirds and a flat pale sand plain fills the lower third; no pond outline, shoreline, rock ring, island, reef mound or overhead view. Keep all four fish from snout to tail, every fin, all six mullet barbels, the barbel-free sargus, and all three small silt veils comfortably inside with generous open negative space. Only featureless water and flat sand may continue through edges; no animal, silt veil, plant, rock, light shaft or bubble stream touches an edge.\nLighting/mood: diffuse bright underwater noon with soft shadow beneath each fish; ecological observation, calm and spare.\nContent framing: Pliny’s mating capture, staged dying colors, prices, gluttony and luxury are transmitted ancient testimony and social critique. Depict only living foraging behavior and the mullet-sargus association.\nText: none.\nConstraints: exactly four fish total—three red mullets with barbels and one sargus without barbels; no other living figure; one continuous opaque RGB/sRGB scene.\nAvoid: overhead pool, enclosed water shape, island-like composition, line through mouth or gills, tether, tank, glass vessel, garum, dead fish, banquet, market, coin, cook, extra fish, injury, hook, net, plant, coral, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, diagram, clipped fish, clipped barbel, anything entering from edge, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-223f42ad-831f-4489-9beb-b722edb4d975",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-1d9a5ff9-9f57-4223-96f0-5c0dff931f42",
+          "status": "rejected-global-audit",
+          "inputArtifact": "built-in-imagegen://exec-223f42ad-831f-4489-9beb-b722edb4d975.png"
+        },
+        {
+          "generationArtifactId": "exec-f6df38ec-e508-489d-8377-0f8a91001a0a",
+          "status": "accepted"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly three complete red mullets with paired chin barbels forage across a spare pale sand plain while exactly one complete gray-green sargus with a smooth barbel-free chin follows above them. All four fish, fins, tails, six mullet barbels, and three small silt veils are internal; only featureless aquamarine water and flat sand continue through edges. The scene isolates living mullet-sargus ecology rather than cruel mating capture, dying-color spectacle, cuisine, luxury, or price. No human, gear, extra fish, text, pseudo-writing, page, border, panel, collage, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-223f42ad-831f-4489-9beb-b722edb4d975",
+          "outputArtifact": "built-in-imagegen://exec-223f42ad-831f-4489-9beb-b722edb4d975.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c017-rejected-01-sargus-has-mullet-barbels.png",
+          "sha256": "52cae9638077f6a2bed310f9f36cb18d683e1d1d13016dad90f087b9824c83a4",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 17, “The Mullet”\nPrimary request: Use Pliny’s ecological observation rather than the chapter’s cruel capture method, dying-color spectacle, consumption, luxury, or prices. From directly overhead, look into one fully contained shallow amber-olive tidal lagoon where exactly THREE complete red mullets forage together, their paired chin barbels gently stirring three small internal clouds of silt. Exactly ONE complete sargus follows several body lengths behind and feeds among the disturbed sediment, reflecting Pliny’s described association. All four fish are alive, uninjured, naturally spaced, and fully visible. No humans or other animals.\nStyle/medium: distinctive Book IX folio in hand-ground rust red, yellow ochre, olive earth, malachite, smoky teal, chalk and sparse shell-gold egg tempera over subtle fibrous vellum grain; precise iron-gall fish contours, delicate cross-hatching, stippled scales, dry-brush sand and translucent watercolor silt; ancient, timeless, rough in surface and polished in observation, never photographic.\nComposition/framing: true top-down landscape 3:2, native 1536x1024. The complete irregular lagoon and every water edge form an internal asymmetrical shape surrounded by a broad band of dry ochre stone. Arrange the three mullets as a loose curved procession, with the single sargus behind; keep every snout, tail, fin and barbel, all three silt clouds, the entire lagoon, complete small stones, and any complete algae tuft wholly inside. Only flat dry ochre stone may naturally continue through outer canvas edges. No water, fish, plant, stone or silt cloud touches an edge.\nLighting/mood: low warm afternoon light through very shallow water, glinting scales and quiet sediment; intimate natural behavior, not culinary display.\nContent framing: Pliny’s claims about fear, mating capture, luxury and staged dying colors are transmitted ancient testimony and social critique. Do not depict or validate cruelty.\nText: none.\nConstraints: exactly four fish total—three mullets and one sargus—and no other living figure; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: line through mouth or gills, tether, tank, glass vessel, garum, dead or dying fish, color-death display, banquet, market, coin, price, cook, human, extra fish, predation, injury, blood, hook, net, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, diagram, clipped fish, clipped barbel, clipped lagoon or water, clipped plant, anything entering from edge, photorealism, glossy CGI.",
+          "reason": "The single sargus incorrectly inherited two mullet-like chin barbels, failing anatomy QA; the built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-1d9a5ff9-9f57-4223-96f0-5c0dff931f42",
+          "outputArtifact": "built-in-imagegen://exec-1d9a5ff9-9f57-4223-96f0-5c0dff931f42.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c017-rejected-02-global-mad-below-threshold.png",
+          "sha256": "532210bd308d81aeb6486c54a2822fe7184a9472aa327a2e2ecfc24ae64b5610",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 17 illustration master\nPrimary request: Make exactly one anatomical correction to Image 1. On the single gray-green sargus at lower right, remove both pale whisker-like chin barbels. Restore a smooth, anatomically ordinary sargus mouth and chin with no barbel, feeler, filament or dangling line. Leave the small nearby silt cloud natural.\nPreserve unchanged: the THREE red mullets and their paired chin barbels; the sargus’s body, fins, tail, color, position and scale; exactly four fish total; all three internal silt clouds; the complete contained amber-olive lagoon and every water edge; surrounding dry ochre rocks; true top-down composition; mineral watercolor and egg-tempera folio materiality; 3:2 landscape at 1536x1024.\nText: none.\nConstraints: only the three red mullets have barbels; the single sargus has none; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any fish; changing a mullet barbel; adding any animal; line through mouth, hook, injury, text, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, clipped fish, clipped lagoon or water, photorealism, glossy CGI.",
+          "reason": "The corrected overhead lagoon passed native QA but failed the live global uniqueness gate: nearest-neighbor MAD 18.87 was below the required 20 against trees-aromatics-wave-48/b02-c087.png. The built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:18",
+      "title": "THAT THE SAME KINDS ARE NOT EVERYWHERE EQUALLY ESTEEMED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c018.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "32a5fb967508e16cf567e115b702c416c3cde2354e027c06b2a9efc9fa47333b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-75340848-dc8a-4834-b465-9c9f14300503",
+      "generationArtifactId": "exec-75340848-dc8a-4834-b465-9c9f14300503",
+      "outputArtifact": "built-in-imagegen://exec-75340848-dc8a-4834-b465-9c9f14300503.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 18 illustration master\nPrimary request: Change only vegetation touching the outer canvas edges in Image 1. Remove every foreground grass blade, tuft, flower, stem, root and plant that touches or crosses the left, right, or bottom edge. Replace those removed plants with uninterrupted pale dry Alpine rock and gravel matching the foreground. Retain only complete small vegetation whose roots and tips are visible well inside the canvas.\nPreserve unchanged: exactly FIVE complete silver fish and their scale detail, positions, fins and tails; the fully contained cobalt oval lake and every water edge; all three complete mountain peaks, snow patches, ridges, rocks, internal plants, pale sky, crystalline lighting, mineral-watercolor and egg-tempera folio materiality; landscape 3:2 at 1536x1024.\nText: none.\nConstraints: only pale sky and flat dry rock/gravel may continue through an edge; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any fish; changing lake shape or water; changing mountains; adding animals or humans; clipped vegetation; letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, map, diagram, clipped fish, clipped lake, clipped peak, photorealism, glossy CGI.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a7611381-0a28-4d3a-9c4f-9f3a94e8772b",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-75340848-dc8a-4834-b465-9c9f14300503",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-a7611381-0a28-4d3a-9c4f-9f3a94e8772b.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly five complete silver Alpine lake fish with firm pointed scale detail form one separated seasonal shoal inside one fully contained cobalt oval lake. All fish, fins, tails, water edges, three complete peaks, snow patches, and retained plants are internal; only pale sky and flat dry rock continue through edges. The source’s regional esteem and seasonal sharp-scale report are framed as historical natural history, not modern taxonomy or culinary instruction. No human, capture, market, text, pseudo-writing, page, border, panel, collage, extra fish, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a7611381-0a28-4d3a-9c4f-9f3a94e8772b",
+          "outputArtifact": "built-in-imagegen://exec-a7611381-0a28-4d3a-9c4f-9f3a94e8772b.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c018-rejected-01-foreground-plants-cut-edges.png",
+          "sha256": "cfbf52a5d8aff9e67eda2f1e9f9a98d30d159a4fd80dbdf984d048e8764c8623",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 18, “That the Same Kinds Are Not Everywhere Equally Esteemed”\nPrimary request: Focus on Pliny’s geographically specific closing observation rather than markets, beating fish, luxury, or universal ranking. Show exactly FIVE complete living silver Alpine lake fish appearing close beneath the clear surface of one fully contained cobalt oval lake at the foot of the Alps. Their many firm, pointed scales catch the light but remain anatomically plausible, not armor or monsters. The five fish form one loose seasonal shoal, separated and countable. No humans or other animals.\nStyle/medium: luminous ancient Book IX natural-history folio in hand-ground cobalt, ultramarine, alpine celadon, snow chalk, cool umber, pale silver and restrained shell-gold egg tempera over subtle fibrous vellum grain; fine iron-gall contours, delicate cross-hatching, stippled scales, transparent watercolor depth and dry-brush stone abrasion; ancient, timeless, rough and polished at once, observational rather than photographic.\nComposition/framing: high oblique panoramic Alpine basin, landscape 3:2 at native 1536x1024. The complete oval lake and every water edge sit fully inside a broad bowl of dry pale stone and short grass. The five complete fish are visible in the lower-middle water from snout to tail and every fin. Place three separate complete mountain peaks and their bases across the middle distance, with a broad band of pale sky above every summit. Keep every fish, lake edge, peak, snow patch, rock, grass clump and tree fully inside. Only pale sky and flat dry foreground stone may naturally continue through canvas edges; no water, peak, plant, tree, fish or reflection touches an edge.\nLighting/mood: crystalline cold noon after snowmelt, intense cobalt water and silver flashes; seasonal, local, quiet.\nContent framing: Pliny’s regional preferences and sharp-scale account are historical natural-history claims, not modern taxonomy or culinary advice. Show living habitat only.\nText: none.\nConstraints: exactly five fish total and no other living figure; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: market, dead fish, cooked fish, stick, beating, luxury banquet, price, map, regional labels, flags, extra fish, bird, person, boat, hook, net, cage, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, diagram, clipped fish, clipped lake or water, clipped mountain, clipped plant, anything entering from an edge, photorealism, glossy CGI.",
+          "reason": "Foreground Alpine grasses and flowers crossed the lower and side edges; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "9:19",
+      "title": "FISHES WHICH HAVE A VOICE.—FISHES WITHOUT GILLS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/b09-c019.png",
+      "corpusArtifact": "public/corpus/book-09.12645fd29e59bbcb.json",
+      "sha256": "cb01b30e269633caa50ad31613f3e645a0dd971ff91d7c763e6abe7d7048038b",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4890bf53-2c6b-432f-a8e3-df0182efaad7",
+      "generationArtifactId": "exec-4890bf53-2c6b-432f-a8e3-df0182efaad7",
+      "outputArtifact": "built-in-imagegen://exec-4890bf53-2c6b-432f-a8e3-df0182efaad7.png",
+      "exactFinalPrompt": "Use case: precise-object-edit\nAsset type: final Book IX chapter 19 illustration master\nPrimary request: Change only the two animal-support stones in Image 1 so no discrete stone is cut by an edge.\n1. Beneath the small fish at upper left, erase the outlined raised slab and blend it seamlessly into the surrounding broad flat pale limestone; leave only a subtle complete damp patch around the fish, fully inside the canvas.\n2. Beneath the octopus at lower right, erase the outlined raised slab and blend it seamlessly into the same broad flat limestone; leave only a subtle complete damp patch beneath all eight arms, fully inside the canvas.\nNo raised slab, platform, ledge boundary or separate rock may continue to the left, right, or bottom canvas edge.\nPreserve unchanged: exactly THREE animals—the complete small blenny-like fish, complete octopus with all eight arms, and complete moray in the water—their anatomy, counts, positions, scale and colors; the fully enclosed kidney-shaped pool, complete dry rim and every water edge; bright ivory/celadon palette, high-key morning sky, mineral-watercolor and egg-tempera folio materiality; landscape 3:2 and 1536x1024 output.\nText: none.\nConstraints: only blank pale sky and continuous flat dry limestone may continue through outer edges; one continuous opaque RGB/sRGB scene.\nAvoid: adding, removing, duplicating, moving or cropping any animal; changing the pool; adding water; discrete slab touching an edge; speech glyph, human face, exposed gills, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, clipped fish, octopus arm, eel tail, pool or water, photorealism, glossy CGI.",
+      "generationAttempts": 3,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-a6b4b52f-7db8-4ab7-b2ad-ec3020f9eb06",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-ce85e1af-5cf6-4029-a184-bdbe9dd9059e",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-4890bf53-2c6b-432f-a8e3-df0182efaad7",
+          "status": "accepted",
+          "inputArtifact": "built-in-imagegen://exec-ce85e1af-5cf6-4029-a184-bdbe9dd9059e.png"
+        }
+      ],
+      "hashReconciled": true,
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Inspected at native 1536x1024. Exactly three anatomically ordinary animals occupy one luminous Arcadian spring scene: a complete blenny-like fish rests on damp limestone, a complete octopus displays eight internal arms on a separate damp patch, and a complete moray is visible head-to-tail in the fully enclosed kidney-shaped pool. Every animal, pool rim, and water edge is internal; only blank pale sky and continuous flat dry limestone continue through edges. No human, moon, literal speech, exposed gills, magic, astrology, text, pseudo-writing, page, border, panel, collage, extra animal, or clipped focal motif was found.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-a6b4b52f-7db8-4ab7-b2ad-ec3020f9eb06",
+          "outputArtifact": "built-in-imagegen://exec-a6b4b52f-7db8-4ab7-b2ad-ec3020f9eb06.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c019-rejected-01-global-mad-below-threshold.png",
+          "sha256": "538d248403b89af68085b2913c53462c044c2f1a81cba1e8915e443b37f4e6b8",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: final independent chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 19, “Fishes Which Have a Voice—Fishes Without Gills”\nPrimary request: Treat the Arcadian “speaking” exocoetus as transmitted ancient testimony, never as a literal talking creature. At mauve twilight beside one fully enclosed small oval spring pool near Clitorium, show exactly ONE complete adult observer crouched at a respectful distance with empty hands, listening without certainty. Show exactly THREE complete, anatomically ordinary aquatic animals: one small amphibious blenny-like fish resting quietly on a damp internal stone outside the water; one octopus moving across a separate wet internal rock toward the pool; and one slender moray eel fully visible in the shallow water from head to tail. None has a human face, expressive mouth, magical aura, or speech marks. No other humans or animals.\nStyle/medium: haunting but restrained ancient Book IX folio, hand-ground dusk mauve, faded lapis, malachite, smoky teal, chalk, umber and sparse shell-gold egg tempera over subtle fibrous vellum grain; iron-gall contours, fine cross-hatching, stipple, translucent water washes, rough dry-brush stone; timeless, tactile, ancient, rough and polished at once, observational rather than fantastical.\nComposition/framing: wide low-oblique landscape, 3:2 at native 1536x1024. Place the complete oval pool and every water edge in the middle-right, surrounded by broad dry stone. Keep the complete observer head to sandals and every hand, the resting fish from snout to tail, the octopus and all eight arms, the moray’s entire body curve, the complete damp stones, and every complete plant well inside. A complete small moon may sit high in broad empty sky, fully surrounded by sky. Only pale sky and flat dry stone may continue through edges; no water, person, animal, moon, plant, tree, hill or important motif touches an edge.\nLighting/mood: mauve-blue twilight with a muted celadon pool and a small internal silver reflection; quiet attention, uncertainty, animal migration to safer water.\nContent framing: Pliny reports a vocal, gill-less Arcadian fish and several aquatic animals coming ashore. Show plausible shore behavior without confirming speech, gill absence, astrology, or miraculous knowledge.\nText: none.\nConstraints: exactly one human and exactly three animals—one fish, one octopus, one moray; one continuous opaque RGB/sRGB scene; full-bleed painted artwork.\nAvoid: talking fish, speech bubble, sound glyph, human-faced animal, hybrid, magical glow, exposed gills, anatomical diagram, astrology symbol, Zodiac, extra fish, bird, insect, deity, worship, capture, injury, blood, hook, net, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, split scene, clipped human, foot, fish, octopus arm, eel tail, pool or water, moon, plant, anything entering from an edge, photorealism, glossy CGI.",
+          "reason": "The moonlit listening scene passed native QA but failed the live global uniqueness gate: nearest-neighbor MAD 17.90 was below the required 20 against trees-aromatics-wave-50/b02-c097.png. The built-in original is preserved byte-identically."
+        },
+        {
+          "generationArtifactId": "exec-ce85e1af-5cf6-4029-a184-bdbe9dd9059e",
+          "outputArtifact": "built-in-imagegen://exec-ce85e1af-5cf6-4029-a184-bdbe9dd9059e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-land-wave-08/evidence/history/b09-c019-rejected-02-animal-slabs-cut-edges.png",
+          "sha256": "9b1cb8e42bb52b0af6b1373e10227708a65f26028beaa8ccc5de7a4dab8784ba",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "exactPrompt": "Use case: historical-scene\nAsset type: replacement final chapter-scene master for Pliny the Elder, Naturalis Historia Book IX chapter 19, “Fishes Which Have a Voice—Fishes Without Gills”\nPrimary request: Create a wholly new, high-key daylight composition with no observer, no moon, and no nocturnal seascape. At clear lemon-white morning in an Arcadian limestone basin near Clitorium, show exactly THREE complete, anatomically ordinary aquatic animals around one small fully enclosed kidney-shaped spring pool: one small amphibious blenny-like fish resting quietly on a complete damp pale slab outside the water; one octopus moving across a separate complete wet stone toward the pool, all eight arms visible; and one slender moray eel fully visible in the transparent celadon water from head through its single body curve to tail. No humans or other animals. None speaks or has a human face, magical aura, or exposed anatomical feature.\nStyle/medium: rare luminous Book IX folio dialect with broad fields of warm ivory limestone, lemon-chalk sky, crystalline celadon water, restrained coral and violet-brown animals, pale cobalt shadow and sparse shell-gold; translucent mineral watercolor and egg-tempera over subtle fibrous vellum grain, fine iron-gall contours, charcoal underdrawing, stipple and dry-brush abrasion; ancient, timeless, rough in material and polished in observation, never photographic.\nComposition/framing: wide low-oblique landscape 3:2 at native 1536x1024. Use a very low horizon and abundant bright negative space. The kidney-shaped pool sits in the lower-middle with its complete raised dry rim and every water edge visible. The fish and octopus rest on two separate complete internal stones on opposite sides; the complete moray remains in the pool. Keep every snout, fin, tail, all eight octopus arms, complete stones, pool, rim and any small plant wholly inside. Only blank pale sky and flat dry limestone may continue through edges; no animal, water, plant, hill, rock motif or reflection touches an edge.\nLighting/mood: diffuse bright morning, lucid celadon reflection, stillness and careful uncertainty rather than wonder spectacle.\nContent framing: Pliny transmits claims that an Arcadian fish speaks and lacks gills, and reports shore-going fish, octopus and moray. Show only plausible ordinary animals at a water margin; do not confirm speech, gill absence, astrology or miraculous knowledge.\nText: none.\nConstraints: exactly three animals—one fish, one octopus, one moray—and no humans; one continuous opaque RGB/sRGB scene.\nAvoid: talking fish, speech bubble, sound glyph, human-faced animal, hybrid, magical glow, exposed gills, anatomy diagram, astrology, Zodiac, moon, night, extra fish, bird, insect, deity, capture, injury, hook, net, letters, numerals, pseudo-writing, signature, watermark, page, border, panel, collage, inset, split scene, clipped fish, octopus arm, eel tail, pool, water, plant, anything entering from edge, photorealism, glossy CGI.",
+          "reason": "The high-key daylight replacement used discrete animal-support slabs cut by the left and right canvas edges; the built-in original is preserved byte-identically."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 705,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "9:12": {
+        "nearestMAD": 25.73,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 19,
+        "nearestDHash": 14,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c008.png",
+        "madAtDHashPeer": 38.09
+      },
+      "9:13": {
+        "nearestMAD": 21.29,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c018.png",
+        "dHashAtMadPeer": 23,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c001.png",
+        "madAtDHashPeer": 33.54
+      },
+      "9:14": {
+        "nearestMAD": 22.82,
+        "madPeer": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c014.png",
+        "dHashAtMadPeer": 25,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 48.41
+      },
+      "9:15": {
+        "nearestMAD": 23.67,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c101.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c032.png",
+        "madAtDHashPeer": 42.6
+      },
+      "9:16": {
+        "nearestMAD": 25.11,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c019.png",
+        "dHashAtMadPeer": 32,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/human-life-wave-65/b07-c011.png",
+        "madAtDHashPeer": 34.13
+      },
+      "9:17": {
+        "nearestMAD": 22.64,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-52/b03-c014.png",
+        "dHashAtMadPeer": 40,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-05/b13-c018.png",
+        "madAtDHashPeer": 52.36
+      },
+      "9:18": {
+        "nearestMAD": 22.2,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c002.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 13,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-05/b09-c044.png",
+        "madAtDHashPeer": 40.97
+      },
+      "9:19": {
+        "nearestMAD": 23.95,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-02/b02-c011.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-36/b23-c009.png",
+        "madAtDHashPeer": 45.24
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-land-wave-08",
+    "status": "pass",
+    "output": ""
+  }
+}

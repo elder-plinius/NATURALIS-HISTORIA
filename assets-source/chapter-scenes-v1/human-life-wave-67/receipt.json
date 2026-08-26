@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "campaign": "human-life-wave-67",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "note": null,
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 607,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "7:28": {
+        "nearestMAD": 34.92,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c009.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c030.png",
+        "madAtDHashPeer": 41.45
+      },
+      "7:29": {
+        "nearestMAD": 29.7,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-02/b12-c014.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-20/b17-c013.png",
+        "madAtDHashPeer": 36.79
+      },
+      "7:30": {
+        "nearestMAD": 39.9,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-land-wave-01/b08-c008.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-29/b21-c002.png",
+        "madAtDHashPeer": 46.45
+      },
+      "7:31": {
+        "nearestMAD": 24.41,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-55/b04-c015.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-01/b11-c008.png",
+        "madAtDHashPeer": 29.58
+      },
+      "7:32": {
+        "nearestMAD": 31.18,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-56/b04-c020.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-13/b15-c030.png",
+        "madAtDHashPeer": 76.93
+      },
+      "7:34": {
+        "nearestMAD": 22.66,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c039.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-50/b02-c100.png",
+        "madAtDHashPeer": 70.02
+      },
+      "7:35": {
+        "nearestMAD": 29.89,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-48/b02-c087.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c014.png",
+        "madAtDHashPeer": 34.69
+      },
+      "7:36": {
+        "nearestMAD": 30.05,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-01/b12-c010.png",
+        "madAtDHashPeer": 46.7
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "7:28",
+      "title": "INSTANCES OF EXTREME COURAGE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c028.png",
+      "sha256": "c2cfd8a981175d51d26aa9535cd3042b275e65a49960741f5e40dda7989ee3fe",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-c7a409c7-8cdf-4efd-b320-a58d02a8ea46",
+      "outputArtifact": "built-in-imagegen://exec-c7a409c7-8cdf-4efd-b320-a58d02a8ea46.png",
+      "exactFinalPrompt": "Create a single continuous historical scene illustration for Pliny the Elder, Naturalis Historia, Book VII chapter 28, instances of extreme courage. Interpret Pliny's final praise of Lucius Siccius Dentatus—holding a commander accountable for misuse of authority—as the highest form of his courage, rather than staging graphic combat. In a modest early Republican Roman forum at cold morning, show one complete weathered veteran in a plain off-white tunic and faded red cloak standing calmly before one complete seated civic magistrate beneath a simple portico. The veteran gestures with an open hand as he gives testimony; his sword remains sheathed and lowered. One complete former commander stands separately at the opposite side, listening without melodrama. Exactly four complete citizens form a quiet semicircle as witnesses. On one internal stone step lie a single complete oak civic crown and a small ordered bundle of other undecorated military awards, subordinated to the act of public accountability. No battle, wound, blood, prisoner, triumph, cheering crowd, or heroic superhuman pose. Historically plausible fifth-century-BCE Roman civic architecture and dress, acknowledging that Pliny's numerical honors are transmitted claims rather than visually proven facts. Use restrained winter silver light, terracotta walls, bone stone, muted madder, olive, and charcoal, with generous empty pavement. Render as an exceptionally beautiful ancient natural-history codex folio: hand-ground mineral pigments, egg tempera and transparent watercolor over rough warm parchment grain, fine iron-gall architectural and textile contour work, delicate cross-hatching, sparse burnished gold only on the civic crown, weathered and tactile yet exquisitely polished, ancient, timeless, rough and refined at once. One coherent scene only, not a montage, courtroom diagram, triptych, collage, framed miniature, or split panel. Landscape 3:2, 1536x1024, full bleed. No words, letters, numerals, legal inscription, pseudo-writing, captions, decorative border, internal frame, duplicate people, floating objects, signature, watermark, or white/page-colored outside area. Keep the veteran, magistrate, commander, all four citizens, crown, awards, portico, and forum space wholly visible with generous breathing room; no focal subject may touch any outer edge, and only continuous wall, sky, or empty pavement may naturally continue beyond the frame.",
+      "visualQaNotes": "Inspected at native resolution. Siccius Dentatus appears as a complete veteran giving civic testimony before one magistrate and four witnesses; all awards and figures are internal, with no battle, gore, text, border, panel, or clipped focal subject.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:29",
+      "title": "MEN OF REMARKABLE GENIUS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c029.png",
+      "sha256": "a223459ead2da9a32a71225d8a704fec1d626bec5e4f606128e66f1b8835d6fb",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-dbe3443b-6dab-4306-8641-31ded7f5863f",
+      "outputArtifact": "built-in-imagegen://exec-dbe3443b-6dab-4306-8641-31ded7f5863f.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the high-key Book VII chapter 29 Alexander-and-Homer archive courtyard illustration.\n\nChange only the pomegranate-tree framing. Preserve exactly the three complete people, their faces, identities, poses, clothing, hands and spacing; preserve the complete unmarked papyrus roll, open jeweled casket, detached geometric lid with no writing, stoppered perfume flask, complete alabaster table, pale archive courtyard, elevated camera, high-key daylight, palette, and museum-quality fresco-naturalist style.\n\nThe pomegranate tree currently crosses the top and left boundaries. Replace it with one much smaller complete pomegranate tree in the same clay planter, entirely visible from highest leaf to planter base and surrounded by a broad uninterrupted halo of pale cyan sky, pale wall, and empty paving. Keep the entire crown at least 10 percent inward from the top and left canvas edges and do not let any branch, leaf, fruit, trunk, root, planter, or shadow touch a boundary. Preserve only a modest number of clearly complete fruits. Do not alter or add any other object.\n\nMaintain exactly three complete people, one unmarked roll, one open jeweled casket, one detached lid, one stoppered perfume flask, one low alabaster table, and one complete potted pomegranate tree. Outer edges contain only open sky, continuous architecture or empty paving. No night, tent, candlelight, conquest, weapons, throne, crown, crowd, extra figures, extra trees, duplicate objects, text, letters, numerals, labels, inscriptions, symbols, pseudo-writing, signature, watermark, visible page, border, cartouche, panels, collage, or split. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after a full high-key recomposition and one tree-framing edit. The Persian archive courtyard contains exactly Alexander and two scholars, one unmarked Homer roll, open jeweled casket, detached lid, perfume flask, complete table, and complete internal pomegranate tree. No conquest spectacle, text, panel, border, or clipped subject remains.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-ba75c65a-dec3-483c-b378-43226c548df0.png",
+          "sha256": "5ad02cb203222c3aebb28ab12923f5daaae64292f63d9f0c05cdc76cb49b8047",
+          "reason": "Rejected after native QA because the Persian scholar was clipped against the right and bottom boundaries and the tent carried star-like pseudo-symbols."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-298fc394-163c-44a9-aad5-d4676c5ee8d9.png",
+          "sha256": "9d4ad99918d26616f6b934aeb69718828760847de14681c20d55c56a1e8bae3a",
+          "reason": "Rejected after the live global audit because its nearest grayscale MAD was 12.16 against Book II chapter 6, below the campaign minimum of 20."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-5c4ddaa0-1763-48bc-a5e3-a6946674676e.png",
+          "sha256": "3e4956fcfe63c113d50bd34ebf4bc214b085a02d52ae9b21a6a3c522fb32768a",
+          "reason": "Rejected after native QA because the pomegranate crown crossed the top and left image boundaries."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:30",
+      "title": "MEN WHO HAVE BEEN REMARKABLE FOR WISDOM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c030.png",
+      "sha256": "409a02f8bfebf8ea6efbdcd3cf91f5aa18f80839955f24c683812c0c5350737e",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-43ece5fe-604c-443b-bda4-11ef8ea9632a",
+      "outputArtifact": "built-in-imagegen://exec-43ece5fe-604c-443b-bda4-11ef8ea9632a.png",
+      "exactFinalPrompt": "Edit this luminous Rhodian Plinian folio while preserving the commander, lictor lowering the complete fasces, seated philosopher, doorway, stool, astronomical sphere, sea, white stone, wind, and overall composition. Correct only the two background neighbors at the far-left arcade. Move both neighbors farther inward and slightly deeper into the arcade, reduce them modestly, and show each as a complete separate standing human figure from head to both sandals with visible wall and pavement surrounding them. The person in the pale cloak must no longer be clipped by the left boundary. Keep exactly two neighbors total, one in pale cloth and one in muted blue. No person, limb, garment, or focal object may touch any outer edge. Preserve exactly five human figures total: commander, lictor, philosopher, and two neighbors. Do not change or duplicate the fasces, sphere, doorway, or stool. Maintain 1536x1024 landscape, hand-ground lapis, azurite, chalk, ochre, madder, malachite, charcoal, sparse shell-gold, egg tempera and watercolor over rough warm parchment, fine iron-gall contours, weathered yet polished ancient natural-history folio style. No text, pseudo-writing, labels, signature, watermark, border, panels, army, duplicate person, floating object, or white outside area.",
+      "visualQaNotes": "Inspected at native resolution. Pompey, the lictor with lowered complete fasces, Posidonius with sphere, and exactly two fully internal neighbors form one respectful Rhodian doorway scene without clipped figures, text, battle, panel, or border.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-1749d6de-b31b-49e2-9bb4-e313e9b7ee54.png",
+          "sha256": "6b106f6eb9e1d29351099ac26e7e69e8a349519ff823823bcbb05765a5d9b4ee",
+          "reason": "Rejected after native QA because the pale-cloaked left neighbor was clipped by the left boundary."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:31",
+      "title": "MEN WHO HAVE BEEN REMARKABLE FOR WISDOM",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c031.png",
+      "sha256": "60895c4e5a318c89cc9b93b2ad5866641f4cdbbad9c2929014a77599044b9a07",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-f3e1b56c-ea52-48d5-8300-bad04fb7170a",
+      "outputArtifact": "built-in-imagegen://exec-f3e1b56c-ea52-48d5-8300-bad04fb7170a.png",
+      "exactFinalPrompt": "Edit this exact Book VII Socratic-dialogue illustration while preserving its four complete people, their poses and identities, the uninscribed stone block, closed blank tablet, loose conversational arc, airy Attic setting, fresco-naturalist rendering, and landscape 3:2 framing.\n\nCorrect only the edge-safety problem. Completely remove the large olive tree whose crown and trunk are cut by the left and top boundaries. Replace it with uninterrupted pale blue-gray sky and a low, quiet colonnade that stays fully below the skyline. Move the entire cluster of pottery currently near the lower-left corner farther inward so that every vessel is complete and surrounded by at least 8 percent empty paving on the left and bottom; simplify the cluster to exactly three complete vessels. Keep the four people head to sandals and comfortably internal, with no cropping. Preserve exactly Socrates plus three interlocutors, one closed blank wax tablet, one empty woven basket, and one small uninscribed stone block.\n\nEvery outer edge must now contain only open sky, distant architecture, or empty paving—no tree, plant, person, vessel, basket, tablet, block, or other discrete object may touch or cross any boundary. No visible page, margin, frame, border, cartouche, panels, split, inset, text, letters, numerals, labels, inscriptions, glyphs, pseudo-writing, signature, or watermark. Do not add figures, trees, objects, birds, statues, or symbols. Maintain the same ancient, timeless, humane, rough-and-polished museum-quality aesthetic and opaque 1536x1024 sRGB PNG output.",
+      "visualQaNotes": "Inspected at native resolution after the edge edit. Socrates and exactly three complete interlocutors form an airy dialogue around one blank tablet, basket, and uninscribed stone block; the replacement background and internal vessels remove all clipped focal objects, text, panels, and borders.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-9bda9db2-4978-4de2-ac3c-9613f1ec5697.png",
+          "sha256": "34a27db3f8eafc3e1c7f8e3fee2d27c6dc07d0f17e73b28400ea061c1e90eaae",
+          "reason": "Rejected after native QA because the olive tree crossed the top and left boundaries and the vessel cluster crowded the lower-left edge."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:32",
+      "title": "PRECEPTS THE MOST USEFUL IN LIFE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c032.png",
+      "sha256": "ab934c651606b8ac33f46553857948471575bd503d51595e673d4c181fbb31d1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-7e223821-3c81-448d-87e9-a80a81473c31",
+      "outputArtifact": "built-in-imagegen://exec-7e223821-3c81-448d-87e9-a80a81473c31.png",
+      "exactFinalPrompt": "Create an independently composed chapter illustration for Pliny the Elder’s Naturalis Historia, Book VII, chapter 32, “Precepts the Most Useful in Life.”\n\nSubject and historical framing: portray Chilon of Sparta teaching the practical maxims that Pliny says were honored at Delphi, without treating an oracle or his death from joy as verified supernatural history. In a quiet shaded Spartan palaestra courtyard near sunset, the elderly Chilon sits upright on a low uninscribed limestone bench, austere and warmly attentive, speaking with exactly one complete adult son who has just returned from an Olympic victory. The son stands before him in a dusty travel cloak, modestly lowering an olive victory wreath rather than displaying it. Chilon gently indicates three ordinary objects arranged naturally on the bench between them: one small complete polished bronze hand mirror for self-examination, one complete plain clay jar with its lid closed for restraint, and one complete balanced bronze scale at rest with both pans empty for measured dealings. A sealed coin purse lies well behind the scale, untouched. The father’s other hand rests over his heart; the son listens rather than celebrates. Do not show a collapse, funeral, corpse, ecstatic crowd, divine messenger, priestess, or supernatural sign. The scene should communicate self-knowledge, moderation, and freedom from ruinous debt through human counsel, not through written slogans. Exactly two people total.\n\nComposition: one continuous landscape scene, never a panel or symbolic chart. Use an intimate oblique view across broad warm paving, with the two full figures and the bench held inside the middle third. A complete colonnade recedes into violet shadow on the left; an olive-covered hillside and a narrow band of apricot sky open on the right. The three teaching objects are legible but integrated into the lived setting, not isolated icons. Preserve generous negative space in the paving, shadowed arcade, and sky. Every body, sandal, wreath, bench, mirror, jar, scale, purse, column, and foreground object must be complete and surrounded by breathing room. Nothing discrete may touch an image edge.\n\nAesthetic: ancient, timeless, beautiful, rough and polished at once; coherent with the Book VII Plinian human-life folio while materially distinct from the bright Athenian dialogue image. Fine iron-gall contours and delicate cross-hatching, translucent mineral and fresco washes—burnt sienna, Spartan red, aubergine shadow, olive green, warm limestone, smoke blue, restrained shell-gold glints on bronze. Integrate lime-plaster grain, abrasion, foxing, softened pigment loss, and dry-brush texture into a museum-grade hand-painted surface. Blend Pompeian wall-painting atmosphere with Renaissance naturalist precision, historically plausible clothing and objects, expressive but restrained faces, and quiet emotional gravity. No photorealism, fantasy, theatrical allegory, or modern styling.\n\nOutput: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic layout, collage, map, diagram, or hard split. No text, letters, numerals, labels, inscriptions, golden lettering, glyphs, pseudo-writing, signatures, watermarks, banners, captions, zodiac, or decorative symbols. No duplicated people, limbs, wreaths, mirrors, jars, scales, or purses. Exactly one elderly Chilon, one adult son, one lowered olive wreath, one mirror, one lidded jar, one balanced scale, and one sealed coin purse. Do not add athletes, spectators, animals, weapons, or statuary.",
+      "visualQaNotes": "Inspected at native resolution. Chilon and his complete adult son occupy a restrained Spartan teaching scene with one lowered wreath, mirror, lidded jar, balanced scale, and sealed purse, without death spectacle, oracle, text, panel, border, or clipped focal subject.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:34",
+      "title": "THE MAN WHO WAS PRONOUNCED TO BE THE MOST EXCELLENT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c034.png",
+      "sha256": "ada9730f2dd2252005c36a8f801d68b26ae3dc90d49649ac4eb972bbcbe556ec",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-545224d8-569e-45b3-9004-d90371f06836",
+      "outputArtifact": "built-in-imagegen://exec-545224d8-569e-45b3-9004-d90371f06836.png",
+      "exactFinalPrompt": "Edit this exact Book VII Scipio Nasica exile illustration while preserving the solitary complete aging Roman, his pose and profile, the folded white candidate toga, nocturnal lapis-and-rose palette, one anchored transport vessel, spare terrace, museum-quality fresco-naturalist rendering, and wide 3:2 composition.\n\nCorrect only the right-edge enclosure and bench placement. The distant open water currently reaches the right canvas boundary; close it completely with a low continuous dark Pergamene headland that enters from the right and joins the far coast, leaving the harbor and every patch of water wholly enclosed inside land and quay with visible dry ground between water and every outer edge. Keep the headland low enough to preserve the immense sky and dawn horizon. Shift the entire stone bench, laurel wreath, and sealed blank voting urn modestly leftward so the bench and urn are fully visible with broad empty paving between them and the right and bottom boundaries. Retain exactly one complete man, one folded white toga, one simple civic wreath, one sealed unmarked urn, and one complete anchored transport vessel. Keep all focal elements comfortably internal.\n\nEvery outer edge must now contain only open sky, distant dry land, or empty terrace paving—never water, vessel, person, bench, wreath, urn, or garment. No visible page, margin, frame, border, cartouche, panels, split, inset, text, letters, numerals, inscriptions, symbols, pseudo-writing, signature, or watermark. Do not add figures, boats, buildings, birds, statues, columns, weapons, standards, or secondary objects. Preserve the ancient, timeless, tragic, rough-and-polished painted character. Output opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after closing the harbor and shifting the bench. The solitary complete Scipio, folded candidate toga, civic wreath, sealed urn, complete vessel, and fully enclosed water convey public acclaim and exile without death spectacle, text, panel, border, or edge collision.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-6e3927a7-dfb7-46ca-93f9-f3eaee7219dc.png",
+          "sha256": "bb0346bdb1b40859381c7b9475d3d6201b53b232fbd21c89004df9e71295f7b0",
+          "reason": "Rejected after native QA because distant water reached the right boundary and the bench sat too near that edge."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:35",
+      "title": "THE MOST CHASTE MATRONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c035.png",
+      "sha256": "be5cf97db798f2a0da0446eab3f5a188b25d026248e61b3a04b3da516b4cf4db",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-880f8c17-d31c-44c0-85e5-9f14a5a32a98",
+      "outputArtifact": "built-in-imagegen://exec-880f8c17-d31c-44c0-85e5-9f14a5a32a98.png",
+      "exactFinalPrompt": "Use case: historical-scene.\nAsset type: an independently composed chapter illustration for Pliny the Elder’s Naturalis Historia, Book VII, chapter 35, “The Most Chaste Matrons.”\n\nScene and ethical framing: focus on the episode in which Roman matrons select Sulpicia to perform a public dedication. Treat Pliny’s ancient language of chastity as a record of women’s civic and ritual agency, not as a beauty contest, sexual inspection, or objective ranking of virtue. In a sunlit Roman sanctuary courtyard, Sulpicia stands complete at center-left in a dignified, modest saffron-and-ivory stola and palla, placing one complete woven garland of myrtle and white flowers upon a low uninscribed limestone altar. Exactly four other complete adult matrons stand with her in a broad open semicircle, each distinct in age and appearance and dressed in restrained Roman garments of faded rose, teal, olive, and cream. One matron carries a small covered offering bowl, one holds a folded undyed ceremonial cloth, and the remaining two stand empty-handed in attentive solidarity. Behind the altar is one complete, fully draped, non-erotic female cult statue on a plain uninscribed pedestal, rendered as quiet civic art rather than a living goddess. No men, male judges, priests, contest, comparison of bodies, eroticism, divine apparition, supernatural proof, or crowd of one hundred. Exactly five people total.\n\nComposition: one continuous landscape scene, never a panel. Use a slightly elevated three-quarter view through an open peristyle courtyard, with all five women shown head to sandals and arranged in a spacious crescent that leaves the central paving and altar readable. The complete statue and pedestal remain modestly scaled and fully internal. A rectangular reflecting pool with still dark water sits entirely enclosed in the far background, bounded on all sides by pale paving and never touching an edge; two complete myrtle shrubs in clay planters flank it. Warm sunlight falls diagonally across large empty areas of patterned paving, producing elegant negative space. Keep every person, garland, bowl, cloth, altar, statue, pedestal, planter, shrub, and pool complete and comfortably away from the boundaries. Outer edges contain only open sky, continuous architecture, or empty paving.\n\nStyle/medium: ancient, timeless, beautiful, rough and polished at once; coherent Book VII Plinian human-life folio, with a luminous Pompeian civic palette distinct from previous chapters. Fine iron-gall contours, delicate anatomical and drapery drawing, restrained cross-hatching, translucent fresco and mineral washes—coral red, verdigris, saffron, pale turquoise, warm limestone, myrtle green, ivory, and restrained shell-gold accents. Integrate lime-plaster grain, abrasion, foxing, worn fresco patches, and softened pigment loss into a museum-grade painted surface. Combine Roman wall-painting atmosphere with Renaissance naturalist precision, historically plausible clothing and ritual objects, quiet collective dignity, and refined spatial rhythm. No photorealism, fantasy, glamour photography, theatrical pageantry, or modern aesthetics.\n\nConstraints: landscape 3:2, 1536x1024, opaque sRGB PNG, full-frame painted image. No visible page, paper margin, mat, frame, border, cartouche, vignette, inset, diptych, triptych, comic layout, collage, map, diagram, or hard split. No text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, watermarks, banners, captions, zodiac, Sibylline writing, or decorative glyphs. No duplicated people, limbs, garlands, bowls, cloths, statues, pools, or planters. Exactly five complete matrons, one garland, one covered bowl, one folded cloth, one altar, one fully draped statue, one pedestal, one enclosed pool, and two planters. Do not add ships, animals, cherubs, nude figures, crowds, weapons, or secondary statues. No focal subject or water may touch or be cropped by an edge.",
+      "visualQaNotes": "Inspected at native resolution. Sulpicia and exactly four complete matrons exercise civic ritual agency around one garland, covered bowl, folded cloth, altar, draped statue, internal pool, and two planters; no contest, eroticism, text, panel, border, or clipped focal element appears.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:36",
+      "title": "INSTANCES OF THE HIGHEST DEGREE OF AFFECTION",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-wave-67/b07-c036.png",
+      "sha256": "f28b0176c8a3328f2f44692cf4ec27e648fe78ffd733c0b2d5548a743806cc3f",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "generationArtifactId": "exec-757bd9b3-ff7f-4956-8a2e-cdff2e37d492",
+      "outputArtifact": "built-in-imagegen://exec-757bd9b3-ff7f-4956-8a2e-cdff2e37d492.png",
+      "exactFinalPrompt": "Use case: precise-object-edit.\nInput image: edit target, the Book VII chapter 36 Roman care-and-pardon illustration.\n\nChange only the rainwater boundary treatment. Preserve exactly the four complete adults, one fully swaddled infant, their identities, poses, clothing, anatomy, expressions and spacing; preserve the complete open prison door, magistrate’s key ring, steward’s lidded provision basket, young fig tree, colonnade, warm compassionate lighting, palette, camera, and museum-quality fresco-naturalist style.\n\nDry the outermost band of foreground paving so that the bottom, left, and right canvas edges contain matte ochre stone only, with no puddle, water film, shine, reflection, or wet streak touching any boundary. Consolidate the remaining rainwater into two shallow, fully enclosed irregular puddles in the middle distance behind the people, each completely surrounded by visibly dry paving and at least 10 percent inward from every image edge. Keep the figures’ feet on dry stone. Do not change the people or add any new object.\n\nMaintain exactly four adults—daughter, older mother, magistrate, female public steward—plus exactly one swaddled infant, one open door, one key ring, one lidded provision basket, and one complete young fig tree. Every focal subject must remain complete and internal. No breast exposure, breastfeeding, nudity, body search, shackles, chains, blood, corpse, funeral fire, snakes, goddess, weapons, or spectators. No visible page, margin, frame, border, panels, split, inset, text, letters, numerals, inscriptions, pseudo-writing, signature, or watermark. Output the same landscape 3:2 composition as an opaque 1536x1024 sRGB PNG.",
+      "visualQaNotes": "Inspected at native resolution after drying the foreground edge. Four complete adults and one fully swaddled infant enact release and public support around one open door, key ring, provision basket, complete fig tree, and two internal puddles, with no breastfeeding, nudity, punishment spectacle, text, panel, border, or edge collision.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b5188570-a937-4209-8332-64724d419ac9.png",
+          "sha256": "8bacab24dadbeeb36028af06f2595b0c8211173702848cc253ee5e0fa6009969",
+          "reason": "Rejected after native QA because the rain sheen and reflections continued through the lower boundary."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

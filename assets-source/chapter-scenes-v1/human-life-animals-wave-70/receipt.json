@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "campaign": "human-life-animals-wave-70",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "The built-in image_gen tool exposed exact generation artifact IDs, revised prompts, and portable built-in-imagegen URIs but no formal receipt ID or model identifier; none was invented. Every accepted canonical PNG and every preserved rejected PNG was byte-compared with its private built-in original before this receipt was written.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 648,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "7:54": {
+        "nearestMAD": 27.71,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-38/b24-c017.png",
+        "dHashAtMadPeer": 30,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-sea-wave-01/b09-c011.png",
+        "madAtDHashPeer": 44.89
+      },
+      "7:55": {
+        "nearestMAD": 20.81,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-49/b02-c088.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-04/b08-c029.png",
+        "madAtDHashPeer": 54.87
+      },
+      "7:57": {
+        "nearestMAD": 34.68,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-46/b02-c063.png",
+        "dHashAtMadPeer": 22,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-39/b25-c005.png",
+        "madAtDHashPeer": 48.82
+      },
+      "7:58": {
+        "nearestMAD": 23.12,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png",
+        "dHashAtMadPeer": 35,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c023.png",
+        "madAtDHashPeer": 35.74
+      },
+      "7:59": {
+        "nearestMAD": 24.95,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-23/b18-c010.png",
+        "dHashAtMadPeer": 24,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-26/b18-c035.png",
+        "madAtDHashPeer": 46.45
+      },
+      "7:60": {
+        "nearestMAD": 35.01,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-62/b06-c018.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-28/b20-c016.png",
+        "madAtDHashPeer": 64.51
+      },
+      "8:9": {
+        "nearestMAD": 25.87,
+        "madPeer": "assets-source/chapter-scenes-v1/black-sea-caucasus-wave-61/b06-c008.png",
+        "dHashAtMadPeer": 28,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c033.png",
+        "madAtDHashPeer": 81.12
+      },
+      "8:10": {
+        "nearestMAD": 23.16,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 21,
+        "dHashPeer": "assets-source/chapter-scenes-v1/black-sea-india-wave-63/b06-c032.png",
+        "madAtDHashPeer": 36.91
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterKey": "7:54",
+      "title": "BURIAL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c054.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "3ced6435e37019f07388985a342465010120de11cab3f7df8b0cfdcb4820cd7a",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-0dcd9692-3aee-41c1-88b5-cb641799de06",
+      "generationArtifactId": "exec-0dcd9692-3aee-41c1-88b5-cb641799de06",
+      "outputArtifact": "built-in-imagegen://exec-0dcd9692-3aee-41c1-88b5-cb641799de06.png",
+      "exactFinalPrompt": "Edit only the framing of the cypress in this Book VII chapter 54 Plinian burial-garden illustration. Preserve the four adults exactly, their complete bodies and gestures, the complete closed earthen mound and violet-rosemary perimeter, pitcher and contained water stream, rosemary wreath, folded cloth, uninscribed urn on its shelf, cool ash-grey dawn, distant landscape, hand-rendered iron-gall/mineral-pigment folio style, 1536x1024 landscape framing, and every other element.\n\nMake the single focal cypress sapling about fifteen percent shorter and shift its crown downward so the complete top and every needle cluster are surrounded by a broad band of open pale sky—at least eight percent of the canvas height between the crown and the upper edge. Keep the root and planting spot unchanged. No other tree may become a focal replacement. Maintain exactly four people, one urn, one wreath, one pitcher, one mound and one cypress.\n\nNo body, corpse, open grave, pyre, flame, smoke, supernatural element, text, letters, numerals, pseudo-writing, inscription, signature, logo, watermark, border, page edge, panel, collage, cropped person, clipped object, added figure, modern object, photography or glossy CGI. Full-bleed painted image, opaque sRGB/RGB, exactly 1536x1024.",
+      "generationAttempts": 2,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Four complete mourners, the closed earthen mound, shortened complete cypress, stone stele, urn, and garden path remain fully internal with generous breathing room. The scene treats burial as dignified ancient memorial practice without a body, pyre, graphic material, modern instruction, text, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-1de20169-bb2d-4b1f-9cc9-af47e4ceca0e.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c054-attempt-01-cypress-near-top-edge.png",
+          "sha256": "371d4187ae0952bd1c54da5b134232f542bd3f0a1c9b0140033723d140c48e8a",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe digital edition of Pliny the Elder, Naturalis Historia, Book VII chapter 54, “Burial”\nPrimary request: Ground the image in Pliny’s historical contrast between older Roman earth burial and later cremation, but show only the quiet completion of remembrance. No body, corpse, bones, open grave, pyre, flames, disinterment, warfare, Sulla, Marius, vengeance, or graphic death. Treat burial practice as transmitted ancient history, not ritual instruction.\nScene/backdrop: at cool ash-grey dawn in a small Roman family garden, a newly closed oval earthen burial mound lies fully contained among rosemary and low violets. A complete young cypress sapling has just been planted beside it. On a separate low stone shelf in the middle distance rests exactly one small sealed uninscribed cinerary urn, acknowledging the coexistence of another rite without turning the scene into a comparison diagram.\nSubject: exactly four complete fully clothed adults. One older woman gently smooths the mound with an empty palm; one younger man waters only the cypress from a small clay pitcher; two relatives stand at respectful distance, one holding a folded blank cloth and one carrying a simple wreath of rosemary. Their grief is restrained, individualized, and dignified. No priest, soldier, child, crowd, performance, sacrifice, deity, or supernatural presence.\nStyle/medium: exceptionally beautiful Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, extremely fine cross-hatching, stipple, dry-brush abrasion, translucent egg-tempera and mineral watercolor washes; ancient, timeless, rough in material yet polished in draftsmanship; coherent Book VII human-life dialect with tactile earth, worn linen, weathered stone, subdued faces, and luminous quiet.\nComposition/framing: landscape 3:2, native 1536x1024, low diagonal view across the garden. Keep the complete mound, its entire perimeter, all four people head-to-sandals, every hand and foot, the whole cypress from root ball to crown, pitcher, rosemary wreath, folded cloth, shelf, and urn wholly visible at least eight percent inward from every edge. Broad empty ash-colored ground and pale sky surround every focal subject. The small amount of water remains only inside the pitcher and on a tiny internal patch of soil; no watercourse or wet area reaches an edge. One continuous scene, never a diptych, ritual diagram, panel, collage, inset, framed miniature, or repeated view.\nLighting/mood: cool pre-sunrise silver with one soft saffron band at the horizon; solemn, humane, restful rather than morbid.\nColor palette: ash grey, muted cypress green, pale limestone, faded lapis shadow, quiet madder-brown cloth, restrained saffron dawn.\nOutput intent: one opaque sRGB/RGB PNG exactly 1536x1024, full-bleed painted image.\nAvoid: visible sheet or page edge, border, frame, cartouche, caption area, text, letters, numerals, labels, inscriptions, grave marker writing, pseudo-writing, signatures, logos, watermarks, body, corpse, bones, skull, grave opening, burial pit, coffin, shroud containing a body, flames, smoke, blood, gore, weapons, sacrifice, theatrical grief, supernatural glow, ghost, cropped people, clipped mound, clipped tree, clipped urn, modern objects, photography, photorealism, glossy CGI, smooth digital rendering, or any focal object touching a canvas edge.",
+          "reason": "The first burial-garden scene placed the focal cypress crown too close to the upper edge, violating the requested breathing room. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:55",
+      "title": "THE MANES, OR DEPARTED SPIRITS OF THE SOUL",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c055.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "a55e7eb667e26c1737c5d219805a1c97792ea8f8125417b099c0ef7f40f136fc",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c6df13a3-0865-4941-bd66-930e303a9434",
+      "generationArtifactId": "exec-c6df13a3-0865-4941-bd66-930e303a9434",
+      "outputArtifact": "built-in-imagegen://exec-c6df13a3-0865-4941-bd66-930e303a9434.png",
+      "exactFinalPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe digital edition of Pliny the Elder, Naturalis Historia, Book VII chapter 55, “The Manes, or Departed Spirits of the Soul”\nPrimary request: Visualize Pliny’s skeptical questions about consciousness after death as a quiet human philosophical inquiry, not as proof for or against any modern religious belief. Show no departed spirit, ghost, underworld, soul leaving a body, resurrection, corpse, burial, funeral rite, deity, miracle, or supernatural apparition. The image must remain dignified and epistemically open even though Pliny argues strongly.\nScene/backdrop: a broad Roman rooftop terrace at moonless blue-violet twilight, high above a sleeping Mediterranean town. An uninterrupted darkening sky occupies more than half the image. At the center of the terrace stands one complete low round table holding exactly one extinguished bronze oil lamp, its wick dark and no smoke visible, and exactly one closed plain wooden box. A simple empty bench stands farther back, fully visible, as ordinary furniture rather than a memorial.\nSubject: exactly three complete fully clothed adult thinkers of different ages—a grey-haired woman seated on a low stool, a middle-aged man standing with one open questioning hand, and a younger woman kneeling to place the extinguished lamp on the table. They look toward one another, not at a vision. Their expressions are thoughtful, uncertain, and humane. No scroll, tablet, writing instrument, mask, child, priest, mourner, crowd, or symbolic wings.\nStyle/medium: exceptionally beautiful Plinian natural-history folio painted across warm fibrous aged vellum; iron-gall contours, very fine cross-hatching, stipple, dry-brush abrasion and translucent egg-tempera/mineral watercolor; ancient, timeless, rough in material yet polished in draftsmanship. Maintain the edition’s human-life material continuity while using an unusually spacious nocturne with thin silvered lapis washes, violet-black shadow and restrained warm skin tones.\nComposition/framing: landscape 3:2, native 1536x1024, very wide elevated view. All three adults appear small within the lower central third and remain completely visible head-to-sandals with every hand, foot and garment hem separated. Keep the entire table, lamp, box, stool and empty bench at least ten percent inward from every edge. Outer boundaries contain only continuous open sky, distant town atmosphere, or empty terrace paving; no focal object touches an edge. One continuous scene, never a theological diagram, allegorical panel, collage, inset, split sky, framed miniature, repeated portrait, or before/after comparison.\nLighting/mood: natural post-sunset afterglow without moon or supernatural light; serene, searching, finite, restful.\nColor palette: deep faded lapis, smoky violet, lampblack, silver-grey town haze, chalk stone, a quiet madder mantle and tiny dull-bronze highlights.\nOutput intent: one opaque sRGB/RGB PNG exactly 1536x1024, full-bleed painted image.\nAvoid: visible paper/page edge, decorative border, frame, cartouche, caption area, text, letters, numerals, labels, inscriptions, pseudo-writing, signatures, logos, watermarks, celestial diagram, zodiac, rays, halo, aurora, ghost, translucent figure, shadow-person, spirit, angel, deity, underworld, flame, smoke, body, corpse, bones, grave, coffin, funerary urn, religious ridicule, modern object, photography, photorealism, glossy CGI, clipped person, clipped furniture, or any focal subject touching a canvas edge.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly three complete rooftop thinkers, the extinguished lamp, low parapet, and broad indigo night sky are fully framed. Their reflective uncertainty presents Pliny's discussion of the Manes as ancient testimony rather than a literal apparition or supernatural fact; there is no ghost, body, ritual instruction, pseudo-writing, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:57",
+      "title": "THE THINGS ABOUT WHICH MANKIND FIRST OF ALL AGREED. THE ANCIENT LETTERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c057.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "cb645d492ac2eb9f8c21a92466e91a797a5f1768342a5f91834b4362e6ac7370",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4023d0a9-0fe5-4f03-b1b8-06df575afc0a",
+      "generationArtifactId": "exec-4023d0a9-0fe5-4f03-b1b8-06df575afc0a",
+      "outputArtifact": "built-in-imagegen://exec-4023d0a9-0fe5-4f03-b1b8-06df575afc0a.png",
+      "exactFinalPrompt": "Make one exact tool-count correction to this Book VII chapter 57 Ionian writing-practice folio. Preserve all five adults, their positions and identities; exactly three blank tablets total (one being passed and two on the table); the complete round table; sealed bundle; pigment bowl; plain unmarked wall; complete freestanding awning; blue hills; high oblique viewpoint; turquoise-saffron palette; and iron-gall/mineral-pigment 1536x1024 composition.\n\nRemove the long writing tools from both standing adults on the right and make both of their hands empty, open, naturally gesturing toward one another. Keep the seated craftswoman at lower left holding exactly one unmarked reed and exactly one small reed-cutting knife. On the table retain exactly TWO plain reed pens and exactly TWO simple dark metal styluses, clearly separated. There must be no other pen, stylus, reed, rod, baton, knife or writing tool anywhere in the image. Shift the complete awning downward slightly if needed so a visibly broad band of clear blue sky remains above its highest finial.\n\nNo visible text, letters, numerals, symbols, inscriptions, pseudo-writing, signatures, logos, watermarks, writing action on a surface, extra tablet, extra writing tool, border, page edge, panel, collage, clipped person, clipped canopy, added figure, modern object, photography or glossy CGI. Keep every person, hand, foot, table leg, canopy post and object fully visible. Full-bleed opaque sRGB/RGB 1536x1024.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly five complete adults occupy one high-oblique Ionian workshop; exactly three blank tablets appear, one held and two on the table. Exactly two reed pens and two styluses rest on the table, while the seated craftswoman holds one reed and one cutting knife. The canopy, furniture, bodies, hands, feet, tools, and plain wall are fully internal, with no legible symbols, extra tablet, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-d297d07d-7be9-4805-afb0-068391b4e395.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c057-attempt-01-clipped-awning-symbols-extra-tablet.png",
+          "sha256": "0a064567034b554efebf7da5aa7fa80a93d22d4a547ebf0030cd45ae93acb738",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe digital edition of Pliny the Elder, Naturalis Historia, Book VII chapter 57, “The Things About Which Mankind First of All Agreed: The Ancient Letters”\nPrimary request: Ground the scene in Pliny’s extremely brief report of a tacit, early cross-cultural adoption of Ionian letters. Because the edition must contain no generated writing, communicate shared writing practice through blank materials, tools, exchange and attentive gesture—never by inventing visible characters. Treat the universality claim as transmitted ancient historiography, not established modern linguistic proof.\nScene/backdrop: a bright open Ionic courtyard workshop in a coastal city at clear turquoise morning, pale geometric paving, one free-standing shade awning entirely inside the background, a complete low circular cedar worktable at center, and distant blue hills above a low wall. No sea or water is visible.\nSubject: exactly five complete fully clothed adult scribes and craftspeople, diverse in age and dress without ethnic caricature, gathered in a loose rotating circle. One seated Ionian craftswoman cuts a reed pen; one standing visitor offers a completely blank wax tablet; another receives a second blank tablet; two others compare a stylus, a reed pen, and a sealed bundle of unused writing leaves. The cooperation is mutual and unforced. On the table are exactly three completely blank wax tablets, exactly two reed pens, exactly two simple styluses, one sealed blank bundle and one shallow bowl of unused black pigment. No writing action, teacher hierarchy, throne, deity, empire, conquest, map, route, flag, or crowd.\nStyle/medium: exceptionally beautiful Plinian natural-history folio on warm fibrous aged vellum; fine iron-gall contours, cross-hatching, stipple, dry-brush abrasion, translucent egg-tempera and mineral watercolor; ancient, timeless, rough in surface yet polished in draftsmanship. Preserve the edition’s material constants while using a clear Ionian workshop dialect with airy turquoise, saffron, cinnabar accents, pale stone and dark cedar.\nComposition/framing: landscape 3:2, native 1536x1024, steep elevated three-quarter view approaching a graceful overhead arrangement. Keep every one of the five adults completely visible head-to-sandals with separate silhouettes, all hands and feet legible, and the entire circular table, three tablets, two pens, two styluses, sealed bundle, bowl and awning wholly visible at least eight percent inward from all edges. Outer boundaries contain only open sky, plain wall or unmarked paving. One coherent courtyard, never a writing chart, alphabet diagram, map, split panel, collage, inset, radial infographic, portrait grid, framed miniature, or repeated view.\nLighting/mood: crisp morning light, collegial curiosity, quiet convergence rather than triumph.\nColor palette: mineral turquoise, faded lapis, saffron, pale limestone, dark cedar, muted cinnabar and warm parchment umber.\nOutput intent: one opaque sRGB/RGB PNG exactly 1536x1024, full-bleed painted image.\nAvoid: any visible text, letter, numeral, alphabet character, glyph, symbol, inscription, tablet mark, pseudo-writing, signatures, logos, watermark, writing hand touching a surface, map, route line, flags, stereotyped costume, coercion, child, slave scene, page edge, border, frame, cartouche, caption area, panels, collage, clipped person, clipped furniture, clipped awning, extra figure, extra tablet, extra writing tool, modern object, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+          "reason": "The first writing-workshop scene clipped its awning at the top, introduced blue circular wall symbols, and included a fourth tablet beyond the exact count. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-9504b0d1-c27b-4946-bb73-aefea7a59700.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c057-attempt-02-extra-handheld-writing-tools.png",
+          "sha256": "6e28b65453979ae42589edec918a2ee34319976b5e7fb360f497353113fbfc03",
+          "exactPrompt": "Correct only three compliance defects in this beautiful Book VII chapter 57 Ionian scribal-workshop folio while preserving the same five complete adults, their identities, positions and cooperative gestures; circular cedar table; sealed bundle; pigment bowl; tools; pale courtyard; blue mountains; high oblique viewpoint; turquoise-saffron palette; iron-gall and mineral-pigment hand-rendered style; and 1536x1024 landscape composition.\n\n1. Remove every blue circular mark and symbol from the rear wall. Replace them with completely plain unmarked pale plaster. No glyph, circle, letter or decoration anywhere.\n2. Rebuild the shade awning as a smaller complete free-standing canopy in the upper middle distance, with its entire cloth roof, fringe, four posts and tie ropes fully inside the image and a broad band of open blue sky above it. Nothing about the awning may cross an image edge.\n3. Show exactly THREE blank wax tablets total in the entire scene: the one being passed between the two standing adults plus exactly two lying flat on the table. Remove the third table tablet. Preserve exactly two reed pens and exactly two simple styluses on the table, no additional writing tools.\n\nKeep every person, table leg, canopy post, tool, bundle, bowl, hand, foot and sandal fully visible with breathing room. No visible text, letters, numerals, symbols, inscriptions, pseudo-writing, signatures, logos, watermarks, writing action, map, border, page edge, panel, collage, clipped person, clipped canopy, added figure, extra tablet, extra tool, modern object, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+          "reason": "The first correction added extra handheld rods or writing tools to the right-side adults, defeating the exact tool-count requirement even though the table count was repaired. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:58",
+      "title": "THE THINGS ABOUT WHICH MANKIND FIRST OF ALL AGREED. THE ANCIENT LETTERS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c058.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "f6714f767adb2762236075ca6673ecf67eaf864a9161bbca2ed7995d10f0608d",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-7a2b1e52-6c5d-4b6e-bfc5-d7e4aab421ed",
+      "generationArtifactId": "exec-7a2b1e52-6c5d-4b6e-bfc5-d7e4aab421ed",
+      "outputArtifact": "built-in-imagegen://exec-7a2b1e52-6c5d-4b6e-bfc5-d7e4aab421ed.png",
+      "exactFinalPrompt": "Make one exact shelving correction to this Book VII chapter 58 Palatine bronze-study folio. Preserve the three complete adults, their identities and gestures; the complete unmarked reverse-side-up bronze plate; linen pads; full cedar examination stand and legs; single blank wax tablet; blank curtained niche; complete high window; copper-green lighting; malachite/lapis/plum palette; hand-rendered folio style; and 1536x1024 landscape composition.\n\nMove the shelving unit farther left into a fully open patch of rear wall, reduce it modestly, and ensure no person or table overlaps any portion. Show the entire free-standing shelving unit from top to all four feet, with empty wall and floor visible around all sides. It must contain exactly FOUR closed, unmarked wooden boxes in a simple two-by-two arrangement, each complete and mutually separated. Remove every other box. Keep the librarian’s whole silhouette in front-right of the shelf rather than overlapping it.\n\nNo visible text, letters, numerals, glyphs, inscriptions, chisel marks resembling writing, pseudo-writing, label, signature, logo, watermark, deity, supernatural glow, open book, open scroll, extra plate, extra tablet, extra box, clipped shelf, hidden shelf foot, border, page edge, panel, collage, modern museum object, photography or glossy CGI. Keep all people and focal objects fully inside. Full-bleed opaque sRGB/RGB 1536x1024.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Three complete adults study one reverse-side-up unmarked bronze plate and one blank tablet in a dark Palatine conservation room. The complete four-box shelf, window, table, lamp, people, hands, and feet remain fully visible; there is no visible writing, inscription, extra box, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-30f5c12e-ce39-4104-8590-39e6e8090e6c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c058-attempt-01-clipped-shelves-and-window.png",
+          "sha256": "ac55a5eb7b29afe84c24a7f275459e9f150dcaccea14311a7aafad174e6106e2",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe digital edition of Pliny the Elder, Naturalis Historia, Book VII chapter 58, “The Things About Which Mankind First of All Agreed: The Ancient Letters”\nPrimary request: Ground the scene in Pliny’s report that an old Delphic bronze dedication was preserved in the Palatine library and used as evidence when comparing Greek and Latin letter forms. Because generated lettering is forbidden, depict the care, transport and material study of the bronze object with its inscribed face deliberately turned downward and invisible. Treat Pliny’s comparison as transmitted antiquarian testimony, not conclusive modern palaeographic proof.\nScene/backdrop: a quiet Roman Palatine library conservation room at copper-green late-afternoon light, with plain stone walls, one complete low cedar examination stand, one entirely blank curtained niche, shelves holding only closed unmarked boxes, and a high window. No open scrolls, codices, tablets, wall marks or inscriptions.\nSubject: exactly three complete fully clothed adults. A grey-haired woman librarian and a younger bronze-worker use folded linen pads to lower exactly one complete rectangular weathered bronze dedication plate onto the stand, reverse side up so only its completely unmarked mottled back can be seen. A visiting Greek scholar stands separately and compares the plate’s shape and edge with exactly one small completely blank wax tablet held vertically. All hands are careful and natural; the object is treated as fragile evidence, not sacred relic. No Minerva apparition, worship, priest, emperor, guard, crowd, treasure display, excavation or modern museum equipment.\nStyle/medium: exceptionally beautiful Plinian natural-history folio on warm fibrous aged vellum; iron-gall linework, precise cross-hatching and stipple, dry-brush abrasion, translucent egg-tempera and mineral watercolor with subtle shell-gold glints; ancient, timeless, rough in material yet polished in draftsmanship. Preserve the edition’s material continuity while using a dark interior dialect of malachite patina, copper, deep indigo, plum shadow, cedar brown and angled chalk light.\nComposition/framing: landscape 3:2, native 1536x1024, low raking view from one side of the room, distinct from the preceding overhead workshop. Keep all three adults complete head-to-sandals with separate silhouettes; the entire bronze plate including all four corners and edges, full stand and legs, linen pads, single blank wax tablet, window and every closed box fully visible at least eight percent inward from every boundary. Focal plate is horizontal and fully surrounded by stand surface. Outer edges contain only plain wall, shadow or empty floor. One continuous scene, never a letter chart, alphabet diagram, inscription close-up, museum display panel, collage, split panel, inset, framed miniature, or repeated view.\nLighting/mood: one low shaft of warm light grazing the bronze patina; scholarly care, material memory, restraint.\nColor palette: malachite and verdigris, dark copper, deep faded lapis, cedar, plum-black shadow, chalk linen and tiny shell-gold light.\nOutput intent: one opaque sRGB/RGB PNG exactly 1536x1024, full-bleed painted image.\nAvoid: any visible text, Greek or Latin letter, numeral, glyph, inscription, chisel mark resembling writing, tablet mark, pseudo-writing, label, signature, logo, watermark, writing action, sacred glow, deity, supernatural presence, open book, open scroll, page edge, border, frame, cartouche, caption area, panels, collage, clipped person, clipped plate, clipped stand, extra plate, extra tablet, modern museum object, magnifying glass, photography, photorealism, glossy CGI, smooth digital rendering, or any focal object touching a canvas edge.",
+          "reason": "The first Palatine study clipped the shelving and storage boxes against the left and upper boundaries and also clipped the window, preventing complete-object verification. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-089222db-52b8-48ac-b7b7-d859afe6ee08.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c058-attempt-02-occluded-shelf-box.png",
+          "sha256": "dd1e28fd115804cc460eba289d5a1eae72f8da7307176d22689d7e51ef9edfaf",
+          "exactPrompt": "Edit only the background framing in this Book VII chapter 58 Palatine bronze-tablet study. Preserve the three complete adults exactly, their identities and gestures; the complete reverse-side-up unmarked bronze plate; linen pads; full cedar examination stand and legs; single blank wax tablet; blank curtained niche; copper-green light; dark malachite/lapis/plum palette; hand-rendered iron-gall and mineral-pigment folio style; and 1536x1024 landscape composition.\n\nReplace the current shelves that run into the left and upper boundaries with exactly ONE small complete free-standing cedar shelving unit in the left-rear middle distance. Show all four feet, top, sides and back of the unit, surrounded on every side by plain wall and empty floor. It contains exactly SIX closed completely unmarked wooden boxes, all fully visible and internal. Remove every other shelf and box. Rebuild the high window as one smaller complete window in the upper-right wall, with its entire stone surround and every grille bar fully visible and surrounded by plain wall on all four sides. No part of the shelf, boxes or window may touch any canvas edge.\n\nKeep all focal people, plate, table, tablet and linen fully inside. No visible text, letters, numerals, glyphs, inscriptions, chisel marks resembling writing, pseudo-writing, label, signature, logo, watermark, deity, supernatural glow, open book, open scroll, extra plate, extra tablet, border, page edge, panel, collage, modern museum object, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+          "reason": "The first framing edit left part of the shelf and one of the requested boxes occluded behind the librarian, so the requested complete count could not be verified. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:59",
+      "title": "WHEN BARBERS WERE FIRST EMPLOYED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c059.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "f6635332d4f67a4a686bf3142803f367dc9535b7ffa88f7a488a7d5bc60ad866",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-78c04577-dbdb-43d1-bb03-bded4b325d43",
+      "generationArtifactId": "exec-78c04577-dbdb-43d1-bb03-bded4b325d43",
+      "outputArtifact": "built-in-imagegen://exec-78c04577-dbdb-43d1-bb03-bded4b325d43.png",
+      "exactFinalPrompt": "Simplify only the awning attachment in this Book VII chapter 59 barbering folio. Preserve every person, gesture, tool, table, stool, plant, exactly two complete front support poles, linen cloth, palette, lighting, hand-rendered style and 1536x1024 composition.\n\nRemove every wall hook and every short rear tie cord beneath the cloth. Leave the rear plain wall entirely blank and unmarked. Make the complete linen shade a simple taut rectangular cloth stretched only between the exactly TWO visible free-standing support poles, with no additional poles, hooks, brackets or wall fasteners anywhere. Both pole feet and finials remain complete and the whole cloth remains internal with open sky above.\n\nNo visible text, letters, numerals, symbol, inscription, pseudo-writing, signature, logo, watermark, open razor, blade near face or neck, blood, wound, extra figure, extra tool, extra pole, hook, bracket, clipped person, clipped stool, clipped table, clipped awning, hidden pole base, border, page edge, panel, collage, modern object, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+      "generationAttempts": 5,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly three complete men enact a calm Roman-Sicilian barbering scene: shears are confined to the client's back hair, the introducer holds one closed leather wrap, and the table holds the complete comb, basin, and folded cloth. Exactly two complete front shade poles and the cloth canopy are fully framed, with no wall hooks, dangerous gesture, text, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-b2e00099-5af5-4bde-b2de-abdf5b58ce12.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c059-attempt-01-clipped-canopy-posts.png",
+          "sha256": "6da28fce97f1b3639fc483ffee88e9a13ceafe04f1e217fb6c93510e996c0f43",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe digital edition of Pliny the Elder, Naturalis Historia, Book VII chapter 59, “When Barbers Were First Employed”\nPrimary request: Ground the scene in Pliny’s report that professional barbers came to Rome from Sicily and that daily shaving was adopted later. Show barbering as careful skilled work and cultural exchange, not as danger, mockery, modern grooming advice, status hierarchy, or coercion.\nScene/backdrop: a small open Roman street-courtyard stall at clear terracotta noon, with one complete freestanding linen shade canopy in the rear, pale paving, a low plain wall and two potted herbs. No signboard, text, shop inscription, crowd or modern salon equipment.\nSubject: exactly three complete fully clothed adult men. A Sicilian barber stands slightly behind and to the side of one seated Roman client, using exactly one complete pair of small bronze shears to trim only the back ends of the client’s hair, far from eyes, ears, face and neck. The client sits calmly on one complete low stool with both hands resting visibly on his knees. A third adult—P. Titinius Mena as the reported introducer—stands at respectful distance holding exactly one rolled, closed plain leather tool wrap tied shut. On a separate complete low cedar table rest exactly one ivory comb, one empty shallow bronze basin and one folded undyed cloth. No razor is open or visible, no blade touches skin, no shaving action, blood, cut, pain, restraint, servant coding, spectacle, throne, soldier or child.\nStyle/medium: exceptionally beautiful Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, translucent egg-tempera and mineral watercolor; ancient, timeless, rough in material yet polished in draftsmanship. Preserve edition continuity while using a sunlit Roman-Sicilian artisan dialect with terracotta, turquoise, honey ochre, cedar, muted madder and crisp chalk highlights.\nComposition/framing: landscape 3:2, native 1536x1024, medium-wide eye-level view from the open courtyard. Keep every adult complete head-to-sandals with separate ground contacts, the seated client’s entire stool and both feet visible, the barber’s complete shears and hands unobscured, and the entire canopy, table, comb, basin, cloth, tool wrap and both herb pots fully visible at least eight percent inward from every edge. Outer boundaries contain only open sky, plain wall or unmarked paving. One continuous scene, never a grooming diagram, before/after comparison, split panel, collage, inset, framed miniature, repeating portrait, or shop advertisement.\nLighting/mood: bright clean noon softened by linen shade; skilled attention, trust and ordinary civic life.\nColor palette: Roman terracotta, Sicilian turquoise, honey ochre, pale limestone, cedar brown, muted madder and dull bronze.\nOutput intent: one opaque sRGB/RGB PNG exactly 1536x1024, full-bleed painted image.\nAvoid: visible text, letters, numerals, labels, shop signs, inscriptions, pseudo-writing, signatures, logos, watermarks, open razor, knife, blade near face or neck, blood, wound, distress, tied person, servant hierarchy, caricature, cropped hand, clipped shears, clipped person, clipped stool, clipped canopy, extra figure, extra tool, extra comb, page edge, border, frame, cartouche, panels, collage, modern salon object, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+          "reason": "The first barbering scene clipped the canopy cloth and its support poles at the top edge. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-0a63f868-682b-4d60-b4e5-f62f9c877037.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c059-attempt-02-occluded-rear-post-bases.png",
+          "sha256": "c0d6c7e3ed9cbae115d98bc3bd44b35000b09a44a404fc9a2e6641f758d319e4",
+          "exactPrompt": "Edit only the canopy framing in this Book VII chapter 59 Roman-Sicilian barbering folio. Preserve exactly the three complete men, their identities, poses and calm expressions; the barber’s single pair of bronze shears trimming only the back hair; seated client and complete stool; standing introducer and tied closed leather tool wrap; complete low table with exactly one ivory comb, one empty bronze basin and one folded cloth; both complete herb pots; terracotta-turquoise noon palette; hand-rendered iron-gall/mineral-pigment style; and 1536x1024 landscape composition.\n\nRebuild the shade canopy slightly smaller and lower behind the figures. Show its entire linen cloth, fringe, all four posts from foot to finial, all knots and tie ropes completely inside the image, surrounded on every side by open sky, plain wall or empty paving. Leave a broad band of visible blue sky above the two highest finials. No canopy element may touch or cross the top, left or right boundary. Keep the table slightly inward and fully visible exactly as it is.\n\nNo visible text, letters, numerals, sign, inscription, pseudo-writing, signature, logo, watermark, open razor, blade near face or neck, blood, wound, distress, extra figure, extra tool, clipped person, clipped stool, clipped table, clipped canopy, border, page edge, panel, collage, modern salon object, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+          "reason": "The first canopy-framing edit left the rear post bases occluded, preventing complete-structure verification. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-6a87cb77-7ab0-40cb-8603-cc0698cb8ad5.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c059-attempt-03-three-hooks-not-four.png",
+          "sha256": "39d7463aaea4ea6e926a7722f16003b2c2849385687dce243faabb56d6226f9c",
+          "exactPrompt": "Make one structural correction to the shade in this Book VII chapter 59 Roman-Sicilian barbering folio. Preserve exactly three complete men, their identities, poses and calm expressions; the barber’s single bronze shears trimming only the back hair; seated client and complete stool; standing introducer and tied closed tool wrap; full table with exactly one comb, one empty basin and one folded cloth; both herb pots; bright terracotta-turquoise palette; hand-rendered iron-gall/mineral-pigment style; generous sky; and 1536x1024 landscape composition.\n\nRemove the two rear canopy posts whose bases are hidden. Convert the shade into a historically plausible simple wall-tensioned awning supported by exactly TWO complete front wooden poles only, one on each side. Show both poles continuously from visible ground-set foot to finial, all knots and ropes, and the entire linen cloth and fringe. The rear edge of the cloth is tied to four small complete wall hooks, all internal. Keep open sky above every finial and unmarked paving beneath each pole. No hidden, partial or extra pole.\n\nNo visible text, letters, numerals, sign, inscription, pseudo-writing, signature, logo, watermark, open razor, blade near face or neck, blood, wound, distress, extra figure, extra tool, clipped person, clipped stool, clipped table, clipped awning, hidden pole base, border, page edge, panel, collage, modern salon object, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+          "reason": "The next structural correction generated three wall hooks rather than the requested exact count of four. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-9b830e35-0969-4b67-afa8-b177560c2194.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c059-attempt-04-three-hooks-after-four-request.png",
+          "sha256": "380cf5a7cc61580331df40eaa859cd9ec39e439e873f3f05d768fc0b9f2d904e",
+          "exactPrompt": "Make one tiny exact-count correction to this Book VII chapter 59 barbering folio. Preserve every person, object, pose, tool count, plant, table, stool, awning cloth, the exactly two complete support poles, palette, lighting, hand-rendered style and 1536x1024 composition unchanged.\n\nAlong the rear plain wall beneath the awning, show exactly FOUR small complete plain bronze wall hooks, evenly spaced and fully visible. Tie the rear awning edge to those four hooks with four short plain cords. Remove any fifth or ambiguous hook. Keep the hooks unmarked and non-decorative.\n\nNo other change. No visible text, letters, numerals, inscription, pseudo-writing, signature, logo, watermark, open razor, blade near face or neck, blood, wound, extra figure, extra tool, extra pole, extra hook, clipped person, clipped stool, clipped table, clipped awning, hidden pole base, border, page edge, panel, collage, modern object, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+          "reason": "A further exact-count correction again produced only three wall hooks rather than four, so the final accepted edit removed the hook motif entirely. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "7:60",
+      "title": "WHEN THE FIRST TIME-PIECES WERE MADE",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b07-c060.png",
+      "corpusArtifact": "public/corpus/book-07.f6db5689eae7b6be.json",
+      "sha256": "22b64bb3ea31d5bc8c2f2d19270f4682fbc7e0b7a404ee53ea0d2db4e51e94c6",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-ed547a83-3be3-48b2-ab87-846c047f3b66",
+      "generationArtifactId": "exec-ed547a83-3be3-48b2-ab87-846c047f3b66",
+      "outputArtifact": "built-in-imagegen://exec-ed547a83-3be3-48b2-ab87-846c047f3b66.png",
+      "exactFinalPrompt": "Make one exact sundial-face simplification to this Book VII chapter 60 Roman timekeeping folio. Preserve exactly the four complete adults, their identities and poses; complete clepsydra frame, one upper bronze vessel, one lower alabaster vessel, one clay pitcher, one short contained water stream and catch tray; complete sundial disk and pedestal; empty background forum; cloudy silver light; mineral-pigment hand-rendered style; and 1536x1024 composition.\n\nRemove every radial groove and incised line from the sundial. Its complete round stone face must be totally smooth, plain and unmarked except for exactly ONE simple bronze gnomon and its natural soft shadow. No decorative ring, point, dot, symbol, lettering or hour line. The apparatus still reads as an early public sundial through its disk, pedestal, gnomon and location rather than markings.\n\nNo visible text, letters, numerals, labels, inscriptions, pseudo-writing, signature, logo, watermark, extra person, extra vessel, groove, rain, spill, water at an edge, clipped apparatus, border, page edge, panel, collage, modern clock, later scientific instrument, photography or glossy CGI. Keep all water contained and all focal subjects internal. Full-bleed opaque sRGB/RGB 1536x1024.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly four complete adults observe a complete clepsydra with one upper bronze vessel, one lower alabaster vessel, one clay pitcher, one short contained water stream, and one catch tray. The separate sundial has one smooth unmarked face, one gnomon, and a natural shadow; all people, architecture, apparatus, pedestal, and water remain fully internal, with no extra figure, groove, text, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-d386f795-78c1-4a22-850b-ab829f53848f.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c060-attempt-01-extra-background-figures-and-grooves.png",
+          "sha256": "a9af728634179c427ab86277b6fdb05f44afe84c82d681c41753bd075749b82b",
+          "exactPrompt": "Use case: historical-scene\nAsset type: independent full-resolution chapter illustration for a deluxe digital edition of Pliny the Elder, Naturalis Historia, Book VII chapter 60, “When the First Time-Pieces Were Made”\nPrimary request: Ground the scene in Pliny’s account of Rome moving from observing sunrise/noon/sunset to public sundials and finally an indoor water clock. Present these dates and attributions as transmitted ancient technical history, not exact modern chronology or horological advice. Emphasize calibration, public usefulness, cloudy-day uncertainty and ordinary civic work.\nScene/backdrop: a spacious Roman forum portico on a cool silver overcast afternoon. Beneath the roof, one complete freestanding clepsydra apparatus stands fully visible: exactly one upper bronze water vessel with a narrow outlet releases one thin internal stream into exactly one lower translucent alabaster receiving vessel; both sit within a complete cedar support frame and shallow catch tray. In the open courtyard behind it stands exactly one complete old stone sundial on a pedestal with a blank face bearing only seven simple radial grooves and one gnomon—no letters or numerals. Clouded sky explains why the sundial is uncertain.\nSubject: exactly four complete fully clothed adults. One older craftswoman kneels beside the clepsydra and adjusts its plain bronze stop-pin; one young assistant carefully pours from exactly one small clay pitcher into the upper vessel; one civic summoner stands between the apparatus and courtyard looking up at the clouded sky; one older citizen observes the lower vessel. Their gestures are practical and collaborative. No emperor, soldier, crowd, procession, deity, clockwork gears, bell, modern clock face, laboratory, spectacle or magic.\nStyle/medium: exceptionally beautiful Plinian natural-history folio on warm fibrous aged vellum; iron-gall contours, technical cross-hatching and stipple, dry-brush abrasion, translucent egg-tempera and mineral watercolor; ancient, timeless, rough in material yet polished in draftsmanship. Preserve edition continuity while using a cool civic-engineering dialect of silvered lapis, blue-grey stone, chalk alabaster, dark cedar, dull bronze, muted madder and tiny saffron reflections.\nComposition/framing: landscape 3:2, native 1536x1024, wide oblique view from beneath the portico toward the cloudy courtyard. Keep all four adults complete head-to-sandals with separate silhouettes; entire clepsydra frame, upper and lower vessels, catch tray, one pitcher, thin water stream, complete sundial/pedestal, all seven grooves and gnomon wholly visible at least eight percent inward from every boundary. All water is contained in the three internal vessels or the one short falling stream; no spill, pool, wet floor, rain, river or water touches an edge. Outer boundaries contain only plain architecture, open sky or dry paving. One continuous scene, never a timeline, mechanical diagram, cutaway, split panel, collage, inset, framed miniature, or repeated apparatus.\nLighting/mood: diffuse silver cloud light with subtle bronze warmth; patient invention, public utility, exacting observation.\nColor palette: silvered lapis, blue-grey limestone, chalk, dark cedar, verdigris bronze, muted madder and restrained saffron.\nOutput intent: one opaque sRGB/RGB PNG exactly 1536x1024, full-bleed painted image.\nAvoid: visible text, letters, numerals, labels, inscriptions, pseudo-writing, signature, logo, watermark, marked clock face, zodiac, map, modern clock, gears, glass tubing, scientific instrument from later periods, water reaching an edge, rain, clipped vessel, clipped stream, clipped person, clipped sundial, extra person, extra vessel, page edge, border, frame, cartouche, panel, collage, photography, photorealism, glossy CGI, smooth digital rendering, or any focal subject touching a canvas edge.",
+          "reason": "The first timekeeping scene introduced extra background people and far more sundial grooves than requested. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-56776c5f-8f4d-43dc-9190-cf76f5e7a0be.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b07-c060-attempt-02-extra-sundial-grooves.png",
+          "sha256": "4c4a0476782837f18d1d08b178d0270ec528fccb83b12edf6a1821a48862e4b6",
+          "exactPrompt": "Correct only two compliance defects in this Book VII chapter 60 Roman timekeeping folio. Preserve the four complete foreground adults, their identities, poses and tools; complete clepsydra frame; exactly one upper bronze vessel, one lower alabaster vessel, one clay pitcher, one short contained water stream and catch tray; complete sundial and pedestal; cloudy silver forum; oblique portico view; mineral-pigment hand-rendered style; and 1536x1024 composition.\n\n1. Remove every distant or background human figure from the forum and colonnades. Exactly FOUR people total remain in the entire image: the craftswoman, assistant, summoner and older citizen already in the foreground.\n2. Simplify the blank sundial face so it bears exactly SEVEN clean, mutually separated radial hour grooves plus exactly one gnomon. Remove every extra or ambiguous groove. The face contains no letters, numerals, dots, symbols or decoration.\n\nKeep all people, water vessels, stream, catch tray, sundial and pedestal fully internal. All water remains contained and dry paving reaches every outer edge. No visible text, labels, inscriptions, pseudo-writing, signature, logo, watermark, extra person, extra vessel, extra groove, rain, spill, water at an edge, clipped apparatus, border, page edge, panel, collage, modern clock, later scientific instrument, photography or glossy CGI. Full-bleed opaque sRGB/RGB 1536x1024.",
+          "reason": "The first correction removed the extra background people but retained many sundial grooves instead of the requested exact seven, so the final face was simplified to entirely unmarked stone. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:9",
+      "title": "THE METHOD BY WHICH THEY ARE TAMED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b08-c009.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "760731e1ca48778cd185517a04ac82e25748487b10208062a5848e60fd51c9d1",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1e3bcdcc-e541-4665-a5ca-f0e40e7df3ca",
+      "generationArtifactId": "exec-1e3bcdcc-e541-4665-a5ca-f0e40e7df3ca",
+      "outputArtifact": "built-in-imagegen://exec-1e3bcdcc-e541-4665-a5ca-f0e40e7df3ca.png",
+      "exactFinalPrompt": "Create one independent 1536×1024 landscape raster illustration for Pliny the Elder, Naturalis Historia, Book 8 Chapter 9, “The Method by Which Elephants Are Tamed.” This is a dignified visual interpretation of transmitted ancient observation, not modern animal-handling advice and not an endorsement of the chapter’s coercive practices. Depict a spacious dry-season Indian grove at early gold-green morning, seen from a low, wide, ground-level viewpoint. EXACTLY THREE ELEPHANTS TOTAL: one younger, restless but unharmed elephant at center, and EXACTLY TWO calm adult elephants flanking it closely, their quiet presence visibly reassuring it. EXACTLY TWO HUMAN KEEPERS TOTAL, historically plausible ancient Indian clothing, standing well aside at a respectful distance; one carries a shallow basket containing a few pieces of fruit, the other stands beside one fully contained clay water vessel. The keepers do not touch the elephants. Show trust, patience, and social calming only. All three elephants must be fully visible from ears and tusks through trunks, feet, and tails, with generous breathing room around every body; no elephant may touch or be cut by any edge. Both humans must be fully visible with complete heads, hands, garments, and feet, and must not touch any edge. Keep every tree trunk and the simple distant low stone boundary visually subordinate; no clipped marquee-like architecture. No chains, ropes, shackles, blows, whips, hooks, weapons, hunger, wounds, blood, riding, towers, armor, warfare, destroyed huts, pigs, panic, suffering, or cruelty spectacle. No additional humans or animals in the far background. No water body or wet area touching any image edge. Style continuity: an ancient illuminated natural-history folio on warm fibrous aged vellum, handmade irregularity, iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, restrained umber and lampblack with muted verdigris, faded lapis shadows, pale ochre and a quiet madder accent; rough in material yet polished in draftsmanship. One coherent 3:2 scene that reads clearly at thumbnail and full-page scale. Avoid collage, split frames, panels, borders, diptychs, repeated figures, diagrams, text, pseudo-writing, letters, numbers, labels, captions, signatures, logos, watermarks, modern objects, photography, glossy CGI, fantasy ornament, or decorative manuscript text. Opaque RGB/sRGB output, no alpha. Make the composition distinct from neighboring chapters: broad horizontal elephant silhouettes against open grove air, restrained detail, generous negative space above and between bodies.",
+      "generationAttempts": 1,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly three complete elephants appear in the dry grove, with one younger animal calmly flanked by two adults; exactly two complete keepers stand aside with a fruit tray and a fully contained water vessel. Every elephant's ears, trunks, feet, and tails remain internal, and the scene visualizes social reassurance rather than Pliny's coercive or military details. There are no chains, blows, weapons, riding gear, cruelty spectacle, text, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    },
+    {
+      "chapterKey": "8:10",
+      "title": "THE BIRTH OF THE ELEPHANT, AND OTHER PARTICULARS RESPECTING IT",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/b08-c010.png",
+      "corpusArtifact": "public/corpus/book-08.0e4c75290ce42e33.json",
+      "sha256": "3c4d5a3013fcc3d5d07d4899d470a388ee02ee40771c9154bf3affcc248a6db3",
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-1c8bad2f-c227-426f-8555-2cf6135dbdbf",
+      "generationArtifactId": "exec-1c8bad2f-c227-426f-8555-2cf6135dbdbf",
+      "outputArtifact": "built-in-imagegen://exec-1c8bad2f-c227-426f-8555-2cf6135dbdbf.png",
+      "exactFinalPrompt": "Edit this exact illustration while preserving its beautiful dark verdigris/lapis riparian-grove composition, the complete mother-and-single-calf pair, the two seated observers, the diagonal sandbar, all figure counts, positions, anatomy, ancient folio material, and 1536×1024 landscape framing. Fix one strict framing defect only: the dark watercourse currently runs into the TOP edge and the RIGHT edge. REMOVE ALL WATER OUTSIDE THE SMALL TURQUOISE CRESCENT POOL IN THE UPPER-LEFT QUADRANT. Replace every dark stream/channel extending upward behind the pool, behind the elephants, and toward the right edge with clearly DRY, continuous rocky ravine ground, deep verdigris ferns, shaded earth, and leaf litter. The small upper-left turquoise pool must be the ONLY water in the image and must retain a complete, visibly closed dry shoreline all the way around, with a wide band of dry land separating it from every image edge. No damp channels, blue-black rivulets, reflective patches, or water-colored gaps may touch any edge. Keep EXACTLY TWO ELEPHANTS TOTAL and EXACTLY TWO HUMANS TOTAL, all complete and uncropped; add no people, animals, tools, text, symbols, panels, borders, labels, logos, or watermarks. Keep the scene after birth, calm, dignified, non-graphic, and free of cruelty. Opaque RGB/sRGB, no alpha.",
+      "generationAttempts": 3,
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "hashReconciled": true,
+      "visualQaNotes": "Inspected at native 1536x1024 resolution. Exactly one complete mother elephant and one complete young calf walk together across the diagonal dry ravine while exactly two complete seated observers remain on the lower-left ledge. The single turquoise crescent pool is fully enclosed by a continuous dry shoreline with dry terrain at all four image edges. The calm after-birth scene contains no birth process, injury, treatment, ivory extraction, cruelty, extra animal, text, panel, border, or clipped focal subject. Canonical bytes were verified identical to the accepted built-in original.",
+      "rejectedAttempts": [
+        {
+          "outputArtifact": "built-in-imagegen://exec-80196ae4-b798-4f3d-b3cb-0253b5af28e7.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b08-c010-attempt-01-global-mad-below-threshold.png",
+          "sha256": "c5d7c5a26b023df0a6f7b2912633e0c0b8c6d66b17383dca288abbfe2f98407a",
+          "exactPrompt": "Create one independent 1536×1024 landscape raster illustration for Pliny the Elder, Naturalis Historia, Book 8 Chapter 10, “The Birth of the Elephant, and Other Particulars Respecting It.” Interpret the ancient text as dignified transmitted natural-history observation, not modern veterinary advice and not a literal endorsement of its disputed claims. Depict a tranquil dawn AFTER a birth, never the birth process: EXACTLY TWO ELEPHANTS TOTAL, one complete mother elephant and her SINGLE complete young calf standing together beside a fully contained oval river pool in a broad river meadow. The mother bends her trunk protectively toward the calf; the calf reaches its trunk toward the calm pool, embodying the chapter’s observations about one offspring and elephants’ delight in streams. EXACTLY TWO HUMAN OBSERVERS TOTAL, a local keeper and an ancient naturalist, very small and distant on a higher bank, quietly watching without touching or directing the animals; no scroll, tablet, writing, tools, or weapons. Use a high three-quarter oblique viewpoint with the entire pool and its continuous dry bank visible inside the image on all sides. The pool and every wet reflection must have generous dry-land separation from all four image edges. Both elephants must be fully visible from ears through trunks, feet, and tails, separated cleanly from each other, with breathing room around each silhouette; no part may touch an edge. Both humans must be fully visible and comfortably inside the frame. Exactly two elephants and exactly two humans; no other people, mammals, birds, fish, or insects anywhere, including distant background. No birth process, afterbirth, wounds, blood, distress, chains, ropes, hooks, riding gear, tusk extraction, ivory objects, felled palms, leeches, mice, weapons, treatments, medicines, oil, disease spectacle, or animal cruelty. No dramatic supernatural or medical claim. Distinct palette and composition from the preceding dry-grove scene: cool dawn malachite and muted turquoise in the internal pool, faded lapis haze, pale ochre meadow, subdued umber contours, a small madder accent on one observer, ample luminous negative space. Style continuity: ancient illuminated natural-history folio on warm fibrous aged vellum with handmade irregularity, iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion; rough in material yet polished in draftsmanship. One coherent 3:2 scene readable at thumbnail and full-page scale. Avoid collage, split frames, panels, borders, diptychs, repeated figures, diagrams, text, pseudo-writing, letters, numbers, labels, captions, signatures, logos, watermarks, modern objects, photography, glossy CGI, fantasy ornament, or decorative manuscript text. Opaque RGB/sRGB output, no alpha.",
+          "reason": "The first mother-and-calf scene passed native visual review but failed the live global uniqueness gate at MAD 19.59 against assets-source/chapter-scenes-v1/trees-aromatics-wave-06/b13-c023.png, below the required minimum of 20. The rejected built-in original remains byte-identically preserved under evidence/history."
+        },
+        {
+          "outputArtifact": "built-in-imagegen://exec-3dde953b-6cc5-4990-98a2-480b179e7ed8.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/human-life-animals-wave-70/evidence/history/b08-c010-attempt-02-water-touches-top-and-right-edges.png",
+          "sha256": "2cd1492270260ff7021f73e3941f31a74d024e63e4fd28815cea682d10ba95a7",
+          "exactPrompt": "Recompose as a materially different independent 1536×1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book 8 Chapter 10, “The Birth of the Elephant, and Other Particulars Respecting It.” The previous pale open-meadow composition was rejected for global visual similarity; do NOT repeat a broad beige sky, centered oval pond, elephants grouped at left, or observers at right. Interpret the ancient chapter as dignified transmitted natural-history observation, not modern veterinary advice and not literal endorsement of disputed claims. Show a quiet moment AFTER birth, never the birth process: EXACTLY TWO ELEPHANTS TOTAL, one complete mother and her SINGLE complete young calf, walking together diagonally from lower right toward upper left along a narrow dry sandbar inside a deeply shaded, lush riparian grove at cool blue-green dawn. The mother’s trunk curves protectively above but does not obscure the calf; the calf’s trunk points toward a SMALL crescent-shaped turquoise side pool positioned in the UPPER LEFT quadrant. The whole pool, its unbroken dry shoreline, and all reflections must be fully contained well inside the image, with dry land separating water from every edge. EXACTLY TWO HUMAN OBSERVERS TOTAL, a local keeper and an ancient naturalist, both very small, seated together on a dark rocky ledge in the LOWER LEFT quadrant, quietly watching without touching or directing; no scroll, tablet, writing, tools, or weapons. Make the image visually dominated by a canopy of deep muted verdigris foliage, dark lapis river-shadow, and cool malachite banks, with only narrow ochre shafts of dawn light across the elephants and one restrained madder garment accent. Use a steep high three-quarter viewpoint, asymmetrical diagonal movement, close enclosed forest canopy, and strong dark-to-light chiaroscuro—no wide empty parchment sky and no central symmetric pond. Both elephants must be fully visible from ears through trunks, feet, and tails, clearly separated, with generous breathing room and no part touching an edge. Both humans must be fully visible and comfortably inside the frame. Exactly two elephants and exactly two humans; no other people, mammals, birds, fish, or insects anywhere. No birth process, afterbirth, wounds, blood, distress, chains, ropes, hooks, riding gear, tusk extraction, ivory objects, felled palms, leeches, mice, weapons, treatments, medicines, oil, disease spectacle, or cruelty. Style continuity: ancient illuminated natural-history folio on warm fibrous aged vellum, iron-gall contours, fine cross-hatching and stipple, dry-brush abrasion, rough in material yet polished in draftsmanship; restrained historical pigments, but decisively deeper verdigris/lapis overall than the pale neighboring scenes. One coherent 3:2 scene readable at thumbnail and full-page scale. Avoid collage, split frames, panels, borders, diptychs, repeated figures, diagrams, text, pseudo-writing, letters, numbers, labels, captions, signatures, logos, watermarks, modern objects, photography, glossy CGI, fantasy ornament, or decorative manuscript text. Opaque RGB/sRGB output, no alpha.",
+          "reason": "The dark-grove re-composition passed count and dignity review but its watercourse touched the top and right image edges, violating the strict contained-water framing gate. The rejected built-in original remains byte-identically preserved under evidence/history."
+        }
+      ],
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality"
+    }
+  ]
+}

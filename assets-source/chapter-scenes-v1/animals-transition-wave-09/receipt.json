@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "campaign": "animals-transition-wave-09",
+  "generatedAt": "2026-08-25",
+  "builtInMode": true,
+  "tool": "OpenAI built-in image_gen tool",
+  "toolReceiptId": null,
+  "toolReceiptNote": "Exact revised prompts and artifact IDs were extracted from the current built-in ImageGen session record. Portable built-in-imagegen references intentionally replace machine-private saved paths.",
+  "styleContract": "assets-source/chapter-scenes-v1/STYLE_CONTRACT.md",
+  "artworkPlan": "assets-source/chapter-artwork-plan.json",
+  "corpusArtifacts": [
+    {
+      "sourceArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "sha256": "413874b01814b31fa2d95b75d06e8370f4743d2c8876c815af6e243f6db87ab4"
+    },
+    {
+      "sourceArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "sha256": "6e41d61d4a8e304224778b12bcaea33508607eaf4e8f2fd5926af09fc1ffb2b2"
+    }
+  ],
+  "corpusGroundingNote": "The complete Latin and English corpus entries for Book X chapters 72-75 and Book XI chapters 11-14 were read before prompting. Poison and drinking claims, animal antipathies and affections, dreams and omens, drone hierarchy and punishment, celestial honey theory, regional honey rankings, giant combs, medical effects and harvest proportions are treated as transmitted ancient testimony rather than verified modern toxicology, ethology, supernatural fact, treatment, animal-handling or husbandry advice.",
+  "assignments": [
+    "10:72",
+    "10:73",
+    "10:74",
+    "10:75",
+    "11:11",
+    "11:12",
+    "11:13",
+    "11:14"
+  ],
+  "selectionValidation": {
+    "requestedCampaign": "animals-transition-wave-09",
+    "preGenerationRecheckCompleted": true,
+    "selectedKeys": [
+      "10:72",
+      "10:73",
+      "10:74",
+      "10:75",
+      "11:11",
+      "11:12",
+      "11:13",
+      "11:14"
+    ],
+    "selectedPlanStatus": "planned-full-scene",
+    "selectedPriorReceiptOwners": [],
+    "selectedPriorMasterCollisions": [],
+    "certificationReceiptsCheckedExcludingThisCampaign": 101,
+    "certificationExternalReceiptOwners": [],
+    "certificationExternalMasterCollisions": []
+  },
+  "generationSummary": {
+    "acceptedCount": 8,
+    "rejectedArtifactCount": 7,
+    "providerFailedNoArtifactCount": 0,
+    "totalBuiltInCalls": 15,
+    "independentCalls": true
+  },
+  "chapters": [
+    {
+      "chapterKey": "10:72",
+      "title": "ANIMALS WHICH LIVE ON POISONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c072.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "2daaf2b75f2671f2000f53881e5d93350da429ebfd072039faf62a28c9618657",
+        "englishSha256": "771cbd3da8a37bbbeee430b929d647f6e2b832ed0874832e5314f121cc7bb1c2",
+        "latinWords": 160,
+        "englishWords": 317
+      },
+      "sha256": "3e0edad4f925168f3d4dd99f27733d2b433f30b646ca1c6ac082a5044cd9ce7c",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-8b1cafc5-ceef-44eb-9da4-72bbeb1d1fe6",
+      "generationArtifactId": "exec-8b1cafc5-ceef-44eb-9da4-72bbeb1d1fe6",
+      "outputArtifact": "built-in-imagegen://exec-8b1cafc5-ceef-44eb-9da4-72bbeb1d1fe6.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 72, “Animals Which Live on Poisons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat Pliny’s statements that roe deer and quails thrive on poisons as transmitted ancient observation, not verified toxicology, feeding advice, or evidence that these substances are safe. Show exactly ONE complete adult male roe deer and exactly TWO complete common quails sharing a quiet herb-rich upland without eating or touching any plant. The buck is calm and healthy, with modest antlers; the two quails are separate and fully readable. No serpent, scorpion, spider, egg, wine, vessel, feeding demonstration, illness, distress, injury, death, experiment, captivity, or person.\n\nCOMPOSITION AND SETTING: A steep elevated three-quarter view over a broad chalk-white limestone terrace. At its center is one compact, complete dark-green DIAMOND-shaped herb bed occupying no more than fifty-five percent of the canvas width and height, edged only by one narrow continuous line of dark soil—not by rocks. The entire diamond bed has an especially broad white-stone margin on all four sides and is environmental ground, not a panel. Place the complete roe buck in the upper-right of the bed, one complete quail at lower-left and the other at lower-middle, all widely separated. Include exactly ONE complete compact white-hellebore clump and exactly ONE complete compact dark-aconite clump near the center, separated from the animals, as ancient bitter flora with no label or instructional emphasis. Keep every antler tip, ear, muzzle, leg, hoof, beak, wing, tail, foot, leaf, flower and the entire diamond herb bed comfortably inside the canvas. No focal or discrete subject may touch or be cut by any edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian zoological folio on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, dry-brush abrasion, opaque egg tempera and mineral-pigment washes. Deep malachite and lampblack bed, chalk-white limestone, roe umber, quail russet, small violet-white floral notes and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Natural anatomy, quiet distance, no fantasy toxin glow. Not photographic, glossy, cinematic, cartoon, heraldic, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra animals, animal eating poisonous plants, food or drink advice, bottle, cup, blood, vomit, suffering, attack, supernatural aura, modern object, clipping, fused anatomy, duplicated limbs, structure crossing an edge.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-03fde9f7-80f6-43d4-a66d-7aede4807dd9",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-8b1cafc5-ceef-44eb-9da4-72bbeb1d1fe6",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native 1536x1024 inspection found exactly one complete healthy male roe deer and exactly two complete quails around one compact diamond-shaped dark herb bed, with one white-flowered hellebore clump and one dark-purple aconite clump. The animals, plants and bed remain fully internal with broad limestone clearance; there is no feeding, suffering, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Claims that roe deer, quails and other animals thrive on poisons, that serpents seek wine, and that venom changes under captivity or thirst are treated as transmitted ancient testimony rather than diet, toxicology, animal-handling or drinking advice. The scene is a calm botanical encounter without ingestion or distress.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-03fde9f7-80f6-43d4-a66d-7aede4807dd9",
+          "outputArtifact": "built-in-imagegen://exec-03fde9f7-80f6-43d4-a66d-7aede4807dd9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b10-c072-reject-01-glade-rim-clipped.png",
+          "sha256": "b886d60954e2c01df1b0ce3ccbe87976efd741bf8fed689fa0a66158d3887af1",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 72, “Animals Which Live on Poisons.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat Pliny’s statements that roe deer and quails thrive on poisons as transmitted ancient observation, not verified toxicology, feeding advice, or evidence that these substances are safe. Show exactly ONE complete adult male roe deer and exactly TWO complete common quails sharing a quiet herb-rich upland without eating or touching any plant. The buck is calm and healthy, with modest antlers; the two quails are separate and fully readable. No serpent, scorpion, spider, egg, wine, vessel, feeding demonstration, illness, distress, injury, death, experiment, captivity, or person.\n\nCOMPOSITION AND SETTING: A steep elevated three-quarter view onto one complete irregular dark-green triangular glade wholly enclosed within a broad chalk-white limestone terrace, creating a strong but natural high-contrast shape. The glade itself is environmental ground, not a panel. Place the complete roe buck at the upper-right of the glade, one complete quail at lower-left and the other at lower-middle, all widely separated. Include exactly ONE complete compact white-hellebore clump and exactly ONE complete compact dark-aconite clump near the center, also separated from the animals; present them as unidentified ancient bitter flora in-scene, with no label or instructional emphasis. Keep every antler tip, ear, muzzle, leg, hoof, beak, wing, tail, foot, leaf, flower and the entire glade comfortably inside the canvas. No focal or discrete subject may touch or be cut by any edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian zoological folio on fibrous vellum: iron-gall contours, disciplined fine hatching and stipple, dry-brush abrasion, opaque egg tempera and mineral-pigment washes. Deep malachite and lampblack glade, chalk-white limestone, roe umber, quail russet, small violet-white floral notes and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Natural anatomy, quiet distance, no fantasy toxin glow. Not photographic, glossy, cinematic, cartoon, heraldic, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra animals, animal eating poisonous plants, food or drink advice, bottle, cup, blood, vomit, suffering, attack, supernatural aura, modern object, clipping, fused anatomy, duplicated limbs, structure crossing an edge.",
+          "editLineage": [],
+          "reason": "The first dark triangular glade nearly filled the canvas, and its rocky rim visibly touched or exited the bottom and right edges, so the discrete setting was not certifiably complete."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:73",
+      "title": "DIVERSITIES IN THE DRINKING OF ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c073.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "96b0b29d92a4193f86c0776823c846deab38893dc14d6bcf58449f5a4d9fbe79",
+        "englishSha256": "d9a543325864ef4b2ba4c411e7e3229d2fb007204d525dc79e2ed44d89411742",
+        "latinWords": 218,
+        "englishWords": 426
+      },
+      "sha256": "a07ade423717a7907bf0c4b7147c4e1d768c415f2fbaa8a2f4f55566bf7e47f7",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-761993b0-12aa-4e61-b1f0-ce45e3f9b1c8",
+      "generationArtifactId": "exec-761993b0-12aa-4e61-b1f0-ce45e3f9b1c8",
+      "outputArtifact": "built-in-imagegen://exec-761993b0-12aa-4e61-b1f0-ce45e3f9b1c8.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 73, “Diversities in the Drinking of Animals.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat Pliny’s distinctions among animal drinking habits as transmitted ancient observation, not a universal modern zoological rule or husbandry advice. In one calm upland spring scene, show exactly ONE complete chestnut horse, exactly ONE complete brown bear, and exactly ONE complete ordinary field mouse at different separated positions around the same pool. The horse lowers its muzzle quietly to sip; the bear’s muzzle hovers just above the surface as it takes a mouthful without drama; the naturally small mouse is fully legible in the foreground lapping from a damp stone. All three are healthy, free and calm. Do not depict the Libyan-mouse death claim, the oryx body-fluid story, salting, thirst, starvation, predation, capture, person, livestock equipment, or advice.\n\nCOMPOSITION AND WATER GATE: A wide low oblique view of exactly ONE complete kidney-shaped natural rock pool centered inside a broad meadow, with a continuous dry pale-stone bank surrounding the water on every side. The water must remain fully bounded, with at least a broad dry-ground margin between every part of the pool and every canvas edge; no channel or stream. Horse stands at left-middle, complete from ears through four hooves. Bear crouches at upper-right, complete paws and rump visible. Mouse stands on one complete low foreground stone below-left, naturally much smaller yet crisply drawn with head, ears, body, tail and four feet visible. Keep all animals, every limb, tail, ear, the mouse’s whiskers, the foreground stone, entire pool and other discrete subjects wholly inside the canvas with conspicuous margin. No focal or discrete subject may touch or be cut by an edge.\n\nSTYLE AND MATERIALITY: A singular Plinian behavioral folio on fibrous vellum: iron-gall contour, disciplined fine hatching and stipple, dry-brush abrasion, opaque egg tempera and mineral washes. Turquoise and malachite pool, pale limestone, chestnut, smoky bear umber, mouse silver-grey, meadow celadon and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Accurate scale and anatomy, quiet observational mood. Not photographic, glossy, cinematic, cartoon, chart-like, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, ornamental manuscript margin, extra animal, dying mouse, cut body, organ, vessel, salt, food, blood, distress, attack, supernatural aura, modern object, clipping, duplicated anatomy, water touching an edge, open watercourse, structure crossing an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-761993b0-12aa-4e61-b1f0-ce45e3f9b1c8",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete chestnut horse, one complete brown bear and one complete field mouse arranged naturally around one complete kidney-shaped interior pool. All animals remain separated and fully internal; the water is closed on every side by a broad dry stone bank and does not approach a canvas edge. There is no suffering, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Pliny's drinking classifications and harmful claims about Libyan mice, the oryx and thirst are treated as ancient transmitted observation, not physiological fact, body-fluid use, survival guidance or animal-care advice. Death, predation, distress and the harmful remedy claim are omitted.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:74",
+      "title": "ANTIPATHIES OF ANIMALS. PROOFS THAT THEY ARE SENSIBLE OF FRIENDSHIP AND OTHER AFFECTIONS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "3ac12ea0af7618442c6133ec47934fce7f802b11dd33ddae39ad9241540aa1f7",
+        "englishSha256": "e18298c7ee51a2b9c2c4e19fa77fd09c8a5e8a8336f0dfcdc41519b1eb46a7ec",
+        "latinWords": 338,
+        "englishWords": 782
+      },
+      "sha256": "474573f145cafd5f043f98d24fa350363037b8b2704cae4f767ab6600b445c89",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-4bd2fe21-316c-4c31-a03d-daa4809b5dc2",
+      "generationArtifactId": "exec-4bd2fe21-316c-4c31-a03d-daa4809b5dc2",
+      "outputArtifact": "built-in-imagegen://exec-4bd2fe21-316c-4c31-a03d-daa4809b5dc2.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 74, “Antipathies of Animals; Proofs That They Are Sensible of Friendship and Other Affections.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Select Pliny’s reported friendship between peacocks and pigeons and render it as transmitted ancient interpretation, not proof of a fixed interspecies bond or human-like moral character. Show exactly ONE complete adult male Indian peafowl and exactly ONE complete rock pigeon sharing a quiet Roman courtyard at a respectful distance. The peafowl walks calmly left-to-right with its long train fully folded, not displayed. The pigeon stands several body lengths away, looking in another direction. There is no touching, greeting, confrontation, pursuit, nesting, food, hierarchy, anthropomorphic gesture, or symbolic alliance. Omit the passage’s many egg attacks, wounds, magical blood claims, serpent killings and deaths.\n\nCOMPOSITION: A low side-on view across one coherent courtyard whose continuous matte Pompeian-red plaster wall fills the upper background and whose continuous pale green-grey stone paving fills the ground. The physical wall-to-floor join is architectural depth, not a panel or split scene. Place the complete peafowl in the left-middle, occupying less than half the width; its crown, beak, neck, folded wings, entire folded train, two legs and feet are all visible. Place the much smaller complete pigeon at the lower-right, with its head, beak, two folded wings, tail, legs and feet visible. Leave a wide red field and clear negative space between and around them. No discrete prop, plant, architecture detail or animal beyond these two birds. Keep both whole birds and every feather extremity comfortably inside the canvas with conspicuous margin. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian animal-affinity folio on red-stained fibrous vellum: iron-gall and pale-chalk contours, disciplined fine hatching and stipple, dry-brush abrasion, opaque egg tempera and mineral pigment. Pompeian red, peacock lapis and verdigris, pigeon smoky grey and rose, pale celadon paving, lampblack and restrained gold. Ancient, timeless, beautiful, rough and polished at once. Accurate anatomy and species scale; poised natural stillness rather than emblematic heraldry. Not photographic, glossy, cinematic, cartoon, sentimental, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split narrative, collage, inset, specimen chart, ornamental manuscript margin, extra bird, other animal, fan display, cropped train, attack, egg, nest, blood, wound, death, magical aura, human emotion, person, modern object, clipping, fused feet, duplicated anatomy.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-4bd2fe21-316c-4c31-a03d-daa4809b5dc2",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete adult male peafowl with a folded train and exactly one complete rock pigeon standing separately in a sparse Pompeian-red courtyard. Both birds, all feet and the full train remain internally framed with clear margins; there is no water, text, pseudo-writing, panel, collage, clipping or animal conflict.",
+      "epistemicAndDignityNote": "The chapter's catalog of animal enmities, friendships, rescues, magical associations and fatal anecdotes is treated as transmitted ancient interpretation rather than modern ethology or supernatural fact. The peafowl and pigeon visualize one reported affinity without violence, moral hierarchy or anthropomorphic certainty.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "10:75",
+      "title": "THE SLEEP OF ANIMALS",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c075.png",
+      "corpusArtifact": "public/corpus/book-10.413874b01814b31f.json",
+      "corpusReadEvidence": {
+        "latinSha256": "6c739add93486bbd5b0152b3b95fa045a5378e96dbc8691e224bd81921c3dbd0",
+        "englishSha256": "52a36969be81649306c2ac8acfd07c6f5bc4b5dd31bc0ba5dc1aede624b064b4",
+        "latinWords": 216,
+        "englishWords": 491
+      },
+      "sha256": "1d7dd626823f6b75522e2f8a1bc3f4da4b8bc868522b0c060a51935a0d1a2a9a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-d5339924-93c1-424a-babe-9c128b052c32",
+      "generationArtifactId": "exec-d5339924-93c1-424a-babe-9c128b052c32",
+      "outputArtifact": "built-in-imagegen://exec-d5339924-93c1-424a-babe-9c128b052c32.png",
+      "exactFinalPrompt": "Generate a brand-new independent 1536x1024 fully opaque RGB/sRGB landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 75, concerning sleep among animals. Make ONE coherent continuous Roman farm courtyard scene, never a page, collage, panel, triptych, diagram, or row of specimens. High-key midday design: broad ivory lime-plaster walls, clean pale terracotta paving, one shaded open arcade, a narrow strip of clear cyan sky, warm coral and saffron accents. Exactly THREE healthy resting animals share the courtyard: exactly one complete chestnut horse lies sternally at left-center directly on the clean paving, legs naturally folded under the body, head gently raised and eyes closed; exactly one complete sandy dog is curled asleep at lower-right; exactly one complete pale cream goat reclines at upper-right in soft shade, eyes closed. The horse must be smaller in frame than half the canvas width. Every animal, hoof, horn, ear, tail, paw, and hair tuft must be wholly visible and at least 140 pixels from the left and right edges and at least 110 pixels from top and bottom. Leave obvious paving visible between each animal and every canvas boundary. No straw, mat, bed, bowl, vessel, plant pot, loose object, food, tether, rope, fence, person, bird, insect, statue, painted animal, or fourth creature. The animals look peacefully drowsy and breathing, not dead, injured, restrained, ominous, or ceremonially arranged. No dream cloud, vision, symbol, star, moon, omen, prophecy, funeral imagery, supernatural claim, water, pool, stream, lake, or sea. Composition: elevated diagonal architectural view, horse left-center, dog lower-right, goat upper-right, all unified by one diagonal arcade shadow and generous luminous wall/paving negative space; asymmetrical, natural, and environmentally grounded. Make the grayscale/value pattern unmistakably bright and open rather than dark-blue nocturnal. Material continuity: naturalistic Roman zoological illustration through encaustic wax, mineral pigment, charcoal underdrawing, and lightly abraded fresco grain, rough and polished at once, ancient and timeless. Continuous architecture may extend through the canvas edges as background, but no discrete animal or prop may touch an edge. No perimeter line, border, frame, rounded corners, vignette, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, inset, split scene, repeated motif, or cropped focal element.",
+      "generationAttempts": 4,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-cffaeb8b-21c7-4f04-9c65-5a7bdd55d069",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-22ba2a4b-7498-4021-ae91-1a71baef1245",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-bf43eeac-5f20-461c-805b-5489cb5a78ab",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-d5339924-93c1-424a-babe-9c128b052c32",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete drowsing chestnut horse, one complete curled sandy dog and one complete reclining pale goat in one bright Roman farm courtyard. Every animal is healthy, anatomically coherent, separated, fully internal and surrounded by visible paving; there is no extra animal, prop, water, dream symbol, text, pseudo-writing, panel, collage, clipping or corpse-like pose.",
+      "epistemicAndDignityNote": "Ancient reports about which animals sleep or dream, and the chapter's uncertainty around dreams and omens, are presented as quiet observation rather than prophecy, diagnosis or a claim about inner experience. The scene excludes fatal omens, supernatural imagery and distress.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-cffaeb8b-21c7-4f04-9c65-5a7bdd55d069",
+          "outputArtifact": "built-in-imagegen://exec-cffaeb8b-21c7-4f04-9c65-5a7bdd55d069.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b10-c075-reject-01-border-specimen-layout.png",
+          "sha256": "d3097abcfde3d2c2cebd0c8b25c3d91ac0aa9d394a7face63fca09b3aea55731",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 75, “The Sleep of Animals.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat Pliny’s observations of animal sleep and uncertainty about dreams as ancient inquiry, not proof of dream prophecy, fatal omens, or a universal modern theory of consciousness. Show exactly THREE complete healthy domestic animals resting naturally at blue hour: exactly ONE chestnut horse lying in a comfortable sternal recumbent position, exactly ONE brindled dog curled asleep, and exactly ONE pale goat reclining with head lowered. Their eyes are peacefully closed or half-closed; breathing is implied only by relaxed posture. No dream image, symbolic cloud, alarm, infant, person, handling, sedation, sickness, collapse, restraint, death, or supernatural sign.\n\nCOMPOSITION: A steep oblique overhead view across one continuous deep-indigo limewashed courtyard. At center is exactly ONE complete irregular oval patch of clean golden straw, wholly inside the courtyard and surrounded on every side by a broad indigo floor margin. The complete horse rests diagonally across the upper half of the straw patch with head and all four folded legs anatomically readable. The complete dog curls at lower-left on the indigo floor, separated from the straw. The complete goat reclines at lower-right on the floor, with both horns, four folded legs and hooves legible. No building, wall, stall, vessel, blanket, lamp, plant or other animal. Keep every ear, muzzle, horn, tail, leg, hoof, paw, straw tip and the entire straw patch comfortably inside the canvas with conspicuous margins. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular nocturne Plinian behavioral folio on indigo-stained fibrous vellum: pale-chalk and iron-gall contours, disciplined fine hatching and stipple, dry-brush abrasion, opaque egg tempera and mineral pigments. Deep indigo and smoky violet floor, warm straw gold, horse chestnut, dog soot-brindle, goat pearl, muted moon-silver and restrained madder. Ancient, timeless, beautiful, rough and polished at once. Accurate resting anatomy, quiet suspended stillness. Not photographic, glossy, cinematic, cartoon, sentimental, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, dream bubble, constellation diagram, specimen chart, ornamental manuscript margin, extra animal, insect, aquatic animal, person, death omen, prophecy, distress, injury, restraint, modern object, clipping, fused bodies, duplicated limbs, impossible sleeping anatomy.",
+          "editLineage": [],
+          "reason": "The three animals read as a flat isolated specimen arrangement, and a dark rounded perimeter produced a border or vignette-like treatment rather than one continuous environmental scene."
+        },
+        {
+          "generationArtifactId": "exec-22ba2a4b-7498-4021-ae91-1a71baef1245",
+          "outputArtifact": "built-in-imagegen://exec-22ba2a4b-7498-4021-ae91-1a71baef1245.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b10-c075-reject-02-global-mad-16.60.png",
+          "sha256": "45ca8863db1963be039daed2522ee4af7558726d5d69b49fee6aea10515e913a",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book X, chapter 75, “The Sleep of Animals.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Treat Pliny’s observations of animal sleep and uncertainty about dreams as ancient inquiry, not proof of dream prophecy, fatal omens, or a universal modern theory of consciousness. Show exactly THREE complete healthy domestic animals resting naturally at blue hour in one real open meadow: exactly ONE chestnut horse in a comfortable sternal recumbent posture with head relaxed but slightly raised, exactly ONE brindled dog curled asleep, and exactly ONE pale goat resting upright on folded legs with its chin on one foreleg. Closed or half-closed eyes and relaxed ears indicate ordinary sleep; no animal should resemble a corpse. No dream image, symbolic cloud, alarm, infant, person, handling, sedation, sickness, collapse, restraint, death, or supernatural sign.\n\nCOMPOSITION: A low oblique eye-level view across a continuous blue-violet meadow with a true distant horizon and open deep-indigo sky, not a flat specimen ground. The complete horse rests left-middle on exactly ONE complete small oval patch of clean golden straw, all four folded legs anatomically readable. The complete dog curls in the lower-middle foreground on grass, clearly separated. The complete goat rests at right-middle, both horns, four folded legs and hooves legible. Sparse low grass is continuous landscape rather than discrete props; distant hills remain soft background. No building, wall, stall, vessel, blanket, lamp, tree or other animal. Keep every ear, muzzle, horn, tail, leg, hoof, paw, straw tip and the entire straw patch comfortably inside the canvas with conspicuous margin. No focal or discrete subject may touch or be cut by an edge. No water.\n\nSTYLE AND MATERIALITY: A singular nocturne Plinian behavioral folio on fibrous vellum: pale-chalk and iron-gall contours, disciplined fine hatching and stipple, dry-brush abrasion, opaque egg tempera and mineral pigments. Deep indigo sky, smoky violet meadow, warm straw gold, horse chestnut, dog soot-brindle, goat pearl, muted moon-silver and restrained madder. Ancient, timeless, beautiful, rough and polished at once. Accurate resting anatomy, atmospheric depth and quiet suspended stillness. Not photographic, glossy, cinematic, cartoon, sentimental, specimen plate, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, vignette, decorative frame, panel, split scene, collage, inset, dream bubble, constellation diagram, specimen chart, ornamental manuscript margin, extra animal, insect, aquatic animal, person, death omen, prophecy, distress, injury, restraint, modern object, clipping, fused bodies, duplicated limbs, impossible sleeping anatomy.",
+          "editLineage": [],
+          "reason": "The edge-safe indigo meadow candidate scored nearest-neighbor MAD 16.60 against assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c032.png, below the permanent 20.00 threshold."
+        },
+        {
+          "generationArtifactId": "exec-bf43eeac-5f20-461c-805b-5489cb5a78ab",
+          "outputArtifact": "built-in-imagegen://exec-bf43eeac-5f20-461c-805b-5489cb5a78ab.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b10-c075-reject-03-straw-clipped-left.png",
+          "sha256": "1a25e56b71f87d5f0e3d06864a00a9f24f57fe8f933ee48aaf9a2bdaafbcdccb",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create a completely new independent landscape illustration for Pliny the Elder, Naturalis Historia, Book X chapter 75, about sleep among animals. Output exactly 1536x1024, fully opaque RGB/sRGB, as ONE continuous environmental scene rather than a page, panel, collage, specimen arrangement, or triptych. Depict a bright, warm, sun-washed Roman farm courtyard at late morning, with a white lime-plaster wall, pale straw, red-ochre paving, a simple shaded stable arcade, and a strip of open turquoise sky. Exactly THREE animals rest peacefully in one coherent shared space: exactly one complete chestnut horse lying sternally on a complete oval straw bed with legs naturally tucked and head gently upright but eyes closed; exactly one complete sandy dog curled asleep in the cool shadow near a terracotta waterless feeding bowl; exactly one complete pale cream goat reclining calmly beside a low whitewashed wall, eyes closed. Every animal, hoof, horn, ear, tail, paw, and straw-bed perimeter must be visibly complete and at least 90 pixels from every canvas edge. The animals are healthy, relaxed, breathing, and unmistakably asleep or drowsing, never corpse-like, injured, restrained, ominous, or arranged as isolated specimens. Exact count: one horse, one dog, one goat, and no other people, animals, birds, insects, statues, or animal images. No dream clouds, visions, stars, moon, omen, prophecy, funeral imagery, supernatural symbols, water body, pool, stream, lake, or sea. The small terracotta bowl is empty and fully internal. Composition: an elevated diagonal courtyard view with the horse left-center, dog lower-right, goat upper-right beneath a single shared arcade shadow; broad luminous cream wall and coral paving create abundant negative space and a materially different high-key value pattern from any dark blue night or meadow scene. Palette: ivory plaster, warm coral and saffron ochre, pale straw gold, turquoise sky, muted chestnut, dusty sage, charcoal accents. Material continuity: naturalistic Roman zoological folio feeling through encaustic wax, mineral pigment, charcoal underdrawing, softly abraded fresco grain, rough and polished at once, ancient and timeless. Background architecture may extend naturally beyond the canvas, but every discrete animal and prop must remain fully edge-safe. No border, frame, vignette, rounded corners, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, split scene, inset, repeated motif, or cropped focal element.",
+          "editLineage": [],
+          "reason": "The high-key courtyard animals were complete, but the requested discrete oval straw bed visibly continued through the left canvas edge and therefore failed strict edge-safe framing."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:11",
+      "title": "DRONES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c011.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "68f97015d01ce46c1ab7c0890aa940acbd9f21b88320e93cb77ac24f2f99c66f",
+        "englishSha256": "93f8c5f5e981e1b3be1f2c7f7b0987c3e4ea56e9bd6382e2179426d427af8893",
+        "latinWords": 149,
+        "englishWords": 356
+      },
+      "sha256": "1b73a4eef884d47ccea473918001ed72f7162bd7b24d0ef9e7b385dbe3fe705d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-c7a5467d-7bf1-45b9-933b-5e40bb70fa07",
+      "generationArtifactId": "exec-c7a5467d-7bf1-45b9-933b-5e40bb70fa07",
+      "outputArtifact": "built-in-imagegen://exec-c7a5467d-7bf1-45b9-933b-5e40bb70fa07.png",
+      "exactFinalPrompt": "Use case: historical-scene illustration for Pliny the Elder, Naturalis Historia Book XI, chapter 11, “Drones.” Create one independent preservation master at exactly 1536×1024 landscape, opaque RGB/sRGB.\n\nSUBJECT AND EPISTEMIC FRAME: Render a naturalistic close observation of drone and worker morphology, treating Pliny’s claims about hierarchy, punishment, forced labour, expulsion and killing as transmitted ancient interpretation rather than verified social morality. Show exactly ONE complete larger male honeybee drone and exactly TWO complete smaller worker honeybees on exactly ONE complete irregular oval patch of pale wax comb. The broad-eyed drone rests calmly near center; one worker tends wax at upper-left and one walks at lower-right. No attack, crowding, expulsion, mutilation, wing removal, sting, death, slave metaphor, royal palace, brood, queen, larva, egg, honey harvest, smoke, beekeeper, or tool.\n\nCOMPOSITION: An intimate oblique macro view into one continuous shadowed natural hollow. The single complete oval comb patch is attached flat against the dark bark rear surface and occupies the central two-thirds, with its entire irregular outline visible and a generous dark-bark margin on every side. All three bees are physically separate and non-overlapping. Each bee must be anatomically coherent and fully visible with one head, two antennae, thorax, abdomen, six legs, two pairs of translucent wings, and no duplicated parts; the drone is visibly larger and rounder than the two workers. Keep every antenna, leg tip, wing tip, abdomen, comb edge and cell wholly inside the canvas with broad clearance. The bark is continuous background, not a discrete log, border or frame. No focal or discrete subject may touch or be cut by any edge. No water.\n\nSTYLE AND MATERIALITY: A singular Plinian entomological macro folio on dark warm fibrous vellum: iron-gall contours, exceptionally fine hatching and stipple, translucent egg-tempera glazing and mineral pigments. Amber wax, soot-black bark, drone umber, worker gold-black, muted copper, smoky violet and restrained pale gold. Ancient, timeless, beautiful, rough and polished at once. Natural scale, delicate wing venation and quiet biological attention. Not photographic, glossy, cinematic, cartoon, scientific diagram, or modern concept art.\n\nSTRICT EXCLUSIONS: no written text, letters, numerals, pseudo-writing, inscription, signature, watermark, labels, caption, map, page, border, decorative frame, panel, split scene, collage, inset, specimen chart, generic crowded hive tableau, extra bee, queen, brood, larva, egg, attack, dead bee, severed wing, person, tool, smoke, modern hive, clipping, fused insects, duplicated legs, impossible wings, structure crossing an edge.",
+      "generationAttempts": 1,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-c7a5467d-7bf1-45b9-933b-5e40bb70fa07",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete broad-eyed male drone and exactly two complete smaller worker honeybees on exactly one complete irregular oval comb patch. The comb has a broad continuous bark margin and all bees remain separate and internal with coherent heads, antennae, legs and translucent wings; there is no text, pseudo-writing, panel, collage, clipping, brood or harm.",
+      "epistemicAndDignityNote": "Pliny's language of drone idleness, slavery, punishment, expulsion and wing removal is treated as transmitted moralized ancient observation rather than justified hierarchy or husbandry guidance. The image confines itself to calm morphology and comb construction without cruelty or death.",
+      "rejectedAttempts": [],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:12",
+      "title": "THE QUALITIES OF HONEY",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c012.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "018685675500959138aef90d3e04797b7de145f00b15268e658cc3426d267127",
+        "englishSha256": "42785eceeb11caddb3c02fcf23c9d9d0002d46228dabdaaa6586e6c19cd98eee",
+        "latinWords": 115,
+        "englishWords": 239
+      },
+      "sha256": "8476876c170dd48f6e78c5c1560bf530b6f0005b8fc1f1fcd476fb05a8bb056d",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-9e9f2c37-a5c2-48f6-b54c-a1301ea14416",
+      "generationArtifactId": "exec-9e9f2c37-a5c2-48f6-b54c-a1301ea14416",
+      "outputArtifact": "built-in-imagegen://exec-9e9f2c37-a5c2-48f6-b54c-a1301ea14416.png",
+      "exactFinalPrompt": "Create one independent landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 12, as a single continuous environmental scene, never a page, panel, collage, diagram, or specimen plate. Output exactly 1536x1024, fully opaque RGB/sRGB. In a quiet pre-dawn grove, show exactly one small wind-fallen linden sprig resting naturally across the center of a broad pale limestone shelf. BOTH ends of this one sprig must be visibly complete: one short broken woody end and one fine terminal bud, with the entire branch, every leaf tip, and all its small flowers comfortably at least 100 pixels inside every canvas edge. Exactly three complete worker honeybees gather ordinary clear dew droplets from three separate leaves. The three bees must be clearly separate, healthy, and anatomically coherent; each has one head, two antennae, six legs, and two pairs of translucent wings, with all wing tips and feet fully visible and well inside the frame. The broad limestone shelf is a continuous ground plane and may extend beyond the canvas as background, but the discrete sprig and all bees may not touch any edge. Respectfully evoke Pliny's transmitted ancient theory that honey came as celestial dew while showing only natural morning condensation, not magic and not literal star saliva. No visible star, sun, moon, halo, constellation, ray, omen, supernatural effect, medicinal symbolism, or modern scientific apparatus. No hive, honeycomb, queen, brood, human, tool, vessel, harvesting, suffering, water body, stream, lake, or ocean. Composition: spacious low-oblique close view, with the entire small sprig occupying only the central half of the image and generous quiet stone and mist around it. Palette clearly distinct from amber hive scenes: lapis blue shadow, celadon foliage, pearl-grey stone, muted silver dew, with restrained honey-gold only on the bees. Material continuity: highly naturalistic Roman botanical observation rendered in encaustic wax, mineral pigment, charcoal underdrawing, and subtly abraded fresco grain, rough and polished at once, ancient and timeless. No border, frame, vignette, decorative corners, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, split scenes, inset, repeated motifs, or cropped focal element.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-99bb4820-c20d-4488-9381-64b307247529",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-9e9f2c37-a5c2-48f6-b54c-a1301ea14416",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete wind-fallen linden sprig with both woody and terminal ends visible on a broad limestone shelf, and exactly three complete separated worker bees gathering natural dew from separate leaves. All leaf tips, flowers, droplets and bee extremities remain internal; there is no hive, comb, water body, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "The celestial-dew origin of honey is framed as a transmitted ancient theory. The image shows ordinary morning condensation, not literal star saliva, divine intervention, medicine or modern scientific proof.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-99bb4820-c20d-4488-9381-64b307247529",
+          "outputArtifact": "built-in-imagegen://exec-99bb4820-c20d-4488-9381-64b307247529.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b11-c012-reject-01-sprig-cut-at-right-edge.png",
+          "sha256": "777b0f6ca4200341d2e3ff20f72a57802fff794d48fe999b2ef4ab0936ff5250",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create one independent landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 12, as a single continuous scene (not a page, panel, collage, diagram, or specimen plate). Output exactly 1536x1024, fully opaque RGB/sRGB. Subject: an intimate pre-dawn natural observation of exactly three complete worker honeybees gathering clear dew droplets from exactly one complete leafy linden sprig. The whole sprig, its terminal twig, every leaf tip, and every bee including antennae, legs, and wing tips must remain comfortably inside the canvas with broad breathable margins; no discrete subject may touch or be cropped by an edge. Show ordinary dew on leaves, not magic and not literal star saliva: this image respectfully evokes an ancient transmitted theory that honey descended as celestial dew, without asserting it as modern fact. The three bees must be visually separate and anatomically coherent: each has one head, two antennae, six legs, and two pairs of translucent wings, with no fused bodies or extra limbs. No hive, no honeycomb, no queen, no brood, no human, no tool, no vessel, no harvesting, no suffering, no medical claim, no water body, no stream, no lake, no ocean. Composition: close but spacious low-oblique view, the linden sprig arcs gently across the central field while a cool misty blue-green garden darkness recedes behind it; droplets catch small pearl highlights. Palette distinct from warm amber comb scenes: lapis blue, celadon green, pearl grey, muted silver, with restrained honey-gold only on the bees. Material continuity: exquisitely naturalistic Roman botanical folio translated through encaustic wax, mineral pigment, charcoal underdrawing, subtly abraded fresco grain, rough and polished at once, ancient and timeless. No border, frame, vignette, decorative corners, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, split scenes, inset, or repeated motifs. Preserve wide calm negative space and impeccable edge-safe framing.",
+          "editLineage": [],
+          "reason": "The first linden branch visibly continued through the right canvas edge, so the requested complete discrete sprig was clipped despite the three bees and dew being otherwise legible."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:13",
+      "title": "WHERE THE BEST HONEY IS PRODUCED",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c013.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ff921ae3529a1c6180092daeff75427d127b10d58f0a6b9fe15de67153d51487",
+        "englishSha256": "0ffe9fc4162a3276effd048c52d7432c0c244dc4b61332d04af6a78ec5b0ce10",
+        "latinWords": 59,
+        "englishWords": 125
+      },
+      "sha256": "5b3b891d65b82cb98853b2d18f63e87efc523a63cca021fab9bc232e327a36ef",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-bfdd2f7f-e1f6-4090-a216-ef659bc14780",
+      "generationArtifactId": "exec-bfdd2f7f-e1f6-4090-a216-ef659bc14780",
+      "outputArtifact": "built-in-imagegen://exec-bfdd2f7f-e1f6-4090-a216-ef659bc14780.png",
+      "exactFinalPrompt": "Generate one brand-new independent 1536x1024 landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 13. Fully opaque RGB/sRGB. It must be ONE continuous edge-to-edge landscape image, not a manuscript page, fresco fragment, plaque, panel, collage, diagram, map, specimen plate, or framed artwork. The natural sky, hillside, and ground must continue cleanly through all four square canvas corners with NO perimeter line, pale rim, dark rim, rounded-corner treatment, vignette, border, frame, mat, torn edge, painted slab edge, or decorative surround. Scene: a sunlit Attic limestone hillside on Mount Hymettus in early summer, respectfully visualizing Pliny's transmitted regional praise of Hymettian honey without asserting it as a modern universal ranking. Exactly ONE complete rounded wild-thyme clump stands in the near foreground, with every stem and flower tip at least 110 pixels from every edge. Exactly TWO complete worker honeybees hover separately above the clump, one to its upper left and one to its upper right. The bees are large enough to inspect but not oversized; each has exactly one head, two antennae, six legs, and two pairs of translucent wings, no fusion or extra anatomy, and every tip remains at least 100 pixels from the canvas edges. No other bees, bee-like insects, birds, or animals. Behind them, open diagonal stripes of violet thyme and chalk-white limestone rise toward one distant mauve mountain shoulder under a broad pale blue sky. Background terrain and sky may flow beyond the canvas; the discrete clump and bees must not. Composition: wide elevated three-quarter view with abundant true sky and bare limestone negative space, strong white-lavender diagonal rhythm, and a scale/viewpoint distinctly different from comb or leaf macros. Palette: clean sky blue, sun-bleached white limestone, dusty lavender and violet, pale olive, atmospheric mauve, tiny restrained honey-gold accents. Naturalistic Roman zoological-botanical observation rendered through encaustic wax, mineral pigment, charcoal underdrawing, and fine abraded fresco grain, but the texture is distributed naturally across the image rather than forming an object edge. Ancient, timeless, rough and polished at once. No hive, honeycomb, vessel, human, beekeeper, tool, harvest, architecture, ruin, marker, label, text, letters, numerals, glyphs, pseudo-writing, watermark, signature, medical symbolism, water, stream, lake, sea, suffering, split scene, inset, repeated motif, or cropped focal element.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-b844cf0f-24b3-4335-b366-88c67ba2685c",
+          "status": "rejected-native-qa"
+        },
+        {
+          "generationArtifactId": "exec-bfdd2f7f-e1f6-4090-a216-ef659bc14780",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete rounded wild-thyme clump and exactly two complete separated worker bees on a broad sunlit Hymettus limestone hillside. The clump and both bees remain fully internal with a clean edge-to-edge sky and terrain background; there is no hive, comb, water, architecture, text, pseudo-writing, panel, collage, vignette or clipping.",
+      "epistemicAndDignityNote": "The praise of Hymettian honey is treated as Pliny's transmitted regional comparison, not a universal modern quality ranking or medical claim. The scene visualizes geography and thyme habitat without harvesting or advice.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-b844cf0f-24b3-4335-b366-88c67ba2685c",
+          "outputArtifact": "built-in-imagegen://exec-b844cf0f-24b3-4335-b366-88c67ba2685c.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b11-c013-reject-01-perimeter-border.png",
+          "sha256": "ae5c19eb902f1045df84349389381a15173cb97ef2ad2d302a26c5f1953adf1e",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create one independent landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 13, as a single continuous scene, never a page, panel, collage, diagram, map, or specimen plate. Output exactly 1536x1024, fully opaque RGB/sRGB. Subject: a luminous high Attic limestone hillside on Mount Hymettus in early summer, expressing the chapter's transmitted geographic praise of Hymettian honey without presenting it as a universal modern ranking. In the near foreground place exactly ONE complete rounded wild-thyme clump, every stem and flower tip visibly contained at least 90 pixels inside the canvas. Exactly TWO complete worker honeybees hover separately above opposite sides of this one thyme clump. Both bees must be large enough for native-resolution anatomical QA and each must have one head, two antennae, six legs, and two pairs of translucent wings; no fused bodies, no extra limbs, and every wing tip and foot comfortably inside the frame. No other bee-like insects or birds. Behind them, broad diagonal bands of violet thyme and chalk-white limestone sweep toward a distant mauve mountain shoulder beneath a pale sky. These distant ground and sky fields may continue beyond the canvas, but the discrete foreground thyme clump and both bees must remain fully visible and edge-safe. No hive, honeycomb, vessel, human, beekeeper, tool, harvest, market, architecture, ruin, label, map symbol, medical claim, suffering, predator, water, stream, lake, or sea. Composition: wide elevated three-quarter view, strong white-and-lavender diagonal value design, expansive airy negative space, very different in scale and viewpoint from a leaf close-up or comb macro. Palette: sun-bleached limestone white, violet and dusty lavender, pale olive, atmospheric mauve, tiny restrained honey-gold accents on the two bees. Material continuity: naturalistic Roman zoological-botanical observation in encaustic wax, mineral pigment, charcoal underdrawing, and subtly abraded fresco grain; rough and polished at once, ancient, timeless, elegant. No border, frame, vignette, decorative corners, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, split scene, inset, triptych, repeated motif, or cropped focal element.",
+          "editLineage": [],
+          "reason": "The first Hymettus candidate retained a faint pale rounded perimeter line and corner treatment, conflicting with the required continuous unframed landscape."
+        }
+      ],
+      "providerFailures": []
+    },
+    {
+      "chapterKey": "11:14",
+      "title": "THE KINDS OF HONEY PECULIAR TO VARIOUS PLACES",
+      "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b11-c014.png",
+      "corpusArtifact": "public/corpus/book-11.6e41d61d4a8e3042.json",
+      "corpusReadEvidence": {
+        "latinSha256": "ef6b5fad187470ac843c31e3b3cff0275d4e93eb61cb3a54bd236fa7fef38601",
+        "englishSha256": "4e82a0405ff7be55776fd7987ffc7f359c81bff6a9a2a7d134f329cc3f61fe7a",
+        "latinWords": 248,
+        "englishWords": 559
+      },
+      "sha256": "55cfc708fd86b89a3781947714d73d25b770f88aa53cbff9d217d12de2b3f33a",
+      "dimensions": "1536x1024",
+      "colorMode": "RGB",
+      "colorSpace": "sRGB",
+      "opaque": true,
+      "byteIdenticalToBuiltInOriginal": true,
+      "byteIdentityMethod": "direct byte-buffer equality",
+      "hashReconciled": true,
+      "builtInMode": true,
+      "tool": "OpenAI built-in image_gen tool",
+      "toolReceiptId": null,
+      "acceptedArtifactId": "exec-05591c85-75b2-458e-be84-bd475c998d26",
+      "generationArtifactId": "exec-05591c85-75b2-458e-be84-bd475c998d26",
+      "outputArtifact": "built-in-imagegen://exec-05591c85-75b2-458e-be84-bd475c998d26.png",
+      "exactFinalPrompt": "Generate a completely new independent 1536x1024 fully opaque RGB/sRGB landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 14. One continuous daylight woodland scene, never a page, collage, panel, diagram, specimen plate, or generic hive tableau. Respectfully evoke the chapter's transmitted report of unusually large dark northern combs and regional differences in honey, without literal impossible measurements, medical claims, celestial miracles, ratios, harvesting advice, or modern fact claims. Scene: a high-key late-summer clearing in a northern silver-birch woodland under clear noon light. Exactly ONE complete short section of pale weathered hollow oak log rests diagonally on a broad bed of sunlit ivory sand and silver-green moss at image center. BOTH broken ends and the full upper silhouette of this discrete log must be plainly visible with at least 130 pixels of open ground between the log and every canvas edge. In one natural side opening, exactly ONE complete curved burgundy-brown honeycomb sheet is visible wholly inside the hollow with a clear dark air gap all around it; the comb touches neither the opening nor any edge. Exactly TWO complete worker honeybees hover separately, one left and one right of the opening, each large enough for native-resolution QA, each with one head, two antennae, six legs, and two pairs of translucent wings; no fusion, extra anatomy, or cropped tips. No other bees, insects, birds, or animals. Continuous pale sand, soft birch trunks, and luminous yellow-green foliage may flow beyond the canvas as environmental background; the log, comb, and bees may not. No person, beekeeper, hand, tool, vessel, harvest, cut honey, food service, smoke, fire, suffering, brood, queen, larvae, modern box hive, water body, stream, lake, or sea. Composition: wide, slightly elevated three-quarter environmental view, with the small complete log occupying only the central half and abundant bright sand and airy birch light around it. Grayscale/value design must be luminous and open, not nocturnal, not predominantly dark, and materially unlike blue water or dark forest images. Palette: ivory sand, silver bark, celadon moss, pale lemon foliage, warm grey wood, burgundy comb, restrained honey-gold on two bees. Material continuity: exquisitely naturalistic Roman zoological observation rendered through encaustic wax, mineral pigment, charcoal underdrawing, and subtly abraded fresco grain, ancient, timeless, rough and polished at once. Background extends naturally to all square corners with no perimeter treatment. No border, frame, rim, rounded corners, vignette, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, split scene, inset, repeated motif, or cropped focal element.",
+      "generationAttempts": 2,
+      "generationLineage": [
+        {
+          "generationArtifactId": "exec-496ff895-a893-4ec4-8073-d575c4d4d0a9",
+          "status": "rejected-global-audit"
+        },
+        {
+          "generationArtifactId": "exec-05591c85-75b2-458e-be84-bd475c998d26",
+          "status": "accepted"
+        }
+      ],
+      "editLineage": [],
+      "nativeQaChecklist": {
+        "dimensions1536x1024": true,
+        "opaqueRgbSrgb": true,
+        "requestedCountsAndAnatomy": true,
+        "focalFramingAndWaterEdges": true,
+        "noTextOrPseudoWriting": true,
+        "singleContinuousScene": true,
+        "epistemicAndDignityTreatment": true,
+        "globalMADAndDHash": true
+      },
+      "visualQaNotes": "Native inspection found exactly one complete pale hollow oak-log section with both broken ends visible, exactly one complete burgundy-brown curved comb wholly inside its opening, and exactly two complete separated worker bees in a luminous birch clearing. Every discrete subject remains edge-safe; there is no person, tool, harvest, water, text, pseudo-writing, panel, collage or clipping.",
+      "epistemicAndDignityNote": "Reports of regional and seasonal honey kinds, unusually large German combs, celestial influence, medical effects and harvest proportions are treated as transmitted ancient testimony. The image avoids literal impossible scale, miracle, treatment claim and harvesting instruction.",
+      "rejectedAttempts": [
+        {
+          "generationArtifactId": "exec-496ff895-a893-4ec4-8073-d575c4d4d0a9",
+          "outputArtifact": "built-in-imagegen://exec-496ff895-a893-4ec4-8073-d575c4d4d0a9.png",
+          "sourceArtifact": "assets-source/chapter-scenes-v1/animals-transition-wave-09/evidence/history/b11-c014-reject-01-global-mad-17.69.png",
+          "sha256": "a3e3d6ea331f38b073145911655f78c3c8b66f465a79ac7066ba263609a35ff3",
+          "dimensions": "1536x1024",
+          "colorMode": "RGB",
+          "colorSpace": "sRGB",
+          "opaque": true,
+          "byteIdenticalToBuiltInOriginal": true,
+          "byteIdentityMethod": "direct byte-buffer equality",
+          "hashReconciled": true,
+          "exactPrompt": "Create one independent landscape illustration for Pliny the Elder, Naturalis Historia, Book XI chapter 14, as a single continuous woodland scene, never a page, panel, collage, diagram, specimen plate, or generic hive tableau. Output exactly 1536x1024, fully opaque RGB/sRGB. Respectfully evoke the chapter's transmitted report of unusually large, dark northern combs and regional honey differences without literalizing impossible measurements, medicinal claims, celestial miracles, harvest ratios, or modern advice. Scene: on a mossy floor in a dim northern oak forest, exactly ONE complete fallen hollow oak log lies diagonally across the middle distance, both sawn-or-broken ends fully visible and every part of the discrete log at least 80 pixels from the canvas edge. Through one natural opening in that log, show exactly ONE large curved dark-amber honeycomb sheet, completely visible within the hollow and not touching the log opening or canvas edges. Exactly TWO complete worker honeybees hover separately near the opening, both large enough for native-resolution QA; each has one head, two antennae, six legs, and two pairs of translucent wings, with all anatomy fully visible and no fusion or extra limbs. No other bees, insects, birds, or animals. The continuous forest floor and distant trunks may flow beyond the canvas as background, but the entire log, comb, and both bees must be edge-safe and uncropped. No beekeeper, person, hand, tool, vessel, harvest, cut honey, food service, medical symbolism, violence, smoke, fire, suffering, brood, queen, larvae, modern box hive, water body, stream, lake, or sea. Composition: low wide environmental view with the complete log occupying only the central two-thirds, the comb a single restrained accent inside it, and generous moss, fern shadow, and forest air around all subjects. Make this strongly distinct from close comb macro, dew-leaf still life, and bright Hymettus hillside: deep umber, bottle green, cool charcoal, lichen grey, burgundy-brown comb, minute honey-gold highlights. Material continuity: naturalistic Roman zoological observation rendered in encaustic wax, mineral pigments, charcoal underdrawing, and subtly abraded fresco grain; tactile bark and moss, rough and polished at once, ancient and timeless. The forest image must extend cleanly to all four square corners with no perimeter treatment. No border, frame, rim, rounded corners, vignette, decorative corners, text, letters, labels, numerals, glyphs, pseudo-writing, watermark, signature, split scene, inset, triptych, repeated motif, or cropped focal element.",
+          "editLineage": [],
+          "reason": "The edge-safe dark woodland-log candidate scored nearest-neighbor MAD 17.69 against assets-source/chapter-scenes-v1/trees-aromatics-wave-59/b05-c026.png, below the permanent 20.00 threshold."
+        }
+      ],
+      "providerFailures": []
+    }
+  ],
+  "globalDuplicateValidation": {
+    "performedAt": "2026-08-25",
+    "scope": "All non-evidence PNG masters under assets-source/chapter-scenes-v1 at scan time",
+    "canonicalCountAtScan": 805,
+    "method": "Nearest-neighbor comparison using 32x32 grayscale mean absolute difference and 9x8 perceptual dHash; exact SHA-256 duplicates also checked.",
+    "thresholds": {
+      "minimumMAD": 20,
+      "minimumDHash": 10
+    },
+    "exactDuplicatePairs": 0,
+    "newExactDuplicatePairs": 0,
+    "gatePass": true,
+    "chapters": {
+      "10:72": {
+        "nearestMAD": 26.93,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-27/b19-c007.png",
+        "dHashAtMadPeer": 21,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b13-c001.png",
+        "madAtDHashPeer": 34.49
+      },
+      "10:73": {
+        "nearestMAD": 25.8,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-57/b05-c004.png",
+        "dHashAtMadPeer": 20,
+        "nearestDHash": 15,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-04/b12-c027.png",
+        "madAtDHashPeer": 33.62
+      },
+      "10:74": {
+        "nearestMAD": 24.69,
+        "madPeer": "assets-source/chapter-scenes-v1/cosmos-wave-03/b02-c017.png",
+        "dHashAtMadPeer": 31,
+        "nearestDHash": 17,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-12/b15-c027.png",
+        "madAtDHashPeer": 51.49
+      },
+      "10:75": {
+        "nearestMAD": 36.42,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-11/b15-c019.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 20,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-land-wave-06/b08-c043.png",
+        "madAtDHashPeer": 51.1
+      },
+      "11:11": {
+        "nearestMAD": 20.44,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c017.png",
+        "dHashAtMadPeer": 17,
+        "nearestDHash": 16,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-03/b11-c032.png",
+        "madAtDHashPeer": 148.09
+      },
+      "11:12": {
+        "nearestMAD": 27.67,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-transition-wave-09/b10-c074.png",
+        "dHashAtMadPeer": 27,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-insects-wave-02/b11-c019.png",
+        "madAtDHashPeer": 59.16
+      },
+      "11:13": {
+        "nearestMAD": 25.86,
+        "madPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-43/b02-c036.png",
+        "dHashAtMadPeer": 33,
+        "nearestDHash": 19,
+        "dHashPeer": "assets-source/chapter-scenes-v1/trees-aromatics-wave-58/b05-c016.png",
+        "madAtDHashPeer": 48.22
+      },
+      "11:14": {
+        "nearestMAD": 30.89,
+        "madPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-04/b10-c028.png",
+        "dHashAtMadPeer": 29,
+        "nearestDHash": 18,
+        "dHashPeer": "assets-source/chapter-scenes-v1/animals-birds-wave-01/b10-c006.png",
+        "madAtDHashPeer": 45.68
+      }
+    }
+  },
+  "scopedDiffValidation": {
+    "command": "git diff --check -- assets-source/chapter-scenes-v1/animals-transition-wave-09",
+    "status": "pass",
+    "output": ""
+  }
+}
