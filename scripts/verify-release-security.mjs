@@ -51,6 +51,11 @@ fail(packageJson.scripts?.['release:verify-source-assets'] === 'node scripts/ver
 fail(packageJson.scripts?.['test:release-packaging'] === 'node scripts/verify-release-packaging.mjs', 'Release packaging invariants must have a non-archiving test command.');
 fail(packageJson.scripts?.['test:release-manifest'] === 'node scripts/verify-release-manifest.mjs', 'The checked-in release manifest must have an exact tree-integrity gate.');
 fail(packageJson.scripts?.['build:assets'] === 'node scripts/build-assets.mjs', 'Asset builds must use the release-profile-aware wrapper.');
+const responsiveAssetBuilder = read('scripts/build-responsive-assets.mjs');
+fail(
+  responsiveAssetBuilder.includes('if (!(await exists(ogOutputPath)))'),
+  'Public builds must preserve the authenticated social-card derivative instead of re-encoding it across platforms.',
+);
 
 const envExample = read('.env.example');
 fail(!/(?:OPENAI|OPENROUTER|ELEVENLABS|CARTESIA|NARRATION|SPEECH|SITES_TRUST)/u.test(envExample), 'Launch environment example must not expose held narration or legacy Sites controls.');
