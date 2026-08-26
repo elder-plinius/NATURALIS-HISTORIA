@@ -73,7 +73,7 @@
     "@cloudflare/workers-types": "5.20260823.1",
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.4",
+    "@types/react-dom": "19.2.5",
     "@vitejs/plugin-react": "6.1.0",
     "@vitejs/plugin-rsc": "0.5.34",
     "eslint": "9.39.4",
