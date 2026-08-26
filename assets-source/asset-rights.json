@@ -29,6 +29,114 @@
       "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the recovered byte-exact source-bound ImageGen receipt.",
       "provenanceReference": "assets-source/plates-provenance.json"
     },
+    "afterword-folio:6.16:1": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-01.png",
+      "sourceSha256": "5981a0781cdc406a3a7714d82b698a9a2f3a53b50e81eab30b43f05cd22af3af",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.16:2": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-02.png",
+      "sourceSha256": "542ccc1a0135eae63ab82c37fea5ead321c2be2e10cdc33caf99d6abbf5ef3bc",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.16:3": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-03.png",
+      "sourceSha256": "7d22aaaa58f7a5fd8647c263aad45dd8b0311d3f3b083abbf2d4135ae5ef26d2",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.16:4": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-04.png",
+      "sourceSha256": "aca565c6fed1c45a8530b361d0514415a0df9f6e47dd81b666a845f5240587e4",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.16:5": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-05.png",
+      "sourceSha256": "b8b37b40d1fbc4a8dffc9f6d4595edb76e89d6c5fbbf34973653e4c7f52171e5",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.16:6": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-16-folio-06.png",
+      "sourceSha256": "86f17acdc27cd0da25bda4896bfd7f1ae85a3897c29cefae53dd6e3a2f75fcb7",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the corrected source-bound built-in ImageGen output, exact prompt, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.20:1": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-01.png",
+      "sourceSha256": "27a47046066e990a264872c0a9a374a146868279553518dea1c3d91a325ee22f",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.20:2": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-02.png",
+      "sourceSha256": "296784000d10c0ea146fc02ed19bd76f02c19a0d1d8f3d95f3f3dcccfbb92b69",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.20:3": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-03.png",
+      "sourceSha256": "ac708d51bd461c27eccf22473c42c7fb5474d88cba682305a7ca48a52314adfc",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.20:4": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-04.png",
+      "sourceSha256": "847f3e5f7c86e02271315da2233b5ee41a3d358b809c6aec8b6c701194f7f5ba",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.20:5": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-05.png",
+      "sourceSha256": "54ca7dda587e223630022b7a3e6e37aff028914d4d843565e99561ada88cfa44",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
+    "afterword-folio:6.20:6": {
+      "sourceArtifact": "assets-source/plates/vesuvius-folios/pliny-younger-vesuvius-6-20-folio-06.png",
+      "sourceSha256": "6b156c758c633b685116509fde2b2009f4e07443002015849e1f13985dc2e9ee",
+      "rightsStatus": "cleared-owner-directed-original-output",
+      "rightsHolder": "Naturalis Historia project owner (elder-plinius)",
+      "license": "AGPL-3.0-only",
+      "evidence": "Owner AGPL-3.0 licensing instruction dated 2026-08-24 plus the source-bound built-in ImageGen output, exact prompt assembly, SHA-256, and visual-QA record.",
+      "provenanceReference": "assets-source/vesuvius-folios-provenance.json"
+    },
     "chapter-scene:1:praef": {
       "sourceArtifact": "assets-source/chapter-scenes-v1/trees-aromatics-wave-41/b01-praef.png",
       "sourceSha256": "27911f74cbe9f319afe12095d57579d2eb93bcb52e00be21a813ed18b939235c",

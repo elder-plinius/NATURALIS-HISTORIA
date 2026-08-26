@@ -1,16 +1,19 @@
 'use client';
 
 import Link from 'next/link';
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 
 import { InkParagraphs } from '../../InkDiffusionText';
+import { VESUVIUS_FOLIO_SOURCES } from './generated-folio-sources.mjs';
 
 type Folio = {
   number: number;
   sectionStart: number;
   sectionEnd: number;
   editorialTitle: string;
-  panel: 'observer' | 'fleet' | 'appeal' | 'ash' | 'tablets';
+  artworkId: string;
+  imageAlt: string;
+  imageCaption: string;
   latin: string;
   english: string;
 };
@@ -50,51 +53,6 @@ export type LettersData = {
 
 type LanguageMode = 'auto' | 'la' | 'en';
 type DiffusionPhase = 'latin' | 'diffusing' | 'english';
-
-const PANEL_COPY = {
-  observer: {
-    className: 'panel-observer',
-    alt: 'Pliny observing the pine-shaped cloud rising above Vesuvius',
-    caption: 'At Misenum: observation of the rising cloud',
-  },
-  fleet: {
-    className: 'panel-fleet',
-    alt: 'Roman quadriremes crossing the bay toward the endangered coast',
-    caption: 'The fleet turns toward danger',
-  },
-  appeal: {
-    className: 'panel-appeal',
-    alt: 'Rectina’s appeal reaching Pliny as the rescue fleet is prepared',
-    caption: 'Rectina’s appeal changes the voyage',
-  },
-  ash: {
-    className: 'panel-ash',
-    alt: 'The shore at Stabiae darkened by ash and volcanic fire',
-    caption: 'The ash-dark shore at Stabiae',
-  },
-  tablets: {
-    className: 'panel-tablets',
-    alt: 'Writing tablets beside a shore darkened by ash',
-    caption: 'Memory gathered into a letter for Tacitus',
-  },
-} as const;
-
-const LETTER_PANEL_COPY: Partial<Record<Letter['id'], Partial<Record<Folio['panel'], { alt: string; caption: string }>>>> = {
-  '6.20': {
-    observer: {
-      alt: 'A witness studies the retreating sea and descending volcanic cloud at Misenum',
-      caption: 'Earth, sea, and cloud at Misenum',
-    },
-    ash: {
-      alt: 'Misenum overtaken by descending darkness and ash',
-      caption: 'The darkness overtakes Misenum',
-    },
-    tablets: {
-      alt: 'Writing tablets beside the ash-covered landscape at Misenum',
-      caption: 'The altered world set down for Tacitus',
-    },
-  },
-};
 
 function paragraphs(text: string, language: 'la' | 'en') {
   const blocks = text.split(/\n{2,}/).map((paragraph) => paragraph.trim()).filter(Boolean);
@@ -210,13 +168,18 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
     }
   };
 
-  const renderPlate = (panel: Folio['panel'], className = '', letterId?: Letter['id']) => {
-    const plate = PANEL_COPY[panel];
-    const contextualCopy = letterId ? LETTER_PANEL_COPY[letterId]?.[panel] : undefined;
+  const renderPlate = (folio: Folio, className = '') => {
+    const source = VESUVIUS_FOLIO_SOURCES[folio.artworkId as keyof typeof VESUVIUS_FOLIO_SOURCES];
+    if (!source) throw new Error(`Missing Vesuvius folio artwork: ${folio.artworkId}`);
+    const style = {
+      '--afterword-panel-fallback': `url("${source.desktop.fallback}")`,
+      '--afterword-panel-image-set': source.desktop.imageSet,
+      '--afterword-panel-image-set-mobile': source.mobile.imageSet,
+    } as CSSProperties;
     return (
       <figure className={`afterword-plate ${className}`.trim()}>
-        <div className={`afterword-plate-image ${plate.className}`} role="img" aria-label={contextualCopy?.alt ?? plate.alt} />
-        <figcaption>{contextualCopy?.caption ?? plate.caption}<span>Modern editorial detail</span></figcaption>
+        <div className="afterword-plate-image" style={style} role="img" aria-label={folio.imageAlt} />
+        <figcaption>{folio.imageCaption}<span>Modern editorial plate</span></figcaption>
       </figure>
     );
   };
@@ -250,7 +213,7 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
         {content && (
           <section className="afterword-folio">
             <aside className="afterword-visual-column">
-              {renderPlate(content.folio.panel, '', content.letter.id)}
+              {renderPlate(content.folio)}
               <div className="afterword-letter-map" aria-label={`Position in ${content.letter.canonicalReference}`}>
                 <p>{content.letter.canonicalReference}</p>
                 <div>{content.letter.folios.map((folio) => <i className={folio.number === content.folio.number ? 'active' : ''} key={folio.number} />)}</div>
@@ -307,7 +270,10 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
               <Link href="/" className="afterword-begin">Return to <i>Naturalis Historia</i> <span>→</span></Link>
             </div>
             <div className="afterword-quadrants" aria-label="Four Vesuvius editorial plates">
-              {renderPlate('observer')}{renderPlate('fleet')}{renderPlate('appeal')}{renderPlate('ash')}
+              {renderPlate(data.letters[0].folios[1])}
+              {renderPlate(data.letters[0].folios[3])}
+              {renderPlate(data.letters[0].folios[4])}
+              {renderPlate(data.letters[1].folios[5])}
             </div>
           </section>
         )}

@@ -20,12 +20,15 @@ fail(
 );
 
 const plateCampaign = JSON.parse(fs.readFileSync(path.join(root, 'assets-source/plates-provenance.json'), 'utf8'));
+const vesuviusFolioCampaign = JSON.parse(fs.readFileSync(path.join(root, 'assets-source/vesuvius-folios-provenance.json'), 'utf8'));
 const legacyPlateFiles = Object.keys(plateCampaign.legacyAssets ?? {}).sort();
 fail(Object.keys(plateCampaign.assets ?? {}).length === 0, 'Retired atlas-cell campaign remains in the active provenance ledger');
 fail(
   JSON.stringify(legacyPlateFiles) === JSON.stringify(activePlateFiles),
   `Expected exactly the two active non-chapter plates; found ${legacyPlateFiles.join(', ') || 'none'}`,
 );
+const vesuviusFolioRecords = Object.entries(vesuviusFolioCampaign.records ?? {});
+fail(vesuviusFolioRecords.length === 12, `Expected 12 Vesuvius folio receipts; found ${vesuviusFolioRecords.length}`);
 
 const rights = JSON.parse(fs.readFileSync(path.join(root, 'assets-source/asset-rights.json'), 'utf8'));
 const chapterSceneProvenancePath = path.join(root, 'assets-source', 'chapter-scenes-provenance.json');
@@ -41,6 +44,20 @@ const chapterSceneSourceMode = resolveChapterSceneSourceMode(
 const sourceHashes = new Set();
 const chapterSceneArtworkIds = new Map();
 const generationEvidenceIds = new Set();
+const vesuviusFolioHashes = new Set();
+for (const [folioKey, record] of vesuviusFolioRecords) {
+  const sourceArtifact = path.join(root, record.sourceArtifact ?? '');
+  const evidenceId = record.generationArtifactId;
+  fail(record.artworkId === `afterword-folio:${folioKey}`, `Vesuvius folio identity drifted at ${folioKey}`);
+  fail(record.builtInMode === true && evidenceId && record.visualQa?.status === 'passed', `Vesuvius generation evidence is incomplete at ${folioKey}`);
+  fail(record.customPrompt || (vesuviusFolioCampaign.promptProfiles[record.promptProfile] && record.scenePrompt), `Vesuvius exact prompt assembly is incomplete at ${folioKey}`);
+  const sourceSha256 = createHash('sha256').update(fs.readFileSync(sourceArtifact)).digest('hex');
+  fail(sourceSha256 === record.sourceSha256 && !vesuviusFolioHashes.has(sourceSha256), `Vesuvius source hash drifted or repeats at ${folioKey}`);
+  vesuviusFolioHashes.add(sourceSha256);
+  const rightsRecord = rights.assets?.[record.artworkId];
+  fail(rightsRecord && !rightsRecord.rightsStatus.includes('pending') && rightsRecord.sourceSha256 === sourceSha256, `Vesuvius folio ${folioKey} lacks source-bound cleared rights`);
+}
+fail(vesuviusFolioHashes.size === 12, 'Vesuvius folio source uniqueness drifted');
 for (const [chapterKey, record] of Object.entries(chapterScenes.records ?? {})) {
   const sourceArtifact = path.join(root, record.sourceArtifact ?? '');
   if (record.chapterKey !== chapterKey || !record.prompt || record.builtInMode !== true) {
@@ -111,5 +128,5 @@ fail(
 );
 
 console.log(
-  `Verified ${canonicalChapterSceneCount.toLocaleString('en-US')} independently generated, source-hash-bound chapter scenes and ${assignmentEntries.length.toLocaleString('en-US')} one-to-one standalone assignments with zero atlas-cell inventory or routes${chapterSceneSourceMode === 'prebuilt-public' ? ' against authenticated prebuilt provenance' : ' against preservation-master bytes'}.`,
+  `Verified ${canonicalChapterSceneCount.toLocaleString('en-US')} independently generated, source-hash-bound chapter scenes, 12 independently generated Vesuvius folio illustrations, and ${assignmentEntries.length.toLocaleString('en-US')} one-to-one standalone chapter assignments with zero atlas-cell inventory or routes${chapterSceneSourceMode === 'prebuilt-public' ? ' against authenticated prebuilt provenance' : ' against preservation-master bytes'}.`,
 );

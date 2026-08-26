@@ -18,9 +18,10 @@ production change must repeat the technical and edge gates below.
 - [x] The accepted production build ran `npm run release:check`, including the
       canonical-domain DNS gate; packaging success alone is not publication
       authorization for a future deployment.
-- [x] Exactly two active non-chapter plates and one social card have creator,
-      rights holder, license, SHA-256, and receipt evidence; the Vesuvius plate
-      exposes exactly four source-bound editorial crops.
+- [x] Exactly two supplementary plates, twelve one-to-one Vesuvius folio
+      illustrations, and one social card have creator, rights holder, license,
+      SHA-256, and receipt evidence. The four-panel Vesuvius atlas is retained
+      only as an opening tableau, never reused as a reading-folio crop.
 - [x] The illustration claim matches `docs/ILLUSTRATION_COVERAGE.md`: all 1,065
       chapter illustrations are independently generated standalone masters,
       no atlas-cell library, route, or derivative is shipped, and no crop is
@@ -39,10 +40,10 @@ production change must repeat the technical and edge gates below.
       dependencies, build output, raw downloads, archived unused plates, all
       chapter-scene source PNGs, and all chapter-scene reject evidence while
       retaining receipts, manifests, code, and generated public derivatives.
-- [x] Its production visual topology is exact: 1,065 chapter scenes, two active
-      non-chapter plate masters, four Vesuvius crops, one social card, and zero
-      atlas-cell records or delivery files. Retired build experiments and
-      migration-only inventories are absent.
+- [x] Its production visual topology is exact: 1,065 chapter scenes, two
+      supplementary plate masters, twelve unique Vesuvius folio illustrations,
+      one social card, and zero atlas-cell or repeated afterword-crop delivery
+      files. Retired build experiments and migration-only inventories are absent.
 - [ ] Archive integrity test, SHA-256, extracted test receipt, and source commit
       are recorded.
 - [ ] The exact archive is scanned for private keys, provider-token patterns,

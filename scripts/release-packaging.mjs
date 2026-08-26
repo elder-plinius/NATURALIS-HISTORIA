@@ -28,13 +28,14 @@ const excludedExact = new Set([
   '.DS_Store',
   '.netrc',
   '.npmrc',
+  'next-env.d.ts',
   'RELEASE-HOLD.txt',
   'RELEASE-MANIFEST.sha256',
   'RELEASE-PROFILE.json',
 ]);
 const excludedSuffixes = [
   '.aac', '.db', '.der', '.flac', '.key', '.log', '.m4a', '.mp3', '.ogg', '.p12', '.pem',
-  '.pfx', '.pyc', '.pyo', '.sqlite', '.sqlite3', '.tar', '.tgz', '.wav', '.zip',
+  '.pfx', '.pyc', '.pyo', '.sqlite', '.sqlite3', '.tar', '.tgz', '.tsbuildinfo', '.wav', '.zip',
 ];
 
 export const toPosixPath = (value) => value.split(path.sep).join('/');
