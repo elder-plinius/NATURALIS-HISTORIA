@@ -1,6 +1,6 @@
 # NATVRALIS HISTORIA
 
-## The whole world, illustrated again.
+## The First Encyclopædia — illustrated!
 
 **XXXVII books · 1,065 bilingual chapters · 1,065 original AI-generated illustrations**
 
