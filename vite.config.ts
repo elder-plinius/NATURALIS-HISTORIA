@@ -22,7 +22,9 @@ export default defineConfig(async () => {
       vinext(),
       cloudflare({
         viteEnvironment: { name: 'rsc', childEnvironments: ['ssr'] },
-        configPath: './wrangler.jsonc',
+        // Keep the vinext source entry separate from the root deploy config.
+        // Workers Builds runs Wrangler from the repository root after `build`.
+        configPath: './wrangler.source.jsonc',
       }),
     ],
   };

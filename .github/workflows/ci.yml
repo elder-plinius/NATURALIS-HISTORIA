@@ -24,4 +24,6 @@ jobs:
       - run: npm run check
       - run: npm run deploy:dry-run
       - run: npm run deploy:preview:dry-run
+      - run: npm run deploy:workers-builds:dry-run
+      - run: npm run deploy:workers-builds-preview:dry-run
       - run: npm audit --audit-level=high

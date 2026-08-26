@@ -36,6 +36,8 @@
     "deploy:preview": "node scripts/run-wrangler.mjs versions upload -c dist/server/wrangler.json",
     "deploy:preview:dry-run": "node scripts/run-wrangler.mjs versions upload --dry-run -c dist/server/wrangler.json",
     "deploy:dry-run": "node scripts/run-wrangler.mjs deploy --dry-run -c dist/server/wrangler.json",
+    "deploy:workers-builds:dry-run": "node scripts/run-wrangler.mjs deploy --dry-run",
+    "deploy:workers-builds-preview:dry-run": "node scripts/run-wrangler.mjs versions upload --dry-run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "check": "node scripts/check.mjs",

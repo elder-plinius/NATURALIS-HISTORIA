@@ -12,6 +12,7 @@ const required = [
   'CODE_OF_CONDUCT.md',
   'CITATION.cff',
   'wrangler.jsonc',
+  'wrangler.source.jsonc',
   '.github/CODEOWNERS',
   '.github/workflows/ci.yml',
 ];
@@ -33,8 +34,12 @@ if (packageJson.devDependencies?.['@openai/sites-vite-plugin']) {
   throw new Error('Private Sites plugin remains in the public package');
 }
 
-const wrangler = fs.readFileSync(path.join(root, 'wrangler.jsonc'), 'utf8');
-if (!wrangler.includes('"name": "naturalis-historia"')) throw new Error('Cloudflare Worker name is not canonical');
+for (const relative of ['wrangler.jsonc', 'wrangler.source.jsonc']) {
+  const wrangler = fs.readFileSync(path.join(root, relative), 'utf8');
+  if (!wrangler.includes('"name": "naturalis-historia"')) {
+    throw new Error(`Cloudflare Worker name is not canonical in ${relative}`);
+  }
+}
 
 const policy = JSON.parse(fs.readFileSync(path.join(root, 'edition-policy.json'), 'utf8'));
 if (!policy.publicIndexing || policy.accessMode !== 'public') throw new Error('Edition policy is not public');

@@ -27,9 +27,10 @@ only after its checks pass. Keep `main` protected from direct pushes.
    leaves the vinext build in `dist/` for either deployment path.
 4. Use production deploy command `npm run deploy:production`. It runs the live
    publication gates, then deploys `dist/server/wrangler.json` without rebuilding.
-5. Use non-production branch deploy command `npm run deploy:preview`. Do not
-   leave Cloudflare's default `npx wrangler versions upload`: that command reads
-   the source `wrangler.jsonc`, while vinext must upload the generated config.
+5. Use non-production branch deploy command `npm run deploy:preview`. The
+   standard `npx wrangler versions upload` also works: the root
+   `wrangler.jsonc` now targets the built Worker, while `wrangler.source.jsonc`
+   is reserved for vinext's build input.
 6. Leave the root directory at `/` and set the production branch to `main`.
 7. Ensure the Worker name is `naturalis-historia`, matching `wrangler.jsonc`.
 8. Enable non-production branch builds when PR preview checks are wanted.
@@ -42,6 +43,12 @@ The three dashboard command fields are deliberately different:
 | Build command | `npm run check` | Verify and create `dist/` on every branch |
 | Deploy command | `npm run deploy:production` | Gate and promote production |
 | Non-production branch deploy command | `npm run deploy:preview` | Upload an unpromoted PR preview from the built config |
+
+Cloudflare's default `npx wrangler deploy` and `npx wrangler versions upload`
+are supported as fallbacks. The root config runs `npm run build` itself when
+Cloudflare's optional build-command field is empty, then deploys `dist/`. The
+commands above remain preferred because production gets the publication gate
+and both paths use the exact config vinext generated.
 
 Before enabling production builds, confirm the canonical domain actually
 resolves:
@@ -64,10 +71,14 @@ npm run check
 npm run build
 npm run deploy:dry-run
 npm run deploy:preview:dry-run
+npm run deploy:workers-builds:dry-run
+npm run deploy:workers-builds-preview:dry-run
 npm run release:check
 ```
 
 The dry runs establish both production and preview deployability. The final
 command is the publication decision and must pass before production promotion.
-`npm run deploy` remains the all-in-one local release path; Workers Builds must
-use the branch-specific commands above because it separates build from deploy.
+`npm run deploy` remains the all-in-one local release path. Workers Builds
+should use the branch-specific commands above because it separates build from
+deploy; its native defaults are now tested compatibility paths rather than
+unverified assumptions.
