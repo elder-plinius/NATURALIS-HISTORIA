@@ -1026,7 +1026,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, [tabindex]:focu
 .afterword-folio-title p { margin: 0 0 7px; color: #8c4936; font-size: 8px; letter-spacing: .21em; }
 .afterword-folio-title h1 { margin: 0; color: #40291f; font-size: clamp(30px,3vw,46px); font-weight: 400; line-height: 1; }
 .afterword-folio-title span { display: block; margin-top: 7px; color: #7a6148; font-size: 10px; font-style: italic; }
-.afterword-language-controls { display: flex; flex: 0 0 auto; align-items: center; gap: 6px; padding: 11px 0; }
+.afterword-language-controls { display: flex; flex-wrap: wrap; flex: 0 0 auto; align-items: center; gap: 6px; padding: 11px 0; }
 .afterword-language-controls button { min-height: 30px; padding: 5px 9px; border: 1px solid rgba(98,58,33,.24); color: #6c503d; background: rgba(255,245,214,.13); font-size: 7px; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }
 .afterword-language-controls button.active { border-color: #914a36; color: #efe0ba; background: #75402f; }
 .afterword-language-controls > span { margin-left: auto; color: #68402f; font-size: 8px; font-style: italic; }
@@ -1344,7 +1344,7 @@ mark { padding: 0 1px; color: inherit; background: rgba(190,142,55,.35); }
   .is-focus .header-actions { display: none; }
   .is-focus .language-mark { display: flex; gap: 4px; }
   .is-focus .language-mark > span, .is-focus .language-mark i { display: none; }
-  .is-focus .language-mark select { max-width: 118px; padding: 6px 18px 6px 7px; }
+  .is-focus .language-mark select { max-width: 160px; padding: 6px 18px 6px 7px; }
   .is-focus .reader-actions { grid-row: 1; }
   .is-focus .reader-toolbar { display: none; }
   .is-focus .book-stage { width: 100%; height: 100%; min-height: 0; }
@@ -1464,7 +1464,7 @@ mark { padding: 0 1px; color: inherit; background: rgba(190,142,55,.35); }
   .focus-action > span { display: none; }
   .is-focus .mobile-view-toggle span { display: inline; font-size: 11px; }
   .language-mark > span { display: none; }
-  .language-mark select { max-width: 132px; }
+  .language-mark select { max-width: 160px; }
   .reader-toolbar { padding: 7px 9px; gap: 7px; }
   .reader-toolbar label { grid-template-columns: 1fr; gap: 2px; }
   .reader-toolbar select { font-size: 9px; }
@@ -1583,13 +1583,6 @@ mark { padding: 0 1px; color: inherit; background: rgba(190,142,55,.35); }
 }
 
 /* Optional pronunciation aid, separate from the historical source text. */
-.macron-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 10px; flex: 0 0 auto; margin: -8px 0 12px; font-size: 12px; line-height: 1.4; color: #67452f; }
-.macron-tools[hidden] { display: none; }
-.macron-toggle { min-height: 32px; padding: 5px 10px; border: 1px solid #967344; border-radius: 3px; background: transparent; color: inherit; font: inherit; cursor: pointer; white-space: nowrap; }
-.macron-toggle[aria-pressed="true"] { background: #67452f; color: #fff4d9; }
-.macron-toggle:disabled { cursor: wait; opacity: .7; }
-.macron-toggle:focus-visible { outline: 2px solid #8f3e2f; outline-offset: 3px; }
-.macron-note { flex: 1 1 150px; }
-.macron-note a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
-.afterword-text-column > .macron-tools { margin: 0 0 12px; }
-@media (pointer: coarse) { .macron-toggle { min-height: 44px; } }
+.language-status { max-width: 220px; font-size: 12px; line-height: 1.4; }
+.language-status button { color: inherit; font: inherit; text-decoration: underline; background: none; border: 0; cursor: pointer; }
+.afterword-language-controls > span[role="status"] { display: inline; }

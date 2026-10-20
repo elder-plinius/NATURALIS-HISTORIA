@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 import { chapterIllustration } from './illustrations.mjs';
 import { InkInline, InkParagraphs } from './InkDiffusionText';
-import { MacronControl, useMacrons } from './MacronControl';
+import { useMacrons } from './MacronControl';
 import { requiredShardIds, searchPositionalIndex } from './search-index.mjs';
 import { findSearchRanges, normalizeSearchText, searchIsReady } from './search.mjs';
 import { SITE_NAME, SITE_ORIGIN } from './site-metadata';
@@ -484,6 +484,7 @@ function Highlight({ text, query }: { text: string; query: string }) {
 
 export default function Home() {
   const macrons = useMacrons();
+  const selectMacrons = macrons.select;
   const router = useRouter();
   const [manifest, setManifest] = useState<Manifest | null>(null);
   const [activeBook, setActiveBook] = useState<BookData | null>(null);
@@ -1283,6 +1284,7 @@ export default function Home() {
   };
 
   const openSearchResult = useCallback((result: SearchResult) => {
+    void selectMacrons(false);
     translationModeRef.current = result.field;
     setTranslationMode(result.field);
     setDiffusionState(result.field === 'la' ? 'latin' : 'english');
@@ -1291,7 +1293,7 @@ export default function Home() {
       : null;
     requestOrdinal(result.ordinal);
     setSearchOpen(false);
-  }, [requestOrdinal]);
+  }, [requestOrdinal, selectMacrons]);
 
   const onSearchSubmit = (event: FormEvent) => event.preventDefault();
 
@@ -1406,9 +1408,11 @@ export default function Home() {
         <div className="reader-actions">
           <label className="language-mark">
             <select
-              value={translationMode}
+              value={translationMode === 'la' && macrons.requested ? 'la-macrons' : translationMode}
               onChange={(event) => {
-                const mode = event.target.value as TranslationMode;
+                const selected = event.target.value;
+                const mode = (selected === 'la-macrons' ? 'la' : selected) as TranslationMode;
+                void macrons.select(selected === 'la-macrons');
                 translationModeRef.current = mode;
                 capturePassageProgress();
                 setTranslationMode(mode);
@@ -1423,10 +1427,12 @@ export default function Home() {
             >
               <option value="auto">Latin → English</option>
               <option value="la">Latin</option>
+              <option value="la-macrons">Latin with macrons</option>
               <option value="en">English</option>
             </select>
             <i className={translationMode === 'auto' && diffusionState === 'diffusing' ? 'is-transforming' : ''} aria-hidden="true" />
           </label>
+          {(macrons.loading || macrons.error) && <span className="language-status" role="status">{macrons.loading ? 'Loading macrons…' : <>{macrons.error} <button type="button" onClick={() => { void macrons.select(true); }}>Retry</button></>}</span>}
           <button
             className="header-action focus-action"
             type="button"
@@ -1491,14 +1497,6 @@ export default function Home() {
                 <MorphText latin={macrons.annotate(chapter.latinTitle || chapter.label.toUpperCase())} english={chapter.title} state={diffusionState} />
               </h2>
               <div className="chapter-ornament" aria-hidden="true"><span />✦<span /></div>
-              <MacronControl control={macrons} onToggle={() => {
-                capturePassageProgress();
-                if (!macrons.enabled) {
-                  translationModeRef.current = 'la';
-                  setTranslationMode('la');
-                  setDiffusionState('latin');
-                }
-              }} />
               <div className={`passage-frame is-${diffusionState}`}>
                 <div
                   className="passage-scroll"
