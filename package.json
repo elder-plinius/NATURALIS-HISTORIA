@@ -61,29 +61,39 @@
     "test:release-manifest": "node scripts/verify-release-manifest.mjs",
     "test:release-packaging": "node scripts/verify-release-packaging.mjs",
     "test:public-release": "node scripts/verify-public-release.mjs",
-    "audit:artwork-coverage": "node scripts/audit-artwork-coverage.mjs"
+    "audit:artwork-coverage": "node scripts/audit-artwork-coverage.mjs",
+    "release:refresh-manifest": "node scripts/verify-release-manifest.mjs --write",
+    "test:maintenance": "node scripts/verify-maintenance.mjs",
+    "test:macrons": "node scripts/verify-macrons.mjs",
+    "test:dependency-security": "node scripts/verify-dependency-security.mjs",
+    "test:site-icons": "node scripts/verify-site-icons.mjs"
   },
   "dependencies": {
-    "next": "16.3.2",
+    "next": "16.3.8",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.53.1",
-    "@cloudflare/workers-types": "5.20260823.1",
+    "@cloudflare/vite-plugin": "1.64.0",
+    "@cloudflare/workers-types": "5.20261019.1",
     "@types/node": "22.20.1",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.5",
-    "@vitejs/plugin-react": "6.1.0",
+    "@vitejs/plugin-react": "6.1.1",
     "@vitejs/plugin-rsc": "0.5.34",
+    "braces": "file:vendor/braces",
     "eslint": "9.39.4",
-    "eslint-config-next": "16.3.2",
+    "eslint-config-next": "16.3.8",
     "react-server-dom-webpack": "19.2.8",
-    "sharp": "0.35.3",
+    "sharp": "0.35.5",
     "typescript": "5.9.3",
-    "vinext": "1.0.0-beta.8",
+    "vinext": "1.0.0",
     "vite": "8.2.2",
-    "wrangler": "4.125.0"
+    "wrangler": "4.151.3"
   },
-  "type": "module"
+  "type": "module",
+  "overrides": {
+    "braces": "$braces",
+    "fflate": "0.8.3"
+  }
 }

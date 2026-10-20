@@ -14,8 +14,9 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
   alternates: { canonical: '/' },
   icons: {
-    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
-    shortcut: ['/favicon.svg'],
+    icon: [{ url: '/favicon.png', type: 'image/png', sizes: '400x400' }],
+    shortcut: ['/favicon.png'],
+    apple: [{ url: '/favicon.png', type: 'image/png', sizes: '400x400' }],
   },
   robots: RELEASE_ROBOTS,
   openGraph: {

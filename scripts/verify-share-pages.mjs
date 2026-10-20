@@ -51,7 +51,7 @@ const remedies = await readFile(path.join(publicRoot, 'read', '28', '8.html'), '
 fail(remedies.includes('Historical remedies—not medical advice'), 'Remedy share page lacks its content notice');
 const sample = await readFile(path.join(publicRoot, 'read', '8', '14.html'), 'utf8');
 fail(sample.includes('Bostock &amp; Riley 1855–57') && sample.includes('Mayhoff 1906'), 'Sample share page lost bilingual source labels');
-fail(sample.includes('<link rel="icon" href="/favicon.svg" type="image/svg+xml">'), 'Share leaves do not declare the edition favicon');
+fail(sample.includes('<link rel="icon" href="/favicon.png" type="image/png" sizes="400x400">'), 'Share leaves do not declare the edition favicon');
 const originalScene = await readFile(path.join(publicRoot, 'read', '2', '15.html'), 'utf8');
 fail(originalScene.includes('leaf-plate-contained') && originalScene.includes('/assets/chapter-b02-c015.') && originalScene.includes('.w1536.avif'), 'Original-scene share leaf is not delivered uncropped');
 const replacementScene = await readFile(path.join(publicRoot, 'read', '34', '13.html'), 'utf8');

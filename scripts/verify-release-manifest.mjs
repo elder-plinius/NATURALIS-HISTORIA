@@ -9,9 +9,17 @@ import {
   hashFile,
   includeReleasePath,
 } from './release-packaging.mjs';
+import { readAuthenticatedReleaseProfile } from './release-profile.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const args = process.argv.slice(2);
+if (args.some((arg) => arg !== '--write') || args.length > 1) throw new Error('Usage: node scripts/verify-release-manifest.mjs [--write]');
+const write = args.includes('--write');
+// A refresh must not silently authenticate an altered release profile.
+if (write) readAuthenticatedReleaseProfile(root);
 const manifestPath = path.join(root, 'RELEASE-MANIFEST.sha256');
+const manifestStat = fs.lstatSync(manifestPath);
+if (!manifestStat.isFile() || manifestStat.isSymbolicLink()) throw new Error('Release manifest must be a regular file.');
 const manifestText = fs.readFileSync(manifestPath, 'utf8');
 if (!manifestText.endsWith('\n')) throw new Error('Release manifest must end with a newline.');
 
@@ -67,18 +75,26 @@ if (listed.status === 0) {
 const expectedPaths = [...new Set([...releasePaths, 'RELEASE-PROFILE.json'])]
   .sort((left, right) => left.localeCompare(right, 'en'));
 
-if (declared.size !== expectedPaths.length) {
+if (!write && declared.size !== expectedPaths.length) {
   throw new Error(`Release manifest declares ${declared.size} paths; the public tree requires ${expectedPaths.length}.`);
 }
 
+const refreshed = [];
 for (const relative of expectedPaths) {
   const expected = declared.get(relative);
-  if (!expected) throw new Error(`Public release path is absent from the manifest: ${relative}`);
+  if (!write && !expected) throw new Error(`Public release path is absent from the manifest: ${relative}`);
   const absolute = path.join(root, relative);
   const stat = fs.lstatSync(absolute);
   if (!stat.isFile() || stat.isSymbolicLink()) throw new Error(`Manifest path is not a regular file: ${relative}`);
   const actual = await hashFile(absolute);
-  if (actual !== expected) throw new Error(`Release manifest digest mismatch: ${relative}`);
+  refreshed.push(`${actual}  ${relative}`);
+  if (!write && actual !== expected) throw new Error(`Release manifest digest mismatch: ${relative}`);
+}
+
+if (write) {
+  refreshed.sort((left, right) => left.localeCompare(right, 'en'));
+  fs.writeFileSync(manifestPath, `${refreshed.join('\n')}\n`, 'utf8');
+  console.log('Refreshed release manifest. Review its diff before committing; verification never refreshes it automatically.');
 }
 
 console.log(`Verified exact SHA-256 release manifest coverage for ${expectedPaths.length.toLocaleString('en-US')} public files.`);

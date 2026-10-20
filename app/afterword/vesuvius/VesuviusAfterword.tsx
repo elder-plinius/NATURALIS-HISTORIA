@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 
 import { InkParagraphs } from '../../InkDiffusionText';
+import { MacronControl, useMacrons } from '../../MacronControl';
 import { VESUVIUS_FOLIO_SOURCES } from './generated-folio-sources.mjs';
 
 type Folio = {
@@ -65,6 +66,7 @@ function clampLeaf(value: number, maximum: number) {
 }
 
 export default function VesuviusAfterword({ data }: { data: LettersData }) {
+  const macrons = useMacrons();
   const leaves = useMemo(() => data.letters.flatMap((letter) => letter.folios.map((folio) => ({ letter, folio }))), [data.letters]);
   const lastLeaf = leaves.length + 1;
   const [leaf, setLeaf] = useState(0);
@@ -225,7 +227,7 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
               <header className="afterword-folio-title">
                 <p>{content.letter.canonicalReference} · FOLIO {content.folio.number} OF VI</p>
                 <h1>{content.folio.editorialTitle}</h1>
-                <span lang="la">{content.letter.latinHeading}</span>
+                <span lang="la">{macrons.annotate(content.letter.latinHeading)}</span>
               </header>
 
               <div className="afterword-language-controls" role="group" aria-label="Reading language">
@@ -234,9 +236,10 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
                     {mode === 'auto' ? 'Latin → English' : mode === 'la' ? 'Latin' : 'English'}
                   </button>
                 ))}
-                <span aria-live="polite">{diffusionPhase === 'diffusing' ? 'Ink translating…' : activeLanguage === 'la' ? 'Original Latin' : 'Melmoth translation'}</span>
+                <span aria-live="polite">{diffusionPhase === 'diffusing' ? 'Ink translating…' : activeLanguage === 'la' ? macrons.enabled ? 'Latin · partial dictionary macrons' : 'Original Latin' : 'Melmoth translation'}</span>
               </div>
 
+              <MacronControl control={macrons} onToggle={() => { if (!macrons.enabled) selectLanguageMode('la'); }} />
               <div
                 ref={passageRef}
                 className={`afterword-passage phase-${diffusionPhase}`}
@@ -245,7 +248,7 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
                 aria-label={`${activeLanguage === 'la' ? 'Original Latin' : 'Melmoth English translation'} reading passage; scroll for the complete leaf`}
               >
                 <div className="afterword-language-stack">
-                  <section className="afterword-text-layer latin-layer" aria-hidden={activeLanguage !== 'la'}>{paragraphs(content.folio.latin, 'la')}</section>
+                  <section className="afterword-text-layer latin-layer" aria-hidden={activeLanguage !== 'la'}>{paragraphs(macrons.annotate(content.folio.latin), 'la')}</section>
                   <section className="afterword-text-layer english-layer" aria-hidden={activeLanguage !== 'en'}>{paragraphs(content.folio.english, 'en')}</section>
                   {diffusionPhase === 'diffusing' && <div className="afterword-ink-drift" aria-hidden="true" />}
                 </div>

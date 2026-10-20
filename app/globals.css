@@ -1581,3 +1581,15 @@ mark { padding: 0 1px; color: inherit; background: rgba(190,142,55,.35); }
   .fortuna-button, .fortuna-button::after, .fortuna-button .fortuna-seal, .fortuna-button .fortuna-flourish { animation: none !important; transition: none !important; }
   .fortuna-button.is-casting { transform: none; }
 }
+
+/* Optional pronunciation aid, separate from the historical source text. */
+.macron-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 10px; flex: 0 0 auto; margin: -8px 0 12px; font-size: 12px; line-height: 1.4; color: #67452f; }
+.macron-tools[hidden] { display: none; }
+.macron-toggle { min-height: 32px; padding: 5px 10px; border: 1px solid #967344; border-radius: 3px; background: transparent; color: inherit; font: inherit; cursor: pointer; white-space: nowrap; }
+.macron-toggle[aria-pressed="true"] { background: #67452f; color: #fff4d9; }
+.macron-toggle:disabled { cursor: wait; opacity: .7; }
+.macron-toggle:focus-visible { outline: 2px solid #8f3e2f; outline-offset: 3px; }
+.macron-note { flex: 1 1 150px; }
+.macron-note a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.afterword-text-column > .macron-tools { margin: 0 0 12px; }
+@media (pointer: coarse) { .macron-toggle { min-height: 44px; } }

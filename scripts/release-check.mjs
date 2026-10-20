@@ -4,9 +4,11 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const checks = [
+  ['installed dependency backport and compression safety', 'verify-dependency-security.mjs'],
   ['release security and deployment boundary', 'verify-release-security.mjs'],
   ['public rights and source policy', 'verify-public-release.mjs'],
   ['independent artwork coverage', 'audit-artwork-coverage.mjs'],
+  ['site identity icons', 'verify-site-icons.mjs'],
   ['canonical-domain DNS', 'verify-production-domain.mjs'],
 ];
 

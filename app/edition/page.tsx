@@ -28,6 +28,13 @@ export default function EditionPage() {
           <p>Every illustration, Latin plate caption, and page composition is a modern editorial addition. After Book XXXVII, a clearly separated <Link href="/afterword/vesuvius">Vesuvius afterword</Link> presents Pliny the Younger’s <em>Epistulae</em> VI.16 and VI.20. Those later letters are testimony about the Elder and the eruption—not part of <em>Naturalis Historia</em>, not a thirty-eighth book, and not included in the corpus count or search index.</p>
         </section>
 
+        <section className="editorial-prose" id="macrons">
+          <h2>Optional dictionary macrons</h2>
+          <p>The “Macrons” control adds a partial pronunciation aid to the Latin passages and titles, including the Vesuvius letters. Turning it on selects Latin; turning it off restores the exact source display. The original Latin remains the default and is never replaced in the corpus, search index, or shared chapter links.</p>
+          <p>The aid uses Johan Winge’s <a href="https://github.com/Alatius/latin-macronizer">Latin Macronizer lexicon</a>. A vowel is marked long only where all supplied dictionary analyses agree. It does not infer grammar or choose between ambiguous meanings. Unknown words and uncertain vowels remain unmarked; an unmarked vowel is not necessarily short. Dictionary agreement can still contain errors: this is not a human-proofread macronized edition.</p>
+          <p>The <a href="/macrons/receipt.json">generation receipt</a> records the pinned source, method, input hashes and coverage. The lexicon subset retains its upstream <a href="/macrons/LICENSE">GNU GPL v3 licence</a>; the underlying Perseus Latin retains CC BY-SA 4.0. No external service receives the reading text.</p>
+        </section>
+
         <section className="editorial-panel" id="rights">
           <p className="editorial-kicker">RIGHTS & ATTRIBUTION</p>
           <h2>A mixed-rights scholarly object</h2>

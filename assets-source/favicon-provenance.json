@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "role": "site identity favicon and touch icon",
+  "subject": "elder-plinius public GitHub avatar, ouroboros at sunset",
+  "sourceUrl": "https://avatars.githubusercontent.com/u/133052465?v=4",
+  "profileUrl": "https://github.com/elder-plinius",
+  "retrievedAt": "2026-10-20",
+  "sourceSha256": "ea5219efc2dc76eabb9e4490a3011b21f34493b7b8c21a7373bf9115e936f0fd",
+  "output": "public/favicon.png",
+  "dimensions": {
+    "width": 400,
+    "height": 400
+  },
+  "modifications": "JPEG decoded and losslessly encoded as PNG with Sharp 0.35.5; no crop, resize, retouching or generative alteration. Decoded pixels are identical.",
+  "useBasis": "Explicit user direction in this task to use Pliny's GitHub avatar as the site favicon. No broader copyright ownership or licence claim is made.",
+  "excludedFromProjectLicense": true,
+  "sourceArtifact": "assets-source/favicon-avatar.jpg",
+  "outputSha256": "67e7ad7786fc39c65205beb140f24e0b9533d9a323af98dd5f892a52beba9255"
+}

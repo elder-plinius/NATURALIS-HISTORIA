@@ -13,8 +13,21 @@
 /scripts/verify-public-release.mjs @elder-plinius
 /scripts/verify-release-security.mjs @elder-plinius
 /scripts/verify-release-manifest.mjs @elder-plinius
+/scripts/verify-maintenance.mjs @elder-plinius
+/scripts/build-assets.mjs @elder-plinius
 /scripts/run-wrangler.mjs @elder-plinius
 /scripts/verify-production-domain.mjs @elder-plinius
 /scripts/package-release.mjs @elder-plinius
 /scripts/smoke-release-archive.mjs @elder-plinius
 /.github/ @elder-plinius
+
+/app/macrons.mjs @elder-plinius
+/app/MacronControl.tsx @elder-plinius
+/scripts/build-macrons.py @elder-plinius
+/scripts/verify-macrons.mjs @elder-plinius
+/public/macrons/ @elder-plinius
+
+/vendor/ @elder-plinius
+/scripts/verify-dependency-security.mjs @elder-plinius
+/scripts/verify-site-icons.mjs @elder-plinius
+/public/favicon.png @elder-plinius
