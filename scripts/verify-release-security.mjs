@@ -28,8 +28,10 @@ for (const group of ['dependencies', 'devDependencies']) {
   fail(JSON.stringify(locked) === JSON.stringify(declared), `Lockfile root ${group} are out of sync with package.json.`);
   for (const [name, version] of Object.entries(declared)) {
     fail(
-      typeof version === 'string' && /^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/u.test(version),
-      `${group} entry ${name} must use an exact registry version, not ${version}.`,
+      typeof version === 'string' && (/^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/u.test(version)
+        || (group === 'devDependencies' && name === 'braces' && version === 'file:vendor/braces'
+          && packageJson.overrides?.braces === '$braces')),
+      `${group} entry ${name} must use an exact registry version or the reviewed local braces backport, not ${version}.`,
     );
   }
 }
@@ -121,7 +123,7 @@ fail(!nextCsp.includes('audio.naturalishistoria.org'), 'Launch CSP must not reta
 fail(/\/corpus\/manifest\.json[\s\S]*?Cache-Control: public, no-cache, must-revalidate/u.test(staticHeaders), 'Corpus manifest must revalidate.');
 
 const ci = read('.github/workflows/ci.yml');
-for (const required of ['permissions:\n  contents: read', 'persist-credentials: false', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
+for (const required of ['permissions:\n  contents: read', 'persist-credentials: false', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run release:check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
   fail(ci.includes(required), `CI is missing required control: ${required.replaceAll('\n', ' ')}.`);
 }
 

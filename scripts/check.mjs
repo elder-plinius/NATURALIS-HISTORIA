@@ -18,6 +18,7 @@ const commands = [
   ['npm', ['run', 'test:chapter-scenes']],
   ['npm', ['run', 'test:provenance']],
   ['npm', ['run', 'test:share-pages']],
+  ['npm', ['run', 'test:site-icons']],
   ['npm', ['run', 'test:reader-effects']],
   ['npm', ['run', 'test:afterword']],
   ['npm', ['run', 'test:search']],
@@ -25,6 +26,7 @@ const commands = [
   ['npm', ['run', 'test:release-packaging']],
   ['npm', ['run', 'test:release-security']],
   ['npm', ['run', 'test:maintenance']],
+  ['npm', ['run', 'test:dependency-security']],
   ['npm', ['run', 'build']],
   ['npm', ['run', 'test:release-manifest']],
 ];

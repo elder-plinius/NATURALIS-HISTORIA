@@ -58,3 +58,9 @@ Public-repository builds verify and preserve the shipped illustration derivative
 and encoder receipts. Updating Sharp must not re-encode reviewed plates during
 a deploy. Deliberate art regeneration belongs in a separately reviewed source
 release with synchronized provenance and no orphan derivatives.
+
+The only file dependency is the reviewed private `braces` security backport.
+Keep its source/installed hashes and adversarial regression gate intact.
+Run `npm run test:dependency-security` and the full audit after any dependency
+change. See `vendor/braces/SECURITY-BACKPORT.md` for exact patch provenance and
+the procedure for returning to a fixed upstream release.

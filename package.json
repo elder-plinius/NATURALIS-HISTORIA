@@ -64,7 +64,9 @@
     "audit:artwork-coverage": "node scripts/audit-artwork-coverage.mjs",
     "release:refresh-manifest": "node scripts/verify-release-manifest.mjs --write",
     "test:maintenance": "node scripts/verify-maintenance.mjs",
-    "test:macrons": "node scripts/verify-macrons.mjs"
+    "test:macrons": "node scripts/verify-macrons.mjs",
+    "test:dependency-security": "node scripts/verify-dependency-security.mjs",
+    "test:site-icons": "node scripts/verify-site-icons.mjs"
   },
   "dependencies": {
     "next": "16.3.8",
@@ -79,6 +81,7 @@
     "@types/react-dom": "19.2.5",
     "@vitejs/plugin-react": "6.1.1",
     "@vitejs/plugin-rsc": "0.5.34",
+    "braces": "file:vendor/braces",
     "eslint": "9.39.4",
     "eslint-config-next": "16.3.8",
     "react-server-dom-webpack": "19.2.8",
@@ -88,5 +91,9 @@
     "vite": "8.2.2",
     "wrangler": "4.151.3"
   },
-  "type": "module"
+  "type": "module",
+  "overrides": {
+    "braces": "$braces",
+    "fflate": "0.8.3"
+  }
 }

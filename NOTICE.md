@@ -65,3 +65,20 @@ root project licence. The source Latin remains under CC BY-SA 4.0.
 This layer adds only long-vowel positions shared by all supplied analyses.
 It is incomplete and has not been proofread as a contextual macronized edition.
 Unmarked vowels may be short, ambiguous, or absent from the dictionary.
+
+## Site identity avatar
+
+`public/favicon.png` reproduces the public GitHub avatar of `elder-plinius`,
+used for this site's identity at the user's express direction. Source URL and
+source/output hashes are recorded in `assets-source/favicon-provenance.json`.
+The avatar is excluded from the blanket project licence; no broader ownership
+or relicensing of the profile image is claimed. The original project-authored
+book seal remains available in `public/favicon.svg`.
+
+## Private braces security backport
+
+`vendor/braces/` contains MIT-licensed braces 3.0.3 by Jon Schlinkert with a
+locally reviewed backport of the source changes proposed by akahungryy in
+https://github.com/micromatch/braces/pull/87 . Exact source and patch identities
+are in `vendor/braces/SECURITY-BACKPORT.json`. Its private package name clearly
+distinguishes it from an upstream release; its MIT licence is retained.

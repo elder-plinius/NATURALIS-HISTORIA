@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "name": "braces",
+    "version": "3.0.3",
+    "tarball": "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz",
+    "integrity": "sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA=="
+  },
+  "backport": {
+    "source": "https://github.com/micromatch/braces/pull/87",
+    "repository": "akahungryy/braces",
+    "commit": "d44b9b1ee12e7804d4232d5a47a4a0c61d2fbefe",
+    "advisory": "GHSA-vfj7-8cjw-p6xm",
+    "status": "unmerged upstream proposal, locally reviewed and tested",
+    "modifiedFiles": [
+      "lib/compile.js",
+      "lib/constants.js",
+      "lib/expand.js",
+      "lib/parse.js",
+      "lib/stringify.js"
+    ],
+    "behavior": "Parser and AST nesting capped at 100; maxDepth may lower but not raise cap; parent-chain cycles rejected during expansion. Callers must handle validation errors. Expansion-size hazards remain subject to existing rangeLimit and trusted build patterns."
+  },
+  "upstreamFileSha256": {
+    "LICENSE": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+    "index.js": "332ea07c7b006361aad12aa994ca75dc1db8e8382b884909e2f38f10b85c88a4",
+    "lib/compile.js": "dc98f22eee3d511785d92a00758d5f0d48efed5f5813bdecc2de430c529b5c9f",
+    "lib/constants.js": "c18ac5adb57308f1ce42a28552da3a31f5d83709743ebd9a636336813a744d4b",
+    "lib/expand.js": "41ccc196ebfa7b7781a634e721eb744e4e7bcb54cba427a7e3d6806a1b9e58f7",
+    "lib/parse.js": "e572166565f15fa6ad9865ae49d678218e32aabfd1b3720f6d0d43d39800d310",
+    "lib/stringify.js": "379f22d77bfa1478341ccd49c5e4267464aabcbba03558bab332aac23fc6f23a",
+    "lib/utils.js": "b5a7596aa67730412b3c029ef09e84e6b67b8e445cffd35d1d295549c89066c7"
+  },
+  "installedFileSha256": {
+    "LICENSE": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+    "index.js": "332ea07c7b006361aad12aa994ca75dc1db8e8382b884909e2f38f10b85c88a4",
+    "lib/compile.js": "b651f7715e6db8942ce61d3394357b4d81c8ece88240aa31a458ea1165edd195",
+    "lib/constants.js": "f9fb688959232eee3e6ad7906a5b0e3234815db49ee857ef86983d65b917dc7c",
+    "lib/expand.js": "7ea3e14c2b2b256ef244fd3d83b8fcaa20aa2232b4e6d768c3bb6ab567f66cf5",
+    "lib/parse.js": "b1bf766fba6a62035f78ecbda8a5fd94e921aa1c1ec0cdf3f467e9c836abed55",
+    "lib/stringify.js": "49dc2d8bafa74f34715a18a845bcb82ce66caaf3bab4cf117998e06b1f9a50a9",
+    "lib/utils.js": "b5a7596aa67730412b3c029ef09e84e6b67b8e445cffd35d1d295549c89066c7",
+    "package.json": "663e0f6c2c65544fa19b74c9854a0cfca60f012478fdc0ac81f3d401a5aa932b"
+  }
+}

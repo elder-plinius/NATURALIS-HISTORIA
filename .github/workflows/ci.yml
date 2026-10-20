@@ -22,6 +22,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+      - run: npm run release:check
       - run: npm run deploy:dry-run
       - run: npm run deploy:preview:dry-run
       - run: npm run deploy:workers-builds:dry-run

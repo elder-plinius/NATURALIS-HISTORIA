@@ -26,3 +26,8 @@
 /scripts/build-macrons.py @elder-plinius
 /scripts/verify-macrons.mjs @elder-plinius
 /public/macrons/ @elder-plinius
+
+/vendor/ @elder-plinius
+/scripts/verify-dependency-security.mjs @elder-plinius
+/scripts/verify-site-icons.mjs @elder-plinius
+/public/favicon.png @elder-plinius

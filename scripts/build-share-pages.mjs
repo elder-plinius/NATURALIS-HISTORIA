@@ -110,7 +110,8 @@ for (let index = 0; index < records.length; index += 1) {
   <title>${escapeHtml(shareTitle)}</title>
   <meta name="description" content="${escapeHtml(description)}">
   <link rel="canonical" href="${canonical}">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="400x400">
+  <link rel="apple-touch-icon" href="/favicon.png">
   <link rel="stylesheet" href="/reading-leaf.css?v=${readingCssRevision}">
   <script src="/reading-leaf.js?v=${readingJsRevision}" defer></script>
   <meta property="og:type" content="article">
