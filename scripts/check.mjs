@@ -23,6 +23,7 @@ const commands = [
   ['npm', ['run', 'test:search']],
   ['npm', ['run', 'test:release-packaging']],
   ['npm', ['run', 'test:release-security']],
+  ['npm', ['run', 'test:maintenance']],
   ['npm', ['run', 'build']],
   ['npm', ['run', 'test:release-manifest']],
 ];

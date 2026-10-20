@@ -121,8 +121,18 @@ fail(!nextCsp.includes('audio.naturalishistoria.org'), 'Launch CSP must not reta
 fail(/\/corpus\/manifest\.json[\s\S]*?Cache-Control: public, no-cache, must-revalidate/u.test(staticHeaders), 'Corpus manifest must revalidate.');
 
 const ci = read('.github/workflows/ci.yml');
-for (const required of ['permissions:\n  contents: read', 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1', 'persist-credentials: false', 'actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
+for (const required of ['permissions:\n  contents: read', 'persist-credentials: false', 'node-version: 22.13.0', '- run: npm ci', '- run: npm run check', '- run: npm run deploy:dry-run', '- run: npm run deploy:preview:dry-run', '- run: npm run deploy:workers-builds:dry-run', '- run: npm run deploy:workers-builds-preview:dry-run', '- run: npm audit --audit-level=high']) {
   fail(ci.includes(required), `CI is missing required control: ${required.replaceAll('\n', ' ')}.`);
+}
+
+// Require immutable pins without treating every reviewed action update as a regression.
+// The PR diff and CODEOWNERS review establish which upstream commit is trusted.
+const actionReferences = [...ci.matchAll(/^\s*(?:-\s+)?uses:\s*(\S+)(?:[ \t]+#.*)?$/gmu)].map((match) => match[1]);
+for (const action of ['actions/checkout', 'actions/setup-node']) {
+  fail(actionReferences.some((reference) => reference.startsWith(`${action}@`)), `CI is missing required action: ${action}.`);
+}
+for (const reference of actionReferences) {
+  fail(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_./-]+@[0-9a-f]{40}$/u.test(reference), `CI action must use a full immutable commit pin: ${reference}.`);
 }
 
 const dependabot = read('.github/dependabot.yml');

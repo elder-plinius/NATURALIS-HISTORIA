@@ -5,7 +5,9 @@ Thank you for helping make Pliny's work more accurate, legible, and alive.
 ## Before opening a pull request
 
 1. Create a focused branch from `main`.
-2. Install with `npm ci` and run `npm run check`.
+2. Install with `npm ci`. After intentional changes, run
+   `npm run release:refresh-manifest`, review the inventory diff, then run
+   `npm run check` and commit the updated manifest alongside the source changes.
 3. Keep generated outputs synchronized with their source files.
 4. Do not add credentials, private deployment IDs, unlicensed media, or
    provider-generated artifacts without provenance receipts.
@@ -32,3 +34,27 @@ keep the subject, alt text, caption, crop bounds, and continuity tests aligned.
 Changes under `corpus-source/`, `assets-source/`, `app/illustrations.mjs`,
 `edition-policy.json`, `wrangler.jsonc`, and `.github/` need maintainer review.
 Pull requests may be held until their evidence is complete.
+
+## Dependency maintenance
+
+Keep exact dependency versions and the lockfile synchronized. Update Cloudflare
+Wrangler, its Vite plugin, and worker types together when their peer requirements
+change; do not bypass peer conflicts with force or legacy install flags.
+
+GitHub Actions must retain full commit SHA pins. Review each new upstream commit
+and its release notes; version comments are for readers, not a trust boundary.
+The security verifier checks immutable pins and required controls instead of
+hard-coding an old action release.
+
+Run `npm run release:refresh-manifest` explicitly after intentional source or
+dependency changes. It updates the inventory without modifying the release
+profile. Review additions, removals, and hashes before committing; `npm run check`
+continues to reject a stale manifest and never repairs it automatically. If the
+build changes generated files, review those changes and refresh again. Finish
+with the full check, the four deployment dry runs from CI, and
+`npm audit --audit-level=high`.
+
+Public-repository builds verify and preserve the shipped illustration derivatives
+and encoder receipts. Updating Sharp must not re-encode reviewed plates during
+a deploy. Deliberate art regeneration belongs in a separately reviewed source
+release with synchronized provenance and no orphan derivatives.
