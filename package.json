@@ -63,7 +63,8 @@
     "test:public-release": "node scripts/verify-public-release.mjs",
     "audit:artwork-coverage": "node scripts/audit-artwork-coverage.mjs",
     "release:refresh-manifest": "node scripts/verify-release-manifest.mjs --write",
-    "test:maintenance": "node scripts/verify-maintenance.mjs"
+    "test:maintenance": "node scripts/verify-maintenance.mjs",
+    "test:macrons": "node scripts/verify-macrons.mjs"
   },
   "dependencies": {
     "next": "16.3.8",

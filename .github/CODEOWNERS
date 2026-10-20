@@ -20,3 +20,9 @@
 /scripts/package-release.mjs @elder-plinius
 /scripts/smoke-release-archive.mjs @elder-plinius
 /.github/ @elder-plinius
+
+/app/macrons.mjs @elder-plinius
+/app/MacronControl.tsx @elder-plinius
+/scripts/build-macrons.py @elder-plinius
+/scripts/verify-macrons.mjs @elder-plinius
+/public/macrons/ @elder-plinius

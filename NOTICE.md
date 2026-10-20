@@ -50,3 +50,18 @@ Redistributors should consult the license text packaged with each source ebook.
 Modern plates are editorial additions, never ancient artifacts. Generation
 model or image receipt, settings, rights holder, content hash, and human review
 status must be recorded before a media artifact is described as release-cleared.
+
+## Optional macron reading aid
+
+The optional lexicon at `public/macrons/lexicon.*.json` derives from Johan
+Winge's Latin Macronizer word analyses, copyright 2015–2023 Johan Winge:
+https://github.com/Alatius/latin-macronizer . The pinned commit, file SHA-256,
+method and corpus input hashes are recorded in
+`corpus-source/macrons/receipt.json`. Its dictionary subset retains the upstream
+GNU GPL v3 licence, reproduced in `corpus-source/macrons/LICENSE` and
+`public/macrons/LICENSE`. The project-authored generator and reader code use the
+root project licence. The source Latin remains under CC BY-SA 4.0.
+
+This layer adds only long-vowel positions shared by all supplied analyses.
+It is incomplete and has not been proofread as a contextual macronized edition.
+Unmarked vowels may be short, ambiguous, or absent from the dictionary.

@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 
 import { chapterIllustration } from './illustrations.mjs';
 import { InkInline, InkParagraphs } from './InkDiffusionText';
+import { MacronControl, useMacrons } from './MacronControl';
 import { requiredShardIds, searchPositionalIndex } from './search-index.mjs';
 import { findSearchRanges, normalizeSearchText, searchIsReady } from './search.mjs';
 import { SITE_NAME, SITE_ORIGIN } from './site-metadata';
@@ -432,10 +433,14 @@ const Passage = memo(function Passage({
   chapter,
   state,
   onDiffusionEnd,
+  latinText,
+  hasMacrons,
 }: {
   chapter: Chapter;
   state: DiffusionState;
   onDiffusionEnd: () => void;
+  latinText: string;
+  hasMacrons: boolean;
 }) {
   const handleAnimationEnd = (event: AnimationEvent<HTMLDivElement>) => {
     if (state === 'diffusing' && event.animationName === 'passage-gather') onDiffusionEnd();
@@ -444,8 +449,8 @@ const Passage = memo(function Passage({
   return (
     <div className={`passage-morph is-${state}`}>
       <div className="passage-layer passage-latin" lang="la" aria-hidden={state !== 'latin'}>
-        <span className="sr-only">Mayhoff Latin reading text</span>
-        <PassageCopy text={chapter.latin} language="la" />
+        <span className="sr-only">{hasMacrons ? 'Mayhoff Latin with partial dictionary macrons' : 'Mayhoff Latin reading text'}</span>
+        <PassageCopy text={latinText} language="la" />
       </div>
       <div
         className="passage-layer passage-english"
@@ -478,6 +483,7 @@ function Highlight({ text, query }: { text: string; query: string }) {
 }
 
 export default function Home() {
+  const macrons = useMacrons();
   const router = useRouter();
   const [manifest, setManifest] = useState<Manifest | null>(null);
   const [activeBook, setActiveBook] = useState<BookData | null>(null);
@@ -987,7 +993,7 @@ export default function Home() {
       updatePassageProgress(scroll);
     }
     pendingSearchLandingRef.current = null;
-  }, [activeLocation, diffusionState, focusMode, updatePassageProgress]);
+  }, [activeLocation, diffusionState, focusMode, macrons.enabled, updatePassageProgress]);
 
   useEffect(() => () => {
     if (searchLandingTimerRef.current) window.clearTimeout(searchLandingTimerRef.current);
@@ -1482,9 +1488,17 @@ export default function Home() {
             </header>
             <div className="text-panel">
               <h2 className="chapter-heading">
-                <MorphText latin={chapter.latinTitle || chapter.label.toUpperCase()} english={chapter.title} state={diffusionState} />
+                <MorphText latin={macrons.annotate(chapter.latinTitle || chapter.label.toUpperCase())} english={chapter.title} state={diffusionState} />
               </h2>
               <div className="chapter-ornament" aria-hidden="true"><span />✦<span /></div>
+              <MacronControl control={macrons} onToggle={() => {
+                capturePassageProgress();
+                if (!macrons.enabled) {
+                  translationModeRef.current = 'la';
+                  setTranslationMode('la');
+                  setDiffusionState('latin');
+                }
+              }} />
               <div className={`passage-frame is-${diffusionState}`}>
                 <div
                   className="passage-scroll"
@@ -1493,7 +1507,7 @@ export default function Home() {
                   onScroll={(event) => updatePassageProgress(event.currentTarget)}
                   aria-label={diffusionState === 'latin' ? 'Mayhoff Latin reading text' : 'Bostock and Riley English translation'}
                 >
-                  <Passage chapter={chapter} state={diffusionState} onDiffusionEnd={finishDiffusion} />
+                  <Passage chapter={chapter} state={diffusionState} onDiffusionEnd={finishDiffusion} latinText={macrons.annotate(chapter.latin)} hasMacrons={macrons.enabled} />
                 </div>
                 <span className="ink-vapor" aria-hidden="true" />
                 <span className="passage-progress" ref={passageProgressRef} aria-hidden="true"><i /></span>

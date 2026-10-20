@@ -21,6 +21,7 @@ const commands = [
   ['npm', ['run', 'test:reader-effects']],
   ['npm', ['run', 'test:afterword']],
   ['npm', ['run', 'test:search']],
+  ['npm', ['run', 'test:macrons']],
   ['npm', ['run', 'test:release-packaging']],
   ['npm', ['run', 'test:release-security']],
   ['npm', ['run', 'test:maintenance']],
