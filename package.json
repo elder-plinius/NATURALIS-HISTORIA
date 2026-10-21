@@ -69,7 +69,7 @@
     "test:site-icons": "node scripts/verify-site-icons.mjs"
   },
   "dependencies": {
-    "next": "16.3.8",
+    "next": "16.4.2",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
