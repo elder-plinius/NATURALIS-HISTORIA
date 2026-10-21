@@ -71,14 +71,14 @@
   "dependencies": {
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.64.0",
     "@cloudflare/workers-types": "5.20261019.1",
     "@types/node": "22.20.1",
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.5",
+    "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.1.1",
     "@vitejs/plugin-rsc": "0.5.34",
     "braces": "file:vendor/braces",
