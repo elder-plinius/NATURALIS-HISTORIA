@@ -1,12 +1,13 @@
 'use client';
 
-import { useCallback, useEffect, useId, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { addDictionaryMacrons, validateMacronLexicon } from './macrons.mjs';
 import receipt from '../corpus-source/macrons/receipt.json';
 
 let cachedEntries: Record<string, number[]> | null = null;
 
 export function useMacrons() {
+  const [requested, setRequested] = useState(false);
   const [enabled, setEnabled] = useState(false);
   const [entries, setEntries] = useState<Record<string, number[]> | null>(null);
   const [loading, setLoading] = useState(false);
@@ -14,9 +15,13 @@ export function useMacrons() {
   const controllerRef = useRef<AbortController | null>(null);
   useEffect(() => () => { controllerRef.current?.abort(); controllerRef.current = null; }, []);
 
-  const toggle = useCallback(async () => {
-    if (loading) return;
-    if (enabled) { setEnabled(false); return; }
+  const select = useCallback(async (requested: boolean) => {
+    controllerRef.current?.abort();
+    controllerRef.current = null;
+    setRequested(requested);
+    setLoading(false);
+    setEnabled(false);
+    if (!requested) { setError(''); return; }
     setError('');
     if (cachedEntries) { setEntries(cachedEntries); setEnabled(true); return; }
     const controller = new AbortController();
@@ -32,7 +37,7 @@ export function useMacrons() {
       const hash = Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('');
       if (hash !== receipt.lexicon.sha256) throw new Error('Macron lexicon integrity check failed.');
       const parsed = validateMacronLexicon(JSON.parse(new TextDecoder().decode(bytes)));
-      if (controller.signal.aborted) return;
+      if (controller.signal.aborted || controllerRef.current !== controller) return;
       cachedEntries = parsed;
       setEntries(parsed);
       setEnabled(true);
@@ -42,26 +47,8 @@ export function useMacrons() {
       window.clearTimeout(timeout);
       if (controllerRef.current === controller) setLoading(false);
     }
-  }, [enabled, loading]);
+  }, []);
 
   const annotate = useCallback((text: string) => enabled ? addDictionaryMacrons(text, entries) : text, [enabled, entries]);
-  return { enabled, loading, error, toggle, annotate };
-}
-
-export function MacronControl({ control, onToggle }: {
-  control: ReturnType<typeof useMacrons>;
-  onToggle?: () => void;
-}) {
-  const noteId = useId();
-  return (
-    <div className="macron-tools">
-      <button type="button" className="macron-toggle" aria-pressed={control.enabled} aria-label={control.enabled ? 'Turn off Latin macrons' : 'Show Latin with dictionary macrons'} aria-describedby={noteId}
-        disabled={control.loading} onClick={() => { onToggle?.(); void control.toggle(); }}>
-        {control.loading ? 'Loading macrons…' : control.enabled ? 'Macrons on' : 'Macrons off'}
-      </button>
-      <span id={noteId} className="macron-note" role="status">
-        {control.error || (control.enabled ? <>Partial dictionary aid; uncertain vowels unmarked. <a href="/edition#macrons">About</a></> : 'Optional Latin reading aid')}
-      </span>
-    </div>
-  );
+  return { requested, enabled, loading, error, select, annotate };
 }

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 
 import { InkParagraphs } from '../../InkDiffusionText';
-import { MacronControl, useMacrons } from '../../MacronControl';
+import { useMacrons } from '../../MacronControl';
 import { VESUVIUS_FOLIO_SOURCES } from './generated-folio-sources.mjs';
 
 type Folio = {
@@ -160,7 +160,9 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
     }
   };
 
-  const selectLanguageMode = (mode: LanguageMode) => {
+  const selectLanguageMode = (selection: LanguageMode | 'la-macrons') => {
+    const mode = selection === 'la-macrons' ? 'la' : selection;
+    void macrons.select(selection === 'la-macrons');
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     setLanguageMode(mode);
     if (mode === 'en') {
@@ -231,15 +233,15 @@ export default function VesuviusAfterword({ data }: { data: LettersData }) {
               </header>
 
               <div className="afterword-language-controls" role="group" aria-label="Reading language">
-                {(['auto', 'la', 'en'] as const).map((mode) => (
-                  <button type="button" className={languageMode === mode ? 'active' : ''} aria-pressed={languageMode === mode} onClick={() => selectLanguageMode(mode)} key={mode}>
-                    {mode === 'auto' ? 'Latin → English' : mode === 'la' ? 'Latin' : 'English'}
+                {(['auto', 'la', 'la-macrons', 'en'] as const).map((mode) => (
+                  <button type="button" className={(macrons.requested && languageMode === 'la' ? 'la-macrons' : languageMode) === mode ? 'active' : ''} aria-pressed={(macrons.requested && languageMode === 'la' ? 'la-macrons' : languageMode) === mode} onClick={() => selectLanguageMode(mode)} key={mode}>
+                    {mode === 'auto' ? 'Latin → English' : mode === 'la' ? 'Latin' : mode === 'la-macrons' ? 'Latin with macrons' : 'English'}
                   </button>
                 ))}
-                <span aria-live="polite">{diffusionPhase === 'diffusing' ? 'Ink translating…' : activeLanguage === 'la' ? macrons.enabled ? 'Latin · partial dictionary macrons' : 'Original Latin' : 'Melmoth translation'}</span>
+                <span role="status" aria-live="polite">{macrons.loading ? 'Loading macrons…' : macrons.error || (diffusionPhase === 'diffusing' ? 'Ink translating…' : activeLanguage === 'la' ? macrons.enabled ? 'Latin · partial dictionary macrons' : 'Original Latin' : 'Melmoth translation')}</span>
+                {macrons.error && <button type="button" onClick={() => { void macrons.select(true); }}>Retry macrons</button>}
               </div>
 
-              <MacronControl control={macrons} onToggle={() => { if (!macrons.enabled) selectLanguageMode('la'); }} />
               <div
                 ref={passageRef}
                 className={`afterword-passage phase-${diffusionPhase}`}
